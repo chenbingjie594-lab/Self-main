@@ -1,0 +1,62 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+conda_env/
+
+# =========================
+# Model weights
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# =========================
+# Training outputs
+# =========================
+runs/
+outputs/
+output/
+work_dirs/
+checkpoints/
+logs/
+
+# =========================
+# Dataset
+# =========================
+datasets/
+dataset/
+data/
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Generated results
+results/
+tmp/
+
+# Local pretrained model
+sd2-community/
+model/

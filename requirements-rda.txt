@@ -1,0 +1,16 @@
+# Install a CUDA-matched torch/torchvision build separately before this file.
+# Do not install PyPI diffusers: this repository contains the modified package.
+accelerate==1.2.1
+transformers==4.46.3
+huggingface-hub==0.26.5
+safetensors==0.4.5
+numpy==1.26.4
+Pillow==11.0.0
+opencv-python-headless==4.10.0.84
+scipy==1.13.1
+lpips==0.1.4
+ftfy==6.3.1
+tensorboard==2.18.0
+Jinja2==3.1.4
+tqdm==4.67.1
+packaging==24.2

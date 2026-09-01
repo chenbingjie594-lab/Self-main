@@ -1,0 +1,32 @@
+{
+  "format_version": 4,
+  "frozen": true,
+  "experiment_name": "sd2_2000_s42_rda_v4",
+  "pipeline_mode": "custom",
+  "seed": 42,
+  "device": "cuda",
+  "dtype": "float16",
+  "prompt": "a photo of a sks defect",
+  "negative_prompt": null,
+  "num_inference_steps": 50,
+  "guidance_scale": 7.5,
+  "blur_factor": 0,
+  "normal_filter": {
+    "enabled": true,
+    "black_threshold": 20,
+    "min_mean_luminance": 30.0,
+    "min_nonblack_ratio": 0.60
+  },
+  "modules": {
+    "prompt_perturbation": {"enabled": false, "noise_scale": 0.0},
+    "spatial_guidance": {"enabled": false},
+    "cama": {"enabled": false},
+    "ddim_noise": {"enabled": false},
+    "mdap": {"enabled": false},
+    "rda": {
+      "enabled": true,
+      "root": "./model/rda_v4_sd2_2000_s42",
+      "filename": "rda.pt"
+    }
+  }
+}

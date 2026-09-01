@@ -1,0 +1,18 @@
+nohup env CUDA_VISIBLE_DEVICES=2 bash -c '
+set -e
+
+for seed in 42 3407 7859 12011 15683 19997 24571 30103; do
+  echo "[MSDF] seed=${seed}"
+
+  python inference.py \
+    --config configs/msdf.json \
+    --seed "${seed}" \
+    --model_ckpt_root ./model/msdf_v3_sd2_2000_s42 \
+    --ddim_scheduler_root ./scheduler \
+    --categories Plastic_Bomo \
+    --dataset_type mvtec \
+    --base_dir /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+    --output_name "results/dasr_pool_seed${seed}" \
+    > "logs/msdf_seed${seed}.log" 2>&1
+done
+' > logs/generate_all.log 2>&1 &

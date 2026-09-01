@@ -1,0 +1,24 @@
+{
+  "experiment_name": "magic_all",
+  "pipeline_mode": "custom",
+  "seed": 42,
+  "device": "cuda",
+  "dtype": "float16",
+  "prompt": "a photo of a sks defect",
+  "num_inference_steps": 50,
+  "guidance_scale": 7.5,
+  "modules": {
+    "prompt_perturbation": {"enabled": true, "noise_scale": 1.0},
+    "spatial_guidance": {
+      "enabled": true,
+      "inside": 4.0,
+      "outside": 7.5,
+      "use_schedule": true,
+      "schedule": "cosine",
+      "minimum": 4.0,
+      "maximum": 7.5
+    },
+    "cama": {"enabled": true},
+    "ddim_noise": {"enabled": false}
+  }
+}
