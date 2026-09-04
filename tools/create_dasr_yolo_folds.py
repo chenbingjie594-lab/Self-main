@@ -46,6 +46,16 @@ def main():
 
     image_root = args.real_root / "images" / "train"
     label_root = args.real_root / "labels" / "train"
+    if not image_root.is_dir():
+        raise FileNotFoundError(
+            f"Real YOLO train image directory does not exist: {image_root}. "
+            "Pass --real_root as the directory containing images/train and labels/train."
+        )
+    if not label_root.is_dir():
+        raise FileNotFoundError(
+            f"Real YOLO train label directory does not exist: {label_root}. "
+            "Pass --real_root as the directory containing images/train and labels/train."
+        )
     images = sorted(path for path in image_root.iterdir() if path.suffix.lower() in SUFFIXES)
     groups = defaultdict(list)
     for image in images:

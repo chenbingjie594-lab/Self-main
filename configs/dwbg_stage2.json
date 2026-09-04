@@ -1,0 +1,17 @@
+{
+  "flash": {
+    "flash_conf_low": 0.10,
+    "flash_conf_high": 0.45,
+    "min_iou": 0.50,
+    "weights": {"boundary": 0.50, "scale": 0.25, "contrast": 0.125, "morphology": 0.125},
+    "marginal_quotas": {"scale": {"large": 0.45}, "contrast": {"high": 0.30}, "morphology": {"compact": 0.30}}
+  },
+  "black": {
+    "min_iou": 0.25,
+    "difficulty_target": 0.35,
+    "difficulty_sigma": 0.25,
+    "weights": {"scale": 0.30, "contrast": 0.35, "morphology": 0.25, "detector_difficulty": 0.10},
+    "marginal_quotas": {"scale": {"tiny": 0.45}, "contrast": {"low": 0.45}, "morphology": {"elongated": 0.35}}
+  },
+  "selection": {"quota_bonus": 0.40, "source_diversity_bonus": 0.12, "seed_diversity_bonus": 0.06, "geometry_diversity_bonus": 0.08}
+}
