@@ -1,0 +1,70 @@
+{
+  "DWBG-v2": {
+    "Flash point": {
+      "candidate_pool": 488,
+      "manifold_rejected": 45,
+      "boundary_rejected": 382,
+      "hard_selected": 28,
+      "anchor_selected": 12,
+      "fallback_reason": null,
+      "median_confidence": 0.20565853267908096,
+      "median_iou": 0.5534391403198242,
+      "median_manifold_distance": 0.3049673481861257,
+      "std_confidence": 0.08831750524695962,
+      "scale": {
+        "large": 17,
+        "tiny": 10,
+        "medium": 13
+      },
+      "contrast": {
+        "high": 14,
+        "low": 20,
+        "medium": 6
+      },
+      "morphology": {
+        "compact": 15,
+        "elongated": 19,
+        "medium": 6
+      }
+    },
+    "Big black spots": {
+      "candidate_pool": 175,
+      "manifold_rejected": 2,
+      "boundary_rejected": 69,
+      "hard_selected": 28,
+      "anchor_selected": 12,
+      "fallback_reason": null,
+      "median_confidence": 0.171515092253685,
+      "median_iou": 0.4833589643239975,
+      "median_manifold_distance": 0.35724765444822637,
+      "std_confidence": 0.07169983180938289,
+      "scale": {
+        "tiny": 17,
+        "large": 8,
+        "medium": 15
+      },
+      "contrast": {
+        "high": 24,
+        "low": 8,
+        "medium": 8
+      },
+      "morphology": {
+        "elongated": 24,
+        "compact": 9,
+        "medium": 7
+      }
+    }
+  },
+  "hard_anchor_ratio": {
+    "hard": 56,
+    "anchor": 24
+  },
+  "DWBG-v1": {
+    "Flash": {
+      "count": 40
+    },
+    "Black": {
+      "count": 40
+    }
+  }
+}

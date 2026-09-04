@@ -1,0 +1,965 @@
+{
+  "fold": 1,
+  "weights": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_rebuild/fold_1_s42/weights/best.pt",
+  "images": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train",
+  "records": [
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1013_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1435.998208,
+        1010.000384,
+        1456.9984,
+        1023.000064
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1016_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        2844.0002560000003,
+        22.000128,
+        2859.999232,
+        34.999808
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1020_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3589.0012159999997,
+        70.00012799999999,
+        3605.999616,
+        82.000384
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1022_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3070.998528,
+        920.0,
+        3093.997568,
+        939.0003200000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1023_pre_part_0.jpg",
+      "class_id": 1,
+      "bbox": [
+        3158.9990399999997,
+        511.000064,
+        3173.998592,
+        523.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1099_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1147.998208,
+        351.00006399999995,
+        1176.9978879999999,
+        377.000448
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1113_pre_part_0.jpg",
+      "class_id": 1,
+      "bbox": [
+        3417.9993600000003,
+        679.000064,
+        3438.000128,
+        696.999936
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1113_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        906.999808,
+        448.99942400000003,
+        929.998848,
+        469.999616
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_11478_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        577.9988480000001,
+        603.00032,
+        606.998528,
+        637.0001920000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_12185_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1440.0,
+        506.00038400000005,
+        1474.000896,
+        538.000384
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1333_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1937.9978239999998,
+        484.000256,
+        1964.998656,
+        510.00064000000003
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_13538_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1596.000256,
+        257.999872,
+        1617.000448,
+        275.00032
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_13734_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        295.000064,
+        552.999424,
+        330.000384,
+        585.999872
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1474_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1701.998592,
+        425.000448,
+        1727.000576,
+        452.00025600000004
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_15034_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2094.000128,
+        549.0007039999999,
+        2129.999872,
+        587.00032
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1505_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        2069.999616,
+        593.9998720000001,
+        2083.9997439999997,
+        608.0
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1505_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1907.99872,
+        745.000448,
+        1920.999424,
+        754.0003839999999
+      ],
+      "instance_index": 1
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1505_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1549.000704,
+        440.0,
+        1563.0008320000002,
+        452.99968
+      ],
+      "instance_index": 2
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1515_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        3155.0013440000002,
+        511.99948799999993,
+        3169.001472,
+        523.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_15170_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3714.000896,
+        795.999744,
+        3750.0006399999997,
+        822.999552
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_15545_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3268.999168,
+        314.999808,
+        3292.997632,
+        339.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1572_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1111.998464,
+        372.000256,
+        1141.997568,
+        399.000064
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_15890_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3841.998848,
+        641.999872,
+        3886.997504,
+        677.0001920000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_15996_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1034.002432,
+        526.000128,
+        1066.0003840000002,
+        558.000128
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_16161_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        2136.00256,
+        61.000704,
+        2152.0015359999998,
+        76.000256
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_16442_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        257.001472,
+        597.000192,
+        295.999488,
+        632.0005120000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_17204_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2869.000192,
+        537.999872,
+        2890.0003840000004,
+        564.99968
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1797_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3895.001088,
+        404.99968,
+        3923.0013440000002,
+        424.999424
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_18290_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3836.9996800000004,
+        616.999936,
+        3884.00128,
+        663.000064
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_1944_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        986.0014080000001,
+        395.99974399999996,
+        1017.99936,
+        425.999872
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2028_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        3083.997184,
+        169.99987199999998,
+        3108.9991680000003,
+        192.999936
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2034_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3338.000384,
+        536.0,
+        3360.9994239999996,
+        562.999808
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2037_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3171.0003199999996,
+        618.0003839999999,
+        3199.000576,
+        646.00064
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2072_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3040.997376,
+        600.0005120000001,
+        3066.998784,
+        625.000448
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_20948_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        914.999296,
+        583.0005759999999,
+        949.000192,
+        617.000448
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_21637_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2436.999168,
+        690.0003839999999,
+        2460.997632,
+        713.000448
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2195_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1790.998528,
+        784.9999359999999,
+        1810.999296,
+        804.000256
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2201_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3029.9996159999996,
+        654.00064,
+        3055.0016,
+        674.0003839999999
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2248_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        972.0012800000001,
+        655.000064,
+        1001.00096,
+        681.999872
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2273_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        2076.000256,
+        413.999616,
+        2102.001664,
+        436.99967999999996
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_23459_pre_part_0.jpg",
+      "class_id": 1,
+      "bbox": [
+        3440.001024,
+        938.999808,
+        3466.002432,
+        963.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_24425_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3169.001472,
+        668.99968,
+        3196.0023039999996,
+        693.0001920000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_24459_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3100.99968,
+        606.000128,
+        3130.9987840000003,
+        634.9998079999999
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_24729_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2137.001984,
+        329.000448,
+        2166.001664,
+        360.0
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2500_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1756.997632,
+        648.999424,
+        1789.999104,
+        681.999872
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2871_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        853.0001920000001,
+        501.00070400000004,
+        884.998144,
+        532.000256
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_2900_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2887.000064,
+        496.0,
+        2915.00032,
+        524.000256
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3040_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2229.000192,
+        458.00038400000005,
+        2249.00096,
+        480.0
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3207_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        539.00288,
+        459.999744,
+        578.000896,
+        493.999616
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3292_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3123.001344,
+        797.9996160000001,
+        3146.999808,
+        824.0
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3441_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3074.0029440000003,
+        631.0000640000001,
+        3106.000896,
+        659.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3523_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3105.001472,
+        648.999936,
+        3134.001152,
+        673.999872
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3539_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        2126.997504,
+        930.999808,
+        2145.998848,
+        950.999552
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_3626_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2042.9987840000001,
+        409.99987200000004,
+        2070.99904,
+        432.999936
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_4108_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        287.00057599999997,
+        690.0003839999999,
+        324.999168,
+        728.0
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_4321_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1822.001152,
+        572.99968,
+        1841.0024959999998,
+        590.000128
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_4462_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        3064.997888,
+        743.9994879999999,
+        3085.9980800000003,
+        771.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_4515_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3130.001408,
+        923.999744,
+        3153.9998720000003,
+        950.999552
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_460_pre_part_0.jpg",
+      "class_id": 1,
+      "bbox": [
+        4007.000064,
+        564.0002559999999,
+        4028.99968,
+        583.000576
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_4937_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2166.001664,
+        431.999488,
+        2195.001344,
+        464.999936
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_5107_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        286.001152,
+        535.000064,
+        322.00089599999995,
+        570.000384
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_525_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1738.000384,
+        635.999744,
+        1759.000576,
+        655.0000640000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_6075_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        471.001088,
+        523.00032,
+        506.00140799999997,
+        549.0007039999999
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_639_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1090.998272,
+        941.000192,
+        1116.000256,
+        964.000256
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_6576_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        85.000192,
+        312.999424,
+        115.99871999999999,
+        342.999552
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_6648_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2445.000704,
+        253.00019199999997,
+        2475.999232,
+        283.00032
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_6811_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1839.0016,
+        726.0006400000001,
+        1870.0001280000001,
+        755.00032
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_8297_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1863.9994880000002,
+        272.999936,
+        1892.999168,
+        299.999744
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_8308_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2962.00192,
+        495.999488,
+        2993.999872,
+        525.999616
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_8747_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        2980.999168,
+        1.0004479999999996,
+        3010.9982720000003,
+        16.0
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_9399_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        184.000512,
+        578.999808,
+        241.999872,
+        623.0000640000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_9399_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        1407.000576,
+        990.999552,
+        1436.99968,
+        1018.999808
+      ],
+      "instance_index": 1
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_9438_pre_part_0.jpg",
+      "class_id": 0,
+      "bbox": [
+        3253.000192,
+        608.999936,
+        3302.0006399999997,
+        653.999616
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_9504_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2106.998784,
+        335.000064,
+        2137.997312,
+        365.000192
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_9509_pre_part_0.jpg",
+      "class_id": 1,
+      "bbox": [
+        4058.9987840000003,
+        432.0,
+        4094.998528,
+        467.00032
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_970_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        2861.000704,
+        620.99968,
+        2883.9997439999997,
+        645.0001920000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_9730_pre_part_1.jpg",
+      "class_id": 0,
+      "bbox": [
+        1135.998976,
+        521.999872,
+        1173.997568,
+        555.9997440000001
+      ],
+      "instance_index": 0
+    },
+    {
+      "image": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42/fold_1/images/train/img_995_pre_part_1.jpg",
+      "class_id": 1,
+      "bbox": [
+        68.001792,
+        182.000128,
+        99.99974399999999,
+        226.999808
+      ],
+      "instance_index": 0
+    }
+  ],
+  "references": {
+    "0": {
+      "real_real_distances": [
+        0.09782867133617401,
+        0.12278591096401215,
+        0.02672663889825344,
+        0.029685378074645996,
+        0.0209161639213562,
+        0.024812866002321243,
+        0.019739199429750443,
+        0.021697115153074265,
+        0.022977804765105247,
+        0.02397869899868965,
+        0.013820553198456764,
+        0.0626067966222763,
+        0.020106613636016846,
+        0.04978588968515396,
+        0.07361757755279541,
+        0.03951767832040787,
+        0.02509000338613987,
+        0.033677197992801666,
+        0.12582840025424957,
+        0.0654686838388443,
+        0.02235358953475952,
+        0.08389879763126373,
+        0.02882610633969307,
+        0.018299972638487816,
+        0.028909265995025635,
+        0.035606514662504196,
+        0.03977736085653305,
+        0.025364529341459274,
+        0.0192803256213665,
+        0.020204460248351097,
+        0.019127916544675827,
+        0.021191585808992386,
+        0.016142655164003372,
+        0.03188183158636093,
+        0.05281703546643257,
+        0.025402093306183815,
+        0.019021784886717796,
+        0.017114650458097458,
+        0.016445541754364967,
+        0.026289427652955055,
+        0.08155262470245361,
+        0.014535141177475452,
+        0.08080687373876572,
+        0.028683174401521683,
+        0.023047804832458496,
+        0.01859416998922825,
+        0.06506158411502838,
+        0.023130644112825394,
+        0.0983026772737503,
+        0.0947350263595581,
+        0.02249675989151001,
+        0.0148429274559021,
+        0.016879355534911156,
+        0.06344421207904816,
+        0.022125709801912308,
+        0.02631247043609619,
+        0.02845703437924385
+      ],
+      "median_real_distance": 0.025402093306183815,
+      "q90_real_distance": 0.08249108493328094,
+      "q95_real_distance": 0.09792347252368927,
+      "threshold_real_distance": 0.09792347252368927,
+      "quantile": 0.95,
+      "k": 5
+    },
+    "1": {
+      "real_real_distances": [
+        0.10064885765314102,
+        0.1617845594882965,
+        0.04662247747182846,
+        0.06324678659439087,
+        0.20089538395404816,
+        0.14717301726341248,
+        0.12920179963111877,
+        0.05247167497873306,
+        0.10572419315576553,
+        0.03434169292449951,
+        0.05448368936777115,
+        0.04999852180480957,
+        0.04527735710144043,
+        0.08578525483608246,
+        0.04941455274820328,
+        0.11023666709661484,
+        0.08333126455545425,
+        0.3461197018623352,
+        0.14339587092399597,
+        0.28101855516433716,
+        0.1639632135629654
+      ],
+      "median_real_distance": 0.10064885765314102,
+      "q90_real_distance": 0.20089538395404816,
+      "q95_real_distance": 0.28101855516433716,
+      "threshold_real_distance": 0.28101855516433716,
+      "quantile": 0.95,
+      "k": 5
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "source": "real_training_only",
+  "folds": [
+    {
+      "fold": 0,
+      "bank": "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_s42/feature_banks/real_feature_bank_fold0.npz",
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_s42/feature_banks/real_feature_bank_fold0_metadata.json",
+      "counts": {
+        "0": 59,
+        "1": 21
+      }
+    },
+    {
+      "fold": 1,
+      "bank": "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_s42/feature_banks/real_feature_bank_fold1.npz",
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_s42/feature_banks/real_feature_bank_fold1_metadata.json",
+      "counts": {
+        "0": 57,
+        "1": 21
+      }
+    },
+    {
+      "fold": 2,
+      "bank": "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_s42/feature_banks/real_feature_bank_fold2.npz",
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_s42/feature_banks/real_feature_bank_fold2_metadata.json",
+      "counts": {
+        "0": 60,
+        "1": 18
+      }
+    }
+  ]
+}

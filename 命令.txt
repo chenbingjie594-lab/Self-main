@@ -1,95 +1,65 @@
 nohup bash -c '
 set -euo pipefail
 
-YOL=/mnt/sda/cbj/miniconda3/envs/yolo11/bin
+PY=/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python
 REAL=/mnt/sda/cbj/dataset/Plastic_Bomo/GLRR_DWBG_40_40_s42/real_only
 OOF=/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_rebuild_s42
-RUNS=/mnt/sda/cbj/ImageGeneration/Self-main/runs
+RUNS=/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_rebuild
 PROFILE=results/dwbg/dwbg_weakness_rebuild_s42.json
-POOL=results/dwbg/stage2/candidate_pool_rebuild_s42
-SCORED=results/dwbg/stage2/scored_candidates_rebuild_s42.json
-FINAL=/mnt/sda/cbj/dataset/Plastic_Bomo/GLRR_DWBG_40_40_rebuild_s42
-BG=/mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train/Plastic_Bomo/train/good
+V1_SCORED=results/dwbg/stage2/scored_candidates_rebuild_s42.json
+V1_MANIFEST=/mnt/sda/cbj/dataset/Plastic_Bomo/GLRR_DWBG_40_40_s42/dwbg_manifest.json
 
-echo "[1/6] Build OOF folds"
-$YOL/python tools/create_dasr_yolo_folds.py \
-  --real_root "$REAL" \
-  --output "$OOF" \
-  --folds 3 \
-  --seed 42
+V2_DIR=results/dwbg/v2/fixed_s42
+BANK_DIR=$V2_DIR/feature_banks
+V2_SCORED=$V2_DIR/scored_candidates_v2_s42.json
+V2_DATA=/mnt/sda/cbj/dataset/Plastic_Bomo/GLRR_DWBG_v2_40_40_fixed_s42
 
-echo "[2/6] Train 3 OOF detectors"
-for fold in 0 1 2; do
-  $YOL/yolo detect train \
-    model=pretrained/yolo11s.pt \
-    data="$OOF/fold_${fold}.yaml" \
-    epochs=150 imgsz=1024 batch=1 rect=False \
-    device=3 workers=4 seed=42 deterministic=True patience=40 \
-    project="$RUNS/dwbg_oof_rebuild" \
-    name="fold_${fold}_s42" \
-    exist_ok=False \
-    > "logs/dwbg/oof_fold_${fold}.log" 2>&1
-done
-
-echo "[3/6] Profile detector weaknesses"
-$YOL/python tools/profile_dwbg_weakness.py \
-  --fold "$OOF/fold_0/images/val" "$OOF/fold_0/labels/val" "$RUNS/dwbg_oof_rebuild/fold_0_s42/weights/best.pt" \
-  --fold "$OOF/fold_1/images/val" "$OOF/fold_1/labels/val" "$RUNS/dwbg_oof_rebuild/fold_1_s42/weights/best.pt" \
-  --fold "$OOF/fold_2/images/val" "$OOF/fold_2/labels/val" "$RUNS/dwbg_oof_rebuild/fold_2_s42/weights/best.pt" \
-  --output "$PROFILE" \
+echo "[1/3] Build detector-specific real feature banks"
+$PY tools/build_dwbg_real_feature_bank.py \
+  --fold "$OOF/fold_0/images/train" \
+         "$OOF/fold_0/labels/train" \
+         "$RUNS/fold_0_s42/weights/best.pt" \
+  --fold "$OOF/fold_1/images/train" \
+         "$OOF/fold_1/labels/train" \
+         "$RUNS/fold_1_s42/weights/best.pt" \
+  --fold "$OOF/fold_2/images/train" \
+         "$OOF/fold_2/labels/train" \
+         "$RUNS/fold_2_s42/weights/best.pt" \
+  --output_dir "$BANK_DIR" \
   --device 3 \
-  --imgsz 1024
+  --imgsz 1536 \
+  --k 5 \
+  --quantile 0.95
 
-echo "[4/6] Build and score MSDF candidate pool"
-GEN_ARGS=()
-for seed in 42 3407 7859 12011 15683 19997 24571 30103; do
-  GEN_ARGS+=(--generated_root "results/dwbg_pool_seed${seed}" "$seed")
-done
-
-$YOL/python tools/build_dwbg_candidates.py \
-  --profile "$PROFILE" \
-  --real_root "$REAL" \
-  --background_dir "$BG" \
-  "${GEN_ARGS[@]}" \
-  --num_seeds 8 \
-  --output "$POOL" \
-  --seed 42
-
-$YOL/python tools/score_dwbg_candidates.py \
-  --candidates "$POOL/candidates.json" \
-  --detector 0 "$RUNS/dwbg_oof_rebuild/fold_0_s42/weights/best.pt" \
-  --detector 1 "$RUNS/dwbg_oof_rebuild/fold_1_s42/weights/best.pt" \
-  --detector 2 "$RUNS/dwbg_oof_rebuild/fold_2_s42/weights/best.pt" \
-  --output "$SCORED" \
+echo "[2/3] Add real-manifold and consensus scores"
+$PY tools/score_dwbg_candidates_v2.py \
+  --scored_candidates "$V1_SCORED" \
+  --bank "$BANK_DIR/real_feature_bank_fold0.npz" \
+         "$BANK_DIR/real_feature_bank_fold0_metadata.json" \
+         "$RUNS/fold_0_s42/weights/best.pt" \
+  --bank "$BANK_DIR/real_feature_bank_fold1.npz" \
+         "$BANK_DIR/real_feature_bank_fold1_metadata.json" \
+         "$RUNS/fold_1_s42/weights/best.pt" \
+  --bank "$BANK_DIR/real_feature_bank_fold2.npz" \
+         "$BANK_DIR/real_feature_bank_fold2_metadata.json" \
+         "$RUNS/fold_2_s42/weights/best.pt" \
+  --config configs/dwbg_v2.json \
+  --output "$V2_SCORED" \
   --device 3 \
-  --imgsz 1024 \
-  --confidence 0.001 \
-  --match_iou 0.50 \
-  --match_confidence 0.25
+  --imgsz 1536
 
-echo "[5/6] Build matched downstream datasets"
-$YOL/python tools/select_dwbg_candidates.py \
+echo "[3/3] Build Real + DWBG-v2 40+40 dataset"
+$PY tools/select_dwbg_candidates_v2.py \
   --real_root "$REAL" \
   --profile "$PROFILE" \
-  --scored_candidates "$SCORED" \
-  --config configs/dwbg_stage2.json \
-  --output_root "$FINAL" \
+  --scored_candidates "$V2_SCORED" \
+  --config configs/dwbg_v2.json \
+  --v1_manifest "$V1_MANIFEST" \
+  --output_root "$V2_DATA" \
+  --output_dir "$V2_DIR" \
   --flash_count 40 \
   --black_count 40 \
   --seed 42
 
-echo "[6/6] Train final Real-only / Random / DWBG detectors"
-for group in real_only real_random real_dwbg; do
-  $YOL/yolo detect train \
-    model=pretrained/yolo11s.pt \
-    data="$FINAL/${group}.yaml" \
-    epochs=150 imgsz=1536 batch=1 rect=False \
-    device=3 workers=4 seed=42 deterministic=True patience=40 \
-    project="$RUNS/dwbg_final_rebuild_40_40" \
-    name="${group}_s42" \
-    exist_ok=False \
-    > "logs/dwbg/final_${group}.log" 2>&1
-done
-
-echo "DWBG rebuild complete."
-' > logs/dwbg/rebuild_all_s42.log 2>&1 &
+echo "DWBG-v2 build complete."
+' > logs/dwbg/dwbg_v2_fixed_s42.log 2>&1 &
