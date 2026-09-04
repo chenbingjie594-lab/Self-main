@@ -40,7 +40,7 @@ class DetectInputExtractor:
         import torch.nn.functional as F
         self.features = None
         self.model.predict(source=str(image_path), imgsz=self.imgsz, device=self.device,
-                           conf=0.001, verbose=False, stream=False)
+                           conf=0.001, rect=False, verbose=False, stream=False)
         if not self.features or len(self.features) != 3:
             raise RuntimeError("Detect pre-hook did not capture three feature maps")
         # Ultralytics letterboxes the source into a square imgsz canvas before

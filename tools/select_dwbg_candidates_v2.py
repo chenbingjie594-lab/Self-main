@@ -35,48 +35,89 @@ def parse_args():
 def real_confidence_intervals(profile):
     output={}
     for cid in (0,1):
-        values=[float(x['matched_confidence']) for x in profile['instances'] if int(x['class_id'])==cid and float(x['best_iou'])>=.5]
+        # Anchors represent normal real detector behaviour, therefore only
+        # genuine OOF true positives define their confidence interval.
+        threshold=float(profile['settings']['match_confidence'])
+        values=[float(x['matched_confidence']) for x in profile['instances']
+                if int(x['class_id'])==cid and float(x['best_iou'])>=.5
+                and float(x['matched_confidence'])>=threshold]
         if not values: values=[.25]
         output[cid]=(float(np.quantile(values,.25)), float(np.quantile(values,.75)))
     return output
 
 def score(candidate, profile, cfg, intervals, disable_manifold=False, disable_consensus=False):
     cid=int(candidate['class_id']); policy=cfg['flash' if cid==0 else 'black']
-    weakness=sum([weakness_lookup(profile,cid,'scale',candidate['scale_bin']), weakness_lookup(profile,cid,'contrast',candidate['contrast_bin']), weakness_lookup(profile,cid,'morphology',candidate['morphology_bin'])])/3
+    scale=weakness_lookup(profile,cid,'scale',candidate['scale_bin'])
+    contrast=weakness_lookup(profile,cid,'contrast',candidate['contrast_bin'])
+    morphology=weakness_lookup(profile,cid,'morphology',candidate['morphology_bin'])
+    weights=policy['weights']
+    weakness=weights['scale']*scale + weights['contrast']*contrast + weights['morphology']*morphology
     iou, conf=float(candidate['median_iou']),float(candidate['median_confidence'])
     if cid==0:
         tau=policy.get('decision_threshold') or profile['settings']['match_confidence']
         sigma=policy.get('sigma_boundary') or .5
-        hard=flash_boundary_score(conf,iou,tau,sigma,policy['min_iou'])
-        boundary_valid=bool(iou>=policy['min_iou'] and conf>=tau)
+        hard=flash_boundary_score(conf,iou,tau,sigma,policy['min_iou'],policy['flash_conf_floor'])
+        # Boundary hardness is two-sided around tau.  The low confidence floor
+        # only rejects pathological pseudo-defects, not valid 0.24-like cases.
+        boundary_valid=bool(iou>=policy['min_iou'] and conf>=policy['flash_conf_floor'])
     else:
         hard=moderate_difficulty_score(conf,iou,policy['difficulty_target'],policy['difficulty_sigma'],policy['min_iou'])
         boundary_valid=bool(iou>=policy['min_iou'])
     manifold=1.0 if disable_manifold else float(candidate.get('manifold_score',0.0))
     consensus=1.0 if disable_consensus else float(candidate.get('consensus_score',0.0))
     typical=interval_typicality(conf,*intervals[cid])
-    anchor=manifold*consensus*typical
+    anchor=manifold*consensus*typical*((max(0.0, 1.0-weakness)) ** float(policy['anchor_weakness_eta']))
     final=geometric_score(weakness,hard,manifold,consensus,policy)
-    return dict(candidate, scale_weakness=weakness_lookup(profile,cid,'scale',candidate['scale_bin']),
-        contrast_weakness=weakness_lookup(profile,cid,'contrast',candidate['contrast_bin']), morphology_weakness=weakness_lookup(profile,cid,'morphology',candidate['morphology_bin']),
+    return dict(candidate, scale_weakness=scale,
+        contrast_weakness=contrast, morphology_weakness=morphology,
         weakness_score=weakness,boundary_score=hard, boundary_valid=boundary_valid, anchor_score=anchor, final_score=final,
         selection_reason=[], fallback_reason=None)
+
+def hard_quota_bonus(candidate, selected, hard_count, policy, cfg):
+    """The v1 class-specific marginal coverage rule, applied to Hard only."""
+    gain, reasons = 0.0, []
+    for dimension, quotas in policy['marginal_quotas'].items():
+        name=candidate[f'{dimension}_bin']; ratio=quotas.get(name)
+        if ratio is None: continue
+        needed=max(1, int(math.ceil(hard_count*float(ratio))))
+        current=sum(x[f'{dimension}_bin']==name for x in selected)
+        if current<needed:
+            gain += float(cfg['selection']['quota_bonus'])*(needed-current)/needed
+            reasons.append(f'quota_{dimension}_{name}')
+    return gain, reasons
+
+def greedy_hard(pool, count, policy, cfg, selected_prefix=()):
+    selected=list(selected_prefix); output=[]
+    while len(output)<count:
+        eligible=[x for x in pool if x['candidate_id'] not in {s['candidate_id'] for s in selected}]
+        if not eligible: break
+        capped=[x for x in eligible if sum(s['reference_image']==x['reference_image'] for s in selected)<cfg['selection']['max_per_source']
+                and sum(s['seed']==x['seed'] for s in selected)<cfg['selection']['max_per_seed']]
+        if not capped: break
+        chosen=max(capped,key=lambda x:(float(x['final_score'])+hard_quota_bonus(x,selected,count,policy,cfg)[0],x['candidate_id']))
+        _, reasons=hard_quota_bonus(chosen,selected,count,policy,cfg)
+        chosen=dict(chosen); chosen['selection_reason']=list(chosen.get('selection_reason', []))+reasons
+        selected.append(chosen); output.append(chosen)
+    return output
 
 def select_class(rows, count, cid, cfg):
     hard_count=int(round(count*float(cfg['selection']['hard_ratio']))); anchor_count=count-hard_count
     caps=cfg['selection']; valid=[x for x in rows if x['manifold_valid']]
+    policy=cfg['flash' if cid==0 else 'black']
     hard_pool=[x for x in valid if x['boundary_valid'] and (x['boundary_score']>0 if cid==0 else True)]
-    hard=greedy_unique(hard_pool,hard_count,'final_score',[],caps['max_per_source'],caps['max_per_seed'])
+    hard=greedy_hard(hard_pool,hard_count,policy,cfg)
     fallback=None
     if len(hard)<hard_count and cid==0:
         relaxed=[x for x in valid if x['boundary_valid'] and x['candidate_id'] not in {y['candidate_id'] for y in hard}]
-        hard += greedy_unique(relaxed,hard_count-len(hard),'final_score',hard,caps['max_per_source'],caps['max_per_seed'])
+        # Preserve class-specific quotas when Flash's boundary pool is relaxed.
+        remaining=[x for x in relaxed if x['candidate_id'] not in {y['candidate_id'] for y in hard}]
+        hard += greedy_hard(remaining,hard_count-len(hard),policy,cfg,hard)
         fallback='relaxed_flash_boundary'
     if len(hard)<hard_count: fallback='fallback_from_anchor'
     anchor_pool=[x for x in valid if x['candidate_id'] not in {y['candidate_id'] for y in hard}]
     anchors=greedy_unique(anchor_pool,anchor_count + (hard_count-len(hard)),'anchor_score',hard,caps['max_per_source'],caps['max_per_seed'])
     if len(hard)+len(anchors)!=count: raise ValueError(f'class {cid}: insufficient unique manifold-valid candidates')
-    for item in hard: item.update(selection_group='hard',fallback_reason=fallback,selection_reason=['manifold_valid','hard_valid'])
+    for item in hard: item.update(selection_group='hard',fallback_reason=fallback,selection_reason=item['selection_reason']+['manifold_valid','hard_valid'])
     for item in anchors: item.update(selection_group='anchor',fallback_reason=fallback,selection_reason=['manifold_valid','representative_anchor'])
     return hard+anchors, {'candidate_pool':len(rows),'manifold_rejected':len(rows)-len(valid),'boundary_rejected':len(valid)-len(hard_pool),'hard_selected':len(hard),'anchor_selected':len(anchors),'fallback_reason':fallback}
 

@@ -23,7 +23,7 @@ def parse_args():
     p.add_argument('--bank', nargs=3, action='append', required=True, metavar=('NPZ','METADATA','WEIGHTS'))
     p.add_argument('--config', type=Path, default=Path('configs/dwbg_v2.json'))
     p.add_argument('--output', type=Path, required=True)
-    p.add_argument('--device', default='0'); p.add_argument('--imgsz', type=int, default=1024)
+    p.add_argument('--device', default='0'); p.add_argument('--imgsz', type=int, default=1536)
     return p.parse_args()
 
 

@@ -84,9 +84,9 @@ def logit(value):
     return math.log(value / (1.0 - value))
 
 
-def flash_boundary_score(confidence, iou, threshold, sigma_boundary, min_iou):
+def flash_boundary_score(confidence, iou, threshold, sigma_boundary, min_iou, conf_floor=0.05):
     """High only at the decision boundary; invalid localization gets zero."""
-    if float(iou) < float(min_iou) or float(confidence) < float(threshold):
+    if float(iou) < float(min_iou) or float(confidence) < float(conf_floor):
         return 0.0
     return float(math.exp(-abs(logit(confidence) - logit(threshold)) /
                           max(float(sigma_boundary), EPS)))

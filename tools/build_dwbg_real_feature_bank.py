@@ -26,7 +26,7 @@ def parse_args():
                    metavar=("TRAIN_IMAGES", "TRAIN_LABELS", "WEIGHTS"))
     p.add_argument("--output_dir", type=Path, default=Path("results/dwbg/v2/feature_banks"))
     p.add_argument("--device", default="0")
-    p.add_argument("--imgsz", type=int, default=1024)
+    p.add_argument("--imgsz", type=int, default=1536)
     p.add_argument("--k", type=int, default=5)
     p.add_argument("--quantile", type=float, default=.95)
     return p.parse_args()
