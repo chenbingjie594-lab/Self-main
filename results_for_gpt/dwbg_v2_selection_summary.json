@@ -1,0 +1,139 @@
+{
+  "candidate_pool_frozen": true,
+  "DWBG_v2": {
+    "flash": {
+      "hard": {
+        "count": 28,
+        "median_iou": 0.6365475654602051,
+        "median_confidence": 0.2371731996536255,
+        "median_manifold_score": 0.5716511557289967,
+        "iou_zero_count": 0,
+        "iou_lt_05_count": 0,
+        "fallback_count": 0,
+        "scale": {
+          "large": 13,
+          "tiny": 8,
+          "medium": 7
+        },
+        "contrast": {
+          "medium": 9,
+          "low": 13,
+          "high": 6
+        },
+        "morphology": {
+          "compact": 10,
+          "elongated": 16,
+          "medium": 2
+        }
+      },
+      "anchor": {
+        "count": 12,
+        "median_iou": 0.7177703082561493,
+        "median_confidence": 0.46008722484111786,
+        "median_manifold_score": 0.5969384077681509,
+        "iou_zero_count": 0,
+        "iou_lt_05_count": 0,
+        "fallback_count": 0,
+        "scale": {
+          "medium": 6,
+          "tiny": 6
+        },
+        "contrast": {
+          "high": 5,
+          "low": 6,
+          "medium": 1
+        },
+        "morphology": {
+          "medium": 6,
+          "elongated": 5,
+          "compact": 1
+        }
+      },
+      "hard_quota": {
+        "scale_large": {
+          "required": 13,
+          "selected": 13
+        },
+        "contrast_medium": {
+          "required": 9,
+          "selected": 9
+        },
+        "morphology_compact": {
+          "required": 9,
+          "selected": 10
+        }
+      },
+      "hard_unique_parent_sources": 28,
+      "hard_unique_seeds": 7
+    },
+    "black": {
+      "hard": {
+        "count": 28,
+        "median_iou": 0.6332209706306458,
+        "median_confidence": 0.21976793557405472,
+        "median_manifold_score": 0.6890200338562178,
+        "iou_zero_count": 0,
+        "iou_lt_05_count": 0,
+        "fallback_count": 0,
+        "scale": {
+          "tiny": 16,
+          "medium": 9,
+          "large": 3
+        },
+        "contrast": {
+          "low": 20,
+          "high": 3,
+          "medium": 5
+        },
+        "morphology": {
+          "elongated": 22,
+          "medium": 5,
+          "compact": 1
+        }
+      },
+      "anchor": {
+        "count": 12,
+        "median_iou": 0.6415719091892242,
+        "median_confidence": 0.6254988312721252,
+        "median_manifold_score": 0.7643628639054996,
+        "iou_zero_count": 0,
+        "iou_lt_05_count": 0,
+        "fallback_count": 0,
+        "scale": {
+          "medium": 6,
+          "large": 3,
+          "tiny": 3
+        },
+        "contrast": {
+          "medium": 5,
+          "high": 7
+        },
+        "morphology": {
+          "elongated": 9,
+          "medium": 1,
+          "compact": 2
+        }
+      },
+      "hard_quota": {
+        "scale_tiny": {
+          "required": 13,
+          "selected": 16
+        },
+        "contrast_low": {
+          "required": 13,
+          "selected": 20
+        },
+        "morphology_elongated": {
+          "required": 10,
+          "selected": 22
+        }
+      },
+      "hard_unique_parent_sources": 28,
+      "hard_unique_seeds": 8
+    }
+  },
+  "hard_anchor_total": {
+    "hard": 56,
+    "anchor": 24
+  }
+}

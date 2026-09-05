@@ -9,4 +9,7 @@ This lightweight package contains the reports and scored candidate manifests nee
 - `scored_candidates_v2_fixed_v3_rect_s42.json`: initial scored pool.
 - `scored_candidates_v2_fixed_v3_expanded.json`: merged scored pool after expansion.
 
-Final candidate selection and downstream YOLO training have not been run from this package.
+The frozen-pool final candidate selection has been run.  The five final JSON
+files record feasibility, the 40/40 DWBG manifest, the fixed-seed random
+matched manifest, selection statistics, and source diversity.  Downstream YOLO
+training has not been run.
