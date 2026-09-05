@@ -1,0 +1,116 @@
+{
+  "flash": {
+    "candidate_pool": 488,
+    "raw_distribution": {
+      "scale": {
+        "medium": 137,
+        "tiny": 268,
+        "large": 83
+      },
+      "contrast": {
+        "low": 205,
+        "medium": 139,
+        "high": 144
+      },
+      "morphology": {
+        "compact": 95,
+        "elongated": 309,
+        "medium": 84
+      }
+    },
+    "valid_distribution": {
+      "scale": {
+        "medium": 109,
+        "tiny": 155,
+        "large": 72
+      },
+      "contrast": {
+        "low": 138,
+        "medium": 96,
+        "high": 102
+      },
+      "morphology": {
+        "compact": 65,
+        "elongated": 209,
+        "medium": 62
+      }
+    },
+    "quota_feasibility": {
+      "scale_large": {
+        "required": 18,
+        "available_raw": 83,
+        "available_valid": 72,
+        "feasible": true
+      },
+      "contrast_high": {
+        "required": 12,
+        "available_raw": 144,
+        "available_valid": 102,
+        "feasible": true
+      },
+      "morphology_compact": {
+        "required": 12,
+        "available_raw": 95,
+        "available_valid": 65,
+        "feasible": true
+      }
+    }
+  },
+  "black": {
+    "candidate_pool": 185,
+    "raw_distribution": {
+      "scale": {
+        "tiny": 88,
+        "large": 38,
+        "medium": 59
+      },
+      "contrast": {
+        "high": 79,
+        "low": 34,
+        "medium": 72
+      },
+      "morphology": {
+        "elongated": 140,
+        "compact": 17,
+        "medium": 28
+      }
+    },
+    "valid_distribution": {
+      "scale": {
+        "tiny": 83,
+        "large": 37,
+        "medium": 57
+      },
+      "contrast": {
+        "high": 78,
+        "low": 28,
+        "medium": 71
+      },
+      "morphology": {
+        "elongated": 132,
+        "compact": 17,
+        "medium": 28
+      }
+    },
+    "quota_feasibility": {
+      "scale_tiny": {
+        "required": 18,
+        "available_raw": 88,
+        "available_valid": 83,
+        "feasible": true
+      },
+      "contrast_low": {
+        "required": 18,
+        "available_raw": 34,
+        "available_valid": 28,
+        "feasible": true
+      },
+      "morphology_elongated": {
+        "required": 14,
+        "available_raw": 140,
+        "available_valid": 132,
+        "feasible": true
+      }
+    }
+  }
+}
