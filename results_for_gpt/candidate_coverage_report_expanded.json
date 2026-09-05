@@ -1,0 +1,162 @@
+{
+  "flash": {
+    "candidate_pool": 576,
+    "hard_target_count": 28,
+    "manifold_valid_count": 417,
+    "hard_valid_count": 122,
+    "raw_distribution": {
+      "scale": {
+        "medium": 137,
+        "tiny": 268,
+        "large": 171
+      },
+      "contrast": {
+        "low": 256,
+        "medium": 167,
+        "high": 153
+      },
+      "morphology": {
+        "compact": 131,
+        "elongated": 339,
+        "medium": 106
+      }
+    },
+    "manifold_valid_distribution": {
+      "scale": {
+        "medium": 109,
+        "tiny": 155,
+        "large": 153
+      },
+      "contrast": {
+        "low": 188,
+        "medium": 121,
+        "high": 108
+      },
+      "morphology": {
+        "compact": 98,
+        "elongated": 237,
+        "medium": 82
+      }
+    },
+    "hard_valid_distribution": {
+      "scale": {
+        "medium": 40,
+        "tiny": 61,
+        "large": 21
+      },
+      "contrast": {
+        "medium": 30,
+        "high": 36,
+        "low": 56
+      },
+      "morphology": {
+        "elongated": 70,
+        "compact": 31,
+        "medium": 21
+      }
+    },
+    "quota_feasibility": {
+      "scale_large": {
+        "required": 13,
+        "available_raw": 171,
+        "available_manifold_valid": 153,
+        "available_hard_valid": 21,
+        "feasible": true
+      },
+      "contrast_medium": {
+        "required": 9,
+        "available_raw": 167,
+        "available_manifold_valid": 121,
+        "available_hard_valid": 30,
+        "feasible": true
+      },
+      "morphology_compact": {
+        "required": 9,
+        "available_raw": 131,
+        "available_manifold_valid": 98,
+        "available_hard_valid": 31,
+        "feasible": true
+      }
+    }
+  },
+  "black": {
+    "candidate_pool": 185,
+    "hard_target_count": 28,
+    "manifold_valid_count": 177,
+    "hard_valid_count": 173,
+    "raw_distribution": {
+      "scale": {
+        "tiny": 88,
+        "large": 38,
+        "medium": 59
+      },
+      "contrast": {
+        "high": 79,
+        "low": 34,
+        "medium": 72
+      },
+      "morphology": {
+        "elongated": 140,
+        "compact": 17,
+        "medium": 28
+      }
+    },
+    "manifold_valid_distribution": {
+      "scale": {
+        "tiny": 83,
+        "large": 37,
+        "medium": 57
+      },
+      "contrast": {
+        "high": 78,
+        "low": 28,
+        "medium": 71
+      },
+      "morphology": {
+        "elongated": 132,
+        "compact": 17,
+        "medium": 28
+      }
+    },
+    "hard_valid_distribution": {
+      "scale": {
+        "tiny": 79,
+        "large": 37,
+        "medium": 57
+      },
+      "contrast": {
+        "high": 75,
+        "low": 28,
+        "medium": 70
+      },
+      "morphology": {
+        "elongated": 129,
+        "compact": 17,
+        "medium": 27
+      }
+    },
+    "quota_feasibility": {
+      "scale_tiny": {
+        "required": 13,
+        "available_raw": 88,
+        "available_manifold_valid": 83,
+        "available_hard_valid": 79,
+        "feasible": true
+      },
+      "contrast_low": {
+        "required": 13,
+        "available_raw": 34,
+        "available_manifold_valid": 28,
+        "available_hard_valid": 28,
+        "feasible": true
+      },
+      "morphology_elongated": {
+        "required": 10,
+        "available_raw": 140,
+        "available_manifold_valid": 132,
+        "available_hard_valid": 129,
+        "feasible": true
+      }
+    }
+  }
+}
