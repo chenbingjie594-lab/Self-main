@@ -1,0 +1,46 @@
+{
+  "experiment_version": "DWBG-v2-final-s42",
+  "candidate_pool_frozen": true,
+  "real_train_instances": {
+    "flash": 88,
+    "black": 80
+  },
+  "synthetic_count": {
+    "random_matched": {
+      "flash": 40,
+      "black": 40
+    },
+    "dwbg_v2": {
+      "flash": 40,
+      "black": 40
+    }
+  },
+  "dwbg_hard_anchor": {
+    "flash": {
+      "hard": 28,
+      "anchor": 12
+    },
+    "black": {
+      "hard": 28,
+      "anchor": 12
+    }
+  },
+  "final_hard_gate": {
+    "flash": {
+      "manifold_valid": true,
+      "min_median_iou": 0.5,
+      "min_median_confidence": 0.05
+    },
+    "black": {
+      "manifold_valid": true,
+      "min_median_iou": 0.5
+    }
+  },
+  "random_seed": 42,
+  "selection_frozen_before_downstream_validation": true,
+  "msdf_modified": false,
+  "yolo_architecture_modified": false,
+  "real_validation_modified": false,
+  "dwbg_manifest_sha256": "fcc5db12a6ff3b82384a42edaaaa86397cb5c9df97cbdbbcfec9f0ee5dc179ae",
+  "random_manifest_sha256": "d897d382723572a1a19e2cda98c0888b45e156b6b34be00d8cf8796dc6b846d6"
+}
