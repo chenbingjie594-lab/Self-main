@@ -1,0 +1,9 @@
+{
+  "v1_gradient_source": "instance-centre, per-level classification surrogate; not complete Detect loss",
+  "classification_includes_all_image_background_negatives": false,
+  "box_from_assigned_positives": false,
+  "cls_gradient_contains_background_negatives": false,
+  "signature_from_entire_detect_loss": false,
+  "traceable_to_gt_positive_assignment": false,
+  "conclusion": "v1 is not whole-image loss, but is not TaskAlignedAssigner instance-positive extraction; v1.1 replacement required."
+}

@@ -1,0 +1,388 @@
+{
+  "version": "fgau_v11",
+  "failure_type": "localized_low_conf",
+  "use_localization_failure": false,
+  "box_utility_enabled": false,
+  "utility_uses_magnitude": false,
+  "projection": {
+    "type": "fixed_countsketch",
+    "dim": 2048,
+    "seed": 314159
+  },
+  "sets": {
+    "f0_c0_P3": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f0_c0_P4": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f0_c0_P5": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f0_c1_P3": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f0_c1_P4": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f0_c1_P5": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f1_c0_P3": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f1_c0_P4": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f1_c0_P5": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f1_c1_P3": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f1_c1_P4": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f1_c1_P5": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f2_c0_P3": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f2_c0_P4": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f2_c0_P5": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f2_c1_P3": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f2_c1_P4": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    },
+    "f2_c1_P5": {
+      "instance_ids": [],
+      "valid": false,
+      "n": 0,
+      "mean_pairwise_cosine": null,
+      "median_pairwise_cosine": null,
+      "positive_pairwise_cosine_mean": null,
+      "reliability": null
+    }
+  },
+  "fold_config": {
+    "0": {
+      "0": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "1": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      }
+    },
+    "1": {
+      "0": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "1": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      }
+    },
+    "2": {
+      "0": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "1": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      }
+    }
+  }
+}

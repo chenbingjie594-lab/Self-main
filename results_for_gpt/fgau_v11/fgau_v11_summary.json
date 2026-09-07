@@ -1,0 +1,304 @@
+{
+  "real_failure_set": {
+    "flash": {
+      "0": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "1": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "2": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      }
+    },
+    "black": {
+      "0": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "1": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      },
+      "2": {
+        "levels": {
+          "P3": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P4": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          },
+          "P5": {
+            "valid": false,
+            "n": 0,
+            "mean_pairwise_cosine": null,
+            "median_pairwise_cosine": null,
+            "positive_pairwise_cosine_mean": null,
+            "reliability": null
+          }
+        },
+        "alpha": {
+          "P3": 0.0,
+          "P4": 0.0,
+          "P5": 0.0
+        },
+        "fpn_weight_fallback": false
+      }
+    }
+  },
+  "fold_stability": {
+    "flash": {
+      "01": null,
+      "02": null,
+      "12": null
+    },
+    "black": {
+      "01": null,
+      "02": null,
+      "12": null
+    }
+  },
+  "utility_distribution": {
+    "flash": {
+      "q05": null,
+      "q25": null,
+      "median": null,
+      "q75": null,
+      "q95": null,
+      "std": null
+    },
+    "black": {
+      "q05": null,
+      "q25": null,
+      "median": null,
+      "q75": null,
+      "q95": null,
+      "std": null
+    }
+  },
+  "dwbg_vs_random": {
+    "flash": {
+      "dwbg": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "q25": null,
+        "q75": null
+      },
+      "random": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "q25": null,
+        "q75": null
+      }
+    },
+    "black": {
+      "dwbg": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "q25": null,
+        "q75": null
+      },
+      "random": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "q25": null,
+        "q75": null
+      }
+    }
+  },
+  "correlations": {
+    "flash": {
+      "utility_vs_confidence": null,
+      "utility_vs_weakness_load": null,
+      "utility_vs_manifold": null
+    },
+    "black": {
+      "utility_vs_confidence": null,
+      "utility_vs_weakness_load": null,
+      "utility_vs_manifold": null
+    }
+  },
+  "top40_overlap": {
+    "flash": {
+      "dwbg": 0,
+      "random": 0,
+      "dwbg_jaccard": 0.0,
+      "random_jaccard": 0.0
+    },
+    "black": {
+      "dwbg": 0,
+      "random": 0,
+      "dwbg_jaccard": 0.0,
+      "random_jaccard": 0.0
+    }
+  },
+  "comparison_to_v1": {},
+  "stage_status": "GRADIENT_SIGNAL_UNSTABLE"
+}
