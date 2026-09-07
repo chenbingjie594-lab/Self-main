@@ -1,0 +1,26 @@
+{
+  "version": "fgau_stage1_diagnostic",
+  "post_hoc": true,
+  "no_selection_performed": true,
+  "classes": {
+    "0": {
+      "eligible": 417,
+      "dwbg_n": 40,
+      "random_n": 40,
+      "dwbg_median_utility": 0.7912449606573948,
+      "random_median_utility": 0.7914731735698122,
+      "top40_overlap_dwbg": 5,
+      "top40_overlap_random": 2
+    },
+    "1": {
+      "eligible": 177,
+      "dwbg_n": 40,
+      "random_n": 40,
+      "dwbg_median_utility": 0.7137467051395301,
+      "random_median_utility": 0.7046806132154856,
+      "top40_overlap_dwbg": 14,
+      "top40_overlap_random": 7
+    }
+  },
+  "stage_status": "NEEDS_REVISION"
+}
