@@ -1,0 +1,182 @@
+{
+  "multi_gt_mapping_status": "PASS",
+  "images_checked": 3,
+  "audits": [
+    {
+      "fold": 0,
+      "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_11.jpg",
+      "label_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/labels/val/blackinst_11.txt",
+      "batch_indices_all_zero": true,
+      "instances": [
+        {
+          "gt_index": 0,
+          "class_id": 1,
+          "bbox_xyxy": [
+            3179.75089152,
+            438.5561088,
+            3208.6246604800003,
+            467.71256320000003
+          ],
+          "positive_total": 1,
+          "positive_by_level": {
+            "P3": 1,
+            "P4": 0,
+            "P5": 0
+          },
+          "positive_indices_by_level": {
+            "P3": [
+              18005
+            ],
+            "P4": [],
+            "P5": []
+          }
+        },
+        {
+          "gt_index": 1,
+          "class_id": 1,
+          "bbox_xyxy": [
+            3477.0568806399997,
+            695.4427903999999,
+            3509.12987136,
+            731.5462656
+          ],
+          "positive_total": 2,
+          "positive_by_level": {
+            "P3": 1,
+            "P4": 1,
+            "P5": 0
+          },
+          "positive_indices_by_level": {
+            "P3": [
+              20323
+            ],
+            "P4": [
+              5073
+            ],
+            "P5": []
+          }
+        }
+      ],
+      "positive_sets_disjoint": true,
+      "positive_sets_not_copied": true,
+      "pass": true
+    },
+    {
+      "fold": 0,
+      "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_12.jpg",
+      "label_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/labels/val/blackinst_12.txt",
+      "batch_indices_all_zero": true,
+      "instances": [
+        {
+          "gt_index": 0,
+          "class_id": 1,
+          "bbox_xyxy": [
+            3339.95483136,
+            422.379264,
+            3360.44580864,
+            442.366208
+          ],
+          "positive_total": 1,
+          "positive_by_level": {
+            "P3": 1,
+            "P4": 0,
+            "P5": 0
+          },
+          "positive_indices_by_level": {
+            "P3": [
+              17821
+            ],
+            "P4": [],
+            "P5": []
+          }
+        },
+        {
+          "gt_index": 1,
+          "class_id": 1,
+          "bbox_xyxy": [
+            3601.91553536,
+            625.2124672,
+            3629.53150464,
+            651.7790207999999
+          ],
+          "positive_total": 2,
+          "positive_by_level": {
+            "P3": 2,
+            "P4": 0,
+            "P5": 0
+          },
+          "positive_indices_by_level": {
+            "P3": [
+              19561,
+              19753
+            ],
+            "P4": [],
+            "P5": []
+          }
+        }
+      ],
+      "positive_sets_disjoint": true,
+      "positive_sets_not_copied": true,
+      "pass": true
+    },
+    {
+      "fold": 0,
+      "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_19.jpg",
+      "label_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/labels/val/blackinst_19.txt",
+      "batch_indices_all_zero": true,
+      "instances": [
+        {
+          "gt_index": 0,
+          "class_id": 1,
+          "bbox_xyxy": [
+            3519.55499008,
+            482.83371520000003,
+            3543.91508992,
+            505.24436479999997
+          ],
+          "positive_total": 2,
+          "positive_by_level": {
+            "P3": 1,
+            "P4": 1,
+            "P5": 0
+          },
+          "positive_indices_by_level": {
+            "P3": [
+              18405
+            ],
+            "P4": [
+              4594
+            ],
+            "P5": []
+          }
+        },
+        {
+          "gt_index": 1,
+          "class_id": 1,
+          "bbox_xyxy": [
+            3292.4179455999997,
+            809.3426176,
+            3313.8893824,
+            828.6232064000001
+          ],
+          "positive_total": 1,
+          "positive_by_level": {
+            "P3": 1,
+            "P4": 0,
+            "P5": 0
+          },
+          "positive_indices_by_level": {
+            "P3": [
+              21274
+            ],
+            "P4": [],
+            "P5": []
+          }
+        }
+      ],
+      "positive_sets_disjoint": true,
+      "positive_sets_not_copied": true,
+      "pass": true
+    }
+  ]
+}
