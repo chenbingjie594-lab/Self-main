@@ -1,0 +1,21 @@
+{
+  "status": "OK",
+  "folds": {
+    "0": {
+      "nominal_lr": 0.00163897,
+      "source": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_fixed_v3/fold_0_s42/results.csv",
+      "source_rule": "maximum recorded lr/pg* in OOF results.csv"
+    },
+    "1": {
+      "nominal_lr": 0.00163904,
+      "source": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_fixed_v3/fold_1_s42/results.csv",
+      "source_rule": "maximum recorded lr/pg* in OOF results.csv"
+    },
+    "2": {
+      "nominal_lr": 0.0016391,
+      "source": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_fixed_v3/fold_2_s42/results.csv",
+      "source_rule": "maximum recorded lr/pg* in OOF results.csv"
+    }
+  },
+  "missing_folds": []
+}

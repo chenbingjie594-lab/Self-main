@@ -1,0 +1,781 @@
+{
+  "folds": {
+    "0": {
+      "images": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val",
+      "labels": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/labels/val",
+      "weights": "runs/dwbg_oof_fixed_v3/fold_0_s42/weights/best.pt",
+      "easy_threshold_by_class": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "hard_count": {
+        "0": 6,
+        "1": 6
+      },
+      "easy_count": {
+        "0": 7,
+        "1": 4
+      },
+      "instances": [
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_12.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_19.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_19.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_20.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_22.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_22.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_26.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_26.jpg",
+          "gt_index": 2,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/blackinst_27.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_1099_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_11478_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_13734_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_15545_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_16442_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_18290_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 2
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_2028_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_2037_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_22731_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_24729_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_2500_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_3190_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 2
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_4515_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_460_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_5107_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_8363_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_9438_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_0/images/val/img_9730_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 2
+        }
+      ]
+    },
+    "1": {
+      "images": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val",
+      "labels": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/labels/val",
+      "weights": "runs/dwbg_oof_fixed_v3/fold_1_s42/weights/best.pt",
+      "easy_threshold_by_class": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "hard_count": {
+        "0": 3,
+        "1": 3
+      },
+      "easy_count": {
+        "0": 13,
+        "1": 9
+      },
+      "instances": [
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_10.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_13.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 2
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_13.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_13.jpg",
+          "gt_index": 2,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_17.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_17.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_17.jpg",
+          "gt_index": 2,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 2
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_17.jpg",
+          "gt_index": 3,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_24.jpg",
+          "gt_index": 2,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_34.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_34.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/blackinst_8.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_10012_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_10510_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_11099_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_12317_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_15101_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_15609_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_15770_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 2
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_2075_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_22666_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_2273_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_2572_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_2872_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_3598_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_5891_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_693_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_7241_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_7734_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_7953_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_9157_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_9509_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_1/images/val/img_995_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        }
+      ]
+    },
+    "2": {
+      "images": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val",
+      "labels": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/labels/val",
+      "weights": "runs/dwbg_oof_fixed_v3/fold_2_s42/weights/best.pt",
+      "easy_threshold_by_class": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "hard_count": {
+        "0": 3,
+        "1": 2
+      },
+      "easy_count": {
+        "0": 9,
+        "1": 10
+      },
+      "instances": [
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_15.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_15.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_16.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_16.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_16.jpg",
+          "gt_index": 2,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_30.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_30.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_36.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_36.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_4.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/blackinst_7.jpg",
+          "gt_index": 2,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_1083_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_12185_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_1474_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_15170_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_15890_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_2118_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_21637_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_23459_pre_part_0.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_24459_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_2900_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": false,
+          "positive_count": 0
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_3207_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_3441_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_3523_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_4108_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_6075_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_639_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_6576_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 0,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_9389_pre_part_1.jpg",
+          "gt_index": 0,
+          "class_id": 1,
+          "kind": "easy",
+          "assignment_valid": true,
+          "positive_count": 1
+        },
+        {
+          "image_path": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_oof_fixed_v3_s42/fold_2/images/val/img_9399_pre_part_1.jpg",
+          "gt_index": 1,
+          "class_id": 1,
+          "kind": "hard",
+          "assignment_valid": true,
+          "positive_count": 1
+        }
+      ]
+    }
+  }
+}
