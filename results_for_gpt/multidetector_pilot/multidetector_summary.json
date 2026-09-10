@@ -1,0 +1,68 @@
+{
+  "records": 168,
+  "classes": {
+    "flash": {
+      "n": 88,
+      "yolo_success_rate": 0.6704545454545454,
+      "rtdetr_success_rate": 0.3181818181818182,
+      "confidence_difficulty_spearman": 0.1986368919728083,
+      "iou_difficulty_spearman": 0.40695293822793366
+    },
+    "black": {
+      "n": 80,
+      "yolo_success_rate": 0.8,
+      "rtdetr_success_rate": 0.25,
+      "confidence_difficulty_spearman": 0.2503281762775434,
+      "iou_difficulty_spearman": 0.3832886971977279
+    }
+  },
+  "detector_metrics": {
+    "yolo": {
+      "fold_0": {
+        "precision": 0.8824,
+        "recall": 0.8337,
+        "mAP50": 0.85883,
+        "mAP50-95": 0.43764,
+        "best_epoch": 85
+      },
+      "fold_1": {
+        "precision": 0.84129,
+        "recall": 0.80633,
+        "mAP50": 0.8122,
+        "mAP50-95": 0.44034,
+        "best_epoch": 148
+      },
+      "fold_2": {
+        "precision": 0.72388,
+        "recall": 0.81259,
+        "mAP50": 0.77166,
+        "mAP50-95": 0.3492,
+        "best_epoch": 46
+      }
+    },
+    "rtdetr": {
+      "fold_0": {
+        "precision": 0.83353,
+        "recall": 0.85212,
+        "mAP50": 0.82172,
+        "mAP50-95": 0.39856,
+        "best_epoch": 150
+      },
+      "fold_1": {
+        "precision": 0.81594,
+        "recall": 0.79161,
+        "mAP50": 0.81237,
+        "mAP50-95": 0.4023,
+        "best_epoch": 120
+      },
+      "fold_2": {
+        "precision": 0.77514,
+        "recall": 0.78818,
+        "mAP50": 0.73952,
+        "mAP50-95": 0.34886,
+        "best_epoch": 105
+      }
+    }
+  },
+  "status": "SECOND_DETECTOR_TOO_WEAK"
+}

@@ -1,0 +1,36 @@
+{
+  "flash": {
+    "success": {
+      "success": 20,
+      "localized_low_conf": 38,
+      "localization_failure": 1
+    },
+    "localized_low_conf": {
+      "success": 8,
+      "localized_low_conf": 15,
+      "localization_failure": 1
+    },
+    "localization_failure": {
+      "success": 0,
+      "localized_low_conf": 4,
+      "localization_failure": 1
+    }
+  },
+  "black": {
+    "success": {
+      "success": 19,
+      "localized_low_conf": 45,
+      "localization_failure": 0
+    },
+    "localized_low_conf": {
+      "success": 1,
+      "localized_low_conf": 4,
+      "localization_failure": 4
+    },
+    "localization_failure": {
+      "success": 0,
+      "localized_low_conf": 5,
+      "localization_failure": 2
+    }
+  }
+}

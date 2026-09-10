@@ -1,0 +1,144 @@
+{
+  "flash": {
+    "scale_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_success": 21,
+        "rtdetr_success": 8,
+        "yolo_recall": 0.7241379310344828,
+        "rtdetr_recall": 0.27586206896551724
+      },
+      "large": {
+        "n": 29,
+        "yolo_success": 15,
+        "rtdetr_success": 11,
+        "yolo_recall": 0.5172413793103449,
+        "rtdetr_recall": 0.3793103448275862
+      },
+      "tiny": {
+        "n": 30,
+        "yolo_success": 23,
+        "rtdetr_success": 9,
+        "yolo_recall": 0.7666666666666667,
+        "rtdetr_recall": 0.3
+      }
+    },
+    "contrast_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_success": 21,
+        "rtdetr_success": 10,
+        "yolo_recall": 0.7241379310344828,
+        "rtdetr_recall": 0.3448275862068966
+      },
+      "high": {
+        "n": 29,
+        "yolo_success": 18,
+        "rtdetr_success": 10,
+        "yolo_recall": 0.6206896551724138,
+        "rtdetr_recall": 0.3448275862068966
+      },
+      "low": {
+        "n": 30,
+        "yolo_success": 20,
+        "rtdetr_success": 8,
+        "yolo_recall": 0.6666666666666666,
+        "rtdetr_recall": 0.26666666666666666
+      }
+    },
+    "morphology_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_success": 21,
+        "rtdetr_success": 13,
+        "yolo_recall": 0.7241379310344828,
+        "rtdetr_recall": 0.4482758620689655
+      },
+      "elongated": {
+        "n": 29,
+        "yolo_success": 19,
+        "rtdetr_success": 8,
+        "yolo_recall": 0.6551724137931034,
+        "rtdetr_recall": 0.27586206896551724
+      },
+      "compact": {
+        "n": 30,
+        "yolo_success": 19,
+        "rtdetr_success": 7,
+        "yolo_recall": 0.6333333333333333,
+        "rtdetr_recall": 0.23333333333333334
+      }
+    }
+  },
+  "black": {
+    "scale_bin": {
+      "medium": {
+        "n": 26,
+        "yolo_success": 24,
+        "rtdetr_success": 9,
+        "yolo_recall": 0.9230769230769231,
+        "rtdetr_recall": 0.34615384615384615
+      },
+      "large": {
+        "n": 27,
+        "yolo_success": 22,
+        "rtdetr_success": 7,
+        "yolo_recall": 0.8148148148148148,
+        "rtdetr_recall": 0.25925925925925924
+      },
+      "tiny": {
+        "n": 27,
+        "yolo_success": 18,
+        "rtdetr_success": 4,
+        "yolo_recall": 0.6666666666666666,
+        "rtdetr_recall": 0.14814814814814814
+      }
+    },
+    "contrast_bin": {
+      "medium": {
+        "n": 26,
+        "yolo_success": 22,
+        "rtdetr_success": 4,
+        "yolo_recall": 0.8461538461538461,
+        "rtdetr_recall": 0.15384615384615385
+      },
+      "high": {
+        "n": 27,
+        "yolo_success": 25,
+        "rtdetr_success": 9,
+        "yolo_recall": 0.9259259259259259,
+        "rtdetr_recall": 0.3333333333333333
+      },
+      "low": {
+        "n": 27,
+        "yolo_success": 17,
+        "rtdetr_success": 7,
+        "yolo_recall": 0.6296296296296297,
+        "rtdetr_recall": 0.25925925925925924
+      }
+    },
+    "morphology_bin": {
+      "compact": {
+        "n": 27,
+        "yolo_success": 23,
+        "rtdetr_success": 8,
+        "yolo_recall": 0.8518518518518519,
+        "rtdetr_recall": 0.2962962962962963
+      },
+      "elongated": {
+        "n": 27,
+        "yolo_success": 18,
+        "rtdetr_success": 5,
+        "yolo_recall": 0.6666666666666666,
+        "rtdetr_recall": 0.18518518518518517
+      },
+      "medium": {
+        "n": 26,
+        "yolo_success": 23,
+        "rtdetr_success": 7,
+        "yolo_recall": 0.8846153846153846,
+        "rtdetr_recall": 0.2692307692307692
+      }
+    }
+  }
+}

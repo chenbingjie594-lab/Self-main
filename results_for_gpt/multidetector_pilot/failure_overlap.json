@@ -1,0 +1,24 @@
+{
+  "flash": {
+    "yolo_failure": 29,
+    "rtdetr_failure": 60,
+    "intersection": 21,
+    "union": 68,
+    "failure_jaccard": 0.3088235294117647,
+    "yolo_only": 8,
+    "rtdetr_only": 39,
+    "consensus_failure": 21,
+    "detector_specific_hard_ratio": 0.6911764705882353
+  },
+  "black": {
+    "yolo_failure": 16,
+    "rtdetr_failure": 60,
+    "intersection": 15,
+    "union": 61,
+    "failure_jaccard": 0.2459016393442623,
+    "yolo_only": 1,
+    "rtdetr_only": 45,
+    "consensus_failure": 15,
+    "detector_specific_hard_ratio": 0.7540983606557377
+  }
+}

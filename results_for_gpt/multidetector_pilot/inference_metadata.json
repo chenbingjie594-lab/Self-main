@@ -1,0 +1,31 @@
+{
+  "version": "multidetector_oof_v1",
+  "records": 168,
+  "folds": [
+    {
+      "fold": 0,
+      "images": 47,
+      "instances": 55,
+      "yolo_weights": "runs/dasr_oof/fold_0_s42/weights/best.pt",
+      "rtdetr_weights": "runs/multidetector_rtdetr_oof/fold_0_rtdetr_l_s42/weights/best.pt"
+    },
+    {
+      "fold": 1,
+      "images": 46,
+      "instances": 56,
+      "yolo_weights": "runs/dasr_oof/fold_1_s42/weights/best.pt",
+      "rtdetr_weights": "runs/multidetector_rtdetr_oof/fold_1_rtdetr_l_s42/weights/best.pt"
+    },
+    {
+      "fold": 2,
+      "images": 45,
+      "instances": 57,
+      "yolo_weights": "runs/dasr_oof/fold_2_s42/weights/best.pt",
+      "rtdetr_weights": "runs/multidetector_rtdetr_oof/fold_2_rtdetr_l_s42/weights/best.pt"
+    }
+  ],
+  "thresholds": {
+    "iou": 0.5,
+    "confidence": 0.25
+  }
+}
