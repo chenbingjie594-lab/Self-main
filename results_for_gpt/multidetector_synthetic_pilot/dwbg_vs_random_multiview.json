@@ -1,0 +1,73 @@
+{
+  "by_class": {
+    "0": {
+      "selected_dwbg": {
+        "CONSENSUS_HARD": 0.575,
+        "YOLO_SPECIFIC_HARD": 0.025,
+        "FRCNN_SPECIFIC_HARD": 0.4,
+        "CONSENSUS_EASY": 0.0
+      },
+      "selected_random": {
+        "CONSENSUS_HARD": 0.8,
+        "YOLO_SPECIFIC_HARD": 0.05,
+        "FRCNN_SPECIFIC_HARD": 0.15,
+        "CONSENSUS_EASY": 0.0
+      },
+      "additional": {
+        "CONSENSUS_HARD": 0.825,
+        "YOLO_SPECIFIC_HARD": 0.0,
+        "FRCNN_SPECIFIC_HARD": 0.125,
+        "CONSENSUS_EASY": 0.05
+      }
+    },
+    "1": {
+      "selected_dwbg": {
+        "CONSENSUS_HARD": 0.2,
+        "YOLO_SPECIFIC_HARD": 0.175,
+        "FRCNN_SPECIFIC_HARD": 0.075,
+        "CONSENSUS_EASY": 0.55
+      },
+      "selected_random": {
+        "CONSENSUS_HARD": 0.25,
+        "YOLO_SPECIFIC_HARD": 0.125,
+        "FRCNN_SPECIFIC_HARD": 0.025,
+        "CONSENSUS_EASY": 0.6
+      },
+      "additional": {
+        "CONSENSUS_HARD": 0.425,
+        "YOLO_SPECIFIC_HARD": 0.275,
+        "FRCNN_SPECIFIC_HARD": 0.05,
+        "CONSENSUS_EASY": 0.25
+      }
+    }
+  },
+  "by_source": {
+    "selected_dwbg": {
+      "n": 80,
+      "ratios": {
+        "CONSENSUS_HARD": 0.3875,
+        "YOLO_SPECIFIC_HARD": 0.1,
+        "FRCNN_SPECIFIC_HARD": 0.2375,
+        "CONSENSUS_EASY": 0.275
+      }
+    },
+    "selected_random": {
+      "n": 80,
+      "ratios": {
+        "CONSENSUS_HARD": 0.525,
+        "YOLO_SPECIFIC_HARD": 0.0875,
+        "FRCNN_SPECIFIC_HARD": 0.0875,
+        "CONSENSUS_EASY": 0.3
+      }
+    },
+    "additional": {
+      "n": 80,
+      "ratios": {
+        "CONSENSUS_HARD": 0.625,
+        "YOLO_SPECIFIC_HARD": 0.1375,
+        "FRCNN_SPECIFIC_HARD": 0.0875,
+        "CONSENSUS_EASY": 0.15
+      }
+    }
+  }
+}

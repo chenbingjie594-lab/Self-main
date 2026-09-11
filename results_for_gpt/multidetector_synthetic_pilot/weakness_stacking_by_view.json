@@ -1,0 +1,54 @@
+{
+  "0": {
+    "0": {
+      "CONSENSUS_HARD": 0.75,
+      "YOLO_SPECIFIC_HARD": 0.0,
+      "FRCNN_SPECIFIC_HARD": 0.25,
+      "CONSENSUS_EASY": 0.0
+    },
+    "1": {
+      "CONSENSUS_HARD": 0.571429,
+      "YOLO_SPECIFIC_HARD": 0.071429,
+      "FRCNN_SPECIFIC_HARD": 0.357143,
+      "CONSENSUS_EASY": 0.0
+    },
+    "2": {
+      "CONSENSUS_HARD": 0.428571,
+      "YOLO_SPECIFIC_HARD": 0.0,
+      "FRCNN_SPECIFIC_HARD": 0.571429,
+      "CONSENSUS_EASY": 0.0
+    },
+    "3": {
+      "CONSENSUS_HARD": 0.75,
+      "YOLO_SPECIFIC_HARD": 0.0,
+      "FRCNN_SPECIFIC_HARD": 0.25,
+      "CONSENSUS_EASY": 0.0
+    }
+  },
+  "1": {
+    "0": {
+      "CONSENSUS_HARD": 0.0,
+      "YOLO_SPECIFIC_HARD": 0.0,
+      "FRCNN_SPECIFIC_HARD": 0.0,
+      "CONSENSUS_EASY": 1.0
+    },
+    "1": {
+      "CONSENSUS_HARD": 0.083333,
+      "YOLO_SPECIFIC_HARD": 0.333333,
+      "FRCNN_SPECIFIC_HARD": 0.0,
+      "CONSENSUS_EASY": 0.583333
+    },
+    "2": {
+      "CONSENSUS_HARD": 0.25,
+      "YOLO_SPECIFIC_HARD": 0.1,
+      "FRCNN_SPECIFIC_HARD": 0.1,
+      "CONSENSUS_EASY": 0.55
+    },
+    "3": {
+      "CONSENSUS_HARD": 0.333333,
+      "YOLO_SPECIFIC_HARD": 0.166667,
+      "FRCNN_SPECIFIC_HARD": 0.166667,
+      "CONSENSUS_EASY": 0.333333
+    }
+  }
+}
