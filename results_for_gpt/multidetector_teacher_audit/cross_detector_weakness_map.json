@@ -1,0 +1,108 @@
+{
+  "flash": {
+    "scale_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_recall": 0.7586206896551724,
+        "frcnn_recall": 0.6551724137931034
+      },
+      "large": {
+        "n": 29,
+        "yolo_recall": 0.5517241379310345,
+        "frcnn_recall": 0.5172413793103449
+      },
+      "tiny": {
+        "n": 30,
+        "yolo_recall": 0.7666666666666667,
+        "frcnn_recall": 0.4666666666666667
+      }
+    },
+    "contrast_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_recall": 0.7586206896551724,
+        "frcnn_recall": 0.5517241379310345
+      },
+      "high": {
+        "n": 29,
+        "yolo_recall": 0.6551724137931034,
+        "frcnn_recall": 0.5172413793103449
+      },
+      "low": {
+        "n": 30,
+        "yolo_recall": 0.6666666666666666,
+        "frcnn_recall": 0.5666666666666667
+      }
+    },
+    "morphology_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_recall": 0.7241379310344828,
+        "frcnn_recall": 0.5172413793103449
+      },
+      "elongated": {
+        "n": 29,
+        "yolo_recall": 0.7241379310344828,
+        "frcnn_recall": 0.6206896551724138
+      },
+      "compact": {
+        "n": 30,
+        "yolo_recall": 0.6333333333333333,
+        "frcnn_recall": 0.5
+      }
+    }
+  },
+  "black": {
+    "scale_bin": {
+      "medium": {
+        "n": 26,
+        "yolo_recall": 0.9230769230769231,
+        "frcnn_recall": 0.6153846153846154
+      },
+      "large": {
+        "n": 27,
+        "yolo_recall": 0.8888888888888888,
+        "frcnn_recall": 0.6666666666666666
+      },
+      "tiny": {
+        "n": 27,
+        "yolo_recall": 0.7037037037037037,
+        "frcnn_recall": 0.5555555555555556
+      }
+    },
+    "contrast_bin": {
+      "medium": {
+        "n": 26,
+        "yolo_recall": 0.8846153846153846,
+        "frcnn_recall": 0.6153846153846154
+      },
+      "high": {
+        "n": 27,
+        "yolo_recall": 0.9629629629629629,
+        "frcnn_recall": 0.6666666666666666
+      },
+      "low": {
+        "n": 27,
+        "yolo_recall": 0.6666666666666666,
+        "frcnn_recall": 0.5555555555555556
+      }
+    },
+    "morphology_bin": {
+      "compact": {
+        "n": 27,
+        "yolo_recall": 0.8888888888888888,
+        "frcnn_recall": 0.5555555555555556
+      },
+      "elongated": {
+        "n": 27,
+        "yolo_recall": 0.7407407407407407,
+        "frcnn_recall": 0.5925925925925926
+      },
+      "medium": {
+        "n": 26,
+        "yolo_recall": 0.8846153846153846,
+        "frcnn_recall": 0.6923076923076923
+      }
+    }
+  }
+}

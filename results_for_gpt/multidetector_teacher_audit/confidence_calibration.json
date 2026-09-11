@@ -1,0 +1,48 @@
+{
+  "flash": {
+    "fold0": {
+      "n": 29,
+      "yolo_conf_min": 0.0,
+      "yolo_conf_max": 0.6517090797424316,
+      "frcnn_conf_min": 0.0,
+      "frcnn_conf_max": 0.0
+    },
+    "fold1": {
+      "n": 31,
+      "yolo_conf_min": 0.013125457800924778,
+      "yolo_conf_max": 0.777958333492279,
+      "frcnn_conf_min": 0.0,
+      "frcnn_conf_max": 0.9998297691345215
+    },
+    "fold2": {
+      "n": 28,
+      "yolo_conf_min": 0.0,
+      "yolo_conf_max": 0.8319463133811951,
+      "frcnn_conf_min": 0.0,
+      "frcnn_conf_max": 0.9997270703315735
+    }
+  },
+  "black": {
+    "fold0": {
+      "n": 26,
+      "yolo_conf_min": 0.028209585696458817,
+      "yolo_conf_max": 0.7633333802223206,
+      "frcnn_conf_min": 0.0,
+      "frcnn_conf_max": 0.0
+    },
+    "fold1": {
+      "n": 25,
+      "yolo_conf_min": 0.07726312428712845,
+      "yolo_conf_max": 0.828812837600708,
+      "frcnn_conf_min": 0.27937740087509155,
+      "frcnn_conf_max": 0.999241828918457
+    },
+    "fold2": {
+      "n": 29,
+      "yolo_conf_min": 0.07086849212646484,
+      "yolo_conf_max": 0.7312673926353455,
+      "frcnn_conf_min": 0.0,
+      "frcnn_conf_max": 0.9994733929634094
+    }
+  }
+}

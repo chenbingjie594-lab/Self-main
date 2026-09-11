@@ -1,0 +1,194 @@
+{
+  "0.05": {
+    "flash": {
+      "yolo_failure": 8,
+      "frcnn_failure": 40,
+      "intersection": 6,
+      "union": 42,
+      "jaccard": 0.14285714285714285,
+      "yolo_only": 2,
+      "frcnn_only": 34,
+      "consensus_hard": 6,
+      "consensus_easy": 46
+    },
+    "black": {
+      "yolo_failure": 6,
+      "frcnn_failure": 31,
+      "intersection": 3,
+      "union": 34,
+      "jaccard": 0.08823529411764706,
+      "yolo_only": 3,
+      "frcnn_only": 28,
+      "consensus_hard": 3,
+      "consensus_easy": 46
+    }
+  },
+  "0.1": {
+    "flash": {
+      "yolo_failure": 8,
+      "frcnn_failure": 40,
+      "intersection": 6,
+      "union": 42,
+      "jaccard": 0.14285714285714285,
+      "yolo_only": 2,
+      "frcnn_only": 34,
+      "consensus_hard": 6,
+      "consensus_easy": 46
+    },
+    "black": {
+      "yolo_failure": 11,
+      "frcnn_failure": 31,
+      "intersection": 6,
+      "union": 36,
+      "jaccard": 0.16666666666666666,
+      "yolo_only": 5,
+      "frcnn_only": 25,
+      "consensus_hard": 6,
+      "consensus_easy": 44
+    }
+  },
+  "0.15": {
+    "flash": {
+      "yolo_failure": 11,
+      "frcnn_failure": 40,
+      "intersection": 8,
+      "union": 43,
+      "jaccard": 0.18604651162790697,
+      "yolo_only": 3,
+      "frcnn_only": 32,
+      "consensus_hard": 8,
+      "consensus_easy": 45
+    },
+    "black": {
+      "yolo_failure": 11,
+      "frcnn_failure": 31,
+      "intersection": 6,
+      "union": 36,
+      "jaccard": 0.16666666666666666,
+      "yolo_only": 5,
+      "frcnn_only": 25,
+      "consensus_hard": 6,
+      "consensus_easy": 44
+    }
+  },
+  "0.2": {
+    "flash": {
+      "yolo_failure": 12,
+      "frcnn_failure": 40,
+      "intersection": 8,
+      "union": 44,
+      "jaccard": 0.18181818181818182,
+      "yolo_only": 4,
+      "frcnn_only": 32,
+      "consensus_hard": 8,
+      "consensus_easy": 44
+    },
+    "black": {
+      "yolo_failure": 11,
+      "frcnn_failure": 31,
+      "intersection": 6,
+      "union": 36,
+      "jaccard": 0.16666666666666666,
+      "yolo_only": 5,
+      "frcnn_only": 25,
+      "consensus_hard": 6,
+      "consensus_easy": 44
+    }
+  },
+  "0.25": {
+    "flash": {
+      "yolo_failure": 15,
+      "frcnn_failure": 40,
+      "intersection": 11,
+      "union": 44,
+      "jaccard": 0.25,
+      "yolo_only": 4,
+      "frcnn_only": 29,
+      "consensus_hard": 11,
+      "consensus_easy": 44
+    },
+    "black": {
+      "yolo_failure": 12,
+      "frcnn_failure": 31,
+      "intersection": 7,
+      "union": 36,
+      "jaccard": 0.19444444444444445,
+      "yolo_only": 5,
+      "frcnn_only": 24,
+      "consensus_hard": 7,
+      "consensus_easy": 44
+    }
+  },
+  "0.3": {
+    "flash": {
+      "yolo_failure": 18,
+      "frcnn_failure": 40,
+      "intersection": 12,
+      "union": 46,
+      "jaccard": 0.2608695652173913,
+      "yolo_only": 6,
+      "frcnn_only": 28,
+      "consensus_hard": 12,
+      "consensus_easy": 42
+    },
+    "black": {
+      "yolo_failure": 12,
+      "frcnn_failure": 32,
+      "intersection": 7,
+      "union": 37,
+      "jaccard": 0.1891891891891892,
+      "yolo_only": 5,
+      "frcnn_only": 25,
+      "consensus_hard": 7,
+      "consensus_easy": 43
+    }
+  },
+  "0.4": {
+    "flash": {
+      "yolo_failure": 22,
+      "frcnn_failure": 40,
+      "intersection": 13,
+      "union": 49,
+      "jaccard": 0.2653061224489796,
+      "yolo_only": 9,
+      "frcnn_only": 27,
+      "consensus_hard": 13,
+      "consensus_easy": 39
+    },
+    "black": {
+      "yolo_failure": 15,
+      "frcnn_failure": 32,
+      "intersection": 9,
+      "union": 38,
+      "jaccard": 0.23684210526315788,
+      "yolo_only": 6,
+      "frcnn_only": 23,
+      "consensus_hard": 9,
+      "consensus_easy": 42
+    }
+  },
+  "0.5": {
+    "flash": {
+      "yolo_failure": 31,
+      "frcnn_failure": 40,
+      "intersection": 18,
+      "union": 53,
+      "jaccard": 0.33962264150943394,
+      "yolo_only": 13,
+      "frcnn_only": 22,
+      "consensus_hard": 18,
+      "consensus_easy": 35
+    },
+    "black": {
+      "yolo_failure": 19,
+      "frcnn_failure": 34,
+      "intersection": 14,
+      "union": 39,
+      "jaccard": 0.358974358974359,
+      "yolo_only": 5,
+      "frcnn_only": 20,
+      "consensus_hard": 14,
+      "consensus_easy": 41
+    }
+  }
+}

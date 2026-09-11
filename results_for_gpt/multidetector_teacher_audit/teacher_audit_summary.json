@@ -1,0 +1,87 @@
+{
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "localization_only": {
+    "flash": {
+      "yolo_failure": 6,
+      "frcnn_failure": 40,
+      "intersection": 5,
+      "union": 41,
+      "jaccard": 0.12195121951219512,
+      "yolo_only": 1,
+      "frcnn_only": 35
+    },
+    "black": {
+      "yolo_failure": 5,
+      "frcnn_failure": 31,
+      "intersection": 2,
+      "union": 34,
+      "jaccard": 0.058823529411764705,
+      "yolo_only": 3,
+      "frcnn_only": 29
+    }
+  },
+  "raw_iou_correlation": {
+    "flash": {
+      "iou_spearman": 0.06537282941777324
+    },
+    "black": {
+      "iou_spearman": 0.27266760431317394
+    }
+  },
+  "teacher_quality": {
+    "yolo": {
+      "fold0": {
+        "precision_at_0.25": 0.8363636363636363,
+        "recall_at_0.25": 0.8363636363636363,
+        "AP50": 0.8751929756262455,
+        "AP50-95": 0.4463836855559139
+      },
+      "fold1": {
+        "precision_at_0.25": 0.8703703703703703,
+        "recall_at_0.25": 0.8392857142857143,
+        "AP50": 0.8326184595418703,
+        "AP50-95": 0.43645509968866925
+      },
+      "fold2": {
+        "precision_at_0.25": 0.6619718309859155,
+        "recall_at_0.25": 0.8245614035087719,
+        "AP50": 0.7543709938590328,
+        "AP50-95": 0.33332798774735595
+      }
+    },
+    "frcnn": {
+      "fold0": {
+        "precision_at_0.25": 0.0,
+        "recall_at_0.25": 0.0,
+        "AP50": 0.0,
+        "AP50-95": 0.0
+      },
+      "fold1": {
+        "precision_at_0.25": 0.8095238095238095,
+        "recall_at_0.25": 0.9107142857142857,
+        "AP50": 0.85634986084684,
+        "AP50-95": 0.32199122091885823
+      },
+      "fold2": {
+        "precision_at_0.25": 0.8035714285714286,
+        "recall_at_0.25": 0.7894736842105263,
+        "AP50": 0.7358533969177103,
+        "AP50-95": 0.28004335546729114
+      }
+    }
+  },
+  "status": {
+    "teacher_quality": "FRCNN_TEACHER_TOO_WEAK",
+    "multiview": "MULTIVIEW_ROBUST"
+  },
+  "recommendation": "DO_NOT_USE_FRCNN_AS_TEACHER"
+}

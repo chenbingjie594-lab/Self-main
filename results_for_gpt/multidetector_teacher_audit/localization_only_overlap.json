@@ -1,0 +1,20 @@
+{
+  "flash": {
+    "yolo_failure": 6,
+    "frcnn_failure": 40,
+    "intersection": 5,
+    "union": 41,
+    "jaccard": 0.12195121951219512,
+    "yolo_only": 1,
+    "frcnn_only": 35
+  },
+  "black": {
+    "yolo_failure": 5,
+    "frcnn_failure": 31,
+    "intersection": 2,
+    "union": 34,
+    "jaccard": 0.058823529411764705,
+    "yolo_only": 3,
+    "frcnn_only": 29
+  }
+}
