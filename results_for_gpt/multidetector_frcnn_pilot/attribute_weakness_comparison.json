@@ -1,0 +1,144 @@
+{
+  "flash": {
+    "scale_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_success": 21,
+        "frcnn_success": 19,
+        "yolo_recall": 0.7241379310344828,
+        "frcnn_recall": 0.6551724137931034
+      },
+      "large": {
+        "n": 29,
+        "yolo_success": 15,
+        "frcnn_success": 15,
+        "yolo_recall": 0.5172413793103449,
+        "frcnn_recall": 0.5172413793103449
+      },
+      "tiny": {
+        "n": 30,
+        "yolo_success": 23,
+        "frcnn_success": 14,
+        "yolo_recall": 0.7666666666666667,
+        "frcnn_recall": 0.4666666666666667
+      }
+    },
+    "contrast_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_success": 21,
+        "frcnn_success": 16,
+        "yolo_recall": 0.7241379310344828,
+        "frcnn_recall": 0.5517241379310345
+      },
+      "high": {
+        "n": 29,
+        "yolo_success": 18,
+        "frcnn_success": 15,
+        "yolo_recall": 0.6206896551724138,
+        "frcnn_recall": 0.5172413793103449
+      },
+      "low": {
+        "n": 30,
+        "yolo_success": 20,
+        "frcnn_success": 17,
+        "yolo_recall": 0.6666666666666666,
+        "frcnn_recall": 0.5666666666666667
+      }
+    },
+    "morphology_bin": {
+      "medium": {
+        "n": 29,
+        "yolo_success": 21,
+        "frcnn_success": 15,
+        "yolo_recall": 0.7241379310344828,
+        "frcnn_recall": 0.5172413793103449
+      },
+      "elongated": {
+        "n": 29,
+        "yolo_success": 19,
+        "frcnn_success": 18,
+        "yolo_recall": 0.6551724137931034,
+        "frcnn_recall": 0.6206896551724138
+      },
+      "compact": {
+        "n": 30,
+        "yolo_success": 19,
+        "frcnn_success": 15,
+        "yolo_recall": 0.6333333333333333,
+        "frcnn_recall": 0.5
+      }
+    }
+  },
+  "black": {
+    "scale_bin": {
+      "medium": {
+        "n": 26,
+        "yolo_success": 24,
+        "frcnn_success": 16,
+        "yolo_recall": 0.9230769230769231,
+        "frcnn_recall": 0.6153846153846154
+      },
+      "large": {
+        "n": 27,
+        "yolo_success": 22,
+        "frcnn_success": 18,
+        "yolo_recall": 0.8148148148148148,
+        "frcnn_recall": 0.6666666666666666
+      },
+      "tiny": {
+        "n": 27,
+        "yolo_success": 18,
+        "frcnn_success": 14,
+        "yolo_recall": 0.6666666666666666,
+        "frcnn_recall": 0.5185185185185185
+      }
+    },
+    "contrast_bin": {
+      "medium": {
+        "n": 26,
+        "yolo_success": 22,
+        "frcnn_success": 15,
+        "yolo_recall": 0.8461538461538461,
+        "frcnn_recall": 0.5769230769230769
+      },
+      "high": {
+        "n": 27,
+        "yolo_success": 25,
+        "frcnn_success": 18,
+        "yolo_recall": 0.9259259259259259,
+        "frcnn_recall": 0.6666666666666666
+      },
+      "low": {
+        "n": 27,
+        "yolo_success": 17,
+        "frcnn_success": 15,
+        "yolo_recall": 0.6296296296296297,
+        "frcnn_recall": 0.5555555555555556
+      }
+    },
+    "morphology_bin": {
+      "compact": {
+        "n": 27,
+        "yolo_success": 23,
+        "frcnn_success": 15,
+        "yolo_recall": 0.8518518518518519,
+        "frcnn_recall": 0.5555555555555556
+      },
+      "elongated": {
+        "n": 27,
+        "yolo_success": 18,
+        "frcnn_success": 16,
+        "yolo_recall": 0.6666666666666666,
+        "frcnn_recall": 0.5925925925925926
+      },
+      "medium": {
+        "n": 26,
+        "yolo_success": 23,
+        "frcnn_success": 17,
+        "yolo_recall": 0.8846153846153846,
+        "frcnn_recall": 0.6538461538461539
+      }
+    }
+  }
+}

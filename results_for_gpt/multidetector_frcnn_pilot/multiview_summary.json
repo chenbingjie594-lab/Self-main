@@ -1,0 +1,50 @@
+{
+  "records": 168,
+  "quality": {
+    "flash": {
+      "n": 88,
+      "yolo_instance_recall": 0.6704545454545454,
+      "frcnn_instance_recall": 0.5454545454545454
+    },
+    "black": {
+      "n": 80,
+      "yolo_instance_recall": 0.8,
+      "frcnn_instance_recall": 0.6
+    }
+  },
+  "overlap": {
+    "flash": {
+      "yolo_failure": 29,
+      "frcnn_failure": 40,
+      "intersection": 19,
+      "union": 50,
+      "failure_jaccard": 0.38,
+      "yolo_only": 10,
+      "frcnn_only": 21,
+      "consensus_hard": 19,
+      "consensus_easy": 38
+    },
+    "black": {
+      "yolo_failure": 16,
+      "frcnn_failure": 32,
+      "intersection": 9,
+      "union": 39,
+      "failure_jaccard": 0.23076923076923078,
+      "yolo_only": 7,
+      "frcnn_only": 23,
+      "consensus_hard": 9,
+      "consensus_easy": 41
+    }
+  },
+  "correlation": {
+    "flash": {
+      "confidence_spearman": 0.2150329329717164,
+      "iou_spearman": 0.06222042196470714
+    },
+    "black": {
+      "confidence_spearman": 0.18888888888888888,
+      "iou_spearman": 0.1875293014533521
+    }
+  },
+  "status": "MULTI_VIEW_COMPLEMENTARY"
+}
