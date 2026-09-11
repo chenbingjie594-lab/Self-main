@@ -12,29 +12,29 @@
   "localization_only": {
     "flash": {
       "yolo_failure": 6,
-      "frcnn_failure": 40,
-      "intersection": 5,
-      "union": 41,
-      "jaccard": 0.12195121951219512,
-      "yolo_only": 1,
-      "frcnn_only": 35
+      "frcnn_failure": 13,
+      "intersection": 4,
+      "union": 15,
+      "jaccard": 0.26666666666666666,
+      "yolo_only": 2,
+      "frcnn_only": 9
     },
     "black": {
       "yolo_failure": 5,
-      "frcnn_failure": 31,
-      "intersection": 2,
-      "union": 34,
-      "jaccard": 0.058823529411764705,
-      "yolo_only": 3,
-      "frcnn_only": 29
+      "frcnn_failure": 6,
+      "intersection": 1,
+      "union": 10,
+      "jaccard": 0.1,
+      "yolo_only": 4,
+      "frcnn_only": 5
     }
   },
   "raw_iou_correlation": {
     "flash": {
-      "iou_spearman": 0.06537282941777324
+      "iou_spearman": 0.3810714663097461
     },
     "black": {
-      "iou_spearman": 0.27266760431317394
+      "iou_spearman": 0.5397796530707922
     }
   },
   "teacher_quality": {
@@ -60,10 +60,10 @@
     },
     "frcnn": {
       "fold0": {
-        "precision_at_0.25": 0.0,
-        "recall_at_0.25": 0.0,
-        "AP50": 0.0,
-        "AP50-95": 0.0
+        "precision_at_0.25": 0.8421052631578947,
+        "recall_at_0.25": 0.8727272727272727,
+        "AP50": 0.8940495668157039,
+        "AP50-95": 0.37318350215546514
       },
       "fold1": {
         "precision_at_0.25": 0.8095238095238095,
@@ -80,8 +80,8 @@
     }
   },
   "status": {
-    "teacher_quality": "FRCNN_TEACHER_TOO_WEAK",
+    "teacher_quality": "FRCNN_TEACHER_QUALIFIED",
     "multiview": "MULTIVIEW_ROBUST"
   },
-  "recommendation": "DO_NOT_USE_FRCNN_AS_TEACHER"
+  "recommendation": "FREEZE_YOLO_FRCNN_TEACHERS"
 }

@@ -1,10 +1,10 @@
 # Multi-Detector Teacher Qualification Audit
 
 {
-  "teacher_quality": "FRCNN_TEACHER_TOO_WEAK",
+  "teacher_quality": "FRCNN_TEACHER_QUALIFIED",
   "multiview": "MULTIVIEW_ROBUST"
 }
 
-Recommendation: **DO_NOT_USE_FRCNN_AS_TEACHER**
+Recommendation: **FREEZE_YOLO_FRCNN_TEACHERS**
 
 No synthetic scoring or downstream training was performed.
