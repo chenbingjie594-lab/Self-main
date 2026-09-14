@@ -1,0 +1,54 @@
+{
+  "flash": {
+    "n": 40,
+    "scale_bin": {
+      "large": 0.325,
+      "medium": 0.325,
+      "tiny": 0.35
+    },
+    "contrast_bin": {
+      "high": 0.325,
+      "low": 0.35,
+      "medium": 0.325
+    },
+    "morphology_bin": {
+      "compact": 0.35,
+      "elongated": 0.325,
+      "medium": 0.325
+    },
+    "weakness_count": {
+      "0": 1.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "2+": 0.0,
+      "3-way": 0.0
+    }
+  },
+  "black": {
+    "n": 40,
+    "scale_bin": {
+      "large": 0.325,
+      "medium": 0.35,
+      "tiny": 0.325
+    },
+    "contrast_bin": {
+      "high": 0.35,
+      "low": 0.325,
+      "medium": 0.325
+    },
+    "morphology_bin": {
+      "compact": 0.3,
+      "elongated": 0.375,
+      "medium": 0.325
+    },
+    "weakness_count": {
+      "0": 0.475,
+      "1": 0.4,
+      "2": 0.125,
+      "3": 0.0,
+      "2+": 0.125,
+      "3-way": 0.0
+    }
+  }
+}
