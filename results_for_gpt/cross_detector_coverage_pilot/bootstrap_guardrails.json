@@ -1,0 +1,126 @@
+{
+  "flash": {
+    "scale_bin:large": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "scale_bin:medium": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "scale_bin:tiny": {
+      "q05": 0.225,
+      "q95": 0.475
+    },
+    "contrast_bin:high": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "contrast_bin:low": {
+      "q05": 0.225,
+      "q95": 0.475
+    },
+    "contrast_bin:medium": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "morphology_bin:compact": {
+      "q05": 0.225,
+      "q95": 0.475
+    },
+    "morphology_bin:elongated": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "morphology_bin:medium": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "weakness_count:0": {
+      "q05": 1.0,
+      "q95": 1.0
+    },
+    "weakness_count:1": {
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "weakness_count:2": {
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "weakness_count:3": {
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "weakness_count:2+": {
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "weakness_count:3-way": {
+      "q05": 0.0,
+      "q95": 0.0
+    }
+  },
+  "black": {
+    "scale_bin:large": {
+      "q05": 0.225,
+      "q95": 0.45
+    },
+    "scale_bin:medium": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "scale_bin:tiny": {
+      "q05": 0.225,
+      "q95": 0.45
+    },
+    "contrast_bin:high": {
+      "q05": 0.225,
+      "q95": 0.45
+    },
+    "contrast_bin:low": {
+      "q05": 0.225,
+      "q95": 0.45
+    },
+    "contrast_bin:medium": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "morphology_bin:compact": {
+      "q05": 0.225,
+      "q95": 0.45
+    },
+    "morphology_bin:elongated": {
+      "q05": 0.225,
+      "q95": 0.475
+    },
+    "morphology_bin:medium": {
+      "q05": 0.2,
+      "q95": 0.45
+    },
+    "weakness_count:0": {
+      "q05": 0.325,
+      "q95": 0.6
+    },
+    "weakness_count:1": {
+      "q05": 0.275,
+      "q95": 0.525
+    },
+    "weakness_count:2": {
+      "q05": 0.05,
+      "q95": 0.225
+    },
+    "weakness_count:3": {
+      "q05": 0.0,
+      "q95": 0.0
+    },
+    "weakness_count:2+": {
+      "q05": 0.05,
+      "q95": 0.225
+    },
+    "weakness_count:3-way": {
+      "q05": 0.0,
+      "q95": 0.0
+    }
+  }
+}

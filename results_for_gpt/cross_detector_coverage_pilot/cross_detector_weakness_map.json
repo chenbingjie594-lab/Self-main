@@ -1,0 +1,267 @@
+{
+  "map": {
+    "flash": {
+      "scale_bin": {
+        "bins": [
+          {
+            "bin": "tiny",
+            "n": 30,
+            "recall_yolo": 0.7666666666666667,
+            "recall_frcnn": 0.6333333333333333,
+            "weakness_yolo": 0.23333333333333328,
+            "weakness_frcnn": 0.3666666666666667,
+            "consensus_weakness": 0.23333333333333328,
+            "model_specific_gap": 0.13333333333333341,
+            "rank": 1
+          },
+          {
+            "bin": "large",
+            "n": 29,
+            "recall_yolo": 0.5517241379310345,
+            "recall_frcnn": 0.9310344827586207,
+            "weakness_yolo": 0.4482758620689655,
+            "weakness_frcnn": 0.06896551724137934,
+            "consensus_weakness": 0.06896551724137934,
+            "model_specific_gap": 0.3793103448275862,
+            "rank": 2
+          },
+          {
+            "bin": "medium",
+            "n": 29,
+            "recall_yolo": 0.7586206896551724,
+            "recall_frcnn": 0.9310344827586207,
+            "weakness_yolo": 0.24137931034482762,
+            "weakness_frcnn": 0.06896551724137934,
+            "consensus_weakness": 0.06896551724137934,
+            "model_specific_gap": 0.1724137931034483,
+            "rank": 3
+          }
+        ],
+        "rank1": "tiny",
+        "architecture_dependent": true,
+        "consensus_constraint_bin": null,
+        "rule": "rank1 for both architectures and model_specific_gap <= consensus_weakness"
+      },
+      "contrast_bin": {
+        "bins": [
+          {
+            "bin": "medium",
+            "n": 29,
+            "recall_yolo": 0.7586206896551724,
+            "recall_frcnn": 0.7931034482758621,
+            "weakness_yolo": 0.24137931034482762,
+            "weakness_frcnn": 0.2068965517241379,
+            "consensus_weakness": 0.2068965517241379,
+            "model_specific_gap": 0.034482758620689724,
+            "rank": 1
+          },
+          {
+            "bin": "high",
+            "n": 29,
+            "recall_yolo": 0.6551724137931034,
+            "recall_frcnn": 0.8275862068965517,
+            "weakness_yolo": 0.3448275862068966,
+            "weakness_frcnn": 0.1724137931034483,
+            "consensus_weakness": 0.1724137931034483,
+            "model_specific_gap": 0.1724137931034483,
+            "rank": 2
+          },
+          {
+            "bin": "low",
+            "n": 30,
+            "recall_yolo": 0.6666666666666666,
+            "recall_frcnn": 0.8666666666666667,
+            "weakness_yolo": 0.33333333333333337,
+            "weakness_frcnn": 0.1333333333333333,
+            "consensus_weakness": 0.1333333333333333,
+            "model_specific_gap": 0.20000000000000007,
+            "rank": 3
+          }
+        ],
+        "rank1": "medium",
+        "architecture_dependent": true,
+        "consensus_constraint_bin": null,
+        "rule": "rank1 for both architectures and model_specific_gap <= consensus_weakness"
+      },
+      "morphology_bin": {
+        "bins": [
+          {
+            "bin": "medium",
+            "n": 29,
+            "recall_yolo": 0.7241379310344828,
+            "recall_frcnn": 0.7586206896551724,
+            "weakness_yolo": 0.27586206896551724,
+            "weakness_frcnn": 0.24137931034482762,
+            "consensus_weakness": 0.24137931034482762,
+            "model_specific_gap": 0.03448275862068961,
+            "rank": 1
+          },
+          {
+            "bin": "elongated",
+            "n": 29,
+            "recall_yolo": 0.7241379310344828,
+            "recall_frcnn": 0.8275862068965517,
+            "weakness_yolo": 0.27586206896551724,
+            "weakness_frcnn": 0.1724137931034483,
+            "consensus_weakness": 0.1724137931034483,
+            "model_specific_gap": 0.10344827586206895,
+            "rank": 2
+          },
+          {
+            "bin": "compact",
+            "n": 30,
+            "recall_yolo": 0.6333333333333333,
+            "recall_frcnn": 0.9,
+            "weakness_yolo": 0.3666666666666667,
+            "weakness_frcnn": 0.09999999999999998,
+            "consensus_weakness": 0.09999999999999998,
+            "model_specific_gap": 0.2666666666666667,
+            "rank": 3
+          }
+        ],
+        "rank1": "medium",
+        "architecture_dependent": true,
+        "consensus_constraint_bin": null,
+        "rule": "rank1 for both architectures and model_specific_gap <= consensus_weakness"
+      }
+    },
+    "black": {
+      "scale_bin": {
+        "bins": [
+          {
+            "bin": "tiny",
+            "n": 27,
+            "recall_yolo": 0.7037037037037037,
+            "recall_frcnn": 0.8148148148148148,
+            "weakness_yolo": 0.2962962962962963,
+            "weakness_frcnn": 0.18518518518518523,
+            "consensus_weakness": 0.18518518518518523,
+            "model_specific_gap": 0.11111111111111105,
+            "rank": 1
+          },
+          {
+            "bin": "large",
+            "n": 27,
+            "recall_yolo": 0.8888888888888888,
+            "recall_frcnn": 0.9259259259259259,
+            "weakness_yolo": 0.11111111111111116,
+            "weakness_frcnn": 0.07407407407407407,
+            "consensus_weakness": 0.07407407407407407,
+            "model_specific_gap": 0.03703703703703709,
+            "rank": 2
+          },
+          {
+            "bin": "medium",
+            "n": 26,
+            "recall_yolo": 0.9230769230769231,
+            "recall_frcnn": 1.0,
+            "weakness_yolo": 0.07692307692307687,
+            "weakness_frcnn": 0.0,
+            "consensus_weakness": 0.0,
+            "model_specific_gap": 0.07692307692307687,
+            "rank": 3
+          }
+        ],
+        "rank1": "tiny",
+        "architecture_dependent": false,
+        "consensus_constraint_bin": "tiny",
+        "rule": "rank1 for both architectures and model_specific_gap <= consensus_weakness"
+      },
+      "contrast_bin": {
+        "bins": [
+          {
+            "bin": "low",
+            "n": 27,
+            "recall_yolo": 0.6666666666666666,
+            "recall_frcnn": 0.8148148148148148,
+            "weakness_yolo": 0.33333333333333337,
+            "weakness_frcnn": 0.18518518518518523,
+            "consensus_weakness": 0.18518518518518523,
+            "model_specific_gap": 0.14814814814814814,
+            "rank": 1
+          },
+          {
+            "bin": "medium",
+            "n": 26,
+            "recall_yolo": 0.8846153846153846,
+            "recall_frcnn": 0.9615384615384616,
+            "weakness_yolo": 0.11538461538461542,
+            "weakness_frcnn": 0.038461538461538436,
+            "consensus_weakness": 0.038461538461538436,
+            "model_specific_gap": 0.07692307692307698,
+            "rank": 2
+          },
+          {
+            "bin": "high",
+            "n": 27,
+            "recall_yolo": 0.9629629629629629,
+            "recall_frcnn": 0.9629629629629629,
+            "weakness_yolo": 0.03703703703703709,
+            "weakness_frcnn": 0.03703703703703709,
+            "consensus_weakness": 0.03703703703703709,
+            "model_specific_gap": 0.0,
+            "rank": 3
+          }
+        ],
+        "rank1": "low",
+        "architecture_dependent": false,
+        "consensus_constraint_bin": "low",
+        "rule": "rank1 for both architectures and model_specific_gap <= consensus_weakness"
+      },
+      "morphology_bin": {
+        "bins": [
+          {
+            "bin": "compact",
+            "n": 27,
+            "recall_yolo": 0.8888888888888888,
+            "recall_frcnn": 0.8888888888888888,
+            "weakness_yolo": 0.11111111111111116,
+            "weakness_frcnn": 0.11111111111111116,
+            "consensus_weakness": 0.11111111111111116,
+            "model_specific_gap": 0.0,
+            "rank": 1
+          },
+          {
+            "bin": "elongated",
+            "n": 27,
+            "recall_yolo": 0.7407407407407407,
+            "recall_frcnn": 0.8888888888888888,
+            "weakness_yolo": 0.2592592592592593,
+            "weakness_frcnn": 0.11111111111111116,
+            "consensus_weakness": 0.11111111111111116,
+            "model_specific_gap": 0.14814814814814814,
+            "rank": 2
+          },
+          {
+            "bin": "medium",
+            "n": 26,
+            "recall_yolo": 0.8846153846153846,
+            "recall_frcnn": 0.9615384615384616,
+            "weakness_yolo": 0.11538461538461542,
+            "weakness_frcnn": 0.038461538461538436,
+            "consensus_weakness": 0.038461538461538436,
+            "model_specific_gap": 0.07692307692307698,
+            "rank": 3
+          }
+        ],
+        "rank1": "compact",
+        "architecture_dependent": true,
+        "consensus_constraint_bin": null,
+        "rule": "rank1 for both architectures and model_specific_gap <= consensus_weakness"
+      }
+    }
+  },
+  "consensus_supported_bins": {
+    "flash": [],
+    "black": [
+      [
+        "scale_bin",
+        "tiny"
+      ],
+      [
+        "contrast_bin",
+        "low"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "distributions": {
+    "flash": {
+      "random": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.375,
+          "medium": 0.275,
+          "tiny": 0.35
+        },
+        "contrast_bin": {
+          "high": 0.325,
+          "low": 0.35,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.175,
+          "elongated": 0.65,
+          "medium": 0.175
+        },
+        "weakness_count": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "2+": 0.0,
+          "3-way": 0.0
+        }
+      },
+      "dwbg": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.325,
+          "tiny": 0.35
+        },
+        "contrast_bin": {
+          "high": 0.275,
+          "low": 0.475,
+          "medium": 0.25
+        },
+        "morphology_bin": {
+          "compact": 0.275,
+          "elongated": 0.525,
+          "medium": 0.2
+        },
+        "weakness_count": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "2+": 0.0,
+          "3-way": 0.0
+        }
+      },
+      "cdcc": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.325,
+          "tiny": 0.35
+        },
+        "contrast_bin": {
+          "high": 0.325,
+          "low": 0.35,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.35,
+          "elongated": 0.325,
+          "medium": 0.325
+        },
+        "weakness_count": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "2+": 0.0,
+          "3-way": 0.0
+        }
+      }
+    },
+    "black": {
+      "random": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.175,
+          "medium": 0.375,
+          "tiny": 0.45
+        },
+        "contrast_bin": {
+          "high": 0.5,
+          "low": 0.175,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.175,
+          "elongated": 0.7,
+          "medium": 0.125
+        },
+        "weakness_count": {
+          "0": 0.425,
+          "1": 0.525,
+          "2": 0.05,
+          "3": 0.0,
+          "2+": 0.05,
+          "3-way": 0.0
+        }
+      },
+      "dwbg": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.15,
+          "medium": 0.375,
+          "tiny": 0.475
+        },
+        "contrast_bin": {
+          "high": 0.25,
+          "low": 0.5,
+          "medium": 0.25
+        },
+        "morphology_bin": {
+          "compact": 0.075,
+          "elongated": 0.775,
+          "medium": 0.15
+        },
+        "weakness_count": {
+          "0": 0.225,
+          "1": 0.575,
+          "2": 0.2,
+          "3": 0.0,
+          "2+": 0.2,
+          "3-way": 0.0
+        }
+      },
+      "cdcc": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.35,
+          "tiny": 0.325
+        },
+        "contrast_bin": {
+          "high": 0.35,
+          "low": 0.325,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.3,
+          "elongated": 0.375,
+          "medium": 0.325
+        },
+        "weakness_count": {
+          "0": 0.475,
+          "1": 0.4,
+          "2": 0.125,
+          "3": 0.0,
+          "2+": 0.125,
+          "3-way": 0.0
+        }
+      }
+    }
+  },
+  "overlap": {
+    "flash": {
+      "cdcc_vs_random": {
+        "count": 5,
+        "jaccard": 0.06666666666666667,
+        "candidate_ids": [
+          "dwbg_0_19997_69_000470",
+          "dwbg_0_24571_0_000503",
+          "dwbg_0_24571_74_000557",
+          "dwbg_0_30103_36_000612",
+          "dwbg_0_42_13_000003"
+        ]
+      },
+      "cdcc_vs_dwbg": {
+        "count": 6,
+        "jaccard": 0.08108108108108109,
+        "candidate_ids": [
+          "dwbg_0_12011_11_000002_c12012",
+          "dwbg_0_12011_17_000262",
+          "dwbg_0_12011_64_000298",
+          "dwbg_0_19997_2_000425",
+          "dwbg_0_24571_8_000559",
+          "dwbg_0_3407_17_000091"
+        ]
+      }
+    },
+    "black": {
+      "cdcc_vs_random": {
+        "count": 9,
+        "jaccard": 0.1267605633802817,
+        "candidate_ids": [
+          "dwbg_1_19997_7_000500",
+          "dwbg_1_24571_12_000563",
+          "dwbg_1_3407_23_000155",
+          "dwbg_1_42_13_000064",
+          "dwbg_1_42_23_000070",
+          "dwbg_1_42_29_000074",
+          "dwbg_1_42_4_000080",
+          "dwbg_1_7859_28_000246",
+          "dwbg_1_7859_8_000253"
+        ]
+      },
+      "cdcc_vs_dwbg": {
+        "count": 13,
+        "jaccard": 0.19402985074626866,
+        "candidate_ids": [
+          "dwbg_1_19997_5_000499",
+          "dwbg_1_19997_7_000500",
+          "dwbg_1_24571_18_000568",
+          "dwbg_1_24571_24_000574",
+          "dwbg_1_24571_32_000580",
+          "dwbg_1_3407_19_000151",
+          "dwbg_1_3407_23_000155",
+          "dwbg_1_42_23_000070",
+          "dwbg_1_42_29_000074",
+          "dwbg_1_42_2_000068",
+          "dwbg_1_42_34_000078",
+          "dwbg_1_42_35_000079",
+          "dwbg_1_7859_16_000237"
+        ]
+      }
+    }
+  },
+  "out_of_range": {
+    "flash": {
+      "random": {
+        "morphology_bin:compact": {
+          "value": 0.175,
+          "q05": 0.225,
+          "q95": 0.475,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.65,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:medium": {
+          "value": 0.175,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        }
+      },
+      "dwbg": {
+        "morphology_bin:elongated": {
+          "value": 0.525,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        }
+      },
+      "cdcc": {}
+    },
+    "black": {
+      "random": {
+        "scale_bin:large": {
+          "value": 0.175,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "contrast_bin:high": {
+          "value": 0.5,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "contrast_bin:low": {
+          "value": 0.175,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:compact": {
+          "value": 0.175,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.7,
+          "q05": 0.225,
+          "q95": 0.475,
+          "inside": false
+        },
+        "morphology_bin:medium": {
+          "value": 0.125,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        }
+      },
+      "dwbg": {
+        "scale_bin:large": {
+          "value": 0.15,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "scale_bin:tiny": {
+          "value": 0.475,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "contrast_bin:low": {
+          "value": 0.5,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:compact": {
+          "value": 0.075,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.775,
+          "q05": 0.225,
+          "q95": 0.475,
+          "inside": false
+        },
+        "morphology_bin:medium": {
+          "value": 0.15,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        },
+        "weakness_count:0": {
+          "value": 0.225,
+          "q05": 0.325,
+          "q95": 0.6,
+          "inside": false
+        },
+        "weakness_count:1": {
+          "value": 0.575,
+          "q05": 0.275,
+          "q95": 0.525,
+          "inside": false
+        }
+      },
+      "cdcc": {}
+    }
+  },
+  "cross_detector_view_category": {
+    "flash": {
+      "random": {
+        "available": 40,
+        "missing": 0,
+        "ratios": {
+          "CONSENSUS_HARD": 0.8,
+          "YOLO_SPECIFIC_HARD": 0.05,
+          "FRCNN_SPECIFIC_HARD": 0.15,
+          "CONSENSUS_EASY": 0.0
+        }
+      },
+      "dwbg": {
+        "available": 40,
+        "missing": 0,
+        "ratios": {
+          "CONSENSUS_HARD": 0.575,
+          "YOLO_SPECIFIC_HARD": 0.025,
+          "FRCNN_SPECIFIC_HARD": 0.4,
+          "CONSENSUS_EASY": 0.0
+        }
+      },
+      "cdcc": {
+        "available": 40,
+        "missing": 0,
+        "ratios": {
+          "CONSENSUS_HARD": 0.9,
+          "YOLO_SPECIFIC_HARD": 0.025,
+          "FRCNN_SPECIFIC_HARD": 0.075,
+          "CONSENSUS_EASY": 0.0
+        }
+      }
+    },
+    "black": {
+      "random": {
+        "available": 40,
+        "missing": 0,
+        "ratios": {
+          "CONSENSUS_HARD": 0.25,
+          "YOLO_SPECIFIC_HARD": 0.125,
+          "FRCNN_SPECIFIC_HARD": 0.025,
+          "CONSENSUS_EASY": 0.6
+        }
+      },
+      "dwbg": {
+        "available": 40,
+        "missing": 0,
+        "ratios": {
+          "CONSENSUS_HARD": 0.2,
+          "YOLO_SPECIFIC_HARD": 0.175,
+          "FRCNN_SPECIFIC_HARD": 0.075,
+          "CONSENSUS_EASY": 0.55
+        }
+      },
+      "cdcc": {
+        "available": 40,
+        "missing": 0,
+        "ratios": {
+          "CONSENSUS_HARD": 0.3,
+          "YOLO_SPECIFIC_HARD": 0.15,
+          "FRCNN_SPECIFIC_HARD": 0.0,
+          "CONSENSUS_EASY": 0.55
+        }
+      }
+    }
+  },
+  "status": "CDCC_OFFLINE_FEASIBLE"
+}
