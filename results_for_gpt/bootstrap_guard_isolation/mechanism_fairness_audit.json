@@ -1,0 +1,11 @@
+{
+  "same_frozen_candidate_pool": true,
+  "same_eligibility": true,
+  "same_class_count": true,
+  "same_parent_cap": true,
+  "same_seed_cap": true,
+  "same_required_background_diversity": true,
+  "same_manifold_definition": true,
+  "only_mechanism_difference": "BootstrapGuard uses real bootstrap distribution guard; DiversityQuality does not",
+  "passed": true
+}
