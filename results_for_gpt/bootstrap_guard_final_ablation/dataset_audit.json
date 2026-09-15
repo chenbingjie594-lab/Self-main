@@ -1,0 +1,20 @@
+{
+  "manifest_path": "results_for_gpt/bootstrap_guard_isolation/diversity_quality_manifest_40_40.json",
+  "manifest_sha256": "f5ea602d7cf397cb25bed806002b9c38e59fd5f9a96959c7bb3f6ce696cd7dfa",
+  "candidate_ids_sha256": "dc8887800f7c6563322b4776bb6175139e560073932a6152df549190da1b8e0f",
+  "candidate_count": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "duplicates": 0,
+  "missing_images": 0,
+  "missing_labels": 0,
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "validation_hash": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+  "expected_validation_hash": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+  "validation_hash_matches": true,
+  "yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/bootstrap_guard_isolation_downstream/diversity_quality.yaml"
+}
