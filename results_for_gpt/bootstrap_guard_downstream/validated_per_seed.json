@@ -1,0 +1,295 @@
+{
+  "validated_on_real_val": true,
+  "imgsz": 1536,
+  "batch": 1,
+  "records": [
+    {
+      "arm": "real_only",
+      "seed": 42,
+      "run_dir": "runs/dwbg_v2_final_40_40/real_only_s42",
+      "reused": true,
+      "best_epoch": 150,
+      "stop_epoch": 150,
+      "precision": 0.8438409744346558,
+      "recall": 0.8025489226194795,
+      "map50": 0.7759395271387801,
+      "map5095": 0.40157550773631306,
+      "per_class": {
+        "flash": {
+          "ap50": 0.7699710243989422,
+          "ap5095": 0.36406653085944596,
+          "recall": 0.85
+        },
+        "black": {
+          "ap50": 0.7819080298786181,
+          "ap5095": 0.43908448461318006,
+          "recall": 0.7550978452389591
+        }
+      }
+    },
+    {
+      "arm": "random",
+      "seed": 42,
+      "run_dir": "runs/dwbg_v2_final_40_40/real_random_matched_s42",
+      "reused": true,
+      "best_epoch": 77,
+      "stop_epoch": 117,
+      "precision": 0.8929760351277449,
+      "recall": 0.7894731109222128,
+      "map50": 0.8639691276764254,
+      "map5095": 0.4261257580283093,
+      "per_class": {
+        "flash": {
+          "ap50": 0.8976841587698907,
+          "ap5095": 0.4264856361848414,
+          "recall": 0.9
+        },
+        "black": {
+          "ap50": 0.8302540965829601,
+          "ap5095": 0.4257658798717774,
+          "recall": 0.6789462218444255
+        }
+      }
+    },
+    {
+      "arm": "dwbg",
+      "seed": 42,
+      "run_dir": "runs/dwbg_v2_final_40_40/real_dwbg_v2_s42",
+      "reused": true,
+      "best_epoch": 124,
+      "stop_epoch": 150,
+      "precision": 0.885219870019401,
+      "recall": 0.8427645629808136,
+      "map50": 0.8670180450567241,
+      "map5095": 0.40876935109733725,
+      "per_class": {
+        "flash": {
+          "ap50": 0.8962266899766897,
+          "ap5095": 0.4066673286791495,
+          "recall": 0.9
+        },
+        "black": {
+          "ap50": 0.8378094001367584,
+          "ap5095": 0.4108713735155251,
+          "recall": 0.7855291259616272
+        }
+      }
+    },
+    {
+      "arm": "bootstrap_guard",
+      "seed": 42,
+      "run_dir": "runs/bootstrap_guard_downstream/bootstrap_guard_s42",
+      "reused": false,
+      "best_epoch": 124,
+      "stop_epoch": 150,
+      "precision": 0.9120998031357838,
+      "recall": 0.918952130490492,
+      "map50": 0.8903556933787664,
+      "map5095": 0.43950726709764815,
+      "per_class": {
+        "flash": {
+          "ap50": 0.9086363636363637,
+          "ap5095": 0.41239774041941724,
+          "recall": 0.996995170071893
+        },
+        "black": {
+          "ap50": 0.8720750231211692,
+          "ap5095": 0.46661679377587895,
+          "recall": 0.8409090909090909
+        }
+      }
+    },
+    {
+      "arm": "real_only",
+      "seed": 3407,
+      "run_dir": "runs/bootstrap_guard_downstream/real_only_s3407",
+      "reused": false,
+      "best_epoch": 91,
+      "stop_epoch": 131,
+      "precision": 0.8947275353090235,
+      "recall": 0.8806077807873465,
+      "map50": 0.8792614466971933,
+      "map5095": 0.43466004334184555,
+      "per_class": {
+        "flash": {
+          "ap50": 0.9529545454545456,
+          "ap5095": 0.4163039502016203,
+          "recall": 1.0
+        },
+        "black": {
+          "ap50": 0.805568347939841,
+          "ap5095": 0.4530161364820707,
+          "recall": 0.7612155615746928
+        }
+      }
+    },
+    {
+      "arm": "random",
+      "seed": 3407,
+      "run_dir": "runs/bootstrap_guard_downstream/random_s3407",
+      "reused": false,
+      "best_epoch": 111,
+      "stop_epoch": 150,
+      "precision": 0.9015442780819984,
+      "recall": 0.8613636363636363,
+      "map50": 0.857298803771763,
+      "map5095": 0.43489040132118983,
+      "per_class": {
+        "flash": {
+          "ap50": 0.8717676767676763,
+          "ap5095": 0.41059675254870687,
+          "recall": 0.95
+        },
+        "black": {
+          "ap50": 0.8428299307758498,
+          "ap5095": 0.4591840500936727,
+          "recall": 0.7727272727272727
+        }
+      }
+    },
+    {
+      "arm": "dwbg",
+      "seed": 3407,
+      "run_dir": "runs/bootstrap_guard_downstream/dwbg_s3407",
+      "reused": false,
+      "best_epoch": 70,
+      "stop_epoch": 110,
+      "precision": 0.9137176214057858,
+      "recall": 0.9204545454545454,
+      "map50": 0.928534878678069,
+      "map5095": 0.4179291411917633,
+      "per_class": {
+        "flash": {
+          "ap50": 0.9613354037267082,
+          "ap5095": 0.4179037358027286,
+          "recall": 1.0
+        },
+        "black": {
+          "ap50": 0.8957343536294299,
+          "ap5095": 0.4179545465807978,
+          "recall": 0.8409090909090909
+        }
+      }
+    },
+    {
+      "arm": "bootstrap_guard",
+      "seed": 3407,
+      "run_dir": "runs/bootstrap_guard_downstream/bootstrap_guard_s3407",
+      "reused": false,
+      "best_epoch": 111,
+      "stop_epoch": 150,
+      "precision": 0.9070327972948338,
+      "recall": 0.8565694292136284,
+      "map50": 0.8584557247884907,
+      "map5095": 0.44193725743516266,
+      "per_class": {
+        "flash": {
+          "ap50": 0.8842676767676766,
+          "ap5095": 0.4092284013407735,
+          "recall": 0.9404115856999842
+        },
+        "black": {
+          "ap50": 0.832643772809305,
+          "ap5095": 0.4746461135295517,
+          "recall": 0.7727272727272727
+        }
+      }
+    },
+    {
+      "arm": "real_only",
+      "seed": 2026,
+      "run_dir": "runs/bootstrap_guard_downstream/real_only_s2026",
+      "reused": false,
+      "best_epoch": 71,
+      "stop_epoch": 111,
+      "precision": 0.8840044170091572,
+      "recall": 0.85,
+      "map50": 0.8584096530113408,
+      "map5095": 0.38329496292323356,
+      "per_class": {
+        "flash": {
+          "ap50": 0.9294154183412495,
+          "ap5095": 0.40685934231989157,
+          "recall": 0.95
+        },
+        "black": {
+          "ap50": 0.787403887681432,
+          "ap5095": 0.3597305835265755,
+          "recall": 0.75
+        }
+      }
+    },
+    {
+      "arm": "random",
+      "seed": 2026,
+      "run_dir": "runs/bootstrap_guard_downstream/random_s2026",
+      "reused": false,
+      "best_epoch": 51,
+      "stop_epoch": 91,
+      "precision": 0.8822854026262101,
+      "recall": 0.8363636363636364,
+      "map50": 0.8375136931731986,
+      "map5095": 0.4122646054624419,
+      "per_class": {
+        "flash": {
+          "ap50": 0.8393492063492063,
+          "ap5095": 0.387668951554981,
+          "recall": 0.9
+        },
+        "black": {
+          "ap50": 0.8356781799971909,
+          "ap5095": 0.43686025936990297,
+          "recall": 0.7727272727272727
+        }
+      }
+    },
+    {
+      "arm": "dwbg",
+      "seed": 2026,
+      "run_dir": "runs/bootstrap_guard_downstream/dwbg_s2026",
+      "reused": false,
+      "best_epoch": 55,
+      "stop_epoch": 95,
+      "precision": 0.8641687278675081,
+      "recall": 0.8863636363636364,
+      "map50": 0.8748611761654133,
+      "map5095": 0.4024844320181118,
+      "per_class": {
+        "flash": {
+          "ap50": 0.9054603729603727,
+          "ap5095": 0.41521320416806684,
+          "recall": 1.0
+        },
+        "black": {
+          "ap50": 0.8442619793704539,
+          "ap5095": 0.3897556598681568,
+          "recall": 0.7727272727272727
+        }
+      }
+    },
+    {
+      "arm": "bootstrap_guard",
+      "seed": 2026,
+      "run_dir": "runs/bootstrap_guard_downstream/bootstrap_guard_s2026",
+      "reused": false,
+      "best_epoch": 90,
+      "stop_epoch": 130,
+      "precision": 0.8932145397745357,
+      "recall": 0.8464970525488256,
+      "map50": 0.8749223577410493,
+      "map5095": 0.440353077913865,
+      "per_class": {
+        "flash": {
+          "ap50": 0.9209761126672891,
+          "ap5095": 0.4343194412247658,
+          "recall": 0.8975395596431058
+        },
+        "black": {
+          "ap50": 0.8288686028148096,
+          "ap5095": 0.4463867146029645,
+          "recall": 0.7954545454545454
+        }
+      }
+    }
+  ]
+}

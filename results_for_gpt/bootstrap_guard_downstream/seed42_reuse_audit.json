@@ -1,0 +1,102 @@
+{
+  "expected": {
+    "model": "pretrained/yolo11s.pt",
+    "epochs": 150,
+    "patience": 40,
+    "batch": 1,
+    "imgsz": 1536,
+    "workers": 4,
+    "seed": 42,
+    "deterministic": true,
+    "optimizer": "auto",
+    "rect": false,
+    "augment": false,
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "close_mosaic": 10
+  },
+  "runs": {
+    "real_only": {
+      "path": "runs/dwbg_v2_final_40_40/real_only_s42",
+      "checks": {
+        "args_exists": true,
+        "best_exists": true,
+        "results_exists": true,
+        "dataset_val_hash_matches": true,
+        "config_model": true,
+        "config_epochs": true,
+        "config_patience": true,
+        "config_batch": true,
+        "config_imgsz": true,
+        "config_workers": true,
+        "config_seed": true,
+        "config_deterministic": true,
+        "config_optimizer": true,
+        "config_rect": true,
+        "config_augment": true,
+        "config_mosaic": true,
+        "config_mixup": true,
+        "config_close_mosaic": true,
+        "old_data_yaml_exists": true,
+        "old_train_hash_matches": true,
+        "old_val_hash_matches": true,
+        "passed": true
+      }
+    },
+    "random": {
+      "path": "runs/dwbg_v2_final_40_40/real_random_matched_s42",
+      "checks": {
+        "args_exists": true,
+        "best_exists": true,
+        "results_exists": true,
+        "dataset_val_hash_matches": true,
+        "config_model": true,
+        "config_epochs": true,
+        "config_patience": true,
+        "config_batch": true,
+        "config_imgsz": true,
+        "config_workers": true,
+        "config_seed": true,
+        "config_deterministic": true,
+        "config_optimizer": true,
+        "config_rect": true,
+        "config_augment": true,
+        "config_mosaic": true,
+        "config_mixup": true,
+        "config_close_mosaic": true,
+        "old_data_yaml_exists": true,
+        "old_train_hash_matches": true,
+        "old_val_hash_matches": true,
+        "passed": true
+      }
+    },
+    "dwbg": {
+      "path": "runs/dwbg_v2_final_40_40/real_dwbg_v2_s42",
+      "checks": {
+        "args_exists": true,
+        "best_exists": true,
+        "results_exists": true,
+        "dataset_val_hash_matches": true,
+        "config_model": true,
+        "config_epochs": true,
+        "config_patience": true,
+        "config_batch": true,
+        "config_imgsz": true,
+        "config_workers": true,
+        "config_seed": true,
+        "config_deterministic": true,
+        "config_optimizer": true,
+        "config_rect": true,
+        "config_augment": true,
+        "config_mosaic": true,
+        "config_mixup": true,
+        "config_close_mosaic": true,
+        "old_data_yaml_exists": true,
+        "old_train_hash_matches": true,
+        "old_val_hash_matches": true,
+        "passed": true
+      }
+    }
+  },
+  "reuse_seed42": true
+}
