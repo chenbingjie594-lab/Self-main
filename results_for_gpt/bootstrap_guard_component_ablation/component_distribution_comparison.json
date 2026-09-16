@@ -1,0 +1,268 @@
+{
+  "flash": {
+    "diversity_quality": {
+      "distribution": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.525,
+          "medium": 0.2,
+          "tiny": 0.275
+        },
+        "contrast_bin": {
+          "high": 0.35,
+          "low": 0.375,
+          "medium": 0.275
+        },
+        "morphology_bin": {
+          "compact": 0.225,
+          "elongated": 0.525,
+          "medium": 0.25
+        },
+        "weakness_count": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "2+": 0.0,
+          "3-way": 0.0
+        }
+      },
+      "all_out_of_range": {
+        "scale_bin:large": {
+          "value": 0.525,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.525,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        }
+      },
+      "marginal_out_of_range": {
+        "scale_bin:large": {
+          "value": 0.525,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.525,
+          "q05": 0.2,
+          "q95": 0.45,
+          "inside": false
+        }
+      }
+    },
+    "marginal_guard": {
+      "distribution": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.325,
+          "tiny": 0.35
+        },
+        "contrast_bin": {
+          "high": 0.325,
+          "low": 0.35,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.35,
+          "elongated": 0.325,
+          "medium": 0.325
+        },
+        "weakness_count": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "2+": 0.0,
+          "3-way": 0.0
+        }
+      },
+      "all_out_of_range": {},
+      "marginal_out_of_range": {}
+    },
+    "full_guard": {
+      "distribution": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.325,
+          "tiny": 0.35
+        },
+        "contrast_bin": {
+          "high": 0.325,
+          "low": 0.35,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.35,
+          "elongated": 0.325,
+          "medium": 0.325
+        },
+        "weakness_count": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "2+": 0.0,
+          "3-way": 0.0
+        }
+      },
+      "all_out_of_range": {},
+      "marginal_out_of_range": {}
+    }
+  },
+  "black": {
+    "diversity_quality": {
+      "distribution": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.3,
+          "medium": 0.375,
+          "tiny": 0.325
+        },
+        "contrast_bin": {
+          "high": 0.55,
+          "low": 0.05,
+          "medium": 0.4
+        },
+        "morphology_bin": {
+          "compact": 0.15,
+          "elongated": 0.6,
+          "medium": 0.25
+        },
+        "weakness_count": {
+          "0": 0.675,
+          "1": 0.275,
+          "2": 0.05,
+          "3": 0.0,
+          "2+": 0.05,
+          "3-way": 0.0
+        }
+      },
+      "all_out_of_range": {
+        "contrast_bin:high": {
+          "value": 0.55,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "contrast_bin:low": {
+          "value": 0.05,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:compact": {
+          "value": 0.15,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.6,
+          "q05": 0.225,
+          "q95": 0.475,
+          "inside": false
+        },
+        "weakness_count:0": {
+          "value": 0.675,
+          "q05": 0.325,
+          "q95": 0.6,
+          "inside": false
+        }
+      },
+      "marginal_out_of_range": {
+        "contrast_bin:high": {
+          "value": 0.55,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "contrast_bin:low": {
+          "value": 0.05,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:compact": {
+          "value": 0.15,
+          "q05": 0.225,
+          "q95": 0.45,
+          "inside": false
+        },
+        "morphology_bin:elongated": {
+          "value": 0.6,
+          "q05": 0.225,
+          "q95": 0.475,
+          "inside": false
+        }
+      }
+    },
+    "marginal_guard": {
+      "distribution": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.35,
+          "tiny": 0.325
+        },
+        "contrast_bin": {
+          "high": 0.35,
+          "low": 0.325,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.325,
+          "elongated": 0.35,
+          "medium": 0.325
+        },
+        "weakness_count": {
+          "0": 0.475,
+          "1": 0.4,
+          "2": 0.125,
+          "3": 0.0,
+          "2+": 0.125,
+          "3-way": 0.0
+        }
+      },
+      "all_out_of_range": {},
+      "marginal_out_of_range": {}
+    },
+    "full_guard": {
+      "distribution": {
+        "n": 40,
+        "scale_bin": {
+          "large": 0.325,
+          "medium": 0.35,
+          "tiny": 0.325
+        },
+        "contrast_bin": {
+          "high": 0.35,
+          "low": 0.325,
+          "medium": 0.325
+        },
+        "morphology_bin": {
+          "compact": 0.3,
+          "elongated": 0.375,
+          "medium": 0.325
+        },
+        "weakness_count": {
+          "0": 0.475,
+          "1": 0.4,
+          "2": 0.125,
+          "3": 0.0,
+          "2+": 0.125,
+          "3-way": 0.0
+        }
+      },
+      "all_out_of_range": {},
+      "marginal_out_of_range": {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_path": "results_for_gpt/bootstrap_guard_component_ablation/marginal_guard_manifest_40_40.json",
+  "manifest_sha256": "68d78c4655a9b0ee7c35b60bb01768dd921a32abf548977b7fc7a84b20d2eb46",
+  "candidate_ids_sha256": "82aafbd9aaf1b8fbfbcd8aee5b889820826c68c7bafcbfa2ed655e14744cd6e2",
+  "candidate_count": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "duplicates": 0,
+  "missing_images": 0,
+  "missing_labels": 0,
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "validation_hash": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+  "expected_validation_hash": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+  "validation_hash_matches": true,
+  "yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/bootstrap_guard_component_ablation/marginal_guard.yaml"
+}
