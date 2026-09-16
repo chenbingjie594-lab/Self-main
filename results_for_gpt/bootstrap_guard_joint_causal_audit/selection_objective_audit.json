@@ -1,0 +1,28 @@
+{
+  "actual_frozen_implementation": {
+    "candidate_order": "original frozen pool order",
+    "tries": 50,
+    "shared_rng_across_classes": true,
+    "feasibility_first": true,
+    "parent_cap": 1,
+    "seed_cap": 8,
+    "background_cap_explicit": false,
+    "candidate_step_priority": "deficit to active guard medians plus deterministic RNG jitter",
+    "final_objective": [
+      "unique_background",
+      "mean_manifold_score",
+      "sorted_candidate_ids"
+    ],
+    "seed": 20260914
+  },
+  "ordered_candidate_ids_sha256": {
+    "0": "3eaf10a336f367d230ce3a9698369da2725a0e1368020dc6e43e5a33a8772668",
+    "1": "1e718afa7d84b6c09a1ddedef827272798738fd278dd9d53b692caa7ca2996f8"
+  },
+  "root_cause_old_ablation": [
+    "FullGuard and old MarginalGuard used duplicated selector implementations.",
+    "Old MarginalGuard added an explicit background exclusion absent from the frozen FullGuard selector.",
+    "Old MarginalGuard removed joint deficit terms in a separate code path, changing candidate trajectories and RNG-dependent choices even for Flash.",
+    "Quantile sensitivity used another copied full selector with a different final objective and explicit background exclusion."
+  ]
+}
