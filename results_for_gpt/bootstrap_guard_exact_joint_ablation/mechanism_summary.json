@@ -1,0 +1,32 @@
+{
+  "status": "JOINT_GUIDANCE_PARTIAL",
+  "interpretation": "Joint bootstrap-statistic deficit guidance shows a positive but seed-dependent gain over exact marginal constraints.",
+  "full_minus_exact_map5095": {
+    "direction": "FullJointGuard - ExactMarginal",
+    "by_seed": {
+      "42": 0.03897544791703583,
+      "3407": -0.00819108552415504,
+      "2026": 0.01770738309594666
+    },
+    "mean_delta": 0.016163915162942483,
+    "std_delta": 0.0236211174409659,
+    "wins": 2
+  },
+  "full_minus_exact_recall": {
+    "direction": "FullJointGuard - ExactMarginal",
+    "by_seed": {
+      "42": 0.03064802782771925,
+      "3407": -0.05063324030682537,
+      "2026": 0.011336174330897508
+    },
+    "mean_delta": -0.0028830127160695365,
+    "std_delta": 0.042465281084639143,
+    "wins": 2
+  },
+  "black_is_direct_selection_target": true,
+  "flash_is_internal_sanity_check": true,
+  "flash_difference_note": "Flash synthetic IDs are identical; downstream differences can arise indirectly through shared detector optimization with different Black samples.",
+  "old_marginal_excluded": true,
+  "fairness_audit_passed": true,
+  "dataset_audit_passed": true
+}
