@@ -1,0 +1,63 @@
+{
+  "real_train_images": 138,
+  "real_instances": 168,
+  "arms": {
+    "real_only": {
+      "synthetic_images": 0,
+      "class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "duplicates": 0,
+      "missing_images": 0,
+      "missing_labels": 0
+    },
+    "random": {
+      "synthetic_images": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "duplicates": 0,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "manifest": "results_for_gpt/random_matched_manifest_40_40_s42.json",
+      "manifest_sha256": "fe9fccefedcc476a86defff2b34d74c1837ff9b9aaf2d188e414d5978cd17713",
+      "candidate_ids_sha256": "979eb03a55e776fa6ca5a8172e6077ecd2fd024fa620bc1dc7a28bca467c498d"
+    },
+    "diversity_quality": {
+      "synthetic_images": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "duplicates": 0,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "manifest": "results_for_gpt/bootstrap_guard_isolation/diversity_quality_manifest_40_40.json",
+      "manifest_sha256": "f5ea602d7cf397cb25bed806002b9c38e59fd5f9a96959c7bb3f6ce696cd7dfa",
+      "candidate_ids_sha256": "dc8887800f7c6563322b4776bb6175139e560073932a6152df549190da1b8e0f"
+    },
+    "bootstrap_guard": {
+      "synthetic_images": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "duplicates": 0,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "manifest": "results_for_gpt/cdcc_ablation_pilot/bootstrap_only_manifest_40_40.json",
+      "manifest_sha256": "4765cf6449870fddd02c257b3b998fa328f6f3417c791929b159ee6ed8e2991c",
+      "candidate_ids_sha256": "22565501e226b0915e6df632cf8777e3db6902767a5a2c9e204e68589c75f81c"
+    }
+  },
+  "validation_hashes": {
+    "real_only": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+    "random": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+    "diversity_quality": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+    "bootstrap_guard": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509"
+  },
+  "expected_validation_hash": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+  "validation_identical": true
+}
