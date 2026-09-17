@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "classes": {
+    "open": {
+      "selected_image_count": 100,
+      "selected_instance_count": 130,
+      "gate": ">=50"
+    },
+    "short": {
+      "selected_image_count": 100,
+      "selected_instance_count": 129,
+      "gate": ">=50"
+    },
+    "mousebite": {
+      "selected_image_count": 100,
+      "selected_instance_count": 129,
+      "gate": ">=50"
+    },
+    "spur": {
+      "selected_image_count": 100,
+      "selected_instance_count": 129,
+      "gate": ">=50"
+    },
+    "spurious_copper": {
+      "selected_image_count": 100,
+      "selected_instance_count": 129,
+      "gate": ">=50"
+    },
+    "pinhole": {
+      "selected_image_count": 100,
+      "selected_instance_count": 129,
+      "gate": ">=50"
+    }
+  }
+}

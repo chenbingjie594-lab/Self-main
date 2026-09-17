@@ -1,0 +1,20 @@
+{
+  "source": "100-image low-data train only",
+  "global_across_classes": true,
+  "count": 775,
+  "min": 0.0,
+  "q01": 0.0,
+  "q05": 0.0,
+  "q10": 0.05628390098333169,
+  "q25": 81.24775959726311,
+  "median": 115.6155092602871,
+  "zero_count": 67,
+  "near_zero_counts": {
+    "1e-06": 67,
+    "0.001": 67,
+    "0.01": 67,
+    "0.1": 84,
+    "1.0": 102
+  },
+  "positive_q10_tau_sigma": 58.7430814883903
+}

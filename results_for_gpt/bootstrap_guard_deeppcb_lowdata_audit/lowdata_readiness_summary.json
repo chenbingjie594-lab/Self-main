@@ -1,0 +1,24 @@
+{
+  "status": "DEEPPCB_GENERATOR_CHECKPOINT_MISSING",
+  "lowdata_protocol_ready": true,
+  "selected_images": 100,
+  "retained_instances": 775,
+  "selected_ids_sha256": "1ec83d6310aca8b0a4db688bfd50c2d74f95b5bcdc5e98a386f6951aa08cf999",
+  "all_classes_at_least_50_instances": true,
+  "global_tau_sigma": 58.7430814883903,
+  "stable_contrast_finite_ratio": 1.0,
+  "contrast_stability_resolved": true,
+  "bootstrap_sample_size_per_class": 40,
+  "bootstrap_iterations": 10000,
+  "max_marginal_q05_q95_width": 0.25,
+  "reference_mask_ready_all_classes": true,
+  "train_val_leakage_detected": false,
+  "deep_pcb_msdf_v3_checkpoint": "MISSING",
+  "plastic_bomo_checkpoints_rejected": true,
+  "recommended_synthetic_budget": {
+    "per_class": 40,
+    "classes": 6,
+    "total_per_arm": 240
+  },
+  "next_gate": "Train or otherwise provide a DeepPCB-specific checkpoint using the frozen MSDF-v3 architecture and only the frozen 100-image low-data train protocol; do not generate candidates yet."
+}

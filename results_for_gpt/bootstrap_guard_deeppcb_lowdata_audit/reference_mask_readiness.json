@@ -1,0 +1,41 @@
+{
+  "classes": {
+    "open": {
+      "reference_image": 130,
+      "reference_mask": 130,
+      "target_mask": 130,
+      "paired_normal": 130
+    },
+    "short": {
+      "reference_image": 129,
+      "reference_mask": 129,
+      "target_mask": 129,
+      "paired_normal": 129
+    },
+    "mousebite": {
+      "reference_image": 129,
+      "reference_mask": 129,
+      "target_mask": 129,
+      "paired_normal": 129
+    },
+    "spur": {
+      "reference_image": 129,
+      "reference_mask": 129,
+      "target_mask": 129,
+      "paired_normal": 129
+    },
+    "spurious_copper": {
+      "reference_image": 129,
+      "reference_mask": 129,
+      "target_mask": 129,
+      "paired_normal": 129
+    },
+    "pinhole": {
+      "reference_image": 129,
+      "reference_mask": 129,
+      "target_mask": 129,
+      "paired_normal": 129
+    }
+  },
+  "all_six_classes_ready": true
+}

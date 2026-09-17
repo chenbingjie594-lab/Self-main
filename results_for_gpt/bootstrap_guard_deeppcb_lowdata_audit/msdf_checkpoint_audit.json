@@ -1,0 +1,49 @@
+{
+  "status": "MISSING",
+  "deep_pcb_compatible_checkpoints": [],
+  "all_msdf_checkpoints": [
+    {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/msdf.pt",
+      "deep_pcb_specific": false,
+      "plastic_bomo_rejected": true,
+      "size_bytes": 1364198,
+      "config_candidates": []
+    },
+    {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/msdf.pt",
+      "deep_pcb_specific": false,
+      "plastic_bomo_rejected": true,
+      "size_bytes": 1364198,
+      "config_candidates": []
+    },
+    {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v2_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/msdf.pt",
+      "deep_pcb_specific": false,
+      "plastic_bomo_rejected": true,
+      "size_bytes": 1363314,
+      "config_candidates": []
+    },
+    {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v2_sd2_2000_s42/Plastic_Bomo/01_Flash_point/msdf.pt",
+      "deep_pcb_specific": false,
+      "plastic_bomo_rejected": true,
+      "size_bytes": 1363314,
+      "config_candidates": []
+    },
+    {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/msdf.pt",
+      "deep_pcb_specific": false,
+      "plastic_bomo_rejected": true,
+      "size_bytes": 1231046,
+      "config_candidates": []
+    },
+    {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_sd2_2000_s42/Plastic_Bomo/01_Flash_point/msdf.pt",
+      "deep_pcb_specific": false,
+      "plastic_bomo_rejected": true,
+      "size_bytes": 1231046,
+      "config_candidates": []
+    }
+  ],
+  "plastic_bomo_checkpoint_use_forbidden": true
+}
