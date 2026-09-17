@@ -1,0 +1,39 @@
+{
+  "status": "DEEPPCB_NEEDS_CANDIDATE_GENERATION",
+  "data_usable": true,
+  "train": {"images": 1000, "instances": 6873, "classes": 6},
+  "val": {"images": 500, "instances": 3140, "classes": 6},
+  "attribute_assessment": {
+    "scale": "TRANSFERABLE_WITH_DEEPPCB_TERTILES",
+    "morphology": "TRANSFERABLE_WITH_DEEPPCB_TERTILES",
+    "contrast": "COMPUTABLE_BUT_NUMERIC_STABILITY_GUARD_REQUIRED",
+    "contrast_note": "Near-zero context standard deviation creates extreme normalized contrast values for some open, spurious_copper, and pinhole samples. Do not freeze candidate bins until the denominator-floor policy is audited using train data only."
+  },
+  "bootstrap_support": {
+    "all_classes_sufficient": true,
+    "iterations": 10000,
+    "planned_per_class": 100,
+    "total_per_synthetic_arm": 600
+  },
+  "candidate_pool": {
+    "status": "CANDIDATE_POOL_MISSING",
+    "count": 0,
+    "manifold_valid_count": 0
+  },
+  "msdf_v3": {
+    "compatible_with_existing_flow": true,
+    "evidence": [
+      "inference.py resolves class-specific MSDF reference image and mask",
+      "pipeline_stable_diffusion_inpaint_magic.py passes reference pixels, reference mask, and target mask to MSDFAdapter.prepare",
+      "msdf_guidance.py consumes reference_pixels and reference_mask"
+    ],
+    "raw_audit_false_is_narrow_check_false_negative": true,
+    "checkpoint_availability_not_verified": true
+  },
+  "leakage": {
+    "official_pair_overlap": 0,
+    "real_split_risk": "NONE_DETECTED",
+    "candidate_provenance": "NOT_AUDITABLE_UNTIL_POOL_EXISTS"
+  },
+  "next_gate": "Audit a train-only DeepPCB candidate-generation plan; do not train a detector yet."
+}

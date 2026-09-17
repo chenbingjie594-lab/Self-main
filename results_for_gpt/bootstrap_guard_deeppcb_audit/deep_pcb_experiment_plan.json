@@ -1,0 +1,31 @@
+{
+  "status": "DEEPPCB_NEEDS_CANDIDATE_GENERATION",
+  "detector": "YOLO11s only",
+  "arms": [
+    "real_only",
+    "random_synthetic",
+    "diversity_quality",
+    "bootstrap_guard"
+  ],
+  "training_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "budget_per_class": {
+    "open": 100,
+    "short": 100,
+    "mousebite": 100,
+    "spur": 100,
+    "spurious_copper": 100,
+    "pinhole": 100
+  },
+  "total_synthetic_per_arm": 600,
+  "budget_rule": "20% of the first-quartile real-train class support, clamped to [10,100] and shared by every method",
+  "frozen_requirements": [
+    "same real train/val",
+    "same per-class synthetic budget",
+    "train-only statistics and candidate provenance",
+    "no validation-guided selection"
+  ]
+}

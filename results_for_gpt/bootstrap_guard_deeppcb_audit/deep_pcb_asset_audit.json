@@ -1,0 +1,49 @@
+{
+  "official": [],
+  "converted": [
+    "/mnt/sda/cbj/dataset/DeepPCB_RDA_official_512/conversion_manifest.json"
+  ],
+  "candidate_manifests": [],
+  "generation_assets": [],
+  "detector_assets": [],
+  "selected_data_root": "/mnt/sda/cbj/dataset/DeepPCB_RDA_official_512",
+  "split_protocol": "converted official train/eval manifest",
+  "train": {
+    "images": 1000,
+    "instances": 6873,
+    "image_sizes": {
+      "512x512": 6873
+    },
+    "converted_samples": 6873
+  },
+  "val": {
+    "images": 500,
+    "instances": 3140,
+    "image_sizes": {
+      "512x512": 3140
+    },
+    "converted_samples": 3140
+  },
+  "classes": [
+    "open",
+    "short",
+    "mousebite",
+    "spur",
+    "spurious_copper",
+    "pinhole"
+  ],
+  "usable": true,
+  "msdf_v3": {
+    "code_audit_only": true,
+    "checks": {
+      "converter": true,
+      "generation_entry": true,
+      "msdf_adapter": true,
+      "msdf_config": true,
+      "supports_image_mask_reference_pixels": false
+    },
+    "compatible_with_existing_flow": false,
+    "class_specific_reference_supported_by_per_class_pipeline": true,
+    "checkpoint_availability_not_assumed": true
+  }
+}
