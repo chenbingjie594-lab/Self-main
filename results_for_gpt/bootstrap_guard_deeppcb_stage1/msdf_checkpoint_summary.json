@@ -1,0 +1,65 @@
+{
+  "status": "DEEPPCB_MSDF_CHECKPOINTS_READY",
+  "checkpoints": [
+    {
+      "class": "open",
+      "status": "READY",
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42/open/msdf.pt",
+      "checkpoint_size": 1364198,
+      "normal_exit": true,
+      "loss_finite": true,
+      "final_loss": 0.32808077335357666,
+      "min_loss": 0.023067550733685493
+    },
+    {
+      "class": "short",
+      "status": "READY",
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42/short/msdf.pt",
+      "checkpoint_size": 1364198,
+      "normal_exit": true,
+      "loss_finite": true,
+      "final_loss": 0.3865405023097992,
+      "min_loss": 0.020173698663711548
+    },
+    {
+      "class": "mousebite",
+      "status": "READY",
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42/mousebite/msdf.pt",
+      "checkpoint_size": 1364198,
+      "normal_exit": true,
+      "loss_finite": true,
+      "final_loss": 0.18021461367607117,
+      "min_loss": 0.011301552876830101
+    },
+    {
+      "class": "spur",
+      "status": "READY",
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42/spur/msdf.pt",
+      "checkpoint_size": 1364198,
+      "normal_exit": true,
+      "loss_finite": true,
+      "final_loss": 0.2537851333618164,
+      "min_loss": 0.014865251258015633
+    },
+    {
+      "class": "spurious_copper",
+      "status": "READY",
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42/spurious_copper/msdf.pt",
+      "checkpoint_size": 1364198,
+      "normal_exit": true,
+      "loss_finite": true,
+      "final_loss": 0.21037693321704865,
+      "min_loss": 0.009523593820631504
+    },
+    {
+      "class": "pinhole",
+      "status": "READY",
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42/pinhole/msdf.pt",
+      "checkpoint_size": 1364198,
+      "normal_exit": true,
+      "loss_finite": true,
+      "final_loss": 0.2264934778213501,
+      "min_loss": 0.002683056052774191
+    }
+  ]
+}

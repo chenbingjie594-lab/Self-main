@@ -1,0 +1,22 @@
+{
+  "status": "DEEPPCB_STAGE1_READY_FOR_POOL_GENERATION",
+  "per_class": {
+    "open": 5,
+    "short": 5,
+    "mousebite": 5,
+    "spur": 5,
+    "spurious_copper": 5,
+    "pinhole": 5
+  },
+  "total": 30,
+  "all_attributes_finite": true,
+  "all_masks_bbox_labels_valid": true,
+  "all_provenance_train_only": true,
+  "generation_seeds": [
+    42,
+    3407,
+    2026,
+    7859,
+    12011
+  ]
+}

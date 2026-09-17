@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "protocol_integrity": "PASS",
+  "selected_ids_sha256": "1ec83d6310aca8b0a4db688bfd50c2d74f95b5bcdc5e98a386f6951aa08cf999",
+  "unique_pair_ids": 100,
+  "unique_defect_image_paths": 100,
+  "unique_normal_image_paths": 100,
+  "unique_converted_sample_ids": 775,
+  "selected_instances": 775,
+  "per_class_unique_images": {
+    "open": 100,
+    "short": 100,
+    "mousebite": 100,
+    "spur": 100,
+    "pinhole": 100,
+    "spurious_copper": 100
+  },
+  "per_class_instances": {
+    "open": 130,
+    "short": 129,
+    "mousebite": 129,
+    "spur": 129,
+    "pinhole": 129,
+    "spurious_copper": 129
+  },
+  "all_selected_images_contain_all_classes": true,
+  "tau_sigma": 58.7430814883903,
+  "stage05_thresholds_frozen": true,
+  "val_pair_overlap": 0
+}

@@ -1,0 +1,25 @@
+{
+  "base_model": "original Stable Diffusion 2 Inpainting",
+  "architecture": "frozen MSDF-v3 bounded dual-branch injection",
+  "training_steps": 2000,
+  "optimizer": "AdamW",
+  "unet_learning_rate": 5e-06,
+  "msdf_learning_rate": 0.0001,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "seed": 42,
+  "mixed_precision": "fp16",
+  "reference_policy": "same-class frozen low-data train; self with 0.30 cross-reference probability",
+  "mask_policy": "real low-data mask; dilation jitter radius 24; blur radius 2",
+  "checkpoint_rule": "final checkpoint after 2000 successful optimizer updates; no validation selection",
+  "loss_weights": {
+    "pixel_support": 0.5,
+    "region": 0.75,
+    "reconstruction": 0.5,
+    "structure": 0.25,
+    "background": 0.2,
+    "scale": 0.25,
+    "support": 0.25
+  },
+  "initialization": "each class independently from the same original SD2 Inpainting; Plastic_Bomo forbidden"
+}
