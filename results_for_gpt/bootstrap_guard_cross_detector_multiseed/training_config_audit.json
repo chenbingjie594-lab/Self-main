@@ -1,0 +1,22 @@
+{
+  "architecture": "Faster R-CNN ResNet50-FPN",
+  "pretrained": "FasterRCNN_ResNet50_FPN_Weights.DEFAULT (COCO)",
+  "training_seeds": [
+    3407,
+    2026
+  ],
+  "epochs": 150,
+  "batch": 1,
+  "workers": 4,
+  "min_size": 1536,
+  "max_size": 1536,
+  "optimizer": "SGD",
+  "lr": 0.0005,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "scheduler": "MultiStepLR milestones 55%,75%; gamma 0.1",
+  "augmentation": "none",
+  "checkpoint_rule": "highest validation AP50-95; earliest epoch on ties",
+  "evaluator": "shared internal COCO-style 101-point AP",
+  "score_threshold_for_precision_recall": 0.25
+}

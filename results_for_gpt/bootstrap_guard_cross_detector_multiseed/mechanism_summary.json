@@ -1,0 +1,36 @@
+{
+  "status": "CROSS_DETECTOR_TRANSFER_CONFIRMED",
+  "bg_vs_random": {
+    "direction": "bootstrap_guard - random",
+    "by_seed": {
+      "42": 0.0210903152036932,
+      "3407": 0.010664934933564685,
+      "2026": -0.0056249438038701305
+    },
+    "mean_delta": 0.00871010211112925,
+    "std_delta": 0.013464482703878808,
+    "wins": 2
+  },
+  "bg_vs_diversity_quality": {
+    "direction": "bootstrap_guard - diversity_quality",
+    "by_seed": {
+      "42": 0.016306802429657208,
+      "3407": 0.012082107591649849,
+      "2026": 0.0027728854058705066
+    },
+    "mean_delta": 0.010387265142392521,
+    "std_delta": 0.006924311929537787,
+    "wins": 3
+  },
+  "ap50_ap5095_separation": {
+    "dq_ap50_gt_bg": true,
+    "bg_ap5095_gt_dq": true,
+    "interpretation": "BootstrapGuard primarily benefits stricter-IoU localization quality rather than low-IoU detection rate."
+  },
+  "class_gain_bg_minus_dq": {
+    "flash": 0.025977906183082877,
+    "black": -0.00520337589829778
+  },
+  "cross_detector_transferability_supported": true,
+  "universally_detector_independent": false
+}
