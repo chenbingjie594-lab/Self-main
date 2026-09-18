@@ -1,0 +1,32 @@
+{
+  "comparison_rule": "Compare within-dataset deltas only; do not compare absolute mAP across datasets.",
+  "plastic_bomo_seed42": {
+    "map50_95": {
+      "real_only": 0.40157550773631306,
+      "random": 0.4261257580283093,
+      "diversity_quality": 0.40876935109733725,
+      "bootstrap_guard": 0.43950726709764815
+    },
+    "deltas": {
+      "bootstrap_guard_minus_random": 0.013381509069338826,
+      "bootstrap_guard_minus_diversity_quality": 0.030737916000310894,
+      "bootstrap_guard_minus_real_only": 0.03793175936133508
+    }
+  },
+  "deeppcb_seed42": {
+    "map50_95": {
+      "real_only": 0.6715465632905974,
+      "random": 0.5992800112610482,
+      "diversity_quality": 0.5755920484933674,
+      "bootstrap_guard": 0.6398013145390513
+    },
+    "deltas": {
+      "primary_metric": "map50_95",
+      "bootstrap_guard_minus_random": 0.040521303278003074,
+      "bootstrap_guard_minus_diversity_quality": 0.06420926604568389,
+      "bootstrap_guard_minus_real_only": -0.03174524875154605,
+      "random_minus_real_only": -0.07226655202954912,
+      "diversity_quality_minus_real_only": -0.09595451479722994
+    }
+  }
+}

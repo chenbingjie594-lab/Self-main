@@ -1,0 +1,159 @@
+{
+  "frozen_pool_sha256": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14",
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "arms": {
+    "real_only": {
+      "real_images": 100,
+      "real_gt": 775,
+      "synthetic_images": 0,
+      "total_train_images": 100,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "duplicate_candidate_ids": 0,
+      "synthetic_per_class": {},
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "selection": null
+    },
+    "random": {
+      "real_images": 100,
+      "real_gt": 775,
+      "synthetic_images": 240,
+      "total_train_images": 340,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "duplicate_candidate_ids": 0,
+      "synthetic_per_class": {
+        "open": 40,
+        "short": 40,
+        "mousebite": 40,
+        "spur": 40,
+        "spurious_copper": 40,
+        "pinhole": 40
+      },
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "selection": {
+        "manifest": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_deeppcb_stage3r/random_matched_manifest_40x6_corrected.json",
+        "manifest_sha256": "10a31bcc834b0eee8900f459aeec20e192b85fd6f6df43522a463db7ca85a9c7",
+        "candidate_count": 240,
+        "per_class": {
+          "open": 40,
+          "short": 40,
+          "mousebite": 40,
+          "spur": 40,
+          "spurious_copper": 40,
+          "pinhole": 40
+        },
+        "unique_target_pairs": {
+          "open": 40,
+          "short": 40,
+          "mousebite": 40,
+          "spur": 40,
+          "spurious_copper": 40,
+          "pinhole": 40
+        },
+        "max_generation_seed_count": {
+          "open": 8,
+          "short": 8,
+          "mousebite": 8,
+          "spur": 8,
+          "spurious_copper": 8,
+          "pinhole": 8
+        }
+      }
+    },
+    "diversity_quality": {
+      "real_images": 100,
+      "real_gt": 775,
+      "synthetic_images": 240,
+      "total_train_images": 340,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "duplicate_candidate_ids": 0,
+      "synthetic_per_class": {
+        "open": 40,
+        "short": 40,
+        "mousebite": 40,
+        "spur": 40,
+        "spurious_copper": 40,
+        "pinhole": 40
+      },
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "selection": {
+        "manifest": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_deeppcb_stage3r/diversity_quality_manifest_40x6_corrected.json",
+        "manifest_sha256": "5ed1329944631e2cc76f3e53a418d107b5fb6985c83b7e1e3a305472d45bc8f8",
+        "candidate_count": 240,
+        "per_class": {
+          "open": 40,
+          "short": 40,
+          "mousebite": 40,
+          "spur": 40,
+          "spurious_copper": 40,
+          "pinhole": 40
+        },
+        "unique_target_pairs": {
+          "open": 40,
+          "short": 40,
+          "mousebite": 40,
+          "spur": 40,
+          "spurious_copper": 40,
+          "pinhole": 40
+        },
+        "max_generation_seed_count": {
+          "open": 8,
+          "short": 8,
+          "mousebite": 8,
+          "spur": 8,
+          "spurious_copper": 8,
+          "pinhole": 8
+        }
+      }
+    },
+    "bootstrap_guard": {
+      "real_images": 100,
+      "real_gt": 775,
+      "synthetic_images": 240,
+      "total_train_images": 340,
+      "missing_images": 0,
+      "missing_labels": 0,
+      "duplicate_candidate_ids": 0,
+      "synthetic_per_class": {
+        "open": 40,
+        "short": 40,
+        "mousebite": 40,
+        "spur": 40,
+        "spurious_copper": 40,
+        "pinhole": 40
+      },
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "selection": {
+        "manifest": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_deeppcb_stage3r/bootstrap_guard_manifest_40x6_corrected.json",
+        "manifest_sha256": "cc6c14c2301f1c1881e05d012094360223b1757bc8f1fbeed78ae68a2a18bf42",
+        "candidate_count": 240,
+        "per_class": {
+          "open": 40,
+          "short": 40,
+          "mousebite": 40,
+          "spur": 40,
+          "spurious_copper": 40,
+          "pinhole": 40
+        },
+        "unique_target_pairs": {
+          "open": 40,
+          "short": 40,
+          "mousebite": 40,
+          "spur": 40,
+          "spurious_copper": 40,
+          "pinhole": 40
+        },
+        "max_generation_seed_count": {
+          "open": 8,
+          "short": 8,
+          "mousebite": 8,
+          "spur": 8,
+          "spurious_copper": 8,
+          "pinhole": 8
+        }
+      }
+    }
+  }
+}

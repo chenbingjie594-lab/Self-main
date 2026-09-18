@@ -1,0 +1,3505 @@
+{
+  "manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "records": [
+    {
+      "pair_id": "00041200",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041200_test.jpg",
+      "image_sha256": "252a00450eb408a307fc49142b609e6852d087be5af77f5f77f3b366eb0a588e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041200.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041201",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041201_test.jpg",
+      "image_sha256": "b2da140407b84703f547fe28b2f4dbef666bbd3d5f259279c4b069c01be1ef13",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041201.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041202",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041202_test.jpg",
+      "image_sha256": "b2d1d80aee6e2fbbbdd5687957615ecaac4e4deb7a004b22b48aa0d2e917267b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041202.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "00041203",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041203_test.jpg",
+      "image_sha256": "ba5fcdfd0b05af85204b881f803fecb1d815e80036b3dc418716bab433b5348d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041203.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041204",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041204_test.jpg",
+      "image_sha256": "4a47d15b1dd7a6963c1028c725a29269f965ffc37bcc7b255eb093568fccf024",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041204.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "00041205",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041205_test.jpg",
+      "image_sha256": "fd0ae0c7ac3bb74f84bf9bad28ebe4ae5d9e68e5591a1a8574166ae71359c522",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041205.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041206",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041206_test.jpg",
+      "image_sha256": "1cd6917531fc929a44ba327b9f9a0f1bfc261c1355b0e177e3a2794a8c87105d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041206.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041207",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041207_test.jpg",
+      "image_sha256": "a5dd14211439cd6346f77df1486752f0a258768dc6aace382a00232cb62bd0b1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041207.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "00041208",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041208_test.jpg",
+      "image_sha256": "265f5ec71ac3f7fc0143ee7226a7de4f3fdea444d703d7095bdd82332a11d64d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041208.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "00041209",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041209_test.jpg",
+      "image_sha256": "63c158ab929d52e7dde9ea8539688dd87b455161858d0ab8bbdefd3445022248",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041209.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041210",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041210_test.jpg",
+      "image_sha256": "6b4ad73021fd040de185c58da245df1db1142372047fc17508390287985315d5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041210.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041211",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041211_test.jpg",
+      "image_sha256": "70213a2fd8ba7188102bf042681a47385c0cc179fee3847f6c998f1df0889a24",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041211.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "00041212",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041212_test.jpg",
+      "image_sha256": "11b2643c9dce8b99cdf8ab56655c740ecc557f2bb491063f31f9b5d11ef03d50",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041212.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041213",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041213_test.jpg",
+      "image_sha256": "06d2b75115ce5bb7d70313ee6d37ab83de2d8466204aedfa1430ebb78e7a8207",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041213.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041214",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041214_test.jpg",
+      "image_sha256": "1c14c4c9fb900f4f58762d19c5cab4fa430bcd371fe7fb21481f39e5b4862ff7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041214.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041215",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041215_test.jpg",
+      "image_sha256": "d7ba4e7e64b89b6ad1f639e9dd2590d1e017d812b3c138b8880b014121e397ae",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041215.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "00041216",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041216_test.jpg",
+      "image_sha256": "c85f79cb9cdd82b98260d2d2ad2b1cc33cb4adec3fd45253e93d8eade8197b9d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041216.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "00041217",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041217_test.jpg",
+      "image_sha256": "d14fbf611af50df56e9989f9269e12c291eaf3aba4bda05f03a78319231981a2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041217.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "00041218",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041218_test.jpg",
+      "image_sha256": "c322cf9a0a137a366af142dbe6e2d5a908a25c2f742dac31eb8a560d2028ee1e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041218.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "00041219",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041219_test.jpg",
+      "image_sha256": "f6478473ee906181cd92d742865c99b3180885f6b7cc62299b772ed528d28bb1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041219.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "00041220",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041/00041220_test.jpg",
+      "image_sha256": "8974cfe70be9a2aae8e4b2fd1eb4e8d559d19f1f2f65fada9c818b77cca46de6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group00041/00041_not/00041220.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000001",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000001_test.jpg",
+      "image_sha256": "0005b3e481bde2cc632ed5733e4280341cc01e50713ba2379a83d72d2f28a236",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000001.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12000017",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000017_test.jpg",
+      "image_sha256": "7e77b0afb200f3aa8a92c9d6fcc74cca730aca8cea87ed7c82c2515eb905c32c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000017.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12000038",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000038_test.jpg",
+      "image_sha256": "ac4a3ffa45c45c62a757fa9c3e81b64adac703da7c53585a8c933b11c6148f14",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000038.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12000052",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000052_test.jpg",
+      "image_sha256": "7613ba34f6f6b5fff9c97f4939d8ebeb90149445943165f5ca346a44fa72fafc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000052.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12000068",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000068_test.jpg",
+      "image_sha256": "5c47e062a60b086b179bf5854c3bfc5f5e92023c5d7284b6743cbbadb536b57a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000068.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000085",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000085_test.jpg",
+      "image_sha256": "e78e092e7ad929345cc9eb2fae1014eafb7cc06a3067306c630313ef079486ab",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000085.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12000102",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000102_test.jpg",
+      "image_sha256": "cbc5cd19b47b42324e4a10edf37b5d345d268a652bdee01a23676c2f5ffc35a6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000102.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000119",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000119_test.jpg",
+      "image_sha256": "c36f8d397b8bfd0f30dcbe7afbe33bb9605d650f4f74a19e68ec885ffa2fd51f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000119.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000136",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000136_test.jpg",
+      "image_sha256": "e7fc12b0668667dadd4ef628d4adba6073a630a83c286dfa0db7d65f31fbb3fb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000136.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000155",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000155_test.jpg",
+      "image_sha256": "321128bbd96e7c984866a2990fc76097aa81dfdc9ffeab4bf84aceacff374f69",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000155.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12000171",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000171_test.jpg",
+      "image_sha256": "48b2adf56a5a611073fa376e6ba2554de12f01a9d82d83879a2650495d3cb565",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000171.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000187",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000187_test.jpg",
+      "image_sha256": "29ac5d7e919110c517d7bdbc60adc5bc2e88d0128cdb8c51768751987c23b08c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000187.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12000204",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000204_test.jpg",
+      "image_sha256": "f9acb73cc8d6e77609b0316c75c80a85d8a376db2ef0903074e976ec4fba4060",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000204.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12000593",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000/12000593_test.jpg",
+      "image_sha256": "06dbff2d5fafd5d0f32282dad4e190cde0b2adae1177bc47e9451d40a286990c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12000/12000_not/12000593.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100000",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100000_test.jpg",
+      "image_sha256": "9794714d6c0789b56228121310b5f0b7818417bda04912faefa0aa5515fe6aa0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100000.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100001",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100001_test.jpg",
+      "image_sha256": "f31891555809f81f82c161fbb0a66f3058eae50c757d4735bf83102c07cb47f7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100001.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100002",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100002_test.jpg",
+      "image_sha256": "e2aaa2b55d583b8146a32d32fbb7bc5e31fada2b17f91de9799c226de8569bcb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100002.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100003",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100003_test.jpg",
+      "image_sha256": "07bb4d5cafbb9b27fecdc02f71480526532b49c37e2cca641f23defd6645f893",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100003.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100004",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100004_test.jpg",
+      "image_sha256": "bbb0175dd14ba4075b9f403492fd020dd4b6768cd96f370dfc7ed3af99e52eb6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100004.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12100005",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100005_test.jpg",
+      "image_sha256": "1e7a50b562ce3ac67f5718daaba8699ca4a35730467a6a091aef4bbfc46c2b27",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100005.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100006",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100006_test.jpg",
+      "image_sha256": "5adeb62c0bdf9a6ee3707ee508151b9de6ca9bc6f88a390db0b98bdc34ff574a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100006.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100007",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100007_test.jpg",
+      "image_sha256": "34bfda629ea2d872bad0d412b47620da4fa47a70463b91071589f68cfdfce065",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100007.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100008",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100008_test.jpg",
+      "image_sha256": "1f3409d2bade4a03c8fa2e419c9015857b4dc5135685ce0b833193ff9f0b49b3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100008.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100009",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100009_test.jpg",
+      "image_sha256": "b947f67be9a6a160fd58e2be8aad46bbba7f73e1b6c68574223f7afc13cf3cff",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100009.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100010",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100010_test.jpg",
+      "image_sha256": "11a0e1c5d68066a702cf90e2c1adc24f4d86a07d158a356d52cab85bac574aac",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100010.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100011",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100011_test.jpg",
+      "image_sha256": "0f88017907d78e3659281a99cd36e7cc8e382faa2a42fb6a7e035b020af9d34c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100011.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100012",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100012_test.jpg",
+      "image_sha256": "b556a1b91a5278b4023352baa372c7ab3c473a50228365f708b7d36e5a29a4ac",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100012.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100013",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100013_test.jpg",
+      "image_sha256": "e38e11af3dbb669eeac711bef55461191393e4050bf768d331d7265636492458",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100013.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100014",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100014_test.jpg",
+      "image_sha256": "554ac22a33785a0a80e00924974907cdbcb9323ee96aad7d83eb8eb1a615672d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100014.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100015",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100015_test.jpg",
+      "image_sha256": "c974271499a673d0b0b88615ae20f6a75aa64cae4747ec68dc8076fa72d023ab",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100015.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100016",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100016_test.jpg",
+      "image_sha256": "5e81bce46b5f19c3b334cfe827686bcf10dc3f22996088554f8a4f366b22b995",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100016.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100017",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100017_test.jpg",
+      "image_sha256": "32287607a7542939c969f6847bef58c28bc2f0141c091a157eb3117ed7f8f5ed",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100017.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100018",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100018_test.jpg",
+      "image_sha256": "dcf71bcaa78b8b5dfdd9cd3d69d7a28a2a969f4d337cf8055cf852dff06db0ee",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100018.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100019",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100019_test.jpg",
+      "image_sha256": "562ce3826a5382f22bd959e92b9c42dbb5296c9ed3838917a6f49ea326adbdc0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100019.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100020",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100020_test.jpg",
+      "image_sha256": "4075efcea54672f568d20323e1d4cf0535fcff31a1ecd76b51e4b343ecf6d85f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100020.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100021",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100021_test.jpg",
+      "image_sha256": "7f8bf1a4731abaf77a01af9ae6dfecd9da4458951f7196a9adb69bd215bb4056",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100021.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100022",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100022_test.jpg",
+      "image_sha256": "796d603e228f5197e65bbb864affea8269a88f342bc893ce6098d3bd033abdda",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100022.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100023",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100023_test.jpg",
+      "image_sha256": "cd2f75b14d556b53cea249b488df3ffc735e5808c0d191614462ac39281ac799",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100023.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100024",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100024_test.jpg",
+      "image_sha256": "2e1d7c41a700804fc6403ba6b528c5735652b931416ecc8ffdb4ec694bf80bf4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100024.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100025",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100025_test.jpg",
+      "image_sha256": "75ceeb22bb4b97ef8d40db94e44058e8dcf422fb536f7d32266f82aa1449f8b4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100025.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100026",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100026_test.jpg",
+      "image_sha256": "77b3fb3de9f95a69ac73967f1576dae539d8e449dd63c024720befd159248338",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100026.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100027",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100027_test.jpg",
+      "image_sha256": "99f0112ab157725c578a388f6ffcbde6dd48f95fc4bd4884fca119ff29c9bf6a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100027.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100028",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100028_test.jpg",
+      "image_sha256": "4547d200a71086801412dcebb4e590a85e85a27cdc99da5be6e74a90bbc05673",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100028.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100029",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100029_test.jpg",
+      "image_sha256": "4ec7a07c35bac92c5b8d1707c33d9e216a7214340eca10aa67b7dfd74bd0dc6d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100029.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100030",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100030_test.jpg",
+      "image_sha256": "0a74815eb005534b8f2cce2dcb94963f797bb42c5469ac205addd24cdb5f29fa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100030.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100031",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100031_test.jpg",
+      "image_sha256": "f7c744128336f136cd9154438851e2e23419a0fddd7902980b45c99ca4d3273b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100031.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100032",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100032_test.jpg",
+      "image_sha256": "f53890dadb9525ac1251e3b72374471a64efea6bbf02ad5a22f33900f9257137",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100032.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100033",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100033_test.jpg",
+      "image_sha256": "284d3c3c9461b9b66bcd28a47cea6793fe83ff19bcec21ebac9744b8cf651dfe",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100033.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100034",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100034_test.jpg",
+      "image_sha256": "6bdf9319c11955e3bb2e848be6f0f29c0a7024d09ccbcd9daba096177de78bef",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100034.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100035",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100035_test.jpg",
+      "image_sha256": "b3f4b7e8662665458b3914b865a7f207274896b1904197b39c1de05d422d5770",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100035.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100036",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100036_test.jpg",
+      "image_sha256": "acbc2e85ceeff3a4bb8686a40981c9c7f7ca7b91a831da9026e30c81b2627446",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100036.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100037",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100037_test.jpg",
+      "image_sha256": "91ee25eb5ba2786f549bd50b628dc7cee276acd805973bf3a06e0ce4d9258431",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100037.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100038",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100038_test.jpg",
+      "image_sha256": "696b5777f29535c3e7fcc71a1b4359113557bbc1aebfe6a17fef4cecafc3dc9d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100038.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100039",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100039_test.jpg",
+      "image_sha256": "66ed8572a6e00f300f01a4f255160ae64130c676c24b654fc2ab7bf9fa77e224",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100039.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100040",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100040_test.jpg",
+      "image_sha256": "717fea3a8f9817ce3b984aed37c9fdfd30560c95c215d183857da8a8d517a1de",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100040.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12100041",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100041_test.jpg",
+      "image_sha256": "4c0920d322644ee866b7a862c457579c0ebff381fd7f0ff1ab6d13d0bd7f378b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100041.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100042",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100042_test.jpg",
+      "image_sha256": "24310c78b5ee2ae3ea411d6231b8679da0e16aa3a39baff521d55d57784b462e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100042.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100043",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100043_test.jpg",
+      "image_sha256": "1683cf1caf7975870c1727663d5f07793d190452cd0d47efd693bf13cf340b6b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100043.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100044",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100044_test.jpg",
+      "image_sha256": "7890fd1f367aabfc8efdc26f61ad463697536a32b30f07a1ccc8c9ba023d7fba",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100044.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100045",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100045_test.jpg",
+      "image_sha256": "723035460d014bab0843266564c620c09c067161c4707a43cc491d1ec3f6063f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100045.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100046",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100046_test.jpg",
+      "image_sha256": "a928bde10bc917421209aec49d62b261772b18aba33867b91997aeeedc26d272",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100046.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100047",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100047_test.jpg",
+      "image_sha256": "b518bf1470da8f071f7637610d881f23abec8d35ad49777e87f245d1a272fbee",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100047.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100048",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100048_test.jpg",
+      "image_sha256": "aca15cd668f38432019f2f18c31e4635fdfec0cb5232526ce313fe4b7b78c166",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100048.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100049",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100049_test.jpg",
+      "image_sha256": "4ff40d76de9e02cbecbd2cbea7723e0a625eefdb7d9a3c8c69b1a3a073b510a6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100049.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12100050",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100050_test.jpg",
+      "image_sha256": "49c95df9b66761e602c1fc9b74d184532755f4fbec67f9c5d3dec468040269a5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100050.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12100051",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100051_test.jpg",
+      "image_sha256": "26ab974172cd0c8a42bcb82e00603acb3e51b82233204db53b622f7d4344e7bb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100051.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100052",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100052_test.jpg",
+      "image_sha256": "16d38738cdc3861d0d9fb927a08c85abcb9734919bcbc4595c0b0abf4e644fc1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100052.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12100053",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100053_test.jpg",
+      "image_sha256": "54093009013c3979dac35dbb018fb1ff4c449885a51df9efdf4aa2cac0170951",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100053.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100054",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100054_test.jpg",
+      "image_sha256": "e88dec1d835eab739f75e2248ab74dd5a52e7a7b3ca869ce569846048fdb3183",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100054.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100055",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100055_test.jpg",
+      "image_sha256": "88ad78570f81a8e7c9de415c08edc78f322126357af6db4980fbedd9b37ab196",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100055.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100056",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100056_test.jpg",
+      "image_sha256": "f4b067b90a29b1f9785354740717fa322bc075c8ed5d59f74c888cd597c64941",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100056.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100057",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100057_test.jpg",
+      "image_sha256": "3b05d765e658e9f94c117a63d3ac11341e2b41cd1b9a800e970170ff885def9e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100057.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100058",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100058_test.jpg",
+      "image_sha256": "99d39f5f9c802319cb1f42e82540218c72bc347779d063aec0206ac65fa9d814",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100058.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100059",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100059_test.jpg",
+      "image_sha256": "8a429b789d39f72c47fd9ded29c02aa5dc340ea74f1a33150d7ff029c09afd69",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100059.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100060",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100060_test.jpg",
+      "image_sha256": "68654a1c1f9be869b5ced7e488f86fb8885e300f95d4b0a231f69bfe57011563",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100060.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100061",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100061_test.jpg",
+      "image_sha256": "e8a88b1c88f794f3047df811dfe3a8b59d91f9373ba85ca30448ed973d4e1344",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100061.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100062",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100062_test.jpg",
+      "image_sha256": "0f650ef1cff60f9f9607bfe1f137546702f7a7a0101b3aafa13bd26c5ddc79b0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100062.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100063",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100063_test.jpg",
+      "image_sha256": "7c39433d1da22529f645213fc9f80ab36da4288dfc14fb342a5e206f18b3e59e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100063.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100064",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100064_test.jpg",
+      "image_sha256": "eec40d3c413fa21bc8a227706e7906b48443be90ab9919ec78b8179d428ec13b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100064.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100065",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100065_test.jpg",
+      "image_sha256": "4db7e029f011ef708053d11f9e5d0f8f1e17452bfafdf1976cd32778daa6c132",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100065.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100121",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100121_test.jpg",
+      "image_sha256": "bb82645407db56f6455516fe152fabcc8e9cefb347ad3161ff76949b1184cb4e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100121.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100122",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100122_test.jpg",
+      "image_sha256": "1fe360ed7c2cdee6325074580a03c1f1d595e2d5a800e97a784e90bf8a69a64b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100122.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100123",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100123_test.jpg",
+      "image_sha256": "f61610c7d4f9c8511813a9dd93c73a57e54a368143d34c661dd3b5eb69e96b42",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100123.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12100124",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100124_test.jpg",
+      "image_sha256": "dedce56ef76428eedce3fc668d8ca75ac55b9ae1ab31be39ba4b4c1f4f436a6b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100124.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100125",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100125_test.jpg",
+      "image_sha256": "cc9c0d7bfc9b698572028701f084828d0e79f73b61296fb2a310698a30984685",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100125.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100126",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100126_test.jpg",
+      "image_sha256": "1e12114b9fc2d38508a14e3264e706eab2148dac7649dc7dc96cdc00d900a247",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100126.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100127",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100127_test.jpg",
+      "image_sha256": "2e16e20cae23bbda8f852c5caf0e1a5dfc5156946c69f5f3dca68efb8f54c3d6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100127.txt",
+      "annotation_count": 3
+    },
+    {
+      "pair_id": "12100128",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100128_test.jpg",
+      "image_sha256": "cfb04b35a13f591f3affce8516677291a573b5c91619d7db48dd8c90de871a60",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100128.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100129",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100129_test.jpg",
+      "image_sha256": "20f13fa058217f1af5b7b8cd62edae024a1acd0e7569014cf495837feef2ac5c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100129.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100130",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100130_test.jpg",
+      "image_sha256": "4935e42f473f55823e1655891a201a90da3e2d18213dbb67dab848922f9100aa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100130.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100131",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100131_test.jpg",
+      "image_sha256": "df692f1495ef64831b08e0404d45244427f4772622919dab0b81d3f74ef758e2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100131.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100132",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100132_test.jpg",
+      "image_sha256": "38c91bcf205330aef6327ea43a3d38629ee735fa05a71df70895def5857ea45f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100132.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100133",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100133_test.jpg",
+      "image_sha256": "ba365dd48ffee29e9d98a5bff5a560dad7319b57dafd47b494bdeaae9ed0d8d2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100133.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100134",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100134_test.jpg",
+      "image_sha256": "fe540715946aa9159b71f261fec92cff66aea01c973858d55d7ff5770a92f4f5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100134.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100135",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100135_test.jpg",
+      "image_sha256": "4a00b16e164885aaadfb14bb7cbfb93ec1bd3ef560842ec9c1f4c91a580e82d2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100135.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100136",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100136_test.jpg",
+      "image_sha256": "4fb226fdee0277f06b643344d81ba8bb10afe758fd68fd80f645ba7db539fb6a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100136.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100137",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100137_test.jpg",
+      "image_sha256": "208e635f102d0c377abcd32679b9abe2cfbff45535e51546bbe96457440c234c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100137.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100138",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100138_test.jpg",
+      "image_sha256": "f71a160ac3470b8a660285f38390943acfd15287fcf4f197008b451423d6d83d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100138.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100139",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100139_test.jpg",
+      "image_sha256": "12b546e04f88c615872a0ef7da4f857b0949991e5fe428228df2972b1bb96dc1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100139.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100140",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100140_test.jpg",
+      "image_sha256": "9cb8235aec35d48ea72be7e05375cad6b3d5ffa1ccf0bb1cf87c5266cc03c2ce",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100140.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100141",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100141_test.jpg",
+      "image_sha256": "a77b2e15f465ad3a4f6547a04deca2c2f7adb8128cf06fe0a2a4e756f4a679e3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100141.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100142",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100142_test.jpg",
+      "image_sha256": "37671517877d54cf5eda178f78b086c7c78d037676f1a471511689eafaf14e36",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100142.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100143",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100143_test.jpg",
+      "image_sha256": "be97b39591f7341bab7f32585b458d5b51f278416f6602770c434f9f11b573df",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100143.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100144",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100144_test.jpg",
+      "image_sha256": "88aeedd9d1a925997456ecf07d855296aace504ff5700dcc97213820fde87c98",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100144.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100145",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100145_test.jpg",
+      "image_sha256": "bb48c97b49846dc4ba43c20ce99ec7bb523873cf092f68f5b45f1bc894714f01",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100145.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100146",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100146_test.jpg",
+      "image_sha256": "0ef686007f849f7c9cf0cea3594d8541946f170c533568ef3a37d29348f3999a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100146.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100147",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100147_test.jpg",
+      "image_sha256": "fac15743da8b9dd2104c29d1685f4d351e4764f522f43815b3a0fdafd5bbb9a1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100147.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100148",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100148_test.jpg",
+      "image_sha256": "ffbaa7305044a03db651d62174864236695a401acc500e641c7f310591fdb876",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100148.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100149",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100149_test.jpg",
+      "image_sha256": "5e192f138f40e4f20a4eba4b18cb5be8ea76542cae61373482ee4c536d4a3610",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100149.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100150",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100150_test.jpg",
+      "image_sha256": "762831ab0b4b3b5d5876139fb0057ddc23f0832d466027a719dfad2012b5d570",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100150.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100151",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100151_test.jpg",
+      "image_sha256": "44deb65ba2ff5f3574fdbea16726c22770b85d194ce95e10add14415633ec409",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100151.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100152",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100152_test.jpg",
+      "image_sha256": "ff124d937e128effa8d4f87c96345fea278c75bfaf4d9a759b0fa463a7710e90",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100152.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100153",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100153_test.jpg",
+      "image_sha256": "579a1c8e4bd8fd57bd0c2b8ae53f83106837308e6a8661e1e859c02bdd7fa7ec",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100153.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100154",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100154_test.jpg",
+      "image_sha256": "08f3582ea63399701d4ce3473da361bd0dcb181cb435b1e0c040c549b678055e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100154.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100155",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100155_test.jpg",
+      "image_sha256": "8d56d05ebf4b70b6a6656ad3669e4ff4e8ed7a8be7b8fadd33c8c73f1a103c79",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100155.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100156",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100156_test.jpg",
+      "image_sha256": "cf8ce7f5d9d69562fb28e5585d928c42053d46f9b26a5fe8e1175518dffab7a9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100156.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100157",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100157_test.jpg",
+      "image_sha256": "6e0e7e1db2c6d9a9d537bfecc2645b54ec7d9a530bc805f85a9de042c7ed2cbc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100157.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100158",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100158_test.jpg",
+      "image_sha256": "1c39dd55c4c595cc4c4529fa4a8e5efd740d17e7db260868df29d21d95d18995",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100158.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100159",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100159_test.jpg",
+      "image_sha256": "ec15afb56bc76f88b68f321468d2ad6ce9ae150da2c7f7b1d15ddf7ef4c71dd2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100159.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12100160",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100160_test.jpg",
+      "image_sha256": "fa37852e6ccc97f5c5e748df6d9f779afbd36185d327c341bb41a50bfa9af14e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100160.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12100161",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100161_test.jpg",
+      "image_sha256": "e7ee97fd74d2df4970c4cb8b0f32a0402a802c7a475e99d2af593c3208b26882",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100161.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100162",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100162_test.jpg",
+      "image_sha256": "1826a907737b0f2ced0fba715d4227f4ab61a20edbcc48d30f067a503b574532",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100162.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100163",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100163_test.jpg",
+      "image_sha256": "33be1b81a95070c0dc0607d849e303ef04a4e2ce9f337593374c5b01b4311f9d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100163.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100164",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100164_test.jpg",
+      "image_sha256": "378c431dea3d5bd27816ab55d77f1b9652dbc13077393bbf8688065f3e48ea4a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100164.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100165",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100165_test.jpg",
+      "image_sha256": "246b878414a8666fd7927375c7c78f5e40100e98cc161a2a7578e6b1c26eb375",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100165.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100166",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100166_test.jpg",
+      "image_sha256": "1e1a5e6d99741a0e45c5b2001fb1782d190984e9e12cb502214df9838cb3dbc2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100166.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100167",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100167_test.jpg",
+      "image_sha256": "c745b69e2b3523ef91957c4f9ba70ed9fc1d8e34c25b76ae1723ff1515f756da",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100167.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100168",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100168_test.jpg",
+      "image_sha256": "2437db5d0b19736925bf86df6d02b300454c6df782bb4d27c5d8f3fa5da80b5c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100168.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100169",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100169_test.jpg",
+      "image_sha256": "5560095f7c2bef4e8c037c770cf5d40e93631f193a307d24cd2194f499b5fb34",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100169.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100170",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100170_test.jpg",
+      "image_sha256": "8f32c1c00a0248c7634a3e8b4eaf91116d43b22c2c748fefa70c1170aad0d197",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100170.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100171",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100171_test.jpg",
+      "image_sha256": "214d79c311fce022d6e1d1004265a4d16b3bc9ec22edb19de058753e5a05e033",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100171.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100172",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100172_test.jpg",
+      "image_sha256": "c8b2baf8054a24f64724b41f925dfe73dd7a7240a046f982ca19de41869e4fe5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100172.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100173",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100173_test.jpg",
+      "image_sha256": "ab30211abf38b25428886836174948cd2007f3ac1824ec06d17479ddec334d93",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100173.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100174",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100174_test.jpg",
+      "image_sha256": "4acb328d51ea1726613443f5e0859b9bc16fdf4aa92222575cf4040f8e07fa1c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100174.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100175",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100175_test.jpg",
+      "image_sha256": "b47da6dee5e217635c26bf9f40fb26c62772aac71df85b0d777654979b20d459",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100175.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100176",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100176_test.jpg",
+      "image_sha256": "78b272c18afc7266d3f8028210fcf052734b5f6d16556057d502fcdac2fd00d1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100176.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100177",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100177_test.jpg",
+      "image_sha256": "5a899e1eebeb47ecb2e9692ca0253c20dc09ac04897f666a2d7227d7cf96fbc2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100177.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100178",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100178_test.jpg",
+      "image_sha256": "21f280740ce18604019796221fd1091782fc33e69a0bc92454ca263de8217c4b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100178.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100179",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100179_test.jpg",
+      "image_sha256": "1f0ee3c5b0e21cea488b06c073fca311b6cce103630f90fdfbbb8b88e77935c2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100179.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100180",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100180_test.jpg",
+      "image_sha256": "4e26f7682b274d7c772f71ab8498a45e38a27e5b056096d9559c7d70f89f83f3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100180.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100181",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100181_test.jpg",
+      "image_sha256": "39afd915bb98c0ab686fca054a006eb1b5bf8454fd27baa133db151f09a68f7d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100181.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100182",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100182_test.jpg",
+      "image_sha256": "2d0ce8c73beda38c5304980d33d65caa539725ebc78fa10fb6d76636a6832706",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100182.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100183",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100183_test.jpg",
+      "image_sha256": "2f0f340fd2acade223e96472b8a932b25df03a491f0f5ac2c47240106d6b9571",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100183.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100184",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100184_test.jpg",
+      "image_sha256": "3a6160db5585acb93768c56d7996a83295fc20bdccd070e39f97e9e145fe81f6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100184.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100185",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100185_test.jpg",
+      "image_sha256": "a99d57270f3589e007e6b2d0e92833be8fd91eeb4d93edd256b7d2068ab3ccca",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100185.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100186",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100186_test.jpg",
+      "image_sha256": "b27f27960d5f3efb150d3932a7f25add6fa00a28f82b28c414d184c16a75b7e5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100186.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100187",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100187_test.jpg",
+      "image_sha256": "ff0a36f9639aa4e50f7570102e862b681a497496e630240c500fc1b5d88389fe",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100187.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100188",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100188_test.jpg",
+      "image_sha256": "2ddea68130a486b7a4cacb2fd28859b99fd63755bed7ae94485674ab34e9b194",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100188.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100189",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100189_test.jpg",
+      "image_sha256": "73ee591222a00f95f2fc4887e720b14211310ad4a719610864f362513d81a970",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100189.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100190",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100190_test.jpg",
+      "image_sha256": "ab52823d18fae6422c24f38de35a2454ff7facd89b5da9d89d5f906413c884d1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100190.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100191",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100191_test.jpg",
+      "image_sha256": "44d8ba0f377a870dbdf10052fae6ddb7ad22154eca9ac3bdea658be1883a6a3d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100191.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100192",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100192_test.jpg",
+      "image_sha256": "b401ec4a7958575bf564fc6fcf7edf28a0d87fbcc1a35fb0045fcf17c0b29b18",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100192.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100193",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100193_test.jpg",
+      "image_sha256": "a743c363b14350ecf46cf60c8e80b27f3dbbee902cbcf7d673211afe7bcadcc7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100193.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100194",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100194_test.jpg",
+      "image_sha256": "91419e3d7c2223ae3a15bafa507e51a665db061a8d58a0a08e320e6d1a442b3e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100194.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12100195",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100195_test.jpg",
+      "image_sha256": "5da0dda8e365774d40b62b44b3fd6f985f910df8acef58283b6b87c180bc5ba3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100195.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100196",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100196_test.jpg",
+      "image_sha256": "d47177a1c0b50d356be4b1bdaf98d960a91952a654573326b5bb8172aeebbbf0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100196.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12100197",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100197_test.jpg",
+      "image_sha256": "b629e5dc5b8fe8aa042015b62754b0147dc4fb46912493ffc17f607841de969b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100197.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100198",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100198_test.jpg",
+      "image_sha256": "7bb8c41eb55dcf5220ded192831f79de9a8aeec1fcebf9856b364748721bd033",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100198.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12100199",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100199_test.jpg",
+      "image_sha256": "625217602141f02df45723e1c50a936fc5930c9471b8bf40633430a3501df3ac",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100199.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12100200",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100/12100200_test.jpg",
+      "image_sha256": "225ebbbb49f01ba1bdb053a347de5ee80bd62ba6380fa78227f7c4ba6472e568",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12100/12100_not/12100200.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "12300060",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300060_test.jpg",
+      "image_sha256": "e65889b511f2c7cd080ea5cf2639324920ed69fb6fcb2df86e6be841b787123e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300060.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300061",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300061_test.jpg",
+      "image_sha256": "8001dd4801f5c28998ca34946d9a2ad1eada7c833c059c63fc09811e8bad7d46",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300061.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300062",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300062_test.jpg",
+      "image_sha256": "f96097d7a7302fa4a741a818517855f96c64f38aae9176599e02bc6d81c59058",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300062.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300063",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300063_test.jpg",
+      "image_sha256": "521c78c0c5cfa9bf7c0eac766a79d21afe8e441bf370b2b1cb1559cb5b63a2a8",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300063.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12300064",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300064_test.jpg",
+      "image_sha256": "bb18a3a5cce7263c6ffb722f9271a6bf8dfa71498b6c2f895b47024e5ec759e6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300064.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300065",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300065_test.jpg",
+      "image_sha256": "e67053d25e0b57f9a2068390ea6bbaee7c6bea680fc0021e6329ddd2ba387649",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300065.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300066",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300066_test.jpg",
+      "image_sha256": "537fbcf6af65e1dc1b7e21f89bf4fe44e8cfd4bcc5f4d771400fb872f0c506ed",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300066.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300067",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300067_test.jpg",
+      "image_sha256": "90fb73adfd51f475c4025f9782122638d0e7438481bacdc901062eeaaf812d8c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300067.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12300068",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300068_test.jpg",
+      "image_sha256": "071eb65172452b264d51269916682c706b70b1f16eb2b4e60d365c4827d2f536",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300068.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300069",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300069_test.jpg",
+      "image_sha256": "0943d79282a6c4bda999c91305341db7b7365fdc3d5892b4e7f72a7430c98438",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300069.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300070",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300070_test.jpg",
+      "image_sha256": "f0af07c825182c171d2f1caac8e5623163cb2dc00e5ab5093d66b572d72d5ba1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300070.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300071",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300071_test.jpg",
+      "image_sha256": "560f8067c5f128411b12497336f3f1c7683fcb21aff7bfb4d7b56374954171e2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300071.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300072",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300072_test.jpg",
+      "image_sha256": "292c28348f8265c18659275c7d2b43437a310541f9345d2b340c7b8e9cff9931",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300072.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12300073",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300073_test.jpg",
+      "image_sha256": "7576aea95b5dbac40e42e16addb1f1952801f960095dd32a1bdf894ff4d7f008",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300073.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300074",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300074_test.jpg",
+      "image_sha256": "97c42a4206cc1d60fa70d2bbba647431d3e685922908cd818430f74ec0b18d71",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300074.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300075",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300075_test.jpg",
+      "image_sha256": "a6be31180159d8fd0de0203fd67678f0c037c1c763b3f60b6bf59e57eb2f26d1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300075.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300076",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300076_test.jpg",
+      "image_sha256": "5146996b30f9939c99b1fda00f27d2728212c0b9d87cbd5b8705de021e35810e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300076.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300077",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300077_test.jpg",
+      "image_sha256": "3d7300120207b2771fa6cbccc8b3790a79f1b5bad1f961782940e780a8a8cf23",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300077.txt",
+      "annotation_count": 3
+    },
+    {
+      "pair_id": "12300108",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300108_test.jpg",
+      "image_sha256": "5438ffd3f1856305440740c83dde2514ad4b3c5570a47160f139dce854b1c910",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300108.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300109",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300109_test.jpg",
+      "image_sha256": "c837fd26073410eb557257b26f84d190bbc2037ba63e8f47029d5693080b9351",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300109.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12300110",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300110_test.jpg",
+      "image_sha256": "285d1e4e1d9c7f937891f6543279358b790535752147214dde7b4a4b2ec0812c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300110.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300111",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300111_test.jpg",
+      "image_sha256": "0f6d09c9ebab4df8c9b2e3e616dcaf7c295455223ce0ab3e84ce738a9223f22f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300111.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300112",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300112_test.jpg",
+      "image_sha256": "ba426c9c260e1dbd03fa44f6565b45567fba25ce0a939965b954f45e785950e1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300112.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12300113",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300113_test.jpg",
+      "image_sha256": "01befa293a68bc0d77ef83ce273a0e149d4e34a9ccb5292969163a1f8e82809a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300113.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300114",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300114_test.jpg",
+      "image_sha256": "cfd7bbf5145c27eed25d30fd5d739d36ddf9bb3943fc748fd0b0ef65497dafb9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300114.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300115",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300115_test.jpg",
+      "image_sha256": "35d517badbed91e83d46a5870201d3d2b01644d23c705dd771449ed211719d90",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300115.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300116",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300116_test.jpg",
+      "image_sha256": "fcf878bb81e2202a310864a278ca5c69fb42ef4eac7ed8e2db0891911fd67536",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300116.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300117",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300117_test.jpg",
+      "image_sha256": "96f5767b51a57aabc8c48472a7aa4dcd2697168673796a0406a1808a7c7d41e7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300117.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300118",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300118_test.jpg",
+      "image_sha256": "aee327f5db6bf8a77b45682cb40ea972423db2f2e7bbc89082c6e176be127477",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300118.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300119",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300119_test.jpg",
+      "image_sha256": "b3a492144b9db75dd7ab3770ec55b7b71ed0204a30303be91ad9c874942c79a2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300119.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300120",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300120_test.jpg",
+      "image_sha256": "643a05c6b7ec73c6ddf5777c359b3218ac34c8f5bd67ce6fed1e0269e04f6529",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300120.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12300121",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300121_test.jpg",
+      "image_sha256": "5d9a2efda0b6c0cc5e9beb234134611eab0bb06f88dfc644ff5042d0b5f566bd",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300121.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12300122",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300122_test.jpg",
+      "image_sha256": "ae79daf11099a81230d0745b4e80a5d4f4faf3671d307e350ff59428c87e8367",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300122.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300123",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300123_test.jpg",
+      "image_sha256": "2fccb683c0dc76a3011e834aa754dac03834e547fbba0aa7ca021e4af5a1f60f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300123.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300124",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300124_test.jpg",
+      "image_sha256": "3dcd4162252456a6bf720b91de5315dc07969cf45cc0c0402db20e4070b286ea",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300124.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300125",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300125_test.jpg",
+      "image_sha256": "3a5068eabef835dbdd95dad73621013927a7cd566004fe910a71f4ebb75a187c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300125.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12300126",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300126_test.jpg",
+      "image_sha256": "19118821f70233917da42fa4fedebd96c065ba659e8b504a82360a484a88a173",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300126.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300127",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300127_test.jpg",
+      "image_sha256": "357fe7ba9ccc5c1777f338d3d46bc56175d8ff29984571c7593c0038b6e1499d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300127.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300128",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300128_test.jpg",
+      "image_sha256": "ecb4e0b3648f59803810016b71d1e9d1b26a315ac7ab31f54fe46ed0c8f8467e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300128.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300129",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300129_test.jpg",
+      "image_sha256": "69a720d0adf89862e25ee0a96e05100b8753b65e005cff4783b9646cde408d3c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300129.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300130",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300130_test.jpg",
+      "image_sha256": "1ac9e06865e909acc6709bcd14b5bec5bd9ca5f62ae3e7b3755a9cd9f31f68ed",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300130.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300131",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300131_test.jpg",
+      "image_sha256": "80dc6e71be3e1cc711033ac6e9236a040f1b4e2d8414fc229fabea16c07470c3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300131.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300132",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300132_test.jpg",
+      "image_sha256": "feed0641a89ae6e6bee9b639b1940422349058e9aeabcca2feac0517d57a6466",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300132.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300133",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300133_test.jpg",
+      "image_sha256": "ad3b4870f0b4a10f7a8b2e4fe553a6332fc85128bca66d88ee80a3066a9d7a9b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300133.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300134",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300134_test.jpg",
+      "image_sha256": "f20f9fbec9eb1052a5f8780997ea30e3bfd079aea8f98c498357924d40957bcb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300134.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300135",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300135_test.jpg",
+      "image_sha256": "9f89a9b52be0a51fb4ab9aca01d218570254744a43bb4dca4fbc67c6d770d66d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300135.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300136",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300136_test.jpg",
+      "image_sha256": "1d9f4b2ece407890591a6f07277d5df3ad07cf6c869a8964d2d2994addc1863a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300136.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300137",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300137_test.jpg",
+      "image_sha256": "65e6ba25892d8f0f2817b99798eb4547acb57777cf1a290e3e1727318ca72d7f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300137.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300138",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300138_test.jpg",
+      "image_sha256": "fb490dc9b63ed2bcd8f629a1aa96d8a710e45fa8f394e9d75afe60905bfc3034",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300138.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300139",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300139_test.jpg",
+      "image_sha256": "114399135cc8ae1fbe28db8186352ef222b3761aea6c57009372add73651b8ca",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300139.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300140",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300140_test.jpg",
+      "image_sha256": "9ace078348075c924a0ff59fac7ebe47b94456f1f886cb012f5deb7a18501c52",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300140.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300141",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300141_test.jpg",
+      "image_sha256": "c79d091ce9c308975aa13c336a2a390d41d352ad010988a6c2e10f38cc6ed863",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300141.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12300142",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300142_test.jpg",
+      "image_sha256": "aa6e9a50c9a28b94b4ecf3b2d0a3e2b758b2b4675935d29f12c6b981d661cee7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300142.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300144",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300144_test.jpg",
+      "image_sha256": "e431e8b870b358e65cc802584faef4b4ae4bcdeb8c1c773dd4d2890014fe7922",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300144.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300145",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300145_test.jpg",
+      "image_sha256": "21b9077b70f6a3b3d4e55ff0ceddb5101ca54b11f4781cde018d5accdee7ed67",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300145.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300146",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300146_test.jpg",
+      "image_sha256": "672e42265a138f3066fa0ed50f76c232611af831eedbf6f1f3a1aca6013a7a6b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300146.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300147",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300147_test.jpg",
+      "image_sha256": "5a2c4f6c0191544db0ebfd81af3c29f6ac6fe12f7bb736ca208d7e2b1d3420dc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300147.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12300148",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300148_test.jpg",
+      "image_sha256": "6c0381b733f327a36d29b84180f497384bc8acc8f897c055962f22cdf79c4ac9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300148.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300149",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300149_test.jpg",
+      "image_sha256": "b56ee1bf0226740104980f69f02834eb04e652c8e74a24ca51455b9e373e6097",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300149.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300150",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300150_test.jpg",
+      "image_sha256": "014c963b85ae07d86acd462ef623229d8935ba4fac6b09b573800d913b9be982",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300150.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12300151",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300151_test.jpg",
+      "image_sha256": "bf44139eedbbb985e456da8692380545b48f5f12f7411bb1e1092a6b0a05598e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300151.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300152",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300152_test.jpg",
+      "image_sha256": "1a2aaeea07bb7599cd508cf585b2a031373587ac4a44577c75e5dc0be22df4f7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300152.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300153",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300153_test.jpg",
+      "image_sha256": "830c3344ba979afce773bb924bd5b8dfac7b2c63a7c28865b4d518888dc1f9a7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300153.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "12300154",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300154_test.jpg",
+      "image_sha256": "ace699005bcd7611cc63fd571ed5038c422cc3affc1f66740a720de1697d1b9b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300154.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300155",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300155_test.jpg",
+      "image_sha256": "ca25a85aaa824692202f2c594086ec3ebedccc612862b5159e51e43c0e154f8a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300155.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300156",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300156_test.jpg",
+      "image_sha256": "6f8b21dde2c4154d7d7fda641bb2ab50c3259f40ceb34a1dfe2cb2e282464667",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300156.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300216",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300216_test.jpg",
+      "image_sha256": "274767fd0c717970d35043d20fd02736376e97075a8a1a6b9ff34314b5e29ea5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300216.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300217",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300217_test.jpg",
+      "image_sha256": "b7453c2d317e8de227c061f13e8ba63b372ce204194585b3dc3d7165d8101d01",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300217.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300218",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300218_test.jpg",
+      "image_sha256": "fcfe078ea4be44b7cb29f67e6d4695a430eb81c8918e116062aa2c2b808f85fd",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300218.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12300219",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300219_test.jpg",
+      "image_sha256": "45114a4acda3cf3229c1fdfb3883cf54041a1ff897ca2438aa5fa3f79e2b0864",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300219.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300220",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300220_test.jpg",
+      "image_sha256": "3f54ad88978761992f7086e4252a5e438f7c62fe3195d4b75677793f9758b99e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300220.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "12300221",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300221_test.jpg",
+      "image_sha256": "fc59715ae650f369827178b1c9ca534d380ef6dc370b78061567229507555d01",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300221.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300222",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300222_test.jpg",
+      "image_sha256": "3dd9c08d6141fdce35a72f0bed2ed1997b2887b81e7a911e799b9d9641c28039",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300222.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300223",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300223_test.jpg",
+      "image_sha256": "65a488029b2699aa94526ec29f843d75b4a9e5388f0074a5affa9954f0c6dfbb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300223.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300224",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300224_test.jpg",
+      "image_sha256": "1052e285e53460b3930db22bab689a6af0eb8088138f624b7c4b566c69991d55",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300224.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300225",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300225_test.jpg",
+      "image_sha256": "6f0b82b7e2d5d46cd11c2a2c8d4e2530e35695ef44df64467b1ba00398fc5aa6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300225.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300226",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300226_test.jpg",
+      "image_sha256": "3229e53708910297aa5c159b63f07edf22fc4a9f6b42bbdd8a1dc67c5fbe0245",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300226.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300227",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300227_test.jpg",
+      "image_sha256": "c2a5c5a05f4beb05278e8065d807e72a71f2b0186ebeb36a8917ca216f994a74",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300227.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300228",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300228_test.jpg",
+      "image_sha256": "9012926c1e518fcc08f551d3c7ac40a030ab168ac5baeb5c1a4462760a44b814",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300228.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300229",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300229_test.jpg",
+      "image_sha256": "3ec396a024e5e27fc2b21b79052857b93a0b64d96a30053297cf77155a507d0a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300229.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300230",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300230_test.jpg",
+      "image_sha256": "86df593e0ce9bf192fd42dc421abd9fbdb226f3ac8ba7c43da75d2def13d2d41",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300230.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300231",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300231_test.jpg",
+      "image_sha256": "fd61d57b18ae26bd14a00bb548dc0f29bbf767ac5f1a7a38250611822ed8f5d4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300231.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300232",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300232_test.jpg",
+      "image_sha256": "48eafb1fe966747c74d6599ae66383a44a9577d23de3b72e3f14079b955bddbe",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300232.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300234",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300234_test.jpg",
+      "image_sha256": "2676dae954083420d38df7aafec9975921a6b085f02f89aa6b77a3f678e9d687",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300234.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300235",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300235_test.jpg",
+      "image_sha256": "cd99bc266f67bd9396572bc946284693805d8cc199d9e74d5fb3b0b38ee21909",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300235.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300236",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300236_test.jpg",
+      "image_sha256": "edbfd5e5e1867d07fac1cf3812aa95e8b49b8e4efbf0db09c08ff7d877ccb0fc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300236.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "12300237",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300237_test.jpg",
+      "image_sha256": "09663b2da95f8041e8cd088261db26e48816c4a0d92e349975efa672611664ee",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300237.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300238",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300238_test.jpg",
+      "image_sha256": "1ad791cfef9e8ed38088d171c7719c23397e789d51438417380fd0430a9024c2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300238.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300239",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300239_test.jpg",
+      "image_sha256": "68cf29ec3e72c9c51fa46443a77bb1d5bd3fe1afb80c33480640055fa4094b2e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300239.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300240",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300240_test.jpg",
+      "image_sha256": "4327063e8eb27acd1b5629b1735166af172b9786bdbf5d5bd3f33401f9aa5675",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300240.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300241",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300241_test.jpg",
+      "image_sha256": "7b1f312098fad5e4032a6df8556707b9fd7abf685419c7ab7d7647307413ce3b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300241.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300242",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300242_test.jpg",
+      "image_sha256": "3938fa461b1c089fb054849aff39433aabfd3cda8dd0f95fb5172e9cdd6076e1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300242.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300243",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300243_test.jpg",
+      "image_sha256": "836a2f337a56ea851d24c74c689ad45d86fd8d086bc12318f2f278a870d85037",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300243.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300244",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300244_test.jpg",
+      "image_sha256": "df2862d3c9ac305fd73431da4096515b8bcd2589eb719672347d94caee62b0fc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300244.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "12300245",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300245_test.jpg",
+      "image_sha256": "11f72e43b8b4db0b88e260d59406a1c07ea10bc7e9f9774cafcb1d99aaa33d01",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300245.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300246",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300246_test.jpg",
+      "image_sha256": "bea3af1ecac45cc5f0eac9432d8af2812f28786db7081702dcc80e7eeb9c5faa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300246.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "12300247",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300247_test.jpg",
+      "image_sha256": "79ceb89509e9f6367f3a58cc3c8ba646e431b706dfca56ff776a1eb86247036f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300247.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "12300248",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300/12300248_test.jpg",
+      "image_sha256": "d12c823887eee6f5c31748677f03b8081aff25cd23e9abb6c846b4699924958e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group12300/12300_not/12300248.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "13000198",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000198_test.jpg",
+      "image_sha256": "e6a2f398e3aa129baa206de3aa1b469358a35b74cd5ba349add854939e7548e1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000198.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "13000199",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000199_test.jpg",
+      "image_sha256": "c5e5f0e1b2524ee9b424be3621adadc246f4bae27ce9ee32cfbb98dfc125a72f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000199.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "13000200",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000200_test.jpg",
+      "image_sha256": "94ca3678e1553e25e87fb37ab5b28a48ca52c8425c80ca660d1ec0fd38948bfb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000200.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "13000201",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000201_test.jpg",
+      "image_sha256": "55fd9dd67d751b64cc6c09066b4d29894a484fbd3707e274f905bac0a6e4568e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000201.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "13000202",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000202_test.jpg",
+      "image_sha256": "d7977794dd012c8e661d5bbbdb9f248aebf20f9520595b72443823a6ae56f696",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000202.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "13000203",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000203_test.jpg",
+      "image_sha256": "cb03d79a4d2ef94a519056abd8e8774bce4400ab1ae7f42e0935d80f7e18b5da",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000203.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "13000204",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000204_test.jpg",
+      "image_sha256": "a0786f33e2d62be72090a75b9314ffb86c3be00abdae6c5a7f2b4ad5e2473eb6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000204.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "13000205",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000205_test.jpg",
+      "image_sha256": "22b346d1723a2d76a1201a519b33763688ee115f997ccc486c81a6ac2ca074ab",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000205.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "13000206",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000206_test.jpg",
+      "image_sha256": "8b67c4caa665744369504f4c9c8fcfe27954154e17ed3557d804a087450c9082",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000206.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "13000207",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000207_test.jpg",
+      "image_sha256": "115632040b4cb329c34aaa2c42d8c860659d14e1da0c7537a623388921637b6f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000207.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "13000208",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000208_test.jpg",
+      "image_sha256": "e92f6e94da0dea0641f06792eb425cbb536df1b56ebbb43a9644e2f359283c09",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000208.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "13000209",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000209_test.jpg",
+      "image_sha256": "05a3861e71df0142d63ebeeb711a8589649e8aaf3bdd4401bcb6f11536a1f43c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000209.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "13000210",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000210_test.jpg",
+      "image_sha256": "26221702355711f3874cadce3869e0f1481f3f2c588589299d7d3af9996d6e67",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000210.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "13000211",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000211_test.jpg",
+      "image_sha256": "486bfcde3137af1b643ddb5af73ef8571079043c35704f0502adc65beb812f95",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000211.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "13000212",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000212_test.jpg",
+      "image_sha256": "9babe8a577980e8b296be7a9929f08d05811171c4749c26dd57b01a66074835a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000212.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "13000213",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000213_test.jpg",
+      "image_sha256": "bdae238ce65d7576dd0fa97e6fb9450093209c92954d63486092db5900233db5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000213.txt",
+      "annotation_count": 3
+    },
+    {
+      "pair_id": "13000214",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000214_test.jpg",
+      "image_sha256": "56439f6ff98023e876b8345174b33bc089c7be60b062bd74dc52235800e3461f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000214.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "13000215",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000/13000215_test.jpg",
+      "image_sha256": "6a96710f545e67d33d3a8449b78f219bb65455a56358e7133edb7cf8085b5d35",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group13000/13000_not/13000215.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "20085291",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085291_test.jpg",
+      "image_sha256": "df2796eb4fb667978f28912984f93d2889ab71bf9d9e2953cb8e43ae7a5da6a9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085291.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "20085292",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085292_test.jpg",
+      "image_sha256": "af1714b88e4b510ddae78bf9edd1e8736322483a20f4d7f7ed0f4dd7a8d88b8a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085292.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085293",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085293_test.jpg",
+      "image_sha256": "058e2a43647cc3dadbc5a8b733a9546c1d35067720af4691ed4b9a45381a4462",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085293.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085294",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085294_test.jpg",
+      "image_sha256": "382958f7e35216a924f984670222b4400b40a6afa5a0ee9e355e4543a31d388b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085294.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "20085295",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085295_test.jpg",
+      "image_sha256": "cc54c77afbebc773dee5f95d74f1bb547b431b0cb53da312b1beffbbafbd1d54",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085295.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085296",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085296_test.jpg",
+      "image_sha256": "7bc47dfa7808fc4c7055ba25c9bd4319fa0f8c68bfb33813beb80e5576562277",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085296.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "20085297",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085297_test.jpg",
+      "image_sha256": "36b2a75be6c002123d1dc3dc8cf2f10fc83badf46e3218c296ef0ee23e4ce356",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085297.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085298",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085298_test.jpg",
+      "image_sha256": "da9db2c1296262c514126b25a4bfcba09e601896091f57f02aea7d62c968e488",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085298.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "20085299",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085299_test.jpg",
+      "image_sha256": "75cfa90dbd775dd84f53ec96452e7e3efe94088a18eb5aab70feea2e6436b295",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085299.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "20085300",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085300_test.jpg",
+      "image_sha256": "21181fe03d74b5b163bebd3f0e7f9051068b31465a5e2aa3873100796961c7db",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085300.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "20085301",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085301_test.jpg",
+      "image_sha256": "376520a7d14b8fc11494df962fdda7f7fa5f47efe60259252770db34db899134",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085301.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "20085302",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085302_test.jpg",
+      "image_sha256": "2db357ab52b2a9a1f24364be8e8b1e783411cdf8bfbeed29d5a58dc7422ea05c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085302.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085303",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085303_test.jpg",
+      "image_sha256": "07c2909003dc371dda9de66de7e56a00dfa294ff89571c4dfe490590a279bbdd",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085303.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085304",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085304_test.jpg",
+      "image_sha256": "438ed19524250ca99ddccb145059a567d473dbc179e7698673a032edc7bfc5cc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085304.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "20085305",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085305_test.jpg",
+      "image_sha256": "54053578ab7bd842b11d625ab98256689dac1f58dbf7884e4fa2dd413ca05986",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085305.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "20085306",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085306_test.jpg",
+      "image_sha256": "a6dcedde43586b77d766757c30b2e0d88102785145ba3fb3e9e3e5f45d35d420",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085306.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "20085307",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085307_test.jpg",
+      "image_sha256": "c199d61feb0ee6db14368b46ef474fefa4a32e12580dcad4668368b256a7db16",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085307.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "20085308",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085308_test.jpg",
+      "image_sha256": "9f288a37ce890774d974ec9b822e46cd21e5e88420a8d6636ae5ad76acb9024b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085308.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085309",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085309_test.jpg",
+      "image_sha256": "e422dd9da413808dff32e9fceaedf3e854d485b0fb74628b73fef3fb17d55334",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085309.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "20085310",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085310_test.jpg",
+      "image_sha256": "b4605fafe6f8bb0bea54a5ab496cfac375a30ae94e2edb67da6ce01fa82c7f5e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085310.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "20085311",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085311_test.jpg",
+      "image_sha256": "ab2df689b0485fb615a5b6b7a0ea1dcc7b88d0b6213d937dfcead86b5a91209d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085311.txt",
+      "annotation_count": 2
+    },
+    {
+      "pair_id": "20085312",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085312_test.jpg",
+      "image_sha256": "d8a298b23da859078a18d6e6c12e0aa3c5ed72d1ffb2af7b6a144a16d3426fcb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085312.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "20085313",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085313_test.jpg",
+      "image_sha256": "9adc88a5c05b914e9aa8e08ecb4d5aba671825614a3eab8ba0de87be4dbff96b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085313.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "20085314",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085314_test.jpg",
+      "image_sha256": "6e3c2f2da6b4736c0cdaade48fb27556b7fb41cdabc9ec9e3238853e3f25e4ee",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085314.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085315",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085315_test.jpg",
+      "image_sha256": "6bc6021b69d5b2fa0ed28a6b5d14245c49d2a8bfba1c4ad34c6be62f24de91bc",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085315.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085316",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085316_test.jpg",
+      "image_sha256": "73095e0d616ee2260a56a341331f6a3bb5c54c78fe737cf0ef20df5b7a690f05",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085316.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "20085317",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085317_test.jpg",
+      "image_sha256": "b77ece261c4371874c6578c3b3812d5ede233b04429642c47cf792dc4f685621",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085317.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "20085318",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085318_test.jpg",
+      "image_sha256": "c8305e4298b32be98737208ebb49ac5942bf0058239263be60dbcea79def85e7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085318.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085319",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085319_test.jpg",
+      "image_sha256": "72a56cc3c0e566d3bbf72710349d8d0a08c15f150778ccb21b678bdb65a04c15",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085319.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "20085320",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085320_test.jpg",
+      "image_sha256": "a486a88b89a2c2651460735614ea3f14f8e1644c609d7739b3318be89611c629",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085320.txt",
+      "annotation_count": 2
+    },
+    {
+      "pair_id": "20085321",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085321_test.jpg",
+      "image_sha256": "f2a175c49a1d6d34245b22b9cf47dad6c4c53e0ffdab518a2941ee6d7bfea648",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085321.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "20085322",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085322_test.jpg",
+      "image_sha256": "321217cdf2f498b7c0a13b986ba9b47439c111ff1c03cf332905f60fd9942f30",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085322.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085323",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085323_test.jpg",
+      "image_sha256": "f601acb1fa769398df73ba49c3c903ffbc72dee215921bcc405926e1adedc144",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085323.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "20085324",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085/20085324_test.jpg",
+      "image_sha256": "d6a004d424dbac7efe6a536fb0e237e249b6b0552cb075b19bc13ed0a1373062",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group20085/20085_not/20085324.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "44000011",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000011_test.jpg",
+      "image_sha256": "6c7bd0e79b38c7ce5f7cc560e10719acbb7d35ccc81294a87464dce2bcbab4d4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000011.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000012",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000012_test.jpg",
+      "image_sha256": "083c157431d2a5e6d532eba09eff03a30a7c5bc12c7880dabb1d2956d5ef4ea4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000012.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "44000013",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000013_test.jpg",
+      "image_sha256": "f0220e2775259d9cd4ef81feabf8209126c604f19c5b49f6895aa8ddac19c31f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000013.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "44000014",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000014_test.jpg",
+      "image_sha256": "6696387567f6d4a7183989164b5666a44baebfb76f39462948e9b809c8a9294b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000014.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000015",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000015_test.jpg",
+      "image_sha256": "420ee4afb73497dacb137098516b4361621cbe380688671df43ae454c3d6a129",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000015.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000016",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000016_test.jpg",
+      "image_sha256": "3552747692e1ebfd243f058b04f3719d856597b37435b0a4a0fe5a98ad6196d8",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000016.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000017",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000017_test.jpg",
+      "image_sha256": "05c97c56140f0421c5d656e3f49d8f01058b1ae59c6e333b467afd632ddbfba6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000017.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000018",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000018_test.jpg",
+      "image_sha256": "031316cc67f2226398ef0f68d77b407edaa8cbb3ce920b36afbcfc7bdf82f2e3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000018.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000019",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000019_test.jpg",
+      "image_sha256": "f1825b2b96f478cd021f62e16a39834858a6aa87b8b8148d726af9069395eb65",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000019.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000020",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000020_test.jpg",
+      "image_sha256": "2927f0fb0e65a58c851462bd62f5248c4118c70b0bb34195ce3c7e7506ee94ea",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000020.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000021",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000021_test.jpg",
+      "image_sha256": "76cf46871b94bc80b2d2498aff668b06ab83d4c140091fe6846d69b744453021",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000021.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000022",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000022_test.jpg",
+      "image_sha256": "596e955dc97ee8904ca880f31876ec8817a6464ea54cb43936ec0ef365234427",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000022.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000023",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000023_test.jpg",
+      "image_sha256": "553e6bcd82baf390710b97145b2b85d4a5abe418e00f789332af0bf5b539e9d6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000023.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000024",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000024_test.jpg",
+      "image_sha256": "4b5f6d9a0815850ff61bd6541167f9c97f0b36b4479849149c5738fd04ffa6cd",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000024.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "44000025",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000025_test.jpg",
+      "image_sha256": "cb95efbb69c28990dc06593c478c21b7da3d07ba4fbf1c93339467dbad3339a8",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000025.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000026",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000026_test.jpg",
+      "image_sha256": "3013be389ba6cb04328970ca0f7152173ed4717020277abfa5a0469b2fa6377f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000026.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000027",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000027_test.jpg",
+      "image_sha256": "db547906ac50e5dfbde15b93098699007210cb86955a5cc5cd06bae57b46ca7a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000027.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000028",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000028_test.jpg",
+      "image_sha256": "94b8ee68e35764272809ddcc30f9f852121ac0278d507c69de70248a9c47f76d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000028.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000029",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000029_test.jpg",
+      "image_sha256": "164e7ad302fa2ec382a5ad1dbcd0541087a659dded9dffd08530b0a189a0ff63",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000029.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000030",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000030_test.jpg",
+      "image_sha256": "36872db3aa0a27ff19ba25bc35dff85d03042d7f17511ee712f12baf9bc9a56b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000030.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000031",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000031_test.jpg",
+      "image_sha256": "1892ab6384b664429a9e0324451791091eafbecb760a8da5ba82ad7dad92e6df",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000031.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000032",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000032_test.jpg",
+      "image_sha256": "eae9bf04f0ab0ba2dd772649655acbe65db3ae080e12b4178e987fedcb85afbd",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000032.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000033",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000033_test.jpg",
+      "image_sha256": "56d8b5eec2151d1d7a6cce9925e932dd99c6dfdc0f2387ebafe2ca835a3529a7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000033.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000034",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000034_test.jpg",
+      "image_sha256": "6727f7b1a5f37a2a01cecfa64c5820df1b79e922f78ee1f2cd931e34adcbbf70",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000034.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "44000036",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000036_test.jpg",
+      "image_sha256": "6565af050f78010270d7c2048f22e59e6ddf12cd20ee421ccb859f50770f05ac",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000036.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000037",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000037_test.jpg",
+      "image_sha256": "f3be4c45fd0d1cc886794938f50c2a069010be494ecb67b030d99d61ae4cba18",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000037.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000038",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000038_test.jpg",
+      "image_sha256": "969e228f6e2668f7b86f10a1b316a14d502c0710fea522d651af2034552c504c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000038.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000039",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000039_test.jpg",
+      "image_sha256": "20b467efa75a6434269f16220ae0d9fe9c488ec19b6f12ec8c71f4a11306de2f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000039.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000040",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000040_test.jpg",
+      "image_sha256": "ae5cadfe8ff6203de13da304c4cd836a9ebb69bf21b60582b00a69ff31122813",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000040.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000041",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000041_test.jpg",
+      "image_sha256": "eb0922da9ba27ccac07312a739d7f2cc4df499cbd76ff358aef39133fb6391d9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000041.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000042",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000042_test.jpg",
+      "image_sha256": "7a34fe308c7d47ad687603cf4a72a8a0c139b487ffdf3fc8d6d3382098a125b9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000042.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000043",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000043_test.jpg",
+      "image_sha256": "f88983b49ccc76b5fe14343f6f68e50b9168bace1e104d4b9aead4baadc86fb8",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000043.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000044",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000044_test.jpg",
+      "image_sha256": "ef71428b614e6f516685e3fb6492de125c2d59498a297c9454d3a8c304eb0546",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000044.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000045",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000045_test.jpg",
+      "image_sha256": "0a1d46308e34ec0166bff46c325f9faab129d22693e3f10208c713daea797212",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000045.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000046",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000046_test.jpg",
+      "image_sha256": "d3bbd83c04e129826130566d3913b80c8820134b80cc482a54b05e0889ab87e7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000046.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000047",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000047_test.jpg",
+      "image_sha256": "3fbc75ae4789da4fd1d3f8096330009bb2e71ca4456dda8c8e92bcf962e6110b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000047.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000048",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000048_test.jpg",
+      "image_sha256": "d2be05142bee1fdf5f4564bd09a20a96572a287618742aa1dfc9285517ad4bb2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000048.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000049",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000049_test.jpg",
+      "image_sha256": "33c1724d589722e6b85982330c5c298f07211f2b14ea1758f1a18e2b1362a1fe",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000049.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000050",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000050_test.jpg",
+      "image_sha256": "f5847907d56317c4e2394bc00afa4b497cf1a65c9c141196d5a2b72cec9c9c44",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000050.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000051",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000051_test.jpg",
+      "image_sha256": "4fa72c45010017664e872290c23e0cfdfabf31f0505075cdd74210973102aa60",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000051.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000052",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000052_test.jpg",
+      "image_sha256": "14cc496bb22dab18812997201c0a9fc8bc54bb587bfde7d35a99472cf261d9b2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000052.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000053",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000053_test.jpg",
+      "image_sha256": "00b436f6d9213d4dd7a9a86654dde64415786bb81535437a0d63620d6be5e34d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000053.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "44000054",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000054_test.jpg",
+      "image_sha256": "16c7709c050988c0dec0653d97b6ad7cdb286cd1b4be7d6b9f4c4b493144f7a5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000054.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000055",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000055_test.jpg",
+      "image_sha256": "74578cd07a2cd26bf5c9e9d9a66956cba392d0991dcb8e7e34deb5c69dc6b265",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000055.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000056",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000056_test.jpg",
+      "image_sha256": "471929cbc01546f5444367470ffc5ebb71feaeadf8587c9a5158bced7bd8f074",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000056.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "44000057",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000057_test.jpg",
+      "image_sha256": "d2be682d665bcabe1a53f19041a1ffc2fc8ccf5440eb459ae5d60dc27f90f1ac",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000057.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000058",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000058_test.jpg",
+      "image_sha256": "4ba7a04883437c096489c456616758dc9824ed9f0e1d21a74a744f8f138e5490",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000058.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "44000059",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000059_test.jpg",
+      "image_sha256": "9faebb4a9751d6e83af1bd4cc7010ab13de2ad3a3bd8f05d2ba3cb2035f33013",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000059.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000060",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000060_test.jpg",
+      "image_sha256": "272778cf6c16ff44ca0f367b3c36337394999ec5864a5ccc753d009414ca300f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000060.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "44000061",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000/44000061_test.jpg",
+      "image_sha256": "3c358ac844233d8d9f6821de77f08780d2f6522a6cb5224bcada6189c2036553",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group44000/44000_not/44000061.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "50600050",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600050_test.jpg",
+      "image_sha256": "10141bfea4fae4ec42f20a3331e5b1fe5314aa415d176c36f9e31134041846a1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600050.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600051",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600051_test.jpg",
+      "image_sha256": "df6d7a8501d3e4a6b888d701df88f581e06c699622cc84032d46a0b0ba3e6f7a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600051.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600052",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600052_test.jpg",
+      "image_sha256": "b4ec46f8c0cb0783b0106a760db5cd57e3fe3a181f13d0c0c7dae77e2c5843d5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600052.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600053",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600053_test.jpg",
+      "image_sha256": "2c5a9b61e2c127a8364f98aa7caa6622603812b5822767da71f2e672aa61dd84",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600053.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600054",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600054_test.jpg",
+      "image_sha256": "05f88bacbfafe5fb2421690f3c10cf0c000f66c9c200f41696a8fb399f1d21e3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600054.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600055",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600055_test.jpg",
+      "image_sha256": "325bc31e1c07e0214eb22a10ec12166d1986575fc58a3f42108e152e7fb1c4a6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600055.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "50600056",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600056_test.jpg",
+      "image_sha256": "6a6bead7910dd2d0c5d8179aae26a8d533941097837b66c16ef1bde10253963d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600056.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600057",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600057_test.jpg",
+      "image_sha256": "aa03bbe203748ac58ba4c8fb2a87518dab91ad7efc017075ea62c693fef7b4ea",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600057.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600058",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600058_test.jpg",
+      "image_sha256": "bf461e64c6e3fa10b91aef4c9cf306c4a93991c20da6f80ec9286e44751e3e97",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600058.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600059",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600059_test.jpg",
+      "image_sha256": "fedec4d31b3bcce375b077e0b9e07d63e4d07721772292ada6c3990c0a911415",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600059.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600060",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600060_test.jpg",
+      "image_sha256": "f72aad2c7501f3c509738580e56a7b94fccc3573bc8a6e30602abdb221113b3c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600060.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600061",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600061_test.jpg",
+      "image_sha256": "d3df076c5271cf2968343881cb988f860b1bce12ae011bf72a968d08b00a061d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600061.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600062",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600062_test.jpg",
+      "image_sha256": "e59c319d7b511d00fcee88e93fbc7c847624bf59a7e91e169d36898586dbea71",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600062.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600063",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600063_test.jpg",
+      "image_sha256": "9ba0ca02f54b968e68ec2e21aaf9eb23ffd24bac9c15bc922ef5a478f3301314",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600063.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "50600064",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600064_test.jpg",
+      "image_sha256": "554650f7128425daf375a735359ef97b220171d3ecb0fb4641ebc698cd100289",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600064.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "50600065",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600065_test.jpg",
+      "image_sha256": "5c2994a233cd1974542e094efe9a571a1c55cf2ded39e92d72d9592d102f2a0a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600065.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600066",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600066_test.jpg",
+      "image_sha256": "232d6fda7acbb281ab2b776c2af9436dc417b897f2a477a0957688bc8d1a19eb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600066.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600067",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600067_test.jpg",
+      "image_sha256": "662090bc3cc56c55afd5f235fd79419d9c610e62b723be0e2842f65a7c6c7380",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600067.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600068",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600068_test.jpg",
+      "image_sha256": "e8745429b0d892f84452c55b437ad58fb1b12fefc9113b757480cb7ab7438ea3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600068.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600069",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600069_test.jpg",
+      "image_sha256": "1660ca94d59e3e775cb252d1c1471292f84f3182a47c78d06cc72e9534a7c7da",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600069.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600070",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600070_test.jpg",
+      "image_sha256": "e157f40cadf1283952977f32449bcd97441e1f634457e883352897984f892843",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600070.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "50600071",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600071_test.jpg",
+      "image_sha256": "d18211b5da79a69919b1da71445f7faabb884cfe90c4d1732c4a885a7a94ab60",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600071.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600072",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600072_test.jpg",
+      "image_sha256": "22011e23420e4b254bd0ed178ef480f95b7ecac66817bc3ed87f61e21028890b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600072.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600073",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600073_test.jpg",
+      "image_sha256": "0542ded98ed0c81dab370e5df3ab0bffffe9a349ea7e524a3cad456780d043b4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600073.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600074",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600074_test.jpg",
+      "image_sha256": "8cb7bea5c43efcd6256cda1cb5f91ca60d72fe4968487e9b2311993a0b088d0e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600074.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600075",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600075_test.jpg",
+      "image_sha256": "31ce6e469e7b318a32f3cefe279cb3b2587a3a47560fe2193a3530b3584a693e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600075.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600076",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600076_test.jpg",
+      "image_sha256": "44eedfe73bc4c0b1c72a3bfe97f06924a5f7d9e56eb9091bc0214e39d6149875",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600076.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "50600077",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600077_test.jpg",
+      "image_sha256": "38e9d18fa798120919a0682e7fded04f71f80659fb535e6cc4979f5cfe2c658c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600077.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "50600078",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600/50600078_test.jpg",
+      "image_sha256": "d5286f444e813b3abc1b1de7435ec28cddb388d52ed17d0e5bb16587346c7446",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group50600/50600_not/50600078.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "77000100",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000100_test.jpg",
+      "image_sha256": "47c19dd72d383abbf23c1bb700634a856e7d52f234672fef579020abc26297ef",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000100.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "77000101",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000101_test.jpg",
+      "image_sha256": "89161295289c89e1ae3a83b05ae8581a8bab338c169ed6d1e8e812d0b2c22f3b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000101.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "77000102",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000102_test.jpg",
+      "image_sha256": "9d7849c83fdeb6e1befce690bc16c322a1c942b907fb884b4e111a91d4680b1c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000102.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "77000103",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000103_test.jpg",
+      "image_sha256": "19df95e030cf39f913604a481d7f8e52b7625b34552ead2283cbd0ef901376a4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000103.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "77000104",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000104_test.jpg",
+      "image_sha256": "f36acf99d341946d693f48dab7aacd2d22e57e63102a26a478c2871ecbf4d7c3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000104.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "77000105",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000105_test.jpg",
+      "image_sha256": "fdc01d4d32cdfe6f13e13b6d893d59f1e08968d562372ce5393d86f1d4d9f8df",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000105.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "77000106",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000/77000106_test.jpg",
+      "image_sha256": "d1365ee8af2df6022e3daf7272073f61aed0c6d253a241f5bcb95b5c66040ff0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group77000/77000_not/77000106.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100000",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100000_test.jpg",
+      "image_sha256": "b3e6e4ddd3ccb346160a708cefa4e11c6de41edeb4456817a581281d18e0a422",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100000.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100001",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100001_test.jpg",
+      "image_sha256": "3f0bc6f8890b3104f5fc337cd020e8250ca94dd3ba66d11636589856709f045f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100001.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100002",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100002_test.jpg",
+      "image_sha256": "8a3f8e7967df8634e26c3b0d1642596d4db415271ba0e3da7fd45549915d345f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100002.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100003",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100003_test.jpg",
+      "image_sha256": "d2693e8712b419e091397c0aa041378688d8ae445f418fbb6f8c9c99bd82cc89",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100003.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100004",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100004_test.jpg",
+      "image_sha256": "61f3f133aa9a36dca209ff3ec6f6c3708f8e9973f8197698102e048ae430fb5d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100004.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100005",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100005_test.jpg",
+      "image_sha256": "4d366526c46a1b93277f97c96943b39d3ad51ef3899bd6c1ba92a50e8dfbfac3",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100005.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100006",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100006_test.jpg",
+      "image_sha256": "3896ab70e8c305db48f927a30c32a2d9ab85ea2c20f693fda232cf86287279eb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100006.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100008",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100008_test.jpg",
+      "image_sha256": "e51aa6367b1e67ee40784cbccf5d6c557ebfb584a4a7ee930fc834ee9e31ea02",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100008.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "90100009",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100009_test.jpg",
+      "image_sha256": "3e4e6d8f629d80fbc574c8f913ef37c5c883544d00ad6033dbf7bc911160bbe9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100009.txt",
+      "annotation_count": 13
+    },
+    {
+      "pair_id": "90100010",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100010_test.jpg",
+      "image_sha256": "17ea6a286f603efed1ed140e308d9d81902bff7e58321057057ef71d4a42583a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100010.txt",
+      "annotation_count": 12
+    },
+    {
+      "pair_id": "90100011",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100011_test.jpg",
+      "image_sha256": "1ecbfbf5c6d6fda98d1bc3cedbf242b96d805c03376f037b126d8b7415e0b1d2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100011.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "90100012",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100012_test.jpg",
+      "image_sha256": "b9c5f3d35052dffc1fa3868d9b1e0c33c49123f6e7affb1fd1f8ce33bc4ef680",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100012.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "90100013",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100013_test.jpg",
+      "image_sha256": "e4906939918c5e683f35be9a8158439169a2b2e28ae36afc34e384c4532129f5",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100013.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "90100014",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100014_test.jpg",
+      "image_sha256": "e3e50c5f964bea7a173ade51e8e2cf000cd4483cd9c17dd8d1b58989d050dc13",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100014.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "90100016",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100016_test.jpg",
+      "image_sha256": "d055dd123002ff93fd6b9813ca2b30eb4b50fadbcd271261ebfaa2088fa2db98",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100016.txt",
+      "annotation_count": 9
+    },
+    {
+      "pair_id": "90100017",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100017_test.jpg",
+      "image_sha256": "2605ebbb59fbc0fcd604b8a57eb5a7c9f6b141558f5d7fe9326cce626fc68d97",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100017.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100018",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100018_test.jpg",
+      "image_sha256": "d07023ce88d9459cbc444ac074df82d9642ac7810ae7716094b34010805a8f31",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100018.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100019",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100019_test.jpg",
+      "image_sha256": "dab3bb969b08678b9c5c2ba4ebd2ae05a018dba9bbd2de9891c6bb528a032818",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100019.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "90100020",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100020_test.jpg",
+      "image_sha256": "91541ca143dfd33b2e327e85ee8dfe37443d2eab04cfc9e2503ba3a02e72baa4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100020.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100021",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100021_test.jpg",
+      "image_sha256": "13dc96a107a963afea5a7f5918454f149279130c1436fb82d984180531f72df2",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100021.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100022",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100022_test.jpg",
+      "image_sha256": "c72b154cef397ad675f8ac5c36d246892d8bfd02911a3a74e30d33e1caca33c7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100022.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100024",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100024_test.jpg",
+      "image_sha256": "9d60af0650fdd8841681825df6e4fb6b0fa9f3b0f9c43bdd6d3589f7b53d77c7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100024.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100025",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100025_test.jpg",
+      "image_sha256": "73b8ae8b07000a1c08e0e69f8c4873ffd6add038fbc91ad1755bbf026cfa814c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100025.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100026",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100026_test.jpg",
+      "image_sha256": "be5f5e8e15b68fcba839ced8b9c09eab9fab7eb67d62d41acb6f86989aab0420",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100026.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100027",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100027_test.jpg",
+      "image_sha256": "08afa603357bc001024047d63fe98c85149cd9658427fdf0a7f1e00cd8c522f0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100027.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100028",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100028_test.jpg",
+      "image_sha256": "5f028ef68fa39018bed92365151a3f733cbeda30fc9e26272d2f6e9d46e27d1f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100028.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "90100029",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100029_test.jpg",
+      "image_sha256": "34ae3ca2a02c5ecf7e99cfa52cac53488634546b07abf7ff66e4e0f4fb669a77",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100029.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100030",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100030_test.jpg",
+      "image_sha256": "53b6a3d35d0e02a00aa7b977ddbac75ec659b185e621b171285f4a1375d1fd8a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100030.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100032",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100032_test.jpg",
+      "image_sha256": "a677262bb9c78bcd0e3d29138536136745a40de1a6dbd5eb5621a614845b1b07",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100032.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100033",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100033_test.jpg",
+      "image_sha256": "abc3bf40a473c539b35210a3110936a9425da49661bcddc9bd101cac22f7e1d6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100033.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100035",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100035_test.jpg",
+      "image_sha256": "ea2be29d1b33928aba2142c9ada1c29736f1d82af63e0bd32f617e3a9edd3c30",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100035.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100036",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100036_test.jpg",
+      "image_sha256": "eed2ef4996d10f67979770aee63dbd8f0614887515133345bd0b1835a246d678",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100036.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100037",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100037_test.jpg",
+      "image_sha256": "62031b84d52ed085e661dcaf1123170d1ad96059a704b48a23f264d141e83e44",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100037.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100038",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100038_test.jpg",
+      "image_sha256": "9aa9e52df696037d651d86038976e64c483623ca7e2a2985da441af75d401012",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100038.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100040",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100040_test.jpg",
+      "image_sha256": "4689ca65a8687de3495eb0980284a43ea8a4d2f2ab3ee5dd769ec951999094fa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100040.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100041",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100041_test.jpg",
+      "image_sha256": "333209ebf2e9059a07e4edce73e935a0bf3fb3fd730278d8d576777e962f9825",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100041.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100042",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100042_test.jpg",
+      "image_sha256": "2b65532e31c5605e010ef6b66612fb9deff315550326c8e653b9507ddf7d0a07",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100042.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100043",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100043_test.jpg",
+      "image_sha256": "3774e442fb87eac9cc435c2a8348edebf3f295a5ffac179051b3ec45ffce4ed6",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100043.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100044",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100044_test.jpg",
+      "image_sha256": "78f57883d4984f60d831a884e9ac7a7d5f8fd58a4c699f895a817ad76fb6558b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100044.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100045",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100045_test.jpg",
+      "image_sha256": "1c34185d3ee85ce5d141bc458edadfae0e08d5420da718df2a7b257b32150cf4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100045.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100046",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100046_test.jpg",
+      "image_sha256": "54a76eed6d8ef1af6ef41aa6752d86b7327189ce1072b0e28317ce3cbd17d0f4",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100046.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100048",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100048_test.jpg",
+      "image_sha256": "1f13e0a0fb72be005a97a2b83ad27cc4e9bcde68be0a415db7e356df7d85022a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100048.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100049",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100049_test.jpg",
+      "image_sha256": "671c9ddc8d78dadedbf5488d7763a826101f61722ba9086027de30eefdfd1301",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100049.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100050",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100050_test.jpg",
+      "image_sha256": "07dbc952d55b49ba1e4c1685976107e4688e686e111a27db62f30e123161f015",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100050.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100051",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100051_test.jpg",
+      "image_sha256": "fa78466a9be23e679e9d4338bbe039c77760ee48ea6796064fd2607fa0101379",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100051.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100052",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100052_test.jpg",
+      "image_sha256": "a12500c506f5830b29a857414acfe3eb02db09bc642c9ef6325e1e2f10eec53d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100052.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100053",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100053_test.jpg",
+      "image_sha256": "0dda6d0184bc7d89adfe96d84ea5191b3c245949b1c9d2bfb1aa68ba4b558893",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100053.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100054",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100054_test.jpg",
+      "image_sha256": "9859bcdd5e4299c7bb17f98e8131733ccb7fab51c43f34b6b5f2307562f7fa33",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100054.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "90100056",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100056_test.jpg",
+      "image_sha256": "d8b9354f3d613e182f88a42e9fed691d3a6cc4d7a57b216a6edc604f5b283c6f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100056.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100057",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100057_test.jpg",
+      "image_sha256": "ec753a1d47d5f9161665af8b01aea18d822250ebcd4e0e0d19bd98413f628c3d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100057.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100058",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100058_test.jpg",
+      "image_sha256": "ac0d73261cfcad3e1f9da81b89dc9528ae2d9c852dbf550774b2792c968483aa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100058.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100059",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100059_test.jpg",
+      "image_sha256": "0f1c97e17ace15a795bab8f5f254647ffc9ce216f7d41338b56c81d1a5bbd432",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100059.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100060",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100060_test.jpg",
+      "image_sha256": "707a2cffa42eba7c485a92c585f75c3294a9f4055f9e3f7a644e50aec27f858d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100060.txt",
+      "annotation_count": 10
+    },
+    {
+      "pair_id": "90100061",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100061_test.jpg",
+      "image_sha256": "8fceda1a5bb33c7a3ddbee1dcdd3abb685ae560d5738efd61b1ac9ff4fd2654b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100061.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100062",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100062_test.jpg",
+      "image_sha256": "b2283d17faf70224261a842d2de08db57e30083cec9ee6150fda9720e3fe949d",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100062.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100064",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100064_test.jpg",
+      "image_sha256": "befbc9d91ed17b56c8cc67c08768cd01fef5e5fc8dc07dda6887daab8c616cd9",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100064.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100065",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100065_test.jpg",
+      "image_sha256": "aa3c70efdd91bb5fa677b87593a99e68799665b78432afe983431320cc752cab",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100065.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100066",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100066_test.jpg",
+      "image_sha256": "b2e8f60b50efc5bb111186b2afeb8b201a838eef363c2cdbf69c260614004a8c",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100066.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100067",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100067_test.jpg",
+      "image_sha256": "daa6da5e4d4359f95ab4d1f81c6ccf93de24623b2121678f165671607e9d82d1",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100067.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100068",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100068_test.jpg",
+      "image_sha256": "0dffda82cdd8e9377acc7b654f24d2efac1a68f1b45b2cab6dbee37a90765797",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100068.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100069",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100069_test.jpg",
+      "image_sha256": "1090712a5fc61fb5498c960c93f08c1d87d416be6c3d1e0f42b0a76c83052572",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100069.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100070",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100070_test.jpg",
+      "image_sha256": "5a0adadaf73952a1b9bbac50065aada8146d8f9fc545e34ae8ea7b0199582886",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100070.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100072",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100072_test.jpg",
+      "image_sha256": "71149bcff8e6b786e181147152d54451ed6fbcea648cad63f4697a4d4f40daf0",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100072.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "90100073",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100073_test.jpg",
+      "image_sha256": "ec086b2729a6b9f46c271937f60a46919289509d83646ae22f5f4197e21f2964",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100073.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "90100074",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100074_test.jpg",
+      "image_sha256": "9d3ef2fd467badfa86a8ff8410bc72ef17a16adb8b12abc93d3a560dd676eebe",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100074.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100075",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100075_test.jpg",
+      "image_sha256": "9b85dfd8f1c366da5aafd0b7b955be2f6451d408c0ee51ec7e04edc72a7bac33",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100075.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100076",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100076_test.jpg",
+      "image_sha256": "4d1eeb68ca5d3fd71ace603ebc7183c6a8ccc7c2a15287a9a7807805821bdc53",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100076.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100077",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100077_test.jpg",
+      "image_sha256": "d75384e1bef6858bffab90ca8e9f47b3997319b3a28ddc864a3e99c0be4d0127",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100077.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100078",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100078_test.jpg",
+      "image_sha256": "d1b0f2b8afb8d48d2a52b9e1c0e3a11108880b7f0c7b7af9f64fbbec9d51f924",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100078.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100081",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100081_test.jpg",
+      "image_sha256": "5ab4d714c985b0af554c7d14df52acc6739943b1e3ab46619616e61a5a0926fb",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100081.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100082",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100082_test.jpg",
+      "image_sha256": "805b93fa598cfd3e8f5ada9b85241732e4365005e40288b08c096ee9b88e84c7",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100082.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "90100083",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100083_test.jpg",
+      "image_sha256": "425b010058d517468e7d73e2a31b5070d74f210a7087fa02c5ad27b996c0e3aa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100083.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100084",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100084_test.jpg",
+      "image_sha256": "6727f612fa5bcd526db5e0b79eaa55b898f1b563c94c20b0a33bdd51a9e09c81",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100084.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "90100086",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100/90100086_test.jpg",
+      "image_sha256": "95bc61e10dfe85288ae9d434008ef3cdff9b2b82a5f9b419843128a724fa16e8",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group90100/90100_not/90100086.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "92000111",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000111_test.jpg",
+      "image_sha256": "81b29821cac5c9d3a6ff13d470586efdc327498bbce40475f76457b7a0aae40f",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000111.txt",
+      "annotation_count": 3
+    },
+    {
+      "pair_id": "92000112",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000112_test.jpg",
+      "image_sha256": "553610ba70fb34c6871607e54b86c40f260db466559fd567db0d9d91be682cd8",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000112.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "92000113",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000113_test.jpg",
+      "image_sha256": "dfe3cb7c80346f90e2a0ec7860afed2c389127ba052e133d56197d23392bc4ab",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000113.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "92000114",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000114_test.jpg",
+      "image_sha256": "a6e6c4edd623283edef5d69431de4483437d9ed18f4860b7b4b14d6158eba8bf",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000114.txt",
+      "annotation_count": 5
+    },
+    {
+      "pair_id": "92000115",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000115_test.jpg",
+      "image_sha256": "baed9fcbaa7fc47fb5fd9988ed6362e1548f911ff0530ce7a190f2322594053a",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000115.txt",
+      "annotation_count": 7
+    },
+    {
+      "pair_id": "92000116",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000116_test.jpg",
+      "image_sha256": "169e5a54d1799da413798bcf78d993b927d8c190572e23cd12f9704207ab96fa",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000116.txt",
+      "annotation_count": 6
+    },
+    {
+      "pair_id": "92000117",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000117_test.jpg",
+      "image_sha256": "8ff97f4bc1f94fc632aa7ff33b90a0c32ae85944bf6b3076cf700dfa4446099b",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000117.txt",
+      "annotation_count": 8
+    },
+    {
+      "pair_id": "92000118",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000118_test.jpg",
+      "image_sha256": "4993c43d23aba88c76b9ea02c9636aa286d7cce0677daef2589cb25dc52d2e0e",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000118.txt",
+      "annotation_count": 4
+    },
+    {
+      "pair_id": "92000119",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000/92000119_test.jpg",
+      "image_sha256": "d09905ea8a7a1eee711ef61bfe3649ca9332ec8c047a4e0c3e47c9c69cf14cac",
+      "annotation_path": "/mnt/sda/cbj/dataset/DeepPCB-master/PCBData/group92000/92000_not/92000119.txt",
+      "annotation_count": 6
+    }
+  ]
+}

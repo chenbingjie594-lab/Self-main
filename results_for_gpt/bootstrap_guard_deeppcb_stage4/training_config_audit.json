@@ -1,0 +1,14 @@
+{
+  "model": "YOLO11s",
+  "pretrained_init": "/mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt",
+  "pretrained_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "imgsz": 512,
+  "epochs": 150,
+  "patience": 40,
+  "batch": 8,
+  "deterministic": true,
+  "seed": 42,
+  "optimizer": "auto",
+  "same_config_all_arms": true,
+  "same_validation_manifest_all_arms": true
+}

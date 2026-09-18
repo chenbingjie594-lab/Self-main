@@ -1,0 +1,205 @@
+{
+  "status": "DEEPPCB_BG_SIGNAL_POSITIVE",
+  "results": {
+    "real_only": {
+      "seed": 42,
+      "best_epoch": 106,
+      "stop_epoch": 146,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/real_only_s42/weights/best.pt",
+      "best_checkpoint_sha256": "c482efb68ca4bc60717af4c77c3a2ce89a7da9723c6d1bcebee7095745c4d34a",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9103378362335599,
+      "recall": 0.8648318145172889,
+      "map50": 0.9276145537719697,
+      "map50_95": 0.6715465632905974,
+      "per_class": {
+        "open": {
+          "precision": 0.944859762473025,
+          "recall": 0.8892261001517451,
+          "ap50": 0.953890131850326,
+          "ap50_95": 0.6041861870340218
+        },
+        "short": {
+          "precision": 0.8641008554153071,
+          "recall": 0.665104817111704,
+          "ap50": 0.7812350390969789,
+          "ap50_95": 0.4769938591174746
+        },
+        "mousebite": {
+          "precision": 0.9491645288870098,
+          "recall": 0.8921447147250303,
+          "ap50": 0.9618793642180716,
+          "ap50_95": 0.6790805711559748
+        },
+        "spur": {
+          "precision": 0.9443568239960162,
+          "recall": 0.8433131274556798,
+          "ap50": 0.9228238826150317,
+          "ap50_95": 0.6360671248504408
+        },
+        "spurious_copper": {
+          "precision": 0.9577498025450011,
+          "recall": 0.9375,
+          "ap50": 0.9741384572853594,
+          "ap50_95": 0.828386978183808
+        },
+        "pinhole": {
+          "precision": 0.8017952440850001,
+          "recall": 0.9617021276595744,
+          "ap50": 0.9717204475660495,
+          "ap50_95": 0.8045646594018632
+        }
+      }
+    },
+    "random": {
+      "seed": 42,
+      "best_epoch": 71,
+      "stop_epoch": 87,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/random_s42/weights/best.pt",
+      "best_checkpoint_sha256": "134b9b475c26d73d76e4c99faaab252222fc40d6eb51bc5827834f424641a4d8",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8892168168632096,
+      "recall": 0.8399077906642581,
+      "map50": 0.8997515325848185,
+      "map50_95": 0.5992800112610482,
+      "per_class": {
+        "open": {
+          "precision": 0.9067316487799238,
+          "recall": 0.8408800918876147,
+          "ap50": 0.9201382653460795,
+          "ap50_95": 0.5567718417604255
+        },
+        "short": {
+          "precision": 0.8246775741662172,
+          "recall": 0.6494768445926717,
+          "ap50": 0.7532078023933985,
+          "ap50_95": 0.4442234567395206
+        },
+        "mousebite": {
+          "precision": 0.8973765146103905,
+          "recall": 0.8720136518771331,
+          "ap50": 0.9301238605089448,
+          "ap50_95": 0.592845233483699
+        },
+        "spur": {
+          "precision": 0.9576200913427434,
+          "recall": 0.7953079971541749,
+          "ap50": 0.9001868882019579,
+          "ap50_95": 0.5708201809704391
+        },
+        "spurious_copper": {
+          "precision": 0.9707745377032103,
+          "recall": 0.9051724137931034,
+          "ap50": 0.9688220502014689,
+          "ap50_95": 0.7684262392651345
+        },
+        "pinhole": {
+          "precision": 0.7781205345767722,
+          "recall": 0.9765957446808511,
+          "ap50": 0.9260303288570615,
+          "ap50_95": 0.6625931153470709
+        }
+      }
+    },
+    "diversity_quality": {
+      "seed": 42,
+      "best_epoch": 32,
+      "stop_epoch": 72,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/diversity_quality_s42/weights/best.pt",
+      "best_checkpoint_sha256": "07a57f5e060a268d56c7a9f6e72738e50712350d8d13343f57f25806b798885e",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8958961074938037,
+      "recall": 0.8273798640013174,
+      "map50": 0.8980218378860796,
+      "map50_95": 0.5755920484933674,
+      "per_class": {
+        "open": {
+          "precision": 0.9223802779582444,
+          "recall": 0.8114565821594205,
+          "ap50": 0.9157920972024305,
+          "ap50_95": 0.5323597340984992
+        },
+        "short": {
+          "precision": 0.7860166294456613,
+          "recall": 0.6799163179916318,
+          "ap50": 0.7511874385683132,
+          "ap50_95": 0.43798494336748217
+        },
+        "mousebite": {
+          "precision": 0.921125046992961,
+          "recall": 0.8170826472346766,
+          "ap50": 0.9041069633345024,
+          "ap50_95": 0.5404211707590537
+        },
+        "spur": {
+          "precision": 0.9734998376674341,
+          "recall": 0.7605730572744038,
+          "ap50": 0.899727811545415,
+          "ap50_95": 0.5546517257992084
+        },
+        "spurious_copper": {
+          "precision": 0.9751239091165765,
+          "recall": 0.929293132539261,
+          "ap50": 0.9666948408690006,
+          "ap50_95": 0.7497929156631356
+        },
+        "pinhole": {
+          "precision": 0.7972309437819445,
+          "recall": 0.9659574468085106,
+          "ap50": 0.950621875796815,
+          "ap50_95": 0.6383418012728257
+        }
+      }
+    },
+    "bootstrap_guard": {
+      "seed": 42,
+      "best_epoch": 66,
+      "stop_epoch": 106,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/bootstrap_guard_s42/weights/best.pt",
+      "best_checkpoint_sha256": "ca5aefcfe80ebc5a4c38daac73c0ec56abda2e1325ac201128016f5932dcee20",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9280348185997148,
+      "recall": 0.8624420504057065,
+      "map50": 0.9266352620868806,
+      "map50_95": 0.6398013145390513,
+      "per_class": {
+        "open": {
+          "precision": 0.9291388438831483,
+          "recall": 0.9059180576631259,
+          "ap50": 0.9508132330485142,
+          "ap50_95": 0.573994429752681
+        },
+        "short": {
+          "precision": 0.8370244344859362,
+          "recall": 0.7133891213389121,
+          "ap50": 0.7995753534932761,
+          "ap50_95": 0.4744947716603541
+        },
+        "mousebite": {
+          "precision": 0.9843956299399973,
+          "recall": 0.856655290102389,
+          "ap50": 0.9558012768969044,
+          "ap50_95": 0.6362412545205057
+        },
+        "spur": {
+          "precision": 0.9618282889647877,
+          "recall": 0.8346975015558141,
+          "ap50": 0.9236343349696312,
+          "ap50_95": 0.6258637555127875
+        },
+        "spurious_copper": {
+          "precision": 0.9432291619227219,
+          "recall": 0.930994940765686,
+          "ap50": 0.9679500247713365,
+          "ap50_95": 0.8130390147301263
+        },
+        "pinhole": {
+          "precision": 0.9125925524016982,
+          "recall": 0.9329973910083124,
+          "ap50": 0.9620373493416208,
+          "ap50_95": 0.715174661057853
+        }
+      }
+    }
+  }
+}
