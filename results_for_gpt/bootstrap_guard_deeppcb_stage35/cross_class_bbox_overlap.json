@@ -1,0 +1,98 @@
+{
+  "class_pairs": {
+    "mousebite-pinhole": {
+      "iou_ge_05": 3,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "mousebite-spur": {
+      "iou_ge_05": 3,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "mousebite-spurious_copper": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "open-mousebite": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "open-pinhole": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "open-short": {
+      "iou_ge_05": 3,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "open-spur": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "open-spurious_copper": {
+      "iou_ge_05": 6,
+      "iou_ge_08": 3,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "short-mousebite": {
+      "iou_ge_05": 3,
+      "iou_ge_08": 3,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "short-pinhole": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "short-spur": {
+      "iou_ge_05": 12,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "short-spurious_copper": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "spur-pinhole": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "spur-spurious_copper": {
+      "iou_ge_05": 9,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    },
+    "spurious_copper-pinhole": {
+      "iou_ge_05": 0,
+      "iou_ge_08": 0,
+      "iou_ge_095": 0,
+      "exact": 0
+    }
+  },
+  "totals": {
+    "iou_ge_05": 39,
+    "iou_ge_08": 6
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "label": "INVALID_DUE_TO_LABEL_BUG",
+  "dq_quality_baseline_valid": false,
+  "candidate_pool_sha256": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14",
+  "selection_manifests_modified": false,
+  "affected_artifacts": {
+    "stage0.5": "not affected: raw low-data statistics and per-instance conversion remain valid",
+    "stage1": "not affected: per-instance MSDF training and smoke generation",
+    "stage2": "not affected: per-instance candidate generation",
+    "stage3_oof_probe": "invalid: multi-class labels were attached to one single-instance carrier crop",
+    "stage3_manifold": "INVALID_DUE_TO_LABEL_BUG",
+    "stage3_random": "selection identities mechanically reproducible but Stage3 eligibility dependency is tainted",
+    "stage3_dq": "invalid quality interpretation because manifold is tainted",
+    "stage3_bootstrap_guard": "distribution constraints remain reproducible, but shared manifold eligibility is tainted"
+  }
+}

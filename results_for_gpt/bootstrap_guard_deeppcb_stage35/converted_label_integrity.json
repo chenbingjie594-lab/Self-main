@@ -1,0 +1,6322 @@
+{
+  "images": 300,
+  "lines": 2325,
+  "class_counts": {
+    "0": 390,
+    "1": 387,
+    "2": 387,
+    "3": 387,
+    "4": 387,
+    "5": 387
+  },
+  "out_of_range_class": 0,
+  "nonfinite": 0,
+  "invalid_bbox": 0,
+  "duplicate_exact_lines": 0,
+  "passed_numeric_checks": true,
+  "carrier_audit": {
+    "records": [
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041039",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041039.jpg",
+        "carrier_matches": [
+          "00041039_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041043",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041043.jpg",
+        "carrier_matches": [
+          "00041043_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041046",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041046.jpg",
+        "carrier_matches": [
+          "00041046_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041057",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041057.jpg",
+        "carrier_matches": [
+          "00041057_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041068",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041068.jpg",
+        "carrier_matches": [
+          "00041068_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041079",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041079.jpg",
+        "carrier_matches": [
+          "00041079_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041081.jpg",
+        "carrier_matches": [
+          "00041081_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041089",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041089.jpg",
+        "carrier_matches": [
+          "00041089_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041114",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041114.jpg",
+        "carrier_matches": [
+          "00041114_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041133",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041133.jpg",
+        "carrier_matches": [
+          "00041133_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041142",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041142.jpg",
+        "carrier_matches": [
+          "00041142_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041150",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041150.jpg",
+        "carrier_matches": [
+          "00041150_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041169",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041169.jpg",
+        "carrier_matches": [
+          "00041169_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041181",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041181.jpg",
+        "carrier_matches": [
+          "00041181_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "00041190",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/00041190.jpg",
+        "carrier_matches": [
+          "00041190_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000009",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000009.jpg",
+        "carrier_matches": [
+          "13000009_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000017",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000017.jpg",
+        "carrier_matches": [
+          "13000017_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000019",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000019.jpg",
+        "carrier_matches": [
+          "13000019_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000022",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000022.jpg",
+        "carrier_matches": [
+          "13000022_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000023",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000023.jpg",
+        "carrier_matches": [
+          "13000023_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000024",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000024.jpg",
+        "carrier_matches": [
+          "13000024_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000026",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000026.jpg",
+        "carrier_matches": [
+          "13000026_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000027",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000027.jpg",
+        "carrier_matches": [
+          "13000027_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000028",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000028.jpg",
+        "carrier_matches": [
+          "13000028_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000030",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000030.jpg",
+        "carrier_matches": [
+          "13000030_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000031",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000031.jpg",
+        "carrier_matches": [
+          "13000031_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000079",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000079.jpg",
+        "carrier_matches": [
+          "13000079_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000097",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000097.jpg",
+        "carrier_matches": [
+          "13000097_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000102",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000102.jpg",
+        "carrier_matches": [
+          "13000102_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000110",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000110.jpg",
+        "carrier_matches": [
+          "13000110_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000118",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000118.jpg",
+        "carrier_matches": [
+          "13000118_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000126",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000126.jpg",
+        "carrier_matches": [
+          "13000126_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "13000174",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/13000174.jpg",
+        "carrier_matches": [
+          "13000174_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085014",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085014.jpg",
+        "carrier_matches": [
+          "20085014_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085020",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085020.jpg",
+        "carrier_matches": [
+          "20085020_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085027",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085027.jpg",
+        "carrier_matches": [
+          "20085027_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085051",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085051.jpg",
+        "carrier_matches": [
+          "20085051_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085062",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085062.jpg",
+        "carrier_matches": [
+          "20085062_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085090",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085090.jpg",
+        "carrier_matches": [
+          "20085090_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085103",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085103.jpg",
+        "carrier_matches": [
+          "20085103_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085107",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085107.jpg",
+        "carrier_matches": [
+          "20085107_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085143",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085143.jpg",
+        "carrier_matches": [
+          "20085143_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085183",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085183.jpg",
+        "carrier_matches": [
+          "20085183_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085203",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085203.jpg",
+        "carrier_matches": [
+          "20085203_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085217",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085217.jpg",
+        "carrier_matches": [
+          "20085217_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "20085238",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/20085238.jpg",
+        "carrier_matches": [
+          "20085238_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000062",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000062.jpg",
+        "carrier_matches": [
+          "44000062_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000068",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000068.jpg",
+        "carrier_matches": [
+          "44000068_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000086",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000086.jpg",
+        "carrier_matches": [
+          "44000086_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000092",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000092.jpg",
+        "carrier_matches": [
+          "44000092_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000096",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000096.jpg",
+        "carrier_matches": [
+          "44000096_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000104",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000104.jpg",
+        "carrier_matches": [
+          "44000104_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "44000107",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/44000107.jpg",
+        "carrier_matches": [
+          "44000107_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "50600001",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/50600001.jpg",
+        "carrier_matches": [
+          "50600001_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "50600015",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/50600015.jpg",
+        "carrier_matches": [
+          "50600015_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "50600021",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/50600021.jpg",
+        "carrier_matches": [
+          "50600021_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "50600024",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/50600024.jpg",
+        "carrier_matches": [
+          "50600024_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "50600049",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/50600049.jpg",
+        "carrier_matches": [
+          "50600049_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "77000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/77000008.jpg",
+        "carrier_matches": [
+          "77000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "77000076",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/77000076.jpg",
+        "carrier_matches": [
+          "77000076_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "77000081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/77000081.jpg",
+        "carrier_matches": [
+          "77000081_open_04"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "77000083",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/77000083.jpg",
+        "carrier_matches": [
+          "77000083_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "77000095",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/77000095.jpg",
+        "carrier_matches": [
+          "77000095_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "92000006",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/92000006.jpg",
+        "carrier_matches": [
+          "92000006_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "92000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/92000008.jpg",
+        "carrier_matches": [
+          "92000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "train",
+        "pair_id": "92000081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/train/92000081.jpg",
+        "carrier_matches": [
+          "92000081_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "00041030",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/00041030.jpg",
+        "carrier_matches": [
+          "00041030_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "00041047",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/00041047.jpg",
+        "carrier_matches": [
+          "00041047_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "00041085",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/00041085.jpg",
+        "carrier_matches": [
+          "00041085_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "00041095",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/00041095.jpg",
+        "carrier_matches": [
+          "00041095_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "00041125",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/00041125.jpg",
+        "carrier_matches": [
+          "00041125_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "00041180",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/00041180.jpg",
+        "carrier_matches": [
+          "00041180_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "13000003",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/13000003.jpg",
+        "carrier_matches": [
+          "13000003_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "13000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/13000008.jpg",
+        "carrier_matches": [
+          "13000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "13000025",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/13000025.jpg",
+        "carrier_matches": [
+          "13000025_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "13000029",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/13000029.jpg",
+        "carrier_matches": [
+          "13000029_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "13000037",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/13000037.jpg",
+        "carrier_matches": [
+          "13000037_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "13000197",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/13000197.jpg",
+        "carrier_matches": [
+          "13000197_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085016",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085016.jpg",
+        "carrier_matches": [
+          "20085016_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085026",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085026.jpg",
+        "carrier_matches": [
+          "20085026_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085033",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085033.jpg",
+        "carrier_matches": [
+          "20085033_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085071",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085071.jpg",
+        "carrier_matches": [
+          "20085071_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085145",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085145.jpg",
+        "carrier_matches": [
+          "20085145_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085155",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085155.jpg",
+        "carrier_matches": [
+          "20085155_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085185",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085185.jpg",
+        "carrier_matches": [
+          "20085185_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085201",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085201.jpg",
+        "carrier_matches": [
+          "20085201_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085221",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085221.jpg",
+        "carrier_matches": [
+          "20085221_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "20085225",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/20085225.jpg",
+        "carrier_matches": [
+          "20085225_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "44000093",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/44000093.jpg",
+        "carrier_matches": [
+          "44000093_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "44000110",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/44000110.jpg",
+        "carrier_matches": [
+          "44000110_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "50600028",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/50600028.jpg",
+        "carrier_matches": [
+          "50600028_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "50600032",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/50600032.jpg",
+        "carrier_matches": [
+          "50600032_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "77000019",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/77000019.jpg",
+        "carrier_matches": [
+          "77000019_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "77000020",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/77000020.jpg",
+        "carrier_matches": [
+          "77000020_open_05"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "77000044",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/77000044.jpg",
+        "carrier_matches": [
+          "77000044_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "77000082",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/77000082.jpg",
+        "carrier_matches": [
+          "77000082_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "92000044",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/92000044.jpg",
+        "carrier_matches": [
+          "92000044_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "92000060",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/92000060.jpg",
+        "carrier_matches": [
+          "92000060_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "92000073",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/92000073.jpg",
+        "carrier_matches": [
+          "92000073_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 0,
+        "split": "val",
+        "pair_id": "92000077",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_0/images/val/92000077.jpg",
+        "carrier_matches": [
+          "92000077_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041030",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041030.jpg",
+        "carrier_matches": [
+          "00041030_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041047",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041047.jpg",
+        "carrier_matches": [
+          "00041047_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041057",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041057.jpg",
+        "carrier_matches": [
+          "00041057_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041068",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041068.jpg",
+        "carrier_matches": [
+          "00041068_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041081.jpg",
+        "carrier_matches": [
+          "00041081_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041085",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041085.jpg",
+        "carrier_matches": [
+          "00041085_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041095",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041095.jpg",
+        "carrier_matches": [
+          "00041095_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041114",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041114.jpg",
+        "carrier_matches": [
+          "00041114_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041125",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041125.jpg",
+        "carrier_matches": [
+          "00041125_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041133",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041133.jpg",
+        "carrier_matches": [
+          "00041133_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041142",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041142.jpg",
+        "carrier_matches": [
+          "00041142_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041180",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041180.jpg",
+        "carrier_matches": [
+          "00041180_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041181",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041181.jpg",
+        "carrier_matches": [
+          "00041181_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "00041190",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/00041190.jpg",
+        "carrier_matches": [
+          "00041190_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000003",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000003.jpg",
+        "carrier_matches": [
+          "13000003_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000008.jpg",
+        "carrier_matches": [
+          "13000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000009",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000009.jpg",
+        "carrier_matches": [
+          "13000009_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000017",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000017.jpg",
+        "carrier_matches": [
+          "13000017_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000023",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000023.jpg",
+        "carrier_matches": [
+          "13000023_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000024",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000024.jpg",
+        "carrier_matches": [
+          "13000024_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000025",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000025.jpg",
+        "carrier_matches": [
+          "13000025_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000026",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000026.jpg",
+        "carrier_matches": [
+          "13000026_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000029",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000029.jpg",
+        "carrier_matches": [
+          "13000029_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000031",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000031.jpg",
+        "carrier_matches": [
+          "13000031_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000037",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000037.jpg",
+        "carrier_matches": [
+          "13000037_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000079",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000079.jpg",
+        "carrier_matches": [
+          "13000079_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000102",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000102.jpg",
+        "carrier_matches": [
+          "13000102_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000118",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000118.jpg",
+        "carrier_matches": [
+          "13000118_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000174",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000174.jpg",
+        "carrier_matches": [
+          "13000174_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "13000197",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/13000197.jpg",
+        "carrier_matches": [
+          "13000197_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085014",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085014.jpg",
+        "carrier_matches": [
+          "20085014_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085016",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085016.jpg",
+        "carrier_matches": [
+          "20085016_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085020",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085020.jpg",
+        "carrier_matches": [
+          "20085020_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085026",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085026.jpg",
+        "carrier_matches": [
+          "20085026_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085033",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085033.jpg",
+        "carrier_matches": [
+          "20085033_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085071",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085071.jpg",
+        "carrier_matches": [
+          "20085071_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085103",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085103.jpg",
+        "carrier_matches": [
+          "20085103_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085145",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085145.jpg",
+        "carrier_matches": [
+          "20085145_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085155",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085155.jpg",
+        "carrier_matches": [
+          "20085155_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085185",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085185.jpg",
+        "carrier_matches": [
+          "20085185_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085201",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085201.jpg",
+        "carrier_matches": [
+          "20085201_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085203",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085203.jpg",
+        "carrier_matches": [
+          "20085203_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085217",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085217.jpg",
+        "carrier_matches": [
+          "20085217_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085221",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085221.jpg",
+        "carrier_matches": [
+          "20085221_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "20085225",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/20085225.jpg",
+        "carrier_matches": [
+          "20085225_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000068",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000068.jpg",
+        "carrier_matches": [
+          "44000068_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000086",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000086.jpg",
+        "carrier_matches": [
+          "44000086_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000092",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000092.jpg",
+        "carrier_matches": [
+          "44000092_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000093",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000093.jpg",
+        "carrier_matches": [
+          "44000093_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000104",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000104.jpg",
+        "carrier_matches": [
+          "44000104_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000107",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000107.jpg",
+        "carrier_matches": [
+          "44000107_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "44000110",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/44000110.jpg",
+        "carrier_matches": [
+          "44000110_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "50600001",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/50600001.jpg",
+        "carrier_matches": [
+          "50600001_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "50600021",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/50600021.jpg",
+        "carrier_matches": [
+          "50600021_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "50600024",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/50600024.jpg",
+        "carrier_matches": [
+          "50600024_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "50600028",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/50600028.jpg",
+        "carrier_matches": [
+          "50600028_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "50600032",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/50600032.jpg",
+        "carrier_matches": [
+          "50600032_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "77000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/77000008.jpg",
+        "carrier_matches": [
+          "77000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "77000019",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/77000019.jpg",
+        "carrier_matches": [
+          "77000019_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "77000020",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/77000020.jpg",
+        "carrier_matches": [
+          "77000020_open_05"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "77000044",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/77000044.jpg",
+        "carrier_matches": [
+          "77000044_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "77000082",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/77000082.jpg",
+        "carrier_matches": [
+          "77000082_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "92000006",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/92000006.jpg",
+        "carrier_matches": [
+          "92000006_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "92000044",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/92000044.jpg",
+        "carrier_matches": [
+          "92000044_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "92000060",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/92000060.jpg",
+        "carrier_matches": [
+          "92000060_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "92000073",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/92000073.jpg",
+        "carrier_matches": [
+          "92000073_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "train",
+        "pair_id": "92000077",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/train/92000077.jpg",
+        "carrier_matches": [
+          "92000077_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041039",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041039.jpg",
+        "carrier_matches": [
+          "00041039_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041043",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041043.jpg",
+        "carrier_matches": [
+          "00041043_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041046",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041046.jpg",
+        "carrier_matches": [
+          "00041046_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041079",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041079.jpg",
+        "carrier_matches": [
+          "00041079_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041089",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041089.jpg",
+        "carrier_matches": [
+          "00041089_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041150",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041150.jpg",
+        "carrier_matches": [
+          "00041150_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "00041169",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/00041169.jpg",
+        "carrier_matches": [
+          "00041169_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000019",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000019.jpg",
+        "carrier_matches": [
+          "13000019_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000022",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000022.jpg",
+        "carrier_matches": [
+          "13000022_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000027",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000027.jpg",
+        "carrier_matches": [
+          "13000027_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000028",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000028.jpg",
+        "carrier_matches": [
+          "13000028_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000030",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000030.jpg",
+        "carrier_matches": [
+          "13000030_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000097",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000097.jpg",
+        "carrier_matches": [
+          "13000097_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000110",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000110.jpg",
+        "carrier_matches": [
+          "13000110_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "13000126",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/13000126.jpg",
+        "carrier_matches": [
+          "13000126_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085027",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085027.jpg",
+        "carrier_matches": [
+          "20085027_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085051",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085051.jpg",
+        "carrier_matches": [
+          "20085051_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085062",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085062.jpg",
+        "carrier_matches": [
+          "20085062_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085090",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085090.jpg",
+        "carrier_matches": [
+          "20085090_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085107",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085107.jpg",
+        "carrier_matches": [
+          "20085107_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085143",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085143.jpg",
+        "carrier_matches": [
+          "20085143_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085183",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085183.jpg",
+        "carrier_matches": [
+          "20085183_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "20085238",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/20085238.jpg",
+        "carrier_matches": [
+          "20085238_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "44000062",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/44000062.jpg",
+        "carrier_matches": [
+          "44000062_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "44000096",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/44000096.jpg",
+        "carrier_matches": [
+          "44000096_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "50600015",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/50600015.jpg",
+        "carrier_matches": [
+          "50600015_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "50600049",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/50600049.jpg",
+        "carrier_matches": [
+          "50600049_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "77000076",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/77000076.jpg",
+        "carrier_matches": [
+          "77000076_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "77000081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/77000081.jpg",
+        "carrier_matches": [
+          "77000081_open_04"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "77000083",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/77000083.jpg",
+        "carrier_matches": [
+          "77000083_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "77000095",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/77000095.jpg",
+        "carrier_matches": [
+          "77000095_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "92000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/92000008.jpg",
+        "carrier_matches": [
+          "92000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 1,
+        "split": "val",
+        "pair_id": "92000081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_1/images/val/92000081.jpg",
+        "carrier_matches": [
+          "92000081_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041030",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041030.jpg",
+        "carrier_matches": [
+          "00041030_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041039",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041039.jpg",
+        "carrier_matches": [
+          "00041039_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041043",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041043.jpg",
+        "carrier_matches": [
+          "00041043_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041046",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041046.jpg",
+        "carrier_matches": [
+          "00041046_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041047",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041047.jpg",
+        "carrier_matches": [
+          "00041047_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041079",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041079.jpg",
+        "carrier_matches": [
+          "00041079_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041085",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041085.jpg",
+        "carrier_matches": [
+          "00041085_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041089",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041089.jpg",
+        "carrier_matches": [
+          "00041089_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041095",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041095.jpg",
+        "carrier_matches": [
+          "00041095_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041125",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041125.jpg",
+        "carrier_matches": [
+          "00041125_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041150",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041150.jpg",
+        "carrier_matches": [
+          "00041150_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041169",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041169.jpg",
+        "carrier_matches": [
+          "00041169_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "00041180",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/00041180.jpg",
+        "carrier_matches": [
+          "00041180_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000003",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000003.jpg",
+        "carrier_matches": [
+          "13000003_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000008.jpg",
+        "carrier_matches": [
+          "13000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000019",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000019.jpg",
+        "carrier_matches": [
+          "13000019_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000022",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000022.jpg",
+        "carrier_matches": [
+          "13000022_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000025",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000025.jpg",
+        "carrier_matches": [
+          "13000025_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000027",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000027.jpg",
+        "carrier_matches": [
+          "13000027_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000028",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000028.jpg",
+        "carrier_matches": [
+          "13000028_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000029",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000029.jpg",
+        "carrier_matches": [
+          "13000029_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000030",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000030.jpg",
+        "carrier_matches": [
+          "13000030_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000037",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000037.jpg",
+        "carrier_matches": [
+          "13000037_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000097",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000097.jpg",
+        "carrier_matches": [
+          "13000097_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000110",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000110.jpg",
+        "carrier_matches": [
+          "13000110_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000126",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000126.jpg",
+        "carrier_matches": [
+          "13000126_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "13000197",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/13000197.jpg",
+        "carrier_matches": [
+          "13000197_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085016",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085016.jpg",
+        "carrier_matches": [
+          "20085016_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085026",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085026.jpg",
+        "carrier_matches": [
+          "20085026_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085027",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085027.jpg",
+        "carrier_matches": [
+          "20085027_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085033",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085033.jpg",
+        "carrier_matches": [
+          "20085033_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085051",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085051.jpg",
+        "carrier_matches": [
+          "20085051_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085062",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085062.jpg",
+        "carrier_matches": [
+          "20085062_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085071",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085071.jpg",
+        "carrier_matches": [
+          "20085071_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085090",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085090.jpg",
+        "carrier_matches": [
+          "20085090_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085107",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085107.jpg",
+        "carrier_matches": [
+          "20085107_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085143",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085143.jpg",
+        "carrier_matches": [
+          "20085143_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085145",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085145.jpg",
+        "carrier_matches": [
+          "20085145_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085155",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085155.jpg",
+        "carrier_matches": [
+          "20085155_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085183",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085183.jpg",
+        "carrier_matches": [
+          "20085183_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085185",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085185.jpg",
+        "carrier_matches": [
+          "20085185_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085201",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085201.jpg",
+        "carrier_matches": [
+          "20085201_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085221",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085221.jpg",
+        "carrier_matches": [
+          "20085221_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085225",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085225.jpg",
+        "carrier_matches": [
+          "20085225_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "20085238",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/20085238.jpg",
+        "carrier_matches": [
+          "20085238_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "44000062",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/44000062.jpg",
+        "carrier_matches": [
+          "44000062_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "44000093",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/44000093.jpg",
+        "carrier_matches": [
+          "44000093_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "44000096",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/44000096.jpg",
+        "carrier_matches": [
+          "44000096_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "44000110",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/44000110.jpg",
+        "carrier_matches": [
+          "44000110_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "50600015",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/50600015.jpg",
+        "carrier_matches": [
+          "50600015_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "50600028",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/50600028.jpg",
+        "carrier_matches": [
+          "50600028_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "50600032",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/50600032.jpg",
+        "carrier_matches": [
+          "50600032_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "50600049",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/50600049.jpg",
+        "carrier_matches": [
+          "50600049_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000019",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000019.jpg",
+        "carrier_matches": [
+          "77000019_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000020",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000020.jpg",
+        "carrier_matches": [
+          "77000020_open_05"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000044",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000044.jpg",
+        "carrier_matches": [
+          "77000044_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000076",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000076.jpg",
+        "carrier_matches": [
+          "77000076_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000081.jpg",
+        "carrier_matches": [
+          "77000081_open_04"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000082",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000082.jpg",
+        "carrier_matches": [
+          "77000082_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000083",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000083.jpg",
+        "carrier_matches": [
+          "77000083_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "77000095",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/77000095.jpg",
+        "carrier_matches": [
+          "77000095_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "92000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/92000008.jpg",
+        "carrier_matches": [
+          "92000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "92000044",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/92000044.jpg",
+        "carrier_matches": [
+          "92000044_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "92000060",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/92000060.jpg",
+        "carrier_matches": [
+          "92000060_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "92000073",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/92000073.jpg",
+        "carrier_matches": [
+          "92000073_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "92000077",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/92000077.jpg",
+        "carrier_matches": [
+          "92000077_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "train",
+        "pair_id": "92000081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/train/92000081.jpg",
+        "carrier_matches": [
+          "92000081_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041057",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041057.jpg",
+        "carrier_matches": [
+          "00041057_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041068",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041068.jpg",
+        "carrier_matches": [
+          "00041068_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041081",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041081.jpg",
+        "carrier_matches": [
+          "00041081_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041114",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041114.jpg",
+        "carrier_matches": [
+          "00041114_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041133",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041133.jpg",
+        "carrier_matches": [
+          "00041133_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041142",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041142.jpg",
+        "carrier_matches": [
+          "00041142_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041181",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041181.jpg",
+        "carrier_matches": [
+          "00041181_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "00041190",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/00041190.jpg",
+        "carrier_matches": [
+          "00041190_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000009",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000009.jpg",
+        "carrier_matches": [
+          "13000009_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000017",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000017.jpg",
+        "carrier_matches": [
+          "13000017_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000023",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000023.jpg",
+        "carrier_matches": [
+          "13000023_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000024",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000024.jpg",
+        "carrier_matches": [
+          "13000024_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000026",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000026.jpg",
+        "carrier_matches": [
+          "13000026_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000031",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000031.jpg",
+        "carrier_matches": [
+          "13000031_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000079",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000079.jpg",
+        "carrier_matches": [
+          "13000079_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000102",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000102.jpg",
+        "carrier_matches": [
+          "13000102_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000118",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000118.jpg",
+        "carrier_matches": [
+          "13000118_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "13000174",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/13000174.jpg",
+        "carrier_matches": [
+          "13000174_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "20085014",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/20085014.jpg",
+        "carrier_matches": [
+          "20085014_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "20085020",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/20085020.jpg",
+        "carrier_matches": [
+          "20085020_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "20085103",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/20085103.jpg",
+        "carrier_matches": [
+          "20085103_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "20085203",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/20085203.jpg",
+        "carrier_matches": [
+          "20085203_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "20085217",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/20085217.jpg",
+        "carrier_matches": [
+          "20085217_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "44000068",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/44000068.jpg",
+        "carrier_matches": [
+          "44000068_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "44000086",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/44000086.jpg",
+        "carrier_matches": [
+          "44000086_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "44000092",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/44000092.jpg",
+        "carrier_matches": [
+          "44000092_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "44000104",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/44000104.jpg",
+        "carrier_matches": [
+          "44000104_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "44000107",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/44000107.jpg",
+        "carrier_matches": [
+          "44000107_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "50600001",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/50600001.jpg",
+        "carrier_matches": [
+          "50600001_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "50600021",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/50600021.jpg",
+        "carrier_matches": [
+          "50600021_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "50600024",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/50600024.jpg",
+        "carrier_matches": [
+          "50600024_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "77000008",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/77000008.jpg",
+        "carrier_matches": [
+          "77000008_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      },
+      {
+        "fold": 2,
+        "split": "val",
+        "pair_id": "92000006",
+        "stage3_image": "/mnt/sda/cbj/dataset/DeepPCB_stage3_oof_s20260918/fold_2/images/val/92000006.jpg",
+        "carrier_matches": [
+          "92000006_open_00"
+        ],
+        "carrier_classes": [
+          "open"
+        ],
+        "label_classes": [
+          "mousebite",
+          "open",
+          "pinhole",
+          "short",
+          "spur",
+          "spurious_copper"
+        ],
+        "single_instance_carrier_with_multiclass_labels": true
+      }
+    ],
+    "single_instance_carrier_with_multiclass_labels": 300
+  }
+}
