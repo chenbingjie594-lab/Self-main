@@ -1,0 +1,95 @@
+{
+  "policy": "deterministic sha256; nominal 70% self / 30% same-class cross",
+  "per_class": {
+    "open": {
+      "unique_pair_ids": 100,
+      "unique_target_instance_ids": 130,
+      "unique_reference_instance_ids": 130,
+      "self_reference_ratio": 0.6717948717948717,
+      "cross_reference_ratio": 0.3282051282051282,
+      "seed_histogram": {
+        "42": 130,
+        "2026": 130,
+        "3407": 130,
+        "7859": 130,
+        "12011": 130,
+        "15683": 130
+      }
+    },
+    "short": {
+      "unique_pair_ids": 100,
+      "unique_target_instance_ids": 129,
+      "unique_reference_instance_ids": 129,
+      "self_reference_ratio": 0.6912144702842378,
+      "cross_reference_ratio": 0.3087855297157623,
+      "seed_histogram": {
+        "42": 129,
+        "2026": 129,
+        "3407": 129,
+        "7859": 129,
+        "12011": 129,
+        "15683": 129
+      }
+    },
+    "mousebite": {
+      "unique_pair_ids": 100,
+      "unique_target_instance_ids": 129,
+      "unique_reference_instance_ids": 129,
+      "self_reference_ratio": 0.7209302325581395,
+      "cross_reference_ratio": 0.27906976744186046,
+      "seed_histogram": {
+        "42": 129,
+        "2026": 129,
+        "3407": 129,
+        "7859": 129,
+        "12011": 129,
+        "15683": 129
+      }
+    },
+    "spur": {
+      "unique_pair_ids": 100,
+      "unique_target_instance_ids": 129,
+      "unique_reference_instance_ids": 129,
+      "self_reference_ratio": 0.7002583979328165,
+      "cross_reference_ratio": 0.2997416020671835,
+      "seed_histogram": {
+        "42": 129,
+        "2026": 129,
+        "3407": 129,
+        "7859": 129,
+        "12011": 129,
+        "15683": 129
+      }
+    },
+    "spurious_copper": {
+      "unique_pair_ids": 100,
+      "unique_target_instance_ids": 129,
+      "unique_reference_instance_ids": 129,
+      "self_reference_ratio": 0.665374677002584,
+      "cross_reference_ratio": 0.33462532299741604,
+      "seed_histogram": {
+        "42": 129,
+        "2026": 129,
+        "3407": 129,
+        "7859": 129,
+        "12011": 129,
+        "15683": 129
+      }
+    },
+    "pinhole": {
+      "unique_pair_ids": 100,
+      "unique_target_instance_ids": 129,
+      "unique_reference_instance_ids": 129,
+      "self_reference_ratio": 0.6912144702842378,
+      "cross_reference_ratio": 0.3087855297157623,
+      "seed_histogram": {
+        "42": 129,
+        "2026": 129,
+        "3407": 129,
+        "7859": 129,
+        "12011": 129,
+        "15683": 129
+      }
+    }
+  }
+}
