@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "pair_ids": [
+    "00041047",
+    "00041085",
+    "00041095",
+    "00041180",
+    "20085026",
+    "20085033",
+    "20085071",
+    "20085145",
+    "20085201",
+    "44000110",
+    "77000020",
+    "77000082"
+  ],
+  "train_equals_val": true,
+  "protocol": {
+    "epochs": 300,
+    "patience": 300,
+    "batch": 4,
+    "augment": false,
+    "mosaic": 0,
+    "mixup": 0,
+    "seed": 42
+  },
+  "precision": 0.9876127649821642,
+  "recall": 1.0,
+  "map50": 0.995,
+  "map50_95": 0.8343213949245201,
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "open",
+      "recall": 1.0,
+      "ap50": 0.995,
+      "ap50_95": 0.8227581585081586
+    },
+    {
+      "class_id": 1,
+      "class_name": "short",
+      "recall": 1.0,
+      "ap50": 0.995,
+      "ap50_95": 0.860366883116883
+    },
+    {
+      "class_id": 2,
+      "class_name": "mousebite",
+      "recall": 1.0,
+      "ap50": 0.995,
+      "ap50_95": 0.8143189935064935
+    },
+    {
+      "class_id": 3,
+      "class_name": "spur",
+      "recall": 1.0,
+      "ap50": 0.995,
+      "ap50_95": 0.8130282738095238
+    },
+    {
+      "class_id": 4,
+      "class_name": "spurious_copper",
+      "recall": 1.0,
+      "ap50": 0.995,
+      "ap50_95": 0.9075393939393941
+    },
+    {
+      "class_id": 5,
+      "class_name": "pinhole",
+      "recall": 1.0,
+      "ap50": 0.995,
+      "ap50_95": 0.7879166666666667
+    }
+  ]
+}

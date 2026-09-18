@@ -1,0 +1,16 @@
+{
+  "raw_images": 100,
+  "gt_lines": 775,
+  "per_class": {
+    "open": 130,
+    "short": 129,
+    "mousebite": 129,
+    "spur": 129,
+    "pinhole": 129,
+    "spurious_copper": 129
+  },
+  "uses_raw_tested_only": true,
+  "uses_per_instance_crop": false,
+  "official_val_use_count": 0,
+  "pool_sha256": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14"
+}

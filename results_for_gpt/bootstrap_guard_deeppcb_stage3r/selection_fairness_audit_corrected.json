@@ -1,0 +1,248 @@
+{
+  "same_stage2_pool": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14",
+  "same_corrected_eligibility": true,
+  "official_val_use_count": 0,
+  "arms": {
+    "random": {
+      "open": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "15683": 8,
+          "12011": 6,
+          "7859": 7,
+          "2026": 7,
+          "42": 6,
+          "3407": 6
+        }
+      },
+      "short": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "3407": 5,
+          "15683": 5,
+          "7859": 8,
+          "42": 8,
+          "12011": 6,
+          "2026": 8
+        }
+      },
+      "mousebite": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "7859": 8,
+          "3407": 3,
+          "15683": 8,
+          "42": 8,
+          "2026": 7,
+          "12011": 6
+        }
+      },
+      "spur": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "3407": 8,
+          "15683": 8,
+          "42": 8,
+          "2026": 4,
+          "12011": 5,
+          "7859": 7
+        }
+      },
+      "spurious_copper": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "12011": 6,
+          "15683": 8,
+          "42": 8,
+          "7859": 3,
+          "2026": 8,
+          "3407": 7
+        }
+      },
+      "pinhole": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "15683": 3,
+          "2026": 8,
+          "3407": 5,
+          "42": 8,
+          "12011": 8,
+          "7859": 8
+        }
+      }
+    },
+    "diversity_quality": {
+      "open": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "7859": 7,
+          "12011": 6,
+          "3407": 8,
+          "42": 8,
+          "15683": 7,
+          "2026": 4
+        }
+      },
+      "short": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "15683": 7,
+          "3407": 4,
+          "12011": 8,
+          "2026": 5,
+          "7859": 8,
+          "42": 8
+        }
+      },
+      "mousebite": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "12011": 7,
+          "2026": 7,
+          "42": 8,
+          "3407": 6,
+          "7859": 8,
+          "15683": 4
+        }
+      },
+      "spur": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "3407": 8,
+          "12011": 8,
+          "2026": 6,
+          "42": 6,
+          "15683": 8,
+          "7859": 4
+        }
+      },
+      "spurious_copper": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "7859": 8,
+          "12011": 8,
+          "3407": 7,
+          "42": 5,
+          "2026": 8,
+          "15683": 4
+        }
+      },
+      "pinhole": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "42": 7,
+          "15683": 8,
+          "3407": 5,
+          "7859": 7,
+          "2026": 5,
+          "12011": 8
+        }
+      }
+    },
+    "bootstrap_guard": {
+      "open": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "2026": 7,
+          "15683": 4,
+          "3407": 8,
+          "42": 7,
+          "7859": 6,
+          "12011": 8
+        }
+      },
+      "short": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "3407": 8,
+          "15683": 5,
+          "12011": 8,
+          "7859": 8,
+          "2026": 8,
+          "42": 3
+        }
+      },
+      "mousebite": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "3407": 6,
+          "42": 8,
+          "2026": 3,
+          "15683": 8,
+          "7859": 8,
+          "12011": 7
+        }
+      },
+      "spur": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "7859": 8,
+          "2026": 8,
+          "42": 4,
+          "15683": 8,
+          "12011": 5,
+          "3407": 7
+        }
+      },
+      "spurious_copper": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "3407": 8,
+          "15683": 7,
+          "7859": 4,
+          "42": 7,
+          "12011": 7,
+          "2026": 7
+        }
+      },
+      "pinhole": {
+        "count": 40,
+        "unique_target_pairs": 40,
+        "max_seed_count": 8,
+        "seed_histogram": {
+          "15683": 7,
+          "12011": 7,
+          "7859": 6,
+          "2026": 5,
+          "42": 7,
+          "3407": 8
+        }
+      }
+    }
+  },
+  "passed": true
+}

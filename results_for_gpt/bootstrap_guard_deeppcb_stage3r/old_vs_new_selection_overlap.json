@@ -1,0 +1,92 @@
+{
+  "random": {
+    "open": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "short": {
+      "count": 0,
+      "jaccard": 0.0
+    },
+    "mousebite": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "spur": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "spurious_copper": {
+      "count": 5,
+      "jaccard": 0.06666666666666667
+    },
+    "pinhole": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "overall": {
+      "count": 17,
+      "jaccard": 0.0367170626349892
+    }
+  },
+  "diversity_quality": {
+    "open": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "short": {
+      "count": 4,
+      "jaccard": 0.05263157894736842
+    },
+    "mousebite": {
+      "count": 2,
+      "jaccard": 0.02564102564102564
+    },
+    "spur": {
+      "count": 1,
+      "jaccard": 0.012658227848101266
+    },
+    "spurious_copper": {
+      "count": 0,
+      "jaccard": 0.0
+    },
+    "pinhole": {
+      "count": 2,
+      "jaccard": 0.02564102564102564
+    },
+    "overall": {
+      "count": 12,
+      "jaccard": 0.02564102564102564
+    }
+  },
+  "bootstrap_guard": {
+    "open": {
+      "count": 2,
+      "jaccard": 0.02564102564102564
+    },
+    "short": {
+      "count": 2,
+      "jaccard": 0.02564102564102564
+    },
+    "mousebite": {
+      "count": 1,
+      "jaccard": 0.012658227848101266
+    },
+    "spur": {
+      "count": 2,
+      "jaccard": 0.02564102564102564
+    },
+    "spurious_copper": {
+      "count": 5,
+      "jaccard": 0.06666666666666667
+    },
+    "pinhole": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "overall": {
+      "count": 15,
+      "jaccard": 0.03225806451612903
+    }
+  }
+}

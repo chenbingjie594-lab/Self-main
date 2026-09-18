@@ -1,0 +1,121 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "old_recall": 0.0927389196010634,
+      "new_recall": 0.7817409153742104,
+      "old_map50_95": 0.0546639585530232,
+      "new_map50_95": 0.5500164390384904,
+      "per_class": [
+        {
+          "class_name": "open",
+          "old_recall": 0.5564335176063804,
+          "new_recall": 0.8055012465721391
+        },
+        {
+          "class_name": "short",
+          "old_recall": 0.0,
+          "new_recall": 0.8085106382978723
+        },
+        {
+          "class_name": "mousebite",
+          "old_recall": 0.0,
+          "new_recall": 0.7872340425531915
+        },
+        {
+          "class_name": "spur",
+          "old_recall": 0.0,
+          "new_recall": 0.7111111111111111
+        },
+        {
+          "class_name": "spurious_copper",
+          "old_recall": 0.0,
+          "new_recall": 0.6711117095249023
+        },
+        {
+          "class_name": "pinhole",
+          "old_recall": 0.0,
+          "new_recall": 0.9069767441860465
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "old_recall": 0.11788617886178861,
+      "new_recall": 0.886296270795729,
+      "old_map50_95": 0.06914883344122394,
+      "new_map50_95": 0.6517640139950541,
+      "per_class": [
+        {
+          "class_name": "open",
+          "old_recall": 0.7073170731707317,
+          "new_recall": 0.975609756097561
+        },
+        {
+          "class_name": "short",
+          "old_recall": 0.0,
+          "new_recall": 0.8251010076301856
+        },
+        {
+          "class_name": "mousebite",
+          "old_recall": 0.0,
+          "new_recall": 0.8809523809523809
+        },
+        {
+          "class_name": "spur",
+          "old_recall": 0.0,
+          "new_recall": 0.8809523809523809
+        },
+        {
+          "class_name": "spurious_copper",
+          "old_recall": 0.0,
+          "new_recall": 0.8527230747516221
+        },
+        {
+          "class_name": "pinhole",
+          "old_recall": 0.0,
+          "new_recall": 0.9024390243902439
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "old_recall": 0.12508254059677548,
+      "new_recall": 0.8111323307867417,
+      "old_map50_95": 0.06819979412549045,
+      "new_map50_95": 0.5170977159914415,
+      "per_class": [
+        {
+          "class_name": "open",
+          "old_recall": 0.7504952435806529,
+          "new_recall": 0.9024390243902439
+        },
+        {
+          "class_name": "short",
+          "old_recall": 0.0,
+          "new_recall": 0.825
+        },
+        {
+          "class_name": "mousebite",
+          "old_recall": 0.0,
+          "new_recall": 0.675
+        },
+        {
+          "class_name": "spur",
+          "old_recall": 0.0,
+          "new_recall": 0.6454594655254748
+        },
+        {
+          "class_name": "spurious_copper",
+          "old_recall": 0.0,
+          "new_recall": 0.8188954948047316
+        },
+        {
+          "class_name": "pinhole",
+          "old_recall": 0.0,
+          "new_recall": 1.0
+        }
+      ]
+    }
+  ]
+}

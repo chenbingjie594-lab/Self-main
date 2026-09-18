@@ -1,0 +1,177 @@
+{
+  "protocol": {
+    "model": "YOLO11s",
+    "imgsz": 512,
+    "epochs": 150,
+    "patience": 40,
+    "deterministic": true,
+    "seed": 42,
+    "optimizer": "auto",
+    "official_val_use_count": 0,
+    "fold_manifest_reused": true
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage3r_oof/fold_0/weights/best.pt",
+      "train_pairs": 66,
+      "holdout_pairs": 34,
+      "precision": 0.9459026563934398,
+      "recall": 0.7817409153742104,
+      "map50": 0.9235236992853242,
+      "map50_95": 0.5500164390384904,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "open",
+          "recall": 0.8055012465721391,
+          "ap50": 0.918387854667192,
+          "ap50_95": 0.5059675425975808
+        },
+        {
+          "class_id": 1,
+          "class_name": "short",
+          "recall": 0.8085106382978723,
+          "ap50": 0.9000081592833883,
+          "ap50_95": 0.5170971641840485
+        },
+        {
+          "class_id": 2,
+          "class_name": "mousebite",
+          "recall": 0.7872340425531915,
+          "ap50": 0.9327956648660201,
+          "ap50_95": 0.53704513294392
+        },
+        {
+          "class_id": 3,
+          "class_name": "spur",
+          "recall": 0.7111111111111111,
+          "ap50": 0.9296226665004912,
+          "ap50_95": 0.5268297177919797
+        },
+        {
+          "class_id": 4,
+          "class_name": "spurious_copper",
+          "recall": 0.6711117095249023,
+          "ap50": 0.951100433394159,
+          "ap50_95": 0.6187806995291806
+        },
+        {
+          "class_id": 5,
+          "class_name": "pinhole",
+          "recall": 0.9069767441860465,
+          "ap50": 0.9092274170006946,
+          "ap50_95": 0.594378377184233
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage3r_oof/fold_1/weights/best.pt",
+      "train_pairs": 67,
+      "holdout_pairs": 33,
+      "precision": 0.9310842006112351,
+      "recall": 0.886296270795729,
+      "map50": 0.9365569393450125,
+      "map50_95": 0.6517640139950541,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "open",
+          "recall": 0.975609756097561,
+          "ap50": 0.9740476190476189,
+          "ap50_95": 0.6532200304350304
+        },
+        {
+          "class_id": 1,
+          "class_name": "short",
+          "recall": 0.8251010076301856,
+          "ap50": 0.9127619047619048,
+          "ap50_95": 0.551616699135317
+        },
+        {
+          "class_id": 2,
+          "class_name": "mousebite",
+          "recall": 0.8809523809523809,
+          "ap50": 0.9352874164892223,
+          "ap50_95": 0.6250615156987156
+        },
+        {
+          "class_id": 3,
+          "class_name": "spur",
+          "recall": 0.8809523809523809,
+          "ap50": 0.9028026069005449,
+          "ap50_95": 0.5778332602963415
+        },
+        {
+          "class_id": 4,
+          "class_name": "spurious_copper",
+          "recall": 0.8527230747516221,
+          "ap50": 0.926982680920612,
+          "ap50_95": 0.7487395359435872
+        },
+        {
+          "class_id": 5,
+          "class_name": "pinhole",
+          "recall": 0.9024390243902439,
+          "ap50": 0.967459407950172,
+          "ap50_95": 0.7541130424613331
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage3r_oof/fold_2/weights/best.pt",
+      "train_pairs": 67,
+      "holdout_pairs": 33,
+      "precision": 0.8677528290066476,
+      "recall": 0.8111323307867417,
+      "map50": 0.8968461395137853,
+      "map50_95": 0.5170977159914415,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "open",
+          "recall": 0.9024390243902439,
+          "ap50": 0.9112319060524441,
+          "ap50_95": 0.49159772472067836
+        },
+        {
+          "class_id": 1,
+          "class_name": "short",
+          "recall": 0.825,
+          "ap50": 0.8220693284262097,
+          "ap50_95": 0.3654283704200772
+        },
+        {
+          "class_id": 2,
+          "class_name": "mousebite",
+          "recall": 0.675,
+          "ap50": 0.8298399669637648,
+          "ap50_95": 0.44929919944636154
+        },
+        {
+          "class_id": 3,
+          "class_name": "spur",
+          "recall": 0.6454594655254748,
+          "ap50": 0.8583734092487981,
+          "ap50_95": 0.4695702180009994
+        },
+        {
+          "class_id": 4,
+          "class_name": "spurious_copper",
+          "recall": 0.8188954948047316,
+          "ap50": 0.9645622263914947,
+          "ap50_95": 0.687800246160421
+        },
+        {
+          "class_id": 5,
+          "class_name": "pinhole",
+          "recall": 1.0,
+          "ap50": 0.995,
+          "ap50_95": 0.6388905372001108
+        }
+      ]
+    }
+  ]
+}

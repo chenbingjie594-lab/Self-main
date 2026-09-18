@@ -1,0 +1,84 @@
+{
+  "confusion": [
+    [
+      125,
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      3,
+      112,
+      3,
+      5,
+      0,
+      0
+    ],
+    [
+      11,
+      4,
+      102,
+      3,
+      1,
+      6
+    ],
+    [
+      6,
+      11,
+      7,
+      98,
+      5,
+      1
+    ],
+    [
+      2,
+      3,
+      1,
+      3,
+      114,
+      3
+    ],
+    [
+      1,
+      2,
+      6,
+      0,
+      1,
+      119
+    ]
+  ],
+  "per_class": {
+    "open": {
+      "gt": 130,
+      "class_aware_recall": 0.9615384615384616,
+      "localization_recall": 0.9923076923076923
+    },
+    "short": {
+      "gt": 129,
+      "class_aware_recall": 0.8682170542635659,
+      "localization_recall": 0.9534883720930233
+    },
+    "mousebite": {
+      "gt": 129,
+      "class_aware_recall": 0.7906976744186046,
+      "localization_recall": 0.9844961240310077
+    },
+    "spur": {
+      "gt": 129,
+      "class_aware_recall": 0.7596899224806202,
+      "localization_recall": 0.9922480620155039
+    },
+    "spurious_copper": {
+      "gt": 129,
+      "class_aware_recall": 0.8837209302325582,
+      "localization_recall": 0.9767441860465116
+    },
+    "pinhole": {
+      "gt": 129,
+      "class_aware_recall": 0.9224806201550387,
+      "localization_recall": 1.0
+    }
+  }
+}

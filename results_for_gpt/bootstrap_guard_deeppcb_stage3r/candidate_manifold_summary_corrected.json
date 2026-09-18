@@ -1,0 +1,47 @@
+{
+  "candidate_pool_manifest_sha256": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14",
+  "per_class": {
+    "open": {
+      "total": 780,
+      "valid": 702,
+      "rejected": 78,
+      "valid_ratio": 0.9,
+      "unique_target_pairs": 98
+    },
+    "short": {
+      "total": 774,
+      "valid": 748,
+      "rejected": 26,
+      "valid_ratio": 0.9664082687338501,
+      "unique_target_pairs": 100
+    },
+    "mousebite": {
+      "total": 774,
+      "valid": 761,
+      "rejected": 13,
+      "valid_ratio": 0.9832041343669251,
+      "unique_target_pairs": 99
+    },
+    "spur": {
+      "total": 774,
+      "valid": 713,
+      "rejected": 61,
+      "valid_ratio": 0.9211886304909561,
+      "unique_target_pairs": 98
+    },
+    "spurious_copper": {
+      "total": 774,
+      "valid": 749,
+      "rejected": 25,
+      "valid_ratio": 0.9677002583979328,
+      "unique_target_pairs": 100
+    },
+    "pinhole": {
+      "total": 774,
+      "valid": 720,
+      "rejected": 54,
+      "valid_ratio": 0.9302325581395349,
+      "unique_target_pairs": 98
+    }
+  }
+}
