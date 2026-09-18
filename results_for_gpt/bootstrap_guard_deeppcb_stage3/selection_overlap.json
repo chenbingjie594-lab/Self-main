@@ -1,0 +1,100 @@
+{
+  "open": {
+    "random_vs_dq": {
+      "count": 0,
+      "jaccard": 0.0
+    },
+    "random_vs_bg": {
+      "count": 0,
+      "jaccard": 0.0
+    },
+    "dq_vs_bg": {
+      "count": 0,
+      "jaccard": 0.0
+    }
+  },
+  "short": {
+    "random_vs_dq": {
+      "count": 0,
+      "jaccard": 0.0
+    },
+    "random_vs_bg": {
+      "count": 0,
+      "jaccard": 0.0
+    },
+    "dq_vs_bg": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    }
+  },
+  "mousebite": {
+    "random_vs_dq": {
+      "count": 4,
+      "jaccard": 0.05263157894736842
+    },
+    "random_vs_bg": {
+      "count": 1,
+      "jaccard": 0.012658227848101266
+    },
+    "dq_vs_bg": {
+      "count": 5,
+      "jaccard": 0.06666666666666667
+    }
+  },
+  "spur": {
+    "random_vs_dq": {
+      "count": 2,
+      "jaccard": 0.02564102564102564
+    },
+    "random_vs_bg": {
+      "count": 1,
+      "jaccard": 0.012658227848101266
+    },
+    "dq_vs_bg": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    }
+  },
+  "spurious_copper": {
+    "random_vs_dq": {
+      "count": 1,
+      "jaccard": 0.012658227848101266
+    },
+    "random_vs_bg": {
+      "count": 5,
+      "jaccard": 0.06666666666666667
+    },
+    "dq_vs_bg": {
+      "count": 1,
+      "jaccard": 0.012658227848101266
+    }
+  },
+  "pinhole": {
+    "random_vs_dq": {
+      "count": 3,
+      "jaccard": 0.03896103896103896
+    },
+    "random_vs_bg": {
+      "count": 5,
+      "jaccard": 0.06666666666666667
+    },
+    "dq_vs_bg": {
+      "count": 0,
+      "jaccard": 0.0
+    }
+  },
+  "overall": {
+    "random_vs_dq": {
+      "count": 10,
+      "jaccard": 0.02127659574468085
+    },
+    "random_vs_bg": {
+      "count": 12,
+      "jaccard": 0.02564102564102564
+    },
+    "dq_vs_bg": {
+      "count": 12,
+      "jaccard": 0.02564102564102564
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "open": {
+    "random": [
+      {
+        "type": "joint",
+        "metric": "occupied_cells",
+        "value": 23,
+        "q05": 16.0,
+        "q95": 22.0,
+        "direction": "above"
+      },
+      {
+        "type": "joint",
+        "metric": "max_cell_share",
+        "value": 0.075,
+        "q05": 0.1,
+        "q95": 0.175,
+        "direction": "below"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.02564102564102564,
+        "q05": 0.05750000000000001,
+        "q95": 0.08625,
+        "direction": "below"
+      }
+    ],
+    "diversity_quality": [
+      {
+        "type": "marginal",
+        "metric": "scale:2",
+        "value": 0.125,
+        "q05": 0.225,
+        "q95": 0.475,
+        "direction": "below"
+      },
+      {
+        "type": "marginal",
+        "metric": "morphology:2",
+        "value": 0.2,
+        "q05": 0.225,
+        "q95": 0.475,
+        "direction": "below"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.04487179487179487,
+        "q05": 0.05750000000000001,
+        "q95": 0.08625,
+        "direction": "below"
+      }
+    ],
+    "bootstrap_guard": []
+  },
+  "short": {
+    "random": [
+      {
+        "type": "marginal",
+        "metric": "morphology:2",
+        "value": 0.2,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "below"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.04487179487179487,
+        "q05": 0.058750000000000004,
+        "q95": 0.08750000000000001,
+        "direction": "below"
+      }
+    ],
+    "diversity_quality": [
+      {
+        "type": "joint",
+        "metric": "max_cell_share",
+        "value": 0.075,
+        "q05": 0.1,
+        "q95": 0.175,
+        "direction": "below"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.03333333333333333,
+        "q05": 0.058750000000000004,
+        "q95": 0.08750000000000001,
+        "direction": "below"
+      }
+    ],
+    "bootstrap_guard": []
+  },
+  "mousebite": {
+    "random": [
+      {
+        "type": "marginal",
+        "metric": "contrast:0",
+        "value": 0.15,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "below"
+      },
+      {
+        "type": "marginal",
+        "metric": "contrast:2",
+        "value": 0.475,
+        "q05": 0.2,
+        "q95": 0.45,
+        "direction": "above"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.04487179487179487,
+        "q05": 0.0575,
+        "q95": 0.08625,
+        "direction": "below"
+      }
+    ],
+    "diversity_quality": [
+      {
+        "type": "marginal",
+        "metric": "scale:1",
+        "value": 0.55,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "above"
+      },
+      {
+        "type": "marginal",
+        "metric": "scale:2",
+        "value": 0.2,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "below"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.04230769230769231,
+        "q05": 0.0575,
+        "q95": 0.08625,
+        "direction": "below"
+      }
+    ],
+    "bootstrap_guard": []
+  },
+  "spur": {
+    "random": [
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.03333333333333333,
+        "q05": 0.05375000000000001,
+        "q95": 0.07875000000000001,
+        "direction": "below"
+      }
+    ],
+    "diversity_quality": [
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.02435897435897436,
+        "q05": 0.05375000000000001,
+        "q95": 0.07875000000000001,
+        "direction": "below"
+      }
+    ],
+    "bootstrap_guard": []
+  },
+  "spurious_copper": {
+    "random": [
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.041025641025641026,
+        "q05": 0.05875000000000001,
+        "q95": 0.09000000000000001,
+        "direction": "below"
+      }
+    ],
+    "diversity_quality": [
+      {
+        "type": "marginal",
+        "metric": "contrast:0",
+        "value": 0.125,
+        "q05": 0.2,
+        "q95": 0.45,
+        "direction": "below"
+      },
+      {
+        "type": "marginal",
+        "metric": "contrast:2",
+        "value": 0.525,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "above"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.046153846153846156,
+        "q05": 0.05875000000000001,
+        "q95": 0.09000000000000001,
+        "direction": "below"
+      }
+    ],
+    "bootstrap_guard": []
+  },
+  "pinhole": {
+    "random": [
+      {
+        "type": "marginal",
+        "metric": "contrast:2",
+        "value": 0.525,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "above"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.035897435897435895,
+        "q05": 0.05500000000000001,
+        "q95": 0.0825,
+        "direction": "below"
+      }
+    ],
+    "diversity_quality": [
+      {
+        "type": "marginal",
+        "metric": "scale:2",
+        "value": 0.15,
+        "q05": 0.225,
+        "q95": 0.475,
+        "direction": "below"
+      },
+      {
+        "type": "marginal",
+        "metric": "contrast:2",
+        "value": 0.5,
+        "q05": 0.225,
+        "q95": 0.45,
+        "direction": "above"
+      },
+      {
+        "type": "joint",
+        "metric": "same_joint_match_probability",
+        "value": 0.04358974358974359,
+        "q05": 0.05500000000000001,
+        "q95": 0.0825,
+        "direction": "below"
+      }
+    ],
+    "bootstrap_guard": []
+  }
+}

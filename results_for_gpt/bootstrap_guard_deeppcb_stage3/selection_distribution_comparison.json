@@ -1,0 +1,500 @@
+{
+  "open": {
+    "random": {
+      "scale": {
+        "1": 15,
+        "2": 14,
+        "0": 11
+      },
+      "contrast": {
+        "1": 12,
+        "2": 13,
+        "0": 15
+      },
+      "morphology": {
+        "0": 12,
+        "2": 12,
+        "1": 16
+      },
+      "joint": {
+        "occupied_cells": 23,
+        "max_cell_share": 0.075,
+        "same_joint_match_probability": 0.02564102564102564
+      },
+      "manifold_score": {
+        "mean": 0.6500987137004809,
+        "median": 0.6807716313658811,
+        "std": 0.10750495754059423
+      }
+    },
+    "diversity_quality": {
+      "scale": {
+        "1": 18,
+        "0": 17,
+        "2": 5
+      },
+      "contrast": {
+        "2": 12,
+        "0": 13,
+        "1": 15
+      },
+      "morphology": {
+        "0": 18,
+        "2": 8,
+        "1": 14
+      },
+      "joint": {
+        "occupied_cells": 18,
+        "max_cell_share": 0.1,
+        "same_joint_match_probability": 0.04487179487179487
+      },
+      "manifold_score": {
+        "mean": 0.7663194923829283,
+        "median": 0.76251665780114,
+        "std": 0.027652203032458314
+      }
+    },
+    "bootstrap_guard": {
+      "scale": {
+        "2": 14,
+        "1": 13,
+        "0": 13
+      },
+      "contrast": {
+        "2": 13,
+        "0": 13,
+        "1": 14
+      },
+      "morphology": {
+        "1": 14,
+        "2": 13,
+        "0": 13
+      },
+      "joint": {
+        "occupied_cells": 19,
+        "max_cell_share": 0.175,
+        "same_joint_match_probability": 0.06025641025641026
+      },
+      "manifold_score": {
+        "mean": 0.6380841792275608,
+        "median": 0.6702690451861767,
+        "std": 0.111587032784054
+      }
+    }
+  },
+  "short": {
+    "random": {
+      "scale": {
+        "1": 14,
+        "2": 12,
+        "0": 14
+      },
+      "contrast": {
+        "0": 11,
+        "1": 16,
+        "2": 13
+      },
+      "morphology": {
+        "0": 14,
+        "1": 18,
+        "2": 8
+      },
+      "joint": {
+        "occupied_cells": 20,
+        "max_cell_share": 0.125,
+        "same_joint_match_probability": 0.04487179487179487
+      },
+      "manifold_score": {
+        "mean": 0.6818319243368451,
+        "median": 0.6738784177392061,
+        "std": 0.10625302831738959
+      }
+    },
+    "diversity_quality": {
+      "scale": {
+        "1": 13,
+        "0": 17,
+        "2": 10
+      },
+      "contrast": {
+        "2": 15,
+        "1": 16,
+        "0": 9
+      },
+      "morphology": {
+        "2": 18,
+        "1": 12,
+        "0": 10
+      },
+      "joint": {
+        "occupied_cells": 21,
+        "max_cell_share": 0.075,
+        "same_joint_match_probability": 0.03333333333333333
+      },
+      "manifold_score": {
+        "mean": 0.8323614018253455,
+        "median": 0.8332130320419204,
+        "std": 0.02760010228002427
+      }
+    },
+    "bootstrap_guard": {
+      "scale": {
+        "0": 13,
+        "2": 14,
+        "1": 13
+      },
+      "contrast": {
+        "2": 13,
+        "1": 13,
+        "0": 14
+      },
+      "morphology": {
+        "1": 13,
+        "0": 14,
+        "2": 13
+      },
+      "joint": {
+        "occupied_cells": 19,
+        "max_cell_share": 0.15,
+        "same_joint_match_probability": 0.06666666666666667
+      },
+      "manifold_score": {
+        "mean": 0.7133339524711733,
+        "median": 0.7346317928189396,
+        "std": 0.11189157373443662
+      }
+    }
+  },
+  "mousebite": {
+    "random": {
+      "scale": {
+        "2": 13,
+        "0": 17,
+        "1": 10
+      },
+      "contrast": {
+        "0": 6,
+        "2": 19,
+        "1": 15
+      },
+      "morphology": {
+        "2": 13,
+        "1": 14,
+        "0": 13
+      },
+      "joint": {
+        "occupied_cells": 18,
+        "max_cell_share": 0.1,
+        "same_joint_match_probability": 0.04487179487179487
+      },
+      "manifold_score": {
+        "mean": 0.6736554749160922,
+        "median": 0.681237756397692,
+        "std": 0.08281571418300963
+      }
+    },
+    "diversity_quality": {
+      "scale": {
+        "0": 10,
+        "1": 22,
+        "2": 8
+      },
+      "contrast": {
+        "1": 17,
+        "2": 14,
+        "0": 9
+      },
+      "morphology": {
+        "0": 11,
+        "2": 14,
+        "1": 15
+      },
+      "joint": {
+        "occupied_cells": 20,
+        "max_cell_share": 0.125,
+        "same_joint_match_probability": 0.04230769230769231
+      },
+      "manifold_score": {
+        "mean": 0.7831164627533712,
+        "median": 0.7796332638674945,
+        "std": 0.029324900383224852
+      }
+    },
+    "bootstrap_guard": {
+      "scale": {
+        "0": 14,
+        "1": 13,
+        "2": 13
+      },
+      "contrast": {
+        "1": 14,
+        "2": 13,
+        "0": 13
+      },
+      "morphology": {
+        "2": 13,
+        "1": 14,
+        "0": 13
+      },
+      "joint": {
+        "occupied_cells": 19,
+        "max_cell_share": 0.15,
+        "same_joint_match_probability": 0.06025641025641026
+      },
+      "manifold_score": {
+        "mean": 0.6572002391608586,
+        "median": 0.683229519425023,
+        "std": 0.11037408251525335
+      }
+    }
+  },
+  "spur": {
+    "random": {
+      "scale": {
+        "0": 14,
+        "2": 11,
+        "1": 15
+      },
+      "contrast": {
+        "1": 15,
+        "0": 10,
+        "2": 15
+      },
+      "morphology": {
+        "2": 10,
+        "0": 15,
+        "1": 15
+      },
+      "joint": {
+        "occupied_cells": 22,
+        "max_cell_share": 0.1,
+        "same_joint_match_probability": 0.03333333333333333
+      },
+      "manifold_score": {
+        "mean": 0.7156599464919297,
+        "median": 0.7399688506928366,
+        "std": 0.11354663922382215
+      }
+    },
+    "diversity_quality": {
+      "scale": {
+        "1": 13,
+        "0": 14,
+        "2": 13
+      },
+      "contrast": {
+        "1": 14,
+        "2": 14,
+        "0": 12
+      },
+      "morphology": {
+        "2": 12,
+        "1": 16,
+        "0": 12
+      },
+      "joint": {
+        "occupied_cells": 23,
+        "max_cell_share": 0.075,
+        "same_joint_match_probability": 0.02435897435897436
+      },
+      "manifold_score": {
+        "mean": 0.833466061627715,
+        "median": 0.8215597744823065,
+        "std": 0.03706346856715678
+      }
+    },
+    "bootstrap_guard": {
+      "scale": {
+        "1": 14,
+        "0": 13,
+        "2": 13
+      },
+      "contrast": {
+        "2": 13,
+        "0": 13,
+        "1": 14
+      },
+      "morphology": {
+        "1": 14,
+        "0": 13,
+        "2": 13
+      },
+      "joint": {
+        "occupied_cells": 19,
+        "max_cell_share": 0.125,
+        "same_joint_match_probability": 0.05512820512820513
+      },
+      "manifold_score": {
+        "mean": 0.7046642779583231,
+        "median": 0.7373170077041333,
+        "std": 0.11828239870143357
+      }
+    }
+  },
+  "spurious_copper": {
+    "random": {
+      "scale": {
+        "1": 13,
+        "2": 15,
+        "0": 12
+      },
+      "contrast": {
+        "1": 15,
+        "0": 14,
+        "2": 11
+      },
+      "morphology": {
+        "1": 14,
+        "0": 17,
+        "2": 9
+      },
+      "joint": {
+        "occupied_cells": 20,
+        "max_cell_share": 0.125,
+        "same_joint_match_probability": 0.041025641025641026
+      },
+      "manifold_score": {
+        "mean": 0.6655799839399934,
+        "median": 0.6896606414797029,
+        "std": 0.12369851765441946
+      }
+    },
+    "diversity_quality": {
+      "scale": {
+        "1": 14,
+        "2": 16,
+        "0": 10
+      },
+      "contrast": {
+        "2": 21,
+        "1": 14,
+        "0": 5
+      },
+      "morphology": {
+        "1": 13,
+        "0": 18,
+        "2": 9
+      },
+      "joint": {
+        "occupied_cells": 20,
+        "max_cell_share": 0.15,
+        "same_joint_match_probability": 0.046153846153846156
+      },
+      "manifold_score": {
+        "mean": 0.8227350916847233,
+        "median": 0.8139191390314409,
+        "std": 0.0318729318112007
+      }
+    },
+    "bootstrap_guard": {
+      "scale": {
+        "0": 13,
+        "1": 13,
+        "2": 14
+      },
+      "contrast": {
+        "2": 14,
+        "1": 13,
+        "0": 13
+      },
+      "morphology": {
+        "2": 13,
+        "1": 13,
+        "0": 14
+      },
+      "joint": {
+        "occupied_cells": 18,
+        "max_cell_share": 0.15,
+        "same_joint_match_probability": 0.05897435897435897
+      },
+      "manifold_score": {
+        "mean": 0.6786360555662865,
+        "median": 0.697730313790417,
+        "std": 0.11100703875187708
+      }
+    }
+  },
+  "pinhole": {
+    "random": {
+      "scale": {
+        "0": 15,
+        "1": 14,
+        "2": 11
+      },
+      "contrast": {
+        "2": 21,
+        "1": 11,
+        "0": 8
+      },
+      "morphology": {
+        "0": 12,
+        "2": 12,
+        "1": 16
+      },
+      "joint": {
+        "occupied_cells": 20,
+        "max_cell_share": 0.1,
+        "same_joint_match_probability": 0.035897435897435895
+      },
+      "manifold_score": {
+        "mean": 0.7106268688784357,
+        "median": 0.7105588225138122,
+        "std": 0.09862395677925669
+      }
+    },
+    "diversity_quality": {
+      "scale": {
+        "0": 17,
+        "2": 6,
+        "1": 17
+      },
+      "contrast": {
+        "2": 20,
+        "1": 12,
+        "0": 8
+      },
+      "morphology": {
+        "0": 16,
+        "2": 9,
+        "1": 15
+      },
+      "joint": {
+        "occupied_cells": 20,
+        "max_cell_share": 0.1,
+        "same_joint_match_probability": 0.04358974358974359
+      },
+      "manifold_score": {
+        "mean": 0.8255354606995589,
+        "median": 0.8198722595395145,
+        "std": 0.036825109577438286
+      }
+    },
+    "bootstrap_guard": {
+      "scale": {
+        "2": 14,
+        "1": 14,
+        "0": 12
+      },
+      "contrast": {
+        "0": 13,
+        "2": 14,
+        "1": 13
+      },
+      "morphology": {
+        "2": 14,
+        "0": 13,
+        "1": 13
+      },
+      "joint": {
+        "occupied_cells": 19,
+        "max_cell_share": 0.15,
+        "same_joint_match_probability": 0.05641025641025641
+      },
+      "manifold_score": {
+        "mean": 0.6983100903734146,
+        "median": 0.7060098002839434,
+        "std": 0.10554793285607897
+      }
+    }
+  }
+}
