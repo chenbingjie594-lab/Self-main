@@ -1,0 +1,132 @@
+{
+  "seed": 42,
+  "status": "EXPOSURE_CAUSAL_SIGNAL_SUPPORTED",
+  "results": {
+    "real_only": {
+      "precision": 0.9092875062542078,
+      "recall": 0.8869252555032333,
+      "map50": 0.9367774994462459,
+      "map50_95": 0.7118473598585613,
+      "per_class": {
+        "open": {
+          "recall": 0.9073939418005792,
+          "ap50": 0.9623144114142176,
+          "ap50_95": 0.6402312591931992
+        },
+        "short": {
+          "recall": 0.6861924686192469,
+          "ap50": 0.7886784080411722,
+          "ap50_95": 0.5103721287379976
+        },
+        "mousebite": {
+          "recall": 0.9232081911262798,
+          "ap50": 0.969017743217752,
+          "ap50_95": 0.7213911543378236
+        },
+        "spur": {
+          "recall": 0.8811765389993028,
+          "ap50": 0.9547669936081999,
+          "ap50_95": 0.681212732955546
+        },
+        "spurious_copper": {
+          "recall": 0.9491123073676079,
+          "ap50": 0.9783710957430627,
+          "ap50_95": 0.8840342803268264
+        },
+        "pinhole": {
+          "recall": 0.9744680851063829,
+          "ap50": 0.9675163446530706,
+          "ap50_95": 0.8338426035999735
+        }
+      },
+      "best_epoch": 127,
+      "stop_epoch": 150,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5c_nomosaic/real_only_nomosaic_s42/weights/best.pt",
+      "best_checkpoint_sha256": "23e76d3b2b52a137db2c8288e962e4a2e7851755e2998dffb46b5bb50bd8fad9"
+    },
+    "uniform": {
+      "precision": 0.9233574874442909,
+      "recall": 0.8816939150814305,
+      "map50": 0.9313780733426597,
+      "map50_95": 0.6875542903467828,
+      "per_class": {
+        "open": {
+          "recall": 0.91350531107739,
+          "ap50": 0.9681406509635802,
+          "ap50_95": 0.6008582059008034
+        },
+        "short": {
+          "recall": 0.7000513340610843,
+          "ap50": 0.7810923317187943,
+          "ap50_95": 0.49552857151850516
+        },
+        "mousebite": {
+          "recall": 0.8822525597269625,
+          "ap50": 0.969744454738589,
+          "ap50_95": 0.7106482351063889
+        },
+        "spur": {
+          "recall": 0.8695652173913043,
+          "ap50": 0.9225740009424606,
+          "ap50_95": 0.6436557115967008
+        },
+        "spurious_copper": {
+          "recall": 0.9418103448275862,
+          "ap50": 0.9768207044309911,
+          "ap50_95": 0.8581979690417947
+        },
+        "pinhole": {
+          "recall": 0.9829787234042553,
+          "ap50": 0.9698962972615439,
+          "ap50_95": 0.8164370489165037
+        }
+      },
+      "best_epoch": 90,
+      "stop_epoch": 130,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5c_nomosaic/uniform_nomosaic_s42/weights/best.pt",
+      "best_checkpoint_sha256": "ba3bd9b82203f543bb69f96414288603bcd2500397410243ec108d172cd7d2aa"
+    },
+    "balanced": {
+      "precision": 0.9310197969367051,
+      "recall": 0.8926711501449421,
+      "map50": 0.9388968166133616,
+      "map50_95": 0.7221190001688899,
+      "per_class": {
+        "open": {
+          "recall": 0.9301972685887708,
+          "ap50": 0.9633562445141389,
+          "ap50_95": 0.6201331617290999
+        },
+        "short": {
+          "recall": 0.7154811715481172,
+          "ap50": 0.8295101571588699,
+          "ap50_95": 0.5228422867850957
+        },
+        "mousebite": {
+          "recall": 0.9180887372013652,
+          "ap50": 0.9654361395115804,
+          "ap50_95": 0.7355543997940456
+        },
+        "spur": {
+          "recall": 0.8612836438923396,
+          "ap50": 0.9375159749056065,
+          "ap50_95": 0.6776529326231563
+        },
+        "spurious_copper": {
+          "recall": 0.9479973562348036,
+          "ap50": 0.9718831901444215,
+          "ap50_95": 0.9092316731188237
+        },
+        "pinhole": {
+          "recall": 0.9829787234042553,
+          "ap50": 0.9656791934455526,
+          "ap50_95": 0.8672995469631177
+        }
+      },
+      "best_epoch": 95,
+      "stop_epoch": 135,
+      "best_checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5c_nomosaic/balanced_nomosaic_s42/weights/best.pt",
+      "best_checkpoint_sha256": "f3a8277334860f284ad28b0ef67b2d1807bfa0389baf908c8cfbe3b9a5106714"
+    }
+  }
+}

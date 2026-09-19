@@ -1,0 +1,74 @@
+{
+  "real_only": {
+    "old_mosaic": 1.0,
+    "new_mosaic": 0.0,
+    "multi_image_transforms": [
+      {
+        "name": "Mosaic",
+        "p": 0.0
+      },
+      {
+        "name": "CopyPaste",
+        "p": 0.0
+      },
+      {
+        "name": "MixUp",
+        "p": 0.0
+      },
+      {
+        "name": "CutMix",
+        "p": 0.0
+      }
+    ],
+    "other_config_differences": {},
+    "args_path": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5c_nomosaic/real_only_nomosaic_s42/args.yaml"
+  },
+  "uniform": {
+    "old_mosaic": 1.0,
+    "new_mosaic": 0.0,
+    "multi_image_transforms": [
+      {
+        "name": "Mosaic",
+        "p": 0.0
+      },
+      {
+        "name": "CopyPaste",
+        "p": 0.0
+      },
+      {
+        "name": "MixUp",
+        "p": 0.0
+      },
+      {
+        "name": "CutMix",
+        "p": 0.0
+      }
+    ],
+    "other_config_differences": {},
+    "args_path": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5c_nomosaic/uniform_nomosaic_s42/args.yaml"
+  },
+  "balanced": {
+    "old_mosaic": 1.0,
+    "new_mosaic": 0.0,
+    "multi_image_transforms": [
+      {
+        "name": "Mosaic",
+        "p": 0.0
+      },
+      {
+        "name": "CopyPaste",
+        "p": 0.0
+      },
+      {
+        "name": "MixUp",
+        "p": 0.0
+      },
+      {
+        "name": "CutMix",
+        "p": 0.0
+      }
+    ],
+    "other_config_differences": {},
+    "args_path": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5c_nomosaic/balanced_nomosaic_s42/args.yaml"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mosaic_calls": 0,
+  "additional_image_reads": 0,
+  "verified_epochs": 415,
+  "per_arm_epochs": {
+    "real_only": 150,
+    "uniform": 130,
+    "balanced": 135
+  },
+  "method": "shared worker-safe counters on dataset.__getitem__, dataset.get_image_and_label and Mosaic.get_indexes; secondary reads = all image-and-label reads minus primary fetches, excluding abandoned-iterator prefetch"
+}

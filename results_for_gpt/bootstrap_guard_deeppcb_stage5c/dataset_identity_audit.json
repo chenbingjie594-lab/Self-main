@@ -1,0 +1,25 @@
+{
+  "stage3r_manifest_sha256": "cc6c14c2301f1c1881e05d012094360223b1757bc8f1fbeed78ae68a2a18bf42",
+  "candidate_ids_sha256": "cc6c14c2301f1c1881e05d012094360223b1757bc8f1fbeed78ae68a2a18bf42",
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "tree_sha256": {
+    "real_only": {
+      "train": "fabbe4fbe865ab5754bdc456275dd1e4ae36ce055da6db97af61d0659bc37608",
+      "val": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40"
+    },
+    "bootstrap_guard": {
+      "train": "d1b918654f1f5f0670efcecdf4fd1b9880bea43d194504a5bfcc401bc337c626",
+      "val": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40"
+    }
+  },
+  "real_images": 100,
+  "real_gt": 775,
+  "synthetic_images": 240,
+  "synthetic_per_class": 40,
+  "val_images": 500,
+  "val_gt": 3140,
+  "same_real_ids": true,
+  "same_candidate_ids": true,
+  "same_validation_files": true,
+  "leakage_check": "frozen Stage4/4M dataset identity and split audit"
+}
