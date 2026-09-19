@@ -1,0 +1,532 @@
+{
+  "records": [
+    {
+      "method": "real_only",
+      "seed": 42,
+      "reused": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/real_only_s42/weights/best.pt",
+      "checkpoint_sha256": "c482efb68ca4bc60717af4c77c3a2ce89a7da9723c6d1bcebee7095745c4d34a",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9103378362335599,
+      "recall": 0.8648318145172889,
+      "map50": 0.9276145537719697,
+      "map50_95": 0.6715465632905974,
+      "per_class": {
+        "open": {
+          "recall": 0.8892261001517451,
+          "ap50": 0.953890131850326,
+          "ap50_95": 0.6041861870340218
+        },
+        "short": {
+          "recall": 0.665104817111704,
+          "ap50": 0.7812350390969789,
+          "ap50_95": 0.4769938591174746
+        },
+        "mousebite": {
+          "recall": 0.8921447147250303,
+          "ap50": 0.9618793642180716,
+          "ap50_95": 0.6790805711559748
+        },
+        "spur": {
+          "recall": 0.8433131274556798,
+          "ap50": 0.9228238826150317,
+          "ap50_95": 0.6360671248504408
+        },
+        "spurious_copper": {
+          "recall": 0.9375,
+          "ap50": 0.9741384572853594,
+          "ap50_95": 0.828386978183808
+        },
+        "pinhole": {
+          "recall": 0.9617021276595744,
+          "ap50": 0.9717204475660495,
+          "ap50_95": 0.8045646594018632
+        }
+      }
+    },
+    {
+      "method": "random",
+      "seed": 42,
+      "reused": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/random_s42/weights/best.pt",
+      "checkpoint_sha256": "134b9b475c26d73d76e4c99faaab252222fc40d6eb51bc5827834f424641a4d8",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8892168168632096,
+      "recall": 0.8399077906642581,
+      "map50": 0.8997515325848185,
+      "map50_95": 0.5992800112610482,
+      "per_class": {
+        "open": {
+          "recall": 0.8408800918876147,
+          "ap50": 0.9201382653460795,
+          "ap50_95": 0.5567718417604255
+        },
+        "short": {
+          "recall": 0.6494768445926717,
+          "ap50": 0.7532078023933985,
+          "ap50_95": 0.4442234567395206
+        },
+        "mousebite": {
+          "recall": 0.8720136518771331,
+          "ap50": 0.9301238605089448,
+          "ap50_95": 0.592845233483699
+        },
+        "spur": {
+          "recall": 0.7953079971541749,
+          "ap50": 0.9001868882019579,
+          "ap50_95": 0.5708201809704391
+        },
+        "spurious_copper": {
+          "recall": 0.9051724137931034,
+          "ap50": 0.9688220502014689,
+          "ap50_95": 0.7684262392651345
+        },
+        "pinhole": {
+          "recall": 0.9765957446808511,
+          "ap50": 0.9260303288570615,
+          "ap50_95": 0.6625931153470709
+        }
+      }
+    },
+    {
+      "method": "diversity_quality",
+      "seed": 42,
+      "reused": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/diversity_quality_s42/weights/best.pt",
+      "checkpoint_sha256": "07a57f5e060a268d56c7a9f6e72738e50712350d8d13343f57f25806b798885e",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8958961074938037,
+      "recall": 0.8273798640013174,
+      "map50": 0.8980218378860796,
+      "map50_95": 0.5755920484933674,
+      "per_class": {
+        "open": {
+          "recall": 0.8114565821594205,
+          "ap50": 0.9157920972024305,
+          "ap50_95": 0.5323597340984992
+        },
+        "short": {
+          "recall": 0.6799163179916318,
+          "ap50": 0.7511874385683132,
+          "ap50_95": 0.43798494336748217
+        },
+        "mousebite": {
+          "recall": 0.8170826472346766,
+          "ap50": 0.9041069633345024,
+          "ap50_95": 0.5404211707590537
+        },
+        "spur": {
+          "recall": 0.7605730572744038,
+          "ap50": 0.899727811545415,
+          "ap50_95": 0.5546517257992084
+        },
+        "spurious_copper": {
+          "recall": 0.929293132539261,
+          "ap50": 0.9666948408690006,
+          "ap50_95": 0.7497929156631356
+        },
+        "pinhole": {
+          "recall": 0.9659574468085106,
+          "ap50": 0.950621875796815,
+          "ap50_95": 0.6383418012728257
+        }
+      }
+    },
+    {
+      "method": "bootstrap_guard",
+      "seed": 42,
+      "reused": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/bootstrap_guard_s42/weights/best.pt",
+      "checkpoint_sha256": "ca5aefcfe80ebc5a4c38daac73c0ec56abda2e1325ac201128016f5932dcee20",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9280348185997148,
+      "recall": 0.8624420504057065,
+      "map50": 0.9266352620868806,
+      "map50_95": 0.6398013145390513,
+      "per_class": {
+        "open": {
+          "recall": 0.9059180576631259,
+          "ap50": 0.9508132330485142,
+          "ap50_95": 0.573994429752681
+        },
+        "short": {
+          "recall": 0.7133891213389121,
+          "ap50": 0.7995753534932761,
+          "ap50_95": 0.4744947716603541
+        },
+        "mousebite": {
+          "recall": 0.856655290102389,
+          "ap50": 0.9558012768969044,
+          "ap50_95": 0.6362412545205057
+        },
+        "spur": {
+          "recall": 0.8346975015558141,
+          "ap50": 0.9236343349696312,
+          "ap50_95": 0.6258637555127875
+        },
+        "spurious_copper": {
+          "recall": 0.930994940765686,
+          "ap50": 0.9679500247713365,
+          "ap50_95": 0.8130390147301263
+        },
+        "pinhole": {
+          "recall": 0.9329973910083124,
+          "ap50": 0.9620373493416208,
+          "ap50_95": 0.715174661057853
+        }
+      }
+    },
+    {
+      "method": "real_only",
+      "seed": 3407,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/real_only_s3407/weights/best.pt",
+      "checkpoint_sha256": "064e7a6ae9c6eb32c19a7ae5ab1d38098d6fb776c87e2744b4c19bcf47135bf3",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8824279086556533,
+      "recall": 0.8565397702189785,
+      "map50": 0.920642094171689,
+      "map50_95": 0.6421011971660909,
+      "per_class": {
+        "open": {
+          "recall": 0.9066807183879899,
+          "ap50": 0.9505356038878104,
+          "ap50_95": 0.5750495231494128
+        },
+        "short": {
+          "recall": 0.6411175937597233,
+          "ap50": 0.7784695217483799,
+          "ap50_95": 0.46373721358829884
+        },
+        "mousebite": {
+          "recall": 0.8966505340325359,
+          "ap50": 0.9436662918215741,
+          "ap50_95": 0.6393828657203696
+        },
+        "spur": {
+          "recall": 0.7755605334153379,
+          "ap50": 0.9111854782969103,
+          "ap50_95": 0.607263973361193
+        },
+        "spurious_copper": {
+          "recall": 0.9319951991650932,
+          "ap50": 0.9765066217168551,
+          "ap50_95": 0.8012225948261401
+        },
+        "pinhole": {
+          "recall": 0.9872340425531915,
+          "ap50": 0.963489047558603,
+          "ap50_95": 0.7659510123511313
+        }
+      }
+    },
+    {
+      "method": "random",
+      "seed": 3407,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/random_s3407/weights/best.pt",
+      "checkpoint_sha256": "c63d7d60cd0c0414b55e5adef271cc81c5a419c48cefc8b72820b473c6ad5fd1",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8976891192280855,
+      "recall": 0.8614916476734898,
+      "map50": 0.9125121874795233,
+      "map50_95": 0.6488378889385022,
+      "per_class": {
+        "open": {
+          "recall": 0.8898624423596035,
+          "ap50": 0.9514443953157992,
+          "ap50_95": 0.5793355133589215
+        },
+        "short": {
+          "recall": 0.6485355648535565,
+          "ap50": 0.7435051764005356,
+          "ap50_95": 0.437988803156846
+        },
+        "mousebite": {
+          "recall": 0.898260843806504,
+          "ap50": 0.9452730946054535,
+          "ap50_95": 0.6667048464003973
+        },
+        "spur": {
+          "recall": 0.8297884108542212,
+          "ap50": 0.9239360939080553,
+          "ap50_95": 0.6173848219817304
+        },
+        "spurious_copper": {
+          "recall": 0.9152685816138629,
+          "ap50": 0.9716553534570401,
+          "ap50_95": 0.8175685635126066
+        },
+        "pinhole": {
+          "recall": 0.9872340425531915,
+          "ap50": 0.9392590111902557,
+          "ap50_95": 0.7740447852205113
+        }
+      }
+    },
+    {
+      "method": "diversity_quality",
+      "seed": 3407,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/diversity_quality_s3407/weights/best.pt",
+      "checkpoint_sha256": "e2f006c4c1b2b377fa5178b626856d46c464763ab63c8dce7112d6adb86330ad",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9108155132560479,
+      "recall": 0.8733410931754744,
+      "map50": 0.9257675109375884,
+      "map50_95": 0.647180291951975,
+      "per_class": {
+        "open": {
+          "recall": 0.8937784522003035,
+          "ap50": 0.9412959370969415,
+          "ap50_95": 0.5731235438028646
+        },
+        "short": {
+          "recall": 0.6903765690376569,
+          "ap50": 0.7857874212912006,
+          "ap50_95": 0.47158953513323876
+        },
+        "mousebite": {
+          "recall": 0.8907849829351536,
+          "ap50": 0.9584975273413644,
+          "ap50_95": 0.6646617469730057
+        },
+        "spur": {
+          "recall": 0.8592698314322161,
+          "ap50": 0.9339582408949316,
+          "ap50_95": 0.6276955425266001
+        },
+        "spurious_copper": {
+          "recall": 0.9356239574900691,
+          "ap50": 0.9748907477735118,
+          "ap50_95": 0.8192197973879333
+        },
+        "pinhole": {
+          "recall": 0.9702127659574468,
+          "ap50": 0.9601751912275813,
+          "ap50_95": 0.7267915858882079
+        }
+      }
+    },
+    {
+      "method": "bootstrap_guard",
+      "seed": 3407,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/bootstrap_guard_s3407/weights/best.pt",
+      "checkpoint_sha256": "25a5838be4081348fc68d8657a853f365a601dda0c8255f8e45ffd070aa7637f",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9191269039815522,
+      "recall": 0.8785847554688163,
+      "map50": 0.9293778661622328,
+      "map50_95": 0.6550805468759346,
+      "per_class": {
+        "open": {
+          "recall": 0.8925779354016099,
+          "ap50": 0.9577518182576619,
+          "ap50_95": 0.5932373362816562
+        },
+        "short": {
+          "recall": 0.6965355477147867,
+          "ap50": 0.7926872449847406,
+          "ap50_95": 0.47200120660256567
+        },
+        "mousebite": {
+          "recall": 0.9180887372013652,
+          "ap50": 0.959530932007455,
+          "ap50_95": 0.6581375456413274
+        },
+        "spur": {
+          "recall": 0.8416999295164121,
+          "ap50": 0.9314947374303411,
+          "ap50_95": 0.6207651044505258
+        },
+        "spurious_copper": {
+          "recall": 0.9375,
+          "ap50": 0.9776693144161541,
+          "ap50_95": 0.8183702380483074
+        },
+        "pinhole": {
+          "recall": 0.9851063829787234,
+          "ap50": 0.9571331498770446,
+          "ap50_95": 0.7679718502312249
+        }
+      }
+    },
+    {
+      "method": "real_only",
+      "seed": 2026,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/real_only_s2026/weights/best.pt",
+      "checkpoint_sha256": "736345b403eab3e3be3e45e9fe6ff384df01a366e1ce472fa6b675a978c21a65",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8848185954305808,
+      "recall": 0.8797067113831218,
+      "map50": 0.9219953364421712,
+      "map50_95": 0.6460364283746762,
+      "per_class": {
+        "open": {
+          "recall": 0.921092564491654,
+          "ap50": 0.9517095888150995,
+          "ap50_95": 0.6145852639441384
+        },
+        "short": {
+          "recall": 0.6721826326485297,
+          "ap50": 0.7767521936822068,
+          "ap50_95": 0.4742006872921398
+        },
+        "mousebite": {
+          "recall": 0.909556313993174,
+          "ap50": 0.9512590400522227,
+          "ap50_95": 0.6461839066395243
+        },
+        "spur": {
+          "recall": 0.8474796125295039,
+          "ap50": 0.933135860509308,
+          "ap50_95": 0.6299889661714737
+        },
+        "spurious_copper": {
+          "recall": 0.9375,
+          "ap50": 0.9784437767979688,
+          "ap50_95": 0.791505685563501
+        },
+        "pinhole": {
+          "recall": 0.9904291446358692,
+          "ap50": 0.9406715587962219,
+          "ap50_95": 0.71975406063728
+        }
+      }
+    },
+    {
+      "method": "random",
+      "seed": 2026,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/random_s2026/weights/best.pt",
+      "checkpoint_sha256": "d457d95ee87343cccbb71b95bdca44ae4dba4ff42dae6bc7a4653d7510941d1b",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9112634898274141,
+      "recall": 0.8459114081135817,
+      "map50": 0.9093307834192564,
+      "map50_95": 0.629772097317401,
+      "per_class": {
+        "open": {
+          "recall": 0.8937784522003035,
+          "ap50": 0.943138211275206,
+          "ap50_95": 0.5875462602750753
+        },
+        "short": {
+          "recall": 0.6460221952470668,
+          "ap50": 0.7203019045874639,
+          "ap50_95": 0.42405301021199665
+        },
+        "mousebite": {
+          "recall": 0.8937926514165442,
+          "ap50": 0.9507736735749063,
+          "ap50_95": 0.6363722732905862
+        },
+        "spur": {
+          "recall": 0.7755782705078743,
+          "ap50": 0.8940112302871049,
+          "ap50_95": 0.5877819606355575
+        },
+        "spurious_copper": {
+          "recall": 0.9109777303735307,
+          "ap50": 0.9748640650902238,
+          "ap50_95": 0.8100646605543147
+        },
+        "pinhole": {
+          "recall": 0.9553191489361702,
+          "ap50": 0.9728956157006338,
+          "ap50_95": 0.7328144189368758
+        }
+      }
+    },
+    {
+      "method": "diversity_quality",
+      "seed": 2026,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/diversity_quality_s2026/weights/best.pt",
+      "checkpoint_sha256": "a23a65dd107f00549dffce0c55b6e88642a6ca432a794098a7ce7e9d3b088ff5",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.9045638363257201,
+      "recall": 0.8484863093974999,
+      "map50": 0.9138610207517223,
+      "map50_95": 0.6388862098739163,
+      "per_class": {
+        "open": {
+          "recall": 0.8558421851289834,
+          "ap50": 0.9241262731161958,
+          "ap50_95": 0.5526832097382772
+        },
+        "short": {
+          "recall": 0.6589958158995816,
+          "ap50": 0.7786444762424816,
+          "ap50_95": 0.46745355803689126
+        },
+        "mousebite": {
+          "recall": 0.878839590443686,
+          "ap50": 0.9444166856276797,
+          "ap50_95": 0.6467756189018364
+        },
+        "spur": {
+          "recall": 0.8313290668616699,
+          "ap50": 0.9225576532902775,
+          "ap50_95": 0.6217520420824796
+        },
+        "spurious_copper": {
+          "recall": 0.8900862068965517,
+          "ap50": 0.9632991432741296,
+          "ap50_95": 0.8102198452975161
+        },
+        "pinhole": {
+          "recall": 0.975824991154527,
+          "ap50": 0.9501218929595701,
+          "ap50_95": 0.7344329851864964
+        }
+      }
+    },
+    {
+      "method": "bootstrap_guard",
+      "seed": 2026,
+      "reused": false,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_multiseed/bootstrap_guard_s2026/weights/best.pt",
+      "checkpoint_sha256": "14287ad66c4c63d52b0238d0c1a20ee1b5338b8a7c2c005645d64107335e932b",
+      "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+      "precision": 0.8855351427263738,
+      "recall": 0.8326689851768947,
+      "map50": 0.8978683639074992,
+      "map50_95": 0.6208395222376669,
+      "per_class": {
+        "open": {
+          "recall": 0.8983308042488619,
+          "ap50": 0.9337798139199822,
+          "ap50_95": 0.5756626827570848
+        },
+        "short": {
+          "recall": 0.7175732217573222,
+          "ap50": 0.7430745344833913,
+          "ap50_95": 0.43926246759855614
+        },
+        "mousebite": {
+          "recall": 0.8643508816999497,
+          "ap50": 0.9337141624095057,
+          "ap50_95": 0.6209271293942148
+        },
+        "spur": {
+          "recall": 0.7025893968797443,
+          "ap50": 0.8900661173062172,
+          "ap50_95": 0.5861960658929283
+        },
+        "spurious_copper": {
+          "recall": 0.8802728405493012,
+          "ap50": 0.9506957397375041,
+          "ap50_95": 0.773070365109122
+        },
+        "pinhole": {
+          "recall": 0.9328967659261891,
+          "ap50": 0.9358798155883947,
+          "ap50_95": 0.7299184226740957
+        }
+      }
+    }
+  ]
+}

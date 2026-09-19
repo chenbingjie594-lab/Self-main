@@ -1,0 +1,117 @@
+{
+  "reuse_seed42": true,
+  "seed42_retrained": false,
+  "frozen_pool_sha256": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14",
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "pretrained_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "stage3r_manifest_sha256": {
+    "random": "10a31bcc834b0eee8900f459aeec20e192b85fd6f6df43522a463db7ca85a9c7",
+    "diversity_quality": "5ed1329944631e2cc76f3e53a418d107b5fb6985c83b7e1e3a305472d45bc8f8",
+    "bootstrap_guard": "cc6c14c2301f1c1881e05d012094360223b1757bc8f1fbeed78ae68a2a18bf42"
+  },
+  "dataset_tree_sha256": {
+    "real_only": {
+      "train_tree_sha256": "fabbe4fbe865ab5754bdc456275dd1e4ae36ce055da6db97af61d0659bc37608",
+      "train_file_count": 200,
+      "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40",
+      "validation_file_count": 1000
+    },
+    "random": {
+      "train_tree_sha256": "bc7f01af2c2c871365cef9a8dae380b0a6c27f9f732119c1bb60bed265e244db",
+      "train_file_count": 680,
+      "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40",
+      "validation_file_count": 1000
+    },
+    "diversity_quality": {
+      "train_tree_sha256": "585c17306879a96c737523b1ff0d31879dcfba8ced999488e42a0e247f85a3ad",
+      "train_file_count": 680,
+      "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40",
+      "validation_file_count": 1000
+    },
+    "bootstrap_guard": {
+      "train_tree_sha256": "d1b918654f1f5f0670efcecdf4fd1b9880bea43d194504a5bfcc401bc337c626",
+      "train_file_count": 680,
+      "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40",
+      "validation_file_count": 1000
+    }
+  },
+  "seed42_runs": {
+    "real_only": {
+      "run": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/real_only_s42",
+      "checks": {
+        "model": true,
+        "imgsz": true,
+        "epochs": true,
+        "patience": true,
+        "batch": true,
+        "deterministic": true,
+        "seed": true,
+        "optimizer": true,
+        "checkpoint_hash": true,
+        "validation_hash": true
+      },
+      "passed": true
+    },
+    "random": {
+      "run": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/random_s42",
+      "checks": {
+        "model": true,
+        "imgsz": true,
+        "epochs": true,
+        "patience": true,
+        "batch": true,
+        "deterministic": true,
+        "seed": true,
+        "optimizer": true,
+        "checkpoint_hash": true,
+        "validation_hash": true
+      },
+      "passed": true
+    },
+    "diversity_quality": {
+      "run": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/diversity_quality_s42",
+      "checks": {
+        "model": true,
+        "imgsz": true,
+        "epochs": true,
+        "patience": true,
+        "batch": true,
+        "deterministic": true,
+        "seed": true,
+        "optimizer": true,
+        "checkpoint_hash": true,
+        "validation_hash": true
+      },
+      "passed": true
+    },
+    "bootstrap_guard": {
+      "run": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage4_downstream/bootstrap_guard_s42",
+      "checks": {
+        "model": true,
+        "imgsz": true,
+        "epochs": true,
+        "patience": true,
+        "batch": true,
+        "deterministic": true,
+        "seed": true,
+        "optimizer": true,
+        "checkpoint_hash": true,
+        "validation_hash": true
+      },
+      "passed": true
+    }
+  },
+  "new_training_seeds": [
+    3407,
+    2026
+  ],
+  "protocol": {
+    "model": "YOLO11s",
+    "imgsz": 512,
+    "epochs": 150,
+    "patience": 40,
+    "batch": 8,
+    "deterministic": true,
+    "optimizer": "auto"
+  }
+}
