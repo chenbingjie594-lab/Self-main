@@ -1,0 +1,34 @@
+{
+  "per_arm": {
+    "random": {
+      "open": 2000,
+      "short": 2039,
+      "mousebite": 2034,
+      "spur": 1974,
+      "spurious_copper": 1993,
+      "pinhole": 1960
+    },
+    "dq": {
+      "open": 1208,
+      "short": 1264,
+      "mousebite": 1235,
+      "spur": 1233,
+      "spurious_copper": 1226,
+      "pinhole": 1194
+    },
+    "bg": {
+      "open": 1786,
+      "short": 1839,
+      "mousebite": 1827,
+      "spur": 1773,
+      "spurious_copper": 1797,
+      "pinhole": 1778
+    }
+  },
+  "total_synthetic_draws": {
+    "random": 12000,
+    "dq": 7360,
+    "bg": 10800
+  },
+  "rule": "uniform with replacement inside each source; 260 real + 80 synthetic per epoch"
+}

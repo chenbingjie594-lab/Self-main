@@ -1,0 +1,59 @@
+{
+  "reference": "Stage5C balanced no-Mosaic",
+  "same_sampler_implementation": "SourceBalancedSampler from run_deeppcb_stage5b.py",
+  "same_train_args_except_data_and_output": true,
+  "new_runs": {
+    "random": {
+      "reference": "runs/deeppcb_stage5c_nomosaic/balanced_nomosaic_s42/args.yaml",
+      "run": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5d_selector_balanced/random_balanced_nomosaic_s42/args.yaml",
+      "differences": {},
+      "multi_image_transforms": [
+        {
+          "name": "Mosaic",
+          "p": 0.0
+        },
+        {
+          "name": "CopyPaste",
+          "p": 0.0
+        },
+        {
+          "name": "MixUp",
+          "p": 0.0
+        },
+        {
+          "name": "CutMix",
+          "p": 0.0
+        }
+      ],
+      "same_sampler": true,
+      "mosaic": 0.0,
+      "seed": 42
+    },
+    "dq": {
+      "reference": "runs/deeppcb_stage5c_nomosaic/balanced_nomosaic_s42/args.yaml",
+      "run": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage5d_selector_balanced/dq_balanced_nomosaic_s42/args.yaml",
+      "differences": {},
+      "multi_image_transforms": [
+        {
+          "name": "Mosaic",
+          "p": 0.0
+        },
+        {
+          "name": "CopyPaste",
+          "p": 0.0
+        },
+        {
+          "name": "MixUp",
+          "p": 0.0
+        },
+        {
+          "name": "CutMix",
+          "p": 0.0
+        }
+      ],
+      "same_sampler": true,
+      "mosaic": 0.0,
+      "seed": 42
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "stage4m": {
+    "mosaic": "on",
+    "exposure": "ordinary uniform image sampling",
+    "source": "results_for_gpt/bootstrap_guard_deeppcb_stage4_multiseed/per_seed_results.json",
+    "seed42_map50_95": {
+      "real_only": 0.6715465632905974,
+      "random": 0.5992800112610482,
+      "diversity_quality": 0.5755920484933674,
+      "bootstrap_guard": 0.6398013145390513
+    },
+    "within_protocol_bg_minus_dq": 0.06420926604568389,
+    "within_protocol_bg_minus_random": 0.040521303278003074
+  },
+  "stage5d": {
+    "mosaic": "off",
+    "exposure": "260 real / 80 synthetic draws per epoch",
+    "seed42_within_protocol_deltas": {
+      "bg_minus_dq": -0.0016560521143508256,
+      "bg_minus_random": -0.015215079539985465
+    }
+  },
+  "cross_protocol_absolute_difference_is_causal": false
+}
