@@ -1,0 +1,2305 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spurious_copper": 16,
+        "short": 10,
+        "pinhole": 13,
+        "open": 12,
+        "spur": 12,
+        "mousebite": 17
+      },
+      "sequence_sha256": "28d3de26cd0ef281111c631d42f6aae1bbf35a8a4816e7fc516f1e9144944574",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 2,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 97,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "pinhole": 17,
+        "spur": 13,
+        "mousebite": 10,
+        "open": 14,
+        "spurious_copper": 16,
+        "short": 10
+      },
+      "sequence_sha256": "978072e63069c89df882f46d1f98bb2fa5dd9652204479c968a42e4787391493",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 3,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "open": 22,
+        "spurious_copper": 18,
+        "mousebite": 9,
+        "pinhole": 11,
+        "spur": 9,
+        "short": 11
+      },
+      "sequence_sha256": "6ebc987bd81395325f8e288746c35390710334cb5365a7962365a1f157158868",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 4,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spur": 11,
+        "pinhole": 14,
+        "short": 16,
+        "spurious_copper": 16,
+        "open": 12,
+        "mousebite": 11
+      },
+      "sequence_sha256": "e5949756695cfa13db44a1102f0555b76a6464c246d45715ee2760213712e866",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 5,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "open": 14,
+        "pinhole": 15,
+        "spurious_copper": 15,
+        "spur": 9,
+        "mousebite": 18,
+        "short": 9
+      },
+      "sequence_sha256": "4c74e1ef2a7cd4bad7ab8bac05da59d65a620a864dc699dbe20b1a2deab3b1c2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 6,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spurious_copper": 19,
+        "short": 14,
+        "open": 9,
+        "pinhole": 14,
+        "spur": 12,
+        "mousebite": 12
+      },
+      "sequence_sha256": "9ef1be5d0407268367d6cf638f1b0e4e2080f1664fe7b44ddc8328b41525f443",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 7,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spur": 12,
+        "short": 14,
+        "open": 12,
+        "spurious_copper": 14,
+        "mousebite": 16,
+        "pinhole": 12
+      },
+      "sequence_sha256": "f9c0715bb057482c64054a164d0b92ab3abdfc2a2ca6f884b26fb549cd80ff51",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 8,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "spur": 15,
+        "short": 10,
+        "pinhole": 12,
+        "open": 16,
+        "mousebite": 17,
+        "spurious_copper": 10
+      },
+      "sequence_sha256": "ee74140b6e543436afd00710a45d02cefcfeea7e90306298cb58be786dc99ecc",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 9,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "short": 17,
+        "mousebite": 17,
+        "spurious_copper": 11,
+        "spur": 12,
+        "open": 10,
+        "pinhole": 13
+      },
+      "sequence_sha256": "53269236ae1dcc6388c7ef27b83930bb4da53f6c37a6b5b98540472bcf0fe42b",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 10,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 97,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spurious_copper": 17,
+        "open": 15,
+        "short": 14,
+        "spur": 11,
+        "pinhole": 6,
+        "mousebite": 17
+      },
+      "sequence_sha256": "8d27923b893a1c5929cc777cef111ca6e5254e953c93fc15ad7558de73c2bb86",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 11,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "spur": 18,
+        "mousebite": 9,
+        "spurious_copper": 16,
+        "pinhole": 15,
+        "short": 10,
+        "open": 12
+      },
+      "sequence_sha256": "08d5464486b1a6b066cf119d651ab60729eabe47fef2fb7d62a468fc87687c44",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 12,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "spur": 12,
+        "open": 14,
+        "mousebite": 13,
+        "pinhole": 17,
+        "short": 11,
+        "spurious_copper": 13
+      },
+      "sequence_sha256": "1b8e2a585190569a3f821ca92d7a762e5e24f3cbb9ecb6f0fac4496da9f9b724",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 13,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 64,
+      "synthetic_class_histogram": {
+        "short": 14,
+        "pinhole": 19,
+        "open": 15,
+        "mousebite": 13,
+        "spurious_copper": 15,
+        "spur": 4
+      },
+      "sequence_sha256": "06f1f7691299e9640d0009bf9abacac870f7f810fe8a18ce99cad874a71b25e3",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 14,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "short": 16,
+        "spur": 14,
+        "mousebite": 19,
+        "spurious_copper": 14,
+        "pinhole": 8,
+        "open": 9
+      },
+      "sequence_sha256": "891059608715cbf2252adec1987e488032033f68cccd4dba64741d1a1707cabe",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 15,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 74,
+      "synthetic_class_histogram": {
+        "mousebite": 15,
+        "open": 10,
+        "spur": 13,
+        "pinhole": 14,
+        "spurious_copper": 11,
+        "short": 17
+      },
+      "sequence_sha256": "46841a3af641efc9e16ffb524c625176c1515ceb35d27aa4f0742dd152fcf5d0",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 16,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "open": 21,
+        "spur": 15,
+        "spurious_copper": 12,
+        "short": 8,
+        "pinhole": 16,
+        "mousebite": 8
+      },
+      "sequence_sha256": "2c13187a3328753ece278b98b21a516dcbead424078b38500646fd935c48f1bc",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 17,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spur": 9,
+        "short": 13,
+        "open": 13,
+        "mousebite": 12,
+        "pinhole": 16,
+        "spurious_copper": 17
+      },
+      "sequence_sha256": "4c833cc46362cd426b3024a8a6495507223c71c19191d71afcb3c0e632275605",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 18,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "short": 15,
+        "pinhole": 11,
+        "spur": 12,
+        "open": 13,
+        "mousebite": 11,
+        "spurious_copper": 18
+      },
+      "sequence_sha256": "475dc882f1a1b9c5421d301d96537d8a2185e1d345c693cdac4094536ee542d8",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 19,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "mousebite": 13,
+        "pinhole": 7,
+        "spur": 11,
+        "open": 17,
+        "short": 20,
+        "spurious_copper": 12
+      },
+      "sequence_sha256": "64c1ecee834f7634e5407331a71e093f1a4bc5ff9b310096990ce37209577926",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 20,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 62,
+      "synthetic_class_histogram": {
+        "short": 17,
+        "pinhole": 15,
+        "mousebite": 13,
+        "open": 18,
+        "spurious_copper": 11,
+        "spur": 6
+      },
+      "sequence_sha256": "d0f2fb9705d108a9580ba6c1b1b61722ea46f36524e62ab769d5ccf1b6dc0235",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 21,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "spurious_copper": 9,
+        "mousebite": 10,
+        "short": 23,
+        "pinhole": 13,
+        "spur": 9,
+        "open": 16
+      },
+      "sequence_sha256": "6c0f4ca44d0a3c03cbcbf47f80edac28010e29dbdddf393b0dd3fd30af38c812",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 22,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "open": 11,
+        "short": 20,
+        "spurious_copper": 12,
+        "spur": 8,
+        "mousebite": 11,
+        "pinhole": 18
+      },
+      "sequence_sha256": "00de2d1f031fa09b62c77995899250c693bf5f059bdcff4281c7ecdba600b22e",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 23,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spurious_copper": 10,
+        "open": 11,
+        "pinhole": 20,
+        "mousebite": 13,
+        "short": 12,
+        "spur": 14
+      },
+      "sequence_sha256": "07a8f4caf6da4c8bbfe18513675ec3cffca92221a678c5a7b7a7e8daa646fad9",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 24,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "pinhole": 7,
+        "spur": 16,
+        "short": 12,
+        "mousebite": 19,
+        "spurious_copper": 12,
+        "open": 14
+      },
+      "sequence_sha256": "3a3fc9e582a11fe5c37a35ce740e887e955a0f91c9bb77d4113df543760401e4",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 25,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 96,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "pinhole": 11,
+        "open": 12,
+        "mousebite": 13,
+        "spur": 12,
+        "short": 18,
+        "spurious_copper": 14
+      },
+      "sequence_sha256": "6df715facf309d6bfa2b14103a15fe94902a787a41ba332dcbf284a4c0a5cfb9",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 26,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 21,
+        "pinhole": 18,
+        "mousebite": 10,
+        "open": 11,
+        "spur": 10,
+        "spurious_copper": 10
+      },
+      "sequence_sha256": "e2dd37214e1aeca6e07d765bc5fcebeae44f22646f17001fa0b2c214058e2a91",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 27,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "open": 11,
+        "spur": 15,
+        "spurious_copper": 18,
+        "mousebite": 15,
+        "pinhole": 10,
+        "short": 11
+      },
+      "sequence_sha256": "1394f4aeb7398a0ce1081be0e0adf77c9728bba11cc750725cc325e3f0db329a",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 28,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "mousebite": 17,
+        "pinhole": 12,
+        "open": 20,
+        "spur": 12,
+        "spurious_copper": 10,
+        "short": 9
+      },
+      "sequence_sha256": "35ceba7cb266f1ce6751b42e975b8917026f5790ba0489c029fda470a130475d",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 29,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 63,
+      "synthetic_class_histogram": {
+        "mousebite": 9,
+        "pinhole": 17,
+        "spurious_copper": 15,
+        "spur": 10,
+        "short": 16,
+        "open": 13
+      },
+      "sequence_sha256": "fb361229f50ff47dbdd7cb75e39fd1e20e569615a5bc00969f1956e0f31b24f2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 30,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 89,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "open": 15,
+        "spur": 20,
+        "pinhole": 11,
+        "spurious_copper": 11,
+        "short": 18,
+        "mousebite": 5
+      },
+      "sequence_sha256": "d08d4cef1af0130ec1eb99f61872a4767e3659ff02d004485e53939045d55c1d",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 31,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 17,
+        "spur": 22,
+        "pinhole": 13,
+        "spurious_copper": 7,
+        "mousebite": 12,
+        "open": 9
+      },
+      "sequence_sha256": "f94850678c1b20c79843b4154681659f3bf15d09b8e182f68fc8aa2e37107de2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 32,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "open": 22,
+        "mousebite": 10,
+        "spurious_copper": 13,
+        "pinhole": 11,
+        "spur": 15,
+        "short": 9
+      },
+      "sequence_sha256": "77d0a2e5f4efcfef09b2e9e38f9b466fcd8c1f49ee51c44f16bde9671ad5dba3",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 33,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spurious_copper": 16,
+        "pinhole": 10,
+        "open": 13,
+        "mousebite": 16,
+        "spur": 13,
+        "short": 12
+      },
+      "sequence_sha256": "a864a3595f9d0df0f2716c287747f19367d79c816f2695c5dc0d007a0f1899a2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 34,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "spur": 14,
+        "spurious_copper": 9,
+        "pinhole": 11,
+        "short": 13,
+        "mousebite": 21,
+        "open": 12
+      },
+      "sequence_sha256": "0f36965ee5984da03e66be0581f798fb04ee7a9ff4af09c7c4c29d26bbbf7921",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 35,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "spur": 17,
+        "open": 13,
+        "pinhole": 10,
+        "mousebite": 15,
+        "short": 14,
+        "spurious_copper": 11
+      },
+      "sequence_sha256": "0184399c99307d9e0a14711a4f84176f51eddc50e18fc09a40357d7f8f0d7a23",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 36,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "pinhole": 11,
+        "open": 8,
+        "spur": 15,
+        "short": 17,
+        "spurious_copper": 14,
+        "mousebite": 15
+      },
+      "sequence_sha256": "ae9c7015ea6635afad9b9fde85faf0122142ef54647d12736fb177207cded6ff",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 37,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 20,
+        "spur": 9,
+        "open": 11,
+        "pinhole": 18,
+        "spurious_copper": 11,
+        "mousebite": 11
+      },
+      "sequence_sha256": "1bc06232885a781d7f6a982871412286d9ef9a5078bb9d683a885d5ee417bea8",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 38,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "short": 14,
+        "pinhole": 16,
+        "spur": 11,
+        "spurious_copper": 18,
+        "open": 11,
+        "mousebite": 10
+      },
+      "sequence_sha256": "75153c4e5d6a6b63327c715f20d0add262c399197cc22d4c19100a1c09ebee70",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 39,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "open": 10,
+        "mousebite": 20,
+        "spur": 16,
+        "pinhole": 12,
+        "spurious_copper": 15,
+        "short": 7
+      },
+      "sequence_sha256": "69001231acf43a8f526640dd2bddb1ba9b4d44e6db5872542ab65815ee910dfc",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 40,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "mousebite": 18,
+        "pinhole": 17,
+        "spurious_copper": 8,
+        "spur": 14,
+        "open": 11,
+        "short": 12
+      },
+      "sequence_sha256": "3883b39581f23aadbbc3572c96eacf2a7520fa64cb7d0a67b553cac6f7893a03",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 41,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "spur": 11,
+        "spurious_copper": 16,
+        "open": 14,
+        "mousebite": 15,
+        "pinhole": 14,
+        "short": 10
+      },
+      "sequence_sha256": "cc3d8c1894ff7be83e3c437fb0c85147a87d44ea505785131bf018fd81559378",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 42,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 73,
+      "synthetic_class_histogram": {
+        "spurious_copper": 15,
+        "mousebite": 10,
+        "spur": 17,
+        "open": 13,
+        "short": 11,
+        "pinhole": 14
+      },
+      "sequence_sha256": "f0e2809f374121971e3276b56cb4f8cb73ccf7acf2bff0cc9c13905919c91739",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 43,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 88,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spurious_copper": 14,
+        "pinhole": 14,
+        "mousebite": 12,
+        "open": 12,
+        "short": 13,
+        "spur": 15
+      },
+      "sequence_sha256": "912d884486d33ad45a76bb674f5a329e1822fd1ddaaf6be819bdb1546d8a4a3f",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 44,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "spur": 9,
+        "open": 18,
+        "short": 17,
+        "mousebite": 13,
+        "spurious_copper": 12,
+        "pinhole": 11
+      },
+      "sequence_sha256": "21085f0a8c665d54a107616a06da95cfb2be9010dc9ae83230f2dd4f69111718",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 45,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "open": 12,
+        "mousebite": 12,
+        "spurious_copper": 20,
+        "pinhole": 13,
+        "spur": 10,
+        "short": 13
+      },
+      "sequence_sha256": "9fdeb83d1c4b7e059452a569aa955b95a673fb8d3124c9350fb6ea79fbdad859",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 46,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "pinhole": 12,
+        "mousebite": 15,
+        "open": 16,
+        "short": 13,
+        "spur": 19,
+        "spurious_copper": 5
+      },
+      "sequence_sha256": "02bc9490dfabf53d1f45f3d2896e36872aa1c3860c2e1534dd03a96b99a66961",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 47,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "pinhole": 17,
+        "short": 7,
+        "mousebite": 14,
+        "spurious_copper": 13,
+        "open": 16,
+        "spur": 13
+      },
+      "sequence_sha256": "8425f215907932b3340248b8724e972ac6ea4cd00716b9ea01f74c4917b4f086",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 48,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "spurious_copper": 17,
+        "spur": 17,
+        "short": 15,
+        "open": 12,
+        "pinhole": 12,
+        "mousebite": 7
+      },
+      "sequence_sha256": "8f7cc682092b27ca430eab6f1fd0da8e12fd922b51038aec12854df6faa8046f",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 49,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "mousebite": 10,
+        "pinhole": 11,
+        "spurious_copper": 13,
+        "short": 14,
+        "spur": 18,
+        "open": 14
+      },
+      "sequence_sha256": "fbba053ec027dae012ba61c9876c2c394e1338a78cb1ef9184b83bf4c76fd748",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 50,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spur": 12,
+        "pinhole": 10,
+        "mousebite": 17,
+        "spurious_copper": 20,
+        "open": 8,
+        "short": 13
+      },
+      "sequence_sha256": "b34f786548e0e9b4e39f77d0836fcbfa8325d066f13e04fe742bc7509577a7cc",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 51,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spurious_copper": 11,
+        "mousebite": 12,
+        "short": 12,
+        "pinhole": 14,
+        "spur": 17,
+        "open": 14
+      },
+      "sequence_sha256": "66f1bf95b144626cd949927475c8cc10261662024beae51f946f0c618217354c",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 52,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 63,
+      "synthetic_class_histogram": {
+        "mousebite": 19,
+        "open": 8,
+        "spurious_copper": 18,
+        "spur": 11,
+        "short": 15,
+        "pinhole": 9
+      },
+      "sequence_sha256": "cb2fc391dffd64108505e95239ccdb90dc70e554f186d5a0bd30dfb202016ea5",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 53,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 98,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spur": 14,
+        "short": 12,
+        "pinhole": 11,
+        "spurious_copper": 20,
+        "mousebite": 13,
+        "open": 10
+      },
+      "sequence_sha256": "0cfb167626a12d17761f454bdfe4fe8004ad28d821d1d58957066893fb09be48",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 54,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "short": 15,
+        "pinhole": 10,
+        "mousebite": 13,
+        "spur": 14,
+        "open": 20,
+        "spurious_copper": 8
+      },
+      "sequence_sha256": "892b0c7a4e2ff8f32e6f1baac60fce6a6f7c3cadf7d9509a13e12ce5d8a663a5",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 55,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 73,
+      "synthetic_class_histogram": {
+        "open": 13,
+        "pinhole": 14,
+        "spur": 14,
+        "mousebite": 9,
+        "short": 17,
+        "spurious_copper": 13
+      },
+      "sequence_sha256": "69df2bb4c0a8bb9b439bfc7143775b93ee727d0311f110bb87346b1efbccb3c1",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 56,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 16,
+        "spur": 14,
+        "mousebite": 13,
+        "pinhole": 13,
+        "open": 11,
+        "spurious_copper": 13
+      },
+      "sequence_sha256": "7ca03e60ba89de49657e801251028374a185de5f568cfa1ed84a4ee25c7d31c7",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 57,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 96,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "mousebite": 16,
+        "spur": 10,
+        "spurious_copper": 14,
+        "open": 15,
+        "short": 14,
+        "pinhole": 11
+      },
+      "sequence_sha256": "e13d86185c870311179373b4bd92d84784c8d79156a9ffc22a7de8636c793043",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 58,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "mousebite": 11,
+        "pinhole": 14,
+        "spurious_copper": 17,
+        "open": 15,
+        "short": 12,
+        "spur": 11
+      },
+      "sequence_sha256": "a0107ad278337735073e9d7679c0cb3d0816174b96de49e4ad3eeb14a4acd8fb",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 59,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 96,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spur": 17,
+        "short": 14,
+        "open": 6,
+        "spurious_copper": 14,
+        "mousebite": 18,
+        "pinhole": 11
+      },
+      "sequence_sha256": "4f06d1276f5e244ffb15181dcaf1d80dd97f5e5733ddce584cca169011304c02",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 60,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spurious_copper": 14,
+        "pinhole": 7,
+        "short": 15,
+        "spur": 14,
+        "mousebite": 18,
+        "open": 12
+      },
+      "sequence_sha256": "660e9dacaf3761513651cc7d586a779f434b7868924e503e1b62fc143e7eb6e2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 61,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spur": 20,
+        "pinhole": 15,
+        "open": 13,
+        "spurious_copper": 10,
+        "mousebite": 15,
+        "short": 7
+      },
+      "sequence_sha256": "f3db04778dc72327138ffd0fbb12184dde197236061e72e6a86fb18c4e1b15b6",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 62,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "open": 13,
+        "mousebite": 13,
+        "pinhole": 15,
+        "spur": 20,
+        "short": 11,
+        "spurious_copper": 8
+      },
+      "sequence_sha256": "8eff1b9f6e473d7ccef019053f9a6407159b430431b986b0d64e4f6dd16bec1c",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 63,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 11,
+        "spurious_copper": 19,
+        "pinhole": 8,
+        "open": 16,
+        "spur": 12,
+        "mousebite": 14
+      },
+      "sequence_sha256": "89266f4f4953d556b51d1f7c96575d7eb95f902793db3c8ee09f7604e3fa615b",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 64,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spur": 11,
+        "pinhole": 19,
+        "spurious_copper": 14,
+        "short": 15,
+        "mousebite": 9,
+        "open": 12
+      },
+      "sequence_sha256": "12ac917654233b69f161e52337d377328b1a80a5474ae0c425d40a28a5df6fb2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 65,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "short": 17,
+        "mousebite": 18,
+        "spurious_copper": 13,
+        "pinhole": 12,
+        "spur": 10,
+        "open": 10
+      },
+      "sequence_sha256": "351fd138b81c2ff1fd2e5dbf086fefd72b75c3acd12775aa2c123f90aa870410",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 66,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spur": 11,
+        "short": 12,
+        "pinhole": 22,
+        "spurious_copper": 9,
+        "open": 11,
+        "mousebite": 15
+      },
+      "sequence_sha256": "a8cc0af5baf0b2cf0087199cb0bfc3502d0e9cd489330792747fb0c0896798d3",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 67,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "short": 13,
+        "open": 10,
+        "pinhole": 15,
+        "spur": 18,
+        "mousebite": 12,
+        "spurious_copper": 12
+      },
+      "sequence_sha256": "f1a83f88dbf17d393fbf294e16b526dcaba5077ff9362cc7e79526ba8cc36d6d",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 68,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "pinhole": 11,
+        "short": 12,
+        "spur": 22,
+        "spurious_copper": 11,
+        "open": 13,
+        "mousebite": 11
+      },
+      "sequence_sha256": "3087da351208da80c36996fba80af768e8b401715f280d6fb715e1e330286ae5",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 69,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "short": 15,
+        "mousebite": 17,
+        "pinhole": 16,
+        "open": 10,
+        "spurious_copper": 13,
+        "spur": 9
+      },
+      "sequence_sha256": "9d162b8e560b8d9c69d64ba240d217c53e595efb333f5e358d9c38f471087403",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 70,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "open": 15,
+        "short": 10,
+        "spurious_copper": 18,
+        "pinhole": 16,
+        "mousebite": 4,
+        "spur": 17
+      },
+      "sequence_sha256": "22acd262bfba4ee3eb0da3e85ce7e7328db65151c0f00c70cb9d3a1ab14e0dec",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 71,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 62,
+      "synthetic_class_histogram": {
+        "spurious_copper": 14,
+        "mousebite": 13,
+        "short": 12,
+        "spur": 13,
+        "open": 16,
+        "pinhole": 12
+      },
+      "sequence_sha256": "059840ba56b558a80985d981ef497050b7adfdf8f0f0e00250de1c7cfbfd9899",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 72,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spurious_copper": 8,
+        "pinhole": 17,
+        "short": 13,
+        "spur": 15,
+        "mousebite": 12,
+        "open": 15
+      },
+      "sequence_sha256": "3b10a385848db455b884b6636b0e3bddc05ec74f1a002fd1811fac639855307a",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 73,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 88,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "short": 12,
+        "mousebite": 17,
+        "spurious_copper": 14,
+        "open": 12,
+        "pinhole": 12,
+        "spur": 13
+      },
+      "sequence_sha256": "e8ab8eacacdb6fe7c0045cfd6970951c75e75c1de395e363d49f6025437cb2f9",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 74,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spurious_copper": 15,
+        "spur": 15,
+        "pinhole": 11,
+        "short": 20,
+        "mousebite": 8,
+        "open": 11
+      },
+      "sequence_sha256": "02d205ed8ab62cebe39461c64040942582c1f78ca75dfdaa2d696a93476171f9",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 75,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "open": 14,
+        "spurious_copper": 11,
+        "spur": 19,
+        "mousebite": 15,
+        "short": 16,
+        "pinhole": 5
+      },
+      "sequence_sha256": "0146f4e23f28c87bf6b597798cf07749a11997dc819b8711479e3993b3c0941c",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 76,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "open": 16,
+        "mousebite": 15,
+        "spurious_copper": 10,
+        "spur": 17,
+        "short": 14,
+        "pinhole": 8
+      },
+      "sequence_sha256": "d804720f40d14005ba1cccaa0799139d445c2d62dc58ba675fe2fdf35045fd4b",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 77,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 63,
+      "synthetic_class_histogram": {
+        "short": 12,
+        "spur": 9,
+        "pinhole": 15,
+        "open": 16,
+        "spurious_copper": 17,
+        "mousebite": 11
+      },
+      "sequence_sha256": "6eb60d549b041763ea6776f80d3566c05292a4806fb3b4ec7038ec1eed399d54",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 78,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spurious_copper": 14,
+        "open": 14,
+        "pinhole": 9,
+        "short": 14,
+        "mousebite": 16,
+        "spur": 13
+      },
+      "sequence_sha256": "4955b7223a8f667959278f60d164e74724b78eadc193b2d272057251253e671a",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 79,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "open": 8,
+        "mousebite": 19,
+        "short": 12,
+        "pinhole": 11,
+        "spur": 21,
+        "spurious_copper": 9
+      },
+      "sequence_sha256": "ca0294d11c342268dd331ff3eae7dbe156d99d79e5bfe2655f0dc98192baaacf",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 80,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 87,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spur": 13,
+        "short": 15,
+        "spurious_copper": 14,
+        "mousebite": 14,
+        "open": 12,
+        "pinhole": 12
+      },
+      "sequence_sha256": "6099ede943243e80ddd99d6b4da2c5a7dae903b20a0fc6c66869d4c2fde8464e",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 81,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 72,
+      "synthetic_class_histogram": {
+        "mousebite": 13,
+        "spur": 16,
+        "spurious_copper": 10,
+        "pinhole": 11,
+        "short": 12,
+        "open": 18
+      },
+      "sequence_sha256": "714511670aec61d303db8e900270295af1a900bb7a40e739201d1988bc9de050",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 82,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spurious_copper": 23,
+        "short": 15,
+        "pinhole": 17,
+        "spur": 9,
+        "open": 7,
+        "mousebite": 9
+      },
+      "sequence_sha256": "c23e79c9c33bd232ca794099659cc5f079412f248d4ed0abffca5b664aefbe64",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 83,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 96,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "pinhole": 16,
+        "spur": 7,
+        "short": 10,
+        "mousebite": 19,
+        "open": 12,
+        "spurious_copper": 16
+      },
+      "sequence_sha256": "3129b79a48b5c96f0ba2384ee2330bf9a6203ff458c7880fe5a3ae07670caffd",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 84,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "pinhole": 11,
+        "short": 15,
+        "spur": 16,
+        "mousebite": 13,
+        "open": 13,
+        "spurious_copper": 12
+      },
+      "sequence_sha256": "c5867ca27409302ee99cf1fb7b35704f0477bf2e74c1d778d02dc47accf5bf35",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 85,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 19,
+        "spurious_copper": 12,
+        "open": 11,
+        "mousebite": 14,
+        "pinhole": 16,
+        "spur": 8
+      },
+      "sequence_sha256": "8ea2fa523a0095928435e93b9f54eec180c3021b1e2330577b8f93b32b055d4b",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 86,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "open": 14,
+        "spur": 15,
+        "pinhole": 13,
+        "short": 15,
+        "spurious_copper": 9,
+        "mousebite": 14
+      },
+      "sequence_sha256": "66719788a2610c4054103631430f8cd42ff3f7bd10450fd1ed74a36fa002d00a",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 87,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "open": 11,
+        "mousebite": 10,
+        "spurious_copper": 15,
+        "spur": 19,
+        "pinhole": 13,
+        "short": 12
+      },
+      "sequence_sha256": "74e51c4cabc3bc132610af5606822037ec42c5f79724ee23813dc1ae96ab2f4e",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 88,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "mousebite": 15,
+        "spurious_copper": 14,
+        "short": 15,
+        "spur": 12,
+        "pinhole": 10,
+        "open": 14
+      },
+      "sequence_sha256": "caceaca403987d6cfbe679c4a74beaaeb9f9ada22e741d2a3dde1046018170bc",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 89,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "open": 12,
+        "mousebite": 13,
+        "spur": 11,
+        "pinhole": 17,
+        "short": 18,
+        "spurious_copper": 9
+      },
+      "sequence_sha256": "295b1724d63762ed5ccff7a9e25a57ec94a27c1b79edc9030d80a3dba6306ee4",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 90,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 96,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spur": 17,
+        "open": 16,
+        "pinhole": 11,
+        "short": 14,
+        "mousebite": 10,
+        "spurious_copper": 12
+      },
+      "sequence_sha256": "0448d6a3df2e832f636d17a58e5cd51015402d2f3641d0645cd02e322dcbf687",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 91,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spur": 15,
+        "pinhole": 12,
+        "open": 14,
+        "short": 13,
+        "spurious_copper": 11,
+        "mousebite": 15
+      },
+      "sequence_sha256": "e6a330084b186ba4cecbcea26f4cf87a915da760626f907c568bb7d78217badb",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 92,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 89,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "mousebite": 15,
+        "spurious_copper": 9,
+        "spur": 11,
+        "short": 14,
+        "pinhole": 13,
+        "open": 18
+      },
+      "sequence_sha256": "0cf31717a26ece8e75733a6d582af383d4b3562652235d50036334327a126216",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 93,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "open": 9,
+        "mousebite": 15,
+        "spur": 17,
+        "spurious_copper": 8,
+        "pinhole": 10,
+        "short": 21
+      },
+      "sequence_sha256": "6d3d4c9dc880f7654fbbdaf3588a887b90f643045db3027677b4b3ebbc66c567",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 94,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 73,
+      "synthetic_class_histogram": {
+        "mousebite": 12,
+        "pinhole": 15,
+        "spur": 11,
+        "open": 15,
+        "short": 15,
+        "spurious_copper": 12
+      },
+      "sequence_sha256": "ce1adeb1a0c0880f479b9f966ad2a132135b190c8d7f27a0dc555425ed0bccaf",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 95,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "open": 13,
+        "pinhole": 12,
+        "spurious_copper": 13,
+        "mousebite": 15,
+        "spur": 15,
+        "short": 12
+      },
+      "sequence_sha256": "4b3a3f0791790b85672f9d2c878bbc2a59e1019124f93e081224ab9914373c3c",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 96,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spur": 13,
+        "pinhole": 18,
+        "mousebite": 14,
+        "open": 12,
+        "short": 14,
+        "spurious_copper": 9
+      },
+      "sequence_sha256": "92b106bdedaf6c2bf309760d68d7065709f3ae8c5efe32c693d8c94dc7cfc055",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 97,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "open": 12,
+        "pinhole": 12,
+        "short": 14,
+        "spur": 8,
+        "spurious_copper": 17,
+        "mousebite": 17
+      },
+      "sequence_sha256": "de1b4ec4b877ba79abea915cf8d829614c64c3cf49822e7d364eb24ba275ebe9",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 98,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spur": 13,
+        "spurious_copper": 22,
+        "mousebite": 18,
+        "pinhole": 8,
+        "open": 8,
+        "short": 11
+      },
+      "sequence_sha256": "61603be4cfcae79fd9f1d9f1a9cca204ef6d4986a50bf0fdf671bdcfc9b030f1",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 99,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "spurious_copper": 18,
+        "open": 14,
+        "pinhole": 12,
+        "spur": 11,
+        "short": 9,
+        "mousebite": 16
+      },
+      "sequence_sha256": "2d166f1aefe757085b820379108784e1e3603d929eae1a4da3011a611882fc5a",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 100,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "pinhole": 18,
+        "spur": 11,
+        "spurious_copper": 14,
+        "mousebite": 11,
+        "short": 13,
+        "open": 13
+      },
+      "sequence_sha256": "8708f87818874ce2b85be6c150f47af39a0dd0b21c80b90d8d9115d49c821f14",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 101,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spur": 20,
+        "mousebite": 13,
+        "pinhole": 14,
+        "short": 10,
+        "spurious_copper": 15,
+        "open": 8
+      },
+      "sequence_sha256": "a44df15cf1cc4d7b947bdcc50710754c498cffe072a2c57f44662892558b2eb4",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 102,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spurious_copper": 10,
+        "open": 16,
+        "short": 12,
+        "spur": 16,
+        "mousebite": 13,
+        "pinhole": 13
+      },
+      "sequence_sha256": "08bea5fa729257840fdab752146f157d406cde1b4272b09fa34b1bcfcd681f87",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 103,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spurious_copper": 10,
+        "open": 12,
+        "pinhole": 18,
+        "short": 9,
+        "spur": 14,
+        "mousebite": 17
+      },
+      "sequence_sha256": "150bcf5098780497df280405361fb8b3106ab07ce3eabb48e699ab4369003bff",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 104,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 96,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "mousebite": 23,
+        "spur": 10,
+        "short": 12,
+        "open": 14,
+        "pinhole": 9,
+        "spurious_copper": 12
+      },
+      "sequence_sha256": "0c2171da41866b12db3e8b4a985e30072aac6737f6944c4431b5afd8631455e9",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 105,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "short": 16,
+        "pinhole": 21,
+        "spurious_copper": 10,
+        "open": 12,
+        "mousebite": 13,
+        "spur": 8
+      },
+      "sequence_sha256": "119e5e7a06cdd3b3c7658245fcb6dc0f0590f92bb644a6e7bab5ab1ffaacfeec",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 106,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spur": 15,
+        "pinhole": 19,
+        "open": 12,
+        "short": 13,
+        "spurious_copper": 9,
+        "mousebite": 12
+      },
+      "sequence_sha256": "d398fca3a0f137ed6c996c074f526246d5e8a2657e25aa4c9b4f9ef9ebab1384",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 107,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spur": 13,
+        "short": 16,
+        "spurious_copper": 14,
+        "mousebite": 16,
+        "pinhole": 11,
+        "open": 10
+      },
+      "sequence_sha256": "8fc1a3012655d3857663cfeace5692ac7c2a14f7bd1b76c65e9f080f5f62b0b3",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 108,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 86,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spurious_copper": 13,
+        "short": 16,
+        "open": 16,
+        "spur": 12,
+        "pinhole": 14,
+        "mousebite": 9
+      },
+      "sequence_sha256": "b658cf7ecf1a2f1b6fcf2ad8602576fd7045129296384607f453f42391916e7f",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 109,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "short": 19,
+        "mousebite": 13,
+        "spur": 15,
+        "pinhole": 16,
+        "spurious_copper": 6,
+        "open": 11
+      },
+      "sequence_sha256": "54d71bd459706873dd37417aaf0563ec142ab817a7ef46bd957e8b4fc5b2de88",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 110,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "mousebite": 9,
+        "short": 15,
+        "pinhole": 7,
+        "spurious_copper": 16,
+        "open": 18,
+        "spur": 15
+      },
+      "sequence_sha256": "b3057b32b600b153ab5055902efb6069b06313b5936021a2b8a2158e60de2399",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 111,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "spurious_copper": 13,
+        "short": 11,
+        "open": 17,
+        "mousebite": 13,
+        "spur": 10,
+        "pinhole": 16
+      },
+      "sequence_sha256": "80cc755a56b5a8e9ab449f4bb26774d90698bf1ff7158c9c467ddf9bf65b671b",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 112,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "spur": 11,
+        "mousebite": 12,
+        "spurious_copper": 18,
+        "short": 12,
+        "open": 16,
+        "pinhole": 11
+      },
+      "sequence_sha256": "bc5019fda11870a7058fe21a0d87ea75e639658cbf344e5bbb6569680c42a947",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 113,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 71,
+      "synthetic_class_histogram": {
+        "spurious_copper": 17,
+        "mousebite": 16,
+        "short": 13,
+        "open": 15,
+        "pinhole": 8,
+        "spur": 11
+      },
+      "sequence_sha256": "e78434fd1662b535c9ba0f647621a5770495122eb5965650c5801cd7e10c9dff",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 114,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "mousebite": 8,
+        "short": 18,
+        "spurious_copper": 9,
+        "pinhole": 18,
+        "open": 16,
+        "spur": 11
+      },
+      "sequence_sha256": "d1c5dd4355b34d2069085694485c7df6991980b50dec545555fe9c21f39eb884",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 115,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "spurious_copper": 16,
+        "pinhole": 14,
+        "mousebite": 11,
+        "open": 12,
+        "spur": 11,
+        "short": 16
+      },
+      "sequence_sha256": "2d1d50927fe914aede0f64a8ce69b4d76b048be65b8307ea249ec13e10b77567",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 116,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 64,
+      "synthetic_class_histogram": {
+        "short": 18,
+        "pinhole": 11,
+        "spurious_copper": 19,
+        "mousebite": 14,
+        "spur": 12,
+        "open": 6
+      },
+      "sequence_sha256": "efb998b0f7a94efb5eaded932ae02cdb934548a60897fb1947f846edd97c825c",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 117,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "spur": 20,
+        "pinhole": 9,
+        "spurious_copper": 6,
+        "mousebite": 13,
+        "open": 21,
+        "short": 11
+      },
+      "sequence_sha256": "fdcc6b225f4c965a0c352624239ef062d7815aaab2b03659f3d132a1e653d711",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 118,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 91,
+      "unique_synthetic_images_seen": 63,
+      "synthetic_class_histogram": {
+        "mousebite": 12,
+        "spurious_copper": 7,
+        "pinhole": 16,
+        "short": 12,
+        "spur": 15,
+        "open": 18
+      },
+      "sequence_sha256": "69f181b9eebce8c25cea4f712a5921c6d46cf134c3badeaec84518a9dcf543a2",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 119,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 67,
+      "synthetic_class_histogram": {
+        "short": 14,
+        "open": 15,
+        "mousebite": 14,
+        "pinhole": 15,
+        "spur": 13,
+        "spurious_copper": 9
+      },
+      "sequence_sha256": "c7e28ba8134a038bd6a5b41851bb9eb4b56d46323e5bfb1e15a856e83f225cf1",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 120,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 70,
+      "synthetic_class_histogram": {
+        "short": 14,
+        "pinhole": 14,
+        "open": 14,
+        "mousebite": 16,
+        "spurious_copper": 11,
+        "spur": 11
+      },
+      "sequence_sha256": "d56cf15ac729dc0c6f8f0c0e77faac2d4835d66e34843e39aa5b2abbdc202bd6",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 121,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "short": 10,
+        "spurious_copper": 11,
+        "spur": 14,
+        "pinhole": 15,
+        "mousebite": 13,
+        "open": 17
+      },
+      "sequence_sha256": "82acf3fdeed39481df71dde0caa167930e85350151b63f81566e92fa7c69186c",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 122,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 93,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "pinhole": 22,
+        "spurious_copper": 16,
+        "open": 12,
+        "mousebite": 12,
+        "short": 12,
+        "spur": 6
+      },
+      "sequence_sha256": "3deedbe1ad40d5d48a09171ed0537acd718a9eda8a0d4dfd9a31fdb383ec1751",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 123,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 94,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "short": 19,
+        "spurious_copper": 11,
+        "pinhole": 7,
+        "open": 15,
+        "mousebite": 15,
+        "spur": 13
+      },
+      "sequence_sha256": "b5c67ebdd6a89f4077957cc35b8cb1d99a6c905e536d0800c4b5aa5368d5e686",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 124,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 88,
+      "unique_synthetic_images_seen": 65,
+      "synthetic_class_histogram": {
+        "spurious_copper": 21,
+        "open": 13,
+        "mousebite": 12,
+        "spur": 15,
+        "pinhole": 11,
+        "short": 8
+      },
+      "sequence_sha256": "dc7a184f9ed28e54d84a6dcd2a60a1a5475d06f5bdfb73d174a9c0a6c25c8e6b",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 125,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 95,
+      "unique_synthetic_images_seen": 68,
+      "synthetic_class_histogram": {
+        "pinhole": 17,
+        "short": 18,
+        "spur": 9,
+        "open": 13,
+        "mousebite": 9,
+        "spurious_copper": 14
+      },
+      "sequence_sha256": "5a67f9f171aa5c9ac5a3a70f6ea4a0598706555625f7a541919ea8742311a3bc",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 126,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 92,
+      "unique_synthetic_images_seen": 69,
+      "synthetic_class_histogram": {
+        "open": 16,
+        "spurious_copper": 14,
+        "mousebite": 14,
+        "spur": 16,
+        "pinhole": 10,
+        "short": 10
+      },
+      "sequence_sha256": "60647ea95826ca85754743875046a8c32bee4c1e54f53be87063e4bff158c713",
+      "consumed_base_images_verified": true
+    },
+    {
+      "epoch": 127,
+      "real_draws": 260,
+      "synthetic_draws": 80,
+      "total_draws": 340,
+      "unique_real_images_seen": 90,
+      "unique_synthetic_images_seen": 66,
+      "synthetic_class_histogram": {
+        "spur": 9,
+        "mousebite": 20,
+        "short": 13,
+        "pinhole": 9,
+        "open": 9,
+        "spurious_copper": 20
+      },
+      "sequence_sha256": "8e754e6c5450ced4c1e64c0d0fbb9763388621b7cc64772d059bc58adf88299a",
+      "consumed_base_images_verified": true
+    }
+  ],
+  "completed_epochs": 127,
+  "cumulative_real_draws": 33020,
+  "cumulative_synthetic_draws": 10160,
+  "cumulative_unique_real_images_seen": 100,
+  "cumulative_unique_synthetic_images_seen": 240,
+  "cumulative_synthetic_class_histogram": {
+    "spurious_copper": 1686,
+    "short": 1740,
+    "pinhole": 1664,
+    "open": 1678,
+    "spur": 1677,
+    "mousebite": 1715
+  },
+  "all_quotas_passed": true,
+  "exposure_scope": "base images consumed by the training dataloader; Mosaic may incorporate additional images outside this quota"
+}

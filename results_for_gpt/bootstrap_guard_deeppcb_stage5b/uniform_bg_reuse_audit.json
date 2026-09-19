@@ -1,0 +1,19 @@
+{
+  "uniform_bg_reused": true,
+  "real_only_reused": true,
+  "uniform_bg_checkpoint_sha256": "ca5aefcfe80ebc5a4c38daac73c0ec56abda2e1325ac201128016f5932dcee20",
+  "real_only_checkpoint_sha256": "c482efb68ca4bc60717af4c77c3a2ce89a7da9723c6d1bcebee7095745c4d34a",
+  "uniform_bg_metrics": {
+    "precision": 0.9280348185997148,
+    "recall": 0.8624420504057065,
+    "map50": 0.9266352620868806,
+    "map50_95": 0.6398013145390513
+  },
+  "real_only_metrics": {
+    "precision": 0.9103378362335599,
+    "recall": 0.8648318145172889,
+    "map50": 0.9276145537719697,
+    "map50_95": 0.6715465632905974
+  },
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+}

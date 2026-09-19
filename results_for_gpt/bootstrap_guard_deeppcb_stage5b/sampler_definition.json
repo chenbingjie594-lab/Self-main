@@ -1,0 +1,17 @@
+{
+  "source": "training counts only",
+  "real_objects": 775,
+  "synthetic_objects": 240,
+  "target_real_probability": 0.7635467980295566,
+  "target_synthetic_probability": 0.23645320197044334,
+  "rounding_rule": "fixed 260 real and 80 synthetic draws per 340-image epoch",
+  "real_draws_per_epoch": 260,
+  "synthetic_draws_per_epoch": 80,
+  "total_draws_per_epoch": 340,
+  "batch": 8,
+  "seed": 42,
+  "sampling": "uniform with replacement within each source; shuffle 340 indices per epoch",
+  "epoch_rng": "random.Random(training_seed + zero_based_epoch)",
+  "manifest_sha256": "cc6c14c2301f1c1881e05d012094360223b1757bc8f1fbeed78ae68a2a18bf42",
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+}
