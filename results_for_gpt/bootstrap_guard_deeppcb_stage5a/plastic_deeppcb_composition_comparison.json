@@ -1,0 +1,15 @@
+{
+  "source": "frozen Plastic_Bomo dataset audit",
+  "real_images": 138,
+  "real_objects": 168,
+  "synthetic_images": 80,
+  "real_objects_per_image": 1.2173913043478262,
+  "synthetic_objects_per_image": 1.0,
+  "augmented_objects_per_image": 1.1376146788990826,
+  "synthetic_image_fraction": 0.3669724770642202,
+  "deeppcb": {
+    "real_objects_per_image": 7.75,
+    "augmented_objects_per_image": 2.985294117647059,
+    "synthetic_image_fraction": 0.7058823529411765
+  }
+}

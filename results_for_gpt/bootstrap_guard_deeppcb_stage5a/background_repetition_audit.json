@@ -1,0 +1,113 @@
+{
+  "random": {
+    "unique_background_pairs": 97,
+    "candidate_count": 240,
+    "synthetic_per_background": {
+      "count": 97,
+      "mean": 2.4742268041237114,
+      "std": 1.094435631100224,
+      "median": 2.0,
+      "q05": 1.0,
+      "q25": 2.0,
+      "q75": 3.0,
+      "q95": 4.0,
+      "min": 1.0,
+      "max": 6.0
+    },
+    "synthetic_reuse_histogram": {
+      "1": 18,
+      "2": 38,
+      "3": 22,
+      "4": 16,
+      "5": 2,
+      "6": 1
+    },
+    "real_background_augmented_exposure": {
+      "count": 100,
+      "mean": 3.4,
+      "std": 1.1575836902790226,
+      "median": 3.0,
+      "q05": 2.0,
+      "q25": 3.0,
+      "q75": 4.0,
+      "q95": 5.0,
+      "min": 1.0,
+      "max": 7.0
+    },
+    "background_pair_outside_real_train": []
+  },
+  "diversity_quality": {
+    "unique_background_pairs": 86,
+    "candidate_count": 240,
+    "synthetic_per_background": {
+      "count": 86,
+      "mean": 2.7906976744186047,
+      "std": 1.3391795394314387,
+      "median": 3.0,
+      "q05": 1.0,
+      "q25": 2.0,
+      "q75": 4.0,
+      "q95": 5.0,
+      "min": 1.0,
+      "max": 6.0
+    },
+    "synthetic_reuse_histogram": {
+      "1": 17,
+      "2": 24,
+      "3": 16,
+      "4": 20,
+      "5": 7,
+      "6": 2
+    },
+    "real_background_augmented_exposure": {
+      "count": 100,
+      "mean": 3.4,
+      "std": 1.5748015748023623,
+      "median": 3.0,
+      "q05": 1.0,
+      "q25": 2.0,
+      "q75": 5.0,
+      "q95": 6.0,
+      "min": 1.0,
+      "max": 7.0
+    },
+    "background_pair_outside_real_train": []
+  },
+  "bootstrap_guard": {
+    "unique_background_pairs": 96,
+    "candidate_count": 240,
+    "synthetic_per_background": {
+      "count": 96,
+      "mean": 2.5,
+      "std": 1.181453906563152,
+      "median": 2.0,
+      "q05": 1.0,
+      "q25": 2.0,
+      "q75": 3.0,
+      "q95": 5.0,
+      "min": 1.0,
+      "max": 6.0
+    },
+    "synthetic_reuse_histogram": {
+      "1": 21,
+      "2": 31,
+      "3": 27,
+      "4": 10,
+      "5": 6,
+      "6": 1
+    },
+    "real_background_augmented_exposure": {
+      "count": 100,
+      "mean": 3.4,
+      "std": 1.2569805089976536,
+      "median": 3.0,
+      "q05": 2.0,
+      "q25": 2.75,
+      "q75": 4.0,
+      "q95": 6.0,
+      "min": 1.0,
+      "max": 7.0
+    },
+    "background_pair_outside_real_train": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "real_train": {
+    "l1": 10.754000000000003,
+    "frobenius": 1.8940126715521204
+  },
+  "random_augmented": {
+    "l1": 13.951882352941176,
+    "frobenius": 2.3823319360003548
+  },
+  "diversity_quality_augmented": {
+    "l1": 13.951882352941176,
+    "frobenius": 2.3823319360003548
+  },
+  "bootstrap_guard_augmented": {
+    "l1": 13.951882352941176,
+    "frobenius": 2.3823319360003548
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "IMAGE_LEVEL_SHIFT_STRONGLY_SUPPORTED",
+  "evidence_ranking": [
+    {
+      "cause": "IMAGE_LEVEL_OBJECT_DENSITY_SHIFT",
+      "evidence": "SUPPORTED",
+      "basis": "augmented-vs-val Wasserstein compared with real-vs-val"
+    },
+    {
+      "cause": "CLASS_COOCCURRENCE_COLLAPSE",
+      "evidence": "SUPPORTED",
+      "basis": "augmented-vs-val normalized co-occurrence distance compared with real-vs-val"
+    },
+    {
+      "cause": "BACKGROUND_REPETITION",
+      "evidence": "EXPOSURE_OBSERVED",
+      "basis": "frozen manifests count reused backgrounds; causal effect not identified"
+    },
+    {
+      "cause": "SYNTHETIC_REALISM_GAP",
+      "evidence": "NOT_ESTABLISHED",
+      "basis": "no isolated realism intervention or reliable realism ground truth"
+    },
+    {
+      "cause": "TRAINING_SEED_VARIANCE",
+      "evidence": "OBSERVED",
+      "basis": "Stage4M seed-wise BG-minus-real sign varies"
+    }
+  ],
+  "caveat": "Descriptive association, not causal identification. No selector or detector was changed."
+}

@@ -1,0 +1,138 @@
+{
+  "populations": {
+    "real_train": {
+      "images": 100,
+      "objects": 775,
+      "objects_per_image": {
+        "count": 100,
+        "mean": 7.75,
+        "std": 2.277608394786075,
+        "median": 6.5,
+        "q05": 6.0,
+        "q25": 6.0,
+        "q75": 9.0,
+        "q95": 12.0,
+        "min": 6.0,
+        "max": 15.0
+      }
+    },
+    "official_val": {
+      "images": 500,
+      "objects": 3140,
+      "objects_per_image": {
+        "count": 500,
+        "mean": 6.28,
+        "std": 1.4551975810864997,
+        "median": 6.0,
+        "q05": 4.0,
+        "q25": 5.0,
+        "q75": 7.0,
+        "q95": 9.0,
+        "min": 2.0,
+        "max": 13.0
+      }
+    },
+    "random_synthetic": {
+      "images": 240,
+      "objects": 240,
+      "objects_per_image": {
+        "count": 240,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "q05": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "random_augmented": {
+      "images": 340,
+      "objects": 1015,
+      "objects_per_image": {
+        "count": 340,
+        "mean": 2.985294117647059,
+        "std": 3.3143744288585264,
+        "median": 1.0,
+        "q05": 1.0,
+        "q25": 1.0,
+        "q75": 6.0,
+        "q95": 10.0,
+        "min": 1.0,
+        "max": 15.0
+      }
+    },
+    "diversity_quality_synthetic": {
+      "images": 240,
+      "objects": 240,
+      "objects_per_image": {
+        "count": 240,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "q05": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "diversity_quality_augmented": {
+      "images": 340,
+      "objects": 1015,
+      "objects_per_image": {
+        "count": 340,
+        "mean": 2.985294117647059,
+        "std": 3.3143744288585264,
+        "median": 1.0,
+        "q05": 1.0,
+        "q25": 1.0,
+        "q75": 6.0,
+        "q95": 10.0,
+        "min": 1.0,
+        "max": 15.0
+      }
+    },
+    "bootstrap_guard_synthetic": {
+      "images": 240,
+      "objects": 240,
+      "objects_per_image": {
+        "count": 240,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "q05": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      }
+    },
+    "bootstrap_guard_augmented": {
+      "images": 340,
+      "objects": 1015,
+      "objects_per_image": {
+        "count": 340,
+        "mean": 2.985294117647059,
+        "std": 3.3143744288585264,
+        "median": 1.0,
+        "q05": 1.0,
+        "q25": 1.0,
+        "q75": 6.0,
+        "q95": 10.0,
+        "min": 1.0,
+        "max": 15.0
+      }
+    }
+  },
+  "wasserstein_to_official_val": {
+    "real_train": 1.4699999999999998,
+    "random_augmented": 3.5803529411764705,
+    "diversity_quality_augmented": 3.5803529411764705,
+    "bootstrap_guard_augmented": 3.5803529411764705
+  }
+}

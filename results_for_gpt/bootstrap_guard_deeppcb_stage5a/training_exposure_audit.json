@@ -1,0 +1,47 @@
+{
+  "random": {
+    "real_images": 100,
+    "synthetic_images": 240,
+    "real_gt": 775,
+    "synthetic_gt": 240,
+    "real_image_fraction": 0.29411764705882354,
+    "synthetic_image_fraction": 0.7058823529411765,
+    "real_gt_fraction": 0.7635467980295566,
+    "synthetic_gt_fraction": 0.23645320197044334,
+    "batch": 8,
+    "expected_real_images_per_batch": 2.3529411764705883,
+    "expected_synthetic_images_per_batch": 5.647058823529412,
+    "expected_real_positive_objects_per_340_samples": 775,
+    "expected_synthetic_positive_objects_per_340_samples": 240
+  },
+  "diversity_quality": {
+    "real_images": 100,
+    "synthetic_images": 240,
+    "real_gt": 775,
+    "synthetic_gt": 240,
+    "real_image_fraction": 0.29411764705882354,
+    "synthetic_image_fraction": 0.7058823529411765,
+    "real_gt_fraction": 0.7635467980295566,
+    "synthetic_gt_fraction": 0.23645320197044334,
+    "batch": 8,
+    "expected_real_images_per_batch": 2.3529411764705883,
+    "expected_synthetic_images_per_batch": 5.647058823529412,
+    "expected_real_positive_objects_per_340_samples": 775,
+    "expected_synthetic_positive_objects_per_340_samples": 240
+  },
+  "bootstrap_guard": {
+    "real_images": 100,
+    "synthetic_images": 240,
+    "real_gt": 775,
+    "synthetic_gt": 240,
+    "real_image_fraction": 0.29411764705882354,
+    "synthetic_image_fraction": 0.7058823529411765,
+    "real_gt_fraction": 0.7635467980295566,
+    "synthetic_gt_fraction": 0.23645320197044334,
+    "batch": 8,
+    "expected_real_images_per_batch": 2.3529411764705883,
+    "expected_synthetic_images_per_batch": 5.647058823529412,
+    "expected_real_positive_objects_per_340_samples": 775,
+    "expected_synthetic_positive_objects_per_340_samples": 240
+  }
+}
