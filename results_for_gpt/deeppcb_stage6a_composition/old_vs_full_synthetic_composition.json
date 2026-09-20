@@ -1,0 +1,70 @@
+{
+  "old_stage2": {
+    "images": 4650,
+    "objects_per_image": 1.0,
+    "classes_per_image": 1.0,
+    "co_occurrence_matrix": {
+      "open": {
+        "open": 775,
+        "short": 0,
+        "mousebite": 0,
+        "spur": 0,
+        "spurious_copper": 0,
+        "pinhole": 0
+      },
+      "short": {
+        "open": 0,
+        "short": 775,
+        "mousebite": 0,
+        "spur": 0,
+        "spurious_copper": 0,
+        "pinhole": 0
+      },
+      "mousebite": {
+        "open": 0,
+        "short": 0,
+        "mousebite": 775,
+        "spur": 0,
+        "spurious_copper": 0,
+        "pinhole": 0
+      },
+      "spur": {
+        "open": 0,
+        "short": 0,
+        "mousebite": 0,
+        "spur": 775,
+        "spurious_copper": 0,
+        "pinhole": 0
+      },
+      "spurious_copper": {
+        "open": 0,
+        "short": 0,
+        "mousebite": 0,
+        "spur": 0,
+        "spurious_copper": 775,
+        "pinhole": 0
+      },
+      "pinhole": {
+        "open": 0,
+        "short": 0,
+        "mousebite": 0,
+        "spur": 0,
+        "spurious_copper": 0,
+        "pinhole": 775
+      }
+    },
+    "off_diagonal_co_occurrence": 0
+  },
+  "real": {
+    "objects_per_image": 7.75,
+    "classes_per_image": 6
+  },
+  "full_synthetic": {
+    "objects_per_image": 7.75,
+    "classes_per_image": 6
+  },
+  "old_object_density_distance_to_real": 6.75,
+  "new_object_density_distance_to_real": 0.0,
+  "old_vs_real_mean_abs_co_occurrence_probability_distance": 0.9722222222222222,
+  "full_vs_real_co_occurrence_distance": 0.0
+}

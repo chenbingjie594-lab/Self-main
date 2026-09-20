@@ -1,0 +1,9 @@
+{
+  "source": "frozen Stage2 effective candidate masks saved by inference.py",
+  "effective_mask_interpretation": "decoded 512x512 candidate mask, grayscale threshold >127",
+  "stage2_config_blur_factor": 0,
+  "stage2_cama_enabled": false,
+  "stage2_new_dilation_or_feather_added": false,
+  "candidate_mask_boxes_iou_with_frozen_target_min": 1.0,
+  "support_used_for_paste": "only positive effective-mask pixels; no whole-crop paste"
+}

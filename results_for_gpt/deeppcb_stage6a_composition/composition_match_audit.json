@@ -1,0 +1,172 @@
+{
+  "real": {
+    "images": 100,
+    "objects": 775,
+    "per_class": {
+      "open": 130,
+      "short": 129,
+      "mousebite": 129,
+      "spur": 129,
+      "spurious_copper": 129,
+      "pinhole": 129
+    },
+    "objects_per_image": {
+      "mean": 7.75,
+      "distribution": {
+        "10": 8,
+        "6": 50,
+        "7": 13,
+        "8": 3,
+        "9": 12,
+        "11": 1,
+        "13": 2,
+        "12": 10,
+        "15": 1
+      }
+    },
+    "classes_per_image": {
+      "mean": 6,
+      "distribution": {
+        "6": 100
+      }
+    },
+    "co_occurrence_matrix": {
+      "open": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "short": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "mousebite": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "spur": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "spurious_copper": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "pinhole": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      }
+    },
+    "mean_bbox_foreground_fraction": 0.025734326171875
+  },
+  "synthetic_full": {
+    "images": 100,
+    "objects": 775,
+    "per_class": {
+      "open": 130,
+      "short": 129,
+      "mousebite": 129,
+      "spur": 129,
+      "spurious_copper": 129,
+      "pinhole": 129
+    },
+    "objects_per_image": {
+      "mean": 7.75,
+      "distribution": {
+        "10": 8,
+        "6": 50,
+        "7": 13,
+        "8": 3,
+        "9": 12,
+        "11": 1,
+        "13": 2,
+        "12": 10,
+        "15": 1
+      }
+    },
+    "classes_per_image": {
+      "mean": 6,
+      "distribution": {
+        "6": 100
+      }
+    },
+    "co_occurrence_matrix": {
+      "open": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "short": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "mousebite": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "spur": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "spurious_copper": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      },
+      "pinhole": {
+        "open": 100,
+        "short": 100,
+        "mousebite": 100,
+        "spur": 100,
+        "spurious_copper": 100,
+        "pinhole": 100
+      }
+    },
+    "mean_bbox_foreground_fraction": 0.025734326171875
+  },
+  "per_pair_exact_match": true,
+  "co_occurrence_exact_match": true,
+  "bbox_stats_exact_match": true,
+  "validation_use_count": 0
+}
