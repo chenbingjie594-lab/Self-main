@@ -1,0 +1,74 @@
+{
+  "status": "STAGE6E_MATCHED_SET_INSUFFICIENT",
+  "pool_sha256": "1b2eb1abaeb886b00e49ea64cf322e075c88105b80fe67bc4e69200b6b851a14",
+  "frozen_stage6d_bins_sha256": "5090f1f3a4d585d5e9b3fd3d3bfe5c9f4ac366f9123fbaccaa22677f9c828347",
+  "real_only_reference_sha256": "5fcf9af2a77ae20a3af70d004f13f8ea2f0a94a6d26a86eeef46660463043460",
+  "candidate_count": 4650,
+  "source_count": 775,
+  "candidate_seeds": [
+    42,
+    2026,
+    3407,
+    7859,
+    12011,
+    15683
+  ],
+  "per_class": {
+    "open": {
+      "total_sources": 130,
+      "eligible": 30,
+      "inner_only": 59,
+      "novel_only": 33,
+      "outside_only": 8,
+      "other": 0
+    },
+    "short": {
+      "total_sources": 129,
+      "eligible": 25,
+      "inner_only": 66,
+      "novel_only": 31,
+      "outside_only": 7,
+      "other": 0
+    },
+    "mousebite": {
+      "total_sources": 129,
+      "eligible": 24,
+      "inner_only": 65,
+      "novel_only": 33,
+      "outside_only": 7,
+      "other": 0
+    },
+    "spur": {
+      "total_sources": 129,
+      "eligible": 28,
+      "inner_only": 58,
+      "novel_only": 29,
+      "outside_only": 14,
+      "other": 0
+    },
+    "spurious_copper": {
+      "total_sources": 129,
+      "eligible": 28,
+      "inner_only": 58,
+      "novel_only": 38,
+      "outside_only": 5,
+      "other": 0
+    },
+    "pinhole": {
+      "total_sources": 129,
+      "eligible": 25,
+      "inner_only": 56,
+      "novel_only": 36,
+      "outside_only": 12,
+      "other": 0
+    }
+  },
+  "min_eligible_per_class": 24,
+  "required_min_per_class": 30,
+  "target_per_class_if_feasible": 24,
+  "matched_candidate_count_if_feasible_per_arm": 144,
+  "validation_pixels_or_features_used": false,
+  "detector_training_count": 0,
+  "candidate_selection_count": 0,
+  "bin_thresholds_recomputed_or_tuned": false
+}
