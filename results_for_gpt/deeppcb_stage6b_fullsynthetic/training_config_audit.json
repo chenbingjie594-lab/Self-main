@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "config_differences": {},
+  "reference_args": "runs/deeppcb_stage5f_real_repeat340/real_repeat340_s42/args.yaml",
+  "multi_image_transforms": [
+    {
+      "name": "Mosaic",
+      "p": 0.0
+    },
+    {
+      "name": "CopyPaste",
+      "p": 0.0
+    },
+    {
+      "name": "MixUp",
+      "p": 0.0
+    },
+    {
+      "name": "CutMix",
+      "p": 0.0
+    }
+  ],
+  "mosaic_calls": 0,
+  "draws_per_epoch": 340,
+  "batches_per_epoch": 43,
+  "last_batch_size": 4,
+  "cumulative_batches_not_matched_if_early_stop_differs": true
+}

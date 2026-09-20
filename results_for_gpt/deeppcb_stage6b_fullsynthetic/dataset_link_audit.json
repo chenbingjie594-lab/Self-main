@@ -1,0 +1,8 @@
+{
+  "train_images": 200,
+  "real_images": 100,
+  "synthetic_images": 100,
+  "validation_images": 500,
+  "symlink_only": true,
+  "validation_source": "/mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only/images/val"
+}
