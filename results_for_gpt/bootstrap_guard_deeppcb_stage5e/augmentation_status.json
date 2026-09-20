@@ -1,0 +1,9 @@
+{
+  "status": "SYNTHETIC_AUGMENTATION_CONFIRMED",
+  "augmentation_positive": {
+    "random": true,
+    "dq": true,
+    "bg": true
+  },
+  "rule": "arm mean mAP50-95 > real-only mean and paired wins >= 2/3"
+}
