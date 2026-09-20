@@ -1,0 +1,16 @@
+{
+  "population": 100,
+  "source": "frozen Stage4 RAW real-only train images",
+  "replacement": true,
+  "probability_per_image": 0.01,
+  "draws_per_epoch": 340,
+  "seed_rule": "random.Random(training_seed + zero_based_epoch)",
+  "choice_rule": "rng.randrange(100) repeated 340 times",
+  "batch_size": 8,
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "synthetic_draws": 0
+}

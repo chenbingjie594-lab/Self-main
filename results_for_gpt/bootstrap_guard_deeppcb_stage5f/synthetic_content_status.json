@@ -1,0 +1,22 @@
+{
+  "status": "SYNTHETIC_CONTENT_GAIN_NOT_SUPPORTED",
+  "rule": "Random mean mAP50-95 > RealRepeat mean and paired wins >=2/3 supports content gain; RealRepeat mean > Random mean does not support gain; otherwise compute-confounded",
+  "random_minus_real_repeat340": {
+    "per_seed": {
+      "42": 0.008706211476129377,
+      "3407": -0.007046453008784814,
+      "2026": -0.006506468953122679
+    },
+    "mean": -0.0016155701619260388,
+    "std": 0.00894300161203529,
+    "values": [
+      0.008706211476129377,
+      -0.007046453008784814,
+      -0.006506468953122679
+    ],
+    "std_definition": "sample standard deviation, ddof=1",
+    "wins": 1,
+    "ties": 0
+  },
+  "selector_not_modified": true
+}

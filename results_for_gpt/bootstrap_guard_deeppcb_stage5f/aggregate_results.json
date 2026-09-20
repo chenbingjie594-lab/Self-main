@@ -1,0 +1,219 @@
+{
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "methods": {
+    "real_only": {
+      "precision": {
+        "mean": 0.9201683172381387,
+        "std": 0.00944946776865011,
+        "values": [
+          0.9092875062542078,
+          0.9263147010298655,
+          0.9249027444303429
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "recall": {
+        "mean": 0.8828489497064351,
+        "std": 0.006262048895204579,
+        "values": [
+          0.8869252555032333,
+          0.8756386546353793,
+          0.8859829389806929
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50": {
+        "mean": 0.9370982609096246,
+        "std": 0.0009285393216104805,
+        "values": [
+          0.9367774994462459,
+          0.9363726284729664,
+          0.9381446548096615
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50_95": {
+        "mean": 0.7151812713553075,
+        "std": 0.005403855716159659,
+        "values": [
+          0.7118473598585613,
+          0.7214160966508513,
+          0.71228035755651
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      }
+    },
+    "real_repeat340": {
+      "precision": {
+        "mean": 0.9350296003025874,
+        "std": 0.013115518324541718,
+        "values": [
+          0.9438782476870272,
+          0.9199613628320257,
+          0.9412491903887092
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "recall": {
+        "mean": 0.8925300356046014,
+        "std": 0.00150213895684505,
+        "values": [
+          0.8911718118938764,
+          0.8922748869452306,
+          0.8941434079746973
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50": {
+        "mean": 0.9399166154406511,
+        "std": 0.002022286803315579,
+        "values": [
+          0.9419626159879768,
+          0.9379189073978997,
+          0.9398683229360766
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50_95": {
+        "mean": 0.7335489626669732,
+        "std": 0.004766177466506519,
+        "values": [
+          0.728627868232746,
+          0.7338756003688315,
+          0.7381434193993422
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      }
+    },
+    "random": {
+      "precision": {
+        "mean": 0.9307336182564667,
+        "std": 0.008267455730058812,
+        "values": [
+          0.9399324555337266,
+          0.9283448259563104,
+          0.9239235732793633
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "recall": {
+        "mean": 0.8884134983806306,
+        "std": 0.004474132413175034,
+        "values": [
+          0.8912201983844308,
+          0.8907664347319154,
+          0.8832538620255453
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50": {
+        "mean": 0.9403340500244424,
+        "std": 0.005867781325489883,
+        "values": [
+          0.9447339251531172,
+          0.9425963632176062,
+          0.9336718617026039
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50_95": {
+        "mean": 0.7319333925050472,
+        "std": 0.005258736476954151,
+        "values": [
+          0.7373340797088753,
+          0.7268291473600467,
+          0.7316369504462196
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      }
+    },
+    "dq": {
+      "precision": {
+        "mean": 0.9304999110252213,
+        "std": 0.0060703339509322485,
+        "values": [
+          0.9298329080691409,
+          0.9247906246889928,
+          0.9368762003175304
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "recall": {
+        "mean": 0.889366783866607,
+        "std": 0.011176099424667496,
+        "values": [
+          0.8831733496840003,
+          0.902268409326648,
+          0.8826585925891726
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50": {
+        "mean": 0.9393485698467698,
+        "std": 0.002749516350707588,
+        "values": [
+          0.9413042513985584,
+          0.9405366751491063,
+          0.9362047829926446
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50_95": {
+        "mean": 0.7244121778160088,
+        "std": 0.004817846741309388,
+        "values": [
+          0.7237750522832407,
+          0.7199445938530951,
+          0.7295168873116904
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      }
+    },
+    "bg": {
+      "precision": {
+        "mean": 0.9326450451034807,
+        "std": 0.0034779059641579417,
+        "values": [
+          0.9310197969367051,
+          0.9366380396358602,
+          0.9302772987378768
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "recall": {
+        "mean": 0.8920655654151514,
+        "std": 0.005494937556401214,
+        "values": [
+          0.8926711501449421,
+          0.8862929203008639,
+          0.897232625799648
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50": {
+        "mean": 0.9408775574617625,
+        "std": 0.0019437703672819152,
+        "values": [
+          0.9388968166133616,
+          0.9409537383490889,
+          0.9427821174228371
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      },
+      "map50_95": {
+        "mean": 0.7275804491623835,
+        "std": 0.005478844185530854,
+        "values": [
+          0.7221190001688899,
+          0.7275458229077925,
+          0.7330765244104683
+        ],
+        "std_definition": "sample standard deviation, ddof=1"
+      }
+    }
+  }
+}

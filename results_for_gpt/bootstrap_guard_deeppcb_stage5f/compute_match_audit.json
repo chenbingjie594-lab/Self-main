@@ -1,0 +1,147 @@
+{
+  "per_method_seed": {
+    "real_only": {
+      "42": {
+        "draws_per_epoch": 100,
+        "batch_size": 8,
+        "batches_per_epoch": 13,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 1950
+      },
+      "3407": {
+        "draws_per_epoch": 100,
+        "batch_size": 8,
+        "batches_per_epoch": 13,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 1950
+      },
+      "2026": {
+        "draws_per_epoch": 100,
+        "batch_size": 8,
+        "batches_per_epoch": 13,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 1950
+      }
+    },
+    "real_repeat340": {
+      "42": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 6450
+      },
+      "3407": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 6450
+      },
+      "2026": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 6450
+      }
+    },
+    "random": {
+      "42": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 6450
+      },
+      "3407": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 120,
+        "realized_training_batches": 5160
+      },
+      "2026": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 139,
+        "realized_training_batches": 5977
+      }
+    },
+    "dq": {
+      "42": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 92,
+        "realized_training_batches": 3956
+      },
+      "3407": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 114,
+        "realized_training_batches": 4902
+      },
+      "2026": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 139,
+        "realized_training_batches": 5977
+      }
+    },
+    "bg": {
+      "42": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 135,
+        "realized_training_batches": 5805
+      },
+      "3407": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 6450
+      },
+      "2026": {
+        "draws_per_epoch": 340,
+        "batch_size": 8,
+        "batches_per_epoch": 43,
+        "last_batch_size": 4,
+        "completed_epochs": 150,
+        "realized_training_batches": 6450
+      }
+    }
+  },
+  "matched_arms": [
+    "real_repeat340",
+    "random",
+    "dq",
+    "bg"
+  ],
+  "per_epoch_draws_equal": true,
+  "per_epoch_batches_equal": true,
+  "last_batch_handling_equal": true,
+  "batches_per_epoch": 43,
+  "last_batch_size": 4,
+  "actual_optimizer_step_count_not_directly_measured": true,
+  "total_training_batches_can_differ_due_to_early_stopping": true
+}
