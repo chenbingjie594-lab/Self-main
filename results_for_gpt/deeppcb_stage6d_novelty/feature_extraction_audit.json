@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE",
+  "feature_rule": "Detect forward pre-hook P3/P4/P5; GT ROI adaptive average pool 1x1; per-level L2 normalization; concatenate",
+  "imgsz": 512,
+  "real_vectors_reused": 775,
+  "synthetic_vectors_extracted": 4650,
+  "generation_seeds": [
+    42,
+    2026,
+    3407,
+    7859,
+    12011,
+    15683
+  ],
+  "models": {
+    "0": {
+      "path": "runs/deeppcb_stage3r_oof/fold_0/weights/best.pt",
+      "sha256": "71b83851ddc12b1c54dd110bc7344b88140c52c71ee6669e1dc1b5bbe81225ac"
+    },
+    "1": {
+      "path": "runs/deeppcb_stage3r_oof/fold_1/weights/best.pt",
+      "sha256": "86bb30ecc55f45a6229adbd3bce7e174c644ab9dd0cd4f03bab843988f1afd7e"
+    },
+    "2": {
+      "path": "runs/deeppcb_stage3r_oof/fold_2/weights/best.pt",
+      "sha256": "45ec9c5dcb068eef8a8221a391d689e44187233773db4c90375ab855387fbf23"
+    }
+  },
+  "model_reproduction_probes": [
+    {
+      "fold": 0,
+      "instance_id": "00041030_open_00",
+      "max_abs_error": 0.0
+    },
+    {
+      "fold": 0,
+      "instance_id": "00041030_short_01",
+      "max_abs_error": 0.0
+    },
+    {
+      "fold": 1,
+      "instance_id": "00041039_open_00",
+      "max_abs_error": 0.0
+    },
+    {
+      "fold": 1,
+      "instance_id": "00041039_short_01",
+      "max_abs_error": 0.0
+    },
+    {
+      "fold": 2,
+      "instance_id": "00041057_open_00",
+      "max_abs_error": 0.0
+    },
+    {
+      "fold": 2,
+      "instance_id": "00041057_short_01",
+      "max_abs_error": 0.0
+    }
+  ],
+  "coordinate_max_abs_error": 5.684341886080802e-14,
+  "coordinate_min_iou": 0.9999999999999937,
+  "single_defect_full_raw": true,
+  "effective_mask_source": "frozen Stage2 candidate mask >127",
+  "official_validation_pixel_use_count": 0,
+  "detector_training_count": 0,
+  "generator_training_count": 0,
+  "candidate_selection_count": 0
+}

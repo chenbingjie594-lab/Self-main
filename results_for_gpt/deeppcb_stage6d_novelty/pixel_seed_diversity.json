@@ -1,0 +1,4655 @@
+{
+  "instances": [
+    {
+      "instance_id": "00041030_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.03326981862386,
+      "pairwise_seed_rmse_mean": 44.74958038330078
+    },
+    {
+      "instance_id": "00041030_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.121219189961751,
+      "pairwise_seed_rmse_mean": 28.91444269816081
+    },
+    {
+      "instance_id": "00041030_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.709349250793457,
+      "pairwise_seed_rmse_mean": 37.291953531901044
+    },
+    {
+      "instance_id": "00041030_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 22.53566665649414,
+      "pairwise_seed_rmse_mean": 55.732741038004555
+    },
+    {
+      "instance_id": "00041030_pinhole_09",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.365974617004394,
+      "pairwise_seed_rmse_mean": 36.829615910847984
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 27.079936663309734,
+      "pairwise_seed_rmse_mean": 66.02808532714843
+    },
+    {
+      "instance_id": "00041030_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.571972878774007,
+      "pairwise_seed_rmse_mean": 27.325428517659507
+    },
+    {
+      "instance_id": "00041030_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 22.26118532816569,
+      "pairwise_seed_rmse_mean": 52.2069694519043
+    },
+    {
+      "instance_id": "00041030_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 21.871761004130047,
+      "pairwise_seed_rmse_mean": 61.688314310709636
+    },
+    {
+      "instance_id": "00041030_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.72236467997233,
+      "pairwise_seed_rmse_mean": 55.09987258911133
+    },
+    {
+      "instance_id": "00041039_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.37320753733317,
+      "pairwise_seed_rmse_mean": 30.89298261006673
+    },
+    {
+      "instance_id": "00041039_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.542817497253418,
+      "pairwise_seed_rmse_mean": 36.77223904927572
+    },
+    {
+      "instance_id": "00041039_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 32.2218412399292,
+      "pairwise_seed_rmse_mean": 74.52458623250325
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.2859011332194,
+      "pairwise_seed_rmse_mean": 37.11628710428874
+    },
+    {
+      "instance_id": "00041039_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 18.347145080566406,
+      "pairwise_seed_rmse_mean": 52.10240313212077
+    },
+    {
+      "instance_id": "00041039_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 22.956593894958495,
+      "pairwise_seed_rmse_mean": 62.6876584370931
+    },
+    {
+      "instance_id": "00041043_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.7792786916097,
+      "pairwise_seed_rmse_mean": 38.9719970703125
+    },
+    {
+      "instance_id": "00041043_mousebite_08",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 17.641785176595054,
+      "pairwise_seed_rmse_mean": 42.41802190144857
+    },
+    {
+      "instance_id": "00041043_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.910221354166667,
+      "pairwise_seed_rmse_mean": 41.4405886332194
+    },
+    {
+      "instance_id": "00041043_open_09",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.60007521311442,
+      "pairwise_seed_rmse_mean": 39.79395840962728
+    },
+    {
+      "instance_id": "00041043_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.982132403055825,
+      "pairwise_seed_rmse_mean": 46.70575180053711
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.043821589152019,
+      "pairwise_seed_rmse_mean": 40.00854670206706
+    },
+    {
+      "instance_id": "00041043_short_07",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 18.375599161783853,
+      "pairwise_seed_rmse_mean": 48.910352579752605
+    },
+    {
+      "instance_id": "00041043_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.752574030558268,
+      "pairwise_seed_rmse_mean": 36.94318542480469
+    },
+    {
+      "instance_id": "00041043_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 22.359449831644692,
+      "pairwise_seed_rmse_mean": 63.40480397542318
+    },
+    {
+      "instance_id": "00041043_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.227158164978027,
+      "pairwise_seed_rmse_mean": 45.336485926310225
+    },
+    {
+      "instance_id": "00041046_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 46.698489888509116,
+      "pairwise_seed_rmse_mean": 90.02017771402994
+    },
+    {
+      "instance_id": "00041046_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.187550036112468,
+      "pairwise_seed_rmse_mean": 28.61737174987793
+    },
+    {
+      "instance_id": "00041046_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.375348154703776,
+      "pairwise_seed_rmse_mean": 50.36283772786458
+    },
+    {
+      "instance_id": "00041046_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.272830899556478,
+      "pairwise_seed_rmse_mean": 44.082811228434245
+    },
+    {
+      "instance_id": "00041046_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.866231123606363,
+      "pairwise_seed_rmse_mean": 49.332201639811196
+    },
+    {
+      "instance_id": "00041046_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.610817337036133,
+      "pairwise_seed_rmse_mean": 50.998521169026695
+    },
+    {
+      "instance_id": "00041047_mousebite_06",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 20.16128215789795,
+      "pairwise_seed_rmse_mean": 49.47101313273112
+    },
+    {
+      "instance_id": "00041047_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.50190461476644,
+      "pairwise_seed_rmse_mean": 46.520894622802736
+    },
+    {
+      "instance_id": "00041047_open_09",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.601879247029622,
+      "pairwise_seed_rmse_mean": 40.032919057210286
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.477817598978678,
+      "pairwise_seed_rmse_mean": 52.16441828409831
+    },
+    {
+      "instance_id": "00041047_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.870569292704264,
+      "pairwise_seed_rmse_mean": 33.61770413716634
+    },
+    {
+      "instance_id": "00041047_short_08",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.148600769042968,
+      "pairwise_seed_rmse_mean": 39.07393430074056
+    },
+    {
+      "instance_id": "00041047_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.628122774759929,
+      "pairwise_seed_rmse_mean": 36.18629010518392
+    },
+    {
+      "instance_id": "00041047_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.570441627502442,
+      "pairwise_seed_rmse_mean": 39.654223378499346
+    },
+    {
+      "instance_id": "00041047_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.303121439615886,
+      "pairwise_seed_rmse_mean": 42.548615010579425
+    },
+    {
+      "instance_id": "00041047_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.427468490600585,
+      "pairwise_seed_rmse_mean": 54.761861419677736
+    },
+    {
+      "instance_id": "00041057_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.727914937337239,
+      "pairwise_seed_rmse_mean": 35.23014475504557
+    },
+    {
+      "instance_id": "00041057_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 20.918279457092286,
+      "pairwise_seed_rmse_mean": 47.84414342244466
+    },
+    {
+      "instance_id": "00041057_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.731293233235677,
+      "pairwise_seed_rmse_mean": 46.77476552327474
+    },
+    {
+      "instance_id": "00041057_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.708124669392904,
+      "pairwise_seed_rmse_mean": 25.09536387125651
+    },
+    {
+      "instance_id": "00041057_short_06",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 17.217407544453938,
+      "pairwise_seed_rmse_mean": 39.23254903157552
+    },
+    {
+      "instance_id": "00041057_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.125535583496093,
+      "pairwise_seed_rmse_mean": 29.724509048461915
+    },
+    {
+      "instance_id": "00041057_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.915765794118245,
+      "pairwise_seed_rmse_mean": 37.92994232177735
+    },
+    {
+      "instance_id": "00041068_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 21.42864195505778,
+      "pairwise_seed_rmse_mean": 54.91364110310872
+    },
+    {
+      "instance_id": "00041068_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.499773089090983,
+      "pairwise_seed_rmse_mean": 30.503634897867837
+    },
+    {
+      "instance_id": "00041068_open_06",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 27.53879648844401,
+      "pairwise_seed_rmse_mean": 66.1686190287272
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.67988618214925,
+      "pairwise_seed_rmse_mean": 48.595271301269534
+    },
+    {
+      "instance_id": "00041068_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.859628677368164,
+      "pairwise_seed_rmse_mean": 49.79186503092448
+    },
+    {
+      "instance_id": "00041068_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.643789927164713,
+      "pairwise_seed_rmse_mean": 34.34443689982096
+    },
+    {
+      "instance_id": "00041068_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.902509053548178,
+      "pairwise_seed_rmse_mean": 31.815504582722983
+    },
+    {
+      "instance_id": "00041068_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 9.828352355957032,
+      "pairwise_seed_rmse_mean": 34.54113871256511
+    },
+    {
+      "instance_id": "00041079_mousebite_06",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.62346928914388,
+      "pairwise_seed_rmse_mean": 35.2724063873291
+    },
+    {
+      "instance_id": "00041079_mousebite_07",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.29256394704183,
+      "pairwise_seed_rmse_mean": 25.663493347167968
+    },
+    {
+      "instance_id": "00041079_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.61013952891032,
+      "pairwise_seed_rmse_mean": 41.17802912394206
+    },
+    {
+      "instance_id": "00041079_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.715476353963215,
+      "pairwise_seed_rmse_mean": 49.027248001098634
+    },
+    {
+      "instance_id": "00041079_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.634741528828938,
+      "pairwise_seed_rmse_mean": 39.42658564249675
+    },
+    {
+      "instance_id": "00041079_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.113514073689778,
+      "pairwise_seed_rmse_mean": 33.277476755778
+    },
+    {
+      "instance_id": "00041079_spur_08",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.945888900756836,
+      "pairwise_seed_rmse_mean": 35.323006820678714
+    },
+    {
+      "instance_id": "00041079_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.341039212544759,
+      "pairwise_seed_rmse_mean": 42.78369827270508
+    },
+    {
+      "instance_id": "00041079_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 18.545236523946127,
+      "pairwise_seed_rmse_mean": 56.08667195638021
+    },
+    {
+      "instance_id": "00041081_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.829035441080729,
+      "pairwise_seed_rmse_mean": 40.72326939900716
+    },
+    {
+      "instance_id": "00041081_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.161969852447509,
+      "pairwise_seed_rmse_mean": 35.96580098470052
+    },
+    {
+      "instance_id": "00041081_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 10.097097746531169,
+      "pairwise_seed_rmse_mean": 31.70818723042806
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.797739156087239,
+      "pairwise_seed_rmse_mean": 33.155354563395186
+    },
+    {
+      "instance_id": "00041081_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.13155434926351,
+      "pairwise_seed_rmse_mean": 46.199840037028
+    },
+    {
+      "instance_id": "00041081_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.868633460998534,
+      "pairwise_seed_rmse_mean": 46.58959986368815
+    },
+    {
+      "instance_id": "00041085_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.168788274129232,
+      "pairwise_seed_rmse_mean": 46.1570192972819
+    },
+    {
+      "instance_id": "00041085_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.156689389546713,
+      "pairwise_seed_rmse_mean": 41.36237716674805
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.426958338419595,
+      "pairwise_seed_rmse_mean": 51.796695709228516
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.968803532918294,
+      "pairwise_seed_rmse_mean": 49.052864201863606
+    },
+    {
+      "instance_id": "00041085_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 6.888812955220541,
+      "pairwise_seed_rmse_mean": 27.191352526346844
+    },
+    {
+      "instance_id": "00041085_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 10.082244141896565,
+      "pairwise_seed_rmse_mean": 37.39355545043945
+    },
+    {
+      "instance_id": "00041089_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.7679825146993,
+      "pairwise_seed_rmse_mean": 35.762153244018556
+    },
+    {
+      "instance_id": "00041089_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 8.626745160420736,
+      "pairwise_seed_rmse_mean": 26.208568445841472
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.120962969462077,
+      "pairwise_seed_rmse_mean": 45.982948557535806
+    },
+    {
+      "instance_id": "00041089_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.091773668924967,
+      "pairwise_seed_rmse_mean": 32.743804931640625
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.808235041300456,
+      "pairwise_seed_rmse_mean": 46.08549499511719
+    },
+    {
+      "instance_id": "00041089_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.270957787831625,
+      "pairwise_seed_rmse_mean": 35.13897552490234
+    },
+    {
+      "instance_id": "00041089_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.984210618336995,
+      "pairwise_seed_rmse_mean": 51.813315836588544
+    },
+    {
+      "instance_id": "00041095_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.366490236918132,
+      "pairwise_seed_rmse_mean": 30.713934071858723
+    },
+    {
+      "instance_id": "00041095_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.656356366475423,
+      "pairwise_seed_rmse_mean": 41.61873270670573
+    },
+    {
+      "instance_id": "00041095_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.293862533569335,
+      "pairwise_seed_rmse_mean": 49.36259358723958
+    },
+    {
+      "instance_id": "00041095_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.07323112487793,
+      "pairwise_seed_rmse_mean": 40.04903246561686
+    },
+    {
+      "instance_id": "00041095_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.13671277364095,
+      "pairwise_seed_rmse_mean": 30.754444630940757
+    },
+    {
+      "instance_id": "00041095_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.227201906840007,
+      "pairwise_seed_rmse_mean": 42.30401293436686
+    },
+    {
+      "instance_id": "00041114_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.62146037419637,
+      "pairwise_seed_rmse_mean": 42.07718505859375
+    },
+    {
+      "instance_id": "00041114_mousebite_08",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.691568374633789,
+      "pairwise_seed_rmse_mean": 33.605061848958336
+    },
+    {
+      "instance_id": "00041114_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.575749588012695,
+      "pairwise_seed_rmse_mean": 35.42338129679362
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.328240807851156,
+      "pairwise_seed_rmse_mean": 53.70633087158203
+    },
+    {
+      "instance_id": "00041114_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.459479649861654,
+      "pairwise_seed_rmse_mean": 42.062469482421875
+    },
+    {
+      "instance_id": "00041114_short_07",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 8.99326171875,
+      "pairwise_seed_rmse_mean": 28.495615259806314
+    },
+    {
+      "instance_id": "00041114_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.505826632181803,
+      "pairwise_seed_rmse_mean": 29.929427083333334
+    },
+    {
+      "instance_id": "00041114_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 20.831570688883463,
+      "pairwise_seed_rmse_mean": 57.78562952677409
+    },
+    {
+      "instance_id": "00041114_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.72870953877767,
+      "pairwise_seed_rmse_mean": 48.5703244527181
+    },
+    {
+      "instance_id": "00041125_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.187110010782877,
+      "pairwise_seed_rmse_mean": 37.80394744873047
+    },
+    {
+      "instance_id": "00041125_mousebite_07",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.701103528340658,
+      "pairwise_seed_rmse_mean": 38.77363675435384
+    },
+    {
+      "instance_id": "00041125_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 7.534038734436035,
+      "pairwise_seed_rmse_mean": 23.31103604634603
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 26.20820846557617,
+      "pairwise_seed_rmse_mean": 66.86259256998697
+    },
+    {
+      "instance_id": "00041125_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.767966906229654,
+      "pairwise_seed_rmse_mean": 36.05155372619629
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.745333321889241,
+      "pairwise_seed_rmse_mean": 34.4082649230957
+    },
+    {
+      "instance_id": "00041125_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.36974401473999,
+      "pairwise_seed_rmse_mean": 36.2955202738444
+    },
+    {
+      "instance_id": "00041125_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.611744753519694,
+      "pairwise_seed_rmse_mean": 50.00434735616048
+    },
+    {
+      "instance_id": "00041125_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.903009541829427,
+      "pairwise_seed_rmse_mean": 51.74149805704753
+    },
+    {
+      "instance_id": "00041133_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 17.319290033976237,
+      "pairwise_seed_rmse_mean": 44.2523691813151
+    },
+    {
+      "instance_id": "00041133_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.97893040974935,
+      "pairwise_seed_rmse_mean": 55.42487360636393
+    },
+    {
+      "instance_id": "00041133_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 11.45950616200765,
+      "pairwise_seed_rmse_mean": 36.67043889363607
+    },
+    {
+      "instance_id": "00041133_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.15317471822103,
+      "pairwise_seed_rmse_mean": 29.47703971862793
+    },
+    {
+      "instance_id": "00041133_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 18.04619992574056,
+      "pairwise_seed_rmse_mean": 50.34676882425944
+    },
+    {
+      "instance_id": "00041133_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.55360492070516,
+      "pairwise_seed_rmse_mean": 44.62783711751302
+    },
+    {
+      "instance_id": "00041142_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.58896001180013,
+      "pairwise_seed_rmse_mean": 38.8107905069987
+    },
+    {
+      "instance_id": "00041142_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 20.275636800130208,
+      "pairwise_seed_rmse_mean": 52.91399637858073
+    },
+    {
+      "instance_id": "00041142_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.971557680765788,
+      "pairwise_seed_rmse_mean": 49.1544906616211
+    },
+    {
+      "instance_id": "00041142_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.559682464599609,
+      "pairwise_seed_rmse_mean": 38.838480122884114
+    },
+    {
+      "instance_id": "00041142_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.21104736328125,
+      "pairwise_seed_rmse_mean": 35.38075256347656
+    },
+    {
+      "instance_id": "00041142_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.79621925354004,
+      "pairwise_seed_rmse_mean": 40.2714183807373
+    },
+    {
+      "instance_id": "00041150_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 19.85661729176839,
+      "pairwise_seed_rmse_mean": 51.9102835337321
+    },
+    {
+      "instance_id": "00041150_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.371300315856933,
+      "pairwise_seed_rmse_mean": 35.702096430460614
+    },
+    {
+      "instance_id": "00041150_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.784732627868653,
+      "pairwise_seed_rmse_mean": 40.97340672810872
+    },
+    {
+      "instance_id": "00041150_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.518487167358398,
+      "pairwise_seed_rmse_mean": 36.69557609558105
+    },
+    {
+      "instance_id": "00041150_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 16.341414070129396,
+      "pairwise_seed_rmse_mean": 41.13847681681315
+    },
+    {
+      "instance_id": "00041150_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 8.178922907511394,
+      "pairwise_seed_rmse_mean": 29.379341252644856
+    },
+    {
+      "instance_id": "00041169_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 17.39774735768636,
+      "pairwise_seed_rmse_mean": 43.767386245727536
+    },
+    {
+      "instance_id": "00041169_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.513577397664388,
+      "pairwise_seed_rmse_mean": 40.70669364929199
+    },
+    {
+      "instance_id": "00041169_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.1064453125,
+      "pairwise_seed_rmse_mean": 41.90010693868001
+    },
+    {
+      "instance_id": "00041169_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 20.127169926961262,
+      "pairwise_seed_rmse_mean": 54.796595509847
+    },
+    {
+      "instance_id": "00041169_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 22.071160062154135,
+      "pairwise_seed_rmse_mean": 60.21750081380208
+    },
+    {
+      "instance_id": "00041169_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.06929833094279,
+      "pairwise_seed_rmse_mean": 38.22872797648112
+    },
+    {
+      "instance_id": "00041180_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.866451644897461,
+      "pairwise_seed_rmse_mean": 41.17216478983561
+    },
+    {
+      "instance_id": "00041180_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.88537769317627,
+      "pairwise_seed_rmse_mean": 35.10609169006348
+    },
+    {
+      "instance_id": "00041180_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.456522878011068,
+      "pairwise_seed_rmse_mean": 37.96967862447103
+    },
+    {
+      "instance_id": "00041180_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.859161567687988,
+      "pairwise_seed_rmse_mean": 40.356513849894206
+    },
+    {
+      "instance_id": "00041180_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.434761142730713,
+      "pairwise_seed_rmse_mean": 33.2433422088623
+    },
+    {
+      "instance_id": "00041180_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.392051219940186,
+      "pairwise_seed_rmse_mean": 42.153124745686846
+    },
+    {
+      "instance_id": "00041180_spur_08",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.092187086741129,
+      "pairwise_seed_rmse_mean": 31.42438646952311
+    },
+    {
+      "instance_id": "00041180_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.767248153686523,
+      "pairwise_seed_rmse_mean": 50.504066975911456
+    },
+    {
+      "instance_id": "00041180_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.49102045694987,
+      "pairwise_seed_rmse_mean": 43.78791097005208
+    },
+    {
+      "instance_id": "00041181_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.681769434611002,
+      "pairwise_seed_rmse_mean": 42.408555094401045
+    },
+    {
+      "instance_id": "00041181_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.102618916829426,
+      "pairwise_seed_rmse_mean": 39.28911018371582
+    },
+    {
+      "instance_id": "00041181_pinhole_02",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.297777811686197,
+      "pairwise_seed_rmse_mean": 47.049598185221356
+    },
+    {
+      "instance_id": "00041181_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.677009836832683,
+      "pairwise_seed_rmse_mean": 44.77830492655436
+    },
+    {
+      "instance_id": "00041181_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.349230162302653,
+      "pairwise_seed_rmse_mean": 41.743421427408855
+    },
+    {
+      "instance_id": "00041181_spur_01",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.133781496683756,
+      "pairwise_seed_rmse_mean": 35.49394734700521
+    },
+    {
+      "instance_id": "00041181_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.486194197336832,
+      "pairwise_seed_rmse_mean": 33.03248481750488
+    },
+    {
+      "instance_id": "00041181_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.921222464243572,
+      "pairwise_seed_rmse_mean": 48.72447662353515
+    },
+    {
+      "instance_id": "00041190_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.56365515391032,
+      "pairwise_seed_rmse_mean": 39.8649845123291
+    },
+    {
+      "instance_id": "00041190_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.443193372090658,
+      "pairwise_seed_rmse_mean": 33.05477104187012
+    },
+    {
+      "instance_id": "00041190_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 21.665851720174153,
+      "pairwise_seed_rmse_mean": 56.69739710489909
+    },
+    {
+      "instance_id": "00041190_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.10045166015625,
+      "pairwise_seed_rmse_mean": 30.15417938232422
+    },
+    {
+      "instance_id": "00041190_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.514236068725586,
+      "pairwise_seed_rmse_mean": 33.095715840657554
+    },
+    {
+      "instance_id": "00041190_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 19.706137784322102,
+      "pairwise_seed_rmse_mean": 59.14083290100098
+    },
+    {
+      "instance_id": "13000003_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.405599975585936,
+      "pairwise_seed_rmse_mean": 45.9114938100179
+    },
+    {
+      "instance_id": "13000003_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.988087781270345,
+      "pairwise_seed_rmse_mean": 42.33875478108724
+    },
+    {
+      "instance_id": "13000003_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.750403849283854,
+      "pairwise_seed_rmse_mean": 39.19210116068522
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.0327543258667,
+      "pairwise_seed_rmse_mean": 43.411233266194664
+    },
+    {
+      "instance_id": "13000003_short_08",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.252237447102864,
+      "pairwise_seed_rmse_mean": 34.85842666625977
+    },
+    {
+      "instance_id": "13000003_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.458974520365397,
+      "pairwise_seed_rmse_mean": 34.998148854573564
+    },
+    {
+      "instance_id": "13000003_spurious_copper_02",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.57412961324056,
+      "pairwise_seed_rmse_mean": 45.77355880737305
+    },
+    {
+      "instance_id": "13000003_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 21.57032915751139,
+      "pairwise_seed_rmse_mean": 61.19844360351563
+    },
+    {
+      "instance_id": "13000003_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 24.33669516245524,
+      "pairwise_seed_rmse_mean": 64.12066294352213
+    },
+    {
+      "instance_id": "13000008_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.83957462310791,
+      "pairwise_seed_rmse_mean": 36.33551648457845
+    },
+    {
+      "instance_id": "13000008_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.17091121673584,
+      "pairwise_seed_rmse_mean": 27.161392211914062
+    },
+    {
+      "instance_id": "13000008_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.262677892049155,
+      "pairwise_seed_rmse_mean": 49.83738784790039
+    },
+    {
+      "instance_id": "13000008_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 19.732080078125,
+      "pairwise_seed_rmse_mean": 51.25046259562175
+    },
+    {
+      "instance_id": "13000008_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 8.59465732574463,
+      "pairwise_seed_rmse_mean": 26.826778411865234
+    },
+    {
+      "instance_id": "13000008_short_07",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.047668584187825,
+      "pairwise_seed_rmse_mean": 27.75152448018392
+    },
+    {
+      "instance_id": "13000008_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 7.812345727284749,
+      "pairwise_seed_rmse_mean": 21.343546549479168
+    },
+    {
+      "instance_id": "13000008_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.858112780253093,
+      "pairwise_seed_rmse_mean": 48.30561154683431
+    },
+    {
+      "instance_id": "13000008_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 21.47719039916992,
+      "pairwise_seed_rmse_mean": 58.591573079427086
+    },
+    {
+      "instance_id": "13000009_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.00220464070638,
+      "pairwise_seed_rmse_mean": 31.82187614440918
+    },
+    {
+      "instance_id": "13000009_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.650393040974937,
+      "pairwise_seed_rmse_mean": 54.67369867960612
+    },
+    {
+      "instance_id": "13000009_open_04",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.85589707692464,
+      "pairwise_seed_rmse_mean": 44.35867716471354
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.472098668416342,
+      "pairwise_seed_rmse_mean": 38.937286631266275
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 22.020094362894692,
+      "pairwise_seed_rmse_mean": 54.761102294921876
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 20.45045998891195,
+      "pairwise_seed_rmse_mean": 54.688472239176434
+    },
+    {
+      "instance_id": "13000009_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.606488100687663,
+      "pairwise_seed_rmse_mean": 35.774685796101885
+    },
+    {
+      "instance_id": "13000009_spur_09",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.806532351175944,
+      "pairwise_seed_rmse_mean": 31.14494997660319
+    },
+    {
+      "instance_id": "13000009_spurious_copper_02",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 10.41816005706787,
+      "pairwise_seed_rmse_mean": 37.44479535420736
+    },
+    {
+      "instance_id": "13000009_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.307347774505615,
+      "pairwise_seed_rmse_mean": 42.82594108581543
+    },
+    {
+      "instance_id": "13000017_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 23.127014541625975,
+      "pairwise_seed_rmse_mean": 57.776484680175784
+    },
+    {
+      "instance_id": "13000017_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.348088963826497,
+      "pairwise_seed_rmse_mean": 41.76181182861328
+    },
+    {
+      "instance_id": "13000017_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.68619327545166,
+      "pairwise_seed_rmse_mean": 41.82728500366211
+    },
+    {
+      "instance_id": "13000017_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.989759254455567,
+      "pairwise_seed_rmse_mean": 44.7717394510905
+    },
+    {
+      "instance_id": "13000017_pinhole_09",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.427851327260335,
+      "pairwise_seed_rmse_mean": 44.69032351175944
+    },
+    {
+      "instance_id": "13000017_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 30.052810923258463,
+      "pairwise_seed_rmse_mean": 69.42771504720052
+    },
+    {
+      "instance_id": "13000017_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 20.71895783742269,
+      "pairwise_seed_rmse_mean": 50.0160161336263
+    },
+    {
+      "instance_id": "13000017_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.891519037882487,
+      "pairwise_seed_rmse_mean": 40.11795870463053
+    },
+    {
+      "instance_id": "13000017_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.906330108642578,
+      "pairwise_seed_rmse_mean": 44.78083610534668
+    },
+    {
+      "instance_id": "13000017_spurious_copper_07",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.530680592854818,
+      "pairwise_seed_rmse_mean": 46.207798385620116
+    },
+    {
+      "instance_id": "13000017_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.562496630350747,
+      "pairwise_seed_rmse_mean": 48.86767921447754
+    },
+    {
+      "instance_id": "13000019_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 19.498809369405112,
+      "pairwise_seed_rmse_mean": 54.596151733398436
+    },
+    {
+      "instance_id": "13000019_mousebite_06",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.928384717305502,
+      "pairwise_seed_rmse_mean": 38.55463485717773
+    },
+    {
+      "instance_id": "13000019_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 25.358591842651368,
+      "pairwise_seed_rmse_mean": 54.32648391723633
+    },
+    {
+      "instance_id": "13000019_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.8284454981486,
+      "pairwise_seed_rmse_mean": 29.563082377115887
+    },
+    {
+      "instance_id": "13000019_open_02",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 28.685162099202476,
+      "pairwise_seed_rmse_mean": 66.45097529093424
+    },
+    {
+      "instance_id": "13000019_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.234666633605958,
+      "pairwise_seed_rmse_mean": 41.87493527730306
+    },
+    {
+      "instance_id": "13000019_pinhole_12",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 11.253781763712565,
+      "pairwise_seed_rmse_mean": 37.62156359354655
+    },
+    {
+      "instance_id": "13000019_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 19.44115250905355,
+      "pairwise_seed_rmse_mean": 41.61094830830892
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.79687712987264,
+      "pairwise_seed_rmse_mean": 37.17745196024577
+    },
+    {
+      "instance_id": "13000019_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 30.015705362955728,
+      "pairwise_seed_rmse_mean": 67.87864303588867
+    },
+    {
+      "instance_id": "13000019_spur_08",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 24.284652964274088,
+      "pairwise_seed_rmse_mean": 53.74116465250651
+    },
+    {
+      "instance_id": "13000019_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.01142857869466,
+      "pairwise_seed_rmse_mean": 41.071295166015624
+    },
+    {
+      "instance_id": "13000019_spurious_copper_10",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.887963008880615,
+      "pairwise_seed_rmse_mean": 49.26039085388184
+    },
+    {
+      "instance_id": "13000022_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 19.24130179087321,
+      "pairwise_seed_rmse_mean": 53.030871327718096
+    },
+    {
+      "instance_id": "13000022_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.19955571492513,
+      "pairwise_seed_rmse_mean": 46.69371477762858
+    },
+    {
+      "instance_id": "13000022_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 18.980762481689453,
+      "pairwise_seed_rmse_mean": 43.8788948059082
+    },
+    {
+      "instance_id": "13000022_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.936805661519369,
+      "pairwise_seed_rmse_mean": 40.33053436279297
+    },
+    {
+      "instance_id": "13000022_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.679583994547526,
+      "pairwise_seed_rmse_mean": 35.92880096435547
+    },
+    {
+      "instance_id": "13000022_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.728614044189452,
+      "pairwise_seed_rmse_mean": 41.73235321044922
+    },
+    {
+      "instance_id": "13000022_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.05731995900472,
+      "pairwise_seed_rmse_mean": 36.519362386067705
+    },
+    {
+      "instance_id": "13000022_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 22.845790036519368,
+      "pairwise_seed_rmse_mean": 58.03204053243001
+    },
+    {
+      "instance_id": "13000022_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.826256593068441,
+      "pairwise_seed_rmse_mean": 31.414494705200195
+    },
+    {
+      "instance_id": "13000022_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 24.57039604187012,
+      "pairwise_seed_rmse_mean": 57.971005249023435
+    },
+    {
+      "instance_id": "13000022_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.280045382181804,
+      "pairwise_seed_rmse_mean": 52.12507553100586
+    },
+    {
+      "instance_id": "13000022_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 23.395071347554524,
+      "pairwise_seed_rmse_mean": 56.67577540079753
+    },
+    {
+      "instance_id": "13000023_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.93608341217041,
+      "pairwise_seed_rmse_mean": 33.93953692118327
+    },
+    {
+      "instance_id": "13000023_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.85667584737142,
+      "pairwise_seed_rmse_mean": 45.7296755472819
+    },
+    {
+      "instance_id": "13000023_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.428468704223633,
+      "pairwise_seed_rmse_mean": 34.885843404134114
+    },
+    {
+      "instance_id": "13000023_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.215375900268555,
+      "pairwise_seed_rmse_mean": 48.157910919189455
+    },
+    {
+      "instance_id": "13000023_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.555785433451335,
+      "pairwise_seed_rmse_mean": 43.55235201517741
+    },
+    {
+      "instance_id": "13000023_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.019179979960123,
+      "pairwise_seed_rmse_mean": 39.703962580362955
+    },
+    {
+      "instance_id": "13000023_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 25.959327697753906,
+      "pairwise_seed_rmse_mean": 58.94013010660807
+    },
+    {
+      "instance_id": "13000023_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 8.744537003835042,
+      "pairwise_seed_rmse_mean": 31.546527862548828
+    },
+    {
+      "instance_id": "13000023_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 6.3672743479410805,
+      "pairwise_seed_rmse_mean": 22.824555905659995
+    },
+    {
+      "instance_id": "13000023_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 20.405964152018228,
+      "pairwise_seed_rmse_mean": 51.109615580240884
+    },
+    {
+      "instance_id": "13000023_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.509808031717936,
+      "pairwise_seed_rmse_mean": 46.22802200317383
+    },
+    {
+      "instance_id": "13000023_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 8.536091899871826,
+      "pairwise_seed_rmse_mean": 27.75706367492676
+    },
+    {
+      "instance_id": "13000024_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.214889589945475,
+      "pairwise_seed_rmse_mean": 40.970998255411786
+    },
+    {
+      "instance_id": "13000024_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.022120030721029,
+      "pairwise_seed_rmse_mean": 41.42818387349447
+    },
+    {
+      "instance_id": "13000024_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 19.602416674296062,
+      "pairwise_seed_rmse_mean": 46.53277397155762
+    },
+    {
+      "instance_id": "13000024_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.593369928995768,
+      "pairwise_seed_rmse_mean": 31.80303955078125
+    },
+    {
+      "instance_id": "13000024_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 20.06555964152018,
+      "pairwise_seed_rmse_mean": 55.57236913045247
+    },
+    {
+      "instance_id": "13000024_pinhole_09",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 8.850566895802816,
+      "pairwise_seed_rmse_mean": 29.0112974802653
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 6.654017035166422,
+      "pairwise_seed_rmse_mean": 22.090361022949217
+    },
+    {
+      "instance_id": "13000024_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 8.345438067118327,
+      "pairwise_seed_rmse_mean": 26.69269568125407
+    },
+    {
+      "instance_id": "13000024_spur_10",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.925287469228108,
+      "pairwise_seed_rmse_mean": 30.072328313191733
+    },
+    {
+      "instance_id": "13000024_spur_11",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 7.838166745503743,
+      "pairwise_seed_rmse_mean": 28.219685109456382
+    },
+    {
+      "instance_id": "13000024_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 10.536551729838054,
+      "pairwise_seed_rmse_mean": 38.11475868225098
+    },
+    {
+      "instance_id": "13000024_spurious_copper_07",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.392468007405599,
+      "pairwise_seed_rmse_mean": 43.471415456136064
+    },
+    {
+      "instance_id": "13000025_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.771018505096436,
+      "pairwise_seed_rmse_mean": 28.29276924133301
+    },
+    {
+      "instance_id": "13000025_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.302013142903647,
+      "pairwise_seed_rmse_mean": 42.79126536051432
+    },
+    {
+      "instance_id": "13000025_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 29.67892983754476,
+      "pairwise_seed_rmse_mean": 67.31960474650064
+    },
+    {
+      "instance_id": "13000025_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 18.755870819091797,
+      "pairwise_seed_rmse_mean": 48.416788991292314
+    },
+    {
+      "instance_id": "13000025_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 19.439444414774577,
+      "pairwise_seed_rmse_mean": 49.61002833048503
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 11.2242901802063,
+      "pairwise_seed_rmse_mean": 37.831834411621095
+    },
+    {
+      "instance_id": "13000025_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 3.7722486654917398,
+      "pairwise_seed_rmse_mean": 11.942255973815918
+    },
+    {
+      "instance_id": "13000025_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.216552925109863,
+      "pairwise_seed_rmse_mean": 38.355282592773435
+    },
+    {
+      "instance_id": "13000025_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 24.24345563252767,
+      "pairwise_seed_rmse_mean": 58.56547241210937
+    },
+    {
+      "instance_id": "13000025_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.10086997350057,
+      "pairwise_seed_rmse_mean": 43.28069725036621
+    },
+    {
+      "instance_id": "13000025_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.3654115041097,
+      "pairwise_seed_rmse_mean": 41.13443247477213
+    },
+    {
+      "instance_id": "13000025_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 25.070205561319987,
+      "pairwise_seed_rmse_mean": 59.05449523925781
+    },
+    {
+      "instance_id": "13000026_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.618824450174968,
+      "pairwise_seed_rmse_mean": 41.248504638671875
+    },
+    {
+      "instance_id": "13000026_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.709770774841308,
+      "pairwise_seed_rmse_mean": 31.6313045501709
+    },
+    {
+      "instance_id": "13000026_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.224667485555013,
+      "pairwise_seed_rmse_mean": 34.09279187520345
+    },
+    {
+      "instance_id": "13000026_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.6867644627889,
+      "pairwise_seed_rmse_mean": 43.79279454549154
+    },
+    {
+      "instance_id": "13000026_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 19.741766039530436,
+      "pairwise_seed_rmse_mean": 47.75341924031576
+    },
+    {
+      "instance_id": "13000026_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 23.62902806599935,
+      "pairwise_seed_rmse_mean": 55.25301005045573
+    },
+    {
+      "instance_id": "13000026_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.407764371236166,
+      "pairwise_seed_rmse_mean": 35.70310821533203
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.61494738260905,
+      "pairwise_seed_rmse_mean": 35.78256708780925
+    },
+    {
+      "instance_id": "13000026_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.116390419006347,
+      "pairwise_seed_rmse_mean": 29.936104583740235
+    },
+    {
+      "instance_id": "13000026_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.48511110941569,
+      "pairwise_seed_rmse_mean": 44.19183082580567
+    },
+    {
+      "instance_id": "13000026_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.626839510599773,
+      "pairwise_seed_rmse_mean": 37.49025026957194
+    },
+    {
+      "instance_id": "13000026_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.745509147644043,
+      "pairwise_seed_rmse_mean": 36.17337201436361
+    },
+    {
+      "instance_id": "13000027_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 20.61911106109619,
+      "pairwise_seed_rmse_mean": 49.46238288879395
+    },
+    {
+      "instance_id": "13000027_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.091688919067384,
+      "pairwise_seed_rmse_mean": 43.98146057128906
+    },
+    {
+      "instance_id": "13000027_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 8.00315653483073,
+      "pairwise_seed_rmse_mean": 22.87883046468099
+    },
+    {
+      "instance_id": "13000027_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.69845593770345,
+      "pairwise_seed_rmse_mean": 39.80534451802571
+    },
+    {
+      "instance_id": "13000027_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 26.677180671691893,
+      "pairwise_seed_rmse_mean": 67.62576421101888
+    },
+    {
+      "instance_id": "13000027_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 23.14051742553711,
+      "pairwise_seed_rmse_mean": 52.644894409179685
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.978919823964437,
+      "pairwise_seed_rmse_mean": 25.645559310913086
+    },
+    {
+      "instance_id": "13000027_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.626048914591472,
+      "pairwise_seed_rmse_mean": 37.209557978312176
+    },
+    {
+      "instance_id": "13000027_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.299942970275879,
+      "pairwise_seed_rmse_mean": 35.403494644165036
+    },
+    {
+      "instance_id": "13000027_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 16.49005692799886,
+      "pairwise_seed_rmse_mean": 44.33051554361979
+    },
+    {
+      "instance_id": "13000027_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 19.097222582499185,
+      "pairwise_seed_rmse_mean": 46.88125457763672
+    },
+    {
+      "instance_id": "13000027_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 26.855614344278973,
+      "pairwise_seed_rmse_mean": 55.12080612182617
+    },
+    {
+      "instance_id": "13000028_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 22.848400688171388,
+      "pairwise_seed_rmse_mean": 59.343666076660156
+    },
+    {
+      "instance_id": "13000028_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.817239252726235,
+      "pairwise_seed_rmse_mean": 44.34960708618164
+    },
+    {
+      "instance_id": "13000028_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.920540841420491,
+      "pairwise_seed_rmse_mean": 29.374354934692384
+    },
+    {
+      "instance_id": "13000028_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.422160975138347,
+      "pairwise_seed_rmse_mean": 43.34374758402507
+    },
+    {
+      "instance_id": "13000028_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.606349245707195,
+      "pairwise_seed_rmse_mean": 39.164238103230794
+    },
+    {
+      "instance_id": "13000028_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 20.149602063496907,
+      "pairwise_seed_rmse_mean": 49.67457237243652
+    },
+    {
+      "instance_id": "13000028_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 22.673218790690104,
+      "pairwise_seed_rmse_mean": 48.08262990315755
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.279878489176433,
+      "pairwise_seed_rmse_mean": 39.27366943359375
+    },
+    {
+      "instance_id": "13000028_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.972839419047038,
+      "pairwise_seed_rmse_mean": 48.93468081156413
+    },
+    {
+      "instance_id": "13000028_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.480167229970297,
+      "pairwise_seed_rmse_mean": 33.978061548868816
+    },
+    {
+      "instance_id": "13000028_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.510140291849773,
+      "pairwise_seed_rmse_mean": 49.491093190511066
+    },
+    {
+      "instance_id": "13000028_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.442081514994303,
+      "pairwise_seed_rmse_mean": 51.60829391479492
+    },
+    {
+      "instance_id": "13000029_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.087301445007324,
+      "pairwise_seed_rmse_mean": 44.18216272989909
+    },
+    {
+      "instance_id": "13000029_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 20.16435178120931,
+      "pairwise_seed_rmse_mean": 53.495531717936196
+    },
+    {
+      "instance_id": "13000029_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 23.08674494425456,
+      "pairwise_seed_rmse_mean": 48.87707595825195
+    },
+    {
+      "instance_id": "13000029_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.496054522196452,
+      "pairwise_seed_rmse_mean": 36.101009114583334
+    },
+    {
+      "instance_id": "13000029_pinhole_10",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.087844022115071,
+      "pairwise_seed_rmse_mean": 39.63453458150228
+    },
+    {
+      "instance_id": "13000029_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.55302308400472,
+      "pairwise_seed_rmse_mean": 43.77583287556966
+    },
+    {
+      "instance_id": "13000029_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.527532641092936,
+      "pairwise_seed_rmse_mean": 28.97362492879232
+    },
+    {
+      "instance_id": "13000029_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.931566556294758,
+      "pairwise_seed_rmse_mean": 36.22078119913737
+    },
+    {
+      "instance_id": "13000029_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.511618487040202,
+      "pairwise_seed_rmse_mean": 30.47818400065104
+    },
+    {
+      "instance_id": "13000029_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 19.367204348246258,
+      "pairwise_seed_rmse_mean": 51.1681889851888
+    },
+    {
+      "instance_id": "13000029_spurious_copper_08",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 18.390498002370197,
+      "pairwise_seed_rmse_mean": 52.1186585744222
+    },
+    {
+      "instance_id": "13000029_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 28.28254839579264,
+      "pairwise_seed_rmse_mean": 59.99193623860677
+    },
+    {
+      "instance_id": "13000030_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.485094833374023,
+      "pairwise_seed_rmse_mean": 29.75303014119466
+    },
+    {
+      "instance_id": "13000030_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 17.06843770345052,
+      "pairwise_seed_rmse_mean": 46.53091074625651
+    },
+    {
+      "instance_id": "13000030_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 19.379807662963866,
+      "pairwise_seed_rmse_mean": 45.82973175048828
+    },
+    {
+      "instance_id": "13000030_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.736145718892415,
+      "pairwise_seed_rmse_mean": 37.47484308878581
+    },
+    {
+      "instance_id": "13000030_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 23.722236760457356,
+      "pairwise_seed_rmse_mean": 58.30744450887044
+    },
+    {
+      "instance_id": "13000030_pinhole_09",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 19.376096153259276,
+      "pairwise_seed_rmse_mean": 52.48572616577148
+    },
+    {
+      "instance_id": "13000030_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.03109785715739,
+      "pairwise_seed_rmse_mean": 26.910074742635093
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.21998151143392,
+      "pairwise_seed_rmse_mean": 36.88012491861979
+    },
+    {
+      "instance_id": "13000030_spur_10",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 19.265502484639487,
+      "pairwise_seed_rmse_mean": 52.29893213907878
+    },
+    {
+      "instance_id": "13000030_spur_11",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.142434533437093,
+      "pairwise_seed_rmse_mean": 34.975518163045244
+    },
+    {
+      "instance_id": "13000030_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 9.833019955952961,
+      "pairwise_seed_rmse_mean": 35.61632181803385
+    },
+    {
+      "instance_id": "13000030_spurious_copper_07",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 29.167848205566408,
+      "pairwise_seed_rmse_mean": 64.82322667439779
+    },
+    {
+      "instance_id": "13000031_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.583314196268717,
+      "pairwise_seed_rmse_mean": 29.370494715372722
+    },
+    {
+      "instance_id": "13000031_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.919994417826334,
+      "pairwise_seed_rmse_mean": 41.907080841064456
+    },
+    {
+      "instance_id": "13000031_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.53057149251302,
+      "pairwise_seed_rmse_mean": 46.17379404703776
+    },
+    {
+      "instance_id": "13000031_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.657094065348307,
+      "pairwise_seed_rmse_mean": 49.141045888264976
+    },
+    {
+      "instance_id": "13000031_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.424050903320312,
+      "pairwise_seed_rmse_mean": 31.720308176676433
+    },
+    {
+      "instance_id": "13000031_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.153068351745606,
+      "pairwise_seed_rmse_mean": 42.34965019226074
+    },
+    {
+      "instance_id": "13000031_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 4.482659721374512,
+      "pairwise_seed_rmse_mean": 15.521511205037434
+    },
+    {
+      "instance_id": "13000031_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.36907056172689,
+      "pairwise_seed_rmse_mean": 51.18461957375209
+    },
+    {
+      "instance_id": "13000031_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 22.250085576375326,
+      "pairwise_seed_rmse_mean": 52.237023162841794
+    },
+    {
+      "instance_id": "13000037_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.756184005737305,
+      "pairwise_seed_rmse_mean": 35.43286209106445
+    },
+    {
+      "instance_id": "13000037_mousebite_11",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.23783442179362,
+      "pairwise_seed_rmse_mean": 35.54751866658528
+    },
+    {
+      "instance_id": "13000037_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.866830317179362,
+      "pairwise_seed_rmse_mean": 33.63718706766765
+    },
+    {
+      "instance_id": "13000037_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.942694822947184,
+      "pairwise_seed_rmse_mean": 40.041581853230795
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 10.796666653951009,
+      "pairwise_seed_rmse_mean": 35.27865956624349
+    },
+    {
+      "instance_id": "13000037_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.15898167292277,
+      "pairwise_seed_rmse_mean": 40.42808609008789
+    },
+    {
+      "instance_id": "13000037_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 7.080043347676595,
+      "pairwise_seed_rmse_mean": 20.769744300842284
+    },
+    {
+      "instance_id": "13000037_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.584243456522623,
+      "pairwise_seed_rmse_mean": 40.54619166056315
+    },
+    {
+      "instance_id": "13000037_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.232915242513021,
+      "pairwise_seed_rmse_mean": 30.122208150227866
+    },
+    {
+      "instance_id": "13000037_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.290820185343424,
+      "pairwise_seed_rmse_mean": 34.63172747294108
+    },
+    {
+      "instance_id": "13000037_spurious_copper_09",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.362527910868327,
+      "pairwise_seed_rmse_mean": 37.36821950276693
+    },
+    {
+      "instance_id": "13000037_spurious_copper_10",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 20.164321772257487,
+      "pairwise_seed_rmse_mean": 44.62378794352214
+    },
+    {
+      "instance_id": "13000079_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.003559430440268,
+      "pairwise_seed_rmse_mean": 35.71007881164551
+    },
+    {
+      "instance_id": "13000079_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.86025816599528,
+      "pairwise_seed_rmse_mean": 49.343492380777995
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.887218602498372,
+      "pairwise_seed_rmse_mean": 53.173997751871745
+    },
+    {
+      "instance_id": "13000079_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 11.960777441660563,
+      "pairwise_seed_rmse_mean": 42.426910909016925
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 7.5033367792765295,
+      "pairwise_seed_rmse_mean": 24.59923553466797
+    },
+    {
+      "instance_id": "13000079_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 7.673063850402832,
+      "pairwise_seed_rmse_mean": 28.400613276163735
+    },
+    {
+      "instance_id": "13000079_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.056876754760742,
+      "pairwise_seed_rmse_mean": 37.86105982462565
+    },
+    {
+      "instance_id": "13000097_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.81574732462565,
+      "pairwise_seed_rmse_mean": 34.20857213338216
+    },
+    {
+      "instance_id": "13000097_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.768339029947917,
+      "pairwise_seed_rmse_mean": 40.22755114237467
+    },
+    {
+      "instance_id": "13000097_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.319004885355632,
+      "pairwise_seed_rmse_mean": 47.63751843770345
+    },
+    {
+      "instance_id": "13000097_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 7.662290795644124,
+      "pairwise_seed_rmse_mean": 20.865656280517577
+    },
+    {
+      "instance_id": "13000097_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 19.95395711263021,
+      "pairwise_seed_rmse_mean": 53.43198636372884
+    },
+    {
+      "instance_id": "13000097_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.758820533752441,
+      "pairwise_seed_rmse_mean": 42.686102930704756
+    },
+    {
+      "instance_id": "13000102_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.390939839680989,
+      "pairwise_seed_rmse_mean": 31.830612055460612
+    },
+    {
+      "instance_id": "13000102_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.577272733052572,
+      "pairwise_seed_rmse_mean": 37.038516743977866
+    },
+    {
+      "instance_id": "13000102_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.99826978047689,
+      "pairwise_seed_rmse_mean": 43.564483642578125
+    },
+    {
+      "instance_id": "13000102_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.888125165303547,
+      "pairwise_seed_rmse_mean": 37.187279001871744
+    },
+    {
+      "instance_id": "13000102_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.093124834696452,
+      "pairwise_seed_rmse_mean": 34.982835133870445
+    },
+    {
+      "instance_id": "13000102_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.372868474324545,
+      "pairwise_seed_rmse_mean": 48.6692866007487
+    },
+    {
+      "instance_id": "13000110_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.052870877583821,
+      "pairwise_seed_rmse_mean": 33.71182632446289
+    },
+    {
+      "instance_id": "13000110_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 23.242555618286133,
+      "pairwise_seed_rmse_mean": 55.08432846069336
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.978738021850585,
+      "pairwise_seed_rmse_mean": 43.578142674763996
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.2527006149292,
+      "pairwise_seed_rmse_mean": 44.84208730061849
+    },
+    {
+      "instance_id": "13000110_short_06",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.817093022664388,
+      "pairwise_seed_rmse_mean": 44.05777079264323
+    },
+    {
+      "instance_id": "13000110_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.288531812032064,
+      "pairwise_seed_rmse_mean": 42.8622127532959
+    },
+    {
+      "instance_id": "13000110_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.727153205871582,
+      "pairwise_seed_rmse_mean": 49.72920138041179
+    },
+    {
+      "instance_id": "13000118_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.40850213368734,
+      "pairwise_seed_rmse_mean": 49.552818044026694
+    },
+    {
+      "instance_id": "13000118_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.521273930867514,
+      "pairwise_seed_rmse_mean": 34.32371686299642
+    },
+    {
+      "instance_id": "13000118_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.279326756795246,
+      "pairwise_seed_rmse_mean": 46.8598030090332
+    },
+    {
+      "instance_id": "13000118_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.372281551361084,
+      "pairwise_seed_rmse_mean": 38.72758700052897
+    },
+    {
+      "instance_id": "13000118_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.934818935394286,
+      "pairwise_seed_rmse_mean": 33.71532936096192
+    },
+    {
+      "instance_id": "13000118_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 20.67200323740641,
+      "pairwise_seed_rmse_mean": 58.81084632873535
+    },
+    {
+      "instance_id": "13000126_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 8.795340633392334,
+      "pairwise_seed_rmse_mean": 31.581737772623697
+    },
+    {
+      "instance_id": "13000126_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.533052889506022,
+      "pairwise_seed_rmse_mean": 32.47965876261393
+    },
+    {
+      "instance_id": "13000126_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 9.975079345703126,
+      "pairwise_seed_rmse_mean": 31.349457931518554
+    },
+    {
+      "instance_id": "13000126_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.369183762868245,
+      "pairwise_seed_rmse_mean": 29.946965789794923
+    },
+    {
+      "instance_id": "13000126_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.010457547505696,
+      "pairwise_seed_rmse_mean": 30.83439763387044
+    },
+    {
+      "instance_id": "13000126_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.449775123596192,
+      "pairwise_seed_rmse_mean": 43.429273732503255
+    },
+    {
+      "instance_id": "13000174_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.411848068237305,
+      "pairwise_seed_rmse_mean": 31.310789235432942
+    },
+    {
+      "instance_id": "13000174_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.932302538553873,
+      "pairwise_seed_rmse_mean": 42.57026634216309
+    },
+    {
+      "instance_id": "13000174_pinhole_02",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 19.209756469726564,
+      "pairwise_seed_rmse_mean": 53.17491785685221
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 18.460156186421713,
+      "pairwise_seed_rmse_mean": 52.41665547688802
+    },
+    {
+      "instance_id": "13000174_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.992726135253907,
+      "pairwise_seed_rmse_mean": 43.279541397094725
+    },
+    {
+      "instance_id": "13000174_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.97148520151774,
+      "pairwise_seed_rmse_mean": 49.398980204264326
+    },
+    {
+      "instance_id": "13000197_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.147222137451173,
+      "pairwise_seed_rmse_mean": 44.175950622558595
+    },
+    {
+      "instance_id": "13000197_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.398466555277507,
+      "pairwise_seed_rmse_mean": 37.30740178426107
+    },
+    {
+      "instance_id": "13000197_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.54328727722168,
+      "pairwise_seed_rmse_mean": 42.90923550923665
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.033014011383056,
+      "pairwise_seed_rmse_mean": 46.12796274820963
+    },
+    {
+      "instance_id": "13000197_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.774643929799398,
+      "pairwise_seed_rmse_mean": 32.974752298990886
+    },
+    {
+      "instance_id": "13000197_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.475882371266684,
+      "pairwise_seed_rmse_mean": 42.65094286600749
+    },
+    {
+      "instance_id": "20085014_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.21494255065918,
+      "pairwise_seed_rmse_mean": 42.63540522257487
+    },
+    {
+      "instance_id": "20085014_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.427435811360677,
+      "pairwise_seed_rmse_mean": 27.176298522949217
+    },
+    {
+      "instance_id": "20085014_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.803056081136067,
+      "pairwise_seed_rmse_mean": 47.741050465901694
+    },
+    {
+      "instance_id": "20085014_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 17.552381070454917,
+      "pairwise_seed_rmse_mean": 44.26591542561849
+    },
+    {
+      "instance_id": "20085014_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 19.323269844055176,
+      "pairwise_seed_rmse_mean": 53.33810043334961
+    },
+    {
+      "instance_id": "20085014_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 18.83977444966634,
+      "pairwise_seed_rmse_mean": 52.476515706380205
+    },
+    {
+      "instance_id": "20085016_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.198429743448893,
+      "pairwise_seed_rmse_mean": 36.11077562967936
+    },
+    {
+      "instance_id": "20085016_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.993265024820964,
+      "pairwise_seed_rmse_mean": 33.3487003326416
+    },
+    {
+      "instance_id": "20085016_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.530582046508789,
+      "pairwise_seed_rmse_mean": 34.256112543741864
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 22.859174791971842,
+      "pairwise_seed_rmse_mean": 55.3549924214681
+    },
+    {
+      "instance_id": "20085016_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.269230715433757,
+      "pairwise_seed_rmse_mean": 40.54629084269206
+    },
+    {
+      "instance_id": "20085016_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.889988454182943,
+      "pairwise_seed_rmse_mean": 37.481662877400716
+    },
+    {
+      "instance_id": "20085016_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 19.174879264831542,
+      "pairwise_seed_rmse_mean": 51.6783935546875
+    },
+    {
+      "instance_id": "20085020_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.9899999618530275,
+      "pairwise_seed_rmse_mean": 23.81079978942871
+    },
+    {
+      "instance_id": "20085020_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.058761564890544,
+      "pairwise_seed_rmse_mean": 23.325731468200683
+    },
+    {
+      "instance_id": "20085020_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 24.654710642496745,
+      "pairwise_seed_rmse_mean": 60.56634292602539
+    },
+    {
+      "instance_id": "20085020_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.482906023661295,
+      "pairwise_seed_rmse_mean": 41.50395673116048
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.432564036051433,
+      "pairwise_seed_rmse_mean": 35.28338088989258
+    },
+    {
+      "instance_id": "20085020_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.608888880411785,
+      "pairwise_seed_rmse_mean": 41.260895284016925
+    },
+    {
+      "instance_id": "20085020_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.07859935760498,
+      "pairwise_seed_rmse_mean": 37.92613461812337
+    },
+    {
+      "instance_id": "20085020_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 24.771629524230956,
+      "pairwise_seed_rmse_mean": 62.68950678507487
+    },
+    {
+      "instance_id": "20085026_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.66603151957194,
+      "pairwise_seed_rmse_mean": 42.310564041137695
+    },
+    {
+      "instance_id": "20085026_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.869060866038005,
+      "pairwise_seed_rmse_mean": 46.67304827372233
+    },
+    {
+      "instance_id": "20085026_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.221406682332356,
+      "pairwise_seed_rmse_mean": 44.48924865722656
+    },
+    {
+      "instance_id": "20085026_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.649481455485027,
+      "pairwise_seed_rmse_mean": 44.74911702473958
+    },
+    {
+      "instance_id": "20085026_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.22730630238851,
+      "pairwise_seed_rmse_mean": 39.86975288391113
+    },
+    {
+      "instance_id": "20085026_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 7.961891905466715,
+      "pairwise_seed_rmse_mean": 28.993195215861004
+    },
+    {
+      "instance_id": "20085027_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 8.965476195017496,
+      "pairwise_seed_rmse_mean": 30.779846318562825
+    },
+    {
+      "instance_id": "20085027_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.128336079915364,
+      "pairwise_seed_rmse_mean": 36.4105105082194
+    },
+    {
+      "instance_id": "20085027_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.233231735229491,
+      "pairwise_seed_rmse_mean": 37.24301528930664
+    },
+    {
+      "instance_id": "20085027_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.004925727844238,
+      "pairwise_seed_rmse_mean": 35.51931991577148
+    },
+    {
+      "instance_id": "20085027_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.28181603749593,
+      "pairwise_seed_rmse_mean": 33.37434247334798
+    },
+    {
+      "instance_id": "20085027_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.239060846964518,
+      "pairwise_seed_rmse_mean": 41.29896087646485
+    },
+    {
+      "instance_id": "20085033_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.876923116048177,
+      "pairwise_seed_rmse_mean": 24.076118914286294
+    },
+    {
+      "instance_id": "20085033_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.722586886088054,
+      "pairwise_seed_rmse_mean": 34.97620099385579
+    },
+    {
+      "instance_id": "20085033_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.091225242614746,
+      "pairwise_seed_rmse_mean": 26.287462615966795
+    },
+    {
+      "instance_id": "20085033_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.8123046875,
+      "pairwise_seed_rmse_mean": 46.37476298014323
+    },
+    {
+      "instance_id": "20085033_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.18138526280721,
+      "pairwise_seed_rmse_mean": 36.98903872172038
+    },
+    {
+      "instance_id": "20085033_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.954774761199952,
+      "pairwise_seed_rmse_mean": 40.3700932820638
+    },
+    {
+      "instance_id": "20085033_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 18.63472620646159,
+      "pairwise_seed_rmse_mean": 55.649924977620444
+    },
+    {
+      "instance_id": "20085051_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.40955696105957,
+      "pairwise_seed_rmse_mean": 37.50653216044108
+    },
+    {
+      "instance_id": "20085051_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.277721405029297,
+      "pairwise_seed_rmse_mean": 43.5942138671875
+    },
+    {
+      "instance_id": "20085051_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 25.063566716512046,
+      "pairwise_seed_rmse_mean": 55.24426981608073
+    },
+    {
+      "instance_id": "20085051_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 25.651631927490236,
+      "pairwise_seed_rmse_mean": 64.21283950805665
+    },
+    {
+      "instance_id": "20085051_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.405224672953288,
+      "pairwise_seed_rmse_mean": 30.95615348815918
+    },
+    {
+      "instance_id": "20085051_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 18.26064828236898,
+      "pairwise_seed_rmse_mean": 57.090491739908856
+    },
+    {
+      "instance_id": "20085062_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 8.15537525812785,
+      "pairwise_seed_rmse_mean": 27.033433151245116
+    },
+    {
+      "instance_id": "20085062_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 7.710087172190348,
+      "pairwise_seed_rmse_mean": 25.42493527730306
+    },
+    {
+      "instance_id": "20085062_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.430651219685872,
+      "pairwise_seed_rmse_mean": 36.89836489359538
+    },
+    {
+      "instance_id": "20085062_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.028695487976073,
+      "pairwise_seed_rmse_mean": 46.08779373168945
+    },
+    {
+      "instance_id": "20085062_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 6.013000774383545,
+      "pairwise_seed_rmse_mean": 19.92879098256429
+    },
+    {
+      "instance_id": "20085062_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.251712989807128,
+      "pairwise_seed_rmse_mean": 40.06794662475586
+    },
+    {
+      "instance_id": "20085062_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 16.520948537190755,
+      "pairwise_seed_rmse_mean": 51.34627126057943
+    },
+    {
+      "instance_id": "20085071_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 8.890645694732665,
+      "pairwise_seed_rmse_mean": 28.114695485432943
+    },
+    {
+      "instance_id": "20085071_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.230967775980632,
+      "pairwise_seed_rmse_mean": 34.51620724995931
+    },
+    {
+      "instance_id": "20085071_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.680296389261882,
+      "pairwise_seed_rmse_mean": 35.81762415568034
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 19.443980153401693,
+      "pairwise_seed_rmse_mean": 50.37765172322591
+    },
+    {
+      "instance_id": "20085071_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.20629425048828,
+      "pairwise_seed_rmse_mean": 33.37021547953288
+    },
+    {
+      "instance_id": "20085071_short_06",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.330686060587565,
+      "pairwise_seed_rmse_mean": 37.822930272420244
+    },
+    {
+      "instance_id": "20085071_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.050406901041667,
+      "pairwise_seed_rmse_mean": 41.2769224802653
+    },
+    {
+      "instance_id": "20085071_spur_08",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.48208834330241,
+      "pairwise_seed_rmse_mean": 36.06058642069499
+    },
+    {
+      "instance_id": "20085071_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.103844833374023,
+      "pairwise_seed_rmse_mean": 42.05723571777344
+    },
+    {
+      "instance_id": "20085090_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.828177642822265,
+      "pairwise_seed_rmse_mean": 45.07429555257161
+    },
+    {
+      "instance_id": "20085090_mousebite_08",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.036717764536539,
+      "pairwise_seed_rmse_mean": 22.69774932861328
+    },
+    {
+      "instance_id": "20085090_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 8.350716495513916,
+      "pairwise_seed_rmse_mean": 28.888765335083008
+    },
+    {
+      "instance_id": "20085090_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 26.809591420491536,
+      "pairwise_seed_rmse_mean": 59.0320805867513
+    },
+    {
+      "instance_id": "20085090_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.058879534403482,
+      "pairwise_seed_rmse_mean": 39.90749855041504
+    },
+    {
+      "instance_id": "20085090_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 20.447256724039715,
+      "pairwise_seed_rmse_mean": 48.51255798339844
+    },
+    {
+      "instance_id": "20085090_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.836617342631023,
+      "pairwise_seed_rmse_mean": 37.12589340209961
+    },
+    {
+      "instance_id": "20085090_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.588763078053793,
+      "pairwise_seed_rmse_mean": 41.32408180236816
+    },
+    {
+      "instance_id": "20085090_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.751521174112955,
+      "pairwise_seed_rmse_mean": 39.6547440846761
+    },
+    {
+      "instance_id": "20085103_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.279672304789226,
+      "pairwise_seed_rmse_mean": 20.687830861409505
+    },
+    {
+      "instance_id": "20085103_mousebite_08",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.428839302062988,
+      "pairwise_seed_rmse_mean": 39.42791506449382
+    },
+    {
+      "instance_id": "20085103_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.923233985900879,
+      "pairwise_seed_rmse_mean": 33.431833267211914
+    },
+    {
+      "instance_id": "20085103_open_09",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.603703880310057,
+      "pairwise_seed_rmse_mean": 45.27079811096191
+    },
+    {
+      "instance_id": "20085103_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 25.441884104410807,
+      "pairwise_seed_rmse_mean": 56.05583572387695
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 22.640974362691242,
+      "pairwise_seed_rmse_mean": 55.23574574788412
+    },
+    {
+      "instance_id": "20085103_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 32.500653457641604,
+      "pairwise_seed_rmse_mean": 71.84913431803385
+    },
+    {
+      "instance_id": "20085103_spur_07",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 23.14734166463216,
+      "pairwise_seed_rmse_mean": 53.36220194498698
+    },
+    {
+      "instance_id": "20085103_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.71129035949707,
+      "pairwise_seed_rmse_mean": 42.24373728434245
+    },
+    {
+      "instance_id": "20085103_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 33.561950047810875,
+      "pairwise_seed_rmse_mean": 72.5184560139974
+    },
+    {
+      "instance_id": "20085107_mousebite_08",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.820536359151204,
+      "pairwise_seed_rmse_mean": 27.55905532836914
+    },
+    {
+      "instance_id": "20085107_mousebite_09",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.609749094645183,
+      "pairwise_seed_rmse_mean": 32.373205693562824
+    },
+    {
+      "instance_id": "20085107_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.99057248433431,
+      "pairwise_seed_rmse_mean": 31.091411081949868
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 24.664367802937825,
+      "pairwise_seed_rmse_mean": 56.01455942789713
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 26.380070622762045,
+      "pairwise_seed_rmse_mean": 54.192064666748045
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.957524522145588,
+      "pairwise_seed_rmse_mean": 33.85184847513835
+    },
+    {
+      "instance_id": "20085107_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 18.739625549316408,
+      "pairwise_seed_rmse_mean": 47.62852414449056
+    },
+    {
+      "instance_id": "20085107_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 21.160437774658202,
+      "pairwise_seed_rmse_mean": 51.275403086344404
+    },
+    {
+      "instance_id": "20085107_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 8.6868727684021,
+      "pairwise_seed_rmse_mean": 29.83459014892578
+    },
+    {
+      "instance_id": "20085107_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.886464309692382,
+      "pairwise_seed_rmse_mean": 38.58114369710287
+    },
+    {
+      "instance_id": "20085143_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 17.85942160288493,
+      "pairwise_seed_rmse_mean": 44.343458811442055
+    },
+    {
+      "instance_id": "20085143_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.262162335713704,
+      "pairwise_seed_rmse_mean": 35.49106585184733
+    },
+    {
+      "instance_id": "20085143_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.520317395528156,
+      "pairwise_seed_rmse_mean": 49.52453511555989
+    },
+    {
+      "instance_id": "20085143_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 27.605114364624022,
+      "pairwise_seed_rmse_mean": 61.97156778971354
+    },
+    {
+      "instance_id": "20085143_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 21.858024724324544,
+      "pairwise_seed_rmse_mean": 55.49239451090495
+    },
+    {
+      "instance_id": "20085143_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.797960472106933,
+      "pairwise_seed_rmse_mean": 41.81342124938965
+    },
+    {
+      "instance_id": "20085145_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 26.862260373433433,
+      "pairwise_seed_rmse_mean": 61.71146774291992
+    },
+    {
+      "instance_id": "20085145_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.176652431488037,
+      "pairwise_seed_rmse_mean": 32.79126917521159
+    },
+    {
+      "instance_id": "20085145_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.87632999420166,
+      "pairwise_seed_rmse_mean": 29.370196533203124
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 20.428277842203777,
+      "pairwise_seed_rmse_mean": 49.29439951578776
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 22.212486012776694,
+      "pairwise_seed_rmse_mean": 57.623230361938475
+    },
+    {
+      "instance_id": "20085145_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.12421817779541,
+      "pairwise_seed_rmse_mean": 40.78134511311849
+    },
+    {
+      "instance_id": "20085145_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 22.099230829874674,
+      "pairwise_seed_rmse_mean": 53.33604100545247
+    },
+    {
+      "instance_id": "20085145_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 9.472240130106607,
+      "pairwise_seed_rmse_mean": 34.405629348754886
+    },
+    {
+      "instance_id": "20085145_spurious_copper_07",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 26.024764251708984,
+      "pairwise_seed_rmse_mean": 66.36205851236979
+    },
+    {
+      "instance_id": "20085155_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.909053611755372,
+      "pairwise_seed_rmse_mean": 35.19256121317546
+    },
+    {
+      "instance_id": "20085155_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.385201422373454,
+      "pairwise_seed_rmse_mean": 29.231147257486978
+    },
+    {
+      "instance_id": "20085155_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 25.431952540079752,
+      "pairwise_seed_rmse_mean": 60.41291198730469
+    },
+    {
+      "instance_id": "20085155_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.766425132751465,
+      "pairwise_seed_rmse_mean": 44.86894556681315
+    },
+    {
+      "instance_id": "20085155_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.529595565795898,
+      "pairwise_seed_rmse_mean": 41.20841751098633
+    },
+    {
+      "instance_id": "20085155_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.989464632670085,
+      "pairwise_seed_rmse_mean": 40.47543907165527
+    },
+    {
+      "instance_id": "20085183_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.832006136576334,
+      "pairwise_seed_rmse_mean": 29.706110509236655
+    },
+    {
+      "instance_id": "20085183_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.425056743621827,
+      "pairwise_seed_rmse_mean": 28.022048314412434
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 20.710378201802573,
+      "pairwise_seed_rmse_mean": 53.49678192138672
+    },
+    {
+      "instance_id": "20085183_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.158712069193522,
+      "pairwise_seed_rmse_mean": 26.904940287272137
+    },
+    {
+      "instance_id": "20085183_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.944908301035563,
+      "pairwise_seed_rmse_mean": 37.28519426981608
+    },
+    {
+      "instance_id": "20085183_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 10.933775424957275,
+      "pairwise_seed_rmse_mean": 38.374851353963216
+    },
+    {
+      "instance_id": "20085185_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.879308446248373,
+      "pairwise_seed_rmse_mean": 49.554178110758464
+    },
+    {
+      "instance_id": "20085185_mousebite_07",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.787950706481933,
+      "pairwise_seed_rmse_mean": 33.53713849385579
+    },
+    {
+      "instance_id": "20085185_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.631160577138266,
+      "pairwise_seed_rmse_mean": 32.795043309529625
+    },
+    {
+      "instance_id": "20085185_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 18.28274771372477,
+      "pairwise_seed_rmse_mean": 49.27524159749349
+    },
+    {
+      "instance_id": "20085185_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.707847404479981,
+      "pairwise_seed_rmse_mean": 36.66262461344401
+    },
+    {
+      "instance_id": "20085185_pinhole_09",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.984920501708984,
+      "pairwise_seed_rmse_mean": 40.50294024149577
+    },
+    {
+      "instance_id": "20085185_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 25.141199175516764,
+      "pairwise_seed_rmse_mean": 62.78618367513021
+    },
+    {
+      "instance_id": "20085185_short_08",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.582031122843425,
+      "pairwise_seed_rmse_mean": 30.906868108113606
+    },
+    {
+      "instance_id": "20085185_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.886095237731933,
+      "pairwise_seed_rmse_mean": 41.76645596822103
+    },
+    {
+      "instance_id": "20085185_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.965438588460286,
+      "pairwise_seed_rmse_mean": 47.29696273803711
+    },
+    {
+      "instance_id": "20085201_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 19.06733818054199,
+      "pairwise_seed_rmse_mean": 44.81113700866699
+    },
+    {
+      "instance_id": "20085201_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 20.154761823018394,
+      "pairwise_seed_rmse_mean": 43.869347127278644
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.58702449798584,
+      "pairwise_seed_rmse_mean": 44.55835164388021
+    },
+    {
+      "instance_id": "20085201_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.575426038106283,
+      "pairwise_seed_rmse_mean": 32.975135803222656
+    },
+    {
+      "instance_id": "20085201_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 16.00305608113607,
+      "pairwise_seed_rmse_mean": 38.175681050618486
+    },
+    {
+      "instance_id": "20085201_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 29.388185882568358,
+      "pairwise_seed_rmse_mean": 75.20614217122396
+    },
+    {
+      "instance_id": "20085203_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.197482554117839,
+      "pairwise_seed_rmse_mean": 30.164634958902994
+    },
+    {
+      "instance_id": "20085203_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.831237856547038,
+      "pairwise_seed_rmse_mean": 50.386026000976564
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.717539660135905,
+      "pairwise_seed_rmse_mean": 38.16196556091309
+    },
+    {
+      "instance_id": "20085203_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 17.227423667907715,
+      "pairwise_seed_rmse_mean": 45.18026847839356
+    },
+    {
+      "instance_id": "20085203_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.374261856079102,
+      "pairwise_seed_rmse_mean": 32.65631268819173
+    },
+    {
+      "instance_id": "20085203_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 19.174067560831705,
+      "pairwise_seed_rmse_mean": 55.23097585042318
+    },
+    {
+      "instance_id": "20085217_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 6.008880233764648,
+      "pairwise_seed_rmse_mean": 23.12433007558187
+    },
+    {
+      "instance_id": "20085217_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.076342391967774,
+      "pairwise_seed_rmse_mean": 37.24344075520833
+    },
+    {
+      "instance_id": "20085217_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.984579022725423,
+      "pairwise_seed_rmse_mean": 42.040950775146484
+    },
+    {
+      "instance_id": "20085217_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.723712158203124,
+      "pairwise_seed_rmse_mean": 40.559102376302086
+    },
+    {
+      "instance_id": "20085217_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.148839886983236,
+      "pairwise_seed_rmse_mean": 34.59289258321126
+    },
+    {
+      "instance_id": "20085217_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 27.861926142374674,
+      "pairwise_seed_rmse_mean": 67.64442469278971
+    },
+    {
+      "instance_id": "20085221_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.84538548787435,
+      "pairwise_seed_rmse_mean": 35.24349708557129
+    },
+    {
+      "instance_id": "20085221_mousebite_07",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.798782539367675,
+      "pairwise_seed_rmse_mean": 34.86825688680013
+    },
+    {
+      "instance_id": "20085221_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.285230382283528,
+      "pairwise_seed_rmse_mean": 38.16483764648437
+    },
+    {
+      "instance_id": "20085221_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.011482429504394,
+      "pairwise_seed_rmse_mean": 35.991566212972
+    },
+    {
+      "instance_id": "20085221_open_02",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 10.210683759053548,
+      "pairwise_seed_rmse_mean": 29.924242528279624
+    },
+    {
+      "instance_id": "20085221_open_06",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.043898900349935,
+      "pairwise_seed_rmse_mean": 34.07115910847982
+    },
+    {
+      "instance_id": "20085221_pinhole_13",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 25.303634389241537,
+      "pairwise_seed_rmse_mean": 56.2372184753418
+    },
+    {
+      "instance_id": "20085221_pinhole_14",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.028774134318034,
+      "pairwise_seed_rmse_mean": 44.09799334208171
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.795549456278483,
+      "pairwise_seed_rmse_mean": 30.15486946105957
+    },
+    {
+      "instance_id": "20085221_short_04",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 19.807481320699058,
+      "pairwise_seed_rmse_mean": 52.89184544881185
+    },
+    {
+      "instance_id": "20085221_spur_08",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.800806363423666,
+      "pairwise_seed_rmse_mean": 44.55140838623047
+    },
+    {
+      "instance_id": "20085221_spur_09",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.335273043314615,
+      "pairwise_seed_rmse_mean": 52.426622009277345
+    },
+    {
+      "instance_id": "20085221_spur_10",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.105814107259114,
+      "pairwise_seed_rmse_mean": 46.781202952067055
+    },
+    {
+      "instance_id": "20085221_spurious_copper_11",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 20.28181807200114,
+      "pairwise_seed_rmse_mean": 52.7645985921224
+    },
+    {
+      "instance_id": "20085221_spurious_copper_12",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.691187731424968,
+      "pairwise_seed_rmse_mean": 48.51887537638346
+    },
+    {
+      "instance_id": "20085225_mousebite_06",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 27.70772082010905,
+      "pairwise_seed_rmse_mean": 64.89436289469401
+    },
+    {
+      "instance_id": "20085225_mousebite_07",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.03956921895345,
+      "pairwise_seed_rmse_mean": 45.05761973063151
+    },
+    {
+      "instance_id": "20085225_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.49199415842692,
+      "pairwise_seed_rmse_mean": 41.946362813313804
+    },
+    {
+      "instance_id": "20085225_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.1472838083903,
+      "pairwise_seed_rmse_mean": 35.2658384958903
+    },
+    {
+      "instance_id": "20085225_open_02",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.548478126525879,
+      "pairwise_seed_rmse_mean": 38.008326848347984
+    },
+    {
+      "instance_id": "20085225_pinhole_11",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 24.8695676167806,
+      "pairwise_seed_rmse_mean": 54.7344975789388
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 32.64656117757161,
+      "pairwise_seed_rmse_mean": 65.51630935668945
+    },
+    {
+      "instance_id": "20085225_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 22.530531883239746,
+      "pairwise_seed_rmse_mean": 55.42968037923177
+    },
+    {
+      "instance_id": "20085225_short_04",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 27.400680287679037,
+      "pairwise_seed_rmse_mean": 64.06098314921061
+    },
+    {
+      "instance_id": "20085225_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.10925909678141,
+      "pairwise_seed_rmse_mean": 43.767540740966794
+    },
+    {
+      "instance_id": "20085225_spur_08",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 28.754608472188313,
+      "pairwise_seed_rmse_mean": 64.13559900919596
+    },
+    {
+      "instance_id": "20085225_spur_09",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 21.042419751485188,
+      "pairwise_seed_rmse_mean": 55.54304453531901
+    },
+    {
+      "instance_id": "20085225_spurious_copper_10",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 10.168829600016275,
+      "pairwise_seed_rmse_mean": 32.86474494934082
+    },
+    {
+      "instance_id": "20085238_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 8.811609903971354,
+      "pairwise_seed_rmse_mean": 26.915317408243816
+    },
+    {
+      "instance_id": "20085238_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.491721153259277,
+      "pairwise_seed_rmse_mean": 29.1053160349528
+    },
+    {
+      "instance_id": "20085238_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.966072463989258,
+      "pairwise_seed_rmse_mean": 38.45536791483561
+    },
+    {
+      "instance_id": "20085238_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 20.25507418314616,
+      "pairwise_seed_rmse_mean": 47.98997243245443
+    },
+    {
+      "instance_id": "20085238_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.541214561462402,
+      "pairwise_seed_rmse_mean": 37.376599884033205
+    },
+    {
+      "instance_id": "20085238_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.080254173278808,
+      "pairwise_seed_rmse_mean": 29.4461119333903
+    },
+    {
+      "instance_id": "20085238_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.716169675191242,
+      "pairwise_seed_rmse_mean": 47.84982655843099
+    },
+    {
+      "instance_id": "20085238_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 20.33078606923421,
+      "pairwise_seed_rmse_mean": 51.72476018269857
+    },
+    {
+      "instance_id": "20085238_spurious_copper_07",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 9.424467086791992,
+      "pairwise_seed_rmse_mean": 31.309851328531902
+    },
+    {
+      "instance_id": "44000062_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.945688120524089,
+      "pairwise_seed_rmse_mean": 37.23515218098958
+    },
+    {
+      "instance_id": "44000062_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.350665918986003,
+      "pairwise_seed_rmse_mean": 37.90247942606608
+    },
+    {
+      "instance_id": "44000062_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.495641072591146,
+      "pairwise_seed_rmse_mean": 34.63914286295573
+    },
+    {
+      "instance_id": "44000062_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 31.250895055135093,
+      "pairwise_seed_rmse_mean": 70.06061299641927
+    },
+    {
+      "instance_id": "44000062_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 21.808727836608888,
+      "pairwise_seed_rmse_mean": 54.513013966878255
+    },
+    {
+      "instance_id": "44000062_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 8.075486119588216,
+      "pairwise_seed_rmse_mean": 31.199779256184897
+    },
+    {
+      "instance_id": "44000068_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.177551396687825,
+      "pairwise_seed_rmse_mean": 43.24709014892578
+    },
+    {
+      "instance_id": "44000068_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.514016087849935,
+      "pairwise_seed_rmse_mean": 45.34571889241536
+    },
+    {
+      "instance_id": "44000068_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 9.666719532012939,
+      "pairwise_seed_rmse_mean": 32.383301162719725
+    },
+    {
+      "instance_id": "44000068_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 34.316229756673174,
+      "pairwise_seed_rmse_mean": 77.34707005818684
+    },
+    {
+      "instance_id": "44000068_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 16.075171407063802,
+      "pairwise_seed_rmse_mean": 47.419432703653975
+    },
+    {
+      "instance_id": "44000068_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.54084587097168,
+      "pairwise_seed_rmse_mean": 48.340122095743816
+    },
+    {
+      "instance_id": "44000086_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 7.268339093526205,
+      "pairwise_seed_rmse_mean": 24.845951080322266
+    },
+    {
+      "instance_id": "44000086_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 30.839544423421223,
+      "pairwise_seed_rmse_mean": 69.4783103942871
+    },
+    {
+      "instance_id": "44000086_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.660897127787273,
+      "pairwise_seed_rmse_mean": 38.34887135823568
+    },
+    {
+      "instance_id": "44000086_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 27.43703702290853,
+      "pairwise_seed_rmse_mean": 62.77251663208008
+    },
+    {
+      "instance_id": "44000086_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 17.71682268778483,
+      "pairwise_seed_rmse_mean": 49.66314468383789
+    },
+    {
+      "instance_id": "44000086_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.012234942118328,
+      "pairwise_seed_rmse_mean": 38.90236447652181
+    },
+    {
+      "instance_id": "44000086_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 40.008056640625,
+      "pairwise_seed_rmse_mean": 82.23605143229166
+    },
+    {
+      "instance_id": "44000092_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.826074028015137,
+      "pairwise_seed_rmse_mean": 29.708163833618165
+    },
+    {
+      "instance_id": "44000092_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.982482465108237,
+      "pairwise_seed_rmse_mean": 57.961184692382815
+    },
+    {
+      "instance_id": "44000092_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 28.023558553059896,
+      "pairwise_seed_rmse_mean": 65.97607727050782
+    },
+    {
+      "instance_id": "44000092_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 12.73642667134603,
+      "pairwise_seed_rmse_mean": 38.14748191833496
+    },
+    {
+      "instance_id": "44000092_pinhole_09",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 8.978988965352377,
+      "pairwise_seed_rmse_mean": 28.927516428629556
+    },
+    {
+      "instance_id": "44000092_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.493417994181316,
+      "pairwise_seed_rmse_mean": 39.8436897277832
+    },
+    {
+      "instance_id": "44000092_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.81193946202596,
+      "pairwise_seed_rmse_mean": 29.991632843017577
+    },
+    {
+      "instance_id": "44000092_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 25.42981503804525,
+      "pairwise_seed_rmse_mean": 62.15042775472005
+    },
+    {
+      "instance_id": "44000092_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.988309129079182,
+      "pairwise_seed_rmse_mean": 32.006435775756835
+    },
+    {
+      "instance_id": "44000092_spurious_copper_07",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.416291077931723,
+      "pairwise_seed_rmse_mean": 49.28220354715983
+    },
+    {
+      "instance_id": "44000093_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 21.028065617879232,
+      "pairwise_seed_rmse_mean": 54.541272481282554
+    },
+    {
+      "instance_id": "44000093_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 9.503764184316,
+      "pairwise_seed_rmse_mean": 31.0338493347168
+    },
+    {
+      "instance_id": "44000093_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.777458000183106,
+      "pairwise_seed_rmse_mean": 45.19515584309896
+    },
+    {
+      "instance_id": "44000093_pinhole_07",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 9.202351665496826,
+      "pairwise_seed_rmse_mean": 30.641614151000976
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.051337242126465,
+      "pairwise_seed_rmse_mean": 39.428978474934894
+    },
+    {
+      "instance_id": "44000093_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 17.365332158406577,
+      "pairwise_seed_rmse_mean": 43.52972590128581
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 7.644879627227783,
+      "pairwise_seed_rmse_mean": 26.540026728312174
+    },
+    {
+      "instance_id": "44000093_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.741291936238607,
+      "pairwise_seed_rmse_mean": 51.70889790852865
+    },
+    {
+      "instance_id": "44000093_spurious_copper_06",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 10.192698287963868,
+      "pairwise_seed_rmse_mean": 37.992659378051755
+    },
+    {
+      "instance_id": "44000096_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 20.19465134938558,
+      "pairwise_seed_rmse_mean": 48.10080134073893
+    },
+    {
+      "instance_id": "44000096_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.226434580485027,
+      "pairwise_seed_rmse_mean": 46.5179812113444
+    },
+    {
+      "instance_id": "44000096_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.120651308695475,
+      "pairwise_seed_rmse_mean": 41.53913269042969
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 23.76050631205241,
+      "pairwise_seed_rmse_mean": 61.616485087076825
+    },
+    {
+      "instance_id": "44000096_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 17.76513239542643,
+      "pairwise_seed_rmse_mean": 51.89284896850586
+    },
+    {
+      "instance_id": "44000096_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.17199681599935,
+      "pairwise_seed_rmse_mean": 50.22202758789062
+    },
+    {
+      "instance_id": "44000104_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.385417906443278,
+      "pairwise_seed_rmse_mean": 36.02174975077311
+    },
+    {
+      "instance_id": "44000104_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.535692977905274,
+      "pairwise_seed_rmse_mean": 45.71334330240885
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 25.11344140370687,
+      "pairwise_seed_rmse_mean": 63.28851318359375
+    },
+    {
+      "instance_id": "44000104_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 18.203935877482095,
+      "pairwise_seed_rmse_mean": 51.13078676859538
+    },
+    {
+      "instance_id": "44000104_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.302777735392253,
+      "pairwise_seed_rmse_mean": 48.49621480305989
+    },
+    {
+      "instance_id": "44000104_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.129106330871583,
+      "pairwise_seed_rmse_mean": 42.267601776123044
+    },
+    {
+      "instance_id": "44000107_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.962320327758789,
+      "pairwise_seed_rmse_mean": 40.3347110748291
+    },
+    {
+      "instance_id": "44000107_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.783105023701985,
+      "pairwise_seed_rmse_mean": 41.894788869222005
+    },
+    {
+      "instance_id": "44000107_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 23.457610448201496,
+      "pairwise_seed_rmse_mean": 54.62087580362956
+    },
+    {
+      "instance_id": "44000107_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 26.55670585632324,
+      "pairwise_seed_rmse_mean": 58.954891713460285
+    },
+    {
+      "instance_id": "44000107_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.970020993550618,
+      "pairwise_seed_rmse_mean": 41.261088053385414
+    },
+    {
+      "instance_id": "44000107_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 23.54033851623535,
+      "pairwise_seed_rmse_mean": 51.888458506266275
+    },
+    {
+      "instance_id": "44000110_mousebite_03",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.664096705118816,
+      "pairwise_seed_rmse_mean": 46.04037653605143
+    },
+    {
+      "instance_id": "44000110_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.001042811075845,
+      "pairwise_seed_rmse_mean": 43.7395736694336
+    },
+    {
+      "instance_id": "44000110_open_01",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 18.385394605000815,
+      "pairwise_seed_rmse_mean": 52.83433278401693
+    },
+    {
+      "instance_id": "44000110_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 11.693040339152018,
+      "pairwise_seed_rmse_mean": 37.730237833658855
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 21.330002212524413,
+      "pairwise_seed_rmse_mean": 59.1155507405599
+    },
+    {
+      "instance_id": "44000110_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 26.089737319946288,
+      "pairwise_seed_rmse_mean": 63.989234161376956
+    },
+    {
+      "instance_id": "44000110_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 24.08687973022461,
+      "pairwise_seed_rmse_mean": 55.50517247517904
+    },
+    {
+      "instance_id": "50600001_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 19.799421946207683,
+      "pairwise_seed_rmse_mean": 44.22461878458659
+    },
+    {
+      "instance_id": "50600001_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.68560651143392,
+      "pairwise_seed_rmse_mean": 30.234808858235677
+    },
+    {
+      "instance_id": "50600001_pinhole_02",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.954491233825685,
+      "pairwise_seed_rmse_mean": 51.29644597371419
+    },
+    {
+      "instance_id": "50600001_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.949982325236002,
+      "pairwise_seed_rmse_mean": 29.636737442016603
+    },
+    {
+      "instance_id": "50600001_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.38895517985026,
+      "pairwise_seed_rmse_mean": 36.42223281860352
+    },
+    {
+      "instance_id": "50600001_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.933755111694335,
+      "pairwise_seed_rmse_mean": 43.398360061645505
+    },
+    {
+      "instance_id": "50600015_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.399762662251792,
+      "pairwise_seed_rmse_mean": 49.39467010498047
+    },
+    {
+      "instance_id": "50600015_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.122773615519206,
+      "pairwise_seed_rmse_mean": 30.59701410929362
+    },
+    {
+      "instance_id": "50600015_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 23.18707275390625,
+      "pairwise_seed_rmse_mean": 54.21228790283203
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.958770942687988,
+      "pairwise_seed_rmse_mean": 39.393122863769534
+    },
+    {
+      "instance_id": "50600015_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 16.701366742451984,
+      "pairwise_seed_rmse_mean": 40.82591018676758
+    },
+    {
+      "instance_id": "50600015_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.06527779897054,
+      "pairwise_seed_rmse_mean": 39.47756779988607
+    },
+    {
+      "instance_id": "50600021_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.456569449106853,
+      "pairwise_seed_rmse_mean": 37.73712412516276
+    },
+    {
+      "instance_id": "50600021_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.89585787455241,
+      "pairwise_seed_rmse_mean": 44.50224049886068
+    },
+    {
+      "instance_id": "50600021_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 10.746126492818197,
+      "pairwise_seed_rmse_mean": 35.28806660970052
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 8.726042811075846,
+      "pairwise_seed_rmse_mean": 29.47619514465332
+    },
+    {
+      "instance_id": "50600021_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.258903312683106,
+      "pairwise_seed_rmse_mean": 30.848653030395507
+    },
+    {
+      "instance_id": "50600021_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.71801586151123,
+      "pairwise_seed_rmse_mean": 38.90285224914551
+    },
+    {
+      "instance_id": "50600024_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.629695606231689,
+      "pairwise_seed_rmse_mean": 32.53241907755534
+    },
+    {
+      "instance_id": "50600024_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.64408696492513,
+      "pairwise_seed_rmse_mean": 59.686910756429036
+    },
+    {
+      "instance_id": "50600024_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.191746775309245,
+      "pairwise_seed_rmse_mean": 47.78690719604492
+    },
+    {
+      "instance_id": "50600024_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.80642614364624,
+      "pairwise_seed_rmse_mean": 30.062269973754884
+    },
+    {
+      "instance_id": "50600024_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 15.671657689412434,
+      "pairwise_seed_rmse_mean": 47.26081631978353
+    },
+    {
+      "instance_id": "50600024_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 11.495803292592367,
+      "pairwise_seed_rmse_mean": 35.286659749348956
+    },
+    {
+      "instance_id": "50600028_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.978993034362793,
+      "pairwise_seed_rmse_mean": 38.053744379679365
+    },
+    {
+      "instance_id": "50600028_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.90510082244873,
+      "pairwise_seed_rmse_mean": 42.79484380086263
+    },
+    {
+      "instance_id": "50600028_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.39592081705729,
+      "pairwise_seed_rmse_mean": 50.11242777506511
+    },
+    {
+      "instance_id": "50600028_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.223608652750652,
+      "pairwise_seed_rmse_mean": 42.704281361897785
+    },
+    {
+      "instance_id": "50600028_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.725297260284425,
+      "pairwise_seed_rmse_mean": 32.56874860127767
+    },
+    {
+      "instance_id": "50600028_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.0714594523112,
+      "pairwise_seed_rmse_mean": 48.97940317789713
+    },
+    {
+      "instance_id": "50600032_mousebite_05",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.74789269765218,
+      "pairwise_seed_rmse_mean": 47.41552530924479
+    },
+    {
+      "instance_id": "50600032_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.785932159423828,
+      "pairwise_seed_rmse_mean": 42.91880760192871
+    },
+    {
+      "instance_id": "50600032_pinhole_02",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.106911977132162,
+      "pairwise_seed_rmse_mean": 44.54577980041504
+    },
+    {
+      "instance_id": "50600032_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 10.776435883839925,
+      "pairwise_seed_rmse_mean": 33.113549041748044
+    },
+    {
+      "instance_id": "50600032_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.315956751505533,
+      "pairwise_seed_rmse_mean": 44.23194122314453
+    },
+    {
+      "instance_id": "50600032_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.46865406036377,
+      "pairwise_seed_rmse_mean": 44.376465225219725
+    },
+    {
+      "instance_id": "50600049_mousebite_06",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.755433082580566,
+      "pairwise_seed_rmse_mean": 38.23089650472005
+    },
+    {
+      "instance_id": "50600049_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.837494468688966,
+      "pairwise_seed_rmse_mean": 50.33504994710287
+    },
+    {
+      "instance_id": "50600049_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.89852148691813,
+      "pairwise_seed_rmse_mean": 44.35820452372233
+    },
+    {
+      "instance_id": "50600049_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.139593505859375,
+      "pairwise_seed_rmse_mean": 33.93149948120117
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.943606948852539,
+      "pairwise_seed_rmse_mean": 34.67024116516113
+    },
+    {
+      "instance_id": "50600049_spur_02",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.044271151224772,
+      "pairwise_seed_rmse_mean": 24.87512550354004
+    },
+    {
+      "instance_id": "50600049_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 24.17070458730062,
+      "pairwise_seed_rmse_mean": 56.85859692891439
+    },
+    {
+      "instance_id": "77000008_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.982851791381837,
+      "pairwise_seed_rmse_mean": 40.61809336344401
+    },
+    {
+      "instance_id": "77000008_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.874479675292967,
+      "pairwise_seed_rmse_mean": 46.74725062052409
+    },
+    {
+      "instance_id": "77000008_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 21.278571573893228,
+      "pairwise_seed_rmse_mean": 56.216742451985674
+    },
+    {
+      "instance_id": "77000008_pinhole_06",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.74688326517741,
+      "pairwise_seed_rmse_mean": 46.85968907674154
+    },
+    {
+      "instance_id": "77000008_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.749556096394857,
+      "pairwise_seed_rmse_mean": 34.2709348042806
+    },
+    {
+      "instance_id": "77000008_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.349099858601887,
+      "pairwise_seed_rmse_mean": 35.06023089090983
+    },
+    {
+      "instance_id": "77000008_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.442882283528645,
+      "pairwise_seed_rmse_mean": 41.98089078267415
+    },
+    {
+      "instance_id": "77000019_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.801807975769043,
+      "pairwise_seed_rmse_mean": 45.68771794637044
+    },
+    {
+      "instance_id": "77000019_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 28.43073501586914,
+      "pairwise_seed_rmse_mean": 68.98113733927408
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.386476771036785,
+      "pairwise_seed_rmse_mean": 47.872790273030596
+    },
+    {
+      "instance_id": "77000019_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.263568623860676,
+      "pairwise_seed_rmse_mean": 35.465161895751955
+    },
+    {
+      "instance_id": "77000019_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.474712308247884,
+      "pairwise_seed_rmse_mean": 32.56574668884277
+    },
+    {
+      "instance_id": "77000019_spurious_copper_03",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 19.70993576049805,
+      "pairwise_seed_rmse_mean": 54.97171249389648
+    },
+    {
+      "instance_id": "77000020_mousebite_00",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 14.351394844055175,
+      "pairwise_seed_rmse_mean": 41.35425351460775
+    },
+    {
+      "instance_id": "77000020_open_05",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.851479466756185,
+      "pairwise_seed_rmse_mean": 42.63040313720703
+    },
+    {
+      "instance_id": "77000020_pinhole_02",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.259008916219077,
+      "pairwise_seed_rmse_mean": 52.82280451456706
+    },
+    {
+      "instance_id": "77000020_short_04",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.148914273579916,
+      "pairwise_seed_rmse_mean": 39.356442260742185
+    },
+    {
+      "instance_id": "77000020_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.559546820322673,
+      "pairwise_seed_rmse_mean": 37.976369094848636
+    },
+    {
+      "instance_id": "77000020_spurious_copper_01",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.984630711873372,
+      "pairwise_seed_rmse_mean": 44.70089391072591
+    },
+    {
+      "instance_id": "77000044_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.461305491129558,
+      "pairwise_seed_rmse_mean": 43.55221417744954
+    },
+    {
+      "instance_id": "77000044_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 19.63038705190023,
+      "pairwise_seed_rmse_mean": 51.769004567464194
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 16.618974049886067,
+      "pairwise_seed_rmse_mean": 48.9932357788086
+    },
+    {
+      "instance_id": "77000044_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 12.755706564585369,
+      "pairwise_seed_rmse_mean": 39.12204577128092
+    },
+    {
+      "instance_id": "77000044_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.3963560740153,
+      "pairwise_seed_rmse_mean": 34.69778607686361
+    },
+    {
+      "instance_id": "77000044_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 12.729526774088542,
+      "pairwise_seed_rmse_mean": 42.01819343566895
+    },
+    {
+      "instance_id": "77000076_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 13.276190439860025,
+      "pairwise_seed_rmse_mean": 42.103458150227866
+    },
+    {
+      "instance_id": "77000076_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 16.88560848236084,
+      "pairwise_seed_rmse_mean": 46.25288836161295
+    },
+    {
+      "instance_id": "77000076_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 9.908644421895344,
+      "pairwise_seed_rmse_mean": 35.47733777364095
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.285573768615723,
+      "pairwise_seed_rmse_mean": 36.29678484598796
+    },
+    {
+      "instance_id": "77000076_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.77723315556844,
+      "pairwise_seed_rmse_mean": 34.04214070638021
+    },
+    {
+      "instance_id": "77000076_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 17.025375239054362,
+      "pairwise_seed_rmse_mean": 54.219747161865236
+    },
+    {
+      "instance_id": "77000081_mousebite_00",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.967508506774902,
+      "pairwise_seed_rmse_mean": 32.40236587524414
+    },
+    {
+      "instance_id": "77000081_open_04",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 24.23767375946045,
+      "pairwise_seed_rmse_mean": 60.259090932210285
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 21.25614382425944,
+      "pairwise_seed_rmse_mean": 51.46641565958659
+    },
+    {
+      "instance_id": "77000081_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 18.549152183532716,
+      "pairwise_seed_rmse_mean": 47.383349100748696
+    },
+    {
+      "instance_id": "77000081_spur_01",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.623690605163574,
+      "pairwise_seed_rmse_mean": 35.452925491333005
+    },
+    {
+      "instance_id": "77000081_spurious_copper_02",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.506907145182291,
+      "pairwise_seed_rmse_mean": 41.72178738911946
+    },
+    {
+      "instance_id": "77000082_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.792094866434734,
+      "pairwise_seed_rmse_mean": 52.3484006245931
+    },
+    {
+      "instance_id": "77000082_mousebite_04",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 15.597135416666667,
+      "pairwise_seed_rmse_mean": 39.81760126749675
+    },
+    {
+      "instance_id": "77000082_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 17.78744557698568,
+      "pairwise_seed_rmse_mean": 45.71217002868652
+    },
+    {
+      "instance_id": "77000082_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 13.473585319519042,
+      "pairwise_seed_rmse_mean": 44.00035858154297
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.902543099721273,
+      "pairwise_seed_rmse_mean": 38.19568112691243
+    },
+    {
+      "instance_id": "77000082_spur_06",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 9.285543537139892,
+      "pairwise_seed_rmse_mean": 31.50302645365397
+    },
+    {
+      "instance_id": "77000082_spurious_copper_02",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 22.785597610473634,
+      "pairwise_seed_rmse_mean": 63.293992360432945
+    },
+    {
+      "instance_id": "77000083_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 10.450957934061686,
+      "pairwise_seed_rmse_mean": 31.111318588256836
+    },
+    {
+      "instance_id": "77000083_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.676419258117676,
+      "pairwise_seed_rmse_mean": 34.6467165629069
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.70725008646647,
+      "pairwise_seed_rmse_mean": 52.92903442382813
+    },
+    {
+      "instance_id": "77000083_short_04",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 14.097789446512857,
+      "pairwise_seed_rmse_mean": 40.116007741292314
+    },
+    {
+      "instance_id": "77000083_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.755297629038493,
+      "pairwise_seed_rmse_mean": 37.40313135782878
+    },
+    {
+      "instance_id": "77000083_spurious_copper_02",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.515361150105795,
+      "pairwise_seed_rmse_mean": 47.304962158203125
+    },
+    {
+      "instance_id": "77000095_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 18.537400499979654,
+      "pairwise_seed_rmse_mean": 43.18088048299153
+    },
+    {
+      "instance_id": "77000095_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.899798965454101,
+      "pairwise_seed_rmse_mean": 42.36214548746745
+    },
+    {
+      "instance_id": "77000095_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 17.777751668294272,
+      "pairwise_seed_rmse_mean": 52.857880147298175
+    },
+    {
+      "instance_id": "77000095_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.067901229858398,
+      "pairwise_seed_rmse_mean": 37.05982030232747
+    },
+    {
+      "instance_id": "77000095_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 19.44063491821289,
+      "pairwise_seed_rmse_mean": 51.01080576578776
+    },
+    {
+      "instance_id": "77000095_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.408370971679688,
+      "pairwise_seed_rmse_mean": 47.581947072347006
+    },
+    {
+      "instance_id": "92000006_mousebite_01",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.855472183227539,
+      "pairwise_seed_rmse_mean": 34.6233642578125
+    },
+    {
+      "instance_id": "92000006_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 23.813940811157227,
+      "pairwise_seed_rmse_mean": 59.18921432495117
+    },
+    {
+      "instance_id": "92000006_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 22.67889601389567,
+      "pairwise_seed_rmse_mean": 59.286659495035806
+    },
+    {
+      "instance_id": "92000006_short_05",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 15.179924774169923,
+      "pairwise_seed_rmse_mean": 47.48681920369466
+    },
+    {
+      "instance_id": "92000006_spur_04",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 11.022583262125652,
+      "pairwise_seed_rmse_mean": 37.520273462931314
+    },
+    {
+      "instance_id": "92000006_spurious_copper_02",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 14.48222599029541,
+      "pairwise_seed_rmse_mean": 45.88105138142904
+    },
+    {
+      "instance_id": "92000008_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 9.822775808970134,
+      "pairwise_seed_rmse_mean": 31.926585388183593
+    },
+    {
+      "instance_id": "92000008_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 22.820782470703126,
+      "pairwise_seed_rmse_mean": 56.78904622395833
+    },
+    {
+      "instance_id": "92000008_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.154391225179037,
+      "pairwise_seed_rmse_mean": 51.24392878214518
+    },
+    {
+      "instance_id": "92000008_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 8.990622933705648,
+      "pairwise_seed_rmse_mean": 31.876853942871094
+    },
+    {
+      "instance_id": "92000008_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 16.553531901041666,
+      "pairwise_seed_rmse_mean": 49.01054814656575
+    },
+    {
+      "instance_id": "92000008_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.399155426025391,
+      "pairwise_seed_rmse_mean": 41.98638801574707
+    },
+    {
+      "instance_id": "92000044_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 20.692624855041505,
+      "pairwise_seed_rmse_mean": 53.63664067586263
+    },
+    {
+      "instance_id": "92000044_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 15.265896733601888,
+      "pairwise_seed_rmse_mean": 46.113929748535156
+    },
+    {
+      "instance_id": "92000044_pinhole_03",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 18.73641757965088,
+      "pairwise_seed_rmse_mean": 51.61736297607422
+    },
+    {
+      "instance_id": "92000044_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 16.95710302988688,
+      "pairwise_seed_rmse_mean": 49.70835800170899
+    },
+    {
+      "instance_id": "92000044_spur_05",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 13.260263252258301,
+      "pairwise_seed_rmse_mean": 44.533043162027994
+    },
+    {
+      "instance_id": "92000044_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.98170903523763,
+      "pairwise_seed_rmse_mean": 45.47093989054362
+    },
+    {
+      "instance_id": "92000060_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 12.79221477508545,
+      "pairwise_seed_rmse_mean": 40.37510732014974
+    },
+    {
+      "instance_id": "92000060_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 12.321551545461018,
+      "pairwise_seed_rmse_mean": 37.91853332519531
+    },
+    {
+      "instance_id": "92000060_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 14.23940372467041,
+      "pairwise_seed_rmse_mean": 44.74071248372396
+    },
+    {
+      "instance_id": "92000060_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 13.952794202168782,
+      "pairwise_seed_rmse_mean": 43.767578252156575
+    },
+    {
+      "instance_id": "92000060_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 10.223092746734618,
+      "pairwise_seed_rmse_mean": 37.454180272420246
+    },
+    {
+      "instance_id": "92000060_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.102745310465496,
+      "pairwise_seed_rmse_mean": 50.24317474365235
+    },
+    {
+      "instance_id": "92000073_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 17.615384674072267,
+      "pairwise_seed_rmse_mean": 47.79451535542806
+    },
+    {
+      "instance_id": "92000073_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 13.523443412780761,
+      "pairwise_seed_rmse_mean": 42.649336369832355
+    },
+    {
+      "instance_id": "92000073_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.17062161763509,
+      "pairwise_seed_rmse_mean": 47.36620903015137
+    },
+    {
+      "instance_id": "92000073_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 6.91363639831543,
+      "pairwise_seed_rmse_mean": 27.731964365641275
+    },
+    {
+      "instance_id": "92000073_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 8.948550764719645,
+      "pairwise_seed_rmse_mean": 34.02280464172363
+    },
+    {
+      "instance_id": "92000073_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 13.997963205973308,
+      "pairwise_seed_rmse_mean": 45.48230463663737
+    },
+    {
+      "instance_id": "92000077_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.102515029907227,
+      "pairwise_seed_rmse_mean": 43.46791076660156
+    },
+    {
+      "instance_id": "92000077_mousebite_06",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 16.243287785847983,
+      "pairwise_seed_rmse_mean": 45.271077728271486
+    },
+    {
+      "instance_id": "92000077_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 11.352492968241373,
+      "pairwise_seed_rmse_mean": 37.19535738627116
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 22.828115717569986,
+      "pairwise_seed_rmse_mean": 59.58887456258138
+    },
+    {
+      "instance_id": "92000077_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 11.910200214385986,
+      "pairwise_seed_rmse_mean": 38.120656967163086
+    },
+    {
+      "instance_id": "92000077_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 14.93624080022176,
+      "pairwise_seed_rmse_mean": 47.57371571858724
+    },
+    {
+      "instance_id": "92000077_spurious_copper_05",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 15.536770629882813,
+      "pairwise_seed_rmse_mean": 47.97146123250325
+    },
+    {
+      "instance_id": "92000081_mousebite_02",
+      "class_name": "mousebite",
+      "pairwise_seed_mae_mean": 11.532023747762045,
+      "pairwise_seed_rmse_mean": 36.988168970743814
+    },
+    {
+      "instance_id": "92000081_open_00",
+      "class_name": "open",
+      "pairwise_seed_mae_mean": 14.790256881713868,
+      "pairwise_seed_rmse_mean": 44.754582214355466
+    },
+    {
+      "instance_id": "92000081_pinhole_05",
+      "class_name": "pinhole",
+      "pairwise_seed_mae_mean": 15.853108406066895,
+      "pairwise_seed_rmse_mean": 47.39037958780924
+    },
+    {
+      "instance_id": "92000081_short_01",
+      "class_name": "short",
+      "pairwise_seed_mae_mean": 9.58751490910848,
+      "pairwise_seed_rmse_mean": 33.064073435465495
+    },
+    {
+      "instance_id": "92000081_spur_03",
+      "class_name": "spur",
+      "pairwise_seed_mae_mean": 12.568356959025065,
+      "pairwise_seed_rmse_mean": 39.63720448811849
+    },
+    {
+      "instance_id": "92000081_spurious_copper_04",
+      "class_name": "spurious_copper",
+      "pairwise_seed_mae_mean": 18.769634246826172,
+      "pairwise_seed_rmse_mean": 57.439642588297524
+    }
+  ],
+  "mask_rule": "union of each pair's frozen effective masks"
+}
