@@ -1,0 +1,22 @@
+{
+  "reused_not_retrained": true,
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "real_train_tree_sha256": "fabbe4fbe865ab5754bdc456275dd1e4ae36ce055da6db97af61d0659bc37608",
+  "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40",
+  "arms": {
+    "inner": {
+      "checkpoint_sha256": "f2280f941ebfba1e5db3754c908a528ccc11fa5f9c45067fd71628c2a5c2b1e7",
+      "best_epoch": 43,
+      "stop_epoch": 83,
+      "audited_epochs": 83,
+      "schedule_sha256": "9a8d828d633a98f06b245b733f9b79b54af3f8fab60d28698e6f2e516cd3aebc"
+    },
+    "novel": {
+      "checkpoint_sha256": "dc209e24e873529ade23d2a1c9bcefcd851ac2dbebb99c7723d1e29b12257bd9",
+      "best_epoch": 105,
+      "stop_epoch": 145,
+      "audited_epochs": 145,
+      "schedule_sha256": "9a8d828d633a98f06b245b733f9b79b54af3f8fab60d28698e6f2e516cd3aebc"
+    }
+  }
+}

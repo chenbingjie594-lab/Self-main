@@ -1,0 +1,43 @@
+{
+  "canonical_manifest_sha256": {
+    "inner": "816587994c62ed1fbbfb996055906b7a7f00211113e0f1adbed552b74065345c",
+    "novel": "20b385af965e7b9aa4ef00af4f8c048f839ad697b85179705ce874d8b7799fce"
+  },
+  "file_sha256": {
+    "inner": "37b9d2f353871ed7912895f1336f4149c7912ff810b5414f5a45ba04fed03d47",
+    "novel": "047d4699ba7eec58b7bda348297ecbaa96ba982845e2bda8a8a1b6110070d786"
+  },
+  "frozen_novelty_separation_sha256": "9ed807b1e775a8ad071aba4f5efd8cb7d1430127b6a821491bbfa9862664fe1e",
+  "frozen_pixel_nuisance_sha256": "59ba9c8a7e87b9bedc225a1aa410e88e82136585d74cd3c3d5bf46c5bd508168",
+  "candidate_count_per_arm": 160,
+  "same_source_ids": true,
+  "same_pair_ids": true,
+  "same_class_histogram": {
+    "open": 30,
+    "short": 25,
+    "mousebite": 24,
+    "spur": 28,
+    "spurious_copper": 28,
+    "pinhole": 25
+  },
+  "generation_seed_histogram": {
+    "inner": {
+      "2026": 30,
+      "42": 91,
+      "3407": 9,
+      "12011": 11,
+      "7859": 17,
+      "15683": 2
+    },
+    "novel": {
+      "42": 66,
+      "2026": 42,
+      "12011": 11,
+      "7859": 15,
+      "3407": 19,
+      "15683": 7
+    }
+  },
+  "generation_seed_distribution_fixed_residual_nuisance": true,
+  "candidate_reselection_count": 0
+}

@@ -1,0 +1,41 @@
+{
+  "per_arm_seed": {
+    "inner": {
+      "42": {
+        "best_epoch": 43,
+        "stop_epoch": 83,
+        "optimizer_batches_completed": 3569
+      },
+      "3407": {
+        "best_epoch": 81,
+        "stop_epoch": 121,
+        "optimizer_batches_completed": 5203
+      },
+      "2026": {
+        "best_epoch": 144,
+        "stop_epoch": 150,
+        "optimizer_batches_completed": 6450
+      }
+    },
+    "novel": {
+      "42": {
+        "best_epoch": 105,
+        "stop_epoch": 145,
+        "optimizer_batches_completed": 6235
+      },
+      "3407": {
+        "best_epoch": 127,
+        "stop_epoch": 150,
+        "optimizer_batches_completed": 6450
+      },
+      "2026": {
+        "best_epoch": 142,
+        "stop_epoch": 150,
+        "optimizer_batches_completed": 6450
+      }
+    }
+  },
+  "same_max_budget_and_early_stopping_rule": true,
+  "not_fixed_step_effect": true,
+  "actual_optimizer_step_count_inferred_from_audited_batches": true
+}

@@ -1,0 +1,22 @@
+{
+  "3407": {
+    "sha256": "5026d9a7512df9f01868d75a9273af0b76b3f0861c85a8a197121cb9db1e3b77",
+    "same_real_sequence": true,
+    "same_synthetic_source_sequence": true,
+    "same_source_type_sequence": true,
+    "real_draws_per_epoch": 260,
+    "synthetic_draws_per_epoch": 80,
+    "batches_per_epoch": 43,
+    "last_batch_size": 4
+  },
+  "2026": {
+    "sha256": "cc6abb657d12bdda96ec957189008c1e34d022640807bb453d7fc4370d0d7d9b",
+    "same_real_sequence": true,
+    "same_synthetic_source_sequence": true,
+    "same_source_type_sequence": true,
+    "real_draws_per_epoch": 260,
+    "synthetic_draws_per_epoch": 80,
+    "batches_per_epoch": 43,
+    "last_batch_size": 4
+  }
+}
