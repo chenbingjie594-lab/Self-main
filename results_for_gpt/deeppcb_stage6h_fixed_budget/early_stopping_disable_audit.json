@@ -1,0 +1,9 @@
+{
+  "ultralytics_version": "8.4.145",
+  "strategy": "patience_gt_epochs",
+  "patience": 151,
+  "epochs": 150,
+  "early_stopping_source_sha256": "f2960cc9644007bf07b7aca96c6f40b33278cae2a5351415f8cdc39610fab10e",
+  "worst_case_simulated_early_stop": false,
+  "new_run_stop_epoch_required": 150
+}

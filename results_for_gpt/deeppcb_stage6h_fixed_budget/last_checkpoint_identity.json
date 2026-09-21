@@ -1,0 +1,50 @@
+{
+  "inner_s42": {
+    "path": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage6h_fixed_budget/inner_fixed150_s42/weights/last.pt",
+    "sha256": "2bd70bf599c9c376882eac97a559e90cae242a2f7c4499748caa41d6c8fb9a9e",
+    "checkpoint_epoch": 150,
+    "stored_epoch_field": -1,
+    "identity_basis": "150_row_history_and_exposure_audit",
+    "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+  },
+  "novel_s42": {
+    "path": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage6h_fixed_budget/novel_fixed150_s42/weights/last.pt",
+    "sha256": "d477107bfc39b90bdb90ca622f29df46e780a1641250974159b9f529ac1c2268",
+    "checkpoint_epoch": 150,
+    "stored_epoch_field": -1,
+    "identity_basis": "150_row_history_and_exposure_audit",
+    "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+  },
+  "inner_s3407": {
+    "path": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/deeppcb_stage6h_fixed_budget/inner_fixed150_s3407/weights/last.pt",
+    "sha256": "997cccaa5c4db87a7e011b9fd8df2defd1a0dc27a5b0bd78ce75bbbfda09762a",
+    "checkpoint_epoch": 150,
+    "stored_epoch_field": -1,
+    "identity_basis": "150_row_history_and_exposure_audit",
+    "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+  },
+  "novel_s3407": {
+    "path": "runs/deeppcb_stage6g_novelty_multiseed/novel_s3407/weights/last.pt",
+    "sha256": "e1285a826ebb761337db303a67a3caa0d5d8251f2ea63adbdc8e3449e9279301",
+    "checkpoint_epoch": 150,
+    "stored_epoch_field": -1,
+    "identity_basis": "150_row_history_and_exposure_audit",
+    "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+  },
+  "inner_s2026": {
+    "path": "runs/deeppcb_stage6g_novelty_multiseed/inner_s2026/weights/last.pt",
+    "sha256": "34a372ef4eb3c191831af408dfd1234477502f80325e50896c3d0c5652893a65",
+    "checkpoint_epoch": 150,
+    "stored_epoch_field": -1,
+    "identity_basis": "150_row_history_and_exposure_audit",
+    "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+  },
+  "novel_s2026": {
+    "path": "runs/deeppcb_stage6g_novelty_multiseed/novel_s2026/weights/last.pt",
+    "sha256": "c76005589a31ab6cc9883e237937121cbbd571bf762a919b41f88085400c5bc2",
+    "checkpoint_epoch": 150,
+    "stored_epoch_field": -1,
+    "identity_basis": "150_row_history_and_exposure_audit",
+    "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44"
+  }
+}

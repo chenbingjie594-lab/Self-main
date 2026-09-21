@@ -1,0 +1,31 @@
+{
+  "canonical_manifest_sha256": {
+    "inner": "816587994c62ed1fbbfb996055906b7a7f00211113e0f1adbed552b74065345c",
+    "novel": "20b385af965e7b9aa4ef00af4f8c048f839ad697b85179705ce874d8b7799fce"
+  },
+  "candidate_count_per_arm": 160,
+  "candidate_reselection_count": 0,
+  "same_source_ids": true,
+  "same_pair_ids": true,
+  "generation_seed_histogram": {
+    "inner": {
+      "2026": 30,
+      "42": 91,
+      "3407": 9,
+      "12011": 11,
+      "7859": 17,
+      "15683": 2
+    },
+    "novel": {
+      "42": 66,
+      "2026": 42,
+      "12011": 11,
+      "7859": 15,
+      "3407": 19,
+      "15683": 7
+    }
+  },
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "real_train_tree_sha256": "fabbe4fbe865ab5754bdc456275dd1e4ae36ce055da6db97af61d0659bc37608",
+  "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40"
+}
