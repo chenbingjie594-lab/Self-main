@@ -1,0 +1,10 @@
+{
+  "evaluation_reference": "same 775 real instances used for generator training",
+  "physical_training_pairs": 100,
+  "evaluation_physical_pairs": 100,
+  "same_identity": true,
+  "official_downstream_validation_use_count": 0,
+  "claim_scope": "training-reference reconstruction/fidelity; not unseen generalization",
+  "protocol_frozen_before_metrics": true,
+  "generator_or_candidate_changes": 0
+}

@@ -1,0 +1,29 @@
+{
+  "unit": "source instance; all six seeds retained",
+  "sources": 775,
+  "replicates": 10000,
+  "seed": 2026,
+  "metrics": {
+    "lpips_delta": {
+      "observed_source_mean": 0.006424186903011974,
+      "ci95_percentile": [
+        0.005807821385106773,
+        0.007047323470437018
+      ]
+    },
+    "ssim_delta": {
+      "observed_source_mean": -0.002399886898126837,
+      "ci95_percentile": [
+        -0.004578677047645526,
+        -0.0003810902746417365
+      ]
+    },
+    "edge_delta": {
+      "observed_source_mean": -0.006606513740358132,
+      "ci95_percentile": [
+        -0.009487524052743977,
+        -0.0037192225203585886
+      ]
+    }
+  }
+}

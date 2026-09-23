@@ -1,0 +1,94 @@
+{
+  "sd2": {
+    "per_class": {
+      "open": {
+        "mean_x1000": 3.021257904248378,
+        "subset_std_x1000": 2.816058168088759,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "short": {
+        "mean_x1000": 2.118829965305356,
+        "subset_std_x1000": 3.158840577812219,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "mousebite": {
+        "mean_x1000": 1.8392492418743123,
+        "subset_std_x1000": 2.776766297652339,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "spur": {
+        "mean_x1000": 2.264515935331572,
+        "subset_std_x1000": 2.7865522344117077,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "spurious_copper": {
+        "mean_x1000": 5.002501813073267,
+        "subset_std_x1000": 2.826364146543065,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "pinhole": {
+        "mean_x1000": 0.8625675420479385,
+        "subset_std_x1000": 2.4668708679356084,
+        "subset_size": 50,
+        "num_subsets": 100
+      }
+    },
+    "macro_mean_x1000": 2.518153733646804,
+    "class_std_x1000": 1.4036215827412293
+  },
+  "msdf": {
+    "per_class": {
+      "open": {
+        "mean_x1000": 6.317950208349267,
+        "subset_std_x1000": 2.9342490050870595,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "short": {
+        "mean_x1000": 4.475968806178932,
+        "subset_std_x1000": 3.5086968755554797,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "mousebite": {
+        "mean_x1000": 3.3707121303812526,
+        "subset_std_x1000": 2.9103758608790495,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "spur": {
+        "mean_x1000": 4.146569476434955,
+        "subset_std_x1000": 3.1491622713664085,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "spurious_copper": {
+        "mean_x1000": 4.5111377530641805,
+        "subset_std_x1000": 3.15050179363397,
+        "subset_size": 50,
+        "num_subsets": 100
+      },
+      "pinhole": {
+        "mean_x1000": 2.227762176916661,
+        "subset_std_x1000": 2.658422836279504,
+        "subset_size": 50,
+        "num_subsets": 100
+      }
+    },
+    "macro_mean_x1000": 4.175016758554208,
+    "class_std_x1000": 1.3590606179739937
+  },
+  "protocol": {
+    "local": true,
+    "crop_size": 128,
+    "real_reference": "775 frozen generator-training instances",
+    "num_subsets": 100,
+    "max_subset_size": 50,
+    "primary": true
+  }
+}

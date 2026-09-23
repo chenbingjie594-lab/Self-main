@@ -1,0 +1,30 @@
+{
+  "selection": "first 3 sorted source IDs per class; seed42",
+  "columns": [
+    "real defect",
+    "paired normal",
+    "SD2",
+    "MSDF",
+    "mask"
+  ],
+  "instances": [
+    "00041030_open_00",
+    "00041039_open_00",
+    "00041043_open_00",
+    "00041030_short_01",
+    "00041039_short_01",
+    "00041043_short_01",
+    "00041030_mousebite_02",
+    "00041030_mousebite_03",
+    "00041039_mousebite_02",
+    "00041030_spur_04",
+    "00041030_spur_07",
+    "00041039_spur_03",
+    "00041030_spurious_copper_06",
+    "00041030_spurious_copper_08",
+    "00041039_spurious_copper_05",
+    "00041030_pinhole_05",
+    "00041030_pinhole_09",
+    "00041039_pinhole_04"
+  ]
+}
