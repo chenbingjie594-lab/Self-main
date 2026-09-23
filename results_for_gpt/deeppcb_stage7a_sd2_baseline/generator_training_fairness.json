@@ -1,0 +1,23 @@
+{
+  "shared": {
+    "train_instances": "frozen DeepPCB low-data",
+    "mask_policy": "dilation jitter radius24; blur radius2",
+    "unet_initialization": "original SD2 inpainting",
+    "unet_trainable": true,
+    "unet_lr": 5e-06,
+    "optimizer": "AdamW",
+    "updates": 2000,
+    "batch": 1,
+    "gradient_accumulation": 4,
+    "seed": 42,
+    "mixed_precision": "fp16"
+  },
+  "vanilla_trainable_groups": [
+    "UNet"
+  ],
+  "msdf_trainable_groups": [
+    "UNet",
+    "MSDF module"
+  ],
+  "method_specific_difference": "MSDF injection/reference branch only"
+}

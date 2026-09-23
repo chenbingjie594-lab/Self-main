@@ -1,0 +1,18 @@
+{
+  "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+  "base_model_sha256": "61b2359e20e73b8a5d5ed7dc3bc9e9dd79dedc7fe6488f5f1b839184743acef2",
+  "train_steps": 2000,
+  "successful_optimizer_updates": 2000,
+  "optimizer": "AdamW",
+  "unet_learning_rate": 5e-06,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "seed": 42,
+  "mixed_precision": "fp16",
+  "mask_jitter_radius": 24,
+  "mask_blur_radius": 2,
+  "checkpoint_rule": "final after 2000 successful updates",
+  "validation_selection": false,
+  "reference_input": false,
+  "reference_note": "Reference is a method-specific MSDF input and is not consumed by vanilla SD2."
+}

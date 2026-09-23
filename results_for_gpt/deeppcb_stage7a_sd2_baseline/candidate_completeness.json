@@ -1,0 +1,24 @@
+{
+  "expected": 4650,
+  "actual": 4650,
+  "per_class": {
+    "open": 780,
+    "short": 774,
+    "mousebite": 774,
+    "spur": 774,
+    "spurious_copper": 774,
+    "pinhole": 774
+  },
+  "six_seeds": [
+    42,
+    2026,
+    3407,
+    7859,
+    12011,
+    15683
+  ],
+  "frozen_stage2_task_manifest_sha256": "473c60246fcef892d5aaae9d09b23bd0a7a7f98c0c11a1e13a76b66c64e0653a",
+  "task_manifest_recreated": false,
+  "no_candidate_filtering": true,
+  "complete": true
+}

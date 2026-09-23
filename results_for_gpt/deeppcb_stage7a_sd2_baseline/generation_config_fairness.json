@@ -1,0 +1,20 @@
+{
+  "baseline_config_role": "inference",
+  "matched_common_parameters": {
+    "prompt": "a photo of a sks defect",
+    "negative_prompt": null,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "blur_factor": 0
+  },
+  "scheduler": "same supplied DDIM scheduler",
+  "scheduler_config_path": "/mnt/sda/cbj/ImageGeneration/Self-main/scheduler/scheduler_config.json",
+  "scheduler_config_sha256": "58a73eaeaa8d799c6d10ecb3a8fb80ceef96c55b3126c82afe2ff1740d22dd90",
+  "normal_background_input": true,
+  "postprocessing": [],
+  "candidate_filtering": false,
+  "method_specific": {
+    "vanilla_reference_input": false,
+    "msdf_reference_input": true
+  }
+}

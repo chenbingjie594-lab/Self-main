@@ -1,0 +1,116 @@
+{
+  "feature_rule": "Detect forward pre-hook P3/P4/P5; GT ROI adaptive average pool 1x1; per-level L2 normalization; concatenate",
+  "k": 5,
+  "candidate_count": 4650,
+  "overall": {
+    "synthetic_to_real_knn5": {
+      "mean": 0.11261497804234105,
+      "median": 0.1011548824608326,
+      "q95": 0.21416095644235614
+    },
+    "normalized_pair_gap": {
+      "mean": 0.7699675098936488,
+      "median": 0.6265264558438408,
+      "q95": 1.8763968307821381
+    },
+    "fraction_gt_real_q95": 0.23913978494623656,
+    "same_instance_nearest_fraction": 0.2651612903225806
+  },
+  "per_class": {
+    "open": {
+      "synthetic_to_real_knn5": {
+        "mean": 0.11226317134614174,
+        "median": 0.09945299476385117,
+        "q95": 0.23194430619478182
+      },
+      "normalized_pair_gap": {
+        "mean": 0.8510893288813293,
+        "median": 0.7170487903014562,
+        "q95": 2.014723194427996
+      },
+      "fraction_gt_real_q95": 0.28974358974358977,
+      "same_instance_nearest_fraction": 0.2705128205128205
+    },
+    "short": {
+      "synthetic_to_real_knn5": {
+        "mean": 0.11616026892179974,
+        "median": 0.10123248025774956,
+        "q95": 0.25529156774282413
+      },
+      "normalized_pair_gap": {
+        "mean": 0.6217562169404495,
+        "median": 0.4947909456335088,
+        "q95": 1.512849399996556
+      },
+      "fraction_gt_real_q95": 0.16020671834625322,
+      "same_instance_nearest_fraction": 0.34366925064599485
+    },
+    "mousebite": {
+      "synthetic_to_real_knn5": {
+        "mean": 0.1089437468415391,
+        "median": 0.10306530818343163,
+        "q95": 0.18327450305223464
+      },
+      "normalized_pair_gap": {
+        "mean": 0.6763417147231982,
+        "median": 0.5755884899105767,
+        "q95": 1.484609986898127
+      },
+      "fraction_gt_real_q95": 0.1744186046511628,
+      "same_instance_nearest_fraction": 0.29457364341085274
+    },
+    "spur": {
+      "synthetic_to_real_knn5": {
+        "mean": 0.1219097887303016,
+        "median": 0.10578484460711479,
+        "q95": 0.25409469604492185
+      },
+      "normalized_pair_gap": {
+        "mean": 0.8991101868420432,
+        "median": 0.7198095460108029,
+        "q95": 2.0867853619564016
+      },
+      "fraction_gt_real_q95": 0.30361757105943155,
+      "same_instance_nearest_fraction": 0.2054263565891473
+    },
+    "spurious_copper": {
+      "synthetic_to_real_knn5": {
+        "mean": 0.10024814654709603,
+        "median": 0.09080997481942177,
+        "q95": 0.18167398124933207
+      },
+      "normalized_pair_gap": {
+        "mean": 0.727879993865893,
+        "median": 0.601700477812226,
+        "q95": 1.6081367418928088
+      },
+      "fraction_gt_real_q95": 0.2144702842377261,
+      "same_instance_nearest_fraction": 0.20284237726098192
+    },
+    "pinhole": {
+      "synthetic_to_real_knn5": {
+        "mean": 0.11616747305085955,
+        "median": 0.10967756435275078,
+        "q95": 0.19719614088535287
+      },
+      "normalized_pair_gap": {
+        "mean": 0.8429987667989982,
+        "median": 0.6792416252994955,
+        "q95": 2.072995157768525
+      },
+      "fraction_gt_real_q95": 0.29198966408268734,
+      "same_instance_nearest_fraction": 0.2739018087855297
+    }
+  },
+  "validation_use_count": 0,
+  "msdf_existing": {
+    "normalized_pair_gap": {
+      "mean": 0.43833610382842814,
+      "median": 0.21873276412400108,
+      "q95": 1.811648298308057
+    },
+    "fraction_gt_real_q95": 0.10602150537634408,
+    "same_instance_nearest_fraction": 0.7810752688172043,
+    "source": "results_for_gpt/deeppcb_stage6d_novelty"
+  }
+}

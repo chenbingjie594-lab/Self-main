@@ -1,0 +1,133 @@
+{
+  "status": "READY",
+  "source": {
+    "open": "existing",
+    "short": "existing",
+    "mousebite": "existing",
+    "spur": "existing",
+    "spurious_copper": "existing",
+    "pinhole": "existing"
+  },
+  "checkpoints": [
+    {
+      "class": "open",
+      "exists": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/open",
+      "checkpoint_type": "diffusers StableDiffusionInpaintPipeline",
+      "valid": true,
+      "training_metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/open/rda_training.json",
+      "pipeline_sha256": "c8e21217cab7ef5c03593928fdedcbf7a48e58efe238fe52afd81f9c6c909c36",
+      "training_steps": 2000,
+      "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "data_identity": {
+        "image_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/open",
+        "mask_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/open",
+        "num_training_pairs": 130
+      },
+      "loss_finite": true,
+      "final_loss": 7.755801198072731e-05,
+      "no_validation_selection": true,
+      "reason": null
+    },
+    {
+      "class": "short",
+      "exists": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/short",
+      "checkpoint_type": "diffusers StableDiffusionInpaintPipeline",
+      "valid": true,
+      "training_metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/short/rda_training.json",
+      "pipeline_sha256": "b05c2135ad201846005ac0a27222587c4d61afe6d7d4c9c79bc443e5dfc8b51c",
+      "training_steps": 2000,
+      "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "data_identity": {
+        "image_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short",
+        "mask_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short",
+        "num_training_pairs": 129
+      },
+      "loss_finite": true,
+      "final_loss": 5.556934411288239e-05,
+      "no_validation_selection": true,
+      "reason": null
+    },
+    {
+      "class": "mousebite",
+      "exists": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/mousebite",
+      "checkpoint_type": "diffusers StableDiffusionInpaintPipeline",
+      "valid": true,
+      "training_metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/mousebite/rda_training.json",
+      "pipeline_sha256": "19e19eb6027f3bd94233aaa4388086de8299fd368e7f2ac13647b1dde2a126b3",
+      "training_steps": 2000,
+      "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "data_identity": {
+        "image_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/mousebite",
+        "mask_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/mousebite",
+        "num_training_pairs": 129
+      },
+      "loss_finite": true,
+      "final_loss": 0.000278215273283422,
+      "no_validation_selection": true,
+      "reason": null
+    },
+    {
+      "class": "spur",
+      "exists": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/spur",
+      "checkpoint_type": "diffusers StableDiffusionInpaintPipeline",
+      "valid": true,
+      "training_metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/spur/rda_training.json",
+      "pipeline_sha256": "4da56feed5e73124518002f1afc32ab757ed5a9386c1176545c16c393b801370",
+      "training_steps": 2000,
+      "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "data_identity": {
+        "image_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/spur",
+        "mask_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/spur",
+        "num_training_pairs": 129
+      },
+      "loss_finite": true,
+      "final_loss": 8.83849206729792e-05,
+      "no_validation_selection": true,
+      "reason": null
+    },
+    {
+      "class": "spurious_copper",
+      "exists": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/spurious_copper",
+      "checkpoint_type": "diffusers StableDiffusionInpaintPipeline",
+      "valid": true,
+      "training_metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/spurious_copper/rda_training.json",
+      "pipeline_sha256": "57e2eed0f506668939f553fc805478cdd05b8d46a749bc2e0fb25ceb9c50d7c0",
+      "training_steps": 2000,
+      "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "data_identity": {
+        "image_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/spurious_copper",
+        "mask_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/spurious_copper",
+        "num_training_pairs": 129
+      },
+      "loss_finite": true,
+      "final_loss": 5.4019936214899644e-05,
+      "no_validation_selection": true,
+      "reason": null
+    },
+    {
+      "class": "pinhole",
+      "exists": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/pinhole",
+      "checkpoint_type": "diffusers StableDiffusionInpaintPipeline",
+      "valid": true,
+      "training_metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42/pinhole/rda_training.json",
+      "pipeline_sha256": "584b0fcd72a4a95d44465ab7c1fb4643820346a79ba2d0ce3ef651443e095193",
+      "training_steps": 2000,
+      "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "data_identity": {
+        "image_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole",
+        "mask_dir": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole",
+        "num_training_pairs": 129
+      },
+      "loss_finite": true,
+      "final_loss": 0.0001891255669761449,
+      "no_validation_selection": true,
+      "reason": null
+    }
+  ]
+}
