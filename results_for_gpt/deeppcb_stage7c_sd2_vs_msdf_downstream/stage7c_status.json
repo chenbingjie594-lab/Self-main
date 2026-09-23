@@ -1,0 +1,12 @@
+{
+  "status": "MSDF_DOWNSTREAM_NOT_SUPPORTED",
+  "primary_metric": "mAP50-95",
+  "mean_delta_msdf_minus_sd2": -0.004220225493494101,
+  "wins": 1,
+  "positive_mean_delta_classes": 2,
+  "equal_compute": true,
+  "equal_successful_optimizer_updates_amp": false,
+  "generator_modified": false,
+  "selector_created": false,
+  "validation_leakage": 0
+}

@@ -1,0 +1,40 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python -m pytest -q tests/test_deeppcb_stage7c.py
+
+mkdir -p logs/deeppcb_stage7c_sd2_vs_msdf_downstream
+mkdir -p results_for_gpt/deeppcb_stage7c_sd2_vs_msdf_downstream
+
+nohup env CUDA_VISIBLE_DEVICES=1 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/run_deeppcb_stage7c.py \
+  --protocol_config configs/deeppcb_stage7c.json \
+  --formal_selection results_for_gpt/bootstrap_guard_deeppcb_stage3r/random_matched_manifest_40x6_corrected.json \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --msdf_manifest results_for_gpt/bootstrap_guard_deeppcb_stage2/candidate_pool_manifest.json \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --repo_root /mnt/sda/cbj/ImageGeneration/Self-main \
+  --model pretrained/yolo11s.pt \
+  --reference_run runs/deeppcb_stage5f_real_repeat340/real_repeat340_s42 \
+  --stage5f_results results_for_gpt/bootstrap_guard_deeppcb_stage5f \
+  --stage6h_results results_for_gpt/deeppcb_stage6h_fixed_budget \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage7c_sd2_vs_msdf \
+  --runs runs/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --output results_for_gpt/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --device 0 \
+  > logs/deeppcb_stage7c_sd2_vs_msdf_downstream/training.log 2>&1 &
+
+echo $! > logs/deeppcb_stage7c_sd2_vs_msdf_downstream/training.pid
+
+tail -f logs/deeppcb_stage7c_sd2_vs_msdf_downstream/training.log
+
+# 六组训练/验证已完成、旧版仅在最终 AMP 步数检查处退出时执行；不要重训：
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/finalize_deeppcb_stage7c.py \
+  --output results_for_gpt/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --runs runs/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --model pretrained/yolo11s.pt \
+  --stage5f_results results_for_gpt/bootstrap_guard_deeppcb_stage5f \
+  --stage6h_results results_for_gpt/deeppcb_stage6h_fixed_budget

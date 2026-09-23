@@ -1,0 +1,65 @@
+{
+  "runs": {
+    "sd2_s42": {
+      "epochs": 150,
+      "audited_batches": 6450,
+      "optimizer_update_opportunities": "same schedule within seed",
+      "successful_optimizer_updates_amp": 821,
+      "directly_observed": true,
+      "last_checkpoint_sha256": "d364163724b1275f38a861a79298ab57c12961cb065babacbc8f70f7e5f6e790",
+      "best_checkpoint_sha256": "b36cc4d009f0969639cc0dafb25f9a2ba196842a1f7d4229149db6185e57ad23"
+    },
+    "msdf_s42": {
+      "epochs": 150,
+      "audited_batches": 6450,
+      "optimizer_update_opportunities": "same schedule within seed",
+      "successful_optimizer_updates_amp": 821,
+      "directly_observed": true,
+      "last_checkpoint_sha256": "5f817d5b150b8a44ffb47aad2f9c4b6be5e71e84d996f55b1c29843bde00241c",
+      "best_checkpoint_sha256": "756a434da2feee6ceeda185079ae56c43d1a232973b982eac39c47e7d15199fc"
+    },
+    "sd2_s3407": {
+      "epochs": 150,
+      "audited_batches": 6450,
+      "optimizer_update_opportunities": "same schedule within seed",
+      "successful_optimizer_updates_amp": 820,
+      "directly_observed": true,
+      "last_checkpoint_sha256": "2f49f21529480646a8b17bb882988532aabb4c5479c7337c3115610b9e5aa636",
+      "best_checkpoint_sha256": "1f116538578ccb3520d459782880e5d782b556e6710e66e5bdf40cb03a8e65be"
+    },
+    "msdf_s3407": {
+      "epochs": 150,
+      "audited_batches": 6450,
+      "optimizer_update_opportunities": "same schedule within seed",
+      "successful_optimizer_updates_amp": 820,
+      "directly_observed": true,
+      "last_checkpoint_sha256": "9dfe5374fc0ff23421b17e4c52aa3837e82778a32bbad1e656ef8bee34068215",
+      "best_checkpoint_sha256": "7b0c5634ad2acd7468c3273401cb8146959de42667766ec4afb164245056353f"
+    },
+    "sd2_s2026": {
+      "epochs": 150,
+      "audited_batches": 6450,
+      "optimizer_update_opportunities": "same schedule within seed",
+      "successful_optimizer_updates_amp": 821,
+      "directly_observed": true,
+      "last_checkpoint_sha256": "4b6589324a8428b6c6d5dd7058a16588e35e530bdad1888047aea29b27348c56",
+      "best_checkpoint_sha256": "603f3729d1dd6640518356f98e98741f905ebb36bad84c50cc8f83a16a4c365b"
+    },
+    "msdf_s2026": {
+      "epochs": 150,
+      "audited_batches": 6450,
+      "optimizer_update_opportunities": "same schedule within seed",
+      "successful_optimizer_updates_amp": 819,
+      "directly_observed": true,
+      "last_checkpoint_sha256": "ad46fe3cb2f6d5f62c3f9c7624187fa382704fddf86c324e42347518494004b6",
+      "best_checkpoint_sha256": "fdae394c94048e3cde9726a0c22c620c3b09444a4df4c206b4a8521c13316382"
+    }
+  },
+  "equal_epochs": true,
+  "equal_audited_batches": true,
+  "equal_optimizer_update_opportunities_within_seed": true,
+  "equal_successful_optimizer_updates_amp": false,
+  "amp_skip_note": "AMP may skip a parameter update after non-finite gradients. Successful updates are disclosed separately; both arms consumed the same forward/backward batches and update opportunities.",
+  "primary_checkpoint": "epoch150 last.pt",
+  "secondary_checkpoint": "best.pt"
+}

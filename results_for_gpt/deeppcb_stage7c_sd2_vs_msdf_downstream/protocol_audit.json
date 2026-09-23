@@ -1,0 +1,29 @@
+{
+  "same_real_train_set": true,
+  "real_train_tree_sha256": "fabbe4fbe865ab5754bdc456275dd1e4ae36ce055da6db97af61d0659bc37608",
+  "same_source_keys": true,
+  "same_generation_seed_keys": true,
+  "same_synthetic_count": 240,
+  "same_class_counts": true,
+  "same_detector_architecture": "YOLO11s",
+  "same_pretrained_weights_protocol": true,
+  "pretrained_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "same_hyperparameters_within_seed": true,
+  "training_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "epochs": 150,
+  "draws_per_epoch": 340,
+  "real_draws_per_epoch": 260,
+  "synthetic_draws_per_epoch": 80,
+  "batches_per_epoch": 43,
+  "same_optimizer_update_opportunities_within_seed": true,
+  "equal_successful_optimizer_updates_amp": false,
+  "same_validation": true,
+  "validation_manifest_sha256": "875f4086574f1d6f79e5ba450c33987beb0674d626c1c3b05f6cc4b3ac3d9c44",
+  "validation_tree_sha256": "15f465c5480518388fac4f7a9ce8741ff9158b02277ff7304f5e9c17953d9f40",
+  "validation_leakage": 0,
+  "forbidden_methods_used": []
+}
