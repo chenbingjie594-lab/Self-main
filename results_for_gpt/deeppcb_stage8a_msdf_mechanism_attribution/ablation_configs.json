@@ -1,0 +1,63 @@
+{
+  "generation_seed": 42,
+  "sources": 775,
+  "detector_training_count": 0,
+  "variants": [
+    {
+      "name": "full",
+      "ablation": {},
+      "feasibility": "A-diagnostic-inference"
+    },
+    {
+      "name": "no_latent",
+      "ablation": {
+        "latent_branch": false
+      },
+      "feasibility": "A-diagnostic-inference"
+    },
+    {
+      "name": "no_pixel",
+      "ablation": {
+        "pixel_branch": false
+      },
+      "feasibility": "A-diagnostic-inference"
+    },
+    {
+      "name": "no_multiscale",
+      "ablation": {
+        "up_block_mask": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "feasibility": "A-diagnostic-inference"
+    },
+    {
+      "name": "residual_half",
+      "ablation": {
+        "residual_scale": 0.5
+      },
+      "feasibility": "A-diagnostic-inference"
+    },
+    {
+      "name": "residual_zero",
+      "ablation": {
+        "residual_scale": 0.0
+      },
+      "feasibility": "A-diagnostic-inference"
+    }
+  ],
+  "excluded": {
+    "no_morphology": "B: tensor-valid bypass but not safe/fair without retraining",
+    "unbounded_residual": "B: numerically unsafe and requires retraining"
+  },
+  "shared": {
+    "prompt": "a photo of a sks defect",
+    "steps": 50,
+    "guidance_scale": 7.5,
+    "source_mask_reference": "frozen Stage2 seed42",
+    "checkpoint": "frozen MSDF-v3"
+  }
+}

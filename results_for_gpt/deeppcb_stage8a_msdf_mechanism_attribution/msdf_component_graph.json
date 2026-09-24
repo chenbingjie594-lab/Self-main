@@ -1,0 +1,132 @@
+{
+  "source": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/msdf_guidance.py",
+  "source_sha256": "25a6a2f81e4995b0adf1f90aad46a56afd21313e939b72a0fe1d1b9b243d7078",
+  "format_version": 3,
+  "components": [
+    {
+      "id": "pixel_residual_branch",
+      "input": [
+        "reference_pixels Bx3x512x512",
+        "reference_mask Bx1x512x512"
+      ],
+      "output": "pixel_encoded Bx64x64x64; pixel_support Bx1x64x64",
+      "injection": "fusion input and reference_support",
+      "residual_scale": null,
+      "timestep_dependency": false,
+      "trainable_parameters": [
+        "pixel_encoder.*",
+        "pixel_support_head.*",
+        "fusion.*"
+      ],
+      "training_enabled": true,
+      "inference_enabled": true,
+      "depends_on": [
+        "reference mask",
+        "local pixel background"
+      ]
+    },
+    {
+      "id": "latent_semantic_branch",
+      "input": [
+        "reference_latents Bx4x64x64",
+        "reference_mask Bx1x64x64"
+      ],
+      "output": "latent_encoded Bx64x64x64",
+      "injection": "fusion input",
+      "residual_scale": null,
+      "timestep_dependency": false,
+      "trainable_parameters": [
+        "encoder.*",
+        "fusion.*"
+      ],
+      "training_enabled": true,
+      "inference_enabled": true,
+      "depends_on": [
+        "VAE mode latent",
+        "local latent background"
+      ]
+    },
+    {
+      "id": "reference_morphology_alignment",
+      "input": [
+        "fused feature Bx64x64x64",
+        "reference_support Bx1x64x64",
+        "target_prior Bx1x64x64"
+      ],
+      "output": "aligned feature/support at target centre",
+      "injection": "before support masking and pyramid hooks",
+      "residual_scale": null,
+      "timestep_dependency": false,
+      "trainable_parameters": [],
+      "training_enabled": true,
+      "inference_enabled": true,
+      "depends_on": [
+        "pixel branch",
+        "latent branch",
+        "support heads",
+        "context_scale"
+      ]
+    },
+    {
+      "id": "multiscale_up_block_injection",
+      "input": [
+        "aligned feature/support",
+        "four UNet up-block outputs"
+      ],
+      "output": "four residual-updated hidden tensors",
+      "shape": "B x [1280,1280,640,320] x stage spatial size (checkpoint verified at load)",
+      "injection": "forward hook after each unet.up_blocks[i]",
+      "residual_scale": "learned projection x dynamic gate x diagnostic residual_scale",
+      "timestep_dependency": true,
+      "trainable_parameters": [
+        "projections.0..3.*"
+      ],
+      "training_enabled": true,
+      "inference_enabled": true,
+      "depends_on": [
+        "all upstream components",
+        "dynamic gate",
+        "bounded injection"
+      ]
+    },
+    {
+      "id": "scale_time_dynamic_gate",
+      "input": [
+        "log target-mask area",
+        "normalized diffusion timestep",
+        "aligned-feature RMS"
+      ],
+      "output": "Bx4 gates in [0,max_injection]",
+      "injection": "per up-block residual multiplier",
+      "residual_scale": "max_injection=checkpoint value; high-resolution small-mask bias",
+      "timestep_dependency": true,
+      "trainable_parameters": [
+        "gate.*"
+      ],
+      "training_enabled": true,
+      "inference_enabled": true,
+      "depends_on": [
+        "alignment response",
+        "target mask"
+      ]
+    },
+    {
+      "id": "bounded_residual_injection",
+      "input": [
+        "projected gated residual",
+        "current UNet hidden RMS"
+      ],
+      "output": "hidden + limit*tanh(residual/limit)",
+      "injection": "end of every hooked up block",
+      "residual_scale": "limit=max_residual_ratio*hidden_rms",
+      "timestep_dependency": "indirect through hidden and gate",
+      "trainable_parameters": [],
+      "training_enabled": true,
+      "inference_enabled": true,
+      "depends_on": [
+        "multiscale projection",
+        "dynamic gate"
+      ]
+    }
+  ]
+}

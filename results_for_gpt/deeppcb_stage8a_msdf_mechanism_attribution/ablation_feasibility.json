@@ -1,0 +1,49 @@
+{
+  "checkpoint_retrained": false,
+  "official_claim_scope": "diagnostic intervention only",
+  "components": {
+    "residual_scale": {
+      "class": "A",
+      "tensor_graph_safe": true,
+      "fair_causal_ablation": false,
+      "reason": "continuous multiplier is graph-safe, but checkpoint and UNet were jointly trained at scale 1"
+    },
+    "multiscale_up_block_injection": {
+      "class": "A",
+      "tensor_graph_safe": true,
+      "fair_causal_ablation": false,
+      "reason": "hooks can be gated independently; joint training creates train-test mismatch"
+    },
+    "pixel_residual_branch": {
+      "class": "A",
+      "tensor_graph_safe": true,
+      "fair_causal_ablation": false,
+      "reason": "training modality dropout exposed the fusion to missing pixel features, but complete removal remains diagnostic"
+    },
+    "latent_semantic_branch": {
+      "class": "A",
+      "tensor_graph_safe": true,
+      "fair_causal_ablation": false,
+      "reason": "training modality dropout exposed the fusion to missing latent features, but complete removal remains diagnostic"
+    },
+    "reference_morphology_alignment": {
+      "class": "B",
+      "tensor_graph_safe": true,
+      "fair_causal_ablation": false,
+      "reason": "bypass changes spatial semantics and support distribution"
+    },
+    "scale_time_dynamic_gate": {
+      "class": "B",
+      "tensor_graph_safe": true,
+      "fair_causal_ablation": false,
+      "reason": "learned jointly with projections; zero is equivalent to removing all adapter injection"
+    },
+    "bounded_residual_injection": {
+      "class": "B",
+      "tensor_graph_safe": false,
+      "fair_causal_ablation": false,
+      "reason": "removing the bound changes activation range and can be numerically unsafe"
+    }
+  },
+  "warning": "A denotes directly executable inference intervention, not retraining-free causal fairness."
+}

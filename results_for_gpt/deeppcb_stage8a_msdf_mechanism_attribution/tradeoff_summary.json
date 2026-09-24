@@ -1,0 +1,66 @@
+{
+  "full": {
+    "lpips": 0.03509817134108274,
+    "edge": 0.9115497790604992,
+    "boundary": 0.7191451291443636,
+    "feature": 0.6863454397910851
+  },
+  "variants": {
+    "full": {
+      "delta_vs_full": {
+        "normalized_pair_gap_median": 0.0,
+        "lpips_mean": 0.0,
+        "edge_cosine_mean": 0.0,
+        "boundary_gradient_cosine_mean": 0.0
+      },
+      "inference_only_diagnostic": false
+    },
+    "no_latent": {
+      "delta_vs_full": {
+        "normalized_pair_gap_median": -0.004417440824180829,
+        "lpips_mean": 0.00022553309648027514,
+        "edge_cosine_mean": -0.0005982112441832443,
+        "boundary_gradient_cosine_mean": 0.001574694479833827
+      },
+      "inference_only_diagnostic": true
+    },
+    "no_pixel": {
+      "delta_vs_full": {
+        "normalized_pair_gap_median": 0.001435265963035004,
+        "lpips_mean": 5.9946095871350746e-05,
+        "edge_cosine_mean": -0.00044293430641706433,
+        "boundary_gradient_cosine_mean": -0.0014226704619761943
+      },
+      "inference_only_diagnostic": true
+    },
+    "no_multiscale": {
+      "delta_vs_full": {
+        "normalized_pair_gap_median": -0.0011735428230988942,
+        "lpips_mean": 9.886947580643041e-05,
+        "edge_cosine_mean": -0.00021448632588694228,
+        "boundary_gradient_cosine_mean": -0.00054975723814632
+      },
+      "inference_only_diagnostic": true
+    },
+    "residual_half": {
+      "delta_vs_full": {
+        "normalized_pair_gap_median": 0.0017036513875846593,
+        "lpips_mean": 3.200610348533944e-05,
+        "edge_cosine_mean": -0.00013812408013902377,
+        "boundary_gradient_cosine_mean": -0.00041698701792425297
+      },
+      "inference_only_diagnostic": true
+    },
+    "residual_zero": {
+      "delta_vs_full": {
+        "normalized_pair_gap_median": -0.0011735428230988942,
+        "lpips_mean": 9.886841049357858e-05,
+        "edge_cosine_mean": -0.00021448632588694228,
+        "boundary_gradient_cosine_mean": -0.00054975723814632
+      },
+      "inference_only_diagnostic": true
+    }
+  },
+  "axes_separate": true,
+  "no_weighted_score": true
+}

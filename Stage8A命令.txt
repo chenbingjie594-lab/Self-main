@@ -1,0 +1,33 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+mkdir -p logs/deeppcb_stage8a_msdf_mechanism_attribution
+mkdir -p results_for_gpt/deeppcb_stage8a_msdf_mechanism_attribution
+
+nohup env CUDA_VISIBLE_DEVICES=1 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage8a.py \
+  --pool_manifest results_for_gpt/bootstrap_guard_deeppcb_stage2/candidate_pool_manifest.json \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --model_root /mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42 \
+  --scheduler /mnt/sda/cbj/ImageGeneration/Self-main/scheduler \
+  --repo_root /mnt/sda/cbj/ImageGeneration/Self-main \
+  --pool_root /mnt/sda/cbj/ImageGeneration/Self-main/data/deeppcb_stage8a_msdf_ablation_seed42 \
+  --work_root /mnt/sda/cbj/ImageGeneration/Self-main/logs/deeppcb_stage8a_msdf_mechanism_attribution/work \
+  --output results_for_gpt/deeppcb_stage8a_msdf_mechanism_attribution \
+  --logs logs/deeppcb_stage8a_msdf_mechanism_attribution/generation \
+  --device 0 > logs/deeppcb_stage8a_msdf_mechanism_attribution/generation.log 2>&1
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/evaluate_deeppcb_stage8a.py \
+  --stage8a results_for_gpt/deeppcb_stage8a_msdf_mechanism_attribution \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --output results_for_gpt/deeppcb_stage8a_msdf_mechanism_attribution \
+  --device 0 --batch 16 > logs/deeppcb_stage8a_msdf_mechanism_attribution/evaluation.log 2>&1
+' > logs/deeppcb_stage8a_msdf_mechanism_attribution/launcher.log 2>&1 &
+
+echo $! > logs/deeppcb_stage8a_msdf_mechanism_attribution/launcher.pid

@@ -957,6 +957,7 @@ class StableDiffusionInpaintPipeline_dynamic(
         msdf_path: Optional[str] = None,
         msdf_reference_image: Optional[PipelineImageInput] = None,
         msdf_reference_mask: Optional[PipelineImageInput] = None,
+        msdf_ablation: Optional[dict] = None,
         **kwargs,
     ):
         device = self._execution_device
@@ -1058,6 +1059,7 @@ class StableDiffusionInpaintPipeline_dynamic(
                 )
                 self._msdf_path = msdf_path
             msdf_adapter = self._msdf_adapter
+            msdf_adapter.set_ablation(msdf_ablation)
             msdf_reference = self.image_processor.preprocess(
                 msdf_reference_image, height=height, width=width
             ).to(device=device, dtype=self.vae.dtype)

@@ -135,6 +135,33 @@ class MSDFAdapter(nn.Module):
         self.last_aligned_support = None
         self.last_reference_support = None
         self.last_pixel_support = None
+        self.ablation = {
+            "pixel_branch": True, "latent_branch": True,
+            "morphology_alignment": True,
+            "up_block_mask": [True] * len(self.block_channels),
+            "residual_scale": 1.0,
+        }
+
+    def set_ablation(self, config=None):
+        """Set diagnostic inference controls without changing checkpoint weights."""
+        config = dict(config or {})
+        allowed = {"pixel_branch", "latent_branch", "morphology_alignment",
+                   "up_block_mask", "residual_scale"}
+        unknown = set(config) - allowed
+        if unknown:
+            raise ValueError(f"Unknown MSDF ablation controls: {sorted(unknown)}")
+        state = {"pixel_branch": True, "latent_branch": True,
+                 "morphology_alignment": True,
+                 "up_block_mask": [True] * self.num_scales,
+                 "residual_scale": 1.0}
+        state.update(config)
+        if len(state["up_block_mask"]) != self.num_scales:
+            raise ValueError("up_block_mask must match the number of UNet up blocks")
+        if not 0.0 <= float(state["residual_scale"]) <= 1.0:
+            raise ValueError("residual_scale must be in [0, 1]")
+        state["up_block_mask"] = [bool(x) for x in state["up_block_mask"]]
+        self.ablation = state
+        return dict(state)
 
     @property
     def num_scales(self) -> int:
@@ -318,6 +345,8 @@ class MSDFAdapter(nn.Module):
         latent_encoded = self.encoder(
             torch.cat([defect_residual, reference_mask], dim=1)
         )
+        if not self.ablation["latent_branch"]:
+            latent_encoded = torch.zeros_like(latent_encoded)
         if reference_pixels is None:
             raise ValueError("MSDF v2 requires reference_pixels before VAE compression")
         reference_pixels = torch.nan_to_num(
@@ -373,6 +402,9 @@ class MSDFAdapter(nn.Module):
             )
             * reference_mask
         )
+        if not self.ablation["pixel_branch"]:
+            pixel_encoded = torch.zeros_like(pixel_encoded)
+            pixel_support = torch.zeros_like(pixel_support)
         self.last_pixel_support = pixel_support
 
         # Modality dropout makes both encoders useful: some training batches
@@ -400,9 +432,12 @@ class MSDFAdapter(nn.Module):
         # Pixel evidence cannot be bypassed at inference, while the fused head
         # still contributes semantic/latent support.
         reference_support = 0.5 * (fused_support + pixel_support)
-        aligned, aligned_support = self._align_reference(
-            encoded, reference_support, target_prior
-        )
+        if self.ablation["morphology_alignment"]:
+            aligned, aligned_support = self._align_reference(
+                encoded, reference_support, target_prior
+            )
+        else:
+            aligned, aligned_support = encoded, reference_support
 
         # Only the reference-derived support determines morphology. A narrow
         # soft ring permits halo blending, while the coarse target prior remains
@@ -509,6 +544,8 @@ class MSDFAdapter(nn.Module):
         def hook(_module, _inputs, output):
             if self._feature is None:
                 return output
+            if not self.ablation["up_block_mask"][index] or self.ablation["residual_scale"] == 0:
+                return output
             hidden = output[0] if isinstance(output, tuple) else output
             feature = F.interpolate(
                 self._feature,
@@ -535,6 +572,7 @@ class MSDFAdapter(nn.Module):
             residual = residual.to(hidden.dtype) * support.to(hidden.dtype)
             gate = self._gates[:, index].reshape(-1, 1, 1, 1).to(hidden.dtype)
             residual = residual * gate
+            residual = residual * float(self.ablation["residual_scale"])
             if hidden.shape[0] == 2 * residual.shape[0] and self._cfg:
                 residual = torch.cat([torch.zeros_like(residual), residual], dim=0)
             elif hidden.shape[0] != residual.shape[0]:
