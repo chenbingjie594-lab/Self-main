@@ -653,5 +653,10 @@ def load_msdf_adapter(path, unet, device) -> MSDFAdapter:
         )
     adapter.load_state_dict(state_dict, strict=True)
     adapter.to(device=device, dtype=torch.float32).eval()
+    adapter.set_ablation({
+        "morphology_alignment": bool(
+            checkpoint.get("morphology_alignment_enabled", True)
+        )
+    })
     adapter.attach(unet)
     return adapter

@@ -5,6 +5,7 @@ an uncertain spatial prior, not as an exact segmentation annotation.
 """
 
 import argparse
+import csv
 import json
 import random
 from pathlib import Path
@@ -118,6 +119,7 @@ def parse_args():
     parser.add_argument("--msdf_max_residual_ratio", type=float, default=0.25)
     parser.add_argument("--msdf_branch_dropout", type=float, default=0.20)
     parser.add_argument("--msdf_pixel_support_weight", type=float, default=0.50)
+    parser.add_argument("--msdf_disable_morphology_alignment", action="store_true")
     parser.add_argument("--msdf_region_weight", type=float, default=0.75)
     parser.add_argument("--msdf_reconstruction_weight", type=float, default=0.50)
     parser.add_argument("--msdf_structure_weight", type=float, default=0.25)
@@ -526,6 +528,9 @@ def main():
             pixel_support_weight=args.msdf_pixel_support_weight,
         ).to(device)
         installed = msdf.attach(unet)
+        msdf.set_ablation({
+            "morphology_alignment": not args.msdf_disable_morphology_alignment
+        })
         print(f"[MSDF] multi-scale up-block injections={installed}")
     joint_spatial_attention = rda is not None and carf is not None
     if joint_spatial_attention:
@@ -670,6 +675,7 @@ def main():
         ),
     )
     last_losses = {}
+    training_history = []
     micro_step = 0
     successful_steps = 0
     consecutive_nonfinite_gradient_skips = 0
@@ -1318,6 +1324,8 @@ def main():
             last_losses["carf_attention_alpha"] = float(
                 torch.sigmoid(carf.attention_gate_logit.detach()).cpu()
             )
+        if should_step and successful_steps > len(training_history):
+            training_history.append({"step": successful_steps, **last_losses})
         progress.set_postfix(**{k: f"{v:.4f}" for k, v in last_losses.items()})
         micro_step += 1
     progress.close()
@@ -1386,6 +1394,7 @@ def main():
                 "max_residual_ratio": msdf.max_residual_ratio,
                 "branch_dropout": msdf.branch_dropout,
                 "pixel_support_weight": msdf.pixel_support_weight,
+                "morphology_alignment_enabled": msdf.ablation["morphology_alignment"],
                 "format_version": MSDF_FORMAT_VERSION,
             },
             output_dir / "msdf.pt",
@@ -1412,6 +1421,9 @@ def main():
     metadata["reference_tokens_enabled"] = rda is not None
     metadata["carf_enabled"] = carf is not None
     metadata["msdf_enabled"] = msdf is not None
+    metadata["morphology_alignment_enabled"] = (
+        msdf.ablation["morphology_alignment"] if msdf is not None else None
+    )
     metadata["dhfg_enabled"] = dhfg is not None
     metadata["dhfg_calibration"] = dhfg_calibration
     if dhfg is not None:
@@ -1434,6 +1446,12 @@ def main():
     (output_dir / metadata_name).write_text(
         json.dumps(metadata, indent=2), encoding="utf-8"
     )
+    if training_history:
+        fields = list(training_history[0])
+        with (output_dir / "training_history.csv").open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(training_history)
     method_name = (
         "MSDF+DHFG"
         if msdf is not None and dhfg is not None

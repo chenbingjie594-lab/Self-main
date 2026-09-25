@@ -1059,7 +1059,10 @@ class StableDiffusionInpaintPipeline_dynamic(
                 )
                 self._msdf_path = msdf_path
             msdf_adapter = self._msdf_adapter
-            msdf_adapter.set_ablation(msdf_ablation)
+            # A checkpoint may freeze a training-time ablation (Stage8B).
+            # Only an explicit diagnostic override may replace that state.
+            if msdf_ablation is not None:
+                msdf_adapter.set_ablation(msdf_ablation)
             msdf_reference = self.image_processor.preprocess(
                 msdf_reference_image, height=height, width=width
             ).to(device=device, dtype=self.vae.dtype)

@@ -1,0 +1,17 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+
+nohup env CUDA_VISIBLE_DEVICES=0 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/evaluate_deeppcb_stage8b.py \
+  --stage8b results_for_gpt/deeppcb_stage8b_nomorph_training_ablation \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --output results_for_gpt/deeppcb_stage8b_nomorph_training_ablation \
+  --device 0 \
+  --batch 8 \
+  > logs/deeppcb_stage8b_nomorph_training_ablation/evaluation.log 2>&1 &
+
+echo $! > logs/deeppcb_stage8b_nomorph_training_ablation/evaluation.pid

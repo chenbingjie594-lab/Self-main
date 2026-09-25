@@ -1,0 +1,66 @@
+{
+  "only_variable": "morphology_alignment_enabled",
+  "same_protocol_as_full": true,
+  "checkpoints": [
+    {
+      "class": "open",
+      "valid": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/open/msdf.pt",
+      "checkpoint_sha256": "3e126ebef44a3c6221f58ed180ab5f33288b15df033c1f3c0409f787ee05ddf5",
+      "successful_optimizer_updates": 2000,
+      "loss_finite": true,
+      "morphology_alignment_enabled": false,
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/open/msdf_training.json"
+    },
+    {
+      "class": "short",
+      "valid": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/short/msdf.pt",
+      "checkpoint_sha256": "1a5fd77b5dc4c6c57a22a41ed8d67834d93522e9b997fef53b869762bd7d8834",
+      "successful_optimizer_updates": 2000,
+      "loss_finite": true,
+      "morphology_alignment_enabled": false,
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/short/msdf_training.json"
+    },
+    {
+      "class": "mousebite",
+      "valid": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/mousebite/msdf.pt",
+      "checkpoint_sha256": "a95f59b95179572efb721b62f6352602792727156004d0e38977e84d557e747f",
+      "successful_optimizer_updates": 2000,
+      "loss_finite": true,
+      "morphology_alignment_enabled": false,
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/mousebite/msdf_training.json"
+    },
+    {
+      "class": "spur",
+      "valid": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/spur/msdf.pt",
+      "checkpoint_sha256": "6b3856ae1062d847322a0d5b3a7ad7d0aaf0c8c4a3811ca1dd7c54b3fe6da8d6",
+      "successful_optimizer_updates": 2000,
+      "loss_finite": true,
+      "morphology_alignment_enabled": false,
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/spur/msdf_training.json"
+    },
+    {
+      "class": "spurious_copper",
+      "valid": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/spurious_copper/msdf.pt",
+      "checkpoint_sha256": "ea20f56032d6d30f1c42b9c993ae6bc9e4c0c0d92970f75f40e7684387f7a819",
+      "successful_optimizer_updates": 2000,
+      "loss_finite": true,
+      "morphology_alignment_enabled": false,
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/spurious_copper/msdf_training.json"
+    },
+    {
+      "class": "pinhole",
+      "valid": true,
+      "checkpoint": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/pinhole/msdf.pt",
+      "checkpoint_sha256": "345db5432aef2e740b59fb2ee05dbeb1e0dee8002158b9d2b6162570ff0ad953",
+      "successful_optimizer_updates": 2000,
+      "loss_finite": true,
+      "morphology_alignment_enabled": false,
+      "metadata": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42/pinhole/msdf_training.json"
+    }
+  ]
+}

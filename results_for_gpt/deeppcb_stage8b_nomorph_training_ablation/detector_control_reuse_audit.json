@@ -1,0 +1,12 @@
+{
+  "stage7c_derived_selection_sha256": "7bd257f09d394eef9070a7103ac0ef3f3d39193b7adc9a6bd151c1f7234070f4",
+  "formal_selection_sha256": "10a31bcc834b0eee8900f459aeec20e192b85fd6f6df43522a463db7ca85a9c7",
+  "same_240_source_seed_keys": true,
+  "note": "Hashes differ because one file is the derived cross-generator mapping and the other is the source selector manifest.",
+  "same_real_train": true,
+  "same_schedule_seed42": true,
+  "same_detector_protocol": true,
+  "controls_reused": true,
+  "sd2_last_checkpoint": "d364163724b1275f38a861a79298ab57c12961cb065babacbc8f70f7e5f6e790",
+  "full_last_checkpoint": "5f817d5b150b8a44ffb47aad2f9c4b6be5e71e84d996f55b1c29843bde00241c"
+}

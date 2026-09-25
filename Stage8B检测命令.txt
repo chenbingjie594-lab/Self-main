@@ -1,0 +1,30 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+mkdir -p logs/deeppcb_stage8b_nomorph_detector
+mkdir -p results_for_gpt/deeppcb_stage8b_nomorph_training_ablation
+
+nohup env CUDA_VISIBLE_DEVICES=0 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/run_deeppcb_stage8b_detector.py \
+  --stage8b results_for_gpt/deeppcb_stage8b_nomorph_training_ablation \
+  --formal_selection results_for_gpt/bootstrap_guard_deeppcb_stage3r/random_matched_manifest_40x6_corrected.json \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --full_manifest results_for_gpt/bootstrap_guard_deeppcb_stage2/candidate_pool_manifest.json \
+  --nomorph_models /mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_nomorph_deeppcb_lowdata_s42 \
+  --scheduler /mnt/sda/cbj/ImageGeneration/Self-main/scheduler \
+  --repo_root /mnt/sda/cbj/ImageGeneration/Self-main \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --model pretrained/yolo11s.pt \
+  --stage7c_results results_for_gpt/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --stage7c_runs runs/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --pool_root /mnt/sda/cbj/ImageGeneration/Self-main/data/deeppcb_stage8b_nomorph_detector_pool \
+  --work_root /mnt/sda/cbj/ImageGeneration/Self-main/logs/deeppcb_stage8b_nomorph_detector/work \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage8b_nomorph_detector_s42 \
+  --runs runs/deeppcb_stage8b_nomorph_detector \
+  --output results_for_gpt/deeppcb_stage8b_nomorph_training_ablation \
+  --logs logs/deeppcb_stage8b_nomorph_detector \
+  --device 0 \
+  > logs/deeppcb_stage8b_nomorph_detector/pilot.log 2>&1 &
+
+echo $! > logs/deeppcb_stage8b_nomorph_detector/pilot.pid

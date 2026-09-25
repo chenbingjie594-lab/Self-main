@@ -1,0 +1,19 @@
+{
+  "status": "NOMORPH_REPAIR_SUPPORTED",
+  "criteria": {
+    "lpips_improved": true,
+    "edge_improved": true,
+    "boundary_improved": false,
+    "task_feature_no_collapse": true,
+    "lpips_improved_classes": 6,
+    "structural_improved_classes": 5,
+    "short_consistent_improvement": true
+  },
+  "detector_pilot_authorized": true,
+  "thresholds_frozen": {
+    "max_relative_pair_gap_increase": 0.05,
+    "max_same_instance_nearest_drop": 0.02,
+    "minimum_broad_classes": 4
+  },
+  "weighted_score": false
+}

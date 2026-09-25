@@ -1,0 +1,58 @@
+{
+  "unet": {
+    "trainable": true,
+    "lr": 5e-06,
+    "initialization": "original SD2 Inpainting UNet per class"
+  },
+  "vae": {
+    "trainable": false
+  },
+  "text_encoder": {
+    "trainable": false
+  },
+  "pixel_encoder": {
+    "trainable": true,
+    "lr": 0.0001
+  },
+  "latent_encoder": {
+    "trainable": true,
+    "lr": 0.0001
+  },
+  "fusion": {
+    "trainable": true,
+    "lr": 0.0001
+  },
+  "projection_heads": {
+    "trainable": true,
+    "lr": 0.0001
+  },
+  "dynamic_gate": {
+    "trainable": true,
+    "lr": 0.0001
+  },
+  "morphology_alignment": {
+    "trainable_parameters": false
+  },
+  "optimizer": {
+    "type": "AdamW",
+    "parameter_groups": [
+      "all trainable UNet parameters",
+      "all MSDF parameters"
+    ],
+    "learning_rates": [
+      5e-06,
+      0.0001
+    ],
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ]
+  },
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "successful_optimizer_updates_per_class": 2000,
+  "mixed_precision": "fp16",
+  "answer_unet_difference_can_be_written": true,
+  "evidence": "UNet requires_grad remains true in full scope and is included in AdamW group 0"
+}
