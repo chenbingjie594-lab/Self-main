@@ -1,0 +1,12 @@
+{
+  "frozen_before_metrics": true,
+  "training_validity": "2000 actual finite parameter-changing optimizer updates per class; finite changed checkpoint; nonzero projection",
+  "task_support": "for both short and pinhole, repaired mean normalized pair gap and fraction above real q95 must each be lower than pretrained no-adaptation",
+  "real_manifold_sanity": "fraction above real q95 must remain below 1.0 for both classes",
+  "fidelity": "relative to pretrained no-adaptation, overall LPIPS must not increase and overall edge cosine must not decrease",
+  "feasible_rule": "all training, task, manifold, and fidelity gates pass",
+  "mixed_rule": "training passes and at least one of task or fidelity passes, but not all feasibility gates pass",
+  "not_feasible_rule": "training passes but neither task nor fidelity passes",
+  "detector_authorization": "true only for REPAIRED_FROZEN_ADAPTER_FEASIBLE",
+  "official_validation_use_count": 0
+}

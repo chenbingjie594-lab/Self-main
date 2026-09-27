@@ -1,0 +1,11 @@
+{
+  "protocol": "finite gradients required; success counted only when parameters change",
+  "diagnostic": {
+    "attempted_updates": 50,
+    "successful_updates": 50,
+    "skipped_updates": 0,
+    "actual_parameter_update_count": 50,
+    "successful_equals_actual": true,
+    "final_scale": 65536.0
+  }
+}

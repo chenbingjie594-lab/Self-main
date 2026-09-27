@@ -1,0 +1,116 @@
+{
+  "short": {
+    "status": "COMPLETE",
+    "class_name": "short",
+    "attempted_updates": 2000,
+    "successful_updates": 2000,
+    "skipped_updates": 0,
+    "nonfinite_updates": 0,
+    "actual_parameter_update_count": 2000,
+    "successful_equals_actual": true,
+    "final_grad_scaler_scale": 131072.0,
+    "seed": 42,
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "mixed_precision": "fp16",
+    "trainable_components": [
+      "RepairedFrozenResidualAdapter"
+    ],
+    "adapter_parameters": 108928,
+    "projection_parameter_norm": 3.613878011703491,
+    "total_adapter_delta_vs_initialization": 6.569143772125244,
+    "finite_fraction": 1.0,
+    "inference_residual": [
+      {
+        "block": 2,
+        "finite": true,
+        "rms": 1.0454458276853984e-07,
+        "nonzero": true
+      },
+      {
+        "block": 3,
+        "finite": true,
+        "rms": 9.982582582779287e-08,
+        "nonzero": true
+      }
+    ],
+    "peak_vram_bytes": 5732408320,
+    "wall_seconds": 1070.1652250289917,
+    "architecture": {
+      "channels": [
+        640,
+        320
+      ],
+      "hidden": 64,
+      "max_rms_ratio": 0.1
+    },
+    "architecture_changed": false,
+    "numerical_change_only": "sqrt(mean(r^2)+eps^2)",
+    "forbidden_inputs": {
+      "defect_reference": false,
+      "detector_feature": false,
+      "morphology_template": false,
+      "source_identity": false,
+      "teacher_score": false
+    }
+  },
+  "pinhole": {
+    "status": "COMPLETE",
+    "class_name": "pinhole",
+    "attempted_updates": 2000,
+    "successful_updates": 2000,
+    "skipped_updates": 0,
+    "nonfinite_updates": 0,
+    "actual_parameter_update_count": 2000,
+    "successful_equals_actual": true,
+    "final_grad_scaler_scale": 131072.0,
+    "seed": 42,
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "mixed_precision": "fp16",
+    "trainable_components": [
+      "RepairedFrozenResidualAdapter"
+    ],
+    "adapter_parameters": 108928,
+    "projection_parameter_norm": 3.406439781188965,
+    "total_adapter_delta_vs_initialization": 6.454108715057373,
+    "finite_fraction": 1.0,
+    "inference_residual": [
+      {
+        "block": 2,
+        "finite": true,
+        "rms": 9.852242754959661e-08,
+        "nonzero": true
+      },
+      {
+        "block": 3,
+        "finite": true,
+        "rms": 1.0129242866696586e-07,
+        "nonzero": true
+      }
+    ],
+    "peak_vram_bytes": 5732408320,
+    "wall_seconds": 1082.0207793712616,
+    "architecture": {
+      "channels": [
+        640,
+        320
+      ],
+      "hidden": 64,
+      "max_rms_ratio": 0.1
+    },
+    "architecture_changed": false,
+    "numerical_change_only": "sqrt(mean(r^2)+eps^2)",
+    "forbidden_inputs": {
+      "defect_reference": false,
+      "detector_feature": false,
+      "morphology_template": false,
+      "source_identity": false,
+      "teacher_score": false
+    }
+  }
+}

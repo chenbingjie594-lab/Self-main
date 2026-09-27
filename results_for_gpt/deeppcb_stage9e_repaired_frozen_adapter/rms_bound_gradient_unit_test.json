@@ -1,0 +1,102 @@
+{
+  "eps": 1e-06,
+  "max_ratio": 0.1,
+  "rows": [
+    {
+      "variant": "OLD",
+      "residual_value": 0.0,
+      "forward_finite": true,
+      "backward_finite": false,
+      "gradient_mean": null,
+      "gradient_nonzero": false
+    },
+    {
+      "variant": "STABLE",
+      "residual_value": 0.0,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE_DETACHED_SCALE",
+      "residual_value": 0.0,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "OLD",
+      "residual_value": 1e-08,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE",
+      "residual_value": 1e-08,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE_DETACHED_SCALE",
+      "residual_value": 1e-08,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "OLD",
+      "residual_value": 1e-06,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE",
+      "residual_value": 1e-06,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE_DETACHED_SCALE",
+      "residual_value": 1e-06,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "OLD",
+      "residual_value": 0.0001,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE",
+      "residual_value": 0.0001,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    },
+    {
+      "variant": "STABLE_DETACHED_SCALE",
+      "residual_value": 0.0001,
+      "forward_finite": true,
+      "backward_finite": true,
+      "gradient_mean": 1.0,
+      "gradient_nonzero": true
+    }
+  ]
+}

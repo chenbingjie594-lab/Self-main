@@ -1,0 +1,86 @@
+{
+  "metrics": {
+    "class_finetuned_sd2": {
+      "overall": {
+        "retrieval_top1": 0.9909560723514211,
+        "retrieval_top5": 0.9961240310077519,
+        "within_over_total": 0.01115236059345159,
+        "between_over_total": 0.9888476394065485,
+        "source_identity_R2": 0.9888476394065485,
+        "n": 774
+      },
+      "short": {
+        "retrieval_top1": 0.9974160206718347,
+        "retrieval_top5": 0.9974160206718347,
+        "within_over_total": 0.008847661139813223,
+        "between_over_total": 0.9911523388601868,
+        "source_identity_R2": 0.9911523388601868,
+        "n": 387
+      },
+      "pinhole": {
+        "retrieval_top1": 0.9870801033591732,
+        "retrieval_top5": 1.0,
+        "within_over_total": 0.013522471308252137,
+        "between_over_total": 0.9864775286917478,
+        "source_identity_R2": 0.9864775286917478,
+        "n": 387
+      }
+    },
+    "repaired_frozen_adapter": {
+      "overall": {
+        "retrieval_top1": 0.8708010335917312,
+        "retrieval_top5": 0.9470284237726099,
+        "within_over_total": 0.048224914002880905,
+        "between_over_total": 0.951775085997119,
+        "source_identity_R2": 0.951775085997119,
+        "n": 774
+      },
+      "short": {
+        "retrieval_top1": 0.9276485788113695,
+        "retrieval_top5": 0.9715762273901809,
+        "within_over_total": 0.03554776534767632,
+        "between_over_total": 0.9644522346523238,
+        "source_identity_R2": 0.9644522346523238,
+        "n": 387
+      },
+      "pinhole": {
+        "retrieval_top1": 0.8682170542635659,
+        "retrieval_top5": 0.9612403100775194,
+        "within_over_total": 0.06123448229195821,
+        "between_over_total": 0.9387655177080418,
+        "source_identity_R2": 0.9387655177080418,
+        "n": 387
+      }
+    },
+    "pretrained_no_adaptation": {
+      "overall": {
+        "retrieval_top1": 0.9844961240310077,
+        "retrieval_top5": 0.9961240310077519,
+        "within_over_total": 0.008939612717480047,
+        "between_over_total": 0.9910603872825199,
+        "source_identity_R2": 0.9910603872825199,
+        "n": 774
+      },
+      "short": {
+        "retrieval_top1": 0.9948320413436692,
+        "retrieval_top5": 1.0,
+        "within_over_total": 0.007627038654619676,
+        "between_over_total": 0.9923729613453803,
+        "source_identity_R2": 0.9923729613453803,
+        "n": 387
+      },
+      "pinhole": {
+        "retrieval_top1": 0.9896640826873385,
+        "retrieval_top5": 1.0,
+        "within_over_total": 0.01029514616516522,
+        "between_over_total": 0.9897048538348349,
+        "source_identity_R2": 0.9897048538348349,
+        "n": 387
+      }
+    }
+  },
+  "direction": {
+    "source_identity_R2": "higher means stronger source identity",
+    "within_over_total": "lower means tighter same-source clusters"
+  }
+}

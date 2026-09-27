@@ -1,0 +1,238 @@
+{
+  "short": {
+    "sample": {
+      "instance_id": "20085014_01_short",
+      "timestep": 358,
+      "mask_area": 0.002803802490234375
+    },
+    "before_projection_exact_zero": true,
+    "before_residual_exact_zero": true,
+    "loss": 0.002260883804410696,
+    "gradients": {
+      "mask_encoder.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "mask_encoder.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "mask_encoder.2.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "mask_encoder.2.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.2.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.2.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.2.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.2.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "projections.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 7.537124474765733e-05
+      },
+      "projections.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.00011383099626982585
+      },
+      "projections.1.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 6.166661478346214e-05
+      },
+      "projections.1.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 7.870743138482794e-05
+      }
+    },
+    "all_trainable_gradients_finite": true,
+    "projection_has_nonzero_finite_gradient": true,
+    "optimizer_step_executed": true,
+    "parameters_changed": true,
+    "parameters_finite": true,
+    "projection_nonzero": true,
+    "post_residual": [
+      {
+        "block": 2,
+        "finite": true,
+        "residual_rms": 9.895498078549281e-05,
+        "masked_residual_rms": 0.00017354691226501018,
+        "global_residual_hidden_ratio": 3.15982433676254e-05,
+        "resized_mask_pixels": 12
+      },
+      {
+        "block": 3,
+        "finite": true,
+        "residual_rms": 9.77266754489392e-05,
+        "masked_residual_rms": 0.00019896068261004984,
+        "global_residual_hidden_ratio": 3.6643545172410086e-05,
+        "resized_mask_pixels": 12
+      }
+    ],
+    "post_residual_finite_nonzero": true,
+    "passed": true
+  },
+  "pinhole": {
+    "sample": {
+      "instance_id": "13000197_05_pinhole",
+      "timestep": 358,
+      "mask_area": 0.004138946533203125
+    },
+    "before_projection_exact_zero": true,
+    "before_residual_exact_zero": true,
+    "loss": 0.0015924586914479733,
+    "gradients": {
+      "mask_encoder.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "mask_encoder.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "mask_encoder.2.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "mask_encoder.2.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.2.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "context_encoder.2.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.2.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "time_mlp.2.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 0.0
+      },
+      "projections.0.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 2.746163954725489e-05
+      },
+      "projections.0.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 3.692506652441807e-05
+      },
+      "projections.1.weight": {
+        "exists": true,
+        "finite": true,
+        "l2": 6.939872400835156e-05
+      },
+      "projections.1.bias": {
+        "exists": true,
+        "finite": true,
+        "l2": 8.991411596070975e-05
+      }
+    },
+    "all_trainable_gradients_finite": true,
+    "projection_has_nonzero_finite_gradient": true,
+    "optimizer_step_executed": true,
+    "parameters_changed": true,
+    "parameters_finite": true,
+    "projection_nonzero": true,
+    "post_residual": [
+      {
+        "block": 2,
+        "finite": true,
+        "residual_rms": 9.97588867903687e-05,
+        "masked_residual_rms": 0.0004058803606312722,
+        "global_residual_hidden_ratio": 3.16853474942036e-05,
+        "resized_mask_pixels": 16
+      },
+      {
+        "block": 3,
+        "finite": true,
+        "residual_rms": 0.00010094262688653544,
+        "masked_residual_rms": 0.0004647313035093248,
+        "global_residual_hidden_ratio": 3.79134071408771e-05,
+        "resized_mask_pixels": 16
+      }
+    ],
+    "post_residual_finite_nonzero": true,
+    "passed": true
+  }
+}

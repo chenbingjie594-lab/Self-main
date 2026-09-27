@@ -1,0 +1,54 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage9e_repaired_frozen_adapter results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter
+
+# 1. Tensor unit test + one-step validation + 50-successful-step gate.
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage9e_repair_gate.py \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --lowdata_root /mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917 \
+  --output results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter \
+  --device 0 > logs/deeppcb_stage9e_repaired_frozen_adapter/repair_gate.log 2>&1 &
+echo $! > logs/deeppcb_stage9e_repaired_frozen_adapter/repair_gate.pid
+
+# 2. Run only after repaired_50step_stability.json says REPAIR_STABLE.
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+for cls in short pinhole; do
+  /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/train_deeppcb_stage9e_adapter.py \
+    --model_path /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+    --lowdata_root /mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917 \
+    --class_name ${cls} \
+    --output /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9e_frozen_adapter_repaired/${cls} \
+    --gate results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/repaired_50step_stability.json \
+    --steps 2000 --accum 4 --lr 0.0001 --seed 42 \
+    > logs/deeppcb_stage9e_repaired_frozen_adapter/train_${cls}.log 2>&1
+done
+' > logs/deeppcb_stage9e_repaired_frozen_adapter/training_launcher.log 2>&1 &
+echo $! > logs/deeppcb_stage9e_repaired_frozen_adapter/training.pid
+
+# 3. Generate repaired and pretrained controls with exact source/seed pairing.
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/generate_deeppcb_stage9e.py \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --adapter_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9e_frozen_adapter_repaired \
+  --scheduler /mnt/sda/cbj/ImageGeneration/Self-main/scheduler \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --output /mnt/sda/cbj/ImageGeneration/Self-main/data/deeppcb_stage9e_repaired_frozen_adapter \
+  --manifest results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/source_seed_manifest.json \
+  --device 0 > logs/deeppcb_stage9e_repaired_frozen_adapter/generation.log 2>&1 &
+echo $! > logs/deeppcb_stage9e_repaired_frozen_adapter/generation.pid
+
+# 4. Canonical Stage7B/8B evaluation and frozen feasibility gate.
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/evaluate_deeppcb_stage9e.py \
+  --manifest results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/source_seed_manifest.json \
+  --adapter_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9e_frozen_adapter_repaired \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --gate_protocol configs/deeppcb_stage9e_gate.json \
+  --output results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter \
+  --device 0 --batch 16 > logs/deeppcb_stage9e_repaired_frozen_adapter/evaluation.log 2>&1 &
+echo $! > logs/deeppcb_stage9e_repaired_frozen_adapter/evaluation.pid
