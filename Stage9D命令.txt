@@ -1,0 +1,29 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage9d_dead_adapter_root_cause
+mkdir -p results_for_gpt/deeppcb_stage9d_dead_adapter_root_cause
+
+# 1. 只读现有 checkpoint：参数状态、fresh initialization、真实 hook shape、258 masks、单次 hook。
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_deeppcb_stage9d_static.py \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --lowdata_root /mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917 \
+  --adapter_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9a_frozen_adapter \
+  --stage9a_manifest results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility/frozen_adapter_manifest.json \
+  --stage9c results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution \
+  --output results_for_gpt/deeppcb_stage9d_dead_adapter_root_cause \
+  --device 0 > logs/deeppcb_stage9d_dead_adapter_root_cause/static.log 2>&1 &
+echo $! > logs/deeppcb_stage9d_dead_adapter_root_cause/static.pid
+
+# 2. Static 完成后：两个类别 single backward + one successful step；short 50 successful-step diagnostic。
+# 不保存 generator checkpoint，不生成 pool，不训练 detector。
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage9d_gradient.py \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --lowdata_root /mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917 \
+  --output results_for_gpt/deeppcb_stage9d_dead_adapter_root_cause \
+  --device 0 > logs/deeppcb_stage9d_dead_adapter_root_cause/gradient.log 2>&1 &
+echo $! > logs/deeppcb_stage9d_dead_adapter_root_cause/gradient.pid
+
+# 3. 前两步均成功后执行根因判定。
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_deeppcb_stage9d.py \
+  --output results_for_gpt/deeppcb_stage9d_dead_adapter_root_cause

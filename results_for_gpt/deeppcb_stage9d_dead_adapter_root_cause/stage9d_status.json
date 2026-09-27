@@ -1,0 +1,26 @@
+{
+  "status": "NONFINITE_GRADIENT_AMP_SCALE_COLLAPSE",
+  "evidence": {
+    "formal_projection_state_exact_zero": true,
+    "entire_formal_adapter_matches_fresh_initialization": true,
+    "fresh_nonfinite_gradient": true,
+    "fresh_gradient_reaches_projection": false,
+    "fresh_one_step_makes_finite_nonzero_residual": false,
+    "diagnostic_successful_updates": 0,
+    "diagnostic_parameters_update": false,
+    "diagnostic_stopped_on_zero_scale": true,
+    "mask_support_collapse": false,
+    "hooks_and_conditions_execute": true,
+    "state_dict_roundtrip_preserves_values_including_nan": true,
+    "amp_skip_status": "AMP_SCALE_COLLAPSED_TO_ZERO"
+  },
+  "contributing_statuses": [
+    "NONFINITE_GRADIENT_AMP_SCALE_COLLAPSE"
+  ],
+  "UNADAPTED_PRETRAINED_BACKBONE_INSUFFICIENT": true,
+  "FULL_UNET_FINETUNING_REQUIRED": false,
+  "LORA_REQUIRED": false,
+  "historical_stage9a_stage9c_modified": false,
+  "detector_training_count": 0,
+  "official_validation_use_count": 0
+}

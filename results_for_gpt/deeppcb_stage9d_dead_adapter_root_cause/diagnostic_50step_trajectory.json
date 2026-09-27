@@ -1,0 +1,2360 @@
+{
+  "class_name": "short",
+  "formal_checkpoint": false,
+  "checkpoint_saved": false,
+  "target_successful_updates": 50,
+  "successful_updates": 0,
+  "attempted_updates": 166,
+  "max_attempts": 256,
+  "stopped_on_zero_scale": true,
+  "skipped_updates": 166,
+  "skip_ratio": 1.0,
+  "fixed_probe_source": "20085014_01_short",
+  "fixed_probe_records": [
+    {
+      "step": 0,
+      "block": 2,
+      "raw_residual_rms": 0.0,
+      "masked_residual_rms": 0.0,
+      "bounded_residual_rms": 0.0,
+      "hidden_delta_abs_max": 0.0,
+      "resized_mask_nonzero_pixels": 12
+    },
+    {
+      "step": 0,
+      "block": 3,
+      "raw_residual_rms": 0.0,
+      "masked_residual_rms": 0.0,
+      "bounded_residual_rms": 0.0,
+      "hidden_delta_abs_max": 0.0,
+      "resized_mask_nonzero_pixels": 12
+    }
+  ],
+  "records": [
+    {
+      "attempt": 1,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 65536.0,
+      "scale_after": 32768.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085103_01_short",
+        "timestep": 470,
+        "mask_area": 0.003810882568359375
+      }
+    },
+    {
+      "attempt": 2,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 32768.0,
+      "scale_after": 16384.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000023_03_short",
+        "timestep": 973,
+        "mask_area": 0.0054931640625
+      }
+    },
+    {
+      "attempt": 3,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 16384.0,
+      "scale_after": 8192.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041095_01_short",
+        "timestep": 132,
+        "mask_area": 0.0063018798828125
+      }
+    },
+    {
+      "attempt": 4,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8192.0,
+      "scale_after": 4096.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041068_01_short",
+        "timestep": 545,
+        "mask_area": 0.00492095947265625
+      }
+    },
+    {
+      "attempt": 5,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4096.0,
+      "scale_after": 2048.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000037_03_short",
+        "timestep": 853,
+        "mask_area": 0.00945281982421875
+      }
+    },
+    {
+      "attempt": 6,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2048.0,
+      "scale_after": 1024.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600001_01_short",
+        "timestep": 706,
+        "mask_area": 0.00720977783203125
+      }
+    },
+    {
+      "attempt": 7,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1024.0,
+      "scale_after": 512.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041043_07_short",
+        "timestep": 659,
+        "mask_area": 0.0070037841796875
+      }
+    },
+    {
+      "attempt": 8,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 512.0,
+      "scale_after": 256.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041046_02_short",
+        "timestep": 700,
+        "mask_area": 0.00438690185546875
+      }
+    },
+    {
+      "attempt": 9,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 256.0,
+      "scale_after": 128.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000025_03_short",
+        "timestep": 415,
+        "mask_area": 0.0059661865234375
+      }
+    },
+    {
+      "attempt": 10,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 128.0,
+      "scale_after": 64.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000093_03_short",
+        "timestep": 469,
+        "mask_area": 0.01324462890625
+      }
+    },
+    {
+      "attempt": 11,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 64.0,
+      "scale_after": 32.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041081_01_short",
+        "timestep": 940,
+        "mask_area": 0.004611968994140625
+      }
+    },
+    {
+      "attempt": 12,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 32.0,
+      "scale_after": 16.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041039_01_short",
+        "timestep": 888,
+        "mask_area": 0.008937835693359375
+      }
+    },
+    {
+      "attempt": 13,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 16.0,
+      "scale_after": 8.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000008_01_short",
+        "timestep": 446,
+        "mask_area": 0.008068084716796875
+      }
+    },
+    {
+      "attempt": 14,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.0,
+      "scale_after": 4.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041181_05_short",
+        "timestep": 348,
+        "mask_area": 0.0203704833984375
+      }
+    },
+    {
+      "attempt": 15,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.0,
+      "scale_after": 2.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000031_01_short",
+        "timestep": 912,
+        "mask_area": 0.006397247314453125
+      }
+    },
+    {
+      "attempt": 16,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.0,
+      "scale_after": 1.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085201_01_short",
+        "timestep": 956,
+        "mask_area": 0.00641632080078125
+      }
+    },
+    {
+      "attempt": 17,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.0,
+      "scale_after": 0.5,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085221_04_short",
+        "timestep": 177,
+        "mask_area": 0.0065155029296875
+      }
+    },
+    {
+      "attempt": 18,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.5,
+      "scale_after": 0.25,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "92000044_01_short",
+        "timestep": 691,
+        "mask_area": 0.011997222900390625
+      }
+    },
+    {
+      "attempt": 19,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.25,
+      "scale_after": 0.125,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000110_02_short",
+        "timestep": 285,
+        "mask_area": 0.03662109375
+      }
+    },
+    {
+      "attempt": 20,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.125,
+      "scale_after": 0.0625,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085071_01_short",
+        "timestep": 662,
+        "mask_area": 0.0059661865234375
+      }
+    },
+    {
+      "attempt": 21,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.0625,
+      "scale_after": 0.03125,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600028_01_short",
+        "timestep": 371,
+        "mask_area": 0.00428009033203125
+      }
+    },
+    {
+      "attempt": 22,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.03125,
+      "scale_after": 0.015625,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000079_01_short",
+        "timestep": 726,
+        "mask_area": 0.0049285888671875
+      }
+    },
+    {
+      "attempt": 23,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.015625,
+      "scale_after": 0.0078125,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000030_03_short",
+        "timestep": 757,
+        "mask_area": 0.00457763671875
+      }
+    },
+    {
+      "attempt": 24,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.0078125,
+      "scale_after": 0.00390625,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041030_01_short",
+        "timestep": 425,
+        "mask_area": 0.006420135498046875
+      }
+    },
+    {
+      "attempt": 25,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.00390625,
+      "scale_after": 0.001953125,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085016_02_short",
+        "timestep": 55,
+        "mask_area": 0.004364013671875
+      }
+    },
+    {
+      "attempt": 26,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.001953125,
+      "scale_after": 0.0009765625,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085020_01_short",
+        "timestep": 294,
+        "mask_area": 0.0029754638671875
+      }
+    },
+    {
+      "attempt": 27,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.0009765625,
+      "scale_after": 0.00048828125,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041190_01_short",
+        "timestep": 326,
+        "mask_area": 0.004222869873046875
+      }
+    },
+    {
+      "attempt": 28,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.00048828125,
+      "scale_after": 0.000244140625,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085221_03_short",
+        "timestep": 703,
+        "mask_area": 0.0054473876953125
+      }
+    },
+    {
+      "attempt": 29,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.000244140625,
+      "scale_after": 0.0001220703125,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000104_01_short",
+        "timestep": 587,
+        "mask_area": 0.00803375244140625
+      }
+    },
+    {
+      "attempt": 30,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 0.0001220703125,
+      "scale_after": 6.103515625e-05,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041125_01_short",
+        "timestep": 56,
+        "mask_area": 0.007171630859375
+      }
+    },
+    {
+      "attempt": 31,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.103515625e-05,
+      "scale_after": 3.0517578125e-05,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000027_03_short",
+        "timestep": 973,
+        "mask_area": 0.004940032958984375
+      }
+    },
+    {
+      "attempt": 32,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.0517578125e-05,
+      "scale_after": 1.52587890625e-05,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000019_03_short",
+        "timestep": 73,
+        "mask_area": 0.004119873046875
+      }
+    },
+    {
+      "attempt": 33,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.52587890625e-05,
+      "scale_after": 7.62939453125e-06,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041039_01_short",
+        "timestep": 107,
+        "mask_area": 0.008937835693359375
+      }
+    },
+    {
+      "attempt": 34,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.62939453125e-06,
+      "scale_after": 3.814697265625e-06,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085027_01_short",
+        "timestep": 81,
+        "mask_area": 0.007537841796875
+      }
+    },
+    {
+      "attempt": 35,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.814697265625e-06,
+      "scale_after": 1.9073486328125e-06,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000092_02_short",
+        "timestep": 697,
+        "mask_area": 0.0080108642578125
+      }
+    },
+    {
+      "attempt": 36,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.9073486328125e-06,
+      "scale_after": 9.5367431640625e-07,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000174_01_short",
+        "timestep": 492,
+        "mask_area": 0.010051727294921875
+      }
+    },
+    {
+      "attempt": 37,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.5367431640625e-07,
+      "scale_after": 4.76837158203125e-07,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085183_01_short",
+        "timestep": 249,
+        "mask_area": 0.0040283203125
+      }
+    },
+    {
+      "attempt": 38,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.76837158203125e-07,
+      "scale_after": 2.384185791015625e-07,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000019_05_short",
+        "timestep": 456,
+        "mask_area": 0.0064849853515625
+      }
+    },
+    {
+      "attempt": 39,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.384185791015625e-07,
+      "scale_after": 1.1920928955078125e-07,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085238_02_short",
+        "timestep": 477,
+        "mask_area": 0.003936767578125
+      }
+    },
+    {
+      "attempt": 40,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1920928955078125e-07,
+      "scale_after": 5.960464477539063e-08,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041142_05_short",
+        "timestep": 590,
+        "mask_area": 0.0069427490234375
+      }
+    },
+    {
+      "attempt": 41,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.960464477539063e-08,
+      "scale_after": 2.9802322387695312e-08,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041081_01_short",
+        "timestep": 463,
+        "mask_area": 0.004611968994140625
+      }
+    },
+    {
+      "attempt": 42,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.9802322387695312e-08,
+      "scale_after": 1.4901161193847656e-08,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000028_03_short",
+        "timestep": 97,
+        "mask_area": 0.006275177001953125
+      }
+    },
+    {
+      "attempt": 43,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.4901161193847656e-08,
+      "scale_after": 7.450580596923828e-09,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600032_01_short",
+        "timestep": 124,
+        "mask_area": 0.004611968994140625
+      }
+    },
+    {
+      "attempt": 44,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.450580596923828e-09,
+      "scale_after": 3.725290298461914e-09,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085221_03_short",
+        "timestep": 818,
+        "mask_area": 0.0054473876953125
+      }
+    },
+    {
+      "attempt": 45,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.725290298461914e-09,
+      "scale_after": 1.862645149230957e-09,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "92000077_01_short",
+        "timestep": 399,
+        "mask_area": 0.00614166259765625
+      }
+    },
+    {
+      "attempt": 46,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.862645149230957e-09,
+      "scale_after": 9.313225746154785e-10,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000027_03_short",
+        "timestep": 509,
+        "mask_area": 0.004940032958984375
+      }
+    },
+    {
+      "attempt": 47,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.313225746154785e-10,
+      "scale_after": 4.656612873077393e-10,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041046_02_short",
+        "timestep": 522,
+        "mask_area": 0.00438690185546875
+      }
+    },
+    {
+      "attempt": 48,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.656612873077393e-10,
+      "scale_after": 2.3283064365386963e-10,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600015_01_short",
+        "timestep": 750,
+        "mask_area": 0.004428863525390625
+      }
+    },
+    {
+      "attempt": 49,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.3283064365386963e-10,
+      "scale_after": 1.1641532182693481e-10,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041125_08_short",
+        "timestep": 864,
+        "mask_area": 0.00400543212890625
+      }
+    },
+    {
+      "attempt": 50,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1641532182693481e-10,
+      "scale_after": 5.820766091346741e-11,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "92000006_05_short",
+        "timestep": 459,
+        "mask_area": 0.0157928466796875
+      }
+    },
+    {
+      "attempt": 51,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.820766091346741e-11,
+      "scale_after": 2.9103830456733704e-11,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000093_03_short",
+        "timestep": 174,
+        "mask_area": 0.01324462890625
+      }
+    },
+    {
+      "attempt": 52,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.9103830456733704e-11,
+      "scale_after": 1.4551915228366852e-11,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000031_01_short",
+        "timestep": 300,
+        "mask_area": 0.006397247314453125
+      }
+    },
+    {
+      "attempt": 53,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.4551915228366852e-11,
+      "scale_after": 7.275957614183426e-12,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000062_01_short",
+        "timestep": 2,
+        "mask_area": 0.00823974609375
+      }
+    },
+    {
+      "attempt": 54,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.275957614183426e-12,
+      "scale_after": 3.637978807091713e-12,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041030_01_short",
+        "timestep": 601,
+        "mask_area": 0.006420135498046875
+      }
+    },
+    {
+      "attempt": 55,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.637978807091713e-12,
+      "scale_after": 1.8189894035458565e-12,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000102_01_short",
+        "timestep": 145,
+        "mask_area": 0.0056610107421875
+      }
+    },
+    {
+      "attempt": 56,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.8189894035458565e-12,
+      "scale_after": 9.094947017729282e-13,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085062_01_short",
+        "timestep": 869,
+        "mask_area": 0.005046844482421875
+      }
+    },
+    {
+      "attempt": 57,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.094947017729282e-13,
+      "scale_after": 4.547473508864641e-13,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085203_01_short",
+        "timestep": 297,
+        "mask_area": 0.00514984130859375
+      }
+    },
+    {
+      "attempt": 58,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.547473508864641e-13,
+      "scale_after": 2.2737367544323206e-13,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000037_03_short",
+        "timestep": 398,
+        "mask_area": 0.00945281982421875
+      }
+    },
+    {
+      "attempt": 59,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.2737367544323206e-13,
+      "scale_after": 1.1368683772161603e-13,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000081_05_short",
+        "timestep": 149,
+        "mask_area": 0.00605010986328125
+      }
+    },
+    {
+      "attempt": 60,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1368683772161603e-13,
+      "scale_after": 5.684341886080802e-14,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000118_01_short",
+        "timestep": 309,
+        "mask_area": 0.005706787109375
+      }
+    },
+    {
+      "attempt": 61,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.684341886080802e-14,
+      "scale_after": 2.842170943040401e-14,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041043_07_short",
+        "timestep": 244,
+        "mask_area": 0.0070037841796875
+      }
+    },
+    {
+      "attempt": 62,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.842170943040401e-14,
+      "scale_after": 1.4210854715202004e-14,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085201_01_short",
+        "timestep": 753,
+        "mask_area": 0.00641632080078125
+      }
+    },
+    {
+      "attempt": 63,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.4210854715202004e-14,
+      "scale_after": 7.105427357601002e-15,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "92000081_01_short",
+        "timestep": 548,
+        "mask_area": 0.008514404296875
+      }
+    },
+    {
+      "attempt": 64,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.105427357601002e-15,
+      "scale_after": 3.552713678800501e-15,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000107_01_short",
+        "timestep": 456,
+        "mask_area": 0.0064849853515625
+      }
+    },
+    {
+      "attempt": 65,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.552713678800501e-15,
+      "scale_after": 1.7763568394002505e-15,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085103_01_short",
+        "timestep": 813,
+        "mask_area": 0.003810882568359375
+      }
+    },
+    {
+      "attempt": 66,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.7763568394002505e-15,
+      "scale_after": 8.881784197001252e-16,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000025_02_short",
+        "timestep": 71,
+        "mask_area": 0.003204345703125
+      }
+    },
+    {
+      "attempt": 67,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.881784197001252e-16,
+      "scale_after": 4.440892098500626e-16,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000028_03_short",
+        "timestep": 324,
+        "mask_area": 0.006275177001953125
+      }
+    },
+    {
+      "attempt": 68,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.440892098500626e-16,
+      "scale_after": 2.220446049250313e-16,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "92000073_01_short",
+        "timestep": 740,
+        "mask_area": 0.0075531005859375
+      }
+    },
+    {
+      "attempt": 69,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.220446049250313e-16,
+      "scale_after": 1.1102230246251565e-16,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000029_02_short",
+        "timestep": 587,
+        "mask_area": 0.00311279296875
+      }
+    },
+    {
+      "attempt": 70,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1102230246251565e-16,
+      "scale_after": 5.551115123125783e-17,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000019_04_short",
+        "timestep": 69,
+        "mask_area": 0.005157470703125
+      }
+    },
+    {
+      "attempt": 71,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.551115123125783e-17,
+      "scale_after": 2.7755575615628914e-17,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000019_03_short",
+        "timestep": 723,
+        "mask_area": 0.004119873046875
+      }
+    },
+    {
+      "attempt": 72,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.7755575615628914e-17,
+      "scale_after": 1.3877787807814457e-17,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041039_01_short",
+        "timestep": 744,
+        "mask_area": 0.008937835693359375
+      }
+    },
+    {
+      "attempt": 73,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.3877787807814457e-17,
+      "scale_after": 6.938893903907228e-18,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041030_01_short",
+        "timestep": 149,
+        "mask_area": 0.006420135498046875
+      }
+    },
+    {
+      "attempt": 74,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.938893903907228e-18,
+      "scale_after": 3.469446951953614e-18,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041089_05_short",
+        "timestep": 231,
+        "mask_area": 0.0064849853515625
+      }
+    },
+    {
+      "attempt": 75,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.469446951953614e-18,
+      "scale_after": 1.734723475976807e-18,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085238_03_short",
+        "timestep": 324,
+        "mask_area": 0.004535675048828125
+      }
+    },
+    {
+      "attempt": 76,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.734723475976807e-18,
+      "scale_after": 8.673617379884035e-19,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041079_01_short",
+        "timestep": 196,
+        "mask_area": 0.007976531982421875
+      }
+    },
+    {
+      "attempt": 77,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.673617379884035e-19,
+      "scale_after": 4.336808689942018e-19,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041181_05_short",
+        "timestep": 287,
+        "mask_area": 0.0203704833984375
+      }
+    },
+    {
+      "attempt": 78,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.336808689942018e-19,
+      "scale_after": 2.168404344971009e-19,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600028_01_short",
+        "timestep": 954,
+        "mask_area": 0.00428009033203125
+      }
+    },
+    {
+      "attempt": 79,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.168404344971009e-19,
+      "scale_after": 1.0842021724855044e-19,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041043_01_short",
+        "timestep": 446,
+        "mask_area": 0.0069427490234375
+      }
+    },
+    {
+      "attempt": 80,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.0842021724855044e-19,
+      "scale_after": 5.421010862427522e-20,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000104_01_short",
+        "timestep": 385,
+        "mask_area": 0.00803375244140625
+      }
+    },
+    {
+      "attempt": 81,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.421010862427522e-20,
+      "scale_after": 2.710505431213761e-20,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000110_02_short",
+        "timestep": 343,
+        "mask_area": 0.03662109375
+      }
+    },
+    {
+      "attempt": 82,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.710505431213761e-20,
+      "scale_after": 1.3552527156068805e-20,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085201_01_short",
+        "timestep": 508,
+        "mask_area": 0.00641632080078125
+      }
+    },
+    {
+      "attempt": 83,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.3552527156068805e-20,
+      "scale_after": 6.776263578034403e-21,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000102_01_short",
+        "timestep": 170,
+        "mask_area": 0.0056610107421875
+      }
+    },
+    {
+      "attempt": 84,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.776263578034403e-21,
+      "scale_after": 3.3881317890172014e-21,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085051_01_short",
+        "timestep": 105,
+        "mask_area": 0.0119476318359375
+      }
+    },
+    {
+      "attempt": 85,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.3881317890172014e-21,
+      "scale_after": 1.6940658945086007e-21,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600024_01_short",
+        "timestep": 890,
+        "mask_area": 0.004405975341796875
+      }
+    },
+    {
+      "attempt": 86,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.6940658945086007e-21,
+      "scale_after": 8.470329472543003e-22,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085238_02_short",
+        "timestep": 8,
+        "mask_area": 0.003936767578125
+      }
+    },
+    {
+      "attempt": 87,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.470329472543003e-22,
+      "scale_after": 4.235164736271502e-22,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085014_01_short",
+        "timestep": 283,
+        "mask_area": 0.002803802490234375
+      }
+    },
+    {
+      "attempt": 88,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.235164736271502e-22,
+      "scale_after": 2.117582368135751e-22,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085143_01_short",
+        "timestep": 993,
+        "mask_area": 0.00432586669921875
+      }
+    },
+    {
+      "attempt": 89,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.117582368135751e-22,
+      "scale_after": 1.0587911840678754e-22,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041057_06_short",
+        "timestep": 876,
+        "mask_area": 0.0054931640625
+      }
+    },
+    {
+      "attempt": 90,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.0587911840678754e-22,
+      "scale_after": 5.293955920339377e-23,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041047_08_short",
+        "timestep": 127,
+        "mask_area": 0.004058837890625
+      }
+    },
+    {
+      "attempt": 91,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.293955920339377e-23,
+      "scale_after": 2.6469779601696886e-23,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000086_01_short",
+        "timestep": 5,
+        "mask_area": 0.0135955810546875
+      }
+    },
+    {
+      "attempt": 92,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.6469779601696886e-23,
+      "scale_after": 1.3234889800848443e-23,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000026_02_short",
+        "timestep": 511,
+        "mask_area": 0.00688934326171875
+      }
+    },
+    {
+      "attempt": 93,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.3234889800848443e-23,
+      "scale_after": 6.617444900424222e-24,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041133_01_short",
+        "timestep": 316,
+        "mask_area": 0.0041656494140625
+      }
+    },
+    {
+      "attempt": 94,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.617444900424222e-24,
+      "scale_after": 3.308722450212111e-24,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000096_01_short",
+        "timestep": 354,
+        "mask_area": 0.007534027099609375
+      }
+    },
+    {
+      "attempt": 95,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.308722450212111e-24,
+      "scale_after": 1.6543612251060553e-24,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000107_01_short",
+        "timestep": 155,
+        "mask_area": 0.0064849853515625
+      }
+    },
+    {
+      "attempt": 96,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.6543612251060553e-24,
+      "scale_after": 8.271806125530277e-25,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000027_02_short",
+        "timestep": 672,
+        "mask_area": 0.00274658203125
+      }
+    },
+    {
+      "attempt": 97,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.271806125530277e-25,
+      "scale_after": 4.1359030627651384e-25,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000028_02_short",
+        "timestep": 811,
+        "mask_area": 0.004657745361328125
+      }
+    },
+    {
+      "attempt": 98,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.1359030627651384e-25,
+      "scale_after": 2.0679515313825692e-25,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085071_06_short",
+        "timestep": 360,
+        "mask_area": 0.009349822998046875
+      }
+    },
+    {
+      "attempt": 99,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.0679515313825692e-25,
+      "scale_after": 1.0339757656912846e-25,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000126_01_short",
+        "timestep": 470,
+        "mask_area": 0.0037384033203125
+      }
+    },
+    {
+      "attempt": 100,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.0339757656912846e-25,
+      "scale_after": 5.169878828456423e-26,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041039_01_short",
+        "timestep": 140,
+        "mask_area": 0.008937835693359375
+      }
+    },
+    {
+      "attempt": 101,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.169878828456423e-26,
+      "scale_after": 2.5849394142282115e-26,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041125_08_short",
+        "timestep": 614,
+        "mask_area": 0.00400543212890625
+      }
+    },
+    {
+      "attempt": 102,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.5849394142282115e-26,
+      "scale_after": 1.2924697071141057e-26,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000110_06_short",
+        "timestep": 848,
+        "mask_area": 0.00537109375
+      }
+    },
+    {
+      "attempt": 103,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.2924697071141057e-26,
+      "scale_after": 6.462348535570529e-27,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041079_01_short",
+        "timestep": 839,
+        "mask_area": 0.007976531982421875
+      }
+    },
+    {
+      "attempt": 104,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.462348535570529e-27,
+      "scale_after": 3.2311742677852644e-27,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041085_01_short",
+        "timestep": 584,
+        "mask_area": 0.006744384765625
+      }
+    },
+    {
+      "attempt": 105,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.2311742677852644e-27,
+      "scale_after": 1.6155871338926322e-27,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000028_03_short",
+        "timestep": 760,
+        "mask_area": 0.006275177001953125
+      }
+    },
+    {
+      "attempt": 106,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.6155871338926322e-27,
+      "scale_after": 8.077935669463161e-28,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085217_01_short",
+        "timestep": 463,
+        "mask_area": 0.013427734375
+      }
+    },
+    {
+      "attempt": 107,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.077935669463161e-28,
+      "scale_after": 4.0389678347315804e-28,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041057_06_short",
+        "timestep": 696,
+        "mask_area": 0.0054931640625
+      }
+    },
+    {
+      "attempt": 108,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.0389678347315804e-28,
+      "scale_after": 2.0194839173657902e-28,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041057_01_short",
+        "timestep": 787,
+        "mask_area": 0.003604888916015625
+      }
+    },
+    {
+      "attempt": 109,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.0194839173657902e-28,
+      "scale_after": 1.0097419586828951e-28,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085185_02_short",
+        "timestep": 924,
+        "mask_area": 0.0059814453125
+      }
+    },
+    {
+      "attempt": 110,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.0097419586828951e-28,
+      "scale_after": 5.048709793414476e-29,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000110_02_short",
+        "timestep": 525,
+        "mask_area": 0.03662109375
+      }
+    },
+    {
+      "attempt": 111,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.048709793414476e-29,
+      "scale_after": 2.524354896707238e-29,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000118_01_short",
+        "timestep": 913,
+        "mask_area": 0.005706787109375
+      }
+    },
+    {
+      "attempt": 112,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.524354896707238e-29,
+      "scale_after": 1.262177448353619e-29,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041190_01_short",
+        "timestep": 340,
+        "mask_area": 0.004222869873046875
+      }
+    },
+    {
+      "attempt": 113,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.262177448353619e-29,
+      "scale_after": 6.310887241768095e-30,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000095_01_short",
+        "timestep": 175,
+        "mask_area": 0.006866455078125
+      }
+    },
+    {
+      "attempt": 114,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.310887241768095e-30,
+      "scale_after": 3.1554436208840472e-30,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085051_01_short",
+        "timestep": 851,
+        "mask_area": 0.0119476318359375
+      }
+    },
+    {
+      "attempt": 115,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.1554436208840472e-30,
+      "scale_after": 1.5777218104420236e-30,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600001_01_short",
+        "timestep": 800,
+        "mask_area": 0.00720977783203125
+      }
+    },
+    {
+      "attempt": 116,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.5777218104420236e-30,
+      "scale_after": 7.888609052210118e-31,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000076_01_short",
+        "timestep": 166,
+        "mask_area": 0.008182525634765625
+      }
+    },
+    {
+      "attempt": 117,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.888609052210118e-31,
+      "scale_after": 3.944304526105059e-31,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000023_03_short",
+        "timestep": 227,
+        "mask_area": 0.0054931640625
+      }
+    },
+    {
+      "attempt": 118,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.944304526105059e-31,
+      "scale_after": 1.9721522630525295e-31,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000017_02_short",
+        "timestep": 186,
+        "mask_area": 0.002765655517578125
+      }
+    },
+    {
+      "attempt": 119,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.9721522630525295e-31,
+      "scale_after": 9.860761315262648e-32,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085026_01_short",
+        "timestep": 547,
+        "mask_area": 0.00629425048828125
+      }
+    },
+    {
+      "attempt": 120,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.860761315262648e-32,
+      "scale_after": 4.930380657631324e-32,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085014_01_short",
+        "timestep": 672,
+        "mask_area": 0.002803802490234375
+      }
+    },
+    {
+      "attempt": 121,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.930380657631324e-32,
+      "scale_after": 2.465190328815662e-32,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041047_01_short",
+        "timestep": 895,
+        "mask_area": 0.0055389404296875
+      }
+    },
+    {
+      "attempt": 122,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.465190328815662e-32,
+      "scale_after": 1.232595164407831e-32,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600032_01_short",
+        "timestep": 45,
+        "mask_area": 0.004611968994140625
+      }
+    },
+    {
+      "attempt": 123,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.232595164407831e-32,
+      "scale_after": 6.162975822039155e-33,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085225_05_short",
+        "timestep": 411,
+        "mask_area": 0.0050811767578125
+      }
+    },
+    {
+      "attempt": 124,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.162975822039155e-33,
+      "scale_after": 3.0814879110195774e-33,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "44000107_01_short",
+        "timestep": 915,
+        "mask_area": 0.0064849853515625
+      }
+    },
+    {
+      "attempt": 125,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.0814879110195774e-33,
+      "scale_after": 1.5407439555097887e-33,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000044_01_short",
+        "timestep": 180,
+        "mask_area": 0.00560760498046875
+      }
+    },
+    {
+      "attempt": 126,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.5407439555097887e-33,
+      "scale_after": 7.703719777548943e-34,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000083_04_short",
+        "timestep": 255,
+        "mask_area": 0.00579071044921875
+      }
+    },
+    {
+      "attempt": 127,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.703719777548943e-34,
+      "scale_after": 3.851859888774472e-34,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000008_07_short",
+        "timestep": 100,
+        "mask_area": 0.00341796875
+      }
+    },
+    {
+      "attempt": 128,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.851859888774472e-34,
+      "scale_after": 1.925929944387236e-34,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041089_01_short",
+        "timestep": 933,
+        "mask_area": 0.005641937255859375
+      }
+    },
+    {
+      "attempt": 129,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.925929944387236e-34,
+      "scale_after": 9.62964972193618e-35,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041030_01_short",
+        "timestep": 315,
+        "mask_area": 0.006420135498046875
+      }
+    },
+    {
+      "attempt": 130,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.62964972193618e-35,
+      "scale_after": 4.81482486096809e-35,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041095_01_short",
+        "timestep": 229,
+        "mask_area": 0.0063018798828125
+      }
+    },
+    {
+      "attempt": 131,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.81482486096809e-35,
+      "scale_after": 2.407412430484045e-35,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000029_03_short",
+        "timestep": 207,
+        "mask_area": 0.0039825439453125
+      }
+    },
+    {
+      "attempt": 132,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.407412430484045e-35,
+      "scale_after": 1.2037062152420224e-35,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000110_06_short",
+        "timestep": 318,
+        "mask_area": 0.00537109375
+      }
+    },
+    {
+      "attempt": 133,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.2037062152420224e-35,
+      "scale_after": 6.018531076210112e-36,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000031_01_short",
+        "timestep": 95,
+        "mask_area": 0.006397247314453125
+      }
+    },
+    {
+      "attempt": 134,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 6.018531076210112e-36,
+      "scale_after": 3.009265538105056e-36,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085107_01_short",
+        "timestep": 495,
+        "mask_area": 0.00555419921875
+      }
+    },
+    {
+      "attempt": 135,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.009265538105056e-36,
+      "scale_after": 1.504632769052528e-36,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085026_01_short",
+        "timestep": 932,
+        "mask_area": 0.00629425048828125
+      }
+    },
+    {
+      "attempt": 136,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.504632769052528e-36,
+      "scale_after": 7.52316384526264e-37,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000126_01_short",
+        "timestep": 294,
+        "mask_area": 0.0037384033203125
+      }
+    },
+    {
+      "attempt": 137,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.52316384526264e-37,
+      "scale_after": 3.76158192263132e-37,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000027_02_short",
+        "timestep": 44,
+        "mask_area": 0.00274658203125
+      }
+    },
+    {
+      "attempt": 138,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.76158192263132e-37,
+      "scale_after": 1.88079096131566e-37,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000025_03_short",
+        "timestep": 663,
+        "mask_area": 0.0059661865234375
+      }
+    },
+    {
+      "attempt": 139,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.88079096131566e-37,
+      "scale_after": 9.4039548065783e-38,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041046_02_short",
+        "timestep": 363,
+        "mask_area": 0.00438690185546875
+      }
+    },
+    {
+      "attempt": 140,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.4039548065783e-38,
+      "scale_after": 4.70197740328915e-38,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600049_01_short",
+        "timestep": 959,
+        "mask_area": 0.006256103515625
+      }
+    },
+    {
+      "attempt": 141,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.70197740328915e-38,
+      "scale_after": 2.350988701644575e-38,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000019_03_short",
+        "timestep": 629,
+        "mask_area": 0.004119873046875
+      }
+    },
+    {
+      "attempt": 142,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.350988701644575e-38,
+      "scale_after": 1.1754943508222875e-38,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000037_03_short",
+        "timestep": 858,
+        "mask_area": 0.00945281982421875
+      }
+    },
+    {
+      "attempt": 143,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1754943508222875e-38,
+      "scale_after": 5.877471754111438e-39,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085185_02_short",
+        "timestep": 165,
+        "mask_area": 0.0059814453125
+      }
+    },
+    {
+      "attempt": 144,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.877471754111438e-39,
+      "scale_after": 2.938735877055719e-39,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000019_04_short",
+        "timestep": 104,
+        "mask_area": 0.005157470703125
+      }
+    },
+    {
+      "attempt": 145,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.938735877055719e-39,
+      "scale_after": 1.4693679385278594e-39,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085155_01_short",
+        "timestep": 437,
+        "mask_area": 0.0045623779296875
+      }
+    },
+    {
+      "attempt": 146,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.4693679385278594e-39,
+      "scale_after": 7.346839692639297e-40,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000022_03_short",
+        "timestep": 776,
+        "mask_area": 0.0053558349609375
+      }
+    },
+    {
+      "attempt": 147,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.346839692639297e-40,
+      "scale_after": 3.6734198463196485e-40,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041047_01_short",
+        "timestep": 521,
+        "mask_area": 0.0055389404296875
+      }
+    },
+    {
+      "attempt": 148,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.6734198463196485e-40,
+      "scale_after": 1.8367099231598242e-40,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041039_01_short",
+        "timestep": 795,
+        "mask_area": 0.008937835693359375
+      }
+    },
+    {
+      "attempt": 149,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.8367099231598242e-40,
+      "scale_after": 9.183549615799121e-41,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600032_01_short",
+        "timestep": 813,
+        "mask_area": 0.004611968994140625
+      }
+    },
+    {
+      "attempt": 150,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 9.183549615799121e-41,
+      "scale_after": 4.591774807899561e-41,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085103_01_short",
+        "timestep": 212,
+        "mask_area": 0.003810882568359375
+      }
+    },
+    {
+      "attempt": 151,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.591774807899561e-41,
+      "scale_after": 2.2958874039497803e-41,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000076_01_short",
+        "timestep": 390,
+        "mask_area": 0.008182525634765625
+      }
+    },
+    {
+      "attempt": 152,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.2958874039497803e-41,
+      "scale_after": 1.1479437019748901e-41,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000118_01_short",
+        "timestep": 890,
+        "mask_area": 0.005706787109375
+      }
+    },
+    {
+      "attempt": 153,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1479437019748901e-41,
+      "scale_after": 5.739718509874451e-42,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041125_08_short",
+        "timestep": 761,
+        "mask_area": 0.00400543212890625
+      }
+    },
+    {
+      "attempt": 154,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.739718509874451e-42,
+      "scale_after": 2.8698592549372254e-42,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085143_01_short",
+        "timestep": 324,
+        "mask_area": 0.00432586669921875
+      }
+    },
+    {
+      "attempt": 155,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.8698592549372254e-42,
+      "scale_after": 1.4349296274686127e-42,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "50600001_01_short",
+        "timestep": 352,
+        "mask_area": 0.00720977783203125
+      }
+    },
+    {
+      "attempt": 156,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.4349296274686127e-42,
+      "scale_after": 7.174648137343064e-43,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000023_02_short",
+        "timestep": 405,
+        "mask_area": 0.006809234619140625
+      }
+    },
+    {
+      "attempt": 157,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 7.174648137343064e-43,
+      "scale_after": 3.587324068671532e-43,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041068_01_short",
+        "timestep": 18,
+        "mask_area": 0.00492095947265625
+      }
+    },
+    {
+      "attempt": 158,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 3.587324068671532e-43,
+      "scale_after": 1.793662034335766e-43,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "77000083_04_short",
+        "timestep": 298,
+        "mask_area": 0.00579071044921875
+      }
+    },
+    {
+      "attempt": 159,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.793662034335766e-43,
+      "scale_after": 8.96831017167883e-44,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "92000008_01_short",
+        "timestep": 333,
+        "mask_area": 0.0127105712890625
+      }
+    },
+    {
+      "attempt": 160,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 8.96831017167883e-44,
+      "scale_after": 4.484155085839415e-44,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000022_02_short",
+        "timestep": 101,
+        "mask_area": 0.0045166015625
+      }
+    },
+    {
+      "attempt": 161,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 4.484155085839415e-44,
+      "scale_after": 2.2420775429197073e-44,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000079_01_short",
+        "timestep": 186,
+        "mask_area": 0.0049285888671875
+      }
+    },
+    {
+      "attempt": 162,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.2420775429197073e-44,
+      "scale_after": 1.1210387714598537e-44,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085020_01_short",
+        "timestep": 904,
+        "mask_area": 0.0029754638671875
+      }
+    },
+    {
+      "attempt": 163,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.1210387714598537e-44,
+      "scale_after": 5.605193857299268e-45,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085238_03_short",
+        "timestep": 434,
+        "mask_area": 0.004535675048828125
+      }
+    },
+    {
+      "attempt": 164,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 5.605193857299268e-45,
+      "scale_after": 2.802596928649634e-45,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "20085062_01_short",
+        "timestep": 834,
+        "mask_area": 0.005046844482421875
+      }
+    },
+    {
+      "attempt": 165,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 2.802596928649634e-45,
+      "scale_after": 1.401298464324817e-45,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "13000027_02_short",
+        "timestep": 474,
+        "mask_area": 0.00274658203125
+      }
+    },
+    {
+      "attempt": 166,
+      "successful_step": 0,
+      "skip": true,
+      "scale_before": 1.401298464324817e-45,
+      "scale_after": 0.0,
+      "gradient_finite": false,
+      "parameters_changed": false,
+      "sample": {
+        "instance_id": "00041057_06_short",
+        "timestep": 850,
+        "mask_area": 0.0054931640625
+      }
+    }
+  ],
+  "amp_skip_status": "AMP_SCALE_COLLAPSED_TO_ZERO"
+}

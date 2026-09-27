@@ -1,0 +1,27 @@
+{
+  "formal_description": "Stage9A frozen_adapter arm behaved as an unadapted pretrained-backbone control because the learned residual path was inactive.",
+  "probe_evidence": {
+    "effective_adapter_noop_observed": null,
+    "stage9c_status": "SEMANTIC_ADAPTATION_DEFICIT_SUPPORTED",
+    "adapter_on_off_probe_file": "adapter_on_off_probe.json",
+    "residual_magnitude_summary_file": "residual_magnitude_summary.json",
+    "evidence_schema_fallback": true
+  },
+  "manifest_records": 774,
+  "manifest_checkpoint_sha256": [
+    "20869bb2ee815b869a1172f21a96a716be3656d9bd459e69c8db273825e67d21",
+    "c75cd42049bdfa74a5347ba226927a53f09bd58a8b8d2d22f821a0b081377c1f"
+  ],
+  "generation_seeds": [
+    42,
+    2026,
+    3407
+  ],
+  "adapter_attach_intended_by_generation_code": true,
+  "base_model": "SD2 Inpainting pretrained backbone",
+  "scheduler": "frozen repository DDIM scheduler",
+  "historical_stage9a_files_modified": false,
+  "UNADAPTED_PRETRAINED_BACKBONE_INSUFFICIENT": true,
+  "FULL_UNET_FINETUNING_REQUIRED": false,
+  "LORA_REQUIRED": false
+}

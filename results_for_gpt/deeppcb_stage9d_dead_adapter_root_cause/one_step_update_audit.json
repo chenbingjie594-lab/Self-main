@@ -1,0 +1,731 @@
+{
+  "short": {
+    "sample": {
+      "instance_id": "20085014_01_short",
+      "timestep": 981,
+      "mask_area": 0.002803802490234375
+    },
+    "loss": 3.0207760573830456e-05,
+    "gradient_groups": {
+      "mask_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "context_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "time_mlp": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.0": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.1": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      }
+    },
+    "projection_gradient_status": "NONFINITE_GRADIENT",
+    "parameter_changes": {
+      "mask_encoder.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "mask_encoder.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "mask_encoder.2.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "mask_encoder.2.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.2.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.2.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.2.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.2.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.1.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.1.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      }
+    },
+    "post_step_parameters_finite": false,
+    "projection_weight_changed": true,
+    "projection_bias_changed": true,
+    "encoder_changed": true,
+    "time_mlp_changed": true,
+    "state_dict_roundtrip_exact_equal": true,
+    "state_dict_roundtrip_finite": false,
+    "post_step_probe": [
+      {
+        "block": 2,
+        "returned_delta_rms": null,
+        "returned_delta_abs_max": null
+      },
+      {
+        "block": 3,
+        "returned_delta_rms": null,
+        "returned_delta_abs_max": null
+      }
+    ],
+    "post_step_output_still_exact_zero": false
+  },
+  "pinhole": {
+    "sample": {
+      "instance_id": "13000197_05_pinhole",
+      "timestep": 73,
+      "mask_area": 0.004138946533203125
+    },
+    "loss": 0.0048651425167918205,
+    "gradient_groups": {
+      "mask_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "context_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "time_mlp": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.0": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.1": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      }
+    },
+    "projection_gradient_status": "NONFINITE_GRADIENT",
+    "parameter_changes": {
+      "mask_encoder.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "mask_encoder.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "mask_encoder.2.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "mask_encoder.2.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.2.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "context_encoder.2.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.2.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "time_mlp.2.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.0.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.0.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.1.weight": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      },
+      "projections.1.bias": {
+        "changed": true,
+        "max_abs_delta": null,
+        "relative_l2_delta": null
+      }
+    },
+    "post_step_parameters_finite": false,
+    "projection_weight_changed": true,
+    "projection_bias_changed": true,
+    "encoder_changed": true,
+    "time_mlp_changed": true,
+    "state_dict_roundtrip_exact_equal": true,
+    "state_dict_roundtrip_finite": false,
+    "post_step_probe": [
+      {
+        "block": 2,
+        "returned_delta_rms": null,
+        "returned_delta_abs_max": null
+      },
+      {
+        "block": 3,
+        "returned_delta_rms": null,
+        "returned_delta_abs_max": null
+      }
+    ],
+    "post_step_output_still_exact_zero": false
+  },
+  "serialization_audit": {
+    "nonfinite_values_replaced_with_null": 102,
+    "locations": [
+      {
+        "path": "$.short.gradient_groups.mask_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.mask_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.mask_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.context_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.context_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.context_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.time_mlp.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.time_mlp.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.time_mlp.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.0.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.0.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.0.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.1.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.1.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.1.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.2.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.2.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.2.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.mask_encoder.2.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.2.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.2.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.2.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.context_encoder.2.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.2.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.2.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.2.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.time_mlp.2.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.1.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.1.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.1.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.parameter_changes.projections.1.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.post_step_probe[0].returned_delta_rms",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.post_step_probe[0].returned_delta_abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.post_step_probe[1].returned_delta_rms",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.post_step_probe[1].returned_delta_abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.mask_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.mask_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.mask_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.context_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.context_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.context_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.time_mlp.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.time_mlp.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.time_mlp.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.0.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.0.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.0.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.1.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.1.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.1.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.2.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.2.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.2.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.mask_encoder.2.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.2.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.2.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.2.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.context_encoder.2.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.2.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.2.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.2.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.time_mlp.2.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.0.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.0.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.0.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.0.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.1.weight.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.1.weight.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.1.bias.max_abs_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.parameter_changes.projections.1.bias.relative_l2_delta",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.post_step_probe[0].returned_delta_rms",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.post_step_probe[0].returned_delta_abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.post_step_probe[1].returned_delta_rms",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.post_step_probe[1].returned_delta_abs_max",
+        "value": "nan"
+      }
+    ]
+  }
+}

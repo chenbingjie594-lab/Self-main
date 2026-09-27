@@ -1,0 +1,239 @@
+{
+  "short": {
+    "sample": {
+      "instance_id": "20085014_01_short",
+      "timestep": 981,
+      "mask_area": 0.002803802490234375
+    },
+    "loss": 3.0207760573830456e-05,
+    "gradient_groups": {
+      "mask_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "context_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "time_mlp": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.0": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.1": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      }
+    },
+    "status": "NONFINITE_GRADIENT"
+  },
+  "pinhole": {
+    "sample": {
+      "instance_id": "13000197_05_pinhole",
+      "timestep": 73,
+      "mask_area": 0.004138946533203125
+    },
+    "loss": 0.0048651425167918205,
+    "gradient_groups": {
+      "mask_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "context_encoder": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "time_mlp": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.0": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      },
+      "projections.1": {
+        "all_grad_exist": true,
+        "exists": true,
+        "finite": false,
+        "l1": null,
+        "l2": null,
+        "abs_max": null,
+        "exact_zero_fraction": 0.0
+      }
+    },
+    "status": "NONFINITE_GRADIENT"
+  },
+  "serialization_audit": {
+    "nonfinite_values_replaced_with_null": 30,
+    "locations": [
+      {
+        "path": "$.short.gradient_groups.mask_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.mask_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.mask_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.context_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.context_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.context_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.time_mlp.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.time_mlp.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.time_mlp.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.0.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.0.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.0.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.1.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.1.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.short.gradient_groups.projections.1.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.mask_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.mask_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.mask_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.context_encoder.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.context_encoder.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.context_encoder.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.time_mlp.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.time_mlp.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.time_mlp.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.0.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.0.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.0.abs_max",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.1.l1",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.1.l2",
+        "value": "nan"
+      },
+      {
+        "path": "$.pinhole.gradient_groups.projections.1.abs_max",
+        "value": "nan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "short": {
+    "parameters": {
+      "mask_encoder.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "mask_encoder.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "mask_encoder.2.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "mask_encoder.2.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.2.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.2.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.2.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.2.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.1.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.1.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      }
+    },
+    "all_exact_equal": true,
+    "projections_exact_equal_to_zero_initialization": true,
+    "status": "ADAPTER_OPTIMIZER_EFFECTIVELY_NO_UPDATE"
+  },
+  "pinhole": {
+    "parameters": {
+      "mask_encoder.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "mask_encoder.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "mask_encoder.2.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "mask_encoder.2.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.2.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "context_encoder.2.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.2.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "time_mlp.2.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.0.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.0.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.1.weight": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      },
+      "projections.1.bias": {
+        "exact_equal": true,
+        "max_abs_delta": 0.0,
+        "relative_l2_delta": 0.0
+      }
+    },
+    "all_exact_equal": true,
+    "projections_exact_equal_to_zero_initialization": true,
+    "status": "ADAPTER_OPTIMIZER_EFFECTIVELY_NO_UPDATE"
+  }
+}
