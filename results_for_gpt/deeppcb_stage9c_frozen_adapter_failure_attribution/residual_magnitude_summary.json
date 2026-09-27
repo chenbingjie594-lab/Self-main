@@ -1,0 +1,141 @@
+{
+  "metrics": {
+    "short": {
+      "block2": {
+        "global_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "raw_masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "scale_multiplier": {
+          "mean": 1.0,
+          "median": 1.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bounded_outside_residual_rms": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bound_active_fraction": 0.0
+      },
+      "block3": {
+        "global_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "raw_masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "scale_multiplier": {
+          "mean": 1.0,
+          "median": 1.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bounded_outside_residual_rms": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bound_active_fraction": 0.0
+      }
+    },
+    "pinhole": {
+      "block2": {
+        "global_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "raw_masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "scale_multiplier": {
+          "mean": 1.0,
+          "median": 1.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bounded_outside_residual_rms": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bound_active_fraction": 0.0
+      },
+      "block3": {
+        "global_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "raw_masked_residual_to_hidden_ratio": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "scale_multiplier": {
+          "mean": 1.0,
+          "median": 1.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bounded_outside_residual_rms": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "n": 1500
+        },
+        "bound_active_fraction": 0.0
+      }
+    }
+  },
+  "projection_bias_outside_mask_observed": false
+}

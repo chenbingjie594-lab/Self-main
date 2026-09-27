@@ -1,0 +1,149 @@
+{
+  "metrics": {
+    "sd2": {
+      "overall": {
+        "retrieval_top1": 0.2997416020671835,
+        "retrieval_top5": 0.6124031007751938,
+        "within_source_sum_squares": 10.374828244535784,
+        "between_source_sum_squares": 329.97534860659357,
+        "total_sum_squares": 340.35017685112933,
+        "within_over_total": 0.03048280550497196,
+        "between_over_total": 0.9695171944950282,
+        "source_identity_R2": 0.9695171944950282,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      },
+      "short": {
+        "retrieval_top1": 0.34366925064599485,
+        "retrieval_top5": 0.6511627906976745,
+        "within_source_sum_squares": 5.151016135547103,
+        "between_source_sum_squares": 163.099618714107,
+        "total_sum_squares": 168.25063484965412,
+        "within_over_total": 0.030615136401416627,
+        "between_over_total": 0.9693848635985833,
+        "source_identity_R2": 0.9693848635985833,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      },
+      "pinhole": {
+        "retrieval_top1": 0.2558139534883721,
+        "retrieval_top5": 0.5736434108527132,
+        "within_source_sum_squares": 5.223812108988684,
+        "between_source_sum_squares": 158.75901228729228,
+        "total_sum_squares": 163.98282439628096,
+        "within_over_total": 0.0318558491001766,
+        "between_over_total": 0.9681441508998234,
+        "source_identity_R2": 0.9681441508998234,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      }
+    },
+    "full_msdf": {
+      "overall": {
+        "retrieval_top1": 0.28811369509043927,
+        "retrieval_top5": 0.5917312661498708,
+        "within_source_sum_squares": 10.467829762055034,
+        "between_source_sum_squares": 337.90645222683884,
+        "total_sum_squares": 348.37428198889387,
+        "within_over_total": 0.030047653639337094,
+        "between_over_total": 0.969952346360663,
+        "source_identity_R2": 0.969952346360663,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      },
+      "short": {
+        "retrieval_top1": 0.3281653746770026,
+        "retrieval_top5": 0.6666666666666666,
+        "within_source_sum_squares": 4.893168606747606,
+        "between_source_sum_squares": 167.5556304518838,
+        "total_sum_squares": 172.44879905863138,
+        "within_over_total": 0.028374616891846043,
+        "between_over_total": 0.971625383108154,
+        "source_identity_R2": 0.971625383108154,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      },
+      "pinhole": {
+        "retrieval_top1": 0.24806201550387597,
+        "retrieval_top5": 0.5167958656330749,
+        "within_source_sum_squares": 5.574661155307421,
+        "between_source_sum_squares": 164.24819653697813,
+        "total_sum_squares": 169.82285769228554,
+        "within_over_total": 0.0328263299243766,
+        "between_over_total": 0.9671736700756235,
+        "source_identity_R2": 0.9671736700756235,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      }
+    },
+    "frozen_adapter": {
+      "overall": {
+        "retrieval_top1": 0.07364341085271318,
+        "retrieval_top5": 0.27648578811369506,
+        "within_source_sum_squares": 17.067924701995643,
+        "between_source_sum_squares": 327.5072146297118,
+        "total_sum_squares": 344.5751393317075,
+        "within_over_total": 0.04953324472304746,
+        "between_over_total": 0.9504667552769526,
+        "source_identity_R2": 0.9504667552769526,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      },
+      "short": {
+        "retrieval_top1": 0.082687338501292,
+        "retrieval_top5": 0.2558139534883721,
+        "within_source_sum_squares": 10.575887921473194,
+        "between_source_sum_squares": 158.09879760710461,
+        "total_sum_squares": 168.6746855285778,
+        "within_over_total": 0.06269991189449331,
+        "between_over_total": 0.9373000881055067,
+        "source_identity_R2": 0.9373000881055067,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      },
+      "pinhole": {
+        "retrieval_top1": 0.06459948320413436,
+        "retrieval_top5": 0.2971576227390181,
+        "within_source_sum_squares": 6.492036780522452,
+        "between_source_sum_squares": 164.915974584308,
+        "total_sum_squares": 171.40801136483046,
+        "within_over_total": 0.03787475701298807,
+        "between_over_total": 0.962125242987012,
+        "source_identity_R2": 0.962125242987012,
+        "direction": {
+          "retrieval": "higher means easier source recovery / stronger identity",
+          "between_over_total_and_R2": "higher means source ID explains more feature variation / stronger identity",
+          "within_over_total": "lower means tighter same-source seed clusters / stronger identity"
+        }
+      }
+    }
+  },
+  "stage9a_identity_gate_direction_correct": false,
+  "protocol_bug": "Stage9A required within/total to decrease. A decrease means tighter within-source clusters and a larger between/total (source-identity R2), so it indicates stronger rather than weaker source dominance.",
+  "stage9a_status_rewritten": false,
+  "reason_status_unchanged": "Stage9A independently failed fidelity and task-support gates."
+}

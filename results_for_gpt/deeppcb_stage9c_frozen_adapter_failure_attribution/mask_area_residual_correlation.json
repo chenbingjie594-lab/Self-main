@@ -1,0 +1,38 @@
+{
+  "short": {
+    "block2": {
+      "spearman_rho": null,
+      "p_value": null,
+      "n_sources": 30,
+      "unit_of_analysis": "source; conditional branch averaged across 50 timesteps",
+      "mask_area_definition": "original 512x512 frozen source mask area_fraction",
+      "undefined_reason": "source-mean local residual ratio is constant"
+    },
+    "block3": {
+      "spearman_rho": null,
+      "p_value": null,
+      "n_sources": 30,
+      "unit_of_analysis": "source; conditional branch averaged across 50 timesteps",
+      "mask_area_definition": "original 512x512 frozen source mask area_fraction",
+      "undefined_reason": "source-mean local residual ratio is constant"
+    }
+  },
+  "pinhole": {
+    "block2": {
+      "spearman_rho": null,
+      "p_value": null,
+      "n_sources": 30,
+      "unit_of_analysis": "source; conditional branch averaged across 50 timesteps",
+      "mask_area_definition": "original 512x512 frozen source mask area_fraction",
+      "undefined_reason": "source-mean local residual ratio is constant"
+    },
+    "block3": {
+      "spearman_rho": null,
+      "p_value": null,
+      "n_sources": 30,
+      "unit_of_analysis": "source; conditional branch averaged across 50 timesteps",
+      "mask_area_definition": "original 512x512 frozen source mask area_fraction",
+      "undefined_reason": "source-mean local residual ratio is constant"
+    }
+  }
+}

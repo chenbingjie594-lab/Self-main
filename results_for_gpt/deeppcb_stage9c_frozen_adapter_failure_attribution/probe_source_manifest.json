@@ -1,0 +1,1702 @@
+{
+  "selection_before_probe_outputs": true,
+  "selection_variables": [
+    "class_name",
+    "mask_area_fraction",
+    "instance_id_tiebreak"
+  ],
+  "generation_seed": 42,
+  "classes": [
+    "short",
+    "pinhole"
+  ],
+  "per_class": 30,
+  "strata": {
+    "small": 10,
+    "medium": 10,
+    "large": 10
+  },
+  "official_validation_use_count": 0,
+  "sources": [
+    {
+      "instance_id": "13000027_short_02",
+      "pair_id": "13000027",
+      "instance_index": "02",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000027_02_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000027_02_short.jpg",
+      "bbox_xyxy": [
+        223,
+        244,
+        253,
+        268
+      ],
+      "bbox_yolo": [
+        0.46484375,
+        0.5,
+        0.05859375,
+        0.046875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000027_02_short.png",
+      "mask_source": "bbox",
+      "mask_area": 720,
+      "area_fraction": 0.00274658203125,
+      "aspect_ratio": 1.25,
+      "morphology": 1.25,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "pair_id": "20085020",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/20085020_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/20085020_01_short.jpg",
+      "bbox_xyxy": [
+        275,
+        131,
+        314,
+        151
+      ],
+      "bbox_yolo": [
+        0.5751953125,
+        0.275390625,
+        0.076171875,
+        0.0390625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/20085020_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 780,
+      "area_fraction": 0.0029754638671875,
+      "aspect_ratio": 1.95,
+      "morphology": 1.95,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "pair_id": "13000024",
+      "instance_index": "02",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000024_02_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000024_02_short.jpg",
+      "bbox_xyxy": [
+        53,
+        40,
+        88,
+        66
+      ],
+      "bbox_yolo": [
+        0.1376953125,
+        0.103515625,
+        0.068359375,
+        0.05078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000024_02_short.png",
+      "mask_source": "bbox",
+      "mask_area": 910,
+      "area_fraction": 0.00347137451171875,
+      "aspect_ratio": 1.3461538461538463,
+      "morphology": 1.3461538461538463,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "pair_id": "20085103",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/20085103_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/20085103_01_short.jpg",
+      "bbox_xyxy": [
+        165,
+        154,
+        192,
+        191
+      ],
+      "bbox_yolo": [
+        0.3486328125,
+        0.3369140625,
+        0.052734375,
+        0.072265625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/20085103_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 999,
+      "area_fraction": 0.003810882568359375,
+      "aspect_ratio": 0.7297297297297297,
+      "morphology": 1.3703703703703705,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "pair_id": "00041125",
+      "instance_index": "08",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041125_08_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041125_08_short.jpg",
+      "bbox_xyxy": [
+        65,
+        235,
+        90,
+        277
+      ],
+      "bbox_yolo": [
+        0.1513671875,
+        0.5,
+        0.048828125,
+        0.08203125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041125_08_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1050,
+      "area_fraction": 0.00400543212890625,
+      "aspect_ratio": 0.5952380952380952,
+      "morphology": 1.68,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "pair_id": "50600049",
+      "instance_index": "05",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/50600049_05_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/50600049_05_short.jpg",
+      "bbox_xyxy": [
+        243,
+        260,
+        277,
+        292
+      ],
+      "bbox_yolo": [
+        0.5078125,
+        0.5390625,
+        0.06640625,
+        0.0625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/50600049_05_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1088,
+      "area_fraction": 0.004150390625,
+      "aspect_ratio": 1.0625,
+      "morphology": 1.0625,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "pair_id": "13000026",
+      "instance_index": "03",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000026_03_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000026_03_short.jpg",
+      "bbox_xyxy": [
+        132,
+        235,
+        158,
+        278
+      ],
+      "bbox_yolo": [
+        0.283203125,
+        0.5009765625,
+        0.05078125,
+        0.083984375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000026_03_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1118,
+      "area_fraction": 0.00426483154296875,
+      "aspect_ratio": 0.6046511627906976,
+      "morphology": 1.6538461538461537,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "pair_id": "50600021",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/50600021_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/50600021_01_short.jpg",
+      "bbox_xyxy": [
+        202,
+        113,
+        240,
+        143
+      ],
+      "bbox_yolo": [
+        0.431640625,
+        0.25,
+        0.07421875,
+        0.05859375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/50600021_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1140,
+      "area_fraction": 0.0043487548828125,
+      "aspect_ratio": 1.2666666666666666,
+      "morphology": 1.2666666666666666,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "pair_id": "50600015",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/50600015_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/50600015_01_short.jpg",
+      "bbox_xyxy": [
+        303,
+        186,
+        346,
+        213
+      ],
+      "bbox_yolo": [
+        0.6337890625,
+        0.3896484375,
+        0.083984375,
+        0.052734375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/50600015_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1161,
+      "area_fraction": 0.004428863525390625,
+      "aspect_ratio": 1.5925925925925926,
+      "morphology": 1.5925925925925926,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "pair_id": "13000030",
+      "instance_index": "03",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000030_03_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000030_03_short.jpg",
+      "bbox_xyxy": [
+        18,
+        155,
+        66,
+        180
+      ],
+      "bbox_yolo": [
+        0.08203125,
+        0.3271484375,
+        0.09375,
+        0.048828125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000030_03_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1200,
+      "area_fraction": 0.00457763671875,
+      "aspect_ratio": 1.92,
+      "morphology": 1.92,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "pair_id": "00041081",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041081_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041081_01_short.jpg",
+      "bbox_xyxy": [
+        241,
+        130,
+        272,
+        169
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.2919921875,
+        0.060546875,
+        0.076171875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041081_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1209,
+      "area_fraction": 0.004611968994140625,
+      "aspect_ratio": 0.7948717948717948,
+      "morphology": 1.2580645161290323,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "pair_id": "13000079",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000079_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000079_01_short.jpg",
+      "bbox_xyxy": [
+        251,
+        441,
+        285,
+        479
+      ],
+      "bbox_yolo": [
+        0.5234375,
+        0.8984375,
+        0.06640625,
+        0.07421875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000079_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1292,
+      "area_fraction": 0.0049285888671875,
+      "aspect_ratio": 0.8947368421052632,
+      "morphology": 1.1176470588235294,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "pair_id": "13000019",
+      "instance_index": "04",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000019_04_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000019_04_short.jpg",
+      "bbox_xyxy": [
+        249,
+        358,
+        301,
+        384
+      ],
+      "bbox_yolo": [
+        0.537109375,
+        0.724609375,
+        0.1015625,
+        0.05078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000019_04_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1352,
+      "area_fraction": 0.005157470703125,
+      "aspect_ratio": 2.0,
+      "morphology": 2.0,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "pair_id": "20085221",
+      "instance_index": "03",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/20085221_03_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/20085221_03_short.jpg",
+      "bbox_xyxy": [
+        295,
+        300,
+        323,
+        351
+      ],
+      "bbox_yolo": [
+        0.603515625,
+        0.6357421875,
+        0.0546875,
+        0.099609375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/20085221_03_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1428,
+      "area_fraction": 0.0054473876953125,
+      "aspect_ratio": 0.5490196078431373,
+      "morphology": 1.8214285714285714,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "pair_id": "20085107",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/20085107_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/20085107_01_short.jpg",
+      "bbox_xyxy": [
+        177,
+        230,
+        205,
+        282
+      ],
+      "bbox_yolo": [
+        0.373046875,
+        0.5,
+        0.0546875,
+        0.1015625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/20085107_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1456,
+      "area_fraction": 0.00555419921875,
+      "aspect_ratio": 0.5384615384615384,
+      "morphology": 1.8571428571428572,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "pair_id": "13000009",
+      "instance_index": "08",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000009_08_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000009_08_short.jpg",
+      "bbox_xyxy": [
+        355,
+        379,
+        410,
+        406
+      ],
+      "bbox_yolo": [
+        0.7470703125,
+        0.7666015625,
+        0.107421875,
+        0.052734375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000009_08_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1485,
+      "area_fraction": 0.005664825439453125,
+      "aspect_ratio": 2.037037037037037,
+      "morphology": 2.037037037037037,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "pair_id": "77000082",
+      "instance_index": "05",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/77000082_05_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/77000082_05_short.jpg",
+      "bbox_xyxy": [
+        159,
+        161,
+        206,
+        194
+      ],
+      "bbox_yolo": [
+        0.3564453125,
+        0.3466796875,
+        0.091796875,
+        0.064453125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/77000082_05_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1551,
+      "area_fraction": 0.005916595458984375,
+      "aspect_ratio": 1.4242424242424243,
+      "morphology": 1.4242424242424243,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "pair_id": "20085145",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/20085145_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/20085145_01_short.jpg",
+      "bbox_xyxy": [
+        172,
+        237,
+        228,
+        265
+      ],
+      "bbox_yolo": [
+        0.390625,
+        0.490234375,
+        0.109375,
+        0.0546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/20085145_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1568,
+      "area_fraction": 0.0059814453125,
+      "aspect_ratio": 2.0,
+      "morphology": 2.0,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "pair_id": "13000028",
+      "instance_index": "03",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000028_03_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000028_03_short.jpg",
+      "bbox_xyxy": [
+        233,
+        28,
+        280,
+        63
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.0888671875,
+        0.091796875,
+        0.068359375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000028_03_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1645,
+      "area_fraction": 0.006275177001953125,
+      "aspect_ratio": 1.3428571428571427,
+      "morphology": 1.3428571428571427,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "pair_id": "00041030",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041030_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041030_01_short.jpg",
+      "bbox_xyxy": [
+        240,
+        194,
+        273,
+        245
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.4287109375,
+        0.064453125,
+        0.099609375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041030_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1683,
+      "area_fraction": 0.006420135498046875,
+      "aspect_ratio": 0.6470588235294118,
+      "morphology": 1.5454545454545454,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "pair_id": "00041089",
+      "instance_index": "05",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041089_05_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041089_05_short.jpg",
+      "bbox_xyxy": [
+        53,
+        104,
+        103,
+        138
+      ],
+      "bbox_yolo": [
+        0.15234375,
+        0.236328125,
+        0.09765625,
+        0.06640625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041089_05_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1700,
+      "area_fraction": 0.0064849853515625,
+      "aspect_ratio": 1.4705882352941178,
+      "morphology": 1.4705882352941178,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "pair_id": "00041085",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041085_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041085_01_short.jpg",
+      "bbox_xyxy": [
+        222,
+        231,
+        290,
+        257
+      ],
+      "bbox_yolo": [
+        0.5,
+        0.4765625,
+        0.1328125,
+        0.05078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041085_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1768,
+      "area_fraction": 0.006744384765625,
+      "aspect_ratio": 2.6153846153846154,
+      "morphology": 2.6153846153846154,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "pair_id": "00041043",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041043_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041043_01_short.jpg",
+      "bbox_xyxy": [
+        280,
+        190,
+        345,
+        218
+      ],
+      "bbox_yolo": [
+        0.6103515625,
+        0.3984375,
+        0.126953125,
+        0.0546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041043_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1820,
+      "area_fraction": 0.0069427490234375,
+      "aspect_ratio": 2.3214285714285716,
+      "morphology": 2.3214285714285716,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "pair_id": "44000096",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/44000096_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/44000096_01_short.jpg",
+      "bbox_xyxy": [
+        456,
+        125,
+        481,
+        204
+      ],
+      "bbox_yolo": [
+        0.9150390625,
+        0.3212890625,
+        0.048828125,
+        0.154296875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/44000096_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 1975,
+      "area_fraction": 0.007534027099609375,
+      "aspect_ratio": 0.31645569620253167,
+      "morphology": 3.16,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "pair_id": "13000197",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000197_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000197_01_short.jpg",
+      "bbox_xyxy": [
+        316,
+        224,
+        352,
+        282
+      ],
+      "bbox_yolo": [
+        0.65234375,
+        0.494140625,
+        0.0703125,
+        0.11328125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000197_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 2088,
+      "area_fraction": 0.007965087890625,
+      "aspect_ratio": 0.6206896551724138,
+      "morphology": 1.6111111111111112,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "pair_id": "77000076",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/77000076_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/77000076_01_short.jpg",
+      "bbox_xyxy": [
+        333,
+        318,
+        388,
+        357
+      ],
+      "bbox_yolo": [
+        0.7041015625,
+        0.6591796875,
+        0.107421875,
+        0.076171875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/77000076_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 2145,
+      "area_fraction": 0.008182525634765625,
+      "aspect_ratio": 1.4102564102564104,
+      "morphology": 1.4102564102564104,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "pair_id": "00041039",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/00041039_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/00041039_01_short.jpg",
+      "bbox_xyxy": [
+        365,
+        240,
+        436,
+        273
+      ],
+      "bbox_yolo": [
+        0.7822265625,
+        0.5009765625,
+        0.138671875,
+        0.064453125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/00041039_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 2343,
+      "area_fraction": 0.008937835693359375,
+      "aspect_ratio": 2.1515151515151514,
+      "morphology": 2.1515151515151514,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "pair_id": "13000174",
+      "instance_index": "01",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/13000174_01_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/13000174_01_short.jpg",
+      "bbox_xyxy": [
+        119,
+        325,
+        204,
+        356
+      ],
+      "bbox_yolo": [
+        0.3154296875,
+        0.6650390625,
+        0.166015625,
+        0.060546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/13000174_01_short.png",
+      "mask_source": "bbox",
+      "mask_area": 2635,
+      "area_fraction": 0.010051727294921875,
+      "aspect_ratio": 2.7419354838709675,
+      "morphology": 2.7419354838709675,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "pair_id": "44000093",
+      "instance_index": "03",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/44000093_03_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/44000093_03_short.jpg",
+      "bbox_xyxy": [
+        332,
+        222,
+        360,
+        346
+      ],
+      "bbox_yolo": [
+        0.67578125,
+        0.5546875,
+        0.0546875,
+        0.2421875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/44000093_03_short.png",
+      "mask_source": "bbox",
+      "mask_area": 3472,
+      "area_fraction": 0.01324462890625,
+      "aspect_ratio": 0.22580645161290322,
+      "morphology": 4.428571428571429,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "pair_id": "44000110",
+      "instance_index": "02",
+      "class_id": 1,
+      "class_name": "short",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/short/44000110_02_short.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/short/44000110_02_short.jpg",
+      "bbox_xyxy": [
+        352,
+        91,
+        472,
+        171
+      ],
+      "bbox_yolo": [
+        0.8046875,
+        0.255859375,
+        0.234375,
+        0.15625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/short/44000110_02_short.png",
+      "mask_source": "bbox",
+      "mask_area": 9600,
+      "area_fraction": 0.03662109375,
+      "aspect_ratio": 1.5,
+      "morphology": 1.5,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "pair_id": "20085016",
+      "instance_index": "06",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085016_06_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085016_06_pinhole.jpg",
+      "bbox_xyxy": [
+        244,
+        431,
+        269,
+        452
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.8623046875,
+        0.048828125,
+        0.041015625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085016_06_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 525,
+      "area_fraction": 0.002002716064453125,
+      "aspect_ratio": 1.1904761904761905,
+      "morphology": 1.1904761904761905,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "pair_id": "13000009",
+      "instance_index": "03",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000009_03_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000009_03_pinhole.jpg",
+      "bbox_xyxy": [
+        243,
+        244,
+        270,
+        269
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.5009765625,
+        0.052734375,
+        0.048828125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000009_03_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 675,
+      "area_fraction": 0.002574920654296875,
+      "aspect_ratio": 1.08,
+      "morphology": 1.08,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "pair_id": "13000037",
+      "instance_index": "07",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000037_07_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000037_07_pinhole.jpg",
+      "bbox_xyxy": [
+        242,
+        140,
+        270,
+        165
+      ],
+      "bbox_yolo": [
+        0.5,
+        0.2978515625,
+        0.0546875,
+        0.048828125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000037_07_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 700,
+      "area_fraction": 0.0026702880859375,
+      "aspect_ratio": 1.12,
+      "morphology": 1.12,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "pair_id": "13000025",
+      "instance_index": "11",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000025_11_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000025_11_pinhole.jpg",
+      "bbox_xyxy": [
+        241,
+        9,
+        271,
+        33
+      ],
+      "bbox_yolo": [
+        0.5,
+        0.041015625,
+        0.05859375,
+        0.046875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000025_11_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 720,
+      "area_fraction": 0.00274658203125,
+      "aspect_ratio": 1.25,
+      "morphology": 1.25,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "pair_id": "20085183",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085183_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085183_04_pinhole.jpg",
+      "bbox_xyxy": [
+        102,
+        294,
+        130,
+        320
+      ],
+      "bbox_yolo": [
+        0.2265625,
+        0.599609375,
+        0.0546875,
+        0.05078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085183_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 728,
+      "area_fraction": 0.002777099609375,
+      "aspect_ratio": 1.0769230769230769,
+      "morphology": 1.0769230769230769,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "pair_id": "20085107",
+      "instance_index": "07",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085107_07_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085107_07_pinhole.jpg",
+      "bbox_xyxy": [
+        453,
+        242,
+        480,
+        270
+      ],
+      "bbox_yolo": [
+        0.9111328125,
+        0.5,
+        0.052734375,
+        0.0546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085107_07_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 756,
+      "area_fraction": 0.0028839111328125,
+      "aspect_ratio": 0.9642857142857143,
+      "morphology": 1.037037037037037,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "pair_id": "20085107",
+      "instance_index": "03",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085107_03_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085107_03_pinhole.jpg",
+      "bbox_xyxy": [
+        77,
+        243,
+        106,
+        270
+      ],
+      "bbox_yolo": [
+        0.1787109375,
+        0.5009765625,
+        0.056640625,
+        0.052734375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085107_03_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 783,
+      "area_fraction": 0.002986907958984375,
+      "aspect_ratio": 1.0740740740740742,
+      "morphology": 1.0740740740740742,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "pair_id": "20085145",
+      "instance_index": "08",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085145_08_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085145_08_pinhole.jpg",
+      "bbox_xyxy": [
+        47,
+        244,
+        79,
+        269
+      ],
+      "bbox_yolo": [
+        0.123046875,
+        0.5009765625,
+        0.0625,
+        0.048828125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085145_08_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 800,
+      "area_fraction": 0.0030517578125,
+      "aspect_ratio": 1.28,
+      "morphology": 1.28,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "pair_id": "13000009",
+      "instance_index": "07",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000009_07_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000009_07_pinhole.jpg",
+      "bbox_xyxy": [
+        259,
+        121,
+        292,
+        146
+      ],
+      "bbox_yolo": [
+        0.5380859375,
+        0.2607421875,
+        0.064453125,
+        0.048828125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000009_07_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 825,
+      "area_fraction": 0.003147125244140625,
+      "aspect_ratio": 1.32,
+      "morphology": 1.32,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "pair_id": "20085203",
+      "instance_index": "05",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085203_05_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085203_05_pinhole.jpg",
+      "bbox_xyxy": [
+        241,
+        364,
+        271,
+        392
+      ],
+      "bbox_yolo": [
+        0.5,
+        0.73828125,
+        0.05859375,
+        0.0546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085203_05_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 840,
+      "area_fraction": 0.003204345703125,
+      "aspect_ratio": 1.0714285714285714,
+      "morphology": 1.0714285714285714,
+      "area_stratum": "small"
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "pair_id": "20085225",
+      "instance_index": "12",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085225_12_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085225_12_pinhole.jpg",
+      "bbox_xyxy": [
+        120,
+        21,
+        144,
+        56
+      ],
+      "bbox_yolo": [
+        0.2578125,
+        0.0751953125,
+        0.046875,
+        0.068359375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085225_12_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 840,
+      "area_fraction": 0.003204345703125,
+      "aspect_ratio": 0.6857142857142857,
+      "morphology": 1.4583333333333333,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "pair_id": "00041114",
+      "instance_index": "03",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/00041114_03_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/00041114_03_pinhole.jpg",
+      "bbox_xyxy": [
+        181,
+        194,
+        217,
+        218
+      ],
+      "bbox_yolo": [
+        0.388671875,
+        0.40234375,
+        0.0703125,
+        0.046875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/00041114_03_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 864,
+      "area_fraction": 0.0032958984375,
+      "aspect_ratio": 1.5,
+      "morphology": 1.5,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "pair_id": "20085201",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085201_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085201_04_pinhole.jpg",
+      "bbox_xyxy": [
+        286,
+        159,
+        315,
+        189
+      ],
+      "bbox_yolo": [
+        0.5869140625,
+        0.33984375,
+        0.056640625,
+        0.05859375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085201_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 870,
+      "area_fraction": 0.00331878662109375,
+      "aspect_ratio": 0.9666666666666667,
+      "morphology": 1.0344827586206897,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "pair_id": "20085071",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/20085071_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/20085071_04_pinhole.jpg",
+      "bbox_xyxy": [
+        228,
+        215,
+        261,
+        244
+      ],
+      "bbox_yolo": [
+        0.4775390625,
+        0.4482421875,
+        0.064453125,
+        0.056640625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/20085071_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 957,
+      "area_fraction": 0.003650665283203125,
+      "aspect_ratio": 1.1379310344827587,
+      "morphology": 1.1379310344827587,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "pair_id": "00041125",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/00041125_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/00041125_04_pinhole.jpg",
+      "bbox_xyxy": [
+        167,
+        87,
+        202,
+        115
+      ],
+      "bbox_yolo": [
+        0.3603515625,
+        0.197265625,
+        0.068359375,
+        0.0546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/00041125_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 980,
+      "area_fraction": 0.0037384033203125,
+      "aspect_ratio": 1.25,
+      "morphology": 1.25,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "pair_id": "77000081",
+      "instance_index": "03",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/77000081_03_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/77000081_03_pinhole.jpg",
+      "bbox_xyxy": [
+        199,
+        125,
+        233,
+        155
+      ],
+      "bbox_yolo": [
+        0.421875,
+        0.2734375,
+        0.06640625,
+        0.05859375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/77000081_03_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1020,
+      "area_fraction": 0.0038909912109375,
+      "aspect_ratio": 1.1333333333333333,
+      "morphology": 1.1333333333333333,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "pair_id": "13000003",
+      "instance_index": "07",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000003_07_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000003_07_pinhole.jpg",
+      "bbox_xyxy": [
+        440,
+        291,
+        477,
+        319
+      ],
+      "bbox_yolo": [
+        0.8955078125,
+        0.595703125,
+        0.072265625,
+        0.0546875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000003_07_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1036,
+      "area_fraction": 0.0039520263671875,
+      "aspect_ratio": 1.3214285714285714,
+      "morphology": 1.3214285714285714,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "pair_id": "00041068",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/00041068_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/00041068_04_pinhole.jpg",
+      "bbox_xyxy": [
+        259,
+        225,
+        290,
+        259
+      ],
+      "bbox_yolo": [
+        0.5361328125,
+        0.47265625,
+        0.060546875,
+        0.06640625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/00041068_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1054,
+      "area_fraction": 0.00402069091796875,
+      "aspect_ratio": 0.9117647058823529,
+      "morphology": 1.096774193548387,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "pair_id": "00041047",
+      "instance_index": "03",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/00041047_03_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/00041047_03_pinhole.jpg",
+      "bbox_xyxy": [
+        257,
+        243,
+        300,
+        269
+      ],
+      "bbox_yolo": [
+        0.5439453125,
+        0.5,
+        0.083984375,
+        0.05078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/00041047_03_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1118,
+      "area_fraction": 0.00426483154296875,
+      "aspect_ratio": 1.6538461538461537,
+      "morphology": 1.6538461538461537,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "pair_id": "13000079",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000079_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000079_04_pinhole.jpg",
+      "bbox_xyxy": [
+        238,
+        124,
+        275,
+        156
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.2734375,
+        0.072265625,
+        0.0625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000079_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1184,
+      "area_fraction": 0.0045166015625,
+      "aspect_ratio": 1.15625,
+      "morphology": 1.15625,
+      "area_stratum": "medium"
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "pair_id": "92000077",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/92000077_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/92000077_04_pinhole.jpg",
+      "bbox_xyxy": [
+        302,
+        238,
+        334,
+        275
+      ],
+      "bbox_yolo": [
+        0.62109375,
+        0.5009765625,
+        0.0625,
+        0.072265625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/92000077_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1184,
+      "area_fraction": 0.0045166015625,
+      "aspect_ratio": 0.8648648648648649,
+      "morphology": 1.15625,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "pair_id": "44000093",
+      "instance_index": "08",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/44000093_08_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/44000093_08_pinhole.jpg",
+      "bbox_xyxy": [
+        9,
+        383,
+        40,
+        422
+      ],
+      "bbox_yolo": [
+        0.0478515625,
+        0.7861328125,
+        0.060546875,
+        0.076171875
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/44000093_08_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1209,
+      "area_fraction": 0.004611968994140625,
+      "aspect_ratio": 0.7948717948717948,
+      "morphology": 1.2580645161290323,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "pair_id": "13000110",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000110_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000110_04_pinhole.jpg",
+      "bbox_xyxy": [
+        238,
+        238,
+        274,
+        274
+      ],
+      "bbox_yolo": [
+        0.5,
+        0.5,
+        0.0703125,
+        0.0703125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000110_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1296,
+      "area_fraction": 0.00494384765625,
+      "aspect_ratio": 1.0,
+      "morphology": 1.0,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "pair_id": "00041089",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/00041089_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/00041089_04_pinhole.jpg",
+      "bbox_xyxy": [
+        307,
+        146,
+        341,
+        187
+      ],
+      "bbox_yolo": [
+        0.6328125,
+        0.3251953125,
+        0.06640625,
+        0.080078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/00041089_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1394,
+      "area_fraction": 0.00531768798828125,
+      "aspect_ratio": 0.8292682926829268,
+      "morphology": 1.2058823529411764,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "pair_id": "44000104",
+      "instance_index": "05",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/44000104_05_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/44000104_05_pinhole.jpg",
+      "bbox_xyxy": [
+        13,
+        332,
+        43,
+        380
+      ],
+      "bbox_yolo": [
+        0.0546875,
+        0.6953125,
+        0.05859375,
+        0.09375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/44000104_05_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1440,
+      "area_fraction": 0.0054931640625,
+      "aspect_ratio": 0.625,
+      "morphology": 1.6,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "pair_id": "77000083",
+      "instance_index": "03",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/77000083_03_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/77000083_03_pinhole.jpg",
+      "bbox_xyxy": [
+        231,
+        285,
+        281,
+        317
+      ],
+      "bbox_yolo": [
+        0.5,
+        0.587890625,
+        0.09765625,
+        0.0625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/77000083_03_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1600,
+      "area_fraction": 0.006103515625,
+      "aspect_ratio": 1.5625,
+      "morphology": 1.5625,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "pair_id": "77000044",
+      "instance_index": "05",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/77000044_05_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/77000044_05_pinhole.jpg",
+      "bbox_xyxy": [
+        258,
+        153,
+        309,
+        186
+      ],
+      "bbox_yolo": [
+        0.5537109375,
+        0.3310546875,
+        0.099609375,
+        0.064453125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/77000044_05_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1683,
+      "area_fraction": 0.006420135498046875,
+      "aspect_ratio": 1.5454545454545454,
+      "morphology": 1.5454545454545454,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "pair_id": "13000110",
+      "instance_index": "05",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/13000110_05_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/13000110_05_pinhole.jpg",
+      "bbox_xyxy": [
+        235,
+        219,
+        278,
+        260
+      ],
+      "bbox_yolo": [
+        0.5009765625,
+        0.4677734375,
+        0.083984375,
+        0.080078125
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/13000110_05_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 1763,
+      "area_fraction": 0.006725311279296875,
+      "aspect_ratio": 1.048780487804878,
+      "morphology": 1.048780487804878,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "pair_id": "00041085",
+      "instance_index": "04",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/00041085_04_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/00041085_04_pinhole.jpg",
+      "bbox_xyxy": [
+        132,
+        261,
+        201,
+        295
+      ],
+      "bbox_yolo": [
+        0.3251953125,
+        0.54296875,
+        0.134765625,
+        0.06640625
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/00041085_04_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 2346,
+      "area_fraction": 0.00894927978515625,
+      "aspect_ratio": 2.0294117647058822,
+      "morphology": 2.0294117647058822,
+      "area_stratum": "large"
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "pair_id": "77000019",
+      "instance_index": "02",
+      "class_id": 5,
+      "class_name": "pinhole",
+      "defect_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/test/pinhole/77000019_02_pinhole.jpg",
+      "paired_normal_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/pinhole/77000019_02_pinhole.jpg",
+      "bbox_xyxy": [
+        148,
+        314,
+        203,
+        397
+      ],
+      "bbox_yolo": [
+        0.3427734375,
+        0.6943359375,
+        0.107421875,
+        0.162109375
+      ],
+      "instance_mask_path": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/ground_truth/pinhole/77000019_02_pinhole.png",
+      "mask_source": "bbox",
+      "mask_area": 4565,
+      "area_fraction": 0.017414093017578125,
+      "aspect_ratio": 0.6626506024096386,
+      "morphology": 1.509090909090909,
+      "area_stratum": "large"
+    }
+  ]
+}

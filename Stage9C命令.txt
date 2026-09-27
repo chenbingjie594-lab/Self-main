@@ -1,0 +1,39 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage9c_frozen_adapter_failure_attribution
+mkdir -p results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution
+
+# 1. 固定 60-source manifest，然后执行 pretrained OFF / existing adapter ON；ON 路径同时记录 50-step residual。
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage9c_probe.py \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --adapter_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9a_frozen_adapter \
+  --scheduler /mnt/sda/cbj/ImageGeneration/Self-main/scheduler \
+  --stage9a_manifest results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility/frozen_adapter_manifest.json \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --output results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution \
+  --image_root /mnt/sda/cbj/ImageGeneration/Self-main/data/deeppcb_stage9c_probe \
+  --device 0 > logs/deeppcb_stage9c_frozen_adapter_failure_attribution/probe.log 2>&1 &
+echo $! > logs/deeppcb_stage9c_frozen_adapter_failure_attribution/probe.pid
+
+# 2. Probe 完成后：canonical fidelity、OOF feature、residual/area correlation 和归因状态。
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/evaluate_deeppcb_stage9c.py \
+  --stage9a results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility \
+  --stage9a_manifest results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility/frozen_adapter_manifest.json \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --msdf_manifest results_for_gpt/bootstrap_guard_deeppcb_stage2/candidate_pool_manifest.json \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --probe_manifest results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution/stage9c_probe_generated_manifest.json \
+  --residual_raw results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution/residual_magnitude_raw.json \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --output results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution \
+  --device 0 > logs/deeppcb_stage9c_frozen_adapter_failure_attribution/evaluation.log 2>&1 &
+echo $! > logs/deeppcb_stage9c_frozen_adapter_failure_attribution/evaluation.pid
+
+# 3. Evaluation 完成后：identity 语义、VAE 相关性、数值稳定性与最终报告。
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_deeppcb_stage9c.py \
+  --stage9a results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility \
+  --output results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution

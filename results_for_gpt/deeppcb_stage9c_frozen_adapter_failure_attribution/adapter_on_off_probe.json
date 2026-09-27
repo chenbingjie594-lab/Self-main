@@ -1,0 +1,3674 @@
+{
+  "fidelity": {
+    "pretrained_off": {
+      "overall": {
+        "lpips": {
+          "mean": 0.07496771773633858,
+          "median": 0.06118268519639969,
+          "std": 0.04668418923364579,
+          "n": 60
+        },
+        "ssim": {
+          "mean": 0.9276582560771175,
+          "median": 0.9850464222700684,
+          "std": 0.19688540170598626,
+          "n": 60
+        },
+        "edge_cosine": {
+          "mean": 0.8810923473896757,
+          "median": 0.9465433889841,
+          "std": 0.20784826273623855,
+          "n": 60
+        },
+        "boundary_gradient_cosine": {
+          "mean": 0.5513427084058261,
+          "median": 0.6411734539515033,
+          "std": 0.3648864439169543,
+          "n": 60
+        }
+      },
+      "per_class": {
+        "short": {
+          "lpips": {
+            "mean": 0.04497848969573776,
+            "median": 0.04301213473081589,
+            "std": 0.018918277669674324,
+            "n": 30
+          },
+          "ssim": {
+            "mean": 0.9830968751224286,
+            "median": 0.9846993321302029,
+            "std": 0.010316784592843325,
+            "n": 30
+          },
+          "edge_cosine": {
+            "mean": 0.9501766144087517,
+            "median": 0.9576329124090451,
+            "std": 0.02695668401940743,
+            "n": 30
+          },
+          "boundary_gradient_cosine": {
+            "mean": 0.8133302599459817,
+            "median": 0.8702279254861787,
+            "std": 0.15342364552805726,
+            "n": 30
+          }
+        },
+        "pinhole": {
+          "lpips": {
+            "mean": 0.1049569457769394,
+            "median": 0.09881328046321869,
+            "std": 0.04692779796534763,
+            "n": 30
+          },
+          "ssim": {
+            "mean": 0.8722196370318064,
+            "median": 0.9858935302569186,
+            "std": 0.266972668642724,
+            "n": 30
+          },
+          "edge_cosine": {
+            "mean": 0.8120080803705999,
+            "median": 0.9276461588007818,
+            "std": 0.2759164111329675,
+            "n": 30
+          },
+          "boundary_gradient_cosine": {
+            "mean": 0.2893551568656704,
+            "median": 0.2275681543247224,
+            "std": 0.3247621661733257,
+            "n": 30
+          }
+        }
+      }
+    },
+    "adapter_on": {
+      "overall": {
+        "lpips": {
+          "mean": 0.07496771773633858,
+          "median": 0.06118268519639969,
+          "std": 0.04668418923364579,
+          "n": 60
+        },
+        "ssim": {
+          "mean": 0.9276582560771175,
+          "median": 0.9850464222700684,
+          "std": 0.19688540170598626,
+          "n": 60
+        },
+        "edge_cosine": {
+          "mean": 0.8810923473896757,
+          "median": 0.9465433889841,
+          "std": 0.20784826273623855,
+          "n": 60
+        },
+        "boundary_gradient_cosine": {
+          "mean": 0.5513427084058261,
+          "median": 0.6411734539515033,
+          "std": 0.3648864439169543,
+          "n": 60
+        }
+      },
+      "per_class": {
+        "short": {
+          "lpips": {
+            "mean": 0.04497848969573776,
+            "median": 0.04301213473081589,
+            "std": 0.018918277669674324,
+            "n": 30
+          },
+          "ssim": {
+            "mean": 0.9830968751224286,
+            "median": 0.9846993321302029,
+            "std": 0.010316784592843325,
+            "n": 30
+          },
+          "edge_cosine": {
+            "mean": 0.9501766144087517,
+            "median": 0.9576329124090451,
+            "std": 0.02695668401940743,
+            "n": 30
+          },
+          "boundary_gradient_cosine": {
+            "mean": 0.8133302599459817,
+            "median": 0.8702279254861787,
+            "std": 0.15342364552805726,
+            "n": 30
+          }
+        },
+        "pinhole": {
+          "lpips": {
+            "mean": 0.1049569457769394,
+            "median": 0.09881328046321869,
+            "std": 0.04692779796534763,
+            "n": 30
+          },
+          "ssim": {
+            "mean": 0.8722196370318064,
+            "median": 0.9858935302569186,
+            "std": 0.266972668642724,
+            "n": 30
+          },
+          "edge_cosine": {
+            "mean": 0.8120080803705999,
+            "median": 0.9276461588007818,
+            "std": 0.2759164111329675,
+            "n": 30
+          },
+          "boundary_gradient_cosine": {
+            "mean": 0.2893551568656704,
+            "median": 0.2275681543247224,
+            "std": 0.3247621661733257,
+            "n": 30
+          }
+        }
+      }
+    }
+  },
+  "task_feature": {
+    "pretrained_off": {
+      "overall": {
+        "normalized_pair_gap": {
+          "mean": 2.854142298099065,
+          "median": 2.499863119378719,
+          "std": 1.4665664734713917,
+          "n": 60
+        },
+        "fraction_gt_real_q95": 0.9333333333333333,
+        "retrieval_top1": 0.0,
+        "retrieval_top5": 0.18333333333333332,
+        "n": 60
+      },
+      "per_class": {
+        "short": {
+          "normalized_pair_gap": {
+            "mean": 2.345118896898474,
+            "median": 2.0780624900796636,
+            "std": 1.267602732361988,
+            "n": 30
+          },
+          "fraction_gt_real_q95": 0.9,
+          "retrieval_top1": 0.0,
+          "retrieval_top5": 0.16666666666666666,
+          "n": 30
+        },
+        "pinhole": {
+          "normalized_pair_gap": {
+            "mean": 3.363165699299657,
+            "median": 2.999641716572465,
+            "std": 1.4753332197132325,
+            "n": 30
+          },
+          "fraction_gt_real_q95": 0.9666666666666667,
+          "retrieval_top1": 0.0,
+          "retrieval_top5": 0.2,
+          "n": 30
+        }
+      }
+    },
+    "adapter_on": {
+      "overall": {
+        "normalized_pair_gap": {
+          "mean": 2.854142298099065,
+          "median": 2.499863119378719,
+          "std": 1.4665664734713917,
+          "n": 60
+        },
+        "fraction_gt_real_q95": 0.9333333333333333,
+        "retrieval_top1": 0.0,
+        "retrieval_top5": 0.18333333333333332,
+        "n": 60
+      },
+      "per_class": {
+        "short": {
+          "normalized_pair_gap": {
+            "mean": 2.345118896898474,
+            "median": 2.0780624900796636,
+            "std": 1.267602732361988,
+            "n": 30
+          },
+          "fraction_gt_real_q95": 0.9,
+          "retrieval_top1": 0.0,
+          "retrieval_top5": 0.16666666666666666,
+          "n": 30
+        },
+        "pinhole": {
+          "normalized_pair_gap": {
+            "mean": 3.363165699299657,
+            "median": 2.999641716572465,
+            "std": 1.4753332197132325,
+            "n": 30
+          },
+          "fraction_gt_real_q95": 0.9666666666666667,
+          "retrieval_top1": 0.0,
+          "retrieval_top5": 0.2,
+          "n": 30
+        }
+      }
+    }
+  },
+  "raw_fidelity": [
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.04627986624836922,
+      "ssim": 0.9852847988797052,
+      "edge_cosine": 0.9709560218698642,
+      "boundary_gradient_cosine": 0.910234126455403
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.04627986624836922,
+      "ssim": 0.9852847988797052,
+      "edge_cosine": 0.9709560218698642,
+      "boundary_gradient_cosine": 0.910234126455403
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.04265401512384415,
+      "ssim": 0.9897978962869662,
+      "edge_cosine": 0.9790744031840444,
+      "boundary_gradient_cosine": 0.9324213935444435
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.034543950110673904,
+      "ssim": 0.9815019996915572,
+      "edge_cosine": 0.9641324600331024,
+      "boundary_gradient_cosine": 0.9638907404614054
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.034543950110673904,
+      "ssim": 0.9815019996915572,
+      "edge_cosine": 0.9641324600331024,
+      "boundary_gradient_cosine": 0.9638907404614054
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.030171703547239304,
+      "ssim": 0.9834687912894234,
+      "edge_cosine": 0.943006172767323,
+      "boundary_gradient_cosine": 0.8206184432243623
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06726132333278656,
+      "ssim": 0.9878614618366116,
+      "edge_cosine": 0.9678712570827507,
+      "boundary_gradient_cosine": 0.8891836368924877
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06726132333278656,
+      "ssim": 0.9878614618366116,
+      "edge_cosine": 0.9678712570827507,
+      "boundary_gradient_cosine": 0.8891836368924877
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.028367139399051666,
+      "ssim": 0.994316530396904,
+      "edge_cosine": 0.9845716304995425,
+      "boundary_gradient_cosine": 0.9188829487031157
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.09758702665567398,
+      "ssim": 0.9387991505053163,
+      "edge_cosine": 0.9263137256467016,
+      "boundary_gradient_cosine": 0.6361679237805197
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.09758702665567398,
+      "ssim": 0.9387991505053163,
+      "edge_cosine": 0.9263137256467016,
+      "boundary_gradient_cosine": 0.6361679237805197
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03015279397368431,
+      "ssim": 0.9750070263941412,
+      "edge_cosine": 0.9285352523690141,
+      "boundary_gradient_cosine": 0.7931624118790239
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.057295408099889755,
+      "ssim": 0.9820736116424315,
+      "edge_cosine": 0.9581826237718711,
+      "boundary_gradient_cosine": 0.8049696906587452
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.057295408099889755,
+      "ssim": 0.9820736116424315,
+      "edge_cosine": 0.9581826237718711,
+      "boundary_gradient_cosine": 0.8049696906587452
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.02778535708785057,
+      "ssim": 0.9920448013679447,
+      "edge_cosine": 0.9864899609849731,
+      "boundary_gradient_cosine": 0.944826121441333
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.08680969476699829,
+      "ssim": 0.9847997420659826,
+      "edge_cosine": 0.9636425091526009,
+      "boundary_gradient_cosine": 0.8735144531251466
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.08680969476699829,
+      "ssim": 0.9847997420659826,
+      "edge_cosine": 0.9636425091526009,
+      "boundary_gradient_cosine": 0.8735144531251466
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03603878617286682,
+      "ssim": 0.9940787910746959,
+      "edge_cosine": 0.9809198142399297,
+      "boundary_gradient_cosine": 0.9113630061578859
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.0495220385491848,
+      "ssim": 0.9900079021594088,
+      "edge_cosine": 0.9712018637296933,
+      "boundary_gradient_cosine": 0.8669413978472107
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.0495220385491848,
+      "ssim": 0.9900079021594088,
+      "edge_cosine": 0.9712018637296933,
+      "boundary_gradient_cosine": 0.8669413978472107
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.024720188230276108,
+      "ssim": 0.9944609715951357,
+      "edge_cosine": 0.9775583163826507,
+      "boundary_gradient_cosine": 0.8244550993807929
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.044427186250686646,
+      "ssim": 0.9816796780042112,
+      "edge_cosine": 0.9564873905362503,
+      "boundary_gradient_cosine": 0.8438060805885935
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.044427186250686646,
+      "ssim": 0.9816796780042112,
+      "edge_cosine": 0.9564873905362503,
+      "boundary_gradient_cosine": 0.8438060805885935
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.033025506883859634,
+      "ssim": 0.9833714643152648,
+      "edge_cosine": 0.9508879996219712,
+      "boundary_gradient_cosine": 0.8044548658660647
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06791515648365021,
+      "ssim": 0.9848080456604317,
+      "edge_cosine": 0.8482615064273081,
+      "boundary_gradient_cosine": 0.5397830092824485
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06791515648365021,
+      "ssim": 0.9848080456604317,
+      "edge_cosine": 0.8482615064273081,
+      "boundary_gradient_cosine": 0.5397830092824485
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.018015863373875618,
+      "ssim": 0.9961091473705636,
+      "edge_cosine": 0.9407994587547134,
+      "boundary_gradient_cosine": 0.8012981411529595
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.03399842232465744,
+      "ssim": 0.9888403953059134,
+      "edge_cosine": 0.9353958545067727,
+      "boundary_gradient_cosine": 0.7006085434776663
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.03399842232465744,
+      "ssim": 0.9888403953059134,
+      "edge_cosine": 0.9353958545067727,
+      "boundary_gradient_cosine": 0.7006085434776663
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.017775988206267357,
+      "ssim": 0.9961184824848521,
+      "edge_cosine": 0.9819087175038935,
+      "boundary_gradient_cosine": 0.9402865861968259
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06048216670751572,
+      "ssim": 0.9821781728386448,
+      "edge_cosine": 0.9717518979872857,
+      "boundary_gradient_cosine": 0.9120614612375533
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06048216670751572,
+      "ssim": 0.9821781728386448,
+      "edge_cosine": 0.9717518979872857,
+      "boundary_gradient_cosine": 0.9120614612375533
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03612930700182915,
+      "ssim": 0.9909229412641873,
+      "edge_cosine": 0.9801759051527263,
+      "boundary_gradient_cosine": 0.9855339747648113
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.05190560221672058,
+      "ssim": 0.9818095393123313,
+      "edge_cosine": 0.9729139808432085,
+      "boundary_gradient_cosine": 0.967584767328503
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.05190560221672058,
+      "ssim": 0.9818095393123313,
+      "edge_cosine": 0.9729139808432085,
+      "boundary_gradient_cosine": 0.967584767328503
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.0236984733492136,
+      "ssim": 0.9927597460000829,
+      "edge_cosine": 0.9841664798107398,
+      "boundary_gradient_cosine": 0.9823352066131134
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.0333021804690361,
+      "ssim": 0.992914199788867,
+      "edge_cosine": 0.9845499361116062,
+      "boundary_gradient_cosine": 0.9546439370288371
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.0333021804690361,
+      "ssim": 0.992914199788867,
+      "edge_cosine": 0.9845499361116062,
+      "boundary_gradient_cosine": 0.9546439370288371
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.015355090610682964,
+      "ssim": 0.9961632637740588,
+      "edge_cosine": 0.989788411338746,
+      "boundary_gradient_cosine": 0.973267391256575
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.03014199621975422,
+      "ssim": 0.9813967726982288,
+      "edge_cosine": 0.9532558916146283,
+      "boundary_gradient_cosine": 0.678833204113121
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.03014199621975422,
+      "ssim": 0.9813967726982288,
+      "edge_cosine": 0.9532558916146283,
+      "boundary_gradient_cosine": 0.678833204113121
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.0153080178424716,
+      "ssim": 0.99156643113223,
+      "edge_cosine": 0.9803264756523838,
+      "boundary_gradient_cosine": 0.889522798045984
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.027809519320726395,
+      "ssim": 0.9857647706427137,
+      "edge_cosine": 0.9568484186663231,
+      "boundary_gradient_cosine": 0.7638597544619397
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.027809519320726395,
+      "ssim": 0.9857647706427137,
+      "edge_cosine": 0.9568484186663231,
+      "boundary_gradient_cosine": 0.7638597544619397
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.01774052530527115,
+      "ssim": 0.9917141461123765,
+      "edge_cosine": 0.974950992519489,
+      "boundary_gradient_cosine": 0.9237128993585433
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.041183531284332275,
+      "ssim": 0.9847959112162985,
+      "edge_cosine": 0.9472736294046914,
+      "boundary_gradient_cosine": 0.646178984122487
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.041183531284332275,
+      "ssim": 0.9847959112162985,
+      "edge_cosine": 0.9472736294046914,
+      "boundary_gradient_cosine": 0.646178984122487
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.013237464241683483,
+      "ssim": 0.995625939152618,
+      "edge_cosine": 0.9748409872969913,
+      "boundary_gradient_cosine": 0.8512716596836467
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06692200154066086,
+      "ssim": 0.9578451795619459,
+      "edge_cosine": 0.9213379537538875,
+      "boundary_gradient_cosine": 0.9350995439214158
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06692200154066086,
+      "ssim": 0.9578451795619459,
+      "edge_cosine": 0.9213379537538875,
+      "boundary_gradient_cosine": 0.9350995439214158
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.02522340416908264,
+      "ssim": 0.985625560825912,
+      "edge_cosine": 0.9240855170737661,
+      "boundary_gradient_cosine": 0.9042400210992881
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.023094631731510162,
+      "ssim": 0.9846027530441072,
+      "edge_cosine": 0.9769801046862613,
+      "boundary_gradient_cosine": 0.9445603148595808
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.023094631731510162,
+      "ssim": 0.9846027530441072,
+      "edge_cosine": 0.9769801046862613,
+      "boundary_gradient_cosine": 0.9445603148595808
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.009746013209223747,
+      "ssim": 0.9941890197847809,
+      "edge_cosine": 0.987152928360619,
+      "boundary_gradient_cosine": 0.94750210522152
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.031738199293613434,
+      "ssim": 0.9841941059222137,
+      "edge_cosine": 0.9666121363984379,
+      "boundary_gradient_cosine": 0.7741176672852048
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.031738199293613434,
+      "ssim": 0.9841941059222137,
+      "edge_cosine": 0.9666121363984379,
+      "boundary_gradient_cosine": 0.7741176672852048
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.01992565020918846,
+      "ssim": 0.9909261860547115,
+      "edge_cosine": 0.9777109461850492,
+      "boundary_gradient_cosine": 0.9230659252696299
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.04257168248295784,
+      "ssim": 0.9845273778042851,
+      "edge_cosine": 0.9517130177396846,
+      "boundary_gradient_cosine": 0.8402239630547642
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.04257168248295784,
+      "ssim": 0.9845273778042851,
+      "edge_cosine": 0.9517130177396846,
+      "boundary_gradient_cosine": 0.8402239630547642
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.020208697766065598,
+      "ssim": 0.9926854724576563,
+      "edge_cosine": 0.9738506926607488,
+      "boundary_gradient_cosine": 0.9518320327411012
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.04807497560977936,
+      "ssim": 0.9823825686274904,
+      "edge_cosine": 0.9342930520458482,
+      "boundary_gradient_cosine": 0.674010477510783
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.04807497560977936,
+      "ssim": 0.9823825686274904,
+      "edge_cosine": 0.9342930520458482,
+      "boundary_gradient_cosine": 0.674010477510783
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.029837749898433685,
+      "ssim": 0.9889009948198567,
+      "edge_cosine": 0.9502517441325976,
+      "boundary_gradient_cosine": 0.886188227525849
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.043452586978673935,
+      "ssim": 0.9896870382940838,
+      "edge_cosine": 0.9581395812090903,
+      "boundary_gradient_cosine": 0.9016549643695726
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.043452586978673935,
+      "ssim": 0.9896870382940838,
+      "edge_cosine": 0.9581395812090903,
+      "boundary_gradient_cosine": 0.9016549643695726
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.01613473705947399,
+      "ssim": 0.9939972208318398,
+      "edge_cosine": 0.9510022659764452,
+      "boundary_gradient_cosine": 0.8857110818173459
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.03099159151315689,
+      "ssim": 0.9840738731238164,
+      "edge_cosine": 0.9500381442564785,
+      "boundary_gradient_cosine": 0.8987043328003178
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.03099159151315689,
+      "ssim": 0.9840738731238164,
+      "edge_cosine": 0.9500381442564785,
+      "boundary_gradient_cosine": 0.8987043328003178
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.008906075730919838,
+      "ssim": 0.9961421396517306,
+      "edge_cosine": 0.9820256929475327,
+      "boundary_gradient_cosine": 0.9287936020752022
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.028724633157253265,
+      "ssim": 0.9937396442459382,
+      "edge_cosine": 0.9601328641742382,
+      "boundary_gradient_cosine": 0.9612046234558375
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.028724633157253265,
+      "ssim": 0.9937396442459382,
+      "edge_cosine": 0.9601328641742382,
+      "boundary_gradient_cosine": 0.9612046234558375
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.0057176705449819565,
+      "ssim": 0.9970156324106577,
+      "edge_cosine": 0.973706230827798,
+      "boundary_gradient_cosine": 0.9411961207687728
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.03376242518424988,
+      "ssim": 0.9885795387599736,
+      "edge_cosine": 0.9667356016373265,
+      "boundary_gradient_cosine": 0.8414149715982205
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.03376242518424988,
+      "ssim": 0.9885795387599736,
+      "edge_cosine": 0.9667356016373265,
+      "boundary_gradient_cosine": 0.8414149715982205
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.012433554977178574,
+      "ssim": 0.9962009948864186,
+      "edge_cosine": 0.9845307942979334,
+      "boundary_gradient_cosine": 0.946428508803355
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.04368849843740463,
+      "ssim": 0.9875817826590724,
+      "edge_cosine": 0.9195346467315895,
+      "boundary_gradient_cosine": 0.9073804285140524
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.04368849843740463,
+      "ssim": 0.9875817826590724,
+      "edge_cosine": 0.9195346467315895,
+      "boundary_gradient_cosine": 0.9073804285140524
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.025556256994605064,
+      "ssim": 0.9932688377608746,
+      "edge_cosine": 0.9295830173257236,
+      "boundary_gradient_cosine": 0.9696071305587397
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.030675526708364487,
+      "ssim": 0.9828519177918245,
+      "edge_cosine": 0.957126243609,
+      "boundary_gradient_cosine": 0.9489112683161245
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.030675526708364487,
+      "ssim": 0.9828519177918245,
+      "edge_cosine": 0.957126243609,
+      "boundary_gradient_cosine": 0.9489112683161245
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.01280954759567976,
+      "ssim": 0.9934055764807107,
+      "edge_cosine": 0.9643506874306453,
+      "boundary_gradient_cosine": 0.99192240903076
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06184759736061096,
+      "ssim": 0.9891133691954422,
+      "edge_cosine": 0.8962140285984052,
+      "boundary_gradient_cosine": 0.6190406745582359
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06184759736061096,
+      "ssim": 0.9891133691954422,
+      "edge_cosine": 0.8962140285984052,
+      "boundary_gradient_cosine": 0.6190406745582359
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.009967697784304619,
+      "ssim": 0.9972144682326191,
+      "edge_cosine": 0.9380682950435654,
+      "boundary_gradient_cosine": 0.8363707795046686
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.014823679812252522,
+      "ssim": 0.977289811335671,
+      "edge_cosine": 0.9361167756925372,
+      "boundary_gradient_cosine": 0.2899764940061518
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.014823679812252522,
+      "ssim": 0.977289811335671,
+      "edge_cosine": 0.9361167756925372,
+      "boundary_gradient_cosine": 0.2899764940061518
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.007028896827250719,
+      "ssim": 0.9901789159367755,
+      "edge_cosine": 0.9613763161107648,
+      "boundary_gradient_cosine": 0.9583440858347988
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.018521592020988464,
+      "ssim": 0.9919211410583394,
+      "edge_cosine": 0.9612853143451059,
+      "boundary_gradient_cosine": 0.9113463632671253
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.018521592020988464,
+      "ssim": 0.9919211410583394,
+      "edge_cosine": 0.9612853143451059,
+      "boundary_gradient_cosine": 0.9113463632671253
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.018612153828144073,
+      "ssim": 0.9933957186341863,
+      "edge_cosine": 0.9663164673402641,
+      "boundary_gradient_cosine": 0.9678854159996763
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.09186379611492157,
+      "ssim": 0.9812289634418471,
+      "edge_cosine": 0.9250658658509384,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.09186379611492157,
+      "ssim": 0.9812289634418471,
+      "edge_cosine": 0.9250658658509384,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03959231823682785,
+      "ssim": 0.9906586334226519,
+      "edge_cosine": 0.9343675106323686,
+      "boundary_gradient_cosine": 0.6091182816784116
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.09801545739173889,
+      "ssim": 0.9926587049972025,
+      "edge_cosine": 0.9666676303753855,
+      "boundary_gradient_cosine": 0.2635249568940369
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.09801545739173889,
+      "ssim": 0.9926587049972025,
+      "edge_cosine": 0.9666676303753855,
+      "boundary_gradient_cosine": 0.2635249568940369
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.032299090176820755,
+      "ssim": 0.9955853337271452,
+      "edge_cosine": 0.9780765684103214,
+      "boundary_gradient_cosine": 0.6058287049282044
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.12769581377506256,
+      "ssim": 0.9904982834814104,
+      "edge_cosine": 0.9556993856654019,
+      "boundary_gradient_cosine": 0.2921967760878202
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.12769581377506256,
+      "ssim": 0.9904982834814104,
+      "edge_cosine": 0.9556993856654019,
+      "boundary_gradient_cosine": 0.2921967760878202
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03006589785218239,
+      "ssim": 0.993330094569569,
+      "edge_cosine": 0.9543465296009481,
+      "boundary_gradient_cosine": 0.6467391926605741
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06712329387664795,
+      "ssim": 0.9876608498755822,
+      "edge_cosine": 0.955036304565636,
+      "boundary_gradient_cosine": 0.3382033658980033
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06712329387664795,
+      "ssim": 0.9876608498755822,
+      "edge_cosine": 0.955036304565636,
+      "boundary_gradient_cosine": 0.3382033658980033
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.025597166270017624,
+      "ssim": 0.9935488195310591,
+      "edge_cosine": 0.9664678003716346,
+      "boundary_gradient_cosine": 0.4306013987662387
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.0977896898984909,
+      "ssim": 0.9901868841781042,
+      "edge_cosine": 0.9458131485635084,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.0977896898984909,
+      "ssim": 0.9901868841781042,
+      "edge_cosine": 0.9458131485635084,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.041302990168333054,
+      "ssim": 0.9923829399920464,
+      "edge_cosine": 0.9412007975284895,
+      "boundary_gradient_cosine": 0.2415303828267927
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.07269514352083206,
+      "ssim": 0.9479867941633432,
+      "edge_cosine": 0.9003017881534473,
+      "boundary_gradient_cosine": 0.5249112169110836
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.07269514352083206,
+      "ssim": 0.9479867941633432,
+      "edge_cosine": 0.9003017881534473,
+      "boundary_gradient_cosine": 0.5249112169110836
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.039910122752189636,
+      "ssim": 0.9747018861175841,
+      "edge_cosine": 0.9457204144665197,
+      "boundary_gradient_cosine": 0.7386590312970082
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.060517773032188416,
+      "ssim": 0.9730416713682453,
+      "edge_cosine": 0.8909989872188774,
+      "boundary_gradient_cosine": 0.5758170318142345
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.060517773032188416,
+      "ssim": 0.9730416713682453,
+      "edge_cosine": 0.8909989872188774,
+      "boundary_gradient_cosine": 0.5758170318142345
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.04617907106876373,
+      "ssim": 0.9852721862784635,
+      "edge_cosine": 0.9390435271601875,
+      "boundary_gradient_cosine": 0.8538863097482804
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.04240933433175087,
+      "ssim": 0.9854217367766275,
+      "edge_cosine": 0.9427729863431099,
+      "boundary_gradient_cosine": 0.8971618463317222
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.04240933433175087,
+      "ssim": 0.9854217367766275,
+      "edge_cosine": 0.9427729863431099,
+      "boundary_gradient_cosine": 0.8971618463317222
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.021893247961997986,
+      "ssim": 0.9923904236533095,
+      "edge_cosine": 0.9714170684818921,
+      "boundary_gradient_cosine": 0.9490445857015378
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06518640369176865,
+      "ssim": 0.9922670018801432,
+      "edge_cosine": 0.9692174816446567,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06518640369176865,
+      "ssim": 0.9922670018801432,
+      "edge_cosine": 0.9692174816446567,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03364936634898186,
+      "ssim": 0.9952762292730396,
+      "edge_cosine": 0.9766667925833257,
+      "boundary_gradient_cosine": 0.4364621766020124
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.1229952871799469,
+      "ssim": 0.9874531340664979,
+      "edge_cosine": 0.9381860737302509,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.1229952871799469,
+      "ssim": 0.9874531340664979,
+      "edge_cosine": 0.9381860737302509,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03668966144323349,
+      "ssim": 0.991457576042759,
+      "edge_cosine": 0.9445012079294223,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06809429824352264,
+      "ssim": 0.9533799382185504,
+      "edge_cosine": 0.9495522407179141,
+      "boundary_gradient_cosine": 0.5671569997828465
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06809429824352264,
+      "ssim": 0.9533799382185504,
+      "edge_cosine": 0.9495522407179141,
+      "boundary_gradient_cosine": 0.5671569997828465
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03713713586330414,
+      "ssim": 0.9807354260590859,
+      "edge_cosine": 0.966260191670109,
+      "boundary_gradient_cosine": 0.8505336925564566
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.050382182002067566,
+      "ssim": 0.9868899168909833,
+      "edge_cosine": 0.932993518200429,
+      "boundary_gradient_cosine": 0.36931752273810875
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.050382182002067566,
+      "ssim": 0.9868899168909833,
+      "edge_cosine": 0.932993518200429,
+      "boundary_gradient_cosine": 0.36931752273810875
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.01586914248764515,
+      "ssim": 0.9965946319222301,
+      "edge_cosine": 0.9780849952784888,
+      "boundary_gradient_cosine": 0.3231324861962989
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.06854511797428131,
+      "ssim": 0.9829488528959089,
+      "edge_cosine": 0.9331928535379337,
+      "boundary_gradient_cosine": 0.5128466051046625
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.06854511797428131,
+      "ssim": 0.9829488528959089,
+      "edge_cosine": 0.9331928535379337,
+      "boundary_gradient_cosine": 0.5128466051046625
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.02639363892376423,
+      "ssim": 0.9896844989505756,
+      "edge_cosine": 0.962610576770066,
+      "boundary_gradient_cosine": 0.997207422971458
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.05462351441383362,
+      "ssim": 0.9810098801106534,
+      "edge_cosine": 0.9054605285558581,
+      "boundary_gradient_cosine": 0.90610214086194
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.05462351441383362,
+      "ssim": 0.9810098801106534,
+      "edge_cosine": 0.9054605285558581,
+      "boundary_gradient_cosine": 0.90610214086194
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.030152978375554085,
+      "ssim": 0.9868717586096873,
+      "edge_cosine": 0.9081140662800549,
+      "boundary_gradient_cosine": 0.9928404983968886
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.1755441278219223,
+      "ssim": 0.15182292493985708,
+      "edge_cosine": 0.05638284955703981,
+      "boundary_gradient_cosine": 0.05912800935446571
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.1755441278219223,
+      "ssim": 0.15182292493985708,
+      "edge_cosine": 0.05638284955703981,
+      "boundary_gradient_cosine": 0.05912800935446571
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.04968690499663353,
+      "ssim": 0.6474755097657414,
+      "edge_cosine": 0.35151732320559476,
+      "boundary_gradient_cosine": 0.6180314426843522
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.09961110353469849,
+      "ssim": 0.7473625962791998,
+      "edge_cosine": 0.7957010968379007,
+      "boundary_gradient_cosine": 0.5708173673805458
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.09961110353469849,
+      "ssim": 0.7473625962791998,
+      "edge_cosine": 0.7957010968379007,
+      "boundary_gradient_cosine": 0.5708173673805458
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.02544337324798107,
+      "ssim": 0.9633320241014335,
+      "edge_cosine": 0.9067890319681864,
+      "boundary_gradient_cosine": 0.8163910595104704
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.10213123261928558,
+      "ssim": 0.9921040467512173,
+      "edge_cosine": 0.9526819073258876,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.10213123261928558,
+      "ssim": 0.9921040467512173,
+      "edge_cosine": 0.9526819073258876,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.046876002103090286,
+      "ssim": 0.9885034688040352,
+      "edge_cosine": 0.9373426753701419,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.10516028106212616,
+      "ssim": 0.9860162719890485,
+      "edge_cosine": 0.9329537455830386,
+      "boundary_gradient_cosine": 0.04415114284946876
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.10516028106212616,
+      "ssim": 0.9860162719890485,
+      "edge_cosine": 0.9329537455830386,
+      "boundary_gradient_cosine": 0.04415114284946876
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.043360430747270584,
+      "ssim": 0.9913687790041181,
+      "edge_cosine": 0.9315736411995535,
+      "boundary_gradient_cosine": 0.5491357938532413
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.05452856793999672,
+      "ssim": 0.9906784056137945,
+      "edge_cosine": 0.9637961164717394,
+      "boundary_gradient_cosine": 0.19944725904833488
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.05452856793999672,
+      "ssim": 0.9906784056137945,
+      "edge_cosine": 0.9637961164717394,
+      "boundary_gradient_cosine": 0.19944725904833488
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.022188430652022362,
+      "ssim": 0.996252972072019,
+      "edge_cosine": 0.9766538980118483,
+      "boundary_gradient_cosine": 0.46065250484205555
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.18199193477630615,
+      "ssim": 0.1486468909056511,
+      "edge_cosine": 0.03092331862005778,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.18199193477630615,
+      "ssim": 0.1486468909056511,
+      "edge_cosine": 0.03092331862005778,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.036343108862638474,
+      "ssim": 0.6601889711613307,
+      "edge_cosine": 0.5444777997303908,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.132121741771698,
+      "ssim": 0.9889425932870418,
+      "edge_cosine": 0.9302264517506253,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.132121741771698,
+      "ssim": 0.9889425932870418,
+      "edge_cosine": 0.9302264517506253,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.04410636052489281,
+      "ssim": 0.9922582776071819,
+      "edge_cosine": 0.9328998788550137,
+      "boundary_gradient_cosine": 0.24899743639321728
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.12375575304031372,
+      "ssim": 0.9882060194443035,
+      "edge_cosine": 0.8863595313776779,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.12375575304031372,
+      "ssim": 0.9882060194443035,
+      "edge_cosine": 0.8863595313776779,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.034888122230768204,
+      "ssim": 0.9915979755295367,
+      "edge_cosine": 0.8658127721376757,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.20078638195991516,
+      "ssim": 0.06677318802793925,
+      "edge_cosine": 0.025004393575266185,
+      "boundary_gradient_cosine": 0.25568904960110994
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.20078638195991516,
+      "ssim": 0.06677318802793925,
+      "edge_cosine": 0.025004393575266185,
+      "boundary_gradient_cosine": 0.25568904960110994
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.015801697969436646,
+      "ssim": 0.924098827936637,
+      "edge_cosine": 0.8257335653824265,
+      "boundary_gradient_cosine": 0.5884578695117514
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.19175764918327332,
+      "ssim": 0.9150381528399875,
+      "edge_cosine": 0.8393292382156089,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.19175764918327332,
+      "ssim": 0.9150381528399875,
+      "edge_cosine": 0.8393292382156089,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03421531617641449,
+      "ssim": 0.9491043683200658,
+      "edge_cosine": 0.7906478667614619,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.08241652697324753,
+      "ssim": 0.9896336275688585,
+      "edge_cosine": 0.8680898475581907,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.08241652697324753,
+      "ssim": 0.9896336275688585,
+      "edge_cosine": 0.8680898475581907,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.017054801806807518,
+      "ssim": 0.9954615158425849,
+      "edge_cosine": 0.9047188808227693,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.10312904417514801,
+      "ssim": 0.985681437054168,
+      "edge_cosine": 0.8497509709040051,
+      "boundary_gradient_cosine": 0.9619066653315874
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.10312904417514801,
+      "ssim": 0.985681437054168,
+      "edge_cosine": 0.8497509709040051,
+      "boundary_gradient_cosine": 0.9619066653315874
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.02471569925546646,
+      "ssim": 0.9945815094175977,
+      "edge_cosine": 0.8602590507130758,
+      "boundary_gradient_cosine": 0.9585845335547545
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.10728707164525986,
+      "ssim": 0.9857707885247887,
+      "edge_cosine": 0.8547554545852732,
+      "boundary_gradient_cosine": 0.9794050955127095
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.10728707164525986,
+      "ssim": 0.9857707885247887,
+      "edge_cosine": 0.8547554545852732,
+      "boundary_gradient_cosine": 0.9794050955127095
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.03994689881801605,
+      "ssim": 0.9874136372150731,
+      "edge_cosine": 0.815489982285616,
+      "boundary_gradient_cosine": 0.9433789117624803
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.2103167474269867,
+      "ssim": 0.5173263929101161,
+      "edge_cosine": 0.42736578248004187,
+      "boundary_gradient_cosine": 0.36287165446743286
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.2103167474269867,
+      "ssim": 0.5173263929101161,
+      "edge_cosine": 0.42736578248004187,
+      "boundary_gradient_cosine": 0.36287165446743286
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.030266180634498596,
+      "ssim": 0.8534038912843348,
+      "edge_cosine": 0.7089062570916878,
+      "boundary_gradient_cosine": 0.6386909416014516
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.05211123079061508,
+      "ssim": 0.9884914532972338,
+      "edge_cosine": 0.9639325366025058,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.05211123079061508,
+      "ssim": 0.9884914532972338,
+      "edge_cosine": 0.9639325366025058,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.018284054473042488,
+      "ssim": 0.995022354823289,
+      "edge_cosine": 0.965601561434005,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "pretrained_off",
+      "lpips": 0.13812187314033508,
+      "ssim": 0.9914617091758875,
+      "edge_cosine": 0.8720303765497903,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "adapter_on",
+      "lpips": 0.13812187314033508,
+      "ssim": 0.9914617091758875,
+      "edge_cosine": 0.8720303765497903,
+      "boundary_gradient_cosine": 0.0
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "seed": 42,
+      "arm": "class_finetuned_sd2",
+      "lpips": 0.02777727320790291,
+      "ssim": 0.9932112725228478,
+      "edge_cosine": 0.8614360659793853,
+      "boundary_gradient_cosine": 0.0
+    }
+  ],
+  "raw_task_feature": [
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.05886842093105,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.05886842093105,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4468342473422899,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.118740242672633,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.118740242672633,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.8161476969032337,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.8235971814055423,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.8235971814055423,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.23900889704452472,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.0978095285696226,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.0978095285696226,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4392482600089126,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.563135499430258,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.563135499430258,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4395844769820526,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 0.8357711338933169,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 0.8357711338933169,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.20177848488577654,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.2470228732543913,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.2470228732543913,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.7658842044384001,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 0.6132849595300607,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 0.6132849595300607,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.299047042235656,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.167937333020287,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.167937333020287,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.29593393766986725,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.8235693418191614,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.8235693418191614,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.8350817782610502,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.5438227467537478,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.5438227467537478,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5140818289521613,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.1102412847672647,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.1102412847672647,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.26544087451376785,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 0.9647745992677841,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 0.9647745992677841,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5291867957600296,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.9300438762852852,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.9300438762852852,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.8845538419397724,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.2915323838510915,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.2915323838510915,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.2427723158476654,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.5329558661813727,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.5329558661813727,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.581949914791828,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.4103092502278463,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.4103092502278463,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.9191950645278159,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.112898244238491,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.112898244238491,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.0038150509853445,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 4.5812775720799825,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 4.5812775720799825,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 2.3981038009123132,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.892066109926873,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.892066109926873,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.2879075124156311,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.8976990805504252,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.8976990805504252,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.6191914296728328,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.7109419891909114,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.7109419891909114,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.47175327476178164,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.061337088084629,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.061337088084629,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.19331466503686426,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.072279899863612,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.072279899863612,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.15743182660743377,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.0496250291719762,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.0496250291719762,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5048708577634505,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.440067100002116,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.440067100002116,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.37995783113806864,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.5410026416963594,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.5410026416963594,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.8664168798840051,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.9646488740411614,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.9646488740411614,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4016370565132972,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.245123038501893,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.245123038501893,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.37981025639793464,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.1401373297668405,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.1401373297668405,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.2039940979404875,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.2049879797118836,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.2049879797118836,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.8199785815106677,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.8788505942944846,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.8788505942944846,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5195697359241485,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.392575936465974,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.392575936465974,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.3285391178084345,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.20233248697463,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.20233248697463,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.9068715806006493,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.0972565592282773,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.0972565592282773,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5476588515352385,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 0.8225310664592456,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 0.8225310664592456,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5461648123068652,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.9958156561371183,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.9958156561371183,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.4552749032160446,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.1553562427009725,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.1553562427009725,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.1328013803469426,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.856523836314527,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.856523836314527,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4535232202076372,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.4860009981433198,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.4860009981433198,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.3935617247983441,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.455515327017332,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.455515327017332,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.3331697069354242,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.6481043218602585,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.6481043218602585,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.6015008932295955,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.4587235970610783,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.4587235970610783,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.7716500546303735,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 2.876041132867589,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 2.876041132867589,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4065516321816788,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 5.670003651770703,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 5.670003651770703,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.2794466784448677,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 4.864777192691123,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 4.864777192691123,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.49386438727095966,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 4.135868681629582,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 4.135868681629582,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.0363473941648609,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.4694613183916823,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.4694613183916823,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.3283295633166584,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.934351253945372,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.934351253945372,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.9949225115135168,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.6266629910534518,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.6266629910534518,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.7791927556911271,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 4.845107120218263,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 4.845107120218263,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.8750210957902566,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 1.7610748307552166,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 1.7610748307552166,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.4687798736205093,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.5409540574768217,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.5409540574768217,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "class_name": "short",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.9379630078914204,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 5.929289890493619,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 5.929289890493619,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.9907663627198757,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 5.86320271683488,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 5.86320271683488,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.5089587812096532,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": true
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 6.5791088263776505,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 6.5791088263776505,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.0312754524197842,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 3.003467777007811,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 3.003467777007811,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.9330676060187885,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 5.311779430852916,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 5.311779430852916,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.748442543265127,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 6.747238133061709,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 6.747238133061709,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 1.535507357536771,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "pretrained_off",
+      "normalized_pair_gap": 4.593053759170452,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "adapter_on",
+      "normalized_pair_gap": 4.593053759170452,
+      "fraction_gt_real_q95": true,
+      "retrieval_top1": false,
+      "retrieval_top5": false
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "class_name": "pinhole",
+      "arm": "class_finetuned_sd2",
+      "normalized_pair_gap": 0.35981937820519455,
+      "fraction_gt_real_q95": false,
+      "retrieval_top1": true,
+      "retrieval_top5": true
+    }
+  ]
+}

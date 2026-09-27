@@ -1,0 +1,31 @@
+{
+  "status": "SEMANTIC_ADAPTATION_DEFICIT_SUPPORTED",
+  "local_injection_overshoot_supported": false,
+  "semantic_adaptation_deficit_supported": true,
+  "effective_adapter_noop_observed": true,
+  "effective_adapter_noop_evidence": {
+    "adapter_on_off_identical_image_hashes": "60/60",
+    "residual_records_exactly_zero": "12000/12000",
+    "blocks": [
+      2,
+      3
+    ],
+    "cfg_branches": [
+      "unconditional",
+      "conditional"
+    ],
+    "diffusion_timesteps": 50
+  },
+  "thresholds": {
+    "local_ratio_median_min": 0.15,
+    "mask_area_spearman_max": -0.3,
+    "spearman_p_max": 0.05,
+    "adapter_on_gap_relative_worsening_min": 0.1,
+    "pretrained_gap_relative_to_finetuned_min": 0.1,
+    "q95_fraction_absolute_worsening_min": 0.1
+  },
+  "stage9a_gate_unchanged": true,
+  "detector_training_count": 0,
+  "official_validation_use_count": 0,
+  "stage9d_authorized": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "NUMERICAL_INSTABILITY_UNCLEAR",
+  "classes": {
+    "short": {
+      "attempted_optimizer_steps": 2166,
+      "successful_steps": 2000,
+      "skipped_steps": 166,
+      "skip_ratio": 0.07663896583564174,
+      "skip_stage_distribution": "unavailable from retained training history",
+      "grad_scaler_history": "unavailable",
+      "gradient_norm_history": "unavailable"
+    },
+    "pinhole": {
+      "attempted_optimizer_steps": 2166,
+      "successful_steps": 2000,
+      "skipped_steps": 166,
+      "skip_ratio": 0.07663896583564174,
+      "skip_stage_distribution": "unavailable from retained training history",
+      "grad_scaler_history": "unavailable",
+      "gradient_norm_history": "unavailable"
+    }
+  },
+  "reason": "7.66% AMP skips are nontrivial, but retained logs do not identify skip timestep, gradient component, or GradScaler trajectory. No diagnostic retraining was used to alter the formal model.",
+  "formal_model_unchanged": true
+}
