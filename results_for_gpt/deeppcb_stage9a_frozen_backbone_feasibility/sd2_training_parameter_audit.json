@@ -1,0 +1,24 @@
+{
+  "evidence_source": "train_rda.py and checkpoint metadata",
+  "vanilla_sd2": {
+    "unet": "full trainable",
+    "vae": "frozen",
+    "text_encoder": "frozen",
+    "optimizer": "AdamW",
+    "unet_lr": 5e-06,
+    "updates_per_class": 2000
+  },
+  "full_msdf": {
+    "unet": "full trainable",
+    "vae": "frozen",
+    "text_encoder": "frozen",
+    "optimizer_groups": {
+      "full_unet": 5e-06,
+      "msdf": 0.0001
+    },
+    "updates_per_class": 2000
+  },
+  "source_identity_can_be_written_into_unet": true,
+  "reason": "all UNet parameters require gradients and are in AdamW group 0; each class is fine-tuned from only its low-shot examples",
+  "historical_gradient_data_unavailable": true
+}

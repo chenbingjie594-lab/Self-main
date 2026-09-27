@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_ADAPTER_NOT_FEASIBLE",
+  "checks": {
+    "short": {
+      "fidelity": false,
+      "diversity": false,
+      "identity": false,
+      "task": false
+    },
+    "pinhole": {
+      "fidelity": false,
+      "diversity": false,
+      "identity": false,
+      "task": false
+    }
+  },
+  "per_class_pass": {
+    "short": false,
+    "pinhole": false
+  },
+  "STAGE9B_DETECTOR_PILOT_AUTHORIZED": false,
+  "detector_training_count": 0,
+  "weighted_score": false,
+  "validation_use_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "name": "FrozenResidualAdapter",
+  "condition_inputs": [
+    "target_mask",
+    "paired_normal_context",
+    "diffusion_timestep"
+  ],
+  "forbidden_inputs": [
+    "real_defect_reference",
+    "detector_feature",
+    "morphology_template",
+    "source_identity",
+    "teacher_or_selector_score"
+  ],
+  "backbone": {
+    "unet": "100% frozen",
+    "vae": "100% frozen",
+    "text_encoder": "100% frozen"
+  },
+  "injection": {
+    "unet_up_blocks": [
+      2,
+      3
+    ],
+    "count": 2,
+    "zero_initialized": true,
+    "rms_bound_ratio": 0.1
+  },
+  "fusion": "additive mask/context/time features",
+  "attention_layers": 0,
+  "new_losses": 0
+}

@@ -1,0 +1,39 @@
+{
+  "registered_before_stage9a_generation_and_metrics": true,
+  "status_options": [
+    "FROZEN_ADAPTER_FEASIBLE",
+    "FROZEN_ADAPTER_MIXED",
+    "FROZEN_ADAPTER_NOT_FEASIBLE"
+  ],
+  "axes_are_never_weighted": true,
+  "per_class_required": [
+    "short",
+    "pinhole"
+  ],
+  "criteria": {
+    "no_clear_fidelity_collapse": {
+      "lpips_ratio_vs_sd2_max": 1.1,
+      "edge_cosine_delta_vs_sd2_min": -0.02,
+      "boundary_gradient_cosine_delta_vs_sd2_min": -0.02
+    },
+    "diversity_increase_vs_full_msdf": {
+      "ic_lpips_ratio_min": 1.05,
+      "feature_variance_ratio_min": 1.05
+    },
+    "source_identity_dominance_down_vs_full_msdf": {
+      "top1_retrieval_delta_max": -0.02,
+      "within_total_ratio_delta_max": -0.02
+    },
+    "task_feature_not_notably_worse_than_sd2": {
+      "normalized_pair_gap_ratio_max": 1.1,
+      "fraction_gt_q95_delta_max": 0.05
+    },
+    "class_consistency": "every hard criterion must pass independently for short and pinhole"
+  },
+  "decision": {
+    "FROZEN_ADAPTER_FEASIBLE": "all criteria pass for both classes",
+    "FROZEN_ADAPTER_NOT_FEASIBLE": "fidelity collapse or task support failure in either class, or no diversity/memorization improvement in both classes",
+    "FROZEN_ADAPTER_MIXED": "all remaining outcomes"
+  },
+  "stage9b_authorized_only_if": "FROZEN_ADAPTER_FEASIBLE"
+}

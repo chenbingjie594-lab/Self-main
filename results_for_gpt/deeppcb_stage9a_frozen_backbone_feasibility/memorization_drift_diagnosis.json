@@ -1,0 +1,90 @@
+{
+  "source_identity": {
+    "sd2": {
+      "overall": {
+        "retrieval_top1": 0.2997416020671835,
+        "retrieval_top5": 0.6124031007751938,
+        "within_source_variance": 0.013404170858573372,
+        "total_variance": 0.43972891066037384,
+        "within_total_ratio": 0.030482805504971972,
+        "n": 774
+      },
+      "per_class": {
+        "short": {
+          "retrieval_top1": 0.34366925064599485,
+          "retrieval_top5": 0.6511627906976745,
+          "within_source_variance": 0.013310119213300014,
+          "total_variance": 0.43475616240220705,
+          "within_total_ratio": 0.03061513640141664,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.2558139534883721,
+          "retrieval_top5": 0.5736434108527132,
+          "within_source_variance": 0.013498222503846729,
+          "total_variance": 0.4237282284141627,
+          "within_total_ratio": 0.0318558491001766,
+          "n": 387
+        }
+      }
+    },
+    "full_msdf": {
+      "overall": {
+        "retrieval_top1": 0.28811369509043927,
+        "retrieval_top5": 0.5917312661498708,
+        "within_source_variance": 0.01352432785795223,
+        "total_variance": 0.4500959715618782,
+        "within_total_ratio": 0.030047653639337084,
+        "n": 774
+      },
+      "per_class": {
+        "short": {
+          "retrieval_top1": 0.3281653746770026,
+          "retrieval_top5": 0.6666666666666666,
+          "within_source_variance": 0.012643846529063587,
+          "total_variance": 0.445604131934448,
+          "within_total_ratio": 0.028374616891846057,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.24806201550387597,
+          "retrieval_top5": 0.5167958656330749,
+          "within_source_variance": 0.014404809186840874,
+          "total_variance": 0.438818753726836,
+          "within_total_ratio": 0.032826329924376584,
+          "n": 387
+        }
+      }
+    },
+    "frozen_adapter": {
+      "overall": {
+        "retrieval_top1": 0.07364341085271318,
+        "retrieval_top5": 0.27648578811369506,
+        "within_source_variance": 0.022051582302319964,
+        "total_variance": 0.4451875185164178,
+        "within_total_ratio": 0.0495332447230475,
+        "n": 774
+      },
+      "per_class": {
+        "short": {
+          "retrieval_top1": 0.082687338501292,
+          "retrieval_top5": 0.2558139534883721,
+          "within_source_variance": 0.027327875766080617,
+          "total_variance": 0.43585190059064033,
+          "within_total_ratio": 0.06269991189449334,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.06459948320413436,
+          "retrieval_top5": 0.2971576227390181,
+          "within_source_variance": 0.016775288838559308,
+          "total_variance": 0.44291475804865754,
+          "within_total_ratio": 0.03787475701298807,
+          "n": 387
+        }
+      }
+    }
+  },
+  "historical_gradient_data_unavailable": true,
+  "interpretation": "diagnostic only; parameter drift is not a quality score"
+}

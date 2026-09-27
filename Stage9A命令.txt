@@ -1,0 +1,73 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+mkdir -p logs/deeppcb_stage9a_frozen_backbone_feasibility
+mkdir -p results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility
+
+# 1. 必须先执行：代码审计与门槛预注册（先于任何 Stage9A 指标）
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_deeppcb_stage9a.py \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --sd2_models /mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42 \
+  --msdf_models /mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_deeppcb_lowdata_s42 \
+  --output results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility
+
+# 2. VAE 瓶颈审计，只读取冻结的 low-shot train instances，不读取 official validation
+nohup env CUDA_VISIBLE_DEVICES=0 /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/audit_deeppcb_stage9a_vae.py \
+  --lowdata_root /mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917 \
+  --model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --output results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility \
+  --device 0 > logs/deeppcb_stage9a_frozen_backbone_feasibility/vae.log 2>&1 &
+echo $! > logs/deeppcb_stage9a_frozen_backbone_feasibility/vae.pid
+
+# 3. VAE 完成后依次训练两个 adapter；每类固定 2000 successful updates
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+for cls in short pinhole; do
+  /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/train_deeppcb_stage9a_adapter.py \
+    --model_path /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+    --lowdata_root /mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917 \
+    --class_name ${cls} \
+    --output /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9a_frozen_adapter/${cls} \
+    --steps 2000 --accum 4 --lr 0.0001 --seed 42 \
+    > logs/deeppcb_stage9a_frozen_backbone_feasibility/train_${cls}.log 2>&1
+done
+' > logs/deeppcb_stage9a_frozen_backbone_feasibility/training_launcher.log 2>&1 &
+echo $! > logs/deeppcb_stage9a_frozen_backbone_feasibility/training.pid
+
+# 4. 两类 x 现有三个 generation seeds；无 defect reference
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/generate_deeppcb_stage9a_adapter.py \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --adapter_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9a_frozen_adapter \
+  --scheduler /mnt/sda/cbj/ImageGeneration/Self-main/scheduler \
+  --output /mnt/sda/cbj/ImageGeneration/Self-main/data/deeppcb_stage9a_frozen_adapter \
+  --manifest results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility/frozen_adapter_manifest.json \
+  --device 0 > logs/deeppcb_stage9a_frozen_backbone_feasibility/generation.log 2>&1 &
+echo $! > logs/deeppcb_stage9a_frozen_backbone_feasibility/generation.pid
+
+# 5. 生成完成后：Vanilla SD2 UNet 参数漂移（诊断用途，不参与 gate）
+nohup /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/audit_deeppcb_stage9a_unet_drift.py \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --sd2_models /mnt/sda/cbj/ImageGeneration/Self-main/model/sd2_deeppcb_lowdata_s42 \
+  --output results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility \
+  > logs/deeppcb_stage9a_frozen_backbone_feasibility/unet_drift.log 2>&1 &
+echo $! > logs/deeppcb_stage9a_frozen_backbone_feasibility/unet_drift.pid
+
+# 6. 三臂统一评估与预注册 gate 判定；不训练 detector、不读取 official validation
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/evaluate_deeppcb_stage9a.py \
+  --adapter_manifest results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility/frozen_adapter_manifest.json \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --msdf_manifest results_for_gpt/bootstrap_guard_deeppcb_stage2/candidate_pool_manifest.json \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --gate_protocol results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility/stage9a_gate_protocol.json \
+  --adapter_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage9a_frozen_adapter \
+  --output results_for_gpt/deeppcb_stage9a_frozen_backbone_feasibility \
+  --device 0 > logs/deeppcb_stage9a_frozen_backbone_feasibility/evaluation.log 2>&1 &
+echo $! > logs/deeppcb_stage9a_frozen_backbone_feasibility/evaluation.pid

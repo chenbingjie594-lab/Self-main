@@ -1,0 +1,241 @@
+{
+  "diagnostic_only": true,
+  "not_a_quality_score": true,
+  "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+  "classes": {
+    "open": {
+      "global": {
+        "relative_l2": 0.005303086551220366,
+        "mean_absolute_delta": 0.00014301658017968575,
+        "parameters": 865925124
+      },
+      "groups": {
+        "convolution": {
+          "relative_l2": 0.0016495320871551284,
+          "mean_absolute_delta": 9.282217971967865e-05,
+          "parameters": 38404
+        },
+        "other": {
+          "relative_l2": 0.0158856734172905,
+          "mean_absolute_delta": 7.145141390400512e-05,
+          "parameters": 2050560
+        },
+        "down": {
+          "relative_l2": 0.005361120940086366,
+          "mean_absolute_delta": 0.00013311957035371872,
+          "parameters": 165240640
+        },
+        "attention": {
+          "relative_l2": 0.004489596229767911,
+          "mean_absolute_delta": 0.00016755921110413776,
+          "parameters": 248798400
+        },
+        "up": {
+          "relative_l2": 0.006260720560269018,
+          "mean_absolute_delta": 0.00014920536399616472,
+          "parameters": 384238080
+        },
+        "mid": {
+          "relative_l2": 0.004683975298033988,
+          "mean_absolute_delta": 4.081756771503528e-05,
+          "parameters": 65559040
+        }
+      }
+    },
+    "short": {
+      "global": {
+        "relative_l2": 0.005160460787298903,
+        "mean_absolute_delta": 0.00013860110408952375,
+        "parameters": 865925124
+      },
+      "groups": {
+        "convolution": {
+          "relative_l2": 0.0016097249488775758,
+          "mean_absolute_delta": 9.20834130602671e-05,
+          "parameters": 38404
+        },
+        "other": {
+          "relative_l2": 0.015924028389290416,
+          "mean_absolute_delta": 7.130365699053522e-05,
+          "parameters": 2050560
+        },
+        "down": {
+          "relative_l2": 0.005127297240341301,
+          "mean_absolute_delta": 0.0001265514144326766,
+          "parameters": 165240640
+        },
+        "attention": {
+          "relative_l2": 0.00435551991072572,
+          "mean_absolute_delta": 0.0001618607159005647,
+          "parameters": 248798400
+        },
+        "up": {
+          "relative_l2": 0.006139853691539557,
+          "mean_absolute_delta": 0.00014617689291920066,
+          "parameters": 384238080
+        },
+        "mid": {
+          "relative_l2": 0.004473024305909634,
+          "mean_absolute_delta": 3.8432181414935985e-05,
+          "parameters": 65559040
+        }
+      }
+    },
+    "mousebite": {
+      "global": {
+        "relative_l2": 0.0048449921551767475,
+        "mean_absolute_delta": 0.00012938846432551622,
+        "parameters": 865925124
+      },
+      "groups": {
+        "convolution": {
+          "relative_l2": 0.001547774307473199,
+          "mean_absolute_delta": 8.65518886128848e-05,
+          "parameters": 38404
+        },
+        "other": {
+          "relative_l2": 0.015386087043826444,
+          "mean_absolute_delta": 6.949766414773682e-05,
+          "parameters": 2050560
+        },
+        "down": {
+          "relative_l2": 0.004633172431160127,
+          "mean_absolute_delta": 0.0001146284191897839,
+          "parameters": 165240640
+        },
+        "attention": {
+          "relative_l2": 0.004140463818016654,
+          "mean_absolute_delta": 0.0001537084596903981,
+          "parameters": 248798400
+        },
+        "up": {
+          "relative_l2": 0.0057782375031970035,
+          "mean_absolute_delta": 0.00013632006926790738,
+          "parameters": 384238080
+        },
+        "mid": {
+          "relative_l2": 0.004122274042995201,
+          "mean_absolute_delta": 3.5568475054022835e-05,
+          "parameters": 65559040
+        }
+      }
+    },
+    "spur": {
+      "global": {
+        "relative_l2": 0.004889630007241687,
+        "mean_absolute_delta": 0.00013135200689670036,
+        "parameters": 865925124
+      },
+      "groups": {
+        "convolution": {
+          "relative_l2": 0.0016605224975907748,
+          "mean_absolute_delta": 9.250939888794052e-05,
+          "parameters": 38404
+        },
+        "other": {
+          "relative_l2": 0.0158125549662809,
+          "mean_absolute_delta": 7.019481257176243e-05,
+          "parameters": 2050560
+        },
+        "down": {
+          "relative_l2": 0.004891166567607418,
+          "mean_absolute_delta": 0.0001205580338147764,
+          "parameters": 165240640
+        },
+        "attention": {
+          "relative_l2": 0.004148149548187621,
+          "mean_absolute_delta": 0.0001542794169673785,
+          "parameters": 248798400
+        },
+        "up": {
+          "relative_l2": 0.005780945329650654,
+          "mean_absolute_delta": 0.00013733160718133752,
+          "parameters": 384238080
+        },
+        "mid": {
+          "relative_l2": 0.004393697250463857,
+          "mean_absolute_delta": 3.843740890758627e-05,
+          "parameters": 65559040
+        }
+      }
+    },
+    "spurious_copper": {
+      "global": {
+        "relative_l2": 0.004754247497558471,
+        "mean_absolute_delta": 0.00013028921645653888,
+        "parameters": 865925124
+      },
+      "groups": {
+        "convolution": {
+          "relative_l2": 0.0013992948550160685,
+          "mean_absolute_delta": 8.218746301516048e-05,
+          "parameters": 38404
+        },
+        "other": {
+          "relative_l2": 0.0154458296662944,
+          "mean_absolute_delta": 6.922207397470407e-05,
+          "parameters": 2050560
+        },
+        "down": {
+          "relative_l2": 0.004609069006733023,
+          "mean_absolute_delta": 0.00011712315704104356,
+          "parameters": 165240640
+        },
+        "attention": {
+          "relative_l2": 0.0040426685556698184,
+          "mean_absolute_delta": 0.00015099182123957543,
+          "parameters": 248798400
+        },
+        "up": {
+          "relative_l2": 0.005637173709164216,
+          "mean_absolute_delta": 0.00013671145598895943,
+          "parameters": 384238080
+        },
+        "mid": {
+          "relative_l2": 0.005432331687203957,
+          "mean_absolute_delta": 4.920494936586738e-05,
+          "parameters": 65559040
+        }
+      }
+    },
+    "pinhole": {
+      "global": {
+        "relative_l2": 0.004940116127737007,
+        "mean_absolute_delta": 0.00013388837098803595,
+        "parameters": 865925124
+      },
+      "groups": {
+        "convolution": {
+          "relative_l2": 0.0014670737774951043,
+          "mean_absolute_delta": 8.324159675647059e-05,
+          "parameters": 38404
+        },
+        "other": {
+          "relative_l2": 0.014847683458401935,
+          "mean_absolute_delta": 6.629632972565988e-05,
+          "parameters": 2050560
+        },
+        "down": {
+          "relative_l2": 0.004976721506839582,
+          "mean_absolute_delta": 0.0001237173669482463,
+          "parameters": 165240640
+        },
+        "attention": {
+          "relative_l2": 0.004202368788674331,
+          "mean_absolute_delta": 0.00015669054777772207,
+          "parameters": 248798400
+        },
+        "up": {
+          "relative_l2": 0.0058127232185016635,
+          "mean_absolute_delta": 0.0001397216672452637,
+          "parameters": 384238080
+        },
+        "mid": {
+          "relative_l2": 0.0046338272803174855,
+          "mean_absolute_delta": 4.0944516655919056e-05,
+          "parameters": 65559040
+        }
+      }
+    }
+  }
+}

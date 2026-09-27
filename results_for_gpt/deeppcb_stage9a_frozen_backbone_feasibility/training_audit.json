@@ -1,0 +1,83 @@
+{
+  "classes": {
+    "short": {
+      "status": "COMPLETE",
+      "class_name": "short",
+      "successful_updates": 2000,
+      "nonfinite_or_amp_skips": 166,
+      "seed": 42,
+      "batch_size": 1,
+      "gradient_accumulation": 4,
+      "learning_rate": 0.0001,
+      "optimizer": "AdamW",
+      "mixed_precision": "fp16",
+      "trainable_components": [
+        "FrozenResidualAdapter"
+      ],
+      "unet_trainable_parameters": 0,
+      "vae_trainable_parameters": 0,
+      "text_encoder_trainable_parameters": 0,
+      "adapter_parameters": 108928,
+      "unet_parameters": 865925124,
+      "adapter_to_unet_ratio": 0.0001257937862997032,
+      "peak_vram_bytes": 5730737152,
+      "wall_seconds": 1145.1760029792786,
+      "final_loss": 0.002964610233902931,
+      "architecture": {
+        "channels": [
+          640,
+          320
+        ],
+        "hidden": 64,
+        "max_rms_ratio": 0.1
+      },
+      "forbidden_inputs": {
+        "defect_reference": false,
+        "detector_feature": false,
+        "morphology_template": false,
+        "source_identity": false,
+        "teacher_score": false
+      }
+    },
+    "pinhole": {
+      "status": "COMPLETE",
+      "class_name": "pinhole",
+      "successful_updates": 2000,
+      "nonfinite_or_amp_skips": 166,
+      "seed": 42,
+      "batch_size": 1,
+      "gradient_accumulation": 4,
+      "learning_rate": 0.0001,
+      "optimizer": "AdamW",
+      "mixed_precision": "fp16",
+      "trainable_components": [
+        "FrozenResidualAdapter"
+      ],
+      "unet_trainable_parameters": 0,
+      "vae_trainable_parameters": 0,
+      "text_encoder_trainable_parameters": 0,
+      "adapter_parameters": 108928,
+      "unet_parameters": 865925124,
+      "adapter_to_unet_ratio": 0.0001257937862997032,
+      "peak_vram_bytes": 5730737152,
+      "wall_seconds": 1133.253854751587,
+      "final_loss": 0.0030564283952116966,
+      "architecture": {
+        "channels": [
+          640,
+          320
+        ],
+        "hidden": 64,
+        "max_rms_ratio": 0.1
+      },
+      "forbidden_inputs": {
+        "defect_reference": false,
+        "detector_feature": false,
+        "morphology_template": false,
+        "source_identity": false,
+        "teacher_score": false
+      }
+    }
+  },
+  "all_complete_2000": true
+}

@@ -1,0 +1,18 @@
+{
+  "local_verified": {
+    "Vanilla_SD2": "full UNet fine-tuning; no added adapter",
+    "Full_MSDF_v3": "full UNet fine-tuning plus reference-conditioned multi-scale guidance",
+    "FrozenResidualAdapter": "frozen UNet; mask+normal-context+timestep only; two high-resolution residual sites"
+  },
+  "external": {
+    "DualAnoDiff": {
+      "external_baseline_verification_required": true
+    },
+    "AnomalyDiffusion": {
+      "external_baseline_verification_required": true
+    },
+    "DefectFill": {
+      "external_baseline_verification_required": true
+    }
+  }
+}

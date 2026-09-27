@@ -1,0 +1,10 @@
+{
+  "registered_before_generation": true,
+  "classes": ["short", "pinhole"],
+  "fidelity": {"lpips_ratio_vs_sd2_max": 1.10, "edge_delta_min": -0.02, "boundary_delta_min": -0.02},
+  "diversity_vs_full_msdf": {"ic_lpips_ratio_min": 1.05, "feature_variance_ratio_min": 1.05},
+  "identity_vs_full_msdf": {"top1_delta_max": -0.02, "within_total_ratio_delta_max": -0.02},
+  "task_support_vs_sd2": {"normalized_pair_gap_ratio_max": 1.10, "fraction_gt_q95_delta_max": 0.05},
+  "both_classes_must_pass": true,
+  "weighted_score": false
+}
