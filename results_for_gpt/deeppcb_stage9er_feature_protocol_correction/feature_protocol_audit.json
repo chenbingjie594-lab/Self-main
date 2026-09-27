@@ -1,0 +1,11 @@
+{
+  "fidelity_and_pixel_diversity_roi": "Stage7B adaptive padded max(64,4x bbox), crop then resize 256",
+  "task_feature_roi": "tight nonzero defect mask bbox, identical to Stage9C and historical OOF q95",
+  "oof_real_bank": "corrected Stage3R fold/class bank",
+  "q95": "frozen manifold_reference_corrected.json",
+  "real_bank_retrieval": "synthetic to corresponding fold/class OOF real bank",
+  "generated_cluster_retrieval": "generated seeds to generated source centroids; retained Stage9E metric and explicitly separate",
+  "generation_rerun_count": 0,
+  "detector_training_count": 0,
+  "official_validation_use_count": 0
+}

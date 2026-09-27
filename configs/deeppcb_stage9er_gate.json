@@ -1,0 +1,13 @@
+{
+  "frozen_before_corrected_metrics": true,
+  "task_adaptation_supported": "for both short and pinhole, repaired normalized pair gap and fraction above real q95 are lower than pretrained no-adaptation, with no catastrophic real-manifold collapse",
+  "task_adaptation_mixed": "only one class improves both task metrics, or metric directions are inconsistent",
+  "task_adaptation_not_supported": "neither class improves both task metrics",
+  "useful_variation_supported": "for both classes repaired exceeds class-finetuned SD2 in IC-LPIPS, corrected feature variance, and corrected pairwise feature distance; generated source identity R2 is lower; real-bank support has no catastrophic collapse",
+  "catastrophic_real_manifold_collapse": "fraction above real q95 equals 1.0 in either class or repaired is worse than pretrained in either task metric",
+  "stage9f_worth_testing": "training valid AND TASK_ADAPTATION_SUPPORTED AND USEFUL_VARIATION_SUPPORTED AND no catastrophic collapse",
+  "historical_stage9e_detector_authorized_remains": false,
+  "generation_rerun_count": 0,
+  "detector_training_count": 0,
+  "official_validation_use_count": 0
+}

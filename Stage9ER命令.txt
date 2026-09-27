@@ -1,0 +1,23 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage9er_feature_protocol_correction
+mkdir -p results_for_gpt/deeppcb_stage9er_feature_protocol_correction
+
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/evaluate_deeppcb_stage9er.py \
+  --stage9e_manifest results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/source_seed_manifest.json \
+  --stage9e_diversity results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/diversity_metrics.json \
+  --stage9e_identity results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/source_identity_metrics.json \
+  --stage9e_fidelity results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/canonical_fidelity_metrics.json \
+  --stage9e_training results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/formal_training_audit.json \
+  --stage9e_gate results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/stage9e_gate.json \
+  --stage9c_probe_sources results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution/probe_source_manifest.json \
+  --stage9c_metrics results_for_gpt/deeppcb_stage9c_frozen_adapter_failure_attribution/pretrained_vs_finetuned_probe.json \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --gate_protocol configs/deeppcb_stage9er_gate.json \
+  --output results_for_gpt/deeppcb_stage9er_feature_protocol_correction \
+  --device 0 \
+  > logs/deeppcb_stage9er_feature_protocol_correction/evaluation.log 2>&1 &
+
+echo $! > logs/deeppcb_stage9er_feature_protocol_correction/evaluation.pid
