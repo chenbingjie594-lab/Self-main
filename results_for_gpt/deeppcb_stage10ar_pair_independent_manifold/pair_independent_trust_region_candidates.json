@@ -1,0 +1,34 @@
+{
+  "frozen_before_stage10b": true,
+  "radius": "pair-independent instance k5 radius",
+  "candidates": [
+    {
+      "name": "conservative",
+      "lower_beta": 0.5483221710003416,
+      "upper_beta": 1.1065489625401965,
+      "real_independent_top5_relation_coverage": 0.7398709677419355,
+      "relations": 3875,
+      "lower_basis": "independent nearest q05",
+      "upper_basis": "independent top5 q75"
+    },
+    {
+      "name": "medium",
+      "lower_beta": 0.5483221710003416,
+      "upper_beta": 1.184702857709698,
+      "real_independent_top5_relation_coverage": 0.8898064516129032,
+      "relations": 3875,
+      "lower_basis": "independent nearest q05",
+      "upper_basis": "independent top5 q90"
+    },
+    {
+      "name": "wide",
+      "lower_beta": 0.5483221710003416,
+      "upper_beta": 1.2342509499575782,
+      "real_independent_top5_relation_coverage": 0.9398709677419355,
+      "relations": 3875,
+      "lower_basis": "independent nearest q05",
+      "upper_basis": "independent top5 q95"
+    }
+  ],
+  "synthetic_inputs_used": 0
+}

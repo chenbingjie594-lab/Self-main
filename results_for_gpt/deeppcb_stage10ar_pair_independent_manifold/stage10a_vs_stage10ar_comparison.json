@@ -1,0 +1,90 @@
+{
+  "status": "STAGE10A_CONCLUSION_ROBUST",
+  "rule": "normalization unchanged, variation-floor status unchanged, and every beta relative change <=20%",
+  "normalization": {
+    "stage10a": "instance-adaptive",
+    "stage10ar": "instance-adaptive"
+  },
+  "variation_floor": {
+    "stage10a": "NONZERO_VARIATION_FLOOR_SUPPORTED",
+    "stage10ar": "NONZERO_VARIATION_FLOOR_SUPPORTED"
+  },
+  "beta_changes": {
+    "lower_beta": {
+      "stage10a": 0.546280285190501,
+      "stage10ar": 0.5483221710003416,
+      "relative_change": 0.0037377988281759164
+    },
+    "conservative_upper_beta": {
+      "stage10a": 1.1066649081472129,
+      "stage10ar": 1.1065489625401965,
+      "relative_change": 0.00010477029330445593
+    },
+    "medium_upper_beta": {
+      "stage10a": 1.1847028577096979,
+      "stage10ar": 1.184702857709698,
+      "relative_change": 1.8742641117140076e-16
+    },
+    "wide_upper_beta": {
+      "stage10a": 1.2356153734474182,
+      "stage10ar": 1.2342509499575782,
+      "relative_change": 0.001104246126392234
+    }
+  },
+  "top5_coverage": {
+    "stage10a": [
+      0.7398709677419355,
+      0.8898064516129032,
+      0.9398709677419355
+    ],
+    "stage10ar": [
+      0.7398709677419355,
+      0.8898064516129032,
+      0.9398709677419355
+    ]
+  },
+  "selected_normalization_metrics": {
+    "stage10a": {
+      "class_coefficient_of_variation": {
+        "open": 0.16590556922916003,
+        "short": 0.16501196503129748,
+        "mousebite": 0.15692411213377888,
+        "spur": 0.1591031222393172,
+        "spurious_copper": 0.1708047155019382,
+        "pinhole": 0.172782748215177
+      },
+      "mean_class_coefficient_of_variation": 0.16508870539177814,
+      "class_medians": {
+        "open": 1.0212876999822698,
+        "short": 1.0194949988528874,
+        "mousebite": 1.019430119432913,
+        "spur": 1.0190438848053458,
+        "spurious_copper": 1.0133619675194911,
+        "pinhole": 1.0205387536378059
+      },
+      "class_median_spread": 0.007925732462778612,
+      "mean_pairwise_wasserstein": 0.010159006834428995,
+      "mean_pairwise_ks_statistic": 0.04005406479825086
+    },
+    "stage10ar": {
+      "mean_pairwise_class_wasserstein": 0.010733581219660912,
+      "class_median_spread": 0.005572438089227472,
+      "mean_within_class_cv": 0.16626239582212307,
+      "mean_pairwise_ks_statistic": 0.042824090638044134,
+      "class_medians": {
+        "open": 1.0208723124591597,
+        "short": 1.017190099933846,
+        "mousebite": 1.0192278958113339,
+        "spur": 1.021909189230195,
+        "spurious_copper": 1.0170151407844825,
+        "pinhole": 1.02258757887371
+      }
+    }
+  },
+  "local_k5_radius": {
+    "stage10a_mean": 0.11156214967376092,
+    "stage10a_median": 0.10253706284663222,
+    "stage10ar_mean": 0.11263373323402072,
+    "stage10ar_median": 0.10296882298585239
+  }
+}

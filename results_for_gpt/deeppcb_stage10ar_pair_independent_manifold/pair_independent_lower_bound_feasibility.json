@@ -1,0 +1,24 @@
+{
+  "status": "NONZERO_VARIATION_FLOOR_SUPPORTED",
+  "nearest_normalized_q05": 0.5483221710003416,
+  "nearest_normalized_median": 0.7905191702233461,
+  "absolute_d1": {
+    "mean": 0.08765565995576542,
+    "std": 0.042634714681343014,
+    "q05": 0.03705938891509301,
+    "q10": 0.04318078190875139,
+    "q25": 0.05794671224873815,
+    "q50": 0.07781460585863709,
+    "q75": 0.10698790875433484,
+    "q90": 0.14211615874581154,
+    "q95": 0.16920416981355807,
+    "n": 775
+  },
+  "old_lower_beta_historical_only": 0.546280285190501,
+  "selected_new_lower_beta": 0.5483221710003416,
+  "rule": {
+    "supported": "normalized nearest q05 >= 0.10 and median >= 0.25",
+    "weak": "q05 > 0 and median >= 0.10",
+    "none": "otherwise"
+  }
+}

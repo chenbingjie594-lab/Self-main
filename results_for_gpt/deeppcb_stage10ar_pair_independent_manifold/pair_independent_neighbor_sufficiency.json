@@ -1,0 +1,6287 @@
+{
+  "status": "PAIR_INDEPENDENT_K10_SUPPORTED",
+  "requested_k10": true,
+  "effective_max_k": 10,
+  "summary": {
+    "minimum": 38,
+    "q05": 39.0,
+    "median": 41.0,
+    "mean": 41.726451612903226
+  },
+  "per_fold_class": {
+    "fold0_open": {
+      "minimum": 44,
+      "instances": 48
+    },
+    "fold0_short": {
+      "minimum": 44,
+      "instances": 47
+    },
+    "fold0_mousebite": {
+      "minimum": 45,
+      "instances": 47
+    },
+    "fold0_spur": {
+      "minimum": 42,
+      "instances": 45
+    },
+    "fold0_pinhole": {
+      "minimum": 41,
+      "instances": 43
+    },
+    "fold0_spurious_copper": {
+      "minimum": 43,
+      "instances": 46
+    },
+    "fold1_open": {
+      "minimum": 38,
+      "instances": 41
+    },
+    "fold1_short": {
+      "minimum": 40,
+      "instances": 42
+    },
+    "fold1_mousebite": {
+      "minimum": 40,
+      "instances": 42
+    },
+    "fold1_spur": {
+      "minimum": 40,
+      "instances": 42
+    },
+    "fold1_pinhole": {
+      "minimum": 39,
+      "instances": 41
+    },
+    "fold1_spurious_copper": {
+      "minimum": 40,
+      "instances": 42
+    },
+    "fold2_open": {
+      "minimum": 39,
+      "instances": 41
+    },
+    "fold2_short": {
+      "minimum": 38,
+      "instances": 40
+    },
+    "fold2_mousebite": {
+      "minimum": 38,
+      "instances": 40
+    },
+    "fold2_spurious_copper": {
+      "minimum": 39,
+      "instances": 41
+    },
+    "fold2_pinhole": {
+      "minimum": 43,
+      "instances": 45
+    },
+    "fold2_spur": {
+      "minimum": 40,
+      "instances": 42
+    }
+  },
+  "records": [
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041030_open_00",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041030_short_01",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041030_mousebite_02",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041030_mousebite_03",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041030_spur_04",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041030_pinhole_05",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041030_spurious_copper_06",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041030_spur_07",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041030_spurious_copper_08",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041030_pinhole_09",
+      "pair_id": "00041030",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041047_open_00",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041047_short_01",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041047_spur_02",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041047_pinhole_03",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041047_spurious_copper_04",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041047_spurious_copper_05",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041047_mousebite_06",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041047_spur_07",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041047_short_08",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041047_open_09",
+      "pair_id": "00041047",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041085_open_00",
+      "pair_id": "00041085",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041085_short_01",
+      "pair_id": "00041085",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041085_mousebite_02",
+      "pair_id": "00041085",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041085_spurious_copper_03",
+      "pair_id": "00041085",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041085_pinhole_04",
+      "pair_id": "00041085",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041085_spur_05",
+      "pair_id": "00041085",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041095_open_00",
+      "pair_id": "00041095",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041095_short_01",
+      "pair_id": "00041095",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041095_spur_02",
+      "pair_id": "00041095",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041095_pinhole_03",
+      "pair_id": "00041095",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041095_spurious_copper_04",
+      "pair_id": "00041095",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041095_mousebite_05",
+      "pair_id": "00041095",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041125_open_00",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041125_short_01",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041125_mousebite_02",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041125_spurious_copper_03",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041125_pinhole_04",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041125_spur_05",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041125_spurious_copper_06",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041125_mousebite_07",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041125_short_08",
+      "pair_id": "00041125",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "00041180_open_00",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "00041180_short_01",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041180_mousebite_02",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "00041180_mousebite_03",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041180_spurious_copper_04",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "00041180_pinhole_05",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "00041180_spurious_copper_06",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041180_spur_07",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "00041180_spur_08",
+      "pair_id": "00041180",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000003_open_00",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000003_mousebite_01",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000003_spurious_copper_02",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000003_pinhole_03",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000003_spurious_copper_04",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000003_spur_05",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000003_spurious_copper_06",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000003_pinhole_07",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000003_short_08",
+      "pair_id": "13000003",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000008_open_00",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000008_short_01",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000008_short_02",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000008_mousebite_03",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000008_spur_04",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000008_pinhole_05",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000008_spurious_copper_06",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000008_short_07",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000008_spurious_copper_08",
+      "pair_id": "13000008",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000025_open_00",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000025_open_01",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000025_short_02",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000025_short_03",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000025_mousebite_04",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000025_mousebite_05",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000025_spur_06",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000025_spur_07",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000025_spurious_copper_08",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000025_spurious_copper_09",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000025_pinhole_10",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000025_pinhole_11",
+      "pair_id": "13000025",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000029_open_00",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000029_open_01",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000029_short_02",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000029_short_03",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000029_mousebite_04",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000029_mousebite_05",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000029_spur_06",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000029_spur_07",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000029_spurious_copper_08",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000029_spurious_copper_09",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000029_pinhole_10",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000029_pinhole_11",
+      "pair_id": "13000029",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000037_open_00",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000037_open_01",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000037_short_02",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000037_short_03",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000037_mousebite_04",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000037_spur_05",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000037_spur_06",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000037_pinhole_07",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000037_pinhole_08",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000037_spurious_copper_09",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000037_spurious_copper_10",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000037_mousebite_11",
+      "pair_id": "13000037",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "13000197_open_00",
+      "pair_id": "13000197",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "13000197_short_01",
+      "pair_id": "13000197",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "13000197_mousebite_02",
+      "pair_id": "13000197",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "13000197_spur_03",
+      "pair_id": "13000197",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "13000197_spurious_copper_04",
+      "pair_id": "13000197",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "13000197_pinhole_05",
+      "pair_id": "13000197",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085016_open_00",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085016_open_01",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085016_short_02",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085016_mousebite_03",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085016_spur_04",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085016_spurious_copper_05",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085016_pinhole_06",
+      "pair_id": "20085016",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085026_open_00",
+      "pair_id": "20085026",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085026_short_01",
+      "pair_id": "20085026",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085026_mousebite_02",
+      "pair_id": "20085026",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085026_spur_03",
+      "pair_id": "20085026",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085026_spurious_copper_04",
+      "pair_id": "20085026",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085026_pinhole_05",
+      "pair_id": "20085026",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085033_open_00",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085033_open_01",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085033_short_02",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085033_mousebite_03",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085033_spur_04",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085033_spurious_copper_05",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085033_pinhole_06",
+      "pair_id": "20085033",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085071_open_00",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085071_short_01",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085071_mousebite_02",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085071_spurious_copper_03",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085071_pinhole_04",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085071_mousebite_05",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085071_short_06",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085071_spur_07",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085071_spur_08",
+      "pair_id": "20085071",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085145_open_00",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085145_short_01",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085145_mousebite_02",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085145_mousebite_03",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085145_spurious_copper_04",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085145_spur_05",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085145_spur_06",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085145_spurious_copper_07",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085145_pinhole_08",
+      "pair_id": "20085145",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085155_open_00",
+      "pair_id": "20085155",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085155_short_01",
+      "pair_id": "20085155",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085155_mousebite_02",
+      "pair_id": "20085155",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085155_spur_03",
+      "pair_id": "20085155",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085155_spurious_copper_04",
+      "pair_id": "20085155",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085155_pinhole_05",
+      "pair_id": "20085155",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085185_open_00",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085185_open_01",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085185_short_02",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085185_mousebite_03",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085185_spur_04",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085185_spurious_copper_05",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085185_pinhole_06",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085185_mousebite_07",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085185_short_08",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085185_pinhole_09",
+      "pair_id": "20085185",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085201_open_00",
+      "pair_id": "20085201",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085201_short_01",
+      "pair_id": "20085201",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085201_mousebite_02",
+      "pair_id": "20085201",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085201_spur_03",
+      "pair_id": "20085201",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085201_pinhole_04",
+      "pair_id": "20085201",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085201_spurious_copper_05",
+      "pair_id": "20085201",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085221_open_00",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085221_open_01",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085221_open_02",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085221_short_03",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085221_short_04",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085221_mousebite_05",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085221_open_06",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085221_mousebite_07",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085221_spur_08",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085221_spur_09",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085221_spur_10",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085221_spurious_copper_11",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085221_spurious_copper_12",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085221_pinhole_13",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085221_pinhole_14",
+      "pair_id": "20085221",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085225_open_00",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085225_open_01",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "20085225_open_02",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085225_short_03",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085225_short_04",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "20085225_short_05",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085225_mousebite_06",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "20085225_mousebite_07",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085225_spur_08",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "20085225_spur_09",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "20085225_spurious_copper_10",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085225_pinhole_11",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "20085225_pinhole_12",
+      "pair_id": "20085225",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "44000093_open_00",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "44000093_open_01",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "44000093_short_02",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "44000093_short_03",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "44000093_mousebite_04",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "44000093_spur_05",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "44000093_spurious_copper_06",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "44000093_pinhole_07",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "44000093_pinhole_08",
+      "pair_id": "44000093",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "44000110_open_00",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "44000110_open_01",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "44000110_short_02",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "44000110_mousebite_03",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "44000110_spur_04",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "44000110_spurious_copper_05",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "44000110_pinhole_06",
+      "pair_id": "44000110",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "50600028_open_00",
+      "pair_id": "50600028",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "50600028_short_01",
+      "pair_id": "50600028",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "50600028_mousebite_02",
+      "pair_id": "50600028",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "50600028_spurious_copper_03",
+      "pair_id": "50600028",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "50600028_pinhole_04",
+      "pair_id": "50600028",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "50600028_spur_05",
+      "pair_id": "50600028",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "50600032_open_00",
+      "pair_id": "50600032",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "50600032_short_01",
+      "pair_id": "50600032",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "50600032_pinhole_02",
+      "pair_id": "50600032",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "50600032_spurious_copper_03",
+      "pair_id": "50600032",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "50600032_spur_04",
+      "pair_id": "50600032",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "50600032_mousebite_05",
+      "pair_id": "50600032",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "77000019_open_00",
+      "pair_id": "77000019",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "77000019_mousebite_01",
+      "pair_id": "77000019",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "77000019_pinhole_02",
+      "pair_id": "77000019",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "77000019_spurious_copper_03",
+      "pair_id": "77000019",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "77000019_spur_04",
+      "pair_id": "77000019",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "77000019_short_05",
+      "pair_id": "77000019",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "77000020_mousebite_00",
+      "pair_id": "77000020",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "77000020_spurious_copper_01",
+      "pair_id": "77000020",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "77000020_pinhole_02",
+      "pair_id": "77000020",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "77000020_spur_03",
+      "pair_id": "77000020",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "77000020_short_04",
+      "pair_id": "77000020",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "77000020_open_05",
+      "pair_id": "77000020",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "77000044_open_00",
+      "pair_id": "77000044",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "77000044_short_01",
+      "pair_id": "77000044",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "77000044_mousebite_02",
+      "pair_id": "77000044",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "77000044_spur_03",
+      "pair_id": "77000044",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "77000044_spurious_copper_04",
+      "pair_id": "77000044",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "77000044_pinhole_05",
+      "pair_id": "77000044",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "77000082_open_00",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "77000082_mousebite_01",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "77000082_spurious_copper_02",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "77000082_pinhole_03",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "77000082_mousebite_04",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "77000082_short_05",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "77000082_spur_06",
+      "pair_id": "77000082",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "92000044_open_00",
+      "pair_id": "92000044",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "92000044_short_01",
+      "pair_id": "92000044",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "92000044_mousebite_02",
+      "pair_id": "92000044",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "92000044_pinhole_03",
+      "pair_id": "92000044",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "92000044_spurious_copper_04",
+      "pair_id": "92000044",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "92000044_spur_05",
+      "pair_id": "92000044",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "92000060_open_00",
+      "pair_id": "92000060",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "92000060_short_01",
+      "pair_id": "92000060",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "92000060_mousebite_02",
+      "pair_id": "92000060",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "92000060_spur_03",
+      "pair_id": "92000060",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "92000060_pinhole_04",
+      "pair_id": "92000060",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "92000060_spurious_copper_05",
+      "pair_id": "92000060",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "92000073_open_00",
+      "pair_id": "92000073",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "92000073_short_01",
+      "pair_id": "92000073",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "92000073_mousebite_02",
+      "pair_id": "92000073",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "92000073_spur_03",
+      "pair_id": "92000073",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "92000073_pinhole_04",
+      "pair_id": "92000073",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "92000073_spurious_copper_05",
+      "pair_id": "92000073",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "open",
+      "instance_id": "92000077_open_00",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 47,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "short",
+      "instance_id": "92000077_short_01",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 46,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "92000077_mousebite_02",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spur",
+      "instance_id": "92000077_spur_03",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "pinhole",
+      "instance_id": "92000077_pinhole_04",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 42,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "spurious_copper",
+      "instance_id": "92000077_spurious_copper_05",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 0,
+      "class_name": "mousebite",
+      "instance_id": "92000077_mousebite_06",
+      "pair_id": "92000077",
+      "candidate_neighbor_count": 45,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041039_open_00",
+      "pair_id": "00041039",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041039_short_01",
+      "pair_id": "00041039",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041039_mousebite_02",
+      "pair_id": "00041039",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041039_spur_03",
+      "pair_id": "00041039",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041039_pinhole_04",
+      "pair_id": "00041039",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041039_spurious_copper_05",
+      "pair_id": "00041039",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041043_open_00",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041043_short_01",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041043_mousebite_02",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041043_pinhole_03",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041043_spurious_copper_04",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041043_spurious_copper_05",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041043_spur_06",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041043_short_07",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041043_mousebite_08",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041043_open_09",
+      "pair_id": "00041043",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041046_open_00",
+      "pair_id": "00041046",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041046_mousebite_01",
+      "pair_id": "00041046",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041046_short_02",
+      "pair_id": "00041046",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041046_spur_03",
+      "pair_id": "00041046",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041046_spurious_copper_04",
+      "pair_id": "00041046",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041046_pinhole_05",
+      "pair_id": "00041046",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041079_open_00",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041079_short_01",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041079_spur_02",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041079_spurious_copper_03",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041079_pinhole_04",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041079_spurious_copper_05",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041079_mousebite_06",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041079_mousebite_07",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041079_spur_08",
+      "pair_id": "00041079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041089_open_00",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041089_short_01",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041089_mousebite_02",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041089_spurious_copper_03",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041089_pinhole_04",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041089_short_05",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041089_spur_06",
+      "pair_id": "00041089",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041150_open_00",
+      "pair_id": "00041150",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041150_short_01",
+      "pair_id": "00041150",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041150_mousebite_02",
+      "pair_id": "00041150",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041150_spur_03",
+      "pair_id": "00041150",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041150_pinhole_04",
+      "pair_id": "00041150",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041150_spurious_copper_05",
+      "pair_id": "00041150",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "00041169_open_00",
+      "pair_id": "00041169",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "00041169_short_01",
+      "pair_id": "00041169",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "00041169_mousebite_02",
+      "pair_id": "00041169",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "00041169_spur_03",
+      "pair_id": "00041169",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "00041169_spurious_copper_04",
+      "pair_id": "00041169",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "00041169_pinhole_05",
+      "pair_id": "00041169",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000019_open_00",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000019_open_01",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000019_open_02",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000019_short_03",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000019_short_04",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000019_mousebite_05",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000019_mousebite_06",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000019_spur_07",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000019_spur_08",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000019_spurious_copper_09",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000019_spurious_copper_10",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000019_pinhole_11",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000019_pinhole_12",
+      "pair_id": "13000019",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000022_open_00",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000022_open_01",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000022_short_02",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000022_short_03",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000022_mousebite_04",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000022_mousebite_05",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000022_spur_06",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000022_spur_07",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000022_spurious_copper_08",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000022_spurious_copper_09",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000022_pinhole_10",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000022_pinhole_11",
+      "pair_id": "13000022",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000027_open_00",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000027_open_01",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000027_short_02",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000027_short_03",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000027_mousebite_04",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000027_mousebite_05",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000027_spur_06",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000027_spur_07",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000027_spurious_copper_08",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000027_spurious_copper_09",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000027_pinhole_10",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000027_pinhole_11",
+      "pair_id": "13000027",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000028_open_00",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000028_open_01",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000028_short_02",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000028_short_03",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000028_mousebite_04",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000028_mousebite_05",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000028_spur_06",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000028_spur_07",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000028_spurious_copper_08",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000028_spurious_copper_09",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000028_pinhole_10",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000028_pinhole_11",
+      "pair_id": "13000028",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000030_open_00",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000030_open_01",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000030_short_02",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000030_short_03",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000030_mousebite_04",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000030_mousebite_05",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000030_spurious_copper_06",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000030_spurious_copper_07",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000030_pinhole_08",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000030_pinhole_09",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000030_spur_10",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000030_spur_11",
+      "pair_id": "13000030",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000097_open_00",
+      "pair_id": "13000097",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000097_short_01",
+      "pair_id": "13000097",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000097_mousebite_02",
+      "pair_id": "13000097",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000097_spur_03",
+      "pair_id": "13000097",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000097_spurious_copper_04",
+      "pair_id": "13000097",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000097_pinhole_05",
+      "pair_id": "13000097",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000110_open_00",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000110_mousebite_01",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000110_spur_02",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000110_spurious_copper_03",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000110_pinhole_04",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000110_pinhole_05",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000110_short_06",
+      "pair_id": "13000110",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "13000126_open_00",
+      "pair_id": "13000126",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "13000126_short_01",
+      "pair_id": "13000126",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "13000126_spur_02",
+      "pair_id": "13000126",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "13000126_spurious_copper_03",
+      "pair_id": "13000126",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "13000126_pinhole_04",
+      "pair_id": "13000126",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "13000126_mousebite_05",
+      "pair_id": "13000126",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085027_open_00",
+      "pair_id": "20085027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085027_short_01",
+      "pair_id": "20085027",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085027_mousebite_02",
+      "pair_id": "20085027",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085027_spur_03",
+      "pair_id": "20085027",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085027_spurious_copper_04",
+      "pair_id": "20085027",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085027_pinhole_05",
+      "pair_id": "20085027",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085051_open_00",
+      "pair_id": "20085051",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085051_short_01",
+      "pair_id": "20085051",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085051_mousebite_02",
+      "pair_id": "20085051",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085051_spur_03",
+      "pair_id": "20085051",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085051_pinhole_04",
+      "pair_id": "20085051",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085051_spurious_copper_05",
+      "pair_id": "20085051",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085062_open_00",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085062_short_01",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085062_mousebite_02",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085062_spur_03",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085062_pinhole_04",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085062_spurious_copper_05",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085062_pinhole_06",
+      "pair_id": "20085062",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085090_open_00",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085090_short_01",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085090_mousebite_02",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085090_spur_03",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085090_spurious_copper_04",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085090_pinhole_05",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085090_spurious_copper_06",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085090_spur_07",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085090_mousebite_08",
+      "pair_id": "20085090",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085107_open_00",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085107_short_01",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085107_spur_02",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085107_pinhole_03",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085107_spurious_copper_04",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085107_spur_05",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085107_spurious_copper_06",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085107_pinhole_07",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085107_mousebite_08",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085107_mousebite_09",
+      "pair_id": "20085107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085143_open_00",
+      "pair_id": "20085143",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085143_short_01",
+      "pair_id": "20085143",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085143_spur_02",
+      "pair_id": "20085143",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085143_mousebite_03",
+      "pair_id": "20085143",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085143_spurious_copper_04",
+      "pair_id": "20085143",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085143_pinhole_05",
+      "pair_id": "20085143",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085183_open_00",
+      "pair_id": "20085183",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085183_short_01",
+      "pair_id": "20085183",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085183_mousebite_02",
+      "pair_id": "20085183",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085183_spur_03",
+      "pair_id": "20085183",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085183_pinhole_04",
+      "pair_id": "20085183",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085183_spurious_copper_05",
+      "pair_id": "20085183",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085238_open_00",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "20085238_open_01",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085238_short_02",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "20085238_short_03",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "20085238_mousebite_04",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085238_spur_05",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "20085238_spur_06",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "20085238_spurious_copper_07",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "20085238_pinhole_08",
+      "pair_id": "20085238",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "44000062_open_00",
+      "pair_id": "44000062",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "44000062_short_01",
+      "pair_id": "44000062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "44000062_spur_02",
+      "pair_id": "44000062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "44000062_spurious_copper_03",
+      "pair_id": "44000062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "44000062_pinhole_04",
+      "pair_id": "44000062",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "44000062_mousebite_05",
+      "pair_id": "44000062",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "44000096_open_00",
+      "pair_id": "44000096",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "44000096_short_01",
+      "pair_id": "44000096",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "44000096_mousebite_02",
+      "pair_id": "44000096",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "44000096_spur_03",
+      "pair_id": "44000096",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "44000096_spurious_copper_04",
+      "pair_id": "44000096",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "44000096_pinhole_05",
+      "pair_id": "44000096",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "50600015_open_00",
+      "pair_id": "50600015",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "50600015_short_01",
+      "pair_id": "50600015",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "50600015_mousebite_02",
+      "pair_id": "50600015",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "50600015_spur_03",
+      "pair_id": "50600015",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "50600015_spurious_copper_04",
+      "pair_id": "50600015",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "50600015_pinhole_05",
+      "pair_id": "50600015",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "50600049_open_00",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "50600049_short_01",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "50600049_spur_02",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "50600049_pinhole_03",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "50600049_spurious_copper_04",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "50600049_short_05",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "50600049_mousebite_06",
+      "pair_id": "50600049",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "77000076_open_00",
+      "pair_id": "77000076",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "77000076_short_01",
+      "pair_id": "77000076",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "77000076_mousebite_02",
+      "pair_id": "77000076",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "77000076_spur_03",
+      "pair_id": "77000076",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "77000076_spurious_copper_04",
+      "pair_id": "77000076",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "77000076_pinhole_05",
+      "pair_id": "77000076",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "77000081_mousebite_00",
+      "pair_id": "77000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "77000081_spur_01",
+      "pair_id": "77000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "77000081_spurious_copper_02",
+      "pair_id": "77000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "77000081_pinhole_03",
+      "pair_id": "77000081",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "77000081_open_04",
+      "pair_id": "77000081",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "77000081_short_05",
+      "pair_id": "77000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "77000083_open_00",
+      "pair_id": "77000083",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "77000083_mousebite_01",
+      "pair_id": "77000083",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "77000083_spurious_copper_02",
+      "pair_id": "77000083",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "77000083_pinhole_03",
+      "pair_id": "77000083",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "77000083_short_04",
+      "pair_id": "77000083",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "77000083_spur_05",
+      "pair_id": "77000083",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "77000095_open_00",
+      "pair_id": "77000095",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "77000095_short_01",
+      "pair_id": "77000095",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "77000095_mousebite_02",
+      "pair_id": "77000095",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "77000095_spur_03",
+      "pair_id": "77000095",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "77000095_pinhole_04",
+      "pair_id": "77000095",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "77000095_spurious_copper_05",
+      "pair_id": "77000095",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "92000008_open_00",
+      "pair_id": "92000008",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "92000008_short_01",
+      "pair_id": "92000008",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "92000008_mousebite_02",
+      "pair_id": "92000008",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "92000008_spur_03",
+      "pair_id": "92000008",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "92000008_pinhole_04",
+      "pair_id": "92000008",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "92000008_spurious_copper_05",
+      "pair_id": "92000008",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "open",
+      "instance_id": "92000081_open_00",
+      "pair_id": "92000081",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "short",
+      "instance_id": "92000081_short_01",
+      "pair_id": "92000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "mousebite",
+      "instance_id": "92000081_mousebite_02",
+      "pair_id": "92000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spur",
+      "instance_id": "92000081_spur_03",
+      "pair_id": "92000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "spurious_copper",
+      "instance_id": "92000081_spurious_copper_04",
+      "pair_id": "92000081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 1,
+      "class_name": "pinhole",
+      "instance_id": "92000081_pinhole_05",
+      "pair_id": "92000081",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041057_open_00",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041057_short_01",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041057_mousebite_02",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041057_spurious_copper_03",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041057_pinhole_04",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041057_spur_05",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041057_short_06",
+      "pair_id": "00041057",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041068_open_00",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041068_short_01",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041068_spur_02",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041068_spurious_copper_03",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041068_pinhole_04",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041068_mousebite_05",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041068_open_06",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041068_pinhole_07",
+      "pair_id": "00041068",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041081_open_00",
+      "pair_id": "00041081",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041081_short_01",
+      "pair_id": "00041081",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041081_mousebite_02",
+      "pair_id": "00041081",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041081_spur_03",
+      "pair_id": "00041081",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041081_pinhole_04",
+      "pair_id": "00041081",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041081_spurious_copper_05",
+      "pair_id": "00041081",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041114_open_00",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041114_short_01",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041114_spur_02",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041114_pinhole_03",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041114_spurious_copper_04",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041114_mousebite_05",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041114_spurious_copper_06",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041114_short_07",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041114_mousebite_08",
+      "pair_id": "00041114",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041133_open_00",
+      "pair_id": "00041133",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041133_short_01",
+      "pair_id": "00041133",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041133_mousebite_02",
+      "pair_id": "00041133",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041133_spur_03",
+      "pair_id": "00041133",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041133_spurious_copper_04",
+      "pair_id": "00041133",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041133_pinhole_05",
+      "pair_id": "00041133",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041142_open_00",
+      "pair_id": "00041142",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041142_mousebite_01",
+      "pair_id": "00041142",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041142_spur_02",
+      "pair_id": "00041142",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041142_pinhole_03",
+      "pair_id": "00041142",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041142_spurious_copper_04",
+      "pair_id": "00041142",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041142_short_05",
+      "pair_id": "00041142",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041181_open_00",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041181_spur_01",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041181_pinhole_02",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041181_spurious_copper_03",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041181_mousebite_04",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041181_short_05",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041181_spur_06",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041181_pinhole_07",
+      "pair_id": "00041181",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "00041190_open_00",
+      "pair_id": "00041190",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "00041190_short_01",
+      "pair_id": "00041190",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "00041190_mousebite_02",
+      "pair_id": "00041190",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "00041190_spur_03",
+      "pair_id": "00041190",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "00041190_spurious_copper_04",
+      "pair_id": "00041190",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "00041190_pinhole_05",
+      "pair_id": "00041190",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000009_open_00",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000009_mousebite_01",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000009_spurious_copper_02",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000009_pinhole_03",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000009_open_04",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000009_spurious_copper_05",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000009_spur_06",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000009_pinhole_07",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000009_short_08",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000009_spur_09",
+      "pair_id": "13000009",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000017_open_00",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000017_open_01",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000017_short_02",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000017_mousebite_03",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000017_mousebite_04",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000017_spur_05",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000017_spur_06",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000017_spurious_copper_07",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000017_spurious_copper_08",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000017_pinhole_09",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000017_pinhole_10",
+      "pair_id": "13000017",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000023_open_00",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000023_open_01",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000023_short_02",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000023_short_03",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000023_mousebite_04",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000023_mousebite_05",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000023_spur_06",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000023_spur_07",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000023_spurious_copper_08",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000023_spurious_copper_09",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000023_pinhole_10",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000023_pinhole_11",
+      "pair_id": "13000023",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000024_open_00",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000024_open_01",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000024_short_02",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000024_short_03",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000024_mousebite_04",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000024_mousebite_05",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000024_spurious_copper_06",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000024_spurious_copper_07",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000024_pinhole_08",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000024_pinhole_09",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000024_spur_10",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000024_spur_11",
+      "pair_id": "13000024",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000026_open_00",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000026_open_01",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000026_short_02",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000026_short_03",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000026_mousebite_04",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000026_mousebite_05",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000026_spur_06",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000026_spur_07",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000026_spurious_copper_08",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000026_spurious_copper_09",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000026_pinhole_10",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000026_pinhole_11",
+      "pair_id": "13000026",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000031_open_00",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000031_short_01",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000031_mousebite_02",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000031_spur_03",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000031_spur_04",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000031_spurious_copper_05",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000031_spurious_copper_06",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000031_pinhole_07",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000031_pinhole_08",
+      "pair_id": "13000031",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000079_open_00",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000079_short_01",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000079_spur_02",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000079_spurious_copper_03",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000079_pinhole_04",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000079_mousebite_05",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000079_pinhole_06",
+      "pair_id": "13000079",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000102_open_00",
+      "pair_id": "13000102",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000102_short_01",
+      "pair_id": "13000102",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000102_spur_02",
+      "pair_id": "13000102",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000102_mousebite_03",
+      "pair_id": "13000102",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000102_spurious_copper_04",
+      "pair_id": "13000102",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000102_pinhole_05",
+      "pair_id": "13000102",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000118_open_00",
+      "pair_id": "13000118",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000118_short_01",
+      "pair_id": "13000118",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000118_mousebite_02",
+      "pair_id": "13000118",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000118_spur_03",
+      "pair_id": "13000118",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000118_spurious_copper_04",
+      "pair_id": "13000118",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000118_pinhole_05",
+      "pair_id": "13000118",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "13000174_open_00",
+      "pair_id": "13000174",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "13000174_short_01",
+      "pair_id": "13000174",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "13000174_pinhole_02",
+      "pair_id": "13000174",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "13000174_spurious_copper_03",
+      "pair_id": "13000174",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "13000174_spur_04",
+      "pair_id": "13000174",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "13000174_mousebite_05",
+      "pair_id": "13000174",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "20085014_open_00",
+      "pair_id": "20085014",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "20085014_short_01",
+      "pair_id": "20085014",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "20085014_mousebite_02",
+      "pair_id": "20085014",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "20085014_spur_03",
+      "pair_id": "20085014",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "20085014_spurious_copper_04",
+      "pair_id": "20085014",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "20085014_pinhole_05",
+      "pair_id": "20085014",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "20085020_open_00",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "20085020_short_01",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "20085020_short_02",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "20085020_mousebite_03",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "20085020_spur_04",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "20085020_spurious_copper_05",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "20085020_pinhole_06",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "20085020_pinhole_07",
+      "pair_id": "20085020",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "20085103_open_00",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "20085103_short_01",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "20085103_mousebite_02",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "20085103_spur_03",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "20085103_spurious_copper_04",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "20085103_pinhole_05",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "20085103_spurious_copper_06",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "20085103_spur_07",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "20085103_mousebite_08",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "20085103_open_09",
+      "pair_id": "20085103",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "20085203_open_00",
+      "pair_id": "20085203",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "20085203_short_01",
+      "pair_id": "20085203",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "20085203_mousebite_02",
+      "pair_id": "20085203",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "20085203_spur_03",
+      "pair_id": "20085203",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "20085203_spurious_copper_04",
+      "pair_id": "20085203",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "20085203_pinhole_05",
+      "pair_id": "20085203",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "20085217_open_00",
+      "pair_id": "20085217",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "20085217_short_01",
+      "pair_id": "20085217",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "20085217_mousebite_02",
+      "pair_id": "20085217",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "20085217_spur_03",
+      "pair_id": "20085217",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "20085217_spurious_copper_04",
+      "pair_id": "20085217",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "20085217_pinhole_05",
+      "pair_id": "20085217",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "44000068_open_00",
+      "pair_id": "44000068",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "44000068_short_01",
+      "pair_id": "44000068",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "44000068_mousebite_02",
+      "pair_id": "44000068",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "44000068_spur_03",
+      "pair_id": "44000068",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "44000068_spurious_copper_04",
+      "pair_id": "44000068",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "44000068_pinhole_05",
+      "pair_id": "44000068",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "44000086_open_00",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "44000086_short_01",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "44000086_spur_02",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "44000086_mousebite_03",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "44000086_mousebite_04",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "44000086_spurious_copper_05",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "44000086_pinhole_06",
+      "pair_id": "44000086",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "44000092_open_00",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "44000092_open_01",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "44000092_short_02",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "44000092_short_03",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 38,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "44000092_mousebite_04",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "44000092_spur_05",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "44000092_spur_06",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "44000092_spurious_copper_07",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "44000092_pinhole_08",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "44000092_pinhole_09",
+      "pair_id": "44000092",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "44000104_open_00",
+      "pair_id": "44000104",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "44000104_short_01",
+      "pair_id": "44000104",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "44000104_mousebite_02",
+      "pair_id": "44000104",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "44000104_spurious_copper_03",
+      "pair_id": "44000104",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "44000104_spur_04",
+      "pair_id": "44000104",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "44000104_pinhole_05",
+      "pair_id": "44000104",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "44000107_open_00",
+      "pair_id": "44000107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "44000107_short_01",
+      "pair_id": "44000107",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "44000107_mousebite_02",
+      "pair_id": "44000107",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "44000107_spur_03",
+      "pair_id": "44000107",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "44000107_spurious_copper_04",
+      "pair_id": "44000107",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "44000107_pinhole_05",
+      "pair_id": "44000107",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "50600001_open_00",
+      "pair_id": "50600001",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "50600001_short_01",
+      "pair_id": "50600001",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "50600001_pinhole_02",
+      "pair_id": "50600001",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "50600001_spur_03",
+      "pair_id": "50600001",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "50600001_spurious_copper_04",
+      "pair_id": "50600001",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "50600001_mousebite_05",
+      "pair_id": "50600001",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "50600021_open_00",
+      "pair_id": "50600021",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "50600021_short_01",
+      "pair_id": "50600021",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "50600021_mousebite_02",
+      "pair_id": "50600021",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "50600021_spur_03",
+      "pair_id": "50600021",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "50600021_spurious_copper_04",
+      "pair_id": "50600021",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "50600021_pinhole_05",
+      "pair_id": "50600021",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "50600024_open_00",
+      "pair_id": "50600024",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "50600024_short_01",
+      "pair_id": "50600024",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "50600024_mousebite_02",
+      "pair_id": "50600024",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "50600024_spurious_copper_03",
+      "pair_id": "50600024",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "50600024_pinhole_04",
+      "pair_id": "50600024",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "50600024_spur_05",
+      "pair_id": "50600024",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "77000008_open_00",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "77000008_short_01",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "77000008_mousebite_02",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "77000008_spurious_copper_03",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "77000008_pinhole_04",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "77000008_spur_05",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "77000008_pinhole_06",
+      "pair_id": "77000008",
+      "candidate_neighbor_count": 43,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "open",
+      "instance_id": "92000006_open_00",
+      "pair_id": "92000006",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "mousebite",
+      "instance_id": "92000006_mousebite_01",
+      "pair_id": "92000006",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spurious_copper",
+      "instance_id": "92000006_spurious_copper_02",
+      "pair_id": "92000006",
+      "candidate_neighbor_count": 40,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "pinhole",
+      "instance_id": "92000006_pinhole_03",
+      "pair_id": "92000006",
+      "candidate_neighbor_count": 44,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "spur",
+      "instance_id": "92000006_spur_04",
+      "pair_id": "92000006",
+      "candidate_neighbor_count": 41,
+      "k10_available": true
+    },
+    {
+      "fold": 2,
+      "class_name": "short",
+      "instance_id": "92000006_short_05",
+      "pair_id": "92000006",
+      "candidate_neighbor_count": 39,
+      "k10_available": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "selection": "instance-adaptive",
+  "selection_rule": "Choose global if its mean pairwise class Wasserstein is within 10% of the best; otherwise class-adaptive if within 10% of instance-adaptive; otherwise instance-adaptive",
+  "global_radius_median_k5": 0.10296882298585239,
+  "class_radius_median_k5": {
+    "open": 0.09244724283098446,
+    "short": 0.1031089360105905,
+    "mousebite": 0.10662464907526119,
+    "spur": 0.10349755271812962,
+    "spurious_copper": 0.0994287574723702,
+    "pinhole": 0.10718252520982571
+  },
+  "metrics": {
+    "global": {
+      "mean_pairwise_class_wasserstein": 0.08804372193328987,
+      "class_median_spread": 0.19955750735286726,
+      "mean_within_class_cv": 0.4794960517880551,
+      "mean_pairwise_ks_statistic": 0.10508686145895448,
+      "class_medians": {
+        "open": 0.8666111517507957,
+        "short": 1.0017495287563876,
+        "mousebite": 1.066168659103663,
+        "spur": 1.0067239982867082,
+        "spurious_copper": 0.9463315692497255,
+        "pinhole": 1.0460291723512012
+      }
+    },
+    "class-adaptive": {
+      "mean_pairwise_class_wasserstein": 0.06651984280418663,
+      "class_median_spread": 0.06437140519552731,
+      "mean_within_class_cv": 0.47949605178805493,
+      "mean_pairwise_ks_statistic": 0.06821307891075336,
+      "class_medians": {
+        "open": 0.9652416616181207,
+        "short": 1.0003882679196971,
+        "mousebite": 1.029613066813648,
+        "spur": 1.0015810273070866,
+        "spurious_copper": 0.9800247968207466,
+        "pinhole": 1.004906279965072
+      }
+    },
+    "instance-adaptive": {
+      "mean_pairwise_class_wasserstein": 0.010733581219660912,
+      "class_median_spread": 0.005572438089227472,
+      "mean_within_class_cv": 0.16626239582212307,
+      "mean_pairwise_ks_statistic": 0.042824090638044134,
+      "class_medians": {
+        "open": 1.0208723124591597,
+        "short": 1.017190099933846,
+        "mousebite": 1.0192278958113339,
+        "spur": 1.021909189230195,
+        "spurious_copper": 1.0170151407844825,
+        "pinhole": 1.02258757887371
+      }
+    }
+  },
+  "real_manifold_unstable": false
+}
