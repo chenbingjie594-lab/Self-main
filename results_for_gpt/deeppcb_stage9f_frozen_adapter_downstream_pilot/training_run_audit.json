@@ -1,0 +1,107 @@
+{
+  "real_only": {
+    "epochs": 150,
+    "audited_batches": 4950,
+    "expected_batches": 4950,
+    "successful_optimizer_updates_amp": 628,
+    "last_checkpoint_sha256": "7b489308926faf9fe46a9b0ed4783c606a0567e11f2ffa01ebb9ff44a48c2060",
+    "best_checkpoint_sha256": "cf8da0e388bcaf2dab713bf723b1f0b12457066d55d77c62f66865edd2cd6488",
+    "config": {
+      "epochs": 150,
+      "deterministic": true,
+      "copy_paste": 0.0,
+      "optimizer": "auto",
+      "patience": 151,
+      "mosaic": 0.0,
+      "batch": 8,
+      "imgsz": 512,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "seed": 42
+    }
+  },
+  "real_repeat80": {
+    "epochs": 150,
+    "audited_batches": 6450,
+    "expected_batches": 6450,
+    "successful_optimizer_updates_amp": 820,
+    "last_checkpoint_sha256": "1f8d60b77c147a0d91bc9a1611f738b61c0d8b074871d2b6f257aad6f4ab463e",
+    "best_checkpoint_sha256": "9e5e153e32297355366a2cb522c8e26b9a46bbbab65bfbf69d8dd5bc8c17ca8d",
+    "config": {
+      "epochs": 150,
+      "deterministic": true,
+      "copy_paste": 0.0,
+      "optimizer": "auto",
+      "patience": 151,
+      "mosaic": 0.0,
+      "batch": 8,
+      "imgsz": 512,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "seed": 42
+    }
+  },
+  "pretrained_noadapt_syn80": {
+    "epochs": 150,
+    "audited_batches": 6450,
+    "expected_batches": 6450,
+    "successful_optimizer_updates_amp": 820,
+    "last_checkpoint_sha256": "3a9fd23d4aa1501e8c8e8b72b07329800b566e135a48ad0d6891f7425d951bef",
+    "best_checkpoint_sha256": "58dc5680cbaf39c685a23f89ce3a46c80a9722dce44b34178c28128c107ba622",
+    "config": {
+      "epochs": 150,
+      "deterministic": true,
+      "copy_paste": 0.0,
+      "optimizer": "auto",
+      "patience": 151,
+      "mosaic": 0.0,
+      "batch": 8,
+      "imgsz": 512,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "seed": 42
+    }
+  },
+  "finetuned_sd2_syn80": {
+    "epochs": 150,
+    "audited_batches": 6450,
+    "expected_batches": 6450,
+    "successful_optimizer_updates_amp": 821,
+    "last_checkpoint_sha256": "b38967ce811d8eee59fc13f4c8ea39eb701f228df2994956c69d329470f06099",
+    "best_checkpoint_sha256": "942d7f3df19d859dd58fa2c8e4391a91d2036103a2d4e9f9b89dfce6424dde91",
+    "config": {
+      "epochs": 150,
+      "deterministic": true,
+      "copy_paste": 0.0,
+      "optimizer": "auto",
+      "patience": 151,
+      "mosaic": 0.0,
+      "batch": 8,
+      "imgsz": 512,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "seed": 42
+    }
+  },
+  "frozen_adapter_syn80": {
+    "epochs": 150,
+    "audited_batches": 6450,
+    "expected_batches": 6450,
+    "successful_optimizer_updates_amp": 821,
+    "last_checkpoint_sha256": "b3b933eee4da94c67abb7760bef8f59b4333a9989f5451a0e628c1fd42c56f02",
+    "best_checkpoint_sha256": "fb758732ca11df34c7d0f34e973b409996ace1e79f7b15e2db41b7e4b7080508",
+    "config": {
+      "epochs": 150,
+      "deterministic": true,
+      "copy_paste": 0.0,
+      "optimizer": "auto",
+      "patience": 151,
+      "mosaic": 0.0,
+      "batch": 8,
+      "imgsz": 512,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "seed": 42
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "synthetic_content_gain": {
+    "pretrained_noadapt_syn80": {
+      "map50_95": -0.020340877009257796,
+      "target2_map50_95": -0.043405445236537665
+    },
+    "finetuned_sd2_syn80": {
+      "map50_95": -0.00019312327678744357,
+      "target2_map50_95": -0.00617374542169391
+    },
+    "frozen_adapter_syn80": {
+      "map50_95": -0.019381217049173727,
+      "target2_map50_95": -0.026736890860530105
+    }
+  },
+  "fidelity_vs_variation": {
+    "map50_95": -0.019188093772386283,
+    "target2_map50_95": -0.020563145438836195
+  },
+  "semantic_adaptation_necessity": {
+    "map50_95": 0.0009596599600840694,
+    "target2_map50_95": 0.01666855437600756
+  },
+  "single_seed_diagnostic_only": true
+}

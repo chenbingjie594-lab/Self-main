@@ -1,0 +1,18 @@
+{
+  "preregistered": true,
+  "definition": "mean(short AP50-95, pinhole AP50-95)",
+  "primary": {
+    "real_only": 0.6873652877392826,
+    "real_repeat80": 0.6975548700294603,
+    "pretrained_noadapt_syn80": 0.6541494247929226,
+    "finetuned_sd2_syn80": 0.6913811246077664,
+    "frozen_adapter_syn80": 0.6708179791689302
+  },
+  "secondary_best": {
+    "real_only": 0.6961982125878363,
+    "real_repeat80": 0.7121486545510127,
+    "pretrained_noadapt_syn80": 0.6954701291026655,
+    "finetuned_sd2_syn80": 0.7073757417492588,
+    "frozen_adapter_syn80": 0.6953674277328183
+  }
+}

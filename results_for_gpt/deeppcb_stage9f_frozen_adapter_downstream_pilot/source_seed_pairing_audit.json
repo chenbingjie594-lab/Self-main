@@ -1,0 +1,15 @@
+{
+  "same_80_source_seed_keys_across_synthetic_arms": true,
+  "real_repeat_same_sources": true,
+  "unique_sources": 80,
+  "class_counts": {
+    "short": 40,
+    "pinhole": 40
+  },
+  "seed_counts": {
+    "2026": 37,
+    "42": 14,
+    "3407": 29
+  },
+  "separate_sampling": false
+}

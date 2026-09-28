@@ -1,0 +1,20 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage9f_frozen_adapter_downstream_pilot
+mkdir -p results_for_gpt/deeppcb_stage9f_frozen_adapter_downstream_pilot
+
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage9f.py \
+  --protocol configs/deeppcb_stage9f.json \
+  --stage9e_manifest results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/source_seed_manifest.json \
+  --stage9er_status results_for_gpt/deeppcb_stage9er_feature_protocol_correction/stage9er_status.json \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --repo_root /mnt/sda/cbj/ImageGeneration/Self-main \
+  --model pretrained/yolo11s.pt \
+  --reference_run runs/deeppcb_stage7c_sd2_vs_msdf_downstream/sd2_s42 \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage9f_frozen_adapter_downstream_s42 \
+  --runs runs/deeppcb_stage9f_frozen_adapter_downstream_pilot \
+  --output results_for_gpt/deeppcb_stage9f_frozen_adapter_downstream_pilot \
+  --device 0 \
+  > logs/deeppcb_stage9f_frozen_adapter_downstream_pilot/pilot.log 2>&1 &
+
+echo $! > logs/deeppcb_stage9f_frozen_adapter_downstream_pilot/pilot.pid

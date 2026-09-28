@@ -1,0 +1,17 @@
+{
+  "status": "HIGH_FIDELITY_SD2_BETTER",
+  "secondary_interpretation": "SYNTHETIC_GAIN_NOT_SUPPORTED_VS_REAL_REPEAT80",
+  "seed": 42,
+  "primary_checkpoint": "epoch150 last.pt",
+  "obvious_overall_collapse": false,
+  "additional_three_seed_confirmation_authorized": false,
+  "single_seed_diagnostic_only": true,
+  "fine_tuned_sd2_minus_frozen_adapter_overall_pp": 1.9188093772386283,
+  "fine_tuned_sd2_minus_frozen_adapter_target2_pp": 2.0563145438836195,
+  "fine_tuned_sd2_minus_real_repeat80_overall_pp": -0.019312327678744357,
+  "fine_tuned_sd2_minus_real_repeat80_target2_pp": -0.617374542169391,
+  "historical_stage9e_gate_modified": false,
+  "generator_training_count": 0,
+  "selection_metric_use_count": 0,
+  "official_validation_role": "detector evaluation only"
+}
