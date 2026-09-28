@@ -1,0 +1,11 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage10a_real_manifold_calibration
+mkdir -p results_for_gpt/deeppcb_stage10a_real_manifold_calibration
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/calibrate_deeppcb_stage10a.py \
+  --protocol configs/deeppcb_stage10a.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --lowdata results_for_gpt/bootstrap_guard_deeppcb_lowdata_audit/lowdata_split_manifest.json \
+  --output results_for_gpt/deeppcb_stage10a_real_manifold_calibration \
+  > logs/deeppcb_stage10a_real_manifold_calibration/calibration.log 2>&1

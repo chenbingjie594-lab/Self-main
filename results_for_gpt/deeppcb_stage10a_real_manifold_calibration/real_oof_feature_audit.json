@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "feature_source": "corrected Stage3R OOF holdout banks only",
+  "instances": 775,
+  "physical_pairs": 100,
+  "classes": {
+    "open": 130,
+    "short": 129,
+    "mousebite": 129,
+    "spur": 129,
+    "pinhole": 129,
+    "spurious_copper": 129
+  },
+  "pair_single_holdout_fold": true,
+  "every_record_from_holdout_pair": true,
+  "no_pair_in_own_teacher_train_set": true,
+  "no_self_trained_teacher": true,
+  "official_validation_use_count": 0,
+  "synthetic_use_count": 0,
+  "downstream_metric_use_count": 0,
+  "fold_split_unit": "physical_pair_id",
+  "lowshot_selected_ids_sha256": "1ec83d6310aca8b0a4db688bfd50c2d74f95b5bcdc5e98a386f6951aa08cf999",
+  "manifest_sha256": "2383d816becc336a864e69d08d1042b4c2ef680e738cd8fd9e35465a75ff1195",
+  "npz_banks": [
+    {
+      "fold": 0,
+      "path": "results_for_gpt\\bootstrap_guard_deeppcb_stage3r\\oof_real_bank_corrected_fold0.npz",
+      "sha256": "66ae07205bfba75fa9ce52865280b8b2f9cac0e16ac24b419fd5ba7b5b071f15",
+      "records": 276,
+      "feature_shape": [
+        276,
+        896
+      ],
+      "manifest_counts": {
+        "open": 48,
+        "short": 47,
+        "mousebite": 47,
+        "spur": 45,
+        "spurious_copper": 46,
+        "pinhole": 43
+      }
+    },
+    {
+      "fold": 1,
+      "path": "results_for_gpt\\bootstrap_guard_deeppcb_stage3r\\oof_real_bank_corrected_fold1.npz",
+      "sha256": "d5ca321cb11e507fbced5f6aa62dd192664add743af6fa0dc27b27073383c5d1",
+      "records": 250,
+      "feature_shape": [
+        250,
+        896
+      ],
+      "manifest_counts": {
+        "open": 41,
+        "short": 42,
+        "mousebite": 42,
+        "spur": 42,
+        "spurious_copper": 42,
+        "pinhole": 41
+      }
+    },
+    {
+      "fold": 2,
+      "path": "results_for_gpt\\bootstrap_guard_deeppcb_stage3r\\oof_real_bank_corrected_fold2.npz",
+      "sha256": "40baa9c15e6f914137a61132e92248642bddb47fbc9842f2bc9cc3333587dd27",
+      "records": 249,
+      "feature_shape": [
+        249,
+        896
+      ],
+      "manifest_counts": {
+        "open": 41,
+        "short": 40,
+        "mousebite": 40,
+        "spur": 42,
+        "spurious_copper": 41,
+        "pinhole": 45
+      }
+    }
+  ]
+}

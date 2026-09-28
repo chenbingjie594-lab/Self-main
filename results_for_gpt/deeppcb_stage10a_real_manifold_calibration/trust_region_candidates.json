@@ -1,0 +1,35 @@
+{
+  "frozen_before_any_new_synthetic_result": true,
+  "radius": "instance k5 local radius r_i",
+  "distance": "1-cos(real source feature, candidate feature)",
+  "candidates": [
+    {
+      "name": "conservative",
+      "lower_beta": 0.546280285190501,
+      "upper_beta": 1.1066649081472129,
+      "lower_real_only_basis": "q05 of nearest-neighbor normalized variation",
+      "upper_real_only_basis": "q75 of top5-neighbor normalized relations",
+      "real_top5_relation_coverage": 0.7398709677419355,
+      "relations": 3875
+    },
+    {
+      "name": "medium",
+      "lower_beta": 0.546280285190501,
+      "upper_beta": 1.1847028577096979,
+      "lower_real_only_basis": "q05 of nearest-neighbor normalized variation",
+      "upper_real_only_basis": "q90 of top5-neighbor normalized relations",
+      "real_top5_relation_coverage": 0.8898064516129032,
+      "relations": 3875
+    },
+    {
+      "name": "wide",
+      "lower_beta": 0.546280285190501,
+      "upper_beta": 1.2356153734474182,
+      "lower_real_only_basis": "q05 of nearest-neighbor normalized variation",
+      "upper_real_only_basis": "q95 of top5-neighbor normalized relations",
+      "real_top5_relation_coverage": 0.9398709677419355,
+      "relations": 3875
+    }
+  ],
+  "synthetic_inputs_used": 0
+}

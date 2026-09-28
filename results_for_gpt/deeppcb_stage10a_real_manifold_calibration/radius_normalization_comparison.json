@@ -1,0 +1,82 @@
+{
+  "selection": "instance-adaptive",
+  "selection_rule": "Choose global if its mean pairwise class Wasserstein is within 10% of the best; otherwise class-adaptive if within 10% of instance-adaptive; otherwise instance-adaptive",
+  "global_radius_median_k5": 0.10253706284663222,
+  "class_radius_median_k5": {
+    "open": 0.09244724283098438,
+    "short": 0.10114181899786137,
+    "mousebite": 0.10610502442739186,
+    "spur": 0.10349755271812974,
+    "spurious_copper": 0.0988328790998412,
+    "pinhole": 0.10718252520982607
+  },
+  "metrics": {
+    "global": {
+      "class_coefficient_of_variation": {
+        "open": 0.4813735636953365,
+        "short": 0.5390213065252014,
+        "mousebite": 0.4649135083884555,
+        "spur": 0.46145065995609,
+        "spurious_copper": 0.4934439011530137,
+        "pinhole": 0.3948396543222864
+      },
+      "mean_class_coefficient_of_variation": 0.47250709900673055,
+      "class_medians": {
+        "open": 0.8591884562016536,
+        "short": 0.9922928347526988,
+        "mousebite": 1.056484174050668,
+        "spur": 1.0109630829804612,
+        "spurious_copper": 0.9365554488421084,
+        "pinhole": 1.0495950380073529
+      },
+      "class_median_spread": 0.19729571784901445,
+      "mean_pairwise_wasserstein": 0.08921039308226413,
+      "mean_pairwise_ks_statistic": 0.10631922083084873
+    },
+    "class-adaptive": {
+      "class_coefficient_of_variation": {
+        "open": 0.48137356369533646,
+        "short": 0.5390213065252015,
+        "mousebite": 0.4649135083884554,
+        "spur": 0.4614506599560902,
+        "spurious_copper": 0.4934439011530137,
+        "pinhole": 0.39483965432228635
+      },
+      "mean_class_coefficient_of_variation": 0.4725070990067306,
+      "class_medians": {
+        "open": 0.9529614732990496,
+        "short": 1.0059814403916518,
+        "mousebite": 1.0209581001061412,
+        "spur": 1.0015810273070758,
+        "spurious_copper": 0.9716568594573444,
+        "pinhole": 1.0041039074698614
+      },
+      "class_median_spread": 0.06799662680709162,
+      "mean_pairwise_wasserstein": 0.06387066468703263,
+      "mean_pairwise_ks_statistic": 0.0665593321407275
+    },
+    "instance-adaptive": {
+      "class_coefficient_of_variation": {
+        "open": 0.16590556922916003,
+        "short": 0.16501196503129748,
+        "mousebite": 0.15692411213377888,
+        "spur": 0.1591031222393172,
+        "spurious_copper": 0.1708047155019382,
+        "pinhole": 0.172782748215177
+      },
+      "mean_class_coefficient_of_variation": 0.16508870539177814,
+      "class_medians": {
+        "open": 1.0212876999822698,
+        "short": 1.0194949988528874,
+        "mousebite": 1.019430119432913,
+        "spur": 1.0190438848053458,
+        "spurious_copper": 1.0133619675194911,
+        "pinhole": 1.0205387536378059
+      },
+      "class_median_spread": 0.007925732462778612,
+      "mean_pairwise_wasserstein": 0.010159006834428995,
+      "mean_pairwise_ks_statistic": 0.04005406479825086
+    }
+  },
+  "real_manifold_unstable": false
+}

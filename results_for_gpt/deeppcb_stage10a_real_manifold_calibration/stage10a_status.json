@@ -1,0 +1,19 @@
+{
+  "status": "INSTANCE_ADAPTIVE_TRUST_REGION_SUPPORTED",
+  "frozen_future_protocol": "instance-adaptive",
+  "primary_radius": "same-fold same-class k5 mean cosine distance",
+  "variation_floor_status": "NONZERO_VARIATION_FLOOR_SUPPORTED",
+  "trust_region_candidates_frozen": true,
+  "synthetic_inputs_used": 0,
+  "official_validation_use_count": 0,
+  "generator_training_count": 0,
+  "detector_training_count": 0,
+  "future_candidate": {
+    "distance": "d_i = 1 - cos(f_i_real, f_i_syn)",
+    "constraint": "beta_L * r_i <= d_i <= beta_U * r_i",
+    "future_band_loss": "max(0, beta_L*r_i-d_i)^2 + max(0, d_i-beta_U*r_i)^2",
+    "implemented": false,
+    "trained": false
+  },
+  "frozen_residual_adapter_status": "RETIRED_AS_PAPER_INNOVATION_CANDIDATE"
+}

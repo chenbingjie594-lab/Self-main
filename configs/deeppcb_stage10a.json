@@ -1,0 +1,22 @@
+{
+  "experiment": "deeppcb_stage10a_real_manifold_calibration",
+  "real_only": true,
+  "feature_distance": "cosine distance in same-fold same-class corrected Stage3R OOF feature space",
+  "primary_local_radius_k": 5,
+  "robustness_k": [3, 5, 10],
+  "random_neighbor_seed": 2026,
+  "band_lower_rule": "q05 of real nearest-neighbor distance normalized by instance k5 radius",
+  "band_upper_rules": {
+    "conservative": "q75 of all real top5-neighbor normalized relations",
+    "medium": "q90 of all real top5-neighbor normalized relations",
+    "wide": "q95 of all real top5-neighbor normalized relations"
+  },
+  "variation_floor_rules": {
+    "supported": "normalized nearest-neighbor q05 >= 0.10 and median >= 0.25",
+    "weak": "normalized nearest-neighbor q05 > 0 and median >= 0.10",
+    "none": "otherwise"
+  },
+  "normalization_selection_rule": "Choose global if its mean pairwise class Wasserstein is within 10% of the best; otherwise class-adaptive if within 10% of instance-adaptive; otherwise instance-adaptive",
+  "instability_rule": "REAL_MANIFOLD_TOO_UNSTABLE iff any class has fewer than 11 instances in a fold or at least four classes have k5-radius CV > 1.0",
+  "forbidden_inputs": ["synthetic", "official_validation", "downstream_metrics", "Stage9E", "Stage9F", "Stage9G"]
+}
