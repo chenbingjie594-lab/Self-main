@@ -1,0 +1,247 @@
+{
+  "status": "RANDOM80_REPRESENTATIVE",
+  "rule": "RANDOM80_SHIFTED iff at least two of seven metrics for any arm fall outside the stratified random-80 full-pool 95% bootstrap interval",
+  "shifted_arms": [],
+  "metrics": {
+    "class_finetuned_sd2": {
+      "lpips": {
+        "selected80_mean": 0.02702007837360725,
+        "full_pool_mean": 0.027539294812279617,
+        "stratified_random80_mean_95_interval": [
+          0.02575116391526535,
+          0.029363431653619043
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "edge_cosine": {
+        "selected80_mean": 0.9324633830900366,
+        "full_pool_mean": 0.9370749369922897,
+        "stratified_random80_mean_95_interval": [
+          0.9198917919055829,
+          0.9516655319163305
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "normalized_pair_gap": {
+        "selected80_mean": 0.719285870636756,
+        "full_pool_mean": 0.7329012918325977,
+        "stratified_random80_mean_95_interval": [
+          0.6430005011936806,
+          0.8250179968572047
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "fraction_gt_real_q95": {
+        "selected80_mean": 0.2125,
+        "full_pool_mean": 0.22868217054263565,
+        "stratified_random80_mean_95_interval": [
+          0.15,
+          0.3125
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "ic_lpips": {
+        "selected80_mean": 0.016725164166806885,
+        "full_pool_mean": 0.01690420601577125,
+        "stratified_random80_mean_95_interval": [
+          0.015824771226277033,
+          0.018018362211854155
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "corrected_feature_variance": {
+        "selected80_mean": 1.5479294526131076e-05,
+        "full_pool_mean": 1.4960012118943494e-05,
+        "stratified_random80_mean_95_interval": [
+          1.270053139809683e-05,
+          1.736639987676535e-05
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "corrected_pairwise_feature_distance": {
+        "selected80_mean": 0.020804149446750592,
+        "full_pool_mean": 0.02010623292938149,
+        "stratified_random80_mean_95_interval": [
+          0.017069495327496333,
+          0.02334041426369689
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "outside_metric_count": 0
+    },
+    "repaired_frozen_adapter": {
+      "lpips": {
+        "selected80_mean": 0.04759495502803475,
+        "full_pool_mean": 0.04865534194728278,
+        "stratified_random80_mean_95_interval": [
+          0.04536675168783404,
+          0.051968199886614455
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "edge_cosine": {
+        "selected80_mean": 0.9002800815070353,
+        "full_pool_mean": 0.9004167051576251,
+        "stratified_random80_mean_95_interval": [
+          0.8801717963957622,
+          0.9184537045875141
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "normalized_pair_gap": {
+        "selected80_mean": 1.1596366855106435,
+        "full_pool_mean": 1.1723920513167656,
+        "stratified_random80_mean_95_interval": [
+          1.0174289487504784,
+          1.3362262494974038
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "fraction_gt_real_q95": {
+        "selected80_mean": 0.4625,
+        "full_pool_mean": 0.4715762273901809,
+        "stratified_random80_mean_95_interval": [
+          0.375,
+          0.5625
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "ic_lpips": {
+        "selected80_mean": 0.0467524640824801,
+        "full_pool_mean": 0.04540867389610533,
+        "stratified_random80_mean_95_interval": [
+          0.04201921851941733,
+          0.04883949396122868
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "corrected_feature_variance": {
+        "selected80_mean": 9.7023245842488e-05,
+        "full_pool_mean": 9.696277470082424e-05,
+        "stratified_random80_mean_95_interval": [
+          8.52522410991558e-05,
+          0.00010920471465112561
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "corrected_pairwise_feature_distance": {
+        "selected80_mean": 0.1303992230518281,
+        "full_pool_mean": 0.13031794906717445,
+        "stratified_random80_mean_95_interval": [
+          0.11457899212844962,
+          0.14677111464770115
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "outside_metric_count": 0
+    },
+    "pretrained_no_adaptation": {
+      "lpips": {
+        "selected80_mean": 0.07149297846481203,
+        "full_pool_mean": 0.0704110968311724,
+        "stratified_random80_mean_95_interval": [
+          0.06465954328974477,
+          0.07631825502379798
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "edge_cosine": {
+        "selected80_mean": 0.9049135026271294,
+        "full_pool_mean": 0.9072758505140894,
+        "stratified_random80_mean_95_interval": [
+          0.8794283907087497,
+          0.9319449302080304
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "normalized_pair_gap": {
+        "selected80_mean": 2.786338496983872,
+        "full_pool_mean": 2.8486916014236905,
+        "stratified_random80_mean_95_interval": [
+          2.5994285150129595,
+          3.0934649162008547
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "fraction_gt_real_q95": {
+        "selected80_mean": 0.925,
+        "full_pool_mean": 0.9366925064599483,
+        "stratified_random80_mean_95_interval": [
+          0.8875,
+          0.975
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 774
+      },
+      "ic_lpips": {
+        "selected80_mean": 0.014427959853492212,
+        "full_pool_mean": 0.014244526905941388,
+        "stratified_random80_mean_95_interval": [
+          0.012124880825516205,
+          0.016540794741655797
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "corrected_feature_variance": {
+        "selected80_mean": 2.272777561453196e-05,
+        "full_pool_mean": 2.4611140962410678e-05,
+        "stratified_random80_mean_95_interval": [
+          1.628904897411069e-05,
+          3.385932605795923e-05
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "corrected_pairwise_feature_distance": {
+        "selected80_mean": 0.030546107118516474,
+        "full_pool_mean": 0.033077349842955295,
+        "stratified_random80_mean_95_interval": [
+          0.021892458012928852,
+          0.045506910004046774
+        ],
+        "outside_interval": false,
+        "selected_n": 80,
+        "full_n": 258
+      },
+      "outside_metric_count": 0
+    }
+  }
+}

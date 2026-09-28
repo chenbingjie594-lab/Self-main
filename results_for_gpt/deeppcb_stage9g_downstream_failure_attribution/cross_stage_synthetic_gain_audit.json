@@ -1,0 +1,22 @@
+{
+  "status": "DEEPPPCB_SYNTHETIC_GAIN_REPEATEDLY_NOT_SUPPORTED",
+  "comparable_direct_exposure_controls": {
+    "Stage5F": {
+      "status": "SYNTHETIC_CONTENT_GAIN_NOT_SUPPORTED",
+      "mean_random_minus_realrepeat": -0.0016155701619260388,
+      "wins": 1
+    },
+    "Stage9F": {
+      "status": "SYNTHETIC_GAIN_NOT_SUPPORTED_VS_REAL_REPEAT80",
+      "finetuned_minus_realrepeat_overall_pp": -0.019312327678744357,
+      "finetuned_minus_realrepeat_target2_pp": -0.617374542169391,
+      "computed_from": "primary_last_metrics.json"
+    }
+  },
+  "supporting_but_not_numerically_pooled": {
+    "Stage6H": "NOVELTY_UTILITY_FIXED_BUDGET_NOT_SUPPORTED",
+    "Stage7C": "MSDF_DOWNSTREAM_NOT_SUPPORTED"
+  },
+  "pooling_performed": false,
+  "claim": "Under the current DeepPCB low-shot fixed-budget protocols, synthetic-content gain is difficult to separate from exposure and is not consistently positive."
+}

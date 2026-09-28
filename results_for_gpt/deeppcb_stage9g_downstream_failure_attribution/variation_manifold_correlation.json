@@ -1,0 +1,135 @@
+{
+  "interpretation_limit": "Association only; no per-sample detector utility and no causal claim.",
+  "correlations": {
+    "full_pool": {
+      "overall": {
+        "ic_lpips": {
+          "spearman_rho": -0.09882821275455425,
+          "p_value": 0.11328772548638086,
+          "n": 258
+        },
+        "corrected_feature_variance": {
+          "spearman_rho": 0.48534645792812475,
+          "p_value": 1.1855275441865302e-16,
+          "n": 258
+        },
+        "corrected_pairwise_feature_distance": {
+          "spearman_rho": 0.48534645792812475,
+          "p_value": 1.1855275441865302e-16,
+          "n": 258
+        },
+        "generated_source_identity_R2": {
+          "available": false,
+          "reason": "Only arm/class aggregate R2 was retained; source-level correlation is not identifiable from frozen artifacts."
+        }
+      },
+      "short": {
+        "ic_lpips": {
+          "spearman_rho": -0.09664020572450807,
+          "p_value": 0.2759376407546909,
+          "n": 129
+        },
+        "corrected_feature_variance": {
+          "spearman_rho": 0.5079103309481217,
+          "p_value": 8.050973082732584e-10,
+          "n": 129
+        },
+        "corrected_pairwise_feature_distance": {
+          "spearman_rho": 0.5079103309481217,
+          "p_value": 8.050973082732584e-10,
+          "n": 129
+        },
+        "generated_source_identity_R2": {
+          "available": false,
+          "reason": "Only arm/class aggregate R2 was retained; source-level correlation is not identifiable from frozen artifacts."
+        }
+      },
+      "pinhole": {
+        "ic_lpips": {
+          "spearman_rho": -0.13666703935599286,
+          "p_value": 0.12249474272757724,
+          "n": 129
+        },
+        "corrected_feature_variance": {
+          "spearman_rho": 0.45073792486583186,
+          "p_value": 8.314298650422722e-08,
+          "n": 129
+        },
+        "corrected_pairwise_feature_distance": {
+          "spearman_rho": 0.45073792486583186,
+          "p_value": 8.314298650422722e-08,
+          "n": 129
+        },
+        "generated_source_identity_R2": {
+          "available": false,
+          "reason": "Only arm/class aggregate R2 was retained; source-level correlation is not identifiable from frozen artifacts."
+        }
+      }
+    },
+    "selected80": {
+      "overall": {
+        "ic_lpips": {
+          "spearman_rho": -0.15986872948898267,
+          "p_value": 0.1566193594502164,
+          "n": 80
+        },
+        "corrected_feature_variance": {
+          "spearman_rho": 0.4000234411626817,
+          "p_value": 0.00023658023744570257,
+          "n": 80
+        },
+        "corrected_pairwise_feature_distance": {
+          "spearman_rho": 0.4000234411626817,
+          "p_value": 0.00023658023744570257,
+          "n": 80
+        },
+        "generated_source_identity_R2": {
+          "available": false,
+          "reason": "Only arm/class aggregate R2 was retained; source-level correlation is not identifiable from frozen artifacts."
+        }
+      },
+      "short": {
+        "ic_lpips": {
+          "spearman_rho": -0.30168855534709194,
+          "p_value": 0.058505962955432464,
+          "n": 40
+        },
+        "corrected_feature_variance": {
+          "spearman_rho": 0.2358348968105066,
+          "p_value": 0.1429184981809218,
+          "n": 40
+        },
+        "corrected_pairwise_feature_distance": {
+          "spearman_rho": 0.2358348968105066,
+          "p_value": 0.1429184981809218,
+          "n": 40
+        },
+        "generated_source_identity_R2": {
+          "available": false,
+          "reason": "Only arm/class aggregate R2 was retained; source-level correlation is not identifiable from frozen artifacts."
+        }
+      },
+      "pinhole": {
+        "ic_lpips": {
+          "spearman_rho": 0.004878048780487806,
+          "p_value": 0.9761680748807198,
+          "n": 40
+        },
+        "corrected_feature_variance": {
+          "spearman_rho": 0.5861163227016887,
+          "p_value": 7.070699122499315e-05,
+          "n": 40
+        },
+        "corrected_pairwise_feature_distance": {
+          "spearman_rho": 0.5861163227016887,
+          "p_value": 7.070699122499315e-05,
+          "n": 40
+        },
+        "generated_source_identity_R2": {
+          "available": false,
+          "reason": "Only arm/class aggregate R2 was retained; source-level correlation is not identifiable from frozen artifacts."
+        }
+      }
+    }
+  }
+}

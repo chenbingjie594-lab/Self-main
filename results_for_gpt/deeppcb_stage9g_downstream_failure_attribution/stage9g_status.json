@@ -1,0 +1,35 @@
+{
+  "status": "BOTH_LIMITATIONS_SUPPORTED",
+  "selection_representativeness": "RANDOM80_REPRESENTATIVE",
+  "variation_significantly_higher": true,
+  "manifold_departure_significantly_larger": true,
+  "stage9f_frozen_utility_lower": true,
+  "finetuned_overall_close_to_realrepeat": true,
+  "synthetic_ceiling_repeatedly_not_supported": true,
+  "variation_tests": {
+    "corrected_feature_variance": {
+      "mean_delta": 8.200276258188076e-05,
+      "median_delta": 6.131249673156403e-05,
+      "p_value_two_sided_wilcoxon": 2.151989843333784e-43,
+      "n": 258
+    },
+    "corrected_pairwise_feature_distance": {
+      "mean_delta": 0.11021171613779294,
+      "median_delta": 0.08240397999182802,
+      "p_value_two_sided_wilcoxon": 2.151989843333784e-43,
+      "n": 258
+    },
+    "ic_lpips": {
+      "mean_delta": 0.02850446788033408,
+      "median_delta": 0.02470502303913236,
+      "p_value_two_sided_wilcoxon": 6.820669183580315e-44,
+      "n": 258
+    }
+  },
+  "route_recommendation": "retire FrozenResidualAdapter as a paper innovation candidate; any future first innovation must restart from utility-constrained generation",
+  "training_count": 0,
+  "generation_count": 0,
+  "selection_count": 0,
+  "historical_results_modified": false,
+  "correlation_is_not_causation": true
+}

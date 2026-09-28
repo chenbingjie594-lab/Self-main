@@ -1,0 +1,15 @@
+{
+  "experiment": "deeppcb_stage9g_downstream_failure_attribution",
+  "analysis_only": true,
+  "selection_frozen_rng": 2026,
+  "selection_count": 80,
+  "classes": ["short", "pinhole"],
+  "arms": ["class_finetuned_sd2", "repaired_frozen_adapter", "pretrained_no_adaptation"],
+  "representativeness_bootstrap_seed": 2026,
+  "representativeness_bootstrap_replicates": 10000,
+  "representativeness_rule": "RANDOM80_SHIFTED iff at least two of seven metrics for any arm fall outside the stratified random-80 full-pool 95% bootstrap interval",
+  "significance_alpha": 0.05,
+  "fine_tuned_close_to_exposure_control_pp": 0.25,
+  "primary_checkpoint": "epoch150 last.pt",
+  "forbidden": ["detector_training", "generator_training", "regeneration", "selection", "hyperparameter_tuning", "historical_result_modification"]
+}

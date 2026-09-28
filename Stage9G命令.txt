@@ -1,0 +1,17 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage9g_downstream_failure_attribution
+mkdir -p results_for_gpt/deeppcb_stage9g_downstream_failure_attribution
+
+nohup /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_deeppcb_stage9g.py \
+  --protocol configs/deeppcb_stage9g.json \
+  --stage9e results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter \
+  --stage9er results_for_gpt/deeppcb_stage9er_feature_protocol_correction \
+  --stage9f results_for_gpt/deeppcb_stage9f_frozen_adapter_downstream_pilot \
+  --stage9f_runs runs/deeppcb_stage9f_frozen_adapter_downstream_pilot \
+  --stage5f results_for_gpt/bootstrap_guard_deeppcb_stage5f \
+  --stage6h results_for_gpt/deeppcb_stage6h_fixed_budget \
+  --stage7c results_for_gpt/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --output results_for_gpt/deeppcb_stage9g_downstream_failure_attribution \
+  > logs/deeppcb_stage9g_downstream_failure_attribution/audit.log 2>&1 &
+
+echo $! > logs/deeppcb_stage9g_downstream_failure_attribution/audit.pid
