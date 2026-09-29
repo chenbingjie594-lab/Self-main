@@ -1,0 +1,5 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/finalize_deeppcb_stage10b_gate3.py \
+  --output results_for_gpt/deeppcb_stage10b_tmvb_feasibility

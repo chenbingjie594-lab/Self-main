@@ -1,0 +1,555 @@
+{
+  "status": "DIFFERENTIABLE_FEATURE_PROTOCOL_EQUIVALENT",
+  "threshold": 0.99999,
+  "samples": 60,
+  "per_class": {
+    "short": 30,
+    "pinhole": 30
+  },
+  "mean_cosine": 0.9999999900658926,
+  "minimum_cosine": 0.9999998211860657,
+  "max_absolute_feature_difference": 0.0001268535852432251,
+  "all_samples_pass": true,
+  "records": [
+    {
+      "instance_id": "00041030_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 8.923560380935669e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041047_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 7.936358451843262e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041047_short_08",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.250556230545044e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.5940279960632324e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041095_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.328787326812744e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041125_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.769993782043457e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.473460674285889e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041180_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 4.3064355850219727e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000003_short_08",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.344673991203308e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000008_short_01",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.7381967306137085e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000008_short_02",
+      "class_name": "short",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.330409526824951e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.146728992462158e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.779655814170837e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041043_short_07",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 0.00010009109973907471,
+      "pass": true
+    },
+    {
+      "instance_id": "00041046_short_02",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.198324263095856e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041079_short_01",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 6.406009197235107e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041089_short_01",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.7891011238098145e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 8.313357830047607e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041150_short_01",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 7.607787847518921e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041169_short_01",
+      "class_name": "short",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 0.9999998211860657,
+      "cosine_stored_bank_vs_differentiable": 0.9999998211860657,
+      "max_absolute_feature_difference": 3.308802843093872e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041057_short_01",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.8360397815704346e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041057_short_06",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.47234308719635e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041068_short_01",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.0158629417419434e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.811344504356384e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041114_short_01",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 6.133317947387695e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041114_short_07",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 7.494911551475525e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041133_short_01",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 0.00010381639003753662,
+      "pass": true
+    },
+    {
+      "instance_id": "00041142_short_05",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.6209821701049805e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041181_short_05",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.075335502624512e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041190_short_01",
+      "class_name": "short",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 9.98079776763916e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041030_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 4.785507917404175e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041030_pinhole_09",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 7.261335849761963e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.9641897678375244e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.79966402053833e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041095_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 7.244199514389038e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.790459156036377e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041180_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.943832755088806e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000003_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.723109304904938e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.3398311138153076e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000008_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 0,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.6075711250305176e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041039_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.789978265762329e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041043_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.3495168685913086e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041046_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.046464502811432e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041079_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.936009645462036e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.918741226196289e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041150_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 5.681812763214111e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041169_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 1,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.5380165576934814e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041057_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.9351325035095215e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.166845560073853e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041068_pinhole_07",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.282578058540821e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041081_pinhole_04",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 0.9999999403953552,
+      "cosine_stored_bank_vs_differentiable": 0.9999999403953552,
+      "max_absolute_feature_difference": 5.581974983215332e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.6893954277038574e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041133_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 0.0001268535852432251,
+      "pass": true
+    },
+    {
+      "instance_id": "00041142_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.230175495147705e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041181_pinhole_02",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.742426633834839e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041181_pinhole_07",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 4.2885541915893555e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "00041190_pinhole_05",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 3.3795833587646484e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.698204040527344e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 5.0373375415802e-05,
+      "pass": true
+    },
+    {
+      "instance_id": "13000017_pinhole_09",
+      "class_name": "pinhole",
+      "fold": 2,
+      "cosine_historical_encode_vs_differentiable": 1.0,
+      "cosine_stored_bank_vs_differentiable": 1.0,
+      "max_absolute_feature_difference": 6.530433893203735e-05,
+      "pass": true
+    }
+  ]
+}

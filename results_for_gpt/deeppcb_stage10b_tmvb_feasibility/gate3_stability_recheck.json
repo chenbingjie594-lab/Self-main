@@ -1,0 +1,40 @@
+{
+  "status": "TMVB_50STEP_STABLE",
+  "audit": {
+    "short": {
+      "status": "PASS",
+      "checks": {
+        "fifty_successful_updates": true,
+        "parameter_changed": true,
+        "grad_scaler_nonzero": true,
+        "last_20_attempts_all_successful": true,
+        "checkpoint_not_saved": true
+      },
+      "attempted_steps": 58,
+      "successful_steps": 50,
+      "amp_guarded_skips": 8,
+      "last_skip_attempt": 32,
+      "consecutive_successful_tail": 26,
+      "final_grad_scaler_scale": 256.0,
+      "parameter_delta_l2": 0.008661375381052494
+    },
+    "pinhole": {
+      "status": "PASS",
+      "checks": {
+        "fifty_successful_updates": true,
+        "parameter_changed": true,
+        "grad_scaler_nonzero": true,
+        "last_20_attempts_all_successful": true,
+        "checkpoint_not_saved": true
+      },
+      "attempted_steps": 56,
+      "successful_steps": 50,
+      "amp_guarded_skips": 6,
+      "last_skip_attempt": 20,
+      "consecutive_successful_tail": 36,
+      "final_grad_scaler_scale": 1024.0,
+      "parameter_delta_l2": 0.00725083751603961
+    }
+  },
+  "formal_checkpoint_saved": false
+}

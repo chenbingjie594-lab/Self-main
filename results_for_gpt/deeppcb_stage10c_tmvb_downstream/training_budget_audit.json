@@ -1,0 +1,27 @@
+{
+  "arms": {
+    "real_repeat80": {
+      "epochs": 150,
+      "batches": 6450,
+      "optimizer_steps": 820,
+      "last_sha256": "1acf36671531182104dd1dd2874f3b6c1bb0642adc7eb7233df8f6d6509f6bae",
+      "best_sha256": "85a1b2e53b996e67309dbf0b348f551507df1e7a40e1d03755bcb9ece69c299d"
+    },
+    "sd2_syn80": {
+      "epochs": 150,
+      "batches": 6450,
+      "optimizer_steps": 820,
+      "last_sha256": "179641757f8d74db75ef581f0e572a2b65b6b641faec326f7859b7e5832e88ac",
+      "best_sha256": "715f2375f17c0affa04057b8c964b9798fc70a8b3a308042d3f336a35353e551"
+    },
+    "tmvb_syn80": {
+      "epochs": 150,
+      "batches": 6450,
+      "optimizer_steps": 821,
+      "last_sha256": "a601afbd3c1d6ed63cf237afaa1e52e00cf71b1de5db487a42b2b287a71d1569",
+      "best_sha256": "5f0bba9db113debb0dd28101601b3b5cb5093a3710246090d91a084bc6b70d50"
+    }
+  },
+  "equal_batches": true,
+  "same_schedule": true
+}

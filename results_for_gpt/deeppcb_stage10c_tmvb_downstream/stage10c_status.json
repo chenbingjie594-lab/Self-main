@@ -1,0 +1,16 @@
+{
+  "status": "TMVB_DOWNSTREAM_NOT_SUPPORTED",
+  "single_seed_diagnostic_only": true,
+  "additional_seeds_authorized": false,
+  "deltas": {
+    "sd2_syn80": {
+      "overall_map50_95": -0.013002019703194034,
+      "target2_map50_95": -0.0166240761874058
+    },
+    "tmvb_syn80": {
+      "overall_map50_95": -0.018202160935580358,
+      "target2_map50_95": -0.023336887648551796
+    }
+  },
+  "official_validation_role": "final detector evaluation only"
+}

@@ -1,0 +1,18 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage10c_tmvb_downstream
+mkdir -p results_for_gpt/deeppcb_stage10c_tmvb_downstream
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage10c.py \
+  --protocol configs/deeppcb_stage10c.json \
+  --gate results_for_gpt/deeppcb_stage10b_tmvb_generation/stage10b_gate_after_generation.json \
+  --tmvb_manifest results_for_gpt/deeppcb_stage10b_tmvb_generation/source_seed_manifest.json \
+  --sd2_manifest results_for_gpt/deeppcb_stage7a_sd2_baseline/sd2_candidate_pool_manifest.json \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --model pretrained/yolo11s.pt \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage10c_tmvb_s42 \
+  --runs runs/deeppcb_stage10c_tmvb_downstream \
+  --output results_for_gpt/deeppcb_stage10c_tmvb_downstream \
+  --device 0 > logs/deeppcb_stage10c_tmvb_downstream/pilot.log 2>&1 &
+
+echo $! > logs/deeppcb_stage10c_tmvb_downstream/pilot.pid

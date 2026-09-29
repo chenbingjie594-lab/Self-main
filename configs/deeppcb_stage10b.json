@@ -1,0 +1,14 @@
+{
+  "experiment": "deeppcb_stage10b_tmvb_medium_feasibility",
+  "band": "medium",
+  "beta_L": 0.5483221710003416,
+  "beta_U": 1.184702857709698,
+  "lambda_TMVB": 1.0,
+  "radius_source": "Stage10A-R pair-independent instance k5 radius",
+  "feature_equivalence_cosine_minimum": 0.99999,
+  "feature_equivalence_samples_per_class": 30,
+  "t_band_rule": "argmin_t abs(log(alpha_bar_t/(1-alpha_bar_t)))",
+  "formal_training": {"classes": ["short", "pinhole"], "successful_updates_per_class": 2000, "batch": 1, "gradient_accumulation": 4, "learning_rate": 0.000005, "seed": 42, "mixed_precision": "fp16"},
+  "generation_seeds": [42, 2026, 3407],
+  "forbidden": ["band_sweep", "lambda_sweep", "timestep_sweep", "new_trainable_module", "detector_training", "official_validation", "selector", "BootstrapGuard"]
+}

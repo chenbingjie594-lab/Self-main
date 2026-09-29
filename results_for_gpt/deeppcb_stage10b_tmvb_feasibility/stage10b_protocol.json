@@ -1,0 +1,53 @@
+{
+  "experiment": "deeppcb_stage10b_tmvb_medium_feasibility",
+  "band": "medium",
+  "beta_L": 0.5483221710003416,
+  "beta_U": 1.184702857709698,
+  "lambda_TMVB": 1.0,
+  "radius_source": "Stage10A-R pair-independent instance k5 radius",
+  "feature_equivalence_cosine_minimum": 0.99999,
+  "feature_equivalence_samples_per_class": 30,
+  "t_band_rule": "argmin_t abs(log(alpha_bar_t/(1-alpha_bar_t)))",
+  "formal_training": {
+    "classes": [
+      "short",
+      "pinhole"
+    ],
+    "successful_updates_per_class": 2000,
+    "batch": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 5e-06,
+    "seed": 42,
+    "mixed_precision": "fp16"
+  },
+  "generation_seeds": [
+    42,
+    2026,
+    3407
+  ],
+  "forbidden": [
+    "band_sweep",
+    "lambda_sweep",
+    "timestep_sweep",
+    "new_trainable_module",
+    "detector_training",
+    "official_validation",
+    "selector",
+    "BootstrapGuard"
+  ],
+  "stage10ar_status": "INSTANCE_ADAPTIVE_PAIR_INDEPENDENT_TRUST_REGION_SUPPORTED",
+  "frozen_band_record": {
+    "name": "medium",
+    "lower_beta": 0.5483221710003416,
+    "upper_beta": 1.184702857709698,
+    "real_independent_top5_relation_coverage": 0.8898064516129032,
+    "relations": 3875,
+    "lower_basis": "independent nearest q05",
+    "upper_basis": "independent top5 q90"
+  },
+  "gate1_pass": true,
+  "official_validation_use_count": 0,
+  "synthetic_generation_count": 0,
+  "detector_training_count": 0,
+  "generator_training_count": 0
+}

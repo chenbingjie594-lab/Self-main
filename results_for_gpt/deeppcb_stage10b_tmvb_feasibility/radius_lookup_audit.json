@@ -1,0 +1,2079 @@
+{
+  "status": "PASS",
+  "source": "Stage10A-R only",
+  "coverage": {
+    "short": 129,
+    "pinhole": 129
+  },
+  "expected": {
+    "short": 129,
+    "pinhole": 129
+  },
+  "global_or_class_radius_used": false,
+  "records": [
+    {
+      "instance_id": "00041030_short_01",
+      "pair_id": "00041030",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.13420804202038933,
+      "matched": true
+    },
+    {
+      "instance_id": "00041030_pinhole_05",
+      "pair_id": "00041030",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.14862327804691883,
+      "matched": true
+    },
+    {
+      "instance_id": "00041030_pinhole_09",
+      "pair_id": "00041030",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.13395738525042142,
+      "matched": true
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "pair_id": "00041039",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12547534627860535,
+      "matched": true
+    },
+    {
+      "instance_id": "00041039_pinhole_04",
+      "pair_id": "00041039",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.13594318965432972,
+      "matched": true
+    },
+    {
+      "instance_id": "00041043_short_01",
+      "pair_id": "00041043",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.15747176420904554,
+      "matched": true
+    },
+    {
+      "instance_id": "00041043_pinhole_03",
+      "pair_id": "00041043",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11071742286562417,
+      "matched": true
+    },
+    {
+      "instance_id": "00041043_short_07",
+      "pair_id": "00041043",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.1623775767123147,
+      "matched": true
+    },
+    {
+      "instance_id": "00041046_short_02",
+      "pair_id": "00041046",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.10114181899786145,
+      "matched": true
+    },
+    {
+      "instance_id": "00041046_pinhole_05",
+      "pair_id": "00041046",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.19672554921835136,
+      "matched": true
+    },
+    {
+      "instance_id": "00041047_short_01",
+      "pair_id": "00041047",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.0776849830790813,
+      "matched": true
+    },
+    {
+      "instance_id": "00041047_pinhole_03",
+      "pair_id": "00041047",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.05643770180991865,
+      "matched": true
+    },
+    {
+      "instance_id": "00041047_short_08",
+      "pair_id": "00041047",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.10524229716236304,
+      "matched": true
+    },
+    {
+      "instance_id": "00041057_short_01",
+      "pair_id": "00041057",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.08318173962561423,
+      "matched": true
+    },
+    {
+      "instance_id": "00041057_pinhole_04",
+      "pair_id": "00041057",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.06832888316582239,
+      "matched": true
+    },
+    {
+      "instance_id": "00041057_short_06",
+      "pair_id": "00041057",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.056456322727005626,
+      "matched": true
+    },
+    {
+      "instance_id": "00041068_short_01",
+      "pair_id": "00041068",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.05444659397551792,
+      "matched": true
+    },
+    {
+      "instance_id": "00041068_pinhole_04",
+      "pair_id": "00041068",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07225025537643566,
+      "matched": true
+    },
+    {
+      "instance_id": "00041068_pinhole_07",
+      "pair_id": "00041068",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09139372920692113,
+      "matched": true
+    },
+    {
+      "instance_id": "00041079_short_01",
+      "pair_id": "00041079",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12459011644669174,
+      "matched": true
+    },
+    {
+      "instance_id": "00041079_pinhole_04",
+      "pair_id": "00041079",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.13647287348499487,
+      "matched": true
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "pair_id": "00041081",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10013322530055539,
+      "matched": true
+    },
+    {
+      "instance_id": "00041081_pinhole_04",
+      "pair_id": "00041081",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.13128961624690189,
+      "matched": true
+    },
+    {
+      "instance_id": "00041085_short_01",
+      "pair_id": "00041085",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.061979979775918626,
+      "matched": true
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "pair_id": "00041085",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.11510296416176449,
+      "matched": true
+    },
+    {
+      "instance_id": "00041089_short_01",
+      "pair_id": "00041089",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.1031089360105905,
+      "matched": true
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "pair_id": "00041089",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11689491218533969,
+      "matched": true
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "pair_id": "00041089",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.09727269467705062,
+      "matched": true
+    },
+    {
+      "instance_id": "00041095_short_01",
+      "pair_id": "00041095",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.12563833808937325,
+      "matched": true
+    },
+    {
+      "instance_id": "00041095_pinhole_03",
+      "pair_id": "00041095",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.07285654968452412,
+      "matched": true
+    },
+    {
+      "instance_id": "00041114_short_01",
+      "pair_id": "00041114",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.07046686122842027,
+      "matched": true
+    },
+    {
+      "instance_id": "00041114_pinhole_03",
+      "pair_id": "00041114",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09471111228996591,
+      "matched": true
+    },
+    {
+      "instance_id": "00041114_short_07",
+      "pair_id": "00041114",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.12462813573406835,
+      "matched": true
+    },
+    {
+      "instance_id": "00041125_short_01",
+      "pair_id": "00041125",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.11793476404278813,
+      "matched": true
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "pair_id": "00041125",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.1587395333070787,
+      "matched": true
+    },
+    {
+      "instance_id": "00041125_short_08",
+      "pair_id": "00041125",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.11095742529922248,
+      "matched": true
+    },
+    {
+      "instance_id": "00041133_short_01",
+      "pair_id": "00041133",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.1541098938850921,
+      "matched": true
+    },
+    {
+      "instance_id": "00041133_pinhole_05",
+      "pair_id": "00041133",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07816453503922324,
+      "matched": true
+    },
+    {
+      "instance_id": "00041142_pinhole_03",
+      "pair_id": "00041142",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.12517515444546404,
+      "matched": true
+    },
+    {
+      "instance_id": "00041142_short_05",
+      "pair_id": "00041142",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10302832479687647,
+      "matched": true
+    },
+    {
+      "instance_id": "00041150_short_01",
+      "pair_id": "00041150",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11118376063902188,
+      "matched": true
+    },
+    {
+      "instance_id": "00041150_pinhole_04",
+      "pair_id": "00041150",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.12639068103840118,
+      "matched": true
+    },
+    {
+      "instance_id": "00041169_short_01",
+      "pair_id": "00041169",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12229389711678548,
+      "matched": true
+    },
+    {
+      "instance_id": "00041169_pinhole_05",
+      "pair_id": "00041169",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.09541120964268493,
+      "matched": true
+    },
+    {
+      "instance_id": "00041180_short_01",
+      "pair_id": "00041180",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.2172140329706803,
+      "matched": true
+    },
+    {
+      "instance_id": "00041180_pinhole_05",
+      "pair_id": "00041180",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.1270681114896985,
+      "matched": true
+    },
+    {
+      "instance_id": "00041181_pinhole_02",
+      "pair_id": "00041181",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.08728508990673627,
+      "matched": true
+    },
+    {
+      "instance_id": "00041181_short_05",
+      "pair_id": "00041181",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.12299084058873047,
+      "matched": true
+    },
+    {
+      "instance_id": "00041181_pinhole_07",
+      "pair_id": "00041181",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.06402576909407735,
+      "matched": true
+    },
+    {
+      "instance_id": "00041190_short_01",
+      "pair_id": "00041190",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.06690041172910052,
+      "matched": true
+    },
+    {
+      "instance_id": "00041190_pinhole_05",
+      "pair_id": "00041190",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.08828073438540815,
+      "matched": true
+    },
+    {
+      "instance_id": "13000003_pinhole_03",
+      "pair_id": "13000003",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.04609422022978029,
+      "matched": true
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "pair_id": "13000003",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.16281223486985372,
+      "matched": true
+    },
+    {
+      "instance_id": "13000003_short_08",
+      "pair_id": "13000003",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.08819850979624333,
+      "matched": true
+    },
+    {
+      "instance_id": "13000008_short_01",
+      "pair_id": "13000008",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.06496223784303339,
+      "matched": true
+    },
+    {
+      "instance_id": "13000008_short_02",
+      "pair_id": "13000008",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.04143739153264958,
+      "matched": true
+    },
+    {
+      "instance_id": "13000008_pinhole_05",
+      "pair_id": "13000008",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.06446043625792323,
+      "matched": true
+    },
+    {
+      "instance_id": "13000008_short_07",
+      "pair_id": "13000008",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.08647881332698729,
+      "matched": true
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "pair_id": "13000009",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.11677738801481978,
+      "matched": true
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "pair_id": "13000009",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07594273765320021,
+      "matched": true
+    },
+    {
+      "instance_id": "13000009_short_08",
+      "pair_id": "13000009",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.06696048166508295,
+      "matched": true
+    },
+    {
+      "instance_id": "13000017_short_02",
+      "pair_id": "13000017",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10696619016831596,
+      "matched": true
+    },
+    {
+      "instance_id": "13000017_pinhole_09",
+      "pair_id": "13000017",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.11982051950422301,
+      "matched": true
+    },
+    {
+      "instance_id": "13000017_pinhole_10",
+      "pair_id": "13000017",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.0967340884081473,
+      "matched": true
+    },
+    {
+      "instance_id": "13000019_short_03",
+      "pair_id": "13000019",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.16537869447949657,
+      "matched": true
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "pair_id": "13000019",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.08381830464214682,
+      "matched": true
+    },
+    {
+      "instance_id": "13000019_pinhole_11",
+      "pair_id": "13000019",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.13288628083389986,
+      "matched": true
+    },
+    {
+      "instance_id": "13000019_pinhole_12",
+      "pair_id": "13000019",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.1467236600578407,
+      "matched": true
+    },
+    {
+      "instance_id": "13000022_short_02",
+      "pair_id": "13000022",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11764922280825107,
+      "matched": true
+    },
+    {
+      "instance_id": "13000022_short_03",
+      "pair_id": "13000022",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.1283919964342449,
+      "matched": true
+    },
+    {
+      "instance_id": "13000022_pinhole_10",
+      "pair_id": "13000022",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.10131759326037607,
+      "matched": true
+    },
+    {
+      "instance_id": "13000022_pinhole_11",
+      "pair_id": "13000022",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.16830125754854233,
+      "matched": true
+    },
+    {
+      "instance_id": "13000023_short_02",
+      "pair_id": "13000023",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.06461127086449103,
+      "matched": true
+    },
+    {
+      "instance_id": "13000023_short_03",
+      "pair_id": "13000023",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.061633667409334646,
+      "matched": true
+    },
+    {
+      "instance_id": "13000023_pinhole_10",
+      "pair_id": "13000023",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.11338590279204104,
+      "matched": true
+    },
+    {
+      "instance_id": "13000023_pinhole_11",
+      "pair_id": "13000023",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09273690242418839,
+      "matched": true
+    },
+    {
+      "instance_id": "13000024_short_02",
+      "pair_id": "13000024",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.08326547069901997,
+      "matched": true
+    },
+    {
+      "instance_id": "13000024_short_03",
+      "pair_id": "13000024",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.07248602117396263,
+      "matched": true
+    },
+    {
+      "instance_id": "13000024_pinhole_08",
+      "pair_id": "13000024",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07711194661439709,
+      "matched": true
+    },
+    {
+      "instance_id": "13000024_pinhole_09",
+      "pair_id": "13000024",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.1108106873126848,
+      "matched": true
+    },
+    {
+      "instance_id": "13000025_short_02",
+      "pair_id": "13000025",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.20933916134851555,
+      "matched": true
+    },
+    {
+      "instance_id": "13000025_short_03",
+      "pair_id": "13000025",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.07013572874065492,
+      "matched": true
+    },
+    {
+      "instance_id": "13000025_pinhole_10",
+      "pair_id": "13000025",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.2148311421628169,
+      "matched": true
+    },
+    {
+      "instance_id": "13000025_pinhole_11",
+      "pair_id": "13000025",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.14306731185455307,
+      "matched": true
+    },
+    {
+      "instance_id": "13000026_short_02",
+      "pair_id": "13000026",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.15911532095944597,
+      "matched": true
+    },
+    {
+      "instance_id": "13000026_short_03",
+      "pair_id": "13000026",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10666854191526187,
+      "matched": true
+    },
+    {
+      "instance_id": "13000026_pinhole_10",
+      "pair_id": "13000026",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.06289065138415609,
+      "matched": true
+    },
+    {
+      "instance_id": "13000026_pinhole_11",
+      "pair_id": "13000026",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.10206527754792612,
+      "matched": true
+    },
+    {
+      "instance_id": "13000027_short_02",
+      "pair_id": "13000027",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.13041551368660453,
+      "matched": true
+    },
+    {
+      "instance_id": "13000027_short_03",
+      "pair_id": "13000027",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.14756072276582374,
+      "matched": true
+    },
+    {
+      "instance_id": "13000027_pinhole_10",
+      "pair_id": "13000027",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11189371127339538,
+      "matched": true
+    },
+    {
+      "instance_id": "13000027_pinhole_11",
+      "pair_id": "13000027",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.10665121061641743,
+      "matched": true
+    },
+    {
+      "instance_id": "13000028_short_02",
+      "pair_id": "13000028",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.13357926352457028,
+      "matched": true
+    },
+    {
+      "instance_id": "13000028_short_03",
+      "pair_id": "13000028",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.14380208672213263,
+      "matched": true
+    },
+    {
+      "instance_id": "13000028_pinhole_10",
+      "pair_id": "13000028",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.10516603873189982,
+      "matched": true
+    },
+    {
+      "instance_id": "13000028_pinhole_11",
+      "pair_id": "13000028",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11013692642277317,
+      "matched": true
+    },
+    {
+      "instance_id": "13000029_short_02",
+      "pair_id": "13000029",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.07446408572726675,
+      "matched": true
+    },
+    {
+      "instance_id": "13000029_short_03",
+      "pair_id": "13000029",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.09670270327445232,
+      "matched": true
+    },
+    {
+      "instance_id": "13000029_pinhole_10",
+      "pair_id": "13000029",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.08070447231874016,
+      "matched": true
+    },
+    {
+      "instance_id": "13000029_pinhole_11",
+      "pair_id": "13000029",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.16803317170859977,
+      "matched": true
+    },
+    {
+      "instance_id": "13000030_short_02",
+      "pair_id": "13000030",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.1679886219052777,
+      "matched": true
+    },
+    {
+      "instance_id": "13000030_short_03",
+      "pair_id": "13000030",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12018912245773035,
+      "matched": true
+    },
+    {
+      "instance_id": "13000030_pinhole_08",
+      "pair_id": "13000030",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11246138533869773,
+      "matched": true
+    },
+    {
+      "instance_id": "13000030_pinhole_09",
+      "pair_id": "13000030",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.16669446925147996,
+      "matched": true
+    },
+    {
+      "instance_id": "13000031_short_01",
+      "pair_id": "13000031",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.07145547918486661,
+      "matched": true
+    },
+    {
+      "instance_id": "13000031_pinhole_07",
+      "pair_id": "13000031",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.1361223333193695,
+      "matched": true
+    },
+    {
+      "instance_id": "13000031_pinhole_08",
+      "pair_id": "13000031",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.0650767325773995,
+      "matched": true
+    },
+    {
+      "instance_id": "13000037_short_02",
+      "pair_id": "13000037",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.12174593018503102,
+      "matched": true
+    },
+    {
+      "instance_id": "13000037_short_03",
+      "pair_id": "13000037",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.10866461500936957,
+      "matched": true
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "pair_id": "13000037",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.14739098266582545,
+      "matched": true
+    },
+    {
+      "instance_id": "13000037_pinhole_08",
+      "pair_id": "13000037",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.11409713960729236,
+      "matched": true
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "pair_id": "13000079",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.06910334315410846,
+      "matched": true
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "pair_id": "13000079",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.08982347496267051,
+      "matched": true
+    },
+    {
+      "instance_id": "13000079_pinhole_06",
+      "pair_id": "13000079",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.11121951836968816,
+      "matched": true
+    },
+    {
+      "instance_id": "13000097_short_01",
+      "pair_id": "13000097",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.13036695020520855,
+      "matched": true
+    },
+    {
+      "instance_id": "13000097_pinhole_05",
+      "pair_id": "13000097",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.1197773852087473,
+      "matched": true
+    },
+    {
+      "instance_id": "13000102_short_01",
+      "pair_id": "13000102",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.0697686748320139,
+      "matched": true
+    },
+    {
+      "instance_id": "13000102_pinhole_05",
+      "pair_id": "13000102",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07779400588904932,
+      "matched": true
+    },
+    {
+      "instance_id": "13000110_pinhole_04",
+      "pair_id": "13000110",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.1221149525869609,
+      "matched": true
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "pair_id": "13000110",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11573118545332435,
+      "matched": true
+    },
+    {
+      "instance_id": "13000110_short_06",
+      "pair_id": "13000110",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.23035481414051623,
+      "matched": true
+    },
+    {
+      "instance_id": "13000118_short_01",
+      "pair_id": "13000118",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.15516037604709168,
+      "matched": true
+    },
+    {
+      "instance_id": "13000118_pinhole_05",
+      "pair_id": "13000118",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09653417820512737,
+      "matched": true
+    },
+    {
+      "instance_id": "13000126_short_01",
+      "pair_id": "13000126",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12810132888471576,
+      "matched": true
+    },
+    {
+      "instance_id": "13000126_pinhole_04",
+      "pair_id": "13000126",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.1283711390279561,
+      "matched": true
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "pair_id": "13000174",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.0878904917278281,
+      "matched": true
+    },
+    {
+      "instance_id": "13000174_pinhole_02",
+      "pair_id": "13000174",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07874298293119505,
+      "matched": true
+    },
+    {
+      "instance_id": "13000197_short_01",
+      "pair_id": "13000197",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.06967838666728716,
+      "matched": true
+    },
+    {
+      "instance_id": "13000197_pinhole_05",
+      "pair_id": "13000197",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.1607022930033632,
+      "matched": true
+    },
+    {
+      "instance_id": "20085014_short_01",
+      "pair_id": "20085014",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.0787826226074464,
+      "matched": true
+    },
+    {
+      "instance_id": "20085014_pinhole_05",
+      "pair_id": "20085014",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.06831042293047163,
+      "matched": true
+    },
+    {
+      "instance_id": "20085016_short_02",
+      "pair_id": "20085016",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.047195102349163395,
+      "matched": true
+    },
+    {
+      "instance_id": "20085016_pinhole_06",
+      "pair_id": "20085016",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.0830826902534643,
+      "matched": true
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "pair_id": "20085020",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.06209383902857111,
+      "matched": true
+    },
+    {
+      "instance_id": "20085020_short_02",
+      "pair_id": "20085020",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10460028801643509,
+      "matched": true
+    },
+    {
+      "instance_id": "20085020_pinhole_06",
+      "pair_id": "20085020",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.1601480826568049,
+      "matched": true
+    },
+    {
+      "instance_id": "20085020_pinhole_07",
+      "pair_id": "20085020",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.08627066883422138,
+      "matched": true
+    },
+    {
+      "instance_id": "20085026_short_01",
+      "pair_id": "20085026",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.07220626010836631,
+      "matched": true
+    },
+    {
+      "instance_id": "20085026_pinhole_05",
+      "pair_id": "20085026",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.22883242771455894,
+      "matched": true
+    },
+    {
+      "instance_id": "20085027_short_01",
+      "pair_id": "20085027",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.16324653345535314,
+      "matched": true
+    },
+    {
+      "instance_id": "20085027_pinhole_05",
+      "pair_id": "20085027",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.14067768814186565,
+      "matched": true
+    },
+    {
+      "instance_id": "20085033_short_02",
+      "pair_id": "20085033",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.07334285339032617,
+      "matched": true
+    },
+    {
+      "instance_id": "20085033_pinhole_06",
+      "pair_id": "20085033",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.06500135354240699,
+      "matched": true
+    },
+    {
+      "instance_id": "20085051_short_01",
+      "pair_id": "20085051",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.27470111059278157,
+      "matched": true
+    },
+    {
+      "instance_id": "20085051_pinhole_04",
+      "pair_id": "20085051",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.13189750047773596,
+      "matched": true
+    },
+    {
+      "instance_id": "20085062_short_01",
+      "pair_id": "20085062",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11630608288161204,
+      "matched": true
+    },
+    {
+      "instance_id": "20085062_pinhole_04",
+      "pair_id": "20085062",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.07514054446937082,
+      "matched": true
+    },
+    {
+      "instance_id": "20085062_pinhole_06",
+      "pair_id": "20085062",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.16174876910301103,
+      "matched": true
+    },
+    {
+      "instance_id": "20085071_short_01",
+      "pair_id": "20085071",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.08650168181419167,
+      "matched": true
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "pair_id": "20085071",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.09381032217086123,
+      "matched": true
+    },
+    {
+      "instance_id": "20085071_short_06",
+      "pair_id": "20085071",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.10312267024745139,
+      "matched": true
+    },
+    {
+      "instance_id": "20085090_short_01",
+      "pair_id": "20085090",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.13022776143845624,
+      "matched": true
+    },
+    {
+      "instance_id": "20085090_pinhole_05",
+      "pair_id": "20085090",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.10718252520982571,
+      "matched": true
+    },
+    {
+      "instance_id": "20085103_short_01",
+      "pair_id": "20085103",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.07653717344840893,
+      "matched": true
+    },
+    {
+      "instance_id": "20085103_pinhole_05",
+      "pair_id": "20085103",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.08695272703801557,
+      "matched": true
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "pair_id": "20085107",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.1298387748833241,
+      "matched": true
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "pair_id": "20085107",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.0869899392414378,
+      "matched": true
+    },
+    {
+      "instance_id": "20085107_pinhole_07",
+      "pair_id": "20085107",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.1820156096505767,
+      "matched": true
+    },
+    {
+      "instance_id": "20085143_short_01",
+      "pair_id": "20085143",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.1702263426821201,
+      "matched": true
+    },
+    {
+      "instance_id": "20085143_pinhole_05",
+      "pair_id": "20085143",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.0978410474906121,
+      "matched": true
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "pair_id": "20085145",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.052005491029558426,
+      "matched": true
+    },
+    {
+      "instance_id": "20085145_pinhole_08",
+      "pair_id": "20085145",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.1520006586274015,
+      "matched": true
+    },
+    {
+      "instance_id": "20085155_short_01",
+      "pair_id": "20085155",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.3384633666176156,
+      "matched": true
+    },
+    {
+      "instance_id": "20085155_pinhole_05",
+      "pair_id": "20085155",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.18157127270211545,
+      "matched": true
+    },
+    {
+      "instance_id": "20085183_short_01",
+      "pair_id": "20085183",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.09410923021640812,
+      "matched": true
+    },
+    {
+      "instance_id": "20085183_pinhole_04",
+      "pair_id": "20085183",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.09639309064053625,
+      "matched": true
+    },
+    {
+      "instance_id": "20085185_short_02",
+      "pair_id": "20085185",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.04796019541889769,
+      "matched": true
+    },
+    {
+      "instance_id": "20085185_pinhole_06",
+      "pair_id": "20085185",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.126728842812673,
+      "matched": true
+    },
+    {
+      "instance_id": "20085185_short_08",
+      "pair_id": "20085185",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.09480324586292019,
+      "matched": true
+    },
+    {
+      "instance_id": "20085185_pinhole_09",
+      "pair_id": "20085185",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.09957489589025673,
+      "matched": true
+    },
+    {
+      "instance_id": "20085201_short_01",
+      "pair_id": "20085201",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.03862238749753677,
+      "matched": true
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "pair_id": "20085201",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.057911066053995805,
+      "matched": true
+    },
+    {
+      "instance_id": "20085203_short_01",
+      "pair_id": "20085203",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.09484401476473056,
+      "matched": true
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "pair_id": "20085203",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.14409773356581898,
+      "matched": true
+    },
+    {
+      "instance_id": "20085217_short_01",
+      "pair_id": "20085217",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.07964803873771809,
+      "matched": true
+    },
+    {
+      "instance_id": "20085217_pinhole_05",
+      "pair_id": "20085217",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.13558602420531013,
+      "matched": true
+    },
+    {
+      "instance_id": "20085221_short_03",
+      "pair_id": "20085221",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.36511533808144053,
+      "matched": true
+    },
+    {
+      "instance_id": "20085221_short_04",
+      "pair_id": "20085221",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.3327800309544815,
+      "matched": true
+    },
+    {
+      "instance_id": "20085221_pinhole_13",
+      "pair_id": "20085221",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.14807663904900503,
+      "matched": true
+    },
+    {
+      "instance_id": "20085221_pinhole_14",
+      "pair_id": "20085221",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.19667510237468375,
+      "matched": true
+    },
+    {
+      "instance_id": "20085225_short_03",
+      "pair_id": "20085225",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.1628252688179962,
+      "matched": true
+    },
+    {
+      "instance_id": "20085225_short_04",
+      "pair_id": "20085225",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.24649065823313085,
+      "matched": true
+    },
+    {
+      "instance_id": "20085225_short_05",
+      "pair_id": "20085225",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.07121246993152812,
+      "matched": true
+    },
+    {
+      "instance_id": "20085225_pinhole_11",
+      "pair_id": "20085225",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.0955918002952801,
+      "matched": true
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "pair_id": "20085225",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.24766082197963124,
+      "matched": true
+    },
+    {
+      "instance_id": "20085238_short_02",
+      "pair_id": "20085238",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11220756949353235,
+      "matched": true
+    },
+    {
+      "instance_id": "20085238_short_03",
+      "pair_id": "20085238",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.15027664654672612,
+      "matched": true
+    },
+    {
+      "instance_id": "20085238_pinhole_08",
+      "pair_id": "20085238",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.09487647599137113,
+      "matched": true
+    },
+    {
+      "instance_id": "44000062_short_01",
+      "pair_id": "44000062",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.16687289811527312,
+      "matched": true
+    },
+    {
+      "instance_id": "44000062_pinhole_04",
+      "pair_id": "44000062",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.09447121544815643,
+      "matched": true
+    },
+    {
+      "instance_id": "44000068_short_01",
+      "pair_id": "44000068",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.14212325505038584,
+      "matched": true
+    },
+    {
+      "instance_id": "44000068_pinhole_05",
+      "pair_id": "44000068",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09072055363826417,
+      "matched": true
+    },
+    {
+      "instance_id": "44000086_short_01",
+      "pair_id": "44000086",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.05214328365639598,
+      "matched": true
+    },
+    {
+      "instance_id": "44000086_pinhole_06",
+      "pair_id": "44000086",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.12673917479649027,
+      "matched": true
+    },
+    {
+      "instance_id": "44000092_short_02",
+      "pair_id": "44000092",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.08838116819271538,
+      "matched": true
+    },
+    {
+      "instance_id": "44000092_short_03",
+      "pair_id": "44000092",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.054847001452621294,
+      "matched": true
+    },
+    {
+      "instance_id": "44000092_pinhole_08",
+      "pair_id": "44000092",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.10978897867938779,
+      "matched": true
+    },
+    {
+      "instance_id": "44000092_pinhole_09",
+      "pair_id": "44000092",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.07449459454317495,
+      "matched": true
+    },
+    {
+      "instance_id": "44000093_short_02",
+      "pair_id": "44000093",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.12022528734583231,
+      "matched": true
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "pair_id": "44000093",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.20021177844050014,
+      "matched": true
+    },
+    {
+      "instance_id": "44000093_pinhole_07",
+      "pair_id": "44000093",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.15532432466452537,
+      "matched": true
+    },
+    {
+      "instance_id": "44000093_pinhole_08",
+      "pair_id": "44000093",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.19567354525153827,
+      "matched": true
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "pair_id": "44000096",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.19341317733654265,
+      "matched": true
+    },
+    {
+      "instance_id": "44000096_pinhole_05",
+      "pair_id": "44000096",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.17825087288880853,
+      "matched": true
+    },
+    {
+      "instance_id": "44000104_short_01",
+      "pair_id": "44000104",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.09506307738339848,
+      "matched": true
+    },
+    {
+      "instance_id": "44000104_pinhole_05",
+      "pair_id": "44000104",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09067734816170694,
+      "matched": true
+    },
+    {
+      "instance_id": "44000107_short_01",
+      "pair_id": "44000107",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10875762524010127,
+      "matched": true
+    },
+    {
+      "instance_id": "44000107_pinhole_05",
+      "pair_id": "44000107",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.10356883087329224,
+      "matched": true
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "pair_id": "44000110",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.20074809619522133,
+      "matched": true
+    },
+    {
+      "instance_id": "44000110_pinhole_06",
+      "pair_id": "44000110",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.167827657221081,
+      "matched": true
+    },
+    {
+      "instance_id": "50600001_short_01",
+      "pair_id": "50600001",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10096800995548649,
+      "matched": true
+    },
+    {
+      "instance_id": "50600001_pinhole_02",
+      "pair_id": "50600001",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.12705985751258497,
+      "matched": true
+    },
+    {
+      "instance_id": "50600015_short_01",
+      "pair_id": "50600015",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.08158384355447353,
+      "matched": true
+    },
+    {
+      "instance_id": "50600015_pinhole_05",
+      "pair_id": "50600015",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11481764913447134,
+      "matched": true
+    },
+    {
+      "instance_id": "50600021_short_01",
+      "pair_id": "50600021",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.10704714656266028,
+      "matched": true
+    },
+    {
+      "instance_id": "50600021_pinhole_05",
+      "pair_id": "50600021",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.0764571190038831,
+      "matched": true
+    },
+    {
+      "instance_id": "50600024_short_01",
+      "pair_id": "50600024",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.06075245707433492,
+      "matched": true
+    },
+    {
+      "instance_id": "50600024_pinhole_04",
+      "pair_id": "50600024",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.09899519576440848,
+      "matched": true
+    },
+    {
+      "instance_id": "50600028_short_01",
+      "pair_id": "50600028",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.07747881181336935,
+      "matched": true
+    },
+    {
+      "instance_id": "50600028_pinhole_04",
+      "pair_id": "50600028",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.04311536224607808,
+      "matched": true
+    },
+    {
+      "instance_id": "50600032_short_01",
+      "pair_id": "50600032",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.04890810208975989,
+      "matched": true
+    },
+    {
+      "instance_id": "50600032_pinhole_02",
+      "pair_id": "50600032",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.16372829349690643,
+      "matched": true
+    },
+    {
+      "instance_id": "50600049_short_01",
+      "pair_id": "50600049",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.10355009580433024,
+      "matched": true
+    },
+    {
+      "instance_id": "50600049_pinhole_03",
+      "pair_id": "50600049",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.10699238344963602,
+      "matched": true
+    },
+    {
+      "instance_id": "50600049_short_05",
+      "pair_id": "50600049",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11751383681589163,
+      "matched": true
+    },
+    {
+      "instance_id": "77000008_short_01",
+      "pair_id": "77000008",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.061051532761973816,
+      "matched": true
+    },
+    {
+      "instance_id": "77000008_pinhole_04",
+      "pair_id": "77000008",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.10289486648284818,
+      "matched": true
+    },
+    {
+      "instance_id": "77000008_pinhole_06",
+      "pair_id": "77000008",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.14573210980041612,
+      "matched": true
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "pair_id": "77000019",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.06676339161060599,
+      "matched": true
+    },
+    {
+      "instance_id": "77000019_short_05",
+      "pair_id": "77000019",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.0885572167592648,
+      "matched": true
+    },
+    {
+      "instance_id": "77000020_pinhole_02",
+      "pair_id": "77000020",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.053346538246795805,
+      "matched": true
+    },
+    {
+      "instance_id": "77000020_short_04",
+      "pair_id": "77000020",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.2745295922785826,
+      "matched": true
+    },
+    {
+      "instance_id": "77000044_short_01",
+      "pair_id": "77000044",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.05393093167656118,
+      "matched": true
+    },
+    {
+      "instance_id": "77000044_pinhole_05",
+      "pair_id": "77000044",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.06612102710282763,
+      "matched": true
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "pair_id": "77000076",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11472903144897093,
+      "matched": true
+    },
+    {
+      "instance_id": "77000076_pinhole_05",
+      "pair_id": "77000076",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11463877994627766,
+      "matched": true
+    },
+    {
+      "instance_id": "77000081_pinhole_03",
+      "pair_id": "77000081",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.12321997534697933,
+      "matched": true
+    },
+    {
+      "instance_id": "77000081_short_05",
+      "pair_id": "77000081",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.11624940560270747,
+      "matched": true
+    },
+    {
+      "instance_id": "77000082_pinhole_03",
+      "pair_id": "77000082",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.08405798702354017,
+      "matched": true
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "pair_id": "77000082",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.03795291037328306,
+      "matched": true
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "pair_id": "77000083",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.09559607392675407,
+      "matched": true
+    },
+    {
+      "instance_id": "77000083_short_04",
+      "pair_id": "77000083",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12342439004078251,
+      "matched": true
+    },
+    {
+      "instance_id": "77000095_short_01",
+      "pair_id": "77000095",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.10060429053641202,
+      "matched": true
+    },
+    {
+      "instance_id": "77000095_pinhole_04",
+      "pair_id": "77000095",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.08419190093623866,
+      "matched": true
+    },
+    {
+      "instance_id": "92000006_pinhole_03",
+      "pair_id": "92000006",
+      "class_name": "pinhole",
+      "fold": 2,
+      "k5_radius": 0.10120596601596683,
+      "matched": true
+    },
+    {
+      "instance_id": "92000006_short_05",
+      "pair_id": "92000006",
+      "class_name": "short",
+      "fold": 2,
+      "k5_radius": 0.0991111067679659,
+      "matched": true
+    },
+    {
+      "instance_id": "92000008_short_01",
+      "pair_id": "92000008",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.12257930199163598,
+      "matched": true
+    },
+    {
+      "instance_id": "92000008_pinhole_04",
+      "pair_id": "92000008",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.10426347718478482,
+      "matched": true
+    },
+    {
+      "instance_id": "92000044_short_01",
+      "pair_id": "92000044",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.0514382875675244,
+      "matched": true
+    },
+    {
+      "instance_id": "92000044_pinhole_03",
+      "pair_id": "92000044",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.06514527108799484,
+      "matched": true
+    },
+    {
+      "instance_id": "92000060_short_01",
+      "pair_id": "92000060",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.0636116798532798,
+      "matched": true
+    },
+    {
+      "instance_id": "92000060_pinhole_04",
+      "pair_id": "92000060",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.04841041209981782,
+      "matched": true
+    },
+    {
+      "instance_id": "92000073_short_01",
+      "pair_id": "92000073",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.045484636507196786,
+      "matched": true
+    },
+    {
+      "instance_id": "92000073_pinhole_04",
+      "pair_id": "92000073",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.04571817422256117,
+      "matched": true
+    },
+    {
+      "instance_id": "92000077_short_01",
+      "pair_id": "92000077",
+      "class_name": "short",
+      "fold": 0,
+      "k5_radius": 0.04481196265578484,
+      "matched": true
+    },
+    {
+      "instance_id": "92000077_pinhole_04",
+      "pair_id": "92000077",
+      "class_name": "pinhole",
+      "fold": 0,
+      "k5_radius": 0.05053093972428106,
+      "matched": true
+    },
+    {
+      "instance_id": "92000081_short_01",
+      "pair_id": "92000081",
+      "class_name": "short",
+      "fold": 1,
+      "k5_radius": 0.09249423653209439,
+      "matched": true
+    },
+    {
+      "instance_id": "92000081_pinhole_05",
+      "pair_id": "92000081",
+      "class_name": "pinhole",
+      "fold": 1,
+      "k5_radius": 0.11442593204786007,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage10b_tmvb_feasibility
+mkdir -p results_for_gpt/deeppcb_stage10b_tmvb_feasibility
+
+# Run only after Gate-1 reports GATE1_PASSED=true. No checkpoint is saved or modified.
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/probe_deeppcb_stage10b_gradient.py \
+  --protocol configs/deeppcb_stage10b.json \
+  --gate1 results_for_gpt/deeppcb_stage10b_tmvb_feasibility \
+  --stage10ar results_for_gpt/deeppcb_stage10ar_pair_independent_manifold \
+  --instance_registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --output results_for_gpt/deeppcb_stage10b_tmvb_feasibility \
+  --device 0 > logs/deeppcb_stage10b_tmvb_feasibility/gate2_gradient.log 2>&1 &
+
+echo $! > logs/deeppcb_stage10b_tmvb_feasibility/gate2_gradient.pid

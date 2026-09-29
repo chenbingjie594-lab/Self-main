@@ -1,0 +1,5087 @@
+{
+  "status": "TMVB_50STEP_STABLE",
+  "classes": {
+    "short": {
+      "status": "FAIL",
+      "target_successful_steps": 50,
+      "successful_steps": 50,
+      "attempted_steps": 58,
+      "skipped_steps": 8,
+      "gradient_accumulation": 4,
+      "parameter_delta_l2": 0.008661375381052494,
+      "checkpoint_saved": false,
+      "records": [
+        {
+          "attempt": 1,
+          "successful_step": 0,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 65536.0,
+          "scale_after": 32768.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "13000008_short_01",
+              "fold": 0,
+              "z": 14.538322448730469,
+              "denoise_loss": 0.0018982762703672051,
+              "tmvb_loss": 178.31915283203125,
+              "total_loss": 178.321044921875
+            },
+            {
+              "instance_id": "00041047_short_08",
+              "fold": 0,
+              "z": 2.98486065864563,
+              "denoise_loss": 0.0018531151581555605,
+              "tmvb_loss": 3.240568161010742,
+              "total_loss": 3.2424213886260986
+            },
+            {
+              "instance_id": "20085033_short_02",
+              "fold": 0,
+              "z": 8.39507007598877,
+              "denoise_loss": 0.0010752459056675434,
+              "tmvb_loss": 51.98939514160156,
+              "total_loss": 51.99047088623047
+            },
+            {
+              "instance_id": "13000174_short_01",
+              "fold": 2,
+              "z": 0.699024498462677,
+              "denoise_loss": 0.0036536650732159615,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0036536650732159615
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "successful_step": 0,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 32768.0,
+          "scale_after": 16384.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "13000097_short_01",
+              "fold": 1,
+              "z": 4.580013275146484,
+              "denoise_loss": 0.0016484127845615149,
+              "tmvb_loss": 11.528132438659668,
+              "total_loss": 11.529780387878418
+            },
+            {
+              "instance_id": "13000022_short_02",
+              "fold": 1,
+              "z": 4.668227195739746,
+              "denoise_loss": 0.0016353022074326873,
+              "tmvb_loss": 12.134942054748535,
+              "total_loss": 12.136577606201172
+            },
+            {
+              "instance_id": "00041190_short_01",
+              "fold": 2,
+              "z": 10.38025188446045,
+              "denoise_loss": 0.002088376320898533,
+              "tmvb_loss": 84.55812072753906,
+              "total_loss": 84.56021118164062
+            },
+            {
+              "instance_id": "00041150_short_01",
+              "fold": 1,
+              "z": 1.8936383724212646,
+              "denoise_loss": 0.0018431871430948377,
+              "tmvb_loss": 0.5025895237922668,
+              "total_loss": 0.504432737827301
+            }
+          ]
+        },
+        {
+          "attempt": 3,
+          "successful_step": 0,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 16384.0,
+          "scale_after": 8192.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 3.2958486080169678,
+              "denoise_loss": 0.0019378564320504665,
+              "tmvb_loss": 4.456936359405518,
+              "total_loss": 4.458874225616455
+            },
+            {
+              "instance_id": "00041057_short_06",
+              "fold": 2,
+              "z": 10.760294914245605,
+              "denoise_loss": 0.002476066816598177,
+              "tmvb_loss": 91.69196319580078,
+              "total_loss": 91.69444274902344
+            },
+            {
+              "instance_id": "00041057_short_01",
+              "fold": 2,
+              "z": 7.528707027435303,
+              "denoise_loss": 0.0014386603143066168,
+              "tmvb_loss": 40.24638748168945,
+              "total_loss": 40.247825622558594
+            },
+            {
+              "instance_id": "00041169_short_01",
+              "fold": 1,
+              "z": 0.9623516201972961,
+              "denoise_loss": 0.0026247131172567606,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0026247131172567606
+            }
+          ]
+        },
+        {
+          "attempt": 4,
+          "successful_step": 0,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 8192.0,
+          "scale_after": 4096.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "13000037_short_03",
+              "fold": 0,
+              "z": 0.3999122679233551,
+              "denoise_loss": 0.0022121923975646496,
+              "tmvb_loss": 0.02202550880610943,
+              "total_loss": 0.024237701669335365
+            },
+            {
+              "instance_id": "13000110_short_06",
+              "fold": 1,
+              "z": 0.9561969041824341,
+              "denoise_loss": 0.0017949885223060846,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0017949885223060846
+            },
+            {
+              "instance_id": "00041047_short_08",
+              "fold": 0,
+              "z": 2.969194173812866,
+              "denoise_loss": 0.0012653900776058435,
+              "tmvb_loss": 3.1844091415405273,
+              "total_loss": 3.1856744289398193
+            },
+            {
+              "instance_id": "13000029_short_03",
+              "fold": 0,
+              "z": 6.522894859313965,
+              "denoise_loss": 0.0010275110835209489,
+              "tmvb_loss": 28.496294021606445,
+              "total_loss": 28.49732208251953
+            }
+          ]
+        },
+        {
+          "attempt": 5,
+          "successful_step": 1,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 304.4690856933594,
+          "scale_before": 4096.0,
+          "scale_after": 4096.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "50600021_short_01",
+              "fold": 2,
+              "z": 4.108955383300781,
+              "denoise_loss": 0.001303251483477652,
+              "tmvb_loss": 8.551252365112305,
+              "total_loss": 8.552556037902832
+            },
+            {
+              "instance_id": "13000079_short_01",
+              "fold": 2,
+              "z": 11.9720458984375,
+              "denoise_loss": 0.002101902849972248,
+              "tmvb_loss": 116.36676788330078,
+              "total_loss": 116.3688735961914
+            },
+            {
+              "instance_id": "77000019_short_05",
+              "fold": 0,
+              "z": 0.30132120847702026,
+              "denoise_loss": 0.0019187744474038482,
+              "tmvb_loss": 0.0610094889998436,
+              "total_loss": 0.06292826682329178
+            },
+            {
+              "instance_id": "20085051_short_01",
+              "fold": 1,
+              "z": 1.0589892864227295,
+              "denoise_loss": 0.0036647766828536987,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0036647766828536987
+            }
+          ]
+        },
+        {
+          "attempt": 6,
+          "successful_step": 1,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 4096.0,
+          "scale_after": 2048.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "00041039_short_01",
+              "fold": 1,
+              "z": 1.0863581895828247,
+              "denoise_loss": 0.0019839780870825052,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0019839780870825052
+            },
+            {
+              "instance_id": "13000024_short_03",
+              "fold": 2,
+              "z": 12.03565788269043,
+              "denoise_loss": 0.0015160883776843548,
+              "tmvb_loss": 117.74322509765625,
+              "total_loss": 117.74474334716797
+            },
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 13.605530738830566,
+              "denoise_loss": 0.00237552379257977,
+              "tmvb_loss": 154.27696228027344,
+              "total_loss": 154.2793426513672
+            },
+            {
+              "instance_id": "20085221_short_03",
+              "fold": 0,
+              "z": 0.658069372177124,
+              "denoise_loss": 0.002409288426861167,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002409288426861167
+            }
+          ]
+        },
+        {
+          "attempt": 7,
+          "successful_step": 2,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 330.838623046875,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085051_short_01",
+              "fold": 1,
+              "z": 1.229530930519104,
+              "denoise_loss": 0.0033889804035425186,
+              "tmvb_loss": 0.0020095547661185265,
+              "total_loss": 0.005398535169661045
+            },
+            {
+              "instance_id": "13000024_short_02",
+              "fold": 2,
+              "z": 9.002348899841309,
+              "denoise_loss": 0.0016711594071239233,
+              "tmvb_loss": 61.1155891418457,
+              "total_loss": 61.11725997924805
+            },
+            {
+              "instance_id": "13000037_short_03",
+              "fold": 0,
+              "z": 4.897490978240967,
+              "denoise_loss": 0.003448221366852522,
+              "tmvb_loss": 13.784795761108398,
+              "total_loss": 13.788244247436523
+            },
+            {
+              "instance_id": "20085217_short_01",
+              "fold": 2,
+              "z": 0.6936445236206055,
+              "denoise_loss": 0.0025760792195796967,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0025760792195796967
+            }
+          ]
+        },
+        {
+          "attempt": 8,
+          "successful_step": 3,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 328.15008544921875,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041190_short_01",
+              "fold": 2,
+              "z": 10.418720245361328,
+              "denoise_loss": 0.0025826822966337204,
+              "tmvb_loss": 85.26707458496094,
+              "total_loss": 85.26966094970703
+            },
+            {
+              "instance_id": "00041169_short_01",
+              "fold": 1,
+              "z": 1.0735965967178345,
+              "denoise_loss": 0.002561660949140787,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002561660949140787
+            },
+            {
+              "instance_id": "44000092_short_02",
+              "fold": 2,
+              "z": 1.935313105583191,
+              "denoise_loss": 0.002361934632062912,
+              "tmvb_loss": 0.5634157061576843,
+              "total_loss": 0.5657776594161987
+            },
+            {
+              "instance_id": "00041180_short_01",
+              "fold": 0,
+              "z": 0.44362032413482666,
+              "denoise_loss": 0.0017994031077250838,
+              "tmvb_loss": 0.010962482541799545,
+              "total_loss": 0.012761885300278664
+            }
+          ]
+        },
+        {
+          "attempt": 9,
+          "successful_step": 4,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 384.4430236816406,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085225_short_05",
+              "fold": 0,
+              "z": 11.9972562789917,
+              "denoise_loss": 0.0015302520478144288,
+              "tmvb_loss": 116.91130828857422,
+              "total_loss": 116.912841796875
+            },
+            {
+              "instance_id": "20085221_short_04",
+              "fold": 0,
+              "z": 0.3647768795490265,
+              "denoise_loss": 0.0022633313201367855,
+              "tmvb_loss": 0.03368888422846794,
+              "total_loss": 0.035952214151620865
+            },
+            {
+              "instance_id": "20085020_short_02",
+              "fold": 2,
+              "z": 0.930082380771637,
+              "denoise_loss": 0.0010996416676789522,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0010996416676789522
+            },
+            {
+              "instance_id": "00041081_short_01",
+              "fold": 2,
+              "z": 0.9214368462562561,
+              "denoise_loss": 0.001379371271468699,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001379371271468699
+            }
+          ]
+        },
+        {
+          "attempt": 10,
+          "successful_step": 5,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 42.685516357421875,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000076_short_01",
+              "fold": 1,
+              "z": 0.6149216890335083,
+              "denoise_loss": 0.002030000789090991,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002030000789090991
+            },
+            {
+              "instance_id": "13000009_short_08",
+              "fold": 2,
+              "z": 1.7881513833999634,
+              "denoise_loss": 0.0017552939243614674,
+              "tmvb_loss": 0.36415010690689087,
+              "total_loss": 0.36590540409088135
+            },
+            {
+              "instance_id": "44000086_short_01",
+              "fold": 2,
+              "z": 0.7483901381492615,
+              "denoise_loss": 0.0032365203369408846,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0032365203369408846
+            },
+            {
+              "instance_id": "00041133_short_01",
+              "fold": 2,
+              "z": 1.4333624839782715,
+              "denoise_loss": 0.0011251454707235098,
+              "tmvb_loss": 0.061831600964069366,
+              "total_loss": 0.06295674294233322
+            }
+          ]
+        },
+        {
+          "attempt": 11,
+          "successful_step": 6,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 209.52511596679688,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085090_short_01",
+              "fold": 1,
+              "z": 1.4416800737380981,
+              "denoise_loss": 0.002309013158082962,
+              "tmvb_loss": 0.06603728234767914,
+              "total_loss": 0.0683462917804718
+            },
+            {
+              "instance_id": "20085238_short_02",
+              "fold": 1,
+              "z": 2.1202831268310547,
+              "denoise_loss": 0.0015332046896219254,
+              "tmvb_loss": 0.8753104209899902,
+              "total_loss": 0.8768436312675476
+            },
+            {
+              "instance_id": "13000029_short_02",
+              "fold": 0,
+              "z": 7.804105758666992,
+              "denoise_loss": 0.0015222304500639439,
+              "tmvb_loss": 43.81649398803711,
+              "total_loss": 43.818016052246094
+            },
+            {
+              "instance_id": "00041114_short_07",
+              "fold": 2,
+              "z": 1.3478039503097534,
+              "denoise_loss": 0.0015437246765941381,
+              "tmvb_loss": 0.026601960882544518,
+              "total_loss": 0.0281456857919693
+            }
+          ]
+        },
+        {
+          "attempt": 12,
+          "successful_step": 7,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 147.33059692382812,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041081_short_01",
+              "fold": 2,
+              "z": 1.99521803855896,
+              "denoise_loss": 0.001558594056405127,
+              "tmvb_loss": 0.6569348573684692,
+              "total_loss": 0.6584934592247009
+            },
+            {
+              "instance_id": "13000102_short_01",
+              "fold": 2,
+              "z": 0.6222033500671387,
+              "denoise_loss": 0.0011792110744863749,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0011792110744863749
+            },
+            {
+              "instance_id": "20085071_short_06",
+              "fold": 0,
+              "z": 1.6812541484832764,
+              "denoise_loss": 0.0014950758777558804,
+              "tmvb_loss": 0.2465631663799286,
+              "total_loss": 0.2480582445859909
+            },
+            {
+              "instance_id": "00041133_short_01",
+              "fold": 2,
+              "z": 1.5189896821975708,
+              "denoise_loss": 0.0010185902938246727,
+              "tmvb_loss": 0.11174766719341278,
+              "total_loss": 0.11276625841856003
+            }
+          ]
+        },
+        {
+          "attempt": 13,
+          "successful_step": 8,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 2.1934049129486084,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000110_short_06",
+              "fold": 1,
+              "z": 0.6676077842712402,
+              "denoise_loss": 0.001736185746267438,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001736185746267438
+            },
+            {
+              "instance_id": "00041181_short_05",
+              "fold": 2,
+              "z": 0.5015140175819397,
+              "denoise_loss": 0.002117942785844207,
+              "tmvb_loss": 0.0021910059731453657,
+              "total_loss": 0.0043089487589895725
+            },
+            {
+              "instance_id": "44000092_short_02",
+              "fold": 2,
+              "z": 1.216742753982544,
+              "denoise_loss": 0.0026750368997454643,
+              "tmvb_loss": 0.0010265539167448878,
+              "total_loss": 0.003701590932905674
+            },
+            {
+              "instance_id": "20085051_short_01",
+              "fold": 1,
+              "z": 1.0994857549667358,
+              "denoise_loss": 0.0035183951258659363,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0035183951258659363
+            }
+          ]
+        },
+        {
+          "attempt": 14,
+          "successful_step": 9,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 52.8504638671875,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000044_short_01",
+              "fold": 0,
+              "z": 2.097116708755493,
+              "denoise_loss": 0.0021436852402985096,
+              "tmvb_loss": 0.8324990272521973,
+              "total_loss": 0.8346427083015442
+            },
+            {
+              "instance_id": "20085238_short_03",
+              "fold": 1,
+              "z": 1.682440996170044,
+              "denoise_loss": 0.001683926791884005,
+              "tmvb_loss": 0.24774323403835297,
+              "total_loss": 0.24942715466022491
+            },
+            {
+              "instance_id": "13000025_short_02",
+              "fold": 0,
+              "z": 2.8489537239074707,
+              "denoise_loss": 0.0014494156930595636,
+              "tmvb_loss": 2.769730806350708,
+              "total_loss": 2.7711801528930664
+            },
+            {
+              "instance_id": "44000062_short_01",
+              "fold": 1,
+              "z": 0.7103030681610107,
+              "denoise_loss": 0.0029803826473653316,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0029803826473653316
+            }
+          ]
+        },
+        {
+          "attempt": 15,
+          "successful_step": 10,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 86.59724426269531,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085225_short_04",
+              "fold": 0,
+              "z": 0.3824567496776581,
+              "denoise_loss": 0.0013276517856866121,
+              "tmvb_loss": 0.027511347085237503,
+              "total_loss": 0.028838999569416046
+            },
+            {
+              "instance_id": "13000031_short_01",
+              "fold": 2,
+              "z": 0.8469383120536804,
+              "denoise_loss": 0.001577115384861827,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001577115384861827
+            },
+            {
+              "instance_id": "20085026_short_01",
+              "fold": 0,
+              "z": 6.8558526039123535,
+              "denoise_loss": 0.002751353895291686,
+              "tmvb_loss": 32.16193771362305,
+              "total_loss": 32.16468811035156
+            },
+            {
+              "instance_id": "00041125_short_01",
+              "fold": 0,
+              "z": 0.5866077542304993,
+              "denoise_loss": 0.001650925725698471,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001650925725698471
+            }
+          ]
+        },
+        {
+          "attempt": 16,
+          "successful_step": 11,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 28.684280395507812,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000026_short_02",
+              "fold": 2,
+              "z": 2.913079261779785,
+              "denoise_loss": 0.0018912960076704621,
+              "tmvb_loss": 2.9872848987579346,
+              "total_loss": 2.9891762733459473
+            },
+            {
+              "instance_id": "13000174_short_01",
+              "fold": 2,
+              "z": 1.4459019899368286,
+              "denoise_loss": 0.004409471061080694,
+              "tmvb_loss": 0.06822498142719269,
+              "total_loss": 0.07263445109128952
+            },
+            {
+              "instance_id": "13000025_short_02",
+              "fold": 0,
+              "z": 2.8351805210113525,
+              "denoise_loss": 0.0014406435657292604,
+              "tmvb_loss": 2.724076509475708,
+              "total_loss": 2.7255170345306396
+            },
+            {
+              "instance_id": "77000081_short_05",
+              "fold": 1,
+              "z": 1.1690733432769775,
+              "denoise_loss": 0.0017752640414983034,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0017752640414983034
+            }
+          ]
+        },
+        {
+          "attempt": 17,
+          "successful_step": 12,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 341.73175048828125,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000092_short_02",
+              "fold": 2,
+              "z": 3.955580949783325,
+              "denoise_loss": 0.0035196091048419476,
+              "tmvb_loss": 7.677765369415283,
+              "total_loss": 7.6812849044799805
+            },
+            {
+              "instance_id": "20085027_short_01",
+              "fold": 1,
+              "z": 1.8453549146652222,
+              "denoise_loss": 0.0019161017844453454,
+              "tmvb_loss": 0.43646112084388733,
+              "total_loss": 0.4383772313594818
+            },
+            {
+              "instance_id": "13000079_short_01",
+              "fold": 2,
+              "z": 4.872373104095459,
+              "denoise_loss": 0.002491902094334364,
+              "tmvb_loss": 13.59891128540039,
+              "total_loss": 13.60140323638916
+            },
+            {
+              "instance_id": "20085185_short_08",
+              "fold": 0,
+              "z": 0.6459099054336548,
+              "denoise_loss": 0.002204876858741045,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002204876858741045
+            }
+          ]
+        },
+        {
+          "attempt": 18,
+          "successful_step": 13,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 13.664798736572266,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041089_short_05",
+              "fold": 1,
+              "z": 1.194121241569519,
+              "denoise_loss": 0.00226473156362772,
+              "tmvb_loss": 8.870565943652764e-05,
+              "total_loss": 0.0023534372448921204
+            },
+            {
+              "instance_id": "13000102_short_01",
+              "fold": 2,
+              "z": 0.7341258525848389,
+              "denoise_loss": 0.0014138779370114207,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0014138779370114207
+            },
+            {
+              "instance_id": "00041057_short_06",
+              "fold": 2,
+              "z": 1.9361716508865356,
+              "denoise_loss": 0.0018584803910925984,
+              "tmvb_loss": 0.5647053122520447,
+              "total_loss": 0.5665637850761414
+            },
+            {
+              "instance_id": "20085155_short_01",
+              "fold": 0,
+              "z": 1.2968006134033203,
+              "denoise_loss": 0.0040930286049842834,
+              "tmvb_loss": 0.01256590336561203,
+              "total_loss": 0.016658931970596313
+            }
+          ]
+        },
+        {
+          "attempt": 19,
+          "successful_step": 14,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 211.7527313232422,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000104_short_01",
+              "fold": 2,
+              "z": 2.5011465549468994,
+              "denoise_loss": 0.0030782464891672134,
+              "tmvb_loss": 1.733024001121521,
+              "total_loss": 1.7361022233963013
+            },
+            {
+              "instance_id": "20085026_short_01",
+              "fold": 0,
+              "z": 6.095433235168457,
+              "denoise_loss": 0.00270593399181962,
+              "tmvb_loss": 24.115272521972656,
+              "total_loss": 24.117979049682617
+            },
+            {
+              "instance_id": "00041114_short_01",
+              "fold": 2,
+              "z": 1.292712926864624,
+              "denoise_loss": 0.0018809892935678363,
+              "tmvb_loss": 0.011666171252727509,
+              "total_loss": 0.013547160662710667
+            },
+            {
+              "instance_id": "13000037_short_02",
+              "fold": 0,
+              "z": 0.6326553225517273,
+              "denoise_loss": 0.002459462732076645,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002459462732076645
+            }
+          ]
+        },
+        {
+          "attempt": 20,
+          "successful_step": 15,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 45.283233642578125,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085155_short_01",
+              "fold": 0,
+              "z": 0.25819915533065796,
+              "denoise_loss": 0.0025939212646335363,
+              "tmvb_loss": 0.08417138457298279,
+              "total_loss": 0.08676530420780182
+            },
+            {
+              "instance_id": "13000037_short_02",
+              "fold": 0,
+              "z": 4.603569507598877,
+              "denoise_loss": 0.002551863668486476,
+              "tmvb_loss": 11.68864917755127,
+              "total_loss": 11.691201210021973
+            },
+            {
+              "instance_id": "92000077_short_01",
+              "fold": 0,
+              "z": 2.4609973430633545,
+              "denoise_loss": 0.002535324078053236,
+              "tmvb_loss": 1.6289275884628296,
+              "total_loss": 1.6314629316329956
+            },
+            {
+              "instance_id": "44000096_short_01",
+              "fold": 1,
+              "z": 1.1574572324752808,
+              "denoise_loss": 0.002338279504328966,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002338279504328966
+            }
+          ]
+        },
+        {
+          "attempt": 21,
+          "successful_step": 16,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 41.90339279174805,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000076_short_01",
+              "fold": 1,
+              "z": 0.8769858479499817,
+              "denoise_loss": 0.002600803505629301,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002600803505629301
+            },
+            {
+              "instance_id": "13000022_short_03",
+              "fold": 1,
+              "z": 2.151982545852661,
+              "denoise_loss": 0.0020139478147029877,
+              "tmvb_loss": 0.9356299638748169,
+              "total_loss": 0.9376438856124878
+            },
+            {
+              "instance_id": "20085020_short_02",
+              "fold": 2,
+              "z": 1.0210744142532349,
+              "denoise_loss": 0.0017578008119016886,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0017578008119016886
+            },
+            {
+              "instance_id": "13000022_short_02",
+              "fold": 1,
+              "z": 4.581904411315918,
+              "denoise_loss": 0.00217624194920063,
+              "tmvb_loss": 11.54097843170166,
+              "total_loss": 11.5431547164917
+            }
+          ]
+        },
+        {
+          "attempt": 22,
+          "successful_step": 16,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 2048.0,
+          "scale_after": 1024.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "13000197_short_01",
+              "fold": 0,
+              "z": 6.06113338470459,
+              "denoise_loss": 0.003092618193477392,
+              "tmvb_loss": 23.77957534790039,
+              "total_loss": 23.78266716003418
+            },
+            {
+              "instance_id": "20085020_short_02",
+              "fold": 2,
+              "z": 0.9012916088104248,
+              "denoise_loss": 0.0022640300448983908,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0022640300448983908
+            },
+            {
+              "instance_id": "50600028_short_01",
+              "fold": 0,
+              "z": 8.037726402282715,
+              "denoise_loss": 0.003260992933064699,
+              "tmvb_loss": 46.963932037353516,
+              "total_loss": 46.967193603515625
+            },
+            {
+              "instance_id": "44000104_short_01",
+              "fold": 2,
+              "z": 1.246170163154602,
+              "denoise_loss": 0.00217504077591002,
+              "tmvb_loss": 0.003778227837756276,
+              "total_loss": 0.005953268613666296
+            }
+          ]
+        },
+        {
+          "attempt": 23,
+          "successful_step": 17,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 93.66431427001953,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085238_short_02",
+              "fold": 1,
+              "z": 1.0138379335403442,
+              "denoise_loss": 0.0017448130529373884,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0017448130529373884
+            },
+            {
+              "instance_id": "13000079_short_01",
+              "fold": 2,
+              "z": 3.5517594814300537,
+              "denoise_loss": 0.0021223006770014763,
+              "tmvb_loss": 5.602956771850586,
+              "total_loss": 5.605079174041748
+            },
+            {
+              "instance_id": "13000022_short_02",
+              "fold": 1,
+              "z": 4.545145511627197,
+              "denoise_loss": 0.002341262297704816,
+              "tmvb_loss": 11.292574882507324,
+              "total_loss": 11.294916152954102
+            },
+            {
+              "instance_id": "92000073_short_01",
+              "fold": 0,
+              "z": 2.1746323108673096,
+              "denoise_loss": 0.0017252732068300247,
+              "tmvb_loss": 0.9799602627754211,
+              "total_loss": 0.9816855192184448
+            }
+          ]
+        },
+        {
+          "attempt": 24,
+          "successful_step": 17,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 1024.0,
+          "scale_after": 512.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "00041169_short_01",
+              "fold": 1,
+              "z": 0.7453175187110901,
+              "denoise_loss": 0.003826920408755541,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003826920408755541
+            },
+            {
+              "instance_id": "00041085_short_01",
+              "fold": 0,
+              "z": 1.0038645267486572,
+              "denoise_loss": 0.002159083727747202,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002159083727747202
+            },
+            {
+              "instance_id": "13000008_short_01",
+              "fold": 0,
+              "z": 6.438575744628906,
+              "denoise_loss": 0.0022220956161618233,
+              "tmvb_loss": 27.603179931640625,
+              "total_loss": 27.60540199279785
+            },
+            {
+              "instance_id": "13000024_short_02",
+              "fold": 2,
+              "z": 2.4825286865234375,
+              "denoise_loss": 0.0025597710628062487,
+              "tmvb_loss": 1.6843518018722534,
+              "total_loss": 1.6869115829467773
+            }
+          ]
+        },
+        {
+          "attempt": 25,
+          "successful_step": 18,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 122.20285034179688,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000024_short_03",
+              "fold": 2,
+              "z": 1.8715020418167114,
+              "denoise_loss": 0.002103293314576149,
+              "tmvb_loss": 0.47169309854507446,
+              "total_loss": 0.47379639744758606
+            },
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 2.604783296585083,
+              "denoise_loss": 0.002074094954878092,
+              "tmvb_loss": 2.0166285037994385,
+              "total_loss": 2.018702507019043
+            },
+            {
+              "instance_id": "00041114_short_01",
+              "fold": 2,
+              "z": 3.848663330078125,
+              "denoise_loss": 0.002758671995252371,
+              "tmvb_loss": 7.096685409545898,
+              "total_loss": 7.0994439125061035
+            },
+            {
+              "instance_id": "44000092_short_03",
+              "fold": 2,
+              "z": 0.9832532405853271,
+              "denoise_loss": 0.002159286756068468,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002159286756068468
+            }
+          ]
+        },
+        {
+          "attempt": 26,
+          "successful_step": 19,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 45.78617858886719,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000092_short_02",
+              "fold": 2,
+              "z": 1.294182538986206,
+              "denoise_loss": 0.0024969440419226885,
+              "tmvb_loss": 0.011985797435045242,
+              "total_loss": 0.014482741244137287
+            },
+            {
+              "instance_id": "77000082_short_05",
+              "fold": 0,
+              "z": 2.0389161109924316,
+              "denoise_loss": 0.002546505071222782,
+              "tmvb_loss": 0.7296802401542664,
+              "total_loss": 0.7322267293930054
+            },
+            {
+              "instance_id": "20085014_short_01",
+              "fold": 2,
+              "z": 1.0805240869522095,
+              "denoise_loss": 0.0028465574141591787,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0028465574141591787
+            },
+            {
+              "instance_id": "00041043_short_01",
+              "fold": 1,
+              "z": 1.8404892683029175,
+              "denoise_loss": 0.002846491988748312,
+              "tmvb_loss": 0.43005579710006714,
+              "total_loss": 0.4329022765159607
+            }
+          ]
+        },
+        {
+          "attempt": 27,
+          "successful_step": 20,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 2062.338623046875,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000008_short_02",
+              "fold": 0,
+              "z": 9.525345802307129,
+              "denoise_loss": 0.0020195089746266603,
+              "tmvb_loss": 69.56632232666016,
+              "total_loss": 69.56834411621094
+            },
+            {
+              "instance_id": "20085026_short_01",
+              "fold": 0,
+              "z": 6.755442142486572,
+              "denoise_loss": 0.003965327050536871,
+              "tmvb_loss": 31.03313636779785,
+              "total_loss": 31.03710174560547
+            },
+            {
+              "instance_id": "20085221_short_03",
+              "fold": 0,
+              "z": 1.0681647062301636,
+              "denoise_loss": 0.0037165102548897266,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0037165102548897266
+            },
+            {
+              "instance_id": "13000008_short_01",
+              "fold": 0,
+              "z": 14.163650512695312,
+              "denoise_loss": 0.0027306722477078438,
+              "tmvb_loss": 168.4530792236328,
+              "total_loss": 168.455810546875
+            }
+          ]
+        },
+        {
+          "attempt": 28,
+          "successful_step": 21,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 40.549739837646484,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085090_short_01",
+              "fold": 1,
+              "z": 1.049009919166565,
+              "denoise_loss": 0.002716796938329935,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002716796938329935
+            },
+            {
+              "instance_id": "50600049_short_01",
+              "fold": 1,
+              "z": 1.7525025606155396,
+              "denoise_loss": 0.0033232199493795633,
+              "tmvb_loss": 0.32239648699760437,
+              "total_loss": 0.3257197141647339
+            },
+            {
+              "instance_id": "13000024_short_03",
+              "fold": 2,
+              "z": 2.0583834648132324,
+              "denoise_loss": 0.0025208103470504284,
+              "tmvb_loss": 0.7633177638053894,
+              "total_loss": 0.7658385634422302
+            },
+            {
+              "instance_id": "77000044_short_01",
+              "fold": 0,
+              "z": 1.5104138851165771,
+              "denoise_loss": 0.003041663905605674,
+              "tmvb_loss": 0.10608766227960587,
+              "total_loss": 0.10912932455539703
+            }
+          ]
+        },
+        {
+          "attempt": 29,
+          "successful_step": 22,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 20.97357749938965,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041030_short_01",
+              "fold": 0,
+              "z": 0.9817780256271362,
+              "denoise_loss": 0.0027565890923142433,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0027565890923142433
+            },
+            {
+              "instance_id": "20085020_short_02",
+              "fold": 2,
+              "z": 0.8518751263618469,
+              "denoise_loss": 0.0026690391823649406,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0026690391823649406
+            },
+            {
+              "instance_id": "92000081_short_01",
+              "fold": 1,
+              "z": 0.5638570189476013,
+              "denoise_loss": 0.003034641034901142,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003034641034901142
+            },
+            {
+              "instance_id": "13000027_short_02",
+              "fold": 1,
+              "z": 1.5331119298934937,
+              "denoise_loss": 0.0019460436888039112,
+              "tmvb_loss": 0.12138886749744415,
+              "total_loss": 0.12333491444587708
+            }
+          ]
+        },
+        {
+          "attempt": 30,
+          "successful_step": 23,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 541.4035034179688,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000003_short_08",
+              "fold": 0,
+              "z": 5.186329364776611,
+              "denoise_loss": 0.003931059502065182,
+              "tmvb_loss": 16.01301383972168,
+              "total_loss": 16.016944885253906
+            },
+            {
+              "instance_id": "20085103_short_01",
+              "fold": 2,
+              "z": 1.3664623498916626,
+              "denoise_loss": 0.0036872494965791702,
+              "tmvb_loss": 0.03303650766611099,
+              "total_loss": 0.03672375530004501
+            },
+            {
+              "instance_id": "13000029_short_03",
+              "fold": 0,
+              "z": 5.41718053817749,
+              "denoise_loss": 0.0023329961113631725,
+              "tmvb_loss": 17.913867950439453,
+              "total_loss": 17.916200637817383
+            },
+            {
+              "instance_id": "13000024_short_02",
+              "fold": 2,
+              "z": 3.2732656002044678,
+              "denoise_loss": 0.0031066802330315113,
+              "tmvb_loss": 4.362094402313232,
+              "total_loss": 4.365200996398926
+            }
+          ]
+        },
+        {
+          "attempt": 31,
+          "successful_step": 24,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 13.327377319335938,
+          "scale_before": 512.0,
+          "scale_after": 512.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000068_short_01",
+              "fold": 2,
+              "z": 0.5396671891212463,
+              "denoise_loss": 0.0039802114479243755,
+              "tmvb_loss": 7.49092287151143e-05,
+              "total_loss": 0.004055120516568422
+            },
+            {
+              "instance_id": "13000025_short_02",
+              "fold": 0,
+              "z": 2.9774649143218994,
+              "denoise_loss": 0.002488174708560109,
+              "tmvb_loss": 3.2139956951141357,
+              "total_loss": 3.2164838314056396
+            },
+            {
+              "instance_id": "00041030_short_01",
+              "fold": 0,
+              "z": 0.7469671368598938,
+              "denoise_loss": 0.004190772771835327,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004190772771835327
+            },
+            {
+              "instance_id": "20085185_short_02",
+              "fold": 0,
+              "z": 1.0043789148330688,
+              "denoise_loss": 0.0031178731005638838,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0031178731005638838
+            }
+          ]
+        },
+        {
+          "attempt": 32,
+          "successful_step": 24,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 512.0,
+          "scale_after": 256.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "92000060_short_01",
+              "fold": 0,
+              "z": 0.45377230644226074,
+              "denoise_loss": 0.004252236802130938,
+              "tmvb_loss": 0.008939682506024837,
+              "total_loss": 0.013191919773817062
+            },
+            {
+              "instance_id": "00041046_short_02",
+              "fold": 1,
+              "z": 0.673463761806488,
+              "denoise_loss": 0.003526316722854972,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003526316722854972
+            },
+            {
+              "instance_id": "13000008_short_01",
+              "fold": 0,
+              "z": 13.497541427612305,
+              "denoise_loss": 0.003304640296846628,
+              "tmvb_loss": 151.60598754882812,
+              "total_loss": 151.6092987060547
+            },
+            {
+              "instance_id": "20085238_short_02",
+              "fold": 1,
+              "z": 1.1866357326507568,
+              "denoise_loss": 0.0026138066314160824,
+              "tmvb_loss": 3.735945483640535e-06,
+              "total_loss": 0.0026175426319241524
+            }
+          ]
+        },
+        {
+          "attempt": 33,
+          "successful_step": 25,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 123.7215805053711,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085143_short_01",
+              "fold": 1,
+              "z": 1.5710687637329102,
+              "denoise_loss": 0.005453979130834341,
+              "tmvb_loss": 0.14927859604358673,
+              "total_loss": 0.1547325700521469
+            },
+            {
+              "instance_id": "13000126_short_01",
+              "fold": 1,
+              "z": 2.242907762527466,
+              "denoise_loss": 0.0029611503705382347,
+              "tmvb_loss": 1.1197975873947144,
+              "total_loss": 1.1227587461471558
+            },
+            {
+              "instance_id": "00041089_short_05",
+              "fold": 1,
+              "z": 1.6296703815460205,
+              "denoise_loss": 0.004734335001558065,
+              "tmvb_loss": 0.1979960799217224,
+              "total_loss": 0.20273041725158691
+            },
+            {
+              "instance_id": "13000126_short_01",
+              "fold": 1,
+              "z": 2.4112932682037354,
+              "denoise_loss": 0.002537286840379238,
+              "tmvb_loss": 1.5045239925384521,
+              "total_loss": 1.507061243057251
+            }
+          ]
+        },
+        {
+          "attempt": 34,
+          "successful_step": 26,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 20.567594528198242,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041133_short_01",
+              "fold": 2,
+              "z": 1.3602824211120605,
+              "denoise_loss": 0.0029951632022857666,
+              "tmvb_loss": 0.03082817792892456,
+              "total_loss": 0.03382334113121033
+            },
+            {
+              "instance_id": "00041142_short_05",
+              "fold": 2,
+              "z": 1.3871549367904663,
+              "denoise_loss": 0.0039658136665821075,
+              "tmvb_loss": 0.040986839681863785,
+              "total_loss": 0.04495265334844589
+            },
+            {
+              "instance_id": "92000044_short_01",
+              "fold": 0,
+              "z": 0.4923618733882904,
+              "denoise_loss": 0.004512893036007881,
+              "tmvb_loss": 0.0031315581873059273,
+              "total_loss": 0.0076444512233138084
+            },
+            {
+              "instance_id": "00041114_short_07",
+              "fold": 2,
+              "z": 0.9708514213562012,
+              "denoise_loss": 0.003293909365311265,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003293909365311265
+            }
+          ]
+        },
+        {
+          "attempt": 35,
+          "successful_step": 27,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 335.3210144042969,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000017_short_02",
+              "fold": 2,
+              "z": 1.97118079662323,
+              "denoise_loss": 0.003949540667235851,
+              "tmvb_loss": 0.6185474991798401,
+              "total_loss": 0.622497022151947
+            },
+            {
+              "instance_id": "13000017_short_02",
+              "fold": 2,
+              "z": 2.2455496788024902,
+              "denoise_loss": 0.0038226391188800335,
+              "tmvb_loss": 1.1253958940505981,
+              "total_loss": 1.129218578338623
+            },
+            {
+              "instance_id": "77000095_short_01",
+              "fold": 1,
+              "z": 1.3815163373947144,
+              "denoise_loss": 0.003254262264817953,
+              "tmvb_loss": 0.038735538721084595,
+              "total_loss": 0.041989799588918686
+            },
+            {
+              "instance_id": "13000025_short_03",
+              "fold": 0,
+              "z": 5.6696343421936035,
+              "denoise_loss": 0.002625958062708378,
+              "tmvb_loss": 20.11461067199707,
+              "total_loss": 20.117237091064453
+            }
+          ]
+        },
+        {
+          "attempt": 36,
+          "successful_step": 28,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 447.36474609375,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085020_short_02",
+              "fold": 2,
+              "z": 0.759671688079834,
+              "denoise_loss": 0.002983823884278536,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002983823884278536
+            },
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 1.7576075792312622,
+              "denoise_loss": 0.00202350621111691,
+              "tmvb_loss": 0.32821980118751526,
+              "total_loss": 0.330243319272995
+            },
+            {
+              "instance_id": "13000037_short_02",
+              "fold": 0,
+              "z": 0.6425649523735046,
+              "denoise_loss": 0.004385028965771198,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004385028965771198
+            },
+            {
+              "instance_id": "13000030_short_02",
+              "fold": 1,
+              "z": 3.4225783348083496,
+              "denoise_loss": 0.003912568092346191,
+              "tmvb_loss": 5.008086681365967,
+              "total_loss": 5.011999130249023
+            }
+          ]
+        },
+        {
+          "attempt": 37,
+          "successful_step": 29,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 22.500656127929688,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085145_short_01",
+              "fold": 0,
+              "z": 1.546398401260376,
+              "denoise_loss": 0.0032739131711423397,
+              "tmvb_loss": 0.13082365691661835,
+              "total_loss": 0.13409757614135742
+            },
+            {
+              "instance_id": "44000104_short_01",
+              "fold": 2,
+              "z": 1.1626286506652832,
+              "denoise_loss": 0.004300171043723822,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004300171043723822
+            },
+            {
+              "instance_id": "44000068_short_01",
+              "fold": 2,
+              "z": 0.6116524338722229,
+              "denoise_loss": 0.004124020226299763,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004124020226299763
+            },
+            {
+              "instance_id": "50600049_short_05",
+              "fold": 1,
+              "z": 0.9842149615287781,
+              "denoise_loss": 0.002866588532924652,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002866588532924652
+            }
+          ]
+        },
+        {
+          "attempt": 38,
+          "successful_step": 30,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 2046.466064453125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000020_short_04",
+              "fold": 0,
+              "z": 0.44267383217811584,
+              "denoise_loss": 0.004508741199970245,
+              "tmvb_loss": 0.011161577887833118,
+              "total_loss": 0.01567031815648079
+            },
+            {
+              "instance_id": "13000008_short_07",
+              "fold": 0,
+              "z": 9.503463745117188,
+              "denoise_loss": 0.002176601206883788,
+              "tmvb_loss": 69.2017822265625,
+              "total_loss": 69.2039566040039
+            },
+            {
+              "instance_id": "13000197_short_01",
+              "fold": 0,
+              "z": 2.627704381942749,
+              "denoise_loss": 0.004558908753097057,
+              "tmvb_loss": 2.0822534561157227,
+              "total_loss": 2.0868122577667236
+            },
+            {
+              "instance_id": "13000097_short_01",
+              "fold": 1,
+              "z": 1.3083080053329468,
+              "denoise_loss": 0.0033107618801295757,
+              "tmvb_loss": 0.015278228558599949,
+              "total_loss": 0.018588989973068237
+            }
+          ]
+        },
+        {
+          "attempt": 39,
+          "successful_step": 31,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 112.8730697631836,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041114_short_01",
+              "fold": 2,
+              "z": 2.343951463699341,
+              "denoise_loss": 0.003615040797740221,
+              "tmvb_loss": 1.3438572883605957,
+              "total_loss": 1.3474723100662231
+            },
+            {
+              "instance_id": "20085217_short_01",
+              "fold": 2,
+              "z": 0.5754051208496094,
+              "denoise_loss": 0.00623118132352829,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00623118132352829
+            },
+            {
+              "instance_id": "00041047_short_01",
+              "fold": 0,
+              "z": 1.8005386590957642,
+              "denoise_loss": 0.003532671369612217,
+              "tmvb_loss": 0.37925371527671814,
+              "total_loss": 0.3827863931655884
+            },
+            {
+              "instance_id": "13000102_short_01",
+              "fold": 2,
+              "z": 0.365378201007843,
+              "denoise_loss": 0.002987316343933344,
+              "tmvb_loss": 0.03346850723028183,
+              "total_loss": 0.036455824971199036
+            }
+          ]
+        },
+        {
+          "attempt": 40,
+          "successful_step": 32,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 41.44332504272461,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000079_short_01",
+              "fold": 2,
+              "z": 3.2751123905181885,
+              "denoise_loss": 0.004272977821528912,
+              "tmvb_loss": 4.36981201171875,
+              "total_loss": 4.374084949493408
+            },
+            {
+              "instance_id": "00041039_short_01",
+              "fold": 1,
+              "z": 1.0642274618148804,
+              "denoise_loss": 0.0062655797228217125,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0062655797228217125
+            },
+            {
+              "instance_id": "00041125_short_01",
+              "fold": 0,
+              "z": 1.1258602142333984,
+              "denoise_loss": 0.002955978736281395,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002955978736281395
+            },
+            {
+              "instance_id": "00041095_short_01",
+              "fold": 0,
+              "z": 0.8974356055259705,
+              "denoise_loss": 0.0031651239842176437,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0031651239842176437
+            }
+          ]
+        },
+        {
+          "attempt": 41,
+          "successful_step": 33,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 33.62841033935547,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000102_short_01",
+              "fold": 2,
+              "z": 0.8592270612716675,
+              "denoise_loss": 0.004086754750460386,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004086754750460386
+            },
+            {
+              "instance_id": "00041114_short_07",
+              "fold": 2,
+              "z": 1.15041983127594,
+              "denoise_loss": 0.0036144088953733444,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0036144088953733444
+            },
+            {
+              "instance_id": "00041057_short_06",
+              "fold": 2,
+              "z": 0.6841835975646973,
+              "denoise_loss": 0.00485623674467206,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00485623674467206
+            },
+            {
+              "instance_id": "20085201_short_01",
+              "fold": 0,
+              "z": 1.7678954601287842,
+              "denoise_loss": 0.005414619576185942,
+              "tmvb_loss": 0.3401135802268982,
+              "total_loss": 0.34552818536758423
+            }
+          ]
+        },
+        {
+          "attempt": 42,
+          "successful_step": 34,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.2293653041124344,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041125_short_01",
+              "fold": 0,
+              "z": 0.7296662330627441,
+              "denoise_loss": 0.0038372990675270557,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0038372990675270557
+            },
+            {
+              "instance_id": "13000118_short_01",
+              "fold": 2,
+              "z": 0.7209032773971558,
+              "denoise_loss": 0.004727327264845371,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004727327264845371
+            },
+            {
+              "instance_id": "20085051_short_01",
+              "fold": 1,
+              "z": 0.7168626189231873,
+              "denoise_loss": 0.0064423950389027596,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0064423950389027596
+            },
+            {
+              "instance_id": "92000044_short_01",
+              "fold": 0,
+              "z": 0.7837900519371033,
+              "denoise_loss": 0.004825705196708441,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004825705196708441
+            }
+          ]
+        },
+        {
+          "attempt": 43,
+          "successful_step": 35,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 22.617033004760742,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000037_short_02",
+              "fold": 0,
+              "z": 0.5492686629295349,
+              "denoise_loss": 0.004677006974816322,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004677006974816322
+            },
+            {
+              "instance_id": "13000019_short_03",
+              "fold": 1,
+              "z": 1.7632250785827637,
+              "denoise_loss": 0.004538603127002716,
+              "tmvb_loss": 0.3346879482269287,
+              "total_loss": 0.33922654390335083
+            },
+            {
+              "instance_id": "77000095_short_01",
+              "fold": 1,
+              "z": 0.7643975615501404,
+              "denoise_loss": 0.004165549762547016,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004165549762547016
+            },
+            {
+              "instance_id": "13000174_short_01",
+              "fold": 2,
+              "z": 0.5544150471687317,
+              "denoise_loss": 0.006149196065962315,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006149196065962315
+            }
+          ]
+        },
+        {
+          "attempt": 44,
+          "successful_step": 36,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 4.874903202056885,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000095_short_01",
+              "fold": 1,
+              "z": 0.8163295984268188,
+              "denoise_loss": 0.0036118251737207174,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0036118251737207174
+            },
+            {
+              "instance_id": "44000110_short_02",
+              "fold": 0,
+              "z": 0.6332353353500366,
+              "denoise_loss": 0.01006944291293621,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.01006944291293621
+            },
+            {
+              "instance_id": "13000028_short_03",
+              "fold": 1,
+              "z": 1.4939558506011963,
+              "denoise_loss": 0.003535333089530468,
+              "tmvb_loss": 0.09563740342855453,
+              "total_loss": 0.09917273372411728
+            },
+            {
+              "instance_id": "00041180_short_01",
+              "fold": 0,
+              "z": 1.1590861082077026,
+              "denoise_loss": 0.005380108021199703,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005380108021199703
+            }
+          ]
+        },
+        {
+          "attempt": 45,
+          "successful_step": 37,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 145.70571899414062,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041180_short_01",
+              "fold": 0,
+              "z": 1.2028658390045166,
+              "denoise_loss": 0.005018276162445545,
+              "tmvb_loss": 0.00032989331521093845,
+              "total_loss": 0.00534816924482584
+            },
+            {
+              "instance_id": "50600032_short_01",
+              "fold": 0,
+              "z": 0.6702790856361389,
+              "denoise_loss": 0.0034631856251507998,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0034631856251507998
+            },
+            {
+              "instance_id": "20085225_short_04",
+              "fold": 0,
+              "z": 0.6894303560256958,
+              "denoise_loss": 0.003976860083639622,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003976860083639622
+            },
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 2.145076036453247,
+              "denoise_loss": 0.003394664730876684,
+              "tmvb_loss": 0.9223166108131409,
+              "total_loss": 0.9257112741470337
+            }
+          ]
+        },
+        {
+          "attempt": 46,
+          "successful_step": 38,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 93.31260681152344,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "50600001_short_01",
+              "fold": 2,
+              "z": 4.187235355377197,
+              "denoise_loss": 0.003819479839876294,
+              "tmvb_loss": 9.015201568603516,
+              "total_loss": 9.019021034240723
+            },
+            {
+              "instance_id": "77000082_short_05",
+              "fold": 0,
+              "z": 1.6907323598861694,
+              "denoise_loss": 0.00405209232121706,
+              "tmvb_loss": 0.25606584548950195,
+              "total_loss": 0.26011794805526733
+            },
+            {
+              "instance_id": "00041089_short_01",
+              "fold": 1,
+              "z": 0.6537635326385498,
+              "denoise_loss": 0.004705687984824181,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004705687984824181
+            },
+            {
+              "instance_id": "00041181_short_05",
+              "fold": 2,
+              "z": 2.1274147033691406,
+              "denoise_loss": 0.00687737762928009,
+              "tmvb_loss": 0.8887056112289429,
+              "total_loss": 0.8955829739570618
+            }
+          ]
+        },
+        {
+          "attempt": 47,
+          "successful_step": 39,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 8.058499336242676,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041095_short_01",
+              "fold": 0,
+              "z": 0.42161449790000916,
+              "denoise_loss": 0.004896141588687897,
+              "tmvb_loss": 0.016054842621088028,
+              "total_loss": 0.020950984209775925
+            },
+            {
+              "instance_id": "44000107_short_01",
+              "fold": 2,
+              "z": 0.6840790510177612,
+              "denoise_loss": 0.006990105379372835,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006990105379372835
+            },
+            {
+              "instance_id": "20085217_short_01",
+              "fold": 2,
+              "z": 1.3682600259780884,
+              "denoise_loss": 0.007233732379972935,
+              "tmvb_loss": 0.03369322791695595,
+              "total_loss": 0.04092695936560631
+            },
+            {
+              "instance_id": "13000003_short_08",
+              "fold": 0,
+              "z": 0.8158891201019287,
+              "denoise_loss": 0.0041634757071733475,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0041634757071733475
+            }
+          ]
+        },
+        {
+          "attempt": 48,
+          "successful_step": 40,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 2.1366517543792725,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000197_short_01",
+              "fold": 0,
+              "z": 0.7494584918022156,
+              "denoise_loss": 0.006199585273861885,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006199585273861885
+            },
+            {
+              "instance_id": "13000029_short_02",
+              "fold": 0,
+              "z": 1.0867582559585571,
+              "denoise_loss": 0.004475302528589964,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004475302528589964
+            },
+            {
+              "instance_id": "13000028_short_03",
+              "fold": 1,
+              "z": 1.2961915731430054,
+              "denoise_loss": 0.004405474290251732,
+              "tmvb_loss": 0.012429730035364628,
+              "total_loss": 0.016835205256938934
+            },
+            {
+              "instance_id": "77000019_short_05",
+              "fold": 0,
+              "z": 0.36025533080101013,
+              "denoise_loss": 0.005257950164377689,
+              "tmvb_loss": 0.0353691466152668,
+              "total_loss": 0.040627095848321915
+            }
+          ]
+        },
+        {
+          "attempt": 49,
+          "successful_step": 41,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 55.207008361816406,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000022_short_02",
+              "fold": 1,
+              "z": 1.489538311958313,
+              "denoise_loss": 0.004554458893835545,
+              "tmvb_loss": 0.09292464703321457,
+              "total_loss": 0.09747910499572754
+            },
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 1.5980727672576904,
+              "denoise_loss": 0.003739558160305023,
+              "tmvb_loss": 0.1708746701478958,
+              "total_loss": 0.17461422085762024
+            },
+            {
+              "instance_id": "13000027_short_03",
+              "fold": 1,
+              "z": 1.9281470775604248,
+              "denoise_loss": 0.004818391986191273,
+              "tmvb_loss": 0.5527092814445496,
+              "total_loss": 0.5575276613235474
+            },
+            {
+              "instance_id": "20085051_short_01",
+              "fold": 1,
+              "z": 0.5659070014953613,
+              "denoise_loss": 0.008232594467699528,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.008232594467699528
+            }
+          ]
+        },
+        {
+          "attempt": 50,
+          "successful_step": 42,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 1.0148731470108032,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000081_short_05",
+              "fold": 1,
+              "z": 0.9710167050361633,
+              "denoise_loss": 0.005643888842314482,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005643888842314482
+            },
+            {
+              "instance_id": "13000197_short_01",
+              "fold": 0,
+              "z": 0.6286981105804443,
+              "denoise_loss": 0.006964500993490219,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006964500993490219
+            },
+            {
+              "instance_id": "00041125_short_08",
+              "fold": 0,
+              "z": 0.7201768159866333,
+              "denoise_loss": 0.005302779376506805,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005302779376506805
+            },
+            {
+              "instance_id": "77000008_short_01",
+              "fold": 2,
+              "z": 0.46606534719467163,
+              "denoise_loss": 0.006927264854311943,
+              "tmvb_loss": 0.006766189821064472,
+              "total_loss": 0.013693454675376415
+            }
+          ]
+        },
+        {
+          "attempt": 51,
+          "successful_step": 43,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 6.620931148529053,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041181_short_05",
+              "fold": 2,
+              "z": 0.2808629870414734,
+              "denoise_loss": 0.006014569662511349,
+              "tmvb_loss": 0.07153443247079849,
+              "total_loss": 0.07754900306463242
+            },
+            {
+              "instance_id": "00041085_short_01",
+              "fold": 0,
+              "z": 0.739088237285614,
+              "denoise_loss": 0.005174098536372185,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005174098536372185
+            },
+            {
+              "instance_id": "00041043_short_07",
+              "fold": 1,
+              "z": 1.27455472946167,
+              "denoise_loss": 0.0064973123371601105,
+              "tmvb_loss": 0.008073356002569199,
+              "total_loss": 0.014570668339729309
+            },
+            {
+              "instance_id": "00041169_short_01",
+              "fold": 1,
+              "z": 0.7103522419929504,
+              "denoise_loss": 0.008624743670225143,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.008624743670225143
+            }
+          ]
+        },
+        {
+          "attempt": 52,
+          "successful_step": 44,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.9894899725914001,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000118_short_01",
+              "fold": 2,
+              "z": 1.2585293054580688,
+              "denoise_loss": 0.006860852241516113,
+              "tmvb_loss": 0.005450342316180468,
+              "total_loss": 0.012311194092035294
+            },
+            {
+              "instance_id": "13000025_short_03",
+              "fold": 0,
+              "z": 0.7870119214057922,
+              "denoise_loss": 0.004179674666374922,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004179674666374922
+            },
+            {
+              "instance_id": "44000110_short_02",
+              "fold": 0,
+              "z": 0.6157534122467041,
+              "denoise_loss": 0.011103632859885693,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.011103632859885693
+            },
+            {
+              "instance_id": "92000044_short_01",
+              "fold": 0,
+              "z": 0.5307342410087585,
+              "denoise_loss": 0.007459140848368406,
+              "tmvb_loss": 0.00030933631933294237,
+              "total_loss": 0.007768477313220501
+            }
+          ]
+        },
+        {
+          "attempt": 53,
+          "successful_step": 45,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.6893991827964783,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "92000008_short_01",
+              "fold": 1,
+              "z": 0.4812657833099365,
+              "denoise_loss": 0.006494225934147835,
+              "tmvb_loss": 0.004496563225984573,
+              "total_loss": 0.010990789160132408
+            },
+            {
+              "instance_id": "13000037_short_02",
+              "fold": 0,
+              "z": 0.612388551235199,
+              "denoise_loss": 0.005087726749479771,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005087726749479771
+            },
+            {
+              "instance_id": "44000104_short_01",
+              "fold": 2,
+              "z": 0.6101240515708923,
+              "denoise_loss": 0.006759790237993002,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006759790237993002
+            },
+            {
+              "instance_id": "00041095_short_01",
+              "fold": 0,
+              "z": 0.8071346282958984,
+              "denoise_loss": 0.0053959377110004425,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0053959377110004425
+            }
+          ]
+        },
+        {
+          "attempt": 54,
+          "successful_step": 46,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.2561616003513336,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000025_short_03",
+              "fold": 0,
+              "z": 1.08978271484375,
+              "denoise_loss": 0.004078158177435398,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004078158177435398
+            },
+            {
+              "instance_id": "44000092_short_02",
+              "fold": 2,
+              "z": 1.0859777927398682,
+              "denoise_loss": 0.006607734598219395,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006607734598219395
+            },
+            {
+              "instance_id": "00041030_short_01",
+              "fold": 0,
+              "z": 1.0949032306671143,
+              "denoise_loss": 0.00524545181542635,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00524545181542635
+            },
+            {
+              "instance_id": "44000093_short_02",
+              "fold": 0,
+              "z": 0.7614071369171143,
+              "denoise_loss": 0.005853903014212847,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005853903014212847
+            }
+          ]
+        },
+        {
+          "attempt": 55,
+          "successful_step": 47,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 10.20434856414795,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085020_short_02",
+              "fold": 2,
+              "z": 0.6435808539390564,
+              "denoise_loss": 0.006438315846025944,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006438315846025944
+            },
+            {
+              "instance_id": "77000044_short_01",
+              "fold": 0,
+              "z": 1.3572051525115967,
+              "denoise_loss": 0.004201848059892654,
+              "tmvb_loss": 0.02975703589618206,
+              "total_loss": 0.033958882093429565
+            },
+            {
+              "instance_id": "20085071_short_01",
+              "fold": 0,
+              "z": 1.0656483173370361,
+              "denoise_loss": 0.004488958977162838,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004488958977162838
+            },
+            {
+              "instance_id": "50600024_short_01",
+              "fold": 2,
+              "z": 1.6842952966690063,
+              "denoise_loss": 0.0037017883732914925,
+              "tmvb_loss": 0.249592587351799,
+              "total_loss": 0.2532943785190582
+            }
+          ]
+        },
+        {
+          "attempt": 56,
+          "successful_step": 48,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 20.26312828063965,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "92000044_short_01",
+              "fold": 0,
+              "z": 0.4808124899864197,
+              "denoise_loss": 0.006134435068815947,
+              "tmvb_loss": 0.004557561129331589,
+              "total_loss": 0.010691996663808823
+            },
+            {
+              "instance_id": "13000024_short_02",
+              "fold": 2,
+              "z": 1.9130690097808838,
+              "denoise_loss": 0.004454244393855333,
+              "tmvb_loss": 0.5305172204971313,
+              "total_loss": 0.5349714756011963
+            },
+            {
+              "instance_id": "13000028_short_03",
+              "fold": 1,
+              "z": 1.2270817756652832,
+              "denoise_loss": 0.003612593514844775,
+              "tmvb_loss": 0.0017959714168682694,
+              "total_loss": 0.0054085650481283665
+            },
+            {
+              "instance_id": "20085090_short_01",
+              "fold": 1,
+              "z": 0.9509376883506775,
+              "denoise_loss": 0.007050853222608566,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.007050853222608566
+            }
+          ]
+        },
+        {
+          "attempt": 57,
+          "successful_step": 49,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 5.331566333770752,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000037_short_03",
+              "fold": 0,
+              "z": 1.36808180809021,
+              "denoise_loss": 0.0076379477977752686,
+              "tmvb_loss": 0.03362783417105675,
+              "total_loss": 0.041265781968832016
+            },
+            {
+              "instance_id": "00041089_short_05",
+              "fold": 1,
+              "z": 1.3098399639129639,
+              "denoise_loss": 0.004791396204382181,
+              "tmvb_loss": 0.015659291297197342,
+              "total_loss": 0.020450687035918236
+            },
+            {
+              "instance_id": "00041095_short_01",
+              "fold": 0,
+              "z": 0.7674285173416138,
+              "denoise_loss": 0.0051715862937271595,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0051715862937271595
+            },
+            {
+              "instance_id": "20085155_short_01",
+              "fold": 0,
+              "z": 0.31965336203575134,
+              "denoise_loss": 0.006943373940885067,
+              "tmvb_loss": 0.052289437502622604,
+              "total_loss": 0.059232812374830246
+            }
+          ]
+        },
+        {
+          "attempt": 58,
+          "successful_step": 50,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 22.987449645996094,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041089_short_05",
+              "fold": 1,
+              "z": 1.1128584146499634,
+              "denoise_loss": 0.00581221142783761,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00581221142783761
+            },
+            {
+              "instance_id": "00041085_short_01",
+              "fold": 0,
+              "z": 0.7301033139228821,
+              "denoise_loss": 0.00402136892080307,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00402136892080307
+            },
+            {
+              "instance_id": "92000006_short_05",
+              "fold": 2,
+              "z": 1.6981979608535767,
+              "denoise_loss": 0.006923115812242031,
+              "tmvb_loss": 0.2636772096157074,
+              "total_loss": 0.2706003189086914
+            },
+            {
+              "instance_id": "92000081_short_01",
+              "fold": 1,
+              "z": 1.2372877597808838,
+              "denoise_loss": 0.005206634756177664,
+              "tmvb_loss": 0.0027651702985167503,
+              "total_loss": 0.007971804589033127
+            }
+          ]
+        }
+      ]
+    },
+    "pinhole": {
+      "status": "FAIL",
+      "target_successful_steps": 50,
+      "successful_steps": 50,
+      "attempted_steps": 56,
+      "skipped_steps": 6,
+      "gradient_accumulation": 4,
+      "parameter_delta_l2": 0.00725083751603961,
+      "checkpoint_saved": false,
+      "records": [
+        {
+          "attempt": 1,
+          "successful_step": 0,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 65536.0,
+          "scale_after": 32768.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "00041079_pinhole_04",
+              "fold": 1,
+              "z": 0.6451277136802673,
+              "denoise_loss": 0.000750780280213803,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.000750780280213803
+            },
+            {
+              "instance_id": "20085062_pinhole_04",
+              "fold": 1,
+              "z": 2.5316267013549805,
+              "denoise_loss": 0.0008565522730350494,
+              "tmvb_loss": 1.8142037391662598,
+              "total_loss": 1.8150602579116821
+            },
+            {
+              "instance_id": "13000023_pinhole_11",
+              "fold": 2,
+              "z": 1.9102739095687866,
+              "denoise_loss": 0.0009252188028767705,
+              "tmvb_loss": 0.5264533162117004,
+              "total_loss": 0.5273785591125488
+            },
+            {
+              "instance_id": "77000081_pinhole_03",
+              "fold": 1,
+              "z": 1.114601731300354,
+              "denoise_loss": 0.001562083838507533,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001562083838507533
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "successful_step": 1,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 17.151294708251953,
+          "scale_before": 32768.0,
+          "scale_after": 32768.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000062_pinhole_04",
+              "fold": 1,
+              "z": 1.4951077699661255,
+              "denoise_loss": 0.0006686530541628599,
+              "tmvb_loss": 0.09635119885206223,
+              "total_loss": 0.09701985120773315
+            },
+            {
+              "instance_id": "13000003_pinhole_03",
+              "fold": 0,
+              "z": 1.184278130531311,
+              "denoise_loss": 0.0024480391293764114,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0024480391293764114
+            },
+            {
+              "instance_id": "77000044_pinhole_05",
+              "fold": 0,
+              "z": 1.4036405086517334,
+              "denoise_loss": 0.0015236545586958528,
+              "tmvb_loss": 0.04793368652462959,
+              "total_loss": 0.04945734143257141
+            },
+            {
+              "instance_id": "92000077_pinhole_04",
+              "fold": 0,
+              "z": 1.3579285144805908,
+              "denoise_loss": 0.0014601609436795115,
+              "tmvb_loss": 0.030007122084498405,
+              "total_loss": 0.03146728128194809
+            }
+          ]
+        },
+        {
+          "attempt": 3,
+          "successful_step": 2,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 15.328219413757324,
+          "scale_before": 32768.0,
+          "scale_after": 32768.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041046_pinhole_05",
+              "fold": 1,
+              "z": 0.6649523973464966,
+              "denoise_loss": 0.0013875322183594108,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0013875322183594108
+            },
+            {
+              "instance_id": "50600032_pinhole_02",
+              "fold": 0,
+              "z": 0.6975807547569275,
+              "denoise_loss": 0.0009122565388679504,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0009122565388679504
+            },
+            {
+              "instance_id": "44000068_pinhole_05",
+              "fold": 2,
+              "z": 0.6868342161178589,
+              "denoise_loss": 0.0012761973775923252,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0012761973775923252
+            },
+            {
+              "instance_id": "50600049_pinhole_03",
+              "fold": 1,
+              "z": 1.9057679176330566,
+              "denoise_loss": 0.0008942292770370841,
+              "tmvb_loss": 0.5199347734451294,
+              "total_loss": 0.5208290219306946
+            }
+          ]
+        },
+        {
+          "attempt": 4,
+          "successful_step": 2,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 32768.0,
+          "scale_after": 16384.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "44000093_pinhole_08",
+              "fold": 0,
+              "z": 0.6416988968849182,
+              "denoise_loss": 0.0013735780958086252,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0013735780958086252
+            },
+            {
+              "instance_id": "13000028_pinhole_10",
+              "fold": 1,
+              "z": 4.553542137145996,
+              "denoise_loss": 0.001964540220797062,
+              "tmvb_loss": 11.349078178405762,
+              "total_loss": 11.351042747497559
+            },
+            {
+              "instance_id": "00041114_pinhole_03",
+              "fold": 2,
+              "z": 1.4627416133880615,
+              "denoise_loss": 0.0007752902456559241,
+              "tmvb_loss": 0.07730554044246674,
+              "total_loss": 0.07808083295822144
+            },
+            {
+              "instance_id": "13000009_pinhole_03",
+              "fold": 2,
+              "z": 1.06964910030365,
+              "denoise_loss": 0.0009148509125225246,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0009148509125225246
+            }
+          ]
+        },
+        {
+          "attempt": 5,
+          "successful_step": 3,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 5.0099101066589355,
+          "scale_before": 16384.0,
+          "scale_after": 16384.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000019_pinhole_11",
+              "fold": 1,
+              "z": 1.1067568063735962,
+              "denoise_loss": 0.0004540326481219381,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0004540326481219381
+            },
+            {
+              "instance_id": "44000086_pinhole_06",
+              "fold": 2,
+              "z": 0.3029378652572632,
+              "denoise_loss": 0.0031018126755952835,
+              "tmvb_loss": 0.060213472694158554,
+              "total_loss": 0.06331528723239899
+            },
+            {
+              "instance_id": "13000025_pinhole_10",
+              "fold": 0,
+              "z": 3.0660324096679688,
+              "denoise_loss": 0.0011480931425467134,
+              "tmvb_loss": 3.539400815963745,
+              "total_loss": 3.540548801422119
+            },
+            {
+              "instance_id": "13000003_pinhole_03",
+              "fold": 0,
+              "z": 1.1921881437301636,
+              "denoise_loss": 0.0017620674334466457,
+              "tmvb_loss": 5.602927558356896e-05,
+              "total_loss": 0.0018180967308580875
+            }
+          ]
+        },
+        {
+          "attempt": 6,
+          "successful_step": 4,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 13.585776329040527,
+          "scale_before": 16384.0,
+          "scale_after": 16384.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000026_pinhole_10",
+              "fold": 2,
+              "z": 1.4495749473571777,
+              "denoise_loss": 0.0013509418349713087,
+              "tmvb_loss": 0.07015721499919891,
+              "total_loss": 0.07150815427303314
+            },
+            {
+              "instance_id": "92000073_pinhole_04",
+              "fold": 0,
+              "z": 1.4133721590042114,
+              "denoise_loss": 0.002435211557894945,
+              "tmvb_loss": 0.05228964239358902,
+              "total_loss": 0.05472485348582268
+            },
+            {
+              "instance_id": "13000019_pinhole_12",
+              "fold": 1,
+              "z": 1.5541714429855347,
+              "denoise_loss": 0.0010258101392537355,
+              "tmvb_loss": 0.13650701940059662,
+              "total_loss": 0.13753283023834229
+            },
+            {
+              "instance_id": "44000093_pinhole_07",
+              "fold": 0,
+              "z": 0.4871097505092621,
+              "denoise_loss": 0.0010460290359333158,
+              "tmvb_loss": 0.0037469640374183655,
+              "total_loss": 0.004792992956936359
+            }
+          ]
+        },
+        {
+          "attempt": 7,
+          "successful_step": 5,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 13.688131332397461,
+          "scale_before": 16384.0,
+          "scale_after": 16384.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085026_pinhole_05",
+              "fold": 0,
+              "z": 0.306445837020874,
+              "denoise_loss": 0.0011755003361031413,
+              "tmvb_loss": 0.05850417539477348,
+              "total_loss": 0.059679675847291946
+            },
+            {
+              "instance_id": "13000028_pinhole_11",
+              "fold": 1,
+              "z": 3.898143768310547,
+              "denoise_loss": 0.0018492562230676413,
+              "tmvb_loss": 7.362761497497559,
+              "total_loss": 7.36461067199707
+            },
+            {
+              "instance_id": "44000086_pinhole_06",
+              "fold": 2,
+              "z": 0.1850718855857849,
+              "denoise_loss": 0.0024415445514023304,
+              "tmvb_loss": 0.13195079565048218,
+              "total_loss": 0.13439233601093292
+            },
+            {
+              "instance_id": "00041133_pinhole_05",
+              "fold": 2,
+              "z": 1.0552971363067627,
+              "denoise_loss": 0.0009120141621679068,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0009120141621679068
+            }
+          ]
+        },
+        {
+          "attempt": 8,
+          "successful_step": 5,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 16384.0,
+          "scale_after": 8192.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "00041089_pinhole_04",
+              "fold": 1,
+              "z": 0.8860358595848083,
+              "denoise_loss": 0.0018944607581943274,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0018944607581943274
+            },
+            {
+              "instance_id": "00041125_pinhole_04",
+              "fold": 0,
+              "z": 1.1446179151535034,
+              "denoise_loss": 0.0009944920893758535,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0009944920893758535
+            },
+            {
+              "instance_id": "13000029_pinhole_10",
+              "fold": 0,
+              "z": 5.069314956665039,
+              "denoise_loss": 0.0010007098317146301,
+              "tmvb_loss": 15.090210914611816,
+              "total_loss": 15.091211318969727
+            },
+            {
+              "instance_id": "00041125_pinhole_04",
+              "fold": 0,
+              "z": 1.177935242652893,
+              "denoise_loss": 0.0008971257484517992,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0008971257484517992
+            }
+          ]
+        },
+        {
+          "attempt": 9,
+          "successful_step": 5,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 8192.0,
+          "scale_after": 4096.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "13000026_pinhole_11",
+              "fold": 2,
+              "z": 3.300550699234009,
+              "denoise_loss": 0.0010672514326870441,
+              "tmvb_loss": 4.47681188583374,
+              "total_loss": 4.477879047393799
+            },
+            {
+              "instance_id": "20085071_pinhole_04",
+              "fold": 0,
+              "z": 4.7963480949401855,
+              "denoise_loss": 0.0008608591160736978,
+              "tmvb_loss": 13.043981552124023,
+              "total_loss": 13.044842720031738
+            },
+            {
+              "instance_id": "20085027_pinhole_05",
+              "fold": 1,
+              "z": 1.744960904121399,
+              "denoise_loss": 0.0021217530593276024,
+              "tmvb_loss": 0.3138890564441681,
+              "total_loss": 0.31601080298423767
+            },
+            {
+              "instance_id": "00041169_pinhole_05",
+              "fold": 1,
+              "z": 0.8107084631919861,
+              "denoise_loss": 0.0014562986325472593,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0014562986325472593
+            }
+          ]
+        },
+        {
+          "attempt": 10,
+          "successful_step": 5,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 4096.0,
+          "scale_after": 2048.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "13000008_pinhole_05",
+              "fold": 0,
+              "z": 7.040798187255859,
+              "denoise_loss": 0.0020058865193277597,
+              "tmvb_loss": 34.293853759765625,
+              "total_loss": 34.295860290527344
+            },
+            {
+              "instance_id": "00041125_pinhole_04",
+              "fold": 0,
+              "z": 1.1411736011505127,
+              "denoise_loss": 0.0010580533416941762,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0010580533416941762
+            },
+            {
+              "instance_id": "13000003_pinhole_03",
+              "fold": 0,
+              "z": 2.1095850467681885,
+              "denoise_loss": 0.00170247838832438,
+              "tmvb_loss": 0.8554070591926575,
+              "total_loss": 0.857109546661377
+            },
+            {
+              "instance_id": "77000076_pinhole_05",
+              "fold": 1,
+              "z": 0.6128133535385132,
+              "denoise_loss": 0.0020908433943986893,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0020908433943986893
+            }
+          ]
+        },
+        {
+          "attempt": 11,
+          "successful_step": 6,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 160.07876586914062,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085185_pinhole_06",
+              "fold": 0,
+              "z": 4.094970226287842,
+              "denoise_loss": 0.0009838890982791781,
+              "tmvb_loss": 8.469655990600586,
+              "total_loss": 8.470640182495117
+            },
+            {
+              "instance_id": "20085185_pinhole_06",
+              "fold": 0,
+              "z": 4.3519673347473145,
+              "denoise_loss": 0.000845615693833679,
+              "tmvb_loss": 10.031563758850098,
+              "total_loss": 10.03240966796875
+            },
+            {
+              "instance_id": "77000008_pinhole_04",
+              "fold": 2,
+              "z": 3.296751022338867,
+              "denoise_loss": 0.0018802402773872018,
+              "tmvb_loss": 4.460747241973877,
+              "total_loss": 4.462627410888672
+            },
+            {
+              "instance_id": "13000026_pinhole_11",
+              "fold": 2,
+              "z": 3.47519850730896,
+              "denoise_loss": 0.0018206269014626741,
+              "tmvb_loss": 5.246370315551758,
+              "total_loss": 5.248190879821777
+            }
+          ]
+        },
+        {
+          "attempt": 12,
+          "successful_step": 7,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 1.8433576822280884,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000019_pinhole_12",
+              "fold": 1,
+              "z": 1.2713404893875122,
+              "denoise_loss": 0.0007697548135183752,
+              "tmvb_loss": 0.007506076712161303,
+              "total_loss": 0.008275831118226051
+            },
+            {
+              "instance_id": "00041180_pinhole_05",
+              "fold": 0,
+              "z": 1.3524267673492432,
+              "denoise_loss": 0.0021873274818062782,
+              "tmvb_loss": 0.028131304308772087,
+              "total_loss": 0.03031863272190094
+            },
+            {
+              "instance_id": "20085145_pinhole_08",
+              "fold": 0,
+              "z": 1.2257288694381714,
+              "denoise_loss": 0.0012700508814305067,
+              "tmvb_loss": 0.001683132373727858,
+              "total_loss": 0.0029531833715736866
+            },
+            {
+              "instance_id": "00041089_pinhole_04",
+              "fold": 1,
+              "z": 1.0401886701583862,
+              "denoise_loss": 0.0020444884430617094,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0020444884430617094
+            }
+          ]
+        },
+        {
+          "attempt": 13,
+          "successful_step": 8,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 269.22119140625,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085020_pinhole_07",
+              "fold": 2,
+              "z": 1.15900456905365,
+              "denoise_loss": 0.002146136946976185,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002146136946976185
+            },
+            {
+              "instance_id": "44000062_pinhole_04",
+              "fold": 1,
+              "z": 1.4377790689468384,
+              "denoise_loss": 0.001027773367241025,
+              "tmvb_loss": 0.06404756009578705,
+              "total_loss": 0.0650753304362297
+            },
+            {
+              "instance_id": "13000029_pinhole_10",
+              "fold": 0,
+              "z": 3.868311882019043,
+              "denoise_loss": 0.0012046346673741937,
+              "tmvb_loss": 7.201757431030273,
+              "total_loss": 7.2029619216918945
+            },
+            {
+              "instance_id": "00041150_pinhole_04",
+              "fold": 1,
+              "z": 1.1168848276138306,
+              "denoise_loss": 0.0021859523840248585,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0021859523840248585
+            }
+          ]
+        },
+        {
+          "attempt": 14,
+          "successful_step": 9,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 6.680752277374268,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000017_pinhole_09",
+              "fold": 2,
+              "z": 0.5856879353523254,
+              "denoise_loss": 0.0014940721448510885,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0014940721448510885
+            },
+            {
+              "instance_id": "20085090_pinhole_05",
+              "fold": 1,
+              "z": 1.7964036464691162,
+              "denoise_loss": 0.00260515627451241,
+              "tmvb_loss": 0.37417784333229065,
+              "total_loss": 0.37678301334381104
+            },
+            {
+              "instance_id": "92000073_pinhole_04",
+              "fold": 0,
+              "z": 0.8921523094177246,
+              "denoise_loss": 0.0030990594532340765,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0030990594532340765
+            },
+            {
+              "instance_id": "20085225_pinhole_12",
+              "fold": 0,
+              "z": 0.8539283871650696,
+              "denoise_loss": 0.001247806241735816,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001247806241735816
+            }
+          ]
+        },
+        {
+          "attempt": 15,
+          "successful_step": 10,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 9.219951629638672,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "50600049_pinhole_03",
+              "fold": 1,
+              "z": 1.9389400482177734,
+              "denoise_loss": 0.0019045976223424077,
+              "tmvb_loss": 0.5688737034797668,
+              "total_loss": 0.5707783102989197
+            },
+            {
+              "instance_id": "00041081_pinhole_04",
+              "fold": 2,
+              "z": 1.5767043828964233,
+              "denoise_loss": 0.0015918187564238906,
+              "tmvb_loss": 0.1536651849746704,
+              "total_loss": 0.15525700151920319
+            },
+            {
+              "instance_id": "77000095_pinhole_04",
+              "fold": 1,
+              "z": 1.2584812641143799,
+              "denoise_loss": 0.0026427647098898888,
+              "tmvb_loss": 0.005443250760436058,
+              "total_loss": 0.008086015470325947
+            },
+            {
+              "instance_id": "50600015_pinhole_05",
+              "fold": 1,
+              "z": 0.8078852891921997,
+              "denoise_loss": 0.0020219124853610992,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0020219124853610992
+            }
+          ]
+        },
+        {
+          "attempt": 16,
+          "successful_step": 11,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 304.5780334472656,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041181_pinhole_02",
+              "fold": 2,
+              "z": 0.8469997048377991,
+              "denoise_loss": 0.0022754408419132233,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0022754408419132233
+            },
+            {
+              "instance_id": "20085225_pinhole_11",
+              "fold": 0,
+              "z": 4.659219741821289,
+              "denoise_loss": 0.0013751692604273558,
+              "tmvb_loss": 12.072267532348633,
+              "total_loss": 12.07364273071289
+            },
+            {
+              "instance_id": "13000019_pinhole_12",
+              "fold": 1,
+              "z": 1.1942784786224365,
+              "denoise_loss": 0.001653171144425869,
+              "tmvb_loss": 9.169222175842151e-05,
+              "total_loss": 0.0017448633443564177
+            },
+            {
+              "instance_id": "00041181_pinhole_07",
+              "fold": 2,
+              "z": 0.5975986123085022,
+              "denoise_loss": 0.002015631878748536,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002015631878748536
+            }
+          ]
+        },
+        {
+          "attempt": 17,
+          "successful_step": 12,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 52.08345413208008,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000025_pinhole_10",
+              "fold": 0,
+              "z": 0.5738362669944763,
+              "denoise_loss": 0.0015388219617307186,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0015388219617307186
+            },
+            {
+              "instance_id": "20085107_pinhole_03",
+              "fold": 1,
+              "z": 2.209303617477417,
+              "denoise_loss": 0.0022120140492916107,
+              "tmvb_loss": 1.0498067140579224,
+              "total_loss": 1.0520187616348267
+            },
+            {
+              "instance_id": "13000009_pinhole_03",
+              "fold": 2,
+              "z": 1.1544458866119385,
+              "denoise_loss": 0.0019780874717980623,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0019780874717980623
+            },
+            {
+              "instance_id": "50600024_pinhole_04",
+              "fold": 2,
+              "z": 1.0503395795822144,
+              "denoise_loss": 0.0018656468018889427,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0018656468018889427
+            }
+          ]
+        },
+        {
+          "attempt": 18,
+          "successful_step": 13,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 147.85379028320312,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000008_pinhole_06",
+              "fold": 2,
+              "z": 0.3890462815761566,
+              "denoise_loss": 0.003977769520133734,
+              "tmvb_loss": 0.025368819013237953,
+              "total_loss": 0.029346588999032974
+            },
+            {
+              "instance_id": "00041079_pinhole_04",
+              "fold": 1,
+              "z": 0.5793718099594116,
+              "denoise_loss": 0.0022959979251027107,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0022959979251027107
+            },
+            {
+              "instance_id": "13000024_pinhole_08",
+              "fold": 2,
+              "z": 3.8296940326690674,
+              "denoise_loss": 0.0021020553540438414,
+              "tmvb_loss": 6.995978355407715,
+              "total_loss": 6.998080253601074
+            },
+            {
+              "instance_id": "00041030_pinhole_05",
+              "fold": 0,
+              "z": 0.6620782017707825,
+              "denoise_loss": 0.0018402190180495381,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0018402190180495381
+            }
+          ]
+        },
+        {
+          "attempt": 19,
+          "successful_step": 14,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.31869998574256897,
+          "scale_before": 2048.0,
+          "scale_after": 2048.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000009_pinhole_03",
+              "fold": 2,
+              "z": 1.206961750984192,
+              "denoise_loss": 0.001966454554349184,
+              "tmvb_loss": 0.0004954576143063605,
+              "total_loss": 0.0024619121104478836
+            },
+            {
+              "instance_id": "13000019_pinhole_11",
+              "fold": 1,
+              "z": 1.0555408000946045,
+              "denoise_loss": 0.001816844567656517,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.001816844567656517
+            },
+            {
+              "instance_id": "13000019_pinhole_12",
+              "fold": 1,
+              "z": 0.995620608329773,
+              "denoise_loss": 0.0020395934116095304,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0020395934116095304
+            },
+            {
+              "instance_id": "00041046_pinhole_05",
+              "fold": 1,
+              "z": 0.8581730127334595,
+              "denoise_loss": 0.0029900658410042524,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0029900658410042524
+            }
+          ]
+        },
+        {
+          "attempt": 20,
+          "successful_step": 14,
+          "skipped": true,
+          "gradient_finite": false,
+          "gradient_norm_before_clip": null,
+          "scale_before": 2048.0,
+          "scale_after": 1024.0,
+          "parameter_changed": false,
+          "micro_batches": [
+            {
+              "instance_id": "20085201_pinhole_04",
+              "fold": 0,
+              "z": 0.9980964064598083,
+              "denoise_loss": 0.0022800294682383537,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0022800294682383537
+            },
+            {
+              "instance_id": "13000017_pinhole_10",
+              "fold": 2,
+              "z": 2.118683338165283,
+              "denoise_loss": 0.0028298632241785526,
+              "tmvb_loss": 0.8723195195198059,
+              "total_loss": 0.8751493692398071
+            },
+            {
+              "instance_id": "92000077_pinhole_04",
+              "fold": 0,
+              "z": 1.4292593002319336,
+              "denoise_loss": 0.0032648234628140926,
+              "tmvb_loss": 0.05980784446001053,
+              "total_loss": 0.06307266652584076
+            },
+            {
+              "instance_id": "20085016_pinhole_06",
+              "fold": 0,
+              "z": 4.868038654327393,
+              "denoise_loss": 0.002934854244813323,
+              "tmvb_loss": 13.566962242126465,
+              "total_loss": 13.569896697998047
+            }
+          ]
+        },
+        {
+          "attempt": 21,
+          "successful_step": 15,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 226.0518341064453,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000044_pinhole_05",
+              "fold": 0,
+              "z": 0.4818814694881439,
+              "denoise_loss": 0.0024976423010230064,
+              "tmvb_loss": 0.004414370749145746,
+              "total_loss": 0.006912013050168753
+            },
+            {
+              "instance_id": "20085203_pinhole_05",
+              "fold": 2,
+              "z": 1.1024318933486938,
+              "denoise_loss": 0.0026606381870806217,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0026606381870806217
+            },
+            {
+              "instance_id": "44000092_pinhole_09",
+              "fold": 2,
+              "z": 3.2422776222229004,
+              "denoise_loss": 0.002792543964460492,
+              "tmvb_loss": 4.233613967895508,
+              "total_loss": 4.236406326293945
+            },
+            {
+              "instance_id": "00041181_pinhole_07",
+              "fold": 2,
+              "z": 0.5570279359817505,
+              "denoise_loss": 0.0028576164040714502,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0028576164040714502
+            }
+          ]
+        },
+        {
+          "attempt": 22,
+          "successful_step": 16,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 246.5714111328125,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041068_pinhole_07",
+              "fold": 2,
+              "z": 1.6156405210494995,
+              "denoise_loss": 0.0025184513069689274,
+              "tmvb_loss": 0.18570725619792938,
+              "total_loss": 0.18822570145130157
+            },
+            {
+              "instance_id": "00041190_pinhole_05",
+              "fold": 2,
+              "z": 0.6583942174911499,
+              "denoise_loss": 0.0029809873085469007,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0029809873085469007
+            },
+            {
+              "instance_id": "13000031_pinhole_08",
+              "fold": 2,
+              "z": 4.789920806884766,
+              "denoise_loss": 0.0027802519034594297,
+              "tmvb_loss": 12.997596740722656,
+              "total_loss": 13.00037670135498
+            },
+            {
+              "instance_id": "44000107_pinhole_05",
+              "fold": 2,
+              "z": 0.5488799810409546,
+              "denoise_loss": 0.003107113763689995,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003107113763689995
+            }
+          ]
+        },
+        {
+          "attempt": 23,
+          "successful_step": 17,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 359.66339111328125,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000030_pinhole_08",
+              "fold": 1,
+              "z": 1.1507779359817505,
+              "denoise_loss": 0.003281312994658947,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003281312994658947
+            },
+            {
+              "instance_id": "44000107_pinhole_05",
+              "fold": 2,
+              "z": 1.0437883138656616,
+              "denoise_loss": 0.003528488799929619,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003528488799929619
+            },
+            {
+              "instance_id": "20085016_pinhole_06",
+              "fold": 0,
+              "z": 4.2487897872924805,
+              "denoise_loss": 0.0033929776400327682,
+              "tmvb_loss": 9.388628959655762,
+              "total_loss": 9.392022132873535
+            },
+            {
+              "instance_id": "44000110_pinhole_06",
+              "fold": 0,
+              "z": 0.7190882563591003,
+              "denoise_loss": 0.0024085985496640205,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0024085985496640205
+            }
+          ]
+        },
+        {
+          "attempt": 24,
+          "successful_step": 18,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 25.982297897338867,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085183_pinhole_04",
+              "fold": 1,
+              "z": 2.88785982131958,
+              "denoise_loss": 0.0029502585530281067,
+              "tmvb_loss": 2.9007434844970703,
+              "total_loss": 2.903693675994873
+            },
+            {
+              "instance_id": "44000096_pinhole_05",
+              "fold": 1,
+              "z": 0.9943517446517944,
+              "denoise_loss": 0.0037935934960842133,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0037935934960842133
+            },
+            {
+              "instance_id": "20085217_pinhole_05",
+              "fold": 2,
+              "z": 1.607820749282837,
+              "denoise_loss": 0.0027374778874218464,
+              "tmvb_loss": 0.1790287345647812,
+              "total_loss": 0.18176621198654175
+            },
+            {
+              "instance_id": "00041095_pinhole_03",
+              "fold": 0,
+              "z": 1.5421839952468872,
+              "denoise_loss": 0.003241639118641615,
+              "tmvb_loss": 0.12779274582862854,
+              "total_loss": 0.13103438913822174
+            }
+          ]
+        },
+        {
+          "attempt": 25,
+          "successful_step": 19,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 210.27249145507812,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000029_pinhole_10",
+              "fold": 0,
+              "z": 1.4127261638641357,
+              "denoise_loss": 0.0029386733658611774,
+              "tmvb_loss": 0.05199462175369263,
+              "total_loss": 0.05493329465389252
+            },
+            {
+              "instance_id": "13000028_pinhole_10",
+              "fold": 1,
+              "z": 1.3084746599197388,
+              "denoise_loss": 0.0027583709452301264,
+              "tmvb_loss": 0.015319455415010452,
+              "total_loss": 0.018077826127409935
+            },
+            {
+              "instance_id": "13000029_pinhole_11",
+              "fold": 0,
+              "z": 1.8833187818527222,
+              "denoise_loss": 0.003105172421783209,
+              "tmvb_loss": 0.4880641996860504,
+              "total_loss": 0.49116936326026917
+            },
+            {
+              "instance_id": "00041095_pinhole_03",
+              "fold": 0,
+              "z": 2.1493825912475586,
+              "denoise_loss": 0.0034224928822368383,
+              "tmvb_loss": 0.9306069612503052,
+              "total_loss": 0.9340294599533081
+            }
+          ]
+        },
+        {
+          "attempt": 26,
+          "successful_step": 20,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 23.574033737182617,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000110_pinhole_04",
+              "fold": 1,
+              "z": 1.7686306238174438,
+              "denoise_loss": 0.0027208139654248953,
+              "tmvb_loss": 0.34097161889076233,
+              "total_loss": 0.343692421913147
+            },
+            {
+              "instance_id": "20085090_pinhole_05",
+              "fold": 1,
+              "z": 1.6412512063980103,
+              "denoise_loss": 0.0035839534830302,
+              "tmvb_loss": 0.20843638479709625,
+              "total_loss": 0.21202033758163452
+            },
+            {
+              "instance_id": "13000079_pinhole_06",
+              "fold": 2,
+              "z": 1.7726669311523438,
+              "denoise_loss": 0.00406647939234972,
+              "tmvb_loss": 0.3457017242908478,
+              "total_loss": 0.34976819157600403
+            },
+            {
+              "instance_id": "20085217_pinhole_05",
+              "fold": 2,
+              "z": 1.5501328706741333,
+              "denoise_loss": 0.003450794145464897,
+              "tmvb_loss": 0.133539080619812,
+              "total_loss": 0.13698987662792206
+            }
+          ]
+        },
+        {
+          "attempt": 27,
+          "successful_step": 21,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 26.666704177856445,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000029_pinhole_11",
+              "fold": 0,
+              "z": 0.6918059587478638,
+              "denoise_loss": 0.0030719744972884655,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0030719744972884655
+            },
+            {
+              "instance_id": "13000079_pinhole_04",
+              "fold": 2,
+              "z": 2.2656493186950684,
+              "denoise_loss": 0.003255220130085945,
+              "tmvb_loss": 1.1684452295303345,
+              "total_loss": 1.1717004776000977
+            },
+            {
+              "instance_id": "44000092_pinhole_09",
+              "fold": 2,
+              "z": 1.88717520236969,
+              "denoise_loss": 0.00391347473487258,
+              "tmvb_loss": 0.4934673607349396,
+              "total_loss": 0.4973808228969574
+            },
+            {
+              "instance_id": "44000093_pinhole_07",
+              "fold": 0,
+              "z": 0.5031916499137878,
+              "denoise_loss": 0.003904141951352358,
+              "tmvb_loss": 0.002036766614764929,
+              "total_loss": 0.005940908566117287
+            }
+          ]
+        },
+        {
+          "attempt": 28,
+          "successful_step": 22,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 63.91563034057617,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000097_pinhole_05",
+              "fold": 1,
+              "z": 1.2027254104614258,
+              "denoise_loss": 0.0035590201150625944,
+              "tmvb_loss": 0.00032481184462085366,
+              "total_loss": 0.003883831901475787
+            },
+            {
+              "instance_id": "00041125_pinhole_04",
+              "fold": 0,
+              "z": 0.8268976211547852,
+              "denoise_loss": 0.0036502727307379246,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0036502727307379246
+            },
+            {
+              "instance_id": "77000076_pinhole_05",
+              "fold": 1,
+              "z": 2.3465728759765625,
+              "denoise_loss": 0.00489009078592062,
+              "tmvb_loss": 1.3499418497085571,
+              "total_loss": 1.3548319339752197
+            },
+            {
+              "instance_id": "92000081_pinhole_05",
+              "fold": 1,
+              "z": 0.9985312819480896,
+              "denoise_loss": 0.004877416417002678,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004877416417002678
+            }
+          ]
+        },
+        {
+          "attempt": 29,
+          "successful_step": 23,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 52.45988082885742,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041125_pinhole_04",
+              "fold": 0,
+              "z": 0.9034463167190552,
+              "denoise_loss": 0.0029553365893661976,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0029553365893661976
+            },
+            {
+              "instance_id": "13000003_pinhole_03",
+              "fold": 0,
+              "z": 2.507417678833008,
+              "denoise_loss": 0.004205250181257725,
+              "tmvb_loss": 1.7495744228363037,
+              "total_loss": 1.753779649734497
+            },
+            {
+              "instance_id": "00041057_pinhole_04",
+              "fold": 2,
+              "z": 0.6451137661933899,
+              "denoise_loss": 0.004103182349354029,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004103182349354029
+            },
+            {
+              "instance_id": "00041057_pinhole_04",
+              "fold": 2,
+              "z": 0.9386633634567261,
+              "denoise_loss": 0.004440733231604099,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004440733231604099
+            }
+          ]
+        },
+        {
+          "attempt": 30,
+          "successful_step": 24,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.2620544731616974,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "92000081_pinhole_05",
+              "fold": 1,
+              "z": 0.9971404671669006,
+              "denoise_loss": 0.006141291931271553,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006141291931271553
+            },
+            {
+              "instance_id": "13000009_pinhole_07",
+              "fold": 2,
+              "z": 1.0737851858139038,
+              "denoise_loss": 0.003990624565631151,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003990624565631151
+            },
+            {
+              "instance_id": "20085217_pinhole_05",
+              "fold": 2,
+              "z": 0.6236101984977722,
+              "denoise_loss": 0.0044063301756978035,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0044063301756978035
+            },
+            {
+              "instance_id": "20085020_pinhole_06",
+              "fold": 2,
+              "z": 1.0439679622650146,
+              "denoise_loss": 0.004179162904620171,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004179162904620171
+            }
+          ]
+        },
+        {
+          "attempt": 31,
+          "successful_step": 25,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 87.65904998779297,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000079_pinhole_06",
+              "fold": 2,
+              "z": 1.4901118278503418,
+              "denoise_loss": 0.004722097888588905,
+              "tmvb_loss": 0.09327463060617447,
+              "total_loss": 0.09799672663211823
+            },
+            {
+              "instance_id": "13000022_pinhole_10",
+              "fold": 1,
+              "z": 4.579432487487793,
+              "denoise_loss": 0.005453482270240784,
+              "tmvb_loss": 11.524188995361328,
+              "total_loss": 11.529642105102539
+            },
+            {
+              "instance_id": "77000019_pinhole_02",
+              "fold": 0,
+              "z": 0.24574416875839233,
+              "denoise_loss": 0.005778583697974682,
+              "tmvb_loss": 0.0915534645318985,
+              "total_loss": 0.09733204543590546
+            },
+            {
+              "instance_id": "44000093_pinhole_08",
+              "fold": 0,
+              "z": 0.6043113470077515,
+              "denoise_loss": 0.003835181472823024,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003835181472823024
+            }
+          ]
+        },
+        {
+          "attempt": 32,
+          "successful_step": 26,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 49.167442321777344,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000025_pinhole_10",
+              "fold": 0,
+              "z": 1.170248031616211,
+              "denoise_loss": 0.0029514823108911514,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0029514823108911514
+            },
+            {
+              "instance_id": "13000174_pinhole_02",
+              "fold": 2,
+              "z": 1.5555224418640137,
+              "denoise_loss": 0.003529704175889492,
+              "tmvb_loss": 0.13750715553760529,
+              "total_loss": 0.14103685319423676
+            },
+            {
+              "instance_id": "00041030_pinhole_09",
+              "fold": 0,
+              "z": 0.4365142285823822,
+              "denoise_loss": 0.004191301297396421,
+              "tmvb_loss": 0.012501022778451443,
+              "total_loss": 0.016692323610186577
+            },
+            {
+              "instance_id": "13000009_pinhole_03",
+              "fold": 2,
+              "z": 1.3244847059249878,
+              "denoise_loss": 0.0038755745626986027,
+              "tmvb_loss": 0.019538961350917816,
+              "total_loss": 0.02341453544795513
+            }
+          ]
+        },
+        {
+          "attempt": 33,
+          "successful_step": 27,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 410.4548034667969,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000079_pinhole_06",
+              "fold": 2,
+              "z": 1.5946062803268433,
+              "denoise_loss": 0.005521606653928757,
+              "tmvb_loss": 0.1680207997560501,
+              "total_loss": 0.17354241013526917
+            },
+            {
+              "instance_id": "13000019_pinhole_11",
+              "fold": 1,
+              "z": 1.2790167331695557,
+              "denoise_loss": 0.0038333807606250048,
+              "tmvb_loss": 0.008895103819668293,
+              "total_loss": 0.012728484347462654
+            },
+            {
+              "instance_id": "50600015_pinhole_05",
+              "fold": 1,
+              "z": 3.3724989891052246,
+              "denoise_loss": 0.005041318014264107,
+              "tmvb_loss": 4.786451816558838,
+              "total_loss": 4.791492938995361
+            },
+            {
+              "instance_id": "13000031_pinhole_07",
+              "fold": 2,
+              "z": 1.8687776327133179,
+              "denoise_loss": 0.0033824278507381678,
+              "tmvb_loss": 0.4679582715034485,
+              "total_loss": 0.47134068608283997
+            }
+          ]
+        },
+        {
+          "attempt": 34,
+          "successful_step": 28,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 1.6974928379058838,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000086_pinhole_06",
+              "fold": 2,
+              "z": 0.5607528686523438,
+              "denoise_loss": 0.00567288976162672,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00567288976162672
+            },
+            {
+              "instance_id": "50600024_pinhole_04",
+              "fold": 2,
+              "z": 1.1218764781951904,
+              "denoise_loss": 0.002983332145959139,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.002983332145959139
+            },
+            {
+              "instance_id": "13000009_pinhole_03",
+              "fold": 2,
+              "z": 1.3204269409179688,
+              "denoise_loss": 0.00403533224016428,
+              "tmvb_loss": 0.018421022221446037,
+              "total_loss": 0.022456355392932892
+            },
+            {
+              "instance_id": "00041043_pinhole_03",
+              "fold": 1,
+              "z": 1.23421049118042,
+              "denoise_loss": 0.005337021313607693,
+              "tmvb_loss": 0.0024510042276233435,
+              "total_loss": 0.00778802577406168
+            }
+          ]
+        },
+        {
+          "attempt": 35,
+          "successful_step": 29,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 57.736412048339844,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000029_pinhole_10",
+              "fold": 0,
+              "z": 1.2617515325546265,
+              "denoise_loss": 0.004053287673741579,
+              "tmvb_loss": 0.0059364959597587585,
+              "total_loss": 0.00998978316783905
+            },
+            {
+              "instance_id": "44000086_pinhole_06",
+              "fold": 2,
+              "z": 0.5369988083839417,
+              "denoise_loss": 0.005903309211134911,
+              "tmvb_loss": 0.00012821920972783118,
+              "total_loss": 0.006031528580933809
+            },
+            {
+              "instance_id": "13000017_pinhole_09",
+              "fold": 2,
+              "z": 0.6148166060447693,
+              "denoise_loss": 0.003724140115082264,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003724140115082264
+            },
+            {
+              "instance_id": "20085185_pinhole_06",
+              "fold": 0,
+              "z": 1.7934082746505737,
+              "denoise_loss": 0.004390566609799862,
+              "tmvb_loss": 0.37052226066589355,
+              "total_loss": 0.374912828207016
+            }
+          ]
+        },
+        {
+          "attempt": 36,
+          "successful_step": 30,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 125.36243438720703,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085143_pinhole_05",
+              "fold": 1,
+              "z": 0.6438658237457275,
+              "denoise_loss": 0.004700035788118839,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004700035788118839
+            },
+            {
+              "instance_id": "20085016_pinhole_06",
+              "fold": 0,
+              "z": 2.692636489868164,
+              "denoise_loss": 0.00447825388982892,
+              "tmvb_loss": 2.2738637924194336,
+              "total_loss": 2.2783420085906982
+            },
+            {
+              "instance_id": "13000022_pinhole_11",
+              "fold": 1,
+              "z": 1.0246977806091309,
+              "denoise_loss": 0.0040466031059622765,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0040466031059622765
+            },
+            {
+              "instance_id": "13000024_pinhole_09",
+              "fold": 2,
+              "z": 2.2380900382995605,
+              "denoise_loss": 0.0037945418152958155,
+              "tmvb_loss": 1.1096245050430298,
+              "total_loss": 1.1134190559387207
+            }
+          ]
+        },
+        {
+          "attempt": 37,
+          "successful_step": 31,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 6.6019439697265625,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000126_pinhole_04",
+              "fold": 1,
+              "z": 1.5870500802993774,
+              "denoise_loss": 0.003849522676318884,
+              "tmvb_loss": 0.16188327968120575,
+              "total_loss": 0.16573280096054077
+            },
+            {
+              "instance_id": "13000031_pinhole_07",
+              "fold": 2,
+              "z": 1.4258910417556763,
+              "denoise_loss": 0.004692083224654198,
+              "tmvb_loss": 0.05817173421382904,
+              "total_loss": 0.06286381930112839
+            },
+            {
+              "instance_id": "13000110_pinhole_05",
+              "fold": 1,
+              "z": 0.7834956645965576,
+              "denoise_loss": 0.004563262220472097,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004563262220472097
+            },
+            {
+              "instance_id": "00041085_pinhole_04",
+              "fold": 0,
+              "z": 0.25506559014320374,
+              "denoise_loss": 0.004825395531952381,
+              "tmvb_loss": 0.08599943667650223,
+              "total_loss": 0.09082483500242233
+            }
+          ]
+        },
+        {
+          "attempt": 38,
+          "successful_step": 32,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.35292041301727295,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041190_pinhole_05",
+              "fold": 2,
+              "z": 0.5024080276489258,
+              "denoise_loss": 0.004138740710914135,
+              "tmvb_loss": 0.0021081112790852785,
+              "total_loss": 0.00624685175716877
+            },
+            {
+              "instance_id": "20085020_pinhole_07",
+              "fold": 2,
+              "z": 1.0609205961227417,
+              "denoise_loss": 0.004267550073564053,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004267550073564053
+            },
+            {
+              "instance_id": "92000006_pinhole_03",
+              "fold": 2,
+              "z": 0.7910236120223999,
+              "denoise_loss": 0.005592659581452608,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005592659581452608
+            },
+            {
+              "instance_id": "20085026_pinhole_05",
+              "fold": 0,
+              "z": 0.613370418548584,
+              "denoise_loss": 0.005421917885541916,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005421917885541916
+            }
+          ]
+        },
+        {
+          "attempt": 39,
+          "successful_step": 33,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.3086218535900116,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041150_pinhole_04",
+              "fold": 1,
+              "z": 0.7885653376579285,
+              "denoise_loss": 0.004013917408883572,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004013917408883572
+            },
+            {
+              "instance_id": "92000008_pinhole_04",
+              "fold": 1,
+              "z": 1.1963075399398804,
+              "denoise_loss": 0.005299771204590797,
+              "tmvb_loss": 0.00013466828386299312,
+              "total_loss": 0.005434439517557621
+            },
+            {
+              "instance_id": "20085201_pinhole_04",
+              "fold": 0,
+              "z": 0.8454934358596802,
+              "denoise_loss": 0.004859745502471924,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004859745502471924
+            },
+            {
+              "instance_id": "13000023_pinhole_11",
+              "fold": 2,
+              "z": 1.0964806079864502,
+              "denoise_loss": 0.0038570512551814318,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0038570512551814318
+            }
+          ]
+        },
+        {
+          "attempt": 40,
+          "successful_step": 34,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 44.01375961303711,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085145_pinhole_08",
+              "fold": 0,
+              "z": 0.6864346861839294,
+              "denoise_loss": 0.004429073538631201,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004429073538631201
+            },
+            {
+              "instance_id": "13000097_pinhole_05",
+              "fold": 1,
+              "z": 1.0515060424804688,
+              "denoise_loss": 0.00515791866928339,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.00515791866928339
+            },
+            {
+              "instance_id": "00041039_pinhole_04",
+              "fold": 1,
+              "z": 0.6260020136833191,
+              "denoise_loss": 0.004891575314104557,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004891575314104557
+            },
+            {
+              "instance_id": "13000037_pinhole_07",
+              "fold": 0,
+              "z": 2.9466419219970703,
+              "denoise_loss": 0.003831494366750121,
+              "tmvb_loss": 3.104429244995117,
+              "total_loss": 3.1082606315612793
+            }
+          ]
+        },
+        {
+          "attempt": 41,
+          "successful_step": 35,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 43.588706970214844,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000095_pinhole_04",
+              "fold": 1,
+              "z": 1.971603274345398,
+              "denoise_loss": 0.004758530296385288,
+              "tmvb_loss": 0.61921226978302,
+              "total_loss": 0.6239708065986633
+            },
+            {
+              "instance_id": "13000024_pinhole_09",
+              "fold": 2,
+              "z": 2.593594789505005,
+              "denoise_loss": 0.00367415277287364,
+              "tmvb_loss": 1.9849764108657837,
+              "total_loss": 1.9886505603790283
+            },
+            {
+              "instance_id": "20085062_pinhole_04",
+              "fold": 1,
+              "z": 1.9473776817321777,
+              "denoise_loss": 0.004417206160724163,
+              "tmvb_loss": 0.5816728472709656,
+              "total_loss": 0.5860900282859802
+            },
+            {
+              "instance_id": "77000008_pinhole_06",
+              "fold": 2,
+              "z": 0.9148160219192505,
+              "denoise_loss": 0.004826224874705076,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004826224874705076
+            }
+          ]
+        },
+        {
+          "attempt": 42,
+          "successful_step": 36,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 7.878849029541016,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085090_pinhole_05",
+              "fold": 1,
+              "z": 1.443132996559143,
+              "denoise_loss": 0.003969632089138031,
+              "tmvb_loss": 0.06678612530231476,
+              "total_loss": 0.07075575739145279
+            },
+            {
+              "instance_id": "92000008_pinhole_04",
+              "fold": 1,
+              "z": 1.3731998205184937,
+              "denoise_loss": 0.0050955843180418015,
+              "tmvb_loss": 0.03553109988570213,
+              "total_loss": 0.040626682341098785
+            },
+            {
+              "instance_id": "77000008_pinhole_06",
+              "fold": 2,
+              "z": 0.815098226070404,
+              "denoise_loss": 0.005050048232078552,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005050048232078552
+            },
+            {
+              "instance_id": "20085107_pinhole_03",
+              "fold": 1,
+              "z": 1.3564133644104004,
+              "denoise_loss": 0.005502285435795784,
+              "tmvb_loss": 0.029484493657946587,
+              "total_loss": 0.03498677909374237
+            }
+          ]
+        },
+        {
+          "attempt": 43,
+          "successful_step": 37,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 24.20473861694336,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "92000044_pinhole_03",
+              "fold": 0,
+              "z": 1.1685115098953247,
+              "denoise_loss": 0.004612160846590996,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004612160846590996
+            },
+            {
+              "instance_id": "50600028_pinhole_04",
+              "fold": 0,
+              "z": 0.9244081974029541,
+              "denoise_loss": 0.0030954177491366863,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0030954177491366863
+            },
+            {
+              "instance_id": "50600049_pinhole_03",
+              "fold": 1,
+              "z": 1.7135404348373413,
+              "denoise_loss": 0.004132630303502083,
+              "tmvb_loss": 0.2796691656112671,
+              "total_loss": 0.283801794052124
+            },
+            {
+              "instance_id": "00041150_pinhole_04",
+              "fold": 1,
+              "z": 0.8068875670433044,
+              "denoise_loss": 0.003954759333282709,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003954759333282709
+            }
+          ]
+        },
+        {
+          "attempt": 44,
+          "successful_step": 38,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 38.75004959106445,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000037_pinhole_08",
+              "fold": 0,
+              "z": 1.9315022230148315,
+              "denoise_loss": 0.00395607203245163,
+              "tmvb_loss": 0.557709276676178,
+              "total_loss": 0.5616653561592102
+            },
+            {
+              "instance_id": "13000025_pinhole_10",
+              "fold": 0,
+              "z": 1.4179399013519287,
+              "denoise_loss": 0.003342624753713608,
+              "tmvb_loss": 0.0543995127081871,
+              "total_loss": 0.05774213746190071
+            },
+            {
+              "instance_id": "00041057_pinhole_04",
+              "fold": 2,
+              "z": 0.5675278902053833,
+              "denoise_loss": 0.005032428540289402,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005032428540289402
+            },
+            {
+              "instance_id": "13000009_pinhole_03",
+              "fold": 2,
+              "z": 1.4362150430679321,
+              "denoise_loss": 0.004105591680854559,
+              "tmvb_loss": 0.06325837224721909,
+              "total_loss": 0.06736396253108978
+            }
+          ]
+        },
+        {
+          "attempt": 45,
+          "successful_step": 39,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 5.228623390197754,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041181_pinhole_07",
+              "fold": 2,
+              "z": 0.5904322266578674,
+              "denoise_loss": 0.004676449578255415,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004676449578255415
+            },
+            {
+              "instance_id": "13000110_pinhole_04",
+              "fold": 1,
+              "z": 1.4279510974884033,
+              "denoise_loss": 0.0035505658015608788,
+              "tmvb_loss": 0.059169698506593704,
+              "total_loss": 0.06272026151418686
+            },
+            {
+              "instance_id": "13000029_pinhole_11",
+              "fold": 0,
+              "z": 0.6874407529830933,
+              "denoise_loss": 0.004295141436159611,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004295141436159611
+            },
+            {
+              "instance_id": "13000030_pinhole_09",
+              "fold": 1,
+              "z": 1.733420729637146,
+              "denoise_loss": 0.004355301149189472,
+              "tmvb_loss": 0.3010912835597992,
+              "total_loss": 0.305446594953537
+            }
+          ]
+        },
+        {
+          "attempt": 46,
+          "successful_step": 40,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 21.48278045654297,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "00041125_pinhole_04",
+              "fold": 0,
+              "z": 0.7607691287994385,
+              "denoise_loss": 0.0036690067499876022,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0036690067499876022
+            },
+            {
+              "instance_id": "20085014_pinhole_05",
+              "fold": 2,
+              "z": 1.1470738649368286,
+              "denoise_loss": 0.0042935023084282875,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0042935023084282875
+            },
+            {
+              "instance_id": "13000027_pinhole_10",
+              "fold": 1,
+              "z": 1.1458872556686401,
+              "denoise_loss": 0.0041086748242378235,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0041086748242378235
+            },
+            {
+              "instance_id": "92000044_pinhole_03",
+              "fold": 0,
+              "z": 1.6555300951004028,
+              "denoise_loss": 0.00438374187797308,
+              "tmvb_loss": 0.22167827188968658,
+              "total_loss": 0.22606201469898224
+            }
+          ]
+        },
+        {
+          "attempt": 47,
+          "successful_step": 41,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.22192364931106567,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "77000081_pinhole_03",
+              "fold": 1,
+              "z": 0.5751805901527405,
+              "denoise_loss": 0.004130888264626265,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004130888264626265
+            },
+            {
+              "instance_id": "50600021_pinhole_05",
+              "fold": 2,
+              "z": 0.605712354183197,
+              "denoise_loss": 0.0032780137844383717,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0032780137844383717
+            },
+            {
+              "instance_id": "20085090_pinhole_05",
+              "fold": 1,
+              "z": 1.182031512260437,
+              "denoise_loss": 0.005256063304841518,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.005256063304841518
+            },
+            {
+              "instance_id": "00041133_pinhole_05",
+              "fold": 2,
+              "z": 1.0633398294448853,
+              "denoise_loss": 0.003757632104679942,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003757632104679942
+            }
+          ]
+        },
+        {
+          "attempt": 48,
+          "successful_step": 42,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 3.2293789386749268,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085203_pinhole_05",
+              "fold": 2,
+              "z": 1.4124020338058472,
+              "denoise_loss": 0.0046538664028048515,
+              "tmvb_loss": 0.051846906542778015,
+              "total_loss": 0.05650077387690544
+            },
+            {
+              "instance_id": "77000076_pinhole_05",
+              "fold": 1,
+              "z": 1.169886589050293,
+              "denoise_loss": 0.006170932203531265,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006170932203531265
+            },
+            {
+              "instance_id": "77000008_pinhole_06",
+              "fold": 2,
+              "z": 0.6673963069915771,
+              "denoise_loss": 0.004398238845169544,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004398238845169544
+            },
+            {
+              "instance_id": "20085020_pinhole_07",
+              "fold": 2,
+              "z": 1.064502239227295,
+              "denoise_loss": 0.004745150916278362,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004745150916278362
+            }
+          ]
+        },
+        {
+          "attempt": 49,
+          "successful_step": 43,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 0.268227756023407,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "92000077_pinhole_04",
+              "fold": 0,
+              "z": 1.1481142044067383,
+              "denoise_loss": 0.004297799896448851,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004297799896448851
+            },
+            {
+              "instance_id": "13000023_pinhole_10",
+              "fold": 2,
+              "z": 0.8791937232017517,
+              "denoise_loss": 0.0038743820041418076,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0038743820041418076
+            },
+            {
+              "instance_id": "13000017_pinhole_09",
+              "fold": 2,
+              "z": 0.718297004699707,
+              "denoise_loss": 0.0042155045084655285,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0042155045084655285
+            },
+            {
+              "instance_id": "20085155_pinhole_05",
+              "fold": 0,
+              "z": 0.7113334536552429,
+              "denoise_loss": 0.0038594345096498728,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0038594345096498728
+            }
+          ]
+        },
+        {
+          "attempt": 50,
+          "successful_step": 44,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 286.3885498046875,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085225_pinhole_11",
+              "fold": 0,
+              "z": 0.9681410193443298,
+              "denoise_loss": 0.004170643165707588,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004170643165707588
+            },
+            {
+              "instance_id": "20085185_pinhole_09",
+              "fold": 0,
+              "z": 3.8145320415496826,
+              "denoise_loss": 0.0049861422739923,
+              "tmvb_loss": 6.916001319885254,
+              "total_loss": 6.920987606048584
+            },
+            {
+              "instance_id": "20085238_pinhole_08",
+              "fold": 1,
+              "z": 0.9402203559875488,
+              "denoise_loss": 0.0041460637003183365,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0041460637003183365
+            },
+            {
+              "instance_id": "13000003_pinhole_07",
+              "fold": 0,
+              "z": 2.066272497177124,
+              "denoise_loss": 0.003769948612898588,
+              "tmvb_loss": 0.7771649956703186,
+              "total_loss": 0.7809349298477173
+            }
+          ]
+        },
+        {
+          "attempt": 51,
+          "successful_step": 45,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 20.556961059570312,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000093_pinhole_07",
+              "fold": 0,
+              "z": 0.4571954309940338,
+              "denoise_loss": 0.004108424298465252,
+              "tmvb_loss": 0.00830408837646246,
+              "total_loss": 0.012412512674927711
+            },
+            {
+              "instance_id": "77000019_pinhole_02",
+              "fold": 0,
+              "z": 0.2178172916173935,
+              "denoise_loss": 0.005415291525423527,
+              "tmvb_loss": 0.10923348367214203,
+              "total_loss": 0.11464877426624298
+            },
+            {
+              "instance_id": "20085183_pinhole_04",
+              "fold": 1,
+              "z": 2.829972982406616,
+              "denoise_loss": 0.004259330220520496,
+              "tmvb_loss": 2.706913709640503,
+              "total_loss": 2.7111730575561523
+            },
+            {
+              "instance_id": "20085107_pinhole_07",
+              "fold": 1,
+              "z": 1.0713101625442505,
+              "denoise_loss": 0.004530579783022404,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004530579783022404
+            }
+          ]
+        },
+        {
+          "attempt": 52,
+          "successful_step": 46,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 24.857868194580078,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000037_pinhole_07",
+              "fold": 0,
+              "z": 2.9290995597839355,
+              "denoise_loss": 0.003964951727539301,
+              "tmvb_loss": 3.042919874191284,
+              "total_loss": 3.046884775161743
+            },
+            {
+              "instance_id": "13000110_pinhole_05",
+              "fold": 1,
+              "z": 0.6710107326507568,
+              "denoise_loss": 0.004401069600135088,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004401069600135088
+            },
+            {
+              "instance_id": "77000081_pinhole_03",
+              "fold": 1,
+              "z": 0.6991096138954163,
+              "denoise_loss": 0.004513364285230637,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004513364285230637
+            },
+            {
+              "instance_id": "13000028_pinhole_11",
+              "fold": 1,
+              "z": 1.1592285633087158,
+              "denoise_loss": 0.003451728727668524,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.003451728727668524
+            }
+          ]
+        },
+        {
+          "attempt": 53,
+          "successful_step": 47,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 4.3278727531433105,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "44000068_pinhole_05",
+              "fold": 2,
+              "z": 0.6012358665466309,
+              "denoise_loss": 0.0043814294040203094,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0043814294040203094
+            },
+            {
+              "instance_id": "20085103_pinhole_05",
+              "fold": 2,
+              "z": 1.3653944730758667,
+              "denoise_loss": 0.004975929390639067,
+              "tmvb_loss": 0.0326494537293911,
+              "total_loss": 0.03762538358569145
+            },
+            {
+              "instance_id": "50600049_pinhole_03",
+              "fold": 1,
+              "z": 1.5206538438796997,
+              "denoise_loss": 0.004098197445273399,
+              "tmvb_loss": 0.11286305636167526,
+              "total_loss": 0.11696125566959381
+            },
+            {
+              "instance_id": "13000118_pinhole_05",
+              "fold": 2,
+              "z": 0.8942995071411133,
+              "denoise_loss": 0.004574192222207785,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004574192222207785
+            }
+          ]
+        },
+        {
+          "attempt": 54,
+          "successful_step": 48,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 396.0539855957031,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "20085071_pinhole_04",
+              "fold": 0,
+              "z": 3.4548890590667725,
+              "denoise_loss": 0.003800411010161042,
+              "tmvb_loss": 5.153745174407959,
+              "total_loss": 5.157545566558838
+            },
+            {
+              "instance_id": "00041089_pinhole_04",
+              "fold": 1,
+              "z": 0.9339281320571899,
+              "denoise_loss": 0.004113120026886463,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004113120026886463
+            },
+            {
+              "instance_id": "13000028_pinhole_11",
+              "fold": 1,
+              "z": 1.1998045444488525,
+              "denoise_loss": 0.0034715193323791027,
+              "tmvb_loss": 0.00022806046763435006,
+              "total_loss": 0.003699579741805792
+            },
+            {
+              "instance_id": "20085103_pinhole_05",
+              "fold": 2,
+              "z": 1.0697399377822876,
+              "denoise_loss": 0.006635263096541166,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.006635263096541166
+            }
+          ]
+        },
+        {
+          "attempt": 55,
+          "successful_step": 49,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 45.894676208496094,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000022_pinhole_10",
+              "fold": 1,
+              "z": 1.1608127355575562,
+              "denoise_loss": 0.004097584635019302,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.004097584635019302
+            },
+            {
+              "instance_id": "13000025_pinhole_10",
+              "fold": 0,
+              "z": 1.3437625169754028,
+              "denoise_loss": 0.003185868263244629,
+              "tmvb_loss": 0.02529997006058693,
+              "total_loss": 0.028485838323831558
+            },
+            {
+              "instance_id": "13000037_pinhole_08",
+              "fold": 0,
+              "z": 1.4849048852920532,
+              "denoise_loss": 0.003781108418479562,
+              "tmvb_loss": 0.09012124687433243,
+              "total_loss": 0.0939023569226265
+            },
+            {
+              "instance_id": "13000023_pinhole_10",
+              "fold": 2,
+              "z": 0.9492684006690979,
+              "denoise_loss": 0.0039958469569683075,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0039958469569683075
+            }
+          ]
+        },
+        {
+          "attempt": 56,
+          "successful_step": 50,
+          "skipped": false,
+          "gradient_finite": true,
+          "gradient_norm_before_clip": 233.74542236328125,
+          "scale_before": 1024.0,
+          "scale_after": 1024.0,
+          "parameter_changed": true,
+          "micro_batches": [
+            {
+              "instance_id": "13000028_pinhole_10",
+              "fold": 1,
+              "z": 1.4973781108856201,
+              "denoise_loss": 0.004088106565177441,
+              "tmvb_loss": 0.09776580333709717,
+              "total_loss": 0.10185390710830688
+            },
+            {
+              "instance_id": "13000029_pinhole_11",
+              "fold": 0,
+              "z": 0.7566057443618774,
+              "denoise_loss": 0.0044149598106741905,
+              "tmvb_loss": 0.0,
+              "total_loss": 0.0044149598106741905
+            },
+            {
+              "instance_id": "20085016_pinhole_06",
+              "fold": 0,
+              "z": 3.69901704788208,
+              "denoise_loss": 0.004392094910144806,
+              "tmvb_loss": 6.321775913238525,
+              "total_loss": 6.326168060302734
+            },
+            {
+              "instance_id": "92000077_pinhole_04",
+              "fold": 0,
+              "z": 1.53848135471344,
+              "denoise_loss": 0.005305943079292774,
+              "tmvb_loss": 0.12515921890735626,
+              "total_loss": 0.13046516478061676
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "formal_checkpoint_saved": false,
+  "official_validation_use_count": 0,
+  "stability_acceptance": {
+    "rule": "50 successful updates, nonzero parameter delta, nonzero scaler, and final 20 attempts finite/unskipped/updated",
+    "audit": {
+      "short": {
+        "status": "PASS",
+        "checks": {
+          "fifty_successful_updates": true,
+          "parameter_changed": true,
+          "grad_scaler_nonzero": true,
+          "last_20_attempts_all_successful": true,
+          "checkpoint_not_saved": true
+        },
+        "attempted_steps": 58,
+        "successful_steps": 50,
+        "amp_guarded_skips": 8,
+        "last_skip_attempt": 32,
+        "consecutive_successful_tail": 26,
+        "final_grad_scaler_scale": 256.0,
+        "parameter_delta_l2": 0.008661375381052494
+      },
+      "pinhole": {
+        "status": "PASS",
+        "checks": {
+          "fifty_successful_updates": true,
+          "parameter_changed": true,
+          "grad_scaler_nonzero": true,
+          "last_20_attempts_all_successful": true,
+          "checkpoint_not_saved": true
+        },
+        "attempted_steps": 56,
+        "successful_steps": 50,
+        "amp_guarded_skips": 6,
+        "last_skip_attempt": 20,
+        "consecutive_successful_tail": 36,
+        "final_grad_scaler_scale": 1024.0,
+        "parameter_delta_l2": 0.00725083751603961
+      }
+    },
+    "early_amp_guarded_skips_are_not_successful_updates": true
+  }
+}

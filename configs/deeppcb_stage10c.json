@@ -1,0 +1,19 @@
+{
+  "experiment": "deeppcb_stage10c_tmvb_downstream_pilot",
+  "detector": "YOLO11s",
+  "detector_seed": 42,
+  "selection_seed": 2026,
+  "target_classes": ["short", "pinhole"],
+  "synthetic_per_class": 40,
+  "real_draws_per_epoch": 260,
+  "extra_draws_per_epoch": 80,
+  "epochs": 150,
+  "batch": 8,
+  "imgsz": 512,
+  "primary_checkpoint": "epoch150 last.pt",
+  "mosaic": 0.0,
+  "mixup": 0.0,
+  "copy_paste": 0.0,
+  "cutmix": 0.0,
+  "additional_detector_seeds_authorized": false
+}

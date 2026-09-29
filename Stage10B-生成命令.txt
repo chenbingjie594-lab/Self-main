@@ -1,0 +1,16 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage10b_tmvb_generation
+mkdir -p results_for_gpt/deeppcb_stage10b_tmvb_generation
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/generate_deeppcb_stage10b.py \
+  --gate results_for_gpt/deeppcb_stage10b_tmvb_feasibility \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --model_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage10b_tmvb_medium_s42 \
+  --scheduler /mnt/sda/cbj/ImageGeneration/Self-main/scheduler \
+  --output /mnt/sda/cbj/ImageGeneration/Self-main/data/deeppcb_stage10b_tmvb_medium \
+  --manifest results_for_gpt/deeppcb_stage10b_tmvb_generation/source_seed_manifest.json \
+  --device 0 > logs/deeppcb_stage10b_tmvb_generation/generation.log 2>&1 &
+
+echo $! > logs/deeppcb_stage10b_tmvb_generation/generation.pid

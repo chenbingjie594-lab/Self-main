@@ -1,0 +1,9 @@
+{
+  "rule": "argmin_t abs(log(alpha_bar_t/(1-alpha_bar_t)))",
+  "timestep": 354,
+  "alpha_bar": 0.4998171627521515,
+  "snr": 0.9992688298225403,
+  "log_snr": -0.0007314376416616142,
+  "prediction_type": "epsilon",
+  "manually_selected": false
+}
