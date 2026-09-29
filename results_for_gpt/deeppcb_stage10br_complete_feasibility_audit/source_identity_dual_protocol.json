@@ -1,0 +1,360 @@
+{
+  "generated_source_cluster_identity": {
+    "protocol": "generated seed feature to leave-one-seed-out generated-source centroid",
+    "metrics": {
+      "class_finetuned_sd2": {
+        "overall": {
+          "retrieval_top1": 0.9857881136950905,
+          "retrieval_top5": 0.9974160206718347,
+          "within_over_total": 0.030482805504971972,
+          "between_over_total": 0.969517194495028,
+          "source_identity_R2": 0.969517194495028,
+          "n": 774
+        },
+        "short": {
+          "retrieval_top1": 0.9844961240310077,
+          "retrieval_top5": 0.9948320413436692,
+          "within_over_total": 0.030615136401416616,
+          "between_over_total": 0.9693848635985833,
+          "source_identity_R2": 0.9693848635985833,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.9896640826873385,
+          "retrieval_top5": 1.0,
+          "within_over_total": 0.0318558491001766,
+          "between_over_total": 0.9681441508998234,
+          "source_identity_R2": 0.9681441508998234,
+          "n": 387
+        }
+      },
+      "tmvb_medium": {
+        "overall": {
+          "retrieval_top1": 0.7842377260981912,
+          "retrieval_top5": 0.8992248062015504,
+          "within_over_total": 0.10398786085613915,
+          "between_over_total": 0.8960121391438608,
+          "source_identity_R2": 0.8960121391438608,
+          "n": 774
+        },
+        "short": {
+          "retrieval_top1": 0.8888888888888888,
+          "retrieval_top5": 0.9560723514211886,
+          "within_over_total": 0.07358515039966185,
+          "between_over_total": 0.9264148496003383,
+          "source_identity_R2": 0.9264148496003383,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.7080103359173127,
+          "retrieval_top5": 0.8785529715762274,
+          "within_over_total": 0.13812192659629308,
+          "between_over_total": 0.861878073403707,
+          "source_identity_R2": 0.861878073403707,
+          "n": 387
+        }
+      },
+      "repaired_frozen_adapter": {
+        "overall": {
+          "retrieval_top1": 0.45348837209302323,
+          "retrieval_top5": 0.6847545219638242,
+          "within_over_total": 0.18457349289745462,
+          "between_over_total": 0.8154265071025453,
+          "source_identity_R2": 0.8154265071025453,
+          "n": 774
+        },
+        "short": {
+          "retrieval_top1": 0.4728682170542636,
+          "retrieval_top5": 0.6821705426356589,
+          "within_over_total": 0.20288710963539955,
+          "between_over_total": 0.7971128903646004,
+          "source_identity_R2": 0.7971128903646004,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.49612403100775193,
+          "retrieval_top5": 0.7829457364341085,
+          "within_over_total": 0.17446519253199094,
+          "between_over_total": 0.825534807468009,
+          "source_identity_R2": 0.825534807468009,
+          "n": 387
+        }
+      },
+      "pretrained_no_adaptation": {
+        "overall": {
+          "retrieval_top1": 0.9263565891472868,
+          "retrieval_top5": 0.9638242894056848,
+          "within_over_total": 0.049533244723047515,
+          "between_over_total": 0.9504667552769525,
+          "source_identity_R2": 0.9504667552769525,
+          "n": 774
+        },
+        "short": {
+          "retrieval_top1": 0.9198966408268734,
+          "retrieval_top5": 0.9612403100775194,
+          "within_over_total": 0.06269991189449332,
+          "between_over_total": 0.9373000881055067,
+          "source_identity_R2": 0.9373000881055067,
+          "n": 387
+        },
+        "pinhole": {
+          "retrieval_top1": 0.958656330749354,
+          "retrieval_top5": 0.979328165374677,
+          "within_over_total": 0.03787475701298807,
+          "between_over_total": 0.962125242987012,
+          "source_identity_R2": 0.962125242987012,
+          "n": 387
+        }
+      }
+    }
+  },
+  "synthetic_to_oof_real_bank": {
+    "protocol": "corrected tight-bbox feature to corresponding fold/class OOF real bank",
+    "metrics": {
+      "class_finetuned_sd2": {
+        "overall": {
+          "pair_gap": {
+            "mean": 0.1392290891756999,
+            "median": 0.10694199800491333,
+            "std": 0.10507827390541925,
+            "n": 774
+          },
+          "normalized_pair_gap": {
+            "mean": 0.7329012918325979,
+            "median": 0.5906587495120048,
+            "std": 0.5069839748552508,
+            "n": 774
+          },
+          "fraction_gt_real_q95": 0.22868217054263565,
+          "real_bank_top1": 0.2997416020671835,
+          "real_bank_top5": 0.6124031007751938,
+          "same_instance_nearest": 0.2997416020671835,
+          "n": 774
+        },
+        "per_class": {
+          "short": {
+            "pair_gap": {
+              "mean": 0.12924416936953245,
+              "median": 0.09475308656692505,
+              "std": 0.10314502505214562,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 0.6252159566225538,
+              "median": 0.49481184239761133,
+              "std": 0.44774199821114236,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.17054263565891473,
+            "real_bank_top1": 0.34366925064599485,
+            "real_bank_top5": 0.6511627906976745,
+            "same_instance_nearest": 0.34366925064599485,
+            "n": 387
+          },
+          "pinhole": {
+            "pair_gap": {
+              "mean": 0.14921400898186735,
+              "median": 0.12047505378723145,
+              "std": 0.10604052929802683,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 0.8405866270426419,
+              "median": 0.6745094760917923,
+              "std": 0.5388880604720738,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.2868217054263566,
+            "real_bank_top1": 0.2558139534883721,
+            "real_bank_top5": 0.5736434108527132,
+            "same_instance_nearest": 0.2558139534883721,
+            "n": 387
+          }
+        }
+      },
+      "tmvb_medium": {
+        "overall": {
+          "pair_gap": {
+            "mean": 0.1301464334476826,
+            "median": 0.1071239709854126,
+            "std": 0.10191834758062523,
+            "n": 774
+          },
+          "normalized_pair_gap": {
+            "mean": 0.7015890970408515,
+            "median": 0.5938508956984312,
+            "std": 0.5883426803390615,
+            "n": 774
+          },
+          "fraction_gt_real_q95": 0.1421188630490956,
+          "real_bank_top1": 0.23385012919896642,
+          "real_bank_top5": 0.5697674418604651,
+          "same_instance_nearest": 0.23385012919896642,
+          "n": 774
+        },
+        "per_class": {
+          "short": {
+            "pair_gap": {
+              "mean": 0.11508504118414196,
+              "median": 0.09625601768493652,
+              "std": 0.06850299978315334,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 0.5684641364566607,
+              "median": 0.5132723209892915,
+              "std": 0.33322930989744404,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.09560723514211886,
+            "real_bank_top1": 0.24289405684754523,
+            "real_bank_top5": 0.6046511627906976,
+            "same_instance_nearest": 0.24289405684754523,
+            "n": 387
+          },
+          "pinhole": {
+            "pair_gap": {
+              "mean": 0.1452078257112232,
+              "median": 0.1160476803779602,
+              "std": 0.12501338765911066,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 0.8347140576250426,
+              "median": 0.6691618599531726,
+              "std": 0.7387881535198643,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.18863049095607234,
+            "real_bank_top1": 0.2248062015503876,
+            "real_bank_top5": 0.5348837209302325,
+            "same_instance_nearest": 0.2248062015503876,
+            "n": 387
+          }
+        }
+      },
+      "repaired_frozen_adapter": {
+        "overall": {
+          "pair_gap": {
+            "mean": 0.2252288410675926,
+            "median": 0.16959604620933533,
+            "std": 0.16401502468843018,
+            "n": 774
+          },
+          "normalized_pair_gap": {
+            "mean": 1.1723920513167656,
+            "median": 0.9428707304556092,
+            "std": 0.8130978240587804,
+            "n": 774
+          },
+          "fraction_gt_real_q95": 0.4715762273901809,
+          "real_bank_top1": 0.16149870801033592,
+          "real_bank_top5": 0.4315245478036176,
+          "same_instance_nearest": 0.16149870801033592,
+          "n": 774
+        },
+        "per_class": {
+          "short": {
+            "pair_gap": {
+              "mean": 0.24573648345562837,
+              "median": 0.18151235580444336,
+              "std": 0.18560841642484902,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 1.1982095869448963,
+              "median": 0.9525211601947832,
+              "std": 0.9199921871199784,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.48320413436692505,
+            "real_bank_top1": 0.16020671834625322,
+            "real_bank_top5": 0.4005167958656331,
+            "same_instance_nearest": 0.16020671834625322,
+            "n": 387
+          },
+          "pinhole": {
+            "pair_gap": {
+              "mean": 0.20472119867955682,
+              "median": 0.16352403163909912,
+              "std": 0.1360523634734856,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 1.146574515688635,
+              "median": 0.933776574692098,
+              "std": 0.6888667710991915,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.4599483204134367,
+            "real_bank_top1": 0.16279069767441862,
+            "real_bank_top5": 0.4625322997416021,
+            "same_instance_nearest": 0.16279069767441862,
+            "n": 387
+          }
+        }
+      },
+      "pretrained_no_adaptation": {
+        "overall": {
+          "pair_gap": {
+            "mean": 0.5201487958585261,
+            "median": 0.49941033124923706,
+            "std": 0.21559291223620006,
+            "n": 774
+          },
+          "normalized_pair_gap": {
+            "mean": 2.8486916014236905,
+            "median": 2.6144028569971605,
+            "std": 1.4217471422127559,
+            "n": 774
+          },
+          "fraction_gt_real_q95": 0.9366925064599483,
+          "real_bank_top1": 0.07364341085271318,
+          "real_bank_top5": 0.27648578811369506,
+          "same_instance_nearest": 0.07364341085271318,
+          "n": 774
+        },
+        "per_class": {
+          "short": {
+            "pair_gap": {
+              "mean": 0.4735440043515937,
+              "median": 0.4564822316169739,
+              "std": 0.2193410998711233,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 2.391563866030799,
+              "median": 2.132155110897,
+              "std": 1.3036689810772195,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.8888888888888888,
+            "real_bank_top1": 0.082687338501292,
+            "real_bank_top5": 0.2558139534883721,
+            "same_instance_nearest": 0.082687338501292,
+            "n": 387
+          },
+          "pinhole": {
+            "pair_gap": {
+              "mean": 0.5667535873654584,
+              "median": 0.5432051420211792,
+              "std": 0.20126121419063428,
+              "n": 387
+            },
+            "normalized_pair_gap": {
+              "mean": 3.3058193368165814,
+              "median": 3.030510917297055,
+              "std": 1.3875321717446745,
+              "n": 387
+            },
+            "fraction_gt_real_q95": 0.9844961240310077,
+            "real_bank_top1": 0.06459948320413436,
+            "real_bank_top5": 0.2971576227390181,
+            "same_instance_nearest": 0.06459948320413436,
+            "n": 387
+          }
+        }
+      }
+    }
+  }
+}

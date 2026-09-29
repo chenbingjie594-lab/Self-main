@@ -1,0 +1,42 @@
+{
+  "rule": "A+B+C+D+E all required; no weighted score",
+  "conditions": {
+    "A_band_control": {
+      "per_class": {
+        "short": true,
+        "pinhole": true
+      },
+      "pass": true
+    },
+    "B_avoid_frozen_overshoot": {
+      "per_class": {
+        "short": true,
+        "pinhole": true
+      },
+      "pass": true
+    },
+    "C_preserve_variation_vs_vanilla": {
+      "per_class": {
+        "short": true,
+        "pinhole": true
+      },
+      "pass": true
+    },
+    "D_fidelity_recovery_vs_frozen": {
+      "per_class": {
+        "short": false,
+        "pinhole": false
+      },
+      "pass": false,
+      "tmvb_vs_vanilla_lpips_gap": {
+        "short": 0.018592077317029162,
+        "pinhole": 0.026494002585763773
+      }
+    },
+    "E_training_valid": {
+      "pass": true
+    }
+  },
+  "status": "TMVB_MIXED",
+  "frozen_before_stage10br": true
+}

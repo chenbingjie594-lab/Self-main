@@ -1,0 +1,20 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage10br_complete_feasibility_audit
+mkdir -p results_for_gpt/deeppcb_stage10br_complete_feasibility_audit
+
+nohup env CUDA_VISIBLE_DEVICES=3 \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_deeppcb_stage10br.py \
+  --stage9e_manifest results_for_gpt/deeppcb_stage9e_repaired_frozen_adapter/source_seed_manifest.json \
+  --tmvb_manifest results_for_gpt/deeppcb_stage10b_tmvb_generation/source_seed_manifest.json \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --stage10ar results_for_gpt/deeppcb_stage10ar_pair_independent_manifold \
+  --stage10b_feasibility results_for_gpt/deeppcb_stage10b_tmvb_feasibility \
+  --stage10c results_for_gpt/deeppcb_stage10c_tmvb_downstream \
+  --model_root /mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage10b_tmvb_medium_s42 \
+  --output results_for_gpt/deeppcb_stage10br_complete_feasibility_audit \
+  --device 0 --batch 16 \
+  > logs/deeppcb_stage10br_complete_feasibility_audit/audit.log 2>&1 &
+
+echo $! > logs/deeppcb_stage10br_complete_feasibility_audit/audit.pid

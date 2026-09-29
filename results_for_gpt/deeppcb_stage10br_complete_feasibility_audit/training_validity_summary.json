@@ -1,0 +1,81 @@
+{
+  "differentiable_feature_equivalence_pass": true,
+  "gradient_mechanism_pass": true,
+  "early_amp_guarded_skips_present": true,
+  "gate3": {
+    "short": {
+      "status": "PASS",
+      "checks": {
+        "fifty_successful_updates": true,
+        "parameter_changed": true,
+        "grad_scaler_nonzero": true,
+        "last_20_attempts_all_successful": true,
+        "checkpoint_not_saved": true
+      },
+      "attempted_steps": 58,
+      "successful_steps": 50,
+      "amp_guarded_skips": 8,
+      "last_skip_attempt": 32,
+      "consecutive_successful_tail": 26,
+      "final_grad_scaler_scale": 256.0,
+      "parameter_delta_l2": 0.008661375381052494
+    },
+    "pinhole": {
+      "status": "PASS",
+      "checks": {
+        "fifty_successful_updates": true,
+        "parameter_changed": true,
+        "grad_scaler_nonzero": true,
+        "last_20_attempts_all_successful": true,
+        "checkpoint_not_saved": true
+      },
+      "attempted_steps": 56,
+      "successful_steps": 50,
+      "amp_guarded_skips": 6,
+      "last_skip_attempt": 20,
+      "consecutive_successful_tail": 36,
+      "final_grad_scaler_scale": 1024.0,
+      "parameter_delta_l2": 0.00725083751603961
+    }
+  },
+  "formal": {
+    "short": {
+      "requested_successful_updates": 2000,
+      "actual_successful_updates": 2000,
+      "attempts": 2008,
+      "amp_skips": 8,
+      "nonfinite_attempts": 8,
+      "final_grad_scaler": 256.0,
+      "parameter_delta_l2": 0.02187509275972843,
+      "checkpoint_saved": true,
+      "checkpoint_finite": true,
+      "training_complete": true
+    },
+    "pinhole": {
+      "requested_successful_updates": 2000,
+      "actual_successful_updates": 2000,
+      "attempts": 2008,
+      "amp_skips": 8,
+      "nonfinite_attempts": 8,
+      "final_grad_scaler": 256.0,
+      "parameter_delta_l2": 0.025737497955560684,
+      "checkpoint_saved": true,
+      "checkpoint_finite": true,
+      "training_complete": true
+    }
+  },
+  "checkpoints": {
+    "short": {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage10b_tmvb_medium_s42/short/unet/diffusion_pytorch_model.safetensors",
+      "exists": true,
+      "tensor_count": 686,
+      "all_finite": true
+    },
+    "pinhole": {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/deeppcb_stage10b_tmvb_medium_s42/pinhole/unet/diffusion_pytorch_model.safetensors",
+      "exists": true,
+      "tensor_count": 686,
+      "all_finite": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "TMVB_MIXED",
+  "conditions": {
+    "A_band_control": {
+      "per_class": {
+        "short": true,
+        "pinhole": true
+      },
+      "pass": true
+    },
+    "B_avoid_frozen_overshoot": {
+      "per_class": {
+        "short": true,
+        "pinhole": true
+      },
+      "pass": true
+    },
+    "C_preserve_variation_vs_vanilla": {
+      "per_class": {
+        "short": true,
+        "pinhole": true
+      },
+      "pass": true
+    },
+    "D_fidelity_recovery_vs_frozen": {
+      "per_class": {
+        "short": false,
+        "pinhole": false
+      },
+      "pass": false,
+      "tmvb_vs_vanilla_lpips_gap": {
+        "short": 0.018592077317029162,
+        "pinhole": 0.026494002585763773
+      }
+    },
+    "E_training_valid": {
+      "pass": true
+    }
+  },
+  "ADDITIONAL_DETECTOR_EXPERIMENTS_AUTHORIZED": false,
+  "reason": "Requires TMVB_FEASIBLE and positive exploratory Stage10C signal; exploratory primary result is negative.",
+  "generator_training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "official_validation_use_count": 0
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "exact_pairing": true,
+  "arms": [
+    "class_finetuned_sd2",
+    "tmvb_medium",
+    "repaired_frozen_adapter",
+    "pretrained_no_adaptation"
+  ],
+  "records_per_arm": 774,
+  "source_count": 258,
+  "unique_source_seed_keys": 774,
+  "per_class": {
+    "pinhole": 387,
+    "short": 387
+  },
+  "per_seed": {
+    "42": 258,
+    "2026": 258,
+    "3407": 258
+  },
+  "path_fields": {
+    "class_finetuned_sd2": "class_finetuned_sd2",
+    "tmvb_medium": "tmvb_medium",
+    "repaired_frozen_adapter": "repaired_frozen_adapter",
+    "pretrained_no_adaptation": "pretrained_no_adaptation"
+  },
+  "generation_rerun_count": 0,
+  "official_validation_use_count": 0
+}

@@ -1,0 +1,18 @@
+{
+  "status": "EXPLORATORY_UNAUTHORIZED_DOWNSTREAM_RUN",
+  "stage10c_executed": true,
+  "complete_stage10b_gate_had_not_been_evaluated": true,
+  "historical_authorization_source": "reduced band-only gate",
+  "results_retained_unmodified": true,
+  "primary_last_metrics": {
+    "real_repeat80_overall": 0.7277280836407842,
+    "sd2_overall": 0.7147260639375902,
+    "tmvb_overall": 0.7095259227052039,
+    "tmvb_minus_realrepeat_overall_pp": -1.8202160935580358,
+    "tmvb_minus_realrepeat_target2_pp": -2.3336887648551796,
+    "tmvb_minus_sd2_overall_pp": -0.52001412323863,
+    "tmvb_minus_sd2_target2_pp": -0.6712811461145995
+  },
+  "historical_status": "TMVB_DOWNSTREAM_NOT_SUPPORTED",
+  "additional_detector_experiments_authorized": false
+}
