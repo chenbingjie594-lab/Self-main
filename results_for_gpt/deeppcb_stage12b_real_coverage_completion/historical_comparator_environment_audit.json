@@ -1,0 +1,25 @@
+{
+  "pretrained_weights_sha256_current": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "pretrained_weights_sha256_stage11b": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "pretrained_match": true,
+  "ultralytics_current": "8.4.145",
+  "ultralytics_stage11b_checkpoint": "8.4.145",
+  "ultralytics_match": true,
+  "historical_uniform_arguments": {
+    "model": "pretrained/yolo11s.pt",
+    "imgsz": 512,
+    "epochs": 150,
+    "patience": 151,
+    "batch": 8,
+    "seed": 42,
+    "deterministic": true,
+    "optimizer": "auto",
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "cutmix": 0.0,
+    "val": false
+  },
+  "arguments_match": true,
+  "status": "ENVIRONMENT_MATCH"
+}

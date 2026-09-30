@@ -1,0 +1,16 @@
+{
+  "stage11b_uniform_sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+  "rcc_sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+  "same_base_and_shuffle_schedule": true,
+  "epochs": 150,
+  "draws_per_epoch": 380,
+  "base_draws_per_epoch": 260,
+  "extra_draws_per_epoch": 120,
+  "actual_epochs": 150,
+  "actual_total_draws": 57000,
+  "actual_total_batches": 7200,
+  "actual_successful_optimizer_steps": 916,
+  "historical_uniform_successful_optimizer_steps": 917,
+  "successful_optimizer_step_difference": -1,
+  "successful_optimizer_steps_reported_not_used_as_schedule_equivalence_gate": true
+}

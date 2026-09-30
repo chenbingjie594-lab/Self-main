@@ -1,0 +1,23 @@
+{
+  "status": "STAGE12B_COMPLETE",
+  "checks": {
+    "selection_count_120": true,
+    "selection_sha_frozen": true,
+    "epochs_150": true,
+    "draws_57000": true,
+    "base_draws_39000": true,
+    "extra_draws_18000": true,
+    "batches_7200": true,
+    "all_sequences_verified": true,
+    "schedule_matches_stage11b_uniform": true,
+    "environment_match": true,
+    "manipulation_pass": true,
+    "stage12c_not_started": true
+  },
+  "final_status": "COVERAGE_ASSOCIATION_NOT_CAUSALLY_SUPPORTED",
+  "selection_sha256": "1cbfd300e95baab49c118115250474682b75f85425d88268f93efde92e91fc9c",
+  "primary_checkpoint_sha256": "84f58c13ee07760aa0b540b341c9871bb24faa194bf74f5451f69c6753f28d7b",
+  "new_detector_training_count": 1,
+  "official_validation_evaluations": 2,
+  "synthetic_generation_count": 0
+}

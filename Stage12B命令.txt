@@ -32,6 +32,11 @@ cd /mnt/sda/cbj/ImageGeneration/Self-main
   --output results_for_gpt/deeppcb_stage12b_real_coverage_completion \
   --device 0 \
   > logs/deeppcb_stage12b_real_coverage_completion/training.log 2>&1
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_deeppcb_stage12b.py \
+  --output results_for_gpt/deeppcb_stage12b_real_coverage_completion \
+  --stage11b results_for_gpt/deeppcb_stage11b_real_replay_allocation \
+  > logs/deeppcb_stage12b_real_coverage_completion/finalization.log 2>&1
 ' > logs/deeppcb_stage12b_real_coverage_completion/launcher.log 2>&1 &
 
 echo $! > logs/deeppcb_stage12b_real_coverage_completion/launcher.pid

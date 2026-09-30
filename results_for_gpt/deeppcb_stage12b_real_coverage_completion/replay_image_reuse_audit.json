@@ -1,0 +1,969 @@
+{
+  "status": "PASS",
+  "selected": 120,
+  "reused": 44,
+  "created_by_frozen_stage11b_isolation": 76,
+  "synthetic_generation_count": 0,
+  "records": [
+    {
+      "instance_id": "20085225_open_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085225_open_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085225_open_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "29a7a8bd78e4f170fee257efe17d1892dd9801dd79912f42f315ee64e9b50f01",
+      "label_sha256": "88d365e239483664a4c8d0d4b9dc916c1331668fead73b15ac27905dcd88ce26"
+    },
+    {
+      "instance_id": "44000093_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000093_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000093_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "8aaa5b7aee2bc69ebcf8599c27301a2e56f0dfba498cf6028860b3a275745255",
+      "label_sha256": "e3cd2820dcab8c90cf31847e29b1d2640a03eb266517436f571cf50ab4b158da"
+    },
+    {
+      "instance_id": "77000082_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/77000082_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/77000082_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "2deeebc970765b255a3ae3fb026bcc6e3597f0c32f2e91cfbf19850830d4b9c9",
+      "label_sha256": "be290b06b367100f05f854ee3dd358075d621daca9ae487e492e0584821caa41"
+    },
+    {
+      "instance_id": "20085185_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/20085185_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/20085185_open_00.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "3b5910e7d89187c8b74396d548938e6c2e3dfd0af6dc3afb23b05699a4e4ef0e",
+      "label_sha256": "4050dc273a58c86f34458cd051eb548a93a5605deb0ca83db2c405e840b14b8f"
+    },
+    {
+      "instance_id": "50600032_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/50600032_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/50600032_open_00.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "66f89f9267bce88a1888ada82f611e240990fff68d46a8d3dbd59cda794234a3",
+      "label_sha256": "17471716a9d0843346c957f20d86fdb3b0dcb983aea21f9cab9dea8b155f41c9"
+    },
+    {
+      "instance_id": "20085145_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085145_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085145_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "0c9c2b3d6f67cbd8eb635f71e9ee0d4d469365fee6b2296efba413b5338916f3",
+      "label_sha256": "bf1fad90684a36a524c0a9867e1a378f70942b77ff7cc3a0aa6bfb08f7e5c7ca"
+    },
+    {
+      "instance_id": "00041085_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041085_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041085_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "056254cd09aaf6edc88a467e0dfb63d6cd39c46f6c070a2903fb7c8cbe09f795",
+      "label_sha256": "67c294f38f55419995e3272d831d6c4a9ed2fdcfd114e2989640b32b359737db"
+    },
+    {
+      "instance_id": "92000073_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000073_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000073_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "fb1f1ed090b6e5637b5b1738991b8d046676e4dec81a45eae1a7919abe3844e7",
+      "label_sha256": "cb30cc7c4a9c545c46855c67c88b02e73470f4c3130813795aff4bfd0d9e1bb9"
+    },
+    {
+      "instance_id": "77000095_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/77000095_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/77000095_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "4b7582e0e06030c419b1e5840cdfbeac77a68cb5cbfbe06ef72c6eb67ba44989",
+      "label_sha256": "69625cdfb4149d12b3091e4979eabd51894cd8ad8691928e7f7f1d3a130249f9"
+    },
+    {
+      "instance_id": "50600049_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/50600049_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/50600049_open_00.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "b45c29f645685fc40d4152878dab6fc4e1bb7768593b6d2070f859258a50671e",
+      "label_sha256": "f266ba13ca67bf3aad3dd6b410f7d26b2c9d3385793a84e917e74cfb0374ccfb"
+    },
+    {
+      "instance_id": "44000062_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000062_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000062_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "cd85388e7aa8aa4a31bd8905a970438209bc252b34782278198800bdc151cab6",
+      "label_sha256": "b5f689ad9fe3ee4b59f20c6e101c51ca49c00defd16606d9c035203a67eec4c9"
+    },
+    {
+      "instance_id": "00041039_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041039_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041039_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "d5a811789cff667b72e9e4e6b896b9d2a93bc1d799278bdb5e409acdb12abed0",
+      "label_sha256": "73151a44b01e59d3f0c1d844639fda1dfee77427e229bef94a5fb5925f36a76a"
+    },
+    {
+      "instance_id": "00041079_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041079_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041079_open_00.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "93aff4bcf514ec0064a005b49d77f4bec3ac04fd11e296bdd4032fc3549b01cc",
+      "label_sha256": "61a2d1811562f824700d9dbc48476be5ac25670df3d34b51e554e8794dc2b849"
+    },
+    {
+      "instance_id": "00041043_open_09",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041043_open_09.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041043_open_09.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "f39ed6aa46e833bbafd86ee35fb1848f19b7cc9e77e126237901817a0e7e9e08",
+      "label_sha256": "1b6544a4a462c9c7285f81189770682e5e06c4a17fb234929c7dc39e1f066fb8"
+    },
+    {
+      "instance_id": "13000102_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000102_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000102_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "0739b3f07d89828905e3c0d3b686d8b2784d9ea5917428fc29ab7ebbaf30d093",
+      "label_sha256": "3439449045d8900fe8f8a4d0068577825511bf34d4bec6293e68af23b4dcf8a0"
+    },
+    {
+      "instance_id": "44000104_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000104_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000104_open_00.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "1a9fd46a84e77b038ea4f2751e500fe38d7c9f5508a93ec463b5ae8a55214cca",
+      "label_sha256": "0750e5254e1346b2cd0a915491f983a40d9fbc69ac92cc17796267f82c1dbe5e"
+    },
+    {
+      "instance_id": "20085103_open_09",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085103_open_09.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085103_open_09.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "77eb46616f495082bb797a959acb6651a4a37fcd844cfa0209652a545c38c7ff",
+      "label_sha256": "b8ca745e7ad5a352e8a1555210fc0fb8e8d0a7f8d11a5a2f4a960cacc53b0747"
+    },
+    {
+      "instance_id": "13000024_open_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000024_open_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000024_open_01.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "5f9fb5c6984f15c63e6c23b3e7f10603465a2777368ec9d91121be06ae68699e",
+      "label_sha256": "357311cdb8be93ccbff439551df8dce3d9121644b3c65dcced3e4c37e69ecc85"
+    },
+    {
+      "instance_id": "00041133_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041133_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041133_open_00.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "6fe3e186fc1a37f7431a38f620a51ee8913668012e41aa439e9d7bbb3be1e0c0",
+      "label_sha256": "8daffbc21f025b85ce644fb2a90f9d220b5ceffd545f337059ffa698e61a1964"
+    },
+    {
+      "instance_id": "44000086_open_00",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000086_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000086_open_00.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "8fa2fb7fe58f391a766df8744d630e8db387ff0b6dd6f29ed888b86783f3b1ef",
+      "label_sha256": "dddd220fcf2296640c4fcc0347427f6985db2b70465b345905a8ea751aeb6280"
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/77000082_short_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/77000082_short_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "b5578d502d2a2904acafe95cff6b08bb782ee4a388c77bc137e8defd288e3012",
+      "label_sha256": "91c45cac627a19c016052b0782a767ca5c6332f8fb51aedb1d42d698edb69f46"
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000110_short_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000110_short_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "69bbd9b55ac214aafc299d04c2e13865aac285951215b9cb896e1bfb7daecf46",
+      "label_sha256": "a971caa0bce877b838a8ceaba21df960eb5dc6aace51e92f3523a69976197271"
+    },
+    {
+      "instance_id": "20085225_short_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085225_short_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085225_short_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "27f34b90b94195f78eb273a24c00a2b6768146ac099dde8eeaf85b3e41477872",
+      "label_sha256": "bad8e12d7f35c0bc580b17bfda5496f8a32ef6e689b167bbc99cfd109d6fee3a"
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/20085145_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/20085145_short_01.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "b6ed84d65cf2b54ecba5e27e18b41307c2f0b9be1b5754dc3cc52fed06077a51",
+      "label_sha256": "c49a450779d3514bb07917580b883064e3313811db10c8bb60c7dfbde16a9716"
+    },
+    {
+      "instance_id": "20085026_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085026_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085026_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "c9548b23af1ca6be58fe582dfed36e2094b519f9b074a6a23dd19d326a4fc6dc",
+      "label_sha256": "035d7d7dc44ff7702b39eff0c8cbd7cf1602f1bc5fc4c31a1f2862dc4db348ab"
+    },
+    {
+      "instance_id": "20085071_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/20085071_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/20085071_short_01.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "1b8043ef57f617453da9e85c586a2a768979923d5f2267dc77cc495ab0b191aa",
+      "label_sha256": "bd85fdb9492303d6e531b1df0718c87bff6e1a73eb86ae5d8e5cd8c886679de2"
+    },
+    {
+      "instance_id": "20085201_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085201_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085201_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "69b5b49c7b89965893a2a5db4d625d7a825d4562e4d41ea6db1b85e396017b8a",
+      "label_sha256": "490bd14704304e6637a0fd32d542b10933d0751e00c438d9174725127d9cccaa"
+    },
+    {
+      "instance_id": "00041089_short_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041089_short_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041089_short_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "f486e6b696ad3016d64630474e946500f744b707e1e4cd16fd5e5542d86a5a2f",
+      "label_sha256": "965369eb475fabf0910813e2310d9e30d24e7e22ab73edcf736a70500995c086"
+    },
+    {
+      "instance_id": "00041079_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041079_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041079_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "5410e0e74bf0579cd8bd82a82bbdfab989319332963ef7e74e028df0538c7215",
+      "label_sha256": "cf6ff6c9394862f2d67e69ccd4a07c92998e85daf6c01c1e2f1b98d993a17c41"
+    },
+    {
+      "instance_id": "00041046_short_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041046_short_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041046_short_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "bc81b4c240c0539224de91c748602cadb16f737d602ef8e30631a9d36accac45",
+      "label_sha256": "c8eb3e27774d3c97b4a8c7c1e64fb87dada656aa43b832bbc48b78493790fd48"
+    },
+    {
+      "instance_id": "20085107_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085107_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085107_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "9deab2bb23c9d98be4c8ebf225477ae55f5def228fcb977d21572f99754b13c2",
+      "label_sha256": "38dbc8feed304e937e20ce579b76ba8fb53869eda803c55de280d17bc7ee86bb"
+    },
+    {
+      "instance_id": "00041039_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041039_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041039_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "6ab2d6ae15401d1c460c8cbae9c7c826a5564866ba8e8dfa82c319f9cf6f1375",
+      "label_sha256": "c7bdd178ea983f8769032e268e517943ccff4fbbb15c0b34648c3fe344e5a883"
+    },
+    {
+      "instance_id": "13000019_short_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000019_short_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000019_short_04.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "9ee0dc2ea78dc7018fdefe6b162cda1a983be4cde7435d11334dca19bc4938cf",
+      "label_sha256": "f54e959c20e757b71118d156d645f30e04c45b6239f8b50b594e10af052c1d80"
+    },
+    {
+      "instance_id": "44000062_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000062_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000062_short_01.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "c7b7ead0f4e18cb52703b6307c65dfc228623a909b976c1fe359c0bea4016d1b",
+      "label_sha256": "633d3c1f10a039033e2ae329011bedb49b5854cce6e2260f5aecc8694a4cbfaf"
+    },
+    {
+      "instance_id": "00041068_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041068_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041068_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "a3ebd71c78323d5f34dc4b37e1027381f5d0ae8635a30ce5b23313eb67dcb985",
+      "label_sha256": "d23ce46b9e5a3438b3c837a27f56a62bedf41187c0fd86d715793aa2088901d0"
+    },
+    {
+      "instance_id": "77000008_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/77000008_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/77000008_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "fa5bac70d75a9960e4b51e1573e3d69f1396da40ea3b37bdeeec6daf6a0c6619",
+      "label_sha256": "414df6e948122e3173fecc2c6d90b09572008bdf4ed6d65437879ab1f2a83124"
+    },
+    {
+      "instance_id": "00041081_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041081_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041081_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "9902dcad0edaa583dafed472c8b318fea2aba7e235eb17af9eb7de18fe0342f5",
+      "label_sha256": "4852be0eec5bbaeabaf170ebcb061b4e7f0b089a56c58ff8ee226fe11dbae46d"
+    },
+    {
+      "instance_id": "44000092_short_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000092_short_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000092_short_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "6217544bc4df4ceb7983f6769a5ea602ab932c3b0e997aced10884cfd52e678d",
+      "label_sha256": "666fecf316f02084ffdaa90a0228c9e3f32c8d18e3063338cbd01867b9586efa"
+    },
+    {
+      "instance_id": "13000079_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000079_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000079_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "3c1d5efb1c4d209ddb566b7ecdbc887067f08cfe67a2bd56dfe90180eaa7bb35",
+      "label_sha256": "70468748dfde2711e4bb4ff748e62b116e34169c631f55fa52c55ddb8343392f"
+    },
+    {
+      "instance_id": "00041190_short_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041190_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041190_short_01.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "5e2738525e58522a52e32eb12296273b7c15496dfbe3ff6fe4a2a5c4dbe29c11",
+      "label_sha256": "7e89b319d416c961a58793ed51eb3ff26865c89f16cb0c10e17709f63595b962"
+    },
+    {
+      "instance_id": "00041030_mousebite_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041030_mousebite_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041030_mousebite_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "7abe5ea59259ed9478b3bb583da754c968a8eb3456306b4cced19c5deb286577",
+      "label_sha256": "67aa108d6dd64fa1f9979bb5b38ae965b7ab715591e8edc57dc50abfbfcf4ba8"
+    },
+    {
+      "instance_id": "13000037_mousebite_11",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000037_mousebite_11.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000037_mousebite_11.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "ac5f9f0b3ab23a2b17505ed5c66b35a3c2d55e2122da56106075a71ce067826a",
+      "label_sha256": "a382eaf318167a7d925d56f100d78b2b463f819d10a3537f8ac6adfcaa70455b"
+    },
+    {
+      "instance_id": "50600028_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/50600028_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/50600028_mousebite_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "c24e8d2fa4b0e946230ef9c76af773f12877ce5b64d9c2d5ecb7cfdddf07e366",
+      "label_sha256": "73ef2a3614cf0f135a983c71418bd0cd7a4a91103c0bc79b66654baf58e5d798"
+    },
+    {
+      "instance_id": "20085026_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/20085026_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/20085026_mousebite_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "8e4882b328a0d9753bc06e31898e10ae61584d3ea0f55f40ed5ba51a80aa403b",
+      "label_sha256": "e41c2015c89f1922e15f9c2a9ca5fc47c2e51aa172c6acbb6dc204d067313a14"
+    },
+    {
+      "instance_id": "92000044_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000044_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000044_mousebite_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "ba07cef34c5bace879f737ef0bf93fa2d5c9480e6713e88c9895f70494506287",
+      "label_sha256": "732c9fe9fa9b50936c8ecc7bc9aff847c10755f2e5235434a2b0516d43ea1ec7"
+    },
+    {
+      "instance_id": "77000082_mousebite_01",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/77000082_mousebite_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/77000082_mousebite_01.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "c73e8fc4db755082ac33f940e6cef866d4f7631887d7d2d6a83f1d563b86f7d8",
+      "label_sha256": "dfd4f3bb3b9c49fa5cae4a1ffb054a18fc0be407855b9a49ad31410991d86872"
+    },
+    {
+      "instance_id": "00041180_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041180_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041180_mousebite_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "e13a6d72c0c19da3abb30fb4f386422fe9b519993cd1f17f146ae7892beb68d4",
+      "label_sha256": "5e96d0bad8ee3a3592b12309558343013990f775bd75ce041de90de044375347"
+    },
+    {
+      "instance_id": "00041079_mousebite_06",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041079_mousebite_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041079_mousebite_06.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "59c563484fe4c4cbfbfc26a41895312f926694355b8d2bf7bfd5c5e85aca360f",
+      "label_sha256": "340d27414d6ed668b25c76b67e8e45c3007417b76da1a698cabb49b2f32ec774"
+    },
+    {
+      "instance_id": "20085107_mousebite_09",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085107_mousebite_09.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085107_mousebite_09.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "2095f0a8b33a0dd6a887131cbe123bf027e850b08fb42e69b78a913e2570f70d",
+      "label_sha256": "274381442ee75605fcdb71a5bc62340635f826affe67bd0b6ddbcfbb495fc0b8"
+    },
+    {
+      "instance_id": "13000126_mousebite_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000126_mousebite_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000126_mousebite_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "e8100c04c493b59049dea8bc54d466cb70062bd18bf28ba3011d62df39df6af6",
+      "label_sha256": "915c7d864219bc511e3b14d9f1c76f11de69cb8dec0946dffd87dc91d0bf6d58"
+    },
+    {
+      "instance_id": "13000027_mousebite_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000027_mousebite_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000027_mousebite_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "f77d575e247d3998ac662627c48276c7f637729c4c2ee605afe4ce17e1f26741",
+      "label_sha256": "d7ee88708535caaf575a61dbd9febf90b82bdfc04692b2bcbcab73ca71414f61"
+    },
+    {
+      "instance_id": "13000097_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000097_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000097_mousebite_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "b62cb8130b222848e5a6f77b653922ee595ca557a9a80347c8a880c2da975e08",
+      "label_sha256": "3727373f5c4b830eb5523e44f5f445d3d2f6a3ee55f649b7160158c09f76e0e4"
+    },
+    {
+      "instance_id": "00041169_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041169_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041169_mousebite_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "0811c59c562bd92d44632db34596608f5ee69657cf3461ee0f53a47f989610a1",
+      "label_sha256": "cc4bc3f265a24fb96ebe586d7a464da52fa9281e766d874cceed8257d3a56125"
+    },
+    {
+      "instance_id": "92000081_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/92000081_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/92000081_mousebite_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "9496b1272a2c7fc4fc7066838291a39f69a9ae5547a43af80d9c10f6d4a30f26",
+      "label_sha256": "c4bf82d64348bc8553ac39fa94450d3896ee61c7bc14a557a6f3820b156531f6"
+    },
+    {
+      "instance_id": "13000118_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000118_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000118_mousebite_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "adeaa3f24125c7960669a420a47b91a74f16507f7d67a1674429942b1f450b39",
+      "label_sha256": "e6e17a90d69b2be93e1568a17907f5cf28052076bb33ba93b4262453140e25ea"
+    },
+    {
+      "instance_id": "00041114_mousebite_08",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041114_mousebite_08.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041114_mousebite_08.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "f5fa1fc1a53069d9099e524f387691844558d6870f542dc3e313ea90f53489d9",
+      "label_sha256": "b7b59b9fbe09122a184f10be54fe22ee30c9c4c4009d919b54bbadd9c9575cfc"
+    },
+    {
+      "instance_id": "13000031_mousebite_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000031_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000031_mousebite_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "6e57ac20b582c7d4bb5f6d7c29f4068487af23c4de725d6f655b9a8af279dbe1",
+      "label_sha256": "e7918bca902638ebb531cc4d90d709f712c9df0f8467aafd45c981c5282a98da"
+    },
+    {
+      "instance_id": "44000086_mousebite_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000086_mousebite_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000086_mousebite_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "f0dc92968febd1db59483fb78fea2c0355307ad8e1da707a1b1af2ceaa3174a2",
+      "label_sha256": "3e74a09a603618d7478fe6c6eb9c19011f8cb3e8a433279985351437c9081fe2"
+    },
+    {
+      "instance_id": "13000023_mousebite_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000023_mousebite_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000023_mousebite_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "026754aec545645517459ef85fea8fa2b3594f34f1e9fb06a2b0d291db0efcb9",
+      "label_sha256": "14c5bd32edf48d7ce6adfd461003e700b63e17aa04641211d10cd9dc87fcad83"
+    },
+    {
+      "instance_id": "13000017_mousebite_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000017_mousebite_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000017_mousebite_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "4aa213d19306cebd03e66ed8317f5d1ccf4fe14d09fe128752f30eb9e45dc994",
+      "label_sha256": "af88dd3a8c87edf173f21e23662ee63aea45bb061c0b9083ed61db099742d645"
+    },
+    {
+      "instance_id": "77000044_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/77000044_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/77000044_spur_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "65fa8522bb9d17af293279b971aa056b5645306a95369cabad76139b496f0e59",
+      "label_sha256": "d54b7dccb0b9ac9323c7e009fc07967986001c708ef5b87faa2fde9eed18920e"
+    },
+    {
+      "instance_id": "13000029_spur_07",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000029_spur_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000029_spur_07.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "ccdea49b12d97649e6b0a1d928f38e2cb7db8e69bdae3eba0507138c9ed5f6ac",
+      "label_sha256": "3cf2dcabe534483bb9835e7b4e8f6ead6b5cd8b740320d67912174c8f37fe21f"
+    },
+    {
+      "instance_id": "20085033_spur_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085033_spur_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085033_spur_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "9a6dedc80f926dc8427e842988a929a529eaa5d11f1a6a1bdd7e6a3b38a90dd6",
+      "label_sha256": "3f4cee17e4c30ea4b73903ad9417c765bb6f13442712e2e43821c5166c34d9fb"
+    },
+    {
+      "instance_id": "00041180_spur_08",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041180_spur_08.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041180_spur_08.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "0c90192bf3bfb06a90e425cc343880f42c56f0036989edd10ffc5a1cd0d66978",
+      "label_sha256": "818d3586e92d47442a3b95aa86a5f8257fda57680b6c8925795284675618a839"
+    },
+    {
+      "instance_id": "00041047_spur_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041047_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041047_spur_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "de753bf3008485453837e99ca953b09a03b660d173e2299181b7adcd0851a0c3",
+      "label_sha256": "ed7241c927a4b61eba427cb3edaa07da5a57e0774fe7233f0a19613ae8daaf45"
+    },
+    {
+      "instance_id": "00041030_spur_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041030_spur_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041030_spur_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "61d4352d12124b002a696985ba8b5a797e622eda06dc4dc289f87cd3f6298a47",
+      "label_sha256": "3b7250b5a4ba793454a2e9353c016040a08e41933add3652be988f1d859f61a1"
+    },
+    {
+      "instance_id": "13000037_spur_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000037_spur_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000037_spur_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "ac259d063cd0bc592da2932871643258a99556eee5fb45cd2dc056b8f5871d82",
+      "label_sha256": "6ed9da8e38db43b574483797253a406228bca8b4f2b02e4a2e1e4c5288cd7c59"
+    },
+    {
+      "instance_id": "20085090_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085090_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085090_spur_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "79fb603061be5c0b1552e9ed0f0ae7b31696a1a67ebd1997b663887514bf3de5",
+      "label_sha256": "dbe224848b75a6a4f288d1530fd7f88a134b313ddea6e3e43189b4a8f045444a"
+    },
+    {
+      "instance_id": "44000062_spur_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000062_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000062_spur_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "0a01828fa69029b1508df1b4d458870c212da0cbac43c60ffefdbacc957a7bc2",
+      "label_sha256": "50f97c49dabbbdc6dcf04eebc250dbe15685810ebea537721e077fa043afb140"
+    },
+    {
+      "instance_id": "77000076_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/77000076_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/77000076_spur_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "f4cb2dbc7b4d3dea1470a5a727130e6f5a88d6311a5eaee753d8d69091be464a",
+      "label_sha256": "8b27cac0e5b62dbc140a3b32b3e8bdda7ee0607c4bdac0de089e3310fc3876cd"
+    },
+    {
+      "instance_id": "00041150_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041150_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041150_spur_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "de9837d4cdbfdd72bfb8cd8554cc649d9fc3c2f1ecfaa8153d867e6e3239a4ed",
+      "label_sha256": "4a01951bb1622455df1058b152321fe7f0cb586b66970da19da1f7b3aaff4048"
+    },
+    {
+      "instance_id": "77000095_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/77000095_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/77000095_spur_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "5cb51c2f7f413707f4edc6de63c3c48c55e0a04439709a97b7e76b309458609d",
+      "label_sha256": "a8615a890632af58c7be2cb61f5dc118ac94ca76bb0ae39fc85387afb05bfdae"
+    },
+    {
+      "instance_id": "00041089_spur_06",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041089_spur_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041089_spur_06.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "8276e9bff74ee3f0ea998462df159a8981a225c1052ad2d1aaf58840b40b4167",
+      "label_sha256": "b44787634a3693bbdc5f9f21e033b5497eec55d3b29c4daf62495747eb113672"
+    },
+    {
+      "instance_id": "13000126_spur_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000126_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000126_spur_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "7e39f3e7d41e8d9a3efd15812ccfea49a214ccabf09a5cc4c9f2fad14fcb50f4",
+      "label_sha256": "7e925d0514aab02282de079cb46d8ba1c07b586c5c4d2a2ef95d30a649a3c8a8"
+    },
+    {
+      "instance_id": "00041068_spur_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041068_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041068_spur_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "1b1e02a4b0145ec4e7dc53dbb9aedcdeb723f5d2d274b9964db5fd74b45dfbaa",
+      "label_sha256": "bd01bd5799e4dbd81c455865414ecd69686d2810738c8c01313de31cab9f2394"
+    },
+    {
+      "instance_id": "20085103_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085103_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085103_spur_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "3975ce3696b7cbe0894107eb52ded0c568993704108515d088af6d855ff179b1",
+      "label_sha256": "6a14985bbf3091b7c16d9fc6ecac0315f37e6bbb3fa52eab5ba4c96f80cf87d4"
+    },
+    {
+      "instance_id": "00041081_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041081_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041081_spur_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "9c2dd2224c298de38222231610661197a46a4d71bad071c8e1aec8f93ab31e36",
+      "label_sha256": "08e9d741cb802f5873f2ef0972ed15ed345b720f005571cf85d01acfe37548f8"
+    },
+    {
+      "instance_id": "44000068_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000068_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000068_spur_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "63e14601105e2a4c8892e12e0a5aff663fc40e5dc378058b7da092def181ab95",
+      "label_sha256": "fa4db7e0b956bc72a23004cdc0e129531537446b349f5ffbfe9e041f43495540"
+    },
+    {
+      "instance_id": "00041057_spur_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041057_spur_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041057_spur_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "914c56702afc06f9f9afdaa2ba95029bb1f6676cfa2c83be676aba02868ccfed",
+      "label_sha256": "a2c4de5c25a86e608d2a984b0fc7cf4a81e45796bc08a4038cf5e42329d54b0f"
+    },
+    {
+      "instance_id": "20085217_spur_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085217_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085217_spur_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "6513739e5becbd449792e0c4020f79974b1ba831ac1154a4e4c50276d3b089fd",
+      "label_sha256": "be264fe2dfb23616e0975d6a96d5a6c038a794502efdf24d44d8000165b82bad"
+    },
+    {
+      "instance_id": "13000003_spurious_copper_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000003_spurious_copper_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000003_spurious_copper_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "0e1217ffac85f0ecd22f71b061a35be736ad4fc12f085bcdd0df043ec1cdc48e",
+      "label_sha256": "acdc05673dbbc15a180cb99f078dbedfe3efcb9a6ebe8386f1fcd22ba234a73f"
+    },
+    {
+      "instance_id": "00041030_spurious_copper_06",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041030_spurious_copper_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041030_spurious_copper_06.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "500e581a52d9b7ba71ef6e8bc9d9ade0af80f91ff243f53ab320df458ceb78a9",
+      "label_sha256": "818e390da50e1cf90339f07ca51801a72eda5cdb62b684242f4c74c3a21508e5"
+    },
+    {
+      "instance_id": "00041085_spurious_copper_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041085_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041085_spurious_copper_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "8d8f390d98c7f614307f76dd8c05128a06174ecfe7bf99df4e75354e762c792e",
+      "label_sha256": "a53b01a8c1f3156e07384e76749486d0be3e8e9d8e929164f267449a7f19b73d"
+    },
+    {
+      "instance_id": "00041047_spurious_copper_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041047_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041047_spurious_copper_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "a9ace104940878b801f3a529610245bf967496de0ddb7e6d8ac07aa92b262869",
+      "label_sha256": "a139b9f4bebd4e8883b7e00a6e947f04f2dbfd940437b39072bf4e96dd5b2b94"
+    },
+    {
+      "instance_id": "20085185_spurious_copper_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085185_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085185_spurious_copper_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "73ea77dd53813f615219a61e56442cf69b690814f873b2ff2ab519ece915e0ea",
+      "label_sha256": "f7bfe6f61ac0c4baf617d9fc21061dd2d3220d4ed324781149d7d7c5a4264896"
+    },
+    {
+      "instance_id": "50600032_spurious_copper_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/50600032_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/50600032_spurious_copper_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "6ba7e2fb93fbc8b903e73538fc642cbe5544f00e0b75fd57d4271cc0ecfab57a",
+      "label_sha256": "b919c63744580a63beb14363fffc6445f403ea588f5e23b822164da6aa9544f2"
+    },
+    {
+      "instance_id": "20085071_spurious_copper_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085071_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085071_spurious_copper_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "8a1b0c3ce21deca1c2c4d4796baa1025a6dd605c917308a708e588881546c30e",
+      "label_sha256": "a57a5f6009c871b4cc32562633990f06bfe5fa39afe5240e9322d6b8c0e2db99"
+    },
+    {
+      "instance_id": "20085027_spurious_copper_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/20085027_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/20085027_spurious_copper_04.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "5e945dd126af8456933e0dd5b4c57b4f58ed2884fd7303bca10c2bc379fc29e6",
+      "label_sha256": "c284b896d361317fd47eaeb487076379d04bba88811b04fbc806db91656babb2"
+    },
+    {
+      "instance_id": "00041169_spurious_copper_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041169_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041169_spurious_copper_04.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "7d2abd41c4fd2ee072afb6e9710e495ac7fb1f7adab330749a06842713fdc9ea",
+      "label_sha256": "62e3aeff94b062313dac6e9b0b3a969f60f4a6b54564dcbe35b35da1ec3bf6d9"
+    },
+    {
+      "instance_id": "20085107_spurious_copper_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085107_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085107_spurious_copper_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "98a85f1de3099481a38ca9242b0cb8a5de9816cb211ab96978f3509950369b47",
+      "label_sha256": "c11beb3c7503bd363ed4e077141240a0e2adf33fe11d344e2d579da727d1ba2d"
+    },
+    {
+      "instance_id": "77000095_spurious_copper_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/77000095_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/77000095_spurious_copper_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "d6eb5cb300531ff41fd66e629556e782051b186cf2cdadf6437d0daf6b65fc1a",
+      "label_sha256": "57440e9b59d9fbc5ad2730c71d96840e61fe83602731c14b4ea75b327687b8e0"
+    },
+    {
+      "instance_id": "50600049_spurious_copper_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/50600049_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/50600049_spurious_copper_04.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "8120de128bae5176dc65b89ba60b27731bc9c130f919929dd0ec9ee8e7667ebc",
+      "label_sha256": "db1f9e00462d67507bbbb37b751ea05001040dd0aa61c815331d97307558ab55"
+    },
+    {
+      "instance_id": "92000008_spurious_copper_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000008_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000008_spurious_copper_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "b78c0c7a50352218d23ff4a4a5f118959419c93eb42520a93c98c9ed96e14843",
+      "label_sha256": "92514f6ca1f70de0a844b5e503539b724cbca81d199434f0e6f2a6d4279741b4"
+    },
+    {
+      "instance_id": "00041043_spurious_copper_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041043_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041043_spurious_copper_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "2daf4e9da0a916eedc1f8b01ea2ce7ff112b980c33dd3afcc1284c49d4ced776",
+      "label_sha256": "1f587f48dabc96307ac09dac343b884c146797c3765ba168e31dd56a444abd10"
+    },
+    {
+      "instance_id": "92000006_spurious_copper_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000006_spurious_copper_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000006_spurious_copper_02.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "24a9b44217651f79f77b3f5b6391be840c21317161af5753ad3e2dc3590a7035",
+      "label_sha256": "0d3247c03f6c7ba6cb2a5e90201d4f3447b559ba400e2c7e8396b543e633c0e4"
+    },
+    {
+      "instance_id": "00041114_spurious_copper_06",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041114_spurious_copper_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041114_spurious_copper_06.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "e26a81bdba57bbbd36c380cc5f88c9cddde7ecfd8d935b496e3745db1bdb21de",
+      "label_sha256": "31f474f63fb3c2ca0c031853c604d09c5d27679b14031a9e6ceff5d752bd48ae"
+    },
+    {
+      "instance_id": "20085203_spurious_copper_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/20085203_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/20085203_spurious_copper_04.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "dcd296049118b5b9069178aff984cc3f0653789d7ce435417ef292299c19d92d",
+      "label_sha256": "c147e261408e93e2e9a426113602014ea759a16ffc165ea834cf8037708ca983"
+    },
+    {
+      "instance_id": "13000079_spurious_copper_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000079_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000079_spurious_copper_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "00272da6475471d5bc1efd54a78a1c20490c69fc21463185b37a472f9f3983c8",
+      "label_sha256": "868d36885925e80aeee00a6f4c1d519b1c0018178fc24023f39dd887feb484e4"
+    },
+    {
+      "instance_id": "00041133_spurious_copper_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041133_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041133_spurious_copper_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "baa7d01f965c4fe12bae7b5c4b5cbf7bbadc42f49713c35133c5f69e6aebd552",
+      "label_sha256": "1a349a58c3f89343ab64a82e943995c818c75a8b9b0d510bfa51176e4bfd1cf1"
+    },
+    {
+      "instance_id": "00041081_spurious_copper_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/00041081_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/00041081_spurious_copper_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "67bef03c609922a261e3cb4e99414f3389823826679503fed305d759d90c4bee",
+      "label_sha256": "2368e3c6b7c41133c415025b8b3f52fe561e8943d59ade1a6783644212f029e9"
+    },
+    {
+      "instance_id": "92000044_pinhole_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/92000044_pinhole_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/92000044_pinhole_03.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "1a8b9f31741d73a7b6e543ee8759c1d02981dfd573616c537293bb7a4265fe44",
+      "label_sha256": "27bca137fa3b95c0ee9b7a864b6dd7e31d47b161370a3237ea40a5111a50347e"
+    },
+    {
+      "instance_id": "13000003_pinhole_07",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000003_pinhole_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000003_pinhole_07.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "f467e06de81b68efacc94a02d231c260a586bccba167fe16e7c76582278bdcec",
+      "label_sha256": "b3b5b6a7168a4051221056996d9f5b173bf9a69dfcf0301b9a6f45eb7bcb3ede"
+    },
+    {
+      "instance_id": "20085201_pinhole_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085201_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085201_pinhole_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "ead39b042b17f51e09ed381af1a06177a8f67e293875d55232742da8e53738aa",
+      "label_sha256": "c1f12c39f335075b62cc8994bd7631e2f0c529852446b4fb23cf35932be549ff"
+    },
+    {
+      "instance_id": "77000020_pinhole_02",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/77000020_pinhole_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/77000020_pinhole_02.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "98f1529d82846d722d06d5ef23eff56508f67d0f58315dbf4ea1581c7555afe2",
+      "label_sha256": "6cf9fef27daa6ace3754ba116fdd859eed60bb0dd44424f896763b670e822d87"
+    },
+    {
+      "instance_id": "13000029_pinhole_11",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/13000029_pinhole_11.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/13000029_pinhole_11.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "f7a11e63614f96eb2f68a10b9136c35c58d09cf8702ea6529815cef4a5238472",
+      "label_sha256": "0d26dc172320e4c171a3389729e0469a47971e3fe30ad9caf4f199b70bfe4808"
+    },
+    {
+      "instance_id": "92000060_pinhole_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000060_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000060_pinhole_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "ccb07290b4884475dc3454cc49d29ec1aea725f9f0d005b8330baa0cc1c311b9",
+      "label_sha256": "6cc755780aaad21f96b5f904404dfe18ea23ce7d74d27684c6b3237f7c93f6ab"
+    },
+    {
+      "instance_id": "44000110_pinhole_06",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000110_pinhole_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000110_pinhole_06.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "ed9f0236b88c9c3275f09884653fde62960e7dc7d8f68a7471c0c55df0576578",
+      "label_sha256": "91b6106940d465e1c7384c1743646f93df83c3de2bdaae15b6e42f97a8fadaf2"
+    },
+    {
+      "instance_id": "92000008_pinhole_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000008_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000008_pinhole_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "e2214fe32d6daed35c840a6d1c253cb75a3acd9866e794bb922f7505755e9464",
+      "label_sha256": "ce458cbd230ca8034ae016e4bd20f34e6ac598d0158c96fb28741aaf7b6bdd3d"
+    },
+    {
+      "instance_id": "20085143_pinhole_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085143_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085143_pinhole_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "057558b55351739adf5054ab920c80482f700a5c9e8bf8584a9a3047749227b7",
+      "label_sha256": "09c29ec29707e5e99282dd9e917d0aa0f7cc6bc1a04fc1cc78057f2433d22e36"
+    },
+    {
+      "instance_id": "20085107_pinhole_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085107_pinhole_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085107_pinhole_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "72c323a89c09d1f80e17ae4575dca0423034ee1d3631df638240b7044f0149a5",
+      "label_sha256": "6f9f91d5fed74a63580f612bd32aaeb5e603aeda4cdb270448c2ea17bc26b0e4"
+    },
+    {
+      "instance_id": "92000081_pinhole_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/92000081_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/92000081_pinhole_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "b1d270a39ee74ff32f33d7ee1c2b7286f7fd91ae85a252c6ca23156112ff79ab",
+      "label_sha256": "356229056ae36c0749d7f0170288d5f898933ce4cd6a4b48cbd60de3f2a69191"
+    },
+    {
+      "instance_id": "44000096_pinhole_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000096_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000096_pinhole_05.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "21c03c39b62318d356af4e87c8b7c7c43c383dbeaf385d95e25cfa2235f2e11c",
+      "label_sha256": "4ccd02a1191151af8e56461f3667cfdb9e85654aee23d1c73b02d87ab0aee04d"
+    },
+    {
+      "instance_id": "44000062_pinhole_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/images/44000062_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage11b_real_replay_s42/isolated/labels/44000062_pinhole_04.txt",
+      "reused_from_stage11b": true,
+      "image_sha256": "dfa0bf317a785f6815a19347311e71c938454579fef806647e5a2cef2f365775",
+      "label_sha256": "a47bf7b37a9c1b488efc92625c20306ec9b8457eda998ce199bdc6896e9c6311"
+    },
+    {
+      "instance_id": "00041181_pinhole_07",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041181_pinhole_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041181_pinhole_07.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "19a3fc5a20960a4e55d40733a8b1ea6abc08c3042e6c6b5b04bad717da5ae31a",
+      "label_sha256": "bcea450cb71a8545722e9f750e9ca718baac51bbe5d507782fd1d4928d651b3f"
+    },
+    {
+      "instance_id": "13000009_pinhole_07",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000009_pinhole_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000009_pinhole_07.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "403df8563387217177940237c6f2d9398711eadc320a7a386925dd30d657f360",
+      "label_sha256": "a1673edeb9c72424b15c593ba1c47f11e4ecbc7142332a4f3779cb67eb49be32"
+    },
+    {
+      "instance_id": "13000024_pinhole_09",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/13000024_pinhole_09.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/13000024_pinhole_09.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "c59650d55cbd1f3c942777fc1bd652d22e18e674917dc03d8e7fefa2db860e0e",
+      "label_sha256": "bf786805f61ae7141822b358cbbbf105bd04fd49f3f9cb5ef4cf767c836a274b"
+    },
+    {
+      "instance_id": "20085014_pinhole_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/20085014_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/20085014_pinhole_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "8ea54edecc2d203c1bc499a19c408a38c0cf75c8f125a6b97622bb82dcbf7a02",
+      "label_sha256": "006fcd9a887b8b0ff87d4834ef5d5f1d3230c59197ce90c7bebf547be0f68faa"
+    },
+    {
+      "instance_id": "00041057_pinhole_04",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/00041057_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/00041057_pinhole_04.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "eac0ed568ac9940e9596a24c02535c71b0391cab8da23b02c6de8baf874e8832",
+      "label_sha256": "b2dbe14273d131da920fccfe8752e82953b18055967b66df2c055bb738e5ef08"
+    },
+    {
+      "instance_id": "44000068_pinhole_05",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/44000068_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/44000068_pinhole_05.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "ab559a11d0ce416a311dd1372146d72df035335c3342558aa34de5e7cd29ca0f",
+      "label_sha256": "1648bf1ceb2d912510029e4f6dee1df99dfcbbaffa6901db47e49b09e7f802f8"
+    },
+    {
+      "instance_id": "92000006_pinhole_03",
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/images/92000006_pinhole_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42/isolated/labels/92000006_pinhole_03.txt",
+      "reused_from_stage11b": false,
+      "image_sha256": "21ef487fe5897fd05aa8ed4e40411b35dec194c203adfc26d3a3de30eca31ae0",
+      "label_sha256": "57d5fdff07b7676b50c7942789f4e6eee76b258ecda3af91a866c119962719da"
+    }
+  ]
+}
