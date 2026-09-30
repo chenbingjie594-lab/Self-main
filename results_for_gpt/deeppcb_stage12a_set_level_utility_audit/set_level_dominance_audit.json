@@ -1,0 +1,240 @@
+{
+  "relations": {
+    "coverage_redundancy": [
+      "marginal_real_coverage",
+      "feature_ess"
+    ],
+    "support_redundancy": [
+      "support_alignment",
+      "feature_ess"
+    ],
+    "support_coverage": [
+      "support_alignment",
+      "marginal_real_coverage"
+    ]
+  },
+  "records": [
+    {
+      "relation": "support_coverage",
+      "family_id": "F2",
+      "family_role": "primary",
+      "dominant_arm": "inner",
+      "dominated_arm": "novel",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F3",
+      "family_role": "primary",
+      "dominant_arm": "sd2",
+      "dominated_arm": "msdf",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "finetuned_sd2_syn80",
+      "dominated_arm": "frozen_adapter_syn80",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "finetuned_sd2_syn80",
+      "dominated_arm": "pretrained_noadapt_syn80",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "finetuned_sd2_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "finetuned_sd2_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "finetuned_sd2_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "frozen_adapter_syn80",
+      "dominated_arm": "pretrained_noadapt_syn80",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "frozen_adapter_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "frozen_adapter_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "frozen_adapter_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F4",
+      "family_role": "primary",
+      "dominant_arm": "real_repeat80",
+      "dominated_arm": "pretrained_noadapt_syn80",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "dominant_arm": "sd2_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "dominant_arm": "sd2_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "dominant_arm": "sd2_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "dominant_arm": "sd2_syn80",
+      "dominated_arm": "tmvb_syn80",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "dominant_arm": "tmvb_syn80",
+      "dominated_arm": "real_repeat80",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "feature",
+      "dominated_arm": "gradient",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "feature",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "feature",
+      "dominated_arm": "uniform",
+      "utility_order_correct": false
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "gradient",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "gradient",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "gradient",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "uniform",
+      "dominated_arm": "gradient",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "coverage_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "uniform",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_redundancy",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "uniform",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    },
+    {
+      "relation": "support_coverage",
+      "family_id": "F6",
+      "family_role": "primary",
+      "dominant_arm": "uniform",
+      "dominated_arm": "hardness",
+      "utility_order_correct": true
+    }
+  ],
+  "primary_winner_consistency": {
+    "coverage_redundancy": 0.6,
+    "support_redundancy": 0.42857142857142855,
+    "support_coverage": 0.8
+  },
+  "passes": true
+}

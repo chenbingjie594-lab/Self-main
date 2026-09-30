@@ -1,0 +1,215 @@
+{
+  "direction": "lower distance is better",
+  "records": [
+    {
+      "family_id": "F2",
+      "arm": "inner",
+      "n": 160,
+      "nearest_real_normalized_distance": {
+        "mean": 1.1147825236691211,
+        "median": 0.9975321204671002,
+        "q90": 2.003806797801355,
+        "q95": 2.2345030435709203
+      },
+      "support_departure_q90": 2.003806797801355,
+      "fraction_beyond_real_q95": 0.06875,
+      "fraction_beyond_2x_real_q95": 0.0
+    },
+    {
+      "family_id": "F2",
+      "arm": "novel",
+      "n": 160,
+      "nearest_real_normalized_distance": {
+        "mean": 1.205705698679619,
+        "median": 1.0460920835822238,
+        "q90": 2.058090400376467,
+        "q95": 2.3349274321768174
+      },
+      "support_departure_q90": 2.058090400376467,
+      "fraction_beyond_real_q95": 0.10625,
+      "fraction_beyond_2x_real_q95": 0.00625
+    },
+    {
+      "family_id": "F3",
+      "arm": "msdf",
+      "n": 240,
+      "nearest_real_normalized_distance": {
+        "mean": 1.2382592905459977,
+        "median": 1.0942440452543485,
+        "q90": 2.067541962929592,
+        "q95": 2.581035581617717
+      },
+      "support_departure_q90": 2.067541962929592,
+      "fraction_beyond_real_q95": 0.09166666666666666,
+      "fraction_beyond_2x_real_q95": 0.008333333333333333
+    },
+    {
+      "family_id": "F3",
+      "arm": "sd2",
+      "n": 240,
+      "nearest_real_normalized_distance": {
+        "mean": 1.1741061399886685,
+        "median": 0.9884886464139051,
+        "q90": 1.9543757995722186,
+        "q95": 2.3127350962359072
+      },
+      "support_departure_q90": 1.9543757995722186,
+      "fraction_beyond_real_q95": 0.075,
+      "fraction_beyond_2x_real_q95": 0.0
+    },
+    {
+      "family_id": "F4",
+      "arm": "finetuned_sd2_syn80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 1.274754536524069,
+        "median": 1.0112703995455594,
+        "q90": 2.3267143770979506,
+        "q95": 2.942756002934748
+      },
+      "support_departure_q90": 2.3267143770979506,
+      "fraction_beyond_real_q95": 0.075,
+      "fraction_beyond_2x_real_q95": 0.0125
+    },
+    {
+      "family_id": "F4",
+      "arm": "frozen_adapter_syn80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 1.7878742201941384,
+        "median": 1.2896585769309312,
+        "q90": 2.967881034330729,
+        "q95": 6.255181944942224
+      },
+      "support_departure_q90": 2.967881034330729,
+      "fraction_beyond_real_q95": 0.2,
+      "fraction_beyond_2x_real_q95": 0.05
+    },
+    {
+      "family_id": "F4",
+      "arm": "pretrained_noadapt_syn80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 4.9703672273650525,
+        "median": 4.267433577805669,
+        "q90": 9.055717611551573,
+        "q95": 11.465223830481817
+      },
+      "support_departure_q90": 9.055717611551573,
+      "fraction_beyond_real_q95": 0.7625,
+      "fraction_beyond_2x_real_q95": 0.4625
+    },
+    {
+      "family_id": "F4",
+      "arm": "real_repeat80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 1.9453226080149264,
+        "median": 1.4607213505448018,
+        "q90": 4.176599338964505,
+        "q95": 5.042009390699844
+      },
+      "support_departure_q90": 4.176599338964505,
+      "fraction_beyond_real_q95": 0.2625,
+      "fraction_beyond_2x_real_q95": 0.0125
+    },
+    {
+      "family_id": "F5",
+      "arm": "real_repeat80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 1.9453226080149264,
+        "median": 1.4607213505448018,
+        "q90": 4.176599338964505,
+        "q95": 5.042009390699844
+      },
+      "support_departure_q90": 4.176599338964505,
+      "fraction_beyond_real_q95": 0.2625,
+      "fraction_beyond_2x_real_q95": 0.0125
+    },
+    {
+      "family_id": "F5",
+      "arm": "sd2_syn80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 1.274754536524069,
+        "median": 1.0112703995455594,
+        "q90": 2.3267143770979506,
+        "q95": 2.942756002934748
+      },
+      "support_departure_q90": 2.3267143770979506,
+      "fraction_beyond_real_q95": 0.075,
+      "fraction_beyond_2x_real_q95": 0.0125
+    },
+    {
+      "family_id": "F5",
+      "arm": "tmvb_syn80",
+      "n": 80,
+      "nearest_real_normalized_distance": {
+        "mean": 1.0877391367992082,
+        "median": 0.9636238300645008,
+        "q90": 1.5401172962052012,
+        "q95": 2.161721875918061
+      },
+      "support_departure_q90": 1.5401172962052012,
+      "fraction_beyond_real_q95": 0.0375,
+      "fraction_beyond_2x_real_q95": 0.0125
+    },
+    {
+      "family_id": "F6",
+      "arm": "feature",
+      "n": 120,
+      "nearest_real_normalized_distance": {
+        "mean": 1.1021275098182002,
+        "median": 0.9692510326873529,
+        "q90": 1.7937693262747982,
+        "q95": 2.2656111904735945
+      },
+      "support_departure_q90": 1.7937693262747982,
+      "fraction_beyond_real_q95": 0.39166666666666666,
+      "fraction_beyond_2x_real_q95": 0.058333333333333334
+    },
+    {
+      "family_id": "F6",
+      "arm": "gradient",
+      "n": 120,
+      "nearest_real_normalized_distance": {
+        "mean": 1.4975600773478233,
+        "median": 1.1724398701447827,
+        "q90": 2.696278954301018,
+        "q95": 3.3764928439077626
+      },
+      "support_departure_q90": 2.696278954301018,
+      "fraction_beyond_real_q95": 0.175,
+      "fraction_beyond_2x_real_q95": 0.008333333333333333
+    },
+    {
+      "family_id": "F6",
+      "arm": "hardness",
+      "n": 120,
+      "nearest_real_normalized_distance": {
+        "mean": 1.7860927384591296,
+        "median": 1.5283651674710572,
+        "q90": 3.271029485296755,
+        "q95": 3.8091634475504295
+      },
+      "support_departure_q90": 3.271029485296755,
+      "fraction_beyond_real_q95": 0.3333333333333333,
+      "fraction_beyond_2x_real_q95": 0.041666666666666664
+    },
+    {
+      "family_id": "F6",
+      "arm": "uniform",
+      "n": 120,
+      "nearest_real_normalized_distance": {
+        "mean": 1.6796592827113737,
+        "median": 1.2518104888627777,
+        "q90": 2.993501433515694,
+        "q95": 4.461384292444447
+      },
+      "support_departure_q90": 2.993501433515694,
+      "fraction_beyond_real_q95": 0.25833333333333336,
+      "fraction_beyond_2x_real_q95": 0.008333333333333333
+    }
+  ]
+}

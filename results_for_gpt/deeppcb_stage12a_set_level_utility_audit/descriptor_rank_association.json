@@ -1,0 +1,877 @@
+{
+  "records": [
+    {
+      "descriptor": "support_alignment",
+      "primary_family_count": 4,
+      "winner_consistency": 0.6428571428571429,
+      "leave_one_family_out_winner_consistency": {
+        "F2": 0.6153846153846154,
+        "F3": 0.6153846153846154,
+        "F4": 0.625,
+        "F6": 0.75
+      },
+      "rank_spearman_rho": 0.6666666666666666,
+      "leave_one_family_out_rho": {
+        "F2": 0.5419354838709678,
+        "F3": 0.5419354838709678,
+        "F4": 0.7631578947368419,
+        "F6": 0.8157894736842104
+      },
+      "lofo_sign_stable": true,
+      "family_bootstrap_winner_consistency_ci95": [
+        0.5833333333333333,
+        1.0
+      ],
+      "passes": false
+    },
+    {
+      "descriptor": "marginal_real_coverage",
+      "primary_family_count": 4,
+      "winner_consistency": 0.7857142857142857,
+      "leave_one_family_out_winner_consistency": {
+        "F2": 0.7692307692307693,
+        "F3": 0.7692307692307693,
+        "F4": 0.875,
+        "F6": 0.75
+      },
+      "rank_spearman_rho": 0.7878787878787878,
+      "leave_one_family_out_rho": {
+        "F2": 0.7225806451612904,
+        "F3": 0.7225806451612904,
+        "F4": 0.8947368421052629,
+        "F6": 0.8157894736842104
+      },
+      "lofo_sign_stable": true,
+      "family_bootstrap_winner_consistency_ci95": [
+        0.7499999999999999,
+        1.0
+      ],
+      "passes": true
+    },
+    {
+      "descriptor": "feature_ess",
+      "primary_family_count": 4,
+      "winner_consistency": 0.2857142857142857,
+      "leave_one_family_out_winner_consistency": {
+        "F2": 0.3076923076923077,
+        "F3": 0.3076923076923077,
+        "F4": 0.5,
+        "F6": 0.0
+      },
+      "rank_spearman_rho": -0.6287878787878788,
+      "leave_one_family_out_rho": {
+        "F2": -0.5129032258064516,
+        "F3": -0.5129032258064516,
+        "F4": -0.4999999999999999,
+        "F6": -0.9999999999999998
+      },
+      "lofo_sign_stable": false,
+      "family_bootstrap_winner_consistency_ci95": [
+        0.0,
+        0.5
+      ],
+      "passes": false
+    },
+    {
+      "descriptor": "composition_balance",
+      "primary_family_count": 4,
+      "winner_consistency": 0.6666666666666666,
+      "leave_one_family_out_winner_consistency": {
+        "F2": 0.6666666666666666,
+        "F3": 0.6666666666666666,
+        "F4": 0.6666666666666666,
+        "F6": null
+      },
+      "rank_spearman_rho": 0.04330343541512469,
+      "leave_one_family_out_rho": {
+        "F2": 0.06340229583087123,
+        "F3": 0.06340229583087123,
+        "F4": 0.08000711205939974,
+        "F6": 0.0
+      },
+      "lofo_sign_stable": false,
+      "family_bootstrap_winner_consistency_ci95": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "passes": false
+    },
+    {
+      "descriptor": "gradient_alignment",
+      "primary_family_count": 4,
+      "winner_consistency": 0.6428571428571429,
+      "leave_one_family_out_winner_consistency": {
+        "F2": 0.6923076923076923,
+        "F3": 0.6153846153846154,
+        "F4": 0.5,
+        "F6": 0.75
+      },
+      "rank_spearman_rho": 0.22727272727272727,
+      "leave_one_family_out_rho": {
+        "F2": 0.6064516129032259,
+        "F3": -0.02580645161290323,
+        "F4": 0.0,
+        "F6": 0.31578947368421045
+      },
+      "lofo_sign_stable": false,
+      "family_bootstrap_winner_consistency_ci95": [
+        0.20833333333333334,
+        0.9166666666666667
+      ],
+      "passes": false
+    }
+  ],
+  "within_family_rank_percentiles": [
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "inner",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.003806797801355,
+      "utility": 0.7149385065785886,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "novel",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.058090400376467,
+      "utility": 0.7137750835441837,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "inner",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.5623654220286376,
+      "utility": 0.7149385065785886,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "novel",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.576981234929319,
+      "utility": 0.7137750835441837,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "inner",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.16807988079838782,
+      "utility": 0.7149385065785886,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "novel",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.18127273238679897,
+      "utility": 0.7137750835441837,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "inner",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9620299351917985,
+      "utility": 0.7149385065785886,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "novel",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9620299351917985,
+      "utility": 0.7137750835441837,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "inner",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.19318978833029257,
+      "utility": 0.7149385065785886,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "arm": "novel",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.18749192384499017,
+      "utility": 0.7137750835441837,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "msdf",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.067541962929592,
+      "utility": 0.7178675133460494,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "sd2",
+      "descriptor": "support_alignment",
+      "descriptor_value": -1.9543757995722186,
+      "utility": 0.7220877388395435,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "msdf",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.1434350472189196,
+      "utility": 0.7178675133460494,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "sd2",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.0490697472717945,
+      "utility": 0.7220877388395435,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "msdf",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.13369679401318232,
+      "utility": 0.7178675133460494,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "sd2",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.12769778221845626,
+      "utility": 0.7220877388395435,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "msdf",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9787485071239038,
+      "utility": 0.7178675133460494,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "sd2",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9787485071239038,
+      "utility": 0.7220877388395435,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "msdf",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.1744286780002349,
+      "utility": 0.7178675133460494,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "arm": "sd2",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.12591000367960034,
+      "utility": 0.7220877388395435,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "finetuned_sd2_syn80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.3267143770979506,
+      "utility": 0.7269929193861735,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "frozen_adapter_syn80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.967881034330729,
+      "utility": 0.7078048256137872,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "pretrained_noadapt_syn80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -9.055717611551573,
+      "utility": 0.7068451656537031,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "real_repeat80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -4.176599338964505,
+      "utility": 0.7271860426629609,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "finetuned_sd2_syn80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -1.9152282300243255,
+      "utility": 0.7269929193861735,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "frozen_adapter_syn80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.316243089471609,
+      "utility": 0.7078048256137872,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "pretrained_noadapt_syn80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -8.2501740504633,
+      "utility": 0.7068451656537031,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "real_repeat80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.544288072250665,
+      "utility": 0.7271860426629609,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "finetuned_sd2_syn80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.13238939195871352,
+      "utility": 0.7269929193861735,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "frozen_adapter_syn80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.1638248085975647,
+      "utility": 0.7078048256137872,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "pretrained_noadapt_syn80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.24901426881551741,
+      "utility": 0.7068451656537031,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "real_repeat80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.1309439182281494,
+      "utility": 0.7271860426629609,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "finetuned_sd2_syn80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7269929193861735,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "frozen_adapter_syn80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7078048256137872,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "pretrained_noadapt_syn80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7068451656537031,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "real_repeat80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7271860426629609,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "finetuned_sd2_syn80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.14024898940406388,
+      "utility": 0.7269929193861735,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "frozen_adapter_syn80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.12370737022006664,
+      "utility": 0.7078048256137872,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "pretrained_noadapt_syn80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.2365420130398838,
+      "utility": 0.7068451656537031,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "arm": "real_repeat80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.012165143541279568,
+      "utility": 0.7271860426629609,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "real_repeat80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -4.176599338964505,
+      "utility": 0.7277280836407842,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "sd2_syn80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.3267143770979506,
+      "utility": 0.7147260639375902,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.5
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "tmvb_syn80",
+      "descriptor": "support_alignment",
+      "descriptor_value": -1.5401172962052012,
+      "utility": 0.7095259227052039,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "real_repeat80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -2.544288072250665,
+      "utility": 0.7277280836407842,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "sd2_syn80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -1.9152282300243255,
+      "utility": 0.7147260639375902,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.5
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "tmvb_syn80",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -1.9529714055748275,
+      "utility": 0.7095259227052039,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "real_repeat80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.1309439182281494,
+      "utility": 0.7277280836407842,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "sd2_syn80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.13238939195871352,
+      "utility": 0.7147260639375902,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.5
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "tmvb_syn80",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.11209460347890854,
+      "utility": 0.7095259227052039,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "real_repeat80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7277280836407842,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "sd2_syn80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7147260639375902,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.5
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "tmvb_syn80",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9859065712103268,
+      "utility": 0.7095259227052039,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "real_repeat80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.012165170850348492,
+      "utility": 0.7277280836407842,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "sd2_syn80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.14024898679759096,
+      "utility": 0.7147260639375902,
+      "descriptor_rank_percentile": 0.5,
+      "utility_rank_percentile": 0.5
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "arm": "tmvb_syn80",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.15386733744425393,
+      "utility": 0.7095259227052039,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "feature",
+      "descriptor": "support_alignment",
+      "descriptor_value": -1.7937693262747982,
+      "utility": 0.7171906698965762,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "gradient",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.696278954301018,
+      "utility": 0.722462567335161,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "hardness",
+      "descriptor": "support_alignment",
+      "descriptor_value": -3.271029485296755,
+      "utility": 0.7142730956503504,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "uniform",
+      "descriptor": "support_alignment",
+      "descriptor_value": -2.993501433515694,
+      "utility": 0.7360032280021259,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "feature",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -6.926617272884609,
+      "utility": 0.7171906698965762,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "gradient",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -3.3007092986041044,
+      "utility": 0.722462567335161,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "hardness",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -5.195342506239342,
+      "utility": 0.7142730956503504,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "uniform",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_value": -3.1432952880932064,
+      "utility": 0.7360032280021259,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "feature",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.27545185883839923,
+      "utility": 0.7171906698965762,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "gradient",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.24094174504280091,
+      "utility": 0.722462567335161,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "hardness",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.21710672875245413,
+      "utility": 0.7142730956503504,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "uniform",
+      "descriptor": "feature_ess",
+      "descriptor_value": 0.25416179398695626,
+      "utility": 0.7360032280021259,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "feature",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9639345610465986,
+      "utility": 0.7171906698965762,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "gradient",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9658587867687214,
+      "utility": 0.722462567335161,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "hardness",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9664068771705839,
+      "utility": 0.7142730956503504,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "uniform",
+      "descriptor": "composition_balance",
+      "descriptor_value": 0.9767206070657913,
+      "utility": 0.7360032280021259,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 1.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "feature",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.028221939982816347,
+      "utility": 0.7171906698965762,
+      "descriptor_rank_percentile": 1.0,
+      "utility_rank_percentile": 0.3333333333333333
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "gradient",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.2567746315641395,
+      "utility": 0.722462567335161,
+      "descriptor_rank_percentile": 0.0,
+      "utility_rank_percentile": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "hardness",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.04660776480698106,
+      "utility": 0.7142730956503504,
+      "descriptor_rank_percentile": 0.3333333333333333,
+      "utility_rank_percentile": 0.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "arm": "uniform",
+      "descriptor": "gradient_alignment",
+      "descriptor_value": -0.045586322358522585,
+      "utility": 0.7360032280021259,
+      "descriptor_rank_percentile": 0.6666666666666666,
+      "utility_rank_percentile": 1.0
+    }
+  ],
+  "family_unit_bootstrap": true
+}

@@ -1,0 +1,280 @@
+{
+  "records": [
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "descriptor": "support_alignment",
+      "descriptor_winner": "inner",
+      "utility_winner": "inner",
+      "winner_match": true,
+      "pairwise_correct": 1,
+      "pairwise_total": 1,
+      "pairwise_consistency": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_winner": "inner",
+      "utility_winner": "inner",
+      "winner_match": true,
+      "pairwise_correct": 1,
+      "pairwise_total": 1,
+      "pairwise_consistency": 1.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "descriptor": "feature_ess",
+      "descriptor_winner": "novel",
+      "utility_winner": "inner",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 1,
+      "pairwise_consistency": 0.0
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "descriptor": "composition_balance",
+      "descriptor_winner": "inner",
+      "utility_winner": "inner",
+      "winner_match": true,
+      "pairwise_correct": 0,
+      "pairwise_total": 0,
+      "pairwise_consistency": null
+    },
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "descriptor": "gradient_alignment",
+      "descriptor_winner": "novel",
+      "utility_winner": "inner",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 1,
+      "pairwise_consistency": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "descriptor": "support_alignment",
+      "descriptor_winner": "sd2",
+      "utility_winner": "sd2",
+      "winner_match": true,
+      "pairwise_correct": 1,
+      "pairwise_total": 1,
+      "pairwise_consistency": 1.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_winner": "sd2",
+      "utility_winner": "sd2",
+      "winner_match": true,
+      "pairwise_correct": 1,
+      "pairwise_total": 1,
+      "pairwise_consistency": 1.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "descriptor": "feature_ess",
+      "descriptor_winner": "msdf",
+      "utility_winner": "sd2",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 1,
+      "pairwise_consistency": 0.0
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "descriptor": "composition_balance",
+      "descriptor_winner": "msdf",
+      "utility_winner": "sd2",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 0,
+      "pairwise_consistency": null
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "descriptor": "gradient_alignment",
+      "descriptor_winner": "sd2",
+      "utility_winner": "sd2",
+      "winner_match": true,
+      "pairwise_correct": 1,
+      "pairwise_total": 1,
+      "pairwise_consistency": 1.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "descriptor": "support_alignment",
+      "descriptor_winner": "finetuned_sd2_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 4,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_winner": "finetuned_sd2_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 4,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.6666666666666666
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "descriptor": "feature_ess",
+      "descriptor_winner": "pretrained_noadapt_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.0
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "descriptor": "composition_balance",
+      "descriptor_winner": "finetuned_sd2_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 0,
+      "pairwise_consistency": null
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "descriptor": "gradient_alignment",
+      "descriptor_winner": "real_repeat80",
+      "utility_winner": "real_repeat80",
+      "winner_match": true,
+      "pairwise_correct": 5,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.8333333333333334
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "descriptor": "support_alignment",
+      "descriptor_winner": "tmvb_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 0,
+      "pairwise_total": 3,
+      "pairwise_consistency": 0.0
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_winner": "sd2_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 1,
+      "pairwise_total": 3,
+      "pairwise_consistency": 0.3333333333333333
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "descriptor": "feature_ess",
+      "descriptor_winner": "sd2_syn80",
+      "utility_winner": "real_repeat80",
+      "winner_match": false,
+      "pairwise_correct": 2,
+      "pairwise_total": 3,
+      "pairwise_consistency": 0.6666666666666666
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "descriptor": "composition_balance",
+      "descriptor_winner": "real_repeat80",
+      "utility_winner": "real_repeat80",
+      "winner_match": true,
+      "pairwise_correct": 0,
+      "pairwise_total": 0,
+      "pairwise_consistency": null
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "descriptor": "gradient_alignment",
+      "descriptor_winner": "real_repeat80",
+      "utility_winner": "real_repeat80",
+      "winner_match": true,
+      "pairwise_correct": 3,
+      "pairwise_total": 3,
+      "pairwise_consistency": 1.0
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "descriptor": "support_alignment",
+      "descriptor_winner": "feature",
+      "utility_winner": "uniform",
+      "winner_match": false,
+      "pairwise_correct": 3,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.5
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "descriptor": "marginal_real_coverage",
+      "descriptor_winner": "uniform",
+      "utility_winner": "uniform",
+      "winner_match": true,
+      "pairwise_correct": 5,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.8333333333333334
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "descriptor": "feature_ess",
+      "descriptor_winner": "feature",
+      "utility_winner": "uniform",
+      "winner_match": false,
+      "pairwise_correct": 4,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "descriptor": "composition_balance",
+      "descriptor_winner": "uniform",
+      "utility_winner": "uniform",
+      "winner_match": true,
+      "pairwise_correct": 4,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.6666666666666666
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "descriptor": "gradient_alignment",
+      "descriptor_winner": "feature",
+      "utility_winner": "uniform",
+      "winner_match": false,
+      "pairwise_correct": 3,
+      "pairwise_total": 6,
+      "pairwise_consistency": 0.5
+    }
+  ],
+  "within_family_only": true
+}

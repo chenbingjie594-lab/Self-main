@@ -1,0 +1,69 @@
+{
+  "axes": [
+    "support_alignment",
+    "marginal_real_coverage",
+    "feature_ess"
+  ],
+  "records": [
+    {
+      "family_id": "F2",
+      "family_role": "primary",
+      "utility_winner": "inner",
+      "pareto_front": [
+        "inner",
+        "novel"
+      ],
+      "winner_on_frontier": true,
+      "winner_dominated": false
+    },
+    {
+      "family_id": "F3",
+      "family_role": "primary",
+      "utility_winner": "sd2",
+      "pareto_front": [
+        "msdf",
+        "sd2"
+      ],
+      "winner_on_frontier": true,
+      "winner_dominated": false
+    },
+    {
+      "family_id": "F4",
+      "family_role": "primary",
+      "utility_winner": "real_repeat80",
+      "pareto_front": [
+        "finetuned_sd2_syn80",
+        "frozen_adapter_syn80",
+        "pretrained_noadapt_syn80"
+      ],
+      "winner_on_frontier": false,
+      "winner_dominated": true
+    },
+    {
+      "family_id": "F5",
+      "family_role": "secondary_exploratory",
+      "utility_winner": "real_repeat80",
+      "pareto_front": [
+        "sd2_syn80",
+        "tmvb_syn80"
+      ],
+      "winner_on_frontier": false,
+      "winner_dominated": true
+    },
+    {
+      "family_id": "F6",
+      "family_role": "primary",
+      "utility_winner": "uniform",
+      "pareto_front": [
+        "feature",
+        "gradient",
+        "uniform"
+      ],
+      "winner_on_frontier": true,
+      "winner_dominated": false
+    }
+  ],
+  "primary_winner_on_frontier_fraction": 0.75,
+  "winner_strictly_dominated_fraction": 0.25,
+  "passes": true
+}

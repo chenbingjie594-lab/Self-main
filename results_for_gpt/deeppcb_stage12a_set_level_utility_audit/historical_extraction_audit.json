@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "record_count": 1840,
+  "feature_dim": 896,
+  "gradient_dim": 1024,
+  "teacher_checkpoints": {
+    "0": "71b83851ddc12b1c54dd110bc7344b88140c52c71ee6669e1dc1b5bbe81225ac",
+    "1": "86bb30ecc55f45a6229adbd3bce7e174c644ab9dd0cd4f03bab843988f1afd7e",
+    "2": "45ec9c5dcb068eef8a8221a391d689e44187233773db4c90375ab855387fbf23"
+  },
+  "teacher_parameters_unchanged": true,
+  "feature_protocol": "tight bbox Stage9E-R",
+  "gradient_protocol": "Stage11A scale4/min64 target-only loss CountSketch seed2026",
+  "optimizer_step_count": 0,
+  "official_validation_use_count": 0
+}

@@ -1,0 +1,195 @@
+{
+  "primary_metric": "mAP50-95",
+  "checkpoint": "epoch150 last.pt",
+  "records": [
+    {
+      "family_id": "F2",
+      "arm": "inner",
+      "role": "primary",
+      "map50_95": 0.7149385065785886,
+      "seed_values": [
+        0.7168766538957672,
+        0.7105402828715485,
+        0.7173985829684503
+      ],
+      "seed_count": 3,
+      "family_centered_utility": 0.0005817115172024323,
+      "utility_rank_1_is_best": 1
+    },
+    {
+      "family_id": "F2",
+      "arm": "novel",
+      "role": "primary",
+      "map50_95": 0.7137750835441837,
+      "seed_values": [
+        0.7111616774136311,
+        0.7117689338748793,
+        0.7183946393440406
+      ],
+      "seed_count": 3,
+      "family_centered_utility": -0.0005817115172024323,
+      "utility_rank_1_is_best": 2
+    },
+    {
+      "family_id": "F3",
+      "arm": "sd2",
+      "role": "primary",
+      "map50_95": 0.7220877388395435,
+      "seed_values": [
+        0.72015719901746,
+        0.7218226953351714,
+        0.724283322165999
+      ],
+      "seed_count": 3,
+      "family_centered_utility": 0.002110112746747106,
+      "utility_rank_1_is_best": 1
+    },
+    {
+      "family_id": "F3",
+      "arm": "msdf",
+      "role": "primary",
+      "map50_95": 0.7178675133460494,
+      "seed_values": [
+        0.7228475222673009,
+        0.7125514241337964,
+        0.7182035936370509
+      ],
+      "seed_count": 3,
+      "family_centered_utility": -0.002110112746746995,
+      "utility_rank_1_is_best": 2
+    },
+    {
+      "family_id": "F4",
+      "arm": "real_repeat80",
+      "role": "primary",
+      "map50_95": 0.7271860426629609,
+      "seed_values": [
+        0.7271860426629609
+      ],
+      "seed_count": 1,
+      "family_centered_utility": 0.009978804333804825,
+      "utility_rank_1_is_best": 1
+    },
+    {
+      "family_id": "F4",
+      "arm": "pretrained_noadapt_syn80",
+      "role": "primary",
+      "map50_95": 0.7068451656537031,
+      "seed_values": [
+        0.7068451656537031
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -0.010362072675452971,
+      "utility_rank_1_is_best": 4
+    },
+    {
+      "family_id": "F4",
+      "arm": "finetuned_sd2_syn80",
+      "role": "primary",
+      "map50_95": 0.7269929193861735,
+      "seed_values": [
+        0.7269929193861735
+      ],
+      "seed_count": 1,
+      "family_centered_utility": 0.009785681057017381,
+      "utility_rank_1_is_best": 2
+    },
+    {
+      "family_id": "F4",
+      "arm": "frozen_adapter_syn80",
+      "role": "primary",
+      "map50_95": 0.7078048256137872,
+      "seed_values": [
+        0.7078048256137872
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -0.009402412715368902,
+      "utility_rank_1_is_best": 3
+    },
+    {
+      "family_id": "F5",
+      "arm": "real_repeat80",
+      "role": "secondary_exploratory",
+      "map50_95": 0.7277280836407842,
+      "seed_values": [
+        0.7277280836407842
+      ],
+      "seed_count": 1,
+      "family_centered_utility": 0.01040139354625802,
+      "utility_rank_1_is_best": 1
+    },
+    {
+      "family_id": "F5",
+      "arm": "sd2_syn80",
+      "role": "secondary_exploratory",
+      "map50_95": 0.7147260639375902,
+      "seed_values": [
+        0.7147260639375902
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -0.0026006261569360145,
+      "utility_rank_1_is_best": 2
+    },
+    {
+      "family_id": "F5",
+      "arm": "tmvb_syn80",
+      "role": "secondary_exploratory",
+      "map50_95": 0.7095259227052039,
+      "seed_values": [
+        0.7095259227052039
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -0.007800767389322338,
+      "utility_rank_1_is_best": 3
+    },
+    {
+      "family_id": "F6",
+      "arm": "uniform",
+      "role": "primary",
+      "map50_95": 0.7360032280021259,
+      "seed_values": [
+        0.7360032280021259
+      ],
+      "seed_count": 1,
+      "family_centered_utility": 0.013520837781072603,
+      "utility_rank_1_is_best": 1
+    },
+    {
+      "family_id": "F6",
+      "arm": "feature",
+      "role": "primary",
+      "map50_95": 0.7171906698965762,
+      "seed_values": [
+        0.7171906698965762
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -0.005291720324477112,
+      "utility_rank_1_is_best": 3
+    },
+    {
+      "family_id": "F6",
+      "arm": "hardness",
+      "role": "primary",
+      "map50_95": 0.7142730956503504,
+      "seed_values": [
+        0.7142730956503504
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -0.008209294570702963,
+      "utility_rank_1_is_best": 4
+    },
+    {
+      "family_id": "F6",
+      "arm": "gradient",
+      "role": "primary",
+      "map50_95": 0.722462567335161,
+      "seed_values": [
+        0.722462567335161
+      ],
+      "seed_count": 1,
+      "family_centered_utility": -1.982288589230663e-05,
+      "utility_rank_1_is_best": 2
+    }
+  ],
+  "within_family_only": true
+}

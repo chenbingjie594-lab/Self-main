@@ -1,0 +1,140 @@
+{
+  "direction": "higher normalized ESS is less redundant",
+  "records": [
+    {
+      "family_id": "F2",
+      "arm": "inner",
+      "mean_nearest_neighbor_distance": 0.10830104163607711,
+      "median_nearest_neighbor_distance": 0.09905600547790527,
+      "pairwise_distance_median": 0.17924124002456665,
+      "rbf_effective_sample_size_normalized": 0.16807988079838782,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F2",
+      "arm": "novel",
+      "mean_nearest_neighbor_distance": 0.12017467111911413,
+      "median_nearest_neighbor_distance": 0.10795295238494873,
+      "pairwise_distance_median": 0.1970912218093872,
+      "rbf_effective_sample_size_normalized": 0.18127273238679897,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F3",
+      "arm": "msdf",
+      "mean_nearest_neighbor_distance": 0.1037292388578256,
+      "median_nearest_neighbor_distance": 0.09349608421325684,
+      "pairwise_distance_median": 0.21227669715881348,
+      "rbf_effective_sample_size_normalized": 0.13369679401318232,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F3",
+      "arm": "sd2",
+      "mean_nearest_neighbor_distance": 0.09737210993965467,
+      "median_nearest_neighbor_distance": 0.08270293474197388,
+      "pairwise_distance_median": 0.19510263204574585,
+      "rbf_effective_sample_size_normalized": 0.12769778221845626,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F4",
+      "arm": "finetuned_sd2_syn80",
+      "mean_nearest_neighbor_distance": 0.09679113179445267,
+      "median_nearest_neighbor_distance": 0.08636474609375,
+      "pairwise_distance_median": 0.20598050951957703,
+      "rbf_effective_sample_size_normalized": 0.13238939195871352,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F4",
+      "arm": "frozen_adapter_syn80",
+      "mean_nearest_neighbor_distance": 0.11477453857660294,
+      "median_nearest_neighbor_distance": 0.09768939018249512,
+      "pairwise_distance_median": 0.27873504161834717,
+      "rbf_effective_sample_size_normalized": 0.1638248085975647,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F4",
+      "arm": "pretrained_noadapt_syn80",
+      "mean_nearest_neighbor_distance": 0.12998297959566116,
+      "median_nearest_neighbor_distance": 0.09510999917984009,
+      "pairwise_distance_median": 0.3044702112674713,
+      "rbf_effective_sample_size_normalized": 0.24901426881551741,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F4",
+      "arm": "real_repeat80",
+      "mean_nearest_neighbor_distance": 0.09629283696413041,
+      "median_nearest_neighbor_distance": 0.0916786789894104,
+      "pairwise_distance_median": 0.19547665119171143,
+      "rbf_effective_sample_size_normalized": 0.1309439182281494,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F5",
+      "arm": "real_repeat80",
+      "mean_nearest_neighbor_distance": 0.09629283696413041,
+      "median_nearest_neighbor_distance": 0.0916786789894104,
+      "pairwise_distance_median": 0.19547665119171143,
+      "rbf_effective_sample_size_normalized": 0.1309439182281494,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F5",
+      "arm": "sd2_syn80",
+      "mean_nearest_neighbor_distance": 0.09679113179445267,
+      "median_nearest_neighbor_distance": 0.08636474609375,
+      "pairwise_distance_median": 0.20598050951957703,
+      "rbf_effective_sample_size_normalized": 0.13238939195871352,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F5",
+      "arm": "tmvb_syn80",
+      "mean_nearest_neighbor_distance": 0.09021769389510155,
+      "median_nearest_neighbor_distance": 0.08275336027145386,
+      "pairwise_distance_median": 0.16645878553390503,
+      "rbf_effective_sample_size_normalized": 0.11209460347890854,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F6",
+      "arm": "feature",
+      "mean_nearest_neighbor_distance": 0.14927005767822266,
+      "median_nearest_neighbor_distance": 0.12312832474708557,
+      "pairwise_distance_median": 0.2395191192626953,
+      "rbf_effective_sample_size_normalized": 0.27545185883839923,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F6",
+      "arm": "gradient",
+      "mean_nearest_neighbor_distance": 0.1217649390300115,
+      "median_nearest_neighbor_distance": 0.10382437705993652,
+      "pairwise_distance_median": 0.19304323196411133,
+      "rbf_effective_sample_size_normalized": 0.24094174504280091,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F6",
+      "arm": "hardness",
+      "mean_nearest_neighbor_distance": 0.10854356785615285,
+      "median_nearest_neighbor_distance": 0.08875924348831177,
+      "pairwise_distance_median": 0.16406837105751038,
+      "rbf_effective_sample_size_normalized": 0.21710672875245413,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    },
+    {
+      "family_id": "F6",
+      "arm": "uniform",
+      "mean_nearest_neighbor_distance": 0.12405462910731634,
+      "median_nearest_neighbor_distance": 0.1029321551322937,
+      "pairwise_distance_median": 0.2129630446434021,
+      "rbf_effective_sample_size_normalized": 0.25416179398695626,
+      "rbf_bandwidth": "median different-pair real-real distance per fold/class"
+    }
+  ]
+}

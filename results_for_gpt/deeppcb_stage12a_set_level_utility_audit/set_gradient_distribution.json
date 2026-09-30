@@ -1,0 +1,125 @@
+{
+  "direction": "lower misalignment is better; diagnostic only",
+  "records": [
+    {
+      "family_id": "F2",
+      "arm": "inner",
+      "gradient_mean_misalignment": 0.19318978833029257,
+      "mean_gradient_nearest_neighbor_distance": 0.2360317976969593,
+      "gradient_rbf_effective_sample_size_normalized": 0.28787825317502774,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F2",
+      "arm": "novel",
+      "gradient_mean_misalignment": 0.18749192384499017,
+      "mean_gradient_nearest_neighbor_distance": 0.2561244863384175,
+      "gradient_rbf_effective_sample_size_normalized": 0.28745127848859103,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F3",
+      "arm": "msdf",
+      "gradient_mean_misalignment": 0.1744286780002349,
+      "mean_gradient_nearest_neighbor_distance": 0.24345903346935907,
+      "gradient_rbf_effective_sample_size_normalized": 0.2171328693628311,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F3",
+      "arm": "sd2",
+      "gradient_mean_misalignment": 0.12591000367960034,
+      "mean_gradient_nearest_neighbor_distance": 0.22763911386330923,
+      "gradient_rbf_effective_sample_size_normalized": 0.20354400078455606,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F4",
+      "arm": "finetuned_sd2_syn80",
+      "gradient_mean_misalignment": 0.14024898940406388,
+      "mean_gradient_nearest_neighbor_distance": 0.24538659751415254,
+      "gradient_rbf_effective_sample_size_normalized": 0.22465344220399858,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F4",
+      "arm": "frozen_adapter_syn80",
+      "gradient_mean_misalignment": 0.12370737022006664,
+      "mean_gradient_nearest_neighbor_distance": 0.2509376980364323,
+      "gradient_rbf_effective_sample_size_normalized": 0.22571731656789779,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F4",
+      "arm": "pretrained_noadapt_syn80",
+      "gradient_mean_misalignment": 0.2365420130398838,
+      "mean_gradient_nearest_neighbor_distance": 0.16857564002275466,
+      "gradient_rbf_effective_sample_size_normalized": 0.18069396167993546,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F4",
+      "arm": "real_repeat80",
+      "gradient_mean_misalignment": 0.012165143541279568,
+      "mean_gradient_nearest_neighbor_distance": 0.1543426774442196,
+      "gradient_rbf_effective_sample_size_normalized": 0.14174708276987075,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F5",
+      "arm": "real_repeat80",
+      "gradient_mean_misalignment": 0.012165170850348492,
+      "mean_gradient_nearest_neighbor_distance": 0.15434267297387122,
+      "gradient_rbf_effective_sample_size_normalized": 0.14174708276987075,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F5",
+      "arm": "sd2_syn80",
+      "gradient_mean_misalignment": 0.14024898679759096,
+      "mean_gradient_nearest_neighbor_distance": 0.24538658559322357,
+      "gradient_rbf_effective_sample_size_normalized": 0.2246534302830696,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F5",
+      "arm": "tmvb_syn80",
+      "gradient_mean_misalignment": 0.15386733744425393,
+      "mean_gradient_nearest_neighbor_distance": 0.2162698343396187,
+      "gradient_rbf_effective_sample_size_normalized": 0.19868165403604507,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F6",
+      "arm": "feature",
+      "gradient_mean_misalignment": 0.028221939982816347,
+      "mean_gradient_nearest_neighbor_distance": 0.16783717622359592,
+      "gradient_rbf_effective_sample_size_normalized": 0.2555784583091736,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F6",
+      "arm": "gradient",
+      "gradient_mean_misalignment": 0.2567746315641395,
+      "mean_gradient_nearest_neighbor_distance": 0.39884082476298016,
+      "gradient_rbf_effective_sample_size_normalized": 0.4916956533988317,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F6",
+      "arm": "hardness",
+      "gradient_mean_misalignment": 0.04660776480698106,
+      "mean_gradient_nearest_neighbor_distance": 0.06607092221577962,
+      "gradient_rbf_effective_sample_size_normalized": 0.1821765144666036,
+      "diagnostic_only": true
+    },
+    {
+      "family_id": "F6",
+      "arm": "uniform",
+      "gradient_mean_misalignment": 0.045586322358522585,
+      "mean_gradient_nearest_neighbor_distance": 0.18448909769455593,
+      "gradient_rbf_effective_sample_size_normalized": 0.2601801723241806,
+      "diagnostic_only": true
+    }
+  ]
+}

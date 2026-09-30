@@ -1,0 +1,215 @@
+{
+  "direction": "lower uncovered-real distance is better",
+  "records": [
+    {
+      "family_id": "F2",
+      "arm": "inner",
+      "real_support_normalized_distance": {
+        "mean": 1.6826363949829468,
+        "median": 1.44865533038641,
+        "q75": 1.8962255962302335,
+        "q90": 2.5623654220286376
+      },
+      "real_coverage_q90": 2.5623654220286376,
+      "fraction_real_z_le_1": 0.1332470892626132,
+      "fraction_real_z_le_1_5": 0.5394566623544631,
+      "covered_real_count": 773
+    },
+    {
+      "family_id": "F2",
+      "arm": "novel",
+      "real_support_normalized_distance": {
+        "mean": 1.7371904056669187,
+        "median": 1.4877678805826828,
+        "q75": 1.884735174958733,
+        "q90": 2.576981234929319
+      },
+      "real_coverage_q90": 2.576981234929319,
+      "fraction_real_z_le_1": 0.12548512289780078,
+      "fraction_real_z_le_1_5": 0.5071151358344114,
+      "covered_real_count": 773
+    },
+    {
+      "family_id": "F3",
+      "arm": "msdf",
+      "real_support_normalized_distance": {
+        "mean": 1.4466663313068873,
+        "median": 1.3413905412929255,
+        "q75": 1.6842325580273427,
+        "q90": 2.1434350472189196
+      },
+      "real_coverage_q90": 2.1434350472189196,
+      "fraction_real_z_le_1": 0.17935483870967742,
+      "fraction_real_z_le_1_5": 0.6412903225806451,
+      "covered_real_count": 775
+    },
+    {
+      "family_id": "F3",
+      "arm": "sd2",
+      "real_support_normalized_distance": {
+        "mean": 1.4227141050189895,
+        "median": 1.3352880342773978,
+        "q75": 1.6442492437869412,
+        "q90": 2.0490697472717945
+      },
+      "real_coverage_q90": 2.0490697472717945,
+      "fraction_real_z_le_1": 0.17806451612903226,
+      "fraction_real_z_le_1_5": 0.6632258064516129,
+      "covered_real_count": 775
+    },
+    {
+      "family_id": "F4",
+      "arm": "finetuned_sd2_syn80",
+      "real_support_normalized_distance": {
+        "mean": 1.3746549082170463,
+        "median": 1.3227749046841626,
+        "q75": 1.5927139645021722,
+        "q90": 1.9152282300243255
+      },
+      "real_coverage_q90": 1.9152282300243255,
+      "fraction_real_z_le_1": 0.20155038759689922,
+      "fraction_real_z_le_1_5": 0.6627906976744186,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F4",
+      "arm": "frozen_adapter_syn80",
+      "real_support_normalized_distance": {
+        "mean": 1.5119289603768298,
+        "median": 1.3987109644626794,
+        "q75": 1.786550157504022,
+        "q90": 2.316243089471609
+      },
+      "real_coverage_q90": 2.316243089471609,
+      "fraction_real_z_le_1": 0.13953488372093023,
+      "fraction_real_z_le_1_5": 0.6046511627906976,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F4",
+      "arm": "pretrained_noadapt_syn80",
+      "real_support_normalized_distance": {
+        "mean": 4.46260926633779,
+        "median": 3.821909369980837,
+        "q75": 5.3561122292674135,
+        "q90": 8.2501740504633
+      },
+      "real_coverage_q90": 8.2501740504633,
+      "fraction_real_z_le_1": 0.011627906976744186,
+      "fraction_real_z_le_1_5": 0.05813953488372093,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F4",
+      "arm": "real_repeat80",
+      "real_support_normalized_distance": {
+        "mean": 1.6573830141166752,
+        "median": 1.5486549936107317,
+        "q75": 1.9321093221862071,
+        "q90": 2.544288072250665
+      },
+      "real_coverage_q90": 2.544288072250665,
+      "fraction_real_z_le_1": 0.13178294573643412,
+      "fraction_real_z_le_1_5": 0.4728682170542636,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F5",
+      "arm": "real_repeat80",
+      "real_support_normalized_distance": {
+        "mean": 1.6573830141166752,
+        "median": 1.5486549936107317,
+        "q75": 1.9321093221862071,
+        "q90": 2.544288072250665
+      },
+      "real_coverage_q90": 2.544288072250665,
+      "fraction_real_z_le_1": 0.13178294573643412,
+      "fraction_real_z_le_1_5": 0.4728682170542636,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F5",
+      "arm": "sd2_syn80",
+      "real_support_normalized_distance": {
+        "mean": 1.3746549082170463,
+        "median": 1.3227749046841626,
+        "q75": 1.5927139645021722,
+        "q90": 1.9152282300243255
+      },
+      "real_coverage_q90": 1.9152282300243255,
+      "fraction_real_z_le_1": 0.20155038759689922,
+      "fraction_real_z_le_1_5": 0.6627906976744186,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F5",
+      "arm": "tmvb_syn80",
+      "real_support_normalized_distance": {
+        "mean": 1.336764115745443,
+        "median": 1.2324120757193815,
+        "q75": 1.5387545342243818,
+        "q90": 1.9529714055748275
+      },
+      "real_coverage_q90": 1.9529714055748275,
+      "fraction_real_z_le_1": 0.2054263565891473,
+      "fraction_real_z_le_1_5": 0.7286821705426356,
+      "covered_real_count": 258
+    },
+    {
+      "family_id": "F6",
+      "arm": "feature",
+      "real_support_normalized_distance": {
+        "mean": 3.128428742993884,
+        "median": 2.0695578587258088,
+        "q75": 3.2548982604556134,
+        "q90": 6.926617272884609
+      },
+      "real_coverage_q90": 6.926617272884609,
+      "fraction_real_z_le_1": 0.05806451612903226,
+      "fraction_real_z_le_1_5": 0.24645161290322581,
+      "covered_real_count": 775
+    },
+    {
+      "family_id": "F6",
+      "arm": "gradient",
+      "real_support_normalized_distance": {
+        "mean": 2.0591444072570395,
+        "median": 1.6994170084121636,
+        "q75": 2.226595446847344,
+        "q90": 3.3007092986041044
+      },
+      "real_coverage_q90": 3.3007092986041044,
+      "fraction_real_z_le_1": 0.07612903225806451,
+      "fraction_real_z_le_1_5": 0.35870967741935483,
+      "covered_real_count": 775
+    },
+    {
+      "family_id": "F6",
+      "arm": "hardness",
+      "real_support_normalized_distance": {
+        "mean": 2.7514953713537134,
+        "median": 2.05812026325613,
+        "q75": 3.0789072321849478,
+        "q90": 5.195342506239342
+      },
+      "real_coverage_q90": 5.195342506239342,
+      "fraction_real_z_le_1": 0.04516129032258064,
+      "fraction_real_z_le_1_5": 0.23096774193548386,
+      "covered_real_count": 775
+    },
+    {
+      "family_id": "F6",
+      "arm": "uniform",
+      "real_support_normalized_distance": {
+        "mean": 2.115602765811847,
+        "median": 1.7147344494218428,
+        "q75": 2.295891752000901,
+        "q90": 3.1432952880932064
+      },
+      "real_coverage_q90": 3.1432952880932064,
+      "fraction_real_z_le_1": 0.07870967741935483,
+      "fraction_real_z_le_1_5": 0.3793548387096774,
+      "covered_real_count": 775
+    }
+  ]
+}

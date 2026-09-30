@@ -1,0 +1,97 @@
+{
+  "families": [
+    {
+      "family_id": "F1",
+      "name": "Stage5F historical selector family",
+      "role": "incomplete",
+      "reason": "actual per-instance extra sets and equal fixed-budget checkpoint protocol are not jointly reconstructable; historical stop epochs differ"
+    },
+    {
+      "family_id": "F2",
+      "name": "Stage6H inner vs novel",
+      "role": "primary",
+      "comparable": true,
+      "detector": "YOLO11s",
+      "detector_seeds": [
+        42,
+        3407,
+        2026
+      ],
+      "extra_budget": 160,
+      "epochs": 150,
+      "primary_checkpoint": "last.pt",
+      "arms": [
+        "inner",
+        "novel"
+      ]
+    },
+    {
+      "family_id": "F3",
+      "name": "Stage7C SD2 vs MSDF-v3",
+      "role": "primary",
+      "comparable": true,
+      "detector": "YOLO11s",
+      "detector_seeds": [
+        42,
+        3407,
+        2026
+      ],
+      "extra_budget": 240,
+      "epochs": 150,
+      "primary_checkpoint": "last.pt",
+      "arms": [
+        "sd2",
+        "msdf"
+      ]
+    },
+    {
+      "family_id": "F4",
+      "name": "Stage9F frozen-adapter pilot",
+      "role": "primary",
+      "comparable": true,
+      "detector": "YOLO11s",
+      "detector_seeds": [
+        42
+      ],
+      "extra_budget": 80,
+      "epochs": 150,
+      "primary_checkpoint": "last.pt",
+      "arms": [
+        "real_repeat80",
+        "finetuned_sd2_syn80",
+        "pretrained_noadapt_syn80",
+        "frozen_adapter_syn80"
+      ]
+    },
+    {
+      "family_id": "F5",
+      "name": "Stage10C TMVB pilot",
+      "role": "secondary_exploratory",
+      "reason": "historical downstream run was exploratory/unauthorized for formal support",
+      "arms": [
+        "real_repeat80",
+        "sd2_syn80",
+        "tmvb_syn80"
+      ]
+    },
+    {
+      "family_id": "F6",
+      "name": "Stage11B real replay allocation",
+      "role": "primary",
+      "comparable": true,
+      "detector": "YOLO11s",
+      "detector_seeds": [
+        42
+      ],
+      "extra_budget": 120,
+      "epochs": 150,
+      "primary_checkpoint": "last.pt",
+      "arms": [
+        "uniform",
+        "feature",
+        "hardness",
+        "gradient"
+      ]
+    }
+  ]
+}
