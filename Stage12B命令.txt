@@ -1,0 +1,37 @@
+mkdir -p logs/deeppcb_stage12b_real_coverage_completion
+mkdir -p results_for_gpt/deeppcb_stage12b_real_coverage_completion
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_deeppcb_stage12b.py \
+  --protocol configs/deeppcb_stage12b.json \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage10ar results_for_gpt/deeppcb_stage10ar_pair_independent_manifold \
+  --stage11b results_for_gpt/deeppcb_stage11b_real_replay_allocation \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42 \
+  --output results_for_gpt/deeppcb_stage12b_real_coverage_completion \
+  > logs/deeppcb_stage12b_real_coverage_completion/preparation.log 2>&1
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage12b.py \
+  --protocol configs/deeppcb_stage12b.json \
+  --prepared results_for_gpt/deeppcb_stage12b_real_coverage_completion \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage12b_rcc_s42 \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --model pretrained/yolo11s.pt \
+  --stage11b results_for_gpt/deeppcb_stage11b_real_replay_allocation \
+  --stage11b_runs runs/deeppcb_stage11b_real_replay_allocation \
+  --stage12a results_for_gpt/deeppcb_stage12a_set_level_utility_audit \
+  --stage11a results_for_gpt/deeppcb_stage11a_real_gradient_geometry \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --runs runs/deeppcb_stage12b_real_coverage_completion \
+  --output results_for_gpt/deeppcb_stage12b_real_coverage_completion \
+  --device 0 \
+  > logs/deeppcb_stage12b_real_coverage_completion/training.log 2>&1
+' > logs/deeppcb_stage12b_real_coverage_completion/launcher.log 2>&1 &
+
+echo $! > logs/deeppcb_stage12b_real_coverage_completion/launcher.pid
