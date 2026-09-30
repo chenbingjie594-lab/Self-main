@@ -1,0 +1,41 @@
+mkdir -p logs/deeppcb_stage12a_set_level_utility_audit
+mkdir -p results_for_gpt/deeppcb_stage12a_set_level_utility_audit
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_deeppcb_stage12a.py \
+  --protocol configs/deeppcb_stage12a.json \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --folds results_for_gpt/bootstrap_guard_deeppcb_stage3/oof_fold_manifest.json \
+  --stage6f results_for_gpt/deeppcb_stage6f_all_eligible_novelty \
+  --stage6h results_for_gpt/deeppcb_stage6h_fixed_budget \
+  --stage7a results_for_gpt/deeppcb_stage7a_sd2_baseline \
+  --stage7c results_for_gpt/deeppcb_stage7c_sd2_vs_msdf_downstream \
+  --stage9f results_for_gpt/deeppcb_stage9f_frozen_adapter_downstream_pilot \
+  --stage10c results_for_gpt/deeppcb_stage10c_tmvb_downstream \
+  --stage11b results_for_gpt/deeppcb_stage11b_real_replay_allocation \
+  --output results_for_gpt/deeppcb_stage12a_set_level_utility_audit
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/extract_deeppcb_stage12a.py \
+  --manifest results_for_gpt/deeppcb_stage12a_set_level_utility_audit/historical_extra_set_manifest.json \
+  --stage3r_runs runs/deeppcb_stage3r_oof \
+  --stage11a results_for_gpt/deeppcb_stage11a_real_gradient_geometry \
+  --output results_for_gpt/deeppcb_stage12a_set_level_utility_audit \
+  --device 0
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/analyze_deeppcb_stage12a.py \
+  --protocol configs/deeppcb_stage12a.json \
+  --manifest results_for_gpt/deeppcb_stage12a_set_level_utility_audit/historical_extra_set_manifest.json \
+  --embedding_npz results_for_gpt/deeppcb_stage12a_set_level_utility_audit/historical_extra_set_embeddings.npz \
+  --embedding_manifest results_for_gpt/deeppcb_stage12a_set_level_utility_audit/historical_embedding_manifest.json \
+  --utility results_for_gpt/deeppcb_stage12a_set_level_utility_audit/historical_family_utility.json \
+  --family_validity results_for_gpt/deeppcb_stage12a_set_level_utility_audit/family_validity_audit.json \
+  --stage3r results_for_gpt/bootstrap_guard_deeppcb_stage3r \
+  --stage11a results_for_gpt/deeppcb_stage11a_real_gradient_geometry \
+  --output results_for_gpt/deeppcb_stage12a_set_level_utility_audit
+' > logs/deeppcb_stage12a_set_level_utility_audit/launcher.log 2>&1 &
+
+echo $! > logs/deeppcb_stage12a_set_level_utility_audit/launcher.pid

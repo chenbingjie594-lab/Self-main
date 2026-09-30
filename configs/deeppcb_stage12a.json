@@ -1,0 +1,15 @@
+{
+  "experiment": "deeppcb_stage12a_historical_set_level_marginal_utility_audit",
+  "primary_families": ["F2", "F3", "F4", "F6"],
+  "secondary_families": ["F5"],
+  "incomplete_families": ["F1"],
+  "feature_protocol": "Stage9E-R tight bbox, corrected Stage3R OOF teacher",
+  "gradient_protocol": "Stage11A context-scale-4 target-only loss and CountSketch-1024 seed 2026",
+  "bootstrap_seed": 20260930,
+  "bootstrap_replicates": 10000,
+  "winner_consistency_min": 0.70,
+  "minimum_primary_families": 4,
+  "official_validation_use_count": 0,
+  "generator_training_count": 0,
+  "detector_training_count": 0
+}
