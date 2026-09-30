@@ -1,0 +1,24 @@
+{
+  "status": "GRADIENT_ALLOCATION_REAL_REPLAY_NOT_SUPPORTED",
+  "gates": {
+    "A_beat_uniform_by_0_5pp": false,
+    "B_strictly_beat_feature": true,
+    "C_strictly_beat_hardness": true,
+    "D_no_broad_class_collapse": false
+  },
+  "nonnegative_gradient_vs_uniform_classes": 0,
+  "worst_class_delta": -0.03602139314512487,
+  "training_schedule_status": "EQUAL_SCHEDULE_PASS_WITH_SUCCESSFUL_UPDATE_VARIATION",
+  "successful_optimizer_steps": {
+    "uniform": 917,
+    "feature": 915,
+    "hardness": 916,
+    "gradient": 916
+  },
+  "successful_optimizer_step_range": 2,
+  "STAGE11B_CROSS_ARCH_CONFIRMATION_AUTHORIZED": false,
+  "architecture_coupled_feasibility_only": true,
+  "synthetic_count": 0,
+  "post_hoc_protocol_change": false,
+  "STAGE11BR_AUTOMATICALLY_STARTED": false
+}

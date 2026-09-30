@@ -1,0 +1,16 @@
+{
+  "status": "FINAL_EVALUATION_ONLY",
+  "official_validation": "frozen DeepPCB official validation from real_dataset/data.yaml",
+  "selection_uses": 0,
+  "threshold_uses": 0,
+  "allocation_uses": 0,
+  "hyperparameter_tuning_uses": 0,
+  "training_epoch_uses": 0,
+  "early_stopping_uses": 0,
+  "final_checkpoint_evaluations": 8,
+  "evaluations_per_arm": [
+    "epoch150 last.pt primary",
+    "best.pt secondary"
+  ],
+  "training_yaml_internal_val": "arm training set, with val=False; never official validation"
+}

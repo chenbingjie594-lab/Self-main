@@ -1,0 +1,6 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/finalize_deeppcb_stage11b.py \
+  --protocol configs/deeppcb_stage11b.json \
+  --output results_for_gpt/deeppcb_stage11b_real_replay_allocation

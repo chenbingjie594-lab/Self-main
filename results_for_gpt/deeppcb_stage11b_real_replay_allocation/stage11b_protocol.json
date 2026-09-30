@@ -1,0 +1,53 @@
+{
+  "experiment": "deeppcb_stage11b_real_replay_allocation",
+  "status_prerequisite": "REAL_GRADIENT_COVERAGE_STRUCTURE_SUPPORTED",
+  "architecture_scope": "YOLO11s architecture-coupled feasibility pilot",
+  "detector_seed": 42,
+  "selection_seed": 2026,
+  "instances_per_class": 20,
+  "classes": 6,
+  "extra_replay_draws_per_epoch": 120,
+  "base_real_draws_per_epoch": 260,
+  "total_draws_per_epoch": 380,
+  "epochs": 150,
+  "batch": 8,
+  "imgsz": 512,
+  "patience": 151,
+  "optimizer": "auto",
+  "deterministic": true,
+  "mosaic": 0.0,
+  "mixup": 0.0,
+  "copy_paste": 0.0,
+  "cutmix": 0.0,
+  "primary_checkpoint": "epoch150 last.pt",
+  "secondary_checkpoint": "best.pt",
+  "official_validation_role": "final checkpoint evaluation only",
+  "gate": {
+    "gradient_minus_uniform_map50_95_min": 0.005,
+    "gradient_strictly_beats_feature": true,
+    "gradient_strictly_beats_hardness": true,
+    "nonnegative_class_delta_min_count": 4,
+    "minimum_any_class_delta": -0.03
+  },
+  "arms": [
+    "UniformRepeat120",
+    "FeatureRepeat120",
+    "HardnessRepeat120",
+    "GradientRepeat120"
+  ],
+  "percentile_source": "frozen Stage11A/Stage10A-R values; normalized within fold x class",
+  "physical_pair_cap_per_class": 1,
+  "replay": "target-isolated full-resolution real image; other known defects restored from paired normal",
+  "synthetic_count": 0,
+  "selection_completed_before_detector_training": true,
+  "official_validation_used_for_selection": false,
+  "frozen_input_sha256": {
+    "stage11a_status": "baaa44ba85fac43ebd26b2f2cc3a4b7bd4fcaaa0b90e11f989ec9ed8ac600d3d",
+    "gradient_embeddings": "d77dabc3b28c0480429ea7336a7861429db7000f067bfe6f4cd01518d60742fa",
+    "gradient_local_radius": "92ebdedeb14847d3b5d066185eae3766401ab47de92d2f69c5f577902a87fed6",
+    "gradient_coverage_distribution": "9be38ba95c054c201da6f3ca4dff60bb3a0aa3a50415a3009dc3e248c4162434",
+    "raw_gradient_diagnostics": "c3d334c0bffa9b87ccafd3cc4a1314bff2fe257978f06f6e577fc695ab9bb045",
+    "feature_local_radius": "27a88ad85af6afafd96ccf5a6767b804bfac228f0fb4e1235f0b0e0d3840e9a9",
+    "instance_registry": "779b21f9cb6e91605917610ff720a6b9b34515a17d335d34be49d1679236aedc"
+  }
+}

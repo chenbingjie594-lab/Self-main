@@ -1,0 +1,48 @@
+{
+  "base_image_count": 100,
+  "base_label_count": 100,
+  "base_image_tree_sha256": "7ffc2ccebc3d04bba191d51790a396b4acc8fde7539a0ca7bd15bd7b9ed6239b",
+  "base_label_tree_sha256": "8b547c16add26f6fab2ff4ae3d2b59b9e697544278725e6acc49d6946790c2c3",
+  "arms": {
+    "uniform": {
+      "images": 220,
+      "labels": 220,
+      "base": 100,
+      "extra": 120,
+      "training_internal_val": "same arm train set; official validation excluded",
+      "image_tree_sha256": "23bab987dab0aecca0d6aafb5023aad9127e0366600d1f8774da9f94724fbde6",
+      "label_tree_sha256": "50814582d20afc16d9ee5b700342b8f7f8202c5b41283f7f3d9da41d93444e56",
+      "selection_sha256": "62a6ea5c91675209a44fbddb09db272165f776144142cb5eb795d22c4c70f14e"
+    },
+    "feature": {
+      "images": 220,
+      "labels": 220,
+      "base": 100,
+      "extra": 120,
+      "training_internal_val": "same arm train set; official validation excluded",
+      "image_tree_sha256": "1403a240c1e0d23005154d5c299dd86d357f9a4ddfb222ad896a324c053359a0",
+      "label_tree_sha256": "30cd7d4b92edde14efb8de422519215b94e4422f9f8d5bc84238045df577dbcb",
+      "selection_sha256": "3cf5bce28d1a5726aababd3b5f67106c8deb9214dd08e596f9ad909624ca0044"
+    },
+    "hardness": {
+      "images": 220,
+      "labels": 220,
+      "base": 100,
+      "extra": 120,
+      "training_internal_val": "same arm train set; official validation excluded",
+      "image_tree_sha256": "1b0b882991ef1d68b82dba521a59b9726e91e3d1a761418875d489aab549f4a0",
+      "label_tree_sha256": "cd12babfcba53ff10d63c9e85c22865c99755c93e53f244bbd8c5d79818ceb06",
+      "selection_sha256": "5235e6444b9f4e09ad46a2750f56a010ae39bc8bbf8c32ce0340ec8a17872b69"
+    },
+    "gradient": {
+      "images": 220,
+      "labels": 220,
+      "base": 100,
+      "extra": 120,
+      "training_internal_val": "same arm train set; official validation excluded",
+      "image_tree_sha256": "637e9aa7a04717c995f765f8b680bd59dbdf0e64100514971be422ff98359fc6",
+      "label_tree_sha256": "61d47c7d6830e199cb4dd35f73ea7a9b1e754f30ecbb5880c25dda679ba94eb0",
+      "selection_sha256": "cacd22a0914351b06b444046124f4cd3f717dfef19cd37e679d68d33bfda5ba5"
+    }
+  }
+}

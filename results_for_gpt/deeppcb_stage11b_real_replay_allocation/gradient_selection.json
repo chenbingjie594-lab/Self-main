@@ -1,0 +1,1217 @@
+{
+  "arm": "gradient",
+  "count": 120,
+  "class_counts": {
+    "open": 20,
+    "short": 20,
+    "mousebite": 20,
+    "spur": 20,
+    "spurious_copper": 20,
+    "pinhole": 20
+  },
+  "duplicate_instances": 0,
+  "physical_pair_cap_per_class": 1,
+  "pair_cap_satisfied": true,
+  "records": [
+    {
+      "instance_id": "13000019_open_00",
+      "pair_id": "13000019",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 1,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.375,
+      "hardness_percentile": 0.3
+    },
+    {
+      "instance_id": "77000019_open_00",
+      "pair_id": "77000019",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.3617021276595745,
+      "hardness_percentile": 0.0425531914893617
+    },
+    {
+      "instance_id": "92000006_open_00",
+      "pair_id": "92000006",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 2,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.95,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "92000060_open_00",
+      "pair_id": "92000060",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.9787234042553191,
+      "feature_percentile": 0.6382978723404256,
+      "hardness_percentile": 0.02127659574468085
+    },
+    {
+      "instance_id": "44000086_open_00",
+      "pair_id": "44000086",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 2,
+      "gradient_percentile": 0.975,
+      "feature_percentile": 0.4,
+      "hardness_percentile": 0.15
+    },
+    {
+      "instance_id": "77000083_open_00",
+      "pair_id": "77000083",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 1,
+      "gradient_percentile": 0.975,
+      "feature_percentile": 0.15,
+      "hardness_percentile": 0.125
+    },
+    {
+      "instance_id": "92000077_open_00",
+      "pair_id": "92000077",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.9574468085106383,
+      "feature_percentile": 0.3191489361702128,
+      "hardness_percentile": 0.1276595744680851
+    },
+    {
+      "instance_id": "44000107_open_00",
+      "pair_id": "44000107",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 2,
+      "gradient_percentile": 0.95,
+      "feature_percentile": 0.3,
+      "hardness_percentile": 0.175
+    },
+    {
+      "instance_id": "77000020_open_05",
+      "pair_id": "77000020",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.9361702127659575,
+      "feature_percentile": 0.44680851063829785,
+      "hardness_percentile": 0.8297872340425532
+    },
+    {
+      "instance_id": "44000092_open_00",
+      "pair_id": "44000092",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 2,
+      "gradient_percentile": 0.925,
+      "feature_percentile": 0.225,
+      "hardness_percentile": 0.35
+    },
+    {
+      "instance_id": "92000081_open_00",
+      "pair_id": "92000081",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 1,
+      "gradient_percentile": 0.925,
+      "feature_percentile": 0.225,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "20085155_open_00",
+      "pair_id": "20085155",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.9148936170212766,
+      "feature_percentile": 0.851063829787234,
+      "hardness_percentile": 0.5319148936170213
+    },
+    {
+      "instance_id": "13000017_open_01",
+      "pair_id": "13000017",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 2,
+      "gradient_percentile": 0.9,
+      "feature_percentile": 0.375,
+      "hardness_percentile": 0.075
+    },
+    {
+      "instance_id": "77000076_open_00",
+      "pair_id": "77000076",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 1,
+      "gradient_percentile": 0.9,
+      "feature_percentile": 0.55,
+      "hardness_percentile": 0.1
+    },
+    {
+      "instance_id": "44000110_open_01",
+      "pair_id": "44000110",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.8936170212765957,
+      "feature_percentile": 1.0,
+      "hardness_percentile": 0.3191489361702128
+    },
+    {
+      "instance_id": "20085238_open_01",
+      "pair_id": "20085238",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 1,
+      "gradient_percentile": 0.875,
+      "feature_percentile": 0.675,
+      "hardness_percentile": 0.4
+    },
+    {
+      "instance_id": "50600024_open_00",
+      "pair_id": "50600024",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 2,
+      "gradient_percentile": 0.875,
+      "feature_percentile": 0.75,
+      "hardness_percentile": 0.25
+    },
+    {
+      "instance_id": "13000003_open_00",
+      "pair_id": "13000003",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.8723404255319149,
+      "feature_percentile": 0.2765957446808511,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "77000044_open_00",
+      "pair_id": "77000044",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 0,
+      "gradient_percentile": 0.851063829787234,
+      "feature_percentile": 0.9148936170212766,
+      "hardness_percentile": 0.0851063829787234
+    },
+    {
+      "instance_id": "13000110_open_00",
+      "pair_id": "13000110",
+      "class_name": "open",
+      "class_id": 0,
+      "fold": 1,
+      "gradient_percentile": 0.85,
+      "feature_percentile": 0.75,
+      "hardness_percentile": 0.075
+    },
+    {
+      "instance_id": "00041169_short_01",
+      "pair_id": "00041169",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.4146341463414634,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "44000093_short_03",
+      "pair_id": "44000093",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.8260869565217391,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "44000107_short_01",
+      "pair_id": "44000107",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 2,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.8461538461538461,
+      "hardness_percentile": 0.05128205128205128
+    },
+    {
+      "instance_id": "44000110_short_02",
+      "pair_id": "44000110",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 0.9782608695652174,
+      "feature_percentile": 0.8478260869565217,
+      "hardness_percentile": 0.6521739130434783
+    },
+    {
+      "instance_id": "20085051_short_01",
+      "pair_id": "20085051",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 0.975609756097561,
+      "feature_percentile": 1.0,
+      "hardness_percentile": 0.07317073170731707
+    },
+    {
+      "instance_id": "00041181_short_05",
+      "pair_id": "00041181",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 2,
+      "gradient_percentile": 0.9743589743589743,
+      "feature_percentile": 0.8717948717948718,
+      "hardness_percentile": 0.1794871794871795
+    },
+    {
+      "instance_id": "92000060_short_01",
+      "pair_id": "92000060",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 0.9565217391304348,
+      "feature_percentile": 0.2608695652173913,
+      "hardness_percentile": 0.021739130434782608
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "pair_id": "44000096",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 0.9512195121951219,
+      "feature_percentile": 0.9512195121951219,
+      "hardness_percentile": 0.12195121951219512
+    },
+    {
+      "instance_id": "13000174_short_01",
+      "pair_id": "13000174",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 2,
+      "gradient_percentile": 0.9487179487179487,
+      "feature_percentile": 0.5384615384615384,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "20085185_short_08",
+      "pair_id": "20085185",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 0.9347826086956522,
+      "feature_percentile": 0.5652173913043478,
+      "hardness_percentile": 0.13043478260869565
+    },
+    {
+      "instance_id": "77000081_short_05",
+      "pair_id": "77000081",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 0.926829268292683,
+      "feature_percentile": 0.2926829268292683,
+      "hardness_percentile": 0.0975609756097561
+    },
+    {
+      "instance_id": "20085217_short_01",
+      "pair_id": "20085217",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 2,
+      "gradient_percentile": 0.9230769230769231,
+      "feature_percentile": 0.46153846153846156,
+      "hardness_percentile": 0.3076923076923077
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "pair_id": "20085145",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 0.9130434782608695,
+      "feature_percentile": 0.1956521739130435,
+      "hardness_percentile": 0.21739130434782608
+    },
+    {
+      "instance_id": "92000008_short_01",
+      "pair_id": "92000008",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 0.9024390243902439,
+      "feature_percentile": 0.43902439024390244,
+      "hardness_percentile": 0.024390243902439025
+    },
+    {
+      "instance_id": "92000006_short_05",
+      "pair_id": "92000006",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 2,
+      "gradient_percentile": 0.8974358974358975,
+      "feature_percentile": 0.6410256410256411,
+      "hardness_percentile": 0.15384615384615385
+    },
+    {
+      "instance_id": "20085225_short_04",
+      "pair_id": "20085225",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 0.8913043478260869,
+      "feature_percentile": 0.9130434782608695,
+      "hardness_percentile": 0.1956521739130435
+    },
+    {
+      "instance_id": "20085090_short_01",
+      "pair_id": "20085090",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 0.8780487804878049,
+      "feature_percentile": 0.6097560975609756,
+      "hardness_percentile": 0.6341463414634146
+    },
+    {
+      "instance_id": "13000023_short_03",
+      "pair_id": "13000023",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 2,
+      "gradient_percentile": 0.8717948717948718,
+      "feature_percentile": 0.15384615384615385,
+      "hardness_percentile": 0.46153846153846156
+    },
+    {
+      "instance_id": "77000044_short_01",
+      "pair_id": "77000044",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 0,
+      "gradient_percentile": 0.8695652173913043,
+      "feature_percentile": 0.21739130434782608,
+      "hardness_percentile": 0.2391304347826087
+    },
+    {
+      "instance_id": "77000076_short_01",
+      "pair_id": "77000076",
+      "class_name": "short",
+      "class_id": 1,
+      "fold": 1,
+      "gradient_percentile": 0.8536585365853658,
+      "feature_percentile": 0.2682926829268293,
+      "hardness_percentile": 0.36585365853658536
+    },
+    {
+      "instance_id": "13000079_mousebite_05",
+      "pair_id": "13000079",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 2,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.38461538461538464,
+      "hardness_percentile": 0.2564102564102564
+    },
+    {
+      "instance_id": "13000110_mousebite_01",
+      "pair_id": "13000110",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.6097560975609756,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "20085026_mousebite_02",
+      "pair_id": "20085026",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.782608695652174,
+      "hardness_percentile": 0.30434782608695654
+    },
+    {
+      "instance_id": "20085033_mousebite_03",
+      "pair_id": "20085033",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 0.9782608695652174,
+      "feature_percentile": 0.08695652173913043,
+      "hardness_percentile": 0.13043478260869565
+    },
+    {
+      "instance_id": "50600015_mousebite_02",
+      "pair_id": "50600015",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 0.975609756097561,
+      "feature_percentile": 0.34146341463414637,
+      "hardness_percentile": 0.2926829268292683
+    },
+    {
+      "instance_id": "13000118_mousebite_02",
+      "pair_id": "13000118",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 2,
+      "gradient_percentile": 0.9743589743589743,
+      "feature_percentile": 0.0,
+      "hardness_percentile": 0.1282051282051282
+    },
+    {
+      "instance_id": "00041125_mousebite_02",
+      "pair_id": "00041125",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 0.9565217391304348,
+      "feature_percentile": 0.9565217391304348,
+      "hardness_percentile": 0.06521739130434782
+    },
+    {
+      "instance_id": "20085238_mousebite_04",
+      "pair_id": "20085238",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 0.9512195121951219,
+      "feature_percentile": 0.8292682926829268,
+      "hardness_percentile": 0.4146341463414634
+    },
+    {
+      "instance_id": "50600001_mousebite_05",
+      "pair_id": "50600001",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 2,
+      "gradient_percentile": 0.9487179487179487,
+      "feature_percentile": 0.358974358974359,
+      "hardness_percentile": 0.3076923076923077
+    },
+    {
+      "instance_id": "77000019_mousebite_01",
+      "pair_id": "77000019",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 0.9347826086956522,
+      "feature_percentile": 0.9782608695652174,
+      "hardness_percentile": 0.391304347826087
+    },
+    {
+      "instance_id": "13000019_mousebite_05",
+      "pair_id": "13000019",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 0.926829268292683,
+      "feature_percentile": 0.6829268292682927,
+      "hardness_percentile": 0.07317073170731707
+    },
+    {
+      "instance_id": "44000086_mousebite_04",
+      "pair_id": "44000086",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 2,
+      "gradient_percentile": 0.9230769230769231,
+      "feature_percentile": 0.5384615384615384,
+      "hardness_percentile": 0.4358974358974359
+    },
+    {
+      "instance_id": "20085016_mousebite_03",
+      "pair_id": "20085016",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 0.9130434782608695,
+      "feature_percentile": 0.5434782608695652,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "13000027_mousebite_05",
+      "pair_id": "13000027",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 0.9024390243902439,
+      "feature_percentile": 0.2926829268292683,
+      "hardness_percentile": 0.0975609756097561
+    },
+    {
+      "instance_id": "13000174_mousebite_05",
+      "pair_id": "13000174",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 2,
+      "gradient_percentile": 0.8974358974358975,
+      "feature_percentile": 0.5128205128205128,
+      "hardness_percentile": 0.02564102564102564
+    },
+    {
+      "instance_id": "77000020_mousebite_00",
+      "pair_id": "77000020",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 0.8913043478260869,
+      "feature_percentile": 0.17391304347826086,
+      "hardness_percentile": 0.9782608695652174
+    },
+    {
+      "instance_id": "44000062_mousebite_05",
+      "pair_id": "44000062",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 0.8780487804878049,
+      "feature_percentile": 0.3902439024390244,
+      "hardness_percentile": 0.5365853658536586
+    },
+    {
+      "instance_id": "44000107_mousebite_02",
+      "pair_id": "44000107",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 2,
+      "gradient_percentile": 0.8717948717948718,
+      "feature_percentile": 0.28205128205128205,
+      "hardness_percentile": 0.15384615384615385
+    },
+    {
+      "instance_id": "77000082_mousebite_04",
+      "pair_id": "77000082",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 0,
+      "gradient_percentile": 0.8695652173913043,
+      "feature_percentile": 0.15217391304347827,
+      "hardness_percentile": 0.15217391304347827
+    },
+    {
+      "instance_id": "92000081_mousebite_02",
+      "pair_id": "92000081",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "fold": 1,
+      "gradient_percentile": 0.8536585365853658,
+      "feature_percentile": 0.0,
+      "hardness_percentile": 0.1951219512195122
+    },
+    {
+      "instance_id": "13000079_spur_02",
+      "pair_id": "13000079",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.2926829268292683,
+      "hardness_percentile": 0.0975609756097561
+    },
+    {
+      "instance_id": "13000110_spur_02",
+      "pair_id": "13000110",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 1,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.3170731707317073,
+      "hardness_percentile": 0.4146341463414634
+    },
+    {
+      "instance_id": "20085201_spur_03",
+      "pair_id": "20085201",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.6818181818181818,
+      "hardness_percentile": 0.2727272727272727
+    },
+    {
+      "instance_id": "77000019_spur_04",
+      "pair_id": "77000019",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 0.9772727272727273,
+      "feature_percentile": 0.6136363636363636,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "13000097_spur_03",
+      "pair_id": "13000097",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 1,
+      "gradient_percentile": 0.975609756097561,
+      "feature_percentile": 0.36585365853658536,
+      "hardness_percentile": 0.3902439024390244
+    },
+    {
+      "instance_id": "44000104_spur_04",
+      "pair_id": "44000104",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 0.975609756097561,
+      "feature_percentile": 0.5121951219512195,
+      "hardness_percentile": 0.04878048780487805
+    },
+    {
+      "instance_id": "20085026_spur_03",
+      "pair_id": "20085026",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 0.9545454545454546,
+      "feature_percentile": 0.5909090909090909,
+      "hardness_percentile": 0.4090909090909091
+    },
+    {
+      "instance_id": "13000023_spur_07",
+      "pair_id": "13000023",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 0.9512195121951219,
+      "feature_percentile": 0.5609756097560976,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "13000028_spur_06",
+      "pair_id": "13000028",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 1,
+      "gradient_percentile": 0.9512195121951219,
+      "feature_percentile": 0.8048780487804879,
+      "hardness_percentile": 0.36585365853658536
+    },
+    {
+      "instance_id": "77000044_spur_03",
+      "pair_id": "77000044",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 0.9318181818181818,
+      "feature_percentile": 0.4318181818181818,
+      "hardness_percentile": 0.09090909090909091
+    },
+    {
+      "instance_id": "20085014_spur_03",
+      "pair_id": "20085014",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 0.926829268292683,
+      "feature_percentile": 0.3170731707317073,
+      "hardness_percentile": 0.07317073170731707
+    },
+    {
+      "instance_id": "20085238_spur_05",
+      "pair_id": "20085238",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 1,
+      "gradient_percentile": 0.926829268292683,
+      "feature_percentile": 0.7317073170731707,
+      "hardness_percentile": 0.6585365853658537
+    },
+    {
+      "instance_id": "20085016_spur_04",
+      "pair_id": "20085016",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 0.9090909090909091,
+      "feature_percentile": 0.20454545454545456,
+      "hardness_percentile": 0.11363636363636363
+    },
+    {
+      "instance_id": "00041169_spur_03",
+      "pair_id": "00041169",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 1,
+      "gradient_percentile": 0.9024390243902439,
+      "feature_percentile": 0.43902439024390244,
+      "hardness_percentile": 0.4878048780487805
+    },
+    {
+      "instance_id": "13000174_spur_04",
+      "pair_id": "13000174",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 0.9024390243902439,
+      "feature_percentile": 0.7560975609756098,
+      "hardness_percentile": 0.34146341463414637
+    },
+    {
+      "instance_id": "13000003_spur_05",
+      "pair_id": "13000003",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 0.8863636363636364,
+      "feature_percentile": 0.1590909090909091,
+      "hardness_percentile": 0.29545454545454547
+    },
+    {
+      "instance_id": "13000019_spur_08",
+      "pair_id": "13000019",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 1,
+      "gradient_percentile": 0.8780487804878049,
+      "feature_percentile": 0.8536585365853658,
+      "hardness_percentile": 0.024390243902439025
+    },
+    {
+      "instance_id": "20085020_spur_04",
+      "pair_id": "20085020",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 0.8780487804878049,
+      "feature_percentile": 0.43902439024390244,
+      "hardness_percentile": 0.024390243902439025
+    },
+    {
+      "instance_id": "13000197_spur_03",
+      "pair_id": "13000197",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 0,
+      "gradient_percentile": 0.8636363636363636,
+      "feature_percentile": 0.7727272727272727,
+      "hardness_percentile": 0.9090909090909091
+    },
+    {
+      "instance_id": "13000031_spur_04",
+      "pair_id": "13000031",
+      "class_name": "spur",
+      "class_id": 3,
+      "fold": 2,
+      "gradient_percentile": 0.8536585365853658,
+      "feature_percentile": 0.8780487804878049,
+      "hardness_percentile": 0.2682926829268293
+    },
+    {
+      "instance_id": "00041046_spurious_copper_04",
+      "pair_id": "00041046",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.34146341463414637,
+      "hardness_percentile": 0.07317073170731707
+    },
+    {
+      "instance_id": "13000025_spurious_copper_08",
+      "pair_id": "13000025",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.5111111111111111,
+      "hardness_percentile": 0.7777777777777778
+    },
+    {
+      "instance_id": "44000107_spurious_copper_04",
+      "pair_id": "44000107",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 2,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.5,
+      "hardness_percentile": 0.025
+    },
+    {
+      "instance_id": "00041180_spurious_copper_04",
+      "pair_id": "00041180",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 0.9777777777777777,
+      "feature_percentile": 0.8888888888888888,
+      "hardness_percentile": 0.15555555555555556
+    },
+    {
+      "instance_id": "44000096_spurious_copper_04",
+      "pair_id": "44000096",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 0.975609756097561,
+      "feature_percentile": 0.7317073170731707,
+      "hardness_percentile": 0.024390243902439025
+    },
+    {
+      "instance_id": "77000008_spurious_copper_03",
+      "pair_id": "77000008",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 2,
+      "gradient_percentile": 0.975,
+      "feature_percentile": 0.175,
+      "hardness_percentile": 0.275
+    },
+    {
+      "instance_id": "77000020_spurious_copper_01",
+      "pair_id": "77000020",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 0.9555555555555556,
+      "feature_percentile": 0.5777777777777777,
+      "hardness_percentile": 0.17777777777777778
+    },
+    {
+      "instance_id": "77000076_spurious_copper_04",
+      "pair_id": "77000076",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 0.9512195121951219,
+      "feature_percentile": 0.14634146341463414,
+      "hardness_percentile": 0.12195121951219512
+    },
+    {
+      "instance_id": "13000017_spurious_copper_08",
+      "pair_id": "13000017",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 2,
+      "gradient_percentile": 0.95,
+      "feature_percentile": 0.7,
+      "hardness_percentile": 0.175
+    },
+    {
+      "instance_id": "13000003_spurious_copper_04",
+      "pair_id": "13000003",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 0.9333333333333333,
+      "feature_percentile": 0.3333333333333333,
+      "hardness_percentile": 0.4888888888888889
+    },
+    {
+      "instance_id": "00041043_spurious_copper_04",
+      "pair_id": "00041043",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 0.926829268292683,
+      "feature_percentile": 0.3170731707317073,
+      "hardness_percentile": 0.21951219512195122
+    },
+    {
+      "instance_id": "20085014_spurious_copper_04",
+      "pair_id": "20085014",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 2,
+      "gradient_percentile": 0.925,
+      "feature_percentile": 0.9,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "00041047_spurious_copper_05",
+      "pair_id": "00041047",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 0.9111111111111111,
+      "feature_percentile": 0.6888888888888889,
+      "hardness_percentile": 0.2222222222222222
+    },
+    {
+      "instance_id": "13000019_spurious_copper_10",
+      "pair_id": "13000019",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 0.9024390243902439,
+      "feature_percentile": 0.8780487804878049,
+      "hardness_percentile": 0.5121951219512195
+    },
+    {
+      "instance_id": "44000104_spurious_copper_03",
+      "pair_id": "44000104",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 2,
+      "gradient_percentile": 0.9,
+      "feature_percentile": 0.05,
+      "hardness_percentile": 0.2
+    },
+    {
+      "instance_id": "50600032_spurious_copper_03",
+      "pair_id": "50600032",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 0.8888888888888888,
+      "feature_percentile": 0.6444444444444445,
+      "hardness_percentile": 0.13333333333333333
+    },
+    {
+      "instance_id": "00041079_spurious_copper_05",
+      "pair_id": "00041079",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 0.8780487804878049,
+      "feature_percentile": 0.21951219512195122,
+      "hardness_percentile": 0.4146341463414634
+    },
+    {
+      "instance_id": "20085201_spurious_copper_05",
+      "pair_id": "20085201",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 0,
+      "gradient_percentile": 0.8666666666666667,
+      "feature_percentile": 0.06666666666666667,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "13000030_spurious_copper_06",
+      "pair_id": "13000030",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 1,
+      "gradient_percentile": 0.8536585365853658,
+      "feature_percentile": 0.1951219512195122,
+      "hardness_percentile": 0.7073170731707317
+    },
+    {
+      "instance_id": "20085203_spurious_copper_04",
+      "pair_id": "20085203",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "fold": 2,
+      "gradient_percentile": 0.85,
+      "feature_percentile": 0.75,
+      "hardness_percentile": 0.225
+    },
+    {
+      "instance_id": "00041085_pinhole_04",
+      "pair_id": "00041085",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.5,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "13000079_pinhole_04",
+      "pair_id": "13000079",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.38636363636363635,
+      "hardness_percentile": 0.13636363636363635
+    },
+    {
+      "instance_id": "20085238_pinhole_08",
+      "pair_id": "20085238",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 1,
+      "gradient_percentile": 1.0,
+      "feature_percentile": 0.1,
+      "hardness_percentile": 0.375
+    },
+    {
+      "instance_id": "13000024_pinhole_08",
+      "pair_id": "13000024",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 0.9772727272727273,
+      "feature_percentile": 0.20454545454545456,
+      "hardness_percentile": 0.09090909090909091
+    },
+    {
+      "instance_id": "77000019_pinhole_02",
+      "pair_id": "77000019",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 0.9761904761904762,
+      "feature_percentile": 0.2857142857142857,
+      "hardness_percentile": 0.047619047619047616
+    },
+    {
+      "instance_id": "13000019_pinhole_11",
+      "pair_id": "13000019",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 1,
+      "gradient_percentile": 0.975,
+      "feature_percentile": 0.75,
+      "hardness_percentile": 0.525
+    },
+    {
+      "instance_id": "44000086_pinhole_06",
+      "pair_id": "44000086",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 0.9545454545454546,
+      "feature_percentile": 0.8409090909090909,
+      "hardness_percentile": 0.022727272727272728
+    },
+    {
+      "instance_id": "77000020_pinhole_02",
+      "pair_id": "77000020",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 0.9523809523809523,
+      "feature_percentile": 0.11904761904761904,
+      "hardness_percentile": 0.30952380952380953
+    },
+    {
+      "instance_id": "13000110_pinhole_05",
+      "pair_id": "13000110",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 1,
+      "gradient_percentile": 0.95,
+      "feature_percentile": 0.55,
+      "hardness_percentile": 0.025
+    },
+    {
+      "instance_id": "44000107_pinhole_05",
+      "pair_id": "44000107",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 0.9318181818181818,
+      "feature_percentile": 0.6590909090909091,
+      "hardness_percentile": 0.25
+    },
+    {
+      "instance_id": "20085185_pinhole_09",
+      "pair_id": "20085185",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 0.9285714285714286,
+      "feature_percentile": 0.4523809523809524,
+      "hardness_percentile": 0.6428571428571429
+    },
+    {
+      "instance_id": "77000083_pinhole_03",
+      "pair_id": "77000083",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 1,
+      "gradient_percentile": 0.925,
+      "feature_percentile": 0.15,
+      "hardness_percentile": 0.05
+    },
+    {
+      "instance_id": "77000008_pinhole_04",
+      "pair_id": "77000008",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 0.9090909090909091,
+      "feature_percentile": 0.6363636363636364,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "00041125_pinhole_04",
+      "pair_id": "00041125",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 0.9047619047619048,
+      "feature_percentile": 0.7380952380952381,
+      "hardness_percentile": 0.11904761904761904
+    },
+    {
+      "instance_id": "00041150_pinhole_04",
+      "pair_id": "00041150",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 1,
+      "gradient_percentile": 0.9,
+      "feature_percentile": 0.675,
+      "hardness_percentile": 0.0
+    },
+    {
+      "instance_id": "13000031_pinhole_07",
+      "pair_id": "13000031",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 0.8863636363636364,
+      "feature_percentile": 0.9318181818181818,
+      "hardness_percentile": 0.2727272727272727
+    },
+    {
+      "instance_id": "20085155_pinhole_05",
+      "pair_id": "20085155",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 0.8809523809523809,
+      "feature_percentile": 0.8809523809523809,
+      "hardness_percentile": 0.5952380952380952
+    },
+    {
+      "instance_id": "20085217_pinhole_05",
+      "pair_id": "20085217",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 2,
+      "gradient_percentile": 0.8636363636363636,
+      "feature_percentile": 0.9090909090909091,
+      "hardness_percentile": 0.7045454545454546
+    },
+    {
+      "instance_id": "92000044_pinhole_03",
+      "pair_id": "92000044",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 0,
+      "gradient_percentile": 0.8571428571428571,
+      "feature_percentile": 0.23809523809523808,
+      "hardness_percentile": 0.21428571428571427
+    },
+    {
+      "instance_id": "13000030_pinhole_09",
+      "pair_id": "13000030",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "fold": 1,
+      "gradient_percentile": 0.85,
+      "feature_percentile": 0.9,
+      "hardness_percentile": 0.7
+    }
+  ]
+}

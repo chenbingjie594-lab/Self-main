@@ -1,0 +1,150 @@
+{
+  "status": "EQUAL_SCHEDULE_PASS_WITH_SUCCESSFUL_UPDATE_VARIATION",
+  "arms": {
+    "uniform": {
+      "epochs": 150,
+      "total_draws": 57000,
+      "base_draws": 39000,
+      "extra_draws": 18000,
+      "total_batches": 7200,
+      "optimizer_steps": 917,
+      "sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+      "last_sha256": "1aaa8fca9ae9d981a6cf699159005db8bd8054a8ce70a34fd3b1f6f7d8e1fa01",
+      "best_sha256": "cb00bdfcd68687dbe91cbd16438cb099bacc0b6bccbe9bf13928ddd3fa17cebc"
+    },
+    "feature": {
+      "epochs": 150,
+      "total_draws": 57000,
+      "base_draws": 39000,
+      "extra_draws": 18000,
+      "total_batches": 7200,
+      "optimizer_steps": 915,
+      "sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+      "last_sha256": "c209310801f8772262451cf869b46ebf52af86437bd6db954f84441fd3cfbe6e",
+      "best_sha256": "d0c396444c266fdbceade59c5a82221ea324e6093840454ec274e4ea3369ebc1"
+    },
+    "hardness": {
+      "epochs": 150,
+      "total_draws": 57000,
+      "base_draws": 39000,
+      "extra_draws": 18000,
+      "total_batches": 7200,
+      "optimizer_steps": 916,
+      "sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+      "last_sha256": "c7d42073e5c822172a58e60c52b059e41d7218bffd5d2e7aa2c7707a09a8bd3d",
+      "best_sha256": "cbe991b59b9093083c9510092489407f817e6718522a186367df721dac8517d8"
+    },
+    "gradient": {
+      "epochs": 150,
+      "total_draws": 57000,
+      "base_draws": 39000,
+      "extra_draws": 18000,
+      "total_batches": 7200,
+      "optimizer_steps": 916,
+      "sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+      "last_sha256": "f90590679662b7345e68d69b89f1d9bf0927cc00370a7a16ce1962dbb8e3b704",
+      "best_sha256": "ff9b3bfd9a6071adfbdc038f880306534d407d7bfe097da622fe877a6b5a3b0b"
+    }
+  },
+  "equal": {
+    "epochs": true,
+    "total_draws": true,
+    "base_draws": true,
+    "extra_draws": true,
+    "total_batches": true,
+    "sequence_hashes_sha256": true,
+    "training_arguments": true,
+    "successful_optimizer_steps": false
+  },
+  "training_arguments": {
+    "uniform": {
+      "model": "pretrained/yolo11s.pt",
+      "imgsz": 512,
+      "epochs": 150,
+      "patience": 151,
+      "batch": 8,
+      "seed": 42,
+      "deterministic": true,
+      "optimizer": "auto",
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "cutmix": 0.0,
+      "val": false
+    },
+    "feature": {
+      "model": "pretrained/yolo11s.pt",
+      "imgsz": 512,
+      "epochs": 150,
+      "patience": 151,
+      "batch": 8,
+      "seed": 42,
+      "deterministic": true,
+      "optimizer": "auto",
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "cutmix": 0.0,
+      "val": false
+    },
+    "hardness": {
+      "model": "pretrained/yolo11s.pt",
+      "imgsz": 512,
+      "epochs": 150,
+      "patience": 151,
+      "batch": 8,
+      "seed": 42,
+      "deterministic": true,
+      "optimizer": "auto",
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "cutmix": 0.0,
+      "val": false
+    },
+    "gradient": {
+      "model": "pretrained/yolo11s.pt",
+      "imgsz": 512,
+      "epochs": 150,
+      "patience": 151,
+      "batch": 8,
+      "seed": 42,
+      "deterministic": true,
+      "optimizer": "auto",
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "cutmix": 0.0,
+      "val": false
+    }
+  },
+  "frozen_expected_arguments": {
+    "imgsz": 512,
+    "epochs": 150,
+    "patience": 151,
+    "batch": 8,
+    "seed": 42,
+    "deterministic": true,
+    "optimizer": "auto",
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "cutmix": 0.0,
+    "val": false
+  },
+  "pretrained_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "imgsz": 512,
+  "detector_seed": 42,
+  "protocol_required_equal_fields": [
+    "epochs",
+    "total_draws",
+    "base_draws",
+    "extra_draws",
+    "total_batches",
+    "sequence_hashes_sha256",
+    "training_arguments"
+  ],
+  "successful_optimizer_step_range": 2,
+  "successful_optimizer_steps_are_reported_but_not_a_frozen_equal_schedule_gate": true,
+  "finalization_note": "The original runner incorrectly treated data-dependent successful optimizer.step count as a frozen optimizer-schedule field. No checkpoint, metric, selection, exposure sequence, or gate threshold was changed."
+}
