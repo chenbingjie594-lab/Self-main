@@ -1,0 +1,111 @@
+{
+  "status": "GRADIENT_GEOMETRY_NONREDUNDANT_WITH_FEATURES",
+  "radius_percentile_spearman": 0.006519073172233282,
+  "mean_jaccard_at5": 0.09383512544802866,
+  "mean_jaccard_at10": 0.17143675249038282,
+  "pairwise_distance": {
+    "per_fold_class": {
+      "fold0:open": {
+        "spearman": 0.13269777879111516,
+        "pearson": 0.1429884292488024,
+        "n": 500
+      },
+      "fold0:short": {
+        "spearman": 0.036066768267073064,
+        "pearson": -0.03303744749045895,
+        "n": 500
+      },
+      "fold0:mousebite": {
+        "spearman": 0.0709804759219037,
+        "pearson": 0.09250580539737768,
+        "n": 500
+      },
+      "fold0:spur": {
+        "spearman": 0.13249934599738397,
+        "pearson": 0.057632921310872616,
+        "n": 500
+      },
+      "fold0:spurious_copper": {
+        "spearman": 0.08687929151716607,
+        "pearson": 0.11046790960366461,
+        "n": 500
+      },
+      "fold0:pinhole": {
+        "spearman": -0.01690758763035052,
+        "pearson": -0.025780354366026083,
+        "n": 500
+      },
+      "fold1:open": {
+        "spearman": 0.02336130944523778,
+        "pearson": 0.014554036323272963,
+        "n": 500
+      },
+      "fold1:short": {
+        "spearman": 0.2512857091428366,
+        "pearson": 0.29806744244760286,
+        "n": 500
+      },
+      "fold1:mousebite": {
+        "spearman": -0.12625490501962008,
+        "pearson": -0.0925667943147802,
+        "n": 500
+      },
+      "fold1:spur": {
+        "spearman": -0.01538185352741411,
+        "pearson": -0.022792757691679565,
+        "n": 500
+      },
+      "fold1:spurious_copper": {
+        "spearman": 0.012953427813711255,
+        "pearson": -0.029483154084501695,
+        "n": 500
+      },
+      "fold1:pinhole": {
+        "spearman": 0.03140662162648651,
+        "pearson": 0.030693896963050415,
+        "n": 500
+      },
+      "fold2:open": {
+        "spearman": 0.26681511526046103,
+        "pearson": 0.2808051226035262,
+        "n": 500
+      },
+      "fold2:short": {
+        "spearman": 0.13269547478189914,
+        "pearson": 0.11182497763052038,
+        "n": 500
+      },
+      "fold2:mousebite": {
+        "spearman": -0.035893103572414285,
+        "pearson": -0.0413669921304331,
+        "n": 500
+      },
+      "fold2:spur": {
+        "spearman": -0.035517934071736285,
+        "pearson": 0.028926106850414975,
+        "n": 500
+      },
+      "fold2:spurious_copper": {
+        "spearman": 0.1336753507014028,
+        "pearson": 0.0713946258377423,
+        "n": 500
+      },
+      "fold2:pinhole": {
+        "spearman": -0.04437272149088596,
+        "pearson": -0.06238144727261219,
+        "n": 500
+      }
+    },
+    "cross_fold_summary": {
+      "median_group_spearman": 0.03373669494677979,
+      "median_group_pearson": 0.029810001906732695
+    },
+    "seed": 2026,
+    "max_pairs_per_group": 500
+  },
+  "gate": {
+    "absolute_radius_spearman_max": 0.7,
+    "mean_jaccard_at5_max": 0.6
+  },
+  "cross_fold_raw_gradient_distance_used": false
+}

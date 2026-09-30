@@ -1,0 +1,17 @@
+{
+  "status": "REAL_GRADIENT_COVERAGE_STRUCTURE_SUPPORTED",
+  "gates": {
+    "A_projection": true,
+    "B_heterogeneity": true,
+    "C_k_robustness": true,
+    "D_nonredundancy": true,
+    "E_not_hardness": true
+  },
+  "STAGE11B_ALLOCATION_CALIBRATION_AUTHORIZED": true,
+  "real_only_calibration": true,
+  "synthetic_inputs_used": 0,
+  "generator_training_count": 0,
+  "detector_training_count": 0,
+  "optimizer_step_count": 0,
+  "official_validation_use_count": 0
+}

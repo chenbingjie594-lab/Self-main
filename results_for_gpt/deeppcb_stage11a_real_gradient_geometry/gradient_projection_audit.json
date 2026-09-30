@@ -1,0 +1,16 @@
+{
+  "status": "GRADIENT_PROJECTION_PASS",
+  "output_dim": 1024,
+  "seed": 2026,
+  "raw_instance_count": 72,
+  "feasible_pair_count": 106,
+  "spearman_rho": 0.997722749829962,
+  "pearson": 0.9983797879649087,
+  "mae": 0.011947298387311539,
+  "q95_absolute_error": 0.029814407229423523,
+  "max_error": 0.04382556676864624,
+  "gate": {
+    "spearman_min": 0.95,
+    "mae_max": 0.05
+  }
+}

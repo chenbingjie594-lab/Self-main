@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN",
+  "context_scale": 4,
+  "minimum_crop": 64,
+  "crop": "square centered on target bbox",
+  "resize": 512,
+  "training_target": "one target bbox and one target class",
+  "dynamic_context": false,
+  "synthetic_generation": false
+}

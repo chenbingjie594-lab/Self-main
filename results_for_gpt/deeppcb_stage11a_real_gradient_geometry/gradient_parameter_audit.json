@@ -1,0 +1,373 @@
+{
+  "selected_scope": "Detect cv2/cv3 final Conv2d weights and biases only",
+  "folds": {
+    "0": [
+      {
+        "name": "model.23.cv2.0.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.0.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.1.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.1.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.2.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.2.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv3.0.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.0.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.1.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.1.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.2.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.2.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      }
+    ],
+    "1": [
+      {
+        "name": "model.23.cv2.0.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.0.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.1.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.1.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.2.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.2.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv3.0.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.0.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.1.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.1.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.2.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.2.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      }
+    ],
+    "2": [
+      {
+        "name": "model.23.cv2.0.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.0.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.1.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.1.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.2.2.weight",
+        "shape": [
+          64,
+          64,
+          1,
+          1
+        ],
+        "numel": 4096,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv2.2.2.bias",
+        "shape": [
+          64
+        ],
+        "numel": 64,
+        "branch": "box"
+      },
+      {
+        "name": "model.23.cv3.0.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.0.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.1.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.1.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.2.2.weight",
+        "shape": [
+          6,
+          128,
+          1,
+          1
+        ],
+        "numel": 768,
+        "branch": "classification"
+      },
+      {
+        "name": "model.23.cv3.2.2.bias",
+        "shape": [
+          6
+        ],
+        "numel": 6,
+        "branch": "classification"
+      }
+    ]
+  },
+  "loss_hyperparameters": {
+    "0": {
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5
+    },
+    "1": {
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5
+    },
+    "2": {
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5
+    }
+  },
+  "loss_config_normalization": "DEFAULT_CFG_DICT merged with checkpoint args and converted to IterableSimpleNamespace",
+  "total_selected_dimensions": 14802,
+  "parameter_name_and_shape_match_across_folds": true
+}

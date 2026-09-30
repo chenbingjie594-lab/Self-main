@@ -1,0 +1,14 @@
+{
+  "status": "GRADIENT_COVERAGE_NOT_TRIVIALLY_HARDNESS",
+  "spearman": {
+    "total_loss": -0.5229082365052008,
+    "cls_loss": -0.5443869727426734,
+    "box_loss": -0.07188457744913453,
+    "dfl_loss": -0.04745217596915585,
+    "raw_gradient_l2_norm": -0.6160409719309131
+  },
+  "top20_count_each": 155,
+  "top20_selection": "exact descending rank with deterministic index tie break",
+  "top20_jaccard_gradient_undercoverage_vs_total_loss": 0.013071895424836602,
+  "gate_absolute_total_loss_rho_max": 0.8
+}
