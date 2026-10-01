@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checks": {
+    "pretrained_sha": true,
+    "imgsz": true,
+    "optimizer": true,
+    "seed": true,
+    "epochs": true,
+    "batch": true,
+    "augmentations": true,
+    "base_schedule_hash": true
+  },
+  "current": {
+    "pretrained_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "ultralytics_version": "8.4.145",
+    "torch_version": "2.5.1+cu124",
+    "cuda_major": "12",
+    "imgsz": 512,
+    "optimizer": "auto",
+    "seed": 42,
+    "epochs": 150,
+    "batch": 8,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "cutmix": 0.0,
+    "val": false,
+    "base_sequence_hash": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa"
+  },
+  "historical_training_arguments": {
+    "model": "pretrained/yolo11s.pt",
+    "imgsz": 512,
+    "epochs": 150,
+    "patience": 151,
+    "batch": 8,
+    "seed": 42,
+    "deterministic": true,
+    "optimizer": "auto",
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "cutmix": 0.0,
+    "val": false
+  },
+  "historical_versions_not_recorded": {
+    "ultralytics": true,
+    "torch": true,
+    "cuda_major": true
+  },
+  "policy": "unrecorded historical versions are reported, never fabricated"
+}

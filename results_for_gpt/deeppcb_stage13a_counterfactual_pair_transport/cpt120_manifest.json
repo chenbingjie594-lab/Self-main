@@ -1,0 +1,3966 @@
+{
+  "status": "FROZEN",
+  "count": 120,
+  "records": [
+    {
+      "donor_instance_id": "00041039_mousebite_02",
+      "donor_pair_id": "00041039",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "00041043",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041043_02_mousebite.jpg",
+      "recipient_x": 320,
+      "recipient_y": 196,
+      "donor_bbox": [
+        318,
+        303,
+        347,
+        331
+      ],
+      "transported_bbox": [
+        320,
+        196,
+        349,
+        224
+      ],
+      "structural_edge_ncc": 0.7400863766670227,
+      "pixel_ncc": 0.8892074823379517,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041039_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041039_mousebite_02.txt",
+      "image_sha256": "ed18de491724a0b2b53cfd40b7777070716a8da72cd545c4d68bb860c68edcd4",
+      "label_sha256": "72e6c9cf77b77d45cdaa131f7c4624570392f69eb3b010d5fd662c1c8f32e17a"
+    },
+    {
+      "donor_instance_id": "00041047_mousebite_06",
+      "donor_pair_id": "00041047",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "00041150",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041150_02_mousebite.jpg",
+      "recipient_x": 88,
+      "recipient_y": 60,
+      "donor_bbox": [
+        33,
+        216,
+        73,
+        242
+      ],
+      "transported_bbox": [
+        88,
+        60,
+        128,
+        86
+      ],
+      "structural_edge_ncc": 0.44272667169570923,
+      "pixel_ncc": 0.20259982347488403,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041047_mousebite_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041047_mousebite_06.txt",
+      "image_sha256": "35a3f6327fa7959de525403cab460f4ee02d76b7ef87b0a8c3005c89b6e23b83",
+      "label_sha256": "8773a2150f7e4adf1a63c12e9dad13f9dbcea017c97168deb51ea47429133f9c"
+    },
+    {
+      "donor_instance_id": "00041181_mousebite_04",
+      "donor_pair_id": "00041181",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "00041089",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041089_02_mousebite.jpg",
+      "recipient_x": 456,
+      "recipient_y": 236,
+      "donor_bbox": [
+        124,
+        238,
+        154,
+        274
+      ],
+      "transported_bbox": [
+        456,
+        236,
+        486,
+        272
+      ],
+      "structural_edge_ncc": 0.5888108611106873,
+      "pixel_ncc": -0.7923429608345032,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041181_mousebite_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041181_mousebite_04.txt",
+      "image_sha256": "6011fba81243fa16928eac363290a10c7dda6fe770db0be86bd0f0a3cb454bcc",
+      "label_sha256": "d357f138abd3e15a478e038747f1da18139793b7157479d7d90ffee5b3d5b295"
+    },
+    {
+      "donor_instance_id": "13000019_mousebite_06",
+      "donor_pair_id": "13000019",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "00041169",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041169_02_mousebite.jpg",
+      "recipient_x": 452,
+      "recipient_y": 352,
+      "donor_bbox": [
+        209,
+        452,
+        243,
+        480
+      ],
+      "transported_bbox": [
+        452,
+        352,
+        486,
+        380
+      ],
+      "structural_edge_ncc": 0.6014116406440735,
+      "pixel_ncc": 0.8762074112892151,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000019_mousebite_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000019_mousebite_06.txt",
+      "image_sha256": "b2240b4340ba557585630bb1ca36b6f8ed6df10b80a5a7fca4072f9bd61fbbbe",
+      "label_sha256": "6650efd51eeb5611bd83e343ebdefd7810bec7ddc46a03b93660fd19c698c8e5"
+    },
+    {
+      "donor_instance_id": "13000030_mousebite_04",
+      "donor_pair_id": "13000030",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "50600032",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600032_05_mousebite.jpg",
+      "recipient_x": 100,
+      "recipient_y": 68,
+      "donor_bbox": [
+        238,
+        441,
+        279,
+        477
+      ],
+      "transported_bbox": [
+        100,
+        68,
+        141,
+        104
+      ],
+      "structural_edge_ncc": 0.8653913736343384,
+      "pixel_ncc": -0.965509831905365,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000030_mousebite_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000030_mousebite_04.txt",
+      "image_sha256": "f52d80a03f41c9f53ee86afe1d3331c1e3dc6c49ab74fc8856513e5f127c19ec",
+      "label_sha256": "bb6b506979272ef8b165ab4fea1722f328f1b9fe53af2866c5081af9be343e2f"
+    },
+    {
+      "donor_instance_id": "13000079_mousebite_05",
+      "donor_pair_id": "13000079",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "00041150",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041150_02_mousebite.jpg",
+      "recipient_x": 380,
+      "recipient_y": 72,
+      "donor_bbox": [
+        138,
+        195,
+        171,
+        230
+      ],
+      "transported_bbox": [
+        380,
+        72,
+        413,
+        107
+      ],
+      "structural_edge_ncc": 0.9544631242752075,
+      "pixel_ncc": 0.9945579767227173,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000079_mousebite_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000079_mousebite_05.txt",
+      "image_sha256": "36ba74e8efb3636fb900f390a5a9144249e69a915be927e6d896791c89a1adc8",
+      "label_sha256": "b8e50ca71429407f1429541ce77a59e9391f343ee7c6dae26a861c5a4509d7b1"
+    },
+    {
+      "donor_instance_id": "13000102_mousebite_03",
+      "donor_pair_id": "13000102",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "13000027",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000027_04_mousebite.jpg",
+      "recipient_x": 112,
+      "recipient_y": 104,
+      "donor_bbox": [
+        218,
+        242,
+        252,
+        271
+      ],
+      "transported_bbox": [
+        112,
+        104,
+        146,
+        133
+      ],
+      "structural_edge_ncc": 0.4604370594024658,
+      "pixel_ncc": 0.5793048143386841,
+      "photometric_scale_rgb": [
+        1.0039370078531062,
+        1.0039370078531062,
+        1.0039370078531062
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000102_mousebite_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000102_mousebite_03.txt",
+      "image_sha256": "bc89b8aedfa2786132d27075b50f12bed9e0b88ac54281903b0c9a136dc77fcd",
+      "label_sha256": "036563957b0baecbecc2a5b10b9fb2ecc50e4415e377699ee84c8ef66f2ff1f6"
+    },
+    {
+      "donor_instance_id": "20085051_mousebite_02",
+      "donor_pair_id": "20085051",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "44000110",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000110_03_mousebite.jpg",
+      "recipient_x": 52,
+      "recipient_y": 52,
+      "donor_bbox": [
+        0,
+        166,
+        33,
+        192
+      ],
+      "transported_bbox": [
+        52,
+        52,
+        85,
+        78
+      ],
+      "structural_edge_ncc": 0.6275461316108704,
+      "pixel_ncc": 0.7551983594894409,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085051_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085051_mousebite_02.txt",
+      "image_sha256": "76666cf7e9eced2f21829c59b36a3fdce9eebed29b4035d661db140ec431a27e",
+      "label_sha256": "432aa3a34dab3fdd1030e87e11f5bec7044d92583b1ed9d7216b4948fd0864cd"
+    },
+    {
+      "donor_instance_id": "20085103_mousebite_08",
+      "donor_pair_id": "20085103",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "20085145",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085145_02_mousebite.jpg",
+      "recipient_x": 252,
+      "recipient_y": 468,
+      "donor_bbox": [
+        241,
+        85,
+        272,
+        111
+      ],
+      "transported_bbox": [
+        252,
+        468,
+        283,
+        494
+      ],
+      "structural_edge_ncc": 0.43310391902923584,
+      "pixel_ncc": 0.2937905490398407,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085103_mousebite_08.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085103_mousebite_08.txt",
+      "image_sha256": "c49a9108545212c300691da65b50d7ac4137829c1b5a92798c3c420d8a1ed982",
+      "label_sha256": "0d3d104645eba0ffdb548e9ccc3539500b06d331f1fd61b6a639df22500faadb"
+    },
+    {
+      "donor_instance_id": "20085145_mousebite_03",
+      "donor_pair_id": "20085145",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "44000096",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000096_02_mousebite.jpg",
+      "recipient_x": 476,
+      "recipient_y": 420,
+      "donor_bbox": [
+        25,
+        242,
+        57,
+        271
+      ],
+      "transported_bbox": [
+        476,
+        420,
+        508,
+        449
+      ],
+      "structural_edge_ncc": 0.6340301036834717,
+      "pixel_ncc": -0.8747832775115967,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085145_mousebite_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085145_mousebite_03.txt",
+      "image_sha256": "65876334f127c38ce1138a941e55f2a55ac83f7b0d9da002180314256f7ccc3c",
+      "label_sha256": "79a7ae955ffec6c7e3d3c0ed726ace605bcb99593e6208e15e1afdd0352dbc99"
+    },
+    {
+      "donor_instance_id": "20085185_mousebite_07",
+      "donor_pair_id": "20085185",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "44000092",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000092_04_mousebite.jpg",
+      "recipient_x": 144,
+      "recipient_y": 164,
+      "donor_bbox": [
+        293,
+        244,
+        320,
+        269
+      ],
+      "transported_bbox": [
+        144,
+        164,
+        171,
+        189
+      ],
+      "structural_edge_ncc": 0.8305273056030273,
+      "pixel_ncc": 0.9295492768287659,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085185_mousebite_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085185_mousebite_07.txt",
+      "image_sha256": "9baba3f8bdc7847d8b10f607448f3e030ebc93dba87276f033dc5520a7ce1656",
+      "label_sha256": "250a355ffe96d675d9aaa643b09be284d240f2caa22afa4612453a967d280c68"
+    },
+    {
+      "donor_instance_id": "20085201_mousebite_02",
+      "donor_pair_id": "20085201",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "20085155",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085155_02_mousebite.jpg",
+      "recipient_x": 188,
+      "recipient_y": 32,
+      "donor_bbox": [
+        242,
+        411,
+        270,
+        437
+      ],
+      "transported_bbox": [
+        188,
+        32,
+        216,
+        58
+      ],
+      "structural_edge_ncc": 0.4673003852367401,
+      "pixel_ncc": 0.5960708260536194,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085201_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085201_mousebite_02.txt",
+      "image_sha256": "d276550c779fc3ded01b64ccebe6525cb5ee08705927b07f9ff426fa78af704c",
+      "label_sha256": "7575b9649da9f021f6cd16cf95bb2032631a7cb3f430489e323183d2f420e915"
+    },
+    {
+      "donor_instance_id": "20085217_mousebite_02",
+      "donor_pair_id": "20085217",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "44000062",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000062_05_mousebite.jpg",
+      "recipient_x": 360,
+      "recipient_y": 276,
+      "donor_bbox": [
+        242,
+        124,
+        270,
+        161
+      ],
+      "transported_bbox": [
+        360,
+        276,
+        388,
+        313
+      ],
+      "structural_edge_ncc": 0.8805250525474548,
+      "pixel_ncc": 0.9824808239936829,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085217_mousebite_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085217_mousebite_02.txt",
+      "image_sha256": "cdd97588264d5a6fb6aea38d77ab6dfe9e2f3eef4836e46ea64395abd6b1a368",
+      "label_sha256": "8e305d2b5d82bc1feb0b72e4ab3eb42a65fa9ba067d8d13d333f8a6227c0437b"
+    },
+    {
+      "donor_instance_id": "20085225_mousebite_06",
+      "donor_pair_id": "20085225",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "20085201",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085201_02_mousebite.jpg",
+      "recipient_x": 212,
+      "recipient_y": 480,
+      "donor_bbox": [
+        156,
+        180,
+        189,
+        209
+      ],
+      "transported_bbox": [
+        212,
+        480,
+        245,
+        509
+      ],
+      "structural_edge_ncc": 0.4550114870071411,
+      "pixel_ncc": 0.38573336601257324,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085225_mousebite_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085225_mousebite_06.txt",
+      "image_sha256": "f759c75721521b3332acaf6a03a23f915e259f15df8f7c1d1affbd60eb83f19f",
+      "label_sha256": "4fd61288724d22feb76b014c460d66a2dd982ccc58dc78e1a66b76b6bf107e57"
+    },
+    {
+      "donor_instance_id": "44000086_mousebite_04",
+      "donor_pair_id": "44000086",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "44000110",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000110_03_mousebite.jpg",
+      "recipient_x": 452,
+      "recipient_y": 400,
+      "donor_bbox": [
+        126,
+        0,
+        161,
+        46
+      ],
+      "transported_bbox": [
+        452,
+        400,
+        487,
+        446
+      ],
+      "structural_edge_ncc": 0.6347204446792603,
+      "pixel_ncc": 0.8441236615180969,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000086_mousebite_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000086_mousebite_04.txt",
+      "image_sha256": "ae5d8683a6f073566cb3931cfe0d84b11431b84fa2439d3f912b613d69c4d42c",
+      "label_sha256": "e2eacb36cb47c9278c06cfa40b62cb570e0e8de77bc03d9391bf41f94a290700"
+    },
+    {
+      "donor_instance_id": "44000110_mousebite_03",
+      "donor_pair_id": "44000110",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "44000062",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000062_05_mousebite.jpg",
+      "recipient_x": 380,
+      "recipient_y": 104,
+      "donor_bbox": [
+        234,
+        241,
+        262,
+        283
+      ],
+      "transported_bbox": [
+        380,
+        104,
+        408,
+        146
+      ],
+      "structural_edge_ncc": 0.740213930606842,
+      "pixel_ncc": 0.9459465146064758,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000110_mousebite_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000110_mousebite_03.txt",
+      "image_sha256": "129862dc6eb147b7c2787e3e0a8300b862117e48fa6fd94dacd1b7661cbbc1dd",
+      "label_sha256": "957d16b1c419d04b3597e200c49a06ef60469948e4688c089c90fd396cda18d1"
+    },
+    {
+      "donor_instance_id": "50600032_mousebite_05",
+      "donor_pair_id": "50600032",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "13000097",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000097_02_mousebite.jpg",
+      "recipient_x": 36,
+      "recipient_y": 344,
+      "donor_bbox": [
+        143,
+        349,
+        198,
+        378
+      ],
+      "transported_bbox": [
+        36,
+        344,
+        91,
+        373
+      ],
+      "structural_edge_ncc": 0.5904369354248047,
+      "pixel_ncc": -0.5577956438064575,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600032_mousebite_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600032_mousebite_05.txt",
+      "image_sha256": "f0a9c80da5c8c108f91276dacedab9a8bb1f05a75c6f15e5bf4b2b288d532df0",
+      "label_sha256": "4b92edb2126af8b82108ba2cbbc934d1bad38bfb7d7cf0f32e42c0963c3121d5"
+    },
+    {
+      "donor_instance_id": "50600049_mousebite_06",
+      "donor_pair_id": "50600049",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "13000030",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000030_04_mousebite.jpg",
+      "recipient_x": 92,
+      "recipient_y": 108,
+      "donor_bbox": [
+        337,
+        240,
+        370,
+        273
+      ],
+      "transported_bbox": [
+        92,
+        108,
+        125,
+        141
+      ],
+      "structural_edge_ncc": 0.6093126535415649,
+      "pixel_ncc": -0.6827759146690369,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600049_mousebite_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600049_mousebite_06.txt",
+      "image_sha256": "5578f723bdd36c13518774ac27cb50b22e9d3063b7236e709865bd6bf0c75fd3",
+      "label_sha256": "a056796034f29b07de8fd5529d9caec3cad19357bc9e225168bf73c7cc56956d"
+    },
+    {
+      "donor_instance_id": "77000019_mousebite_01",
+      "donor_pair_id": "77000019",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "77000095",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/77000095_02_mousebite.jpg",
+      "recipient_x": 456,
+      "recipient_y": 184,
+      "donor_bbox": [
+        116,
+        55,
+        156,
+        110
+      ],
+      "transported_bbox": [
+        456,
+        184,
+        496,
+        239
+      ],
+      "structural_edge_ncc": 0.48971354961395264,
+      "pixel_ncc": 0.5391771197319031,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/77000019_mousebite_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/77000019_mousebite_01.txt",
+      "image_sha256": "7209bd9b0422f465bacefa22ba1c47ef8e73901affc0ce21aebc798e318c7ea4",
+      "label_sha256": "7a3001700cb65c395e84c6a7db8bcd7d0e36872bd5ccd4cf4a44956c299e23fb"
+    },
+    {
+      "donor_instance_id": "77000081_mousebite_00",
+      "donor_pair_id": "77000081",
+      "class_name": "mousebite",
+      "class_id": 2,
+      "recipient_pair_id": "20085217",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085217_02_mousebite.jpg",
+      "recipient_x": 248,
+      "recipient_y": 264,
+      "donor_bbox": [
+        176,
+        271,
+        212,
+        304
+      ],
+      "transported_bbox": [
+        248,
+        264,
+        284,
+        297
+      ],
+      "structural_edge_ncc": 0.6360388398170471,
+      "pixel_ncc": 0.6521208882331848,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/77000081_mousebite_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/77000081_mousebite_00.txt",
+      "image_sha256": "687006fa76f20753a10d7254c682d4af45e6fbf272c5f2862808ed9f4ce6deb6",
+      "label_sha256": "1656f987e6d2edf2252c1f8d956e1a5773643388779da5e839412aad4e8d84a7"
+    },
+    {
+      "donor_instance_id": "00041125_open_00",
+      "donor_pair_id": "00041125",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "00041030",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041030_02_mousebite.jpg",
+      "recipient_x": 448,
+      "recipient_y": 256,
+      "donor_bbox": [
+        128,
+        239,
+        164,
+        274
+      ],
+      "transported_bbox": [
+        448,
+        256,
+        484,
+        291
+      ],
+      "structural_edge_ncc": 0.6289203763008118,
+      "pixel_ncc": 0.5665513873100281,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041125_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041125_open_00.txt",
+      "image_sha256": "0b712621bacd56ddd7eb86dc1fd63a16eae5417a4d138a7e6559f55b396e7cdb",
+      "label_sha256": "ca1a3033db1ebf65487dd9c8f034538674335e2d78363a7a4dc979400e141182"
+    },
+    {
+      "donor_instance_id": "00041142_open_00",
+      "donor_pair_id": "00041142",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "00041068",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041068_05_mousebite.jpg",
+      "recipient_x": 52,
+      "recipient_y": 132,
+      "donor_bbox": [
+        232,
+        319,
+        280,
+        359
+      ],
+      "transported_bbox": [
+        52,
+        132,
+        100,
+        172
+      ],
+      "structural_edge_ncc": 0.49119898676872253,
+      "pixel_ncc": 0.847144365310669,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041142_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041142_open_00.txt",
+      "image_sha256": "7f4b2bdb99615137a2fef6d2ddd8515a84225812e0b54c9582cb640060e24c0f",
+      "label_sha256": "db309fe4aa3855c2c7e562ba75ce853e582444644fdb5a45650854b4f619f412"
+    },
+    {
+      "donor_instance_id": "13000024_open_01",
+      "donor_pair_id": "13000024",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "50600024",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600024_02_mousebite.jpg",
+      "recipient_x": 292,
+      "recipient_y": 312,
+      "donor_bbox": [
+        23,
+        457,
+        50,
+        493
+      ],
+      "transported_bbox": [
+        292,
+        312,
+        319,
+        348
+      ],
+      "structural_edge_ncc": 0.4367753863334656,
+      "pixel_ncc": -0.24682773649692535,
+      "photometric_scale_rgb": [
+        0.9960784313932948,
+        0.9960784313932948,
+        0.9960784313932948
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000024_open_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000024_open_01.txt",
+      "image_sha256": "f5a0b34a245a8a941e669c6f22e50f5afbdf922a4b610667150fa349f5c6a653",
+      "label_sha256": "141f7b27d8c635dfa6f0462bd97c11793dd32cd839dfb0545790dd3d57c60842"
+    },
+    {
+      "donor_instance_id": "13000110_open_00",
+      "donor_pair_id": "13000110",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "13000019",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000019_05_mousebite.jpg",
+      "recipient_x": 116,
+      "recipient_y": 380,
+      "donor_bbox": [
+        66,
+        96,
+        120,
+        135
+      ],
+      "transported_bbox": [
+        116,
+        380,
+        170,
+        419
+      ],
+      "structural_edge_ncc": 0.44223055243492126,
+      "pixel_ncc": 0.6762324571609497,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000110_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000110_open_00.txt",
+      "image_sha256": "31477a8501f6ca8e41ecebf9ebf363885e8af065392b607c10ac0bc360e81511",
+      "label_sha256": "660422da4003c409af94ee3ee87be368d5df0f325a3b2e22c2b5581737ac7031"
+    },
+    {
+      "donor_instance_id": "20085071_open_00",
+      "donor_pair_id": "20085071",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "00041190",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041190_02_mousebite.jpg",
+      "recipient_x": 240,
+      "recipient_y": 432,
+      "donor_bbox": [
+        202,
+        241,
+        237,
+        271
+      ],
+      "transported_bbox": [
+        240,
+        432,
+        275,
+        462
+      ],
+      "structural_edge_ncc": 0.608638346195221,
+      "pixel_ncc": 0.7937095761299133,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085071_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085071_open_00.txt",
+      "image_sha256": "3bae3657cede2224d85500b096a57330bf8b710c5edef55e0097a3b1b76e9f46",
+      "label_sha256": "3fe871a6751dc45116321f180559ffa3765762431b0584ef9230de165dccf9f7"
+    },
+    {
+      "donor_instance_id": "20085107_open_00",
+      "donor_pair_id": "20085107",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085201",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085201_02_mousebite.jpg",
+      "recipient_x": 392,
+      "recipient_y": 124,
+      "donor_bbox": [
+        199,
+        242,
+        232,
+        271
+      ],
+      "transported_bbox": [
+        392,
+        124,
+        425,
+        153
+      ],
+      "structural_edge_ncc": 0.6831129193305969,
+      "pixel_ncc": 0.4964424669742584,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085107_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085107_open_00.txt",
+      "image_sha256": "e54954cd42a2dad0b13d1a1f0f34a57f8c318af131593e76d41b335f03b6c4a1",
+      "label_sha256": "4af1369295c69f9b937bf0f8edb2f1455160e9a65002c2db2dc7e82ba673461c"
+    },
+    {
+      "donor_instance_id": "20085201_open_00",
+      "donor_pair_id": "20085201",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085107",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085107_08_mousebite.jpg",
+      "recipient_x": 276,
+      "recipient_y": 184,
+      "donor_bbox": [
+        239,
+        299,
+        274,
+        327
+      ],
+      "transported_bbox": [
+        276,
+        184,
+        311,
+        212
+      ],
+      "structural_edge_ncc": 0.5086032748222351,
+      "pixel_ncc": 0.37889567017555237,
+      "photometric_scale_rgb": [
+        0.9803149607344689,
+        0.9803149607344689,
+        0.9803149607344689
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085201_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085201_open_00.txt",
+      "image_sha256": "1830dbbb9473c7eb73ad269e1b69181c7c4151270b9d83fbb16f8d4fba397611",
+      "label_sha256": "fcc7d0d0032d2ab3aa4e27645568fb38627cc4d9274d600ecd89c6390fc9ac2f"
+    },
+    {
+      "donor_instance_id": "20085217_open_00",
+      "donor_pair_id": "20085217",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085071",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085071_02_mousebite.jpg",
+      "recipient_x": 260,
+      "recipient_y": 144,
+      "donor_bbox": [
+        203,
+        184,
+        255,
+        223
+      ],
+      "transported_bbox": [
+        260,
+        144,
+        312,
+        183
+      ],
+      "structural_edge_ncc": 0.46720120310783386,
+      "pixel_ncc": 0.5478589534759521,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085217_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085217_open_00.txt",
+      "image_sha256": "f05bada73700067f7e7f7f8bf4b9e67b4f4a5dacb195b69401ca46ab114fe345",
+      "label_sha256": "ac3f18352d40e49b903c336abc01704f92a5bbaf5179ca7ce8ba4eec7d0af324"
+    },
+    {
+      "donor_instance_id": "20085221_open_00",
+      "donor_pair_id": "20085221",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085107",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085107_08_mousebite.jpg",
+      "recipient_x": 140,
+      "recipient_y": 148,
+      "donor_bbox": [
+        284,
+        236,
+        312,
+        277
+      ],
+      "transported_bbox": [
+        140,
+        148,
+        168,
+        189
+      ],
+      "structural_edge_ncc": 0.5917986035346985,
+      "pixel_ncc": 0.5363092422485352,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085221_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085221_open_00.txt",
+      "image_sha256": "04246291e0b88d2947b0f2156c26aacba907f14300df74bec61507355b9fa809",
+      "label_sha256": "83537f980c13de9bac57248fc0486cbe0ca72f892c4788b58a0042e854568005"
+    },
+    {
+      "donor_instance_id": "44000086_open_00",
+      "donor_pair_id": "44000086",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085217",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085217_02_mousebite.jpg",
+      "recipient_x": 404,
+      "recipient_y": 64,
+      "donor_bbox": [
+        220,
+        225,
+        292,
+        287
+      ],
+      "transported_bbox": [
+        404,
+        64,
+        476,
+        126
+      ],
+      "structural_edge_ncc": 0.6463207006454468,
+      "pixel_ncc": 0.710034191608429,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000086_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000086_open_00.txt",
+      "image_sha256": "b0d42bb384c06ef91891792136177e9df42dcc8594682355f365e3e30df2db32",
+      "label_sha256": "73e9ef4ed5f22f2d48604bc180deb46a1e7b71ef400a576d301f688d37e122bb"
+    },
+    {
+      "donor_instance_id": "44000092_open_01",
+      "donor_pair_id": "44000092",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085143",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085143_03_mousebite.jpg",
+      "recipient_x": 160,
+      "recipient_y": 72,
+      "donor_bbox": [
+        86,
+        206,
+        115,
+        284
+      ],
+      "transported_bbox": [
+        160,
+        72,
+        189,
+        150
+      ],
+      "structural_edge_ncc": 0.38022667169570923,
+      "pixel_ncc": -0.05014237388968468,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000092_open_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000092_open_01.txt",
+      "image_sha256": "f044c44517ae7f33d1266f13ecbab48127ecacd59446726276c42354cfb59a09",
+      "label_sha256": "d4b4ffc563ec3d07878993861fa7131803f0eae0df581a4f13e9301629c3fbc2"
+    },
+    {
+      "donor_instance_id": "44000096_open_00",
+      "donor_pair_id": "44000096",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "44000093",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000093_04_mousebite.jpg",
+      "recipient_x": 272,
+      "recipient_y": 356,
+      "donor_bbox": [
+        272,
+        226,
+        327,
+        273
+      ],
+      "transported_bbox": [
+        272,
+        356,
+        327,
+        403
+      ],
+      "structural_edge_ncc": 0.9229385256767273,
+      "pixel_ncc": 0.9737374186515808,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000096_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000096_open_00.txt",
+      "image_sha256": "cd17241c6f579ed50558a50122826f039a76f6e384227d3465f44432984378b1",
+      "label_sha256": "06d2b7c0288524bdc46e4a89f1c021743f610c3dd4216999d8ff2997a7a1389e"
+    },
+    {
+      "donor_instance_id": "44000107_open_00",
+      "donor_pair_id": "44000107",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "20085155",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085155_02_mousebite.jpg",
+      "recipient_x": 284,
+      "recipient_y": 208,
+      "donor_bbox": [
+        161,
+        61,
+        234,
+        111
+      ],
+      "transported_bbox": [
+        284,
+        208,
+        357,
+        258
+      ],
+      "structural_edge_ncc": 0.3914452791213989,
+      "pixel_ncc": 0.3158915042877197,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000107_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000107_open_00.txt",
+      "image_sha256": "49fe5a96922d2522c091bfc31dfb53669d464792a18c7c0b9226fafa069d2b03",
+      "label_sha256": "0f43e2656e4ed00c54f89ef5eb91da5c66a14c1e6fd701007452cc57480ac80c"
+    },
+    {
+      "donor_instance_id": "44000110_open_00",
+      "donor_pair_id": "44000110",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "13000110",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000110_01_mousebite.jpg",
+      "recipient_x": 336,
+      "recipient_y": 148,
+      "donor_bbox": [
+        44,
+        226,
+        131,
+        287
+      ],
+      "transported_bbox": [
+        336,
+        148,
+        423,
+        209
+      ],
+      "structural_edge_ncc": 0.2539885342121124,
+      "pixel_ncc": -0.08912605047225952,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000110_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000110_open_00.txt",
+      "image_sha256": "b4588619255a1025eda613de83416faadefeb0cc2abeca2c51d810cbff2a883f",
+      "label_sha256": "088d9ee1df47411c4d4799d4f0219ad2974bbbd143e6b105b0a648f77a7e3fa7"
+    },
+    {
+      "donor_instance_id": "50600021_open_00",
+      "donor_pair_id": "50600021",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "50600028",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600028_02_mousebite.jpg",
+      "recipient_x": 112,
+      "recipient_y": 8,
+      "donor_bbox": [
+        176,
+        209,
+        209,
+        252
+      ],
+      "transported_bbox": [
+        112,
+        8,
+        145,
+        51
+      ],
+      "structural_edge_ncc": 0.6529132127761841,
+      "pixel_ncc": 0.47907644510269165,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600021_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600021_open_00.txt",
+      "image_sha256": "6ac63dfbb36eb648f4abfefb09c76e735e1c20f9d1cdc22c44310179467f63ab",
+      "label_sha256": "ea80ab9f7082138d964a401a3a43b5c5350b47fbcd2959f017fe3d422583cf2b"
+    },
+    {
+      "donor_instance_id": "50600032_open_00",
+      "donor_pair_id": "50600032",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "13000037",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000037_04_mousebite.jpg",
+      "recipient_x": 364,
+      "recipient_y": 396,
+      "donor_bbox": [
+        215,
+        256,
+        264,
+        307
+      ],
+      "transported_bbox": [
+        364,
+        396,
+        413,
+        447
+      ],
+      "structural_edge_ncc": 0.5883411765098572,
+      "pixel_ncc": -0.19694316387176514,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600032_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600032_open_00.txt",
+      "image_sha256": "e563aeffeadb04d2a2c254551f4852d40793a8487e525fe5456f3511c2c1149f",
+      "label_sha256": "ca2e266ae9b1f75a8389662633fb35d88f44316b127594a1564746ccf2dc9537"
+    },
+    {
+      "donor_instance_id": "92000006_open_00",
+      "donor_pair_id": "92000006",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "92000008",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000008_02_mousebite.jpg",
+      "recipient_x": 156,
+      "recipient_y": 424,
+      "donor_bbox": [
+        197,
+        273,
+        315,
+        313
+      ],
+      "transported_bbox": [
+        156,
+        424,
+        274,
+        464
+      ],
+      "structural_edge_ncc": 0.8669036626815796,
+      "pixel_ncc": 0.9202097654342651,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000006_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000006_open_00.txt",
+      "image_sha256": "14f0822e4eae3a2654cf6dff44dc3032872c5c50f96596c42a5111fafa6d576a",
+      "label_sha256": "233f27603175fe2907cf4c658cda8704b1ed8ac8c3f8108564261e187e311f55"
+    },
+    {
+      "donor_instance_id": "92000060_open_00",
+      "donor_pair_id": "92000060",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "92000008",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000008_02_mousebite.jpg",
+      "recipient_x": 152,
+      "recipient_y": 340,
+      "donor_bbox": [
+        193,
+        353,
+        320,
+        380
+      ],
+      "transported_bbox": [
+        152,
+        340,
+        279,
+        367
+      ],
+      "structural_edge_ncc": 0.72032231092453,
+      "pixel_ncc": 0.9639688730239868,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000060_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000060_open_00.txt",
+      "image_sha256": "a7beb1177e08a99a1a59c9ed229439329c7ea103f295e064669f73e03c7fa661",
+      "label_sha256": "8516c13b7a6ed55b4b11ea8259ce4fea62a87484a71820995e95b012d2809e2a"
+    },
+    {
+      "donor_instance_id": "92000077_open_00",
+      "donor_pair_id": "92000077",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "92000044",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000044_02_mousebite.jpg",
+      "recipient_x": 356,
+      "recipient_y": 456,
+      "donor_bbox": [
+        154,
+        300,
+        239,
+        356
+      ],
+      "transported_bbox": [
+        356,
+        456,
+        441,
+        512
+      ],
+      "structural_edge_ncc": 0.8184000253677368,
+      "pixel_ncc": 0.9177019596099854,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000077_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000077_open_00.txt",
+      "image_sha256": "c2ab74ca9c7caae5e09798b34bd683db4268650e559c9c68582f10a8fca81774",
+      "label_sha256": "de776fd3490fdb45c4a0ef98a9cbbb2108a64dce5dd6381fde5ef862adc9412e"
+    },
+    {
+      "donor_instance_id": "92000081_open_00",
+      "donor_pair_id": "92000081",
+      "class_name": "open",
+      "class_id": 0,
+      "recipient_pair_id": "92000006",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000006_01_mousebite.jpg",
+      "recipient_x": 156,
+      "recipient_y": 64,
+      "donor_bbox": [
+        214,
+        245,
+        298,
+        286
+      ],
+      "transported_bbox": [
+        156,
+        64,
+        240,
+        105
+      ],
+      "structural_edge_ncc": 0.771390974521637,
+      "pixel_ncc": 0.9473394155502319,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000081_open_00.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000081_open_00.txt",
+      "image_sha256": "0178d2eefd39fd87e2dcc17237ce839c23599c9c206361efdccec8d60162b69c",
+      "label_sha256": "5fb222b41cdb135929d6b2b6f0dcf91a6fb99ae7cd8fa9639a183455a4cce5ef"
+    },
+    {
+      "donor_instance_id": "00041089_pinhole_04",
+      "donor_pair_id": "00041089",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "00041030",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041030_02_mousebite.jpg",
+      "recipient_x": 0,
+      "recipient_y": 0,
+      "donor_bbox": [
+        307,
+        146,
+        341,
+        187
+      ],
+      "transported_bbox": [
+        0,
+        0,
+        34,
+        41
+      ],
+      "structural_edge_ncc": 0.0,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041089_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041089_pinhole_04.txt",
+      "image_sha256": "af68c37b26de502d1f816616db437dac03cc3414e632620ddd9a94fa6b703c0a",
+      "label_sha256": "bce1652067bf49f60c1f97d108d6b6b9a6560e4826425aec2601f8296ea864d7"
+    },
+    {
+      "donor_instance_id": "00041169_pinhole_05",
+      "donor_pair_id": "00041169",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "44000068",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000068_02_mousebite.jpg",
+      "recipient_x": 244,
+      "recipient_y": 336,
+      "donor_bbox": [
+        240,
+        130,
+        272,
+        162
+      ],
+      "transported_bbox": [
+        244,
+        336,
+        276,
+        368
+      ],
+      "structural_edge_ncc": 0.8556467294692993,
+      "pixel_ncc": -0.9613094329833984,
+      "photometric_scale_rgb": [
+        0.9960784313932948,
+        0.9960784313932948,
+        0.9960784313932948
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041169_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041169_pinhole_05.txt",
+      "image_sha256": "8cde4a4ee3a6dcbbd0187715129d0589ac27e8d67b56b8b342421d256d902f08",
+      "label_sha256": "326489ddecb6eb20553e80e6cc90bae707dd282fa93f25df2870eb07831c7de2"
+    },
+    {
+      "donor_instance_id": "00041190_pinhole_05",
+      "donor_pair_id": "00041190",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "00041181",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041181_04_mousebite.jpg",
+      "recipient_x": 316,
+      "recipient_y": 480,
+      "donor_bbox": [
+        236,
+        42,
+        276,
+        72
+      ],
+      "transported_bbox": [
+        316,
+        480,
+        356,
+        510
+      ],
+      "structural_edge_ncc": 0.4676322937011719,
+      "pixel_ncc": 0.5827128887176514,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041190_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041190_pinhole_05.txt",
+      "image_sha256": "0596ac0358ab679728f11ef8359d3fe4cc1109e6daabbedc16afdc96e26fc7d4",
+      "label_sha256": "374b5ca878ab2820eb091ab959db67c795cfe118044f6e6d5e0e8598f0dc6b46"
+    },
+    {
+      "donor_instance_id": "13000008_pinhole_05",
+      "donor_pair_id": "13000008",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "13000009",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000009_01_mousebite.jpg",
+      "recipient_x": 164,
+      "recipient_y": 140,
+      "donor_bbox": [
+        149,
+        180,
+        185,
+        206
+      ],
+      "transported_bbox": [
+        164,
+        140,
+        200,
+        166
+      ],
+      "structural_edge_ncc": 0.4440799057483673,
+      "pixel_ncc": -0.3372056484222412,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000008_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000008_pinhole_05.txt",
+      "image_sha256": "bb91d9405a62968f57c4b18a744028b2dab846b8ad03fcd02fc82b43c1506ae6",
+      "label_sha256": "185c65317a05db0bb2552571bf850efdd504195ea5752ba16931453c23b30ebc"
+    },
+    {
+      "donor_instance_id": "13000009_pinhole_03",
+      "donor_pair_id": "13000009",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "50600021",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600021_02_mousebite.jpg",
+      "recipient_x": 480,
+      "recipient_y": 440,
+      "donor_bbox": [
+        243,
+        244,
+        270,
+        269
+      ],
+      "transported_bbox": [
+        480,
+        440,
+        507,
+        465
+      ],
+      "structural_edge_ncc": 0.6683850884437561,
+      "pixel_ncc": 0.8566881418228149,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000009_pinhole_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000009_pinhole_03.txt",
+      "image_sha256": "18db4093991c38c296a166de0c9f7611171488637832129eb0c1cdb0c984aead",
+      "label_sha256": "8b9f2cdd7b1eba4210338a9b59d58e52d605e52b2c5edfeae7f424fd6877d751"
+    },
+    {
+      "donor_instance_id": "13000029_pinhole_11",
+      "donor_pair_id": "13000029",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "00041095",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041095_05_mousebite.jpg",
+      "recipient_x": 360,
+      "recipient_y": 24,
+      "donor_bbox": [
+        243,
+        24,
+        270,
+        50
+      ],
+      "transported_bbox": [
+        360,
+        24,
+        387,
+        50
+      ],
+      "structural_edge_ncc": 0.6300777196884155,
+      "pixel_ncc": -0.7490255236625671,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000029_pinhole_11.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000029_pinhole_11.txt",
+      "image_sha256": "e97035b92af68ab3a077c9ac1281e5fd9906722a9f6848123825b84a8d137c7d",
+      "label_sha256": "2e5cb87bdfbaaea8450f55823339407dd9a724ce00ec109772fbf7c70991a554"
+    },
+    {
+      "donor_instance_id": "13000030_pinhole_08",
+      "donor_pair_id": "13000030",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "44000104",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000104_02_mousebite.jpg",
+      "recipient_x": 440,
+      "recipient_y": 56,
+      "donor_bbox": [
+        271,
+        214,
+        302,
+        239
+      ],
+      "transported_bbox": [
+        440,
+        56,
+        471,
+        81
+      ],
+      "structural_edge_ncc": 0.5818154811859131,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000030_pinhole_08.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000030_pinhole_08.txt",
+      "image_sha256": "4ac00327c5df565e1fdb10aa1e346a885ce2ce8403a4c5ef4103c0419b61aa6b",
+      "label_sha256": "777d0929ac2dc1b06a2ecd864d16800c36177b0afc667471c08fe1db4a1ef83c"
+    },
+    {
+      "donor_instance_id": "13000037_pinhole_07",
+      "donor_pair_id": "13000037",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "20085033",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085033_03_mousebite.jpg",
+      "recipient_x": 412,
+      "recipient_y": 260,
+      "donor_bbox": [
+        242,
+        140,
+        270,
+        165
+      ],
+      "transported_bbox": [
+        412,
+        260,
+        440,
+        285
+      ],
+      "structural_edge_ncc": 0.8738670945167542,
+      "pixel_ncc": -0.8057754039764404,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000037_pinhole_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000037_pinhole_07.txt",
+      "image_sha256": "3fab37bc78115ba39d84c79215d7a88c1d64d96eb7f7e4e168ab14dc8b8c0fdb",
+      "label_sha256": "f6109c4c8bee9f3450834fe0598f6c3e5e38261d80dbc2e106ebb26446872d8f"
+    },
+    {
+      "donor_instance_id": "13000102_pinhole_05",
+      "donor_pair_id": "13000102",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "13000079",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000079_05_mousebite.jpg",
+      "recipient_x": 408,
+      "recipient_y": 104,
+      "donor_bbox": [
+        28,
+        236,
+        63,
+        276
+      ],
+      "transported_bbox": [
+        408,
+        104,
+        443,
+        144
+      ],
+      "structural_edge_ncc": 0.4740559756755829,
+      "pixel_ncc": 0.241880401968956,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000102_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000102_pinhole_05.txt",
+      "image_sha256": "bfaa5b14a191344b8688badd0546817e1ea5e3be25a0fdc8b6215fb2dd3a1417",
+      "label_sha256": "32a1a66fe717ad8eaa0fde720722961a5c0fde52857cb59a82b2d3fb0d4f60ec"
+    },
+    {
+      "donor_instance_id": "13000118_pinhole_05",
+      "donor_pair_id": "13000118",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "00041169",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041169_02_mousebite.jpg",
+      "recipient_x": 108,
+      "recipient_y": 112,
+      "donor_bbox": [
+        223,
+        237,
+        260,
+        275
+      ],
+      "transported_bbox": [
+        108,
+        112,
+        145,
+        150
+      ],
+      "structural_edge_ncc": 0.6202633380889893,
+      "pixel_ncc": -0.7360567450523376,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000118_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000118_pinhole_05.txt",
+      "image_sha256": "c45f38b1b5c67f6e7d1cd35d2f019f673cbb851d04322f63fa7dec3debc81a88",
+      "label_sha256": "20a30b3f60338a8f38ed9966d9ebc528705cc02412d6853b5d3b0baed903372b"
+    },
+    {
+      "donor_instance_id": "13000197_pinhole_05",
+      "donor_pair_id": "13000197",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "13000079",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000079_05_mousebite.jpg",
+      "recipient_x": 124,
+      "recipient_y": 168,
+      "donor_bbox": [
+        307,
+        364,
+        342,
+        395
+      ],
+      "transported_bbox": [
+        124,
+        168,
+        159,
+        199
+      ],
+      "structural_edge_ncc": 0.6450229287147522,
+      "pixel_ncc": 0.7008602619171143,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000197_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000197_pinhole_05.txt",
+      "image_sha256": "2067111c9aefff9461d70ea792ef8c3240b69e47a20b2ddc7e601e4b3b578334",
+      "label_sha256": "310538f210157da9376a7c79a3f0478a713b1bdc8c4e0df68f052d4acbcec1a3"
+    },
+    {
+      "donor_instance_id": "20085027_pinhole_05",
+      "donor_pair_id": "20085027",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "20085185",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085185_03_mousebite.jpg",
+      "recipient_x": 72,
+      "recipient_y": 384,
+      "donor_bbox": [
+        455,
+        345,
+        498,
+        378
+      ],
+      "transported_bbox": [
+        72,
+        384,
+        115,
+        417
+      ],
+      "structural_edge_ncc": 0.5869567394256592,
+      "pixel_ncc": 0.803473949432373,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085027_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085027_pinhole_05.txt",
+      "image_sha256": "1a5d3dc35a02970b6acc2c8b22a5097b682f249702ff75801b278d0d9e8918b3",
+      "label_sha256": "1063ed95d1d166986e89497cddab1ab132336aa61434bcb120f422da7b77cb32"
+    },
+    {
+      "donor_instance_id": "20085071_pinhole_04",
+      "donor_pair_id": "20085071",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "20085145",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085145_02_mousebite.jpg",
+      "recipient_x": 452,
+      "recipient_y": 244,
+      "donor_bbox": [
+        228,
+        215,
+        261,
+        244
+      ],
+      "transported_bbox": [
+        452,
+        244,
+        485,
+        273
+      ],
+      "structural_edge_ncc": 0.7788547277450562,
+      "pixel_ncc": 0.9615306258201599,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085071_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085071_pinhole_04.txt",
+      "image_sha256": "6f3841e5c1e41e8003222bc81e1cd9c2459cec3bd500713ddd3f8567cd5bf4ea",
+      "label_sha256": "8059411af36dc5cd0cf66e6caf286cf9a5796d64a61edf35c1aacdf18b980f17"
+    },
+    {
+      "donor_instance_id": "20085090_pinhole_05",
+      "donor_pair_id": "20085090",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "20085225",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085225_06_mousebite.jpg",
+      "recipient_x": 68,
+      "recipient_y": 20,
+      "donor_bbox": [
+        369,
+        111,
+        396,
+        137
+      ],
+      "transported_bbox": [
+        68,
+        20,
+        95,
+        46
+      ],
+      "structural_edge_ncc": 0.610137403011322,
+      "pixel_ncc": 0.5418046712875366,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085090_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085090_pinhole_05.txt",
+      "image_sha256": "b16f96bd39333649c5f87744cd674111be34cb5d0a7fff796a2a191c37e4624d",
+      "label_sha256": "48b16d6f45f9367180be08764752b4cbf4ededdb0d6b9a8eb19e369b572d782e"
+    },
+    {
+      "donor_instance_id": "20085155_pinhole_05",
+      "donor_pair_id": "20085155",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "20085183",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085183_02_mousebite.jpg",
+      "recipient_x": 448,
+      "recipient_y": 368,
+      "donor_bbox": [
+        59,
+        31,
+        85,
+        57
+      ],
+      "transported_bbox": [
+        448,
+        368,
+        474,
+        394
+      ],
+      "structural_edge_ncc": 0.8727997541427612,
+      "pixel_ncc": 0.9456656575202942,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085155_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085155_pinhole_05.txt",
+      "image_sha256": "596219821253cbb65759cd71f256b20823a260580b6965cb77b360a043de0ecf",
+      "label_sha256": "db27bc52e6b9f32fd7044b9f6897271da10a095d84f8fad2d7019b30d98e6058"
+    },
+    {
+      "donor_instance_id": "20085203_pinhole_05",
+      "donor_pair_id": "20085203",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "20085026",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085026_02_mousebite.jpg",
+      "recipient_x": 332,
+      "recipient_y": 280,
+      "donor_bbox": [
+        241,
+        364,
+        271,
+        392
+      ],
+      "transported_bbox": [
+        332,
+        280,
+        362,
+        308
+      ],
+      "structural_edge_ncc": 0.9672001600265503,
+      "pixel_ncc": 0.9831079244613647,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085203_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085203_pinhole_05.txt",
+      "image_sha256": "e551276230529ae39b05fb04894af7c79d45a5463968a2711d2e9bebe1255c9d",
+      "label_sha256": "563dcea4f3196a4a31f5f1c54f6c60e72eebb5903d6f47b8bdadaead7b4eb489"
+    },
+    {
+      "donor_instance_id": "20085225_pinhole_12",
+      "donor_pair_id": "20085225",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "13000008",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000008_03_mousebite.jpg",
+      "recipient_x": 48,
+      "recipient_y": 0,
+      "donor_bbox": [
+        120,
+        21,
+        144,
+        56
+      ],
+      "transported_bbox": [
+        48,
+        0,
+        72,
+        35
+      ],
+      "structural_edge_ncc": 0.5974694490432739,
+      "pixel_ncc": -0.23974788188934326,
+      "photometric_scale_rgb": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085225_pinhole_12.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085225_pinhole_12.txt",
+      "image_sha256": "2a2d5a8dd4f2d4d6803974123f0e84c3699dc6810d85858416bb99caa090b3c6",
+      "label_sha256": "153f05b2b12b435f247986011c1cdb30236c99a4184186a346739c35ad27aa99"
+    },
+    {
+      "donor_instance_id": "44000062_pinhole_04",
+      "donor_pair_id": "44000062",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "44000092",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000092_04_mousebite.jpg",
+      "recipient_x": 352,
+      "recipient_y": 356,
+      "donor_bbox": [
+        138,
+        93,
+        169,
+        124
+      ],
+      "transported_bbox": [
+        352,
+        356,
+        383,
+        387
+      ],
+      "structural_edge_ncc": 0.802771270275116,
+      "pixel_ncc": 0.9474869966506958,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000062_pinhole_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000062_pinhole_04.txt",
+      "image_sha256": "99a0c61f1f5d8b40c157e8f3ff4b2c6020cd50caf96bf9aa84424980b781b3c0",
+      "label_sha256": "2de02c24d2f607fb7b004d2a63087ef85ae955e17b74d923b6264db3638117ba"
+    },
+    {
+      "donor_instance_id": "77000008_pinhole_06",
+      "donor_pair_id": "77000008",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "13000197",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000197_02_mousebite.jpg",
+      "recipient_x": 84,
+      "recipient_y": 376,
+      "donor_bbox": [
+        345,
+        284,
+        399,
+        352
+      ],
+      "transported_bbox": [
+        84,
+        376,
+        138,
+        444
+      ],
+      "structural_edge_ncc": 0.6824496388435364,
+      "pixel_ncc": -0.42588165402412415,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/77000008_pinhole_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/77000008_pinhole_06.txt",
+      "image_sha256": "a7277e5e5d839fffa2a4c82584abc5760afd80c3f1ce44de281cd200e8df1f11",
+      "label_sha256": "1cf4c26e88d9c253438c7ad1d24938019e7da9c71578005e88a33d4a28349b59"
+    },
+    {
+      "donor_instance_id": "92000081_pinhole_05",
+      "donor_pair_id": "92000081",
+      "class_name": "pinhole",
+      "class_id": 5,
+      "recipient_pair_id": "92000077",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000077_02_mousebite.jpg",
+      "recipient_x": 44,
+      "recipient_y": 252,
+      "donor_bbox": [
+        44,
+        232,
+        92,
+        281
+      ],
+      "transported_bbox": [
+        44,
+        252,
+        92,
+        301
+      ],
+      "structural_edge_ncc": 0.8261229395866394,
+      "pixel_ncc": 0.9749454259872437,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000081_pinhole_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000081_pinhole_05.txt",
+      "image_sha256": "22491c1d24213052d300d20f934774dfacbb49175f6e19f2f27e052eccb88c07",
+      "label_sha256": "632212b262634211d010cb000c6f7cccf981f0b70363fa5ff2bbcca9293a77e6"
+    },
+    {
+      "donor_instance_id": "00041046_short_02",
+      "donor_pair_id": "00041046",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "00041043",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041043_02_mousebite.jpg",
+      "recipient_x": 420,
+      "recipient_y": 192,
+      "donor_bbox": [
+        381,
+        263,
+        427,
+        288
+      ],
+      "transported_bbox": [
+        420,
+        192,
+        466,
+        217
+      ],
+      "structural_edge_ncc": 0.6679620146751404,
+      "pixel_ncc": 0.7549435496330261,
+      "photometric_scale_rgb": [
+        0.9921259842937876,
+        0.9921259842937876,
+        0.9921259842937876
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041046_short_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041046_short_02.txt",
+      "image_sha256": "5a09b4924a956fd0ea744ffb3d172a979d6c5cd29e769aec3037bec4ed0c3a4a",
+      "label_sha256": "8ae5ec2749ae86f66b61037c1350fb3f87bc521a44044d85b02aeebfdc065fa6"
+    },
+    {
+      "donor_instance_id": "00041095_short_01",
+      "donor_pair_id": "00041095",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "00041081",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041081_02_mousebite.jpg",
+      "recipient_x": 84,
+      "recipient_y": 396,
+      "donor_bbox": [
+        49,
+        141,
+        108,
+        169
+      ],
+      "transported_bbox": [
+        84,
+        396,
+        143,
+        424
+      ],
+      "structural_edge_ncc": 0.5845289826393127,
+      "pixel_ncc": 0.6842130422592163,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041095_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041095_short_01.txt",
+      "image_sha256": "75f20c3c860bdd8087028ea4aa78cc8a03c5d9a43046c1148a55283352f8cae2",
+      "label_sha256": "97f148979058de5718b812a3dac60d2a7f6e25ad5073c22923084cb1cc385c05"
+    },
+    {
+      "donor_instance_id": "00041133_short_01",
+      "donor_pair_id": "00041133",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "00041125",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041125_02_mousebite.jpg",
+      "recipient_x": 324,
+      "recipient_y": 412,
+      "donor_bbox": [
+        325,
+        71,
+        351,
+        113
+      ],
+      "transported_bbox": [
+        324,
+        412,
+        350,
+        454
+      ],
+      "structural_edge_ncc": 0.6097865700721741,
+      "pixel_ncc": 0.8546741604804993,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041133_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041133_short_01.txt",
+      "image_sha256": "5c91feafd66a2d7de50afae97b005c372509fb70625e5215dbfbd7bce82f17e3",
+      "label_sha256": "9cd27d26ef7c4adbcfe0687781f824cb454f4c2af0d9d4a5c6dbb63c86208372"
+    },
+    {
+      "donor_instance_id": "00041180_short_01",
+      "donor_pair_id": "00041180",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "00041142",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041142_01_mousebite.jpg",
+      "recipient_x": 444,
+      "recipient_y": 336,
+      "donor_bbox": [
+        210,
+        99,
+        255,
+        145
+      ],
+      "transported_bbox": [
+        444,
+        336,
+        489,
+        382
+      ],
+      "structural_edge_ncc": 0.4456416070461273,
+      "pixel_ncc": 0.2915898859500885,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041180_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041180_short_01.txt",
+      "image_sha256": "c4bec02684f3e29a7554100460ce36ac465feaf0164d0ccc5ef6dca246e4c88e",
+      "label_sha256": "e467334dd32d5d0b72173caf1dd4809464e5d9c5e301ba3be19fafc6220fcb0f"
+    },
+    {
+      "donor_instance_id": "13000037_short_03",
+      "donor_pair_id": "13000037",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "20085020",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085020_03_mousebite.jpg",
+      "recipient_x": 452,
+      "recipient_y": 464,
+      "donor_bbox": [
+        227,
+        235,
+        286,
+        277
+      ],
+      "transported_bbox": [
+        452,
+        464,
+        511,
+        506
+      ],
+      "structural_edge_ncc": 0.35708382725715637,
+      "pixel_ncc": 0.22350987792015076,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000037_short_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000037_short_03.txt",
+      "image_sha256": "d80dff61eaa9c5281a24485c87be919b3b349f8fdaa92de9c07456054d95c19d",
+      "label_sha256": "89a91b008c0091a651977353d6bea6655d95fad4b50b0a5eb7cb5e40881a8ea3"
+    },
+    {
+      "donor_instance_id": "13000102_short_01",
+      "donor_pair_id": "13000102",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "77000044",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/77000044_02_mousebite.jpg",
+      "recipient_x": 160,
+      "recipient_y": 136,
+      "donor_bbox": [
+        323,
+        242,
+        376,
+        270
+      ],
+      "transported_bbox": [
+        160,
+        136,
+        213,
+        164
+      ],
+      "structural_edge_ncc": 0.2774559259414673,
+      "pixel_ncc": 0.04598141834139824,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000102_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000102_short_01.txt",
+      "image_sha256": "abd726df6f19ba026ad43981ca75d7dca78401e46dfe1edf3a9c17bdf7a20fcb",
+      "label_sha256": "4b604da7a25b0677df436a179c7b6adf5cf23ef4c89b23504b8814ec0e6a8a32"
+    },
+    {
+      "donor_instance_id": "20085016_short_02",
+      "donor_pair_id": "20085016",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "44000107",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000107_02_mousebite.jpg",
+      "recipient_x": 212,
+      "recipient_y": 4,
+      "donor_bbox": [
+        137,
+        245,
+        189,
+        267
+      ],
+      "transported_bbox": [
+        212,
+        4,
+        264,
+        26
+      ],
+      "structural_edge_ncc": 0.43449172377586365,
+      "pixel_ncc": 0.18830129504203796,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085016_short_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085016_short_02.txt",
+      "image_sha256": "5b9983aac7a683829396f4252939bb30e14417d41d336373d6d6811dfdf797db",
+      "label_sha256": "63f9aaef57bd57424b271948c012e723e3d725db21bcbf14d479b740651cb7c8"
+    },
+    {
+      "donor_instance_id": "20085020_short_01",
+      "donor_pair_id": "20085020",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "20085062",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085062_02_mousebite.jpg",
+      "recipient_x": 12,
+      "recipient_y": 376,
+      "donor_bbox": [
+        275,
+        131,
+        314,
+        151
+      ],
+      "transported_bbox": [
+        12,
+        376,
+        51,
+        396
+      ],
+      "structural_edge_ncc": 0.5623612403869629,
+      "pixel_ncc": 0.3992399573326111,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085020_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085020_short_01.txt",
+      "image_sha256": "4a7c1d669fc07301cee69cf07305842acdbbb42584d3e1f092ff691597a02d6e",
+      "label_sha256": "899f5032e0a89603e6bd75a4bc738d7ce67e09d362ba1b43a37da751138dd1cf"
+    },
+    {
+      "donor_instance_id": "20085051_short_01",
+      "donor_pair_id": "20085051",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "13000023",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000023_04_mousebite.jpg",
+      "recipient_x": 80,
+      "recipient_y": 256,
+      "donor_bbox": [
+        91,
+        44,
+        207,
+        71
+      ],
+      "transported_bbox": [
+        80,
+        256,
+        196,
+        283
+      ],
+      "structural_edge_ncc": 0.26892876625061035,
+      "pixel_ncc": -0.029962534084916115,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085051_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085051_short_01.txt",
+      "image_sha256": "e1e844947e52b8a43726458bf9c7cd28276ece5d79824fe14bad1d2579dd4bd2",
+      "label_sha256": "28908d4f0cb4dba73178f7c780f1f9bd88d2acf48b3ce27060590730e71e2246"
+    },
+    {
+      "donor_instance_id": "20085090_short_01",
+      "donor_pair_id": "20085090",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "13000031",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000031_02_mousebite.jpg",
+      "recipient_x": 364,
+      "recipient_y": 32,
+      "donor_bbox": [
+        227,
+        50,
+        285,
+        87
+      ],
+      "transported_bbox": [
+        364,
+        32,
+        422,
+        69
+      ],
+      "structural_edge_ncc": 0.362925261259079,
+      "pixel_ncc": 0.28252536058425903,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085090_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085090_short_01.txt",
+      "image_sha256": "a406e4daf759a90ead972d21071f34fe22516e73402a251ba28b0e3096dc0f30",
+      "label_sha256": "ecd8e9733ca3fcfc708a94213a793e131a08e29910fa9f07e1a339e0af806f73"
+    },
+    {
+      "donor_instance_id": "20085145_short_01",
+      "donor_pair_id": "20085145",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "50600049",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600049_06_mousebite.jpg",
+      "recipient_x": 184,
+      "recipient_y": 448,
+      "donor_bbox": [
+        172,
+        237,
+        228,
+        265
+      ],
+      "transported_bbox": [
+        184,
+        448,
+        240,
+        476
+      ],
+      "structural_edge_ncc": 0.343016117811203,
+      "pixel_ncc": -0.470083624124527,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085145_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085145_short_01.txt",
+      "image_sha256": "dd743aec8a4e787a05b8b42dc433d36d66cbc9ca7a1635affd59f5bc9b47d7f9",
+      "label_sha256": "5b19b531175baa2c1ab40807cbcfa4a7dd6b97cd8c192846e33fc251cfbb7282"
+    },
+    {
+      "donor_instance_id": "20085155_short_01",
+      "donor_pair_id": "20085155",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "20085062",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085062_02_mousebite.jpg",
+      "recipient_x": 16,
+      "recipient_y": 356,
+      "donor_bbox": [
+        297,
+        16,
+        343,
+        42
+      ],
+      "transported_bbox": [
+        16,
+        356,
+        62,
+        382
+      ],
+      "structural_edge_ncc": 0.682263195514679,
+      "pixel_ncc": 0.5826863646507263,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085155_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085155_short_01.txt",
+      "image_sha256": "619c6fb71abf87481af371af0c6fb8004331241ca2d788dbef4ee4103d8adcbc",
+      "label_sha256": "23d896bf29ccc191228b7fdc5e4af946dbf545093a4322f0e31968562417b3de"
+    },
+    {
+      "donor_instance_id": "20085203_short_01",
+      "donor_pair_id": "20085203",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "20085026",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085026_02_mousebite.jpg",
+      "recipient_x": 180,
+      "recipient_y": 324,
+      "donor_bbox": [
+        28,
+        408,
+        55,
+        458
+      ],
+      "transported_bbox": [
+        180,
+        324,
+        207,
+        374
+      ],
+      "structural_edge_ncc": 0.739800214767456,
+      "pixel_ncc": 0.9419949054718018,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085203_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085203_short_01.txt",
+      "image_sha256": "a288693f141c0ba041646cc5949fe1833d310f7832eb54caea7b4454fbf56ccf",
+      "label_sha256": "60cbcc73df66862e05a8dabe8e6d2e13a41e18f2cbbc53d3496bb5a47b07dbba"
+    },
+    {
+      "donor_instance_id": "20085217_short_01",
+      "donor_pair_id": "20085217",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "13000030",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000030_04_mousebite.jpg",
+      "recipient_x": 372,
+      "recipient_y": 168,
+      "donor_bbox": [
+        110,
+        229,
+        174,
+        284
+      ],
+      "transported_bbox": [
+        372,
+        168,
+        436,
+        223
+      ],
+      "structural_edge_ncc": 0.3430107831954956,
+      "pixel_ncc": -0.2824925482273102,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085217_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085217_short_01.txt",
+      "image_sha256": "5d813ca3daa8d63425d6cdc99affc7063b6f0a67e2f130d3fe9014b8cc084efc",
+      "label_sha256": "a9dd4c276e2e355efd7fabaa9b508b460456e814f3036ccca83bb03847b1c282"
+    },
+    {
+      "donor_instance_id": "44000086_short_01",
+      "donor_pair_id": "44000086",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "77000044",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/77000044_02_mousebite.jpg",
+      "recipient_x": 164,
+      "recipient_y": 352,
+      "donor_bbox": [
+        42,
+        229,
+        108,
+        283
+      ],
+      "transported_bbox": [
+        164,
+        352,
+        230,
+        406
+      ],
+      "structural_edge_ncc": 0.32329773902893066,
+      "pixel_ncc": 0.29091876745224,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000086_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000086_short_01.txt",
+      "image_sha256": "c6c89d45228e35c5f11e4a043bf4dc1c73b113f519c9a631a532b669faf14b94",
+      "label_sha256": "c49c357c2d39eddb0cfc2eef74a8672fd13b51c7b848ca96b42eccd7e755cc45"
+    },
+    {
+      "donor_instance_id": "44000096_short_01",
+      "donor_pair_id": "44000096",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "44000068",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000068_02_mousebite.jpg",
+      "recipient_x": 244,
+      "recipient_y": 236,
+      "donor_bbox": [
+        456,
+        125,
+        481,
+        204
+      ],
+      "transported_bbox": [
+        244,
+        236,
+        269,
+        315
+      ],
+      "structural_edge_ncc": 0.7834266424179077,
+      "pixel_ncc": 0.9212102890014648,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000096_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000096_short_01.txt",
+      "image_sha256": "c05303da2072aa365764ec9544fe2908ab6897dede55d7926b26215e51f58f5f",
+      "label_sha256": "b89c34870026364c97bada5ae01ccdabce718f2b3ac50500a0e4d146831b9698"
+    },
+    {
+      "donor_instance_id": "44000104_short_01",
+      "donor_pair_id": "44000104",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "44000093",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000093_04_mousebite.jpg",
+      "recipient_x": 468,
+      "recipient_y": 256,
+      "donor_bbox": [
+        467,
+        217,
+        494,
+        295
+      ],
+      "transported_bbox": [
+        468,
+        256,
+        495,
+        334
+      ],
+      "structural_edge_ncc": 0.5525748133659363,
+      "pixel_ncc": 0.9219977259635925,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000104_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000104_short_01.txt",
+      "image_sha256": "51f4798cfc0360f272b22c822fbc2d0b50fd1f1a3e43a6bf90e140bcfc894bec",
+      "label_sha256": "656cd943b59d2b29c58b23b9ef41c4e99c29b717ae35bcc552170ebdbb54b6df"
+    },
+    {
+      "donor_instance_id": "50600032_short_01",
+      "donor_pair_id": "50600032",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "20085016",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085016_03_mousebite.jpg",
+      "recipient_x": 156,
+      "recipient_y": 200,
+      "donor_bbox": [
+        237,
+        241,
+        276,
+        272
+      ],
+      "transported_bbox": [
+        156,
+        200,
+        195,
+        231
+      ],
+      "structural_edge_ncc": 0.7147332429885864,
+      "pixel_ncc": -0.5712690353393555,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600032_short_01.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600032_short_01.txt",
+      "image_sha256": "28330147209ae01817189bfc9fe2d6fa8525743842f11d8646dfbd8fcee89ba7",
+      "label_sha256": "7946ad2e588318a86d1ccc51564d1910803390644e5b9a9558058749e264436f"
+    },
+    {
+      "donor_instance_id": "77000082_short_05",
+      "donor_pair_id": "77000082",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "13000197",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000197_02_mousebite.jpg",
+      "recipient_x": 196,
+      "recipient_y": 344,
+      "donor_bbox": [
+        159,
+        161,
+        206,
+        194
+      ],
+      "transported_bbox": [
+        196,
+        344,
+        243,
+        377
+      ],
+      "structural_edge_ncc": 0.7067968845367432,
+      "pixel_ncc": -0.8313440084457397,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/77000082_short_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/77000082_short_05.txt",
+      "image_sha256": "16d8506aa262c17817472957886e80f25728ab901f28e2f2f1d1631a7593d4bc",
+      "label_sha256": "0ea00513625ef2febbee2dbdc0442d1c5f983564280a2f96fab145fba9daff0b"
+    },
+    {
+      "donor_instance_id": "77000083_short_04",
+      "donor_pair_id": "77000083",
+      "class_name": "short",
+      "class_id": 1,
+      "recipient_pair_id": "20085014",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085014_02_mousebite.jpg",
+      "recipient_x": 44,
+      "recipient_y": 288,
+      "donor_bbox": [
+        40,
+        116,
+        73,
+        162
+      ],
+      "transported_bbox": [
+        44,
+        288,
+        77,
+        334
+      ],
+      "structural_edge_ncc": 0.4572487771511078,
+      "pixel_ncc": 0.4669266939163208,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/77000083_short_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/77000083_short_04.txt",
+      "image_sha256": "f0252785738b37b97e4395eb3dda7f39b18c2cde03ec301008053a91e703a08a",
+      "label_sha256": "4094ab211fdd03382eb49334ef27c2ad048128f71f07c2b6145846cb8cc32120"
+    },
+    {
+      "donor_instance_id": "00041030_spur_07",
+      "donor_pair_id": "00041030",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "20085033",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085033_03_mousebite.jpg",
+      "recipient_x": 144,
+      "recipient_y": 400,
+      "donor_bbox": [
+        188,
+        243,
+        220,
+        271
+      ],
+      "transported_bbox": [
+        144,
+        400,
+        176,
+        428
+      ],
+      "structural_edge_ncc": 0.42435064911842346,
+      "pixel_ncc": 0.5318887829780579,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041030_spur_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041030_spur_07.txt",
+      "image_sha256": "00b2558e12b422db67bba10349edf9e832c7cdf088186ed8443fd6e75620fe23",
+      "label_sha256": "ce81384dfc944d0a3b616c7e5bc84caaeb9f8733cde850a188dda087ca2ed6d7"
+    },
+    {
+      "donor_instance_id": "00041039_spur_03",
+      "donor_pair_id": "00041039",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041046",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041046_01_mousebite.jpg",
+      "recipient_x": 352,
+      "recipient_y": 452,
+      "donor_bbox": [
+        349,
+        302,
+        385,
+        334
+      ],
+      "transported_bbox": [
+        352,
+        452,
+        388,
+        484
+      ],
+      "structural_edge_ncc": 0.8356704115867615,
+      "pixel_ncc": 0.9286157488822937,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041039_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041039_spur_03.txt",
+      "image_sha256": "ce28467611b8037d8eb0703b4679b08c5865bf61a783c2e77f7a37ca7dcdeaf0",
+      "label_sha256": "b4ef09079e3c7a29ebecc2e172899b1dd69c0d1e6ba0da49443cd1af4d274942"
+    },
+    {
+      "donor_instance_id": "00041057_spur_05",
+      "donor_pair_id": "00041057",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041190",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041190_02_mousebite.jpg",
+      "recipient_x": 472,
+      "recipient_y": 24,
+      "donor_bbox": [
+        86,
+        377,
+        118,
+        412
+      ],
+      "transported_bbox": [
+        472,
+        24,
+        504,
+        59
+      ],
+      "structural_edge_ncc": 0.5516163110733032,
+      "pixel_ncc": 0.738370418548584,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041057_spur_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041057_spur_05.txt",
+      "image_sha256": "8515a9003b90f736fbe4af8d3aa84e732f83ff0b9b13a22ae8dbce2c152dd04f",
+      "label_sha256": "7b947923bfb9c97da13f7d7e30c27fe9de923962cc726594994cbb92e04d2ada"
+    },
+    {
+      "donor_instance_id": "00041089_spur_06",
+      "donor_pair_id": "00041089",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041085",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041085_02_mousebite.jpg",
+      "recipient_x": 180,
+      "recipient_y": 316,
+      "donor_bbox": [
+        136,
+        88,
+        166,
+        117
+      ],
+      "transported_bbox": [
+        180,
+        316,
+        210,
+        345
+      ],
+      "structural_edge_ncc": 0.8805980682373047,
+      "pixel_ncc": 0.957192063331604,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041089_spur_06.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041089_spur_06.txt",
+      "image_sha256": "ab24817565b10f47fc790ed71b9730dc3d65fc840638478fe1e1511fbd99bfe6",
+      "label_sha256": "3e2f73dd0eec37f77fb9931da363f2683fb0765c4c30576fec70b5d0099f3102"
+    },
+    {
+      "donor_instance_id": "00041095_spur_02",
+      "donor_pair_id": "00041095",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "20085183",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085183_02_mousebite.jpg",
+      "recipient_x": 416,
+      "recipient_y": 208,
+      "donor_bbox": [
+        104,
+        239,
+        135,
+        274
+      ],
+      "transported_bbox": [
+        416,
+        208,
+        447,
+        243
+      ],
+      "structural_edge_ncc": 0.44422727823257446,
+      "pixel_ncc": 0.2443171590566635,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041095_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041095_spur_02.txt",
+      "image_sha256": "c4fd6d3ed3ae7976d3d0098b3a29282553b190107821108fac3abf327839524b",
+      "label_sha256": "937ab139fd85ec670010df6f42530215ad45958885ac9385461afc72fec4855e"
+    },
+    {
+      "donor_instance_id": "00041114_spur_02",
+      "donor_pair_id": "00041114",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041180",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041180_02_mousebite.jpg",
+      "recipient_x": 28,
+      "recipient_y": 92,
+      "donor_bbox": [
+        240,
+        252,
+        272,
+        293
+      ],
+      "transported_bbox": [
+        28,
+        92,
+        60,
+        133
+      ],
+      "structural_edge_ncc": 0.5129064917564392,
+      "pixel_ncc": 0.6083275675773621,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041114_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041114_spur_02.txt",
+      "image_sha256": "f278c2162348e59c57835ae83d84f266ade60b9e03478235c25ab7875ce7a4db",
+      "label_sha256": "9dd84c5014d56888216f8d27838ed5def738b615bf1933f2c6919c238f476c60"
+    },
+    {
+      "donor_instance_id": "00041142_spur_02",
+      "donor_pair_id": "00041142",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041095",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041095_05_mousebite.jpg",
+      "recipient_x": 180,
+      "recipient_y": 324,
+      "donor_bbox": [
+        152,
+        174,
+        186,
+        215
+      ],
+      "transported_bbox": [
+        180,
+        324,
+        214,
+        365
+      ],
+      "structural_edge_ncc": 0.6613579988479614,
+      "pixel_ncc": 0.9189133644104004,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041142_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041142_spur_02.txt",
+      "image_sha256": "56b6d85fec3386341edaee1ee1825897cd1e294d031990a4e73dfd951d924229",
+      "label_sha256": "405179f4caed4933a75a9f0e8a69dd97181c96df3187c8b9f192527416fdeddb"
+    },
+    {
+      "donor_instance_id": "00041180_spur_07",
+      "donor_pair_id": "00041180",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041181",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041181_04_mousebite.jpg",
+      "recipient_x": 300,
+      "recipient_y": 216,
+      "donor_bbox": [
+        237,
+        354,
+        276,
+        394
+      ],
+      "transported_bbox": [
+        300,
+        216,
+        339,
+        256
+      ],
+      "structural_edge_ncc": 0.6475810408592224,
+      "pixel_ncc": 0.9595040082931519,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041180_spur_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041180_spur_07.txt",
+      "image_sha256": "7f22af5a87f25818a860d794dddd7e55556266bdc24d262891b7befccd0eb30d",
+      "label_sha256": "825ef357a3f40918aa9fb5415cc3d350981481bbf10814882efb66102838554e"
+    },
+    {
+      "donor_instance_id": "13000017_spur_05",
+      "donor_pair_id": "13000017",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041089",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041089_02_mousebite.jpg",
+      "recipient_x": 304,
+      "recipient_y": 348,
+      "donor_bbox": [
+        390,
+        179,
+        419,
+        216
+      ],
+      "transported_bbox": [
+        304,
+        348,
+        333,
+        385
+      ],
+      "structural_edge_ncc": 0.7879465818405151,
+      "pixel_ncc": 0.9602564573287964,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000017_spur_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000017_spur_05.txt",
+      "image_sha256": "488c75f2458c98344461615e04517bb01d748e35e73d761008cbbc89a8a44f29",
+      "label_sha256": "a2c38bd51e9c3ac1ac0ee0d4f5b80ae12489ade425404a148ed55fbec812314e"
+    },
+    {
+      "donor_instance_id": "13000019_spur_08",
+      "donor_pair_id": "13000019",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "13000026",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000026_04_mousebite.jpg",
+      "recipient_x": 200,
+      "recipient_y": 96,
+      "donor_bbox": [
+        376,
+        269,
+        407,
+        302
+      ],
+      "transported_bbox": [
+        200,
+        96,
+        231,
+        129
+      ],
+      "structural_edge_ncc": 0.6505171060562134,
+      "pixel_ncc": 0.5340844988822937,
+      "photometric_scale_rgb": [
+        1.0079051382977708,
+        1.0079051382977708,
+        1.0079051382977708
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000019_spur_08.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000019_spur_08.txt",
+      "image_sha256": "7322d943fd1d2b344fdbb7e735ba232d548555275b55980efd4ba48f66d11c1e",
+      "label_sha256": "b51332f3cc768f6ac4d67f30e1223f47791e2a6eddf7f5dfb780996d45bef2c5"
+    },
+    {
+      "donor_instance_id": "13000027_spur_07",
+      "donor_pair_id": "13000027",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "13000009",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000009_01_mousebite.jpg",
+      "recipient_x": 300,
+      "recipient_y": 232,
+      "donor_bbox": [
+        324,
+        200,
+        354,
+        226
+      ],
+      "transported_bbox": [
+        300,
+        232,
+        330,
+        258
+      ],
+      "structural_edge_ncc": 0.4328204393386841,
+      "pixel_ncc": -0.4561244547367096,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000027_spur_07.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000027_spur_07.txt",
+      "image_sha256": "e35ae7011a8fb5a76c07a6a88b16809354feb00be1e80b2d6eb454368591e803",
+      "label_sha256": "93172d570e5f23887632eb2519359d938a1ec17cfeda3e94baccef1bdbf8cd92"
+    },
+    {
+      "donor_instance_id": "20085020_spur_04",
+      "donor_pair_id": "20085020",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041057",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041057_02_mousebite.jpg",
+      "recipient_x": 380,
+      "recipient_y": 128,
+      "donor_bbox": [
+        240,
+        314,
+        273,
+        339
+      ],
+      "transported_bbox": [
+        380,
+        128,
+        413,
+        153
+      ],
+      "structural_edge_ncc": 0.6457444429397583,
+      "pixel_ncc": 0.6981141567230225,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085020_spur_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085020_spur_04.txt",
+      "image_sha256": "ad70ae661efada32326b8db656c9435f55b065ac7cee5ec593ee56bd9cf09330",
+      "label_sha256": "eba72ed3f34e5fb8f3f70d0f2e8194477099db467e074b4104613766a4691c63"
+    },
+    {
+      "donor_instance_id": "20085062_spur_03",
+      "donor_pair_id": "20085062",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "77000019",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/77000019_01_mousebite.jpg",
+      "recipient_x": 360,
+      "recipient_y": 76,
+      "donor_bbox": [
+        262,
+        332,
+        302,
+        368
+      ],
+      "transported_bbox": [
+        360,
+        76,
+        400,
+        112
+      ],
+      "structural_edge_ncc": 0.6537010669708252,
+      "pixel_ncc": -0.8610126972198486,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085062_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085062_spur_03.txt",
+      "image_sha256": "39900916afabc9e4e4c0ae85d21f75cd4c833a497e1e12c99d5941044ac3dd1f",
+      "label_sha256": "2afc1d9611bb05ad0356ab0c9359c08132707e0f6f0b5d17fff4cd2eca6d40fa"
+    },
+    {
+      "donor_instance_id": "20085143_spur_02",
+      "donor_pair_id": "20085143",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041068",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041068_05_mousebite.jpg",
+      "recipient_x": 424,
+      "recipient_y": 472,
+      "donor_bbox": [
+        237,
+        307,
+        273,
+        333
+      ],
+      "transported_bbox": [
+        424,
+        472,
+        460,
+        498
+      ],
+      "structural_edge_ncc": 0.5344474911689758,
+      "pixel_ncc": 0.5876482129096985,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085143_spur_02.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085143_spur_02.txt",
+      "image_sha256": "31d28adbfac481e71bb784ca828a8433cae0e5a280e13b10ed3e4c8d483346d6",
+      "label_sha256": "0b77936c89aeb2aebd44489afd307ae017f36bf5ff864b0a125dd7b853566557"
+    },
+    {
+      "donor_instance_id": "20085203_spur_03",
+      "donor_pair_id": "20085203",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "13000023",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000023_04_mousebite.jpg",
+      "recipient_x": 220,
+      "recipient_y": 348,
+      "donor_bbox": [
+        206,
+        330,
+        240,
+        359
+      ],
+      "transported_bbox": [
+        220,
+        348,
+        254,
+        377
+      ],
+      "structural_edge_ncc": 0.9587517976760864,
+      "pixel_ncc": 0.994836688041687,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085203_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085203_spur_03.txt",
+      "image_sha256": "2f4c611524554f78fd555c56f0cc6ee4484bf9cad374178664cbd314f847f124",
+      "label_sha256": "ea871e305ddd323b63f935835aac270e5aa9c8f4c11cdcea576f6284de722182"
+    },
+    {
+      "donor_instance_id": "44000068_spur_03",
+      "donor_pair_id": "44000068",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "44000104",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000104_02_mousebite.jpg",
+      "recipient_x": 364,
+      "recipient_y": 248,
+      "donor_bbox": [
+        167,
+        250,
+        206,
+        277
+      ],
+      "transported_bbox": [
+        364,
+        248,
+        403,
+        275
+      ],
+      "structural_edge_ncc": 0.8911247849464417,
+      "pixel_ncc": 0.9683231115341187,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000068_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000068_spur_03.txt",
+      "image_sha256": "b31a7625d9df165dc85134d879695f0638a7898f75f7a7f60550a57c7d9f0e53",
+      "label_sha256": "84ff5f4b2b8e66a46a16b287cb63d653ce75edc7f4f21cf246307ea09618c365"
+    },
+    {
+      "donor_instance_id": "44000104_spur_04",
+      "donor_pair_id": "44000104",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "77000083",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/77000083_01_mousebite.jpg",
+      "recipient_x": 452,
+      "recipient_y": 376,
+      "donor_bbox": [
+        453,
+        232,
+        503,
+        280
+      ],
+      "transported_bbox": [
+        452,
+        376,
+        502,
+        424
+      ],
+      "structural_edge_ncc": 0.5605788230895996,
+      "pixel_ncc": -0.8826633095741272,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/44000104_spur_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/44000104_spur_04.txt",
+      "image_sha256": "5ce23226386f9831c7066f38672d40d1b2a779f49b3aa418d7274c6039a7aa9c",
+      "label_sha256": "f6fac7f9627100ceb3b5a52a8f1f84dd4fbbb0a2fa01fd93aeb260685dc2112e"
+    },
+    {
+      "donor_instance_id": "50600015_spur_03",
+      "donor_pair_id": "50600015",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "50600001",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600001_05_mousebite.jpg",
+      "recipient_x": 8,
+      "recipient_y": 460,
+      "donor_bbox": [
+        10,
+        161,
+        46,
+        189
+      ],
+      "transported_bbox": [
+        8,
+        460,
+        44,
+        488
+      ],
+      "structural_edge_ncc": 0.6607542037963867,
+      "pixel_ncc": -0.2464895248413086,
+      "photometric_scale_rgb": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600015_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600015_spur_03.txt",
+      "image_sha256": "c5116527fa3e05347906876e40a10af31260888f454b471872400759e398d0e4",
+      "label_sha256": "847e5fb3c4751c20296dce15328825d81eee5d47cc3ed87682a4fb61cb425cc0"
+    },
+    {
+      "donor_instance_id": "50600021_spur_03",
+      "donor_pair_id": "50600021",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "00041114",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041114_05_mousebite.jpg",
+      "recipient_x": 0,
+      "recipient_y": 44,
+      "donor_bbox": [
+        166,
+        355,
+        210,
+        390
+      ],
+      "transported_bbox": [
+        0,
+        44,
+        44,
+        79
+      ],
+      "structural_edge_ncc": 0.804177463054657,
+      "pixel_ncc": -0.9602042436599731,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600021_spur_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600021_spur_03.txt",
+      "image_sha256": "4faa13404592b1d0bb3f712778ddb9b38930e1b75483fbaa70a7d385b6a38928",
+      "label_sha256": "71b6fe3a08d74c70f8f7c8fcc79ec2287f500431eea6085948884cc4e3aab1a3"
+    },
+    {
+      "donor_instance_id": "92000044_spur_05",
+      "donor_pair_id": "92000044",
+      "class_name": "spur",
+      "class_id": 3,
+      "recipient_pair_id": "92000060",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000060_02_mousebite.jpg",
+      "recipient_x": 268,
+      "recipient_y": 416,
+      "donor_bbox": [
+        237,
+        236,
+        275,
+        276
+      ],
+      "transported_bbox": [
+        268,
+        416,
+        306,
+        456
+      ],
+      "structural_edge_ncc": 0.6382288932800293,
+      "pixel_ncc": 0.938517689704895,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000044_spur_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000044_spur_05.txt",
+      "image_sha256": "8698aa65cc600d5994b1e9b7de4525ea9c2290ac544eedee59ba79c770b469dc",
+      "label_sha256": "7361ffdc6b6ffbab1cce974767424b63945437d7d19575ec33b775ed8d186d06"
+    },
+    {
+      "donor_instance_id": "00041039_spurious_copper_05",
+      "donor_pair_id": "00041039",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041046",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041046_01_mousebite.jpg",
+      "recipient_x": 0,
+      "recipient_y": 0,
+      "donor_bbox": [
+        203,
+        226,
+        249,
+        286
+      ],
+      "transported_bbox": [
+        0,
+        0,
+        46,
+        60
+      ],
+      "structural_edge_ncc": 0.0,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041039_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041039_spurious_copper_05.txt",
+      "image_sha256": "d3a5cc5e804744bfdc4d8341f873870cacdfc30532254aa97ff6d9843ed018cc",
+      "label_sha256": "5ee92646d4bcf9ca9c239b544bc1a6204ba8561fb489ed1019e01c6feeebab78"
+    },
+    {
+      "donor_instance_id": "00041046_spurious_copper_04",
+      "donor_pair_id": "00041046",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041047",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041047_06_mousebite.jpg",
+      "recipient_x": 252,
+      "recipient_y": 120,
+      "donor_bbox": [
+        163,
+        221,
+        236,
+        292
+      ],
+      "transported_bbox": [
+        252,
+        120,
+        325,
+        191
+      ],
+      "structural_edge_ncc": 0.9044607281684875,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041046_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041046_spurious_copper_04.txt",
+      "image_sha256": "7a1c0a391d2086c0fc07fb59d19422d7cbfaac8f5945ce799d3eb729beb8ad5b",
+      "label_sha256": "69ced983ab079e37e51e02da04080c87748faac4cb0731ab7d40f6bfe1442562"
+    },
+    {
+      "donor_instance_id": "00041068_spurious_copper_03",
+      "donor_pair_id": "00041068",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "92000081",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000081_02_mousebite.jpg",
+      "recipient_x": 376,
+      "recipient_y": 436,
+      "donor_bbox": [
+        242,
+        235,
+        271,
+        274
+      ],
+      "transported_bbox": [
+        376,
+        436,
+        405,
+        475
+      ],
+      "structural_edge_ncc": 0.5519115924835205,
+      "pixel_ncc": 0.6870900988578796,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041068_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041068_spurious_copper_03.txt",
+      "image_sha256": "bd8069ad6d78e7c7b663d801c33072ec6009675064a8917a266f532e2153dec2",
+      "label_sha256": "db16bd681532e5cd9da46a58ab19f191a822a5f26a6c8998f447cf5421512b91"
+    },
+    {
+      "donor_instance_id": "00041085_spurious_copper_03",
+      "donor_pair_id": "00041085",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "50600015",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600015_02_mousebite.jpg",
+      "recipient_x": 304,
+      "recipient_y": 164,
+      "donor_bbox": [
+        215,
+        369,
+        251,
+        403
+      ],
+      "transported_bbox": [
+        304,
+        164,
+        340,
+        198
+      ],
+      "structural_edge_ncc": 0.9846252202987671,
+      "pixel_ncc": -0.9967718124389648,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041085_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041085_spurious_copper_03.txt",
+      "image_sha256": "18d845e009f7c036a107b7f129f75f7be3b8e11fee060a1acdfe273e5707a18f",
+      "label_sha256": "705c2a3ed4765229545cdaf849e13047ec51f41ab374fb30f02672fa821f7c1e"
+    },
+    {
+      "donor_instance_id": "00041125_spurious_copper_03",
+      "donor_pair_id": "00041125",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "50600015",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600015_02_mousebite.jpg",
+      "recipient_x": 132,
+      "recipient_y": 264,
+      "donor_bbox": [
+        174,
+        240,
+        208,
+        273
+      ],
+      "transported_bbox": [
+        132,
+        264,
+        166,
+        297
+      ],
+      "structural_edge_ncc": 0.5993738174438477,
+      "pixel_ncc": 0.6008802056312561,
+      "photometric_scale_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041125_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041125_spurious_copper_03.txt",
+      "image_sha256": "64c94fdb5d38ec1aa6513343345c4c07ae2ff4b25c44cc0d446689e762cc5882",
+      "label_sha256": "9d483daa9861a3f60887f713fb4e857d6965ccecc88d18f63f134a370dcb091a"
+    },
+    {
+      "donor_instance_id": "00041142_spurious_copper_04",
+      "donor_pair_id": "00041142",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041039",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041039_02_mousebite.jpg",
+      "recipient_x": 0,
+      "recipient_y": 0,
+      "donor_bbox": [
+        239,
+        238,
+        271,
+        274
+      ],
+      "transported_bbox": [
+        0,
+        0,
+        32,
+        36
+      ],
+      "structural_edge_ncc": 0.0,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/00041142_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/00041142_spurious_copper_04.txt",
+      "image_sha256": "5bb5e1d5cb2cebd115c6a9962a4302252acd220bb6fff00ae95e0bc15fe7268a",
+      "label_sha256": "4234d5dc8fd262fed4700736457ff694e666c0d6d88d9c429c8a45db3b08500d"
+    },
+    {
+      "donor_instance_id": "13000097_spurious_copper_04",
+      "donor_pair_id": "13000097",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "13000174",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000174_05_mousebite.jpg",
+      "recipient_x": 308,
+      "recipient_y": 36,
+      "donor_bbox": [
+        214,
+        234,
+        242,
+        278
+      ],
+      "transported_bbox": [
+        308,
+        36,
+        336,
+        80
+      ],
+      "structural_edge_ncc": 0.9770206809043884,
+      "pixel_ncc": -0.9954478144645691,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000097_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000097_spurious_copper_04.txt",
+      "image_sha256": "e2ec0d0aaeb67cd9dbd0e8222ac976929423a5e6c6696e8fb0c186f412300a07",
+      "label_sha256": "45b336b004c11c0add3cae1a86430173be2635f2367226ee5400265be188f7d1"
+    },
+    {
+      "donor_instance_id": "13000118_spurious_copper_04",
+      "donor_pair_id": "13000118",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "20085020",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085020_03_mousebite.jpg",
+      "recipient_x": 208,
+      "recipient_y": 100,
+      "donor_bbox": [
+        177,
+        149,
+        216,
+        190
+      ],
+      "transported_bbox": [
+        208,
+        100,
+        247,
+        141
+      ],
+      "structural_edge_ncc": 0.9041160941123962,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000118_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000118_spurious_copper_04.txt",
+      "image_sha256": "b8c1bc14246fb17d63563dea68114106bc823f3caba176a1cf14b2a74d18efa4",
+      "label_sha256": "3c94857ac236ba9d736615d2d49e14af4dfff97cf5536d36fb8edf5f0232856f"
+    },
+    {
+      "donor_instance_id": "13000197_spurious_copper_04",
+      "donor_pair_id": "13000197",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041039",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041039_02_mousebite.jpg",
+      "recipient_x": 0,
+      "recipient_y": 0,
+      "donor_bbox": [
+        120,
+        239,
+        160,
+        273
+      ],
+      "transported_bbox": [
+        0,
+        0,
+        40,
+        34
+      ],
+      "structural_edge_ncc": 0.0,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/13000197_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/13000197_spurious_copper_04.txt",
+      "image_sha256": "9c9f95a4b25ec75800cba1caa4ff3d7a27abf4b2b2988fab3be7e24d4848469e",
+      "label_sha256": "afb8045b02079cb20d47c6c65126757ba1e1741d3a1bf918e514a746d4668e71"
+    },
+    {
+      "donor_instance_id": "20085014_spurious_copper_04",
+      "donor_pair_id": "20085014",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "20085016",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085016_03_mousebite.jpg",
+      "recipient_x": 452,
+      "recipient_y": 332,
+      "donor_bbox": [
+        59,
+        309,
+        89,
+        332
+      ],
+      "transported_bbox": [
+        452,
+        332,
+        482,
+        355
+      ],
+      "structural_edge_ncc": 0.9195492267608643,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085014_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085014_spurious_copper_04.txt",
+      "image_sha256": "6f22fd6418a9d529f4cf6d6d9ca000d47f65d0678ea9c94f5b7a4268e500dd08",
+      "label_sha256": "3c0734da4a645cead4338afc29c586a13e6493bf6d395caff79441f860408fb4"
+    },
+    {
+      "donor_instance_id": "20085026_spurious_copper_04",
+      "donor_pair_id": "20085026",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041047",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041047_06_mousebite.jpg",
+      "recipient_x": 0,
+      "recipient_y": 0,
+      "donor_bbox": [
+        238,
+        175,
+        275,
+        215
+      ],
+      "transported_bbox": [
+        0,
+        0,
+        37,
+        40
+      ],
+      "structural_edge_ncc": 0.0,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085026_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085026_spurious_copper_04.txt",
+      "image_sha256": "08090775758688e8445dc86786f15aea880d6543e954bbd07f20b1d78cf6f185",
+      "label_sha256": "87899e78f0c8f4210646f381a628f124599537b0bd9eab2a89a3ad30b48d957a"
+    },
+    {
+      "donor_instance_id": "20085027_spurious_copper_04",
+      "donor_pair_id": "20085027",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "20085185",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/20085185_03_mousebite.jpg",
+      "recipient_x": 84,
+      "recipient_y": 164,
+      "donor_bbox": [
+        167,
+        239,
+        205,
+        273
+      ],
+      "transported_bbox": [
+        84,
+        164,
+        122,
+        198
+      ],
+      "structural_edge_ncc": 0.9051881432533264,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085027_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085027_spurious_copper_04.txt",
+      "image_sha256": "77bf6b6cf2f0686419fd4ae0f543a8cbdfe14c84a095bb002d693b1027af63c7",
+      "label_sha256": "3551c39215a3b50dd0a886171dec7dd9720cc71e7600e16600d1c648bd50b8d0"
+    },
+    {
+      "donor_instance_id": "20085143_spurious_copper_04",
+      "donor_pair_id": "20085143",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "44000107",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/44000107_02_mousebite.jpg",
+      "recipient_x": 196,
+      "recipient_y": 0,
+      "donor_bbox": [
+        98,
+        382,
+        131,
+        417
+      ],
+      "transported_bbox": [
+        196,
+        0,
+        229,
+        35
+      ],
+      "structural_edge_ncc": 0.6578752398490906,
+      "pixel_ncc": 0.6481056809425354,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085143_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085143_spurious_copper_04.txt",
+      "image_sha256": "f9e6a9d95de089d3c6d701662d2f690d7e804f3d50d878aada0cbb05c99a0bed",
+      "label_sha256": "e6ae8a3a6027e283ff82fd22b2cb19373602c1ac9810c2d07c4a6e02524693b3"
+    },
+    {
+      "donor_instance_id": "20085155_spurious_copper_04",
+      "donor_pair_id": "20085155",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "13000174",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000174_05_mousebite.jpg",
+      "recipient_x": 268,
+      "recipient_y": 308,
+      "donor_bbox": [
+        152,
+        79,
+        183,
+        112
+      ],
+      "transported_bbox": [
+        268,
+        308,
+        299,
+        341
+      ],
+      "structural_edge_ncc": 0.8839783072471619,
+      "pixel_ncc": -0.9472575187683105,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085155_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085155_spurious_copper_04.txt",
+      "image_sha256": "e2ec0d0aaeb67cd9dbd0e8222ac976929423a5e6c6696e8fb0c186f412300a07",
+      "label_sha256": "2bf483e2100b19ee2e2a7e7643145be123f5d75b7fe0d2b1196a42016e17daf1"
+    },
+    {
+      "donor_instance_id": "20085183_spurious_copper_05",
+      "donor_pair_id": "20085183",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041180",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041180_02_mousebite.jpg",
+      "recipient_x": 316,
+      "recipient_y": 148,
+      "donor_bbox": [
+        208,
+        243,
+        237,
+        269
+      ],
+      "transported_bbox": [
+        316,
+        148,
+        345,
+        174
+      ],
+      "structural_edge_ncc": 0.903663694858551,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085183_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085183_spurious_copper_05.txt",
+      "image_sha256": "b5989a864613f533069147e3b5d20e1d6039f7bb233d99c7ab99788a72c6ac59",
+      "label_sha256": "61216d238938e5a707dbe61606da3b1cc4017d2e3f95c2986e8516afee2e8a6d"
+    },
+    {
+      "donor_instance_id": "20085203_spurious_copper_04",
+      "donor_pair_id": "20085203",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "13000024",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/13000024_04_mousebite.jpg",
+      "recipient_x": 292,
+      "recipient_y": 340,
+      "donor_bbox": [
+        221,
+        261,
+        256,
+        293
+      ],
+      "transported_bbox": [
+        292,
+        340,
+        327,
+        372
+      ],
+      "structural_edge_ncc": 0.6675987839698792,
+      "pixel_ncc": 0.0,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085203_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085203_spurious_copper_04.txt",
+      "image_sha256": "6cf94b3e327e72b7f26c2ae6e1a39b981b380548964c64e0a7cc79fa1edb6f93",
+      "label_sha256": "af1f438aa6e37aa26cbcae4fe22554f89fe8cb8c9aa827cbc43e3132ebec130a"
+    },
+    {
+      "donor_instance_id": "20085221_spurious_copper_11",
+      "donor_pair_id": "20085221",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "50600024",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/50600024_02_mousebite.jpg",
+      "recipient_x": 64,
+      "recipient_y": 60,
+      "donor_bbox": [
+        383,
+        259,
+        409,
+        292
+      ],
+      "transported_bbox": [
+        64,
+        60,
+        90,
+        93
+      ],
+      "structural_edge_ncc": 0.672141432762146,
+      "pixel_ncc": -0.5606661438941956,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/20085221_spurious_copper_11.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/20085221_spurious_copper_11.txt",
+      "image_sha256": "fe0756abb3b9b5db0d98d8a9d19b82db0ba695cf6e3aa156c448989b4e91ab8d",
+      "label_sha256": "8c42d810d808e07cdec807b3698ca0aaf4f364cc606c50546d14e24896c4a6e8"
+    },
+    {
+      "donor_instance_id": "50600032_spurious_copper_03",
+      "donor_pair_id": "50600032",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "92000044",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000044_02_mousebite.jpg",
+      "recipient_x": 268,
+      "recipient_y": 276,
+      "donor_bbox": [
+        236,
+        26,
+        277,
+        62
+      ],
+      "transported_bbox": [
+        268,
+        276,
+        309,
+        312
+      ],
+      "structural_edge_ncc": 0.9980118274688721,
+      "pixel_ncc": -0.9992261528968811,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/50600032_spurious_copper_03.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/50600032_spurious_copper_03.txt",
+      "image_sha256": "5fa323da9144cedbe62fdfd0a7986893dd95e71bc00c55797f5df82e4b6b142e",
+      "label_sha256": "ee955663830d2cd9f7dd0cae2d41cb5881e972c3e4231f49b0014dc9dcbdedd9"
+    },
+    {
+      "donor_instance_id": "77000044_spurious_copper_04",
+      "donor_pair_id": "77000044",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "00041114",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/00041114_05_mousebite.jpg",
+      "recipient_x": 396,
+      "recipient_y": 364,
+      "donor_bbox": [
+        429,
+        418,
+        465,
+        454
+      ],
+      "transported_bbox": [
+        396,
+        364,
+        432,
+        400
+      ],
+      "structural_edge_ncc": 0.947723388671875,
+      "pixel_ncc": -0.9903918504714966,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/77000044_spurious_copper_04.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/77000044_spurious_copper_04.txt",
+      "image_sha256": "5989aa5ac3f73622fa94fb36e94ae8da01c047f9c68a72ef06843afefe872d56",
+      "label_sha256": "4c716ae68bcf2b54c7a6a765232e7066444668e61b380915101cf805666a9ba0"
+    },
+    {
+      "donor_instance_id": "92000077_spurious_copper_05",
+      "donor_pair_id": "92000077",
+      "class_name": "spurious_copper",
+      "class_id": 4,
+      "recipient_pair_id": "92000060",
+      "recipient_image": "/mnt/sda/cbj/dataset/DeepPCB_stage1_lowdata_s20260917/DeepPCB/paired_normal/mousebite/92000060_02_mousebite.jpg",
+      "recipient_x": 204,
+      "recipient_y": 384,
+      "donor_bbox": [
+        237,
+        410,
+        275,
+        459
+      ],
+      "transported_bbox": [
+        204,
+        384,
+        242,
+        433
+      ],
+      "structural_edge_ncc": 0.7158176898956299,
+      "pixel_ncc": 0.940503716468811,
+      "photometric_scale_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "image_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/images/92000077_spurious_copper_05.png",
+      "label_path": "/mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42/cpt120/labels/92000077_spurious_copper_05.txt",
+      "image_sha256": "3d137df4dad20a8c96b7eb63ef8466aa8d941cc62755a116a662015ebc4d0bc3",
+      "label_sha256": "457ae324beb6d40586d13078bf703e5085d206debd0061b6d4777b2027ce5eba"
+    }
+  ]
+}

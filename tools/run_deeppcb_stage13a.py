@@ -30,7 +30,9 @@ def main():
  p=argparse.ArgumentParser()
  for n in ("protocol","prepared","stage11b","stage11b_runs","real_dataset","model","dataset_root","runs","output"):p.add_argument("--"+n,type=Path,required=True)
  p.add_argument("--device",default="0");a=p.parse_args();a.runs=a.runs.resolve();a.output.mkdir(parents=True,exist_ok=True);cfg=load(a.protocol);mf=a.prepared/"cpt120_manifest.json";freeze=load(a.prepared/"cpt120_manifest_freeze.json")
- if sha(mf)!=freeze["sha256"]:raise RuntimeError("STAGE13A_MANIFEST_CHANGED")
+ frozen_sha=freeze.get("manifest_sha256",freeze.get("sha256"))
+ if not frozen_sha:raise RuntimeError("STAGE13A_MANIFEST_FREEZE_SHA_MISSING")
+ if sha(mf)!=frozen_sha:raise RuntimeError("STAGE13A_MANIFEST_CHANGED")
  manifest=load(mf);assert manifest["status"]=="FROZEN" and manifest["count"]==120
  root=a.dataset_root/"cpt120";base_i={p.stem:p for p in (a.real_dataset/"images/train").iterdir()};base_l={p.stem:p for p in (a.real_dataset/"labels/train").iterdir()}
  if len(base_i)!=100 or set(base_i)!=set(base_l):raise RuntimeError("STAGE13A_BASE_DATASET_INVALID")

@@ -1,0 +1,1237 @@
+{
+  "status": "PASS",
+  "summary": {
+    "lpips": {
+      "median": 5.97228392962279e-07,
+      "q90": 2.3358591988653686e-06,
+      "q95": 3.3229051041416822e-06,
+      "max": 9.159482033282984e-06
+    },
+    "ssim": {
+      "median": 0.999999036802524,
+      "q90": 1.0,
+      "q95": 1.0,
+      "max": 1.0
+    },
+    "edge_cosine": {
+      "median": 0.999999419415244,
+      "q90": 1.0,
+      "q95": 1.0000000000000002,
+      "max": 1.0000000000000002
+    },
+    "boundary_gradient_cosine": {
+      "median": 0.999998134159892,
+      "q90": 1.0,
+      "q95": 1.0,
+      "max": 1.0000000000000002
+    },
+    "target_mask_mae": {
+      "median": 0.012838827838827838,
+      "q90": 0.05360221674876847,
+      "q95": 0.061616300366300364,
+      "max": 0.10683760683760683
+    }
+  },
+  "records": [
+    {
+      "instance_id": "00041142_open_00",
+      "lpips": 1.9284666450403165e-06,
+      "ssim": 0.9999972270243402,
+      "edge_cosine": 0.9999989901370735,
+      "boundary_gradient_cosine": 0.9999975055127974,
+      "target_mask_mae": 0.024479166666666666,
+      "clipping_fraction": 0.9209747314453125,
+      "finite": true
+    },
+    {
+      "instance_id": "13000110_open_00",
+      "lpips": 5.945317411715223e-07,
+      "ssim": 0.9999994410240399,
+      "edge_cosine": 0.9999993546622082,
+      "boundary_gradient_cosine": 0.9999975256890355,
+      "target_mask_mae": 0.020892687559354226,
+      "clipping_fraction": 0.973907470703125,
+      "finite": true
+    },
+    {
+      "instance_id": "20085217_open_00",
+      "lpips": 3.7676932151953224e-07,
+      "ssim": 0.9999993778091789,
+      "edge_cosine": 0.9999995156037338,
+      "boundary_gradient_cosine": 0.9999980245027791,
+      "target_mask_mae": 0.014792899408284023,
+      "clipping_fraction": 0.9683113098144531,
+      "finite": true
+    },
+    {
+      "instance_id": "20085221_open_00",
+      "lpips": 2.0473337372095557e-06,
+      "ssim": 0.9999932022952275,
+      "edge_cosine": 0.9999979436990222,
+      "boundary_gradient_cosine": 0.9999942161876583,
+      "target_mask_mae": 0.06881533101045297,
+      "clipping_fraction": 0.9243202209472656,
+      "finite": true
+    },
+    {
+      "instance_id": "50600032_open_00",
+      "lpips": 1.6898710555324215e-06,
+      "ssim": 0.9999982210881572,
+      "edge_cosine": 0.9999992832175875,
+      "boundary_gradient_cosine": 0.9999987076773871,
+      "target_mask_mae": 0.012004801920768308,
+      "clipping_fraction": 0.9555397033691406,
+      "finite": true
+    },
+    {
+      "instance_id": "00041125_open_00",
+      "lpips": 1.4956616496419883e-06,
+      "ssim": 0.9999982919464059,
+      "edge_cosine": 0.9999991162494339,
+      "boundary_gradient_cosine": 0.9999981476428191,
+      "target_mask_mae": 0.009523809523809525,
+      "clipping_fraction": 0.8999710083007812,
+      "finite": true
+    },
+    {
+      "instance_id": "13000024_open_01",
+      "lpips": 5.526052518689539e-06,
+      "ssim": 0.9999938837792128,
+      "edge_cosine": 0.9999970137075939,
+      "boundary_gradient_cosine": 0.9999929810259465,
+      "target_mask_mae": 0.043209876543209874,
+      "clipping_fraction": 0.9482917785644531,
+      "finite": true
+    },
+    {
+      "instance_id": "44000110_open_00",
+      "lpips": 5.668307494488545e-07,
+      "ssim": 0.9999989531863647,
+      "edge_cosine": 0.9999993730253571,
+      "boundary_gradient_cosine": 0.9999964175910151,
+      "target_mask_mae": 0.01394384774825702,
+      "clipping_fraction": 0.9192962646484375,
+      "finite": true
+    },
+    {
+      "instance_id": "50600021_open_00",
+      "lpips": 4.66080791738932e-06,
+      "ssim": 0.9999960225055857,
+      "edge_cosine": 0.999997630410108,
+      "boundary_gradient_cosine": 0.9999962182404357,
+      "target_mask_mae": 0.041578576462297394,
+      "clipping_fraction": 0.93695068359375,
+      "finite": true
+    },
+    {
+      "instance_id": "44000092_open_01",
+      "lpips": 1.8608482150739292e-06,
+      "ssim": 0.9999976046120042,
+      "edge_cosine": 0.9999983085021583,
+      "boundary_gradient_cosine": 0.9999959193172215,
+      "target_mask_mae": 0.02431476569407604,
+      "clipping_fraction": 0.9452896118164062,
+      "finite": true
+    },
+    {
+      "instance_id": "20085071_open_00",
+      "lpips": 2.6768799443743774e-07,
+      "ssim": 0.999999666223295,
+      "edge_cosine": 0.9999998820367046,
+      "boundary_gradient_cosine": 0.999999445089697,
+      "target_mask_mae": 0.009523809523809525,
+      "clipping_fraction": 0.8942108154296875,
+      "finite": true
+    },
+    {
+      "instance_id": "44000096_open_00",
+      "lpips": 6.436492299144447e-07,
+      "ssim": 0.9999992611656957,
+      "edge_cosine": 0.99999937641323,
+      "boundary_gradient_cosine": 0.99999794121141,
+      "target_mask_mae": 0.017408123791102514,
+      "clipping_fraction": 0.9792366027832031,
+      "finite": true
+    },
+    {
+      "instance_id": "44000086_open_00",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9758758544921875,
+      "finite": true
+    },
+    {
+      "instance_id": "92000006_open_00",
+      "lpips": 8.646649121146766e-07,
+      "ssim": 0.9999990677915157,
+      "edge_cosine": 0.9999994396032044,
+      "boundary_gradient_cosine": 0.999996709745343,
+      "target_mask_mae": 0.009745762711864408,
+      "clipping_fraction": 0.9556503295898438,
+      "finite": true
+    },
+    {
+      "instance_id": "92000081_open_00",
+      "lpips": 3.590205039927241e-07,
+      "ssim": 0.9999997992276791,
+      "edge_cosine": 0.9999998170771979,
+      "boundary_gradient_cosine": 0.9999987750400758,
+      "target_mask_mae": 0.005807200929152149,
+      "clipping_fraction": 0.940093994140625,
+      "finite": true
+    },
+    {
+      "instance_id": "92000077_open_00",
+      "lpips": 5.409906407294329e-07,
+      "ssim": 0.9999995573778871,
+      "edge_cosine": 0.9999996535684408,
+      "boundary_gradient_cosine": 0.9999974656039462,
+      "target_mask_mae": 0.004831932773109244,
+      "clipping_fraction": 0.9590797424316406,
+      "finite": true
+    },
+    {
+      "instance_id": "20085201_open_00",
+      "lpips": 3.306069629616104e-06,
+      "ssim": 0.9999905308187791,
+      "edge_cosine": 0.9999977904881695,
+      "boundary_gradient_cosine": 0.9999966206829529,
+      "target_mask_mae": 0.07551020408163266,
+      "clipping_fraction": 0.9477119445800781,
+      "finite": true
+    },
+    {
+      "instance_id": "92000060_open_00",
+      "lpips": 2.697802301554475e-07,
+      "ssim": 0.9999997934675612,
+      "edge_cosine": 0.9999998249500541,
+      "boundary_gradient_cosine": 0.9999986278118472,
+      "target_mask_mae": 0.00699912510936133,
+      "clipping_fraction": 0.9450454711914062,
+      "finite": true
+    },
+    {
+      "instance_id": "44000107_open_00",
+      "lpips": 4.810385121345462e-07,
+      "ssim": 0.9999979193048277,
+      "edge_cosine": 0.999999340453139,
+      "boundary_gradient_cosine": 0.9999980955743025,
+      "target_mask_mae": 0.007945205479452055,
+      "clipping_fraction": 0.9901885986328125,
+      "finite": true
+    },
+    {
+      "instance_id": "20085107_open_00",
+      "lpips": 5.574347028414195e-07,
+      "ssim": 0.9999991902541415,
+      "edge_cosine": 0.9999996742805992,
+      "boundary_gradient_cosine": 0.9999992580630117,
+      "target_mask_mae": 0.022988505747126436,
+      "clipping_fraction": 0.8560028076171875,
+      "finite": true
+    },
+    {
+      "instance_id": "13000037_short_03",
+      "lpips": 1.0054786798718851e-06,
+      "ssim": 0.99999863214857,
+      "edge_cosine": 0.9999993066260092,
+      "boundary_gradient_cosine": 0.9999976452805504,
+      "target_mask_mae": 0.02744148506860371,
+      "clipping_fraction": 0.9375762939453125,
+      "finite": true
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "lpips": 5.264829496809398e-07,
+      "ssim": 0.999998966191861,
+      "edge_cosine": 0.9999994691586019,
+      "boundary_gradient_cosine": 0.9999986350563362,
+      "target_mask_mae": 0.009566326530612245,
+      "clipping_fraction": 0.9368209838867188,
+      "finite": true
+    },
+    {
+      "instance_id": "00041180_short_01",
+      "lpips": 1.2775606137438444e-06,
+      "ssim": 0.9999993535365043,
+      "edge_cosine": 0.9999992054532759,
+      "boundary_gradient_cosine": 0.9999970328012195,
+      "target_mask_mae": 0.01884057971014493,
+      "clipping_fraction": 0.9559402465820312,
+      "finite": true
+    },
+    {
+      "instance_id": "50600032_short_01",
+      "lpips": 4.825198516300588e-07,
+      "ssim": 0.9999995517039498,
+      "edge_cosine": 0.9999998048651886,
+      "boundary_gradient_cosine": 0.9999992833451821,
+      "target_mask_mae": 0.009098428453267164,
+      "clipping_fraction": 0.9482192993164062,
+      "finite": true
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "lpips": 1.3362969184527174e-06,
+      "ssim": 0.9999984380049307,
+      "edge_cosine": 0.9999992620027108,
+      "boundary_gradient_cosine": 0.9999979961850061,
+      "target_mask_mae": 0.01160541586073501,
+      "clipping_fraction": 0.9621200561523438,
+      "finite": true
+    },
+    {
+      "instance_id": "77000083_short_04",
+      "lpips": 1.4951206139812712e-06,
+      "ssim": 0.9999989098494143,
+      "edge_cosine": 0.9999993928155895,
+      "boundary_gradient_cosine": 0.9999985767267815,
+      "target_mask_mae": 0.015810276679841896,
+      "clipping_fraction": 0.9793548583984375,
+      "finite": true
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "lpips": 5.493995445249311e-07,
+      "ssim": 0.9999992054304748,
+      "edge_cosine": 0.9999991212873344,
+      "boundary_gradient_cosine": 0.9999986554443973,
+      "target_mask_mae": 0.020253164556962026,
+      "clipping_fraction": 0.9798507690429688,
+      "finite": true
+    },
+    {
+      "instance_id": "13000102_short_01",
+      "lpips": 1.1601168807828799e-06,
+      "ssim": 0.999998832601729,
+      "edge_cosine": 0.9999994469152974,
+      "boundary_gradient_cosine": 0.9999982458760243,
+      "target_mask_mae": 0.03840970350404313,
+      "clipping_fraction": 0.823577880859375,
+      "finite": true
+    },
+    {
+      "instance_id": "00041046_short_02",
+      "lpips": 1.867647824838059e-06,
+      "ssim": 0.9999990281012744,
+      "edge_cosine": 0.9999994994606429,
+      "boundary_gradient_cosine": 0.9999983201734808,
+      "target_mask_mae": 0.00608695652173913,
+      "clipping_fraction": 0.9766960144042969,
+      "finite": true
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "lpips": 6.420985414479219e-07,
+      "ssim": 0.9999973942625383,
+      "edge_cosine": 0.9999989851078531,
+      "boundary_gradient_cosine": 0.9999977037928176,
+      "target_mask_mae": 0.06153846153846154,
+      "clipping_fraction": 0.9531135559082031,
+      "finite": true
+    },
+    {
+      "instance_id": "20085016_short_02",
+      "lpips": 1.5119513818717678e-06,
+      "ssim": 0.9999972367052394,
+      "edge_cosine": 0.9999984526712341,
+      "boundary_gradient_cosine": 0.999997272470907,
+      "target_mask_mae": 0.013111888111888112,
+      "clipping_fraction": 0.9327735900878906,
+      "finite": true
+    },
+    {
+      "instance_id": "20085155_short_01",
+      "lpips": 1.1270756203884957e-06,
+      "ssim": 0.9999968128891631,
+      "edge_cosine": 0.9999990757566178,
+      "boundary_gradient_cosine": 0.9999975860273247,
+      "target_mask_mae": 0.0451505016722408,
+      "clipping_fraction": 0.9889183044433594,
+      "finite": true
+    },
+    {
+      "instance_id": "20085090_short_01",
+      "lpips": 1.1401480151107535e-06,
+      "ssim": 0.9999972852461988,
+      "edge_cosine": 0.9999989187435402,
+      "boundary_gradient_cosine": 0.9999971701183841,
+      "target_mask_mae": 0.03774464119291705,
+      "clipping_fraction": 0.9455108642578125,
+      "finite": true
+    },
+    {
+      "instance_id": "00041095_short_01",
+      "lpips": 1.7905961158248829e-06,
+      "ssim": 0.9999973739055386,
+      "edge_cosine": 0.9999978651308897,
+      "boundary_gradient_cosine": 0.9999965529965297,
+      "target_mask_mae": 0.03268765133171913,
+      "clipping_fraction": 0.9400787353515625,
+      "finite": true
+    },
+    {
+      "instance_id": "20085051_short_01",
+      "lpips": 6.607933187297022e-07,
+      "ssim": 0.9999987369055386,
+      "edge_cosine": 0.9999995532190395,
+      "boundary_gradient_cosine": 0.9999966439124061,
+      "target_mask_mae": 0.015644955300127713,
+      "clipping_fraction": 0.9760932922363281,
+      "finite": true
+    },
+    {
+      "instance_id": "44000104_short_01",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9783973693847656,
+      "finite": true
+    },
+    {
+      "instance_id": "44000086_short_01",
+      "lpips": 1.1608991599132423e-06,
+      "ssim": 0.9999979242265269,
+      "edge_cosine": 0.9999991895517191,
+      "boundary_gradient_cosine": 0.9999968140436059,
+      "target_mask_mae": 0.009259259259259259,
+      "clipping_fraction": 0.9618263244628906,
+      "finite": true
+    },
+    {
+      "instance_id": "20085203_short_01",
+      "lpips": 2.0772804418811575e-06,
+      "ssim": 0.9999981344174923,
+      "edge_cosine": 0.9999986949628001,
+      "boundary_gradient_cosine": 0.9999960561850763,
+      "target_mask_mae": 0.03777777777777778,
+      "clipping_fraction": 0.9898605346679688,
+      "finite": true
+    },
+    {
+      "instance_id": "00041133_short_01",
+      "lpips": 1.1296085631329333e-06,
+      "ssim": 0.999998978355619,
+      "edge_cosine": 0.9999996485960678,
+      "boundary_gradient_cosine": 0.9999992079101745,
+      "target_mask_mae": 0.014652014652014652,
+      "clipping_fraction": 0.9475517272949219,
+      "finite": true
+    },
+    {
+      "instance_id": "20085217_short_01",
+      "lpips": 3.383050398042542e-06,
+      "ssim": 0.9999965468009333,
+      "edge_cosine": 0.9999980426060043,
+      "boundary_gradient_cosine": 0.9999944504748314,
+      "target_mask_mae": 0.01875,
+      "clipping_fraction": 0.94879150390625,
+      "finite": true
+    },
+    {
+      "instance_id": "77000019_mousebite_01",
+      "lpips": 2.2261102117226983e-07,
+      "ssim": 0.9999997710890552,
+      "edge_cosine": 0.9999997850092774,
+      "boundary_gradient_cosine": 0.9999983904544174,
+      "target_mask_mae": 0.004545454545454545,
+      "clipping_fraction": 0.975250244140625,
+      "finite": true
+    },
+    {
+      "instance_id": "13000102_mousebite_03",
+      "lpips": 7.443410936502914e-07,
+      "ssim": 0.9999996570763491,
+      "edge_cosine": 0.9999997650265683,
+      "boundary_gradient_cosine": 0.9999993464818567,
+      "target_mask_mae": 0.013184584178498986,
+      "clipping_fraction": 0.8643989562988281,
+      "finite": true
+    },
+    {
+      "instance_id": "44000086_mousebite_04",
+      "lpips": 2.286374410687131e-06,
+      "ssim": 0.9999966004880725,
+      "edge_cosine": 0.9999982808172048,
+      "boundary_gradient_cosine": 0.9999966346309035,
+      "target_mask_mae": 0.0422360248447205,
+      "clipping_fraction": 0.9748954772949219,
+      "finite": true
+    },
+    {
+      "instance_id": "50600032_mousebite_05",
+      "lpips": 2.1594958070636494e-06,
+      "ssim": 0.9999987038707365,
+      "edge_cosine": 0.9999994708012705,
+      "boundary_gradient_cosine": 0.9999988869833747,
+      "target_mask_mae": 0.010031347962382446,
+      "clipping_fraction": 0.955322265625,
+      "finite": true
+    },
+    {
+      "instance_id": "20085217_mousebite_02",
+      "lpips": 3.3197395623574266e-06,
+      "ssim": 0.9999978171035324,
+      "edge_cosine": 0.99999792238295,
+      "boundary_gradient_cosine": 0.9999935773007684,
+      "target_mask_mae": 0.03088803088803089,
+      "clipping_fraction": 0.96429443359375,
+      "finite": true
+    },
+    {
+      "instance_id": "77000081_mousebite_00",
+      "lpips": 3.5597400938058854e-07,
+      "ssim": 0.9999994692754853,
+      "edge_cosine": 0.9999993926106094,
+      "boundary_gradient_cosine": 0.9999974465444472,
+      "target_mask_mae": 0.008417508417508417,
+      "clipping_fraction": 0.9775772094726562,
+      "finite": true
+    },
+    {
+      "instance_id": "20085185_mousebite_07",
+      "lpips": 5.52632741346315e-07,
+      "ssim": 0.9999993944609517,
+      "edge_cosine": 0.9999997049912324,
+      "boundary_gradient_cosine": 0.9999994855221815,
+      "target_mask_mae": 0.014814814814814815,
+      "clipping_fraction": 0.9399795532226562,
+      "finite": true
+    },
+    {
+      "instance_id": "20085051_mousebite_02",
+      "lpips": 1.6357141419121035e-07,
+      "ssim": 0.9999992564536352,
+      "edge_cosine": 0.9999996833331682,
+      "boundary_gradient_cosine": 0.9999995791552451,
+      "target_mask_mae": 0.01282051282051282,
+      "clipping_fraction": 0.9778900146484375,
+      "finite": true
+    },
+    {
+      "instance_id": "20085103_mousebite_08",
+      "lpips": 5.999250447530358e-07,
+      "ssim": 0.9999981837828883,
+      "edge_cosine": 0.9999990690067438,
+      "boundary_gradient_cosine": 0.9999973048869232,
+      "target_mask_mae": 0.04838709677419355,
+      "clipping_fraction": 0.92950439453125,
+      "finite": true
+    },
+    {
+      "instance_id": "13000019_mousebite_06",
+      "lpips": 7.652270141988993e-07,
+      "ssim": 0.9999996415462572,
+      "edge_cosine": 0.9999994800512639,
+      "boundary_gradient_cosine": 0.9999986261337683,
+      "target_mask_mae": 0.012605042016806723,
+      "clipping_fraction": 0.951080322265625,
+      "finite": true
+    },
+    {
+      "instance_id": "13000079_mousebite_05",
+      "lpips": 1.780989293820312e-07,
+      "ssim": 0.9999998076434936,
+      "edge_cosine": 0.9999998634947644,
+      "boundary_gradient_cosine": 0.9999993450149903,
+      "target_mask_mae": 0.006926406926406926,
+      "clipping_fraction": 0.9908485412597656,
+      "finite": true
+    },
+    {
+      "instance_id": "13000030_mousebite_04",
+      "lpips": 5.547411774387001e-07,
+      "ssim": 0.9999998327334098,
+      "edge_cosine": 0.9999997507218501,
+      "boundary_gradient_cosine": 0.9999989172567149,
+      "target_mask_mae": 0.006775067750677507,
+      "clipping_fraction": 0.9498558044433594,
+      "finite": true
+    },
+    {
+      "instance_id": "00041039_mousebite_02",
+      "lpips": 3.5872049011231866e-06,
+      "ssim": 0.9999965089794168,
+      "edge_cosine": 0.9999970820027319,
+      "boundary_gradient_cosine": 0.9999972053044731,
+      "target_mask_mae": 0.08497536945812807,
+      "clipping_fraction": 0.9755897521972656,
+      "finite": true
+    },
+    {
+      "instance_id": "00041047_mousebite_06",
+      "lpips": 9.81296807367471e-07,
+      "ssim": 0.9999973391050224,
+      "edge_cosine": 0.9999987100611881,
+      "boundary_gradient_cosine": 0.9999955193207889,
+      "target_mask_mae": 0.032692307692307694,
+      "clipping_fraction": 0.9363670349121094,
+      "finite": true
+    },
+    {
+      "instance_id": "00041181_mousebite_04",
+      "lpips": 6.41501458176208e-07,
+      "ssim": 0.9999983950610507,
+      "edge_cosine": 0.9999983578116155,
+      "boundary_gradient_cosine": 0.9999950565867675,
+      "target_mask_mae": 0.016666666666666666,
+      "clipping_fraction": 0.9543647766113281,
+      "finite": true
+    },
+    {
+      "instance_id": "50600049_mousebite_06",
+      "lpips": 3.1105414564081e-06,
+      "ssim": 0.9999976500686935,
+      "edge_cosine": 0.9999979014230993,
+      "boundary_gradient_cosine": 0.999994254392802,
+      "target_mask_mae": 0.05693296602387511,
+      "clipping_fraction": 0.9432640075683594,
+      "finite": true
+    },
+    {
+      "instance_id": "44000110_mousebite_03",
+      "lpips": 3.4917690072688856e-07,
+      "ssim": 0.9999991337973914,
+      "edge_cosine": 0.9999991802300188,
+      "boundary_gradient_cosine": 0.9999982097171506,
+      "target_mask_mae": 0.017857142857142856,
+      "clipping_fraction": 0.9276123046875,
+      "finite": true
+    },
+    {
+      "instance_id": "20085145_mousebite_03",
+      "lpips": 1.6275300822599092e-06,
+      "ssim": 0.9999987842544024,
+      "edge_cosine": 0.9999986584708521,
+      "boundary_gradient_cosine": 0.9999979833766458,
+      "target_mask_mae": 0.05387931034482758,
+      "clipping_fraction": 0.9245872497558594,
+      "finite": true
+    },
+    {
+      "instance_id": "20085225_mousebite_06",
+      "lpips": 1.942156586665078e-06,
+      "ssim": 0.9999956892306655,
+      "edge_cosine": 0.9999984840529231,
+      "boundary_gradient_cosine": 0.9999960574005731,
+      "target_mask_mae": 0.04597701149425287,
+      "clipping_fraction": 0.853424072265625,
+      "finite": true
+    },
+    {
+      "instance_id": "20085201_mousebite_02",
+      "lpips": 1.0415915312478319e-06,
+      "ssim": 0.9999979167717242,
+      "edge_cosine": 0.9999993279178928,
+      "boundary_gradient_cosine": 0.999998120676965,
+      "target_mask_mae": 0.046703296703296704,
+      "clipping_fraction": 0.9380531311035156,
+      "finite": true
+    },
+    {
+      "instance_id": "20085203_spur_03",
+      "lpips": 1.776959237531628e-07,
+      "ssim": 0.9999997657707015,
+      "edge_cosine": 0.9999995119601659,
+      "boundary_gradient_cosine": 0.9999986026908403,
+      "target_mask_mae": 0.014198782961460446,
+      "clipping_fraction": 0.9902229309082031,
+      "finite": true
+    },
+    {
+      "instance_id": "20085020_spur_04",
+      "lpips": 1.4590906971534423e-07,
+      "ssim": 0.9999994507228057,
+      "edge_cosine": 0.9999997376909256,
+      "boundary_gradient_cosine": 0.999999048277105,
+      "target_mask_mae": 0.01090909090909091,
+      "clipping_fraction": 0.9480094909667969,
+      "finite": true
+    },
+    {
+      "instance_id": "00041114_spur_02",
+      "lpips": 2.7353715381650545e-07,
+      "ssim": 0.9999998834410785,
+      "edge_cosine": 0.9999999090626206,
+      "boundary_gradient_cosine": 0.9999997106297395,
+      "target_mask_mae": 0.006859756097560976,
+      "clipping_fraction": 0.930938720703125,
+      "finite": true
+    },
+    {
+      "instance_id": "13000017_spur_05",
+      "lpips": 2.781222292469465e-06,
+      "ssim": 0.9999981280830611,
+      "edge_cosine": 0.9999971158165901,
+      "boundary_gradient_cosine": 0.9999923365338752,
+      "target_mask_mae": 0.03168685927306617,
+      "clipping_fraction": 0.9872932434082031,
+      "finite": true
+    },
+    {
+      "instance_id": "92000044_spur_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0000000000000002,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9515953063964844,
+      "finite": true
+    },
+    {
+      "instance_id": "20085062_spur_03",
+      "lpips": 4.4351733663461346e-07,
+      "ssim": 0.999999812403814,
+      "edge_cosine": 0.9999997715956815,
+      "boundary_gradient_cosine": 0.9999988191451241,
+      "target_mask_mae": 0.004861111111111111,
+      "clipping_fraction": 0.9329147338867188,
+      "finite": true
+    },
+    {
+      "instance_id": "00041180_spur_07",
+      "lpips": 2.0779330043296795e-06,
+      "ssim": 0.9999986729997267,
+      "edge_cosine": 0.9999988781917455,
+      "boundary_gradient_cosine": 0.9999951436661298,
+      "target_mask_mae": 0.011538461538461539,
+      "clipping_fraction": 0.9498252868652344,
+      "finite": true
+    },
+    {
+      "instance_id": "20085143_spur_02",
+      "lpips": 3.4361030429863604e-06,
+      "ssim": 0.9999923262196052,
+      "edge_cosine": 0.9999974104372858,
+      "boundary_gradient_cosine": 0.9999931453943561,
+      "target_mask_mae": 0.057692307692307696,
+      "clipping_fraction": 0.959808349609375,
+      "finite": true
+    },
+    {
+      "instance_id": "00041039_spur_03",
+      "lpips": 3.001214963660459e-06,
+      "ssim": 0.9999966950585181,
+      "edge_cosine": 0.9999983878717627,
+      "boundary_gradient_cosine": 0.9999969110861523,
+      "target_mask_mae": 0.030381944444444444,
+      "clipping_fraction": 0.9753036499023438,
+      "finite": true
+    },
+    {
+      "instance_id": "00041095_spur_02",
+      "lpips": 1.3446184539134265e-06,
+      "ssim": 0.999997238050813,
+      "edge_cosine": 0.9999990689066622,
+      "boundary_gradient_cosine": 0.9999974960909944,
+      "target_mask_mae": 0.027649769585253458,
+      "clipping_fraction": 0.9286117553710938,
+      "finite": true
+    },
+    {
+      "instance_id": "00041030_spur_07",
+      "lpips": 4.981405936632655e-07,
+      "ssim": 0.9999981081678131,
+      "edge_cosine": 0.9999994908506651,
+      "boundary_gradient_cosine": 0.9999989446056652,
+      "target_mask_mae": 0.03125,
+      "clipping_fraction": 0.9086990356445312,
+      "finite": true
+    },
+    {
+      "instance_id": "44000104_spur_04",
+      "lpips": 9.908735592034645e-07,
+      "ssim": 0.9999984141934939,
+      "edge_cosine": 0.9999990113467284,
+      "boundary_gradient_cosine": 0.9999957753965822,
+      "target_mask_mae": 0.01375,
+      "clipping_fraction": 0.9823646545410156,
+      "finite": true
+    },
+    {
+      "instance_id": "44000068_spur_03",
+      "lpips": 6.189102350617759e-07,
+      "ssim": 0.9999994118335124,
+      "edge_cosine": 0.9999993992272834,
+      "boundary_gradient_cosine": 0.9999969917742327,
+      "target_mask_mae": 0.024691358024691357,
+      "clipping_fraction": 0.9692115783691406,
+      "finite": true
+    },
+    {
+      "instance_id": "00041089_spur_06",
+      "lpips": 1.5905912675862055e-07,
+      "ssim": 0.9999997905795913,
+      "edge_cosine": 0.9999996508111831,
+      "boundary_gradient_cosine": 0.9999987126348187,
+      "target_mask_mae": 0.011494252873563218,
+      "clipping_fraction": 0.9448356628417969,
+      "finite": true
+    },
+    {
+      "instance_id": "50600015_spur_03",
+      "lpips": 2.079064870486036e-06,
+      "ssim": 0.9999975752121749,
+      "edge_cosine": 0.9999981101531236,
+      "boundary_gradient_cosine": 0.9999958183883064,
+      "target_mask_mae": 0.05357142857142857,
+      "clipping_fraction": 0.9851341247558594,
+      "finite": true
+    },
+    {
+      "instance_id": "13000019_spur_08",
+      "lpips": 5.1922427246609e-07,
+      "ssim": 0.9999990455037736,
+      "edge_cosine": 0.9999994933440313,
+      "boundary_gradient_cosine": 0.9999987877373765,
+      "target_mask_mae": 0.03812316715542522,
+      "clipping_fraction": 0.9411201477050781,
+      "finite": true
+    },
+    {
+      "instance_id": "13000027_spur_07",
+      "lpips": 8.718273534213949e-07,
+      "ssim": 0.999994717799836,
+      "edge_cosine": 0.999995836007742,
+      "boundary_gradient_cosine": 0.9999941992130854,
+      "target_mask_mae": 0.06153846153846154,
+      "clipping_fraction": 0.8860092163085938,
+      "finite": true
+    },
+    {
+      "instance_id": "00041142_spur_02",
+      "lpips": 1.1739955425582593e-06,
+      "ssim": 0.9999993559628498,
+      "edge_cosine": 0.999998774867082,
+      "boundary_gradient_cosine": 0.9999957014780685,
+      "target_mask_mae": 0.010760401721664276,
+      "clipping_fraction": 0.9536705017089844,
+      "finite": true
+    },
+    {
+      "instance_id": "50600021_spur_03",
+      "lpips": 8.466436440812686e-08,
+      "ssim": 0.9999994416614091,
+      "edge_cosine": 0.9999984275525604,
+      "boundary_gradient_cosine": 0.9999956900806432,
+      "target_mask_mae": 0.003896103896103896,
+      "clipping_fraction": 0.9323234558105469,
+      "finite": true
+    },
+    {
+      "instance_id": "00041057_spur_05",
+      "lpips": 1.7197493207277148e-06,
+      "ssim": 0.9999976148221735,
+      "edge_cosine": 0.9999989765347471,
+      "boundary_gradient_cosine": 0.999998077290685,
+      "target_mask_mae": 0.016964285714285713,
+      "clipping_fraction": 0.9032707214355469,
+      "finite": true
+    },
+    {
+      "instance_id": "20085026_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 0.9999999999999999,
+      "boundary_gradient_cosine": 0.9999999999999998,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9902992248535156,
+      "finite": true
+    },
+    {
+      "instance_id": "00041039_spurious_copper_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9782218933105469,
+      "finite": true
+    },
+    {
+      "instance_id": "00041125_spurious_copper_03",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 0.9999999999999997,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.8822898864746094,
+      "finite": true
+    },
+    {
+      "instance_id": "20085027_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 0.9999999999999998,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9741020202636719,
+      "finite": true
+    },
+    {
+      "instance_id": "00041085_spurious_copper_03",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 0.9999999999999999,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9564170837402344,
+      "finite": true
+    },
+    {
+      "instance_id": "00041068_spurious_copper_03",
+      "lpips": 9.253434996026044e-07,
+      "ssim": 0.9999961831276799,
+      "edge_cosine": 0.9999990597431232,
+      "boundary_gradient_cosine": 0.9999989755522996,
+      "target_mask_mae": 0.0008841732979664014,
+      "clipping_fraction": 0.9303970336914062,
+      "finite": true
+    },
+    {
+      "instance_id": "13000197_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9585456848144531,
+      "finite": true
+    },
+    {
+      "instance_id": "50600032_spurious_copper_03",
+      "lpips": 7.488281994483259e-08,
+      "ssim": 0.999999862174945,
+      "edge_cosine": 0.9999999589426325,
+      "boundary_gradient_cosine": 0.9989680526283213,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9445877075195312,
+      "finite": true
+    },
+    {
+      "instance_id": "20085014_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9669265747070312,
+      "finite": true
+    },
+    {
+      "instance_id": "92000077_spurious_copper_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9387588500976562,
+      "finite": true
+    },
+    {
+      "instance_id": "00041046_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9841880798339844,
+      "finite": true
+    },
+    {
+      "instance_id": "20085221_spurious_copper_11",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9452896118164062,
+      "finite": true
+    },
+    {
+      "instance_id": "20085183_spurious_copper_05",
+      "lpips": 9.012606483338459e-08,
+      "ssim": 0.9999985918217039,
+      "edge_cosine": 0.999999692023866,
+      "boundary_gradient_cosine": 0.9956450925251086,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9530487060546875,
+      "finite": true
+    },
+    {
+      "instance_id": "13000118_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.94775390625,
+      "finite": true
+    },
+    {
+      "instance_id": "77000044_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 0.9999999999999998,
+      "boundary_gradient_cosine": 0.9999999999999999,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9803848266601562,
+      "finite": true
+    },
+    {
+      "instance_id": "13000097_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 0.9999999999999998,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9413948059082031,
+      "finite": true
+    },
+    {
+      "instance_id": "20085143_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9601516723632812,
+      "finite": true
+    },
+    {
+      "instance_id": "00041142_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9444541931152344,
+      "finite": true
+    },
+    {
+      "instance_id": "20085203_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 0.9999999999999998,
+      "boundary_gradient_cosine": 0.9999999999999999,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9899368286132812,
+      "finite": true
+    },
+    {
+      "instance_id": "20085155_spurious_copper_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9881935119628906,
+      "finite": true
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "lpips": 5.895965955460269e-07,
+      "ssim": 0.9999967555449384,
+      "edge_cosine": 0.999998851509082,
+      "boundary_gradient_cosine": 0.99999858302551,
+      "target_mask_mae": 0.0630952380952381,
+      "clipping_fraction": 0.8531036376953125,
+      "finite": true
+    },
+    {
+      "instance_id": "00041169_pinhole_05",
+      "lpips": 9.045618298841873e-07,
+      "ssim": 0.9999984622659323,
+      "edge_cosine": 0.9999991063372301,
+      "boundary_gradient_cosine": 0.984694161115734,
+      "target_mask_mae": 0.0205078125,
+      "clipping_fraction": 0.9360313415527344,
+      "finite": true
+    },
+    {
+      "instance_id": "00041190_pinhole_05",
+      "lpips": 1.1023271326848771e-06,
+      "ssim": 0.9999978927428405,
+      "edge_cosine": 0.9999991175781936,
+      "boundary_gradient_cosine": 0.9999975930059932,
+      "target_mask_mae": 0.03333333333333333,
+      "clipping_fraction": 0.8860664367675781,
+      "finite": true
+    },
+    {
+      "instance_id": "77000008_pinhole_06",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.966705322265625,
+      "finite": true
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.919647216796875,
+      "finite": true
+    },
+    {
+      "instance_id": "20085027_pinhole_05",
+      "lpips": 7.809278486092808e-07,
+      "ssim": 0.9999975770020423,
+      "edge_cosine": 0.9999988265443913,
+      "boundary_gradient_cosine": 0.9999939774232192,
+      "target_mask_mae": 0.018322762508809022,
+      "clipping_fraction": 0.9786872863769531,
+      "finite": true
+    },
+    {
+      "instance_id": "13000030_pinhole_08",
+      "lpips": 2.7896180654352065e-06,
+      "ssim": 0.9999946839020591,
+      "edge_cosine": 0.9999978669151769,
+      "boundary_gradient_cosine": 0.9999931604874395,
+      "target_mask_mae": 0.05548387096774193,
+      "clipping_fraction": 0.9485893249511719,
+      "finite": true
+    },
+    {
+      "instance_id": "20085090_pinhole_05",
+      "lpips": 1.9366718788660364e-06,
+      "ssim": 0.9999942648145862,
+      "edge_cosine": 0.9999971098464207,
+      "boundary_gradient_cosine": 0.9999958906624721,
+      "target_mask_mae": 0.10683760683760683,
+      "clipping_fraction": 0.9377174377441406,
+      "finite": true
+    },
+    {
+      "instance_id": "44000062_pinhole_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9593276977539062,
+      "finite": true
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "lpips": 1.6728823766243295e-06,
+      "ssim": 0.9999979778945186,
+      "edge_cosine": 0.999998894084966,
+      "boundary_gradient_cosine": 0.9999983106276934,
+      "target_mask_mae": 0.0219435736677116,
+      "clipping_fraction": 0.9342842102050781,
+      "finite": true
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9653167724609375,
+      "finite": true
+    },
+    {
+      "instance_id": "13000102_pinhole_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0,
+      "boundary_gradient_cosine": 0.9999999999999999,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.8367424011230469,
+      "finite": true
+    },
+    {
+      "instance_id": "13000197_pinhole_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0000000000000002,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9633865356445312,
+      "finite": true
+    },
+    {
+      "instance_id": "13000008_pinhole_05",
+      "lpips": 7.708272420359208e-08,
+      "ssim": 0.9999972386756274,
+      "edge_cosine": 0.9999994412051648,
+      "boundary_gradient_cosine": 0.999997831284087,
+      "target_mask_mae": 0.003205128205128205,
+      "clipping_fraction": 0.8667678833007812,
+      "finite": true
+    },
+    {
+      "instance_id": "13000029_pinhole_11",
+      "lpips": 9.159482033282984e-06,
+      "ssim": 0.9999942455170068,
+      "edge_cosine": 0.9999978749389872,
+      "boundary_gradient_cosine": 0.9999901115669901,
+      "target_mask_mae": 0.045584045584045586,
+      "clipping_fraction": 0.8289222717285156,
+      "finite": true
+    },
+    {
+      "instance_id": "20085155_pinhole_05",
+      "lpips": 1.179343826152035e-06,
+      "ssim": 0.9999952872813749,
+      "edge_cosine": 0.9999982905684235,
+      "boundary_gradient_cosine": 0.9999958476337476,
+      "target_mask_mae": 0.07840236686390532,
+      "clipping_fraction": 0.9878730773925781,
+      "finite": true
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9923973083496094,
+      "finite": true
+    },
+    {
+      "instance_id": "92000081_pinhole_05",
+      "lpips": 3.7627791016348056e-07,
+      "ssim": 0.9999994072735306,
+      "edge_cosine": 0.9999995332056849,
+      "boundary_gradient_cosine": 0.955146877710611,
+      "target_mask_mae": 0.010629251700680272,
+      "clipping_fraction": 0.9448051452636719,
+      "finite": true
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "lpips": 1.1133454336231807e-06,
+      "ssim": 0.9999956872997461,
+      "edge_cosine": 0.999998902287792,
+      "boundary_gradient_cosine": 0.8547464101395172,
+      "target_mask_mae": 0.012857142857142857,
+      "clipping_fraction": 0.95892333984375,
+      "finite": true
+    },
+    {
+      "instance_id": "13000118_pinhole_05",
+      "lpips": 0.0,
+      "ssim": 1.0,
+      "edge_cosine": 1.0000000000000002,
+      "boundary_gradient_cosine": 1.0,
+      "target_mask_mae": 0.0,
+      "clipping_fraction": 0.9210662841796875,
+      "finite": true
+    }
+  ]
+}

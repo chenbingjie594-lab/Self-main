@@ -1,0 +1,871 @@
+{
+  "status": "PASS",
+  "summary": {
+    "residual_cosine": {
+      "median": 0.969976302466388,
+      "q90": 1.0,
+      "q95": 1.0,
+      "max": 1.0000000000000002
+    },
+    "edge_cosine": {
+      "median": 0.999540385298799,
+      "q90": 0.9999999999999997,
+      "q95": 1.0,
+      "max": 1.0000000000000002
+    },
+    "mask_iou": {
+      "median": 1.0,
+      "q90": 1.0,
+      "q95": 1.0,
+      "max": 1.0
+    },
+    "residual_norm_ratio": {
+      "median": 0.9359402749866736,
+      "q90": 0.9999999999999999,
+      "q95": 1.0000002608679759,
+      "max": 1.3087893792512146
+    }
+  },
+  "records": [
+    {
+      "instance_id": "00041039_mousebite_02",
+      "residual_cosine": 0.9998093931903183,
+      "edge_cosine": 0.9999997862154929,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9976616705120265
+    },
+    {
+      "instance_id": "00041047_mousebite_06",
+      "residual_cosine": 0.2958414769197856,
+      "edge_cosine": 0.9970612078640114,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.295864020162874
+    },
+    {
+      "instance_id": "00041181_mousebite_04",
+      "residual_cosine": 0.25018067604020083,
+      "edge_cosine": 0.9950704876281606,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.24497673619876031
+    },
+    {
+      "instance_id": "13000019_mousebite_06",
+      "residual_cosine": 0.9904778094061942,
+      "edge_cosine": 0.9999907227886065,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9904863743950968
+    },
+    {
+      "instance_id": "13000030_mousebite_04",
+      "residual_cosine": 0.054259567042582606,
+      "edge_cosine": 0.9971001445368383,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.01264648030653963
+    },
+    {
+      "instance_id": "13000079_mousebite_05",
+      "residual_cosine": 0.9649506765976278,
+      "edge_cosine": 0.9997150285535068,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9648114648878202
+    },
+    {
+      "instance_id": "13000102_mousebite_03",
+      "residual_cosine": 0.9989745424668778,
+      "edge_cosine": 0.9999992631045109,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9950697775981384
+    },
+    {
+      "instance_id": "20085051_mousebite_02",
+      "residual_cosine": 0.9019957411956908,
+      "edge_cosine": 0.9988040386828084,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9019945128610014
+    },
+    {
+      "instance_id": "20085103_mousebite_08",
+      "residual_cosine": 0.9240503972742745,
+      "edge_cosine": 0.9997275674954612,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9231871358323798
+    },
+    {
+      "instance_id": "20085145_mousebite_03",
+      "residual_cosine": 0.10554944143036271,
+      "edge_cosine": 0.999075286001947,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.007968954597193255
+    },
+    {
+      "instance_id": "20085185_mousebite_07",
+      "residual_cosine": 0.9997865197436981,
+      "edge_cosine": 0.9999999350929157,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9981344290453023
+    },
+    {
+      "instance_id": "20085201_mousebite_02",
+      "residual_cosine": 0.04490978783297845,
+      "edge_cosine": 0.9991926034858447,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.04829038682909148
+    },
+    {
+      "instance_id": "20085217_mousebite_02",
+      "residual_cosine": 0.8099116744503913,
+      "edge_cosine": 0.9981332258175246,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.80991248861191
+    },
+    {
+      "instance_id": "20085225_mousebite_06",
+      "residual_cosine": 0.5069078825554397,
+      "edge_cosine": 0.9993867628200845,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.5083889046028539
+    },
+    {
+      "instance_id": "44000086_mousebite_04",
+      "residual_cosine": 0.9999374031233628,
+      "edge_cosine": 0.9999996403490974,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9982731594200644
+    },
+    {
+      "instance_id": "44000110_mousebite_03",
+      "residual_cosine": 0.9792718640721737,
+      "edge_cosine": 0.9999148818625752,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9787295397590111
+    },
+    {
+      "instance_id": "50600032_mousebite_05",
+      "residual_cosine": 0.02611712424143083,
+      "edge_cosine": 0.9944545872029056,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.026209538700935557
+    },
+    {
+      "instance_id": "50600049_mousebite_06",
+      "residual_cosine": 0.10346792327872734,
+      "edge_cosine": 0.9987502426853546,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.014584946404457901
+    },
+    {
+      "instance_id": "77000019_mousebite_01",
+      "residual_cosine": 0.9999957369656028,
+      "edge_cosine": 0.9999999947799937,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9982569523572484
+    },
+    {
+      "instance_id": "77000081_mousebite_00",
+      "residual_cosine": 0.991081759893495,
+      "edge_cosine": 0.9998738669943475,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9901404888361427
+    },
+    {
+      "instance_id": "00041125_open_00",
+      "residual_cosine": 0.9735138360509424,
+      "edge_cosine": 0.999975598238883,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9717436345025829
+    },
+    {
+      "instance_id": "00041142_open_00",
+      "residual_cosine": 0.9816617920765146,
+      "edge_cosine": 0.9998762052173452,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9812288928373731
+    },
+    {
+      "instance_id": "13000024_open_01",
+      "residual_cosine": 0.35755899080601505,
+      "edge_cosine": 0.9963193942454108,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.3563914382032593
+    },
+    {
+      "instance_id": "13000110_open_00",
+      "residual_cosine": 0.9531773109261449,
+      "edge_cosine": 0.9990395226453886,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9523000079888642
+    },
+    {
+      "instance_id": "20085071_open_00",
+      "residual_cosine": 0.9011568380628585,
+      "edge_cosine": 0.9994411660333711,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9003610949199824
+    },
+    {
+      "instance_id": "20085107_open_00",
+      "residual_cosine": 0.9537810038601611,
+      "edge_cosine": 0.999958582452129,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9523955097024726
+    },
+    {
+      "instance_id": "20085201_open_00",
+      "residual_cosine": 0.9266332058546353,
+      "edge_cosine": 0.9997828548928869,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9256019922138002
+    },
+    {
+      "instance_id": "20085217_open_00",
+      "residual_cosine": 0.20412548834098992,
+      "edge_cosine": 0.9965059917086051,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.2049662779098708
+    },
+    {
+      "instance_id": "20085221_open_00",
+      "residual_cosine": 0.9814089179097107,
+      "edge_cosine": 0.9999507566805605,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9808611370533321
+    },
+    {
+      "instance_id": "44000086_open_00",
+      "residual_cosine": 0.35185296438773345,
+      "edge_cosine": 0.978983748677256,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.35185296438773345
+    },
+    {
+      "instance_id": "44000092_open_01",
+      "residual_cosine": 0.4120798776449478,
+      "edge_cosine": 0.9946839918636492,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.4132716755944147
+    },
+    {
+      "instance_id": "44000096_open_00",
+      "residual_cosine": 0.9167621712832157,
+      "edge_cosine": 0.9991673211091194,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9151175997651466
+    },
+    {
+      "instance_id": "44000107_open_00",
+      "residual_cosine": 0.23710278033098633,
+      "edge_cosine": 0.9741088315200316,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.23713104732341858
+    },
+    {
+      "instance_id": "44000110_open_00",
+      "residual_cosine": 0.8376691955198179,
+      "edge_cosine": 0.9987799033519388,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8358851081334997
+    },
+    {
+      "instance_id": "50600021_open_00",
+      "residual_cosine": 0.9856970054716641,
+      "edge_cosine": 0.9999774626968156,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9837576176163035
+    },
+    {
+      "instance_id": "50600032_open_00",
+      "residual_cosine": 0.47813357372996873,
+      "edge_cosine": 0.9977816096149267,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.4778040581409823
+    },
+    {
+      "instance_id": "92000006_open_00",
+      "residual_cosine": 0.993711181386647,
+      "edge_cosine": 0.9996134051306029,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9935907771503728
+    },
+    {
+      "instance_id": "92000060_open_00",
+      "residual_cosine": 0.9609902979084557,
+      "edge_cosine": 0.9984909631885998,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9609073553941505
+    },
+    {
+      "instance_id": "92000077_open_00",
+      "residual_cosine": 0.9639320475213797,
+      "edge_cosine": 0.9989248655173576,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9634831951247177
+    },
+    {
+      "instance_id": "92000081_open_00",
+      "residual_cosine": 0.9833998872381512,
+      "edge_cosine": 0.9994678304163658,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9831688954799348
+    },
+    {
+      "instance_id": "00041089_pinhole_04",
+      "residual_cosine": 0.837831351041793,
+      "edge_cosine": 0.9978726576112414,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.6762928350181209
+    },
+    {
+      "instance_id": "00041169_pinhole_05",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9942154367092805,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "00041190_pinhole_05",
+      "residual_cosine": 0.9485639652160291,
+      "edge_cosine": 0.9994140658087793,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.94859052052788
+    },
+    {
+      "instance_id": "13000008_pinhole_05",
+      "residual_cosine": 0.004961242336275684,
+      "edge_cosine": 0.9987204767386162,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.003379779207185953
+    },
+    {
+      "instance_id": "13000009_pinhole_03",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9999999999999994,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "13000029_pinhole_11",
+      "residual_cosine": 0.1521794520376185,
+      "edge_cosine": 0.9992466844154866,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.1512903350380549
+    },
+    {
+      "instance_id": "13000030_pinhole_08",
+      "residual_cosine": 0.010902712996629661,
+      "edge_cosine": 0.9981494817212695,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.013402739794544751
+    },
+    {
+      "instance_id": "13000037_pinhole_07",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9983949202529859,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "13000102_pinhole_05",
+      "residual_cosine": 0.9999941952554052,
+      "edge_cosine": 0.9999999999999997,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.99814551429148
+    },
+    {
+      "instance_id": "13000118_pinhole_05",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9951711544420719,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "13000197_pinhole_05",
+      "residual_cosine": 0.9999922491627167,
+      "edge_cosine": 0.9999999999999993,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9980068753311133
+    },
+    {
+      "instance_id": "20085027_pinhole_05",
+      "residual_cosine": 0.9999931858388901,
+      "edge_cosine": 0.99999996311881,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9982708617727141
+    },
+    {
+      "instance_id": "20085071_pinhole_04",
+      "residual_cosine": 0.9828522172577713,
+      "edge_cosine": 0.9999835640998576,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9826426653104691
+    },
+    {
+      "instance_id": "20085090_pinhole_05",
+      "residual_cosine": 0.9870856661322486,
+      "edge_cosine": 0.9999837049148204,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9856201122243804
+    },
+    {
+      "instance_id": "20085155_pinhole_05",
+      "residual_cosine": 0.8318776393697114,
+      "edge_cosine": 0.9955847370970884,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8296070072368065
+    },
+    {
+      "instance_id": "20085203_pinhole_05",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9999999999999993,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999998
+    },
+    {
+      "instance_id": "20085225_pinhole_12",
+      "residual_cosine": 0.5998252466571188,
+      "edge_cosine": 0.9988143843374658,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.48962133954193204
+    },
+    {
+      "instance_id": "44000062_pinhole_04",
+      "residual_cosine": 0.9999999999999999,
+      "edge_cosine": 0.9999999999999999,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999998
+    },
+    {
+      "instance_id": "77000008_pinhole_06",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9785433690256596,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "92000081_pinhole_05",
+      "residual_cosine": 0.9999994901304505,
+      "edge_cosine": 0.9999999999999992,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999987129447269
+    },
+    {
+      "instance_id": "00041046_short_02",
+      "residual_cosine": 0.9999780045472214,
+      "edge_cosine": 0.9999998071890606,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.001569337005597
+    },
+    {
+      "instance_id": "00041095_short_01",
+      "residual_cosine": 0.9876012702008363,
+      "edge_cosine": 0.9998816514692085,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.987276465825384
+    },
+    {
+      "instance_id": "00041133_short_01",
+      "residual_cosine": 0.9147276033294766,
+      "edge_cosine": 0.9998468277966603,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9147166730978763
+    },
+    {
+      "instance_id": "00041180_short_01",
+      "residual_cosine": 0.9669129813318552,
+      "edge_cosine": 0.9993505703380433,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9662427840625091
+    },
+    {
+      "instance_id": "13000037_short_03",
+      "residual_cosine": 0.12847913197698618,
+      "edge_cosine": 0.9998639546293934,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.13559883647240265
+    },
+    {
+      "instance_id": "13000102_short_01",
+      "residual_cosine": 0.7579480328395474,
+      "edge_cosine": 0.999335910478448,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.758354966002898
+    },
+    {
+      "instance_id": "20085016_short_02",
+      "residual_cosine": 0.9992975452162447,
+      "edge_cosine": 0.999999613846814,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0019717623820148
+    },
+    {
+      "instance_id": "20085020_short_01",
+      "residual_cosine": 0.9912098789343493,
+      "edge_cosine": 0.9999605781179856,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9942022150525359
+    },
+    {
+      "instance_id": "20085051_short_01",
+      "residual_cosine": 0.948534234090484,
+      "edge_cosine": 0.9943902695202603,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9485395054355815
+    },
+    {
+      "instance_id": "20085090_short_01",
+      "residual_cosine": 0.8868138724900193,
+      "edge_cosine": 0.9987373250210702,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8865738604651004
+    },
+    {
+      "instance_id": "20085145_short_01",
+      "residual_cosine": 0.013309037484718305,
+      "edge_cosine": 0.9977496388987303,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.012346199358143073
+    },
+    {
+      "instance_id": "20085155_short_01",
+      "residual_cosine": 0.9350423228526626,
+      "edge_cosine": 0.9974036871487516,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9345964617683802
+    },
+    {
+      "instance_id": "20085203_short_01",
+      "residual_cosine": 0.8994643656046329,
+      "edge_cosine": 0.9945240590935158,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8985783552728425
+    },
+    {
+      "instance_id": "20085217_short_01",
+      "residual_cosine": 0.39095873335914927,
+      "edge_cosine": 0.9910013706900546,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.3896482232660604
+    },
+    {
+      "instance_id": "44000086_short_01",
+      "residual_cosine": 0.9921566196848265,
+      "edge_cosine": 0.9999337197272093,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9946962525486363
+    },
+    {
+      "instance_id": "44000096_short_01",
+      "residual_cosine": 0.9882477858821839,
+      "edge_cosine": 0.9998776302550779,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9881663168181679
+    },
+    {
+      "instance_id": "44000104_short_01",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9999999999999997,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "50600032_short_01",
+      "residual_cosine": 0.7038044504511836,
+      "edge_cosine": 0.9992010652426911,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.7034505718008119
+    },
+    {
+      "instance_id": "77000082_short_05",
+      "residual_cosine": 0.3248144087756377,
+      "edge_cosine": 0.9936665749617849,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.3235630954344831
+    },
+    {
+      "instance_id": "77000083_short_04",
+      "residual_cosine": 0.9374217722101876,
+      "edge_cosine": 0.9984948028007234,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.937284088204967
+    },
+    {
+      "instance_id": "00041030_spur_07",
+      "residual_cosine": 0.881812614842299,
+      "edge_cosine": 0.9998804322190334,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8825496409839712
+    },
+    {
+      "instance_id": "00041039_spur_03",
+      "residual_cosine": 0.9417773549845169,
+      "edge_cosine": 0.9997438778193686,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.941665137506879
+    },
+    {
+      "instance_id": "00041057_spur_05",
+      "residual_cosine": 0.9999058573662681,
+      "edge_cosine": 0.9999998610344889,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9998353027816711
+    },
+    {
+      "instance_id": "00041089_spur_06",
+      "residual_cosine": 0.9999525590853914,
+      "edge_cosine": 0.9999999175536392,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999825412246375
+    },
+    {
+      "instance_id": "00041095_spur_02",
+      "residual_cosine": 0.9941690677133624,
+      "edge_cosine": 0.9999947890610492,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9966545195002068
+    },
+    {
+      "instance_id": "00041114_spur_02",
+      "residual_cosine": 0.99413318146055,
+      "edge_cosine": 0.999992460133484,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9929509929489175
+    },
+    {
+      "instance_id": "00041142_spur_02",
+      "residual_cosine": 0.8120148969109665,
+      "edge_cosine": 0.998250809283769,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8107892376040785
+    },
+    {
+      "instance_id": "00041180_spur_07",
+      "residual_cosine": 0.9195625758216792,
+      "edge_cosine": 0.999216872743116,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9189961999044005
+    },
+    {
+      "instance_id": "13000017_spur_05",
+      "residual_cosine": 0.857847973641653,
+      "edge_cosine": 0.9965258231815419,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.8574210727079387
+    },
+    {
+      "instance_id": "13000019_spur_08",
+      "residual_cosine": 0.9165598022854287,
+      "edge_cosine": 0.999612940181232,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9133266848675586
+    },
+    {
+      "instance_id": "13000027_spur_07",
+      "residual_cosine": 0.328459972845994,
+      "edge_cosine": 0.9989408407582617,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.32784968991925223
+    },
+    {
+      "instance_id": "20085020_spur_04",
+      "residual_cosine": 0.944630299650941,
+      "edge_cosine": 0.9996615916239449,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9446297012580248
+    },
+    {
+      "instance_id": "20085062_spur_03",
+      "residual_cosine": 0.3437836508704745,
+      "edge_cosine": 0.9973828812208532,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.34339067598610007
+    },
+    {
+      "instance_id": "20085143_spur_02",
+      "residual_cosine": 0.9661014164283352,
+      "edge_cosine": 0.9996931103368237,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9647091611674542
+    },
+    {
+      "instance_id": "20085203_spur_03",
+      "residual_cosine": 0.9999977300469695,
+      "edge_cosine": 0.9999999960526488,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999964261610843
+    },
+    {
+      "instance_id": "44000068_spur_03",
+      "residual_cosine": 0.9848553552961842,
+      "edge_cosine": 0.9999102774449483,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9843462531908097
+    },
+    {
+      "instance_id": "44000104_spur_04",
+      "residual_cosine": 0.09049858595435074,
+      "edge_cosine": 0.9890272881013406,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.02304698063936032
+    },
+    {
+      "instance_id": "50600015_spur_03",
+      "residual_cosine": 0.7387543622821722,
+      "edge_cosine": 0.9892661466648207,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.5989343422169077
+    },
+    {
+      "instance_id": "50600021_spur_03",
+      "residual_cosine": 0.21725437788948393,
+      "edge_cosine": 0.9977141808807806,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.21260224502794395
+    },
+    {
+      "instance_id": "92000044_spur_05",
+      "residual_cosine": 0.866975105798011,
+      "edge_cosine": 0.9999999999999998,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.3087893792512146
+    },
+    {
+      "instance_id": "00041039_spurious_copper_05",
+      "residual_cosine": 0.9999999796932983,
+      "edge_cosine": 1.0000000000000002,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0000001598224564
+    },
+    {
+      "instance_id": "00041046_spurious_copper_04",
+      "residual_cosine": 1.0,
+      "edge_cosine": 1.0,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999998
+    },
+    {
+      "instance_id": "00041068_spurious_copper_03",
+      "residual_cosine": 0.9730396236009208,
+      "edge_cosine": 0.9999999986283901,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0113295433163187
+    },
+    {
+      "instance_id": "00041085_spurious_copper_03",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9943653231139328,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "00041125_spurious_copper_03",
+      "residual_cosine": 0.9999950714340259,
+      "edge_cosine": 0.9999999999999998,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0025989685449925
+    },
+    {
+      "instance_id": "00041142_spurious_copper_04",
+      "residual_cosine": 0.9999999999999999,
+      "edge_cosine": 1.0,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999998
+    },
+    {
+      "instance_id": "13000097_spurious_copper_04",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9966817277779875,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "13000118_spurious_copper_04",
+      "residual_cosine": 0.9999999999999999,
+      "edge_cosine": 1.0000000000000002,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999999
+    },
+    {
+      "instance_id": "13000197_spurious_copper_04",
+      "residual_cosine": 0.9999999999999732,
+      "edge_cosine": 1.0000000000000002,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0000000004014773
+    },
+    {
+      "instance_id": "20085014_spurious_copper_04",
+      "residual_cosine": 0.9999999999988861,
+      "edge_cosine": 1.0000000000000002,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0000000166318939
+    },
+    {
+      "instance_id": "20085026_spurious_copper_04",
+      "residual_cosine": 0.9999999999999999,
+      "edge_cosine": 1.0000000000000002,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999999
+    },
+    {
+      "instance_id": "20085027_spurious_copper_04",
+      "residual_cosine": 0.9999999999999707,
+      "edge_cosine": 1.0000000000000002,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0000000004376228
+    },
+    {
+      "instance_id": "20085143_spurious_copper_04",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9999999999999997,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999999
+    },
+    {
+      "instance_id": "20085155_spurious_copper_04",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9858220944619193,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "20085183_spurious_copper_05",
+      "residual_cosine": 0.9999995728903174,
+      "edge_cosine": 0.9999999999999997,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 1.0000021807328456
+    },
+    {
+      "instance_id": "20085203_spurious_copper_04",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9831788589261675,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "20085221_spurious_copper_11",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9970144477161269,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "50600032_spurious_copper_03",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9953320037188338,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "77000044_spurious_copper_04",
+      "residual_cosine": 1.0,
+      "edge_cosine": 0.9881559007446415,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.0
+    },
+    {
+      "instance_id": "92000077_spurious_copper_05",
+      "residual_cosine": 1.0000000000000002,
+      "edge_cosine": 0.9999999999999992,
+      "mask_iou": 1.0,
+      "residual_norm_ratio": 0.9999999999999998
+    }
+  ]
+}

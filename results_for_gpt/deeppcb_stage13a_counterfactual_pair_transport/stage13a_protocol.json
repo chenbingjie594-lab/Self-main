@@ -1,0 +1,45 @@
+{
+  "experiment": "deeppcb_stage13a_counterfactual_pair_transport",
+  "donors_per_class": 20,
+  "context_scale": 3.0,
+  "minimum_context_size": 64,
+  "search_stride": 4,
+  "minimum_recipient_candidates": 10,
+  "recipient_pair_reuse_cap": 2,
+  "pixel_ncc_reject": 0.995,
+  "mask_dilation_radius": 2,
+  "mask_gaussian_sigma": 1.0,
+  "contrast_clip": [
+    0.75,
+    1.25
+  ],
+  "reconstruction_gate": {
+    "median_ssim_min": 0.98,
+    "median_edge_cosine_min": 0.95,
+    "median_lpips_max": 0.03
+  },
+  "identity_gate": {
+    "median_residual_cosine_min": 0.95,
+    "median_edge_cosine_min": 0.9,
+    "mask_iou": 1.0
+  },
+  "detector_seed": 42,
+  "epochs": 150,
+  "batch": 8,
+  "imgsz": 512,
+  "patience": 151,
+  "optimizer": "auto",
+  "base_real_draws_per_epoch": 260,
+  "extra_draws_per_epoch": 120,
+  "gate": {
+    "map50_95_delta_min": 0.005,
+    "nonnegative_classes_min": 4,
+    "minimum_class_delta": -0.02
+  },
+  "donor_source": "frozen Stage11B UniformRepeat120",
+  "recipient_source": "paired-normal images of frozen 100-pair low-shot training pool",
+  "translation_only": true,
+  "learned_matching": false,
+  "generator_training": false,
+  "official_validation_use_before_final_evaluation": 0
+}

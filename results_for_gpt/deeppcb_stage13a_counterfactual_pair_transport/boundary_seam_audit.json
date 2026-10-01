@@ -1,0 +1,1248 @@
+{
+  "status": "PASS",
+  "real": {
+    "boundary_gradient_jump": {
+      "median": 5.307294845581055,
+      "q90": 51.127489852905285,
+      "q95": 60.877134513854976,
+      "max": 135.213134765625
+    },
+    "boundary_rgb_jump": {
+      "median": 3.8475008560879047,
+      "q90": 26.10463177884408,
+      "q95": 35.38600112023914,
+      "max": 61.18439984854223
+    },
+    "laplacian_energy": {
+      "median": 16.074008464813232,
+      "q90": 38.899372100830085,
+      "q95": 47.78067626953125,
+      "max": 65.22826385498047
+    }
+  },
+  "cpt": {
+    "boundary_gradient_jump": {
+      "median": 5.3963165283203125,
+      "q90": 61.77207489013672,
+      "q95": 80.56640663146969,
+      "max": 123.06723022460938
+    },
+    "boundary_rgb_jump": {
+      "median": 3.0725952964988608,
+      "q90": 20.15443858783744,
+      "q95": 39.810583517874676,
+      "max": 61.289671911617006
+    },
+    "laplacian_energy": {
+      "median": 10.773151874542236,
+      "q90": 37.07285652160645,
+      "q95": 40.223731994628906,
+      "max": 77.09782409667969
+    }
+  },
+  "fraction_cpt_gradient_le_real_max": 1.0,
+  "real_records": [
+    {
+      "boundary_gradient_jump": 27.755226135253906,
+      "boundary_rgb_jump": 48.02455681487939,
+      "laplacian_energy": 37.07659149169922
+    },
+    {
+      "boundary_gradient_jump": 6.077449798583984,
+      "boundary_rgb_jump": 4.002047166721269,
+      "laplacian_energy": 14.047499656677246
+    },
+    {
+      "boundary_gradient_jump": 1.2378463745117188,
+      "boundary_rgb_jump": 6.752047166721269,
+      "laplacian_energy": 12.385000228881836
+    },
+    {
+      "boundary_gradient_jump": 4.938629150390625,
+      "boundary_rgb_jump": 5.567009991365495,
+      "laplacian_energy": 13.68617057800293
+    },
+    {
+      "boundary_gradient_jump": 1.425943374633789,
+      "boundary_rgb_jump": 0.5292561783233651,
+      "laplacian_energy": 6.734978675842285
+    },
+    {
+      "boundary_gradient_jump": 2.815847396850586,
+      "boundary_rgb_jump": 1.8987022350396643,
+      "laplacian_energy": 7.566747665405273
+    },
+    {
+      "boundary_gradient_jump": 41.0423583984375,
+      "boundary_rgb_jump": 16.659971305595406,
+      "laplacian_energy": 30.647905349731445
+    },
+    {
+      "boundary_gradient_jump": 135.213134765625,
+      "boundary_rgb_jump": 34.095398913209095,
+      "laplacian_energy": 38.856666564941406
+    },
+    {
+      "boundary_gradient_jump": 21.63256072998047,
+      "boundary_rgb_jump": 2.4148503342051697,
+      "laplacian_energy": 26.093931198120117
+    },
+    {
+      "boundary_gradient_jump": 22.868064880371094,
+      "boundary_rgb_jump": 40.439648586707406,
+      "laplacian_energy": 34.01486587524414
+    },
+    {
+      "boundary_gradient_jump": 93.40589141845703,
+      "boundary_rgb_jump": 22.459180128539174,
+      "laplacian_energy": 36.85443115234375
+    },
+    {
+      "boundary_gradient_jump": 5.195106506347656,
+      "boundary_rgb_jump": 10.659725585149317,
+      "laplacian_energy": 33.592987060546875
+    },
+    {
+      "boundary_gradient_jump": 3.679149627685547,
+      "boundary_rgb_jump": 1.6527559055118104,
+      "laplacian_energy": 10.458122253417969
+    },
+    {
+      "boundary_gradient_jump": 7.5310516357421875,
+      "boundary_rgb_jump": 14.310133218206488,
+      "laplacian_energy": 36.164894104003906
+    },
+    {
+      "boundary_gradient_jump": 53.029361724853516,
+      "boundary_rgb_jump": 35.17101869761444,
+      "laplacian_energy": 28.774154663085938
+    },
+    {
+      "boundary_gradient_jump": 3.617828369140625,
+      "boundary_rgb_jump": 19.134257907542562,
+      "laplacian_energy": 18.88679313659668
+    },
+    {
+      "boundary_gradient_jump": 28.974388122558594,
+      "boundary_rgb_jump": 30.92414027919646,
+      "laplacian_energy": 27.121063232421875
+    },
+    {
+      "boundary_gradient_jump": 8.19797134399414,
+      "boundary_rgb_jump": 3.5314990719510817,
+      "laplacian_energy": 20.40250015258789
+    },
+    {
+      "boundary_gradient_jump": 1.459188461303711,
+      "boundary_rgb_jump": 3.6929545454545405,
+      "laplacian_energy": 6.498257637023926
+    },
+    {
+      "boundary_gradient_jump": 14.620918273925781,
+      "boundary_rgb_jump": 1.8439939939939904,
+      "laplacian_energy": 10.978468894958496
+    },
+    {
+      "boundary_gradient_jump": 57.25437927246094,
+      "boundary_rgb_jump": 61.18439984854223,
+      "laplacian_energy": 39.283721923828125
+    },
+    {
+      "boundary_gradient_jump": 9.263862609863281,
+      "boundary_rgb_jump": 15.282320218783013,
+      "laplacian_energy": 27.978384017944336
+    },
+    {
+      "boundary_gradient_jump": 25.31964874267578,
+      "boundary_rgb_jump": 1.7492527498804407,
+      "laplacian_energy": 25.95942497253418
+    },
+    {
+      "boundary_gradient_jump": 4.560878753662109,
+      "boundary_rgb_jump": 8.68496988959518,
+      "laplacian_energy": 21.91014289855957
+    },
+    {
+      "boundary_gradient_jump": 78.97523498535156,
+      "boundary_rgb_jump": 3.5897919010123758,
+      "laplacian_energy": 21.545684814453125
+    },
+    {
+      "boundary_gradient_jump": 26.00609588623047,
+      "boundary_rgb_jump": 17.907518194153198,
+      "laplacian_energy": 38.69281768798828
+    },
+    {
+      "boundary_gradient_jump": 14.596572875976562,
+      "boundary_rgb_jump": 1.4087458153993282,
+      "laplacian_energy": 52.16099548339844
+    },
+    {
+      "boundary_gradient_jump": 5.5617523193359375,
+      "boundary_rgb_jump": 6.64037767690877,
+      "laplacian_energy": 18.505455017089844
+    },
+    {
+      "boundary_gradient_jump": 5.983001708984375,
+      "boundary_rgb_jump": 2.032932932932937,
+      "laplacian_energy": 51.72488021850586
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 59.685142517089844,
+      "boundary_rgb_jump": 16.184876438727173,
+      "laplacian_energy": 20.43962860107422
+    },
+    {
+      "boundary_gradient_jump": 5.138053894042969,
+      "boundary_rgb_jump": 6.921339563862915,
+      "laplacian_energy": 20.998376846313477
+    },
+    {
+      "boundary_gradient_jump": 1.0353813171386719,
+      "boundary_rgb_jump": 8.233016653806573,
+      "laplacian_energy": 17.48719596862793
+    },
+    {
+      "boundary_gradient_jump": 1.5919570922851562,
+      "boundary_rgb_jump": 5.2693457360190905,
+      "laplacian_energy": 23.010650634765625
+    },
+    {
+      "boundary_gradient_jump": 86.5527572631836,
+      "boundary_rgb_jump": 16.858045405584562,
+      "laplacian_energy": 41.065216064453125
+    },
+    {
+      "boundary_gradient_jump": 50.985939025878906,
+      "boundary_rgb_jump": 39.47066715010877,
+      "laplacian_energy": 46.216060638427734
+    },
+    {
+      "boundary_gradient_jump": 1.6325454711914062,
+      "boundary_rgb_jump": 6.503905407789247,
+      "laplacian_energy": 8.248424530029297
+    },
+    {
+      "boundary_gradient_jump": 1.2364139556884766,
+      "boundary_rgb_jump": 6.247035776884218,
+      "laplacian_energy": 8.261853218078613
+    },
+    {
+      "boundary_gradient_jump": 1.965993881225586,
+      "boundary_rgb_jump": 2.756505621839267,
+      "laplacian_energy": 9.585293769836426
+    },
+    {
+      "boundary_gradient_jump": 3.475320816040039,
+      "boundary_rgb_jump": 6.417004048582982,
+      "laplacian_energy": 9.973474502563477
+    },
+    {
+      "boundary_gradient_jump": 0.11452148109674454,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.7251166701316833,
+      "boundary_rgb_jump": 0.054,
+      "laplacian_energy": 0.27577319741249084
+    },
+    {
+      "boundary_gradient_jump": 62.791133880615234,
+      "boundary_rgb_jump": 12.816545012165445,
+      "laplacian_energy": 26.28183937072754
+    },
+    {
+      "boundary_gradient_jump": 34.161434173583984,
+      "boundary_rgb_jump": 10.391482669298137,
+      "laplacian_energy": 9.571808815002441
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 49.13353729248047,
+      "boundary_rgb_jump": 15.665090391697355,
+      "laplacian_energy": 14.911490440368652
+    },
+    {
+      "boundary_gradient_jump": 28.87326431274414,
+      "boundary_rgb_jump": 2.941043765979849,
+      "laplacian_energy": 20.95294189453125
+    },
+    {
+      "boundary_gradient_jump": 0.11077752709388733,
+      "boundary_rgb_jump": 0.06067961165048544,
+      "laplacian_energy": 0.2872670888900757
+    },
+    {
+      "boundary_gradient_jump": 21.08010482788086,
+      "boundary_rgb_jump": 0.03371598639455782,
+      "laplacian_energy": 3.370043992996216
+    },
+    {
+      "boundary_gradient_jump": 0.10196168720722198,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.16791991889476776,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 36.32106399536133,
+      "boundary_rgb_jump": 10.13893031734195,
+      "laplacian_energy": 9.573912620544434
+    },
+    {
+      "boundary_gradient_jump": 52.40144729614258,
+      "boundary_rgb_jump": 29.592296780560005,
+      "laplacian_energy": 30.231382369995117
+    },
+    {
+      "boundary_gradient_jump": 133.12904357910156,
+      "boundary_rgb_jump": 54.268287579511224,
+      "laplacian_energy": 65.22826385498047
+    },
+    {
+      "boundary_gradient_jump": 15.454750061035156,
+      "boundary_rgb_jump": 18.9373371547681,
+      "laplacian_energy": 35.147151947021484
+    },
+    {
+      "boundary_gradient_jump": 0.02730962261557579,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 58.302574157714844,
+      "boundary_rgb_jump": 24.38580163043477,
+      "laplacian_energy": 48.689945220947266
+    },
+    {
+      "boundary_gradient_jump": 9.681840896606445,
+      "boundary_rgb_jump": 0.029850746268656716,
+      "laplacian_energy": 0.08377659320831299
+    },
+    {
+      "boundary_gradient_jump": 0.007119708228856325,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.3717935085296631,
+      "boundary_rgb_jump": 0.05759162303664921,
+      "laplacian_energy": 0.26877132058143616
+    },
+    {
+      "boundary_gradient_jump": 1.5490226745605469,
+      "boundary_rgb_jump": 6.075444907232097,
+      "laplacian_energy": 17.776744842529297
+    },
+    {
+      "boundary_gradient_jump": 6.878211975097656,
+      "boundary_rgb_jump": 26.528953724891934,
+      "laplacian_energy": 28.43060874938965
+    },
+    {
+      "boundary_gradient_jump": 39.25517272949219,
+      "boundary_rgb_jump": 29.181712843753232,
+      "laplacian_energy": 35.69053268432617
+    },
+    {
+      "boundary_gradient_jump": 7.83990478515625,
+      "boundary_rgb_jump": 9.150474278398491,
+      "laplacian_energy": 19.98272705078125
+    },
+    {
+      "boundary_gradient_jump": 4.719200134277344,
+      "boundary_rgb_jump": 5.823895420498729,
+      "laplacian_energy": 24.43770408630371
+    },
+    {
+      "boundary_gradient_jump": 20.45391845703125,
+      "boundary_rgb_jump": 4.56236287845546,
+      "laplacian_energy": 31.33367347717285
+    },
+    {
+      "boundary_gradient_jump": 10.240394592285156,
+      "boundary_rgb_jump": 4.275054561326925,
+      "laplacian_energy": 26.662946701049805
+    },
+    {
+      "boundary_gradient_jump": 50.53758239746094,
+      "boundary_rgb_jump": 2.7869565217391425,
+      "laplacian_energy": 47.77513885498047
+    },
+    {
+      "boundary_gradient_jump": 36.16058349609375,
+      "boundary_rgb_jump": 5.001635469391658,
+      "laplacian_energy": 13.812065124511719
+    },
+    {
+      "boundary_gradient_jump": 2.8236312866210938,
+      "boundary_rgb_jump": 0.8735695187165788,
+      "laplacian_energy": 47.885887145996094
+    },
+    {
+      "boundary_gradient_jump": 10.367019653320312,
+      "boundary_rgb_jump": 6.502059925093619,
+      "laplacian_energy": 25.503936767578125
+    },
+    {
+      "boundary_gradient_jump": 18.226547241210938,
+      "boundary_rgb_jump": 7.679078014184398,
+      "laplacian_energy": 35.84403610229492
+    },
+    {
+      "boundary_gradient_jump": 18.977588653564453,
+      "boundary_rgb_jump": 3.043894362784684,
+      "laplacian_energy": 26.038625717163086
+    },
+    {
+      "boundary_gradient_jump": 7.0764617919921875,
+      "boundary_rgb_jump": 6.919715168153743,
+      "laplacian_energy": 16.99512481689453
+    },
+    {
+      "boundary_gradient_jump": 3.7869529724121094,
+      "boundary_rgb_jump": 0.2984810126582289,
+      "laplacian_energy": 20.90055274963379
+    },
+    {
+      "boundary_gradient_jump": 31.891708374023438,
+      "boundary_rgb_jump": 26.05748489594987,
+      "laplacian_energy": 23.094745635986328
+    },
+    {
+      "boundary_gradient_jump": 39.018463134765625,
+      "boundary_rgb_jump": 16.46691919191919,
+      "laplacian_energy": 27.07649803161621
+    },
+    {
+      "boundary_gradient_jump": 6.563747406005859,
+      "boundary_rgb_jump": 2.6597323600973297,
+      "laplacian_energy": 21.758255004882812
+    },
+    {
+      "boundary_gradient_jump": 4.261699676513672,
+      "boundary_rgb_jump": 4.2125327838141615,
+      "laplacian_energy": 15.152892112731934
+    },
+    {
+      "boundary_gradient_jump": 5.419483184814453,
+      "boundary_rgb_jump": 6.081643625192015,
+      "laplacian_energy": 14.89853572845459
+    },
+    {
+      "boundary_gradient_jump": 30.864112854003906,
+      "boundary_rgb_jump": 9.349145299145306,
+      "laplacian_energy": 54.0439567565918
+    },
+    {
+      "boundary_gradient_jump": 14.341400146484375,
+      "boundary_rgb_jump": 44.379467504377374,
+      "laplacian_energy": 39.38834762573242
+    },
+    {
+      "boundary_gradient_jump": 1.51593017578125,
+      "boundary_rgb_jump": 15.590436810856659,
+      "laplacian_energy": 25.240148544311523
+    },
+    {
+      "boundary_gradient_jump": 8.058601379394531,
+      "boundary_rgb_jump": 4.245312500000011,
+      "laplacian_energy": 12.934357643127441
+    },
+    {
+      "boundary_gradient_jump": 3.8140945434570312,
+      "boundary_rgb_jump": 11.281471776394824,
+      "laplacian_energy": 25.262500762939453
+    },
+    {
+      "boundary_gradient_jump": 0.08644866943359375,
+      "boundary_rgb_jump": 10.858682983682982,
+      "laplacian_energy": 18.14027214050293
+    },
+    {
+      "boundary_gradient_jump": 3.9423904418945312,
+      "boundary_rgb_jump": 2.9286564625850247,
+      "laplacian_energy": 9.691630363464355
+    },
+    {
+      "boundary_gradient_jump": 2.1845760345458984,
+      "boundary_rgb_jump": 1.1858294930875388,
+      "laplacian_energy": 9.89225959777832
+    },
+    {
+      "boundary_gradient_jump": 13.420785903930664,
+      "boundary_rgb_jump": 6.607353422862758,
+      "laplacian_energy": 14.548749923706055
+    },
+    {
+      "boundary_gradient_jump": 9.435234069824219,
+      "boundary_rgb_jump": 1.136057971014509,
+      "laplacian_energy": 43.62757873535156
+    },
+    {
+      "boundary_gradient_jump": 13.750808715820312,
+      "boundary_rgb_jump": 1.9868777259738408,
+      "laplacian_energy": 37.882354736328125
+    },
+    {
+      "boundary_gradient_jump": 7.825958251953125,
+      "boundary_rgb_jump": 2.012642225031584,
+      "laplacian_energy": 19.038352966308594
+    },
+    {
+      "boundary_gradient_jump": 1.4725608825683594,
+      "boundary_rgb_jump": 2.380893197447989,
+      "laplacian_energy": 8.376087188720703
+    },
+    {
+      "boundary_gradient_jump": 11.597434997558594,
+      "boundary_rgb_jump": 4.477149377081531,
+      "laplacian_energy": 31.4880313873291
+    },
+    {
+      "boundary_gradient_jump": 3.5743980407714844,
+      "boundary_rgb_jump": 0.2738522238163341,
+      "laplacian_energy": 9.468585968017578
+    },
+    {
+      "boundary_gradient_jump": 8.550575256347656,
+      "boundary_rgb_jump": 0.6262692433671759,
+      "laplacian_energy": 10.1537504196167
+    },
+    {
+      "boundary_gradient_jump": 2.2360458374023438,
+      "boundary_rgb_jump": 0.7716182906584947,
+      "laplacian_energy": 9.0
+    },
+    {
+      "boundary_gradient_jump": 60.776397705078125,
+      "boundary_rgb_jump": 4.627014492753631,
+      "laplacian_energy": 35.346649169921875
+    },
+    {
+      "boundary_gradient_jump": 2.602792739868164,
+      "boundary_rgb_jump": 0.9374807987711335,
+      "laplacian_energy": 7.089958190917969
+    },
+    {
+      "boundary_gradient_jump": 2.1026439666748047,
+      "boundary_rgb_jump": 1.3064414520828223,
+      "laplacian_energy": 6.633474349975586
+    },
+    {
+      "boundary_gradient_jump": 0.05306168645620346,
+      "boundary_rgb_jump": 0.038277511961723576,
+      "laplacian_energy": 0.18046875298023224
+    },
+    {
+      "boundary_gradient_jump": 0.04896046966314316,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 18.76044464111328,
+      "boundary_rgb_jump": 11.82771140179213,
+      "laplacian_energy": 10.292475700378418
+    },
+    {
+      "boundary_gradient_jump": 0.2035595029592514,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.26800960302352905,
+      "boundary_rgb_jump": 0.07286365564036146,
+      "laplacian_energy": 0.35098522901535034
+    },
+    {
+      "boundary_gradient_jump": 0.2418358325958252,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.03519417345523834
+    },
+    {
+      "boundary_gradient_jump": 0.2350216656923294,
+      "boundary_rgb_jump": 0.03723404255319451,
+      "laplacian_energy": 0.16743119060993195
+    },
+    {
+      "boundary_gradient_jump": 0.10811742395162582,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.2789687514305115,
+      "boundary_rgb_jump": 0.03965517241380212,
+      "laplacian_energy": 0.1863839328289032
+    },
+    {
+      "boundary_gradient_jump": 2.0698647499084473,
+      "boundary_rgb_jump": 0.19902912621358837,
+      "laplacian_energy": 0.7779502868652344
+    },
+    {
+      "boundary_gradient_jump": 0.11342158168554306,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.008583690971136093
+    },
+    {
+      "boundary_gradient_jump": 0.46695244312286377,
+      "boundary_rgb_jump": 0.0390070921985739,
+      "laplacian_energy": 0.18004587292671204
+    },
+    {
+      "boundary_gradient_jump": 0.15113474428653717,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.3378806412220001,
+      "boundary_rgb_jump": 0.06814641744549021,
+      "laplacian_energy": 0.5329341292381287
+    },
+    {
+      "boundary_gradient_jump": 0.2482682466506958,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.015664372593164444,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.7808924913406372,
+      "boundary_rgb_jump": 0.00323049588109825,
+      "laplacian_energy": 0.17489270865917206
+    },
+    {
+      "boundary_gradient_jump": 0.09543592482805252,
+      "boundary_rgb_jump": 0.03246753246753542,
+      "laplacian_energy": 0.0986238569021225
+    },
+    {
+      "boundary_gradient_jump": 0.02679884433746338,
+      "boundary_rgb_jump": 0.03260869565218627,
+      "laplacian_energy": 0.03707224503159523
+    }
+  ],
+  "cpt_records": [
+    {
+      "boundary_gradient_jump": 79.06531524658203,
+      "boundary_rgb_jump": 40.272050276082524,
+      "laplacian_energy": 50.23410415649414
+    },
+    {
+      "boundary_gradient_jump": 18.055070877075195,
+      "boundary_rgb_jump": 0.46923790806857824,
+      "laplacian_energy": 6.743750095367432
+    },
+    {
+      "boundary_gradient_jump": 3.9699325561523438,
+      "boundary_rgb_jump": 4.862321214106345,
+      "laplacian_energy": 10.96875
+    },
+    {
+      "boundary_gradient_jump": 3.9863719940185547,
+      "boundary_rgb_jump": 1.0483224373997757,
+      "laplacian_energy": 9.06382942199707
+    },
+    {
+      "boundary_gradient_jump": 1.9377708435058594,
+      "boundary_rgb_jump": 0.9925092876756594,
+      "laplacian_energy": 7.668455123901367
+    },
+    {
+      "boundary_gradient_jump": 2.797098159790039,
+      "boundary_rgb_jump": 2.241219487073849,
+      "laplacian_energy": 7.520630836486816
+    },
+    {
+      "boundary_gradient_jump": 19.928924560546875,
+      "boundary_rgb_jump": 8.12739120038259,
+      "laplacian_energy": 26.331151962280273
+    },
+    {
+      "boundary_gradient_jump": 108.49201965332031,
+      "boundary_rgb_jump": 21.78963994565217,
+      "laplacian_energy": 39.2974853515625
+    },
+    {
+      "boundary_gradient_jump": 38.984954833984375,
+      "boundary_rgb_jump": 1.6971083987212978,
+      "laplacian_energy": 30.42919158935547
+    },
+    {
+      "boundary_gradient_jump": 53.79212951660156,
+      "boundary_rgb_jump": 50.14502164502164,
+      "laplacian_energy": 36.05540466308594
+    },
+    {
+      "boundary_gradient_jump": 61.90455627441406,
+      "boundary_rgb_jump": 9.170270974465865,
+      "laplacian_energy": 28.276899337768555
+    },
+    {
+      "boundary_gradient_jump": 44.047706604003906,
+      "boundary_rgb_jump": 15.318926553672327,
+      "laplacian_energy": 27.08384132385254
+    },
+    {
+      "boundary_gradient_jump": 3.203775405883789,
+      "boundary_rgb_jump": 0.07831833520809539,
+      "laplacian_energy": 8.644670486450195
+    },
+    {
+      "boundary_gradient_jump": 14.626867294311523,
+      "boundary_rgb_jump": 2.223333919465432,
+      "laplacian_energy": 8.977746963500977
+    },
+    {
+      "boundary_gradient_jump": 30.458953857421875,
+      "boundary_rgb_jump": 14.407945736434101,
+      "laplacian_energy": 40.165306091308594
+    },
+    {
+      "boundary_gradient_jump": 35.00172424316406,
+      "boundary_rgb_jump": 18.631678832116776,
+      "laplacian_energy": 17.845518112182617
+    },
+    {
+      "boundary_gradient_jump": 47.32524490356445,
+      "boundary_rgb_jump": 42.54153898535921,
+      "laplacian_energy": 17.52854347229004
+    },
+    {
+      "boundary_gradient_jump": 95.63780212402344,
+      "boundary_rgb_jump": 17.788022709902833,
+      "laplacian_energy": 36.599998474121094
+    },
+    {
+      "boundary_gradient_jump": 1.7184867858886719,
+      "boundary_rgb_jump": 2.9643716577540147,
+      "laplacian_energy": 7.292683124542236
+    },
+    {
+      "boundary_gradient_jump": 5.3588104248046875,
+      "boundary_rgb_jump": 1.3803303303303096,
+      "laplacian_energy": 10.99043083190918
+    },
+    {
+      "boundary_gradient_jump": 123.06723022460938,
+      "boundary_rgb_jump": 14.161799507762197,
+      "laplacian_energy": 38.47209167480469
+    },
+    {
+      "boundary_gradient_jump": 8.086715698242188,
+      "boundary_rgb_jump": 16.660124930076464,
+      "laplacian_energy": 33.805450439453125
+    },
+    {
+      "boundary_gradient_jump": 61.94218444824219,
+      "boundary_rgb_jump": 14.449037541846003,
+      "laplacian_energy": 31.590314865112305
+    },
+    {
+      "boundary_gradient_jump": 2.2468605041503906,
+      "boundary_rgb_jump": 5.952018512322965,
+      "laplacian_energy": 12.86298942565918
+    },
+    {
+      "boundary_gradient_jump": 39.448768615722656,
+      "boundary_rgb_jump": 19.705961754780674,
+      "laplacian_energy": 32.898475646972656
+    },
+    {
+      "boundary_gradient_jump": 8.109062194824219,
+      "boundary_rgb_jump": 3.9445232515110433,
+      "laplacian_energy": 28.348403930664062
+    },
+    {
+      "boundary_gradient_jump": 14.769065856933594,
+      "boundary_rgb_jump": 0.9031563845050243,
+      "laplacian_energy": 58.175392150878906
+    },
+    {
+      "boundary_gradient_jump": 7.839637756347656,
+      "boundary_rgb_jump": 9.238579492551224,
+      "laplacian_energy": 9.984545707702637
+    },
+    {
+      "boundary_gradient_jump": 14.67333984375,
+      "boundary_rgb_jump": 9.06924424424426,
+      "laplacian_energy": 39.16746520996094
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 24.361621856689453,
+      "boundary_rgb_jump": 6.169367806364249,
+      "laplacian_energy": 17.545665740966797
+    },
+    {
+      "boundary_gradient_jump": 3.2416000366210938,
+      "boundary_rgb_jump": 6.881550192960418,
+      "laplacian_energy": 21.219966888427734
+    },
+    {
+      "boundary_gradient_jump": 1.0253691673278809,
+      "boundary_rgb_jump": 0.3209153163580254,
+      "laplacian_energy": 1.468328833580017
+    },
+    {
+      "boundary_gradient_jump": 6.7127580642700195,
+      "boundary_rgb_jump": 1.1340315420821343,
+      "laplacian_energy": 4.303251266479492
+    },
+    {
+      "boundary_gradient_jump": 90.79830932617188,
+      "boundary_rgb_jump": 17.606574695500868,
+      "laplacian_energy": 34.190216064453125
+    },
+    {
+      "boundary_gradient_jump": 25.828025817871094,
+      "boundary_rgb_jump": 53.902658931592924,
+      "laplacian_energy": 33.36258316040039
+    },
+    {
+      "boundary_gradient_jump": 1.3475341796875,
+      "boundary_rgb_jump": 6.686190438856116,
+      "laplacian_energy": 8.73109245300293
+    },
+    {
+      "boundary_gradient_jump": 1.4448356628417969,
+      "boundary_rgb_jump": 6.728972058975145,
+      "laplacian_energy": 7.319504261016846
+    },
+    {
+      "boundary_gradient_jump": 5.942268371582031,
+      "boundary_rgb_jump": 18.205214801141125,
+      "laplacian_energy": 8.654302597045898
+    },
+    {
+      "boundary_gradient_jump": 2.7557811737060547,
+      "boundary_rgb_jump": 6.085222672064759,
+      "laplacian_energy": 9.862069129943848
+    },
+    {
+      "boundary_gradient_jump": 0.7531051635742188,
+      "boundary_rgb_jump": 8.345717463848715,
+      "laplacian_energy": 27.440677642822266
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 80.02788543701172,
+      "boundary_rgb_jump": 20.088997522266126,
+      "laplacian_energy": 29.06788444519043
+    },
+    {
+      "boundary_gradient_jump": 33.259273529052734,
+      "boundary_rgb_jump": 10.445664240779564,
+      "laplacian_energy": 9.234042167663574
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 31.534576416015625,
+      "boundary_rgb_jump": 61.289671911617006,
+      "laplacian_energy": 37.46894454956055
+    },
+    {
+      "boundary_gradient_jump": 0.3244640827178955,
+      "boundary_rgb_jump": 0.028951722063453644,
+      "laplacian_energy": 0.5676470398902893
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.010636999271810055,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.11241506040096283,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 35.00704574584961,
+      "boundary_rgb_jump": 10.87333250476427,
+      "laplacian_energy": 10.691304206848145
+    },
+    {
+      "boundary_gradient_jump": 40.283721923828125,
+      "boundary_rgb_jump": 39.78629579375848,
+      "laplacian_energy": 33.73138427734375
+    },
+    {
+      "boundary_gradient_jump": 105.20124816894531,
+      "boundary_rgb_jump": 59.73824070974223,
+      "laplacian_energy": 77.09782409667969
+    },
+    {
+      "boundary_gradient_jump": 29.6971435546875,
+      "boundary_rgb_jump": 19.949713392391857,
+      "laplacian_energy": 39.1629753112793
+    },
+    {
+      "boundary_gradient_jump": 0.02730962261557579,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 55.40863037109375,
+      "boundary_rgb_jump": 5.249297856614902,
+      "laplacian_energy": 35.141448974609375
+    },
+    {
+      "boundary_gradient_jump": 19.01760482788086,
+      "boundary_rgb_jump": 0.07888244726779327,
+      "laplacian_energy": 0.4414893686771393
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.30041640996932983,
+      "boundary_rgb_jump": 0.024869109947643978,
+      "laplacian_energy": 0.13907849788665771
+    },
+    {
+      "boundary_gradient_jump": 8.949150085449219,
+      "boundary_rgb_jump": 7.585786633850802,
+      "laplacian_energy": 16.996511459350586
+    },
+    {
+      "boundary_gradient_jump": 20.539154052734375,
+      "boundary_rgb_jump": 14.106820493262134,
+      "laplacian_energy": 25.519962310791016
+    },
+    {
+      "boundary_gradient_jump": 61.757354736328125,
+      "boundary_rgb_jump": 19.3829951591307,
+      "laplacian_energy": 35.17718505859375
+    },
+    {
+      "boundary_gradient_jump": 15.238037109375,
+      "boundary_rgb_jump": 7.1390974162011105,
+      "laplacian_energy": 15.812726974487305
+    },
+    {
+      "boundary_gradient_jump": 1.09226393699646,
+      "boundary_rgb_jump": 0.3366317762353219,
+      "laplacian_energy": 1.7821691036224365
+    },
+    {
+      "boundary_gradient_jump": 47.69932174682617,
+      "boundary_rgb_jump": 12.332693432792162,
+      "laplacian_energy": 27.563264846801758
+    },
+    {
+      "boundary_gradient_jump": 12.076488494873047,
+      "boundary_rgb_jump": 2.642405063291136,
+      "laplacian_energy": 21.332590103149414
+    },
+    {
+      "boundary_gradient_jump": 69.39846801757812,
+      "boundary_rgb_jump": 13.316372282608683,
+      "laplacian_energy": 35.722068786621094
+    },
+    {
+      "boundary_gradient_jump": 14.222735404968262,
+      "boundary_rgb_jump": 1.855995129405045,
+      "laplacian_energy": 7.626450061798096
+    },
+    {
+      "boundary_gradient_jump": 11.690933227539062,
+      "boundary_rgb_jump": 6.634705882352932,
+      "laplacian_energy": 20.788328170776367
+    },
+    {
+      "boundary_gradient_jump": 0.10000351816415787,
+      "boundary_rgb_jump": 0.03052434456928839,
+      "laplacian_energy": 0.14566929638385773
+    },
+    {
+      "boundary_gradient_jump": 23.91153335571289,
+      "boundary_rgb_jump": 6.179906972460174,
+      "laplacian_energy": 26.155963897705078
+    },
+    {
+      "boundary_gradient_jump": 8.719924926757812,
+      "boundary_rgb_jump": 5.618014052657088,
+      "laplacian_energy": 30.688840866088867
+    },
+    {
+      "boundary_gradient_jump": 1.4694461822509766,
+      "boundary_rgb_jump": 2.748249828414558,
+      "laplacian_energy": 9.241643905639648
+    },
+    {
+      "boundary_gradient_jump": 5.001255035400391,
+      "boundary_rgb_jump": 1.8293839662447269,
+      "laplacian_energy": 12.38328742980957
+    },
+    {
+      "boundary_gradient_jump": 31.360031127929688,
+      "boundary_rgb_jump": 24.994338778250167,
+      "laplacian_energy": 24.39649772644043
+    },
+    {
+      "boundary_gradient_jump": 33.63166046142578,
+      "boundary_rgb_jump": 28.444707949055783,
+      "laplacian_energy": 23.316246032714844
+    },
+    {
+      "boundary_gradient_jump": 6.266712188720703,
+      "boundary_rgb_jump": 1.5344768856447502,
+      "laplacian_energy": 16.617923736572266
+    },
+    {
+      "boundary_gradient_jump": 4.1992034912109375,
+      "boundary_rgb_jump": 4.18141626077184,
+      "laplacian_energy": 15.836776733398438
+    },
+    {
+      "boundary_gradient_jump": 2.213560104370117,
+      "boundary_rgb_jump": 3.6336981566820157,
+      "laplacian_energy": 8.29079532623291
+    },
+    {
+      "boundary_gradient_jump": 21.009567260742188,
+      "boundary_rgb_jump": 8.365384615384613,
+      "laplacian_energy": 37.028846740722656
+    },
+    {
+      "boundary_gradient_jump": 5.4338226318359375,
+      "boundary_rgb_jump": 20.74340817797919,
+      "laplacian_energy": 46.86165237426758
+    },
+    {
+      "boundary_gradient_jump": 7.242273330688477,
+      "boundary_rgb_jump": 0.1803435114503884,
+      "laplacian_energy": 13.198275566101074
+    },
+    {
+      "boundary_gradient_jump": 10.993175506591797,
+      "boundary_rgb_jump": 4.463485054347814,
+      "laplacian_energy": 16.388267517089844
+    },
+    {
+      "boundary_gradient_jump": 3.3190953731536865,
+      "boundary_rgb_jump": 0.800223823561538,
+      "laplacian_energy": 3.296250104904175
+    },
+    {
+      "boundary_gradient_jump": 9.589212417602539,
+      "boundary_rgb_jump": 3.233391608391628,
+      "laplacian_energy": 13.493212699890137
+    },
+    {
+      "boundary_gradient_jump": 2.4054126739501953,
+      "boundary_rgb_jump": 0.3724489795918373,
+      "laplacian_energy": 9.137664794921875
+    },
+    {
+      "boundary_gradient_jump": 2.4093017578125,
+      "boundary_rgb_jump": 0.1995007680491483,
+      "laplacian_energy": 13.086819648742676
+    },
+    {
+      "boundary_gradient_jump": 7.942220687866211,
+      "boundary_rgb_jump": 4.106425373949122,
+      "laplacian_energy": 14.077500343322754
+    },
+    {
+      "boundary_gradient_jump": 2.7964859008789062,
+      "boundary_rgb_jump": 4.616289855072466,
+      "laplacian_energy": 48.42912292480469
+    },
+    {
+      "boundary_gradient_jump": 96.5966567993164,
+      "boundary_rgb_jump": 24.795420363964524,
+      "laplacian_energy": 41.333824157714844
+    },
+    {
+      "boundary_gradient_jump": 15.775413513183594,
+      "boundary_rgb_jump": 3.180818935243707,
+      "laplacian_energy": 22.397727966308594
+    },
+    {
+      "boundary_gradient_jump": 2.0406036376953125,
+      "boundary_rgb_jump": 1.4093959731543606,
+      "laplacian_energy": 7.030434608459473
+    },
+    {
+      "boundary_gradient_jump": 24.287322998046875,
+      "boundary_rgb_jump": 5.04847662513879,
+      "laplacian_energy": 36.2739372253418
+    },
+    {
+      "boundary_gradient_jump": 3.570863723754883,
+      "boundary_rgb_jump": 0.29979674796749123,
+      "laplacian_energy": 9.363874435424805
+    },
+    {
+      "boundary_gradient_jump": 4.177005767822266,
+      "boundary_rgb_jump": 1.0861447756305296,
+      "laplacian_energy": 10.854999542236328
+    },
+    {
+      "boundary_gradient_jump": 1.2317371368408203,
+      "boundary_rgb_jump": 1.0723376427385745,
+      "laplacian_energy": 8.469594955444336
+    },
+    {
+      "boundary_gradient_jump": 73.48980712890625,
+      "boundary_rgb_jump": 13.477768115942041,
+      "laplacian_energy": 23.413660049438477
+    },
+    {
+      "boundary_gradient_jump": 6.2088623046875,
+      "boundary_rgb_jump": 0.03070825729926696,
+      "laplacian_energy": 6.559701442718506
+    },
+    {
+      "boundary_gradient_jump": 2.0766258239746094,
+      "boundary_rgb_jump": 0.016024883849098615,
+      "laplacian_energy": 7.656779766082764
+    },
+    {
+      "boundary_gradient_jump": 0.02171790599822998,
+      "boundary_rgb_jump": 0.05152979066022567,
+      "laplacian_energy": 0.2756563127040863
+    },
+    {
+      "boundary_gradient_jump": 0.04896046966314316,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.3652791380882263,
+      "boundary_rgb_jump": 0.10230198784631739,
+      "laplacian_energy": 0.40655338764190674
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.34829485416412354,
+      "boundary_rgb_jump": 0.0706106870229064,
+      "laplacian_energy": 0.30295565724372864
+    },
+    {
+      "boundary_gradient_jump": 0.327331006526947,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.05430711433291435
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.10811742395162582,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.2742403745651245,
+      "boundary_rgb_jump": 0.05361305361304858,
+      "laplacian_energy": 0.30756014585494995
+    },
+    {
+      "boundary_gradient_jump": 2.0698647499084473,
+      "boundary_rgb_jump": 0.19902912621358837,
+      "laplacian_energy": 0.7779502868652344
+    },
+    {
+      "boundary_gradient_jump": 0.13367986679077148,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.013201320543885231
+    },
+    {
+      "boundary_gradient_jump": 0.46695244312286377,
+      "boundary_rgb_jump": 0.0390070921985739,
+      "laplacian_energy": 0.18004587292671204
+    },
+    {
+      "boundary_gradient_jump": 0.17328384518623352,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.40302330255508423,
+      "boundary_rgb_jump": 0.0889797507788046,
+      "laplacian_energy": 0.4790419042110443
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.0,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.600021481513977,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.0
+    },
+    {
+      "boundary_gradient_jump": 0.0980205088853836,
+      "boundary_rgb_jump": 0.0,
+      "laplacian_energy": 0.008027522824704647
+    },
+    {
+      "boundary_gradient_jump": 2.6072521209716797,
+      "boundary_rgb_jump": 9.659595092804494,
+      "laplacian_energy": 7.614068508148193
+    }
+  ]
+}

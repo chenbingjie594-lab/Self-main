@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "cpt": {
+    "epochs": 150,
+    "total_draws": 57000,
+    "base_draws": 39000,
+    "cpt_draws": 18000,
+    "total_batches": 7200,
+    "successful_optimizer_steps": 918,
+    "sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa"
+  },
+  "historical_uniform": {
+    "epochs": 150,
+    "total_draws": 57000,
+    "base_draws": 39000,
+    "extra_draws": 18000,
+    "total_batches": 7200,
+    "optimizer_steps": 917,
+    "sequence_hashes_sha256": "b81c0bee153290088f8570f1f1cb512607bb6462b1b44af422e4563f7189f7fa",
+    "last_sha256": "1aaa8fca9ae9d981a6cf699159005db8bd8054a8ce70a34fd3b1f6f7d8e1fa01",
+    "best_sha256": "cb00bdfcd68687dbe91cbd16438cb099bacc0b6bccbe9bf13928ddd3fa17cebc"
+  },
+  "successful_optimizer_steps_reported_not_equalized": true
+}
