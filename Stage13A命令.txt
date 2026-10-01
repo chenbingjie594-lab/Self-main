@@ -1,0 +1,31 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/deeppcb_stage13a_counterfactual_pair_transport
+mkdir -p results_for_gpt/deeppcb_stage13a_counterfactual_pair_transport
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_deeppcb_stage13a.py \
+  --protocol configs/deeppcb_stage13a.json \
+  --registry results_for_gpt/bootstrap_guard_deeppcb_stage2/deep_pcb_instance_registry.json \
+  --uniform_selection results_for_gpt/deeppcb_stage11b_real_replay_allocation/uniform_selection.json \
+  --lowdata_split results_for_gpt/bootstrap_guard_deeppcb_lowdata_audit/lowdata_split_manifest.json \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42 \
+  --output results_for_gpt/deeppcb_stage13a_counterfactual_pair_transport \
+  --device 0 > logs/deeppcb_stage13a_counterfactual_pair_transport/preparation.log 2>&1
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_deeppcb_stage13a.py \
+  --protocol configs/deeppcb_stage13a.json \
+  --prepared results_for_gpt/deeppcb_stage13a_counterfactual_pair_transport \
+  --stage11b results_for_gpt/deeppcb_stage11b_real_replay_allocation \
+  --stage11b_runs runs/deeppcb_stage11b_real_replay_allocation \
+  --real_dataset /mnt/sda/cbj/dataset/DeepPCB_stage4_downstream_s42/real_only \
+  --model pretrained/yolo11s.pt \
+  --dataset_root /mnt/sda/cbj/dataset/DeepPCB_stage13a_cpt_s42 \
+  --runs runs/deeppcb_stage13a_counterfactual_pair_transport \
+  --output results_for_gpt/deeppcb_stage13a_counterfactual_pair_transport \
+  --device 0 > logs/deeppcb_stage13a_counterfactual_pair_transport/training.log 2>&1
+' > logs/deeppcb_stage13a_counterfactual_pair_transport/launcher.log 2>&1 &
+
+echo $! > logs/deeppcb_stage13a_counterfactual_pair_transport/launcher.pid
