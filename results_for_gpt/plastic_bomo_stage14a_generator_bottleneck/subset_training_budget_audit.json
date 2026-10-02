@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "arms": {
+    "real_repeat": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "05600ff8b45bfd6c9cac3af2cf1ff741ed7993e6925cbef4c256ae983224a816",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/real_repeat/data.yaml"
+    },
+    "random": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "964adad125d78f4d51e4276bdede4897b7878c7bc94dd6edc35d63a7e938bcc7",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/random/data.yaml"
+    },
+    "high_fidelity": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "b94594363d5eb68292629645ff79b7776f6f7715f679f73cb01a959f2ed3d36e",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/high_fidelity/data.yaml"
+    },
+    "valid_novel": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "8a03fe1238cf36adcb87914604dc4d186effb1146aee95e3b3c0a47ec2ef40ac",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/valid_novel/data.yaml"
+    },
+    "high_context_compatibility": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "521b002770c3c6c5d2aa3762e8615981ea6de03448029fb7c4bc36fa3db7208f",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/high_context_compatibility/data.yaml"
+    },
+    "low_fidelity_diagnostic": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "d6ba378582f06a25df7fb33febb3c52001b45edbe9e4dd5f569d40887444c864",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/low_fidelity_diagnostic/data.yaml"
+    },
+    "low_context_diagnostic": {
+      "train_images": 218,
+      "base_images": 138,
+      "extra_images": 80,
+      "extra_label_instances": {
+        "flash": 40,
+        "black": 40
+      },
+      "extra_ids_sha256": "f2733a28cebd0baa01ef55cd5d964726f2e0b59f0f6af78ddb7b2e05026b0594",
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42/low_context_diagnostic/data.yaml"
+    }
+  },
+  "real_data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml",
+  "real_train_images": 138,
+  "extra_images_per_arm": 80,
+  "total_images_per_arm": 218,
+  "class_exposure": {
+    "flash": 40,
+    "black": 40
+  },
+  "validation": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only/images/val",
+  "validation_unchanged": true,
+  "training": {
+    "real_repeat": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    },
+    "random": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    },
+    "high_fidelity": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    },
+    "valid_novel": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    },
+    "high_context_compatibility": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    },
+    "low_fidelity_diagnostic": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    },
+    "low_context_diagnostic": {
+      "checks": {
+        "epochs": true,
+        "batch": true,
+        "imgsz": true,
+        "seed": true,
+        "optimizer": true,
+        "last_exists": true
+      },
+      "train_images": 218,
+      "epochs": 150,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt"
+    }
+  },
+  "equal_scheduled_compute": true
+}

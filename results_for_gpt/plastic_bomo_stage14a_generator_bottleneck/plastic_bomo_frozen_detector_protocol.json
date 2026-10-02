@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_FOR_STAGE14A_SCREENING",
+  "detector": "YOLO11s",
+  "pretrained": "yolo11s.pt",
+  "seed": 42,
+  "epochs": 150,
+  "patience": 40,
+  "batch": 1,
+  "imgsz": 1536,
+  "optimizer": "auto",
+  "deterministic": true,
+  "primary_metric": "mAP50-95",
+  "primary_checkpoint": "final epoch last.pt",
+  "augmentations": {
+    "rect": false,
+    "augment": false,
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "close_mosaic": 10
+  },
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_budget": 80,
+  "per_class_synthetic_budget": {
+    "flash": 40,
+    "black": 40
+  },
+  "validation_hash": "b9b86fcd9db97056a5cb0aa6ba6c90a12da030442999039d2f9e70951d7c4509",
+  "deep_pcb_training_count": 0,
+  "deep_pcb_generation_count": 0
+}

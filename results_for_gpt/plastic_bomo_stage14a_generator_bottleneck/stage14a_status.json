@@ -1,0 +1,70 @@
+{
+  "status": "IMAGE_PROPERTY_BOTTLENECK_NOT_IDENTIFIED",
+  "random_map50_95": 0.40442537957571717,
+  "deltas_vs_random": {
+    "real_repeat": {
+      "map50_95_raw": -0.006356426171026663,
+      "map50_95_pp": -0.6356426171026663,
+      "per_class_ap50_95_pp": {
+        "flash": 2.5502459601678074,
+        "black": -3.821531194373123
+      }
+    },
+    "high_fidelity": {
+      "map50_95_raw": 0.02285779594709625,
+      "map50_95_pp": 2.285779594709625,
+      "per_class_ap50_95_pp": {
+        "flash": 5.81290214610547,
+        "black": -1.2413429566862255
+      }
+    },
+    "valid_novel": {
+      "map50_95_raw": -0.026991025848867645,
+      "map50_95_pp": -2.6991025848867647,
+      "per_class_ap50_95_pp": {
+        "flash": -1.658858857814982,
+        "black": -3.7393463119585633
+      }
+    },
+    "high_context_compatibility": {
+      "map50_95_raw": -0.018743065414124294,
+      "map50_95_pp": -1.8743065414124294,
+      "per_class_ap50_95_pp": {
+        "flash": -1.0510306699277217,
+        "black": -2.697582412897137
+      }
+    },
+    "low_fidelity_diagnostic": {
+      "map50_95_raw": -0.039349196436679224,
+      "map50_95_pp": -3.9349196436679224,
+      "per_class_ap50_95_pp": {
+        "flash": -3.6188825399254663,
+        "black": -4.250956747410389
+      }
+    },
+    "low_context_diagnostic": {
+      "map50_95_raw": -0.03230071978582433,
+      "map50_95_pp": -3.2300719785824326,
+      "per_class_ap50_95_pp": {
+        "flash": -4.532232476562331,
+        "black": -1.9279114806025233
+      }
+    }
+  },
+  "gates": {
+    "fidelity": false,
+    "context_compatibility": false,
+    "valid_novelty": false
+  },
+  "fidelity_protocol_complete": false,
+  "morphology_matched_subset_signal": {
+    "high_minus_random_pp": 2.285779594709625,
+    "low_minus_random_pp": -3.9349196436679224,
+    "interpretation": "diagnostic signal only; the current subset was selected by morphology distance because crop-KID and real-nearest LPIPS were unavailable"
+  },
+  "fidelity_claim_blocked_reason": "crop-KID and real-nearest LPIPS were not computed; morphology matching alone cannot establish the broad fidelity bottleneck",
+  "novelty_causal_gate_unavailable": "duplicate-like and off-manifold equal-budget subsets infeasible",
+  "STAGE14B_AUTO_START": false,
+  "deep_pcb_training_count": 0,
+  "deep_pcb_generation_count": 0
+}

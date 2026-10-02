@@ -1,0 +1,61 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage14a_generator_bottleneck
+mkdir -p results_for_gpt/plastic_bomo_stage14a_generator_bottleneck
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_plastic_bomo_stage14a.py \
+  --protocol configs/plastic_bomo_stage14a.json \
+  --baseline_experiment experiments/baseline_split70_s42.json \
+  --baseline_config configs/baseline_frozen_split70_s42.json \
+  --random_manifest results_for_gpt/random_matched_manifest_40_40_s42.json \
+  --dwbg_manifest results_for_gpt/dwbg_v2_manifest_40_40.json \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --downstream_results results_for_gpt/bootstrap_guard_downstream/validated_per_seed.json \
+  --downstream_audit results_for_gpt/bootstrap_guard_downstream/dataset_audit.json \
+  --output results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  > logs/plastic_bomo_stage14a_generator_bottleneck/restoration.log 2>&1
+
+# Phase 2: image-property audits and frozen equal-budget subset definitions.
+# This performs no generator or detector training and never reads DeepPCB.
+nohup env CUDA_VISIBLE_DEVICES=3 \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/analyze_plastic_bomo_stage14a.py \
+  --protocol configs/plastic_bomo_stage14a.json \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --random_manifest results_for_gpt/random_matched_manifest_40_40_s42.json \
+  --real_dataset /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --historical_args runs/dwbg_v2_final_40_40/real_only_s42/args.yaml \
+  --output results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  > logs/plastic_bomo_stage14a_generator_bottleneck/image_audit.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage14a_generator_bottleneck/image_audit.pid
+
+# Phase 3: build equal-budget datasets, run the frozen seed42 screening, finalize.
+# Run only after Phase 2 reports the four primary subsets and both low diagnostics eligible.
+mkdir -p logs/plastic_bomo_stage14a_generator_bottleneck
+mkdir -p results_for_gpt/plastic_bomo_stage14a_generator_bottleneck
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage14a.py \
+  --protocol configs/plastic_bomo_stage14a.json \
+  --subsets results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/subset_definition.json \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42 \
+  --output results_for_gpt/plastic_bomo_stage14a_generator_bottleneck
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage14a.py \
+  --protocol configs/plastic_bomo_stage14a.json \
+  --prepared results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage14A_generator_bottleneck_s42 \
+  --model pretrained/yolo11s.pt \
+  --runs runs/plastic_bomo_stage14a_generator_bottleneck \
+  --output results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  --device 0
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_plastic_bomo_stage14a.py \
+  --output results_for_gpt/plastic_bomo_stage14a_generator_bottleneck
+' > logs/plastic_bomo_stage14a_generator_bottleneck/screening.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage14a_generator_bottleneck/screening.pid

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "data_yaml_names": {
+    "0": "flash",
+    "1": "black"
+  },
+  "parsed_target_objects": {
+    "flash": 88,
+    "black": 80
+  },
+  "requested_real_dataset": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml",
+  "resolved_root": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42",
+  "resolved_images": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only/images/train",
+  "resolved_labels": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only/labels/train"
+}

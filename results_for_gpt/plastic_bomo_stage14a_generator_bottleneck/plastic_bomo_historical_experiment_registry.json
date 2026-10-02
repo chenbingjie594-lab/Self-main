@@ -1,0 +1,112 @@
+{
+  "status": "REPOSITORY_EVIDENCE_ONLY",
+  "methods": [
+    {
+      "method": "Vanilla_SD2",
+      "checkpoint": "/mnt/sda/cbj/Self-main/model/baseline_clean_split70_s42_noise_0.0",
+      "training_config": "configs/baseline_frozen_split70_s42.json",
+      "source_real_images": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/train",
+      "generated_image_directory": "NOT_AVAILABLE",
+      "generated_sample_count": "NOT_AVAILABLE",
+      "per_class_sample_count": "NOT_AVAILABLE",
+      "generation_seed": 42,
+      "mask_bbox_prompt_protocol": {
+        "experiment_name": "baseline_frozen_split70_s42",
+        "pipeline_mode": "custom",
+        "seed": 42,
+        "device": "cuda",
+        "dtype": "float16",
+        "prompt": "a photo of a sks defect",
+        "negative_prompt": null,
+        "num_inference_steps": 50,
+        "guidance_scale": 7.5,
+        "blur_factor": 0,
+        "normal_filter": {
+          "enabled": true,
+          "black_threshold": 20,
+          "min_mean_luminance": 30.0,
+          "min_nonblack_ratio": 0.6
+        },
+        "modules": {
+          "prompt_perturbation": {
+            "enabled": false,
+            "noise_scale": 0.0
+          },
+          "spatial_guidance": {
+            "enabled": false,
+            "inside": 7.5,
+            "outside": 7.5,
+            "use_schedule": false
+          },
+          "cama": {
+            "enabled": false
+          },
+          "ddim_noise": {
+            "enabled": false,
+            "eta": 0.0,
+            "anomaly_strength_min": 0.0,
+            "anomaly_strength_max": 0.0,
+            "use_random_mask": false
+          },
+          "mdap": {
+            "enabled": false
+          },
+          "rda": {
+            "enabled": false
+          }
+        }
+      },
+      "detector_result": "NOT_AVAILABLE"
+    },
+    {
+      "method": "MSDF_v3_DWBG_pool",
+      "checkpoint": "NOT_AVAILABLE",
+      "training_config": "configs/dwbg_v2.json",
+      "source_real_images": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/train",
+      "generated_image_directory": "paths recorded per candidate",
+      "generated_sample_count": 761,
+      "per_class_sample_count": {
+        "01_Flash_point": 576,
+        "02_Big_black_spots": 185
+      },
+      "generation_seed": [
+        42,
+        3407,
+        7859,
+        12011,
+        15683,
+        19997,
+        24571,
+        30103
+      ],
+      "mask_bbox_prompt_protocol": "recorded per candidate",
+      "detector_result": "results_for_gpt/bootstrap_guard_downstream/validated_per_seed.json"
+    },
+    {
+      "method": "AnomalyDiffusion",
+      "checkpoint": "NOT_AVAILABLE",
+      "training_config": "NOT_AVAILABLE",
+      "source_real_images": "NOT_AVAILABLE",
+      "generated_image_directory": "NOT_AVAILABLE",
+      "generated_sample_count": "NOT_AVAILABLE",
+      "per_class_sample_count": "NOT_AVAILABLE",
+      "generation_seed": "NOT_AVAILABLE",
+      "mask_bbox_prompt_protocol": "NOT_AVAILABLE",
+      "detector_result": "NOT_AVAILABLE"
+    },
+    {
+      "method": "DefectFill",
+      "checkpoint": "NOT_AVAILABLE",
+      "training_config": "NOT_AVAILABLE",
+      "source_real_images": "NOT_AVAILABLE",
+      "generated_image_directory": "NOT_AVAILABLE",
+      "generated_sample_count": "NOT_AVAILABLE",
+      "per_class_sample_count": "NOT_AVAILABLE",
+      "generation_seed": "NOT_AVAILABLE",
+      "mask_bbox_prompt_protocol": "NOT_AVAILABLE",
+      "detector_result": "NOT_AVAILABLE"
+    }
+  ],
+  "candidate_pool_sha256": "4fd8766d1b091512c52a24af33661186dcde4c8c0eb8f94e85296894c44c5643",
+  "no_memory_imputation": true
+}

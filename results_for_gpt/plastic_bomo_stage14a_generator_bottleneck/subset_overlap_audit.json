@@ -1,0 +1,82 @@
+{
+  "random": {
+    "random": 80,
+    "high_fidelity": 14,
+    "valid_novel": 15,
+    "high_context_compatibility": 15,
+    "low_fidelity_diagnostic": 7,
+    "duplicate_like_diagnostic": 1,
+    "off_manifold_diagnostic": 1,
+    "low_context_diagnostic": 5
+  },
+  "high_fidelity": {
+    "random": 14,
+    "high_fidelity": 80,
+    "valid_novel": 13,
+    "high_context_compatibility": 15,
+    "low_fidelity_diagnostic": 0,
+    "duplicate_like_diagnostic": 7,
+    "off_manifold_diagnostic": 3,
+    "low_context_diagnostic": 3
+  },
+  "valid_novel": {
+    "random": 15,
+    "high_fidelity": 13,
+    "valid_novel": 80,
+    "high_context_compatibility": 12,
+    "low_fidelity_diagnostic": 12,
+    "duplicate_like_diagnostic": 0,
+    "off_manifold_diagnostic": 0,
+    "low_context_diagnostic": 7
+  },
+  "high_context_compatibility": {
+    "random": 15,
+    "high_fidelity": 15,
+    "valid_novel": 12,
+    "high_context_compatibility": 80,
+    "low_fidelity_diagnostic": 6,
+    "duplicate_like_diagnostic": 5,
+    "off_manifold_diagnostic": 3,
+    "low_context_diagnostic": 0
+  },
+  "low_fidelity_diagnostic": {
+    "random": 7,
+    "high_fidelity": 0,
+    "valid_novel": 12,
+    "high_context_compatibility": 6,
+    "low_fidelity_diagnostic": 80,
+    "duplicate_like_diagnostic": 1,
+    "off_manifold_diagnostic": 8,
+    "low_context_diagnostic": 35
+  },
+  "duplicate_like_diagnostic": {
+    "random": 1,
+    "high_fidelity": 7,
+    "valid_novel": 0,
+    "high_context_compatibility": 5,
+    "low_fidelity_diagnostic": 1,
+    "duplicate_like_diagnostic": 18,
+    "off_manifold_diagnostic": 0,
+    "low_context_diagnostic": 1
+  },
+  "off_manifold_diagnostic": {
+    "random": 1,
+    "high_fidelity": 3,
+    "valid_novel": 0,
+    "high_context_compatibility": 3,
+    "low_fidelity_diagnostic": 8,
+    "duplicate_like_diagnostic": 0,
+    "off_manifold_diagnostic": 50,
+    "low_context_diagnostic": 12
+  },
+  "low_context_diagnostic": {
+    "random": 5,
+    "high_fidelity": 3,
+    "valid_novel": 7,
+    "high_context_compatibility": 0,
+    "low_fidelity_diagnostic": 35,
+    "duplicate_like_diagnostic": 1,
+    "off_manifold_diagnostic": 12,
+    "low_context_diagnostic": 80
+  }
+}

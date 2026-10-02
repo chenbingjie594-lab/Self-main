@@ -1,0 +1,31 @@
+{
+  "experiment": "plastic_bomo_stage14a_generator_bottleneck",
+  "development_dataset": "Plastic_Bomo",
+  "generalization_dataset": "DeepPCB",
+  "split_seed": 42,
+  "classes": ["flash", "black"],
+  "candidate_pool": "results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json",
+  "subset_samples_per_class": 40,
+  "context_scale": 2.5,
+  "novelty_threshold_source": "real-only frozen detector feature distribution",
+  "novelty_bins": {"duplicate_like_max_percentile": 25, "valid_novel_max_percentile": 95},
+  "primary_detector": "YOLO11s",
+  "primary_metric": "mAP50-95",
+  "primary_checkpoint": "final epoch last.pt",
+  "screening_seed": 42,
+  "imgsz": 1536,
+  "epochs": 150,
+  "batch": 1,
+  "patience": 151,
+  "optimizer": "auto",
+  "train_validation": false,
+  "selection_policy": {
+    "fidelity": "classwise lexicographic real-nearest perceptual distance then morphology distance; no weighted score",
+    "context": "classwise lexicographic maximum real-percentile deviation then boundary deviation; no weighted score",
+    "novelty": "frozen median_normalized_manifold_distance bins",
+    "diagnostic_low_groups_are_not_primary_competitors": true
+  },
+  "deep_pcb_training_count": 0,
+  "deep_pcb_generation_count": 0,
+  "stage14b_auto_start": false
+}

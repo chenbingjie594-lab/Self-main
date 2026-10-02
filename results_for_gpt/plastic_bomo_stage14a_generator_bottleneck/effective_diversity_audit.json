@@ -1,0 +1,57 @@
+{
+  "status": "COMPLETE",
+  "thresholds_frozen_before_screening": {
+    "duplicate_like_max": 0.25,
+    "valid_novel_max": 0.95
+  },
+  "capacity": {
+    "duplicate_like_diagnostic": {
+      "flash": 2,
+      "black": 16
+    },
+    "valid_novel": {
+      "flash": 391,
+      "black": 159
+    },
+    "off_manifold_diagnostic": {
+      "flash": 183,
+      "black": 10
+    }
+  },
+  "per_class": {
+    "flash": {
+      "normalized_nearest_real_distance": {
+        "n": 576,
+        "mean": 1.0006374355253793,
+        "median": 0.7478717743640299,
+        "q90": 1.5938031717956416,
+        "std": 1.236431151833325
+      },
+      "bin_counts": {
+        "valid_novel": 391,
+        "off_manifold": 183,
+        "duplicate_like": 2
+      }
+    },
+    "black": {
+      "normalized_nearest_real_distance": {
+        "n": 185,
+        "mean": 0.49524079463661963,
+        "median": 0.38608954695237124,
+        "q90": 0.7938989286736609,
+        "std": 0.5224412363453975
+      },
+      "bin_counts": {
+        "valid_novel": 159,
+        "duplicate_like": 16,
+        "off_manifold": 10
+      }
+    }
+  },
+  "ic_lpips": {
+    "status": "NOT_COMPUTED_NO_FROZEN_PAIR_PROTOCOL"
+  },
+  "feature_pairwise_distance": {
+    "status": "NOT_AVAILABLE_POOL_STORES_ONLY_NEAREST_REAL_DISTANCE"
+  }
+}
