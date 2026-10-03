@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "matched_subsets": false,
+  "arms": {
+    "random": {
+      "images": 218,
+      "extra": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14B_fidelity_confirmation/random/data.yaml"
+    },
+    "high": {
+      "images": 218,
+      "extra": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14B_fidelity_confirmation/high/data.yaml"
+    },
+    "low": {
+      "images": 218,
+      "extra": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14B_fidelity_confirmation/low/data.yaml"
+    },
+    "real_repeat": {
+      "images": 218,
+      "extra": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage14B_fidelity_confirmation/real_repeat/data.yaml"
+    }
+  },
+  "equal_budget": {
+    "base": 138,
+    "extra": 80,
+    "total": 218,
+    "flash_extra": 40,
+    "black_extra": 40
+  },
+  "training": {
+    "real_repeat_s42": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": true
+    },
+    "random_s42": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": true
+    },
+    "high_s42": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": true
+    },
+    "low_s42": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": true
+    },
+    "real_repeat_s3407": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "random_s3407": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "high_s3407": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "low_s3407": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "real_repeat_s2026": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "random_s2026": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "high_s2026": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    },
+    "low_s2026": {
+      "epochs": 150,
+      "base_images": 138,
+      "extra_images": 80,
+      "images_per_epoch": 218,
+      "scheduled_draws": 32700,
+      "scheduled_batches": 32700,
+      "primary_checkpoint": "last.pt",
+      "reused_stage14a": false
+    }
+  },
+  "equal_scheduled_compute": true
+}

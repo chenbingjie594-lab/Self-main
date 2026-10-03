@@ -1,0 +1,21 @@
+{
+  "experiment": "plastic_bomo_stage14b_fidelity_confirmation",
+  "candidate_pool_sha256": "4fd8766d1b091512c52a24af33661186dcde4c8c0eb8f94e85296894c44c5643",
+  "candidate_count": 761,
+  "class_counts": {"flash": 576, "black": 185},
+  "exact_stage14a_subsets": ["random", "high_fidelity", "low_fidelity_diagnostic"],
+  "lpips_backbone": "alex",
+  "crop_protocol": {"bbox_context_padding": 0.10, "square_padding": true, "resize": 224, "color": "RGB"},
+  "morphology_epsilon": 0.000001,
+  "kid_bootstrap_resamples": 1000,
+  "kid_bootstrap_seed": 2026,
+  "detector_seeds": [42, 3407, 2026],
+  "samples_per_class": 40,
+  "seed_quota_per_class": 5,
+  "parent_reuse_caps": [1, 2],
+  "detector": {"model": "pretrained/yolo11s.pt", "imgsz": 1536, "epochs": 150, "patience": 151, "batch": 1, "optimizer": "auto", "deterministic": true, "validation_during_training": false, "primary_checkpoint": "last.pt"},
+  "primary_gain_threshold": 0.005,
+  "stage15_auto_start": false,
+  "deep_pcb_training_count": 0,
+  "deep_pcb_generation_count": 0
+}

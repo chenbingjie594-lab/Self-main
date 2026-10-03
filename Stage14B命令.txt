@@ -1,0 +1,44 @@
+mkdir -p logs/plastic_bomo_stage14b_fidelity_confirmation
+mkdir -p results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation
+
+# Gate 1: complete fidelity attribution, audit confounds, freeze exact/matched subsets.
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_plastic_bomo_stage14b.py \
+  --protocol configs/plastic_bomo_stage14b.json \
+  --stage14a results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --output results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --device 0 --batch 32 \
+  > logs/plastic_bomo_stage14b_fidelity_confirmation/attribution.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage14b_fidelity_confirmation/attribution.pid
+
+# Gate 2: execute only after Gate 1 completes and matched_subset_definition.json is frozen.
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage14b.py \
+  --protocol configs/plastic_bomo_stage14b.json \
+  --attribution results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage14B_fidelity_confirmation \
+  --output results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage14b.py \
+  --protocol configs/plastic_bomo_stage14b.json \
+  --attribution results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --stage14a results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage14B_fidelity_confirmation \
+  --model pretrained/yolo11s.pt \
+  --runs runs/plastic_bomo_stage14b_fidelity_confirmation \
+  --output results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --device 0
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_plastic_bomo_stage14b.py \
+  --output results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation
+' > logs/plastic_bomo_stage14b_fidelity_confirmation/confirmation.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage14b_fidelity_confirmation/confirmation.pid

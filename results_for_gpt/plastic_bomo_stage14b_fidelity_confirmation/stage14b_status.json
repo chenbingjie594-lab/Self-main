@@ -1,0 +1,139 @@
+{
+  "status": "UTILITY_SIGNAL_PRESENT_BUT_MECHANISM_UNRESOLVED",
+  "fidelity_label": "MORPHOLOGY_ALIGNMENT_DIFFERENCE_PRESENT",
+  "selection_confound_status": "NO_MATERIAL_CONFOUND",
+  "gates": {
+    "A_mean_high_random_at_least_0_5pp": true,
+    "B_high_beats_random_2_of_3": true,
+    "C_mean_high_realrepeat_at_least_0_5pp": true,
+    "D_high_beats_low_3_of_3": false
+  },
+  "deltas": {
+    "high_minus_random": {
+      "values": [
+        0.02285779594709625,
+        0.01296176539601196,
+        -0.0045393409767149895
+      ],
+      "mean": 0.010426740122131073,
+      "std": 0.013873375319651899,
+      "wins": 2
+    },
+    "high_minus_realrepeat": {
+      "values": [
+        0.029214222118122912,
+        -0.003191997478144082,
+        0.024085060444598516
+      ],
+      "mean": 0.016702428361525783,
+      "std": 0.01741890379690642,
+      "wins": 2
+    },
+    "high_minus_low": {
+      "values": [
+        0.06220699238377547,
+        0.01707266823622655,
+        -0.004576502904983348
+      ],
+      "mean": 0.024901052571672893,
+      "std": 0.034073032030089635,
+      "wins": 2
+    }
+  },
+  "secondary_deltas": {
+    "high_minus_random": {
+      "map50": {
+        "values": [
+          0.08457511311867161,
+          -0.007973973782958055,
+          0.028271770090921078
+        ],
+        "mean": 0.034957636475544875,
+        "std": 0.046635383332466904,
+        "wins": 2
+      },
+      "recall": {
+        "values": [
+          0.07374967912460384,
+          -0.009090909090909038,
+          0.037747112571471564
+        ],
+        "mean": 0.03413529420172212,
+        "std": 0.041538231641766926,
+        "wins": 2
+      }
+    },
+    "high_minus_realrepeat": {
+      "map50": {
+        "values": [
+          0.03561976285404578,
+          -0.017178895512411474,
+          0.03981263162521809
+        ],
+        "mean": 0.019417832988950796,
+        "std": 0.03176295703937031,
+        "wins": 2
+      },
+      "recall": {
+        "values": [
+          0.036240947757800734,
+          -0.04342859684842426,
+          0.023809821897697425
+        ],
+        "mean": 0.005540724269024633,
+        "std": 0.04286174320492929,
+        "wins": 2
+      }
+    },
+    "high_minus_low": {
+      "map50": {
+        "values": [
+          0.09126454167911235,
+          0.04491361362214863,
+          0.030509854532924874
+        ],
+        "mean": 0.05556266994472862,
+        "std": 0.03174641401763182,
+        "wins": 3
+      },
+      "recall": {
+        "values": [
+          0.1426876022914758,
+          0.025000000000000133,
+          0.05309451627480355
+        ],
+        "mean": 0.07359403952209316,
+        "std": 0.06146353206010669,
+        "wins": 3
+      }
+    }
+  },
+  "classwise": {
+    "flash": {
+      "values": [
+        0.0581290214610547,
+        0.04613429503902983,
+        -0.0020904812786972093
+      ],
+      "mean": 0.034057611740462436,
+      "std": 0.03187446999051387,
+      "wins": 2
+    },
+    "black": {
+      "values": [
+        -0.012413429566862255,
+        -0.020210764247005686,
+        -0.00698820067473277
+      ],
+      "mean": -0.013204131496200236,
+      "std": 0.006646649833675141,
+      "wins": 0
+    }
+  },
+  "class_dependent_fidelity_bottleneck": true,
+  "STAGE15_FIDELITY_GENERATOR_DESIGN_AUTHORIZED": false,
+  "STAGE15_MORPHOLOGY_CONDITIONED_GENERATION_AUTHORIZED": false,
+  "STAGE15_AUTO_START": false,
+  "deep_pcb_training_count": 0,
+  "deep_pcb_generation_count": 0
+}

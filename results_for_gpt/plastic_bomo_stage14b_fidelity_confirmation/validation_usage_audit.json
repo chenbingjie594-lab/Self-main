@@ -1,0 +1,103 @@
+{
+  "status": "FINAL_LAST_ONLY",
+  "records": [
+    {
+      "arm": "real_repeat",
+      "seed": 42,
+      "reused_stage14a": true,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "random",
+      "seed": 42,
+      "reused_stage14a": true,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "high",
+      "seed": 42,
+      "reused_stage14a": true,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "low",
+      "seed": 42,
+      "reused_stage14a": true,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "real_repeat",
+      "seed": 3407,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "random",
+      "seed": 3407,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "high",
+      "seed": 3407,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "low",
+      "seed": 3407,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "real_repeat",
+      "seed": 2026,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "random",
+      "seed": 2026,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "high",
+      "seed": 2026,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "low",
+      "seed": 2026,
+      "reused_stage14a": false,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    }
+  ],
+  "official_validation_subset_selection_uses": 0,
+  "official_validation_threshold_tuning_uses": 0
+}
