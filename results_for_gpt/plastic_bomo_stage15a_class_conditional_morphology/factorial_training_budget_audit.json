@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "arms": {
+    "M10": {
+      "base_real": 138,
+      "synthetic_flash": 40,
+      "synthetic_black": 40,
+      "synthetic_total": 80,
+      "train_images": 218,
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage15A_class_conditional_morphology/M10/data.yaml"
+    },
+    "M01": {
+      "base_real": 138,
+      "synthetic_flash": 40,
+      "synthetic_black": 40,
+      "synthetic_total": 80,
+      "train_images": 218,
+      "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage15A_class_conditional_morphology/M01/data.yaml"
+    }
+  },
+  "scheduled": {
+    "images_per_epoch": 218,
+    "epochs": 150,
+    "draws": 32700,
+    "batches": 32700
+  },
+  "all_arms_equal_scheduled_compute": true,
+  "new_detector_trainings": 6,
+  "reused_detector_trainings": 6
+}

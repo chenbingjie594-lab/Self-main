@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": {
+    "M00_flash_equals_random_f": true,
+    "M00_black_equals_random_b": true,
+    "M10_flash_equals_high_f": true,
+    "M10_black_equals_random_b": true,
+    "M01_flash_equals_random_f": true,
+    "M01_black_equals_high_b": true,
+    "M11_flash_equals_high_f": true,
+    "M11_black_equals_high_b": true
+  },
+  "counts": {
+    "M00": {
+      "flash": 40,
+      "black": 40
+    },
+    "M10": {
+      "flash": 40,
+      "black": 40
+    },
+    "M01": {
+      "flash": 40,
+      "black": 40
+    },
+    "M11": {
+      "flash": 40,
+      "black": 40
+    }
+  },
+  "manifest_sha256": "1826317119e1d7861fb7c61a009913a6e96a5334ffc77ea2dd458ba17af924a0",
+  "new_synthetic_generation": 0
+}

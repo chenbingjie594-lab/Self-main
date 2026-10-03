@@ -1,0 +1,21 @@
+{
+  "experiment": "plastic_bomo_stage15a_class_conditional_morphology",
+  "source_commit": "acfbcaab0c4c24445c7ceb97ebfc80b679684dc5",
+  "detector_seeds": [42, 3407, 2026],
+  "classes": ["flash", "black"],
+  "factorial_arms": {"M00": ["Random-F", "Random-B"], "M10": ["High-F", "Random-B"], "M01": ["Random-F", "High-B"], "M11": ["High-F", "High-B"]},
+  "new_training_arms": ["M10", "M01"],
+  "samples_per_class": 40,
+  "base_real_images": 138,
+  "synthetic_images": 80,
+  "total_train_images": 218,
+  "detector": {"model": "pretrained/yolo11s.pt", "imgsz": 1536, "epochs": 150, "patience": 151, "batch": 1, "optimizer": "auto", "mosaic": 1.0, "mixup": 0.0, "copy_paste": 0.0, "close_mosaic": 10, "deterministic": true, "validation_during_training": false, "primary_checkpoint": "last.pt"},
+  "flash_overall_threshold": 0.005,
+  "flash_class_threshold": 0.01,
+  "interaction_threshold": 0.005,
+  "new_synthetic_generation": 0,
+  "generator_training": 0,
+  "deep_pcb_training": 0,
+  "deep_pcb_generation": 0,
+  "stage15b_auto_start": false
+}

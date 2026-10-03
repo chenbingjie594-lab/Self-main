@@ -1,0 +1,38 @@
+mkdir -p logs/plastic_bomo_stage15a_class_conditional_morphology
+mkdir -p results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage15a.py \
+  --protocol configs/plastic_bomo_stage15a.json \
+  --stage14a_subsets results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/subset_definition.json \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage15A_class_conditional_morphology \
+  --output results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage15a.py \
+  --protocol configs/plastic_bomo_stage15a.json \
+  --prepared results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology \
+  --stage14b results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage15A_class_conditional_morphology \
+  --model pretrained/yolo11s.pt \
+  --runs runs/plastic_bomo_stage15a_class_conditional_morphology \
+  --output results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology \
+  --device 0
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_plastic_bomo_stage15a.py \
+  --protocol configs/plastic_bomo_stage15a.json \
+  --output results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/review_plastic_bomo_stage15a.py \
+  --protocol configs/plastic_bomo_stage15a.json \
+  --stage14a results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  --stage14b results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --output results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology
+' > logs/plastic_bomo_stage15a_class_conditional_morphology/launcher.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage15a_class_conditional_morphology/launcher.pid

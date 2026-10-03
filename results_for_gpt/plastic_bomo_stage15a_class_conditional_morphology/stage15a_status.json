@@ -1,0 +1,20 @@
+{
+  "status": "CLASS_INTERACTION_DOMINATES_MORPHOLOGY_SIGNAL",
+  "flash_gates": {
+    "A_overall_mean_ge_0_005": true,
+    "B_overall_wins_ge_2": true,
+    "C_flash_ap_mean_ge_0_01": true,
+    "D_flash_ap_wins_ge_2": true,
+    "conditional_mean_positive": false,
+    "conditional_wins_ge_2": false
+  },
+  "FLASH_MORPHOLOGY_CAUSAL_SIGNAL_CONFIRMED": false,
+  "black_status": "BLACK_MORPHOLOGY_EFFECT_NOT_NEGATIVE_BY_GATE",
+  "interaction_status": "MATERIAL_CLASS_INTERACTION",
+  "STAGE15B_CLASS_ADAPTIVE_GENERATOR_DESIGN": false,
+  "STAGE15B_AUTO_START": false,
+  "new_synthetic_generation": 0,
+  "generator_training": 0,
+  "deep_pcb_training": 0,
+  "deep_pcb_generation": 0
+}

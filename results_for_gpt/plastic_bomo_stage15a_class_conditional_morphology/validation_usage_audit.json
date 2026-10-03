@@ -1,0 +1,50 @@
+{
+  "status": "FINAL_LAST_ONLY",
+  "new_runs": [
+    {
+      "arm": "M10",
+      "seed": 42,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "M10",
+      "seed": 3407,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "M10",
+      "seed": 2026,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "M01",
+      "seed": 42,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "M01",
+      "seed": 3407,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    },
+    {
+      "arm": "M01",
+      "seed": 2026,
+      "training_validation_uses": 0,
+      "final_last_evaluation_uses": 1,
+      "best_checkpoint_used": false
+    }
+  ],
+  "reused_M00_M11": "Stage14B final-last metrics",
+  "selection_uses": 0,
+  "threshold_tuning_uses": 0
+}

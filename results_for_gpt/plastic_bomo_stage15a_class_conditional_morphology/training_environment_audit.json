@@ -1,0 +1,58 @@
+{
+  "status": "STAGE14B_PROTOCOL_EXACTLY_REUSED",
+  "detector": {
+    "model": "pretrained/yolo11s.pt",
+    "imgsz": 1536,
+    "epochs": 150,
+    "patience": 151,
+    "batch": 1,
+    "optimizer": "auto",
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "close_mosaic": 10,
+    "deterministic": true,
+    "validation_during_training": false,
+    "primary_checkpoint": "last.pt"
+  },
+  "pretrained_model": "pretrained/yolo11s.pt",
+  "new_run_args": [
+    {
+      "arm": "M10",
+      "seed": 42,
+      "args_yaml": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/plastic_bomo_stage15a_class_conditional_morphology/m10_s42/args.yaml",
+      "args_yaml_sha256": "35fdef358e867c61738c035e538aaa281afb9237ace75a5763a0f7d64391fe86"
+    },
+    {
+      "arm": "M10",
+      "seed": 3407,
+      "args_yaml": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/plastic_bomo_stage15a_class_conditional_morphology/m10_s3407/args.yaml",
+      "args_yaml_sha256": "64d8d58b7a9515606ef55448e5ee305d7a11efeeb0a0b57b54c4eb7b1ae5439a"
+    },
+    {
+      "arm": "M10",
+      "seed": 2026,
+      "args_yaml": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/plastic_bomo_stage15a_class_conditional_morphology/m10_s2026/args.yaml",
+      "args_yaml_sha256": "03c31d93252da2639e730bafee50c26f477fc7f6619d6027738ecfb4ac19aa0c"
+    },
+    {
+      "arm": "M01",
+      "seed": 42,
+      "args_yaml": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/plastic_bomo_stage15a_class_conditional_morphology/m01_s42/args.yaml",
+      "args_yaml_sha256": "d7051d7b4033f630043194a29ed1c17ab499aba99d962f4ad2e306a6b748ff2f"
+    },
+    {
+      "arm": "M01",
+      "seed": 3407,
+      "args_yaml": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/plastic_bomo_stage15a_class_conditional_morphology/m01_s3407/args.yaml",
+      "args_yaml_sha256": "02153043174b852feae88b403c16f5fa397f764125842377472d7ac646e23166"
+    },
+    {
+      "arm": "M01",
+      "seed": 2026,
+      "args_yaml": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/plastic_bomo_stage15a_class_conditional_morphology/m01_s2026/args.yaml",
+      "args_yaml_sha256": "bbbc7264bdc61a4c7140e7a4b4b18de1e29fa82ec02f7da6e4fd8550c141f441"
+    }
+  ],
+  "M00_M11_source": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/all_seed_metrics.json"
+}
