@@ -1,0 +1,45 @@
+{
+  "status": "SCHEDULE_EQUIVALENT_WITH_M50_RUNTIME_VERIFIED",
+  "base_real": 138,
+  "synthetic": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "train_images": 218,
+  "epochs": 150,
+  "batch": 1,
+  "scheduled_draws": 32700,
+  "scheduled_batches": 32700,
+  "new_runs": 3,
+  "reused_runs": 12,
+  "runtime_audit_pending": false,
+  "M50_runtime": {
+    "42": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 532,
+      "amp_guarded_skips": 12
+    },
+    "3407": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 534,
+      "amp_guarded_skips": 10
+    },
+    "2026": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 534,
+      "amp_guarded_skips": 10
+    }
+  },
+  "historical_arms": "Stage15A frozen scheduled budget; historical runtime counters unavailable",
+  "historical_equal_successful_optimizer_steps_verified": false
+}

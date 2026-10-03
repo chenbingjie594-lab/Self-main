@@ -1,0 +1,77 @@
+{
+  "experiment": "plastic_bomo_stage15b_morphology_dose",
+  "source_commit": "36b465e84020c899d49fb3e74291bde94de1abdc",
+  "detector_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "generation_seeds": [
+    42,
+    3407,
+    7859,
+    12011,
+    15683,
+    19997,
+    24571,
+    30103
+  ],
+  "classes": [
+    "flash",
+    "black"
+  ],
+  "new_arm": "M50",
+  "high_per_class": 20,
+  "random_per_class": 20,
+  "parent_caps": [
+    1,
+    2
+  ],
+  "selection": "deterministic lowest seed count, lexical generation_seed, lexical candidate_id; skip only candidates making the remaining fixed role quotas infeasible under the shared parent cap; no morphology ranking",
+  "overlap_policy": "HighMorph membership has priority; Random excludes all frozen HighMorph IDs",
+  "base_real_images": 138,
+  "synthetic_images": 80,
+  "train_images": 218,
+  "detector": {
+    "model": "pretrained/yolo11s.pt",
+    "imgsz": 1536,
+    "epochs": 150,
+    "patience": 151,
+    "batch": 1,
+    "optimizer": "auto",
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "close_mosaic": 10,
+    "deterministic": true,
+    "validation_during_training": false,
+    "primary_checkpoint": "last.pt"
+  },
+  "features": {
+    "extractor": "dwbg_feature_extraction.DetectInputExtractor",
+    "imgsz": 1536,
+    "folds": [
+      0,
+      1,
+      2
+    ],
+    "bank_root": "results/dwbg/v2/fixed_v3/feature_banks",
+    "teacher_runs": "runs/dwbg_oof_fixed_v3",
+    "aggregation": "compute within each teacher fold; report fold mean; no cross-fold vector pooling",
+    "effective_rank_epsilon": 1e-12
+  },
+  "gates": {
+    "balanced_gain_min": 0.005,
+    "balanced_gain_wins_min": 2,
+    "same_dose_min": -0.005,
+    "excess_penalty_max": -0.005,
+    "excess_penalty_losses_min": 2
+  },
+  "new_generation": 0,
+  "generator_training": 0,
+  "generator_modification": 0,
+  "bootstrap_guard_modification": 0,
+  "deep_pcb_training": 0,
+  "deep_pcb_generation": 0,
+  "stage16_auto_start": false
+}

@@ -1,0 +1,808 @@
+{
+  "status": "COMPLETE_BEFORE_NEW_DETECTOR_TRAINING",
+  "manifest_content_sha256": "a5a87c1fa5ee1825fe690e9ddd07451338998e4f260f553774377d7240806f0d",
+  "feature_protocol": {
+    "extractor": "dwbg_feature_extraction.DetectInputExtractor",
+    "imgsz": 1536,
+    "folds": [
+      0,
+      1,
+      2
+    ],
+    "bank_root": "results/dwbg/v2/fixed_v3/feature_banks",
+    "teacher_runs": "runs/dwbg_oof_fixed_v3",
+    "aggregation": "compute within each teacher fold; report fold mean; no cross-fold vector pooling",
+    "effective_rank_epsilon": 1e-12
+  },
+  "teachers": [
+    {
+      "fold": 0,
+      "weights": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_fixed_v3/fold_0_s42/weights/best.pt",
+      "weights_sha256": "0783144bdabe1eab59bdd806ddf23cfe0c0a57d72d24c1bb57483f24ca08c4fb",
+      "bank_metadata_sha256": "34143836855d9063f2925a70dc41853776157012eda4f821e048153f0b8a1b0d",
+      "existing_real_bank_records": 113,
+      "real_bank_record_split": "teacher-training real images, as recorded by historical metadata; not mislabeled as held-out",
+      "features_npz": "synthetic_oof_features_fold0.npz",
+      "features_sha256": "681318098daf3e226625af81a018e4ae5393e01b2a2a34aacd374d539c8199da",
+      "feature_dim": 896
+    },
+    {
+      "fold": 1,
+      "weights": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_fixed_v3/fold_1_s42/weights/best.pt",
+      "weights_sha256": "f404466e715809f9fdab442d6a78150b4d94333d171180e6cf872ef26d21dee0",
+      "bank_metadata_sha256": "4e1ee310adb715667f594fce0ec75690f03d4aa978bbe8a98aca8cbdc714bbe0",
+      "existing_real_bank_records": 112,
+      "real_bank_record_split": "teacher-training real images, as recorded by historical metadata; not mislabeled as held-out",
+      "features_npz": "synthetic_oof_features_fold1.npz",
+      "features_sha256": "d31d1c8f91f757207c184475281133e36d2a9f517d154d636e2c0029ee17a54b",
+      "feature_dim": 896
+    },
+    {
+      "fold": 2,
+      "weights": "/mnt/sda/cbj/ImageGeneration/Self-main/runs/dwbg_oof_fixed_v3/fold_2_s42/weights/best.pt",
+      "weights_sha256": "64506c86411f4caf901f668a059ad475c3a96f10a1eaf537d3e12438c39966ec",
+      "bank_metadata_sha256": "a38c76f5e187dcf30b01bc2de07036c83437163b9866831977dd713b4868bece",
+      "existing_real_bank_records": 111,
+      "real_bank_record_split": "teacher-training real images, as recorded by historical metadata; not mislabeled as held-out",
+      "features_npz": "synthetic_oof_features_fold2.npz",
+      "features_sha256": "11829a34e2268ad5660f401ffeede37d7fec5225c68eec1ecb13daa4032d8eb4",
+      "feature_dim": 896
+    }
+  ],
+  "arms_by_fold": {
+    "M00": {
+      "0": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.22722940481824982,
+          "median_nearest_neighbor_distance": 0.02794864551999987,
+          "covariance_effective_rank": 8.026328063352144,
+          "normalized_ER": 0.008957955427848375,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.19691892820148207,
+          "median_nearest_neighbor_distance": 0.02827351444117676,
+          "covariance_effective_rank": 6.830897277379591,
+          "normalized_ER": 0.007623769282789722,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.21564389149000918,
+          "median_nearest_neighbor_distance": 0.02773701768400616,
+          "covariance_effective_rank": 6.460834889644655,
+          "normalized_ER": 0.0072107532250498384,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "1": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.08256859326098998,
+          "median_nearest_neighbor_distance": 0.015286919200055982,
+          "covariance_effective_rank": 10.069369752592932,
+          "normalized_ER": 0.011238135884590326,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.05306147111514095,
+          "median_nearest_neighbor_distance": 0.01247774204451313,
+          "covariance_effective_rank": 9.592634887508792,
+          "normalized_ER": 0.010706065722666063,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.07608461883368786,
+          "median_nearest_neighbor_distance": 0.016566639187909238,
+          "covariance_effective_rank": 9.949900831670238,
+          "normalized_ER": 0.011104800035346248,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "2": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.17050696615207908,
+          "median_nearest_neighbor_distance": 0.02188947140230224,
+          "covariance_effective_rank": 9.521057334733907,
+          "normalized_ER": 0.01062618006108695,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.19090092542676623,
+          "median_nearest_neighbor_distance": 0.0175731128283102,
+          "covariance_effective_rank": 5.545439563914024,
+          "normalized_ER": 0.006189106656154045,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.10747894907976945,
+          "median_nearest_neighbor_distance": 0.027968936123035304,
+          "covariance_effective_rank": 9.066467952206327,
+          "normalized_ER": 0.010118825839515991,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      }
+    },
+    "M10": {
+      "0": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.21782106328119683,
+          "median_nearest_neighbor_distance": 0.027874443936437066,
+          "covariance_effective_rank": 7.637740963042015,
+          "normalized_ER": 0.00852426446768082,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.18515794190574697,
+          "median_nearest_neighbor_distance": 0.02824763708428424,
+          "covariance_effective_rank": 5.893914948857899,
+          "normalized_ER": 0.006578030076850333,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.21564389149000918,
+          "median_nearest_neighbor_distance": 0.02773701768400616,
+          "covariance_effective_rank": 6.460834889644655,
+          "normalized_ER": 0.0072107532250498384,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "1": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.08332100745269737,
+          "median_nearest_neighbor_distance": 0.015327110933673227,
+          "covariance_effective_rank": 10.371719103209957,
+          "normalized_ER": 0.011575579356261112,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.05881374502268576,
+          "median_nearest_neighbor_distance": 0.012631947763228957,
+          "covariance_effective_rank": 9.038867704101788,
+          "normalized_ER": 0.01008802199118503,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.07608461883368786,
+          "median_nearest_neighbor_distance": 0.016566639187909238,
+          "covariance_effective_rank": 9.949900831670238,
+          "normalized_ER": 0.011104800035346248,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "2": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.1416281201569495,
+          "median_nearest_neighbor_distance": 0.0225751950268836,
+          "covariance_effective_rank": 11.38821033548518,
+          "normalized_ER": 0.012710056177996852,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.13889282988233104,
+          "median_nearest_neighbor_distance": 0.019364338568864436,
+          "covariance_effective_rank": 7.5771376202537315,
+          "normalized_ER": 0.008456626808318896,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.10747894907976945,
+          "median_nearest_neighbor_distance": 0.027968936123035304,
+          "covariance_effective_rank": 9.066467952206327,
+          "normalized_ER": 0.010118825839515991,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      }
+    },
+    "M01": {
+      "0": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.20618255744423764,
+          "median_nearest_neighbor_distance": 0.029510120317189525,
+          "covariance_effective_rank": 7.852961997179567,
+          "normalized_ER": 0.008764466514709338,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.19691892820148207,
+          "median_nearest_neighbor_distance": 0.02827351444117676,
+          "covariance_effective_rank": 6.830897277379591,
+          "normalized_ER": 0.007623769282789722,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.17579083034685236,
+          "median_nearest_neighbor_distance": 0.02958110117465551,
+          "covariance_effective_rank": 5.563016625591773,
+          "normalized_ER": 0.006208723912490818,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "1": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.07658806135747336,
+          "median_nearest_neighbor_distance": 0.012419936585954916,
+          "covariance_effective_rank": 10.74073640220213,
+          "normalized_ER": 0.011987429020314877,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.05306147111514095,
+          "median_nearest_neighbor_distance": 0.01247774204451313,
+          "covariance_effective_rank": 9.592634887508792,
+          "normalized_ER": 0.010706065722666063,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.06855196697337246,
+          "median_nearest_neighbor_distance": 0.012225652856567959,
+          "covariance_effective_rank": 9.937737512937652,
+          "normalized_ER": 0.0110912249028322,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "2": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.18123613467556166,
+          "median_nearest_neighbor_distance": 0.019614431591452097,
+          "covariance_effective_rank": 8.39147514027618,
+          "normalized_ER": 0.009365485647629665,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.19090092542676623,
+          "median_nearest_neighbor_distance": 0.0175731128283102,
+          "covariance_effective_rank": 5.545439563914024,
+          "normalized_ER": 0.006189106656154045,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.1347135550403058,
+          "median_nearest_neighbor_distance": 0.027346374403276197,
+          "covariance_effective_rank": 8.12725291197341,
+          "normalized_ER": 0.009070594767827466,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      }
+    },
+    "M11": {
+      "0": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.1971919987507112,
+          "median_nearest_neighbor_distance": 0.029393069990205523,
+          "covariance_effective_rank": 7.161171091956898,
+          "normalized_ER": 0.007992378450844752,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.18515794190574697,
+          "median_nearest_neighbor_distance": 0.02824763708428424,
+          "covariance_effective_rank": 5.893914948857899,
+          "normalized_ER": 0.006578030076850333,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.17579083034685236,
+          "median_nearest_neighbor_distance": 0.02958110117465551,
+          "covariance_effective_rank": 5.563016625591773,
+          "normalized_ER": 0.006208723912490818,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "1": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.07763765350170103,
+          "median_nearest_neighbor_distance": 0.012464157961276201,
+          "covariance_effective_rank": 10.972141537584767,
+          "normalized_ER": 0.012245693680340142,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.05881374502268576,
+          "median_nearest_neighbor_distance": 0.012631947763228957,
+          "covariance_effective_rank": 9.038867704101788,
+          "normalized_ER": 0.01008802199118503,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.06855196697337246,
+          "median_nearest_neighbor_distance": 0.012225652856567959,
+          "covariance_effective_rank": 9.937737512937652,
+          "normalized_ER": 0.0110912249028322,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "2": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.1540235873180581,
+          "median_nearest_neighbor_distance": 0.01964031092720281,
+          "covariance_effective_rank": 9.935067646294176,
+          "normalized_ER": 0.01108824514095332,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.13889282988233104,
+          "median_nearest_neighbor_distance": 0.019364338568864436,
+          "covariance_effective_rank": 7.5771376202537315,
+          "normalized_ER": 0.008456626808318896,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.1347135550403058,
+          "median_nearest_neighbor_distance": 0.027346374403276197,
+          "covariance_effective_rank": 8.12725291197341,
+          "normalized_ER": 0.009070594767827466,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      }
+    },
+    "M50": {
+      "0": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.23004882698030835,
+          "median_nearest_neighbor_distance": 0.028663592153689688,
+          "covariance_effective_rank": 7.459417730827866,
+          "normalized_ER": 0.0083252430031561,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.2240925493774825,
+          "median_nearest_neighbor_distance": 0.029902674994366885,
+          "covariance_effective_rank": 5.983013723923987,
+          "normalized_ER": 0.006677470674022307,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.19900406206980145,
+          "median_nearest_neighbor_distance": 0.02764038600232499,
+          "covariance_effective_rank": 6.146505758943696,
+          "normalized_ER": 0.006859939463106804,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "1": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.07563498377107952,
+          "median_nearest_neighbor_distance": 0.012573813463143735,
+          "covariance_effective_rank": 10.688798809796756,
+          "normalized_ER": 0.011929462957362452,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.055940373078487884,
+          "median_nearest_neighbor_distance": 0.01258144213113177,
+          "covariance_effective_rank": 9.762820979676249,
+          "normalized_ER": 0.010896005557674384,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.06335077578560565,
+          "median_nearest_neighbor_distance": 0.011951560880616052,
+          "covariance_effective_rank": 9.799903152934972,
+          "normalized_ER": 0.010937391911757782,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      },
+      "2": {
+        "overall": {
+          "n": 80,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.1359432708871894,
+          "median_nearest_neighbor_distance": 0.01968615601529078,
+          "covariance_effective_rank": 10.882269212422258,
+          "normalized_ER": 0.012145389746006985,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 79
+        },
+        "flash": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.14432760947298692,
+          "median_nearest_neighbor_distance": 0.019884866685213387,
+          "covariance_effective_rank": 6.883138554846481,
+          "normalized_ER": 0.007682074279962591,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        },
+        "black": {
+          "n": 40,
+          "feature_dim": 896,
+          "mean_pairwise_cosine_distance": 0.09014499500875742,
+          "median_nearest_neighbor_distance": 0.01968615601529078,
+          "covariance_effective_rank": 8.848789758194954,
+          "normalized_ER": 0.009875881426556868,
+          "degenerate_covariance": false,
+          "effective_rank_epsilon": 1e-12,
+          "covariance_input": "L2-normalized detector-head-input vectors",
+          "maximum_sample_rank": 39
+        }
+      }
+    }
+  },
+  "fold_mean": {
+    "M00": {
+      "overall": {
+        "mean_pairwise_cosine_distance": 0.16010165474377294,
+        "median_nearest_neighbor_distance": 0.021708345374119364,
+        "covariance_effective_rank": 9.205585050226327,
+        "normalized_ER": 0.010274090457841884
+      },
+      "flash": {
+        "mean_pairwise_cosine_distance": 0.14696044158112975,
+        "median_nearest_neighbor_distance": 0.01944145643800003,
+        "covariance_effective_rank": 7.322990576267468,
+        "normalized_ER": 0.008172980553869943
+      },
+      "black": {
+        "mean_pairwise_cosine_distance": 0.13306915313448883,
+        "median_nearest_neighbor_distance": 0.024090864331650235,
+        "covariance_effective_rank": 8.492401224507073,
+        "normalized_ER": 0.009478126366637358
+      }
+    },
+    "M10": {
+      "overall": {
+        "mean_pairwise_cosine_distance": 0.14759006363028124,
+        "median_nearest_neighbor_distance": 0.021925583298997964,
+        "covariance_effective_rank": 9.799223467245717,
+        "normalized_ER": 0.010936633333979595
+      },
+      "flash": {
+        "mean_pairwise_cosine_distance": 0.12762150560358793,
+        "median_nearest_neighbor_distance": 0.02008130780545921,
+        "covariance_effective_rank": 7.503306757737806,
+        "normalized_ER": 0.008374226292118087
+      },
+      "black": {
+        "mean_pairwise_cosine_distance": 0.13306915313448883,
+        "median_nearest_neighbor_distance": 0.024090864331650235,
+        "covariance_effective_rank": 8.492401224507073,
+        "normalized_ER": 0.009478126366637358
+      }
+    },
+    "M01": {
+      "overall": {
+        "mean_pairwise_cosine_distance": 0.15466891782575756,
+        "median_nearest_neighbor_distance": 0.020514829498198845,
+        "covariance_effective_rank": 8.995057846552626,
+        "normalized_ER": 0.010039127060884627
+      },
+      "flash": {
+        "mean_pairwise_cosine_distance": 0.14696044158112975,
+        "median_nearest_neighbor_distance": 0.01944145643800003,
+        "covariance_effective_rank": 7.322990576267468,
+        "normalized_ER": 0.008172980553869943
+      },
+      "black": {
+        "mean_pairwise_cosine_distance": 0.1263521174535102,
+        "median_nearest_neighbor_distance": 0.02305104281149989,
+        "covariance_effective_rank": 7.876002350167611,
+        "normalized_ER": 0.008790181194383495
+      }
+    },
+    "M11": {
+      "overall": {
+        "mean_pairwise_cosine_distance": 0.14295107985682345,
+        "median_nearest_neighbor_distance": 0.020499179626228176,
+        "covariance_effective_rank": 9.356126758611946,
+        "normalized_ER": 0.010442105757379404
+      },
+      "flash": {
+        "mean_pairwise_cosine_distance": 0.12762150560358793,
+        "median_nearest_neighbor_distance": 0.02008130780545921,
+        "covariance_effective_rank": 7.503306757737806,
+        "normalized_ER": 0.008374226292118087
+      },
+      "black": {
+        "mean_pairwise_cosine_distance": 0.1263521174535102,
+        "median_nearest_neighbor_distance": 0.02305104281149989,
+        "covariance_effective_rank": 7.876002350167611,
+        "normalized_ER": 0.008790181194383495
+      }
+    },
+    "M50": {
+      "overall": {
+        "mean_pairwise_cosine_distance": 0.14720902721285908,
+        "median_nearest_neighbor_distance": 0.020307853877374733,
+        "covariance_effective_rank": 9.67682858434896,
+        "normalized_ER": 0.010800031902175178
+      },
+      "flash": {
+        "mean_pairwise_cosine_distance": 0.14145351064298575,
+        "median_nearest_neighbor_distance": 0.020789661270237347,
+        "covariance_effective_rank": 7.542991086148906,
+        "normalized_ER": 0.008418516837219761
+      },
+      "black": {
+        "mean_pairwise_cosine_distance": 0.11749994428805484,
+        "median_nearest_neighbor_distance": 0.01975936763274394,
+        "covariance_effective_rank": 8.265066223357874,
+        "normalized_ER": 0.009224404267140484
+      }
+    }
+  },
+  "M11_concentration_diagnostics": {
+    "overall": {
+      "mean_pairwise_cosine_distance": {
+        "M11": 0.14295107985682345,
+        "mean_M10_M01_M50": 0.1498226695562993,
+        "M11_minus_comparators": -0.00687158969947585
+      },
+      "median_nearest_neighbor_distance": {
+        "M11": 0.020499179626228176,
+        "mean_M10_M01_M50": 0.020916088891523844,
+        "M11_minus_comparators": -0.0004169092652956674
+      },
+      "covariance_effective_rank": {
+        "M11": 9.356126758611946,
+        "mean_M10_M01_M50": 9.490369966049101,
+        "M11_minus_comparators": -0.13424320743715512
+      },
+      "normalized_ER": {
+        "M11": 0.010442105757379404,
+        "mean_M10_M01_M50": 0.010591930765679798,
+        "M11_minus_comparators": -0.00014982500830039436
+      }
+    },
+    "flash": {
+      "mean_pairwise_cosine_distance": {
+        "M11": 0.12762150560358793,
+        "mean_M10_M01_M50": 0.13867848594256782,
+        "M11_minus_comparators": -0.011056980338979894
+      },
+      "median_nearest_neighbor_distance": {
+        "M11": 0.02008130780545921,
+        "mean_M10_M01_M50": 0.020104141837898864,
+        "M11_minus_comparators": -2.2834032439654484e-05
+      },
+      "covariance_effective_rank": {
+        "M11": 7.503306757737806,
+        "mean_M10_M01_M50": 7.456429473384727,
+        "M11_minus_comparators": 0.04687728435307914
+      },
+      "normalized_ER": {
+        "M11": 0.008374226292118087,
+        "mean_M10_M01_M50": 0.008321907894402597,
+        "M11_minus_comparators": 5.2318397715489864e-05
+      }
+    },
+    "black": {
+      "mean_pairwise_cosine_distance": {
+        "M11": 0.1263521174535102,
+        "mean_M10_M01_M50": 0.12564040495868461,
+        "M11_minus_comparators": 0.0007117124948255726
+      },
+      "median_nearest_neighbor_distance": {
+        "M11": 0.02305104281149989,
+        "mean_M10_M01_M50": 0.02230042492529802,
+        "M11_minus_comparators": 0.0007506178862018674
+      },
+      "covariance_effective_rank": {
+        "M11": 7.876002350167611,
+        "mean_M10_M01_M50": 8.211156599344186,
+        "M11_minus_comparators": -0.33515424917657466
+      },
+      "normalized_ER": {
+        "M11": 0.008790181194383495,
+        "mean_M10_M01_M50": 0.009164237276053777,
+        "M11_minus_comparators": -0.00037405608167028273
+      }
+    }
+  },
+  "selection_feedback": false,
+  "weighted_quality_score": false,
+  "official_validation_use_count": 0,
+  "new_teacher_training_count": 0
+}

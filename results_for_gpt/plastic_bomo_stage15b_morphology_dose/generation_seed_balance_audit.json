@@ -1,0 +1,109 @@
+{
+  "status": "DETERMINISTIC_BALANCE_WITH_FROZEN_SUPPORT_AND_PARENT_CAP",
+  "classes": {
+    "flash": {
+      "high_morph": {
+        "available_after_overlap_priority": {
+          "42": 11,
+          "3407": 2,
+          "7859": 5,
+          "12011": 9,
+          "15683": 1,
+          "19997": 5,
+          "24571": 3,
+          "30103": 4
+        },
+        "selected": {
+          "42": 3,
+          "3407": 2,
+          "7859": 2,
+          "12011": 3,
+          "15683": 1,
+          "19997": 3,
+          "24571": 3,
+          "30103": 3
+        },
+        "all_counts_2_or_3": false,
+        "fallback_rule": "deterministic lowest seed count, lexical generation_seed, lexical candidate_id; skip only candidates making the remaining fixed role quotas infeasible under the shared parent cap; no morphology ranking",
+        "parent_cap_is_shared_over_full_arm": 2
+      },
+      "random": {
+        "available_after_overlap_priority": {
+          "42": 7,
+          "3407": 2,
+          "7859": 3,
+          "12011": 7,
+          "15683": 0,
+          "19997": 7,
+          "24571": 5,
+          "30103": 5
+        },
+        "selected": {
+          "42": 3,
+          "3407": 1,
+          "7859": 1,
+          "12011": 4,
+          "15683": 0,
+          "19997": 4,
+          "24571": 4,
+          "30103": 3
+        },
+        "all_counts_2_or_3": false,
+        "fallback_rule": "deterministic lowest seed count, lexical generation_seed, lexical candidate_id; skip only candidates making the remaining fixed role quotas infeasible under the shared parent cap; no morphology ranking",
+        "parent_cap_is_shared_over_full_arm": 2
+      }
+    },
+    "black": {
+      "high_morph": {
+        "available_after_overlap_priority": {
+          "42": 3,
+          "3407": 8,
+          "7859": 5,
+          "12011": 4,
+          "15683": 6,
+          "19997": 2,
+          "24571": 6,
+          "30103": 6
+        },
+        "selected": {
+          "42": 2,
+          "3407": 2,
+          "7859": 2,
+          "12011": 3,
+          "15683": 3,
+          "19997": 2,
+          "24571": 3,
+          "30103": 3
+        },
+        "all_counts_2_or_3": true,
+        "fallback_rule": "deterministic lowest seed count, lexical generation_seed, lexical candidate_id; skip only candidates making the remaining fixed role quotas infeasible under the shared parent cap; no morphology ranking",
+        "parent_cap_is_shared_over_full_arm": 2
+      },
+      "random": {
+        "available_after_overlap_priority": {
+          "42": 3,
+          "3407": 5,
+          "7859": 2,
+          "12011": 4,
+          "15683": 3,
+          "19997": 5,
+          "24571": 4,
+          "30103": 4
+        },
+        "selected": {
+          "42": 2,
+          "3407": 3,
+          "7859": 1,
+          "12011": 3,
+          "15683": 2,
+          "19997": 4,
+          "24571": 3,
+          "30103": 2
+        },
+        "all_counts_2_or_3": false,
+        "fallback_rule": "deterministic lowest seed count, lexical generation_seed, lexical candidate_id; skip only candidates making the remaining fixed role quotas infeasible under the shared parent cap; no morphology ranking",
+        "parent_cap_is_shared_over_full_arm": 2
+      }
+    }
+  }
+}

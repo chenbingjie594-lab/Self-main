@@ -1,0 +1,5 @@
+# Preserve server-exported audit bytes for SHA-256 checks on Windows/Linux.
+*.csv -text
+*.yaml -text
+*.json -text
+*.npz -text

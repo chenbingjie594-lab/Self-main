@@ -1,0 +1,55 @@
+{
+  "overlap_priority": "HighMorph membership has priority; Random excludes all frozen HighMorph IDs",
+  "selected_within_arm_duplicate_count": 0,
+  "classes": {
+    "flash": {
+      "frozen_high_random_overlap": 4,
+      "random_candidates_excluded_by_high_membership": [
+        "dwbg_0_12011_56_000292",
+        "dwbg_0_15683_67_000383",
+        "dwbg_0_30103_26_000006_c22022",
+        "dwbg_0_7859_8_000232"
+      ],
+      "selected_role_overlap": 0
+    },
+    "black": {
+      "frozen_high_random_overlap": 10,
+      "random_candidates_excluded_by_high_membership": [
+        "dwbg_1_12011_1_000313",
+        "dwbg_1_24571_12_000563",
+        "dwbg_1_24571_35_000582",
+        "dwbg_1_24571_7_000584",
+        "dwbg_1_30103_1_000652",
+        "dwbg_1_30103_20_000661",
+        "dwbg_1_42_3_000075",
+        "dwbg_1_42_4_000080",
+        "dwbg_1_7859_28_000246",
+        "dwbg_1_7859_8_000253"
+      ],
+      "selected_role_overlap": 0
+    }
+  },
+  "actual_vs_nominal_high_dose": {
+    "M00": {
+      "nominal_high_role_count": 0,
+      "actual_frozen_high_membership_count": 14
+    },
+    "M10": {
+      "nominal_high_role_count": 40,
+      "actual_frozen_high_membership_count": 50
+    },
+    "M01": {
+      "nominal_high_role_count": 40,
+      "actual_frozen_high_membership_count": 44
+    },
+    "M11": {
+      "nominal_high_role_count": 80,
+      "actual_frozen_high_membership_count": 80
+    },
+    "M50": {
+      "nominal_high_role_count": 40,
+      "actual_frozen_high_membership_count": 40
+    }
+  },
+  "interpretation": "Nominal role dose is matched; frozen High/Random overlap means the historical arms do not have exact physical High-membership doses of 0/40/80. Report this limitation without changing any arm."
+}

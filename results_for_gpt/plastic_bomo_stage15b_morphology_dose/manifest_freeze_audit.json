@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "manifest_content_sha256": "a5a87c1fa5ee1825fe690e9ddd07451338998e4f260f553774377d7240806f0d",
+  "protocol_content_sha256": "b63245eb8d5667d7119b90f43b06bb7fcda1fa68b5686e13ecf5e7efd1df2eeb",
+  "input_content_sha256": {
+    "pool": "458f48d1bad2c058f59901bc10601b32c1654692aed397690c88edee1fe6caea",
+    "subsets": "4d67658634cb7139a315d66c2acd41cb7e4c5750428b48502725282b11e088b4",
+    "morphology": "33e5dd86cc36e709281d46530572b9e26aa318b0b669a616739879191f59fb6b"
+  },
+  "class_role_counts": {
+    "flash": {
+      "high_morph": 20,
+      "random": 20
+    },
+    "black": {
+      "high_morph": 20,
+      "random": 20
+    }
+  },
+  "total": 80,
+  "unique_candidate_ids": 80,
+  "parent_cap": 2,
+  "max_parent_reuse": 2
+}

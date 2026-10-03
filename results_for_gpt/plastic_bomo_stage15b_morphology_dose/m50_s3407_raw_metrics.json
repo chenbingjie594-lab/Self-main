@@ -1,0 +1,30 @@
+{
+  "arm": "M50",
+  "seed": 3407,
+  "checkpoint": "epoch150 last.pt",
+  "checkpoint_sha256": "f00d1ed95e794342caa581ebb9d0db76f611e3ca63b59f5534c3d75bf68ce580",
+  "manifest_content_sha256": "a5a87c1fa5ee1825fe690e9ddd07451338998e4f260f553774377d7240806f0d",
+  "precision": 0.8862287038170132,
+  "recall": 0.8356770272470454,
+  "map50": 0.8697496269714412,
+  "map50_95": 0.3906127860542388,
+  "per_class": {
+    "flash": {
+      "ap50": 0.9254668860551212,
+      "ap50_95": 0.36230158301665655,
+      "recall": 0.95
+    },
+    "black": {
+      "ap50": 0.8140323678877612,
+      "ap50_95": 0.418923989091821,
+      "recall": 0.7213540544940908
+    }
+  },
+  "raw_results_dict": {
+    "metrics/precision(B)": 0.8862287038170132,
+    "metrics/recall(B)": 0.8356770272470454,
+    "metrics/mAP50(B)": 0.8697496269714412,
+    "metrics/mAP50-95(B)": 0.3906127860542388,
+    "fitness": 0.3906127860542388
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "MORPHOLOGY_SIGNAL_PRESENT_DOSE_HYPOTHESIS_NOT_CONFIRMED",
+  "gates": {
+    "A_balanced_gain_ge_0_005": true,
+    "B_balanced_wins_ge_2": true,
+    "C_same_dose_mean_ge_minus_0_005": false,
+    "D_excess_mean_le_minus_0_005": false,
+    "E_excess_losses_ge_2": true
+  },
+  "single_class_reference_effects": {
+    "M10": {
+      "seed_order": [
+        42,
+        3407,
+        2026
+      ],
+      "values": [
+        0.042127692334110456,
+        0.03956631240057579,
+        -0.010080382464199289
+      ],
+      "mean": 0.02387120742349565,
+      "std": 0.02943081733009891,
+      "mean_pp": 2.387120742349565,
+      "std_pp": 2.9430817330098913,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0
+    },
+    "M01": {
+      "seed_order": [
+        42,
+        3407,
+        2026
+      ],
+      "values": [
+        -0.008619859385715023,
+        0.033678048900137314,
+        0.009508964969874967
+      ],
+      "mean": 0.011522384828099086,
+      "std": 0.02122071289998789,
+      "mean_pp": 1.1522384828099086,
+      "std_pp": 2.122071289998789,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0
+    }
+  },
+  "CLASS_INTERACTION_AS_PRIMARY_EXPLANATION": null,
+  "STAGE16_MORPHOLOGY_DISTRIBUTION_CALIBRATED_GENERATOR": false,
+  "STAGE16_TASK_AWARE_GENERATION": false,
+  "STAGE16_AUTO_START": false,
+  "classwise_status": "RESIDUAL_CLASS_DEPENDENCE_PRESENT",
+  "new_detector_runs": 3,
+  "existing_detector_runs_retrained": 0,
+  "new_generation": 0,
+  "generator_training": 0,
+  "generator_modification": 0,
+  "deep_pcb_training": 0,
+  "deep_pcb_generation": 0,
+  "bootstrap_guard_modification": 0,
+  "nominal_vs_actual_dose_limitation": "Nominal role dose is matched; frozen High/Random overlap means the historical arms do not have exact physical High-membership doses of 0/40/80. Report this limitation without changing any arm.",
+  "concentration_diagnostics_define_status": false
+}

@@ -1,0 +1,52 @@
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage15b_morphology_dose
+mkdir -p results_for_gpt/plastic_bomo_stage15b_morphology_dose
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage15b.py \
+  --protocol configs/plastic_bomo_stage15b.json \
+  --stage14a results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+  --stage14b results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+  --stage15a results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology \
+  --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage15B_morphology_dose \
+  --output results_for_gpt/plastic_bomo_stage15b_morphology_dose
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_plastic_bomo_stage15b.py \
+  --protocol configs/plastic_bomo_stage15b.json \
+  --prepared results_for_gpt/plastic_bomo_stage15b_morphology_dose \
+  --feature_bank_root results/dwbg/v2/fixed_v3/feature_banks \
+  --oof_integrity results/dwbg/v2/fixed_v3/oof_integrity_report.json \
+  --output results_for_gpt/plastic_bomo_stage15b_morphology_dose --device 0
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage15b.py \
+  --protocol configs/plastic_bomo_stage15b.json \
+  --prepared results_for_gpt/plastic_bomo_stage15b_morphology_dose \
+  --stage15a results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage15B_morphology_dose \
+  --model pretrained/yolo11s.pt \
+  --runs runs/plastic_bomo_stage15b_morphology_dose \
+  --output results_for_gpt/plastic_bomo_stage15b_morphology_dose --device 0
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/finalize_plastic_bomo_stage15b.py \
+  --protocol configs/plastic_bomo_stage15b.json \
+  --output results_for_gpt/plastic_bomo_stage15b_morphology_dose
+' > logs/plastic_bomo_stage15b_morphology_dose/launcher.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage15b_morphology_dose/launcher.pid
+
+# 查看进度
+# tail -n 80 logs/plastic_bomo_stage15b_morphology_dose/launcher.log
+
+# 结果下载后 CPU 复核；不重新训练或读取 validation 做评估。
+# python tools/review_plastic_bomo_stage15b.py \
+#   --protocol configs/plastic_bomo_stage15b.json \
+#   --stage14a results_for_gpt/plastic_bomo_stage14a_generator_bottleneck \
+#   --stage14b results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation \
+#   --stage15a results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology \
+#   --candidate_pool results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json \
+#   --output results_for_gpt/plastic_bomo_stage15b_morphology_dose

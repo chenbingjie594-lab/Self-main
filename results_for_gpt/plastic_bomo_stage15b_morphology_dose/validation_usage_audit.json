@@ -1,0 +1,36 @@
+{
+  "status": "FINAL_LAST_ONLY",
+  "new_runs": [
+    {
+      "arm": "M50",
+      "seed": 42,
+      "training_validation_model_forwards": 0,
+      "suppressed_framework_validation_calls": 1,
+      "final_last_evaluation_uses": 1,
+      "best_pt_used": false,
+      "metric_cache_reused": false
+    },
+    {
+      "arm": "M50",
+      "seed": 3407,
+      "training_validation_model_forwards": 0,
+      "suppressed_framework_validation_calls": 1,
+      "final_last_evaluation_uses": 1,
+      "best_pt_used": false,
+      "metric_cache_reused": false
+    },
+    {
+      "arm": "M50",
+      "seed": 2026,
+      "training_validation_model_forwards": 0,
+      "suppressed_framework_validation_calls": 1,
+      "final_last_evaluation_uses": 1,
+      "best_pt_used": false,
+      "metric_cache_reused": false
+    }
+  ],
+  "selection_uses": 0,
+  "threshold_tuning_uses": 0,
+  "validation_integrity_sha256": "4fac2bc88a21d6faed8aa0ea18d6a1b35d5460120399aa3674603fc9849877b4",
+  "existing_arms": "Stage15A metrics reused without new validation"
+}
