@@ -1,6 +1,6 @@
 # Plastic_Bomo Stage16A-R0 entry-gate audit
 
-Status: `ANNOTATION_PROVENANCE_INSUFFICIENT`. Scope: `LOCAL_TRAINING_ASSET_AUDIT`.
+Status: `ANNOTATION_PROVENANCE_INSUFFICIENT`. Scope: `SERVER_PREFLIGHT`.
 
 ## Actual evidence
 

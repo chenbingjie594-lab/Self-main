@@ -1,0 +1,2304 @@
+{
+  "status": "SERVER_STOP_REVIEW_PASS",
+  "checks_passed": 567,
+  "checks_total": 567,
+  "failures": [],
+  "scope": "DOWNLOADED_SERVER_ARTIFACT_REVIEW",
+  "experiment_status": "ANNOTATION_PROVENANCE_INSUFFICIENT",
+  "inference": "No instance-bound provenance evidence was supplied; this does not prove labels are wrong or that evidence cannot exist elsewhere.",
+  "local_server_image_and_label_equality": true,
+  "gpu_tests_performed": false,
+  "source_lineage_and_runtime_gates_verified": false,
+  "known_component_count": 137,
+  "server_raw_file_sha256": {
+    "annotation_provenance_audit.json": "add8f333e1bf5246072224a529aed41476e4fac9685123c953aac999b4a8c229",
+    "bbox_eligibility_bias_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "bbox_transform_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "conditioning_isolation_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "differentiability_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "mask_geometry_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "model_state_immutability_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "numerical_validity.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "oof_teacher_isolation_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "paired_rng_freeze.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "paired_visual_validity.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "r0_donor_registry.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "r0_task_guidance_step_audit.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703",
+    "source_lineage_graph.json": "17521847a228fad611ef4d62b10d7a6110120640d0cc93b195056d91b147e64a",
+    "spatial_semantics_audit.json": "d86cb3d256f7dd57150fc2a934f43dfe271cbe50b2d38fd0a22b4dfb201cb797",
+    "stage16a_r0_protocol.json": "e03f88f8fb5e742177c29af96997956f3049266d35f5a86e2e65de07769e4e82",
+    "STAGE16A_R0_REPORT.md": "503454eb562fc03579d914e81f1a4b49a8b829c58d840e9d72674eda52b64823",
+    "stage16a_r0_status.json": "83c0e55a190656ff00d872facb17bc89a05c37b844dca24c31c75db7a189124e",
+    "task_loss_effectiveness.json": "0d583be599ab42ccf3d89452ad7eb84cfb8d57c810ce4770fd14eef5238dc703"
+  },
+  "checks": [
+    {
+      "check": "actual server scope",
+      "pass": true
+    },
+    {
+      "check": "separate preserved local snapshot",
+      "pass": true
+    },
+    {
+      "check": "annotation stop consistency",
+      "pass": true
+    },
+    {
+      "check": "not a runtime experiment",
+      "pass": true
+    },
+    {
+      "check": "full annotation count",
+      "pass": true
+    },
+    {
+      "check": "class instance counts",
+      "pass": true
+    },
+    {
+      "check": "no duplicate donor rows",
+      "pass": true
+    },
+    {
+      "check": "full annotated image universe",
+      "pass": true
+    },
+    {
+      "check": "no evidence supplied; not proof of evidence nonexistence",
+      "pass": true
+    },
+    {
+      "check": "unknown provenance status count",
+      "pass": true
+    },
+    {
+      "check": "zero accepted groups",
+      "pass": true
+    },
+    {
+      "check": "frozen five-group gate",
+      "pass": true
+    },
+    {
+      "check": "same local/server donor identities",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_10.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_10.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_11.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_11.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_11.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_11.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_12.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_12.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_12.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_12.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_13.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_13.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_13.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_13.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_13.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_13.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_15.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_15.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_15.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_15.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_16.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_16.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_16.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_16.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_16.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_16.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_17.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_17.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_17.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_17.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_17.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_17.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_17.jpg:line4",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_17.jpg:line4",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_19.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_19.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_19.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_19.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_20.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_20.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_22.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_22.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_22.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_22.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_23.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_23.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_23.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_23.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_24.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_24.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_24.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_24.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_24.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_24.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_26.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_26.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_26.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_26.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_26.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_26.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_27.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_27.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_28.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_28.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_30.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_30.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_30.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_30.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_32.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_32.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_32.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_32.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_34.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_34.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_34.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_34.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_36.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_36.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_36.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_36.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_37.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_37.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_4.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_4.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_4.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_4.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_7.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_7.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_7.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_7.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_7.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_7.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_8.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_8.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_9.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_9.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: blackinst_9.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: blackinst_9.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_10012_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_10012_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1013_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1013_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1016_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1016_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1020_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1020_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1022_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1022_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1023_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1023_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_10510_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_10510_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1083_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1083_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1099_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1099_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_11099_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_11099_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1113_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1113_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1113_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1113_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_11478_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_11478_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_12185_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_12185_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_12317_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_12317_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1235_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1235_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_12458_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_12458_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1333_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1333_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_13538_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_13538_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_13734_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_13734_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1474_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1474_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15034_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15034_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1505_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1505_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1505_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1505_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1505_pre_part_1.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1505_pre_part_1.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1509_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1509_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15101_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15101_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1515_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1515_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15170_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15170_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15490_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15490_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15545_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15545_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15609_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15609_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1572_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1572_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15770_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15770_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15890_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15890_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_15996_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_15996_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_16161_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_16161_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_16442_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_16442_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_16871_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_16871_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_17204_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_17204_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1797_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1797_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_18290_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_18290_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_19226_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_19226_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_1944_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_1944_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2028_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2028_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2034_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2034_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2037_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2037_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2072_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2072_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2075_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2075_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2075_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2075_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2075_pre_part_1.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2075_pre_part_1.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_20948_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_20948_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2118_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2118_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_21637_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_21637_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2195_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2195_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_21979_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_21979_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2201_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2201_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2248_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2248_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_22666_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_22666_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_22731_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_22731_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2273_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2273_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_23458_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_23458_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_23459_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_23459_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_24425_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_24425_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_24459_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_24459_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_24729_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_24729_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2500_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2500_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2538_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2538_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2572_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2572_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2871_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2871_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2872_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2872_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_2900_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_2900_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3040_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3040_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3190_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3190_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3207_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3207_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3292_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3292_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3441_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3441_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3523_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3523_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3539_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3539_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3598_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3598_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3626_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3626_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_3889_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_3889_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_4108_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_4108_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_4321_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_4321_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_4462_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_4462_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_4515_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_4515_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_460_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_460_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_4937_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_4937_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_5107_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_5107_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_525_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_525_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_5891_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_5891_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_6075_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_6075_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_639_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_639_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_6576_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_6576_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_6648_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_6648_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_6811_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_6811_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_693_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_693_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_7241_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_7241_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_7734_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_7734_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_7953_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_7953_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_8297_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_8297_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_8308_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_8308_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_8363_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_8363_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_8507_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_8507_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_8747_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_8747_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_879_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_879_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_8935_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_8935_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_900_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_900_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9157_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9157_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9389_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9389_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9399_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9399_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9399_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9399_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9438_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9438_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9504_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9504_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9509_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9509_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_970_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_970_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_9730_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_9730_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "bound local/server image-label-geometry equality: img_995_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no fabricated annotation evidence: img_995_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "same audited input/code identity: oof_integrity_sha256",
+      "pass": true
+    },
+    {
+      "check": "same audited input/code identity: protocol_sha256",
+      "pass": true
+    },
+    {
+      "check": "same audited input/code identity: audit_script_sha256",
+      "pass": true
+    },
+    {
+      "check": "server training input paths",
+      "pass": true
+    },
+    {
+      "check": "known graph image nodes",
+      "pass": true
+    },
+    {
+      "check": "graph components partition image universe",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_10.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_11.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_11.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_12.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_12.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_13.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_13.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_13.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_15.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_15.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_16.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_16.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_16.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_17.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_17.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_17.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_17.jpg:line4",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_19.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_19.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_20.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_22.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_22.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_23.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_23.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_24.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_24.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_24.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_26.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_26.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_26.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_27.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_28.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_30.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_30.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_32.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_32.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_34.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_34.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_36.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_36.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_37.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_4.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_4.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_7.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_7.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_7.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_8.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_9.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: blackinst_9.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_10012_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1013_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1016_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1020_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1022_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1023_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_10510_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1083_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1099_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_11099_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1113_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1113_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_11478_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_12185_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_12317_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1235_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_12458_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1333_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_13538_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_13734_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1474_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15034_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1505_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1505_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1505_pre_part_1.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1509_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15101_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1515_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15170_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15490_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15545_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15609_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1572_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15770_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15890_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_15996_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_16161_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_16442_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_16871_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_17204_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1797_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_18290_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_19226_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_1944_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2028_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2034_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2037_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2072_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2075_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2075_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2075_pre_part_1.jpg:line3",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_20948_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2118_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_21637_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2195_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_21979_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2201_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2248_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_22666_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_22731_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2273_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_23458_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_23459_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_24425_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_24459_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_24729_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2500_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2538_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2572_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2871_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2872_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_2900_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3040_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3190_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3207_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3292_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3441_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3523_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3539_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3598_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3626_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_3889_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_4108_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_4321_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_4462_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_4515_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_460_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_4937_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_5107_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_525_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_5891_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_6075_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_639_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_6576_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_6648_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_6811_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_693_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_7241_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_7734_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_7953_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_8297_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_8308_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_8363_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_8507_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_8747_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_879_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_8935_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_900_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9157_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9389_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9399_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9399_pre_part_1.jpg:line2",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9438_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9504_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9509_pre_part_0.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_970_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_9730_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "annotation known-group binding: img_995_pre_part_1.jpg:line1",
+      "pass": true
+    },
+    {
+      "check": "no physical-source or OOF isolation claim",
+      "pass": true
+    },
+    {
+      "check": "no recovered physical-original components",
+      "pass": true
+    },
+    {
+      "check": "conditioning not executed",
+      "pass": true
+    },
+    {
+      "check": "gate execution: ANNOTATION_PROVENANCE",
+      "pass": true
+    },
+    {
+      "check": "gate execution: SOURCE_LINEAGE",
+      "pass": true
+    },
+    {
+      "check": "gate execution: OOF_TEACHER_ISOLATION",
+      "pass": true
+    },
+    {
+      "check": "gate execution: CONDITIONING_ISOLATION",
+      "pass": true
+    },
+    {
+      "check": "gate execution: BBOX_TRANSFORM",
+      "pass": true
+    },
+    {
+      "check": "gate execution: SPATIAL_SEMANTICS",
+      "pass": true
+    },
+    {
+      "check": "gate execution: MODEL_IMMUTABILITY",
+      "pass": true
+    },
+    {
+      "check": "gate execution: DIFFERENTIABLE_PATH",
+      "pass": true
+    },
+    {
+      "check": "gate execution: PAIRED_RNG",
+      "pass": true
+    },
+    {
+      "check": "gate execution: TASK_LOSS_MANIPULATION",
+      "pass": true
+    },
+    {
+      "check": "gate execution: VISUAL_PRESERVATION",
+      "pass": true
+    },
+    {
+      "check": "gate execution: NUMERICAL_VALIDITY",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: sampling_count",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: detector_training_count",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: new_teacher_training_count",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: optimizer_step_count",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: official_validation_use_count",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: deep_pcb_training",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: deep_pcb_generation",
+      "pass": true
+    },
+    {
+      "check": "no unauthorized execution: bootstrap_guard_modification",
+      "pass": true
+    },
+    {
+      "check": "no authorization/unsupported claim: STAGE16A_R_FORMAL_GENERATION_AUTHORIZED",
+      "pass": true
+    },
+    {
+      "check": "no authorization/unsupported claim: R0_GENERATION_AUTHORIZED",
+      "pass": true
+    },
+    {
+      "check": "no authorization/unsupported claim: DETECTOR_TRAINING_AUTHORIZED",
+      "pass": true
+    },
+    {
+      "check": "no authorization/unsupported claim: STAGE16B_AUTO_START",
+      "pass": true
+    },
+    {
+      "check": "no authorization/unsupported claim: original_stage16a_stop_record_modified",
+      "pass": true
+    },
+    {
+      "check": "no authorization/unsupported claim: later_runtime_implementation_complete",
+      "pass": true
+    },
+    {
+      "check": "no appearance/validation substitution",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: oof_teacher_isolation_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: conditioning_isolation_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: bbox_transform_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: bbox_eligibility_bias_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: spatial_semantics_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: r0_donor_registry",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: mask_geometry_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: paired_rng_freeze",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: model_state_immutability_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: differentiability_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: r0_task_guidance_step_audit",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: task_loss_effectiveness",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: paired_visual_validity",
+      "pass": true
+    },
+    {
+      "check": "honest blocked artifact: numerical_validity",
+      "pass": true
+    }
+  ]
+}
