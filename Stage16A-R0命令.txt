@@ -1,0 +1,21 @@
+# R0 annotation entry gate only. No GPU, sampling, teachers or detector training.
+# Upload tools/audit_plastic_bomo_stage16a_r0.py and configs/plastic_bomo_stage16a_r0.json.
+# Exit code 2 means the audited stop/incomplete status printed below, not a generation failure.
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage16a_r0_traceability_preflight
+mkdir -p results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_plastic_bomo_stage16a_r0.py \
+  --protocol configs/plastic_bomo_stage16a_r0.json \
+  --train_images /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only/images/train \
+  --train_labels /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only/labels/train \
+  --oof_integrity results/dwbg/v2/fixed_v3/oof_integrity_report.json \
+  --scope SERVER_PREFLIGHT \
+  --output results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight \
+  > logs/plastic_bomo_stage16a_r0_traceability_preflight/annotation.log 2>&1
+
+cat logs/plastic_bomo_stage16a_r0_traceability_preflight/annotation.log
+
+# No command for later stages: annotation provenance must pass first.
+# Do not create a new human-verification ledger to fill this gate; only existing
+# inspectable, image/label/line-bound historical evidence can justify acceptance.

@@ -1,0 +1,37 @@
+{
+  "status": "ANNOTATION_PROVENANCE_INSUFFICIENT",
+  "scope": "LOCAL_TRAINING_ASSET_AUDIT",
+  "phase": "ANNOTATION_ENTRY_GATE",
+  "gates": {
+    "ANNOTATION_PROVENANCE": "FAIL",
+    "SOURCE_LINEAGE": "NOT_RUN",
+    "OOF_TEACHER_ISOLATION": "NOT_RUN",
+    "CONDITIONING_ISOLATION": "NOT_RUN",
+    "BBOX_TRANSFORM": "NOT_RUN",
+    "SPATIAL_SEMANTICS": "NOT_RUN",
+    "MODEL_IMMUTABILITY": "NOT_RUN",
+    "DIFFERENTIABLE_PATH": "NOT_RUN",
+    "PAIRED_RNG": "NOT_RUN",
+    "TASK_LOSS_MANIPULATION": "NOT_RUN",
+    "VISUAL_PRESERVATION": "NOT_RUN",
+    "NUMERICAL_VALIDITY": "NOT_RUN"
+  },
+  "STAGE16A_R_FORMAL_GENERATION_AUTHORIZED": false,
+  "R0_GENERATION_AUTHORIZED": false,
+  "DETECTOR_TRAINING_AUTHORIZED": false,
+  "STAGE16B_AUTO_START": false,
+  "sampling_count": 0,
+  "detector_training_count": 0,
+  "new_teacher_training_count": 0,
+  "optimizer_step_count": 0,
+  "official_validation_use_count": 0,
+  "deep_pcb_training": 0,
+  "deep_pcb_generation": 0,
+  "bootstrap_guard_modification": 0,
+  "original_stage16a_stop_record_modified": false,
+  "accepted_unique_source_groups_per_class": {
+    "flash": 0,
+    "black": 0
+  },
+  "later_runtime_implementation_complete": false
+}
