@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "base_model": "sd2-community\\stable-diffusion-2-inpainting",
+  "public_reference": {
+    "repository": "sd2-community/stable-diffusion-2-inpainting",
+    "revision": "5f74973cbb64c8568780732c17f43eb269d63a0d",
+    "source": "https://huggingface.co/api/models/sd2-community/stable-diffusion-2-inpainting?blobs=true",
+    "weight_files": {
+      "unet/diffusion_pytorch_model.safetensors": {
+        "sha256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+        "size": 3463784116
+      },
+      "vae/diffusion_pytorch_model.safetensors": {
+        "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+        "size": 334643276
+      },
+      "text_encoder/model.safetensors": {
+        "sha256": "cce6febb0b6d876ee5eb24af35e27e764eb4f9b1d0b7c026c8c3333d4cfc916c",
+        "size": 1361597018
+      }
+    },
+    "metadata_git_blobs": {
+      "model_index.json": "d30e3eb38cf0609c58ad5b0c0da476d1463d9f8b",
+      "scheduler/scheduler_config.json": "297118f6c192917e8712ae6f76054e2090b03a12",
+      "text_encoder/config.json": "d56b14868b81a50d952b0ebf1455568a5f0fa717",
+      "tokenizer/merges.txt": "76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+      "tokenizer/special_tokens_map.json": "ae0c5be6f35217e51c4c000fd325d8de0294e99c",
+      "tokenizer/tokenizer_config.json": "4260d8ba1dc67225503a3a6a6a582c9e6dff8595",
+      "tokenizer/vocab.json": "469be27c5c010538f845f518c4f5e8574c78f7c8",
+      "unet/config.json": "1d7b0e6916576464d3bbb0a6ab3792e4cf8c3cbf",
+      "vae/config.json": "74a85ab991aa7f0aa14a95799b475e70f6640da9"
+    },
+    "formats": "exact FP32 safetensors files above only; no fp16/bin/sharded or fine-tuned substitutions"
+  },
+  "files": {
+    "unet/diffusion_pytorch_model.safetensors": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\unet\\diffusion_pytorch_model.safetensors",
+      "sha256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+      "reference_sha256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+      "size": 3463784116
+    },
+    "vae/diffusion_pytorch_model.safetensors": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\vae\\diffusion_pytorch_model.safetensors",
+      "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "reference_sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "size": 334643276
+    },
+    "text_encoder/model.safetensors": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\text_encoder\\model.safetensors",
+      "sha256": "cce6febb0b6d876ee5eb24af35e27e764eb4f9b1d0b7c026c8c3333d4cfc916c",
+      "reference_sha256": "cce6febb0b6d876ee5eb24af35e27e764eb4f9b1d0b7c026c8c3333d4cfc916c",
+      "size": 1361597018
+    },
+    "model_index.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\model_index.json",
+      "sha256": "af482af150c3f493066861bdf1b5208a35ed15e530c1fb6eb144c85e42a1114c",
+      "public_git_blob": "d30e3eb38cf0609c58ad5b0c0da476d1463d9f8b",
+      "actual_git_blob": "d30e3eb38cf0609c58ad5b0c0da476d1463d9f8b"
+    },
+    "scheduler/scheduler_config.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\scheduler\\scheduler_config.json",
+      "sha256": "7a8564e9760e67ab1bea23709a1f24f4008c88535f149d0ef637e3d51556189d",
+      "public_git_blob": "297118f6c192917e8712ae6f76054e2090b03a12",
+      "actual_git_blob": "297118f6c192917e8712ae6f76054e2090b03a12"
+    },
+    "text_encoder/config.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\text_encoder\\config.json",
+      "sha256": "defee35258ea6821568d9dffbc63edb3eb7c194d83f147b087f733897547f024",
+      "public_git_blob": "d56b14868b81a50d952b0ebf1455568a5f0fa717",
+      "actual_git_blob": "d56b14868b81a50d952b0ebf1455568a5f0fa717"
+    },
+    "tokenizer/merges.txt": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\tokenizer\\merges.txt",
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "public_git_blob": "76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+      "actual_git_blob": "76e821f1b6f0a9709293c3b6b51ed90980b3166b"
+    },
+    "tokenizer/special_tokens_map.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\tokenizer\\special_tokens_map.json",
+      "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+      "public_git_blob": "ae0c5be6f35217e51c4c000fd325d8de0294e99c",
+      "actual_git_blob": "ae0c5be6f35217e51c4c000fd325d8de0294e99c"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\tokenizer\\tokenizer_config.json",
+      "sha256": "5791be2e5ba26a0be4ac7d952f0daf382401394ab36886a8158fe52e39ea6226",
+      "public_git_blob": "4260d8ba1dc67225503a3a6a6a582c9e6dff8595",
+      "actual_git_blob": "4260d8ba1dc67225503a3a6a6a582c9e6dff8595"
+    },
+    "tokenizer/vocab.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\tokenizer\\vocab.json",
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "public_git_blob": "469be27c5c010538f845f518c4f5e8574c78f7c8",
+      "actual_git_blob": "469be27c5c010538f845f518c4f5e8574c78f7c8"
+    },
+    "unet/config.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\unet\\config.json",
+      "sha256": "ec80d707d3b97c57457682dbc40f42e1fe5834c18e3f58bc207b76c5e2799560",
+      "public_git_blob": "1d7b0e6916576464d3bbb0a6ab3792e4cf8c3cbf",
+      "actual_git_blob": "1d7b0e6916576464d3bbb0a6ab3792e4cf8c3cbf"
+    },
+    "vae/config.json": {
+      "path": "sd2-community\\stable-diffusion-2-inpainting\\vae\\config.json",
+      "sha256": "754a44e01ee811076bc6c0edfeb2afdd59fb5bcb64d3c8a6b0923e29d0fd304b",
+      "public_git_blob": "74a85ab991aa7f0aa14a95799b475e70f6640da9",
+      "actual_git_blob": "74a85ab991aa7f0aa14a95799b475e70f6640da9"
+    }
+  },
+  "errors": [],
+  "loaded_as_model": false
+}

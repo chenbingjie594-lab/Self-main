@@ -1,0 +1,29 @@
+# 仅 CPU 文件哈希/metadata/mask 几何复核；不训练、不生成、不加载模型。
+# 先上传以下代码/config 和完整 Stage20A 已冻结结果目录。
+# 若 real_root 或 normal_root 不在以下路径，只改这两个路径；不改协议内容/权重/slots。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage20b_p0_preflight
+TASK20_P0_RUN=$(date +%Y%m%d_%H%M%S)
+TASK20_P0_OUT=results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_${TASK20_P0_RUN}
+
+nohup env CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/preflight_plastic_bomo_stage20b_p0.py \
+  --protocol configs/plastic_bomo_stage20b_p0.json \
+  --stage20a results_for_gpt/plastic_bomo_stage20a_v2_protocol \
+  --local_frozen results_for_gpt/plastic_bomo_stage20b_p0_preflight \
+  --real_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
+  --normal_root /mnt/sda/cbj/dataset/Plastic_Bomo/empty_images \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --detector_model /mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt \
+  --scope SERVER_PREFLIGHT \
+  --output "$TASK20_P0_OUT" \
+  > logs/plastic_bomo_stage20b_p0_preflight/preflight_${TASK20_P0_RUN}.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage20b_p0_preflight/preflight_${TASK20_P0_RUN}.pid
+echo "只运行P0，结果目录：$TASK20_P0_OUT"
+echo "日志：logs/plastic_bomo_stage20b_p0_preflight/preflight_${TASK20_P0_RUN}.log"
+
+# 查进程/日志（执行启动命令的同一 shell 中变量仍有效）：
+# ps -fp "$(cat logs/plastic_bomo_stage20b_p0_preflight/preflight_${TASK20_P0_RUN}.pid)"
+# tail -n 80 logs/plastic_bomo_stage20b_p0_preflight/preflight_${TASK20_P0_RUN}.log
+# 完成后下载完整 $TASK20_P0_OUT；即使PASS也不要训练/生成。

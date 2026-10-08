@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "versions": {
+      "torch": null,
+      "ultralytics": null,
+      "transformers": null,
+      "accelerate": null,
+      "safetensors": null,
+      "Pillow": "12.0.0",
+      "numpy": "2.3.4",
+      "PyYAML": "6.0.3"
+    },
+    "source_files": {
+      "train_dreambooth_noise.py": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\train_dreambooth_noise.py",
+        "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387"
+      },
+      "diffusers/__init__.py": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\__init__.py",
+        "sha256": "d9292d44a5ce0c1f9d99292f3e8fafea49a3031ac9bb557632213d053da70aca"
+      },
+      "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\pipeline_stable_diffusion_inpaint.py",
+        "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a"
+      },
+      "diffusers/schedulers/scheduling_ddim.py": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\schedulers\\scheduling_ddim.py",
+        "sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd"
+      }
+    },
+    "python": "3.12.7 | packaged by conda-forge | (main, Oct  4 2024, 15:47:54) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "model_imported": false
+  },
+  "generator_code": [
+    {
+      "path": "train_dreambooth_noise.py",
+      "commit": "23731281570f8bedadad50f058ec4a718fb83524",
+      "available": true,
+      "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387",
+      "actual_sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387"
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "commit": "23731281570f8bedadad50f058ec4a718fb83524",
+      "available": true,
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+      "actual_sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a"
+    }
+  ],
+  "scope": "LOCAL_PREFLIGHT",
+  "imports_models": false
+}

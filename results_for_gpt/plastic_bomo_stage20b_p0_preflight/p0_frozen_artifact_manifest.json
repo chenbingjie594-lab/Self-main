@@ -1,0 +1,25 @@
+{
+  "sha256": {
+    "detector_initialization_binding.json": "8859f75fb8010da07c7325a40085e8833cef258f3af4a99d1493efaf42f11fa4",
+    "generator_train_allowlist.json": "33b3da4dfa744804009cf2ce19a1f81b02a63231d19a68adce97b0951628a174",
+    "sd2_base_weight_binding.json": "d9634e6cdc07d0901420dac6394b68e2a1c69a25a192c44f70cabd7ee3099d10",
+    "stage20b_bank_pairing_audit.json": "c5f6099c2cf75f8e81816de59aa74f85bfd33bb2b8b24161f94e020997913663",
+    "stage20b_detector_protocol.json": "abf0051b1711d009d897e6f59c132c3c74d2c9e8eecbf64dbf5f7c6e1aee0b2c",
+    "stage20b_future_baseline_gate.json": "5b1f698c262b58b430e37adbc6a93425a90bbcc5cb6e3560b33199ede07273cb",
+    "stage20b_generation_protocol.json": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5",
+    "stage20b_generation_slots.json": "a32cfab656156a37a3263459cf48ac60ed95342bc69f9a71289ff191d91810fc",
+    "stage20b_generator_training_protocol.json": "27ae51828f38d85596aab6f9d5642bcbfedccdde56587018bbe835f2f5e17ed5",
+    "stage20b_geometry_audit.json": "32883f864eb182d2a960c166fb9fa49a281849c30fd160605c52a580db832975",
+    "stage20b_normal_pool_freeze.json": "365225402e0ca2ffd2f1c4e870d13e096dacf4c6ecc05f02dfc3e7d0ef45912c",
+    "STAGE20B_P0_REPORT.md": "ea74ff7a3774a3c54190861bf4a3a414e7f61845974365afbb6c1bd7fcc43449",
+    "stage20b_p0_status.json": "78748af2db1d1f7eb8db150aec875fc1ad5da04e92e7849c4d6d9a698c8e55db",
+    "stage20b_realrepeat_manifest.json": "19906a88fedf8c9a901621ffe585a5ecf10da6894add9f2898a388e1577454d6",
+    "stage20b_rng_manifest.json": "a5a1cc1701a67c39869859551d494f500218bd8cc7e0713ce7fd4fdf4de64a49",
+    "stage20b_runtime_binding.json": "20bfd22b79f7368ffd9590389b115f11158dfbc76f6fc656b219b7e976cf1c5a",
+    "stage20b_split_recheck.json": "f39c49530998d5a91f68f02d5821c69b7aa5b5be5764e68cef5a144251dfaf09",
+    "stage20b_stage20a_binding_audit.json": "905a837b725471ea0fa08982a9edad98c6d2ea3851fb866e0b43d5ee206cf6b8",
+    "stage20b_training_order_spec.json": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0"
+  },
+  "no_overwrite": true,
+  "scope": "LOCAL_PREFLIGHT"
+}

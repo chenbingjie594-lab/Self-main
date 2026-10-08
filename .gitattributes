@@ -15,3 +15,9 @@ tools/*plastic_bomo_stage20a.py -text
 tests/test_plastic_bomo_stage20a.py -text
 data_protocols/plastic_bomo_generation_v2/** -text
 results_for_gpt/plastic_bomo_stage20a_v2_protocol/** -text -whitespace
+# New Stage20B-P0 artifacts, without changing Stage20A frozen bytes.
+tools/preflight_plastic_bomo_stage20b_p0.py -text
+tests/test_plastic_bomo_stage20b_p0.py -text
+configs/plastic_bomo_stage20b_p0.json -text
+Stage20B-P0*.txt -text
+results_for_gpt/plastic_bomo_stage20b_p0_preflight/** -text -whitespace
