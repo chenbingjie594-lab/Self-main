@@ -1,0 +1,14 @@
+# 上传 tools/freeze_plastic_bomo_stage17a_slots.py 到服务器相同位置。
+# 依赖已有 tools/prepare_plastic_bomo_stage17a_trainonly.py 和 tools/audit_plastic_bomo_stage17a.py。
+# 本段只冻结80个metadata slots，并验证真实source/mask/normal哈希；无图片生成、无训练。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_SLOT_RUN=$(date +%Y%m%d_%H%M%S)
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/freeze_plastic_bomo_stage17a_slots.py \
+  --prepared results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_20261006_022714/preparation \
+  --isolated_normals results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normals_isolated_v1_20261006_064503 \
+  --runtime_probe results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_runtime_20261006_051524 \
+  --frozen results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/annotation_provenance_audit.json \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/slots_frozen_$TASK17_SLOT_RUN
+# 下载本次 slots_frozen_<时间>/ 整个目录（3个JSON）。
+# 不需要重训，不执行旧probe/旧正式生成命令。
+# 下一步审核合并mask的标签覆盖，并按冻结slots执行新normal池的pre-generation复现检查。

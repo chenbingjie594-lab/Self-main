@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "same_slots": true,
+  "same_normal_mask_prompt_labels": true,
+  "only_bank_rng_changes": true,
+  "class_counts_per_bank": {
+    "flash": 40,
+    "black": 40
+  },
+  "retained_slots": 80,
+  "failures": [],
+  "quality_filtering": false,
+  "excluded_files_preserved_in_raw_records": true,
+  "annotation_semantic_correctness_proven": false
+}

@@ -1,0 +1,160 @@
+{
+  "checkpoint_identity": "baseline_stage17a_trainonly_s42_noise_0.0",
+  "checkpoint_assets": {
+    "flash": {
+      "files_sha256": {
+        "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+        "model_index.json": "3f3f77ab0f6b407cbb2eb7a35276608e9a475018ad864e54f800283ac11627be",
+        "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+        "text_encoder/config.json": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a",
+        "text_encoder/model.safetensors": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f",
+        "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+        "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+        "tokenizer/tokenizer_config.json": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f",
+        "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+        "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+        "unet/diffusion_pytorch_model.safetensors": "681a70e5d5eeb734c779b05b1a3e46f9a55f439d5ed965cab381a1d7b96ef361",
+        "vae/config.json": "d2306fbbe484a51b3b0d690ca9efa07b4b89c1d28dd6cd2a843df418bd5b7965",
+        "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+      },
+      "safetensor_layout": {
+        "text_encoder/model.safetensors": {
+          "tensor_count": 372,
+          "payload_bytes": 680775680,
+          "header_bytes": 44704,
+          "file_bytes": 680820392
+        },
+        "unet/diffusion_pytorch_model.safetensors": {
+          "tensor_count": 686,
+          "payload_bytes": 3463700496,
+          "header_bytes": 83616,
+          "file_bytes": 3463784120
+        },
+        "vae/diffusion_pytorch_model.safetensors": {
+          "tensor_count": 248,
+          "payload_bytes": 334615452,
+          "header_bytes": 27808,
+          "file_bytes": 334643268
+        }
+      },
+      "optimizer_step_attempts": 2000,
+      "successful_optimizer_steps": 2000,
+      "amp_skipped_steps": 0,
+      "actual_file_hashes_verified": true
+    },
+    "black": {
+      "files_sha256": {
+        "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+        "model_index.json": "3f3f77ab0f6b407cbb2eb7a35276608e9a475018ad864e54f800283ac11627be",
+        "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+        "text_encoder/config.json": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a",
+        "text_encoder/model.safetensors": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f",
+        "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+        "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+        "tokenizer/tokenizer_config.json": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f",
+        "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+        "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+        "unet/diffusion_pytorch_model.safetensors": "723ce1aed5bea180d602a4bc68cb92b439e4392d5c942bbbb13228802e3d9d13",
+        "vae/config.json": "d2306fbbe484a51b3b0d690ca9efa07b4b89c1d28dd6cd2a843df418bd5b7965",
+        "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+      },
+      "safetensor_layout": {
+        "text_encoder/model.safetensors": {
+          "tensor_count": 372,
+          "payload_bytes": 680775680,
+          "header_bytes": 44704,
+          "file_bytes": 680820392
+        },
+        "unet/diffusion_pytorch_model.safetensors": {
+          "tensor_count": 686,
+          "payload_bytes": 3463700496,
+          "header_bytes": 83616,
+          "file_bytes": 3463784120
+        },
+        "vae/diffusion_pytorch_model.safetensors": {
+          "tensor_count": 248,
+          "payload_bytes": 334615452,
+          "header_bytes": 27808,
+          "file_bytes": 334643268
+        }
+      },
+      "optimizer_step_attempts": 2000,
+      "successful_optimizer_steps": 2000,
+      "amp_skipped_steps": 0,
+      "actual_file_hashes_verified": true
+    }
+  },
+  "input_files_sha256": {
+    "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/slots_frozen_20261007_020941/generation_slot_manifest.json": "fdfd2097d62fef90e0ce1bad2e7885d098b9c8a8d3d69c405d46cb72b330491b",
+    "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/pregeneration_20261007_024210/coverage/slot_mask_label_coverage_audit.json": "59193eeac3b36ff8a9484595411930c92004b0202be68b7b25d987901478142b",
+    "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normals_isolated_v1_20261006_064503/isolated_normal_pool_manifest.json": "353c3abda3ef9167c093a4d1b19d55cd6cc82b34f1d060b731e4f8e2446ba715",
+    "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/pregeneration_20261007_024210/probe/pregeneration_probe_status.json": "070fc029119afc883fadb42c83894f02a17ea5486c55f634f13b1243de79488c",
+    "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/pregeneration_20261007_024210/probe/fixed_pregeneration_probe_slots.json": "81fd2db9a2c5924c339ad9aa127654fd570dec26c479a62924ab0a064ba4fa25",
+    "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/pregeneration_20261007_024210/probe/pregeneration_probe_records.json": "c0d05f746d08e690601af6df51c57a2030dd4b42aab91680a3a920aff6e9dbf1",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/configs/baseline_frozen_split70_s42.json": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+    "scheduler/scheduler_config.json": "58a73eaeaa8d799c6d10ecb3a8fb80ceef96c55b3126c82afe2ff1740d22dd90"
+  },
+  "implementation_sha256": {
+    "inference.py": "cb7c6aa8c2cc01ef6cd410c0cf22810566a07ec5970699d31291bf50a33e1e6c",
+    "magic_ddim.py": "0c0f2acf8ede303dd6e24a85fa246c2e6efd79da6bc000856c439693e098d9c2",
+    "experiment_config.py": "7b24a8f7bd06315e5616dc3f10e11322912ee8d46ba368ab0c4e23aa5831b283",
+    "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_magic.py": "2695e7971aad07c7a613218ebfc63184f15452d70e24160ff29a8ce8d4a5fda9"
+  },
+  "generator_script_sha256": "7d3453a5f3b52d1ca0b1e1c44914a94b6afbd5a1a6ac20a667b0f7126a7cfd4f",
+  "bank_seeds": {
+    "A": 42,
+    "B": 3407,
+    "C": 2026
+  },
+  "expected_slot_count_per_bank": 80,
+  "baseline_parameters": {
+    "experiment_name": "baseline_frozen_split70_s42",
+    "pipeline_mode": "custom",
+    "seed": 42,
+    "device": "cuda",
+    "dtype": "float16",
+    "prompt": "a photo of a sks defect",
+    "negative_prompt": null,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "blur_factor": 0,
+    "normal_filter": {
+      "enabled": true,
+      "black_threshold": 20,
+      "min_mean_luminance": 30.0,
+      "min_nonblack_ratio": 0.6
+    },
+    "modules": {
+      "prompt_perturbation": {
+        "enabled": false,
+        "noise_scale": 0.0
+      },
+      "spatial_guidance": {
+        "enabled": false,
+        "inside": 7.5,
+        "outside": 7.5,
+        "use_schedule": false
+      },
+      "cama": {
+        "enabled": false
+      },
+      "ddim_noise": {
+        "enabled": false,
+        "eta": 0.0,
+        "anomaly_strength_min": 0.0,
+        "anomaly_strength_max": 0.0,
+        "use_random_mask": false
+      },
+      "mdap": {
+        "enabled": false
+      },
+      "rda": {
+        "enabled": false
+      }
+    }
+  },
+  "normal_pool_count": 174,
+  "failure_policy": "numeric/output invalidity drops identical slot in all banks, no replacement; fewer than35/class stops; other runtime failures abort",
+  "labels_policy": "copy frozen projected labels without alteration",
+  "validation_used": false
+}

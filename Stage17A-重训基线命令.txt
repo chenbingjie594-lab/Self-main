@@ -1,0 +1,26 @@
+# 上传四个新增/修改文件：
+# train_dreambooth_noise.py
+# tools/rebuild_plastic_bomo_stage17a_baseline.py
+# experiments/baseline_stage17a_rebuild_split70_s42.json
+# configs/plastic_bomo_stage17a.json
+# 本轮只重训新的两类 Vanilla baseline，不生成、不训练 detector。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage17a_baseline_rebuild
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+  /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/rebuild_plastic_bomo_stage17a_baseline.py \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --train_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+  --split_manifest /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/split_manifest.json \
+  --model_root /mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_stage17a_rebuild_split70_s42_noise_0.0 \
+  --work_root /mnt/sda/cbj/ImageGeneration/Self-main/logs/plastic_bomo_stage17a_baseline_rebuild/paired_train_work \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/baseline_rebuild \
+  --logs logs/plastic_bomo_stage17a_baseline_rebuild/classes \
+  > logs/plastic_bomo_stage17a_baseline_rebuild/launcher.log 2>&1 &
+echo $! > logs/plastic_bomo_stage17a_baseline_rebuild/launcher.pid
+
+# 进度（不要把下面两行当成另一轮训练启动）
+tail -n 60 logs/plastic_bomo_stage17a_baseline_rebuild/launcher.log
+# 每类详细日志：classes/train_flash.log、classes/train_black.log。
+# 完成后下载 baseline_rebuild/ 审计目录；新模型保存到 model_root。
+# 已有输出不会覆盖；失败后不要删原目录或盲目重跑。

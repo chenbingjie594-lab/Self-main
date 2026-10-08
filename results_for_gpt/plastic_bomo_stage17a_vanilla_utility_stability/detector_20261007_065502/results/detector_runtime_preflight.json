@@ -1,0 +1,55 @@
+{
+  "status": "CPU_TRANSFORM_COLLATE_PASS",
+  "arms": {
+    "RR": {
+      "dataset_size": 218,
+      "probe_fetch_count": 4,
+      "trace": [
+        [
+          "base_000",
+          "base_000",
+          "base_000",
+          "base_000"
+        ]
+      ]
+    },
+    "VA": {
+      "dataset_size": 218,
+      "probe_fetch_count": 4,
+      "trace": [
+        [
+          "base_000",
+          "base_000",
+          "base_000",
+          "base_000"
+        ]
+      ]
+    },
+    "VB": {
+      "dataset_size": 218,
+      "probe_fetch_count": 4,
+      "trace": [
+        [
+          "base_000",
+          "base_000",
+          "base_000",
+          "base_000"
+        ]
+      ]
+    },
+    "VC": {
+      "dataset_size": 218,
+      "probe_fetch_count": 4,
+      "trace": [
+        [
+          "base_000",
+          "base_000",
+          "base_000",
+          "base_000"
+        ]
+      ]
+    }
+  },
+  "optimizer_steps": 0,
+  "official_validation_forwards": 0
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ISOLATED_NORMAL_POOL_PREPARED",
+  "scope": "SERVER_AUDIT",
+  "identity": "stage17a_trainonly_normal_isolation_v1",
+  "normal_count": 174,
+  "excluded_normal_filenames": [
+    "076.jpg",
+    "092.jpg",
+    "133.jpg",
+    "362.jpg",
+    "396.jpg",
+    "411.jpg"
+  ],
+  "original_files_unchanged": true,
+  "related_validation_source_groups_in_new_pool": 0,
+  "claim_scope": "Recovered explicit pre_part/XML relationships only; unknown acquisition relationships are not ruled out",
+  "generator_retrained": false,
+  "generation_parameters_changed": false,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "sampling_count": 0,
+  "training_count": 0,
+  "pool_manifest_sha256": "353c3abda3ef9167c093a4d1b19d55cd6cc82b34f1d060b731e4f8e2446ba715"
+}

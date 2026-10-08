@@ -1,0 +1,84 @@
+{
+  "flash": {
+    "files_sha256": {
+      "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+      "model_index.json": "3f3f77ab0f6b407cbb2eb7a35276608e9a475018ad864e54f800283ac11627be",
+      "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+      "text_encoder/config.json": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a",
+      "text_encoder/model.safetensors": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f",
+      "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+      "tokenizer/tokenizer_config.json": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f",
+      "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+      "unet/diffusion_pytorch_model.safetensors": "681a70e5d5eeb734c779b05b1a3e46f9a55f439d5ed965cab381a1d7b96ef361",
+      "vae/config.json": "d2306fbbe484a51b3b0d690ca9efa07b4b89c1d28dd6cd2a843df418bd5b7965",
+      "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+    },
+    "safetensor_layout": {
+      "text_encoder/model.safetensors": {
+        "tensor_count": 372,
+        "payload_bytes": 680775680,
+        "header_bytes": 44704,
+        "file_bytes": 680820392
+      },
+      "unet/diffusion_pytorch_model.safetensors": {
+        "tensor_count": 686,
+        "payload_bytes": 3463700496,
+        "header_bytes": 83616,
+        "file_bytes": 3463784120
+      },
+      "vae/diffusion_pytorch_model.safetensors": {
+        "tensor_count": 248,
+        "payload_bytes": 334615452,
+        "header_bytes": 27808,
+        "file_bytes": 334643268
+      }
+    },
+    "optimizer_step_attempts": 2000,
+    "successful_optimizer_steps": 2000,
+    "amp_skipped_steps": 0,
+    "actual_file_hashes_verified": true
+  },
+  "black": {
+    "files_sha256": {
+      "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+      "model_index.json": "3f3f77ab0f6b407cbb2eb7a35276608e9a475018ad864e54f800283ac11627be",
+      "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+      "text_encoder/config.json": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a",
+      "text_encoder/model.safetensors": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f",
+      "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+      "tokenizer/tokenizer_config.json": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f",
+      "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+      "unet/diffusion_pytorch_model.safetensors": "723ce1aed5bea180d602a4bc68cb92b439e4392d5c942bbbb13228802e3d9d13",
+      "vae/config.json": "d2306fbbe484a51b3b0d690ca9efa07b4b89c1d28dd6cd2a843df418bd5b7965",
+      "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+    },
+    "safetensor_layout": {
+      "text_encoder/model.safetensors": {
+        "tensor_count": 372,
+        "payload_bytes": 680775680,
+        "header_bytes": 44704,
+        "file_bytes": 680820392
+      },
+      "unet/diffusion_pytorch_model.safetensors": {
+        "tensor_count": 686,
+        "payload_bytes": 3463700496,
+        "header_bytes": 83616,
+        "file_bytes": 3463784120
+      },
+      "vae/diffusion_pytorch_model.safetensors": {
+        "tensor_count": 248,
+        "payload_bytes": 334615452,
+        "header_bytes": 27808,
+        "file_bytes": 334643268
+      }
+    },
+    "optimizer_step_attempts": 2000,
+    "successful_optimizer_steps": 2000,
+    "amp_skipped_steps": 0,
+    "actual_file_hashes_verified": true
+  }
+}

@@ -1,0 +1,13 @@
+# 上传两个文件到服务器相同相对位置：
+# tools/verify_plastic_bomo_stage17a_server_isolation.py
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_isolation_recovery/numbering_and_validation_filename_audit.json
+# 只检查文件列表及generator训练图/mask哈希，不解码validation，不读取validation标签。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_ISOLATION_RUN=$(date +%Y%m%d_%H%M%S)
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/verify_plastic_bomo_stage17a_server_isolation.py \
+  --numbering_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_isolation_recovery/numbering_and_validation_filename_audit.json \
+  --rebuild_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/baseline_rebuild \
+  --generation_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/server_isolation_$TASK17_ISOLATION_RUN
+# 下载本次 server_isolation_* 目录；不要串联生成或训练。

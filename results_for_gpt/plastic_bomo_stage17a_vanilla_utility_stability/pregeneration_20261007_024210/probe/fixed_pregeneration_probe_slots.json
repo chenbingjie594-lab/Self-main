@@ -1,0 +1,19 @@
+{
+  "slot_ids": [
+    "5170f0999e0cafa7e992ab523fb31fb4735f37685a235674937cf471670f639d",
+    "1a9828a2f0d1bc81acad7692e5102de83d347ca1e1d9a735cd0e61d70b579c3d",
+    "64ec8d6fbf48902a2b0f6db3c6e8177eac1ad4ebb7924bc039cf999e14028c8e",
+    "29782d96a84f1e9cb01f645df15a42f44be83b379ca8ef348bf01c4ee67e3a43",
+    "58a974b9ae35938771b4fc71ad79a18165e18871c1270eddcfe28d02deb76d0f"
+  ],
+  "selection": "predefined metadata hash, 3 flash / 2 black; no result or quality information",
+  "slot_manifest_sha256": "fdfd2097d62fef90e0ce1bad2e7885d098b9c8a8d3d69c405d46cb72b330491b",
+  "baseline_config_sha256": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+  "scheduler_sha256": "58a73eaeaa8d799c6d10ecb3a8fb80ceef96c55b3126c82afe2ff1740d22dd90",
+  "implementation_sha256": {
+    "inference.py": "cb7c6aa8c2cc01ef6cd410c0cf22810566a07ec5970699d31291bf50a33e1e6c",
+    "magic_ddim.py": "0c0f2acf8ede303dd6e24a85fa246c2e6efd79da6bc000856c439693e098d9c2",
+    "experiment_config.py": "7b24a8f7bd06315e5616dc3f10e11322912ee8d46ba368ab0c4e23aa5831b283",
+    "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_magic.py": "2695e7971aad07c7a613218ebfc63184f15452d70e24160ff29a8ce8d4a5fda9"
+  }
+}

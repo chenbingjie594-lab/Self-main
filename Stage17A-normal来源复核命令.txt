@@ -1,0 +1,15 @@
+# 上传三个文件到服务器相同相对位置，不用git：
+# tools/verify_plastic_bomo_stage17a_normal_server.py
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_local_audit/normal_lineage_status.json
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_local_audit/normal_origin_manifest.json
+# 本段是只读复核：不删图、不换背景、不重训、不生成、不训练detector。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_NORMAL_AUDIT=$(date +%Y%m%d_%H%M%S)
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/verify_plastic_bomo_stage17a_normal_server.py \
+  --normal_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_local_audit \
+  --normal_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train/Plastic_Bomo/train/good \
+  --runtime_probe results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_runtime_20261006_051524 \
+  --prepared results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_20261006_022714/preparation \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_server_$TASK17_NORMAL_AUDIT
+# 下载本次 normal_lineage_server_<时间>/。
+# 不要手动删除那6张图；修改normal资格协议须另行确认并冻结版本。

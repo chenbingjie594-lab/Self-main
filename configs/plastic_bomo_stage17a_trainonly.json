@@ -1,0 +1,22 @@
+{
+  "identity": "baseline_stage17a_trainonly_s42_noise_0.0",
+  "authorization": "User confirmed continue after server exact validation-overlap confirmation",
+  "historical_checkpoint_equivalence_claimed": false,
+  "source_protocol": "All 168 frozen detector-train annotations, not the old mixed 112-source split70 pool",
+  "frozen_real_images": 138,
+  "source_counts": {"flash": 88, "black": 80},
+  "crop": {"minimum_size": 512, "bbox_scale": 4.0, "padding": "black", "jpeg_quality": 95},
+  "mask": {"flash_scale": 2.8, "black_scale": 1.45, "minimum_radius": 5.0, "same_class_full_image_union": true},
+  "training": {"learning_rate": 0.000001, "max_train_steps": 2000, "train_batch_size": 1, "gradient_accumulation_steps": 4, "seed": 42, "mixed_precision": "fp16", "gradient_checkpointing": true, "text_noise_scale": 0.0, "train_text_encoder": false, "resolution": 512, "center_crop": true, "lr_scheduler": "constant", "lr_warmup_steps": 0, "resume": false},
+  "budget_semantics": "2000 scheduled optimizer attempts per class; successful steps and AMP skips audited, not extended",
+  "base_initialization": "Exact original pretrained SD2 base files from prior rebuild preparation audit; never the contaminated fine-tuned checkpoint",
+  "labels_modified": false,
+  "validation_modified": false,
+  "quality_selector": false,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "normal_conditioning_isolation": "Required separately before generation; normals not used in this UNet-only no-prior training",
+  "scope_caveat": "Exact parent isolation under frozen annotations, not proof of independence of unknown physical acquisition groups or human annotation accuracy",
+  "deep_pcb_training": 0,
+  "bootstrap_guard_modification": 0
+}

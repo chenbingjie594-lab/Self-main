@@ -1,0 +1,16 @@
+{
+  "status": "NEW_MATCHED_RR_REQUIRED_AND_PREPARED",
+  "historical_reuse_blocked_reason": "no exact order/runtime/validation-timing equivalence evidence",
+  "base_images": 138,
+  "base_annotations": 168,
+  "extra_full_original_image_replays": 80,
+  "extra_class_role_counts": {
+    "black": 40,
+    "flash": 40
+  },
+  "full_original_labels_repeated": true,
+  "target_isolation": false,
+  "class_role_not_equal_actual_bbox_count": "full image replay can contain multiple annotations; synthetic crops contain 85 projected labels; do not claim exact bbox-instance exposure equality",
+  "same_draw_budget": true,
+  "runtime_compute_pending": true
+}

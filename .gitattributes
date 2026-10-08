@@ -1,0 +1,7 @@
+# Preserve bytes used by Stage17A SHA256 audits across platforms.
+tools/*plastic_bomo_stage17a*.py -text
+tests/test_plastic_bomo_stage17a*.py -text
+configs/plastic_bomo_stage17a*.json -text
+experiments/baseline_stage17a_rebuild_split70_s42.json -text
+Stage17A*.txt -text
+train_dreambooth_noise.py -text

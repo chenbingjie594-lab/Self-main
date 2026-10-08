@@ -1,0 +1,25 @@
+{
+  "status": "PREFLIGHT_ONLY_NOT_TRAINED",
+  "frozen_detector_protocol_matches": true,
+  "detector": {
+    "model": "pretrained/yolo11s.pt",
+    "seed": 42,
+    "imgsz": 1536,
+    "epochs": 150,
+    "patience": 151,
+    "batch": 1,
+    "optimizer": "auto",
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "close_mosaic": 10,
+    "deterministic": true,
+    "rect": false,
+    "augment": false,
+    "validation_during_training": false,
+    "primary_checkpoint": "epoch150 last.pt"
+  },
+  "pretrained_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "same_138_real_train_verified": true,
+  "successful_optimizer_step_equality": "NOT_MEASURED"
+}

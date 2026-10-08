@@ -1,0 +1,38 @@
+{
+  "status": "NORMAL_CONDITIONING_SOURCE_GROUP_OVERLAP_CONFIRMED",
+  "scope": "LOCAL_ORIGINAL_METADATA_AND_BYTE_BINDING",
+  "original_normal_count": 522,
+  "numbered_normals_exactly_bound": 420,
+  "filtered_normal_count": 180,
+  "filtered_normals_related_to_validation_source_groups": 6,
+  "xml_group_overlap_confirmed": 6,
+  "overlap_normal_filenames": [
+    "076.jpg",
+    "092.jpg",
+    "133.jpg",
+    "362.jpg",
+    "396.jpg",
+    "411.jpg"
+  ],
+  "smoke_probe_normals_with_group_overlap": [
+    "076.jpg"
+  ],
+  "missing_original_xml_bindings": [],
+  "validation_original_xml_files_read_for_source_metadata": 6,
+  "official_validation_yolo_labels_read": 0,
+  "validation_annotation_objects_used_for_tuning": false,
+  "validation_image_pixels_decoded": 0,
+  "normal_pool_filtered_or_replaced": false,
+  "trainonly_generator_training_used_normals": false,
+  "generator_retraining_required_by_this_finding": false,
+  "runtime_repeat_pass_reinterpreted_as_quality_pass": false,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "sampling_count": 0,
+  "training_count": 0,
+  "physical_original_image_pixels_recovered": false,
+  "runtime_conditions_sha256": "f70c3ec78d754721390b82f2d6c2d17a6d773fd18d04e4c89432a5f2dca452ea",
+  "isolation_audit_sha256": "6145029fbc18cb6ca6bbd7c92dd541e42e85aa5498436af8b90eb79e1f30ec90",
+  "converter_sha256": "47bf12fe6ffce813789e85187af0680f96f5326dcf71a6bc1f2a09b0932a6dda",
+  "inference_sha256": "cb7c6aa8c2cc01ef6cd410c0cf22810566a07ec5970699d31291bf50a33e1e6c"
+}

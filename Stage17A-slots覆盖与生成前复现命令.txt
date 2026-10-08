@@ -1,0 +1,34 @@
+# 上传两个新增脚本：
+# tools/check_plastic_bomo_stage17a_slot_coverage.py
+# tools/probe_plastic_bomo_stage17a_frozen_slots.py
+# 依赖已有 freeze_slots、trainonly准备、trainonly probe、rebuilt probe、audit_stage17a 脚本。
+# 保证恢复的 historical crop/mask source txt 仍在对应results目录。
+# 本段自动先检查覆盖，通过才运行30张探针；不重训、不正式生成、不训detector。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_PREGEN_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_pregeneration
+nohup env TASK17_PREGEN_RUN="$TASK17_PREGEN_RUN" CUDA_VISIBLE_DEVICES=3 CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_ROOT=results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability
+TASK17_PY=/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python
+$TASK17_PY tools/check_plastic_bomo_stage17a_slot_coverage.py \
+  --slots "$TASK17_ROOT/slots_frozen_20261007_020941" \
+  --prepared "$TASK17_ROOT/trainonly_20261006_022714/preparation" \
+  --frozen results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/annotation_provenance_audit.json \
+  --output "$TASK17_ROOT/pregeneration_$TASK17_PREGEN_RUN/coverage"
+
+$TASK17_PY tools/probe_plastic_bomo_stage17a_frozen_slots.py \
+  --slots "$TASK17_ROOT/slots_frozen_20261007_020941" \
+  --coverage "$TASK17_ROOT/pregeneration_$TASK17_PREGEN_RUN/coverage" \
+  --training "$TASK17_ROOT/trainonly_20261006_022714/training" \
+  --checkpoint_root model/baseline_stage17a_trainonly_s42_noise_0.0 \
+  --reference_assets "$TASK17_ROOT/server_rebuilt_preflight_20261005_120144" \
+  --scheduler scheduler \
+  --output "$TASK17_ROOT/pregeneration_$TASK17_PREGEN_RUN/probe" --device 0
+' > logs/plastic_bomo_stage17a_pregeneration/probe_$TASK17_PREGEN_RUN.log 2>&1 &
+echo $! > logs/plastic_bomo_stage17a_pregeneration/probe_$TASK17_PREGEN_RUN.pid
+tail -n 60 logs/plastic_bomo_stage17a_pregeneration/probe_$TASK17_PREGEN_RUN.log
+# 完成后下载本次 pregeneration_<时间>/ 整个目录（coverage JSON、probe JSON及30张PNG）。
+# 不删除/替换slots，失败保留审计；不要继续旧正式生成或detector命令。

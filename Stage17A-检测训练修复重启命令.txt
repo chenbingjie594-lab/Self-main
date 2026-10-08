@@ -1,0 +1,28 @@
+# 上传修改后的两个文件：
+# tools/plastic_bomo_stage17a_detector_common.py
+# tools/run_plastic_bomo_stage17a_detector.py
+# 不重做准备、不重生成、不删除旧失败目录；使用新 runs / results 目录。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_DET_REPAIR=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_detector
+nohup env TASK17_DET_REPAIR="$TASK17_DET_REPAIR" CUDA_VISIBLE_DEVICES=3 CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_ROOT=results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability
+TASK17_PREPARED="$TASK17_ROOT/detector_20261007_065502/preparation"
+TASK17_OUTPUT="$TASK17_ROOT/detector_repair_$TASK17_DET_REPAIR/results"
+TASK17_RUNS="runs/plastic_bomo_stage17a_detector_repair_$TASK17_DET_REPAIR"
+TASK17_PY=/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python
+$TASK17_PY tools/run_plastic_bomo_stage17a_detector.py \
+  --prepared "$TASK17_PREPARED" --model pretrained/yolo11s.pt \
+  --runs "$TASK17_RUNS" --output "$TASK17_OUTPUT" --device 0 --preflight_only
+$TASK17_PY tools/run_plastic_bomo_stage17a_detector.py \
+  --prepared "$TASK17_PREPARED" --model pretrained/yolo11s.pt \
+  --runs "$TASK17_RUNS" --output "$TASK17_OUTPUT" --device 0
+$TASK17_PY tools/finalize_plastic_bomo_stage17a_detector.py --output "$TASK17_OUTPUT"
+' > logs/plastic_bomo_stage17a_detector/repair_$TASK17_DET_REPAIR.log 2>&1 &
+echo $! > logs/plastic_bomo_stage17a_detector/repair_$TASK17_DET_REPAIR.pid
+echo "OUTPUT: results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_$TASK17_DET_REPAIR/results"
+tail -n 60 logs/plastic_bomo_stage17a_detector/repair_$TASK17_DET_REPAIR.log
+# 下载新 detector_repair_<时间>/ 和旧 detector_20261007_065502/preparation/；旧失败 records 保留。

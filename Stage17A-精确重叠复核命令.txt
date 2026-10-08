@@ -1,0 +1,16 @@
+# 上传 tools/verify_plastic_bomo_stage17a_exact_overlap.py
+# 使用已上传的 historical_isolation_recovery/numbering_and_validation_filename_audit.json
+# 及已有 server_isolation_20261005_135604/server_isolation_status.json、baseline_rebuild/。
+# 本检查会读取候选validation图像，只做隔离身份验证，不读取validation标签/计算指标/选slots。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_EXACT_RUN=$(date +%Y%m%d_%H%M%S)
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/verify_plastic_bomo_stage17a_exact_overlap.py \
+  --numbering_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_isolation_recovery/numbering_and_validation_filename_audit.json \
+  --rebuild_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/baseline_rebuild \
+  --server_isolation results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/server_isolation_20261005_135604/server_isolation_status.json \
+  --generation_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+  --validation_image_dir /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only/images/val \
+  --scope SERVER_EXACT_AUDIT \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/server_exact_overlap_$TASK17_EXACT_RUN
+# 下载 server_exact_overlap_*。不要继续使用当前checkpoint生成正式banks或训练detector。
+# 不删除旧checkpoint/数据；新train-only版本必须单独确认协议后实施。

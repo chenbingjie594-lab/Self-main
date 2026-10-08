@@ -1,0 +1,29 @@
+# 上传新增 tools/probe_plastic_bomo_stage17a_trainonly.py 到服务器相同位置。
+# 确保上一段的 prepare/train/rebuild 脚本和新 trainonly 协议已在服务器；还需已有：
+# tools/probe_plastic_bomo_stage17a_rebuilt.py、tools/audit_plastic_bomo_stage17a.py。
+# 不运行旧 probe 的 main；只复用历史 inference 导入方法和固定 seed 函数。
+# 只检查新模型并生成30张探针，非正式80-slot生成，不训练detector。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_RUNTIME_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_trainonly_runtime
+
+nohup env CUDA_VISIBLE_DEVICES=3 CUBLAS_WORKSPACE_CONFIG=:4096:8 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/probe_plastic_bomo_stage17a_trainonly.py \
+  --protocol configs/plastic_bomo_stage17a_trainonly.json \
+  --prepared results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_20261006_022714/preparation \
+  --training results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_20261006_022714/training \
+  --checkpoint_root model/baseline_stage17a_trainonly_s42_noise_0.0 \
+  --frozen results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/annotation_provenance_audit.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --reference_assets results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/server_rebuilt_preflight_20261005_120144 \
+  --scheduler scheduler \
+  --normal_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train/Plastic_Bomo/train/good \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_runtime_$TASK17_RUNTIME_RUN \
+  --device 0 > logs/plastic_bomo_stage17a_trainonly_runtime/probe_$TASK17_RUNTIME_RUN.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage17a_trainonly_runtime/probe_$TASK17_RUNTIME_RUN.pid
+echo "本次检查：$TASK17_RUNTIME_RUN"
+tail -n 60 logs/plastic_bomo_stage17a_trainonly_runtime/probe_$TASK17_RUNTIME_RUN.log
+# 下载本次 trainonly_runtime_<时间>/ 整个目录（含30张PNG和所有JSON）。
+# PASS 只表示实际模型加载及15对重新加载输出的RGB完全一致。
+# normal正式来源、80 slots、bbox变换与正式生成前后复现仍须审核，不自动启动下一阶段。

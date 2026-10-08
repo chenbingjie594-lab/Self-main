@@ -1,0 +1,45 @@
+{
+  "status": "POSSIBLE_GENERATOR_TRAIN_VALIDATION_OVERLAP_METADATA_EVIDENCE",
+  "source_count": 112,
+  "numbering_rule_verified_on_exact_sources": 84,
+  "numbering_conflicts": [],
+  "mask_reproduction_checked": 84,
+  "mask_exact_png_bytes_matches": 84,
+  "per_class_mask_matches": {
+    "flash": 62,
+    "black": 22
+  },
+  "candidate_validation_overlap_sources": 27,
+  "candidate_validation_overlap_unique_parent_names": 25,
+  "per_class_candidate_validation_overlap": {
+    "flash": 14,
+    "black": 13
+  },
+  "remaining_unassigned_to_train_or_val_names": [
+    {
+      "class": "black",
+      "source_id": "009.jpg",
+      "parent_stem": "img_1506_pre_part_1",
+      "old_split": "train",
+      "old_annotation_index": 0,
+      "crop_filename": "img_1506_pre_part_1_00_x839_y227_w15_h13.jpg",
+      "current_frozen_train_filename": false,
+      "current_validation_filename": false,
+      "parent_pixel_identity_verified": false,
+      "evidence": "RECOVERED_NUMBERING_METADATA_ONLY"
+    }
+  ],
+  "validation_filename_directory": "C:\\MyFile\\Study\\代码\\Self-main\\dataset\\GLRR_detection_no_hgrr_plus_black35_s42\\real_only\\images\\val",
+  "validation_image_pixels_read": 0,
+  "validation_labels_read": 0,
+  "filename_overlap_is_not_claimed_exact_pixel_leakage_confirmation": true,
+  "mask_source_history_line": 539,
+  "mask_source_sha256": "0644a5e461f81c885ac120e425544dc94f306f603a4ef2e243df93542413b4e5",
+  "generation_count": 0,
+  "training_count": 0,
+  "labels_modified": false,
+  "FORMAL_GENERATION_AUTHORIZED": false,
+  "DETECTOR_TRAINING_AUTHORIZED": false,
+  "protocol_changed": false,
+  "status_scope": "LOCAL_RECOVERY_NOT_SERVER_ISOLATION_PASS"
+}

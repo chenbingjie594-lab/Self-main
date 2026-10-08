@@ -192,6 +192,8 @@ def parse_args():
         help="The output directory where the model predictions and checkpoints will be written.",
     )
     parser.add_argument("--seed", type=int, default=None, help="A seed for reproducible training.")
+    parser.add_argument("--training_audit_path", type=str, default=None,
+                        help="Optional runtime update ledger; does not change training budget.")
     parser.add_argument(
         "--resolution",
         type=int,
@@ -728,6 +730,8 @@ class PromptDataset(Dataset):
 
 def main():
     args = parse_args()
+    runtime_audit = {"optimizer_step_attempts": 0, "successful_optimizer_steps": 0,
+                     "amp_skipped_steps": 0, "status": "TRAINING_IN_PROGRESS"}
     logging_dir = Path(args.output_dir, args.logging_dir)
 
     project_config = ProjectConfiguration(
@@ -1056,6 +1060,18 @@ def main():
             if accelerator.sync_gradients:
                 progress_bar.update(1)
                 global_step += 1
+                runtime_audit["optimizer_step_attempts"] += 1
+                skipped = bool(accelerator.optimizer_step_was_skipped)
+                runtime_audit["amp_skipped_steps"] += int(skipped)
+                runtime_audit["successful_optimizer_steps"] += int(not skipped)
+                if args.training_audit_path and accelerator.is_main_process:
+                    import json
+                    audit_path = Path(args.training_audit_path)
+                    audit_path.parent.mkdir(parents=True, exist_ok=True)
+                    audit_path.write_text(json.dumps({**runtime_audit, "global_step": global_step,
+                        "seed": args.seed, "max_train_steps": args.max_train_steps,
+                        "train_text_encoder": args.train_text_encoder,
+                        "arguments": {k:v for k,v in vars(args).items() if k != "hub_token"}}, indent=2, allow_nan=False), encoding="utf-8")
 
             logs = {"loss": loss.detach().item(), "lr": lr_scheduler.get_last_lr()[0]}
             progress_bar.set_postfix(**logs)
@@ -1073,6 +1089,13 @@ def main():
             text_encoder=accelerator.unwrap_model(text_encoder),
         )
         pipeline.save_pretrained(args.output_dir)
+        if args.training_audit_path:
+            import json
+            runtime_audit["status"] = "FINAL_PIPELINE_SAVED"
+            Path(args.training_audit_path).write_text(json.dumps({**runtime_audit,
+                "global_step": global_step, "seed": args.seed, "max_train_steps": args.max_train_steps,
+                "train_text_encoder": args.train_text_encoder,
+                "arguments": {k:v for k,v in vars(args).items() if k != "hub_token"}}, indent=2, allow_nan=False), encoding="utf-8")
 
         if args.push_to_hub:
             upload_folder(

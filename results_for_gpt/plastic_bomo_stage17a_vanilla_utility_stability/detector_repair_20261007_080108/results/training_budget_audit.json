@@ -1,0 +1,158 @@
+{
+  "status": "EQUAL_SCHEDULE_WITH_UPDATE_VARIATION",
+  "arms": {
+    "RR": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "base_draws": 20700,
+      "extra_draws": 12000,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 532,
+      "amp_skipped_steps": 12,
+      "last_sha256": "7dea289c9cc769e7be0b2d7f944346db19e050ab4743656b72c7373afc78722b",
+      "actual_optimizer": {
+        "class": "AdamW",
+        "defaults": {
+          "lr": 0.001,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null
+        }
+      },
+      "epoch_lr_schedule_sha256": "fb742174fb22907b6bd00bf3fe47e2a03298388035dc456d9a78ea5d18026ac6",
+      "suppressed_validation_calls": 0
+    },
+    "VA": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "base_draws": 20700,
+      "extra_draws": 12000,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 533,
+      "amp_skipped_steps": 11,
+      "last_sha256": "210b6098932c67c22853c99e287014f916e569bf7d8287358d9e783788fe1719",
+      "actual_optimizer": {
+        "class": "AdamW",
+        "defaults": {
+          "lr": 0.001,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null
+        }
+      },
+      "epoch_lr_schedule_sha256": "fb742174fb22907b6bd00bf3fe47e2a03298388035dc456d9a78ea5d18026ac6",
+      "suppressed_validation_calls": 0
+    },
+    "VB": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "base_draws": 20700,
+      "extra_draws": 12000,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 533,
+      "amp_skipped_steps": 11,
+      "last_sha256": "e666b13c56871a630726d0208ae095500b4abafe1c3df63851b03b5f74476a9d",
+      "actual_optimizer": {
+        "class": "AdamW",
+        "defaults": {
+          "lr": 0.001,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null
+        }
+      },
+      "epoch_lr_schedule_sha256": "fb742174fb22907b6bd00bf3fe47e2a03298388035dc456d9a78ea5d18026ac6",
+      "suppressed_validation_calls": 0
+    },
+    "VC": {
+      "epochs": 150,
+      "primary_draws": 32700,
+      "base_draws": 20700,
+      "extra_draws": 12000,
+      "batches": 32700,
+      "optimizer_step_attempts": 544,
+      "successful_optimizer_steps": 534,
+      "amp_skipped_steps": 10,
+      "last_sha256": "19b6e1e9c8b95fcf8f8983778b77a25e732e0da8aed744815a27da9dcdf18e4b",
+      "actual_optimizer": {
+        "class": "AdamW",
+        "defaults": {
+          "lr": 0.001,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.01,
+          "amsgrad": false,
+          "foreach": null,
+          "maximize": false,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null
+        }
+      },
+      "epoch_lr_schedule_sha256": "fb742174fb22907b6bd00bf3fe47e2a03298388035dc456d9a78ea5d18026ac6",
+      "suppressed_validation_calls": 0
+    }
+  },
+  "equal": {
+    "epochs": true,
+    "primary_draws": true,
+    "base_draws": true,
+    "extra_draws": true,
+    "batches": true,
+    "optimizer_step_attempts": true,
+    "successful_optimizer_steps": false,
+    "primary_order": true,
+    "ABC_augmentation_fetches": true,
+    "actual_optimizer": true,
+    "epoch_lr_schedule": true,
+    "hyperparameters": true
+  },
+  "exact_successful_compute_equal": false,
+  "required_schedule_fields": [
+    "epochs",
+    "primary_draws",
+    "base_draws",
+    "extra_draws",
+    "batches",
+    "optimizer_step_attempts",
+    "primary_order",
+    "ABC_augmentation_fetches",
+    "actual_optimizer",
+    "epoch_lr_schedule",
+    "hyperparameters"
+  ],
+  "successful_step_range": 2
+}

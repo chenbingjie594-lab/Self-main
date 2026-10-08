@@ -1,0 +1,19 @@
+{
+  "identity": "stage17a_trainonly_normal_isolation_v1",
+  "authorization": "User explicitly confirmed exclusion of the six validation-source-group-related normals",
+  "original_numbered_pool_count": 420,
+  "unchanged_filter_accepted_count": 180,
+  "excluded_normal_filenames": ["076.jpg", "092.jpg", "133.jpg", "362.jpg", "396.jpg", "411.jpg"],
+  "new_pool_count": 174,
+  "exclusion_reason": "XML-proven shared original source filename/path with validation partitions; not quality/utility scoring",
+  "normal_filter": {"enabled": true, "black_threshold": 20, "min_mean_luminance": 30.0, "min_nonblack_ratio": 0.60},
+  "original_files_retained": true,
+  "copy_policy": "Exact bytes; retain original numbered filename; no renumbering, no replacement images",
+  "generator_retraining": false,
+  "generator_parameters_changed": false,
+  "generation_seeds_changed": false,
+  "labels_or_validation_modified": false,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "later_gate": "Freeze source-normal-mask-bbox slots before paired formal generation; recheck reproducibility with this pool"
+}

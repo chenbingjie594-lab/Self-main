@@ -1,0 +1,1937 @@
+{
+  "status": "FORMAL_SLOT_LINEAGE_NOT_ESTABLISHED",
+  "scope": "TRAIN_ONLY_SOURCE_CONTENT_AUDIT",
+  "per_class_source_counts": {
+    "flash": 76,
+    "black": 36
+  },
+  "per_class_binding_counts": {
+    "flash": {
+      "NO_EXACT_CONTENT_BINDING": 76
+    },
+    "black": {
+      "NO_EXACT_CONTENT_BINDING": 36
+    }
+  },
+  "frozen_real_images_verified": 138,
+  "frozen_annotation_instances_verified": 168,
+  "named_frozen_parent_crop_candidates": {
+    "flash": 70,
+    "black": 26
+  },
+  "rebuild_split_sha256_matches": true,
+  "all_source_and_mask_bytes_match_generator_training_audit": true,
+  "unknown_parent_is_not_proven_validation_leakage": true,
+  "similarity_matching_used": false,
+  "numbered_source_order_used_as_mapping": false,
+  "validation_content_read": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "FORMAL_80_SLOT_GENERATION_AUTHORIZED": false,
+  "records": [
+    {
+      "class": "flash",
+      "source_id": "000.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\000.jpg",
+      "source_sha256": "f610f8956261ab5141c5cd3dbcb097e70d1a5d776e7d0f17a2528bac1bc2edd7",
+      "decoded_rgb_sha256": "e7c1ef5d75392ce81f1b731ee333cf47b82e2d89fbdbef337e04eed4d2c8378f",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\000_mask.png",
+      "mask_sha256": "d4da488c360bc96f3e4796146980e7104b4d0d974681f61a7f5522429a3f8a1f",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "001.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\001.jpg",
+      "source_sha256": "738e3beeed81824cc74cb6ddab0b449cd15735a0879f48ea41d310ff56c0f95d",
+      "decoded_rgb_sha256": "a57f2857a45992060565f58dbfedc38d6a90ed8d6455bccba52d46dfb4194e65",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\001_mask.png",
+      "mask_sha256": "2c1bbdb20f3e92d45d637ae13d3597fa359a38a5a5c6df3ab9e8ba8fda318c50",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "002.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\002.jpg",
+      "source_sha256": "af71a61d4927aa3a37a93749300cff36619b1032f8f8daa6175cad4254c14e80",
+      "decoded_rgb_sha256": "5a612d75cce1923e9fa7d882441da5c5c3556661fdc711c20d0d86368bf35173",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\002_mask.png",
+      "mask_sha256": "73607effe5ce11add78cb2f7b35d84b4fe81f3c8ab67189f6ff38eedb6a4d1c9",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "005.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\005.jpg",
+      "source_sha256": "0c0dde3c4c1a3ba2e6bf309dc5f63cf62b1b719a248f081c8729c36e6df2572e",
+      "decoded_rgb_sha256": "f8549cab277816496047f3ef4ac95be4f2edd8be02086c5d33fcef953fff669a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\005_mask.png",
+      "mask_sha256": "53fb3ff68aabf1209a2a0579c57b3791dc8ced222758d22d33357c06577a3447",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "006.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\006.jpg",
+      "source_sha256": "70a92ad882952f247225cc3102f87b4c749c508d124d73a8f4f93c199ef867e0",
+      "decoded_rgb_sha256": "9b35f7b087594a21e5830de6b71a3697b46766693eebc78bb482ce8acde68a2b",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\006_mask.png",
+      "mask_sha256": "f5107934657493c842802424d2344c58f475c4f1a80da6bbc2d61b2f7c5f90fb",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "007.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\007.jpg",
+      "source_sha256": "f9cbd28ed6f5b750c14daa1fe2abaf62e162ec277901573939b8983161fa24f3",
+      "decoded_rgb_sha256": "2323970349c035399975fa1b6c94b2122be87d54f6f1c812d775315b1620ab08",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\007_mask.png",
+      "mask_sha256": "aedff016fbab9318a8ce5ca7693776a1fb821150d829a8a029e2fa2f0bcdbf23",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "008.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\008.jpg",
+      "source_sha256": "51faedca3f929ff96822bca59605d180af01055fe9a3d62e90cacd580522eac1",
+      "decoded_rgb_sha256": "59271cfb76ce8174f591a0dcf28d7df2f9bb128c7feb1670b356a12722709016",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\008_mask.png",
+      "mask_sha256": "76c9479dccbf31eee56f5d1b12f44266965daf8579c549c0b697138c2cae0bc2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "009.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\009.jpg",
+      "source_sha256": "c9fa3b73447f25bb970a872e4ec39ce4302afd25ba255298860ff368b9dd6e86",
+      "decoded_rgb_sha256": "824460847a1e1b9d5bc36f62d630d8d8b6abae226ee46c358cba69a3cdef09b4",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\009_mask.png",
+      "mask_sha256": "bd2fc0d6eb1349ddef8d9088b9525d97ef3c21e708bdacba0b888b00e12a152e",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "010.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\010.jpg",
+      "source_sha256": "00feb53dc0cba8a59e66ee38b29f5fe987885da566e95b874897476de565ffc4",
+      "decoded_rgb_sha256": "9b068bc41c7503e1d55941f173df5a00634fda6e98855d270e77d44d60201aed",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\010_mask.png",
+      "mask_sha256": "f1533415f4209bf1f2b1078879b4d5f59d99d7b7dc09086ff7d1ce0c98fa767d",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "012.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\012.jpg",
+      "source_sha256": "195bfecf1882cf0edea59edc1f73e31bbe950dbdae24083826b080353d6c8513",
+      "decoded_rgb_sha256": "21922e1017d2b4e399853ef4574029c401a8db65b83db59fa720a70138a09008",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\012_mask.png",
+      "mask_sha256": "d2d2ec422d920b41a7fbc852730be4c0496951f3b35ee91cba6f70d8fec201da",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "015.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\015.jpg",
+      "source_sha256": "66e183a1f2c035919d8eb58c6693bdead5f1c7383d66d6cc1a800711aa6e7aa6",
+      "decoded_rgb_sha256": "b7cc51e7485afad72f9601edcb9e62c5579ad9a334fc00391bc7f67621660d24",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\015_mask.png",
+      "mask_sha256": "d37084f89ebbe5bb66feb0eb5dc4a0ed7d849c6672955069b357c7fd2999e83f",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "016.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\016.jpg",
+      "source_sha256": "1e9a8a24488784d40ae41cf17abbe73c9ef4b92684e10403e3a75c022018c05a",
+      "decoded_rgb_sha256": "81478a6589f8b19d6634b290c0c65d4df882cca5af55b6dd1162e14de76d55cf",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\016_mask.png",
+      "mask_sha256": "949d68c5319859d0c1183be032984ea08c489cba6b0cbc01a7ece93502d930c5",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "018.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\018.jpg",
+      "source_sha256": "86417f7a490a9a21cf68722884b4e88ae23d242b7731d8a7071d7deb222b1ee2",
+      "decoded_rgb_sha256": "03b5f5204787ba55b4a6f7798d1e60d42464f2a126a2e86f6d0d33615be47f72",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\018_mask.png",
+      "mask_sha256": "3f1be23717600b61cd5b3793925048ccd2fe5d17c8f379d26f965d8707acb724",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "019.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\019.jpg",
+      "source_sha256": "37c847fdff52aefae3d37413a4285bb62b6544b168d9af99ee365c924f78d7fb",
+      "decoded_rgb_sha256": "291a0c1a5986dcb14fbc2d844e52c576651fdf8d16224b18437db19f1c3aba61",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\019_mask.png",
+      "mask_sha256": "2d408c8a48fe92ee41c03165e6c6eaa54b5924095fc4afef1f8f86560c42a7e5",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "020.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\020.jpg",
+      "source_sha256": "9e80b4eee383dbc0d24a1f5393217812797b01ef03fecdbbc302fb430d5fbda2",
+      "decoded_rgb_sha256": "93cb7c2c7cfd38f31f0be288ba3642b18b7ce00cdd16812dfeeb9437670c9917",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\020_mask.png",
+      "mask_sha256": "edaa3191fb3a8c0e58afeeaf048bf02f8caa1bb7e2f812dcb683b47bac18b2a3",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "021.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\021.jpg",
+      "source_sha256": "6c40f24641c2f81effe6329f404677a6445d75f4136beefd36b0d3336d720f43",
+      "decoded_rgb_sha256": "dc6c7c5a8dd4d5d3fc9645f21474b7dccd9c2ee8af09473349100cb3d9221025",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\021_mask.png",
+      "mask_sha256": "b3db54ae05b7bd71d243028ac9b49e656523801cafb4a40c936ad24633eae86c",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "022.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\022.jpg",
+      "source_sha256": "78d79abf461f0d2658ba160cd42511f6d716704167eceb228edc4e006e360aaa",
+      "decoded_rgb_sha256": "515fa410e1fb45b186b6218af69bb899f06bd4c3bfbd88cbc99ddcb142468022",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\022_mask.png",
+      "mask_sha256": "6e558fb2406fdc966a31d7ca9140846aa4033e2dadb3c7cb00d0c5c63425f641",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "023.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\023.jpg",
+      "source_sha256": "4ae366c2f595f854cd22909b8085ad5e0012d4a4efaed32114495f233560c547",
+      "decoded_rgb_sha256": "9f2ce315327c1facc9f9bcd78228600ececd5234147ccbc2ad9490fe7d08a203",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\023_mask.png",
+      "mask_sha256": "910798d1052b80832d62d62ee4fc185c8eb5b1dfbf4a00537e53a19445f4c083",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "024.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\024.jpg",
+      "source_sha256": "7e6d6de5e91d8d5d616afb9d31d357a40a4323482332ffc7f6109a5c1b0802ac",
+      "decoded_rgb_sha256": "3e656b9fdefbd76a6b36d8ca6fa4711c4218bece0d35748d52b8a673f52d6fd4",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\024_mask.png",
+      "mask_sha256": "c869d1dd4a63c05d85f7bbbd4cf76ca7c3d5d103b30a574cc8e3e68c241e516f",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "026.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\026.jpg",
+      "source_sha256": "c4f13004bbe4bb41b6596f8bbc7fe80c5896218903e80a33cc0a20f4aef65e73",
+      "decoded_rgb_sha256": "aad3a011124a5f76970016b88d2f92bdce6938408807c69129323c052c850470",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\026_mask.png",
+      "mask_sha256": "ef2485741ec3a14e024e6d65807bc46089f4e0d8d1c75ce5411745aa9a0fcda0",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "030.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\030.jpg",
+      "source_sha256": "3f08f5102bd9dbd7c5d4314b8e0eb57f9872eee61ad6631173f3c5fe74e67b62",
+      "decoded_rgb_sha256": "aeef94c14b9468b7ee2522996c1cd435bb7d7396a815a591c87f4e9c6f785670",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\030_mask.png",
+      "mask_sha256": "56dccf29b993bb48926d9d0a6b2a51ff7076ff06a129ef6f8500a37d7e38501d",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "032.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\032.jpg",
+      "source_sha256": "330a7dd132e85f3402fbf61e69dfb013c2dddbfbbab6ba3a2f918790b503c0ac",
+      "decoded_rgb_sha256": "cdb47379dbac85f8fb8f8c7fdba0b2e1bc44772f1f9ae794efeb5fc4bbbe1bf8",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\032_mask.png",
+      "mask_sha256": "63bf4e74cdb56610f7b8332a0fff42192c1c6d942ed5fa286de4ba6519a59923",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "033.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\033.jpg",
+      "source_sha256": "565f679200dcf9c041ffdb461bbd8ef7e72c03e410963bb9e636442343895a26",
+      "decoded_rgb_sha256": "f56fa95b555801e2cdd08f1d658533c8b320af26fd3e5703f9878920f55cd44a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\033_mask.png",
+      "mask_sha256": "e934da7ca6280d8bf3f6793ec1402400f1285b5e436f37786b37380bcaff423a",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "034.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\034.jpg",
+      "source_sha256": "b6cd39a53060ab494055dabca5562dba7295cad34dff6b08fc514e33978b2c1b",
+      "decoded_rgb_sha256": "7c1c4a7a350bd2c1c3348e5a90ac0e6f76979610f71e954883095d30dcedfffb",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\034_mask.png",
+      "mask_sha256": "befa7df7aaf347bde70e155f9e8f81927e19933b8dbe13bc638efcbd0778ea5d",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "036.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\036.jpg",
+      "source_sha256": "53479498eb652ad8224b5d93e040f198c2a596db1a0b23c3e96b40f9c792125b",
+      "decoded_rgb_sha256": "4a01bbdf2f4348a1bb59fededa76f3751f10ac970136d41cf7dd173f1ac97c34",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\036_mask.png",
+      "mask_sha256": "5781b3edea51e432d45a624af95f29d894f4bd618db4058bc24af06f512ad445",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "037.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\037.jpg",
+      "source_sha256": "8aa108a72c417d1986e17b43615c3b51695d7f7d1eb4877435a1022af54ec4d1",
+      "decoded_rgb_sha256": "400d8da187f5aafd62ff56b337ea1086eddb8f77ff23c44227976bb3e636bf73",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\037_mask.png",
+      "mask_sha256": "593e807bd30c9ed48def7b8f1a3b6a004245ab4d2b1b0cc24c358b3775606975",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "038.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\038.jpg",
+      "source_sha256": "3418dd4c73f48893a7c6e365199cc9c8244c986603e1f284c3a9ca005ffb8d86",
+      "decoded_rgb_sha256": "fb07d198215aa17e55b8c41606efd0a1a60949ea5c5023f5b8760be6f88f914c",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\038_mask.png",
+      "mask_sha256": "d669ca7df8e142789b9ec643aba0c104d2a39cbc20e8c6c783e55e1164839b34",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "039.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\039.jpg",
+      "source_sha256": "541432913ed875d295ffc44e2aff0af261ce1e43fa316183198da77c37965d4f",
+      "decoded_rgb_sha256": "dcf5b758d8bbe6f87cafbb7261b6bb86ce31cf9c9c971a30475c7a29877b015a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\039_mask.png",
+      "mask_sha256": "22c57b75ae2412eab29aa17cffde387d5ed741c5db2d17cf60d5b8241c21f64b",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "040.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\040.jpg",
+      "source_sha256": "72cc98e9fbdb4aef8957ae5822ca5d5cbf01b72c1bf11104b2f0d91b8eea3dd7",
+      "decoded_rgb_sha256": "c29b4c8e606cc2e9ebea94c899ab5b13c4fc37c3fd991a453dfc3776ef11ae2c",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\040_mask.png",
+      "mask_sha256": "4c8dcd560b9c0b1b15e35fbd9bf804793e81770c8d4f9d2d4c879047199db8e3",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "041.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\041.jpg",
+      "source_sha256": "796eb96d5e13bec9587a4a70bd67970fbe4910541937f0d12361e7af458beeb4",
+      "decoded_rgb_sha256": "4ed63c9f156e4e63eb2d1fdceadab9b1cd8daa6121e5999cdeb0900834352ce4",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\041_mask.png",
+      "mask_sha256": "0636eed866b1ecea77113e334941f15c924054dc70c3b7cdc0294322aef1bf3a",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "042.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\042.jpg",
+      "source_sha256": "14245ec5942f3246a5dbcad5645419dabc7f107e6696936ec6900f02c0de2ff4",
+      "decoded_rgb_sha256": "67b0cab1e4b8ef1d1ad09e38508ea71a38486339902efba1bfa1a9c906c53a3f",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\042_mask.png",
+      "mask_sha256": "de8a3de48ab1ea5876d5e41ee0c575c22904eb6d6d69a696ea1875a52200721d",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "043.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\043.jpg",
+      "source_sha256": "7937e2eac109d4f69882617812e43989e168828dafd43f539c95dee4642cd6eb",
+      "decoded_rgb_sha256": "de7c4a5834e7c7f2124823e24bd76728be5c93bfe7b9497a69ebaa23c5b28551",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\043_mask.png",
+      "mask_sha256": "fb282d434b85f3320b6cd95e32255755f2b9fbebfd1218636f80af13cd7731c8",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "044.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\044.jpg",
+      "source_sha256": "2fb157a0eb88e738c4ab634277ebe250d264ebb44dfb04e85db123b37aa641af",
+      "decoded_rgb_sha256": "f768f82d1a14f916b2b39fb2783e76c97728584a964714e1405d99b1a83e5af8",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\044_mask.png",
+      "mask_sha256": "d68d0788197cae4d94105c93276f59018d07b4d009c95c2eec1c43fe16a65fa9",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "045.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\045.jpg",
+      "source_sha256": "71f608d57986afa952aa4777393adbc2a2063f9c3f486a7f511ad03ec2c93991",
+      "decoded_rgb_sha256": "eb1ebdcc2771b3cf3a6c9c018458212890d85a3b0933458a3b0a87e5818a6171",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\045_mask.png",
+      "mask_sha256": "7d41c6feefaa539afea560bb9dc81cb45ac2d97fca8e8574f564bfa66b6e41ba",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "046.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\046.jpg",
+      "source_sha256": "347c4ff9d200ab00868baa60051db6b200d6d4b49a9bb0e6d77e60ac368ab3b3",
+      "decoded_rgb_sha256": "610dce09daaa0c32516928ca01818c7bc5124fb6fdd52705c928eb92233b2758",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\046_mask.png",
+      "mask_sha256": "00624e8fd64e0aab76c6c36a8b7da4fd8277201cd9198254d12148075d869a10",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "047.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\047.jpg",
+      "source_sha256": "dc96f109b887a6f189c244ff3cb76b5af27be41a24293cb2bfb24e6501492525",
+      "decoded_rgb_sha256": "29d328fe3fca37125004cea4603322a370d6ba2f728ce4c27659081a7054b99d",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\047_mask.png",
+      "mask_sha256": "27f540811f9398095190cb8380ba5466fd030ee3c6c2b89c91dd528d6ef476f2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "048.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\048.jpg",
+      "source_sha256": "62240956ad8fd047b0e257302823cd693973d5065a7db3204958ec972372f8e2",
+      "decoded_rgb_sha256": "e21fa4cfe7ddefb93941fa44b03d61b2a6cb52eee766d71663a38e9f14d51c25",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\048_mask.png",
+      "mask_sha256": "b1b42c9d70fa21085ba1cf5f45248459f1a843ac25eee559e4028876bb63f7d5",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "049.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\049.jpg",
+      "source_sha256": "b1206111fb0c84bec911049ad3c498de321d4aa4b7f34afc32d113c1b3c94c57",
+      "decoded_rgb_sha256": "2617f872b9f3bd5ca4cf62f9af1d67259a06822e59f711587751cd14bbd6439a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\049_mask.png",
+      "mask_sha256": "363f3c0cf3f21628da72374e1ce4b45f8c81dae4ec60e90a8ebe13853fad5160",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "050.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\050.jpg",
+      "source_sha256": "e9d1861cad8737db4d57c121f06c045acc96dffa2ccdc21d668045e758d87ac8",
+      "decoded_rgb_sha256": "7d7de60cfe8af50a945ba8beec7c4bdb24ac1026b7d5c00ce2bad33325552786",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\050_mask.png",
+      "mask_sha256": "f7ba321ba4a62fcc6c0c2c85136b0870456314ece364dfbe358219fd00080c1a",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "051.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\051.jpg",
+      "source_sha256": "e37e1e201dfb3dd70b02af521c991013147e27069d57a3bac0dfe36066fa32d8",
+      "decoded_rgb_sha256": "420d856f94391dd64e08cf478d36c2bc39649e8a02bdec31a358871ec9cf731f",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\051_mask.png",
+      "mask_sha256": "0e6560121d20c2110877f23ee5cdb971dd53aa5c9bcdef6399ec9476e226423b",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "052.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\052.jpg",
+      "source_sha256": "49cd884ba075726ec9d5348a280d1cb1a5cba4ccccd7f5a6d3f8cfb3552fa012",
+      "decoded_rgb_sha256": "60868f119b5cf2d1c46e0f0b2119bfbdd3042fc882473957d55b45e44aa0b9ad",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\052_mask.png",
+      "mask_sha256": "c4f9471515302726e17c2887858d3d18e22bbd825cca93dd7dcf2a2a8cee9970",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "055.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\055.jpg",
+      "source_sha256": "8aee9885d2980ccaedec41f2b1d0fcf42236fe67f530eff6f1e4992c7b2c215b",
+      "decoded_rgb_sha256": "d60d0b3387c0a5bcefc560067348b437e3b7b6b7a64d70e521c12520dcc6ddff",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\055_mask.png",
+      "mask_sha256": "eba722dbea6a014f5706ee165f63e903f699cd125633717386d83767703b9121",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "056.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\056.jpg",
+      "source_sha256": "ddaf6295f51d88b239afe379ed7c5e211073b178c89b36bdc5e2c68ae3c6a6ce",
+      "decoded_rgb_sha256": "8cdef29d9a67329e92e75a26da081901368da45efebf01b505046e37e490f6a0",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\056_mask.png",
+      "mask_sha256": "0e49f41e14430a6f600e5d196d1f3114c4d761eda6d7935f31555f4cd6ae8804",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "058.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\058.jpg",
+      "source_sha256": "dd6cec3a706599e29faeb7a90eaaca50ff3ff75fd814599442b4a805ec4f2942",
+      "decoded_rgb_sha256": "1ae61c121f18a136d8c1807b5048550503314765132b0dbf64d267fd5d30ca12",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\058_mask.png",
+      "mask_sha256": "644638f86d40c4244edbae73f496aa6ab50fa160f2c2805c06718b9d485700d4",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "059.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\059.jpg",
+      "source_sha256": "27458c146de57679912d2dd7dfffb984115d8fd49b3ae5c986dd2bacb00e6f6a",
+      "decoded_rgb_sha256": "0973e728bcb1bcd386ce9127a024d45f6c58a78e0576e0ed43af93ac04b2c43d",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\059_mask.png",
+      "mask_sha256": "d999f0a7a2d6ac3761b3a9b4dd35a8014b8a0886be3f19a7396f578ee4bd30e9",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "060.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\060.jpg",
+      "source_sha256": "2e73a941e77708f5ad1caaf0afc2f4983df66d69c6c791a24a43385a10cadb37",
+      "decoded_rgb_sha256": "ab135af20b7f9ac989ede758e78f2b86264610cb6ad17bc860ebbc15bc983948",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\060_mask.png",
+      "mask_sha256": "00624e8fd64e0aab76c6c36a8b7da4fd8277201cd9198254d12148075d869a10",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "061.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\061.jpg",
+      "source_sha256": "ddebd0b1c336562be33e7774916981d09cac4e783a68821d38b8bbf30f708ce4",
+      "decoded_rgb_sha256": "7f0c4e4a38c87687131fd5cbf2e0b3cf9a1ab2a4899c7ba339ade7fc352cc817",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\061_mask.png",
+      "mask_sha256": "e03c5fbd1b20562c031c7aee65d28112578706c3dedaa94df6f4fe57c03af98a",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "062.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\062.jpg",
+      "source_sha256": "e55eb26773ed3b2b990226ee9ed3b592fd222ec1479073da454aa0dca107090d",
+      "decoded_rgb_sha256": "f6c34784fe1e27d78361ee747ace442bd12d5a7d4016f0db77fe4ed7c2d39562",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\062_mask.png",
+      "mask_sha256": "dfca55d578fb4ead2fdc46896bbe534b0032e2abadf704a5bdefe26707505e6c",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "063.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\063.jpg",
+      "source_sha256": "dbbabd1f9b5690bcd1ca5d560e6364f37cccaf53744be6cce07d36752573296b",
+      "decoded_rgb_sha256": "6374b4ffc2daae173c0c56d43b668787a3e28569c11991dd284b7f74fe3950be",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\063_mask.png",
+      "mask_sha256": "8b35bc80fd423e8856d172b9451736d5fdbd636938e996d7ae218d21dece12a9",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "065.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\065.jpg",
+      "source_sha256": "2450fa6e0aa43887a7e7abb104bab38521160ff86b2ef559b53b0335db21d5f1",
+      "decoded_rgb_sha256": "646641a04acdf7c694cfa229f80f9c216ca0ec7c9e15a44b8f5926a1352c3ac4",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\065_mask.png",
+      "mask_sha256": "a766c91ed0eace0b01883a35fb57e221a77d5515fe240dc8ada65987e84eed8e",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "066.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\066.jpg",
+      "source_sha256": "a2e3cb7c1a85d008a6156148e4b6398e2ff1413cef755ba4c3c9bfb053fb5c63",
+      "decoded_rgb_sha256": "c1b3f675c1e8eaaf7d05caf06a0155634d3a6462521848d21cc7cd32c66cc3cd",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\066_mask.png",
+      "mask_sha256": "b20a3dc7993924abd4612834e385e611be884ea4c5593e23826bac035ecac1a8",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "067.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\067.jpg",
+      "source_sha256": "18bdf01b61455ef7cb3dc548808d70f2e6b4336a3544643079148825262a7a13",
+      "decoded_rgb_sha256": "7e91aa617d568af0d5ca458cf377fe452e63c11c81a28fe1cd64139e51dbc461",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\067_mask.png",
+      "mask_sha256": "910798d1052b80832d62d62ee4fc185c8eb5b1dfbf4a00537e53a19445f4c083",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "068.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\068.jpg",
+      "source_sha256": "71e85c4d36c4c6145b27812791bc10bed2ff37d418d5fa66908da55cb84fc309",
+      "decoded_rgb_sha256": "24126e2fe2a7c9bd782123068647bfd684926babc8f35ec8aa18a46454a572e4",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\068_mask.png",
+      "mask_sha256": "3fe478e8f4bf752e81a76c179f4e4d1f222f6f6051240e36bb59f277f47ba600",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "070.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\070.jpg",
+      "source_sha256": "be2a9826340c81a36ca5c0f5c02cd47a7bb81b6e842ecc52f0a55bf2d5c50390",
+      "decoded_rgb_sha256": "ac751cd8ac806a7abc6e6a3e922be33049969640b2316018472331f114ddebcd",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\070_mask.png",
+      "mask_sha256": "f7ffda09a7cd809c879c0e480950ec554bcb824e59be5d7d5deabb92744dbf80",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "072.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\072.jpg",
+      "source_sha256": "23dc7aecb56bf8693ecc6e05994cd82a4ce653a89e5a286ced76fdd16fab8cb5",
+      "decoded_rgb_sha256": "edac560d644be261e0c9c5d7ed05579a4785eec8d7fdf0e766655d7426dc0209",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\072_mask.png",
+      "mask_sha256": "f7ffda09a7cd809c879c0e480950ec554bcb824e59be5d7d5deabb92744dbf80",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "073.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\073.jpg",
+      "source_sha256": "f545d12ab00309f75f8f2c5c1bf2e94e6021c408622430bbd729e2bb64b8b738",
+      "decoded_rgb_sha256": "bc4b09575ccb4ca99debe467673b783f05dc38528566b25e89ebc6f30344b545",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\073_mask.png",
+      "mask_sha256": "7c47a375683bc7a6a247b18ca07097aaae6f6c1a24a3804106c4c3dc2039c4ed",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "074.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\074.jpg",
+      "source_sha256": "3449450facb889f7e8b2aa815404cc92242da01aeb9062b3aefb78acb5ac49e5",
+      "decoded_rgb_sha256": "969c96eaef1523c97af6c34d94c5583d51bc51e72ecdfbe785d31df680419e6b",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\074_mask.png",
+      "mask_sha256": "1b10a09f9b0b4af19a363ed9a735471d076f826f2fddd4bd27476e1241b57fdb",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "076.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\076.jpg",
+      "source_sha256": "fbffd0284ae4636370817cb381d2ff30f9bd441f9ab2780ebacffa1992f0351d",
+      "decoded_rgb_sha256": "3def3b1842b262ecf1e9afa5d925f150d5dcc8a48cf4185af3465718b5ba669a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\076_mask.png",
+      "mask_sha256": "20d4a1d02979bad990c5b9bb0b0a5d8b75c00130602477648dab73459e487aa0",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "078.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\078.jpg",
+      "source_sha256": "66ca9d13b759bfbb889503be00ee025f263e40cc230aa50341b8521699cd1e64",
+      "decoded_rgb_sha256": "d21597edcc807e4b7c5c4813b1b5e46cae9fbe23675ea50eaf7793a86824049a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\078_mask.png",
+      "mask_sha256": "6820c26ba0b8818720276d69ee724f55b909ccf6a0c002bef20c42ecc55018a1",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "079.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\079.jpg",
+      "source_sha256": "58a2f4345063eb0e47b6a9ac1c72eb4a35827719a415019e867b4842c24e6875",
+      "decoded_rgb_sha256": "aaaee1a1838a3d00c915d10c7ad87c9a6c2dac587e89c200ce64e9c7e2e4e307",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\079_mask.png",
+      "mask_sha256": "991a254203f38c7ffcf54f6aad8772c6e86cfd4190cc8a75fec9a3a55ac2ae93",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "080.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\080.jpg",
+      "source_sha256": "481ea02113cefae78f38f2172ba79629aac49e8b32890d117ec3b2a06745a77c",
+      "decoded_rgb_sha256": "c5e93a984689c958cb70dd26116f33b6e7ef39baf21ffcbb424eca33fce936fa",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\080_mask.png",
+      "mask_sha256": "271cffb3b07916b01d65e27ba6960013d1682b35a5f3bd24f14d3ad0dcc93b70",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "082.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\082.jpg",
+      "source_sha256": "671fb68ef9f16b474f3719cce2e12a88fd0f4c122bf3728778f1b9236f795b91",
+      "decoded_rgb_sha256": "6d3a96fe7e7070a41452ff54ae9bf9863f631e1fe7d1373a4f9948f614a8e018",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\082_mask.png",
+      "mask_sha256": "b3cc6445eef5565da7af56d1cd1ba011a7a8524b1791b50c8f998ab6925d404c",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "083.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\083.jpg",
+      "source_sha256": "ded36c34efdd5ba1d83ca5b275b5aabf531a31e3955c19816f013e457a00ce05",
+      "decoded_rgb_sha256": "b38b35dbc271a6e1570cf3f575d09e2e4ec2ffedf094ca9219fe7a0d3ae1beda",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\083_mask.png",
+      "mask_sha256": "3fe478e8f4bf752e81a76c179f4e4d1f222f6f6051240e36bb59f277f47ba600",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "084.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\084.jpg",
+      "source_sha256": "545627e43dec9da2e5345236041cc6c122cdc7773fc98fe63ffc4de1d4d8e478",
+      "decoded_rgb_sha256": "e52407fc21a2ddacca15a698c2ec87d04b46b6273be4111d895bc11304afe764",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\084_mask.png",
+      "mask_sha256": "d2d2ec422d920b41a7fbc852730be4c0496951f3b35ee91cba6f70d8fec201da",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "085.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\085.jpg",
+      "source_sha256": "a3ba01a02f37d2294152dc8ef0630283232a4bb34855515108c2be6a820d5313",
+      "decoded_rgb_sha256": "d216129c27cfa1fcc138d5f2815104786ccf0217cb205662d81c07d765c7e556",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\085_mask.png",
+      "mask_sha256": "8951f9e955090919c4fea5e6e21dfca2b0bbe82f67318a67d37f6e0b06538ed9",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "087.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\087.jpg",
+      "source_sha256": "feb4b3e9970914cf8deb4edab9400a62f1dfcd7dfeac54879a35457960e90fed",
+      "decoded_rgb_sha256": "f07069d6c8e1a4d413872be037bc4a50937d4fd14cb4abc7cc6754ac85e54a9c",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\087_mask.png",
+      "mask_sha256": "c014a51f363154fad5832f4f2b4e13fbd7c14dc7c81da3dccabba98e2bcd0fbf",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "088.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\088.jpg",
+      "source_sha256": "dc9c2b04fa5a41a670a2573ffa69f319cba85a23ec5edd1f2d48915207719ed5",
+      "decoded_rgb_sha256": "2b14f0fbd118c03c84eb6686162bb1b5f90be9355bfbef2d4571c5c103e74a5b",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\088_mask.png",
+      "mask_sha256": "4a264542c5fb72d550e1e69b5d1586afd7adb1f1d8b823a4de75040ef9a98ff9",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "089.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\089.jpg",
+      "source_sha256": "eaa2e6acdbd6527aa73e36383a0e10e8bab0f51266081de239b30f99d3f8ddc7",
+      "decoded_rgb_sha256": "d6d3363b655b70de56a7b62bfa99e622513c98c9f46ac266c405d1644b7c84c5",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\089_mask.png",
+      "mask_sha256": "ef2485741ec3a14e024e6d65807bc46089f4e0d8d1c75ce5411745aa9a0fcda0",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "091.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\091.jpg",
+      "source_sha256": "667c1ec4cb1859b4254748564999823c3605359c573799c62632a16890b290ab",
+      "decoded_rgb_sha256": "5270dd09065f8d30c4249b5eed3a2b9df5ec41c24a6128d3f5200b92d64d5578",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\091_mask.png",
+      "mask_sha256": "c1947d21b87922f9e81b8d41949aa15134966686745a137d9e42b89720e37baf",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "092.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\092.jpg",
+      "source_sha256": "4bd42ca18f3526642afd32b5fd8ab1e996849f11daa87ed97c0e77907dc70b63",
+      "decoded_rgb_sha256": "73b5dc4293658ff624dd1eef55f16b7a7f41f0dff50deca8ae26c5f35cd28660",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\092_mask.png",
+      "mask_sha256": "d930fe730a9e71fff879d3edcce45bc772811279ae41e0319873fe094c05f262",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "097.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\097.jpg",
+      "source_sha256": "3cfd33fc8fa3481351d71b568a1b1fcd30c4e70777167b6795643332077fa65f",
+      "decoded_rgb_sha256": "7bcfe832b6f4c7e334c6b3773b9c4ade724b8b01007a3994294ca89d37dcc8fa",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\097_mask.png",
+      "mask_sha256": "63bf4e74cdb56610f7b8332a0fff42192c1c6d942ed5fa286de4ba6519a59923",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "098.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\098.jpg",
+      "source_sha256": "f410151dddaadfa30a221f7f657fe04df2577f1cd1c7ad0f67cb8c8722d4e9f2",
+      "decoded_rgb_sha256": "d2649871a151c77265cf09afa2197882769ed1277b5ab8d9cb961171bbe0b779",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\098_mask.png",
+      "mask_sha256": "34dd6a16e6a13e092dcba8d9e97b3031d2e28437c6f924f6614cb31d3e782a6d",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "100.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\100.jpg",
+      "source_sha256": "12df44a75b198bd436356f0a675e2ddd6e4515053c45bf84fb55980696c1184f",
+      "decoded_rgb_sha256": "56550a3dcc50f4613daf90d4888c743021bba2756bb6b2ce6c93f87330f8d553",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\100_mask.png",
+      "mask_sha256": "64fbaf43bbea9b027e2cad00832f8be09c54662e78aaba7358294548be2d8ac2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "102.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\102.jpg",
+      "source_sha256": "d10b7a6125b1c1988ec9911eced62a4a0283ebef5e5f2a68401b7ce7caa0adab",
+      "decoded_rgb_sha256": "4721fb91154d11deed3104ef7fbaa7a95f0785408df26c1381eb648143cdddc2",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\102_mask.png",
+      "mask_sha256": "5b0071f554050ea5ab0adf4c5c21b0dd1e35eac8fee8b3650872bb49620640d7",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "106.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\106.jpg",
+      "source_sha256": "7b3bf94a7c8748c53a333b9727d5a8a243b5489aba664d05336c225c50c25e9e",
+      "decoded_rgb_sha256": "3e9619b1ace17fd71f4125fd6b19c7deaad3bd5ba5614e5fdc3e3a493d5cc56d",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\106_mask.png",
+      "mask_sha256": "eaeb81b458140c7a5b2c379fd5778a7590e4b406d3463db84ddaad0a29be86c6",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "flash",
+      "source_id": "107.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\01_Flash_point\\107.jpg",
+      "source_sha256": "6300bd830ab5685e9c34dbf5678cf573fa2be703ca5994b48ce56a280402d07d",
+      "decoded_rgb_sha256": "e755c955fa21b1f3b87317875a9c67114ae3b8d5eff790343c21bf3ab80cdb15",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\01_Flash_point\\107_mask.png",
+      "mask_sha256": "c6e4c9fd950653d5176128235e993fb28c702dda3291becc855d2c025719a9a0",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "001.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\001.jpg",
+      "source_sha256": "cdb67af61fc285e3bd1c2756600d3b32003b3002e1e19cbb4582e0fbe4aa28fd",
+      "decoded_rgb_sha256": "3da877bc97d609a1c5fdcd55bc00713d15f36e627ee9056b29d8a22cf55936dd",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\001_mask.png",
+      "mask_sha256": "729714cfaa355a0d09efc2f009369f1d1e14ec69a12205bf9a972fbed42c4ea0",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "002.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\002.jpg",
+      "source_sha256": "868b756fdab10aa74a2383aa54f3057c45b4346404760b09ddff608c7eb88f4c",
+      "decoded_rgb_sha256": "26092e38d1f7f99cd8896443fd45013cef55a38b8518347185b7ddbb614f0a58",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\002_mask.png",
+      "mask_sha256": "d6835cf37b26706fe20a1fcc0c88377943329fe1c1c7f9e982005bba93087eed",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "004.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\004.jpg",
+      "source_sha256": "0c6ef9d43b5d0568ce2d51eed575d648831091ddfae43f291e5aa3e5d50bd2aa",
+      "decoded_rgb_sha256": "5f4bed4732b834060404d24c9c15485a2f9243939c4bcdc0e2ab890c78c78cc3",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\004_mask.png",
+      "mask_sha256": "af6dd24959fc7b4b11ee080aa425ef9f92bb96d98a194afd92081c1fec01d4a2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "006.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\006.jpg",
+      "source_sha256": "f5671befc5aa5956be35a5edc631353f89824351bf041b1a497e585fab612a6b",
+      "decoded_rgb_sha256": "988a7f4409ca13d3d47081d79474f638a7cbf5a50cd91f5c007fde8bf6d8f939",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\006_mask.png",
+      "mask_sha256": "b5bdf6a2bf010f514e8845beed007bd6e5b3b66a3ec6e57c0fd4bf2079f5d3e0",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "009.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\009.jpg",
+      "source_sha256": "a2824b6c727ccf07d45e52ff660a410e153b878c9c3d4c13a618e380c161ee79",
+      "decoded_rgb_sha256": "f0fd68b109d35ae1e39e828fe792b7ac5c486e71d97e5b89727a0096fb655df0",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\009_mask.png",
+      "mask_sha256": "494c89b9f1df6ea4494efc1c2439f1877694c4ca787a04a27779158e72136935",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "010.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\010.jpg",
+      "source_sha256": "1d98b378c6c3aec383bb263604e99da82198dc1abb35e58c6c5d1ba2c8853ffe",
+      "decoded_rgb_sha256": "7eb2805f9f3fa78b2c5bdb865f1d4310ef705d21db5de800a9c4cf4f5a20cc3d",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\010_mask.png",
+      "mask_sha256": "924a4ef0ee4af1a5dc4343640074648ab931712dc7b0bb3f497ea76175aba0b8",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "012.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\012.jpg",
+      "source_sha256": "d108d910d2900a3e4eaef8c5805d01d6fb25357894247067d24654ac56fc72a9",
+      "decoded_rgb_sha256": "4bf0f50e9764f65528577217bbd7e6f243767c9d56d107476a2206eca2fdb298",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\012_mask.png",
+      "mask_sha256": "7311f878a5c0a93234978d5ad8ab582b8f45d6bb670fcf88846bd0175187e20b",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "014.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\014.jpg",
+      "source_sha256": "5e43a4640ee46434023e5f6af7a6f94f3c15a3cea423220870a74223a9012259",
+      "decoded_rgb_sha256": "1626d7484504a606e94850734ccfded2943f1c283a651dae07fb2b9657c95c22",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\014_mask.png",
+      "mask_sha256": "d3b57f1bbd59a91227b6a755cd8c7b3088836af441eebb7e804c16fcee81f6f6",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "015.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\015.jpg",
+      "source_sha256": "1e75f0241bbb3fbf344ce7d7312fdbffca692af76ee5932dabc6367882bfd930",
+      "decoded_rgb_sha256": "990b10c454c71017e09d72f22cad4c174c26e68e061ad2dee19a04c0aefec246",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\015_mask.png",
+      "mask_sha256": "d6835cf37b26706fe20a1fcc0c88377943329fe1c1c7f9e982005bba93087eed",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "018.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\018.jpg",
+      "source_sha256": "d573ba14e009521f1fe352689a2f6c5e48651eef238953f7132dd670d626d04d",
+      "decoded_rgb_sha256": "1b6efec8317f5a105d26a4a8114482cb0e7a12c7875a5666b23db7ca27ef6a89",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\018_mask.png",
+      "mask_sha256": "08b8923a99627371a8a30137b963f198b112ef5e7b15e3a08dedae5d885274ca",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "019.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\019.jpg",
+      "source_sha256": "3542ed3d51677f20e672563a75d1fc8f717fc6e2f4296c5934eb363470b615bd",
+      "decoded_rgb_sha256": "24a48aa8e21bf94fb822bf890f836fd8267b55b7d6d28d622f7865e6fd6f468b",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\019_mask.png",
+      "mask_sha256": "4f4ddeb2493c0749726d19c85f174a96ac152ac344e3de9aebe056bec0f60801",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "020.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\020.jpg",
+      "source_sha256": "c6d9371023d1a42e27baad878b98547e2d652c13c96bbd2d62704e555e97eca5",
+      "decoded_rgb_sha256": "dab165413145f0cae23f4287f0a83ba31990766a2cf2b514a12659c8e3322563",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\020_mask.png",
+      "mask_sha256": "0e558625923787c0d2a9a1f4cb4fe6e2c7a1412a221d7c64b82069bde679b87d",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "021.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\021.jpg",
+      "source_sha256": "c5dea81ff424e8c530f12d8a3e6f8bcabbeab155e5bc82421790650488e76abc",
+      "decoded_rgb_sha256": "ec23a00bd51f719594aba6f7486e7d80c008cda93d08b0a689cfcf844fa4362f",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\021_mask.png",
+      "mask_sha256": "0a3aec7c4a0180e01455ef06eb577ee9986b643b4251f7aeb04ba08cf009dfa5",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "022.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\022.jpg",
+      "source_sha256": "8ca6ab43012bd594721f54362a16aa30886de537920a7ce9132513cc528524c2",
+      "decoded_rgb_sha256": "c4426e0f4bc686dd06db61a79411c7acba519e96aecbcbca45a8988f1ddb4b4a",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\022_mask.png",
+      "mask_sha256": "2f13b27c1249d4470f3a46055a40e2d1556ac66a648182e87788980e43ca3c47",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "023.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\023.jpg",
+      "source_sha256": "9bc5931e13052012fe0dc9d56f034fa20378f02f6870ca84ddcd2c7a2c28b8aa",
+      "decoded_rgb_sha256": "ffdd90117164ed14cc02b500ca95db44038a8e8106092725aa4c87ab4d57d3e6",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\023_mask.png",
+      "mask_sha256": "77b7d9d3e0f73cb30bd7d6982463664e69dd44d53f07440a6f02eab27de53d74",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "024.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\024.jpg",
+      "source_sha256": "6fcdff6842d2f0007b847bbd42343a6c71ec0c839aa0c36cec9d7a7ac5d2f509",
+      "decoded_rgb_sha256": "67efac673ccabecf8f447b1c90b249c7aa3ba7b711ec9ae6d3db10d4e4133b59",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\024_mask.png",
+      "mask_sha256": "45bf1294744196193946bdc7a202b08de17c2713d26117e43d2d0cfe7de6cb10",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "025.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\025.jpg",
+      "source_sha256": "76d9c483da8719cec761704e207b686f45045ce299111d12484bb53627b3d0ca",
+      "decoded_rgb_sha256": "0beab0bb084bb311b8a9767cfed0e8ffb033bb1000e8d04f66250c2a68d794cd",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\025_mask.png",
+      "mask_sha256": "90bdd1df483baf886eb5389f13830c96d12b5aab8abfd653f3f88df5e6ea3a0f",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "026.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\026.jpg",
+      "source_sha256": "676aac2cc8d39bcdd20db7743fa6ad33d67431c4dd7cc0c9b7a2551d95ef88d3",
+      "decoded_rgb_sha256": "c4f4dc60b28568d0772482ec2e31f897e2ce78c3f7cc7566bca3da8a68a515a9",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\026_mask.png",
+      "mask_sha256": "b3f1ab6eba141f7168804fb9195dbce4d38d1a65985b4534c74b8bbc7040cd0e",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "027.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\027.jpg",
+      "source_sha256": "56c89d7fb8a0d1290816b95e7f8a1bed0745ff1c01b9d97f68d511f18f84538b",
+      "decoded_rgb_sha256": "304af34c54372a0dd8dd9c32bcc6c68b90db5aaf8f391d0b24da2b007a415573",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\027_mask.png",
+      "mask_sha256": "ce83643784e95c1f2b709a5f6e694338291542799b21d5cdeb1aba07d2119c04",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "031.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\031.jpg",
+      "source_sha256": "2241ecf46f2fdb856d0caadab7b8289135ab8f6daa138fb1a9058f33dc29efc3",
+      "decoded_rgb_sha256": "f60c59265f70c98f8425beba7c81fe3fd1dff0d3c2d0492f51196aa7d16f8944",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\031_mask.png",
+      "mask_sha256": "08b8923a99627371a8a30137b963f198b112ef5e7b15e3a08dedae5d885274ca",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "032.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\032.jpg",
+      "source_sha256": "be426ca0fdc815a3e9637e6c56489f2d5fe1dd183eb44ca4bd67bd02b716a78b",
+      "decoded_rgb_sha256": "100820a2250d958570d40eb3957afb19dc8044a9273b469919303aa6d428b2ad",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\032_mask.png",
+      "mask_sha256": "162d83ff5f194fbaacd1f99fc19301b02133d572dc5596caeec678c4edd9a2ca",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "033.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\033.jpg",
+      "source_sha256": "2cd4d7827c039d927bbe711d898ddec0f49519aa5b8b62053c58e90a08da3d4a",
+      "decoded_rgb_sha256": "ccd38fb4eb31c0de3a4bf776cc97624c818e9fdc0471c76c4b187f94ea75fa1e",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\033_mask.png",
+      "mask_sha256": "36ba55a32171a067ce4152e458e27a3a947324298d8e43cb26f7952fdd51e5c2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "034.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\034.jpg",
+      "source_sha256": "bf4c4065ab140d03a257808816796cac78fb8bafe31b0c923697c1169201886d",
+      "decoded_rgb_sha256": "529b2fbdb13d6fe31ebaf268f8b204848ee297f0d367120111e9ef311470e70f",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\034_mask.png",
+      "mask_sha256": "1c65dd79554a8cdac9825309e675b77cbc4b3aa24892d6937baf8ad2c8b983cd",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "035.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\035.jpg",
+      "source_sha256": "0a8ac8a5af7e9715b5f9411dd39f472f7dbf360fe2dc47a22c26b522d76cf0d3",
+      "decoded_rgb_sha256": "59572ba804d860c49c5ae5410ebbc07dfaba5ca97ee1b4de15634abf4bf7ce04",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\035_mask.png",
+      "mask_sha256": "53eacf3f361a966d1a4bcd23fb2c62e913c3d75f37002ad4e7cf495d85015348",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "036.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\036.jpg",
+      "source_sha256": "27b2ef924c94ffddcb12732fb8fb2cba663af5403d9cb332fe8e5ce121144dc7",
+      "decoded_rgb_sha256": "43367af7371921c7b12d73875b32c908b987c8047ad46b80755c64c926fcefbc",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\036_mask.png",
+      "mask_sha256": "d1fa528a4591bb40d8b9a28be78fa56a97e3b6aea43d74b427702a67c64a2e56",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "037.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\037.jpg",
+      "source_sha256": "4e29d478f142992b03e96b21138278a4905537b249e6ede2fc9301351ef29f4b",
+      "decoded_rgb_sha256": "3aff5fe8ccc50b969159acf242993016446badf7f6fb4a8dcdc9ea0d2f054cfa",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\037_mask.png",
+      "mask_sha256": "1dff333aa2e56629afb272524f4fc4253d80974d27e9544114aecf33a0bdb1cd",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "038.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\038.jpg",
+      "source_sha256": "c20ca2af89d2fb159bf40d19ff30c17b893940c86bbedf29f058b1788c449861",
+      "decoded_rgb_sha256": "888f558723c158d367fa8ce6a1faa51cc6baa135d4d6d2875a233bdaf8c2dd43",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\038_mask.png",
+      "mask_sha256": "636a876ea113ac6c9eac5dbe4f67f3d797ce51c7192912fa5c3132f005e4ec5f",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "039.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\039.jpg",
+      "source_sha256": "4f965b3291420ed95cae4479104bb35973bb60aeec8d3fbb6204a54d343d6e6b",
+      "decoded_rgb_sha256": "02ff39ed70c9256eb89b79692c457511fd1603d23da32f4d4482676855b5d5e1",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\039_mask.png",
+      "mask_sha256": "19437843b0689e447c0604bca1f59641b7ca226ba25d8a9ee0523723a3360cc2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "041.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\041.jpg",
+      "source_sha256": "4973b962b0385c459743e3e0b4a5760e1cf068cd27f514aa534ebcda4cb75bb9",
+      "decoded_rgb_sha256": "92bc5c0ae7c200fbdfb469c12e46e9fc2e17ceef6848bdb0b2fd3d2b8f1970d2",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\041_mask.png",
+      "mask_sha256": "e7e7b23eccb415a6f871ad29c04419df87f4d2708dd4135c271fc9d36d407239",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "044.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\044.jpg",
+      "source_sha256": "ec7ce0671afb6a256a5d4b80cb6a467f17a2c5be3b630fefe7512bd5a48b85ae",
+      "decoded_rgb_sha256": "72eef35cd786ba0805301ed00aee88ef97f39ec6ad40024d314677abbe6341eb",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\044_mask.png",
+      "mask_sha256": "a8fac26cd356e6303ba356220a81b74e3e5ea3054036377f5d2b0816d2c98924",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "045.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\045.jpg",
+      "source_sha256": "71019f239648fd16331dc8963356e22172e11739445e56456cdba64251b4c045",
+      "decoded_rgb_sha256": "bb18d30e9f13651fe5496ab807ddfba1265f3c362518e77419d4fdb23abfc46d",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\045_mask.png",
+      "mask_sha256": "ca3059cdebed2929409fba31248da7f3b3a3539f553702adae5df95da9c29e4c",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "046.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\046.jpg",
+      "source_sha256": "eced4e7de352e27adbd9653e57fd04d42288dfd063ac5ee13ee08c628d454a9b",
+      "decoded_rgb_sha256": "575f333f97b050735e288867963c76bffa9dcf68ef85f8df8fd4dd08fe0f68d3",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\046_mask.png",
+      "mask_sha256": "af6dd24959fc7b4b11ee080aa425ef9f92bb96d98a194afd92081c1fec01d4a2",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "047.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\047.jpg",
+      "source_sha256": "5b10862f8034e83c355bfe0d0434cdf3ac78d62f2f68b29ad6a3ce840098b432",
+      "decoded_rgb_sha256": "a5b57c5c7f0cdcb7e122137776385ead7dc61be5c34c328979d982e1c4b64bce",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\047_mask.png",
+      "mask_sha256": "a0713f6d88765d2e87f4c40cc04a62037ac228b99f218f330d6a9e20e4dc5903",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "048.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\048.jpg",
+      "source_sha256": "b8b124bcd42250e67ceaf7a0d3bac44c7d351aad038c7319c239035b3e8e3eb7",
+      "decoded_rgb_sha256": "e6d0a3cbb64687402577bf6c5a99413f7fa9526616b839be6270290d2b22979e",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\048_mask.png",
+      "mask_sha256": "e1ed207b928a61625ec250309c7777277415ad2947149b6f7d36f0da48542e69",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "049.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\049.jpg",
+      "source_sha256": "6e8370776f474e2ac050518273961fbdb63cec4e0a570ef6e08e51af73de99b3",
+      "decoded_rgb_sha256": "4388bc268f9dcf5402427325ae07dd8a98498c2020a512a7f8acb3d0b9547f62",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\049_mask.png",
+      "mask_sha256": "a9e8bd0c8eb2cb0fa50c58db116c909fd28886dbd9031481a7ef83ef08022ba6",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    },
+    {
+      "class": "black",
+      "source_id": "050.jpg",
+      "source_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\test\\02_Big_black_spots\\050.jpg",
+      "source_sha256": "948385e9d41a0f54cd017d6f0a838dd51382b4be11c6f3ed790091cc7ee30e8c",
+      "decoded_rgb_sha256": "64c39568bdcdeb6f8bc7510facc122a62970eb80edb9dd090ec35117531a44aa",
+      "source_size": [
+        512,
+        512
+      ],
+      "mask_path": "C:\\Users\\cbj\\Desktop\\fsdownload\\Plastic_Bomo_split70_seed42\\train\\Plastic_Bomo\\ground_truth\\02_Big_black_spots\\050_mask.png",
+      "mask_sha256": "04f7ecd44fa030e41a66fc100cfe4fb61967b8d5f968d16db83d22089d070c6a",
+      "exact_file_candidates": [],
+      "exact_decoded_candidates": [],
+      "verified_frozen_parent": null,
+      "status": "NO_EXACT_CONTENT_BINDING"
+    }
+  ]
+}

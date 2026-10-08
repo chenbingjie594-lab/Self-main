@@ -1,0 +1,21 @@
+{
+  "status": "TRAINONLY_POOL_PREPARED_ISOLATION_PASS",
+  "scope": "SERVER_PREFLIGHT",
+  "generator_training_authorized": true,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "source_counts": {
+    "black": 80,
+    "flash": 88
+  },
+  "parent_images": 138,
+  "frozen_manifest_sha256": "add8f333e1bf5246072224a529aed41476e4fac9685123c953aac999b4a8c229",
+  "source_manifest_sha256": "41c39cef74d46b01869edcde2f8dbbe2916b8cdab1db30daeee0cde7e04284b8",
+  "isolation_audit_sha256": "6145029fbc18cb6ca6bbd7c92dd541e42e85aa5498436af8b90eb79e1f30ec90",
+  "protocol_sha256": "91556d22087fb6da5f1ac5991a3872e7dbf24646472cfbc2940a63456d5d64b9",
+  "preparation_script_sha256": "54002e12aff61eccfaf4a14123fea21d3c69ee26aa2eb3690d71e4129342dc87",
+  "labels_modified": false,
+  "historical_results_modified": false,
+  "sampling_count": 0,
+  "optimizer_step_count": 0
+}

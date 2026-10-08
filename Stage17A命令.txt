@@ -1,0 +1,24 @@
+# 当前只运行 CPU 资产预检。不要串联生成或训练。
+# 上传 configs/plastic_bomo_stage17a.json、tools/audit_plastic_bomo_stage17a.py。
+# 现有 configs/baseline_frozen_split70_s42.json、configs/plastic_bomo_stage15b.json、
+# experiments/baseline_split70_s42.json 和 frozen R0 annotation_provenance_audit.json 保持原样。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage17a_vanilla_utility_stability
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_plastic_bomo_stage17a.py \
+  --protocol configs/plastic_bomo_stage17a.json \
+  --checkpoint_root model/baseline_stage17a_rebuild_split70_s42_noise_0.0 \
+  --scheduler scheduler \
+  --generation_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+  --split_manifest /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/split_manifest.json \
+  --real_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
+  --detector_model pretrained/yolo11s.pt \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/server_rebuilt_preflight \
+  --scope SERVER_PREFLIGHT \
+  > logs/plastic_bomo_stage17a_vanilla_utility_stability/preflight.log 2>&1
+
+# exit2 表示资产 gate 未通过，不是训练报错。
+# 重跑时显式使用新的 --output（例如 server_preflight_02），保留旧审计。
+cat logs/plastic_bomo_stage17a_vanilla_utility_stability/preflight.log
+# 必须先完成 Stage17A-重训基线命令.txt，再运行这里的资产预检。
+# 下载 server_rebuilt_preflight/ 整个目录。即使资产齐全，也尚未授权生成或训练。

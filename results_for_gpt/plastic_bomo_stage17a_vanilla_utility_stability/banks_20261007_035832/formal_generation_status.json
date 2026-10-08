@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_BANK_GENERATION_AND_REPRO_PASS",
+  "formal_sampling_count": 240,
+  "post_probe_sampling_count": 15,
+  "formal_generation_authorized": true,
+  "authorization_basis": "frozen slots + server coverage + exact pre-generation probes",
+  "detector_training_authorized": false,
+  "validation_labels_read": 0,
+  "official_validation_detector_forwards": 0,
+  "stage17b_auto_start": false,
+  "slot_manifest_sha256": "fdfd2097d62fef90e0ce1bad2e7885d098b9c8a8d3d69c405d46cb72b330491b",
+  "quality_filtering": false,
+  "replacement_count": 0,
+  "retained_slots_per_bank": 80,
+  "retained_images": 240,
+  "post_generation_reproducibility": "PASS",
+  "next_gate": "Review downloaded generation audits before preparing matched detector workflow"
+}

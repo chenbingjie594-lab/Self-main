@@ -1,0 +1,28 @@
+# 上传新增/修改文件到服务器相同相对位置，不用git：
+# tools/prepare_plastic_bomo_stage17a_normals_isolated.py（新增）
+# tools/verify_plastic_bomo_stage17a_normal_server.py（已修改为可复用verify）
+# tools/audit_plastic_bomo_stage17a_normal_lineage.py（复用历史normal filter，不执行旧main）
+# configs/plastic_bomo_stage17a_normal_isolated.json（新增）
+# 若此前未上传，还需：
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_local_audit/normal_lineage_status.json
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_local_audit/normal_origin_manifest.json
+# 此步骤自动包含服务器420文件哈希复核，不必先跑另一段复核命令。
+# 只新建174张背景的独立目录，不删除原图、不重训、不生成图片、不训detector。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_NORMAL_POOL_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_normals_isolated
+
+nohup /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage17a_normals_isolated.py \
+  --protocol configs/plastic_bomo_stage17a_normal_isolated.json \
+  --normal_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normal_lineage_local_audit \
+  --normal_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train/Plastic_Bomo/train/good \
+  --runtime_probe results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_runtime_20261006_051524 \
+  --prepared results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_20261006_022714/preparation \
+  --pool_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage17A_normals_isolated_v1_$TASK17_NORMAL_POOL_RUN \
+  --output results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/normals_isolated_v1_$TASK17_NORMAL_POOL_RUN \
+  > logs/plastic_bomo_stage17a_normals_isolated/pool_$TASK17_NORMAL_POOL_RUN.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage17a_normals_isolated/pool_$TASK17_NORMAL_POOL_RUN.pid
+tail -n 60 logs/plastic_bomo_stage17a_normals_isolated/pool_$TASK17_NORMAL_POOL_RUN.log
+# 完成后只需下载本次 results/.../normals_isolated_v1_<时间>/，不用下载174张原图。
+# 正式生成的slot和复现检查尚未完成，不运行旧生成命令。

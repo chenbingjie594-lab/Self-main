@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_SLOT_PREGEN_PROBE_PASS",
+  "phase": "BEFORE_FORMAL_GENERATION",
+  "slot_manifest_sha256": "fdfd2097d62fef90e0ce1bad2e7885d098b9c8a8d3d69c405d46cb72b330491b",
+  "probe_generation_count": 30,
+  "formal_slots_generated": 0,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "official_validation_detector_forwards": 0,
+  "validation_labels_read": 0,
+  "post_generation_reproducibility": "NOT_RUN",
+  "stage17b_auto_start": false,
+  "reload_rgb_exact": true,
+  "frozen_slot_coverage_pass": true,
+  "new_isolated_normal_pool_used": true
+}

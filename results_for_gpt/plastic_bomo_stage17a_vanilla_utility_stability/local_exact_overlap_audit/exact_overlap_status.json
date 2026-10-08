@@ -1,0 +1,34 @@
+{
+  "status": "GENERATOR_TRAIN_VALIDATION_CROP_OVERLAP_CONFIRMED",
+  "scope": "LOCAL_EXACT_AUDIT",
+  "candidate_count": 27,
+  "confirmed_source_count": 27,
+  "confirmed_unique_validation_parents": 25,
+  "per_class_confirmed": {
+    "flash": 14,
+    "black": 13
+  },
+  "all_candidates_exactly_confirmed": true,
+  "generator_training_membership_evidence": "source/mask SHA256 matches original rebuild preparation audit",
+  "identity_evidence": "historical 512 crop black-padding JPEG95 reconstructed bytes equal actual training image SHA256",
+  "rounding_ambiguity_offsets": [
+    -1,
+    0,
+    1
+  ],
+  "validation_parent_images_decoded": 25,
+  "validation_labels_read": 0,
+  "validation_detector_forwards": 0,
+  "validation_for_candidate_selection_used": false,
+  "formal_generator_identity": "baseline_stage17a_rebuild_split70_s42_noise_0.0",
+  "current_checkpoint_clean_isolation_supported": false,
+  "FORMAL_GENERATION_AUTHORIZED": false,
+  "DETECTOR_TRAINING_AUTHORIZED": false,
+  "retraining_automatically_started": false,
+  "data_modified": false,
+  "historical_results_modified": false,
+  "sampling_count": 0,
+  "optimizer_step_count": 0,
+  "numbering_audit_sha256": "7828d4363c4667660ebeeca62eecdad266e0eede90c6b36836e3ecf1e91f2642",
+  "server_metadata_audit_sha256": "718a54b9fd9112342b48a107d7e136836b0111284ec3107e48248982e3da9b07"
+}

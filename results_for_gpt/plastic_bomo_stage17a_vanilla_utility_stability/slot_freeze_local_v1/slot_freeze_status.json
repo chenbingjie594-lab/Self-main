@@ -1,0 +1,17 @@
+{
+  "status": "SLOTS_FROZEN_STRUCTURAL_REVIEW_REQUIRED",
+  "scope": "LOCAL_TEST",
+  "slot_count": 80,
+  "per_class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "invalid_slot_ids": [],
+  "no_replacement_slots": true,
+  "slot_manifest_sha256": "66d34a9174b7aff9a9a058b611ce9ba9551fea78b1db00824a29749b4a3e8fa4",
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "sampling_count": 0,
+  "training_count": 0,
+  "next_gate": "Mask-union label coverage review and new-normal-pool pre-generation paired RGB probes"
+}

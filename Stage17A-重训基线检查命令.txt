@@ -1,0 +1,42 @@
+# 上传 tools/probe_plastic_bomo_stage17a_rebuilt.py（新增）
+# 同时确保 tools/audit_plastic_bomo_stage17a.py、configs/plastic_bomo_stage17a.json、
+# experiments/baseline_stage17a_rebuild_split70_s42.json 是当前版本。
+# 本段只做资产预检和30次smoke-test生成（5条件×3bank×2次加载）。
+# 不是正式80-slot实验；不训练detector，不使用validation。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage17a_vanilla_utility_stability
+
+# 每次保留独立审计目录，避免覆盖旧输出。
+export STAGE17_PROBE_RUN=$(date +%Y%m%d_%H%M%S)
+nohup env CUDA_VISIBLE_DEVICES=3 CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+ROOT=results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability
+ASSETS=$ROOT/server_rebuilt_preflight_$STAGE17_PROBE_RUN
+PROBE=$ROOT/rebuilt_runtime_probe_$STAGE17_PROBE_RUN
+PY=/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python
+
+$PY tools/audit_plastic_bomo_stage17a.py \
+  --protocol configs/plastic_bomo_stage17a.json \
+  --checkpoint_root model/baseline_stage17a_rebuild_split70_s42_noise_0.0 \
+  --scheduler scheduler \
+  --generation_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+  --split_manifest /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/split_manifest.json \
+  --real_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
+  --detector_model pretrained/yolo11s.pt --output "$ASSETS" --scope SERVER_PREFLIGHT
+
+$PY tools/probe_plastic_bomo_stage17a_rebuilt.py \
+  --protocol configs/plastic_bomo_stage17a.json \
+  --asset_preflight "$ASSETS" --rebuild_audit "$ROOT/baseline_rebuild" \
+  --checkpoint_root model/baseline_stage17a_rebuild_split70_s42_noise_0.0 \
+  --scheduler scheduler \
+  --generation_train_root /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train \
+  --split_manifest /mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/split_manifest.json \
+  --output "$PROBE" --device 0
+' > logs/plastic_bomo_stage17a_vanilla_utility_stability/rebuilt_probe_$STAGE17_PROBE_RUN.log 2>&1 &
+echo $! > logs/plastic_bomo_stage17a_vanilla_utility_stability/rebuilt_probe_$STAGE17_PROBE_RUN.pid
+
+tail -n 60 logs/plastic_bomo_stage17a_vanilla_utility_stability/rebuilt_probe_$STAGE17_PROBE_RUN.log
+# 完成后下载本次 server_rebuilt_preflight_* 和 rebuilt_runtime_probe_* 两个目录。
+# 即使PASS，仍需正式source/conditioning/bbox lineage及80 slots审计，不直接训练。

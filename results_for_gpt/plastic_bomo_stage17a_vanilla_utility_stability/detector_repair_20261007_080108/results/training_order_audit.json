@@ -1,0 +1,23 @@
+{
+  "arms": {
+    "RR": {
+      "primary": "be99b7a7dfe0235465bd2c6d9bab05b4c73dd5ec596fec6f2c267c65f4475e9d",
+      "augmentation": "618e8caa4284ac3f316df0f2b8200be55393ea52972eb070d638c2e9b9cd1a62"
+    },
+    "VA": {
+      "primary": "be99b7a7dfe0235465bd2c6d9bab05b4c73dd5ec596fec6f2c267c65f4475e9d",
+      "augmentation": "618e8caa4284ac3f316df0f2b8200be55393ea52972eb070d638c2e9b9cd1a62"
+    },
+    "VB": {
+      "primary": "be99b7a7dfe0235465bd2c6d9bab05b4c73dd5ec596fec6f2c267c65f4475e9d",
+      "augmentation": "618e8caa4284ac3f316df0f2b8200be55393ea52972eb070d638c2e9b9cd1a62"
+    },
+    "VC": {
+      "primary": "be99b7a7dfe0235465bd2c6d9bab05b4c73dd5ec596fec6f2c267c65f4475e9d",
+      "augmentation": "618e8caa4284ac3f316df0f2b8200be55393ea52972eb070d638c2e9b9cd1a62"
+    }
+  },
+  "equal_primary_order": true,
+  "equal_ABC_augmentation_fetches": true,
+  "raw_records": "order_records/<arm>/epoch_*.json"
+}

@@ -1,0 +1,233 @@
+from __future__ import annotations
+
+import argparse
+import math
+import re
+from pathlib import Path
+
+import numpy as np
+from PIL import Image
+
+
+IMAGE_EXTS = (".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff")
+
+
+def safe_name(name: str) -> str:
+    name = re.sub(r"[^\w\u4e00-\u9fff.-]+", "_", name.strip(), flags=re.UNICODE)
+    return name.strip("_") or "unknown"
+
+
+def read_classes(root: Path) -> dict[int, str]:
+    class_file = root / "classes.txt"
+    names: dict[int, str] = {}
+    if not class_file.exists():
+        return names
+
+    for line in class_file.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or ":" not in line:
+            continue
+        idx, name = line.split(":", 1)
+        names[int(idx.strip())] = name.strip()
+    return names
+
+
+def class_dir_name(cls: int, class_names: dict[int, str]) -> str:
+    return f"{cls:02d}_{safe_name(class_names.get(cls, f'class_{cls}'))}"
+
+
+def read_yolo_boxes(label_path: Path):
+    boxes = []
+    if not label_path.exists():
+        return boxes
+
+    for line_no, line in enumerate(label_path.read_text(encoding="utf-8").splitlines(), start=1):
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split()
+        if len(parts) != 5:
+            print(f"[WARN] skip invalid label line {label_path}:{line_no}: {line}")
+            continue
+        cls, xc, yc, bw, bh = parts
+        boxes.append((int(float(cls)), float(xc), float(yc), float(bw), float(bh)))
+    return boxes
+
+
+def find_image(image_dir: Path, stem: str) -> Path | None:
+    for ext in IMAGE_EXTS:
+        p = image_dir / f"{stem}{ext}"
+        if p.exists():
+            return p
+    for p in image_dir.glob(f"{stem}.*"):
+        if p.suffix.lower() in IMAGE_EXTS:
+            return p
+    return None
+
+
+def regular_ellipse_mask(
+    img_w: int,
+    img_h: int,
+    xc: float,
+    yc: float,
+    bw: float,
+    bh: float,
+    scale: float,
+    min_radius: float,
+):
+    cx = xc * img_w
+    cy = yc * img_h
+    rx = max(min_radius, bw * img_w * scale / 2.0)
+    ry = max(min_radius, bh * img_h * scale / 2.0)
+
+    x1 = max(0, int(math.floor(cx - rx - 2)))
+    y1 = max(0, int(math.floor(cy - ry - 2)))
+    x2 = min(img_w, int(math.ceil(cx + rx + 2)))
+    y2 = min(img_h, int(math.ceil(cy + ry + 2)))
+
+    local_w = x2 - x1
+    local_h = y2 - y1
+    yy, xx = np.ogrid[y1:y2, x1:x2]
+    local = ((xx - cx) / rx) ** 2 + ((yy - cy) / ry) ** 2 <= 1.0
+    return local, (x1, y1, x2, y2)
+
+
+def overlay_preview(image: Image.Image, mask: np.ndarray, alpha_value: int = 120) -> Image.Image:
+    rgb = image.convert("RGBA")
+    mask_img = Image.fromarray((mask.astype(np.uint8) * 255), mode="L")
+    red = Image.new("RGBA", rgb.size, (255, 0, 0, alpha_value))
+    overlay = Image.new("RGBA", rgb.size, (255, 0, 0, 0))
+    overlay.paste(red, (0, 0), mask_img)
+    return Image.alpha_composite(rgb, overlay).convert("RGB")
+
+
+def class_scale(cls: int, args) -> float:
+    if cls == args.flash_class:
+        return args.flash_scale
+    if cls in args.black_classes:
+        return args.black_scale
+    return args.default_scale
+
+
+def process_split(root: Path, split: str, args, class_names: dict[int, str]):
+    image_dir = root / "images" / split
+    label_dir = root / "labels" / split
+    mask_dir = root / args.mask_dir / split
+    preview_dir = root / args.preview_dir / split
+    class_mask_dir = root / args.class_mask_dir / split
+    class_preview_dir = root / args.class_preview_dir / split
+
+    mask_dir.mkdir(parents=True, exist_ok=True)
+    if args.preview:
+        preview_dir.mkdir(parents=True, exist_ok=True)
+    class_mask_dir.mkdir(parents=True, exist_ok=True)
+    if args.preview:
+        class_preview_dir.mkdir(parents=True, exist_ok=True)
+
+    total_images = 0
+    total_instances = 0
+
+    for label_path in sorted(label_dir.glob("*.txt")):
+        image_path = find_image(image_dir, label_path.stem)
+        if image_path is None:
+            print(f"[WARN] image not found for {label_path}")
+            continue
+
+        image = Image.open(image_path).convert("RGB")
+        img_w, img_h = image.size
+        full_mask = np.zeros((img_h, img_w), dtype=bool)
+        class_masks: dict[int, np.ndarray] = {}
+
+        boxes = read_yolo_boxes(label_path)
+        if not boxes:
+            continue
+
+        for idx, (cls, xc, yc, bw, bh) in enumerate(boxes):
+            scale = class_scale(cls, args)
+            local_mask, (x1, y1, x2, y2) = regular_ellipse_mask(
+                img_w=img_w,
+                img_h=img_h,
+                xc=xc,
+                yc=yc,
+                bw=bw,
+                bh=bh,
+                scale=scale,
+                min_radius=args.min_radius,
+            )
+
+            full_mask[y1:y2, x1:x2] |= local_mask
+            if cls not in class_masks:
+                class_masks[cls] = np.zeros((img_h, img_w), dtype=bool)
+            class_masks[cls][y1:y2, x1:x2] |= local_mask
+
+            if args.instance_masks:
+                cls_instance_dir = class_mask_dir / class_dir_name(cls, class_names) / "instances"
+                cls_instance_dir.mkdir(parents=True, exist_ok=True)
+                inst = np.zeros((img_h, img_w), dtype=np.uint8)
+                inst[y1:y2, x1:x2] = local_mask.astype(np.uint8) * 255
+                Image.fromarray(inst, mode="L").save(cls_instance_dir / f"{label_path.stem}_{idx:02d}_cls{cls}.png")
+
+            total_instances += 1
+
+        Image.fromarray(full_mask.astype(np.uint8) * 255, mode="L").save(mask_dir / f"{label_path.stem}.png")
+        if args.preview:
+            overlay_preview(image, full_mask, args.alpha).save(preview_dir / f"{label_path.stem}.jpg", quality=args.quality)
+
+        for cls, cls_mask in class_masks.items():
+            cls_dir = class_mask_dir / class_dir_name(cls, class_names)
+            cls_dir.mkdir(parents=True, exist_ok=True)
+            Image.fromarray(cls_mask.astype(np.uint8) * 255, mode="L").save(cls_dir / f"{label_path.stem}.png")
+            if args.preview:
+                cls_preview_dir = class_preview_dir / class_dir_name(cls, class_names)
+                cls_preview_dir.mkdir(parents=True, exist_ok=True)
+                overlay_preview(image, cls_mask, args.alpha).save(cls_preview_dir / f"{label_path.stem}.jpg", quality=args.quality)
+
+        total_images += 1
+
+    return total_images, total_instances
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate regular geometric masks from YOLO boxes.")
+    parser.add_argument("--root", type=Path, required=True, help="YOLO dataset root.")
+    parser.add_argument("--splits", nargs="+", default=["train", "val"], help="Dataset splits to process.")
+    parser.add_argument("--mask-dir", default="masks_regular", help="Whole-image regular mask directory under root.")
+    parser.add_argument("--preview-dir", default="masked_preview_regular", help="Whole-image regular preview directory under root.")
+    parser.add_argument("--class-mask-dir", default="masks_regular_by_class", help="Class-grouped regular mask directory under root.")
+    parser.add_argument("--class-preview-dir", default="masked_preview_regular_by_class", help="Class-grouped regular preview directory under root.")
+    parser.add_argument("--flash-class", type=int, default=1, help="Class id for Flash point.")
+    parser.add_argument("--black-classes", type=int, nargs="+", default=[0, 2], help="Class ids for black spot defects.")
+    parser.add_argument("--flash-scale", type=float, default=2.8, help="Ellipse scale for Flash point halo.")
+    parser.add_argument("--black-scale", type=float, default=1.45, help="Ellipse scale for black spots.")
+    parser.add_argument("--default-scale", type=float, default=1.65, help="Ellipse scale for other defects.")
+    parser.add_argument("--min-radius", type=float, default=5.0, help="Minimum ellipse radius in pixels.")
+    parser.add_argument("--preview", action="store_true", help="Write red overlay preview images.")
+    parser.add_argument("--instance-masks", action="store_true", help="Also write per-instance regular masks.")
+    parser.add_argument("--alpha", type=int, default=120, help="Preview overlay alpha.")
+    parser.add_argument("--quality", type=int, default=92, help="Preview JPEG quality.")
+    args = parser.parse_args()
+
+    root = args.root.resolve()
+    if not root.exists():
+        raise FileNotFoundError(root)
+
+    class_names = read_classes(root)
+    total_images = 0
+    total_instances = 0
+    for split in args.splits:
+        images, instances = process_split(root, split, args, class_names)
+        print(f"[{split}] images={images}, instances={instances}")
+        total_images += images
+        total_instances += instances
+
+    print(f"[DONE] root={root}")
+    print(f"[DONE] mask_dir={root / args.mask_dir}")
+    print(f"[DONE] class_mask_dir={root / args.class_mask_dir}")
+    if args.preview:
+        print(f"[DONE] preview_dir={root / args.preview_dir}")
+        print(f"[DONE] class_preview_dir={root / args.class_preview_dir}")
+    print(f"[DONE] total_images={total_images}, total_instances={total_instances}")
+
+
+if __name__ == "__main__":
+    main()

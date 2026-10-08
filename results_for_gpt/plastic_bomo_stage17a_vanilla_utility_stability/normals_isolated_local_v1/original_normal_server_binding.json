@@ -1,0 +1,23 @@
+{
+  "status": "LOCAL_NORMAL_VERIFIER_TEST_PASS",
+  "scope": "LOCAL_TEST",
+  "normal_files_verified": 420,
+  "accepted_normal_count": 180,
+  "overlap_normal_filenames": [
+    "076.jpg",
+    "092.jpg",
+    "133.jpg",
+    "362.jpg",
+    "396.jpg",
+    "411.jpg"
+  ],
+  "original_xml_evidence_location": "local original dataset; not re-read on server",
+  "origin_manifest_sha256": "641f12155452df1089d5c0761b0f70467187275d5a07a8c19fda521dae050e21",
+  "normal_pool_changed": false,
+  "generator_retraining_required": false,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "validation_images_or_labels_read": 0,
+  "sampling_count": 0,
+  "training_count": 0
+}

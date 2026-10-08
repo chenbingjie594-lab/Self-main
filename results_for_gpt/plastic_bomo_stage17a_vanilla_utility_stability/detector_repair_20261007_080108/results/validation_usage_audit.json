@@ -1,0 +1,27 @@
+{
+  "training_forwards": 0,
+  "selection_uses": 0,
+  "checkpoint_selection_uses": 0,
+  "evaluations": {
+    "RR": {
+      "status": "COMPLETE",
+      "checkpoint_sha256": "7dea289c9cc769e7be0b2d7f944346db19e050ab4743656b72c7373afc78722b",
+      "uses": 1
+    },
+    "VA": {
+      "status": "COMPLETE",
+      "checkpoint_sha256": "210b6098932c67c22853c99e287014f916e569bf7d8287358d9e783788fe1719",
+      "uses": 1
+    },
+    "VB": {
+      "status": "COMPLETE",
+      "checkpoint_sha256": "e666b13c56871a630726d0208ae095500b4abafe1c3df63851b03b5f74476a9d",
+      "uses": 1
+    },
+    "VC": {
+      "status": "COMPLETE",
+      "checkpoint_sha256": "19b6e1e9c8b95fcf8f8983778b77a25e732e0da8aed744815a27da9dcdf18e4b",
+      "uses": 1
+    }
+  }
+}

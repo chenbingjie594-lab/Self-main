@@ -1,0 +1,28 @@
+{
+  "status": "NEW_BASELINE_REBUILD_AUTHORIZED_NOT_YET_TRAINED",
+  "purpose": "New baseline for Stage17A after original checkpoint could not be recovered; not byte-exact historical reproduction",
+  "authorization": "User explicitly requested retraining a baseline on 2026-10-05",
+  "historical_reference": "experiments/baseline_split70_s42.json",
+  "dataset": {"train_ratio": 0.7, "split_seed": 42, "split_unchanged": true, "eval_content_used": false},
+  "training": {
+    "output_name": "baseline_stage17a_rebuild_split70_s42",
+    "checkpoint_root": "model/baseline_stage17a_rebuild_split70_s42_noise_0.0",
+    "learning_rate": 0.000001, "max_train_steps": 2000,
+    "train_batch_size": 1, "gradient_accumulation_steps": 4,
+    "effective_batch_size": 4, "seed": 42,
+    "mixed_precision": "fp16", "gradient_checkpointing": true,
+    "text_noise_scale": 0.0, "soft_mask": false,
+    "trainable_component": "UNet", "train_text_encoder": false,
+    "resolution": 512, "center_crop": true,
+    "lr_scheduler": "constant", "lr_warmup_steps": 0,
+    "prior_preservation": false, "resume": false,
+    "budget_semantics": "2000 scheduled global optimizer attempts per class; record successful updates and AMP skips, do not extend budget post hoc"
+  },
+  "inference": {"config": "configs/baseline_frozen_split70_s42.json", "pipeline": "custom", "scheduler": "magic_ddim.DDIMScheduler", "steps": 50, "CFG": 7.5},
+  "downstream_training_authorized": false,
+  "generation_authorized": false,
+  "stage16_records_modified": false,
+  "bootstrap_guard_modification": 0,
+  "deep_pcb_training": 0,
+  "deep_pcb_generation": 0
+}

@@ -1,0 +1,34 @@
+# 上传新增文件 tools/generate_plastic_bomo_stage17a_frozen_banks.py。
+# 依赖此前上传的 trainonly / frozen_slots probe / rebuilt probe / audit_stage17a 脚本。
+# 使用已通过的 pregeneration_20261007_024210；不重训、不运行 detector、不使用 validation。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_BANK_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_frozen_banks
+nohup env TASK17_BANK_RUN="$TASK17_BANK_RUN" CUDA_VISIBLE_DEVICES=3 CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_ROOT=results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/generate_plastic_bomo_stage17a_frozen_banks.py \
+  --slots "$TASK17_ROOT/slots_frozen_20261007_020941" \
+  --coverage "$TASK17_ROOT/pregeneration_20261007_024210/coverage" \
+  --preprobe "$TASK17_ROOT/pregeneration_20261007_024210/probe" \
+  --normal_pool "$TASK17_ROOT/normals_isolated_v1_20261006_064503" \
+  --training "$TASK17_ROOT/trainonly_20261006_022714/training" \
+  --checkpoint_root model/baseline_stage17a_trainonly_s42_noise_0.0 \
+  --scheduler scheduler \
+  --output "$TASK17_ROOT/banks_$TASK17_BANK_RUN" --device 0
+' > logs/plastic_bomo_stage17a_frozen_banks/generation_$TASK17_BANK_RUN.log 2>&1 &
+echo $! > logs/plastic_bomo_stage17a_frozen_banks/generation_$TASK17_BANK_RUN.pid
+echo "PID: $(cat logs/plastic_bomo_stage17a_frozen_banks/generation_$TASK17_BANK_RUN.pid)"
+echo "OUTPUT: results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_$TASK17_BANK_RUN"
+tail -n 60 logs/plastic_bomo_stage17a_frozen_banks/generation_$TASK17_BANK_RUN.log
+
+# 查看进程：
+# ps -fp "$(cat logs/plastic_bomo_stage17a_frozen_banks/generation_<本次时间>.pid)"
+# 查看日志：
+# tail -n 80 logs/plastic_bomo_stage17a_frozen_banks/generation_<本次时间>.log
+# 成功状态：FROZEN_BANK_GENERATION_AND_REPRO_PASS。
+# 无失败时：正式 240 张 + 生成后探针 15 张；此前 30 张探针不计入训练 bank。
+# 完成后下载本次 banks_<时间>/ 整个目录（JSON + formal/A,B,C PNG + post_probe PNG）。
+# 失败不得删除/覆盖记录；不修改 slots、seed、prompt、mask 或参数以获得通过。

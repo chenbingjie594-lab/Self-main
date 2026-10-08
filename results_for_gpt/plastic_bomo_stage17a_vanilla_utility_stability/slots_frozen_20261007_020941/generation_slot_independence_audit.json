@@ -1,0 +1,28 @@
+{
+  "per_class": {
+    "flash": {
+      "slot_count": 40,
+      "unique_real_source_images": 40,
+      "unique_annotation_instances": 40,
+      "unique_known_source_groups": 40,
+      "unknown_source_group_slots": 0,
+      "max_source_reuse": 1,
+      "unique_conditioning_normals": 36,
+      "max_conditioning_reuse": 2,
+      "projected_label_count": 41
+    },
+    "black": {
+      "slot_count": 40,
+      "unique_real_source_images": 34,
+      "unique_annotation_instances": 40,
+      "unique_known_source_groups": 34,
+      "unknown_source_group_slots": 0,
+      "max_source_reuse": 3,
+      "unique_conditioning_normals": 38,
+      "max_conditioning_reuse": 2,
+      "projected_label_count": 44
+    }
+  },
+  "slots_are_not_claimed_independent_parents": true,
+  "known_source_groups_are_not_proven_physical_acquisition_independence": true
+}

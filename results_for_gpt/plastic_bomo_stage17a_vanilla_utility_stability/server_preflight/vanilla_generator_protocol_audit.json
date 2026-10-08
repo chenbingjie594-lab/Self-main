@@ -1,0 +1,170 @@
+{
+  "phase": "CPU_ASSET_RECONSTRUCTION_ONLY",
+  "baseline_config": {
+    "experiment_name": "baseline_frozen_split70_s42",
+    "pipeline_mode": "custom",
+    "seed": 42,
+    "device": "cuda",
+    "dtype": "float16",
+    "prompt": "a photo of a sks defect",
+    "negative_prompt": null,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "blur_factor": 0,
+    "normal_filter": {
+      "enabled": true,
+      "black_threshold": 20,
+      "min_mean_luminance": 30.0,
+      "min_nonblack_ratio": 0.6
+    },
+    "modules": {
+      "prompt_perturbation": {
+        "enabled": false,
+        "noise_scale": 0.0
+      },
+      "spatial_guidance": {
+        "enabled": false,
+        "inside": 7.5,
+        "outside": 7.5,
+        "use_schedule": false
+      },
+      "cama": {
+        "enabled": false
+      },
+      "ddim_noise": {
+        "enabled": false,
+        "eta": 0.0,
+        "anomaly_strength_min": 0.0,
+        "anomaly_strength_max": 0.0,
+        "use_random_mask": false
+      },
+      "mdap": {
+        "enabled": false
+      },
+      "rda": {
+        "enabled": false
+      }
+    }
+  },
+  "baseline_experiment": {
+    "status": "frozen",
+    "purpose": "Medium-strength clean baseline for innovation experiments",
+    "dataset": {
+      "source": "/mnt/sda/cbj/data/Plastic_Bomo_mvtec_ready",
+      "split_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42",
+      "train_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/train",
+      "eval_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/eval",
+      "manifest": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/split_manifest.json",
+      "train_ratio": 0.7,
+      "split_seed": 42
+    },
+    "training": {
+      "base_model": "/mnt/sda/cbj/Self-main/sd2-community/stable-diffusion-2-inpainting",
+      "output_name": "baseline_clean_split70_s42",
+      "checkpoint_root": "/mnt/sda/cbj/Self-main/model/baseline_clean_split70_s42_noise_0.0",
+      "learning_rate": 1e-06,
+      "max_train_steps": 2000,
+      "train_batch_size": 1,
+      "gradient_accumulation_steps": 4,
+      "effective_batch_size": 4,
+      "mixed_precision": "fp16",
+      "gradient_checkpointing": true,
+      "text_noise_scale": 0.0,
+      "soft_mask": false,
+      "trainable_component": "UNet"
+    },
+    "inference": {
+      "config": "configs/baseline_frozen_split70_s42.json",
+      "generation_data_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/train",
+      "held_out_evaluation_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/eval",
+      "pipeline": "StableDiffusionInpaintPipeline_dynamic (all optional modules disabled)",
+      "scheduler": "MAGIC-compatible DDIMScheduler (all anomaly-noise controls disabled)",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "eta": 0.0,
+      "seed": 42
+    },
+    "invariants": [
+      "Use the same pipeline carrier and checkpoint for baseline and innovation modules",
+      "Do not tune baseline per defect class",
+      "Do not use eval images or masks for training or generation",
+      "Do not change baseline seed, prompt, steps, scheduler, or guidance scale",
+      "Apply normal-image quality filtering identically to every method",
+      "The official standard pipeline is a reference only, not the primary RDA ablation baseline"
+    ]
+  },
+  "baseline_config_sha256": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+  "implementation_sha256": {
+    "inference.py": "cb7c6aa8c2cc01ef6cd410c0cf22810566a07ec5970699d31291bf50a33e1e6c",
+    "magic_ddim.py": "0c0f2acf8ede303dd6e24a85fa246c2e6efd79da6bc000856c439693e098d9c2",
+    "experiment_config.py": "7b24a8f7bd06315e5616dc3f10e11322912ee8d46ba368ab0c4e23aa5831b283",
+    "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_magic.py": "2695e7971aad07c7a613218ebfc63184f15452d70e24160ff29a8ce8d4a5fda9"
+  },
+  "checkpoints": {
+    "flash": {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_clean_split70_s42_noise_0.0/Plastic_Bomo/01_Flash_point",
+      "missing_components": [
+        "model_index.json",
+        "unet/config.json",
+        "vae/config.json",
+        "text_encoder/config.json",
+        "tokenizer/tokenizer_config.json",
+        "tokenizer/vocab.json",
+        "tokenizer/merges.txt",
+        "unet/WEIGHTS",
+        "vae/WEIGHTS",
+        "text_encoder/WEIGHTS"
+      ],
+      "files_sha256": {},
+      "checkpoint_tree_sha256": null
+    },
+    "black": {
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_clean_split70_s42_noise_0.0/Plastic_Bomo/02_Big_black_spots",
+      "missing_components": [
+        "model_index.json",
+        "unet/config.json",
+        "vae/config.json",
+        "text_encoder/config.json",
+        "tokenizer/tokenizer_config.json",
+        "tokenizer/vocab.json",
+        "tokenizer/merges.txt",
+        "unet/WEIGHTS",
+        "vae/WEIGHTS",
+        "text_encoder/WEIGHTS"
+      ],
+      "files_sha256": {},
+      "checkpoint_tree_sha256": null
+    }
+  },
+  "scheduler_path": "/mnt/sda/cbj/ImageGeneration/Self-main/scheduler/scheduler_config.json",
+  "scheduler_sha256": "58a73eaeaa8d799c6d10ecb3a8fb80ceef96c55b3126c82afe2ff1740d22dd90",
+  "conditioning_logic": "inference.py chooses random normal after unchanged filter; Stage17A must freeze the same normal per slot before bank RNG",
+  "mask_logic": "frozen training source mask; nearest Resize(shorter side512)+CenterCrop512; threshold127; CAMA/random mask disabled",
+  "image_preprocessing": "bilinear Resize(shorter side512)+CenterCrop512",
+  "output_resolution": [
+    512,
+    512
+  ],
+  "class_mapping": {
+    "01_Flash_point": 0,
+    "02_Big_black_spots": 1
+  },
+  "generation_entrypoint": "historical inference.py; bank-aware wrapper NOT YET IMPLEMENTED",
+  "sources": {
+    "train_root": "/mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train",
+    "manifest": "/mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/split_manifest.json",
+    "metadata_available": true,
+    "manifest_sha256": "5ba271daadc0c3d2ba471c2075350c0e23b30ba266da9581e0b3654144f838e8",
+    "train_source_counts": {
+      "flash": 76,
+      "black": 36
+    }
+  },
+  "exact_baseline_reconstructed": false,
+  "errors": [
+    "EXACT_BASELINE_CHECKPOINT_UNAVAILABLE:flash",
+    "EXACT_BASELINE_CHECKPOINT_UNAVAILABLE:black"
+  ],
+  "runtime_call_equivalence_verified": false,
+  "generation_reproducibility_verified": false
+}

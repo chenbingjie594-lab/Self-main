@@ -1,0 +1,3170 @@
+{
+  "bank": "B",
+  "slot_manifest_sha256": "fdfd2097d62fef90e0ce1bad2e7885d098b9c8a8d3d69c405d46cb72b330491b",
+  "records": [
+    {
+      "slot_id": "036ff33f5456358b3fec0963d491a627062639ee94f71afad70e758a2f0424a1",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 7870880952016199770,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/036ff33f5456358b3fec0963d491a627062639ee94f71afad70e758a2f0424a1.png",
+      "image_file_sha256": "ea0217a0227f4224aa140c07975eae50da72cf9b88e7a554c4a04d404c6e180c",
+      "rgb_sha256": "b932d0c639b6f412a0de186425fc872a3b65e618628a11f9add8827437069aae",
+      "source_id": "959bee45c63d3e058888394192d7278c99e5519234a77646cc81291089cdcaed",
+      "real_parent": "img_2034_pre_part_0.jpg",
+      "conditioning_id": "249.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2034_pre_part_0.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            245.00038399999994,
+            243.0,
+            267.99942399999964,
+            269.99980800000003
+          ],
+          "clipped_xyxy": [
+            245.00038399999994,
+            243.0,
+            267.99942399999964,
+            269.99980800000003
+          ],
+          "yolo_xywh": [
+            0.5009763749999996,
+            0.500976375,
+            0.044919999999999405,
+            0.05273400000000006
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "03c207a49a4c51f1490189e5be6c38ef60757afb9b4b1788a3d908ede39801d5",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1774713789346077401,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/03c207a49a4c51f1490189e5be6c38ef60757afb9b4b1788a3d908ede39801d5.png",
+      "image_file_sha256": "7f10234d32e3b060794948f0d16e40ef1b2c07fc29c19da18d90a816a1907d5e",
+      "rgb_sha256": "2dc4ff0d1d4eff8fd5dd12e961601c612f359e5a68ff079d9956ff04d3aceeb1",
+      "source_id": "b87fbd1fe10fe33c02962babb791c4646fbaf1a8d1ed800a13af68b1a80c5c7c",
+      "real_parent": "img_1020_pre_part_0.jpg",
+      "conditioning_id": "080.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1020_pre_part_0.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            247.00121599999966,
+            250.000128,
+            263.99961600000006,
+            262.000384
+          ],
+          "clipped_xyxy": [
+            247.00121599999966,
+            250.000128,
+            263.99961600000006,
+            262.000384
+          ],
+          "yolo_xywh": [
+            0.4990242499999997,
+            0.5000005,
+            0.033200000000000784,
+            0.023438000000000014
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "0805675c0d2a633cf0e8926d389d4c62077b72b22147f9a72021cff524e84bf2",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4721635886746305218,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/0805675c0d2a633cf0e8926d389d4c62077b72b22147f9a72021cff524e84bf2.png",
+      "image_file_sha256": "b512780ca30e41612afb1ca437d00df1d9a868dfc10de072b4c2cb0d9d395c9c",
+      "rgb_sha256": "5b3f78b856c74f3b5df32f307b1ff4e3b90a320a7ed2bac1745d5d6d76273c22",
+      "source_id": "ae14612f7aad80a266e45be3a8fc5c0d05d9199ea93410f50790fadfd7b54f71",
+      "real_parent": "img_3292_pre_part_1.jpg",
+      "conditioning_id": "340.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_3292_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            244.0013439999998,
+            242.99961600000006,
+            267.99980800000003,
+            269.0
+          ],
+          "clipped_xyxy": [
+            244.0013439999998,
+            242.99961600000006,
+            267.99980800000003,
+            269.0
+          ],
+          "yolo_xywh": [
+            0.5000011249999998,
+            0.49999962500000006,
+            0.04687200000000047,
+            0.05078199999999988
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "09d3bf87bf8f59995ed85bce7f96ddcd54fe55ed5d9ad7df85fb02a9ec863a0a",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 3115768585713240660,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/09d3bf87bf8f59995ed85bce7f96ddcd54fe55ed5d9ad7df85fb02a9ec863a0a.png",
+      "image_file_sha256": "008ad2e355ee3248994325fdd4a167695d1e446b27a1412b9e6b180a06618815",
+      "rgb_sha256": "0b465d4b01238d252e64e9559bb622c2c27e7ff67dce9d969dc05a772e6eb878",
+      "source_id": "56f7f4aa3921d4815724521c979946fae3da8f2b1c246d4d0760d8aabcc203e5",
+      "real_parent": "img_2538_pre_part_1.jpg",
+      "conditioning_id": "177.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2538_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.9987199999996,
+            243.00025599999998,
+            270.99782400000004,
+            268.000192
+          ],
+          "clipped_xyxy": [
+            240.9987199999996,
+            243.00025599999998,
+            270.99782400000004,
+            268.000192
+          ],
+          "yolo_xywh": [
+            0.49999662499999964,
+            0.499023875,
+            0.058592000000000866,
+            0.048828000000000094
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "0a17f034e730aaa46634abca468745dae8cc24f8aeeef8a5372409233c47aa84",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 887275208807402147,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/0a17f034e730aaa46634abca468745dae8cc24f8aeeef8a5372409233c47aa84.png",
+      "image_file_sha256": "ee12ee8f369cb0fb86ba1a3e29b7afb1d820caffe3d741d6dddd834c27178b8a",
+      "rgb_sha256": "82dfca97ac3503329781707eb2001abcd9cc11456dfd64a41e36cf6f44a80651",
+      "source_id": "3cf9da9830171de94da3921d2a3b99713fb7253317eaaafc5c5e307f241d6f02",
+      "real_parent": "img_12317_pre_part_1.jpg",
+      "conditioning_id": "400.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_12317_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            241.000832,
+            238.99987199999998,
+            270.999936,
+            272.99974399999996
+          ],
+          "clipped_xyxy": [
+            241.000832,
+            238.99987199999998,
+            270.999936,
+            272.99974399999996
+          ],
+          "yolo_xywh": [
+            0.50000075,
+            0.49999962499999995,
+            0.05859199999999998,
+            0.06640599999999997
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "0c0c6419fd5dbdceadf16081127ab98695aa44e80a344e766e591166688aec6e",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 422826492884920197,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/0c0c6419fd5dbdceadf16081127ab98695aa44e80a344e766e591166688aec6e.png",
+      "image_file_sha256": "6af7682995d16256088e94bcaad7a9eeceb8f66a81ec33e39fc992abf461e07b",
+      "rgb_sha256": "689311a79db672c04259ab8a346ee01f40d21ce89ae2044c7d024275dfcc47a6",
+      "source_id": "7b58574227d4934f6dd145b0a986050b71d1c69d532e19aa091df681fc3e4c50",
+      "real_parent": "img_693_pre_part_1.jpg",
+      "conditioning_id": "315.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_693_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.00102399999992,
+            240.000448,
+            270.999552,
+            272.000448
+          ],
+          "clipped_xyxy": [
+            240.00102399999992,
+            240.000448,
+            270.999552,
+            272.000448
+          ],
+          "yolo_xywh": [
+            0.4990239999999999,
+            0.500000875,
+            0.06054400000000015,
+            0.0625
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "0d6eea4033c817265051567a0908698a45c150eceba5606a1585e82b183b61fe",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4488489759346860239,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/0d6eea4033c817265051567a0908698a45c150eceba5606a1585e82b183b61fe.png",
+      "image_file_sha256": "0a7d1897fd6f2907e97b5c5e0c30e7d09407a764a3b396dbeca34ce47f50d367",
+      "rgb_sha256": "eda49ca8e368d89671927681bf9fc8e3391ab516784a446ba38a250084cb4c4c",
+      "source_id": "537b3dfa8ba68ff892b4e38b4597be08aed18838c139b34c40ac248b8ee70fac",
+      "real_parent": "img_8507_pre_part_1.jpg",
+      "conditioning_id": "332.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_8507_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            244.998784,
+            243.99987199999998,
+            267.9978239999999,
+            268.9998079999999
+          ],
+          "clipped_xyxy": [
+            244.998784,
+            243.99987199999998,
+            267.9978239999999,
+            268.9998079999999
+          ],
+          "yolo_xywh": [
+            0.5009732499999999,
+            0.5009762499999999,
+            0.04491999999999985,
+            0.04882799999999987
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "0f9e07b27953365ef2f2c709943f64da054e2f83bd005afa123073eb93ef3ff6",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 2540551168155832950,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/0f9e07b27953365ef2f2c709943f64da054e2f83bd005afa123073eb93ef3ff6.png",
+      "image_file_sha256": "ba0eece746814fd83c127f3124cc73b5a746e3435c25399a02b94e2572278864",
+      "rgb_sha256": "efed6514310e529a7ba0f268e4067b37c065b40093a92f78f488ddfd05edfc91",
+      "source_id": "ffd54d28788f3099e86d4e95a32a4410123fd98876ec1e74d65a0d116647ec04",
+      "real_parent": "img_10012_pre_part_1.jpg",
+      "conditioning_id": "334.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_10012_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            238.99916799999994,
+            238.00038400000005,
+            273.00006399999995,
+            274.000128
+          ],
+          "clipped_xyxy": [
+            238.99916799999994,
+            238.00038400000005,
+            273.00006399999995,
+            274.000128
+          ],
+          "yolo_xywh": [
+            0.4999992499999999,
+            0.5000005000000001,
+            0.06640800000000002,
+            0.07031199999999993
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "140dffbe933557d624f080b99e0b55a6229d6cfb5a783b89f5c9bd2d18fc0a52",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 2076443122712264446,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/140dffbe933557d624f080b99e0b55a6229d6cfb5a783b89f5c9bd2d18fc0a52.png",
+      "image_file_sha256": "b8c49a51e934de250a8b1ec952e93761b1e6a8fdd357baec6e91a2574eaf6689",
+      "rgb_sha256": "5ac1e9f954972c7da93fbfadf2e929babc92863f09299b5ed8e51a72bc1b8f2a",
+      "source_id": "eff7a3676b3a7f5721cd64d697b2bd905c3e5cac974e1d9096639b7eca4464be",
+      "real_parent": "img_6811_pre_part_1.jpg",
+      "conditioning_id": "370.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_6811_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.00160000000005,
+            241.0006400000001,
+            271.00012800000013,
+            270.00032
+          ],
+          "clipped_xyxy": [
+            240.00160000000005,
+            241.0006400000001,
+            271.00012800000013,
+            270.00032
+          ],
+          "yolo_xywh": [
+            0.4990251250000002,
+            0.4990243750000001,
+            0.06054400000000015,
+            0.0566399999999998
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "1a9828a2f0d1bc81acad7692e5102de83d347ca1e1d9a735cd0e61d70b579c3d",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 876803481798272168,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/1a9828a2f0d1bc81acad7692e5102de83d347ca1e1d9a735cd0e61d70b579c3d.png",
+      "image_file_sha256": "f183fb4f834173122382e782be4fe8527308afd5d158521a9f9812809d0c0e1b",
+      "rgb_sha256": "020299691ab01eded340b0c1ce348837a73f0d69b0fb39fad2acad24e3ca6951",
+      "source_id": "f6a193a52e6e14bbc3b85ba36ad6268969f6a5fd1e41b6972a5603932a002107",
+      "real_parent": "img_15545_pre_part_1.jpg",
+      "conditioning_id": "243.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_15545_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            243.99916799999983,
+            243.99980799999997,
+            267.99763200000007,
+            268.999744
+          ],
+          "clipped_xyxy": [
+            243.99916799999983,
+            243.99980799999997,
+            267.99763200000007,
+            268.999744
+          ],
+          "yolo_xywh": [
+            0.4999968749999999,
+            0.500976125,
+            0.04687200000000047,
+            0.048828000000000094
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "1ad1ac600799350283585b4c4841cfce85071878fc268505beb37bc3389cdc30",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1681989331933800716,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/1ad1ac600799350283585b4c4841cfce85071878fc268505beb37bc3389cdc30.png",
+      "image_file_sha256": "d932457eb01f66161f2f4be386a83cf7b775f8eefd9e66ca5a11893409ac4371",
+      "rgb_sha256": "47ed4f582bf4d5699c3f4215a8ed5de5e11311654c4d14aeb8f498b5dd9ff43d",
+      "source_id": "d75acadaa735ba97753e80c884222c8fe288ebf7c9da5537606fe55e269462a7",
+      "real_parent": "img_15996_pre_part_1.jpg",
+      "conditioning_id": "118.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_15996_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.002432,
+            240.00012800000002,
+            272.00038400000017,
+            272.000128
+          ],
+          "clipped_xyxy": [
+            240.002432,
+            240.00012800000002,
+            272.00038400000017,
+            272.000128
+          ],
+          "yolo_xywh": [
+            0.5000027500000002,
+            0.50000025,
+            0.06249600000000033,
+            0.0625
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "1b857062ef08ec4cdf45c53288a79453711c01b17580b6ba633b92508d2493ed",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 8507964024100796849,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/1b857062ef08ec4cdf45c53288a79453711c01b17580b6ba633b92508d2493ed.png",
+      "image_file_sha256": "379e235a336c1ed7450f23df2833fa33cbf0c507aad87271d4dfb41a67ef659e",
+      "rgb_sha256": "81acc8880bb75a13df127f1d07c5d0cd1a83384e53bf7397714c4fc8aee65bc9",
+      "source_id": "7784217fc3422cdaba6e509116bcee2ab44be7a422d08ded859080a989c91fa9",
+      "real_parent": "img_9504_pre_part_1.jpg",
+      "conditioning_id": "096.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_9504_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.9987839999999,
+            241.000064,
+            271.99731199999997,
+            271.000192
+          ],
+          "clipped_xyxy": [
+            240.9987839999999,
+            241.000064,
+            271.99731199999997,
+            271.000192
+          ],
+          "yolo_xywh": [
+            0.5009727499999999,
+            0.50000025,
+            0.06054400000000015,
+            0.058594000000000035
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "266216e351945bfd9b364d4dffa5455d1a92a9f5ce784b2fae5032fda25dde1f",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4165792224584982088,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/266216e351945bfd9b364d4dffa5455d1a92a9f5ce784b2fae5032fda25dde1f.png",
+      "image_file_sha256": "e3e3cad4d9a5b82b4f2fabcafe3b23c29d80bd60885d926b277b8eeb1926c1aa",
+      "rgb_sha256": "001ef86d0d07c535f54a46f75f31cef1e1da4dccb31337be4f5e2d157e512eb3",
+      "source_id": "5167b7f4b1899ce8e22ac81dbfbbffc49497c9197efe7bcb32ea82860cc7bc92",
+      "real_parent": "img_15609_pre_part_1.jpg",
+      "conditioning_id": "343.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_15609_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            242.0001279999999,
+            242.99961600000006,
+            269.0009600000001,
+            269.0
+          ],
+          "clipped_xyxy": [
+            242.0001279999999,
+            242.99961600000006,
+            269.0009600000001,
+            269.0
+          ],
+          "yolo_xywh": [
+            0.4990245,
+            0.49999962500000006,
+            0.05273600000000034,
+            0.05078199999999988
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "275c7583ce74a47b69eab08b9df51379fb05be997f8362063d4e1d724c86c5b6",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1817736458969215535,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/275c7583ce74a47b69eab08b9df51379fb05be997f8362063d4e1d724c86c5b6.png",
+      "image_file_sha256": "9b915d2b21f0d4fbcb52aabae36c2432c38f79e47153e4f1ebf6033a784dac65",
+      "rgb_sha256": "1e56d5260ab51a3d0357d4b1a0cbd191ce9791bfa381ef5c6793c2858a7d729a",
+      "source_id": "31285b36db1a25d2a59aa2046ae1afb8a2b8535d17aaf13564ec175e03653d07",
+      "real_parent": "img_7953_pre_part_1.jpg",
+      "conditioning_id": "147.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_7953_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            237.99987199999987,
+            238.9993599999999,
+            274.99904000000015,
+            273.99968
+          ],
+          "clipped_xyxy": [
+            237.99987199999987,
+            238.9993599999999,
+            274.99904000000015,
+            273.99968
+          ],
+          "yolo_xywh": [
+            0.5009755,
+            0.5009756249999999,
+            0.07226400000000055,
+            0.0683600000000002
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "28bdcdb03d0c9eee8085b5445e62ed5ff354a5f87de4fb874e3d743e0b803f26",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 3505359375331921887,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/28bdcdb03d0c9eee8085b5445e62ed5ff354a5f87de4fb874e3d743e0b803f26.png",
+      "image_file_sha256": "5908af39b004572592d7d37d1d4b27034f960c6e4381d7a1417d7ab7c87858f8",
+      "rgb_sha256": "eff1190b1c6cd2c6cb2c04f01a31f8f9e03239acd9c294143a388fc135a8284f",
+      "source_id": "321ef98d743c5957d8dcdb379baf401ec30e80805f6a658532b07de7ce848731",
+      "real_parent": "img_15101_pre_part_1.jpg",
+      "conditioning_id": "347.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_15101_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            237.00192000000015,
+            234.99993600000005,
+            274.001088,
+            277.00032
+          ],
+          "clipped_xyxy": [
+            237.00192000000015,
+            234.99993600000005,
+            274.001088,
+            277.00032
+          ],
+          "yolo_xywh": [
+            0.49902637500000013,
+            0.50000025,
+            0.07226399999999966,
+            0.08203199999999988
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "28c69007e0c1959f860d1157298272b6adfc62757cd11139bab9d90c7f8f7587",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4999191186930742219,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/28c69007e0c1959f860d1157298272b6adfc62757cd11139bab9d90c7f8f7587.png",
+      "image_file_sha256": "cfc1296300e35a835bfc2edfd2dfe86a2cb52f83d8d640c7c05aa37349430edf",
+      "rgb_sha256": "e8950df2bbb6ba7c5a2906ac30021d37e297b12957a71f73bfd5058df6d74e9a",
+      "source_id": "cbe73af84f897d88bb66e6982374fa1906c0c643f2c25abda879e1a9b695f75d",
+      "real_parent": "img_22666_pre_part_1.jpg",
+      "conditioning_id": "107.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_22666_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            245.00031999999987,
+            241.00006399999995,
+            267.99936,
+            271.99961599999995
+          ],
+          "clipped_xyxy": [
+            245.00031999999987,
+            241.00006399999995,
+            267.99936,
+            271.99961599999995
+          ],
+          "yolo_xywh": [
+            0.5009762499999999,
+            0.5009762499999999,
+            0.04492000000000029,
+            0.06054599999999999
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "2993de07a04ad521f15297296ccde3e6219438bf4fe2af3d72f26cb334314366",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4349096830414237480,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/2993de07a04ad521f15297296ccde3e6219438bf4fe2af3d72f26cb334314366.png",
+      "image_file_sha256": "8e275d83d5269f766ee0e6d93de63c5433bb5373b763adfbb2be210a94d90828",
+      "rgb_sha256": "0ab37615fe99c08fb56278e51dd44e563010f181b6e6880dae57e3d0003c4782",
+      "source_id": "a04fd4f814fd3ffc6a21ae0d42c227f849e9b793a878a924afbc4a3d7b2312b7",
+      "real_parent": "img_3207_pre_part_1.jpg",
+      "conditioning_id": "364.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_3207_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            236.00288,
+            238.99974400000002,
+            275.000896,
+            272.999616
+          ],
+          "clipped_xyxy": [
+            236.00288,
+            238.99974400000002,
+            275.000896,
+            272.999616
+          ],
+          "yolo_xywh": [
+            0.499027125,
+            0.499999375,
+            0.07616800000000001,
+            0.06640599999999997
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "2b5f0678877e129dad380af824b8e070519e2addfa6aef294f543b1518717d7e",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 7925608462051707241,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/2b5f0678877e129dad380af824b8e070519e2addfa6aef294f543b1518717d7e.png",
+      "image_file_sha256": "8e46edd649d72ffc2b5051d67bc9bd84bbcff8bb703b649bae64ffa6e7b933b8",
+      "rgb_sha256": "bc8cf2c963303598101f1c91694e45931955e36e3ccd7b2f9213e88fa0c6f855",
+      "source_id": "831b71312510fb61bb05e26037e0cbddfccbaf512d7f28c46a40292d10201be6",
+      "real_parent": "img_1572_pre_part_1.jpg",
+      "conditioning_id": "381.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1572_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.998464,
+            242.00025599999998,
+            270.997568,
+            269.000064
+          ],
+          "clipped_xyxy": [
+            240.998464,
+            242.00025599999998,
+            270.997568,
+            269.000064
+          ],
+          "yolo_xywh": [
+            0.499996125,
+            0.49902375,
+            0.05859199999999998,
+            0.05273400000000006
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "2d7f2580ae2d474965cdbfcc360442e530b3077c47cb9a75b7d72a809ef15273",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 5538633095217171684,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/2d7f2580ae2d474965cdbfcc360442e530b3077c47cb9a75b7d72a809ef15273.png",
+      "image_file_sha256": "a4edb5aea2a10446251842dfb83fd4403ff77e496c010180a89a7a5202da28a2",
+      "rgb_sha256": "8ed7e67df08bc7d844f2280cc5e41b1e1647011afb9efab051715fbe042174de",
+      "source_id": "2e4ecda15f7dba02102989a5e7ca120552b14b5974aae56c030884ef037ffdc4",
+      "real_parent": "img_6075_pre_part_1.jpg",
+      "conditioning_id": "178.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_6075_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            238.00108799999998,
+            243.00032,
+            273.00140799999997,
+            269.0007039999999
+          ],
+          "clipped_xyxy": [
+            238.00108799999998,
+            243.00032,
+            273.00140799999997,
+            269.0007039999999
+          ],
+          "yolo_xywh": [
+            0.49902587499999995,
+            0.5000009999999999,
+            0.06835999999999998,
+            0.05078199999999988
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "2ffb27de76bd03f82df174521b9bd3f3965b19202c95b1888d3418390f45bd8a",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 135318117008512476,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/2ffb27de76bd03f82df174521b9bd3f3965b19202c95b1888d3418390f45bd8a.png",
+      "image_file_sha256": "d64fd6cd3d9ec2b2da9e68836d9efde54ff49fdbd3a92f643ae65ec23dcf310d",
+      "rgb_sha256": "15874cea754c82be8e115f9a6c52cca82a420093a50b756e54646583253ad099",
+      "source_id": "d9b4b3a683da55e8fe5e8190b37bbc679cb06761248d51102edc50943d5fb514",
+      "real_parent": "img_4108_pre_part_1.jpg",
+      "conditioning_id": "313.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_4108_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            237.00057599999997,
+            237.00038399999994,
+            274.999168,
+            275.0
+          ],
+          "clipped_xyxy": [
+            237.00057599999997,
+            237.00038399999994,
+            274.999168,
+            275.0
+          ],
+          "yolo_xywh": [
+            0.49999974999999997,
+            0.5000003749999999,
+            0.07421600000000006,
+            0.07421800000000012
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "324392c26f48b9d96b5213bc3db3e5ea9089a78444f1300ba363478a2be29298",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 8515605860291995902,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/324392c26f48b9d96b5213bc3db3e5ea9089a78444f1300ba363478a2be29298.png",
+      "image_file_sha256": "d414320a528bef03aef25b8626ffed88301858f33bdb89ae3443d4c8bada0a70",
+      "rgb_sha256": "49df85880b099c500a9882ecdc094807d52a485af80e84d626a7424c896c2cf2",
+      "source_id": "7ca0c9d3384fc9f8b0895ccfc83550dfd558420a0cb126e62ec6d2e9d421ff2f",
+      "real_parent": "img_15034_pre_part_1.jpg",
+      "conditioning_id": "307.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_15034_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            238.00012800000013,
+            237.00070399999993,
+            273.99987199999987,
+            275.00032
+          ],
+          "clipped_xyxy": [
+            238.00012800000013,
+            237.00070399999993,
+            273.99987199999987,
+            275.00032
+          ],
+          "yolo_xywh": [
+            0.5,
+            0.5000009999999999,
+            0.07031199999999949,
+            0.07421800000000012
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "33f26ae9f5311c4ccfb2ec6343c5d9575788821b873e10a5ec95b73f54deb2d7",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 2501823130594528750,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/33f26ae9f5311c4ccfb2ec6343c5d9575788821b873e10a5ec95b73f54deb2d7.png",
+      "image_file_sha256": "7faf11f04b4680406d7ec99efe74d6b7d52a2b882936bd22407bc2eb0c1d0e62",
+      "rgb_sha256": "493058028eea9b9cc8c8693eda2636418cd6073cc2f84629df14124cd16bda6f",
+      "source_id": "0c2ab2b66c85868ba6520b427bf9f18c2a7b2889975afff8e4b257841d24cfb0",
+      "real_parent": "img_2075_pre_part_1.jpg",
+      "conditioning_id": "164.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2075_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.00256000000036,
+            240.000448,
+            272.00051200000007,
+            271.0
+          ],
+          "clipped_xyxy": [
+            240.00256000000036,
+            240.000448,
+            272.00051200000007,
+            271.0
+          ],
+          "yolo_xywh": [
+            0.5000030000000004,
+            0.499023875,
+            0.06249599999999944,
+            0.06054599999999999
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        },
+        {
+          "annotation_id": "img_2075_pre_part_1.jpg:line3",
+          "class_id": 0,
+          "projected_xyxy": [
+            268.00076800000033,
+            465.00038400000005,
+            290.99980800000003,
+            486.000576
+          ],
+          "clipped_xyxy": [
+            268.00076800000033,
+            465.00038400000005,
+            290.99980800000003,
+            486.000576
+          ],
+          "yolo_xywh": [
+            0.5458990000000004,
+            0.9287118750000001,
+            0.044919999999999405,
+            0.04101599999999994
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "33fd17cd45d373fecc5de425602b257c5df5614e961f8a4cc85e4566ba96208a",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 7543166781764846244,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/33fd17cd45d373fecc5de425602b257c5df5614e961f8a4cc85e4566ba96208a.png",
+      "image_file_sha256": "8e41867a242d4bda1d27386f39854af33745ec4c440edde0b65a6fdbc73f1ec3",
+      "rgb_sha256": "b81fe04618278748adbaee7ab02e22890192cd90cb8d82491baeec906532b8fc",
+      "source_id": "d9cdafc5bec7b1f58732b1a4b6e4e763fe6c7aa3d6f14ed50c77898fd81f72b0",
+      "real_parent": "img_12185_pre_part_1.jpg",
+      "conditioning_id": "075.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_12185_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            239.0,
+            240.00038400000005,
+            273.000896,
+            272.00038400000005
+          ],
+          "clipped_xyxy": [
+            239.0,
+            240.00038400000005,
+            273.000896,
+            272.00038400000005
+          ],
+          "yolo_xywh": [
+            0.500000875,
+            0.5000007500000001,
+            0.06640800000000002,
+            0.0625
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "3405bb22dd354b4cbdf3b303deae7ae2160194b4c0113e133395bd47a73d4e37",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 3866090211682960924,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/3405bb22dd354b4cbdf3b303deae7ae2160194b4c0113e133395bd47a73d4e37.png",
+      "image_file_sha256": "7761dc40faadd589c6787c82773b4da33f6367bf0d3d03f46065b87b3799d64f",
+      "rgb_sha256": "db04fcfe00d2a75d5e1a0d123ed78caece34aa908fce00ab8c3315ed8ad6ecdd",
+      "source_id": "2aeab21bb481d4b7b11c2973a8255f938e628024842d0e9e506669ce342d892a",
+      "real_parent": "img_18290_pre_part_0.jpg",
+      "conditioning_id": "208.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_18290_pre_part_0.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            231.99968000000035,
+            232.99993600000005,
+            279.00127999999995,
+            279.00006399999995
+          ],
+          "clipped_xyxy": [
+            231.99968000000035,
+            232.99993600000005,
+            279.00127999999995,
+            279.00006399999995
+          ],
+          "yolo_xywh": [
+            0.4990243750000003,
+            0.5,
+            0.09179999999999922,
+            0.08984399999999981
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "3af33c5136fdf2e6ee3b271e3b7e9c70ad376407cfff5e2e342f2e4e9724abba",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 474312813039446227,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/3af33c5136fdf2e6ee3b271e3b7e9c70ad376407cfff5e2e342f2e4e9724abba.png",
+      "image_file_sha256": "1c93c93ad51d76cc61f1528907338da29df4018803e104717e5c53aaec2ad094",
+      "rgb_sha256": "523e38cf2b1a77ecbb8e0cb1925b082bdf94b3ccb2a6182559e89538a1628643",
+      "source_id": "50468dc14d07cdd767dc0a978ee164664f1fe26a1cd0e8ae9118dd7590b6ac9f",
+      "real_parent": "img_3626_pre_part_1.jpg",
+      "conditioning_id": "167.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_3626_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            241.99878400000011,
+            244.99987200000004,
+            269.99904000000015,
+            267.999936
+          ],
+          "clipped_xyxy": [
+            241.99878400000011,
+            244.99987200000004,
+            269.99904000000015,
+            267.999936
+          ],
+          "yolo_xywh": [
+            0.49999787500000026,
+            0.500976375,
+            0.05468800000000007,
+            0.044921999999999906
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "3b3fe4dbf60c9c316e7f2088ad79901d3e16460ad37b19eb8f2520aa7b728e63",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1652392103853794020,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/3b3fe4dbf60c9c316e7f2088ad79901d3e16460ad37b19eb8f2520aa7b728e63.png",
+      "image_file_sha256": "08079f8497c6f41e7ff77a25aa35bdb1762346dfdbd56dd25debd0cfe39812e7",
+      "rgb_sha256": "d211a16698bebcbab4c665b49d364daea7a4636fab42833097feaa99904d7e7c",
+      "source_id": "a6fb451b164c98a7255c4766e096721616a7b6f867326abe1f4fbe7e1e583e51",
+      "real_parent": "img_3441_pre_part_1.jpg",
+      "conditioning_id": "328.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_3441_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.0029440000003,
+            242.00006400000007,
+            272.000896,
+            270.99974399999996
+          ],
+          "clipped_xyxy": [
+            240.0029440000003,
+            242.00006400000007,
+            272.000896,
+            270.99974399999996
+          ],
+          "yolo_xywh": [
+            0.5000037500000003,
+            0.500976375,
+            0.06249599999999944,
+            0.0566399999999998
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "40bc8e05d9c5dfe165e207a55b84ecb065e8c1bedcb3249d06c1093f92cd188f",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1259019589692602550,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/40bc8e05d9c5dfe165e207a55b84ecb065e8c1bedcb3249d06c1093f92cd188f.png",
+      "image_file_sha256": "005a290706f6ff5ce3ca7e2fc2e216c278773badaadc0d76065d2596a8cef00f",
+      "rgb_sha256": "02f2523d16e2884f7f684e8fe494403d99c645695e122ea82e0c83eec612a5c1",
+      "source_id": "e64038626c5805adbce4941df9ae442ed798b987bf5712ecfd9c034c4d7c09fb",
+      "real_parent": "img_5107_pre_part_1.jpg",
+      "conditioning_id": "390.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_5107_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            238.001152,
+            238.00006399999995,
+            274.00089599999995,
+            273.00038400000005
+          ],
+          "clipped_xyxy": [
+            238.001152,
+            238.00006399999995,
+            274.00089599999995,
+            273.00038400000005
+          ],
+          "yolo_xywh": [
+            0.500002,
+            0.499023875,
+            0.07031199999999993,
+            0.0683600000000002
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "415e0b662c65897876c6df817d9eddbb8b2cd3612edc01deecc9c7afc9c01313",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 8911095590418684673,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/415e0b662c65897876c6df817d9eddbb8b2cd3612edc01deecc9c7afc9c01313.png",
+      "image_file_sha256": "8a9b2fa6b4bbd60eb9eb64feb5d31b226a326e2ad2de1e748bd5f828ab076df0",
+      "rgb_sha256": "96e650d4c82ce540efc6d016d02b4e55c88c558a9b81a282f4ef9e03a90aa9c7",
+      "source_id": "f2630bb29fbcd998daa885e51b3985df1a475064f21a6cfbea467624e44b7d25",
+      "real_parent": "img_13734_pre_part_1.jpg",
+      "conditioning_id": "135.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_13734_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            238.000064,
+            239.99942399999998,
+            273.000384,
+            272.999872
+          ],
+          "clipped_xyxy": [
+            238.000064,
+            239.99942399999998,
+            273.000384,
+            272.999872
+          ],
+          "yolo_xywh": [
+            0.499023875,
+            0.500975875,
+            0.06835999999999998,
+            0.06445400000000001
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4573c167df6c707a58826ca57f336da68d234146d28af73d11093afc305590b9",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 3263590907897848676,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4573c167df6c707a58826ca57f336da68d234146d28af73d11093afc305590b9.png",
+      "image_file_sha256": "381a6ec5f41ddca13c33ee129236f4fae91dd536e7916ed30381138bce597840",
+      "rgb_sha256": "1633c44d750e6249ae8798595b39cb1983be24113a810ae3495bc0f7d521ce22",
+      "source_id": "8cd4cb4fe256f609fe66c444b11186012eed6cb6dbdd03668cd927adfd9b3560",
+      "real_parent": "img_11478_pre_part_1.jpg",
+      "conditioning_id": "364.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_11478_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            241.99884800000007,
+            239.00032,
+            270.99852799999996,
+            273.0001920000001
+          ],
+          "clipped_xyxy": [
+            241.99884800000007,
+            239.00032,
+            270.99852799999996,
+            273.0001920000001
+          ],
+          "yolo_xywh": [
+            0.500974,
+            0.5000005000000001,
+            0.0566399999999998,
+            0.06640600000000019
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4690957c46bf327f4948c534856ea2f33e0306a37cc2e983a689ef9c590468a1",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 8318428650128270256,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4690957c46bf327f4948c534856ea2f33e0306a37cc2e983a689ef9c590468a1.png",
+      "image_file_sha256": "203afd8ff90e0300c6984abba7cf4aa4d3e8096ddb9473a9542f7853d3abc9de",
+      "rgb_sha256": "bfdc812ad77b0cacd75166cffa8dba24070463ffd71bf64455876daf43b1e69f",
+      "source_id": "fb350721e5363b488a42fa5ec4521c38972f5815cee1f5f58c6d5d3ecb794f7b",
+      "real_parent": "img_2201_pre_part_1.jpg",
+      "conditioning_id": "110.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2201_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            242.9996159999996,
+            246.00063999999998,
+            268.00160000000005,
+            266.00038399999994
+          ],
+          "clipped_xyxy": [
+            242.9996159999996,
+            246.00063999999998,
+            268.00160000000005,
+            266.00038399999994
+          ],
+          "yolo_xywh": [
+            0.49902462499999967,
+            0.5000009999999999,
+            0.048832000000000875,
+            0.03906199999999993
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4c2b66e54287fc3776c8dc00dad4f96a492ddccb01fdfa65ee604cfa18b64fcf",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4568204933342643137,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4c2b66e54287fc3776c8dc00dad4f96a492ddccb01fdfa65ee604cfa18b64fcf.png",
+      "image_file_sha256": "275bebb76fa7a0b7530874da3718277552d560ebcdfc0905fe93d68c10166899",
+      "rgb_sha256": "bd3f9ae05ea7effa64bb302a6df14785cf18dd4ef9185d86f2c1cb70f3175bc3",
+      "source_id": "337cf115491004ee4897fc765d17b5b57aaa5c47c743140d50e022dcbfd23b18",
+      "real_parent": "img_24425_pre_part_1.jpg",
+      "conditioning_id": "208.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_24425_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            242.00147199999992,
+            243.99968,
+            269.00230399999964,
+            268.0001920000001
+          ],
+          "clipped_xyxy": [
+            242.00147199999992,
+            243.99968,
+            269.00230399999964,
+            268.0001920000001
+          ],
+          "yolo_xywh": [
+            0.49902712499999957,
+            0.4999998750000001,
+            0.05273599999999945,
+            0.04687600000000014
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4e19d54cc08c858a60502eee26a57ebf2a1a7c087163d972f77d281922ab0080",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 4008829442188521045,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4e19d54cc08c858a60502eee26a57ebf2a1a7c087163d972f77d281922ab0080.png",
+      "image_file_sha256": "3e887f9cc50f54ea999818ee3ea449d98018886609bd417948efa0ea308433b8",
+      "rgb_sha256": "9dbe0b477c6e4097ec9d420783a903797f7fc61fde9b18b867ce211aa17e5c88",
+      "source_id": "2e9070b7f188a1779beedb72cd110637b9520f19057337fea565b0ed60b0be13",
+      "real_parent": "img_4937_pre_part_1.jpg",
+      "conditioning_id": "036.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_4937_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            241.0016639999999,
+            239.99948799999999,
+            270.0013439999998,
+            272.999936
+          ],
+          "clipped_xyxy": [
+            241.0016639999999,
+            239.99948799999999,
+            270.0013439999998,
+            272.999936
+          ],
+          "yolo_xywh": [
+            0.4990263749999997,
+            0.500976,
+            0.0566399999999998,
+            0.06445400000000001
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4f7b1f2398c894eda74a8b0e3721239e065a5eb0f0811de43f86a3f5ab3647bb",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 5394227673236439477,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4f7b1f2398c894eda74a8b0e3721239e065a5eb0f0811de43f86a3f5ab3647bb.png",
+      "image_file_sha256": "5d58af08c05672c3c55a8b45ea11d3e3f66e31c702b4418607ff314a3626a04d",
+      "rgb_sha256": "24f0fcba9ad277a3c692fa3280b1ebefa8bb3cf99caff174a155dfa0db557610",
+      "source_id": "c012b6e0f184c2275275292a5af9c11f34b7718ded2055049107c0d13be8e62e",
+      "real_parent": "img_3040_pre_part_1.jpg",
+      "conditioning_id": "332.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_3040_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            246.00019199999997,
+            245.00038400000005,
+            266.00095999999985,
+            267.0
+          ],
+          "clipped_xyxy": [
+            246.00019199999997,
+            245.00038400000005,
+            266.00095999999985,
+            267.0
+          ],
+          "yolo_xywh": [
+            0.5000011249999998,
+            0.500000375,
+            0.039063999999999766,
+            0.042967999999999895
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "5170f0999e0cafa7e992ab523fb31fb4735f37685a235674937cf471670f639d",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1988404027192765824,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/5170f0999e0cafa7e992ab523fb31fb4735f37685a235674937cf471670f639d.png",
+      "image_file_sha256": "5a8003dc81fec7b5cbf42915ba3a9ed53bf27ad659b69708adff61354dfedf87",
+      "rgb_sha256": "4afcec451c8c12255b307efe52a51f8b14548a91e871733df200636e150c77f9",
+      "source_id": "c6b4ead6b69937d58c9392acf2d5376548a780ffe9b10082cf5554b454400708",
+      "real_parent": "img_16871_pre_part_0.jpg",
+      "conditioning_id": "223.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_16871_pre_part_0.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            243.99814399999968,
+            242.00057599999997,
+            269.00012800000013,
+            269.000384
+          ],
+          "clipped_xyxy": [
+            243.99814399999968,
+            242.00057599999997,
+            269.00012800000013,
+            269.000384
+          ],
+          "yolo_xywh": [
+            0.5009748749999998,
+            0.49902437499999996,
+            0.048832000000000875,
+            0.05273400000000006
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "5574ced9af35a47b33c079925bf3ef12ae35d6ae4de561294aeaa617c0fcb45b",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 3611362271153492116,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/5574ced9af35a47b33c079925bf3ef12ae35d6ae4de561294aeaa617c0fcb45b.png",
+      "image_file_sha256": "6010639aeb62fdaf3054bef43119dffc72b7c4903ff66639eb06805543e649dd",
+      "rgb_sha256": "371bf5153e8e2d962ae0329e60b15936e6f65b1a565292bc1459416d23d2dcef",
+      "source_id": "dd2f5293cda87261112bfcca26b9a64a87c2f61099d4dc9bf753a8824a4a3c5a",
+      "real_parent": "img_2500_pre_part_1.jpg",
+      "conditioning_id": "200.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2500_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            239.99763200000007,
+            239.99942399999998,
+            272.999104,
+            272.999872
+          ],
+          "clipped_xyxy": [
+            239.99763200000007,
+            239.99942399999998,
+            272.999104,
+            272.999872
+          ],
+          "yolo_xywh": [
+            0.500973375,
+            0.500975875,
+            0.06445599999999985,
+            0.06445400000000001
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "5b278a507ac748a1e61cee3765309c45c70bda90c1234e0fdca53810ecae1d33",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 9149138411338881086,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/5b278a507ac748a1e61cee3765309c45c70bda90c1234e0fdca53810ecae1d33.png",
+      "image_file_sha256": "d9fa0891575cc493c6e4b5ab93567b10ca2a8580b392e63f8b1cd8c9cd330378",
+      "rgb_sha256": "678d6cafb9c3b2e09d22a6f55a0125b1a123a6a0ff719282d807f156fbf271dd",
+      "source_id": "cbb2f1c64c5a2ad8c7af5f23ff207990f39ba978f62ff800a6a5a2b242c38692",
+      "real_parent": "img_7241_pre_part_0.jpg",
+      "conditioning_id": "276.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_7241_pre_part_0.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            240.00204799999983,
+            241.00019199999997,
+            271.0005759999999,
+            269.999872
+          ],
+          "clipped_xyxy": [
+            240.00204799999983,
+            241.00019199999997,
+            271.0005759999999,
+            269.999872
+          ],
+          "yolo_xywh": [
+            0.49902599999999975,
+            0.49902349999999995,
+            0.06054400000000015,
+            0.056640000000000024
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "5f2c9bfa174869bb51c5968816e92a1aed4dbfdf06480d511334f6c78bde5b8f",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 510722975167637974,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/5f2c9bfa174869bb51c5968816e92a1aed4dbfdf06480d511334f6c78bde5b8f.png",
+      "image_file_sha256": "47f7cdc9e1bb39ea183e00360c8462cd319c76ffeb2764cac4bc9809d02e6629",
+      "rgb_sha256": "457a7399426ff21b2f9ef83163f040e3e7fbf04487bfe1e371ccfd0c200769db",
+      "source_id": "4350dc6cce5544f38ce23145e9550c43b1ac3ca1096e4d3a297aa9b6f32cdb95",
+      "real_parent": "img_970_pre_part_1.jpg",
+      "conditioning_id": "289.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_970_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            244.00070400000004,
+            243.99968,
+            266.99974399999974,
+            268.0001920000001
+          ],
+          "clipped_xyxy": [
+            244.00070400000004,
+            243.99968,
+            266.99974399999974,
+            268.0001920000001
+          ],
+          "yolo_xywh": [
+            0.4990238749999998,
+            0.4999998750000001,
+            0.044919999999999405,
+            0.04687600000000014
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "64ec8d6fbf48902a2b0f6db3c6e8177eac1ad4ebb7924bc039cf999e14028c8e",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 2809826971998023449,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/64ec8d6fbf48902a2b0f6db3c6e8177eac1ad4ebb7924bc039cf999e14028c8e.png",
+      "image_file_sha256": "2d14c2447d46679f83c977a846ef778b3f35e73f7067867e29eefa9241881ec0",
+      "rgb_sha256": "4bdcf1a2fc48a73621db7fd6fe197495c8d47ea489bcc2cec358b4134602dffe",
+      "source_id": "c973e4e5e805aaa39c5a0cc5209561504500824ab0f2d2a186e19f79b04d13ad",
+      "real_parent": "img_15890_pre_part_0.jpg",
+      "conditioning_id": "198.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_15890_pre_part_0.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            233.99884800000018,
+            237.99987199999998,
+            278.99750399999994,
+            273.0001920000001
+          ],
+          "clipped_xyxy": [
+            233.99884800000018,
+            237.99987199999998,
+            278.99750399999994,
+            273.0001920000001
+          ],
+          "yolo_xywh": [
+            0.5009730000000001,
+            0.49902350000000006,
+            0.08788799999999952,
+            0.0683600000000002
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "663fd5376c5ad58726d65dbb1486e35b16d4f4856f095ea2364eaf05e82cd7c2",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 1254934937989604133,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/663fd5376c5ad58726d65dbb1486e35b16d4f4856f095ea2364eaf05e82cd7c2.png",
+      "image_file_sha256": "6a53de7da09ff97800eb7180e3d9a2112cc48a939dfbad92643bc61e7d40cf64",
+      "rgb_sha256": "68ee5e8681eb75b309040e947d1f9342877d1dd6e9930871400887141eb467d8",
+      "source_id": "33d7edccede62292ad69a8d35b22980dc457aa19196ee444213cd7b98df40972",
+      "real_parent": "img_2248_pre_part_1.jpg",
+      "conditioning_id": "147.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2248_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            241.00128000000007,
+            243.00006399999995,
+            270.00095999999996,
+            269.999872
+          ],
+          "clipped_xyxy": [
+            241.00128000000007,
+            243.00006399999995,
+            270.00095999999996,
+            269.999872
+          ],
+          "yolo_xywh": [
+            0.49902562500000003,
+            0.5009764999999999,
+            0.0566399999999998,
+            0.05273400000000006
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "66f69473ed535c899835d7af779b707f76a2d7bf8b941589ce906199ca1b0b18",
+      "class": "flash",
+      "bank": "B",
+      "sample_seed": 7240910787373503483,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/66f69473ed535c899835d7af779b707f76a2d7bf8b941589ce906199ca1b0b18.png",
+      "image_file_sha256": "878fffae143ac97759f06e64603578fd323d44e7aec751ea1593abee0808a3f2",
+      "rgb_sha256": "59666206e99371214d82584d4f86965fc487da24dab9fdf168523853065d55bf",
+      "source_id": "2b93fcbb2d5dd88bc3effe6c942607352d753db15c2def1c3de701c3ee0c53e9",
+      "real_parent": "img_4462_pre_part_1.jpg",
+      "conditioning_id": "258.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_4462_pre_part_1.jpg:line1",
+          "class_id": 0,
+          "projected_xyxy": [
+            245.99788799999988,
+            241.99948799999993,
+            266.9980800000003,
+            269.99974399999996
+          ],
+          "clipped_xyxy": [
+            245.99788799999988,
+            241.99948799999993,
+            266.9980800000003,
+            269.99974399999996
+          ],
+          "yolo_xywh": [
+            0.5009726250000002,
+            0.4999992499999999,
+            0.04101600000000083,
+            0.05468800000000007
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "01d4120e3ee3e46475a51837dcd562c60f00833d199da5957d311f29b36f806d",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5030995504505769697,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/01d4120e3ee3e46475a51837dcd562c60f00833d199da5957d311f29b36f806d.png",
+      "image_file_sha256": "f0836febc1f57cd0f88d53602a8cdc4a0bee67ffc499502ec74832d2f9c320ec",
+      "rgb_sha256": "28954f26225788029e8e633f064a995127e4d988cd05a5f91627d682eed7d83f",
+      "source_id": "fd0fb9a401d99c19b5f028c58ebbc0fdfa8cb801c539ca882ca02bf9b1dd1c35",
+      "real_parent": "blackinst_34.jpg",
+      "conditioning_id": "178.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_34.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            243.36980224,
+            242.723904,
+            269.42802176,
+            268.339776
+          ],
+          "clipped_xyxy": [
+            243.36980224,
+            242.723904,
+            269.42802176,
+            268.339776
+          ],
+          "yolo_xywh": [
+            0.500779125,
+            0.499085625,
+            0.050894959999999934,
+            0.05003099999999994
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "03bb0a6fc6484366711e7125f24312714fa26447f068382718c0440979865f6c",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 2967522523143790320,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/03bb0a6fc6484366711e7125f24312714fa26447f068382718c0440979865f6c.png",
+      "image_file_sha256": "6abbc82a2c89abe68d2c88a4ba21efe1e9052e82680e548974d47f8b44725b48",
+      "rgb_sha256": "430ae0ab0823342d4e3633440c0db004fb2ebebeda84012e645693463e99231a",
+      "source_id": "3075a3b8c8c658f3f4d8c983e314bdef64c9894fe2dfa94860853426e91d48ae",
+      "real_parent": "blackinst_23.jpg",
+      "conditioning_id": "313.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_23.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            246.0473292800002,
+            247.03577599999994,
+            264.9652787199998,
+            265.28140800000006
+          ],
+          "clipped_xyxy": [
+            246.0473292800002,
+            247.03577599999994,
+            264.9652787199998,
+            265.28140800000006
+          ],
+          "yolo_xywh": [
+            0.49903575,
+            0.50030975,
+            0.03694911999999917,
+            0.03563600000000022
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "062ddfd7947163567832d36850783e1c7d0d537d72eab2c5c3e1b6e0b5742c65",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5781022856844281122,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/062ddfd7947163567832d36850783e1c7d0d537d72eab2c5c3e1b6e0b5742c65.png",
+      "image_file_sha256": "56e63b689cb559adaddfa03a8c611ee606502ac682adccc0a7f6a41461bc7943",
+      "rgb_sha256": "65890bdfa32d79312144e9cdd7046aac3d7f8398fb929a7ed49741b9241fcaef",
+      "source_id": "9f7addae19d7158eae32d1022b8b7661ca60cb0ca42ce1f45391c928eabf516c",
+      "real_parent": "blackinst_17.jpg",
+      "conditioning_id": "198.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_17.jpg:line3",
+          "class_id": 1,
+          "projected_xyxy": [
+            94.86183679999976,
+            443.8198272000001,
+            137.1894911999998,
+            482.2955008
+          ],
+          "clipped_xyxy": [
+            94.86183679999976,
+            443.8198272000001,
+            137.1894911999998,
+            482.2955008
+          ],
+          "yolo_xywh": [
+            0.22661262499999957,
+            0.9044095000000001,
+            0.08267120000000006,
+            0.07514779999999988
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        },
+        {
+          "annotation_id": "blackinst_17.jpg:line4",
+          "class_id": 1,
+          "projected_xyxy": [
+            247.73238016000005,
+            246.35217920000002,
+            264.6164198399997,
+            265.6944128
+          ],
+          "clipped_xyxy": [
+            247.73238016000005,
+            246.35217920000002,
+            264.6164198399997,
+            265.6944128
+          ],
+          "yolo_xywh": [
+            0.5003406249999998,
+            0.5000455,
+            0.032976639999999335,
+            0.03777779999999997
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "09a11ef96f62ea6a6adca5c7bd68408a032cc2bdb519d3031fca8ceb19e06394",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 7380554665486274628,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/09a11ef96f62ea6a6adca5c7bd68408a032cc2bdb519d3031fca8ceb19e06394.png",
+      "image_file_sha256": "88621c71428eeec2f2d4216e811693fdaf31bb9f78f68167c73a4cab9249ce20",
+      "rgb_sha256": "c277d11b5218c8dbd08179b5ad717de8ccd760db671f9fc0f76f86c7e0459a8b",
+      "source_id": "32bae35dbd8154b67f0da7f0d4396ba910bfc6a8acdbdd784df061c9742712ef",
+      "real_parent": "blackinst_8.jpg",
+      "conditioning_id": "368.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_8.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            246.1474432,
+            246.7423616000001,
+            265.3273727999999,
+            264.6994304
+          ],
+          "clipped_xyxy": [
+            246.1474432,
+            246.7423616000001,
+            265.3273727999999,
+            264.6994304
+          ],
+          "yolo_xywh": [
+            0.4994871249999999,
+            0.4994548750000001,
+            0.03746079999999985,
+            0.03507239999999978
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "0b86ec742679b156397d19889221acb88671d57410dc26bb5b0b992300b41277",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6952508309144131526,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/0b86ec742679b156397d19889221acb88671d57410dc26bb5b0b992300b41277.png",
+      "image_file_sha256": "2baa0e1b5c5eb129c480c6c6a5ed624474523427a32b4a2c83419b45a53928bb",
+      "rgb_sha256": "06d1513305afa41e6b7ab9a15083cda432e754d15f237486609316d3931c18d6",
+      "source_id": "d27e71ab2f1531bace7b0bbb6c5d05d920f7cae93400db0a63c77e61fff9484a",
+      "real_parent": "blackinst_9.jpg",
+      "conditioning_id": "287.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_9.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            248.35262976000013,
+            249.68766719999996,
+            263.63533824000024,
+            262.4041088
+          ],
+          "clipped_xyxy": [
+            248.35262976000013,
+            249.68766719999996,
+            263.63533824000024,
+            262.4041088
+          ],
+          "yolo_xywh": [
+            0.49998825000000036,
+            0.500089625,
+            0.029849040000000215,
+            0.024836800000000103
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "102bf068915ae999885e8a7d89c490546432e996861f1b2a9d5ae2d56d525711",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6041353130696349244,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/102bf068915ae999885e8a7d89c490546432e996861f1b2a9d5ae2d56d525711.png",
+      "image_file_sha256": "080be4e251575cbcf6a13ec12505cac325cb453fc3cf27a49bd536991d05be1e",
+      "rgb_sha256": "284f4e1900aa4edcf749e64500920317af0360fe28a9ea2ba9c4ec1c9479c69d",
+      "source_id": "e4fc5e37dd964ea888fabcae9655c8d639e7eecdc2f244a03181673aee1e4ebc",
+      "real_parent": "blackinst_28.jpg",
+      "conditioning_id": "232.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_28.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.22066175999998,
+            245.28721919999998,
+            266.94842623999966,
+            265.76814079999997
+          ],
+          "clipped_xyxy": [
+            245.22066175999998,
+            245.28721919999998,
+            266.94842623999966,
+            265.76814079999997
+          ],
+          "yolo_xywh": [
+            0.5001651249999997,
+            0.49907749999999995,
+            0.04243703999999937,
+            0.040001799999999976
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "128f547e13b94ddf7f8850a40ed9c84c35210b56ac9026c1796bd8b69860cfe6",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 8987035460540271044,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/128f547e13b94ddf7f8850a40ed9c84c35210b56ac9026c1796bd8b69860cfe6.png",
+      "image_file_sha256": "fc68abf64ca535c806ca0f15510386eaa72c6b93c970ed0e5eecb03c2bd62dab",
+      "rgb_sha256": "06d0d6ef6e3a2bc555b62bffdae9f9c821d597a23ca7a2ee64d4eceb5510184d",
+      "source_id": "ffec5e26c023a34be148a445189975512f16b3319d12162f2bb652d2876e52ea",
+      "real_parent": "img_8363_pre_part_1.jpg",
+      "conditioning_id": "040.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_8363_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            242.0002559999998,
+            243.99961599999995,
+            270.00051200000007,
+            268.000128
+          ],
+          "clipped_xyxy": [
+            242.0002559999998,
+            243.99961599999995,
+            270.00051200000007,
+            268.000128
+          ],
+          "yolo_xywh": [
+            0.5000007499999999,
+            0.49999974999999997,
+            0.054688000000000514,
+            0.04687600000000014
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "1625166f68809a94c5dc6412802a9f5383a9cd149cf210a53c050459ac5bcdf6",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6818898375858063920,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/1625166f68809a94c5dc6412802a9f5383a9cd149cf210a53c050459ac5bcdf6.png",
+      "image_file_sha256": "e5c7316529a98acf306308966bbf11d7849444a73a88feb89236ce911e243865",
+      "rgb_sha256": "2aa4345c5154ec3a1b4db06e7117ff6dad94641637d84a79c7f8f6dfa4e2ece7",
+      "source_id": "266c34ee80c18a3598eb18bafe4d23cdb9969c4306bb4dba106ad2f259a9479b",
+      "real_parent": "blackinst_19.jpg",
+      "conditioning_id": "017.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_19.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.4179455999997,
+            246.34261760000004,
+            266.88938240000016,
+            265.6232064000001
+          ],
+          "clipped_xyxy": [
+            245.4179455999997,
+            246.34261760000004,
+            266.88938240000016,
+            265.6232064000001
+          ],
+          "yolo_xywh": [
+            0.5003001249999999,
+            0.4999666250000001,
+            0.04193640000000087,
+            0.03765740000000006
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "19dd63ed200586b3509786b9a610fd23de6ec010cd65b9cb339e5f4b2c0fa5fc",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 7303066332096925500,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/19dd63ed200586b3509786b9a610fd23de6ec010cd65b9cb339e5f4b2c0fa5fc.png",
+      "image_file_sha256": "f319b4b459be591a53e7bed7e721f91c07d32895605344d3d8e5a8375a4522f4",
+      "rgb_sha256": "7e976bc66497bf2452a8ce46939b5810a3750f06b912628e6ff27d60258f45d0",
+      "source_id": "21170315e1b1975fdae3bf23eb7f4618ceab867b5a5a812fa831d2371245f63e",
+      "real_parent": "img_1013_pre_part_1.jpg",
+      "conditioning_id": "053.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1013_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.99820799999998,
+            249.00038400000005,
+            266.99839999999995,
+            262.00006399999995
+          ],
+          "clipped_xyxy": [
+            245.99820799999998,
+            249.00038400000005,
+            266.99839999999995,
+            262.00006399999995
+          ],
+          "yolo_xywh": [
+            0.5009732499999999,
+            0.499023875,
+            0.04101599999999994,
+            0.0253899999999998
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "1b7b610c438558395b6c80db58016bc021479e2255552236c5808941482d6a57",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 4018579469393901813,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/1b7b610c438558395b6c80db58016bc021479e2255552236c5808941482d6a57.png",
+      "image_file_sha256": "8cdf5a552ba62320e5310a01e14ff1f72bcb9bb2a9dc69e0e6ed04a2b821df5a",
+      "rgb_sha256": "d5568ce263c41dc5017504a5c9627e0ff1e118df989ea803efddd26bac55978c",
+      "source_id": "0b2b106715523d6727c7ddf8fde4fbc15d349e4a37af6f8c0b40d8fc033778bd",
+      "real_parent": "img_1515_pre_part_1.jpg",
+      "conditioning_id": "164.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1515_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            249.00134400000024,
+            249.99948799999993,
+            263.0014719999999,
+            261.99974399999996
+          ],
+          "clipped_xyxy": [
+            249.00134400000024,
+            249.99948799999993,
+            263.0014719999999,
+            261.99974399999996
+          ],
+          "yolo_xywh": [
+            0.5000027500000002,
+            0.4999992499999999,
+            0.02734399999999937,
+            0.02343800000000007
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "22260b25c6c25bf32b9af0fe64bcf4981d5cc7a05d32e7ceaf4f43d05da561ab",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 286820097909448430,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/22260b25c6c25bf32b9af0fe64bcf4981d5cc7a05d32e7ceaf4f43d05da561ab.png",
+      "image_file_sha256": "4e5dfe71538c60a207225b60f95ddf30cc21c4e733b376bccc4dcdfab71fb022",
+      "rgb_sha256": "a75ed1005d9bd778ddea6d843937f86af463ecfeea9599f140df6c512b2fa64a",
+      "source_id": "4c7465fa63748bda1d37cfa7285542292d2bc3046eb77f85a45439b245dce97c",
+      "real_parent": "img_8747_pre_part_1.jpg",
+      "conditioning_id": "357.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_8747_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            240.99916799999983,
+            248.000448,
+            270.99827200000027,
+            263.0
+          ],
+          "clipped_xyxy": [
+            240.99916799999983,
+            248.000448,
+            270.99827200000027,
+            263.0
+          ],
+          "yolo_xywh": [
+            0.4999975000000001,
+            0.499023875,
+            0.058592000000000866,
+            0.02929599999999999
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "293c5f1d4232e8e235725f54f695175aa89489bb9beda5eae3c6498b128d5e5a",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6045296612884141943,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/293c5f1d4232e8e235725f54f695175aa89489bb9beda5eae3c6498b128d5e5a.png",
+      "image_file_sha256": "bde6c5f753ff9d9ba8ddb2398cbab659873ec2c8e81a13bbdd0a8380e4a48287",
+      "rgb_sha256": "97598233915007b194744ea273332cbb81edfed9ddd77742d0a94131e0277ca6",
+      "source_id": "8401cde9ebfd42078deff229505aa0979a2ad50f3f31c65a2e3007646ea78363",
+      "real_parent": "blackinst_16.jpg",
+      "conditioning_id": "289.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_16.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            241.19840767999995,
+            240.1861632,
+            270.47698432000016,
+            271.8891008
+          ],
+          "clipped_xyxy": [
+            241.19840767999995,
+            240.1861632,
+            270.47698432000016,
+            271.8891008
+          ],
+          "yolo_xywh": [
+            0.4996830000000001,
+            0.5000735000000001,
+            0.05718472000000041,
+            0.06191979999999997
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "29782d96a84f1e9cb01f645df15a42f44be83b379ca8ef348bf01c4ee67e3a43",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 3812834333017321860,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/29782d96a84f1e9cb01f645df15a42f44be83b379ca8ef348bf01c4ee67e3a43.png",
+      "image_file_sha256": "d9195d4fa9c6d57dff77f8045c15c34820d6c8a377cb42b52fa22f0f0e361cbc",
+      "rgb_sha256": "65136fd290b58a693aa7316c0b6f5ea123cbc5298bfa781aa66b4980ada492a8",
+      "source_id": "68559b1511cdc97373e2633a9c2c4c9b8e87318c8477c2d81bbb2590363e5c34",
+      "real_parent": "blackinst_13.jpg",
+      "conditioning_id": "070.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_13.jpg:line3",
+          "class_id": 1,
+          "projected_xyxy": [
+            238.3715456,
+            239.28067840000006,
+            274.5885823999997,
+            271.93788159999997
+          ],
+          "clipped_xyxy": [
+            238.3715456,
+            239.28067840000006,
+            274.5885823999997,
+            271.93788159999997
+          ],
+          "yolo_xywh": [
+            0.5009376249999997,
+            0.499236875,
+            0.07073639999999948,
+            0.06378359999999983
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "2b19773b1d7c7bcf7dd7037c0b0f67f59e0eb0c31c089b53f5ec69287238f4ac",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 3073905087990583999,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/2b19773b1d7c7bcf7dd7037c0b0f67f59e0eb0c31c089b53f5ec69287238f4ac.png",
+      "image_file_sha256": "a65d7b533bf3714104eb3d1416e84f15347b78ac7fc996566ea4a63da7d4219b",
+      "rgb_sha256": "af6e8f338fa9517bc7e1875eab23687376512516204bf5619a6b18aa7fd361f7",
+      "source_id": "c453403acd336432e0601ff4a06930c47fd33525947ad6c291d2dec53814851b",
+      "real_parent": "img_1083_pre_part_0.jpg",
+      "conditioning_id": "066.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1083_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            243.99820799999998,
+            244.99974399999996,
+            269.0001920000004,
+            267.99980800000003
+          ],
+          "clipped_xyxy": [
+            243.99820799999998,
+            244.99974399999996,
+            269.0001920000004,
+            267.99980800000003
+          ],
+          "yolo_xywh": [
+            0.5009750000000004,
+            0.500976125,
+            0.048832000000000875,
+            0.04492200000000013
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "2b35a154967f74ee8ec4a85dd9aa175816dc4223078f3a38a8bff4acf7dea446",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5063608455226754435,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/2b35a154967f74ee8ec4a85dd9aa175816dc4223078f3a38a8bff4acf7dea446.png",
+      "image_file_sha256": "a58d596e07ac0e8cdbf415401eb586dadb846cc5f5793fb2a777e36ee415de7d",
+      "rgb_sha256": "568b09eec6272467e0fbdc3ea8542e31aeb924dc9af726cd32eab170509f16e6",
+      "source_id": "ffe67d1a0dec6df5f41ed194d0784fa0ad72cdfd39b6b440f165b769b5d7e40e",
+      "real_parent": "img_2195_pre_part_1.jpg",
+      "conditioning_id": "395.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_2195_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.99852800000008,
+            245.99993599999993,
+            265.99929599999996,
+            265.00025600000004
+          ],
+          "clipped_xyxy": [
+            245.99852800000008,
+            245.99993599999993,
+            265.99929599999996,
+            265.00025600000004
+          ],
+          "yolo_xywh": [
+            0.49999787500000004,
+            0.49902362499999997,
+            0.039063999999999766,
+            0.0371100000000002
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "3006471543a4edf77faf514904f0a24af48c3fd6824f8689d660f27acba654c6",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 3981232887526001002,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/3006471543a4edf77faf514904f0a24af48c3fd6824f8689d660f27acba654c6.png",
+      "image_file_sha256": "71bdfd538886bf9dbecafdfb0725e8b9fe65198b14bc08ac73c7f98971d9d286",
+      "rgb_sha256": "a87a070b395e26879b4db7bf478063005878cc0e1da0bb0e173f52850068fe47",
+      "source_id": "725b2a66cb9b505081113ed76c76c15b6a6463930ddb7280f689090f06312f55",
+      "real_parent": "img_9389_pre_part_1.jpg",
+      "conditioning_id": "235.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_9389_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            241.00083200000017,
+            241.999552,
+            270.00051200000007,
+            269.99980800000003
+          ],
+          "clipped_xyxy": [
+            241.00083200000017,
+            241.999552,
+            270.00051200000007,
+            269.99980800000003
+          ],
+          "yolo_xywh": [
+            0.49902475000000024,
+            0.499999375,
+            0.0566399999999998,
+            0.05468800000000007
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "31812b0600e36e66fb9eabe370805c8f23cc2914850b97e95d2b99824cc0c671",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 8966599600653506106,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/31812b0600e36e66fb9eabe370805c8f23cc2914850b97e95d2b99824cc0c671.png",
+      "image_file_sha256": "73faf69d7fb9d7d923da5f3a00c473d7ffc81e6ccfe57cdcee59624f7df88918",
+      "rgb_sha256": "1b1cc7cdb40e4f03c16f1b44f05f62d1271d694198c97831817928340624ba28",
+      "source_id": "7a82048acc031d95236126b10e82b09ba54c59b01251172e39f470a1cae690a0",
+      "real_parent": "blackinst_13.jpg",
+      "conditioning_id": "368.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_13.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            242.56904704,
+            241.8211328,
+            268.95965695999985,
+            269.17893119999997
+          ],
+          "clipped_xyxy": [
+            242.56904704,
+            241.8211328,
+            268.95965695999985,
+            269.17893119999997
+          ],
+          "yolo_xywh": [
+            0.49953974999999984,
+            0.49902349999999995,
+            0.05154415999999973,
+            0.05343319999999996
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "323b33d1eb435422b7f6c4bd9009ef454064807298f94db5fefdd88213f77c9d",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 9072664281839594549,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/323b33d1eb435422b7f6c4bd9009ef454064807298f94db5fefdd88213f77c9d.png",
+      "image_file_sha256": "641a0e06badf3ac5baeb5ef54f5df726a984e9186b9640b5fb2d7ea27fe9cac7",
+      "rgb_sha256": "e255c73d841ac4b9a48d18a35d614ef493177cc4aa31e6e2b3c842812aee7622",
+      "source_id": "5dff376b926213c6d273a70343e5baec2ae692d54c3a32a8f75997b8e0f2061b",
+      "real_parent": "blackinst_12.jpg",
+      "conditioning_id": "183.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_12.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.95483135999984,
+            246.37926399999998,
+            266.44580864,
+            266.366208
+          ],
+          "clipped_xyxy": [
+            245.95483135999984,
+            246.37926399999998,
+            266.44580864,
+            266.366208
+          ],
+          "yolo_xywh": [
+            0.5003912499999998,
+            0.500728,
+            0.0400214400000003,
+            0.03903699999999999
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        },
+        {
+          "annotation_id": "blackinst_12.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            507.9155353599999,
+            449.2124672,
+            535.5315046400001,
+            475.7790207999999
+          ],
+          "clipped_xyxy": [
+            507.9155353599999,
+            449.2124672,
+            512.0,
+            475.7790207999999
+          ],
+          "yolo_xywh": [
+            0.9960112649999999,
+            0.9033119999999999,
+            0.007977470000000153,
+            0.05188779999999982
+          ],
+          "intersects_output": true,
+          "clipping_applied": true
+        }
+      ]
+    },
+    {
+      "slot_id": "43fb5595511c0747f72a34d49644c9a20689dbbbfe5c3052a65f213b56de6fd6",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 8279348997588103626,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/43fb5595511c0747f72a34d49644c9a20689dbbbfe5c3052a65f213b56de6fd6.png",
+      "image_file_sha256": "4d0481a8c577745f61a3a8249c0072f93a53b82e54266fc8ba74ff84360be6f1",
+      "rgb_sha256": "4e55f15c0f8237f7f2832b50a613a1c81948cfc43b732607db33bfde91d0db46",
+      "source_id": "476f5888f046051e149358ee7fc55046c1527123e7295080b96d59477fb8f255",
+      "real_parent": "blackinst_15.jpg",
+      "conditioning_id": "268.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_15.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            242.6198246400004,
+            242.24770560000002,
+            269.80219136000005,
+            269.7003264
+          ],
+          "clipped_xyxy": [
+            242.6198246400004,
+            242.24770560000002,
+            269.80219136000005,
+            269.7003264
+          ],
+          "yolo_xywh": [
+            0.5004121250000004,
+            0.49994925,
+            0.05309055999999934,
+            0.053618399999999955
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        },
+        {
+          "annotation_id": "blackinst_15.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            106.45897471999979,
+            38.15319039999997,
+            136.2414412799999,
+            66.9063936
+          ],
+          "clipped_xyxy": [
+            106.45897471999979,
+            38.15319039999997,
+            136.2414412799999,
+            66.9063936
+          ],
+          "yolo_xywh": [
+            0.23701212499999968,
+            0.10259724999999997,
+            0.0581688800000002,
+            0.05615860000000006
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4802b9c5b448b1cec1dedb58177dc997c35e7ba76ffaa23b011941c5260144be",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6940686957055437032,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4802b9c5b448b1cec1dedb58177dc997c35e7ba76ffaa23b011941c5260144be.png",
+      "image_file_sha256": "7f1638fef39063a385c5b10598f8ee88ea8aa85f006cd57609c1d17835d3253d",
+      "rgb_sha256": "a79983d1a8d6393e053dda7fdb846e656e37b47aa281d24b18d3cf47cfb36cec",
+      "source_id": "4794e918fc040fb1358e64c00d5204e0647cb1d9408e10457432e052086f65e6",
+      "real_parent": "img_1023_pre_part_0.jpg",
+      "conditioning_id": "151.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1023_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            248.9990399999997,
+            250.000064,
+            263.9985919999999,
+            262.99974399999996
+          ],
+          "clipped_xyxy": [
+            248.9990399999997,
+            250.000064,
+            263.9985919999999,
+            262.99974399999996
+          ],
+          "yolo_xywh": [
+            0.5009742499999996,
+            0.500976375,
+            0.029296000000000433,
+            0.025389999999999913
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "4cfcbfad1cdf721c657fbb9e2051ae0906c485fad5775a9b7819a6aa7403dce6",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 2602955165211696866,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/4cfcbfad1cdf721c657fbb9e2051ae0906c485fad5775a9b7819a6aa7403dce6.png",
+      "image_file_sha256": "12d201157bcf82a013be662622129041d91580c746387c3253a7093a5d129695",
+      "rgb_sha256": "33a402526d09af94e2e3c8c36c8ab52459bec2729f82bcb8305c5e95f5722a99",
+      "source_id": "1f5213d299e1c3c63118ba605916a9e93e221dbdb371057739fcd9229872fb8d",
+      "real_parent": "blackinst_13.jpg",
+      "conditioning_id": "336.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_13.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            238.84387072000004,
+            239.34387199999998,
+            272.72131328,
+            272.19328
+          ],
+          "clipped_xyxy": [
+            238.84387072000004,
+            239.34387199999998,
+            272.72131328,
+            272.19328
+          ],
+          "yolo_xywh": [
+            0.49957537500000004,
+            0.499548,
+            0.06616687999999993,
+            0.06415900000000008
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "52c43b87c54ad804a0402ccc064403ebc511229bb8beb8455fc9928b7b1f7e6a",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5611997642582910637,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/52c43b87c54ad804a0402ccc064403ebc511229bb8beb8455fc9928b7b1f7e6a.png",
+      "image_file_sha256": "6de7ddc56dffe51d4d205d198a05d65d6a6145d0114ba6b6e7040d9dcca2db63",
+      "rgb_sha256": "442c877353b4acd8af324318a750002a0595aa5901cb12cce2e3dc74a7868bb3",
+      "source_id": "2845a4799cf3bd13b1f9b379d65460d7c12a28d0018b67844adc16d65ad107ff",
+      "real_parent": "blackinst_24.jpg",
+      "conditioning_id": "149.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_24.jpg:line3",
+          "class_id": 1,
+          "projected_xyxy": [
+            239.46102272000007,
+            242.968256,
+            271.88950527999987,
+            269.909184
+          ],
+          "clipped_xyxy": [
+            239.46102272000007,
+            242.968256,
+            271.88950527999987,
+            269.909184
+          ],
+          "yolo_xywh": [
+            0.49936574999999994,
+            0.500856875,
+            0.0633368799999996,
+            0.05261899999999997
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "54275a142f84772abf8036ae92dc0e80e21040ec4a914fd37ff611dcbdd4fdb7",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 22056072546659302,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/54275a142f84772abf8036ae92dc0e80e21040ec4a914fd37ff611dcbdd4fdb7.png",
+      "image_file_sha256": "56e5687383dc209fab85a7f38bd03c4d4ab2542d18730595eef3c7dc8f596280",
+      "rgb_sha256": "c9de3afa2bee6e4b230b086b522b20130df93b79f288e7599b8ee8dfc247f035",
+      "source_id": "a90d2e20efc721f93284f3cef108f1598a96f5f3abbcd1883421a5dc355db953",
+      "real_parent": "blackinst_7.jpg",
+      "conditioning_id": "237.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_7.jpg:line3",
+          "class_id": 1,
+          "projected_xyxy": [
+            246.47197952000033,
+            246.73986559999992,
+            265.8020684799999,
+            265.0481664
+          ],
+          "clipped_xyxy": [
+            246.47197952000033,
+            246.73986559999992,
+            265.8020684799999,
+            265.0481664
+          ],
+          "yolo_xywh": [
+            0.5002676250000002,
+            0.49979299999999993,
+            0.037754079999999135,
+            0.03575840000000019
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "56070482dfee5dd0ae24130f4e8066ff642a8fde1b7eda4fa428f9b7dc689e53",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 4999023863592730896,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/56070482dfee5dd0ae24130f4e8066ff642a8fde1b7eda4fa428f9b7dc689e53.png",
+      "image_file_sha256": "0dc18e9c0becfb755ca93bb506374c8849ec37e6b7e357287237623a8fbd3e41",
+      "rgb_sha256": "1d96b377154d02f58dba30ebb03fc8e547ce959ecddf614b8550ed1dbddea372",
+      "source_id": "e48d460247b61c8b4f90d62639d15a060a443241444b787d24d7afcb8de2befa",
+      "real_parent": "img_23458_pre_part_0.jpg",
+      "conditioning_id": "241.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_23458_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            243.0002559999998,
+            245.0,
+            268.00224000000026,
+            266.99961599999995
+          ],
+          "clipped_xyxy": [
+            243.0002559999998,
+            245.0,
+            268.00224000000026,
+            266.99961599999995
+          ],
+          "yolo_xywh": [
+            0.49902587500000006,
+            0.49999962499999995,
+            0.048832000000000875,
+            0.042967999999999895
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "57da6a1b756645c93c6da544a849409454b3f41f430834bc286bdbb4718787f8",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 7226608313005794276,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/57da6a1b756645c93c6da544a849409454b3f41f430834bc286bdbb4718787f8.png",
+      "image_file_sha256": "630debb4933601492c20e77b16c784cddc8de84ae943b057f2ed37c07ec30c53",
+      "rgb_sha256": "32526ac9abf71bce5e5b743b734b9a25ad3fca69f10940845f1ee6d52d5df83a",
+      "source_id": "686ce8425d6ad00302fb23ff68a181df1ac760800d7b1b527f1e64ba02165bb0",
+      "real_parent": "blackinst_26.jpg",
+      "conditioning_id": "061.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_26.jpg:line3",
+          "class_id": 1,
+          "projected_xyxy": [
+            238.80813311999964,
+            240.90036479999992,
+            272.35769088000006,
+            270.6379392
+          ],
+          "clipped_xyxy": [
+            238.80813311999964,
+            240.90036479999992,
+            272.35769088000006,
+            270.6379392
+          ],
+          "yolo_xywh": [
+            0.4991853749999997,
+            0.4995491249999999,
+            0.06552648000000083,
+            0.058081200000000166
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "58a974b9ae35938771b4fc71ad79a18165e18871c1270eddcfe28d02deb76d0f",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5099817369542047993,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/58a974b9ae35938771b4fc71ad79a18165e18871c1270eddcfe28d02deb76d0f.png",
+      "image_file_sha256": "56cc5bf930eb0ec0a6889df5e0603277e7990430036f0c8e87351e154d035ebb",
+      "rgb_sha256": "4a7e3f8f27390b6351bf4145be2f3967c9af222b98b39cd217613ee3bdf3ab01",
+      "source_id": "3941f6e5635b741fbc65a2f27d9cf3d146a3ad7e379515c4b6ac416d7bbaac5a",
+      "real_parent": "img_19226_pre_part_0.jpg",
+      "conditioning_id": "135.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_19226_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.0013439999998,
+            242.99987199999998,
+            266.0015360000002,
+            269.0002559999999
+          ],
+          "clipped_xyxy": [
+            245.0013439999998,
+            242.99987199999998,
+            266.0015360000002,
+            269.0002559999999
+          ],
+          "yolo_xywh": [
+            0.49902625,
+            0.5000001249999999,
+            0.04101600000000083,
+            0.05078199999999988
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "5cd3a34366d71b8b427c3b41d178355e2df52ec3ff258a320da3aee902e80ea6",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5163186043422898545,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/5cd3a34366d71b8b427c3b41d178355e2df52ec3ff258a320da3aee902e80ea6.png",
+      "image_file_sha256": "0c7f1974eb54471624075771f041c8c8e4e46c8866fbbf052fbf8890aef7fb88",
+      "rgb_sha256": "df9c0baadd6dd7a7e380d7519c962cd50dad59a050aa906efdfb85e841b2d90d",
+      "source_id": "78b302e47b2d9c035f722155eae405863ea75a49f34e910dab44482344154158",
+      "real_parent": "blackinst_26.jpg",
+      "conditioning_id": "225.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_26.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            242.49118464000003,
+            242.57555200000002,
+            268.98849536000034,
+            269.03059200000007
+          ],
+          "clipped_xyxy": [
+            242.49118464000003,
+            242.57555200000002,
+            268.98849536000034,
+            269.03059200000007
+          ],
+          "yolo_xywh": [
+            0.49949187500000036,
+            0.4996153750000001,
+            0.051752560000000614,
+            0.051670000000000105
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "64e3f3a11e851eb000e79b74150267db5c3f89a40ff65503e19860dbbc307f3a",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6722130352843007163,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/64e3f3a11e851eb000e79b74150267db5c3f89a40ff65503e19860dbbc307f3a.png",
+      "image_file_sha256": "4099592daa928de5461e51f3f449f79fc529d63efb5a88ea6af8688111ae789f",
+      "rgb_sha256": "6913a2f59445a63dc6eb27d2156f28a6a3edf8ec94da9e41cc1d87dee88af2ff",
+      "source_id": "c3ec02c448d98e1a36816327ddf01697405f985dc69a3b700ef5f8d46176ff77",
+      "real_parent": "img_9399_pre_part_1.jpg",
+      "conditioning_id": "158.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_9399_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            227.000512,
+            233.99980800000003,
+            284.999872,
+            278.00006400000007
+          ],
+          "clipped_xyxy": [
+            227.000512,
+            233.99980800000003,
+            284.999872,
+            278.00006400000007
+          ],
+          "yolo_xywh": [
+            0.5000003749999999,
+            0.4999998750000001,
+            0.11327999999999999,
+            0.08593800000000007
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6628db1201967c5f1ad73b58ab037347fcb24671e5f9ec935b64a46307f215f8",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 5601734342148889203,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6628db1201967c5f1ad73b58ab037347fcb24671e5f9ec935b64a46307f215f8.png",
+      "image_file_sha256": "ce7bdc5b0f6e817d6b3a0f0434af87adec4c52dd844dce655c207a5624ea9a8c",
+      "rgb_sha256": "a34bbc62966b216519a451ff2681b6a0b34deb32c0813b18a219c5d1ce6ad6a6",
+      "source_id": "38f992794fba9d68148918cc7e3cfca220e1ee8c2fcfcc64acdc1422ec930578",
+      "real_parent": "blackinst_7.jpg",
+      "conditioning_id": "343.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_7.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            242.83333631999994,
+            244.2317824,
+            268.51693567999973,
+            267.97250560000003
+          ],
+          "clipped_xyxy": [
+            242.83333631999994,
+            244.2317824,
+            268.51693567999973,
+            267.97250560000003
+          ],
+          "yolo_xywh": [
+            0.4993654999999997,
+            0.5001995,
+            0.05016327999999959,
+            0.04636860000000009
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6855cb980b78cf398761540090af168be7b6470f2e4bb7d8d7c72eba86d5c956",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 4104813697766705865,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6855cb980b78cf398761540090af168be7b6470f2e4bb7d8d7c72eba86d5c956.png",
+      "image_file_sha256": "102ce3086db1c60efb1e13109df3e9f79b2556773f52b3339d247fe11c66b2a0",
+      "rgb_sha256": "5a69eb1a4d81845d48d564c6af1502e0f3209fb9bff2e5862ff9dca284fa7e3d",
+      "source_id": "d4ec421a960f8ab4399285e046420b290342a9d8d4d4579ed861a019b717a89b",
+      "real_parent": "blackinst_12.jpg",
+      "conditioning_id": "388.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_12.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            -20.045168640000156,
+            40.37926399999998,
+            0.44580863999999565,
+            60.36620799999997
+          ],
+          "clipped_xyxy": [
+            0.0,
+            40.37926399999998,
+            0.44580863999999565,
+            60.36620799999997
+          ],
+          "yolo_xywh": [
+            0.00043535999999999575,
+            0.09838424999999995,
+            0.0008707199999999915,
+            0.03903699999999999
+          ],
+          "intersects_output": true,
+          "clipping_applied": true
+        },
+        {
+          "annotation_id": "blackinst_12.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            241.91553535999992,
+            243.2124672,
+            269.5315046400001,
+            269.7790207999999
+          ],
+          "clipped_xyxy": [
+            241.91553535999992,
+            243.2124672,
+            269.5315046400001,
+            269.7790207999999
+          ],
+          "yolo_xywh": [
+            0.49946,
+            0.5009682499999999,
+            0.053937440000000336,
+            0.05188779999999982
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6a7161038891d57c42bdcc7895a03fbcd2a9f6598078d3e1ca1f931dc9a1599c",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 8450003669224935442,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6a7161038891d57c42bdcc7895a03fbcd2a9f6598078d3e1ca1f931dc9a1599c.png",
+      "image_file_sha256": "944b26126992c90f7a5ddbbf0aed1c89255c3d42543a322732e619f40b3e9726",
+      "rgb_sha256": "1c25559cf3ccedb85cf465e4838e839c1a54fb200c9045f61b38e546b373553d",
+      "source_id": "a84b1b9bf2cab43647fccb838a3c4446b45ba4e8d1807cb33942c1aeecddf000",
+      "real_parent": "img_3539_pre_part_1.jpg",
+      "conditioning_id": "376.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_3539_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            246.99750399999994,
+            245.99980800000003,
+            265.9988480000002,
+            265.999552
+          ],
+          "clipped_xyxy": [
+            246.99750399999994,
+            245.99980800000003,
+            265.9988480000002,
+            265.999552
+          ],
+          "yolo_xywh": [
+            0.5009730000000001,
+            0.499999375,
+            0.03711200000000048,
+            0.03906199999999993
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6b039e80707adb430a6c5838b6148905859045ba3dda6ae69ab66c9ad54390c2",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 7819738383971696586,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6b039e80707adb430a6c5838b6148905859045ba3dda6ae69ab66c9ad54390c2.png",
+      "image_file_sha256": "38b1ef65278a795a9b0aec7e0764df0060a827b2ea33dad7b7181659feb15378",
+      "rgb_sha256": "ede82520001f31061e43c351fa8bee0c58497460daa1efb7986eb62f01537200",
+      "source_id": "4f7c890e862a215180397661d4e8feef37009c2907b99ba59134cbefdeca3167",
+      "real_parent": "img_4321_pre_part_1.jpg",
+      "conditioning_id": "107.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_4321_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            246.00115200000005,
+            247.99968,
+            265.00249599999984,
+            265.000128
+          ],
+          "clipped_xyxy": [
+            246.00115200000005,
+            247.99968,
+            265.00249599999984,
+            265.000128
+          ],
+          "yolo_xywh": [
+            0.4990269999999999,
+            0.500976375,
+            0.03711199999999959,
+            0.03320400000000001
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6ba5e237a223a5f6da03d314add21af637b02bd3699ce5d87d5fe251bdcd82bf",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 671705509986688577,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6ba5e237a223a5f6da03d314add21af637b02bd3699ce5d87d5fe251bdcd82bf.png",
+      "image_file_sha256": "0124e89e17762f6e8a8cf8e1830709ed1e92227d8bd7a0ca0e0f56d89a1b2aac",
+      "rgb_sha256": "b63826c802bd3295971661f2d5321cbfa82a200246e1f02ce607939bde61dbe7",
+      "source_id": "af61a90cc8a5c4249c70f460c08c4ff6e860e930296792ae2b07213bd4605a4a",
+      "real_parent": "blackinst_11.jpg",
+      "conditioning_id": "038.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_11.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            240.0568806399997,
+            238.44279039999992,
+            272.1298713599999,
+            274.54626559999997
+          ],
+          "clipped_xyxy": [
+            240.0568806399997,
+            238.44279039999992,
+            272.1298713599999,
+            274.54626559999997
+          ],
+          "yolo_xywh": [
+            0.5001823749999996,
+            0.5009658749999999,
+            0.06264256000000046,
+            0.0705146000000001
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6c71c9b7573b2c532cc64ba168594fbabac7d5ceae5c62dab3104876fc7da5f1",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 6961222848113074972,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6c71c9b7573b2c532cc64ba168594fbabac7d5ceae5c62dab3104876fc7da5f1.png",
+      "image_file_sha256": "7db0eba069322065a662ec74318efa6e328ebf6ab2812e7c332870465f8aa159",
+      "rgb_sha256": "6d94401901545ec84886c96075cb786994be65c0d257b94d44b8f6a5084c6075",
+      "source_id": "d86e7f21af116504cd61c0e612ae9ec94c2136ece8a883eec733e9c28838ac3d",
+      "real_parent": "blackinst_23.jpg",
+      "conditioning_id": "239.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_23.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            243.47078655999996,
+            243.50809600000002,
+            268.40735743999994,
+            268.117888
+          ],
+          "clipped_xyxy": [
+            243.47078655999996,
+            243.50809600000002,
+            268.40735743999994,
+            268.117888
+          ],
+          "yolo_xywh": [
+            0.4998809999999999,
+            0.49963475,
+            0.048704239999999954,
+            0.04806599999999994
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6f52e9783816089b6f3125262047efabafdf54850667ab70bcecdbfa6fa358e7",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 4899613293253302804,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6f52e9783816089b6f3125262047efabafdf54850667ab70bcecdbfa6fa358e7.png",
+      "image_file_sha256": "2e6b6a9d6256dccf904dd7c78c02298993edea6e1ea34103f640963bcc4fcfa9",
+      "rgb_sha256": "9a3a297c4e5d99b005b082fd92bea883e7b2bd86dfb8a4644f962b793e622046",
+      "source_id": "ad96215028b7754576ce8142ea1bfab8cff601228e25d057d7d5c125dd069dfa",
+      "real_parent": "img_23459_pre_part_0.jpg",
+      "conditioning_id": "129.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_23459_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            243.00102400000014,
+            243.99980800000003,
+            269.0024320000002,
+            268.99974399999996
+          ],
+          "clipped_xyxy": [
+            243.00102400000014,
+            243.99980800000003,
+            269.0024320000002,
+            268.99974399999996
+          ],
+          "yolo_xywh": [
+            0.5000033750000004,
+            0.500976125,
+            0.05078400000000016,
+            0.04882799999999987
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "6f76ebe291ba155ef21beb76051b1681c66c0b3d5e486bf9e29ba03d1bff8ef8",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 2180698580178068350,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/6f76ebe291ba155ef21beb76051b1681c66c0b3d5e486bf9e29ba03d1bff8ef8.png",
+      "image_file_sha256": "1d81b74d5665135cdfa92e2bb317336b0906c366f5ef48293cf92541f3764a69",
+      "rgb_sha256": "730878680b44b02a25777b6da894a7019011bafceeb131b9e7c8e669e0335214",
+      "source_id": "93b64c1b7b7712c4ad9af5c0891720a1572e406eb78611b89aa3c815a123fde3",
+      "real_parent": "blackinst_4.jpg",
+      "conditioning_id": "045.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_4.jpg:line2",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.8630732800002,
+            247.7877504,
+            265.91459072,
+            264.2432256
+          ],
+          "clipped_xyxy": [
+            245.8630732800002,
+            247.7877504,
+            265.91459072,
+            264.2432256
+          ],
+          "yolo_xywh": [
+            0.4997828750000002,
+            0.50003025,
+            0.03916311999999955,
+            0.032139600000000046
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "71d3ca1c658a2a028b4dfcbee2dc3143bc90555435a0588b1cc8989c27a42fc2",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 3727877206036962175,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/71d3ca1c658a2a028b4dfcbee2dc3143bc90555435a0588b1cc8989c27a42fc2.png",
+      "image_file_sha256": "2f19247ea7d7614460c6a791157435c1453d433093feb973387bc4d7a2d2a8bf",
+      "rgb_sha256": "fcab4bab51f60b76d23a41b866155b9d7a0d2f046535fcf6f6a555b136431da0",
+      "source_id": "165628c0936d6e67b6e3be9f67274ec43a01f5449f5baab0118fc6f3230490f1",
+      "real_parent": "img_1113_pre_part_0.jpg",
+      "conditioning_id": "096.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_1113_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.99936000000025,
+            247.00006399999995,
+            266.00012800000013,
+            264.99993600000005
+          ],
+          "clipped_xyxy": [
+            245.99936000000025,
+            247.00006399999995,
+            266.00012800000013,
+            264.99993600000005
+          ],
+          "yolo_xywh": [
+            0.4999995000000004,
+            0.5,
+            0.039063999999999766,
+            0.03515600000000019
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "75d59b642078cef3f8f182e05341397362b4a97204fa5b9fcb579741a19a76a2",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 2967063008694372064,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/75d59b642078cef3f8f182e05341397362b4a97204fa5b9fcb579741a19a76a2.png",
+      "image_file_sha256": "d62ecc598e07598137c69cf8e60b950e43e8c39e29ee2a904ebea7170e5510d9",
+      "rgb_sha256": "e9a5cf28ac48c6320d383bb5bb5582c7ab4e82f3264709061302eb4c0fa11d28",
+      "source_id": "6fafa104a0208f889ed986fe0ed7143e257f58826e59ce19af4f899309d8afff",
+      "real_parent": "img_9509_pre_part_0.jpg",
+      "conditioning_id": "064.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_9509_pre_part_0.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            237.99878400000034,
+            238.0,
+            273.9985280000001,
+            273.00032
+          ],
+          "clipped_xyxy": [
+            237.99878400000034,
+            238.0,
+            273.9985280000001,
+            273.00032
+          ],
+          "yolo_xywh": [
+            0.4999973750000004,
+            0.49902375,
+            0.07031199999999949,
+            0.06835999999999998
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "77237385a80212dcb368b599ada34286071c538630628af85779f3f4d979d293",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 1051558904829900908,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/77237385a80212dcb368b599ada34286071c538630628af85779f3f4d979d293.png",
+      "image_file_sha256": "4832c47e2748804d22d3035178c79239a750b2a90125def11566863beb57596a",
+      "rgb_sha256": "9853ca60d96a85d11ae5533315aede1469bd1f0c534781a5d824912abfb42473",
+      "source_id": "b2c59d9a26cee9c9d5ce3bd9cc34771099320f9951896fc796873615becc8698",
+      "real_parent": "blackinst_32.jpg",
+      "conditioning_id": "025.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "blackinst_32.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.21251071999995,
+            245.57603840000002,
+            266.1967692799999,
+            265.5366656
+          ],
+          "clipped_xyxy": [
+            245.21251071999995,
+            245.57603840000002,
+            266.1967692799999,
+            265.5366656
+          ],
+          "yolo_xywh": [
+            0.49942312499999986,
+            0.4991335,
+            0.04098487999999989,
+            0.038985599999999954
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    },
+    {
+      "slot_id": "77f7c82e282c7308e2f40c554dd6ee86dbcc9ef69603105a1ffcc57f999e846f",
+      "class": "black",
+      "bank": "B",
+      "sample_seed": 4065850907879153341,
+      "image_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/banks_20261007_035832/formal/B/77f7c82e282c7308e2f40c554dd6ee86dbcc9ef69603105a1ffcc57f999e846f.png",
+      "image_file_sha256": "47bc30f80f6d8e77a953cecabf8920bf110b8cf68ab3325b9d1a76c5564ae40f",
+      "rgb_sha256": "f8ebaea0f0e6a989b40075cc6a7ceea4a6421c29cf79ff882fd62aa64deadb95",
+      "source_id": "29a7f3ef13d6e7275bcce32026ef6277d5d7ca457e679849180249569fc5bb76",
+      "real_parent": "img_13538_pre_part_1.jpg",
+      "conditioning_id": "158.jpg",
+      "synthetic_labels": [
+        {
+          "annotation_id": "img_13538_pre_part_1.jpg:line1",
+          "class_id": 1,
+          "projected_xyxy": [
+            245.00025600000004,
+            246.99987199999998,
+            266.000448,
+            264.00032
+          ],
+          "clipped_xyxy": [
+            245.00025600000004,
+            246.99987199999998,
+            266.000448,
+            264.00032
+          ],
+          "yolo_xywh": [
+            0.49902412500000004,
+            0.49902362499999997,
+            0.04101599999999994,
+            0.03320400000000001
+          ],
+          "intersects_output": true,
+          "clipping_applied": false
+        }
+      ]
+    }
+  ],
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  }
+}

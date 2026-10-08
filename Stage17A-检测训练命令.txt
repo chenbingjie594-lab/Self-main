@@ -1,0 +1,50 @@
+# 上传四个新增文件：
+# tools/plastic_bomo_stage17a_detector_common.py
+# tools/prepare_plastic_bomo_stage17a_detector.py
+# tools/run_plastic_bomo_stage17a_detector.py
+# tools/finalize_plastic_bomo_stage17a_detector.py
+# 依赖此前上传的 frozen_banks / frozen_slots / trainonly / rebuilt probe 等脚本。
+# configs/plastic_bomo_stage17a.json 沿用冻结 detector 参数，准备脚本输出新版训练协议副本；不覆盖历史协议。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_DET_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_detector
+nohup env TASK17_DET_RUN="$TASK17_DET_RUN" CUDA_VISIBLE_DEVICES=3 CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_ROOT=results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability
+TASK17_OUT="$TASK17_ROOT/detector_$TASK17_DET_RUN"
+TASK17_PY=/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python
+$TASK17_PY tools/prepare_plastic_bomo_stage17a_detector.py \
+  --protocol configs/plastic_bomo_stage17a.json \
+  --banks "$TASK17_ROOT/banks_20261007_035832" \
+  --slots "$TASK17_ROOT/slots_frozen_20261007_020941" \
+  --preprobe "$TASK17_ROOT/pregeneration_20261007_024210/probe" \
+  --frozen results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/annotation_provenance_audit.json \
+  --prepared_generator "$TASK17_ROOT/trainonly_20261006_022714/preparation" \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --dataset_root "/mnt/sda/cbj/dataset/Plastic_Bomo/Stage17A_detector_$TASK17_DET_RUN" \
+  --output "$TASK17_OUT/preparation"
+
+# 先执行实际 CPU 数据增强/trace/collate 兼容性检查；失败不会训练。
+$TASK17_PY tools/run_plastic_bomo_stage17a_detector.py \
+  --prepared "$TASK17_OUT/preparation" --model pretrained/yolo11s.pt \
+  --runs "runs/plastic_bomo_stage17a_detector_$TASK17_DET_RUN" \
+  --output "$TASK17_OUT/results" --device 0 --preflight_only
+
+$TASK17_PY tools/run_plastic_bomo_stage17a_detector.py \
+  --prepared "$TASK17_OUT/preparation" --model pretrained/yolo11s.pt \
+  --runs "runs/plastic_bomo_stage17a_detector_$TASK17_DET_RUN" \
+  --output "$TASK17_OUT/results" --device 0
+
+$TASK17_PY tools/finalize_plastic_bomo_stage17a_detector.py --output "$TASK17_OUT/results"
+' > logs/plastic_bomo_stage17a_detector/detector_$TASK17_DET_RUN.log 2>&1 &
+echo $! > logs/plastic_bomo_stage17a_detector/detector_$TASK17_DET_RUN.pid
+echo "OUTPUT: results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_$TASK17_DET_RUN"
+tail -n 60 logs/plastic_bomo_stage17a_detector/detector_$TASK17_DET_RUN.log
+
+# 四组依次训练150 epochs；全部完成并通过顺序/预算检查后，才各评估一次last.pt。
+# 不用best.pt，不新增seed，不自动Stage17B。
+# 下载 detector_<时间>/ 整个目录，包括 preparation、results/order_records 和原始 metrics/CSV/args。
+# checkpoint无需为结果检查下载，但服务器保留四组 runs/.../weights/last.pt。
+# 失败保留全部目录；不要删除历史结果或改参数以获得通过。

@@ -1,0 +1,51 @@
+# 上传以下文件到服务器相同相对位置（不用 git）：
+# configs/plastic_bomo_stage17a_trainonly.json
+# tools/prepare_plastic_bomo_stage17a_trainonly.py
+# tools/train_plastic_bomo_stage17a_trainonly.py
+# tools/rebuild_plastic_bomo_stage17a_baseline.py（复用命令构造，不执行旧 main）
+# experiments/baseline_stage17a_rebuild_split70_s42.json（仅核对既有训练超参数）
+# train_dreambooth_noise.py（已加入 runtime audit 的版本）
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_source_recovery/recovered_historical_crop_source.txt
+# results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_isolation_recovery/recovered_historical_mask_source.txt
+# frozen annotation_provenance_audit.json 和 baseline_rebuild/ 审计应已在服务器上。
+# 此命令只准备干净来源并重训两类 generator，不生成正式图、不训 detector。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_TRAINONLY_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN
+
+nohup env TASK17_TRAINONLY_RUN="$TASK17_TRAINONLY_RUN" CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK17_CLEAN_RESULT=results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_$TASK17_TRAINONLY_RUN
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage17a_trainonly.py \
+  --protocol configs/plastic_bomo_stage17a_trainonly.json \
+  --frozen results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/annotation_provenance_audit.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --crop_source results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_source_recovery/recovered_historical_crop_source.txt \
+  --mask_source results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/historical_isolation_recovery/recovered_historical_mask_source.txt \
+  --dataset_root /mnt/sda/cbj/dataset/Plastic_Bomo/Stage17A_trainonly_$TASK17_TRAINONLY_RUN \
+  --output "$TASK17_CLEAN_RESULT/preparation" \
+  > logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN/preparation.log 2>&1
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/train_plastic_bomo_stage17a_trainonly.py \
+  --protocol configs/plastic_bomo_stage17a_trainonly.json \
+  --prepared "$TASK17_CLEAN_RESULT/preparation" \
+  --frozen results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/annotation_provenance_audit.json \
+  --real_data_yaml /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only.yaml \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --original_rebuild_audit results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/baseline_rebuild \
+  --model_root /mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_stage17a_trainonly_s42_noise_0.0 \
+  --output "$TASK17_CLEAN_RESULT/training" \
+  --logs logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN/classes
+' > logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN/launcher.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN/launcher.pid
+echo "本次目录：$TASK17_TRAINONLY_RUN"
+# 在同一个终端查看状态：
+ps -fp "$(cat logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN/launcher.pid)"
+tail -n 60 logs/plastic_bomo_stage17a_trainonly/$TASK17_TRAINONLY_RUN/launcher.log
+# 准备日志：同目录 preparation.log；两类训练日志：classes/train_flash.log、classes/train_black.log。
+# 下载本次 results/.../trainonly_<时间>/ 整个目录；模型在全新的 baseline_stage17a_trainonly_s42_noise_0.0。
+# 现有模型目录会直接拒绝，不覆盖、不自动续训、不删除失败目录。
+# 完成后仍需 checkpoint/runtime/normal-conditioning/slots 审计，不能直接正式生成或启动 detector。

@@ -1,0 +1,24 @@
+{
+  "status": "LOCAL_ISOLATED_NORMAL_POOL_TEST_PASS",
+  "scope": "LOCAL_TEST",
+  "identity": "stage17a_trainonly_normal_isolation_v1",
+  "normal_count": 174,
+  "excluded_normal_filenames": [
+    "076.jpg",
+    "092.jpg",
+    "133.jpg",
+    "362.jpg",
+    "396.jpg",
+    "411.jpg"
+  ],
+  "original_files_unchanged": true,
+  "related_validation_source_groups_in_new_pool": 0,
+  "claim_scope": "Recovered explicit pre_part/XML relationships only; unknown acquisition relationships are not ruled out",
+  "generator_retrained": false,
+  "generation_parameters_changed": false,
+  "formal_generation_authorized": false,
+  "detector_training_authorized": false,
+  "sampling_count": 0,
+  "training_count": 0,
+  "pool_manifest_sha256": "56b2e25d9b4e03229d98efefc23a20f0493c545925e989dcef4bf720d9f50529"
+}

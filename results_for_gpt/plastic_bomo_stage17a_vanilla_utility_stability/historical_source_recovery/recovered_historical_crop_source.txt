@@ -1,0 +1,219 @@
+from __future__ import annotations
+
+import argparse
+import re
+from pathlib import Path
+
+from PIL import Image
+
+
+IMAGE_EXTS = (".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff")
+
+
+def safe_name(name: str) -> str:
+    name = re.sub(r"[^\w\u4e00-\u9fff.-]+", "_", name.strip(), flags=re.UNICODE)
+    return name.strip("_") or "unknown"
+
+
+def read_classes(root: Path) -> dict[int, str]:
+    class_file = root / "classes.txt"
+    names: dict[int, str] = {}
+    if not class_file.exists():
+        return names
+
+    for line in class_file.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or ":" not in line:
+            continue
+        idx, name = line.split(":", 1)
+        names[int(idx.strip())] = name.strip()
+    return names
+
+
+def class_dir_name(cls: int, class_names: dict[int, str]) -> str:
+    return f"{cls:02d}_{safe_name(class_names.get(cls, f'class_{cls}'))}"
+
+
+def read_yolo_boxes(label_path: Path):
+    boxes = []
+    if not label_path.exists():
+        return boxes
+
+    for line_no, line in enumerate(label_path.read_text(encoding="utf-8").splitlines(), start=1):
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split()
+        if len(parts) != 5:
+            print(f"[WARN] skip invalid label line {label_path}:{line_no}: {line}")
+            continue
+        cls, xc, yc, bw, bh = parts
+        boxes.append((int(float(cls)), float(xc), float(yc), float(bw), float(bh)))
+    return boxes
+
+
+def find_image(image_dir: Path, stem: str) -> Path | None:
+    for ext in IMAGE_EXTS:
+        p = image_dir / f"{stem}{ext}"
+        if p.exists():
+            return p
+    for p in image_dir.glob(f"{stem}.*"):
+        if p.suffix.lower() in IMAGE_EXTS:
+            return p
+    return None
+
+
+def centered_square_crop_box(
+    img_w: int,
+    img_h: int,
+    xc: float,
+    yc: float,
+    bw: float,
+    bh: float,
+    min_size: int,
+    scale: float,
+):
+    cx = int(round(xc * img_w))
+    cy = int(round(yc * img_h))
+    box_w = bw * img_w
+    box_h = bh * img_h
+    crop_size = int(round(max(min_size, max(box_w, box_h) * scale)))
+    crop_size = max(1, crop_size)
+
+    half = crop_size // 2
+    left = cx - half
+    top = cy - half
+    right = left + crop_size
+    bottom = top + crop_size
+
+    src_left = max(0, left)
+    src_top = max(0, top)
+    src_right = min(img_w, right)
+    src_bottom = min(img_h, bottom)
+
+    dst_left = src_left - left
+    dst_top = src_top - top
+
+    return (
+        (src_left, src_top, src_right, src_bottom),
+        (dst_left, dst_top),
+        crop_size,
+        cx,
+        cy,
+    )
+
+
+def crop_with_padding(image: Image.Image, crop_info, fill):
+    src_box, dst_xy, crop_size, _, _ = crop_info
+    out = Image.new(image.mode, (crop_size, crop_size), fill)
+    out.paste(image.crop(src_box), dst_xy)
+    return out
+
+
+def process_split(root: Path, split: str, args, class_names: dict[int, str]):
+    image_dir = root / "images" / split
+    label_dir = root / "labels" / split
+    out_root = root / args.out_dir / split
+    mask_root = root / args.mask_dir / split
+
+    total = 0
+    class_counts: dict[int, int] = {}
+
+    for label_path in sorted(label_dir.glob("*.txt")):
+        image_path = find_image(image_dir, label_path.stem)
+        if image_path is None:
+            print(f"[WARN] image not found for {label_path}")
+            continue
+
+        image = Image.open(image_path).convert("RGB")
+        img_w, img_h = image.size
+        boxes = read_yolo_boxes(label_path)
+        if not boxes:
+            continue
+
+        for idx, (cls, xc, yc, bw, bh) in enumerate(boxes):
+            cls_name = class_dir_name(cls, class_names)
+            cls_root = out_root / cls_name
+            cls_image_dir = cls_root / "images"
+            cls_mask_dir = cls_root / "masks"
+            cls_image_dir.mkdir(parents=True, exist_ok=True)
+            cls_mask_dir.mkdir(parents=True, exist_ok=True)
+
+            crop_info = centered_square_crop_box(
+                img_w=img_w,
+                img_h=img_h,
+                xc=xc,
+                yc=yc,
+                bw=bw,
+                bh=bh,
+                min_size=args.min_size,
+                scale=args.scale,
+            )
+            _, _, crop_size, cx, cy = crop_info
+
+            image_crop = crop_with_padding(image, crop_info, fill=(0, 0, 0))
+
+            mask_path = mask_root / cls_name / f"{label_path.stem}.png"
+            if not mask_path.exists():
+                print(f"[WARN] mask not found: {mask_path}")
+                continue
+            mask_img = Image.open(mask_path).convert("L")
+            mask_crop = crop_with_padding(mask_img, crop_info, fill=0)
+
+            out_stem = f"{label_path.stem}_{idx:02d}_cx{cx}_cy{cy}_s{crop_size}"
+            image_crop.save(cls_image_dir / f"{out_stem}.jpg", quality=args.quality)
+            mask_crop.save(cls_mask_dir / f"{out_stem}.png")
+
+            if args.write_yolo_label:
+                # In the crop coordinate system, the defect center is exactly in
+                # the crop center unless source image boundary padding is used.
+                src_box, dst_xy, _, _, _ = crop_info
+                src_left, src_top, _, _ = src_box
+                dst_left, dst_top = dst_xy
+                local_cx = (cx - src_left + dst_left) / crop_size
+                local_cy = (cy - src_top + dst_top) / crop_size
+                local_bw = min(1.0, (bw * img_w) / crop_size)
+                local_bh = min(1.0, (bh * img_h) / crop_size)
+                label_text = f"{cls} {local_cx:.6f} {local_cy:.6f} {local_bw:.6f} {local_bh:.6f}\n"
+                (cls_root / "labels").mkdir(parents=True, exist_ok=True)
+                (cls_root / "labels" / f"{out_stem}.txt").write_text(label_text, encoding="utf-8")
+
+            class_counts[cls] = class_counts.get(cls, 0) + 1
+            total += 1
+
+    return total, class_counts
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Create class-grouped defect-centered image crops and matching mask crops."
+    )
+    parser.add_argument("--root", type=Path, required=True, help="YOLO dataset root.")
+    parser.add_argument("--splits", nargs="+", default=["train", "val"], help="Dataset splits to process.")
+    parser.add_argument("--mask-dir", default="masks_regular_by_class", help="Class-grouped full-size mask directory under root.")
+    parser.add_argument("--out-dir", default="class_center_crops_regular", help="Output directory under root.")
+    parser.add_argument("--min-size", type=int, default=512, help="Minimum square crop size.")
+    parser.add_argument("--scale", type=float, default=4.0, help="Crop size = max(min_size, bbox_long_side * scale).")
+    parser.add_argument("--quality", type=int, default=95, help="Output JPEG quality.")
+    parser.add_argument("--write-yolo-label", action="store_true", help="Also write remapped bbox labels for each crop.")
+    args = parser.parse_args()
+
+    root = args.root.resolve()
+    if not root.exists():
+        raise FileNotFoundError(root)
+
+    class_names = read_classes(root)
+    grand_total = 0
+    for split in args.splits:
+        total, class_counts = process_split(root, split, args, class_names)
+        grand_total += total
+        print(f"[{split}] crops={total}")
+        for cls, count in sorted(class_counts.items()):
+            print(f"  {class_dir_name(cls, class_names)}: {count}")
+
+    print(f"[DONE] out_dir={root / args.out_dir}")
+    print(f"[DONE] total_crops={grand_total}")
+
+
+if __name__ == "__main__":
+    main()
