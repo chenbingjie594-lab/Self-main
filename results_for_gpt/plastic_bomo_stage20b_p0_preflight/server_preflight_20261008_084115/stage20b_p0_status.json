@@ -1,0 +1,30 @@
+{
+  "scope": "SERVER_PREFLIGHT",
+  "status": "STAGE20B_STRUCTURAL_PREFLIGHT_PASS",
+  "STAGE20B_EXECUTION_AUTHORIZED": true,
+  "local_structural_preflight_pass": true,
+  "TDCRG_DEVELOPMENT_AUTHORIZED": false,
+  "slots": 80,
+  "TRAIN_normals": 394,
+  "TRAIN_assets_hash_verified": 666,
+  "replay_unique_images": 80,
+  "max_replay_reuse": 1,
+  "group_reuse_max": 1,
+  "generator_training_input_counts": {
+    "black": 97,
+    "flash": 75
+  },
+  "runtime_preflight_is_not_forward_test": true,
+  "generator_training_count": 0,
+  "synthetic_generation_count": 0,
+  "detector_training_count": 0,
+  "official_final_eval_forward": 0,
+  "final_eval_image_or_label_content_read": 0,
+  "DeepPCB": 0,
+  "BootstrapGuard": 0,
+  "TDCRG_implementation": 0,
+  "Stage20A_modified": false,
+  "stage20b_auto_start": false,
+  "protocol_sha256": "3e3537cdd241b79e6711525432586d674c7fe31352cea505914987ae15d98c80",
+  "script_sha256": "f5fa4acbfff3a0713a120a7462a1aa386ce6a38d03f8b9cd538466c3602340e4"
+}

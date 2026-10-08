@@ -12,6 +12,32 @@ CFG=p0.load(ROOT/"configs/plastic_bomo_stage20b_p0.json")
 
 
 class P0Tests(unittest.TestCase):
+    def test_missing_manifest_reports_resolved_path(self):
+        with tempfile.TemporaryDirectory() as t:
+            x=p0.inspect_frozen_manifest(Path(t),CFG["stage20a_frozen_manifest_sha256"])
+            self.assertFalse(x["exists"])
+            self.assertFalse(x["hash_match"])
+            self.assertIsNone(x["actual_sha256"])
+            self.assertTrue(Path(x["manifest_path"]).is_absolute())
+
+    def test_crlf_change_is_identified_but_not_accepted(self):
+        with tempfile.TemporaryDirectory() as t:
+            raw=b'{\n  "test": 1\n}\n';expected=p0.hashlib.sha256(raw).hexdigest()
+            (Path(t)/"frozen_artifact_manifest.json").write_bytes(raw.replace(b"\n",b"\r\n"))
+            x=p0.inspect_frozen_manifest(Path(t),expected)
+            self.assertFalse(x["hash_match"])
+            self.assertTrue(x["matches_if_CRLF_converted_to_LF_DIAGNOSTIC_ONLY"])
+            self.assertFalse(x["byte_normalization_accepted"])
+
+    def test_nested_upload_is_reported_without_path_fallback(self):
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);nested=root/"duplicate_folder";nested.mkdir()
+            (nested/"frozen_artifact_manifest.json").write_bytes(b"{}")
+            x=p0.inspect_frozen_manifest(root,p0.hashlib.sha256(b"{}").hexdigest())
+            self.assertFalse(x["hash_match"])
+            self.assertFalse(x["automatic_path_fallback"])
+            self.assertEqual(len(x["nearby_manifest_candidates_DIAGNOSTIC_ONLY"]),1)
+
     def test_unsupported_detector_arg_cannot_be_silently_dropped(self):
         with self.assertRaises(p0.Stop) as e:p0.resolve_detector_arguments({"batch":16},{"batch":1,"cutmix":0.0})
         self.assertEqual(e.exception.status,"DETECTOR_PROTOCOL_NOT_FULLY_FROZEN")

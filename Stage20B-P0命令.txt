@@ -12,7 +12,7 @@ nohup env CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
   --stage20a results_for_gpt/plastic_bomo_stage20a_v2_protocol \
   --local_frozen results_for_gpt/plastic_bomo_stage20b_p0_preflight \
   --real_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
-  --normal_root /mnt/sda/cbj/dataset/Plastic_Bomo/empty_images \
+  --normal_root /mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0 \
   --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
   --detector_model /mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt \
   --scope SERVER_PREFLIGHT \

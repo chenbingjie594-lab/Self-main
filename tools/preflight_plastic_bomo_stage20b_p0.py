@@ -40,6 +40,35 @@ def require(ok,status,detail):
     if not ok:raise Stop(status,detail)
 
 
+def inspect_frozen_manifest(root, expected):
+    """Diagnostic only: never normalize/repair a manifest or accept changed bytes."""
+    path=(root/"frozen_artifact_manifest.json").resolve()
+    row={"requested_stage20a":str(root),"resolved_stage20a":str(root.resolve()),
+         "working_directory":str(Path.cwd()),"manifest_path":str(path),
+         "exists":path.exists(),"is_file":path.is_file(),"expected_sha256":expected,
+         "actual_sha256":None,"hash_match":False}
+    if path.is_file():
+        try:
+            row["actual_sha256"]=sha(path);row["size_bytes"]=path.stat().st_size
+            row["hash_match"]=row["actual_sha256"]==expected
+            if row["size_bytes"]<=4*1024*1024:
+                raw=path.read_bytes();no_bom=raw.removeprefix(b"\xef\xbb\xbf")
+                row.update({"utf8_bom":raw.startswith(b"\xef\xbb\xbf"),"CRLF_count":raw.count(b"\r\n"),
+                    "matches_if_CRLF_converted_to_LF_DIAGNOSTIC_ONLY":hashlib.sha256(raw.replace(b"\r\n",b"\n")).hexdigest()==expected,
+                    "matches_if_BOM_removed_and_LF_DIAGNOSTIC_ONLY":hashlib.sha256(no_bom.replace(b"\r\n",b"\n")).hexdigest()==expected,
+                    "byte_normalization_accepted":False})
+        except OSError as e:row["read_error"]=str(e)
+    if not row["hash_match"]:
+        nearby=[]
+        for candidate in sorted(set(root.glob("*/frozen_artifact_manifest.json"))|set(root.parent.glob("*/frozen_artifact_manifest.json"))):
+            if candidate.is_file() and candidate.resolve()!=path:
+                try:nearby.append({"path":str(candidate.resolve()),"sha256":sha(candidate)})
+                except OSError as e:nearby.append({"path":str(candidate.resolve()),"read_error":str(e)})
+        row["nearby_manifest_candidates_DIAGNOSTIC_ONLY"]=nearby
+        row["automatic_path_fallback"]=False
+    return row
+
+
 def resolve_detector_arguments(defaults, detector):
     custom={"architecture","primary_checkpoint","best_pt_selection","early_stopping","final_eval_during_or_at_train_end",
             "device_count","TF32","cudnn_benchmark","CUBLAS_WORKSPACE_CONFIG","gradient_accumulation","accumulation_rule",
@@ -131,11 +160,13 @@ def environment(repo):
 def run(a,cfg,out):
     repo=a.repo_root.resolve();root=a.stage20a;bound={};binding_errors=[]
     manifest=root/"frozen_artifact_manifest.json"
-    require(manifest.is_file() and sha(manifest)==cfg["stage20a_frozen_manifest_sha256"],"STAGE20A_PROTOCOL_BINDING_FAILED","authoritative frozen manifest missing or modified")
+    manifest_check=inspect_frozen_manifest(root,cfg["stage20a_frozen_manifest_sha256"])
+    save(out/"stage20b_stage20a_binding_audit.json",{"status":"MANIFEST_PASS_ARTIFACT_CHECK_PENDING" if manifest_check["hash_match"] else "STAGE20A_PROTOCOL_BINDING_FAILED","frozen_manifest_check":manifest_check,"stage20a_unchanged":True})
+    require(manifest_check["hash_match"],"STAGE20A_PROTOCOL_BINDING_FAILED",manifest_check)
     for fn,expected in load(manifest)["sha256"].items():
         f=root/fn;actual=sha(f) if f.is_file() else None;bound[fn]={"expected_sha256":expected,"actual_sha256":actual}
         if expected!=actual:binding_errors.append(fn)
-    save(out/"stage20b_stage20a_binding_audit.json",{"status":"PASS" if not binding_errors else "STAGE20A_PROTOCOL_BINDING_FAILED","stage20a_commit":cfg["stage20a_commit"],"artifacts":bound,"stage20a_unchanged":True})
+    save(out/"stage20b_stage20a_binding_audit.json",{"status":"PASS" if not binding_errors else "STAGE20A_PROTOCOL_BINDING_FAILED","stage20a_commit":cfg["stage20a_commit"],"frozen_manifest_check":manifest_check,"artifacts":bound,"stage20a_unchanged":True})
     require(not binding_errors,"STAGE20A_PROTOCOL_BINDING_FAILED",binding_errors)
     if a.scope=="SERVER_PREFLIGHT":
         local_manifest=a.local_frozen/"p0_frozen_artifact_manifest.json"

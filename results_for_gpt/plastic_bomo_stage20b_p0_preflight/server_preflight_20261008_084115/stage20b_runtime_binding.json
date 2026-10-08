@@ -1,0 +1,73 @@
+{
+  "environment": {
+    "versions": {
+      "torch": "2.5.1",
+      "ultralytics": "8.4.145",
+      "transformers": "4.57.6",
+      "accelerate": "1.15.0",
+      "safetensors": "0.8.0",
+      "Pillow": "12.3.0",
+      "numpy": "2.2.6",
+      "PyYAML": "6.0.3"
+    },
+    "source_files": {
+      "ultralytics/cfg/default.yaml": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/ultralytics/cfg/default.yaml",
+        "sha256": "11399cf1e2c4683ee1711e9a2b1a8b65daa29828044bfc0c26cc92d1d947d07b"
+      },
+      "ultralytics/engine/trainer.py": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/ultralytics/engine/trainer.py",
+        "sha256": "389bedcaeef35f7c551fe1758cbd526ba74d9470c8f9d14e361a9aeadff165c4"
+      },
+      "ultralytics/models/yolo/detect/train.py": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/ultralytics/models/yolo/detect/train.py",
+        "sha256": "76d6b181259edc09b03f7cea1f9d59bd4eda2f7964146bbb2e76d4f7201dcf5f"
+      },
+      "ultralytics/utils/loss.py": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/ultralytics/utils/loss.py",
+        "sha256": "357053aa9a24ad2c4d541c3ada3a27232a10d679f89c7b4957b9a84a7da4ec1d"
+      },
+      "ultralytics/utils/torch_utils.py": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/ultralytics/utils/torch_utils.py",
+        "sha256": "33bbd774f10bb8151b612a80aced680a2411e6b7d951596e65d2b9d0698263d5"
+      },
+      "train_dreambooth_noise.py": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/train_dreambooth_noise.py",
+        "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387"
+      },
+      "diffusers/__init__.py": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/__init__.py",
+        "sha256": "d9292d44a5ce0c1f9d99292f3e8fafea49a3031ac9bb557632213d053da70aca"
+      },
+      "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+        "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a"
+      },
+      "diffusers/schedulers/scheduling_ddim.py": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/schedulers/scheduling_ddim.py",
+        "sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd"
+      }
+    },
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "platform": "Linux-6.5.0-44-generic-x86_64-with-glibc2.38",
+    "model_imported": false
+  },
+  "generator_code": [
+    {
+      "path": "train_dreambooth_noise.py",
+      "commit": "23731281570f8bedadad50f058ec4a718fb83524",
+      "available": true,
+      "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387",
+      "actual_sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387"
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "commit": "23731281570f8bedadad50f058ec4a718fb83524",
+      "available": true,
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+      "actual_sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a"
+    }
+  ],
+  "scope": "SERVER_PREFLIGHT",
+  "imports_models": false
+}

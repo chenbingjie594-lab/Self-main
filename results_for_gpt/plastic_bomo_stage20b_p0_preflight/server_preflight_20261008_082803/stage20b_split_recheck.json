@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "counts": {
+    "train_images": 136,
+    "train_boxes": {
+      "black": 97,
+      "flash": 75
+    },
+    "final_eval_images": 48,
+    "final_eval_boxes": {
+      "black": 27,
+      "flash": 33
+    }
+  },
+  "cross_source_groups": [],
+  "cross_rgb_aliases": [],
+  "cross_known_edges": [],
+  "physical_source_complete": false,
+  "final_eval_content_read": 0
+}

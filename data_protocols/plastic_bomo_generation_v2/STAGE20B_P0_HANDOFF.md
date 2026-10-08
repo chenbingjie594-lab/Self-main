@@ -78,3 +78,24 @@ Run only the P0 server command, then download its entire `server_preflight_*`
 folder, including failed audits if any. Do not start generator/detector training,
 sampling, final_eval, TDCRG, BootstrapGuard or DeepPCB. V2 absolute mAP must never
 be ranked against historical Stage14-18 absolute mAP.
+
+## Archived server result (2026-10-08)
+
+The original local freeze remains `SERVER_ASSET_BINDING_PENDING`, as a historical
+local-only record. The downloaded successful server run is separately archived
+at `results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/`:
+`STAGE20B_STRUCTURAL_PREFLIGHT_PASS`, execution authorization true. Its byte
+ledgers and cross-artifact semantics have passed the metadata-only reviewer.
+The earlier failed run is retained, not overwritten.
+
+Review details and explicit remaining runtime limits:
+`results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_review_20261008/REVIEW_REPORT.md`.
+The successful physical normal root is
+`/mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0`.
+No normal IDs, pool membership, slots or hyperparameters changed.
+
+P0 is complete; no further P0 rerun is needed unless assets/runtime change.
+Formal generator/detector execution has NOT started. Do not interpret structural
+authorization as a passed GPU forward or numerical determinism test. Future
+formal execution requires the frozen protocol's dedicated runtime safeguards;
+TDCRG remains unauthorized.
