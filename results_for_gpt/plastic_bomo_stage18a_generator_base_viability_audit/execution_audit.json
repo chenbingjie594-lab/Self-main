@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-08T04:12:27.010052+00:00",
+  "script_sha256": "74f85a423c8f4f9e5c164323c9d321c8cd6379aed00fe339b2b959ca761b43db",
+  "protocol_sha256": "e6252ac9b355e4f99736b044cdfe149fa6631826e5ba6bb072735769a49db9aa",
+  "inventory_reused": true,
+  "inventory_reuse_limitation": "Cached file hashes retain their original observation time, not freshly reverified",
+  "model_loading_count": 0,
+  "validation_files_read": 0,
+  "evidence_inputs": [
+    {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\scored_candidates_v2_fixed_v3_expanded.json",
+      "sha256": "4fd8766d1b091512c52a24af33661186dcde4c8c0eb8f94e85296894c44c5643"
+    },
+    {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\random_matched_manifest_40_40_s42.json",
+      "sha256": "fe9fccefedcc476a86defff2b34d74c1837ff9b9aaf2d188e414d5978cd17713"
+    },
+    {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage14a_generator_bottleneck\\subset_definition.json",
+      "sha256": "1c9a1a83b412f07e3ce70fbb45fbfebe52d461c6e141d062abcd68f4ed3d3746"
+    }
+  ]
+}

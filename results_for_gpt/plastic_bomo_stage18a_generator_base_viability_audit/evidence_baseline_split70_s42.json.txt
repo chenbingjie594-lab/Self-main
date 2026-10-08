@@ -1,0 +1,47 @@
+{
+  "status": "frozen",
+  "purpose": "Medium-strength clean baseline for innovation experiments",
+  "dataset": {
+    "source": "/mnt/sda/cbj/data/Plastic_Bomo_mvtec_ready",
+    "split_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42",
+    "train_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/train",
+    "eval_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/eval",
+    "manifest": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/split_manifest.json",
+    "train_ratio": 0.7,
+    "split_seed": 42
+  },
+  "training": {
+    "base_model": "/mnt/sda/cbj/Self-main/sd2-community/stable-diffusion-2-inpainting",
+    "output_name": "baseline_clean_split70_s42",
+    "checkpoint_root": "/mnt/sda/cbj/Self-main/model/baseline_clean_split70_s42_noise_0.0",
+    "learning_rate": 1e-6,
+    "max_train_steps": 2000,
+    "train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 4,
+    "mixed_precision": "fp16",
+    "gradient_checkpointing": true,
+    "text_noise_scale": 0.0,
+    "soft_mask": false,
+    "trainable_component": "UNet"
+  },
+  "inference": {
+    "config": "configs/baseline_frozen_split70_s42.json",
+    "generation_data_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/train",
+    "held_out_evaluation_root": "/mnt/sda/cbj/data/Plastic_Bomo_split70_seed42/eval",
+    "pipeline": "StableDiffusionInpaintPipeline_dynamic (all optional modules disabled)",
+    "scheduler": "MAGIC-compatible DDIMScheduler (all anomaly-noise controls disabled)",
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "eta": 0.0,
+    "seed": 42
+  },
+  "invariants": [
+    "Use the same pipeline carrier and checkpoint for baseline and innovation modules",
+    "Do not tune baseline per defect class",
+    "Do not use eval images or masks for training or generation",
+    "Do not change baseline seed, prompt, steps, scheduler, or guidance scale",
+    "Apply normal-image quality filtering identically to every method",
+    "The official standard pipeline is a reference only, not the primary RDA ablation baseline"
+  ]
+}

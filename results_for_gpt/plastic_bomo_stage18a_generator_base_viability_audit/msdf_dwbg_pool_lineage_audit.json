@@ -1,0 +1,123 @@
+{
+  "status": "PROCESS_DERIVATION_SUPPORTED_EXACT_CHECKPOINT_AND_ISOLATION_UNRESOLVED",
+  "candidate_count": 761,
+  "class_counts": {
+    "flash": 576,
+    "black": 185
+  },
+  "manifest_sha256": "4fd8766d1b091512c52a24af33661186dcde4c8c0eb8f94e85296894c44c5643",
+  "pool_path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\scored_candidates_v2_fixed_v3_expanded.json",
+  "merged_from": [
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_v3/flash_large_expansion/merged_after_seed23023.json",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_v3/flash_large_expansion/scored_v2_seed24024.json"
+  ],
+  "generator_architecture_evidence": "configs/msdf.json enables MSDF on SD2; exact used checkpoint not linked by hashes",
+  "expected_checkpoint_path": "model/msdf_v3_sd2_2000_s42",
+  "DWBG_role": "POST_GENERATION_CONSTRUCTION_SCORING_SELECTION",
+  "all_761_untouched_raw": false,
+  "composition_record_count": 761,
+  "source_metrics_record_count": 761,
+  "source_output_directories": [
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed12011/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed12011/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed15683/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed15683/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed19997/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed19997/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed24571/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed24571/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed30103/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed30103/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed3407/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed3407/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed42/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed42/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed7859/sd2_2000_s42_msdf_v3/Plastic_Bomo/01_Flash_point",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg_pool_seed7859/sd2_2000_s42_msdf_v3/Plastic_Bomo/02_Big_black_spots"
+  ],
+  "background_directories": [
+    "/mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_split70_seed42/train/Plastic_Bomo/train/good"
+  ],
+  "generation_seed_distribution": {
+    "42": 97,
+    "3407": 90,
+    "7859": 98,
+    "12011": 96,
+    "15683": 88,
+    "19997": 103,
+    "24571": 92,
+    "30103": 97
+  },
+  "annotation_method": "residual support bbox after geometry recomposition; historical builder code and manifest fields",
+  "code_evidence": [
+    {
+      "path": "tools/build_dwbg_candidates.py",
+      "available": true,
+      "sha256": "9808a73b9fb238e696a9beba8a14ca0d389991b435fe8cc4e08402b9e162c4ea",
+      "origin": "HEAD_GIT_BLOB",
+      "snapshot": "evidence_build_dwbg_candidates.py.txt",
+      "snapshot_sha256": "c8710af14b4f3388d4146777fd90203e2ed824803f341aa63b2228a275c19693"
+    },
+    {
+      "path": "tools/build_dasr_detection.py",
+      "available": true,
+      "sha256": "d7033dd2a3686e40cd38c3bb5538da97503eac3991f86c537073b8394b9bf2ac",
+      "origin": "HEAD_GIT_BLOB",
+      "snapshot": "evidence_build_dasr_detection.py.txt",
+      "snapshot_sha256": "7c4f8e1210eb53aa85f8297de5677e8714519fb3d58aa49e34fb09a8fb40905a"
+    },
+    {
+      "path": "tools/score_dwbg_candidates_v2.py",
+      "available": true,
+      "sha256": "9c26d2e9a1f74b28d2a45eb004a2b539d4837c168afa64a4f18a5636c2d79329",
+      "origin": "HEAD_GIT_BLOB",
+      "snapshot": "evidence_score_dwbg_candidates_v2.py.txt",
+      "snapshot_sha256": "5fe8296e46cfec79aa4621e2b78e4d7029786be6dce91d9318a70bd309aafa74"
+    },
+    {
+      "path": "tools/select_dwbg_candidates_v2.py",
+      "available": true,
+      "sha256": "cbf696be2f9b8d0bab5bec9add34a80cd4bc65cf731ca25b222830857a097cbd",
+      "origin": "HEAD_GIT_BLOB",
+      "snapshot": "evidence_select_dwbg_candidates_v2.py.txt",
+      "snapshot_sha256": "6950a371ba3d53b0e8352585287c53abcb6554373dd307a9540f5e1e4781eb7e"
+    },
+    {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\msdf.json",
+      "available": true,
+      "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_msdf.json.txt",
+      "snapshot_sha256": "dd5f82dea0318957fc78c4ebc956615fc04b4316c934e37f980a46ab74c704b0"
+    },
+    {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\experiments\\baseline_split70_s42.json",
+      "available": true,
+      "sha256": "770349b553c4244c76ba8ba45628b0fde169d993d243b7542a557fcb03156ba3",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_baseline_split70_s42.json.txt",
+      "snapshot_sha256": "3c3d33d9435686b597dddf01ea0cd9cfc2c392cb05401bf70522adfd6d58e2a8"
+    },
+    {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\网页端交接记忆.md",
+      "available": true,
+      "sha256": "2e74eda2c2bd46d4c8c093cbb3942ba1b44e80739845c91d71ee21a82f8bda35",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_网页端交接记忆.md.txt",
+      "snapshot_sha256": "346be3a04271405fc7908cf9a8c4feebd551014e33920a5543d6efd1a97852d4"
+    }
+  ],
+  "stage14_random": {
+    "pool_id_count": 80,
+    "all_ids_in_pool": true,
+    "exact_order_equals_historical_random_manifest": true,
+    "exact_set_equals_historical_random_manifest": true,
+    "historical_random_selection": "uniform random from manifold_valid only; no utility/quota/difficulty ranking",
+    "max_per_parent_source": 1,
+    "max_per_seed": 8
+  },
+  "validation_use_in_historical_construction": "UNRESOLVED",
+  "detector_feedback": "detector scoring is recorded; feedback into original diffusion sampling NOT PROVEN",
+  "bootstrap_guard_or_DQ_preselection": "UNRESOLVED; do not conflate later selected arms with the entire pool",
+  "quality_geometry_preprocessing": "historical builder explicitly filters and recomposes before scoring"
+}

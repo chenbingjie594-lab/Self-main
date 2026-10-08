@@ -1,0 +1,1847 @@
+{
+  "scope": "LOCAL_EXISTING_EVIDENCE",
+  "families": [
+    {
+      "generator_id": "ANOMALYDIFFUSION",
+      "generator_name": "AnomalyDiffusion",
+      "method_family": "AnomalyDiffusion",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\run_plastic_bomo_background.sh",
+        "available": true,
+        "sha256": "7e34b132b058aec120e3fdaeb13886cb103521894ce46142632fbe585102a891",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_ANOMALYDIFFUSION_code.txt",
+        "snapshot_sha256": "73fe0199a2c98bf95421d8db3345e19460e1ae1f8e76ee55e092f2f6373c117f"
+      },
+      "config_path": {
+        "path": null,
+        "available": false
+      },
+      "checkpoint_path": null,
+      "native_generation_code": {
+        "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\generate_with_mask.py",
+        "available": true,
+        "sha256": "bf60487e8a2d057f16907c6c65b12615f6f0015f2e48c4c240a81578f2b57b7e",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_ANOMALYDIFFUSION_inference.txt",
+        "snapshot_sha256": "46e2407bfc00479844f7d0a39dc04837ebf5849a49c84c5c41322607c8fc982a"
+      },
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [
+        {
+          "root": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master",
+          "exists": true,
+          "files": [
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\environment-base-cn.yaml",
+              "relative": "environment-base-cn.yaml",
+              "bytes": 281,
+              "kind": "metadata",
+              "sha256": "69c62310089583cc34eb6a997f353ec833ce0215f67541071cb074b0e7eec12e"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\environment-cn.yaml",
+              "relative": "environment-cn.yaml",
+              "bytes": 1152,
+              "kind": "metadata",
+              "sha256": "387623dc7c3cfbfc20a16b27953ac1d94df0ddff6e5fc2b95206e47c9e4f8950"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\environment.yaml",
+              "relative": "environment.yaml",
+              "bytes": 819,
+              "kind": "metadata",
+              "sha256": "b965b089d535e89799384a4b2e417858fefca9e9a9041d288417fc9e4e310443"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\name-anomaly.txt",
+              "relative": "name-anomaly.txt",
+              "bytes": 60,
+              "kind": "metadata",
+              "sha256": "7a5bbfa3c46f873a82260c15a937e0a00c8512ebfc393df81987325faffe98aa"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\requirements-cn.txt",
+              "relative": "requirements-cn.txt",
+              "bytes": 444,
+              "kind": "metadata",
+              "sha256": "316ffc89f527fba99e35d53244cc53a0f591b856d948ed267f034c0185606818"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_16x16x16.yaml",
+              "relative": "configs/autoencoder/autoencoder_kl_16x16x16.yaml",
+              "bytes": 1145,
+              "kind": "metadata",
+              "sha256": "89bb023898da28fb34cd865021f37a9186933a60f64d3ea9813dda9c0f19fb52"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_32x32x4.yaml",
+              "relative": "configs/autoencoder/autoencoder_kl_32x32x4.yaml",
+              "bytes": 1140,
+              "kind": "metadata",
+              "sha256": "c2abfe5293bb47af6488f4f4faa6636a025e732ac0f5ccae0a660d11580600ba"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_64x64x3.yaml",
+              "relative": "configs/autoencoder/autoencoder_kl_64x64x3.yaml",
+              "bytes": 1139,
+              "kind": "metadata",
+              "sha256": "897db209dbd5d4ff0f9a66bd6fdb9804e49324428bd4f938ff9192ddf502ef68"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_8x8x64.yaml",
+              "relative": "configs/autoencoder/autoencoder_kl_8x8x64.yaml",
+              "bytes": 1148,
+              "kind": "metadata",
+              "sha256": "47114981fd3657d9b4c18db2f1b6d4e1dc2b9a89e97d101cbc0831e43cde7bc5"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\celebahq-ldm-vq-4.yaml",
+              "relative": "configs/latent-diffusion/celebahq-ldm-vq-4.yaml",
+              "bytes": 2028,
+              "kind": "metadata",
+              "sha256": "c6b29227879c821a124dca814164b95df2fd1586ae7ac548f17e2bd2f68062d3"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\cin-ldm-vq-f8.yaml",
+              "relative": "configs/latent-diffusion/cin-ldm-vq-f8.yaml",
+              "bytes": 2360,
+              "kind": "metadata",
+              "sha256": "46c28f256edae6bdf835b933d78c30f36684b791491609932df8f387b54a6a23"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\cin256-v2.yaml",
+              "relative": "configs/latent-diffusion/cin256-v2.yaml",
+              "bytes": 1553,
+              "kind": "metadata",
+              "sha256": "b06c64afb41956e1fcc2abaeb3d217ae0edb1a201d09f35e7d656ce61396e779"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\ffhq-ldm-vq-4.yaml",
+              "relative": "configs/latent-diffusion/ffhq-ldm-vq-4.yaml",
+              "bytes": 2020,
+              "kind": "metadata",
+              "sha256": "8ef723f6e71be5abc666500aa0cdd7ad35985d3d08efa2ada4d4ba4cfccf18ca"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\lsun_bedrooms-ldm-vq-4.yaml",
+              "relative": "configs/latent-diffusion/lsun_bedrooms-ldm-vq-4.yaml",
+              "bytes": 2024,
+              "kind": "metadata",
+              "sha256": "da81fbf9eda2426d7116c6be54050b4f063b04d58a712e6ccdd27d94251b9fae"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\lsun_churches-ldm-kl-8.yaml",
+              "relative": "configs/latent-diffusion/lsun_churches-ldm-kl-8.yaml",
+              "bytes": 2284,
+              "kind": "metadata",
+              "sha256": "6e0144e2e62ec39069da926fedbc4abdb80d508bccb6c64756bcbe8cc42f0f5e"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-eval.yaml",
+              "relative": "configs/latent-diffusion/txt2img-1p4B-eval.yaml",
+              "bytes": 1614,
+              "kind": "metadata",
+              "sha256": "14eeb9329239e011c2b7c8617142c90381807d8044771b3708cb965b413fae03"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-eval_with_tokens.yaml",
+              "relative": "configs/latent-diffusion/txt2img-1p4B-eval_with_tokens.yaml",
+              "bytes": 1783,
+              "kind": "metadata",
+              "sha256": "85a6987aac5a0316c3320279bbe3858e7984c4808ea2bbbb8fc11acb18624671"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-finetune-encoder+embedding.yaml",
+              "relative": "configs/latent-diffusion/txt2img-1p4B-finetune-encoder+embedding.yaml",
+              "bytes": 2707,
+              "kind": "metadata",
+              "sha256": "e03e1d564d9243e08337921d624122ad8e1fe040606ce46f21156df4f8fa6a40"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-finetune.yaml",
+              "relative": "configs/latent-diffusion/txt2img-1p4B-finetune.yaml",
+              "bytes": 2653,
+              "kind": "metadata",
+              "sha256": "fd2a193edc041a87f9203e0a7f2150ccd2408f65bdf6fe0ae057a5766c1ab31a"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-finetune_style.yaml",
+              "relative": "configs/latent-diffusion/txt2img-1p4B-finetune_style.yaml",
+              "bytes": 2610,
+              "kind": "metadata",
+              "sha256": "3fcbd61709e752589a98d89019c87097e12b96ad6c347c0c0b32d343b2b1a61c"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\stable-diffusion\\v1-finetune.yaml",
+              "relative": "configs/stable-diffusion/v1-finetune.yaml",
+              "bytes": 2649,
+              "kind": "metadata",
+              "sha256": "1065c3d792febbde23807cfd68a4c7c252b4212bae67b9465c04da5c6dfce181"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\stable-diffusion\\v1-finetune_unfrozen.yaml",
+              "relative": "configs/stable-diffusion/v1-finetune_unfrozen.yaml",
+              "bytes": 2651,
+              "kind": "metadata",
+              "sha256": "f2131c14a7f49e545c64dafe814c947dde4360bf52c18c19e8671de8ccc76f81"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\stable-diffusion\\v1-inference.yaml",
+              "relative": "configs/stable-diffusion/v1-inference.yaml",
+              "bytes": 1851,
+              "kind": "metadata",
+              "sha256": "dd4a2b65ec579ca11bddfcd333ee920be95cad98a4bd31f700955c37c5eced5f"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\ldm\\data\\tmp.jpg",
+              "relative": "ldm/data/tmp.jpg",
+              "bytes": 6600,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\ldm\\modules\\image_degradation\\utils\\test.png",
+              "relative": "ldm/modules/image_degradation/utils/test.png",
+              "bytes": 441072,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f16\\config.yaml",
+              "relative": "models/first_stage_models/kl-f16/config.yaml",
+              "bytes": 909,
+              "kind": "metadata",
+              "sha256": "756c0a42e3f24243881fdc49218b6cf776324413ae13819f27e69b137e098a2f"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f32\\config.yaml",
+              "relative": "models/first_stage_models/kl-f32/config.yaml",
+              "bytes": 929,
+              "kind": "metadata",
+              "sha256": "a6ab8519f4119edb20ae359c8d5d5d6a32924fd28c15de2f043a9fd9728b39c8"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f4\\config.yaml",
+              "relative": "models/first_stage_models/kl-f4/config.yaml",
+              "bytes": 880,
+              "kind": "metadata",
+              "sha256": "788a0802c5d95fe3e299ac8bb8ff01e3cfd09f8f04b2d8dcbc6701ddc393be82"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f8\\config.yaml",
+              "relative": "models/first_stage_models/kl-f8/config.yaml",
+              "bytes": 889,
+              "kind": "metadata",
+              "sha256": "5c914a8dee3cfeaf967feea7f8c451bc25e87fc619b6cf7aff55bc51cb52dc03"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f16\\config.yaml",
+              "relative": "models/first_stage_models/vq-f16/config.yaml",
+              "bytes": 1026,
+              "kind": "metadata",
+              "sha256": "efe6f16825cc9bc84dce52d730fa251c6d1a83cceb27c706dc34dfdedc113eb0"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f4\\config.yaml",
+              "relative": "models/first_stage_models/vq-f4/config.yaml",
+              "bytes": 955,
+              "kind": "metadata",
+              "sha256": "56debf47c0afc61b90dd9ef6a8b8e34f95598f377b223efd77ae300e4f10a316"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f4-noattn\\config.yaml",
+              "relative": "models/first_stage_models/vq-f4-noattn/config.yaml",
+              "bytes": 978,
+              "kind": "metadata",
+              "sha256": "da2e41b0bb52bc14afa245f802b12e488069247215b4c4c1fe17142d6f288a4d"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f8\\config.yaml",
+              "relative": "models/first_stage_models/vq-f8/config.yaml",
+              "bytes": 1035,
+              "kind": "metadata",
+              "sha256": "49c949bf31fadf3a1ea1a5ad8c7a69e57ccf176ec8d578bac4122bf4f587a5e6"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f8-n256\\config.yaml",
+              "relative": "models/first_stage_models/vq-f8-n256/config.yaml",
+              "bytes": 1013,
+              "kind": "metadata",
+              "sha256": "3ca2b27b9b15b9653299d19e15af04db357ffc4d5045a6af31d0849a5b872d42"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\bsr_sr\\config.yaml",
+              "relative": "models/ldm/bsr_sr/config.yaml",
+              "bytes": 1900,
+              "kind": "metadata",
+              "sha256": "8bc6182f50dd30118c94d947c974d3d603e338bfa04440b950d80f55bf9efc9e"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\celeba256\\config.yaml",
+              "relative": "models/ldm/celeba256/config.yaml",
+              "bytes": 1599,
+              "kind": "metadata",
+              "sha256": "c7be35391ac86a5f632decd91012297aefefde365795ed10cabe54a5fdbdb6d5"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\cin256\\config.yaml",
+              "relative": "models/ldm/cin256/config.yaml",
+              "bytes": 1862,
+              "kind": "metadata",
+              "sha256": "f288ae9783ec767b2d75784b132b7632695303c57563d5de3fb88c4aabbf5e5f"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\ffhq256\\config.yaml",
+              "relative": "models/ldm/ffhq256/config.yaml",
+              "bytes": 1591,
+              "kind": "metadata",
+              "sha256": "f66d32760a9219d059d209b09d9945032ee394ac350ff3052d3a32e435c885fa"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\inpainting_big\\config.yaml",
+              "relative": "models/ldm/inpainting_big/config.yaml",
+              "bytes": 1619,
+              "kind": "metadata",
+              "sha256": "4cd3a04f9d0b8d9aa26588bafa845645e05c97dc3b18b83054ab04b312db6f41"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\layout2img-openimages256\\config.yaml",
+              "relative": "models/ldm/layout2img-openimages256/config.yaml",
+              "bytes": 1924,
+              "kind": "metadata",
+              "sha256": "33d129d1d5110291553e0995247b595c3436fe2f817a5fe6ddcc0a552e6aa9bc"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\lsun_beds256\\config.yaml",
+              "relative": "models/ldm/lsun_beds256/config.yaml",
+              "bytes": 1601,
+              "kind": "metadata",
+              "sha256": "ccc0035c715a7b8dd98ee2787fe30cf30a7e4f2350b03dc2558d7c1534c109f7"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\lsun_churches256\\config.yaml",
+              "relative": "models/ldm/lsun_churches256/config.yaml",
+              "bytes": 2018,
+              "kind": "metadata",
+              "sha256": "6581963a451597fee88c97bb14820634bd1238d57753957975e282cdb73d9415"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\semantic_synthesis256\\config.yaml",
+              "relative": "models/ldm/semantic_synthesis256/config.yaml",
+              "bytes": 1378,
+              "kind": "metadata",
+              "sha256": "dcf9b4a9f7fd0c39cf51830e20ab47e5c907f9725e744dc3b396c3a9d06e13dc"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\semantic_synthesis512\\config.yaml",
+              "relative": "models/ldm/semantic_synthesis512/config.yaml",
+              "bytes": 1820,
+              "kind": "metadata",
+              "sha256": "d089f857cbc677fd2c4871840a7d1c8eae7bacff619eb35f4093c535c698fdbf"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\text2img256\\config.yaml",
+              "relative": "models/ldm/text2img256/config.yaml",
+              "bytes": 1831,
+              "kind": "metadata",
+              "sha256": "17b7d2e975d744d89576c04c37607d046cbc926a80bdf478f80bb9098d89a20c"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\download_first_stages.sh",
+              "relative": "scripts/download_first_stages.sh",
+              "bytes": 1324,
+              "kind": "metadata",
+              "sha256": "0d13608855b2b94d330f9120696f4ae60eb8f0558067170bddb928ae87da4ef6"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\download_models.sh",
+              "relative": "scripts/download_models.sh",
+              "bytes": 1681,
+              "kind": "metadata",
+              "sha256": "0178f7086cb4abc2506a5b1075c22a1cbee0e72be4bbfd0109477a89f23c9d86"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\run_plastic_bomo_background.sh",
+              "relative": "scripts/run_plastic_bomo_background.sh",
+              "bytes": 1979,
+              "kind": "metadata",
+              "sha256": "7e34b132b058aec120e3fdaeb13886cb103521894ce46142632fbe585102a891"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\taming\\modules\\autoencoder\\lpips\\vgg.pth",
+              "relative": "taming/modules/autoencoder/lpips/vgg.pth",
+              "bytes": 7289,
+              "kind": "weight",
+              "sha256": "a78928a0af1e5f0fcb1f3b9e8f8c3a2a5a3de244d830ad5c1feddc79b8432868"
+            }
+          ],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0,
+          "counts": {
+            "metadata": 46,
+            "image": 2,
+            "weight": 1
+          }
+        }
+      ],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\run_plastic_bomo_background.sh",
+          "available": true,
+          "sha256": "7e34b132b058aec120e3fdaeb13886cb103521894ce46142632fbe585102a891",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_ANOMALYDIFFUSION_code.txt",
+          "snapshot_sha256": "73fe0199a2c98bf95421d8db3345e19460e1ae1f8e76ee55e092f2f6373c117f"
+        },
+        {
+          "path": null,
+          "available": false
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "DEFECTFILL",
+      "generator_name": "DefectFill",
+      "method_family": "DefectFill",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\tools\\prepare_plastic_bomo_defectfill.py",
+        "available": true,
+        "sha256": "83d0905b43925fe10765c4fce8f80c0eefb2bce88e82bb596779a679478798db",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_DEFECTFILL_code.txt",
+        "snapshot_sha256": "3ea2485b5e97d90662b803179714becfdfc6ddcdb01ca582072257d50f7b04b9"
+      },
+      "config_path": {
+        "path": null,
+        "available": false
+      },
+      "checkpoint_path": null,
+      "native_generation_code": {
+        "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\inference.py",
+        "available": true,
+        "sha256": "422a57c222351ca61ba322e13818373c0bb033d4220bd35fdad38866ceecb521",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_DEFECTFILL_inference.txt",
+        "snapshot_sha256": "422a57c222351ca61ba322e13818373c0bb033d4220bd35fdad38866ceecb521"
+      },
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [
+        {
+          "root": "C:\\MyFile\\Study\\代码\\DefectFill-main",
+          "exists": true,
+          "files": [
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\requirements.txt",
+              "relative": "requirements.txt",
+              "bytes": 218,
+              "kind": "metadata",
+              "sha256": "af0f3dc11855ca7b59e8503eefe823e8f925c2f241bd36ef1f7f459b603bf3cc"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\inference_log.json",
+              "relative": "step_200/inference_log.json",
+              "bytes": 1488,
+              "kind": "metadata",
+              "sha256": "e30b7a577339bde29a0f891c016958293ac8c2d88673c2ff06e55bbc9f3af218"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0000_generated.png",
+              "relative": "step_200/crack/0000_generated.png",
+              "bytes": 395997,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0000_mask.png",
+              "relative": "step_200/crack/0000_mask.png",
+              "bytes": 2460,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0001_generated.png",
+              "relative": "step_200/crack/0001_generated.png",
+              "bytes": 397465,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0001_mask.png",
+              "relative": "step_200/crack/0001_mask.png",
+              "bytes": 2774,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0002_generated.png",
+              "relative": "step_200/crack/0002_generated.png",
+              "bytes": 390951,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0002_mask.png",
+              "relative": "step_200/crack/0002_mask.png",
+              "bytes": 3034,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0003_generated.png",
+              "relative": "step_200/crack/0003_generated.png",
+              "bytes": 416287,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0003_mask.png",
+              "relative": "step_200/crack/0003_mask.png",
+              "bytes": 2666,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0004_generated.png",
+              "relative": "step_200/crack/0004_generated.png",
+              "bytes": 396627,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0004_mask.png",
+              "relative": "step_200/crack/0004_mask.png",
+              "bytes": 2468,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0005_generated.png",
+              "relative": "step_200/crack/0005_generated.png",
+              "bytes": 390002,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0005_mask.png",
+              "relative": "step_200/crack/0005_mask.png",
+              "bytes": 2949,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0000.png",
+              "relative": "triplet_results/triplet_0000.png",
+              "bytes": 1434839,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0001.png",
+              "relative": "triplet_results/triplet_0001.png",
+              "bytes": 1391902,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0002.png",
+              "relative": "triplet_results/triplet_0002.png",
+              "bytes": 1396253,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0003.png",
+              "relative": "triplet_results/triplet_0003.png",
+              "bytes": 1429346,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0004.png",
+              "relative": "triplet_results/triplet_0004.png",
+              "bytes": 1390909,
+              "kind": "image"
+            },
+            {
+              "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0005.png",
+              "relative": "triplet_results/triplet_0005.png",
+              "bytes": 1315635,
+              "kind": "image"
+            }
+          ],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0,
+          "counts": {
+            "metadata": 2,
+            "image": 18
+          }
+        }
+      ],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\tools\\prepare_plastic_bomo_defectfill.py",
+          "available": true,
+          "sha256": "83d0905b43925fe10765c4fce8f80c0eefb2bce88e82bb596779a679478798db",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_DEFECTFILL_code.txt",
+          "snapshot_sha256": "3ea2485b5e97d90662b803179714becfdfc6ddcdb01ca582072257d50f7b04b9"
+        },
+        {
+          "path": null,
+          "available": false
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "MSDF_V3",
+      "generator_name": "MSDF-v3",
+      "method_family": "SD2 with MSDF guidance",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\msdf_guidance.py",
+        "available": true,
+        "sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_MSDF_V3_code.txt",
+        "snapshot_sha256": "b14074ef10d76b9e05db8b82895167476a8a0f65e096bbe57f81d84ef6532176"
+      },
+      "config_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\msdf.json",
+        "available": true,
+        "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "C:\\MyFile\\Study\\代码\\Self-main\\model\\msdf_v3_sd2_2000_s42",
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [
+        "results/msdf_v3_sd2_2000_s42"
+      ],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\msdf_guidance.py",
+          "available": true,
+          "sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_MSDF_V3_code.txt",
+          "snapshot_sha256": "b14074ef10d76b9e05db8b82895167476a8a0f65e096bbe57f81d84ef6532176"
+        },
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\msdf.json",
+          "available": true,
+          "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "MSDF_V3_DWBG_POOL",
+      "generator_name": "MSDF-v3 derived DWBG pool",
+      "method_family": "MSDF outputs plus post-generation recomposition/filtering",
+      "code_path": {
+        "path": "tools/build_dwbg_candidates.py",
+        "available": true,
+        "sha256": "9808a73b9fb238e696a9beba8a14ca0d389991b435fe8cc4e08402b9e162c4ea",
+        "origin": "HEAD_GIT_BLOB",
+        "snapshot": "evidence_MSDF_V3_DWBG_POOL_code.txt",
+        "snapshot_sha256": "c8710af14b4f3388d4146777fd90203e2ed824803f341aa63b2228a275c19693"
+      },
+      "config_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\dwbg_v2.json",
+        "available": true,
+        "sha256": "30f47c732e27ec8d3e476dfa0afe0a21719ffdd197710168bf23fdeaaa730876",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "C:\\MyFile\\Study\\代码\\Self-main\\model\\msdf_v3_sd2_2000_s42",
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [
+        "results/dwbg/v2/fixed_v3/candidate_pool"
+      ],
+      "synthetic_image_count": 761,
+      "synthetic_annotation_count": 761,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": 576,
+        "black": 185
+      },
+      "generation_seed_information": {
+        "42": 97,
+        "3407": 90,
+        "7859": 98,
+        "12011": 96,
+        "15683": 88,
+        "19997": 103,
+        "24571": 92,
+        "30103": 97
+      },
+      "parent/source_information_available": "source output path but no original training parent identity",
+      "conditioning_information_available": true,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "residual support bbox after geometry recomposition; historical builder code and manifest fields",
+      "downstream_detector_results_if_any": [
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\bootstrap_guard_downstream\\validated_per_seed.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage14b_fidelity_confirmation\\all_seed_metrics.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage15a_class_conditional_morphology\\factorial_all_arms_metrics.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage15b_morphology_dose\\all_five_arms_metrics.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage17a_vanilla_utility_stability\\detector_repair_20261007_080108\\results\\realrepeat_metrics.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage17a_vanilla_utility_stability\\detector_repair_20261007_080108\\results\\vanilla_A_metrics.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage17a_vanilla_utility_stability\\detector_repair_20261007_080108\\results\\vanilla_B_metrics.json",
+        "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage17a_vanilla_utility_stability\\detector_repair_20261007_080108\\results\\vanilla_C_metrics.json"
+      ],
+      "selector_used_in_historical_result": true,
+      "selector_name_if_any": [
+        "quality_gate",
+        "manifold_valid",
+        "DWBG",
+        "morphology/context subsets",
+        "BootstrapGuard selected arms"
+      ],
+      "evidence_paths": [
+        {
+          "path": "tools/build_dwbg_candidates.py",
+          "available": true,
+          "sha256": "9808a73b9fb238e696a9beba8a14ca0d389991b435fe8cc4e08402b9e162c4ea",
+          "origin": "HEAD_GIT_BLOB",
+          "snapshot": "evidence_MSDF_V3_DWBG_POOL_code.txt",
+          "snapshot_sha256": "c8710af14b4f3388d4146777fd90203e2ed824803f341aa63b2228a275c19693"
+        },
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\dwbg_v2.json",
+          "available": true,
+          "sha256": "30f47c732e27ec8d3e476dfa0afe0a21719ffdd197710168bf23fdeaaa730876",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "HISTORICAL_SD_BASELINE",
+      "generator_name": "Historical SD baseline",
+      "method_family": "Stable Diffusion",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\train_dreambooth_noise.py",
+        "available": true,
+        "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_HISTORICAL_SD_BASELINE_code.txt",
+        "snapshot_sha256": "b6200f7f08c8c64f8e188efdb6718bf148db4abed330fb61f37e42f06f77dded"
+      },
+      "config_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\baseline_frozen_split70_s42.json",
+        "available": true,
+        "sha256": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "C:\\MyFile\\Study\\代码\\Self-main\\model\\baseline_clean_split70_s42_noise_0.0",
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [
+        {
+          "root": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_deeppcb_sd2_2000_s42_noise_0.0\\Plastic_Bomo",
+          "exists": false,
+          "files": [],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0
+        },
+        {
+          "root": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo",
+          "exists": true,
+          "files": [
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\model_index.json",
+              "relative": "01_Flash_point/model_index.json",
+              "bytes": 677,
+              "kind": "metadata",
+              "sha256": "0f7ac110548094aee5279bdf33b635a8b946e6a9ec8ad7a49e5f8a85df12e38b"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\feature_extractor\\preprocessor_config.json",
+              "relative": "01_Flash_point/feature_extractor/preprocessor_config.json",
+              "bytes": 466,
+              "kind": "metadata",
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\logs\\dreambooth\\1784707863.5848033\\hparams.yml",
+              "relative": "01_Flash_point/logs/dreambooth/1784707863.5848033/hparams.yml",
+              "bytes": 1297,
+              "kind": "metadata",
+              "sha256": "bd393d3a2b6b4e187e83852dddf5acef7535d73d6811f0745aed6508b50ecbb0"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\scheduler\\scheduler_config.json",
+              "relative": "01_Flash_point/scheduler/scheduler_config.json",
+              "bytes": 379,
+              "kind": "metadata",
+              "sha256": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\text_encoder\\config.json",
+              "relative": "01_Flash_point/text_encoder/config.json",
+              "bytes": 549,
+              "kind": "metadata",
+              "sha256": "9599f4c2f8f929e6b2689be7485b2c9801912f6718971b7ad7cba5eb9822cc09"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\text_encoder\\model.safetensors",
+              "relative": "01_Flash_point/text_encoder/model.safetensors",
+              "bytes": 1361596304,
+              "kind": "weight",
+              "sha256": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\merges.txt",
+              "relative": "01_Flash_point/tokenizer/merges.txt",
+              "bytes": 524619,
+              "kind": "metadata",
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\special_tokens_map.json",
+              "relative": "01_Flash_point/tokenizer/special_tokens_map.json",
+              "bytes": 460,
+              "kind": "metadata",
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\tokenizer_config.json",
+              "relative": "01_Flash_point/tokenizer/tokenizer_config.json",
+              "bytes": 886,
+              "kind": "metadata",
+              "sha256": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\vocab.json",
+              "relative": "01_Flash_point/tokenizer/vocab.json",
+              "bytes": 1059962,
+              "kind": "metadata",
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\unet\\config.json",
+              "relative": "01_Flash_point/unet/config.json",
+              "bytes": 1907,
+              "kind": "metadata",
+              "sha256": "2a5ffa28888150aea8e03fdf1f03bff6c135e14ae41c2fd10404436cecde89cf"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\unet\\diffusion_pytorch_model.safetensors",
+              "relative": "01_Flash_point/unet/diffusion_pytorch_model.safetensors",
+              "bytes": 3463784120,
+              "kind": "weight",
+              "sha256": "063aca43145abf50041597c1ff3b54a96687dd6f3586cacda180f91f706a2325"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\vae\\config.json",
+              "relative": "01_Flash_point/vae/config.json",
+              "bytes": 862,
+              "kind": "metadata",
+              "sha256": "5fe17b382443fbef5f3001e56256d67fdfc921b49161c5690bcd2a7d590d6222"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\01_Flash_point\\vae\\diffusion_pytorch_model.safetensors",
+              "relative": "01_Flash_point/vae/diffusion_pytorch_model.safetensors",
+              "bytes": 334643268,
+              "kind": "weight",
+              "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\model_index.json",
+              "relative": "02_Big_black_spots/model_index.json",
+              "bytes": 677,
+              "kind": "metadata",
+              "sha256": "0f7ac110548094aee5279bdf33b635a8b946e6a9ec8ad7a49e5f8a85df12e38b"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\feature_extractor\\preprocessor_config.json",
+              "relative": "02_Big_black_spots/feature_extractor/preprocessor_config.json",
+              "bytes": 466,
+              "kind": "metadata",
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\logs\\dreambooth\\1784714211.7520957\\hparams.yml",
+              "relative": "02_Big_black_spots/logs/dreambooth/1784714211.7520957/hparams.yml",
+              "bytes": 1314,
+              "kind": "metadata",
+              "sha256": "1d930e8ae8407c66b159923f18751902b02e8b4840ed70c3e9e7ad7cfae2d3d6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\scheduler\\scheduler_config.json",
+              "relative": "02_Big_black_spots/scheduler/scheduler_config.json",
+              "bytes": 379,
+              "kind": "metadata",
+              "sha256": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\text_encoder\\config.json",
+              "relative": "02_Big_black_spots/text_encoder/config.json",
+              "bytes": 549,
+              "kind": "metadata",
+              "sha256": "9599f4c2f8f929e6b2689be7485b2c9801912f6718971b7ad7cba5eb9822cc09"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\text_encoder\\model.safetensors",
+              "relative": "02_Big_black_spots/text_encoder/model.safetensors",
+              "bytes": 1361596304,
+              "kind": "weight",
+              "sha256": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\merges.txt",
+              "relative": "02_Big_black_spots/tokenizer/merges.txt",
+              "bytes": 524619,
+              "kind": "metadata",
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\special_tokens_map.json",
+              "relative": "02_Big_black_spots/tokenizer/special_tokens_map.json",
+              "bytes": 460,
+              "kind": "metadata",
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\tokenizer_config.json",
+              "relative": "02_Big_black_spots/tokenizer/tokenizer_config.json",
+              "bytes": 886,
+              "kind": "metadata",
+              "sha256": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\vocab.json",
+              "relative": "02_Big_black_spots/tokenizer/vocab.json",
+              "bytes": 1059962,
+              "kind": "metadata",
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\unet\\config.json",
+              "relative": "02_Big_black_spots/unet/config.json",
+              "bytes": 1907,
+              "kind": "metadata",
+              "sha256": "2a5ffa28888150aea8e03fdf1f03bff6c135e14ae41c2fd10404436cecde89cf"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\unet\\diffusion_pytorch_model.safetensors",
+              "relative": "02_Big_black_spots/unet/diffusion_pytorch_model.safetensors",
+              "bytes": 3463784120,
+              "kind": "weight",
+              "sha256": "08579d15db77b74e82921d1564ce99ceb5efff5b684fab875791e58af1bccc00"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\vae\\config.json",
+              "relative": "02_Big_black_spots/vae/config.json",
+              "bytes": 862,
+              "kind": "metadata",
+              "sha256": "5fe17b382443fbef5f3001e56256d67fdfc921b49161c5690bcd2a7d590d6222"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\vae\\diffusion_pytorch_model.safetensors",
+              "relative": "02_Big_black_spots/vae/diffusion_pytorch_model.safetensors",
+              "bytes": 334643268,
+              "kind": "weight",
+              "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+            }
+          ],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0,
+          "counts": {
+            "metadata": 22,
+            "weight": 6
+          }
+        },
+        {
+          "root": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo",
+          "exists": true,
+          "files": [
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\model_index.json",
+              "relative": "01_Flash_point/model_index.json",
+              "bytes": 677,
+              "kind": "metadata",
+              "sha256": "0f7ac110548094aee5279bdf33b635a8b946e6a9ec8ad7a49e5f8a85df12e38b"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\feature_extractor\\preprocessor_config.json",
+              "relative": "01_Flash_point/feature_extractor/preprocessor_config.json",
+              "bytes": 466,
+              "kind": "metadata",
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\logs\\dreambooth\\1785381570.0994227\\hparams.yml",
+              "relative": "01_Flash_point/logs/dreambooth/1785381570.0994227/hparams.yml",
+              "bytes": 1338,
+              "kind": "metadata",
+              "sha256": "3ef7a849bc9a3fa48b286050b678f47b362caf93055517512173f2bcacd29b4c"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\logs\\dreambooth\\1785381804.1057756\\hparams.yml",
+              "relative": "01_Flash_point/logs/dreambooth/1785381804.1057756/hparams.yml",
+              "bytes": 1338,
+              "kind": "metadata",
+              "sha256": "3ef7a849bc9a3fa48b286050b678f47b362caf93055517512173f2bcacd29b4c"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\logs\\dreambooth\\1785403424.915388\\hparams.yml",
+              "relative": "01_Flash_point/logs/dreambooth/1785403424.915388/hparams.yml",
+              "bytes": 1338,
+              "kind": "metadata",
+              "sha256": "3ef7a849bc9a3fa48b286050b678f47b362caf93055517512173f2bcacd29b4c"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\logs\\dreambooth\\1785403750.422622\\hparams.yml",
+              "relative": "01_Flash_point/logs/dreambooth/1785403750.422622/hparams.yml",
+              "bytes": 1338,
+              "kind": "metadata",
+              "sha256": "3ef7a849bc9a3fa48b286050b678f47b362caf93055517512173f2bcacd29b4c"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\logs\\dreambooth\\1785403863.2340891\\hparams.yml",
+              "relative": "01_Flash_point/logs/dreambooth/1785403863.2340891/hparams.yml",
+              "bytes": 1338,
+              "kind": "metadata",
+              "sha256": "3ef7a849bc9a3fa48b286050b678f47b362caf93055517512173f2bcacd29b4c"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\scheduler\\scheduler_config.json",
+              "relative": "01_Flash_point/scheduler/scheduler_config.json",
+              "bytes": 379,
+              "kind": "metadata",
+              "sha256": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\text_encoder\\config.json",
+              "relative": "01_Flash_point/text_encoder/config.json",
+              "bytes": 549,
+              "kind": "metadata",
+              "sha256": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\text_encoder\\model.safetensors",
+              "relative": "01_Flash_point/text_encoder/model.safetensors",
+              "bytes": 680820392,
+              "kind": "weight",
+              "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\merges.txt",
+              "relative": "01_Flash_point/tokenizer/merges.txt",
+              "bytes": 524619,
+              "kind": "metadata",
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\special_tokens_map.json",
+              "relative": "01_Flash_point/tokenizer/special_tokens_map.json",
+              "bytes": 460,
+              "kind": "metadata",
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\tokenizer_config.json",
+              "relative": "01_Flash_point/tokenizer/tokenizer_config.json",
+              "bytes": 886,
+              "kind": "metadata",
+              "sha256": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\vocab.json",
+              "relative": "01_Flash_point/tokenizer/vocab.json",
+              "bytes": 1059962,
+              "kind": "metadata",
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\unet\\config.json",
+              "relative": "01_Flash_point/unet/config.json",
+              "bytes": 1907,
+              "kind": "metadata",
+              "sha256": "2a5ffa28888150aea8e03fdf1f03bff6c135e14ae41c2fd10404436cecde89cf"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\unet\\diffusion_pytorch_model.safetensors",
+              "relative": "01_Flash_point/unet/diffusion_pytorch_model.safetensors",
+              "bytes": 3463784120,
+              "kind": "weight",
+              "sha256": "02d8b9a4a712cbb9eb4589fc859801278a6ec66fedcead946c6fb92d9e67b809"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\vae\\config.json",
+              "relative": "01_Flash_point/vae/config.json",
+              "bytes": 862,
+              "kind": "metadata",
+              "sha256": "5fe17b382443fbef5f3001e56256d67fdfc921b49161c5690bcd2a7d590d6222"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\vae\\diffusion_pytorch_model.safetensors",
+              "relative": "01_Flash_point/vae/diffusion_pytorch_model.safetensors",
+              "bytes": 334643268,
+              "kind": "weight",
+              "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\model_index.json",
+              "relative": "02_Big_black_spots/model_index.json",
+              "bytes": 677,
+              "kind": "metadata",
+              "sha256": "0f7ac110548094aee5279bdf33b635a8b946e6a9ec8ad7a49e5f8a85df12e38b"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\feature_extractor\\preprocessor_config.json",
+              "relative": "02_Big_black_spots/feature_extractor/preprocessor_config.json",
+              "bytes": 466,
+              "kind": "metadata",
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\logs\\dreambooth\\1785405681.7494812\\hparams.yml",
+              "relative": "02_Big_black_spots/logs/dreambooth/1785405681.7494812/hparams.yml",
+              "bytes": 1354,
+              "kind": "metadata",
+              "sha256": "ac9e723a4c2de85fe6b593a59162ce8caa325ad69b4eca01649bc9a80bff3e0d"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\scheduler\\scheduler_config.json",
+              "relative": "02_Big_black_spots/scheduler/scheduler_config.json",
+              "bytes": 379,
+              "kind": "metadata",
+              "sha256": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\text_encoder\\config.json",
+              "relative": "02_Big_black_spots/text_encoder/config.json",
+              "bytes": 549,
+              "kind": "metadata",
+              "sha256": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\text_encoder\\model.safetensors",
+              "relative": "02_Big_black_spots/text_encoder/model.safetensors",
+              "bytes": 680820392,
+              "kind": "weight",
+              "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\merges.txt",
+              "relative": "02_Big_black_spots/tokenizer/merges.txt",
+              "bytes": 524619,
+              "kind": "metadata",
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\special_tokens_map.json",
+              "relative": "02_Big_black_spots/tokenizer/special_tokens_map.json",
+              "bytes": 460,
+              "kind": "metadata",
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\tokenizer_config.json",
+              "relative": "02_Big_black_spots/tokenizer/tokenizer_config.json",
+              "bytes": 886,
+              "kind": "metadata",
+              "sha256": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\vocab.json",
+              "relative": "02_Big_black_spots/tokenizer/vocab.json",
+              "bytes": 1059962,
+              "kind": "metadata",
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\unet\\config.json",
+              "relative": "02_Big_black_spots/unet/config.json",
+              "bytes": 1907,
+              "kind": "metadata",
+              "sha256": "2a5ffa28888150aea8e03fdf1f03bff6c135e14ae41c2fd10404436cecde89cf"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\unet\\diffusion_pytorch_model.safetensors",
+              "relative": "02_Big_black_spots/unet/diffusion_pytorch_model.safetensors",
+              "bytes": 3463784120,
+              "kind": "weight",
+              "sha256": "e31f55e526586dadc021234cfb8b500ec790e30db03f40172b84b8e92698f53e"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\vae\\config.json",
+              "relative": "02_Big_black_spots/vae/config.json",
+              "bytes": 862,
+              "kind": "metadata",
+              "sha256": "5fe17b382443fbef5f3001e56256d67fdfc921b49161c5690bcd2a7d590d6222"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_sd2_2000_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\vae\\diffusion_pytorch_model.safetensors",
+              "relative": "02_Big_black_spots/vae/diffusion_pytorch_model.safetensors",
+              "bytes": 334643268,
+              "kind": "weight",
+              "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+            }
+          ],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0,
+          "counts": {
+            "metadata": 26,
+            "weight": 6
+          }
+        },
+        {
+          "root": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo",
+          "exists": true,
+          "files": [
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\model_index.json",
+              "relative": "01_Flash_point/model_index.json",
+              "bytes": 693,
+              "kind": "metadata",
+              "sha256": "3f3f77ab0f6b407cbb2eb7a35276608e9a475018ad864e54f800283ac11627be"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\feature_extractor\\preprocessor_config.json",
+              "relative": "01_Flash_point/feature_extractor/preprocessor_config.json",
+              "bytes": 466,
+              "kind": "metadata",
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\scheduler\\scheduler_config.json",
+              "relative": "01_Flash_point/scheduler/scheduler_config.json",
+              "bytes": 379,
+              "kind": "metadata",
+              "sha256": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\text_encoder\\config.json",
+              "relative": "01_Flash_point/text_encoder/config.json",
+              "bytes": 549,
+              "kind": "metadata",
+              "sha256": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\text_encoder\\model.safetensors",
+              "relative": "01_Flash_point/text_encoder/model.safetensors",
+              "bytes": 680820392,
+              "kind": "weight",
+              "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\merges.txt",
+              "relative": "01_Flash_point/tokenizer/merges.txt",
+              "bytes": 524619,
+              "kind": "metadata",
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\special_tokens_map.json",
+              "relative": "01_Flash_point/tokenizer/special_tokens_map.json",
+              "bytes": 460,
+              "kind": "metadata",
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\tokenizer_config.json",
+              "relative": "01_Flash_point/tokenizer/tokenizer_config.json",
+              "bytes": 886,
+              "kind": "metadata",
+              "sha256": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\tokenizer\\vocab.json",
+              "relative": "01_Flash_point/tokenizer/vocab.json",
+              "bytes": 1059962,
+              "kind": "metadata",
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\unet\\config.json",
+              "relative": "01_Flash_point/unet/config.json",
+              "bytes": 1923,
+              "kind": "metadata",
+              "sha256": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\unet\\diffusion_pytorch_model.safetensors",
+              "relative": "01_Flash_point/unet/diffusion_pytorch_model.safetensors",
+              "bytes": 3463784120,
+              "kind": "weight",
+              "sha256": "a87509070642f491c32a831d96fd7ea36c5ef0fe9c5d8bacf981ded22725b341"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\vae\\config.json",
+              "relative": "01_Flash_point/vae/config.json",
+              "bytes": 878,
+              "kind": "metadata",
+              "sha256": "d2306fbbe484a51b3b0d690ca9efa07b4b89c1d28dd6cd2a843df418bd5b7965"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\01_Flash_point\\vae\\diffusion_pytorch_model.safetensors",
+              "relative": "01_Flash_point/vae/diffusion_pytorch_model.safetensors",
+              "bytes": 334643268,
+              "kind": "weight",
+              "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\model_index.json",
+              "relative": "02_Big_black_spots/model_index.json",
+              "bytes": 693,
+              "kind": "metadata",
+              "sha256": "3f3f77ab0f6b407cbb2eb7a35276608e9a475018ad864e54f800283ac11627be"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\feature_extractor\\preprocessor_config.json",
+              "relative": "02_Big_black_spots/feature_extractor/preprocessor_config.json",
+              "bytes": 466,
+              "kind": "metadata",
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\scheduler\\scheduler_config.json",
+              "relative": "02_Big_black_spots/scheduler/scheduler_config.json",
+              "bytes": 379,
+              "kind": "metadata",
+              "sha256": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\text_encoder\\config.json",
+              "relative": "02_Big_black_spots/text_encoder/config.json",
+              "bytes": 549,
+              "kind": "metadata",
+              "sha256": "90690eba6aa44500c1bb1f2c7e785821abc6be6c70f82e84404926268d6f301a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\text_encoder\\model.safetensors",
+              "relative": "02_Big_black_spots/text_encoder/model.safetensors",
+              "bytes": 680820392,
+              "kind": "weight",
+              "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\merges.txt",
+              "relative": "02_Big_black_spots/tokenizer/merges.txt",
+              "bytes": 524619,
+              "kind": "metadata",
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\special_tokens_map.json",
+              "relative": "02_Big_black_spots/tokenizer/special_tokens_map.json",
+              "bytes": 460,
+              "kind": "metadata",
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\tokenizer_config.json",
+              "relative": "02_Big_black_spots/tokenizer/tokenizer_config.json",
+              "bytes": 886,
+              "kind": "metadata",
+              "sha256": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\tokenizer\\vocab.json",
+              "relative": "02_Big_black_spots/tokenizer/vocab.json",
+              "bytes": 1059962,
+              "kind": "metadata",
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\unet\\config.json",
+              "relative": "02_Big_black_spots/unet/config.json",
+              "bytes": 1923,
+              "kind": "metadata",
+              "sha256": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\unet\\diffusion_pytorch_model.safetensors",
+              "relative": "02_Big_black_spots/unet/diffusion_pytorch_model.safetensors",
+              "bytes": 3463784120,
+              "kind": "weight",
+              "sha256": "b5e3bd5f1fd1451b711884d5fc3e8942ec02774a48031f5fe3e900faebabd169"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\vae\\config.json",
+              "relative": "02_Big_black_spots/vae/config.json",
+              "bytes": 878,
+              "kind": "metadata",
+              "sha256": "d2306fbbe484a51b3b0d690ca9efa07b4b89c1d28dd6cd2a843df418bd5b7965"
+            },
+            {
+              "path": "C:\\Users\\cbj\\Desktop\\fsdownload\\baseline_stage17a_rebuild_split70_s42_noise_0.0\\Plastic_Bomo\\02_Big_black_spots\\vae\\diffusion_pytorch_model.safetensors",
+              "relative": "02_Big_black_spots/vae/diffusion_pytorch_model.safetensors",
+              "bytes": 334643268,
+              "kind": "weight",
+              "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+            }
+          ],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0,
+          "counts": {
+            "metadata": 20,
+            "weight": 6
+          }
+        }
+      ],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\train_dreambooth_noise.py",
+          "available": true,
+          "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_HISTORICAL_SD_BASELINE_code.txt",
+          "snapshot_sha256": "b6200f7f08c8c64f8e188efdb6718bf148db4abed330fb61f37e42f06f77dded"
+        },
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\baseline_frozen_split70_s42.json",
+          "available": true,
+          "sha256": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "RDA",
+      "generator_name": "RDA historical variants",
+      "method_family": "SD2 RDA",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\rda_guidance.py",
+        "available": true,
+        "sha256": "35370653362f128c43bb2b298a7e444b4edfeb9d8a7aafd3324e73d14c68fabc",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_RDA_code.txt",
+        "snapshot_sha256": "2cac7a65502c942218360abdeb614221201f8f9fd2bf8259c7b3ac56e64cfd28"
+      },
+      "config_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\rda_v4_frozen.json",
+        "available": true,
+        "sha256": "1e4b25f19b53ba28b6610da2b28e320cbebf46e27c4a917ec59a9ac3224359a8",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "C:\\MyFile\\Study\\代码\\Self-main\\model\\rda_v4_sd2_2000_s42",
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\rda_guidance.py",
+          "available": true,
+          "sha256": "35370653362f128c43bb2b298a7e444b4edfeb9d8a7aafd3324e73d14c68fabc",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_RDA_code.txt",
+          "snapshot_sha256": "2cac7a65502c942218360abdeb614221201f8f9fd2bf8259c7b3ac56e64cfd28"
+        },
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\rda_v4_frozen.json",
+          "available": true,
+          "sha256": "1e4b25f19b53ba28b6610da2b28e320cbebf46e27c4a917ec59a9ac3224359a8",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "CARF",
+      "generator_name": "CARF historical variants",
+      "method_family": "SD2 CARF",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\carf_guidance.py",
+        "available": true,
+        "sha256": "4ae5ac9d36fa4b4a763d41a888a0a50d2e9e1a8c319647759fb670dcf10e069b",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_CARF_code.txt",
+        "snapshot_sha256": "ae5af6e3c27768ea7f2203e3d1224b5366be7c7400ac9e46434a2f7d577e3836"
+      },
+      "config_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\carf_only_v4.json",
+        "available": true,
+        "sha256": "52dcdc8be321eaec695ce512cd9dc5a95d704e22f056ceccb2a4ee32e46b00ad",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": null,
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\carf_guidance.py",
+          "available": true,
+          "sha256": "4ae5ac9d36fa4b4a763d41a888a0a50d2e9e1a8c319647759fb670dcf10e069b",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_CARF_code.txt",
+          "snapshot_sha256": "ae5af6e3c27768ea7f2203e3d1224b5366be7c7400ac9e46434a2f7d577e3836"
+        },
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\carf_only_v4.json",
+          "available": true,
+          "sha256": "52dcdc8be321eaec695ce512cd9dc5a95d704e22f056ceccb2a4ee32e46b00ad",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "DHFG",
+      "generator_name": "DHFG historical variants",
+      "method_family": "SD2 detector-guided variants",
+      "code_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\dhfg_guidance.py",
+        "available": true,
+        "sha256": "cc692d0800ecdfcc5225dbb3c0493bcdc49a379f73ed583c13e99cb05d38e8e5",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_DHFG_code.txt",
+        "snapshot_sha256": "483f3074934a6af6b72fcb47687325dc3565214bb9194721c463b0b54c0d2836"
+      },
+      "config_path": {
+        "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\dhfg.json",
+        "available": true,
+        "sha256": "26750d7d93c5b458d46a54d1b53cf2383e711ec6c2653448cf1368620fe90656",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": null,
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\diffusers\\pipelines\\stable_diffusion\\dhfg_guidance.py",
+          "available": true,
+          "sha256": "cc692d0800ecdfcc5225dbb3c0493bcdc49a379f73ed583c13e99cb05d38e8e5",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_DHFG_code.txt",
+          "snapshot_sha256": "483f3074934a6af6b72fcb47687325dc3565214bb9194721c463b0b54c0d2836"
+        },
+        {
+          "path": "C:\\MyFile\\Study\\代码\\Self-main\\configs\\dhfg.json",
+          "available": true,
+          "sha256": "26750d7d93c5b458d46a54d1b53cf2383e711ec6c2653448cf1368620fe90656",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    }
+  ],
+  "Stage17A_Vanilla": "NOT_VIABLE_AS_GENERATOR_BASE",
+  "counts_unknown_are_null_not_zero": true
+}

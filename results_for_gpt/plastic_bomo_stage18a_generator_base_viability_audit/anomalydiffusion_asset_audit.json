@@ -1,0 +1,453 @@
+{
+  "registry": {
+    "generator_id": "ANOMALYDIFFUSION",
+    "generator_name": "AnomalyDiffusion",
+    "method_family": "AnomalyDiffusion",
+    "code_path": {
+      "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\run_plastic_bomo_background.sh",
+      "available": true,
+      "sha256": "7e34b132b058aec120e3fdaeb13886cb103521894ce46142632fbe585102a891",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_ANOMALYDIFFUSION_code.txt",
+      "snapshot_sha256": "73fe0199a2c98bf95421d8db3345e19460e1ae1f8e76ee55e092f2f6373c117f"
+    },
+    "config_path": {
+      "path": null,
+      "available": false
+    },
+    "checkpoint_path": null,
+    "native_generation_code": {
+      "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\generate_with_mask.py",
+      "available": true,
+      "sha256": "bf60487e8a2d057f16907c6c65b12615f6f0015f2e48c4c240a81578f2b57b7e",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_ANOMALYDIFFUSION_inference.txt",
+      "snapshot_sha256": "46e2407bfc00479844f7d0a39dc04837ebf5849a49c84c5c41322607c8fc982a"
+    },
+    "checkpoint_exists": false,
+    "checkpoint_sha256_if_available": [],
+    "other_observed_asset_roots": [
+      {
+        "root": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master",
+        "exists": true,
+        "files": [
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\environment-base-cn.yaml",
+            "relative": "environment-base-cn.yaml",
+            "bytes": 281,
+            "kind": "metadata",
+            "sha256": "69c62310089583cc34eb6a997f353ec833ce0215f67541071cb074b0e7eec12e"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\environment-cn.yaml",
+            "relative": "environment-cn.yaml",
+            "bytes": 1152,
+            "kind": "metadata",
+            "sha256": "387623dc7c3cfbfc20a16b27953ac1d94df0ddff6e5fc2b95206e47c9e4f8950"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\environment.yaml",
+            "relative": "environment.yaml",
+            "bytes": 819,
+            "kind": "metadata",
+            "sha256": "b965b089d535e89799384a4b2e417858fefca9e9a9041d288417fc9e4e310443"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\name-anomaly.txt",
+            "relative": "name-anomaly.txt",
+            "bytes": 60,
+            "kind": "metadata",
+            "sha256": "7a5bbfa3c46f873a82260c15a937e0a00c8512ebfc393df81987325faffe98aa"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\requirements-cn.txt",
+            "relative": "requirements-cn.txt",
+            "bytes": 444,
+            "kind": "metadata",
+            "sha256": "316ffc89f527fba99e35d53244cc53a0f591b856d948ed267f034c0185606818"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_16x16x16.yaml",
+            "relative": "configs/autoencoder/autoencoder_kl_16x16x16.yaml",
+            "bytes": 1145,
+            "kind": "metadata",
+            "sha256": "89bb023898da28fb34cd865021f37a9186933a60f64d3ea9813dda9c0f19fb52"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_32x32x4.yaml",
+            "relative": "configs/autoencoder/autoencoder_kl_32x32x4.yaml",
+            "bytes": 1140,
+            "kind": "metadata",
+            "sha256": "c2abfe5293bb47af6488f4f4faa6636a025e732ac0f5ccae0a660d11580600ba"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_64x64x3.yaml",
+            "relative": "configs/autoencoder/autoencoder_kl_64x64x3.yaml",
+            "bytes": 1139,
+            "kind": "metadata",
+            "sha256": "897db209dbd5d4ff0f9a66bd6fdb9804e49324428bd4f938ff9192ddf502ef68"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\autoencoder\\autoencoder_kl_8x8x64.yaml",
+            "relative": "configs/autoencoder/autoencoder_kl_8x8x64.yaml",
+            "bytes": 1148,
+            "kind": "metadata",
+            "sha256": "47114981fd3657d9b4c18db2f1b6d4e1dc2b9a89e97d101cbc0831e43cde7bc5"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\celebahq-ldm-vq-4.yaml",
+            "relative": "configs/latent-diffusion/celebahq-ldm-vq-4.yaml",
+            "bytes": 2028,
+            "kind": "metadata",
+            "sha256": "c6b29227879c821a124dca814164b95df2fd1586ae7ac548f17e2bd2f68062d3"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\cin-ldm-vq-f8.yaml",
+            "relative": "configs/latent-diffusion/cin-ldm-vq-f8.yaml",
+            "bytes": 2360,
+            "kind": "metadata",
+            "sha256": "46c28f256edae6bdf835b933d78c30f36684b791491609932df8f387b54a6a23"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\cin256-v2.yaml",
+            "relative": "configs/latent-diffusion/cin256-v2.yaml",
+            "bytes": 1553,
+            "kind": "metadata",
+            "sha256": "b06c64afb41956e1fcc2abaeb3d217ae0edb1a201d09f35e7d656ce61396e779"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\ffhq-ldm-vq-4.yaml",
+            "relative": "configs/latent-diffusion/ffhq-ldm-vq-4.yaml",
+            "bytes": 2020,
+            "kind": "metadata",
+            "sha256": "8ef723f6e71be5abc666500aa0cdd7ad35985d3d08efa2ada4d4ba4cfccf18ca"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\lsun_bedrooms-ldm-vq-4.yaml",
+            "relative": "configs/latent-diffusion/lsun_bedrooms-ldm-vq-4.yaml",
+            "bytes": 2024,
+            "kind": "metadata",
+            "sha256": "da81fbf9eda2426d7116c6be54050b4f063b04d58a712e6ccdd27d94251b9fae"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\lsun_churches-ldm-kl-8.yaml",
+            "relative": "configs/latent-diffusion/lsun_churches-ldm-kl-8.yaml",
+            "bytes": 2284,
+            "kind": "metadata",
+            "sha256": "6e0144e2e62ec39069da926fedbc4abdb80d508bccb6c64756bcbe8cc42f0f5e"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-eval.yaml",
+            "relative": "configs/latent-diffusion/txt2img-1p4B-eval.yaml",
+            "bytes": 1614,
+            "kind": "metadata",
+            "sha256": "14eeb9329239e011c2b7c8617142c90381807d8044771b3708cb965b413fae03"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-eval_with_tokens.yaml",
+            "relative": "configs/latent-diffusion/txt2img-1p4B-eval_with_tokens.yaml",
+            "bytes": 1783,
+            "kind": "metadata",
+            "sha256": "85a6987aac5a0316c3320279bbe3858e7984c4808ea2bbbb8fc11acb18624671"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-finetune-encoder+embedding.yaml",
+            "relative": "configs/latent-diffusion/txt2img-1p4B-finetune-encoder+embedding.yaml",
+            "bytes": 2707,
+            "kind": "metadata",
+            "sha256": "e03e1d564d9243e08337921d624122ad8e1fe040606ce46f21156df4f8fa6a40"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-finetune.yaml",
+            "relative": "configs/latent-diffusion/txt2img-1p4B-finetune.yaml",
+            "bytes": 2653,
+            "kind": "metadata",
+            "sha256": "fd2a193edc041a87f9203e0a7f2150ccd2408f65bdf6fe0ae057a5766c1ab31a"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\latent-diffusion\\txt2img-1p4B-finetune_style.yaml",
+            "relative": "configs/latent-diffusion/txt2img-1p4B-finetune_style.yaml",
+            "bytes": 2610,
+            "kind": "metadata",
+            "sha256": "3fcbd61709e752589a98d89019c87097e12b96ad6c347c0c0b32d343b2b1a61c"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\stable-diffusion\\v1-finetune.yaml",
+            "relative": "configs/stable-diffusion/v1-finetune.yaml",
+            "bytes": 2649,
+            "kind": "metadata",
+            "sha256": "1065c3d792febbde23807cfd68a4c7c252b4212bae67b9465c04da5c6dfce181"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\stable-diffusion\\v1-finetune_unfrozen.yaml",
+            "relative": "configs/stable-diffusion/v1-finetune_unfrozen.yaml",
+            "bytes": 2651,
+            "kind": "metadata",
+            "sha256": "f2131c14a7f49e545c64dafe814c947dde4360bf52c18c19e8671de8ccc76f81"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\configs\\stable-diffusion\\v1-inference.yaml",
+            "relative": "configs/stable-diffusion/v1-inference.yaml",
+            "bytes": 1851,
+            "kind": "metadata",
+            "sha256": "dd4a2b65ec579ca11bddfcd333ee920be95cad98a4bd31f700955c37c5eced5f"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\ldm\\data\\tmp.jpg",
+            "relative": "ldm/data/tmp.jpg",
+            "bytes": 6600,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\ldm\\modules\\image_degradation\\utils\\test.png",
+            "relative": "ldm/modules/image_degradation/utils/test.png",
+            "bytes": 441072,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f16\\config.yaml",
+            "relative": "models/first_stage_models/kl-f16/config.yaml",
+            "bytes": 909,
+            "kind": "metadata",
+            "sha256": "756c0a42e3f24243881fdc49218b6cf776324413ae13819f27e69b137e098a2f"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f32\\config.yaml",
+            "relative": "models/first_stage_models/kl-f32/config.yaml",
+            "bytes": 929,
+            "kind": "metadata",
+            "sha256": "a6ab8519f4119edb20ae359c8d5d5d6a32924fd28c15de2f043a9fd9728b39c8"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f4\\config.yaml",
+            "relative": "models/first_stage_models/kl-f4/config.yaml",
+            "bytes": 880,
+            "kind": "metadata",
+            "sha256": "788a0802c5d95fe3e299ac8bb8ff01e3cfd09f8f04b2d8dcbc6701ddc393be82"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\kl-f8\\config.yaml",
+            "relative": "models/first_stage_models/kl-f8/config.yaml",
+            "bytes": 889,
+            "kind": "metadata",
+            "sha256": "5c914a8dee3cfeaf967feea7f8c451bc25e87fc619b6cf7aff55bc51cb52dc03"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f16\\config.yaml",
+            "relative": "models/first_stage_models/vq-f16/config.yaml",
+            "bytes": 1026,
+            "kind": "metadata",
+            "sha256": "efe6f16825cc9bc84dce52d730fa251c6d1a83cceb27c706dc34dfdedc113eb0"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f4\\config.yaml",
+            "relative": "models/first_stage_models/vq-f4/config.yaml",
+            "bytes": 955,
+            "kind": "metadata",
+            "sha256": "56debf47c0afc61b90dd9ef6a8b8e34f95598f377b223efd77ae300e4f10a316"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f4-noattn\\config.yaml",
+            "relative": "models/first_stage_models/vq-f4-noattn/config.yaml",
+            "bytes": 978,
+            "kind": "metadata",
+            "sha256": "da2e41b0bb52bc14afa245f802b12e488069247215b4c4c1fe17142d6f288a4d"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f8\\config.yaml",
+            "relative": "models/first_stage_models/vq-f8/config.yaml",
+            "bytes": 1035,
+            "kind": "metadata",
+            "sha256": "49c949bf31fadf3a1ea1a5ad8c7a69e57ccf176ec8d578bac4122bf4f587a5e6"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\first_stage_models\\vq-f8-n256\\config.yaml",
+            "relative": "models/first_stage_models/vq-f8-n256/config.yaml",
+            "bytes": 1013,
+            "kind": "metadata",
+            "sha256": "3ca2b27b9b15b9653299d19e15af04db357ffc4d5045a6af31d0849a5b872d42"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\bsr_sr\\config.yaml",
+            "relative": "models/ldm/bsr_sr/config.yaml",
+            "bytes": 1900,
+            "kind": "metadata",
+            "sha256": "8bc6182f50dd30118c94d947c974d3d603e338bfa04440b950d80f55bf9efc9e"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\celeba256\\config.yaml",
+            "relative": "models/ldm/celeba256/config.yaml",
+            "bytes": 1599,
+            "kind": "metadata",
+            "sha256": "c7be35391ac86a5f632decd91012297aefefde365795ed10cabe54a5fdbdb6d5"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\cin256\\config.yaml",
+            "relative": "models/ldm/cin256/config.yaml",
+            "bytes": 1862,
+            "kind": "metadata",
+            "sha256": "f288ae9783ec767b2d75784b132b7632695303c57563d5de3fb88c4aabbf5e5f"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\ffhq256\\config.yaml",
+            "relative": "models/ldm/ffhq256/config.yaml",
+            "bytes": 1591,
+            "kind": "metadata",
+            "sha256": "f66d32760a9219d059d209b09d9945032ee394ac350ff3052d3a32e435c885fa"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\inpainting_big\\config.yaml",
+            "relative": "models/ldm/inpainting_big/config.yaml",
+            "bytes": 1619,
+            "kind": "metadata",
+            "sha256": "4cd3a04f9d0b8d9aa26588bafa845645e05c97dc3b18b83054ab04b312db6f41"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\layout2img-openimages256\\config.yaml",
+            "relative": "models/ldm/layout2img-openimages256/config.yaml",
+            "bytes": 1924,
+            "kind": "metadata",
+            "sha256": "33d129d1d5110291553e0995247b595c3436fe2f817a5fe6ddcc0a552e6aa9bc"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\lsun_beds256\\config.yaml",
+            "relative": "models/ldm/lsun_beds256/config.yaml",
+            "bytes": 1601,
+            "kind": "metadata",
+            "sha256": "ccc0035c715a7b8dd98ee2787fe30cf30a7e4f2350b03dc2558d7c1534c109f7"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\lsun_churches256\\config.yaml",
+            "relative": "models/ldm/lsun_churches256/config.yaml",
+            "bytes": 2018,
+            "kind": "metadata",
+            "sha256": "6581963a451597fee88c97bb14820634bd1238d57753957975e282cdb73d9415"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\semantic_synthesis256\\config.yaml",
+            "relative": "models/ldm/semantic_synthesis256/config.yaml",
+            "bytes": 1378,
+            "kind": "metadata",
+            "sha256": "dcf9b4a9f7fd0c39cf51830e20ab47e5c907f9725e744dc3b396c3a9d06e13dc"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\semantic_synthesis512\\config.yaml",
+            "relative": "models/ldm/semantic_synthesis512/config.yaml",
+            "bytes": 1820,
+            "kind": "metadata",
+            "sha256": "d089f857cbc677fd2c4871840a7d1c8eae7bacff619eb35f4093c535c698fdbf"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\models\\ldm\\text2img256\\config.yaml",
+            "relative": "models/ldm/text2img256/config.yaml",
+            "bytes": 1831,
+            "kind": "metadata",
+            "sha256": "17b7d2e975d744d89576c04c37607d046cbc926a80bdf478f80bb9098d89a20c"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\download_first_stages.sh",
+            "relative": "scripts/download_first_stages.sh",
+            "bytes": 1324,
+            "kind": "metadata",
+            "sha256": "0d13608855b2b94d330f9120696f4ae60eb8f0558067170bddb928ae87da4ef6"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\download_models.sh",
+            "relative": "scripts/download_models.sh",
+            "bytes": 1681,
+            "kind": "metadata",
+            "sha256": "0178f7086cb4abc2506a5b1075c22a1cbee0e72be4bbfd0109477a89f23c9d86"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\run_plastic_bomo_background.sh",
+            "relative": "scripts/run_plastic_bomo_background.sh",
+            "bytes": 1979,
+            "kind": "metadata",
+            "sha256": "7e34b132b058aec120e3fdaeb13886cb103521894ce46142632fbe585102a891"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\taming\\modules\\autoencoder\\lpips\\vgg.pth",
+            "relative": "taming/modules/autoencoder/lpips/vgg.pth",
+            "bytes": 7289,
+            "kind": "weight",
+            "sha256": "a78928a0af1e5f0fcb1f3b9e8f8c3a2a5a3de244d830ad5c1feddc79b8432868"
+          }
+        ],
+        "errors": [],
+        "excluded_directories": [
+          ".git",
+          ".pytest_cache",
+          "__pycache__",
+          "datasets",
+          "eval",
+          "ground_truth",
+          "node_modules",
+          "test",
+          "train",
+          "val",
+          "validation"
+        ],
+        "validation_access": 0,
+        "counts": {
+          "metadata": 46,
+          "image": 2,
+          "weight": 1
+        }
+      }
+    ],
+    "training_data_source": null,
+    "training_split": "UNRESOLVED",
+    "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+    "training_image_count": null,
+    "validation_used_for_generator_training": "UNRESOLVED",
+    "test_used_for_generator_training": "UNRESOLVED",
+    "generation_output_dirs": [],
+    "synthetic_image_count": null,
+    "synthetic_annotation_count": null,
+    "counts_are_manifest_declared_not_file_verified": true,
+    "class_counts": {
+      "flash": null,
+      "black": null
+    },
+    "generation_seed_information": "UNRESOLVED",
+    "parent/source_information_available": false,
+    "conditioning_information_available": false,
+    "mask_information_available": "UNRESOLVED",
+    "annotation_generation_method": "UNRESOLVED",
+    "downstream_detector_results_if_any": [],
+    "selector_used_in_historical_result": "UNRESOLVED",
+    "selector_name_if_any": [],
+    "evidence_paths": [
+      {
+        "path": "C:\\MyFile\\Study\\代码\\anomalydiffusion-master\\scripts\\run_plastic_bomo_background.sh",
+        "available": true,
+        "sha256": "7e34b132b058aec120e3fdaeb13886cb103521894ce46142632fbe585102a891",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_ANOMALYDIFFUSION_code.txt",
+        "snapshot_sha256": "73fe0199a2c98bf95421d8db3345e19460e1ae1f8e76ee55e092f2f6373c117f"
+      },
+      {
+        "path": null,
+        "available": false
+      }
+    ],
+    "isolation_status": "ISOLATION_UNRESOLVED",
+    "verified_legal_class_counts": {
+      "flash": 0,
+      "black": 0
+    },
+    "eligible": false,
+    "eligibility_failures": [
+      "TRAIN_ONLY_NOT_CONFIRMED",
+      "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+      "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+      "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+    ]
+  },
+  "visual_quality_is_not_utility": true,
+  "prepared_input_dataset_is_not_synthetic": true,
+  "unrelated_dataset_outputs_are_not_Plastic_Bomo": true,
+  "example_log": null,
+  "input_conversion": null,
+  "native_code_diagnostics": "image/mask/ori/recon outputs, not a proven YOLO bbox manifest"
+}

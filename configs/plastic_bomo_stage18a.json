@@ -1,0 +1,28 @@
+{
+  "stage": "Stage18A",
+  "authoritative_stage17a_commit": "adda61d6c976407fcfc6054a5eff285299b80842",
+  "mode": "EXISTING_ASSETS_ONLY",
+  "real_images": 138,
+  "extra_images": 80,
+  "required_synthetic_class_counts": {"flash": 40, "black": 40},
+  "frozen_labels_and_split_must_remain_unchanged": true,
+  "forbidden": ["generation", "generator_training", "detector_training", "official_validation_access", "new_selector", "bootstrap_guard_modification", "DeepPCB", "Stage18B_auto_start"],
+  "ranking": ["evidence_completeness", "isolation_certainty", "annotation_completeness", "matched_experiment_ability", "generator_id_lexical"],
+  "ranking_excludes": ["FID", "KID", "LPIPS", "visual_rating", "historical_map"],
+  "stage17a_results": "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results",
+  "pool_manifest": "results_for_gpt/scored_candidates_v2_fixed_v3_expanded.json",
+  "random_manifest": "results_for_gpt/random_matched_manifest_40_40_s42.json",
+  "stage14a_subsets": "results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/subset_definition.json",
+  "external_repository_names": ["anomalydiffusion-master", "DefectFill-main"],
+  "historical_families": [
+    {"id": "ANOMALYDIFFUSION", "name": "AnomalyDiffusion", "family": "AnomalyDiffusion", "config": null, "code": "scripts/run_plastic_bomo_background.sh", "external": "anomalydiffusion-master"},
+    {"id": "DEFECTFILL", "name": "DefectFill", "family": "DefectFill", "config": null, "code": "tools/prepare_plastic_bomo_defectfill.py", "external": "DefectFill-main"},
+    {"id": "MSDF_V3", "name": "MSDF-v3", "family": "SD2 with MSDF guidance", "config": "configs/msdf.json", "code": "diffusers/pipelines/stable_diffusion/msdf_guidance.py", "checkpoint": "model/msdf_v3_sd2_2000_s42", "output": "results/msdf_v3_sd2_2000_s42"},
+    {"id": "MSDF_V3_DWBG_POOL", "name": "MSDF-v3 derived DWBG pool", "family": "MSDF outputs plus post-generation recomposition/filtering", "config": "configs/dwbg_v2.json", "code": "tools/build_dwbg_candidates.py", "checkpoint": "model/msdf_v3_sd2_2000_s42", "output": "results/dwbg/v2/fixed_v3/candidate_pool"},
+    {"id": "HISTORICAL_SD_BASELINE", "name": "Historical SD baseline", "family": "Stable Diffusion", "config": "configs/baseline_frozen_split70_s42.json", "code": "train_dreambooth_noise.py", "checkpoint": "model/baseline_clean_split70_s42_noise_0.0"},
+    {"id": "RDA", "name": "RDA historical variants", "family": "SD2 RDA", "config": "configs/rda_v4_frozen.json", "code": "diffusers/pipelines/stable_diffusion/rda_guidance.py", "checkpoint": "model/rda_v4_sd2_2000_s42"},
+    {"id": "CARF", "name": "CARF historical variants", "family": "SD2 CARF", "config": "configs/carf_only_v4.json", "code": "diffusers/pipelines/stable_diffusion/carf_guidance.py"},
+    {"id": "DHFG", "name": "DHFG historical variants", "family": "SD2 detector-guided variants", "config": "configs/dhfg.json", "code": "diffusers/pipelines/stable_diffusion/dhfg_guidance.py"}
+  ],
+  "annotation_caveats": {"xml_lineage": {"flash": 88, "black": 30}, "supplemental_black": {"images": 25, "boxes": 50, "origin": "historical prelabel import", "instance_human_verification": "UNRESOLVED"}, "suspected_missing_labels": true, "small_big_black_semantic_ambiguity": true}
+}

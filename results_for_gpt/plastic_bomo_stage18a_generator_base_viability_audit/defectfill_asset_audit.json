@@ -1,0 +1,271 @@
+{
+  "registry": {
+    "generator_id": "DEFECTFILL",
+    "generator_name": "DefectFill",
+    "method_family": "DefectFill",
+    "code_path": {
+      "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\tools\\prepare_plastic_bomo_defectfill.py",
+      "available": true,
+      "sha256": "83d0905b43925fe10765c4fce8f80c0eefb2bce88e82bb596779a679478798db",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_DEFECTFILL_code.txt",
+      "snapshot_sha256": "3ea2485b5e97d90662b803179714becfdfc6ddcdb01ca582072257d50f7b04b9"
+    },
+    "config_path": {
+      "path": null,
+      "available": false
+    },
+    "checkpoint_path": null,
+    "native_generation_code": {
+      "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\inference.py",
+      "available": true,
+      "sha256": "422a57c222351ca61ba322e13818373c0bb033d4220bd35fdad38866ceecb521",
+      "origin": "WORKTREE",
+      "snapshot": "evidence_DEFECTFILL_inference.txt",
+      "snapshot_sha256": "422a57c222351ca61ba322e13818373c0bb033d4220bd35fdad38866ceecb521"
+    },
+    "checkpoint_exists": false,
+    "checkpoint_sha256_if_available": [],
+    "other_observed_asset_roots": [
+      {
+        "root": "C:\\MyFile\\Study\\代码\\DefectFill-main",
+        "exists": true,
+        "files": [
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\requirements.txt",
+            "relative": "requirements.txt",
+            "bytes": 218,
+            "kind": "metadata",
+            "sha256": "af0f3dc11855ca7b59e8503eefe823e8f925c2f241bd36ef1f7f459b603bf3cc"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\inference_log.json",
+            "relative": "step_200/inference_log.json",
+            "bytes": 1488,
+            "kind": "metadata",
+            "sha256": "e30b7a577339bde29a0f891c016958293ac8c2d88673c2ff06e55bbc9f3af218"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0000_generated.png",
+            "relative": "step_200/crack/0000_generated.png",
+            "bytes": 395997,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0000_mask.png",
+            "relative": "step_200/crack/0000_mask.png",
+            "bytes": 2460,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0001_generated.png",
+            "relative": "step_200/crack/0001_generated.png",
+            "bytes": 397465,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0001_mask.png",
+            "relative": "step_200/crack/0001_mask.png",
+            "bytes": 2774,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0002_generated.png",
+            "relative": "step_200/crack/0002_generated.png",
+            "bytes": 390951,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0002_mask.png",
+            "relative": "step_200/crack/0002_mask.png",
+            "bytes": 3034,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0003_generated.png",
+            "relative": "step_200/crack/0003_generated.png",
+            "bytes": 416287,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0003_mask.png",
+            "relative": "step_200/crack/0003_mask.png",
+            "bytes": 2666,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0004_generated.png",
+            "relative": "step_200/crack/0004_generated.png",
+            "bytes": 396627,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0004_mask.png",
+            "relative": "step_200/crack/0004_mask.png",
+            "bytes": 2468,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0005_generated.png",
+            "relative": "step_200/crack/0005_generated.png",
+            "bytes": 390002,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\crack\\0005_mask.png",
+            "relative": "step_200/crack/0005_mask.png",
+            "bytes": 2949,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0000.png",
+            "relative": "triplet_results/triplet_0000.png",
+            "bytes": 1434839,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0001.png",
+            "relative": "triplet_results/triplet_0001.png",
+            "bytes": 1391902,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0002.png",
+            "relative": "triplet_results/triplet_0002.png",
+            "bytes": 1396253,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0003.png",
+            "relative": "triplet_results/triplet_0003.png",
+            "bytes": 1429346,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0004.png",
+            "relative": "triplet_results/triplet_0004.png",
+            "bytes": 1390909,
+            "kind": "image"
+          },
+          {
+            "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\triplet_results\\triplet_0005.png",
+            "relative": "triplet_results/triplet_0005.png",
+            "bytes": 1315635,
+            "kind": "image"
+          }
+        ],
+        "errors": [],
+        "excluded_directories": [
+          ".git",
+          ".pytest_cache",
+          "__pycache__",
+          "datasets",
+          "eval",
+          "ground_truth",
+          "node_modules",
+          "test",
+          "train",
+          "val",
+          "validation"
+        ],
+        "validation_access": 0,
+        "counts": {
+          "metadata": 2,
+          "image": 18
+        }
+      }
+    ],
+    "training_data_source": null,
+    "training_split": "UNRESOLVED",
+    "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+    "training_image_count": null,
+    "validation_used_for_generator_training": "UNRESOLVED",
+    "test_used_for_generator_training": "UNRESOLVED",
+    "generation_output_dirs": [],
+    "synthetic_image_count": null,
+    "synthetic_annotation_count": null,
+    "counts_are_manifest_declared_not_file_verified": true,
+    "class_counts": {
+      "flash": null,
+      "black": null
+    },
+    "generation_seed_information": "UNRESOLVED",
+    "parent/source_information_available": false,
+    "conditioning_information_available": false,
+    "mask_information_available": "UNRESOLVED",
+    "annotation_generation_method": "UNRESOLVED",
+    "downstream_detector_results_if_any": [],
+    "selector_used_in_historical_result": "UNRESOLVED",
+    "selector_name_if_any": [],
+    "evidence_paths": [
+      {
+        "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\tools\\prepare_plastic_bomo_defectfill.py",
+        "available": true,
+        "sha256": "83d0905b43925fe10765c4fce8f80c0eefb2bce88e82bb596779a679478798db",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_DEFECTFILL_code.txt",
+        "snapshot_sha256": "3ea2485b5e97d90662b803179714becfdfc6ddcdb01ca582072257d50f7b04b9"
+      },
+      {
+        "path": null,
+        "available": false
+      }
+    ],
+    "isolation_status": "ISOLATION_UNRESOLVED",
+    "verified_legal_class_counts": {
+      "flash": 0,
+      "black": 0
+    },
+    "eligible": false,
+    "eligibility_failures": [
+      "TRAIN_ONLY_NOT_CONFIRMED",
+      "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+      "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+      "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+    ]
+  },
+  "visual_quality_is_not_utility": true,
+  "prepared_input_dataset_is_not_synthetic": true,
+  "unrelated_dataset_outputs_are_not_Plastic_Bomo": true,
+  "example_log": {
+    "path": "C:\\MyFile\\Study\\代码\\DefectFill-main\\step_200\\inference_log.json",
+    "exists": true,
+    "sha256": "e30b7a577339bde29a0f891c016958293ac8c2d88673c2ff06e55bbc9f3af218",
+    "object_class": "concrete",
+    "defect_type": "crack",
+    "checkpoint": "/proj/uppmax2025-2-369/axelsig_thesis/DefectFill2/output/concrete_model/concrete_model_default/checkpoints/checkpoint_200.pt",
+    "generated_records": 6
+  },
+  "input_conversion": {
+    "path": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Plastic_Bomo_DefectFill\\conversion_report.json",
+    "sha256": "6cb600a6676be10723c6bb5eb763e5ab5f06573d4dd56315c99ed3d1e88bb8d5",
+    "metadata": {
+      "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Plastic_Bomo_mvtec_ready\\Plastic_Bomo",
+      "output": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Plastic_Bomo_DefectFill",
+      "defects": {
+        "01_Flash_point": {
+          "source_images": 108,
+          "copied_pairs": 108,
+          "missing_masks": [],
+          "invalid_pairs": []
+        },
+        "02_Big_black_spots": {
+          "source_images": 51,
+          "copied_pairs": 51,
+          "missing_masks": [],
+          "invalid_pairs": []
+        }
+      },
+      "test_good": {
+        "source_images": 102,
+        "written_crops": 718,
+        "rejected_crops": 0,
+        "failures": [],
+        "minimum_bright_fraction": 0.9943084716796875,
+        "maximum_dark_fraction": 0.00470733642578125
+      }
+    },
+    "kind": "PREPARED_INPUT_NOT_SYNTHETIC"
+  },
+  "native_code_diagnostics": "train-mask fallback to test-mask is allowed; actual use unresolved"
+}

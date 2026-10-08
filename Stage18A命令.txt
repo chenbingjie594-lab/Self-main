@@ -1,0 +1,29 @@
+# Stage18A：只盘点已有文件、读取历史 metadata、核验已有 synthetic labels。
+# 不需要 GPU，不训练，不生成，不读官方 validation 图像/标签。
+# 先同步这两个文件到服务器：
+# tools/audit_plastic_bomo_stage18a.py
+# configs/plastic_bomo_stage18a.json
+# 不要运行任何旧 generator launcher。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+TASK18_AUDIT_RUN=$(date +%Y%m%d_%H%M%S)
+mkdir -p logs/plastic_bomo_stage18a_generator_base_viability_audit
+
+nohup /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/audit_plastic_bomo_stage18a.py \
+  --protocol configs/plastic_bomo_stage18a.json \
+  --repo_root /mnt/sda/cbj/ImageGeneration/Self-main \
+  --scope SERVER_EXISTING_EVIDENCE \
+  --code_parent /mnt/sda/cbj/ImageGeneration \
+  --asset_root /mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42 \
+  --asset_root /mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_clean_split70_s42_noise_0.0 \
+  --asset_root /mnt/sda/cbj/ImageGeneration/Self-main/results/dwbg/v2/fixed_v3/candidate_pool \
+  --asset_root /mnt/sda/cbj/ImageGeneration/Self-main/results/msdf_v3_sd2_2000_s42 \
+  --asset_root /mnt/sda/cbj/ImageGeneration/anomalydiffusion-master/generated_dataset \
+  --asset_root /mnt/sda/cbj/ImageGeneration/DefectFill-main/output \
+  --output results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_${TASK18_AUDIT_RUN} \
+  > logs/plastic_bomo_stage18a_generator_base_viability_audit/audit_${TASK18_AUDIT_RUN}.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage18a_generator_base_viability_audit/audit_${TASK18_AUDIT_RUN}.pid
+echo "结果目录：results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_${TASK18_AUDIT_RUN}"
+# 下载该目录交回复核。若实际 AnomalyDiffusion/DefectFill 目录不同，追加实际 --asset_root；
+# 不要把真实 dataset/train/test/val 根目录作为 asset_root。
+# 找到 checkpoint 不代表通过隔离审计；本命令不会自动授权 Stage18B。

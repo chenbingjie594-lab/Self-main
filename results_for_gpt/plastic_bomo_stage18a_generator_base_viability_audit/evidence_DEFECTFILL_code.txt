@@ -1,0 +1,159 @@
+from __future__ import annotations
+
+import argparse
+import json
+import shutil
+from pathlib import Path
+
+import numpy as np
+from PIL import Image
+
+
+IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png"}
+
+
+def image_files(directory: Path) -> list[Path]:
+    return sorted(p for p in directory.iterdir() if p.suffix.lower() in IMAGE_SUFFIXES)
+
+
+def valid_column_interval(rgb: np.ndarray) -> tuple[int, int]:
+    """Return the widest contiguous material region, excluding dark camera borders."""
+    gray = rgb.astype(np.float32).mean(axis=2)
+    # A material column is illuminated through nearly all of its height. This
+    # rejects both the black center and the narrow dark strip at the left edge.
+    valid = (gray > 40).mean(axis=0) >= 0.90
+    padded = np.pad(valid.astype(np.int8), (1, 1))
+    changes = np.diff(padded)
+    starts = np.flatnonzero(changes == 1)
+    ends = np.flatnonzero(changes == -1)
+    if not len(starts):
+        raise ValueError("no illuminated material region detected")
+    widths = ends - starts
+    index = int(np.argmax(widths))
+    return int(starts[index]), int(ends[index])
+
+
+def tile_starts(start: int, end: int, tile: int) -> list[int]:
+    width = end - start
+    if width < tile:
+        return []
+    count = width // tile
+    if count == 1:
+        return [start + (width - tile) // 2]
+    # Spread full-size crops across the usable region and include both edges.
+    return sorted({int(round(x)) for x in np.linspace(start, end - tile, count)})
+
+
+def convert_good_images(source: Path, destination: Path, tile: int = 512) -> dict:
+    destination.mkdir(parents=True, exist_ok=True)
+    written = 0
+    rejected = 0
+    failures: list[str] = []
+    min_bright_fraction = 1.0
+    max_dark_fraction = 0.0
+
+    for path in image_files(source):
+        rgb = np.asarray(Image.open(path).convert("RGB"))
+        height, _ = rgb.shape[:2]
+        try:
+            x0, x1 = valid_column_interval(rgb)
+        except ValueError as exc:
+            failures.append(f"{path.name}: {exc}")
+            continue
+
+        xs = tile_starts(x0, x1, tile)
+        ys = tile_starts(0, height, tile)
+        for yi, y in enumerate(ys):
+            for xi, x in enumerate(xs):
+                crop = rgb[y : y + tile, x : x + tile]
+                gray = crop.astype(np.float32).mean(axis=2)
+                bright_fraction = float((gray > 40).mean())
+                dark_fraction = float((gray < 20).mean())
+                # Reject any crop that still intersects a substantial black border.
+                if crop.shape[:2] != (tile, tile) or bright_fraction < 0.98 or dark_fraction > 0.005:
+                    rejected += 1
+                    continue
+                name = f"{path.stem}_y{yi:02d}_x{xi:02d}.png"
+                Image.fromarray(crop).save(destination / name, compress_level=3)
+                written += 1
+                min_bright_fraction = min(min_bright_fraction, bright_fraction)
+                max_dark_fraction = max(max_dark_fraction, dark_fraction)
+
+    return {
+        "source_images": len(image_files(source)),
+        "written_crops": written,
+        "rejected_crops": rejected,
+        "failures": failures,
+        "minimum_bright_fraction": min_bright_fraction if written else None,
+        "maximum_dark_fraction": max_dark_fraction if written else None,
+    }
+
+
+def copy_defects(source_root: Path, output_root: Path) -> dict[str, dict]:
+    results: dict[str, dict] = {}
+    test_root = source_root / "test"
+    ground_truth_root = source_root / "ground_truth"
+    classes = sorted(
+        p.name for p in test_root.iterdir() if p.is_dir() and p.name != "good"
+    )
+    for defect_type in classes:
+        source_images = test_root / defect_type
+        source_masks = ground_truth_root / defect_type
+        target_images = output_root / "train" / "defective" / defect_type
+        target_masks = output_root / "train" / "defective_masks" / defect_type
+        target_images.mkdir(parents=True, exist_ok=True)
+        target_masks.mkdir(parents=True, exist_ok=True)
+
+        images = image_files(source_images)
+        missing: list[str] = []
+        bad_size: list[str] = []
+        for image_path in images:
+            mask_path = source_masks / f"{image_path.stem}_mask.png"
+            if not mask_path.exists():
+                missing.append(image_path.name)
+                continue
+            with Image.open(image_path) as image, Image.open(mask_path) as mask:
+                if image.size != mask.size or image.size != (512, 512):
+                    bad_size.append(image_path.name)
+                    continue
+                mask_values = set(np.unique(np.asarray(mask.convert("L"))).tolist())
+                if not mask_values.issubset({0, 255}) or 255 not in mask_values:
+                    bad_size.append(image_path.name + " (invalid mask)")
+                    continue
+            shutil.copy2(image_path, target_images / image_path.name)
+            shutil.copy2(mask_path, target_masks / mask_path.name)
+
+        results[defect_type] = {
+            "source_images": len(images),
+            "copied_pairs": len(images) - len(missing) - len(bad_size),
+            "missing_masks": missing,
+            "invalid_pairs": bad_size,
+        }
+    return results
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", type=Path, required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+
+    if args.output.exists() and any(args.output.iterdir()):
+        raise SystemExit(f"Refusing to overwrite non-empty output directory: {args.output}")
+    args.output.mkdir(parents=True, exist_ok=True)
+
+    report = {
+        "source": str(args.source.resolve()),
+        "output": str(args.output.resolve()),
+        "defects": copy_defects(args.source, args.output),
+        "test_good": convert_good_images(
+            args.source / "test" / "good", args.output / "test" / "good"
+        ),
+    }
+    with (args.output / "conversion_report.json").open("w", encoding="utf-8") as handle:
+        json.dump(report, handle, ensure_ascii=False, indent=2)
+    print(json.dumps(report, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

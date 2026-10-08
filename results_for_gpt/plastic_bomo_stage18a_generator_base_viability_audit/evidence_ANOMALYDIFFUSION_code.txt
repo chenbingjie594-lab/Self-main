@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+DATA="${1:-/mnt/sda/cbj/dataset/Plastic_Bomo/Plastic_Bomo_mvtec_ready}"
+GPU_ID="${2:-0}"
+RUN_ROOT="${3:-logs/plastic_bomo_runs}"
+RUN_ID="$(date +%Y%m%d_%H%M%S)"
+RUN_DIR="${RUN_ROOT}/${RUN_ID}"
+
+mkdir -p "${RUN_DIR}"
+
+echo "Run directory: ${RUN_DIR}"
+echo "Dataset: ${DATA}"
+echo "GPU: ${GPU_ID}"
+
+run_step() {
+  local name="$1"
+  shift
+  local log_file="${RUN_DIR}/${name}.log"
+
+  echo "[$(date '+%F %T')] START ${name}" | tee -a "${RUN_DIR}/pipeline.log"
+  echo "Command: $*" >> "${log_file}"
+  CUDA_VISIBLE_DEVICES="${GPU_ID}" "$@" >> "${log_file}" 2>&1
+  echo "[$(date '+%F %T')] DONE  ${name}" | tee -a "${RUN_DIR}/pipeline.log"
+}
+
+run_step train_anomaly_generation \
+  python main.py \
+    --spatial_encoder_embedding \
+    --data_enhance \
+    --base configs/latent-diffusion/txt2img-1p4B-finetune-encoder+embedding.yaml \
+    -t \
+    --actual_resume models/ldm/text2img-large/model.ckpt \
+    -n Plastic_Bomo \
+    --gpus 0, \
+    --init_word anomaly \
+    --mvtec_path="${DATA}"
+
+run_step train_masks_and_generate_data \
+  python run-mvtec.py \
+    --data_path="${DATA}" \
+    --gpu_id=0
+
+run_step train_localization \
+  python train-localization.py \
+    --generated_data_path=generated_dataset \
+    --mvtec_path="${DATA}" \
+    --sample_name=Plastic_Bomo \
+    --gpu_id=0
+
+run_step test_localization \
+  python test-localization.py \
+    --mvtec_path="${DATA}" \
+    --checkpoint_path=checkpoints/localization \
+    --sample_name=Plastic_Bomo \
+    --gpu_id=0
+
+run_step train_classification \
+  python train-classification.py \
+    --mvtec_path="${DATA}" \
+    --generated_data_path=generated_dataset \
+    --sample_name=Plastic_Bomo
+
+run_step test_classification \
+  python test-classification.py \
+    --mvtec_path="${DATA}" \
+    --generated_data_path=generated_dataset \
+    --checkpoint_path=checkpoints/classification \
+    --sample_name=Plastic_Bomo
+
+echo "[$(date '+%F %T')] ALL DONE" | tee -a "${RUN_DIR}/pipeline.log"
