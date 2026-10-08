@@ -1,0 +1,17 @@
+{
+  "metric": "mAP50-95",
+  "units": "percentage_points",
+  "A_mean_raw_bank_minus_RR_ge_pp": 0.5,
+  "B_strict_bank_wins_ge": 2,
+  "C_every_class_mean_delta_ge_pp": -2.0,
+  "all_three_gates_required": true,
+  "banks_are_generation_RNG_replicates_not_detector_seed_replicates": true,
+  "failure_status": "GENERATOR_BASELINE_HEADROOM_NOT_CONFIRMED",
+  "automatic_fallback_generator": false,
+  "if_all_pass": {
+    "GENERATOR_BASELINE_HEADROOM_CONFIRMED": true,
+    "TASK_DISTRIBUTION_CALIBRATION_DEVELOPMENT": true
+  },
+  "current_TDCRG_authorized": false,
+  "Stage17A_nuisance_threshold_reused": false
+}

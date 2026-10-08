@@ -1,0 +1,47 @@
+{
+  "schema_version": "V2.0",
+  "generation_count": 0,
+  "actual_slots_frozen": false,
+  "required_fields": [
+    "slot_id",
+    "class",
+    "source_group_id",
+    "source_image_id",
+    "conditioning_normal_id",
+    "target_geometry",
+    "mask_if_available",
+    "annotation",
+    "prompt_or_class_condition"
+  ],
+  "annotation_schema": {
+    "format": "normalized_xywh plus pixel_xyxy",
+    "source": "V2 TRAIN provenance ledger",
+    "transform_evidence": "required"
+  },
+  "target_geometry_schema": {
+    "canvas_wh": "required",
+    "crop_xyxy": "required if cropped",
+    "resize_scale_xy": "required if resized",
+    "placement_xy": "required if placed",
+    "bbox_transform": "required"
+  },
+  "invariants": [
+    "donor and normal must be V2 TRAIN",
+    "same slots/order/conditions/geometry/prompts across A/B/C",
+    "same source groups and class counts",
+    "banks differ ONLY in generation RNG"
+  ],
+  "banks": {
+    "A": 42,
+    "B": 3407,
+    "C": 2026
+  },
+  "budget": {
+    "flash": 40,
+    "black": 40,
+    "total": 80,
+    "automatic_budget_adjustment": false
+  },
+  "seed_rule": "Per-slot seed = first 64 bits SHA256(protocol_name + slot_id + bank_rng_key), shared deterministic derivation; persist generator states",
+  "invalid_output_policy": "Only structural invalidity; log failure, never LPIPS/KID/confidence/manual quality rejection"
+}

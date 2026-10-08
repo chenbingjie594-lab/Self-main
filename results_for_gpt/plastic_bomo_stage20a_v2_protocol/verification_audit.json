@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "asset_file_hashes_rechecked": 2650,
+  "changed_asset_files": 0,
+  "test_returncode": 0,
+  "test_output": "test_actual_frozen_outputs (test_plastic_bomo_stage20a.Stage20ATest.test_actual_frozen_outputs) ... ok\ntest_box_validation (test_plastic_bomo_stage20a.Stage20ATest.test_box_validation) ... ok\ntest_filename_sibling_not_black_number_guess (test_plastic_bomo_stage20a.Stage20ATest.test_filename_sibling_not_black_number_guess) ... ok\ntest_graph_known_relations_only (test_plastic_bomo_stage20a.Stage20ATest.test_graph_known_relations_only) ... ok\ntest_split_is_order_independent (test_plastic_bomo_stage20a.Stage20ATest.test_split_is_order_independent) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.039s\n\nOK\n",
+  "review_script_sha256": "b622e6e9e220d8dd28321197412b232794928e27a2d30390a93f75a3a736bbf9",
+  "historical_evidence_archived_byte_exact": true,
+  "split_recomputed": false,
+  "old_status_files_modified": false,
+  "model_import_or_forward_count": 0,
+  "TDCRG_IMPLEMENTED": false,
+  "Stage20B_STARTED": false
+}

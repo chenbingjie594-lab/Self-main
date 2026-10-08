@@ -1,0 +1,27 @@
+{
+  "architecture": "YOLO11s",
+  "pretrained_initialization": "same hash-bound public yolo11s.pt in all arms",
+  "detector_seed": 42,
+  "epochs": 150,
+  "batch": 1,
+  "imgsz": 1536,
+  "patience": 151,
+  "early_stopping_enabled": false,
+  "primary_checkpoint": "epoch150 last.pt",
+  "best_pt_selection": false,
+  "validation_during_training": false,
+  "validation_based_tuning": false,
+  "eval": "V2 final_eval only after all arms and checkpoints are frozen",
+  "arms": [
+    "RR",
+    "RawGenerator-A",
+    "RawGenerator-B",
+    "RawGenerator-C"
+  ],
+  "real_base": "ALL V2 TRAIN detector images, identical across arms",
+  "extra_images": 80,
+  "RR": "80 repeat exposures of predeclared train donors matched to synthetic slots, not 80 new independent samples",
+  "epochs_draws_batches_attempted_optimizer_steps": "Must match all arms; audit successful AMP updates separately; never call unequal successful updates strict equal compute",
+  "hyperparameters": "All remaining hyperparameters must be pinned before any Stage20B arm runs, shared across arms, and never adjusted after metrics",
+  "automatic_training": false
+}

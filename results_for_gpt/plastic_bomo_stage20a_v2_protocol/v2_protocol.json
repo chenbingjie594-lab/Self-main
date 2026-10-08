@@ -1,0 +1,95 @@
+{
+  "dataset_protocol_name": "Plastic_Bomo_Generation_V2",
+  "version": "V2.0",
+  "scope": "NEW_PROTOCOL_NOT_STAGE17_18_RESCUE",
+  "split_seed": 2026,
+  "split_parts": [
+    "train",
+    "final_eval"
+  ],
+  "train_group_fraction": 0.75,
+  "fraction_reason": "Frozen before V2 hashing: historical 138 train / 184 total images = 0.75; no independent third evaluation population exists.",
+  "hash_rule": "SHA256(dataset_protocol_name + source_group_id + '2026'); sort ascending; first floor(0.75*N) groups are train",
+  "oof_k": 5,
+  "oof_rule": "V2 TRAIN groups with labeled detector images sorted by SHA256(protocol_name + group_id + '2026' + 'OOF5'); round-robin fold 0..4; normal-only groups are not teacher training samples",
+  "known_edge_types": [
+    "EXACT_RGB_ALIAS",
+    "KNOWN_SIBLING_CROP",
+    "KNOWN_DERIVED_FROM",
+    "KNOWN_MANIFEST_PARENT",
+    "KNOWN_EXPORT_TRANSFORM"
+  ],
+  "unknown_lineage_policy": "singleton unless an allowed evidenced edge links it; physical_source_complete=false",
+  "expected_old_train_images": 138,
+  "expected_old_train_boxes": {
+    "flash": 88,
+    "black": 80
+  },
+  "expected_old_train_provenance": {
+    "XML": 118,
+    "SUPPLEMENTAL_PRELABEL": 50
+  },
+  "label_boundary": "dataset-defined supervision; not universally human-verified ground truth",
+  "future_claim": "utility under the frozen Plastic_Bomo V2 annotation protocol",
+  "normal_policy": "Only V2 TRAIN normals with explicit empty-part XML source metadata or byte-bound documented origin; unresolved normals excluded from confirmatory use",
+  "official_validation_use_definition": "No model evaluation, design/tuning, candidate/quality selection or performance-based split selection; historical evaluation images/labels may be read ONLY to construct the explicitly requested new registry and count annotations",
+  "budget": {
+    "flash": 40,
+    "black": 40,
+    "total": 80,
+    "automatic_budget_adjustment": false
+  },
+  "generation_rng_banks": {
+    "A": 42,
+    "B": 3407,
+    "C": 2026
+  },
+  "prohibited_now": [
+    "generator_training",
+    "synthetic_generation",
+    "detector_training",
+    "teacher_training",
+    "TDCRG_implementation",
+    "Stage20B_auto_start",
+    "DeepPCB",
+    "BootstrapGuard",
+    "old_labels_or_splits_or_status_modification"
+  ],
+  "historical_evidence": {
+    "xml_boxes": "results_for_gpt/plastic_bomo_stage16a_p0_provenance_recovery/frozen_train_xml_coordinate_check_v2.json",
+    "black_exports": "results_for_gpt/plastic_bomo_stage16a_p0_provenance_recovery/black_train_image_lineage_check.json",
+    "train_derivatives": "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/trainonly_local_preparation/trainonly_source_manifest.json"
+  },
+  "baseline_family": "SD2_INPAINTING_RAW_V2",
+  "baseline_selection_basis": [
+    "existing hash-pinnable training/inpainting code",
+    "explicit train-only input allowlist feasibility",
+    "mask-conditioned spatial annotation compatibility",
+    "deterministic RNG and slots"
+  ],
+  "baseline_selection_excludes": [
+    "historical_mAP",
+    "visual_quality",
+    "Stage14_15_subset_signals"
+  ],
+  "evidence": {
+    "xml_boxes": {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage16a_p0_provenance_recovery\\frozen_train_xml_coordinate_check_v2.json",
+      "sha256": "6637ce5ead01d1b746d4c1e773cb9c53657eb93d7ca0090990395b50e1a6c8c3",
+      "origin": "WORKTREE"
+    },
+    "black_exports": {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage16a_p0_provenance_recovery\\black_train_image_lineage_check.json",
+      "sha256": "ce2727f12118b383c1f903697d22cfbda88307e6745ddc21329252b35c5e3a6a",
+      "origin": "WORKTREE"
+    },
+    "train_derivatives": {
+      "path": "C:\\MyFile\\Study\\代码\\Self-main\\results_for_gpt\\plastic_bomo_stage17a_vanilla_utility_stability\\trainonly_local_preparation\\trainonly_source_manifest.json",
+      "sha256": "5ee6456f3391a57d60316dff9a48fa63ceb6a6c1c7128ea785e8a0a4bff95375",
+      "origin": "WORKTREE"
+    }
+  },
+  "spec_sha256": "adaea758fde675fb2ee2bd8a8c01675334d5ef7490b4e6d4d444d37f2d3c509a",
+  "split_frozen_before_metrics": true,
+  "annotation_completeness_guaranteed": false
+}

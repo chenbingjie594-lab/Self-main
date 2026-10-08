@@ -1,0 +1,920 @@
+{
+  "scope": "FROZEN_BLACK_TRAIN_ONLY",
+  "images": 25,
+  "instances": 50,
+  "counts": {
+    "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED": 25
+  },
+  "all_current_labels_format_valid": true,
+  "all_current_labels_match_frozen_rows": true,
+  "historical_normalizer_script_sha256": "9a12c59da62726f095b06da0923e8bdc6b77dcdd2a5b862e6869805ddc260353",
+  "historical_label_entry": "finalize_black_instance_yolo.py reads --prelabels, normalizes class and removes confidence; no explicit human review event in that code.",
+  "label_origin_conclusion": "UNKNOWN: image-transform reproduction does not prove how boxes were created or reviewed.",
+  "validation_images_or_labels_read": 0,
+  "dataset_modified": false,
+  "generation_count": 0,
+  "training_count": 0,
+  "R0_REENTRY_AUTHORIZED": false,
+  "records": [
+    {
+      "frozen_image": "blackinst_1.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "92498436dc7a37eef980d18b796063e20760a4bfb17b6f4c6352d7ffdf7eb146",
+      "frozen_label_sha256": "4458a60a8d07a7c2b93e0ea67695da7883a90e8625ace33f2078a51d82bf8b14",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\1.jpg",
+          "source_sha256": "61630b286c0fa3900b3fea846322313c4de8d79c81a0f6b57527affb37ba9b64",
+          "original_size": [
+            4096,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            4096,
+            1024
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "92498436dc7a37eef980d18b796063e20760a4bfb17b6f4c6352d7ffdf7eb146",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_10.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "2c43911f5e9aa092bc8a1e590e5f115c2e4de6a40bb0d5fa952a04c84fd85e9b",
+      "frozen_label_sha256": "09a9e01fe6eae49f8969eb3c1ab71967b9c388177b734469fb7e30f18a55bfba",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\10.jpg",
+          "source_sha256": "3e9bc83830228f97d0b6e3b8f833b03d3d6b4f252ddac3293795490174cabf14",
+          "original_size": [
+            4096,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            4096,
+            1024
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "2c43911f5e9aa092bc8a1e590e5f115c2e4de6a40bb0d5fa952a04c84fd85e9b",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_11.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "4b26a8346905898408559f48230352e1d31c74e4a0882101484d7846af78b68d",
+      "frozen_label_sha256": "56db1ccc8c1ca9ff991040be9bc99311d1473dd924e17453a8519ee1e7378e3a",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\11.png",
+          "source_sha256": "4d29d364953c70dd7467936cb358baac28e0e51ab94a4b50cb5dd337b86371d6",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "4b26a8346905898408559f48230352e1d31c74e4a0882101484d7846af78b68d",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_12.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "370cafebde98010f643ee4e8858e2e80f83f3683474c6eb2273861f2b5a3a6f6",
+      "frozen_label_sha256": "f040151e7cf26da53434a0ba37fb4d390398dff1f2052a3424ab08fbfef97f60",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\12.png",
+          "source_sha256": "3f46f59b7e2865e903ea3208445ace7a95e78a0fdd9e712bfddcf25f12d1e621",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "370cafebde98010f643ee4e8858e2e80f83f3683474c6eb2273861f2b5a3a6f6",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_13.jpg",
+      "instances": 3,
+      "frozen_image_sha256": "9a23f3e582e1fd642c1f7eb5cbc1526ecc740abaf4934ab7506dfe1b68705967",
+      "frozen_label_sha256": "f63a6f0dedc010730c944e3ece89dfab67b7154d82f14c21cfbf66f9026785d0",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\13.png",
+          "source_sha256": "325677ba87f2b83896726e18ce365bef315331d0dad5ea17193f3c413abe8891",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "9a23f3e582e1fd642c1f7eb5cbc1526ecc740abaf4934ab7506dfe1b68705967",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_15.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "91f43d5c02c96aedd7a59226c146a3002af538cade8052b77906d5bb41faf0f3",
+      "frozen_label_sha256": "82941917a95f9f4a588b9a97976499f30bd98358803a3122b9ae5be3a2f9406a",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\15.png",
+          "source_sha256": "9e15e10f7f0136418cb1aa1f3a63f86d1baff4f7ee8100383f0f45137f467f00",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "91f43d5c02c96aedd7a59226c146a3002af538cade8052b77906d5bb41faf0f3",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_16.jpg",
+      "instances": 3,
+      "frozen_image_sha256": "1f055f43a1d20181038905990b7637ed2fa8bad506e9eb3509d773b047191d5f",
+      "frozen_label_sha256": "25154994a2030c0f3617f2cb0dcaf05c902e58ca5398dba3a3d407512e9fd834",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\16.png",
+          "source_sha256": "9916080301ac9ce82ebb1eb0a7d721e7b9759fca9ad672f65c66727fb28a106f",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "1f055f43a1d20181038905990b7637ed2fa8bad506e9eb3509d773b047191d5f",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_17.jpg",
+      "instances": 4,
+      "frozen_image_sha256": "7f3f51c15cecbfb52d10db01f6de145d1ae7ec915dc1b2c9516f613abce3244f",
+      "frozen_label_sha256": "f3595ce32bb2720d8e6cc290895a1940496b066cb5b3e4e6b81fe78e6d66e110",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\17.png",
+          "source_sha256": "3cb8c92eae1c955bd268bdea9b735e816d3abd4cffe771ab8c7e67dab2554237",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            2172,
+            724
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "7f3f51c15cecbfb52d10db01f6de145d1ae7ec915dc1b2c9516f613abce3244f",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_19.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "47a0d0ca6495a77033edfb23a9a4113755762c5ecd29cbe052d82f1aed21039f",
+      "frozen_label_sha256": "06b43a27fd7542eea29978a49a9cf0108134eee7e728585c23127e5c34d06116",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\19.png",
+          "source_sha256": "a89c37dc0873a745f78e120709d5ad83ccded186e2faa50e997c3889f2370e2b",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            88,
+            2172,
+            637
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "47a0d0ca6495a77033edfb23a9a4113755762c5ecd29cbe052d82f1aed21039f",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_20.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "7156456acefa34bda1c36dc1a01e0a7f11c2d2e57253eff6f7320e6850e18dd5",
+      "frozen_label_sha256": "812cf2ef824d8b93a1d524e2107be63998b3cb7d8502489fe08c7fed6610f83e",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\20.png",
+          "source_sha256": "0277ac9fd1b21df2cbb2cda00f83f4529620257a6ece8ceb330ea657a457e892",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            88,
+            2172,
+            630
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "7156456acefa34bda1c36dc1a01e0a7f11c2d2e57253eff6f7320e6850e18dd5",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_22.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "8adddb9289dc7ba57d9289bf11d0aea7a8b61beea969ae961299683c28f9f30b",
+      "frozen_label_sha256": "d2b00ec61b3a51be7d512d64a2484be4ae608132cd7316680ad15ae1d3fbf1c8",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\22.png",
+          "source_sha256": "282ddbd9eff8fd0d67f282603a9eac5d00335cb2145886fbccf7cfcb3103e4e6",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            78,
+            2172,
+            648
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "8adddb9289dc7ba57d9289bf11d0aea7a8b61beea969ae961299683c28f9f30b",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_23.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "400446a838281e3c1af1f803fdb3f8ba1897fd518b4200b4065900989c522668",
+      "frozen_label_sha256": "3dca4163237640ae5e62636cba39b03a0eb424f6d72b113d40c0242d0dce4361",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\23.png",
+          "source_sha256": "869d1711b5daa0465b28cc48dbea295b23bd9f6af17537b427f599767a239282",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            86,
+            2172,
+            634
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "400446a838281e3c1af1f803fdb3f8ba1897fd518b4200b4065900989c522668",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_24.jpg",
+      "instances": 3,
+      "frozen_image_sha256": "b695193c8708532157742fea4a9b3a5b54aa94f80c1cbb8cb8f8dec13796827a",
+      "frozen_label_sha256": "33693010b2e761069af9e5b79abb839c4f046c12a740f035cb4dcbd5a87da6fd",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\24.png",
+          "source_sha256": "3ab5f98e67968379af6019b49894aae8c4f1668647243f8d63ce533c0397011c",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            86,
+            2172,
+            634
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "b695193c8708532157742fea4a9b3a5b54aa94f80c1cbb8cb8f8dec13796827a",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_26.jpg",
+      "instances": 3,
+      "frozen_image_sha256": "6bd61502a905003e4d19d5a96665e1cf1094c191514ee718381d1a6675de29a0",
+      "frozen_label_sha256": "96b81b8f3e8104660eabd32a7b8c141844537cfc7b16ca4cc633b4d09484c474",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\26.png",
+          "source_sha256": "5d2455a6bd87b425129d1ff87a6278b0aa411942e75c6bf952b28515f8c83c2f",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            83,
+            2172,
+            630
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "6bd61502a905003e4d19d5a96665e1cf1094c191514ee718381d1a6675de29a0",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_27.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "ebf450df14462a0470df1539c4047bdb63bd44f95f875ddb4aeb46de84c94e23",
+      "frozen_label_sha256": "a1161c26541bf6e2b7b65a462ab2585ff8cf58ee6aaae2b948c198194d332d2a",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\27.png",
+          "source_sha256": "b0aacbb9b5b586fbe97b5d9076bda2055bc2d4d6403361bb1d794c5ed4be5409",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            90,
+            2172,
+            633
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "ebf450df14462a0470df1539c4047bdb63bd44f95f875ddb4aeb46de84c94e23",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_28.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "fada635f123813d75afe4a98a3c99dc6038ff9f4311dbd60b7140ae99eb22aec",
+      "frozen_label_sha256": "098fdf67bc2f49d1ac302417334cd09941a04f33c95511eea46963b716d651d6",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\28.png",
+          "source_sha256": "d725f6e742721019481c038663b088dae17d5a5a8d9bd5fdf5b29d921e4e4662",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            88,
+            2172,
+            630
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "fada635f123813d75afe4a98a3c99dc6038ff9f4311dbd60b7140ae99eb22aec",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_30.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "efb2781c815e56d275c0784a7df80f99969f7238e6d3697c66fbba42e7cbca20",
+      "frozen_label_sha256": "57064555152fdb400e1e9a25c4bc773ed07366e254f20c89098ddb38a2930d9a",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\30.png",
+          "source_sha256": "11ed0127a8edb1db967e1c3a531a7a58b7e2fe652c959c5fb44ab39d5f609b51",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            90,
+            2172,
+            630
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "efb2781c815e56d275c0784a7df80f99969f7238e6d3697c66fbba42e7cbca20",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_32.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "d5f5f4dba5b69aac0bafd09bbdfa81dae92b34e05b14295d499964cb9d9759bd",
+      "frozen_label_sha256": "6e246fe16c8c9a13c81b100c9a2fd60fd546115aceb3b71f613059b92a211c1c",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\32.png",
+          "source_sha256": "7bbeaeeb9eb15513f4ba2e70a424cbfce0a1fa946f9de7d47e802958f1ced461",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            88,
+            2172,
+            620
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "d5f5f4dba5b69aac0bafd09bbdfa81dae92b34e05b14295d499964cb9d9759bd",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_34.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "47c376f662387fd63f140828f42f9b5d50c22ac32541eb4b631bb08db4c3a077",
+      "frozen_label_sha256": "645cbb7a846715d44e3105ff2377045d5e31c3fb503e0820a98e5c4fe111ad98",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\34.png",
+          "source_sha256": "19df520c4e9a7c8037e8a636280d4ab3122badb3f40099a7b3ef07c24fd3af48",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            88,
+            2172,
+            636
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "47c376f662387fd63f140828f42f9b5d50c22ac32541eb4b631bb08db4c3a077",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_36.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "854e91489cf2d814c6bbd951a2098fb4ee10f444e6c59e29ead1ee851fa29bc3",
+      "frozen_label_sha256": "6742f13bd67e30fb8b384a600271291cda8c900d2bc0536f482375c180257fc7",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\36.png",
+          "source_sha256": "bb8d9d28242aecabb9ff9e77fbf003892767920313b315b0ec43cfa9bff20c6b",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            86,
+            2172,
+            631
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "854e91489cf2d814c6bbd951a2098fb4ee10f444e6c59e29ead1ee851fa29bc3",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_37.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "6a81d037ce07beb1e4bdb803cd7daaae3fbf6b7754f71c2495e789eddbcc6a79",
+      "frozen_label_sha256": "5fbdc4b009623f23257ffbc06b28f5252b192a8cda61b7567e722f0c3b45b45c",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\37.png",
+          "source_sha256": "365ebcd3a98f7ad2a27d8958591ecf67ff59c645e08885a01e7c60e1af1a90b0",
+          "original_size": [
+            2172,
+            724
+          ],
+          "crop_xyxy": [
+            0,
+            84,
+            2172,
+            629
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "6a81d037ce07beb1e4bdb803cd7daaae3fbf6b7754f71c2495e789eddbcc6a79",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_4.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "0c826f89c3b46a8a39a3e5e0e700821eef2015e4dadb9ddb5c4c83b7dfd0874e",
+      "frozen_label_sha256": "f29113c38ad212682428b05205ae563a34ee75491b99fdd4e2aa68f4da136059",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\4.jpg",
+          "source_sha256": "795585d39dd303e63e4a634d8fb6370a82163efb0de7dc5ed9e147837f9cf9aa",
+          "original_size": [
+            4096,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            4096,
+            1024
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "0c826f89c3b46a8a39a3e5e0e700821eef2015e4dadb9ddb5c4c83b7dfd0874e",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_7.jpg",
+      "instances": 3,
+      "frozen_image_sha256": "d03e1c68902ec19eebc6feb2a7c5d4be8904a50be6c91d23de3d900e5d268540",
+      "frozen_label_sha256": "c34f643eca4e9a0037420babb880bd84cfcc443fc76037ddb217da701fe4cdd2",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\7.jpg",
+          "source_sha256": "3ae63fb81edbbeba66a336960bddac23e0611b523acabcbb233b62b04e5e8ab1",
+          "original_size": [
+            4096,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            4096,
+            1024
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "d03e1c68902ec19eebc6feb2a7c5d4be8904a50be6c91d23de3d900e5d268540",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_8.jpg",
+      "instances": 1,
+      "frozen_image_sha256": "037c812c1b08753b2a4cde5688700152b40718bce750d610625b80520b57f2d4",
+      "frozen_label_sha256": "99ac834a7ae877201f12603321f1e5e55ca694162061d023b1636f5d201a43a1",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\8.jpg",
+          "source_sha256": "e4f003e67759799a34e1c831a6c2e89028195d5e81c20565676617b9136e01be",
+          "original_size": [
+            4096,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            4096,
+            1024
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "037c812c1b08753b2a4cde5688700152b40718bce750d610625b80520b57f2d4",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    },
+    {
+      "frozen_image": "blackinst_9.jpg",
+      "instances": 2,
+      "frozen_image_sha256": "7a0331b18c65f462942ba082c19ec5f238c1a32722500d236605185746cec646",
+      "frozen_label_sha256": "255f467fa17a37e3072ffd16ee4929285f4cd1f865aafbf1aa5d667de4c31c45",
+      "candidates": [
+        {
+          "source": "C:\\MyFile\\Study\\dataset\\Plastic_Bomo\\Black instance\\9.jpg",
+          "source_sha256": "4708b168597f20a7f8d705b77692570493c979a22eb12cdf37e539fa80a43c82",
+          "original_size": [
+            4096,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            4096,
+            1024
+          ],
+          "output_size": [
+            4096,
+            1024
+          ],
+          "resampling": "LANCZOS",
+          "jpeg_quality": 95,
+          "reconstructed_sha256": "7a0331b18c65f462942ba082c19ec5f238c1a32722500d236605185746cec646",
+          "exact_file_match": true,
+          "exact_decoded_rgb_match": false
+        }
+      ],
+      "manual_origin_confirmed": false,
+      "automatic_origin_confirmed": false,
+      "status": "HISTORICAL_IMAGE_NORMALIZATION_REPRODUCED",
+      "current_label_format_valid": true,
+      "current_labels_match_frozen_rows": true
+    }
+  ]
+}

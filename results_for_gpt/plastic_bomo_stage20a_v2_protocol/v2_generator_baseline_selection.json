@@ -1,0 +1,50 @@
+{
+  "selected_family": "SD2_INPAINTING_RAW_V2",
+  "identity": "plastic_bomo_generation_v2_raw_sd2",
+  "selection_basis": [
+    "existing hash-pinnable training/inpainting code",
+    "explicit train-only input allowlist feasibility",
+    "mask-conditioned spatial annotation compatibility",
+    "deterministic RNG and slots"
+  ],
+  "historical_metrics_or_visuals_used": false,
+  "model_repository": "https://huggingface.co/sd2-community/stable-diffusion-2-inpainting",
+  "model_card_is_community_mirror_not_affiliated_with_Stability_AI": true,
+  "code_repository": "https://github.com/chenbingjie594-lab/Self-main",
+  "pinned_code": [
+    {
+      "path": "train_dreambooth_noise.py",
+      "commit": "23731281570f8bedadad50f058ec4a718fb83524",
+      "available": true,
+      "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387"
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "commit": "23731281570f8bedadad50f058ec4a718fb83524",
+      "available": true,
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a"
+    }
+  ],
+  "pretrained_weights_policy": "Original public SD2 inpainting initialization only; no Stage14-18 fine-tuned checkpoint; Stage20B must hash-bind the actual base files before training",
+  "required_training_inputs": [
+    "V2 TRAIN real images and unchanged labels",
+    "train-derived box/mask geometry",
+    "class prompt"
+  ],
+  "allowed_conditioning": "V2 TRAIN normals with resolved source metadata; no eval fallback",
+  "annotation_contract": "Fixed target mask/bbox geometry from train labels; bbox-derived masks are weak geometry, not human segmentation ground truth",
+  "mask_policy": "No new mask module; deterministic rectangular bbox rasterization when segmentation unavailable; contract must be verified before Stage20B sampling",
+  "training": "Separate new V2 run; full UNet baseline only, text encoder/VAE frozen; no teacher, adapter or new loss",
+  "no_historical_checkpoint_reuse": true,
+  "selector_dependency": false,
+  "detector_at_inference": false,
+  "raw_output_policy": "Use every successfully generated slot; structural failures logged without quality-based replacement; no best-of-N",
+  "clean_train_only_protocol_defined": true,
+  "runtime_contract_tested": false,
+  "installation_or_download_performed": false,
+  "alternatives_not_selected": {
+    "AnomalyDiffusion": "Local code exists, but its native input/mask and detector bbox contract requires more reconstruction than the existing inpainting baseline; no quality or mAP comparison.",
+    "DefectFill": "Local implementation is unofficial and permits test-mask fallback; fewer audited bindings for the V2 train-only contract. Not selected on visual or utility grounds."
+  },
+  "not_a_rescue": "Stage17A and Stage18A remain retired; shared public architecture does not reuse the old dataset protocol or checkpoint"
+}

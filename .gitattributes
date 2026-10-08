@@ -10,3 +10,8 @@ tools/audit_plastic_bomo_stage18a.py -text
 tests/test_plastic_bomo_stage18a.py -text
 configs/plastic_bomo_stage18a.json -text
 Stage18A*.txt -text
+# Preserve the new V2 protocol and audit fingerprints across platforms.
+tools/*plastic_bomo_stage20a.py -text
+tests/test_plastic_bomo_stage20a.py -text
+data_protocols/plastic_bomo_generation_v2/** -text
+results_for_gpt/plastic_bomo_stage20a_v2_protocol/** -text -whitespace

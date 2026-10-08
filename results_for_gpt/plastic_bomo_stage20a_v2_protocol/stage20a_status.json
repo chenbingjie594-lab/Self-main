@@ -1,0 +1,29 @@
+{
+  "status": "PLASTIC_BOMO_GENERATION_V2_PROTOCOL_READY",
+  "specific_stop_reason": null,
+  "gates": {
+    "source_group_registry": true,
+    "no_known_source_leakage": true,
+    "split_class_coverage": true,
+    "train_only_normal_pool": true,
+    "clean_baseline_spec": true,
+    "oof_fold_class_coverage": true
+  },
+  "STAGE20B_RAW_GENERATOR_BASELINE_AUTHORIZED": true,
+  "TDCRG_DEVELOPMENT_AUTHORIZED": false,
+  "stage20b_auto_start": false,
+  "generator_training_count": 0,
+  "synthetic_generation_count": 0,
+  "detector_training_count": 0,
+  "teacher_training_count": 0,
+  "optimizer_step_count": 0,
+  "official_validation_use_count": 0,
+  "administrative_old_eval_images_registered": 46,
+  "administrative_old_eval_labels_read": 46,
+  "official_validation_use_definition": "No model evaluation, design/tuning, candidate/quality selection or performance-based split selection; historical evaluation images/labels may be read ONLY to construct the explicitly requested new registry and count annotations",
+  "DeepPCB": 0,
+  "BootstrapGuard": 0,
+  "historical_files_modified": false,
+  "physical_source_complete": false,
+  "authorization_scope": "New V2 baseline calibration only; Stage20B must verify frozen assets, complete fixed training/generation/slot specifications and structural preflight before execution"
+}

@@ -1,0 +1,32 @@
+{
+  "protocol": "Plastic_Bomo_Generation_V2",
+  "version": "V2.0",
+  "sha256": {
+    "annotation_provenance_v2.json": "c3bd22381736a79c5855a42f13b5d15601ee240501fd6eeebd7ce8676ac14576",
+    "evidence/black_exports.json": "ce2727f12118b383c1f903697d22cfbda88307e6745ddc21329252b35c5e3a6a",
+    "evidence/train_derivatives.json": "5ee6456f3391a57d60316dff9a48fa63ceb6a6c1c7128ea785e8a0a4bff95375",
+    "evidence/xml_boxes.json": "6637ce5ead01d1b746d4c1e773cb9c53657eb93d7ca0090990395b50e1a6c8c3",
+    "execution_audit.json": "0d886b78fc4e994054fa05b686248d265393bc7f00fdfa57f64f075065eb9cd9",
+    "future_baseline_gate.json": "5b1f698c262b58b430e37adbc6a93425a90bbcc5cb6e3560b33199ede07273cb",
+    "future_detector_protocol.json": "9721d162fc3bbf0038dcabf13f15e590c7e275a8c054c4c7568d09c1c7a02d00",
+    "future_generation_slot_schema.json": "c6282bca7ccf278e08c5af23f010259d2ba85f97ca4e2d8c0751296a345f8331",
+    "historical_evidence_archive.json": "e09573881997163505909522dc1c921f0321b25ccf2fd4f1613cb81cb6de1560",
+    "normal_isolation_audit.json": "fa3e54bfbc96744b7bd24b409ca4b855324b03a7b9e399629736298ebadc682b",
+    "normal_source_registry.json": "cb5be00b8c29d2488f81ef42a9b2b066d8e1d6bfbbbb34e6d812268830fd38f6",
+    "real_source_registry.json": "92807718bc9344c9c230a4458ac87958a3e267d3bfbce539053c0998139eec84",
+    "source_group_graph.json": "e61e474259f5518eb68407f4117ed2e3fbfad83f2522992c346a7bd294ae78f6",
+    "source_group_registry.json": "f69f7b57b381cdf28910379b214aee2a28299660b11594030ba45a56b171f3c4",
+    "STAGE20A_REPORT.md": "7f85773219c83d2f7aaedd9100a451c05b1eb810aea29a09ba6cbc7874c38955",
+    "stage20a_status.json": "da0b8bec846c7e2293aa04e9ec2de2f88acdba09a589e1e9b7010110c01a17eb",
+    "tdcrg_future_method_spec.md": "055b370cd83c8438011844b22741429c79d7907a80a6a7eda8896d48759cad3c",
+    "v2_generator_baseline_selection.json": "654fac5d47e4f6cb8e0974c40aea87762940823f75b3e93117f62173561d9c66",
+    "v2_oof_fold_manifest.json": "9e1f9d27ca5289be787df188333825c3ceffa7c1e10fcbb372d9f5c095aedccb",
+    "v2_protocol.json": "3cf1de49031ea64d435ec29928a222d3050ca5f7ad8e48a8d1bdacb980d11a04",
+    "v2_split_class_audit.json": "bd7cf258469f7f688c9d92ad8e2cc4a2329e906c98cef147bf25af56c6853916",
+    "v2_split_isolation_audit.json": "b9536d5b2386293fc623c13fc3a9a261d172dbf03672d168f5bc20bc83a09f7e",
+    "v2_split_manifest.json": "c5ac4fb80b483b560fd7d5be7ceb6d97f136b954a427d14f50fc5457a9dcd294",
+    "verification_audit.json": "153890fb42fadf0cc8c58c1e7b8debdb4cbfc5d5e6b543eace7fc5d530069347"
+  },
+  "future_asset_binding": "Map paths and verify identical bytes; NEVER rerun hashing/splitting with a different inventory under V2.0",
+  "revisions_require_new_version": true
+}

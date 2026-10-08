@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "splits": {
+    "train": {
+      "image_count": 136,
+      "detector_source_group_count": 134,
+      "all_source_group_count": 294,
+      "class_instance_counts": {
+        "black": 97,
+        "flash": 75
+      },
+      "annotation_source_counts": {
+        "SUPPLEMENTAL_PRELABEL": 59,
+        "XML": 87,
+        "OTHER": 26
+      }
+    },
+    "final_eval": {
+      "image_count": 48,
+      "detector_source_group_count": 47,
+      "all_source_group_count": 98,
+      "class_instance_counts": {
+        "black": 27,
+        "flash": 33
+      },
+      "annotation_source_counts": {
+        "SUPPLEMENTAL_PRELABEL": 15,
+        "XML": 31,
+        "OTHER": 14
+      }
+    }
+  },
+  "40_40_budget_changed": false,
+  "train_class_instance_count_below_40": [],
+  "budget_feasibility_note": "80 synthetic need not imply 80 unique donors; future slot policy must explicitly freeze any donor reuse; budget not adjusted here"
+}
