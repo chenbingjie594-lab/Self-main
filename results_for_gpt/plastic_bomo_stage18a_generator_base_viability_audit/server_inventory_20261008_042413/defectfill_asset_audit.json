@@ -1,0 +1,120 @@
+{
+  "registry": {
+    "generator_id": "DEFECTFILL",
+    "generator_name": "DefectFill",
+    "method_family": "DefectFill",
+    "code_path": {
+      "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/tools/prepare_plastic_bomo_defectfill.py",
+      "available": false,
+      "origin": "UNAVAILABLE"
+    },
+    "config_path": {
+      "path": null,
+      "available": false
+    },
+    "checkpoint_path": null,
+    "native_generation_code": {
+      "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/inference.py",
+      "available": false,
+      "origin": "UNAVAILABLE"
+    },
+    "checkpoint_exists": false,
+    "checkpoint_sha256_if_available": [],
+    "other_observed_asset_roots": [
+      {
+        "root": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/output",
+        "exists": false,
+        "files": [],
+        "errors": [],
+        "excluded_directories": [
+          ".git",
+          ".pytest_cache",
+          "__pycache__",
+          "datasets",
+          "eval",
+          "ground_truth",
+          "node_modules",
+          "test",
+          "train",
+          "val",
+          "validation"
+        ],
+        "validation_access": 0
+      },
+      {
+        "root": "/mnt/sda/cbj/ImageGeneration/DefectFill-main",
+        "exists": false,
+        "files": [],
+        "errors": [],
+        "excluded_directories": [
+          ".git",
+          ".pytest_cache",
+          "__pycache__",
+          "datasets",
+          "eval",
+          "ground_truth",
+          "node_modules",
+          "test",
+          "train",
+          "val",
+          "validation"
+        ],
+        "validation_access": 0
+      }
+    ],
+    "training_data_source": null,
+    "training_split": "UNRESOLVED",
+    "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+    "training_image_count": null,
+    "validation_used_for_generator_training": "UNRESOLVED",
+    "test_used_for_generator_training": "UNRESOLVED",
+    "generation_output_dirs": [],
+    "synthetic_image_count": null,
+    "synthetic_annotation_count": null,
+    "counts_are_manifest_declared_not_file_verified": true,
+    "class_counts": {
+      "flash": null,
+      "black": null
+    },
+    "generation_seed_information": "UNRESOLVED",
+    "parent/source_information_available": false,
+    "conditioning_information_available": false,
+    "mask_information_available": "UNRESOLVED",
+    "annotation_generation_method": "UNRESOLVED",
+    "downstream_detector_results_if_any": [],
+    "selector_used_in_historical_result": "UNRESOLVED",
+    "selector_name_if_any": [],
+    "evidence_paths": [
+      {
+        "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/tools/prepare_plastic_bomo_defectfill.py",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      {
+        "path": null,
+        "available": false
+      }
+    ],
+    "isolation_status": "ISOLATION_UNRESOLVED",
+    "verified_legal_class_counts": {
+      "flash": 0,
+      "black": 0
+    },
+    "eligible": false,
+    "eligibility_failures": [
+      "TRAIN_ONLY_NOT_CONFIRMED",
+      "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+      "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+      "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+    ]
+  },
+  "visual_quality_is_not_utility": true,
+  "prepared_input_dataset_is_not_synthetic": true,
+  "unrelated_dataset_outputs_are_not_Plastic_Bomo": true,
+  "example_log": {
+    "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/step_200/inference_log.json",
+    "exists": false
+  },
+  "input_conversion": null,
+  "native_code_diagnostics": "train-mask fallback to test-mask is allowed; actual use unresolved"
+}

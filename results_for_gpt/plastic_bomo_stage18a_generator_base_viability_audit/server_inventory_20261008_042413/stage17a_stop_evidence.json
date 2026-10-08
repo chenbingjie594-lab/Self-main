@@ -1,0 +1,42 @@
+{
+  "authoritative_commit": "adda61d6c976407fcfc6054a5eff285299b80842",
+  "source_status": {
+    "status": "SYNTHETIC_HEADROOM_NOT_REPRODUCIBLE",
+    "gates": {
+      "A_mean_gain": false,
+      "B_two_wins": false,
+      "C_class_safety": false
+    },
+    "bank_deltas_raw": {
+      "A": -0.03453266105880953,
+      "B": -0.054311521524041284,
+      "C": -0.06362676896214425
+    },
+    "mean_delta": -0.050823650514998354,
+    "std_delta": 0.014857345382150626,
+    "min_delta": -0.06362676896214425,
+    "max_delta": -0.03453266105880953,
+    "wins_vs_RR": 0,
+    "mean_class_deltas_raw": {
+      "flash": -0.08417239050688846,
+      "black": -0.017474910523108216
+    },
+    "vanilla_std_pp": 1.4857345382150626,
+    "vanilla_range_pp": 2.909410790333472,
+    "future_method_min_gain_pp": 2.9714690764301253,
+    "std_ddof": 1,
+    "detector_seed": 42,
+    "GENERATOR_MECHANISM_DEVELOPMENT_AUTHORIZED": false,
+    "stage17b_auto_start": false,
+    "full_experiment_complete": true,
+    "exact_successful_optimizer_compute_equal": false,
+    "successful_step_range": 2,
+    "deep_pcb_training": 0,
+    "deep_pcb_generation": 0,
+    "bootstrap_guard_modification": 0,
+    "bootstrap_guard_selection": 0
+  },
+  "source_sha256": "77bf9f9500a27a53c958559d12164ea34470e0f70bbbcd77890548640f3e64d7",
+  "VANILLA_STAGE17A": "NOT_VIABLE_AS_GENERATOR_BASE",
+  "nuisance_threshold_scope": "STAGE17A_VANILLA_ONLY"
+}

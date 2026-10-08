@@ -1,0 +1,775 @@
+{
+  "scope": "SERVER_EXISTING_EVIDENCE",
+  "families": [
+    {
+      "generator_id": "ANOMALYDIFFUSION",
+      "generator_name": "AnomalyDiffusion",
+      "method_family": "AnomalyDiffusion",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/anomalydiffusion-master/scripts/run_plastic_bomo_background.sh",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      "config_path": {
+        "path": null,
+        "available": false
+      },
+      "checkpoint_path": null,
+      "native_generation_code": {
+        "path": "/mnt/sda/cbj/ImageGeneration/anomalydiffusion-master/generate_with_mask.py",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [
+        {
+          "root": "/mnt/sda/cbj/ImageGeneration/anomalydiffusion-master/generated_dataset",
+          "exists": false,
+          "files": [],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0
+        },
+        {
+          "root": "/mnt/sda/cbj/ImageGeneration/anomalydiffusion-master",
+          "exists": false,
+          "files": [],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0
+        }
+      ],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/anomalydiffusion-master/scripts/run_plastic_bomo_background.sh",
+          "available": false,
+          "origin": "UNAVAILABLE"
+        },
+        {
+          "path": null,
+          "available": false
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "DEFECTFILL",
+      "generator_name": "DefectFill",
+      "method_family": "DefectFill",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/tools/prepare_plastic_bomo_defectfill.py",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      "config_path": {
+        "path": null,
+        "available": false
+      },
+      "checkpoint_path": null,
+      "native_generation_code": {
+        "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/inference.py",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [
+        {
+          "root": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/output",
+          "exists": false,
+          "files": [],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0
+        },
+        {
+          "root": "/mnt/sda/cbj/ImageGeneration/DefectFill-main",
+          "exists": false,
+          "files": [],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0
+        }
+      ],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/DefectFill-main/tools/prepare_plastic_bomo_defectfill.py",
+          "available": false,
+          "origin": "UNAVAILABLE"
+        },
+        {
+          "path": null,
+          "available": false
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "MSDF_V3",
+      "generator_name": "MSDF-v3",
+      "method_family": "SD2 with MSDF guidance",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/msdf_guidance.py",
+        "available": true,
+        "sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_MSDF_V3_code.txt",
+        "snapshot_sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225"
+      },
+      "config_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/msdf.json",
+        "available": true,
+        "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42",
+      "native_generation_code": null,
+      "checkpoint_exists": true,
+      "checkpoint_sha256_if_available": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/msdf.pt",
+          "sha256": "b4137f5986acfe08d3003d1fb1a093270a7a87d9a480f56200946121fa151f03"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/text_encoder/model.safetensors",
+          "sha256": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "780caa1caf5905bb1bde77a4f6c1c84a9b4ff4c058bdf229b8b7c02e98636369"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/msdf.pt",
+          "sha256": "aba1b1a1596afde08c7e0ea46d4ce0d085fbe149d6714273cd7fefa0b48f3491"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/text_encoder/model.safetensors",
+          "sha256": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "9e8650ec30529a1c00bbd27d02d7de47192f7bc5fd9864282b707865372a0f3a"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+        }
+      ],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [
+        "results/msdf_v3_sd2_2000_s42"
+      ],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/msdf_guidance.py",
+          "available": true,
+          "sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_MSDF_V3_code.txt",
+          "snapshot_sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/msdf.json",
+          "available": true,
+          "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "MSDF_V3_DWBG_POOL",
+      "generator_name": "MSDF-v3 derived DWBG pool",
+      "method_family": "MSDF outputs plus post-generation recomposition/filtering",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/tools/build_dwbg_candidates.py",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      "config_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/dwbg_v2.json",
+        "available": true,
+        "sha256": "30f47c732e27ec8d3e476dfa0afe0a21719ffdd197710168bf23fdeaaa730876",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42",
+      "native_generation_code": null,
+      "checkpoint_exists": true,
+      "checkpoint_sha256_if_available": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/msdf.pt",
+          "sha256": "b4137f5986acfe08d3003d1fb1a093270a7a87d9a480f56200946121fa151f03"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/text_encoder/model.safetensors",
+          "sha256": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "780caa1caf5905bb1bde77a4f6c1c84a9b4ff4c058bdf229b8b7c02e98636369"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/01_Flash_point/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/msdf.pt",
+          "sha256": "aba1b1a1596afde08c7e0ea46d4ce0d085fbe149d6714273cd7fefa0b48f3491"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/text_encoder/model.safetensors",
+          "sha256": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/unet/diffusion_pytorch_model.safetensors",
+          "sha256": "9e8650ec30529a1c00bbd27d02d7de47192f7bc5fd9864282b707865372a0f3a"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/msdf_v3_sd2_2000_s42/Plastic_Bomo/02_Big_black_spots/vae/diffusion_pytorch_model.safetensors",
+          "sha256": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+        }
+      ],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [
+        "results/dwbg/v2/fixed_v3/candidate_pool"
+      ],
+      "synthetic_image_count": 761,
+      "synthetic_annotation_count": 761,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": 576,
+        "black": 185
+      },
+      "generation_seed_information": {
+        "42": 97,
+        "3407": 90,
+        "7859": 98,
+        "12011": 96,
+        "15683": 88,
+        "19997": 103,
+        "24571": 92,
+        "30103": 97
+      },
+      "parent/source_information_available": "source output path but no original training parent identity",
+      "conditioning_information_available": true,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "residual support bbox after geometry recomposition; historical builder code and manifest fields",
+      "downstream_detector_results_if_any": [
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_downstream/validated_per_seed.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/all_seed_metrics.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/factorial_all_arms_metrics.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage15b_morphology_dose/all_five_arms_metrics.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/realrepeat_metrics.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/vanilla_A_metrics.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/vanilla_B_metrics.json",
+        "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/vanilla_C_metrics.json"
+      ],
+      "selector_used_in_historical_result": true,
+      "selector_name_if_any": [
+        "quality_gate",
+        "manifold_valid",
+        "DWBG",
+        "morphology/context subsets",
+        "BootstrapGuard selected arms"
+      ],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/tools/build_dwbg_candidates.py",
+          "available": false,
+          "origin": "UNAVAILABLE"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/dwbg_v2.json",
+          "available": true,
+          "sha256": "30f47c732e27ec8d3e476dfa0afe0a21719ffdd197710168bf23fdeaaa730876",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 576,
+        "black": 185
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED"
+      ]
+    },
+    {
+      "generator_id": "HISTORICAL_SD_BASELINE",
+      "generator_name": "Historical SD baseline",
+      "method_family": "Stable Diffusion",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/train_dreambooth_noise.py",
+        "available": true,
+        "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_HISTORICAL_SD_BASELINE_code.txt",
+        "snapshot_sha256": "88734ba8261c0f0c3ca62f02008a96b4698492c76cbe58dcaf003cdae637b623"
+      },
+      "config_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/baseline_frozen_split70_s42.json",
+        "available": true,
+        "sha256": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_clean_split70_s42_noise_0.0",
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [
+        {
+          "root": "/mnt/sda/cbj/ImageGeneration/Self-main/model/baseline_clean_split70_s42_noise_0.0",
+          "exists": false,
+          "files": [],
+          "errors": [],
+          "excluded_directories": [
+            ".git",
+            ".pytest_cache",
+            "__pycache__",
+            "datasets",
+            "eval",
+            "ground_truth",
+            "node_modules",
+            "test",
+            "train",
+            "val",
+            "validation"
+          ],
+          "validation_access": 0
+        }
+      ],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/train_dreambooth_noise.py",
+          "available": true,
+          "sha256": "fdba7d1f1ab1a6810a561f9c8da4f5686d303ba11cf6912b0436a3040872d387",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_HISTORICAL_SD_BASELINE_code.txt",
+          "snapshot_sha256": "88734ba8261c0f0c3ca62f02008a96b4698492c76cbe58dcaf003cdae637b623"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/baseline_frozen_split70_s42.json",
+          "available": true,
+          "sha256": "db091f9156ae017e44bd1dc6264f4c5854f95a5d44215bc7729ad822b7adf398",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "RDA",
+      "generator_name": "RDA historical variants",
+      "method_family": "SD2 RDA",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/rda_guidance.py",
+        "available": true,
+        "sha256": "35370653362f128c43bb2b298a7e444b4edfeb9d8a7aafd3324e73d14c68fabc",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_RDA_code.txt",
+        "snapshot_sha256": "35370653362f128c43bb2b298a7e444b4edfeb9d8a7aafd3324e73d14c68fabc"
+      },
+      "config_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/rda_v4_frozen.json",
+        "available": false,
+        "origin": "UNAVAILABLE"
+      },
+      "checkpoint_path": "/mnt/sda/cbj/ImageGeneration/Self-main/model/rda_v4_sd2_2000_s42",
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/rda_guidance.py",
+          "available": true,
+          "sha256": "35370653362f128c43bb2b298a7e444b4edfeb9d8a7aafd3324e73d14c68fabc",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_RDA_code.txt",
+          "snapshot_sha256": "35370653362f128c43bb2b298a7e444b4edfeb9d8a7aafd3324e73d14c68fabc"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/rda_v4_frozen.json",
+          "available": false,
+          "origin": "UNAVAILABLE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "CARF",
+      "generator_name": "CARF historical variants",
+      "method_family": "SD2 CARF",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/carf_guidance.py",
+        "available": true,
+        "sha256": "4ae5ac9d36fa4b4a763d41a888a0a50d2e9e1a8c319647759fb670dcf10e069b",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_CARF_code.txt",
+        "snapshot_sha256": "4ae5ac9d36fa4b4a763d41a888a0a50d2e9e1a8c319647759fb670dcf10e069b"
+      },
+      "config_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/carf_only_v4.json",
+        "available": true,
+        "sha256": "52dcdc8be321eaec695ce512cd9dc5a95d704e22f056ceccb2a4ee32e46b00ad",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": null,
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/carf_guidance.py",
+          "available": true,
+          "sha256": "4ae5ac9d36fa4b4a763d41a888a0a50d2e9e1a8c319647759fb670dcf10e069b",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_CARF_code.txt",
+          "snapshot_sha256": "4ae5ac9d36fa4b4a763d41a888a0a50d2e9e1a8c319647759fb670dcf10e069b"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/carf_only_v4.json",
+          "available": true,
+          "sha256": "52dcdc8be321eaec695ce512cd9dc5a95d704e22f056ceccb2a4ee32e46b00ad",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    },
+    {
+      "generator_id": "DHFG",
+      "generator_name": "DHFG historical variants",
+      "method_family": "SD2 detector-guided variants",
+      "code_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/dhfg_guidance.py",
+        "available": true,
+        "sha256": "cc692d0800ecdfcc5225dbb3c0493bcdc49a379f73ed583c13e99cb05d38e8e5",
+        "origin": "WORKTREE",
+        "snapshot": "evidence_DHFG_code.txt",
+        "snapshot_sha256": "cc692d0800ecdfcc5225dbb3c0493bcdc49a379f73ed583c13e99cb05d38e8e5"
+      },
+      "config_path": {
+        "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/dhfg.json",
+        "available": true,
+        "sha256": "26750d7d93c5b458d46a54d1b53cf2383e711ec6c2653448cf1368620fe90656",
+        "origin": "WORKTREE"
+      },
+      "checkpoint_path": null,
+      "native_generation_code": null,
+      "checkpoint_exists": false,
+      "checkpoint_sha256_if_available": [],
+      "other_observed_asset_roots": [],
+      "training_data_source": null,
+      "training_split": "UNRESOLVED",
+      "observed_assets_are_not_proven_family_checkpoint_or_output_bindings": true,
+      "training_image_count": null,
+      "validation_used_for_generator_training": "UNRESOLVED",
+      "test_used_for_generator_training": "UNRESOLVED",
+      "generation_output_dirs": [],
+      "synthetic_image_count": null,
+      "synthetic_annotation_count": null,
+      "counts_are_manifest_declared_not_file_verified": true,
+      "class_counts": {
+        "flash": null,
+        "black": null
+      },
+      "generation_seed_information": "UNRESOLVED",
+      "parent/source_information_available": false,
+      "conditioning_information_available": false,
+      "mask_information_available": "UNRESOLVED",
+      "annotation_generation_method": "UNRESOLVED",
+      "downstream_detector_results_if_any": [],
+      "selector_used_in_historical_result": "UNRESOLVED",
+      "selector_name_if_any": [],
+      "evidence_paths": [
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/pipelines/stable_diffusion/dhfg_guidance.py",
+          "available": true,
+          "sha256": "cc692d0800ecdfcc5225dbb3c0493bcdc49a379f73ed583c13e99cb05d38e8e5",
+          "origin": "WORKTREE",
+          "snapshot": "evidence_DHFG_code.txt",
+          "snapshot_sha256": "cc692d0800ecdfcc5225dbb3c0493bcdc49a379f73ed583c13e99cb05d38e8e5"
+        },
+        {
+          "path": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/dhfg.json",
+          "available": true,
+          "sha256": "26750d7d93c5b458d46a54d1b53cf2383e711ec6c2653448cf1368620fe90656",
+          "origin": "WORKTREE"
+        }
+      ],
+      "isolation_status": "ISOLATION_UNRESOLVED",
+      "verified_legal_class_counts": {
+        "flash": 0,
+        "black": 0
+      },
+      "eligible": false,
+      "eligibility_failures": [
+        "TRAIN_ONLY_NOT_CONFIRMED",
+        "SELECTOR_INDEPENDENCE_NOT_CONFIRMED",
+        "MATCHED_PROTOCOL_NOT_ESTABLISHED",
+        "LESS_THAN_40_VERIFIED_LEGAL_SAMPLES_PER_CLASS"
+      ]
+    }
+  ],
+  "Stage17A_Vanilla": "NOT_VIABLE_AS_GENERATOR_BASE",
+  "counts_unknown_are_null_not_zero": true
+}
