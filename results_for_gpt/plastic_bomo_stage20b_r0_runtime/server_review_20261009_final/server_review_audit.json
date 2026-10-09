@@ -1,0 +1,272 @@
+{
+  "status": "STAGE20B_R0_SERVER_REVIEW_PASS",
+  "server_run": "server_runtime_20261008_121254",
+  "server_manifest_sha256": "282a381e2dc402f372204c45df3cf7d137d9e437b0b2aac0835ec32643b59f85",
+  "checks": {
+    "downloaded_manifest_identity": true,
+    "all27_downloaded_artifact_bytes": true,
+    "required_audits_present_and_runtime_pass": true,
+    "local_stage20a_and_authoritative_p0_frozen": true,
+    "configuration_and_p0_script_frozen": true,
+    "actual_server_implementation_matches_local_code": true,
+    "exact_three_executed_implementation_files": true,
+    "runtime_versions_and_sources_match_server_p0": true,
+    "locally_available_frozen_repo_source_bytes": true,
+    "recorded_base_and_detector_bytes_match_p0": true,
+    "pre_and_post_probe_frozen_binding_recheck": true,
+    "gpu_deterministic_settings_and_no_package_changes": true,
+    "generator_model_and_optimizer_master_state": true,
+    "both_generator_losses_gradients_and_parameter_invariance": true,
+    "both_generator_probes_are_frozen_train_annotations": true,
+    "2000_successful_update_simulations_independently_recomputed": true,
+    "four_downloaded_probe_pngs_bit_identical_per_class": true,
+    "A_B_noise_independence_and_frozen_rng_metadata": true,
+    "determinism_and_rng_audits_agree": true,
+    "detector_load_and_exact_initialization": true,
+    "detector_native_losses_gradients_and_parameter_invariance": true,
+    "all600_group_attempts_and_32400_draws_independently_recomputed": true,
+    "real_GPU_autograd64_and24_mean_normalization": true,
+    "native_AdamW_groups_and_warmup_LR": true,
+    "five_native_augmentation_seed_probes_recomputed_and_repeatable": true,
+    "normal_and_exception_exit_without_automatic_validation": true,
+    "no_formal_steps_training_sampling_eval_or_module_development": true,
+    "formal_plan_only_no_launcher_or_autostart": true,
+    "reported_runtime_pass_not_utility_claim": true,
+    "copied_probe_train_inputs_match_allowlist": true
+  },
+  "checks_passed": 30,
+  "checks_total": 30,
+  "downloaded_artifacts": {
+    "manifest_sha256": "282a381e2dc402f372204c45df3cf7d137d9e437b0b2aac0835ec32643b59f85",
+    "files": [
+      {
+        "file": "STAGE20B_R0_REPORT.md",
+        "expected_sha256": "6a86f68e450c1b9739dd1f9cabea34694d4f207e8023c2ad7b1fba12ab49ee9d",
+        "actual_sha256": "6a86f68e450c1b9739dd1f9cabea34694d4f207e8023c2ad7b1fba12ab49ee9d",
+        "pass": true
+      },
+      {
+        "file": "detector_accumulation_dryrun.json",
+        "expected_sha256": "fc722b3ff346326abd827c230d6d8d88a1bab9a7e4f012650c44e723b544b497",
+        "actual_sha256": "fc722b3ff346326abd827c230d6d8d88a1bab9a7e4f012650c44e723b544b497",
+        "pass": true
+      },
+      {
+        "file": "detector_augmentation_rng_audit.json",
+        "expected_sha256": "27cb191deb86eaee784fd4d3b0aac6e16f1878aaf69f245a13870172eb252baf",
+        "actual_sha256": "27cb191deb86eaee784fd4d3b0aac6e16f1878aaf69f245a13870172eb252baf",
+        "pass": true
+      },
+      {
+        "file": "detector_forward_backward_audit.json",
+        "expected_sha256": "768c1f579618dc60412d5a15187de2e98043e7a561780fc0bd81fe25c76f3613",
+        "actual_sha256": "768c1f579618dc60412d5a15187de2e98043e7a561780fc0bd81fe25c76f3613",
+        "pass": true
+      },
+      {
+        "file": "detector_model_load_audit.json",
+        "expected_sha256": "a491023100e54448cb37138e90c989fde4bfefdf47040421d3d3f1eae4b2b8c9",
+        "actual_sha256": "a491023100e54448cb37138e90c989fde4bfefdf47040421d3d3f1eae4b2b8c9",
+        "pass": true
+      },
+      {
+        "file": "detector_no_final_eval_audit.json",
+        "expected_sha256": "b2acb94de96772b73fe3fe11f05bc3e0abdf7d1a748645494f62c89ddee728fc",
+        "actual_sha256": "b2acb94de96772b73fe3fe11f05bc3e0abdf7d1a748645494f62c89ddee728fc",
+        "pass": true
+      },
+      {
+        "file": "formal_execution_plan.json",
+        "expected_sha256": "39677f3a96dbb8eb6fdca7c5270adab3bd739f4beb854ad9e4a7b75e27f1ca10",
+        "actual_sha256": "39677f3a96dbb8eb6fdca7c5270adab3bd739f4beb854ad9e4a7b75e27f1ca10",
+        "pass": true
+      },
+      {
+        "file": "formal_launcher_manifest.json",
+        "expected_sha256": "802e407556a10b285da56e6673fc0595e81181f0385a1e6f8586683b657e33bd",
+        "actual_sha256": "802e407556a10b285da56e6673fc0595e81181f0385a1e6f8586683b657e33bd",
+        "pass": true
+      },
+      {
+        "file": "frozen_binding_recheck.json",
+        "expected_sha256": "1eb1bd9381a87472e551eb802769388feaa2a62959572e790b49897f005e671e",
+        "actual_sha256": "1eb1bd9381a87472e551eb802769388feaa2a62959572e790b49897f005e671e",
+        "pass": true
+      },
+      {
+        "file": "generator_budget_dryrun.json",
+        "expected_sha256": "b48e24c0b31147c9578b6e8ae5376c0f9af4182332ee8371fbb479257aa3f5d6",
+        "actual_sha256": "b48e24c0b31147c9578b6e8ae5376c0f9af4182332ee8371fbb479257aa3f5d6",
+        "pass": true
+      },
+      {
+        "file": "generator_determinism_probe.json",
+        "expected_sha256": "e1281337dcf965cd7c63c1ca5091e8fd456c5144f75ef35a35ab7e7fd4045f78",
+        "actual_sha256": "e1281337dcf965cd7c63c1ca5091e8fd456c5144f75ef35a35ab7e7fd4045f78",
+        "pass": true
+      },
+      {
+        "file": "generator_forward_backward_audit.json",
+        "expected_sha256": "e691cb45f82007bdc9ef14c4856294bb652283a12edaa7df9ab2348214700091",
+        "actual_sha256": "e691cb45f82007bdc9ef14c4856294bb652283a12edaa7df9ab2348214700091",
+        "pass": true
+      },
+      {
+        "file": "generator_model_load_audit.json",
+        "expected_sha256": "9989d4be7cc2b347501f6a99e6b34a10f33243d4d40f61c05f491341ce03d915",
+        "actual_sha256": "9989d4be7cc2b347501f6a99e6b34a10f33243d4d40f61c05f491341ce03d915",
+        "pass": true
+      },
+      {
+        "file": "generator_rng_probe.json",
+        "expected_sha256": "bcd59845da4b5798104e9719e4eefbfad7de2ec95a94e9545f141b3a06d35ae5",
+        "actual_sha256": "bcd59845da4b5798104e9719e4eefbfad7de2ec95a94e9545f141b3a06d35ae5",
+        "pass": true
+      },
+      {
+        "file": "runtime_environment.json",
+        "expected_sha256": "395ded48f07e023ee940222ae6a2655bcd0d455a1a5ad5d50b4e91cf0c21792f",
+        "actual_sha256": "395ded48f07e023ee940222ae6a2655bcd0d455a1a5ad5d50b4e91cf0c21792f",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/NOT_FORMAL_SYNTHETIC.txt",
+        "expected_sha256": "a007aa95164f144d0ad4362e86bf72b7257cf6774861f117c336d1d3a2990563",
+        "actual_sha256": "a007aa95164f144d0ad4362e86bf72b7257cf6774861f117c336d1d3a2990563",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/black_base_A_repeat0_NOT_FORMAL_SYNTHETIC.png",
+        "expected_sha256": "c3957fb05da8b373fd5ae91afc4955d9a68a6b53b2cf29a62385520a74d87853",
+        "actual_sha256": "c3957fb05da8b373fd5ae91afc4955d9a68a6b53b2cf29a62385520a74d87853",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/black_base_A_repeat1_NOT_FORMAL_SYNTHETIC.png",
+        "expected_sha256": "c3957fb05da8b373fd5ae91afc4955d9a68a6b53b2cf29a62385520a74d87853",
+        "actual_sha256": "c3957fb05da8b373fd5ae91afc4955d9a68a6b53b2cf29a62385520a74d87853",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/flash_base_A_repeat0_NOT_FORMAL_SYNTHETIC.png",
+        "expected_sha256": "5a7ef8cc216f37ca74c3ab96513d334027deed762268f9a02e60ee4a0cca4a5d",
+        "actual_sha256": "5a7ef8cc216f37ca74c3ab96513d334027deed762268f9a02e60ee4a0cca4a5d",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/flash_base_A_repeat1_NOT_FORMAL_SYNTHETIC.png",
+        "expected_sha256": "5a7ef8cc216f37ca74c3ab96513d334027deed762268f9a02e60ee4a0cca4a5d",
+        "actual_sha256": "5a7ef8cc216f37ca74c3ab96513d334027deed762268f9a02e60ee4a0cca4a5d",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/train_batch_inputs/images/train/ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a.jpg",
+        "expected_sha256": "81f782f6b16cbd3034c06209b47af8e3616f66e6a8ceaa8b2cb0b3ca2ebd6ac4",
+        "actual_sha256": "81f782f6b16cbd3034c06209b47af8e3616f66e6a8ceaa8b2cb0b3ca2ebd6ac4",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/train_batch_inputs/images/train/ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7.jpg",
+        "expected_sha256": "4fe5b767a7fb8570736d4a6c21f8f229afab4e3e59c7689fdeebf3bee9746bc1",
+        "actual_sha256": "4fe5b767a7fb8570736d4a6c21f8f229afab4e3e59c7689fdeebf3bee9746bc1",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/train_batch_inputs/labels/train/ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a.txt",
+        "expected_sha256": "d24fba08576d8027f026c9733dfb30115e61a19cd0937c391c5e2ab99be14a17",
+        "actual_sha256": "d24fba08576d8027f026c9733dfb30115e61a19cd0937c391c5e2ab99be14a17",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/train_batch_inputs/labels/train/ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7.txt",
+        "expected_sha256": "8287f4009e7bb757a1b31e36713839bd02a81ee04fa1fff3c571339e4f4f5526",
+        "actual_sha256": "8287f4009e7bb757a1b31e36713839bd02a81ee04fa1fff3c571339e4f4f5526",
+        "pass": true
+      },
+      {
+        "file": "runtime_probe/train_batch_inputs/labels/train.cache",
+        "expected_sha256": "e04547efc53890a5bc64d2cef21db7d83b303298aa8917c4a2ec634f0458b4f8",
+        "actual_sha256": "e04547efc53890a5bc64d2cef21db7d83b303298aa8917c4a2ec634f0458b4f8",
+        "pass": true
+      },
+      {
+        "file": "stage20b_r0_status.json",
+        "expected_sha256": "a4f13207ab768424a24c53ad7694a6870c723daab11d09534f6751c80d4828d3",
+        "actual_sha256": "a4f13207ab768424a24c53ad7694a6870c723daab11d09534f6751c80d4828d3",
+        "pass": true
+      },
+      {
+        "file": "stage20b_runtime_environment.json",
+        "expected_sha256": "395ded48f07e023ee940222ae6a2655bcd0d455a1a5ad5d50b4e91cf0c21792f",
+        "actual_sha256": "395ded48f07e023ee940222ae6a2655bcd0d455a1a5ad5d50b4e91cf0c21792f",
+        "pass": true
+      }
+    ],
+    "count": 27,
+    "pass": true
+  },
+  "details": {
+    "generator_probes": [
+      {
+        "class": "flash",
+        "annotation_id": "ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+        "loss": 0.00015522807370871305,
+        "gradients": {
+          "parameters": 686,
+          "non_none_gradients": 686,
+          "nonzero_gradients": 244,
+          "all_gradients_finite": true,
+          "all_trainable_parameters_fp32": true
+        }
+      },
+      {
+        "class": "black",
+        "annotation_id": "ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+        "loss": 0.00018277904018759727,
+        "gradients": {
+          "parameters": 686,
+          "non_none_gradients": 686,
+          "nonzero_gradients": 145,
+          "all_gradients_finite": true,
+          "all_trainable_parameters_fp32": true
+        }
+      }
+    ],
+    "decoded_probe_hashes": [
+      {
+        "class": "flash",
+        "slot_id": "flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+        "decoded_RGB_sha256": "80771ea2419e12443cff56a2d1c5ea3c1533d341ed32c132e2b0e1ea496065bd"
+      },
+      {
+        "class": "black",
+        "slot_id": "black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+        "decoded_RGB_sha256": "76601e0e56a269468feb1311f333bac2546e9c40becff3b28bdad920d6be34f3"
+      }
+    ],
+    "detector_loss": 152.50286865234375,
+    "detector_native_losses": {
+      "box_loss": 1.9110034704208374,
+      "cls_loss": 150.1265411376953,
+      "dfl_loss": 0.4653240144252777
+    },
+    "detector_gradients": {
+      "parameters": 256,
+      "non_none_gradients": 255,
+      "nonzero_gradients": 239,
+      "all_gradients_finite": true,
+      "all_trainable_parameters_fp32": true
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "CUDA": "12.4"
+  },
+  "formal_status": "STAGE20B_RUNTIME_QUALIFICATION_PASS",
+  "STAGE20B_FORMAL_EXECUTION_READY": true,
+  "TDCRG_DEVELOPMENT_AUTHORIZED": false,
+  "formal_launcher_created": false,
+  "formal_auto_start": false,
+  "original_server_results_modified": false,
+  "original_dataset_content_read": 0,
+  "local_GPU_rerun": false,
+  "review_tool_sha256": "243313316bc1cbdb2ce8411c65d9d7c37b6761ed1ccd25cf0647aaf4a943d8d9"
+}

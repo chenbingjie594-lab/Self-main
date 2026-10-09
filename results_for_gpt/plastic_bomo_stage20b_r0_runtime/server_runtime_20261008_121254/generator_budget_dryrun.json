@@ -1,0 +1,1595 @@
+{
+  "status": "PASS",
+  "protocol": {
+    "family": "SD2_INPAINTING_RAW_V2",
+    "separate_class_checkpoints": true,
+    "seed": 42,
+    "resolution": 512,
+    "train_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 1e-06,
+    "scale_lr": false,
+    "lr_scheduler": "constant",
+    "lr_warmup_steps": 0,
+    "max_train_steps": 2000,
+    "num_train_epochs": null,
+    "budget_unit": "2000 successful optimizer updates per class; attempted updates and AMP skips recorded separately",
+    "optimizer": "AdamW",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "fp16",
+    "trainable_parameter_dtype": "float32 master parameters; never FP16 optimizer gradients",
+    "gradient_checkpointing": true,
+    "xformers": false,
+    "use_8bit_adam": false,
+    "unet": "all baseline UNet parameters trainable",
+    "vae": "frozen",
+    "text_encoder": "frozen",
+    "train_text_encoder": false,
+    "with_prior_preservation": false,
+    "text_noise_scale": 0.0,
+    "noise_offset": 0.0,
+    "input_perturbation": 0.0,
+    "snr_gamma": null,
+    "ema": false,
+    "loss": "unweighted ordinary denoising MSE; target determined by public base training scheduler prediction_type",
+    "prompts": {
+      "flash": "a photo of a sks flash defect",
+      "black": "a photo of a sks black spot defect"
+    },
+    "negative_prompt": "",
+    "training_order": "annotation IDs sorted; deterministic per-class permutation seed42 + zero-based epoch",
+    "data_workers": 0,
+    "drop_last": false,
+    "augmentation": "none; deterministic geometric crop and hard rectangular mask",
+    "normal_background_policy": "no extra normal-only generator training; masked donor crop is the denoising condition; frozen TRAIN normals only at inference",
+    "checkpoint_save_rule": "final pipeline only after 2000 successful updates; no validation checkpoint selection",
+    "final_checkpoint_rule": "class final_step2000 pipeline; hash all components; refuse if successful updates !=2000",
+    "automatic_resume": false,
+    "device_count": 1,
+    "TF32": false,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": true,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "base_model": "sd2-community/stable-diffusion-2-inpainting",
+    "allowlist_sha256": "92993d78a7cac875093ad3db4294e797a998a226a52e33debe4572a05fdee3c7",
+    "mask_crop_policy": {
+      "crop_side": 512,
+      "crop_center": "bbox center; left=floor(cx-256), top=floor(cy-256)",
+      "crop_reposition": false,
+      "padding": "constant RGB(0,0,0) outside original canvas",
+      "resize": "none; 512x512 crop",
+      "mask": "L-mode rectangle, floor(left/top), ceil(right/bottom), exclusive right/bottom",
+      "mask_semantics": "white inpaint, black retain; weak bbox geometry NOT segmentation ground truth",
+      "output": "paste generated 512 patch into the same full normal canvas at fixed crop origin; ignore padded pixels, no blending or quality selection",
+      "synthetic_labels": "only frozen target bbox; background normal has no dataset-defined boxes"
+    },
+    "entrypoint": "train_dreambooth_noise.py, pinned by Stage20A baseline code evidence; future manifest-only launch wrapper, not launched at P0"
+  },
+  "no_skip_scenario": {
+    "flash": {
+      "successful_updates": 2000,
+      "attempted_updates": 2000,
+      "simulated_amp_skips": 0,
+      "simulated_microbatch_draws": 7895,
+      "epoch_end_partial_groups": [
+        {
+          "epoch": 0,
+          "draws": 3
+        },
+        {
+          "epoch": 1,
+          "draws": 3
+        },
+        {
+          "epoch": 2,
+          "draws": 3
+        },
+        {
+          "epoch": 3,
+          "draws": 3
+        },
+        {
+          "epoch": 4,
+          "draws": 3
+        },
+        {
+          "epoch": 5,
+          "draws": 3
+        },
+        {
+          "epoch": 6,
+          "draws": 3
+        },
+        {
+          "epoch": 7,
+          "draws": 3
+        },
+        {
+          "epoch": 8,
+          "draws": 3
+        },
+        {
+          "epoch": 9,
+          "draws": 3
+        },
+        {
+          "epoch": 10,
+          "draws": 3
+        },
+        {
+          "epoch": 11,
+          "draws": 3
+        },
+        {
+          "epoch": 12,
+          "draws": 3
+        },
+        {
+          "epoch": 13,
+          "draws": 3
+        },
+        {
+          "epoch": 14,
+          "draws": 3
+        },
+        {
+          "epoch": 15,
+          "draws": 3
+        },
+        {
+          "epoch": 16,
+          "draws": 3
+        },
+        {
+          "epoch": 17,
+          "draws": 3
+        },
+        {
+          "epoch": 18,
+          "draws": 3
+        },
+        {
+          "epoch": 19,
+          "draws": 3
+        },
+        {
+          "epoch": 20,
+          "draws": 3
+        },
+        {
+          "epoch": 21,
+          "draws": 3
+        },
+        {
+          "epoch": 22,
+          "draws": 3
+        },
+        {
+          "epoch": 23,
+          "draws": 3
+        },
+        {
+          "epoch": 24,
+          "draws": 3
+        },
+        {
+          "epoch": 25,
+          "draws": 3
+        },
+        {
+          "epoch": 26,
+          "draws": 3
+        },
+        {
+          "epoch": 27,
+          "draws": 3
+        },
+        {
+          "epoch": 28,
+          "draws": 3
+        },
+        {
+          "epoch": 29,
+          "draws": 3
+        },
+        {
+          "epoch": 30,
+          "draws": 3
+        },
+        {
+          "epoch": 31,
+          "draws": 3
+        },
+        {
+          "epoch": 32,
+          "draws": 3
+        },
+        {
+          "epoch": 33,
+          "draws": 3
+        },
+        {
+          "epoch": 34,
+          "draws": 3
+        },
+        {
+          "epoch": 35,
+          "draws": 3
+        },
+        {
+          "epoch": 36,
+          "draws": 3
+        },
+        {
+          "epoch": 37,
+          "draws": 3
+        },
+        {
+          "epoch": 38,
+          "draws": 3
+        },
+        {
+          "epoch": 39,
+          "draws": 3
+        },
+        {
+          "epoch": 40,
+          "draws": 3
+        },
+        {
+          "epoch": 41,
+          "draws": 3
+        },
+        {
+          "epoch": 42,
+          "draws": 3
+        },
+        {
+          "epoch": 43,
+          "draws": 3
+        },
+        {
+          "epoch": 44,
+          "draws": 3
+        },
+        {
+          "epoch": 45,
+          "draws": 3
+        },
+        {
+          "epoch": 46,
+          "draws": 3
+        },
+        {
+          "epoch": 47,
+          "draws": 3
+        },
+        {
+          "epoch": 48,
+          "draws": 3
+        },
+        {
+          "epoch": 49,
+          "draws": 3
+        },
+        {
+          "epoch": 50,
+          "draws": 3
+        },
+        {
+          "epoch": 51,
+          "draws": 3
+        },
+        {
+          "epoch": 52,
+          "draws": 3
+        },
+        {
+          "epoch": 53,
+          "draws": 3
+        },
+        {
+          "epoch": 54,
+          "draws": 3
+        },
+        {
+          "epoch": 55,
+          "draws": 3
+        },
+        {
+          "epoch": 56,
+          "draws": 3
+        },
+        {
+          "epoch": 57,
+          "draws": 3
+        },
+        {
+          "epoch": 58,
+          "draws": 3
+        },
+        {
+          "epoch": 59,
+          "draws": 3
+        },
+        {
+          "epoch": 60,
+          "draws": 3
+        },
+        {
+          "epoch": 61,
+          "draws": 3
+        },
+        {
+          "epoch": 62,
+          "draws": 3
+        },
+        {
+          "epoch": 63,
+          "draws": 3
+        },
+        {
+          "epoch": 64,
+          "draws": 3
+        },
+        {
+          "epoch": 65,
+          "draws": 3
+        },
+        {
+          "epoch": 66,
+          "draws": 3
+        },
+        {
+          "epoch": 67,
+          "draws": 3
+        },
+        {
+          "epoch": 68,
+          "draws": 3
+        },
+        {
+          "epoch": 69,
+          "draws": 3
+        },
+        {
+          "epoch": 70,
+          "draws": 3
+        },
+        {
+          "epoch": 71,
+          "draws": 3
+        },
+        {
+          "epoch": 72,
+          "draws": 3
+        },
+        {
+          "epoch": 73,
+          "draws": 3
+        },
+        {
+          "epoch": 74,
+          "draws": 3
+        },
+        {
+          "epoch": 75,
+          "draws": 3
+        },
+        {
+          "epoch": 76,
+          "draws": 3
+        },
+        {
+          "epoch": 77,
+          "draws": 3
+        },
+        {
+          "epoch": 78,
+          "draws": 3
+        },
+        {
+          "epoch": 79,
+          "draws": 3
+        },
+        {
+          "epoch": 80,
+          "draws": 3
+        },
+        {
+          "epoch": 81,
+          "draws": 3
+        },
+        {
+          "epoch": 82,
+          "draws": 3
+        },
+        {
+          "epoch": 83,
+          "draws": 3
+        },
+        {
+          "epoch": 84,
+          "draws": 3
+        },
+        {
+          "epoch": 85,
+          "draws": 3
+        },
+        {
+          "epoch": 86,
+          "draws": 3
+        },
+        {
+          "epoch": 87,
+          "draws": 3
+        },
+        {
+          "epoch": 88,
+          "draws": 3
+        },
+        {
+          "epoch": 89,
+          "draws": 3
+        },
+        {
+          "epoch": 90,
+          "draws": 3
+        },
+        {
+          "epoch": 91,
+          "draws": 3
+        },
+        {
+          "epoch": 92,
+          "draws": 3
+        },
+        {
+          "epoch": 93,
+          "draws": 3
+        },
+        {
+          "epoch": 94,
+          "draws": 3
+        },
+        {
+          "epoch": 95,
+          "draws": 3
+        },
+        {
+          "epoch": 96,
+          "draws": 3
+        },
+        {
+          "epoch": 97,
+          "draws": 3
+        },
+        {
+          "epoch": 98,
+          "draws": 3
+        },
+        {
+          "epoch": 99,
+          "draws": 3
+        },
+        {
+          "epoch": 100,
+          "draws": 3
+        },
+        {
+          "epoch": 101,
+          "draws": 3
+        },
+        {
+          "epoch": 102,
+          "draws": 3
+        },
+        {
+          "epoch": 103,
+          "draws": 3
+        },
+        {
+          "epoch": 104,
+          "draws": 3
+        }
+      ],
+      "checkpoint_may_be_named_final_step2000": true
+    },
+    "black": {
+      "successful_updates": 2000,
+      "attempted_updates": 2000,
+      "simulated_amp_skips": 0,
+      "simulated_microbatch_draws": 7760,
+      "epoch_end_partial_groups": [
+        {
+          "epoch": 0,
+          "draws": 1
+        },
+        {
+          "epoch": 1,
+          "draws": 1
+        },
+        {
+          "epoch": 2,
+          "draws": 1
+        },
+        {
+          "epoch": 3,
+          "draws": 1
+        },
+        {
+          "epoch": 4,
+          "draws": 1
+        },
+        {
+          "epoch": 5,
+          "draws": 1
+        },
+        {
+          "epoch": 6,
+          "draws": 1
+        },
+        {
+          "epoch": 7,
+          "draws": 1
+        },
+        {
+          "epoch": 8,
+          "draws": 1
+        },
+        {
+          "epoch": 9,
+          "draws": 1
+        },
+        {
+          "epoch": 10,
+          "draws": 1
+        },
+        {
+          "epoch": 11,
+          "draws": 1
+        },
+        {
+          "epoch": 12,
+          "draws": 1
+        },
+        {
+          "epoch": 13,
+          "draws": 1
+        },
+        {
+          "epoch": 14,
+          "draws": 1
+        },
+        {
+          "epoch": 15,
+          "draws": 1
+        },
+        {
+          "epoch": 16,
+          "draws": 1
+        },
+        {
+          "epoch": 17,
+          "draws": 1
+        },
+        {
+          "epoch": 18,
+          "draws": 1
+        },
+        {
+          "epoch": 19,
+          "draws": 1
+        },
+        {
+          "epoch": 20,
+          "draws": 1
+        },
+        {
+          "epoch": 21,
+          "draws": 1
+        },
+        {
+          "epoch": 22,
+          "draws": 1
+        },
+        {
+          "epoch": 23,
+          "draws": 1
+        },
+        {
+          "epoch": 24,
+          "draws": 1
+        },
+        {
+          "epoch": 25,
+          "draws": 1
+        },
+        {
+          "epoch": 26,
+          "draws": 1
+        },
+        {
+          "epoch": 27,
+          "draws": 1
+        },
+        {
+          "epoch": 28,
+          "draws": 1
+        },
+        {
+          "epoch": 29,
+          "draws": 1
+        },
+        {
+          "epoch": 30,
+          "draws": 1
+        },
+        {
+          "epoch": 31,
+          "draws": 1
+        },
+        {
+          "epoch": 32,
+          "draws": 1
+        },
+        {
+          "epoch": 33,
+          "draws": 1
+        },
+        {
+          "epoch": 34,
+          "draws": 1
+        },
+        {
+          "epoch": 35,
+          "draws": 1
+        },
+        {
+          "epoch": 36,
+          "draws": 1
+        },
+        {
+          "epoch": 37,
+          "draws": 1
+        },
+        {
+          "epoch": 38,
+          "draws": 1
+        },
+        {
+          "epoch": 39,
+          "draws": 1
+        },
+        {
+          "epoch": 40,
+          "draws": 1
+        },
+        {
+          "epoch": 41,
+          "draws": 1
+        },
+        {
+          "epoch": 42,
+          "draws": 1
+        },
+        {
+          "epoch": 43,
+          "draws": 1
+        },
+        {
+          "epoch": 44,
+          "draws": 1
+        },
+        {
+          "epoch": 45,
+          "draws": 1
+        },
+        {
+          "epoch": 46,
+          "draws": 1
+        },
+        {
+          "epoch": 47,
+          "draws": 1
+        },
+        {
+          "epoch": 48,
+          "draws": 1
+        },
+        {
+          "epoch": 49,
+          "draws": 1
+        },
+        {
+          "epoch": 50,
+          "draws": 1
+        },
+        {
+          "epoch": 51,
+          "draws": 1
+        },
+        {
+          "epoch": 52,
+          "draws": 1
+        },
+        {
+          "epoch": 53,
+          "draws": 1
+        },
+        {
+          "epoch": 54,
+          "draws": 1
+        },
+        {
+          "epoch": 55,
+          "draws": 1
+        },
+        {
+          "epoch": 56,
+          "draws": 1
+        },
+        {
+          "epoch": 57,
+          "draws": 1
+        },
+        {
+          "epoch": 58,
+          "draws": 1
+        },
+        {
+          "epoch": 59,
+          "draws": 1
+        },
+        {
+          "epoch": 60,
+          "draws": 1
+        },
+        {
+          "epoch": 61,
+          "draws": 1
+        },
+        {
+          "epoch": 62,
+          "draws": 1
+        },
+        {
+          "epoch": 63,
+          "draws": 1
+        },
+        {
+          "epoch": 64,
+          "draws": 1
+        },
+        {
+          "epoch": 65,
+          "draws": 1
+        },
+        {
+          "epoch": 66,
+          "draws": 1
+        },
+        {
+          "epoch": 67,
+          "draws": 1
+        },
+        {
+          "epoch": 68,
+          "draws": 1
+        },
+        {
+          "epoch": 69,
+          "draws": 1
+        },
+        {
+          "epoch": 70,
+          "draws": 1
+        },
+        {
+          "epoch": 71,
+          "draws": 1
+        },
+        {
+          "epoch": 72,
+          "draws": 1
+        },
+        {
+          "epoch": 73,
+          "draws": 1
+        },
+        {
+          "epoch": 74,
+          "draws": 1
+        },
+        {
+          "epoch": 75,
+          "draws": 1
+        },
+        {
+          "epoch": 76,
+          "draws": 1
+        },
+        {
+          "epoch": 77,
+          "draws": 1
+        },
+        {
+          "epoch": 78,
+          "draws": 1
+        },
+        {
+          "epoch": 79,
+          "draws": 1
+        }
+      ],
+      "checkpoint_may_be_named_final_step2000": true
+    }
+  },
+  "injected_metadata_only_skip_scenario": {
+    "flash": {
+      "successful_updates": 2000,
+      "attempted_updates": 2004,
+      "simulated_amp_skips": 4,
+      "simulated_microbatch_draws": 7911,
+      "epoch_end_partial_groups": [
+        {
+          "epoch": 0,
+          "draws": 3
+        },
+        {
+          "epoch": 1,
+          "draws": 3
+        },
+        {
+          "epoch": 2,
+          "draws": 3
+        },
+        {
+          "epoch": 3,
+          "draws": 3
+        },
+        {
+          "epoch": 4,
+          "draws": 3
+        },
+        {
+          "epoch": 5,
+          "draws": 3
+        },
+        {
+          "epoch": 6,
+          "draws": 3
+        },
+        {
+          "epoch": 7,
+          "draws": 3
+        },
+        {
+          "epoch": 8,
+          "draws": 3
+        },
+        {
+          "epoch": 9,
+          "draws": 3
+        },
+        {
+          "epoch": 10,
+          "draws": 3
+        },
+        {
+          "epoch": 11,
+          "draws": 3
+        },
+        {
+          "epoch": 12,
+          "draws": 3
+        },
+        {
+          "epoch": 13,
+          "draws": 3
+        },
+        {
+          "epoch": 14,
+          "draws": 3
+        },
+        {
+          "epoch": 15,
+          "draws": 3
+        },
+        {
+          "epoch": 16,
+          "draws": 3
+        },
+        {
+          "epoch": 17,
+          "draws": 3
+        },
+        {
+          "epoch": 18,
+          "draws": 3
+        },
+        {
+          "epoch": 19,
+          "draws": 3
+        },
+        {
+          "epoch": 20,
+          "draws": 3
+        },
+        {
+          "epoch": 21,
+          "draws": 3
+        },
+        {
+          "epoch": 22,
+          "draws": 3
+        },
+        {
+          "epoch": 23,
+          "draws": 3
+        },
+        {
+          "epoch": 24,
+          "draws": 3
+        },
+        {
+          "epoch": 25,
+          "draws": 3
+        },
+        {
+          "epoch": 26,
+          "draws": 3
+        },
+        {
+          "epoch": 27,
+          "draws": 3
+        },
+        {
+          "epoch": 28,
+          "draws": 3
+        },
+        {
+          "epoch": 29,
+          "draws": 3
+        },
+        {
+          "epoch": 30,
+          "draws": 3
+        },
+        {
+          "epoch": 31,
+          "draws": 3
+        },
+        {
+          "epoch": 32,
+          "draws": 3
+        },
+        {
+          "epoch": 33,
+          "draws": 3
+        },
+        {
+          "epoch": 34,
+          "draws": 3
+        },
+        {
+          "epoch": 35,
+          "draws": 3
+        },
+        {
+          "epoch": 36,
+          "draws": 3
+        },
+        {
+          "epoch": 37,
+          "draws": 3
+        },
+        {
+          "epoch": 38,
+          "draws": 3
+        },
+        {
+          "epoch": 39,
+          "draws": 3
+        },
+        {
+          "epoch": 40,
+          "draws": 3
+        },
+        {
+          "epoch": 41,
+          "draws": 3
+        },
+        {
+          "epoch": 42,
+          "draws": 3
+        },
+        {
+          "epoch": 43,
+          "draws": 3
+        },
+        {
+          "epoch": 44,
+          "draws": 3
+        },
+        {
+          "epoch": 45,
+          "draws": 3
+        },
+        {
+          "epoch": 46,
+          "draws": 3
+        },
+        {
+          "epoch": 47,
+          "draws": 3
+        },
+        {
+          "epoch": 48,
+          "draws": 3
+        },
+        {
+          "epoch": 49,
+          "draws": 3
+        },
+        {
+          "epoch": 50,
+          "draws": 3
+        },
+        {
+          "epoch": 51,
+          "draws": 3
+        },
+        {
+          "epoch": 52,
+          "draws": 3
+        },
+        {
+          "epoch": 53,
+          "draws": 3
+        },
+        {
+          "epoch": 54,
+          "draws": 3
+        },
+        {
+          "epoch": 55,
+          "draws": 3
+        },
+        {
+          "epoch": 56,
+          "draws": 3
+        },
+        {
+          "epoch": 57,
+          "draws": 3
+        },
+        {
+          "epoch": 58,
+          "draws": 3
+        },
+        {
+          "epoch": 59,
+          "draws": 3
+        },
+        {
+          "epoch": 60,
+          "draws": 3
+        },
+        {
+          "epoch": 61,
+          "draws": 3
+        },
+        {
+          "epoch": 62,
+          "draws": 3
+        },
+        {
+          "epoch": 63,
+          "draws": 3
+        },
+        {
+          "epoch": 64,
+          "draws": 3
+        },
+        {
+          "epoch": 65,
+          "draws": 3
+        },
+        {
+          "epoch": 66,
+          "draws": 3
+        },
+        {
+          "epoch": 67,
+          "draws": 3
+        },
+        {
+          "epoch": 68,
+          "draws": 3
+        },
+        {
+          "epoch": 69,
+          "draws": 3
+        },
+        {
+          "epoch": 70,
+          "draws": 3
+        },
+        {
+          "epoch": 71,
+          "draws": 3
+        },
+        {
+          "epoch": 72,
+          "draws": 3
+        },
+        {
+          "epoch": 73,
+          "draws": 3
+        },
+        {
+          "epoch": 74,
+          "draws": 3
+        },
+        {
+          "epoch": 75,
+          "draws": 3
+        },
+        {
+          "epoch": 76,
+          "draws": 3
+        },
+        {
+          "epoch": 77,
+          "draws": 3
+        },
+        {
+          "epoch": 78,
+          "draws": 3
+        },
+        {
+          "epoch": 79,
+          "draws": 3
+        },
+        {
+          "epoch": 80,
+          "draws": 3
+        },
+        {
+          "epoch": 81,
+          "draws": 3
+        },
+        {
+          "epoch": 82,
+          "draws": 3
+        },
+        {
+          "epoch": 83,
+          "draws": 3
+        },
+        {
+          "epoch": 84,
+          "draws": 3
+        },
+        {
+          "epoch": 85,
+          "draws": 3
+        },
+        {
+          "epoch": 86,
+          "draws": 3
+        },
+        {
+          "epoch": 87,
+          "draws": 3
+        },
+        {
+          "epoch": 88,
+          "draws": 3
+        },
+        {
+          "epoch": 89,
+          "draws": 3
+        },
+        {
+          "epoch": 90,
+          "draws": 3
+        },
+        {
+          "epoch": 91,
+          "draws": 3
+        },
+        {
+          "epoch": 92,
+          "draws": 3
+        },
+        {
+          "epoch": 93,
+          "draws": 3
+        },
+        {
+          "epoch": 94,
+          "draws": 3
+        },
+        {
+          "epoch": 95,
+          "draws": 3
+        },
+        {
+          "epoch": 96,
+          "draws": 3
+        },
+        {
+          "epoch": 97,
+          "draws": 3
+        },
+        {
+          "epoch": 98,
+          "draws": 3
+        },
+        {
+          "epoch": 99,
+          "draws": 3
+        },
+        {
+          "epoch": 100,
+          "draws": 3
+        },
+        {
+          "epoch": 101,
+          "draws": 3
+        },
+        {
+          "epoch": 102,
+          "draws": 3
+        },
+        {
+          "epoch": 103,
+          "draws": 3
+        },
+        {
+          "epoch": 104,
+          "draws": 3
+        }
+      ],
+      "checkpoint_may_be_named_final_step2000": true
+    },
+    "black": {
+      "successful_updates": 2000,
+      "attempted_updates": 2004,
+      "simulated_amp_skips": 4,
+      "simulated_microbatch_draws": 7776,
+      "epoch_end_partial_groups": [
+        {
+          "epoch": 0,
+          "draws": 1
+        },
+        {
+          "epoch": 1,
+          "draws": 1
+        },
+        {
+          "epoch": 2,
+          "draws": 1
+        },
+        {
+          "epoch": 3,
+          "draws": 1
+        },
+        {
+          "epoch": 4,
+          "draws": 1
+        },
+        {
+          "epoch": 5,
+          "draws": 1
+        },
+        {
+          "epoch": 6,
+          "draws": 1
+        },
+        {
+          "epoch": 7,
+          "draws": 1
+        },
+        {
+          "epoch": 8,
+          "draws": 1
+        },
+        {
+          "epoch": 9,
+          "draws": 1
+        },
+        {
+          "epoch": 10,
+          "draws": 1
+        },
+        {
+          "epoch": 11,
+          "draws": 1
+        },
+        {
+          "epoch": 12,
+          "draws": 1
+        },
+        {
+          "epoch": 13,
+          "draws": 1
+        },
+        {
+          "epoch": 14,
+          "draws": 1
+        },
+        {
+          "epoch": 15,
+          "draws": 1
+        },
+        {
+          "epoch": 16,
+          "draws": 1
+        },
+        {
+          "epoch": 17,
+          "draws": 1
+        },
+        {
+          "epoch": 18,
+          "draws": 1
+        },
+        {
+          "epoch": 19,
+          "draws": 1
+        },
+        {
+          "epoch": 20,
+          "draws": 1
+        },
+        {
+          "epoch": 21,
+          "draws": 1
+        },
+        {
+          "epoch": 22,
+          "draws": 1
+        },
+        {
+          "epoch": 23,
+          "draws": 1
+        },
+        {
+          "epoch": 24,
+          "draws": 1
+        },
+        {
+          "epoch": 25,
+          "draws": 1
+        },
+        {
+          "epoch": 26,
+          "draws": 1
+        },
+        {
+          "epoch": 27,
+          "draws": 1
+        },
+        {
+          "epoch": 28,
+          "draws": 1
+        },
+        {
+          "epoch": 29,
+          "draws": 1
+        },
+        {
+          "epoch": 30,
+          "draws": 1
+        },
+        {
+          "epoch": 31,
+          "draws": 1
+        },
+        {
+          "epoch": 32,
+          "draws": 1
+        },
+        {
+          "epoch": 33,
+          "draws": 1
+        },
+        {
+          "epoch": 34,
+          "draws": 1
+        },
+        {
+          "epoch": 35,
+          "draws": 1
+        },
+        {
+          "epoch": 36,
+          "draws": 1
+        },
+        {
+          "epoch": 37,
+          "draws": 1
+        },
+        {
+          "epoch": 38,
+          "draws": 1
+        },
+        {
+          "epoch": 39,
+          "draws": 1
+        },
+        {
+          "epoch": 40,
+          "draws": 1
+        },
+        {
+          "epoch": 41,
+          "draws": 1
+        },
+        {
+          "epoch": 42,
+          "draws": 1
+        },
+        {
+          "epoch": 43,
+          "draws": 1
+        },
+        {
+          "epoch": 44,
+          "draws": 1
+        },
+        {
+          "epoch": 45,
+          "draws": 1
+        },
+        {
+          "epoch": 46,
+          "draws": 1
+        },
+        {
+          "epoch": 47,
+          "draws": 1
+        },
+        {
+          "epoch": 48,
+          "draws": 1
+        },
+        {
+          "epoch": 49,
+          "draws": 1
+        },
+        {
+          "epoch": 50,
+          "draws": 1
+        },
+        {
+          "epoch": 51,
+          "draws": 1
+        },
+        {
+          "epoch": 52,
+          "draws": 1
+        },
+        {
+          "epoch": 53,
+          "draws": 1
+        },
+        {
+          "epoch": 54,
+          "draws": 1
+        },
+        {
+          "epoch": 55,
+          "draws": 1
+        },
+        {
+          "epoch": 56,
+          "draws": 1
+        },
+        {
+          "epoch": 57,
+          "draws": 1
+        },
+        {
+          "epoch": 58,
+          "draws": 1
+        },
+        {
+          "epoch": 59,
+          "draws": 1
+        },
+        {
+          "epoch": 60,
+          "draws": 1
+        },
+        {
+          "epoch": 61,
+          "draws": 1
+        },
+        {
+          "epoch": 62,
+          "draws": 1
+        },
+        {
+          "epoch": 63,
+          "draws": 1
+        },
+        {
+          "epoch": 64,
+          "draws": 1
+        },
+        {
+          "epoch": 65,
+          "draws": 1
+        },
+        {
+          "epoch": 66,
+          "draws": 1
+        },
+        {
+          "epoch": 67,
+          "draws": 1
+        },
+        {
+          "epoch": 68,
+          "draws": 1
+        },
+        {
+          "epoch": 69,
+          "draws": 1
+        },
+        {
+          "epoch": 70,
+          "draws": 1
+        },
+        {
+          "epoch": 71,
+          "draws": 1
+        },
+        {
+          "epoch": 72,
+          "draws": 1
+        },
+        {
+          "epoch": 73,
+          "draws": 1
+        },
+        {
+          "epoch": 74,
+          "draws": 1
+        },
+        {
+          "epoch": 75,
+          "draws": 1
+        },
+        {
+          "epoch": 76,
+          "draws": 1
+        },
+        {
+          "epoch": 77,
+          "draws": 1
+        },
+        {
+          "epoch": 78,
+          "draws": 1
+        },
+        {
+          "epoch": 79,
+          "draws": 1
+        }
+      ],
+      "checkpoint_may_be_named_final_step2000": true
+    }
+  },
+  "optimizer_steps": 0,
+  "legacy_attempt_counted_main_not_used": true,
+  "successful_update_counter_required_in_future_wrapper": true
+}

@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_SEQUENCE_ONLY_NOT_STARTED",
+  "steps": [
+    "1 train Flash exactly2000 successful updates",
+    "2 train Black exactly2000 successful updates",
+    "3 freeze all component bytes of both final_step2000 pipelines",
+    "4 require both class checkpoints frozen before any formal sampling",
+    "5 generate RawGenerator-A 80 frozen slots",
+    "6 generate RawGenerator-B 80 frozen slots",
+    "7 generate RawGenerator-C 80 frozen slots",
+    "8 check all240 structural outputs; any failure stops without reroll",
+    "9 prepare identical136-real-base RR/A/B/C with80 extra role exposures",
+    "10 train all4 detectors and hash-freeze all epoch150 last.pt files",
+    "11 only then perform one unified V2 final_eval round"
+  ],
+  "formal_training_or_sampling_started": false,
+  "TDCRG_authorized": false,
+  "success_gates_unchanged": {
+    "mean_delta_pp_at_least": 0.5,
+    "strict_bank_wins_at_least": 2,
+    "each_class_mean_delta_pp_at_least": -2.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "native_final_eval_validate_YOLO_val_mock_calls": 0,
+  "normal_exit_counts": {
+    "epochs": 150,
+    "draws": 32400,
+    "scheduled_optimizer_attempts": 600
+  },
+  "exception_exit_cleanup_calls": 2,
+  "native_training_loop_invoked": false,
+  "custom_controller": "Stage20BDetectorController.run",
+  "early_stopper_not_called": true,
+  "no_val_dataset_or_validator_constructed": true
+}

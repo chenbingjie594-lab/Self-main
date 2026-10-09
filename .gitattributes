@@ -23,3 +23,12 @@ tests/test_plastic_bomo_stage20b_p0_review.py -text
 configs/plastic_bomo_stage20b_p0.json -text
 Stage20B-P0*.txt -text
 results_for_gpt/plastic_bomo_stage20b_p0_preflight/** -text -whitespace
+# New R0 implementation and results only; existing frozen ledgers are untouched.
+tools/qualify_plastic_bomo_stage20b_r0.py -text
+tools/stage20b_runtime_contract.py -text
+tools/stage20b_detector_controller.py -text
+tools/review_plastic_bomo_stage20b_r0.py -text
+tests/test_plastic_bomo_stage20b_r0.py -text
+tests/test_plastic_bomo_stage20b_r0_review.py -text
+Stage20B-R0*.txt -text
+results_for_gpt/plastic_bomo_stage20b_r0_runtime/** -text -whitespace

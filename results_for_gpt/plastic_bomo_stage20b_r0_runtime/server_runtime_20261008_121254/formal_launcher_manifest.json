@@ -1,0 +1,12 @@
+{
+  "status": "NOT_CREATED_OR_STARTED",
+  "reason": "R0 only qualifies runtime; no executable formal launcher is silently created or run",
+  "R0_runtime_qualified": true,
+  "formal_execution_plan": "formal_execution_plan.json",
+  "future_launcher_must_preserve": [
+    "all frozen slots/banks/hyperparameters",
+    "both class checkpoint byte freezes before sampling",
+    "all4 epoch150 last.pt byte freezes before final_eval"
+  ],
+  "auto_start": false
+}

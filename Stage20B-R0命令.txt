@@ -1,0 +1,30 @@
+# Only Stage20B-R0. Upload the three new Python files to tools/ first.
+# No package install, P0 rerun, optimizer step, formal training/generation or final_eval.
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage20b_r0_runtime
+TASK20_R0_RUN=$(date +%Y%m%d_%H%M%S)
+
+nohup env CUDA_VISIBLE_DEVICES=3 \
+CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_DATASETS_OFFLINE=1 \
+YOLO_AUTOINSTALL=false YOLO_OFFLINE=true NO_ALBUMENTATIONS_UPDATE=1 \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python -u \
+tools/qualify_plastic_bomo_stage20b_r0.py \
+  --stage20a results_for_gpt/plastic_bomo_stage20a_v2_protocol \
+  --p0 results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115 \
+  --protocol configs/plastic_bomo_stage20b_p0.json \
+  --base_model /mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting \
+  --detector_model /mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt \
+  --device 0 \
+  --output results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_${TASK20_R0_RUN} \
+  > logs/plastic_bomo_stage20b_r0_runtime/runtime_${TASK20_R0_RUN}.log 2>&1 &
+
+TASK20_R0_PID=$!
+echo "$TASK20_R0_PID" > logs/plastic_bomo_stage20b_r0_runtime/runtime_${TASK20_R0_RUN}.pid
+echo "R0 PID=$TASK20_R0_PID"
+echo "log=logs/plastic_bomo_stage20b_r0_runtime/runtime_${TASK20_R0_RUN}.log"
+echo "result=results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_${TASK20_R0_RUN}"
+
+# After it finishes, download that entire NEW server_runtime_* result directory.
+# Monitor separately: tail -n 80 <the log path printed above>
