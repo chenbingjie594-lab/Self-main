@@ -1,0 +1,37 @@
+# 将本次新增的 tools/stage20b_formal_common.py 和六个 *plastic_bomo_stage20b*.py 正式脚本上传到服务器。
+# 不改环境，不改 P0/R0。只运行这一段，后续步骤自动按顺序完成；失败自动停止，不重试。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage20b_formal
+TASK20_FORMAL_STAMP=$(date +%Y%m%d_%H%M%S)
+TASK20_FORMAL_RUN="results_for_gpt/plastic_bomo_stage20b_formal/formal_${TASK20_FORMAL_STAMP}"
+TASK20_FORMAL_LOG="logs/plastic_bomo_stage20b_formal/formal_${TASK20_FORMAL_STAMP}_launcher.log"
+
+nohup env CUDA_VISIBLE_DEVICES=3 PYTHONUNBUFFERED=1 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+STAGE20B_LAUNCHER_LOG="$TASK20_FORMAL_LOG" \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/run_plastic_bomo_stage20b_formal.py \
+  --stage20a results_for_gpt/plastic_bomo_stage20a_v2_protocol \
+  --p0 results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115 \
+  --r0 results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254 \
+  --protocol configs/plastic_bomo_stage20b_p0.json \
+  --base_model sd2-community/stable-diffusion-2-inpainting \
+  --detector_model pretrained/yolo11s.pt \
+  --output "$TASK20_FORMAL_RUN" --device 0 \
+  > "$TASK20_FORMAL_LOG" 2>&1 &
+
+TASK20_FORMAL_PID=$!
+echo "$TASK20_FORMAL_PID" > "logs/plastic_bomo_stage20b_formal/formal_${TASK20_FORMAL_STAMP}.pid"
+echo "$TASK20_FORMAL_RUN" > logs/plastic_bomo_stage20b_formal/latest_run.txt
+echo "$TASK20_FORMAL_LOG" > logs/plastic_bomo_stage20b_formal/latest_log.txt
+echo "PID=$TASK20_FORMAL_PID"
+echo "RESULT=$TASK20_FORMAL_RUN"
+echo "LOG=$TASK20_FORMAL_LOG"
+
+# 查看状态（另一个终端执行；不会读取 final_eval）：
+# cat "$(cat logs/plastic_bomo_stage20b_formal/latest_run.txt)/stage20b_status.json"
+# tail -n 60 "$(cat logs/plastic_bomo_stage20b_formal/latest_log.txt)"
+# Flash 训练细节：
+# tail -n 40 "$(cat logs/plastic_bomo_stage20b_formal/latest_run.txt)/logs/train_plastic_bomo_stage20b_generator_class_name_flash.log"
+# 全部结束后下载 RESULT 所指目录中的 JSON、STAGE20B_REPORT.md 和 logs/。
+# 不必下载大型权重/图片。它们留在同一服务器 run 目录，JSON 中保留逐文件 SHA256。

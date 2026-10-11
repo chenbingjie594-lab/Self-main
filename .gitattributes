@@ -32,3 +32,21 @@ tests/test_plastic_bomo_stage20b_r0.py -text
 tests/test_plastic_bomo_stage20b_r0_review.py -text
 Stage20B-R0*.txt -text
 results_for_gpt/plastic_bomo_stage20b_r0_runtime/** -text -whitespace
+# Formal Stage20B additions only. Preserve executable/artifact binding bytes.
+tools/stage20b_formal_common.py -text
+tools/train_plastic_bomo_stage20b_generator.py -text
+tools/generate_plastic_bomo_stage20b_banks.py -text
+tools/train_plastic_bomo_stage20b_detector.py -text
+tools/evaluate_plastic_bomo_stage20b.py -text
+tools/audit_plastic_bomo_stage20b.py -text
+tools/run_plastic_bomo_stage20b_formal.py -text
+tests/test_plastic_bomo_stage20b_formal.py -text
+Stage20B正式命令.txt -text
+results_for_gpt/plastic_bomo_stage20b_formal/** -text -whitespace
+# Explicit manual C interruption recovery; the seven bound formal scripts stay unchanged.
+tools/recover_plastic_bomo_stage20b_arm_c.py -text
+tests/test_plastic_bomo_stage20b_manual_recovery.py -text
+Stage20B-C组手动恢复命令.txt -text
+# Separate post-execution review; never changes frozen formal executable bytes.
+tools/review_plastic_bomo_stage20b_formal.py -text
+tests/test_plastic_bomo_stage20b_formal_review.py -text

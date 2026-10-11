@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "count": 240,
+  "allowed_checks_only": [
+    "file exists",
+    "decode valid",
+    "finite pixels",
+    "annotation geometry",
+    "pipeline structural success"
+  ],
+  "ABC_non_RNG_metadata_identical": true,
+  "quality_gate": false,
+  "inclusion_exclusion_count": 0
+}

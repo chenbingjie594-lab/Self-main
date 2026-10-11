@@ -1,0 +1,109 @@
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [01:21<05:25, 81.29s/it]Loading pipeline components...:  40%|████      | 2/5 [01:21<01:41, 33.86s/it]Loading pipeline components...:  60%|██████    | 3/5 [01:24<00:39, 19.61s/it]Loading pipeline components...:  80%|████████  | 4/5 [01:35<00:16, 16.31s/it]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|██████████| 5/5 [02:11<00:00, 23.23s/it]Loading pipeline components...: 100%|██████████| 5/5 [02:11<00:00, 26.27s/it]
+Traceback (most recent call last):
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/stage20b_formal_common.py", line 198, in child_main
+    function(a)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py", line 86, in train
+    pred = pipe.unet(inp, t, encoder_hidden_states=text).sample
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/unets/unet_2d_condition.py", line 1281, in forward
+    sample = upsample_block(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/unets/unet_2d_blocks.py", line 2541, in forward
+    hidden_states = attn(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/transformers/transformer_2d.py", line 430, in forward
+    hidden_states = torch.utils.checkpoint.checkpoint(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 632, in _fn
+    return fn(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 496, in checkpoint
+    ret = function(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/transformers/transformer_2d.py", line 425, in custom_forward
+    return module(*inputs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/attention.py", line 466, in forward
+    attn_output = self.attn1(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/attention_processor.py", line 490, in forward
+    return self.processor(
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/attention_processor.py", line 2224, in __call__
+    hidden_states = attn.to_out[0](hidden_states)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 2.81 MiB is free. Process 493055 has 5.00 GiB memory in use. Process 2694770 has 12.51 GiB memory in use. Including non-PyTorch memory, this process has 6.15 GiB memory in use. Of the allocated memory 5.78 GiB is allocated by PyTorch, and 31.63 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Traceback (most recent call last):
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py", line 166, in <module>
+    child_main(train, __doc__, lambda p: p.add_argument('--class_name', choices=('flash', 'black'), required=True))
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/stage20b_formal_common.py", line 198, in child_main
+    function(a)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py", line 86, in train
+    pred = pipe.unet(inp, t, encoder_hidden_states=text).sample
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/unets/unet_2d_condition.py", line 1281, in forward
+    sample = upsample_block(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/unets/unet_2d_blocks.py", line 2541, in forward
+    hidden_states = attn(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/transformers/transformer_2d.py", line 430, in forward
+    hidden_states = torch.utils.checkpoint.checkpoint(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 632, in _fn
+    return fn(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 496, in checkpoint
+    ret = function(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/transformers/transformer_2d.py", line 425, in custom_forward
+    return module(*inputs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/attention.py", line 466, in forward
+    attn_output = self.attn1(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/attention_processor.py", line 490, in forward
+    return self.processor(
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/diffusers/models/attention_processor.py", line 2224, in __call__
+    hidden_states = attn.to_out[0](hidden_states)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 2.81 MiB is free. Process 493055 has 5.00 GiB memory in use. Process 2694770 has 12.51 GiB memory in use. Including non-PyTorch memory, this process has 6.15 GiB memory in use. Of the allocated memory 5.78 GiB is allocated by PyTorch, and 31.63 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

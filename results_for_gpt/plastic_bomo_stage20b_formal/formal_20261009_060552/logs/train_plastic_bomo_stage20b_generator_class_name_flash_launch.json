@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py",
+    "--run",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552",
+    "--class_name",
+    "flash"
+  ],
+  "started_at": "2026-10-09T06:08:12.339946+00:00",
+  "log": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/logs/train_plastic_bomo_stage20b_generator_class_name_flash.log"
+}

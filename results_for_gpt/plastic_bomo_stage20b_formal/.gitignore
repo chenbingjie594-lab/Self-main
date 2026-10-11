@@ -1,0 +1,17 @@
+# Archive metadata/evidence, never multi-GB model or image copies.
+*.pt
+*.safetensors
+*.cache
+*/generator_checkpoints/
+*/checkpoint_sanity/
+*/synthetic_A/
+*/synthetic_B/
+*/synthetic_C/
+*/detector_*/train_inputs/
+*/final_eval_inputs/
+*/final_eval_outputs/
+# Counteract the repository-wide log ignore for this result evidence only.
+!*/logs/
+!*/logs/**
+!*/manual_recovery/source_snapshot/logs/
+!*/manual_recovery/source_snapshot/logs/**

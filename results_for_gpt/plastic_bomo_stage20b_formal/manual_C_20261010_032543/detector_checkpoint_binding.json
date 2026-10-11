@@ -1,0 +1,39 @@
+{
+  "status": "FROZEN",
+  "arms": {
+    "RR": {
+      "path": "detector_RR/last.pt",
+      "sha256": "21cc73460409489b430ee642c3fce49e53542460b25a951e5389f8793dc2842f",
+      "epochs": 150,
+      "successful_updates": 592,
+      "primary": true,
+      "model_representation": "pinned native EMA at epoch150, not selected by validation"
+    },
+    "A": {
+      "path": "detector_A/last.pt",
+      "sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+      "epochs": 150,
+      "successful_updates": 592,
+      "primary": true,
+      "model_representation": "pinned native EMA at epoch150, not selected by validation"
+    },
+    "B": {
+      "path": "detector_B/last.pt",
+      "sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+      "epochs": 150,
+      "successful_updates": 592,
+      "primary": true,
+      "model_representation": "pinned native EMA at epoch150, not selected by validation"
+    },
+    "C": {
+      "path": "detector_C/last.pt",
+      "sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+      "epochs": 150,
+      "successful_updates": 592,
+      "primary": true,
+      "model_representation": "pinned native EMA at epoch150, not selected by validation"
+    }
+  },
+  "frozen_at": "2026-10-10T15:04:14.844942+00:00",
+  "final_eval_may_begin_only_after_this_four_arm_barrier": true
+}

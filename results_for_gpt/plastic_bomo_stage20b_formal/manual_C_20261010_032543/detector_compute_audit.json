@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "arms": {
+    "RR": {
+      "actual_draws": 32400,
+      "scheduled_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "nonfinite_losses": 0,
+      "gradient_nonfinite_count": 8,
+      "epochs": 150,
+      "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+      "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+    },
+    "A": {
+      "actual_draws": 32400,
+      "scheduled_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "nonfinite_losses": 0,
+      "gradient_nonfinite_count": 8,
+      "epochs": 150,
+      "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+      "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+    },
+    "B": {
+      "actual_draws": 32400,
+      "scheduled_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "nonfinite_losses": 0,
+      "gradient_nonfinite_count": 8,
+      "epochs": 150,
+      "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+      "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+    },
+    "C": {
+      "actual_draws": 32400,
+      "scheduled_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "nonfinite_losses": 0,
+      "gradient_nonfinite_count": 8,
+      "epochs": 150,
+      "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+      "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+    }
+  },
+  "same_scheduled_exposure": true,
+  "successful_updates_equal_required": false,
+  "AMP_success_count_range": 0,
+  "extra_training_to_equalize_successes": 0,
+  "train_final_eval_reads": 0
+}

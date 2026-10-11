@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/tools/generate_plastic_bomo_stage20b_banks.py",
+    "--run",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552",
+    "--bank",
+    "B"
+  ],
+  "started_at": "2026-10-09T08:16:09.697889+00:00",
+  "log": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/logs/generate_plastic_bomo_stage20b_banks_bank_B.log"
+}

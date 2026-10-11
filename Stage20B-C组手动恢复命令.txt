@@ -1,0 +1,31 @@
+# Only upload tools/recover_plastic_bomo_stage20b_arm_c.py. Do not replace the seven frozen formal scripts.
+# Source stopped run remains untouched. New run reuses RR/A/B and frozen assets; only C restarts at epoch1.
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage20b_formal
+TASK20_RECOVERY_STAMP=$(date +%Y%m%d_%H%M%S)
+TASK20_RECOVERY_RUN="results_for_gpt/plastic_bomo_stage20b_formal/manual_C_${TASK20_RECOVERY_STAMP}"
+TASK20_RECOVERY_LOG="logs/plastic_bomo_stage20b_formal/manual_C_${TASK20_RECOVERY_STAMP}_launcher.log"
+
+nohup env CUDA_VISIBLE_DEVICES=0 PYTHONUNBUFFERED=1 \
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+STAGE20B_LAUNCHER_LOG="$TASK20_RECOVERY_LOG" \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python \
+tools/recover_plastic_bomo_stage20b_arm_c.py \
+  --source_run results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552 \
+  --output "$TASK20_RECOVERY_RUN" \
+  --confirm-manual-c-restart \
+  > "$TASK20_RECOVERY_LOG" 2>&1 &
+
+TASK20_RECOVERY_PID=$!
+echo "$TASK20_RECOVERY_PID" > "logs/plastic_bomo_stage20b_formal/manual_C_${TASK20_RECOVERY_STAMP}.pid"
+echo "$TASK20_RECOVERY_RUN" > logs/plastic_bomo_stage20b_formal/latest_manual_C_run.txt
+echo "$TASK20_RECOVERY_LOG" > logs/plastic_bomo_stage20b_formal/latest_manual_C_log.txt
+echo "PID=$TASK20_RECOVERY_PID"
+echo "RESULT=$TASK20_RECOVERY_RUN"
+echo "LOG=$TASK20_RECOVERY_LOG"
+
+# In another terminal, view progress (these comments are not executed):
+# tail -n 60 "$(cat logs/plastic_bomo_stage20b_formal/latest_manual_C_log.txt)"
+# tail -n 30 "$(cat logs/plastic_bomo_stage20b_formal/latest_manual_C_run.txt)/logs/manual_train_plastic_bomo_stage20b_detector_arm_C.log"
+# ps -o pid,etime,args -p YOUR_REPORTED_PID
+# Download the new RESULT JSON/report/logs after completion. Keep the source run on the server.

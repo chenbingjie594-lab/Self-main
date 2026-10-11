@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/tools/audit_plastic_bomo_stage20b.py",
+    "--run",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552",
+    "--action",
+    "freeze_generators"
+  ],
+  "started_at": "2026-10-09T08:09:18.048564+00:00",
+  "log": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/logs/audit_plastic_bomo_stage20b_action_freeze_generators.log"
+}

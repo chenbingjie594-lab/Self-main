@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/run_plastic_bomo_stage20b_formal.py", line 92, in main
+    step('train_plastic_bomo_stage20b_generator.py', ['--class_name', 'flash'], 'INIT', 'FLASH_GENERATOR_TRAINED')
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/run_plastic_bomo_stage20b_formal.py", line 88, in step
+    raise Stop(s.get('reason', phase), {'exit_code': code, 'log': str(logfile), 'detail': s.get('detail')})
+stage20b_runtime_contract.Stop: {'exit_code': 1, 'log': '/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_043250/logs/train_plastic_bomo_stage20b_generator_class_name_flash.log', 'detail': 'CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 2.81 MiB is free. Process 493055 has 5.00 GiB memory in use. Process 2694770 has 12.51 GiB memory in use. Including non-PyTorch memory, this process has 6.15 GiB memory in use. Of the allocated memory 5.78 GiB is allocated by PyTorch, and 31.63 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)'}

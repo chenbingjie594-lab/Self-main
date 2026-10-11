@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/tools/run_plastic_bomo_stage20b_formal.py",
+    "--_bind_only",
+    "--output",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_052723",
+    "--device",
+    "0",
+    "--stage20a",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20a_v2_protocol",
+    "--p0",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115",
+    "--r0",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254",
+    "--protocol",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/configs/plastic_bomo_stage20b_p0.json",
+    "--base_model",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+    "--detector_model",
+    "/mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt"
+  ],
+  "pid": 2708042,
+  "parent_pid": 2708040,
+  "started_at": "2026-10-09T05:27:23.727157+00:00",
+  "log": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_052723/logs/formal_startup_binding.log",
+  "not_a_new_preflight_stage": true
+}

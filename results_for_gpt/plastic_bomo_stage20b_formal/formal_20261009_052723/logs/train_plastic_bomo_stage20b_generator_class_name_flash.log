@@ -1,0 +1,41 @@
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  40%|████      | 2/5 [00:01<00:01,  1.52it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  3.72it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  3.17it/s]
+Traceback (most recent call last):
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/stage20b_formal_common.py", line 198, in child_main
+    function(a)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py", line 105, in train
+    scaler.step(opt)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/amp/grad_scaler.py", line 457, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/amp/grad_scaler.py", line 352, in _maybe_opt_step
+    retval = optimizer.step(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/adamw.py", line 209, in step
+    has_complex = self._init_group(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/adamw.py", line 148, in _init_group
+    state["exp_avg"] = torch.zeros_like(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 114.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 27.88 MiB is free. Process 528306 has 5.00 GiB memory in use. Process 2470950 has 3.32 GiB memory in use. Process 2470948 has 3.32 GiB memory in use. Including non-PyTorch memory, this process has 11.98 GiB memory in use. Of the allocated memory 11.56 GiB is allocated by PyTorch, and 51.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Traceback (most recent call last):
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py", line 166, in <module>
+    child_main(train, __doc__, lambda p: p.add_argument('--class_name', choices=('flash', 'black'), required=True))
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/stage20b_formal_common.py", line 198, in child_main
+    function(a)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/train_plastic_bomo_stage20b_generator.py", line 105, in train
+    scaler.step(opt)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/amp/grad_scaler.py", line 457, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/amp/grad_scaler.py", line 352, in _maybe_opt_step
+    retval = optimizer.step(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/adamw.py", line 209, in step
+    has_complex = self._init_group(
+  File "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch/optim/adamw.py", line 148, in _init_group
+    state["exp_avg"] = torch.zeros_like(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 114.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 27.88 MiB is free. Process 528306 has 5.00 GiB memory in use. Process 2470950 has 3.32 GiB memory in use. Process 2470948 has 3.32 GiB memory in use. Including non-PyTorch memory, this process has 11.98 GiB memory in use. Of the allocated memory 11.56 GiB is allocated by PyTorch, and 51.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

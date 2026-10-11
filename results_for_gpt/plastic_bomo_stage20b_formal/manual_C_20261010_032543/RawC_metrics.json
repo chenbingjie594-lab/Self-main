@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "map5095": 0.37348318684014364,
+  "map50": 0.8652997542997543,
+  "precision": 0.8897918561787572,
+  "recall": 0.8560854171031802,
+  "per_class": {
+    "flash": {
+      "precision": 0.8181131196639075,
+      "recall": 0.7878787878787878,
+      "ap50": 0.8030839160839159,
+      "ap5095": 0.30362042958784446
+    },
+    "black": {
+      "precision": 0.9614705926936069,
+      "recall": 0.9242920463275727,
+      "ap50": 0.9275155925155926,
+      "ap5095": 0.44334594409244277
+    }
+  },
+  "arm": "C",
+  "checkpoint_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+  "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+  "evaluation_image_count": 48,
+  "target_counts": {
+    "flash": 33,
+    "black": 27
+  },
+  "primary_checkpoint": "epoch150 last.pt"
+}

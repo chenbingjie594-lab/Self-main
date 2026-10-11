@@ -1,0 +1,3253 @@
+{
+  "status": "LOCAL_FORMAL_REVIEW_PASS",
+  "scope": "LOCAL_DOWNLOADED_ARTIFACT_REVIEW",
+  "run": "manual_C_20261010_032543",
+  "reviewer_sha256": "c622b82d28f19bf19aefc0fcbc92c61fa533c615cddec0aa91659ba37bb4bf37",
+  "formal_ledger_sha256": "3911775b0bfd25b2d700be8e0a1b82a6b5177d3dc3d9700d5242daa724689af5",
+  "checks": [
+    {
+      "check": "authority selects completed run and ledger bytes",
+      "passed": true
+    },
+    {
+      "check": "formal ledger and interruption snapshot bytes",
+      "passed": true
+    },
+    {
+      "check": "complete frozen state sequence",
+      "passed": true
+    },
+    {
+      "check": "stage20a expected/actual binding agreement",
+      "passed": true
+    },
+    {
+      "check": "stage20a local authority hashes",
+      "passed": true
+    },
+    {
+      "check": "server_p0 expected/actual binding agreement",
+      "passed": true
+    },
+    {
+      "check": "server_p0 local authority hashes",
+      "passed": true
+    },
+    {
+      "check": "R0 local artifact hashes",
+      "passed": true
+    },
+    {
+      "check": "R0 manifest fixed authority",
+      "passed": true
+    },
+    {
+      "check": "R0 source identities frozen",
+      "passed": true
+    },
+    {
+      "check": "local frozen executable and config bytes",
+      "passed": true
+    },
+    {
+      "check": "declared runtime equals qualified R0",
+      "passed": true
+    },
+    {
+      "check": "no evaluation at binding",
+      "passed": true
+    },
+    {
+      "check": "original stopped source bytes",
+      "passed": true
+    },
+    {
+      "check": "reused asset bytes",
+      "passed": true
+    },
+    {
+      "check": "source stayed stopped and unevaluated",
+      "passed": true
+    },
+    {
+      "check": "manual C fresh restart is explicit, without new generator/slots",
+      "passed": true
+    },
+    {
+      "check": "flash generator exact legal successful budget",
+      "passed": true
+    },
+    {
+      "check": "flash checkpoint tree digest",
+      "passed": true
+    },
+    {
+      "check": "flash checkpoint bytes",
+      "passed": true
+    },
+    {
+      "check": "flash only UNet weights changed from public pipeline",
+      "passed": true
+    },
+    {
+      "check": "black generator exact legal successful budget",
+      "passed": true
+    },
+    {
+      "check": "black checkpoint tree digest",
+      "passed": true
+    },
+    {
+      "check": "black checkpoint bytes",
+      "passed": true
+    },
+    {
+      "check": "black only UNet weights changed from public pipeline",
+      "passed": true
+    },
+    {
+      "check": "both trained checkpoint same-seed sanity, excluded from training",
+      "passed": true
+    },
+    {
+      "check": "A exact frozen80 slots and40/40 classes",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "A frozen metadata/RNG black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "A synthetic bytes black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "A decoded RGB black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "B exact frozen80 slots and40/40 classes",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "B frozen metadata/RNG black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "B synthetic bytes black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "B decoded RGB black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "C exact frozen80 slots and40/40 classes",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "passed": true
+    },
+    {
+      "check": "C frozen metadata/RNG black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "C synthetic bytes black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "C decoded RGB black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "passed": true
+    },
+    {
+      "check": "all240 raw outputs included without reroll",
+      "passed": true
+    },
+    {
+      "check": "RR complete matched150epoch schedule",
+      "passed": true
+    },
+    {
+      "check": "RR actual post-step totals match attempts",
+      "passed": true
+    },
+    {
+      "check": "RR role hashes and64/64/64/24 tail normalization",
+      "passed": true
+    },
+    {
+      "check": "RR draw log SHA",
+      "passed": true
+    },
+    {
+      "check": "RR consumed32400 roles/augmentation seeds match P0",
+      "passed": true
+    },
+    {
+      "check": "RR primary last.pt bytes",
+      "passed": true
+    },
+    {
+      "check": "RR metric checkpoint freeze lineage",
+      "passed": true
+    },
+    {
+      "check": "RR TRAIN-only136real+80extra roles",
+      "passed": true
+    },
+    {
+      "check": "A complete matched150epoch schedule",
+      "passed": true
+    },
+    {
+      "check": "A actual post-step totals match attempts",
+      "passed": true
+    },
+    {
+      "check": "A role hashes and64/64/64/24 tail normalization",
+      "passed": true
+    },
+    {
+      "check": "A draw log SHA",
+      "passed": true
+    },
+    {
+      "check": "A consumed32400 roles/augmentation seeds match P0",
+      "passed": true
+    },
+    {
+      "check": "A primary last.pt bytes",
+      "passed": true
+    },
+    {
+      "check": "A metric checkpoint freeze lineage",
+      "passed": true
+    },
+    {
+      "check": "A TRAIN-only136real+80extra roles",
+      "passed": true
+    },
+    {
+      "check": "B complete matched150epoch schedule",
+      "passed": true
+    },
+    {
+      "check": "B actual post-step totals match attempts",
+      "passed": true
+    },
+    {
+      "check": "B role hashes and64/64/64/24 tail normalization",
+      "passed": true
+    },
+    {
+      "check": "B draw log SHA",
+      "passed": true
+    },
+    {
+      "check": "B consumed32400 roles/augmentation seeds match P0",
+      "passed": true
+    },
+    {
+      "check": "B primary last.pt bytes",
+      "passed": true
+    },
+    {
+      "check": "B metric checkpoint freeze lineage",
+      "passed": true
+    },
+    {
+      "check": "B TRAIN-only136real+80extra roles",
+      "passed": true
+    },
+    {
+      "check": "C complete matched150epoch schedule",
+      "passed": true
+    },
+    {
+      "check": "C actual post-step totals match attempts",
+      "passed": true
+    },
+    {
+      "check": "C role hashes and64/64/64/24 tail normalization",
+      "passed": true
+    },
+    {
+      "check": "C draw log SHA",
+      "passed": true
+    },
+    {
+      "check": "C consumed32400 roles/augmentation seeds match P0",
+      "passed": true
+    },
+    {
+      "check": "C primary last.pt bytes",
+      "passed": true
+    },
+    {
+      "check": "C metric checkpoint freeze lineage",
+      "passed": true
+    },
+    {
+      "check": "C TRAIN-only136real+80extra roles",
+      "passed": true
+    },
+    {
+      "check": "downloaded final_eval image/label bytes against frozen V2 population",
+      "passed": true
+    },
+    {
+      "check": "downloaded final_eval annotations equal33Flash27Black",
+      "passed": true
+    },
+    {
+      "check": "one unified48image four-arm round only after checkpoint barrier",
+      "passed": true
+    },
+    {
+      "check": "all metrics primary epoch150, same protocol/population",
+      "passed": true
+    },
+    {
+      "check": "independent arithmetic and all frozen gates match published status",
+      "passed": true
+    },
+    {
+      "check": "no auto next-stage or forbidden components",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "hashed_files": 1297,
+  "missing_optional_downloads": [],
+  "recomputed_result": {
+    "RR_map5095": 0.3597019289721092,
+    "A_map5095": 0.2970998912654449,
+    "B_map5095": 0.33081838919630263,
+    "C_map5095": 0.37348318684014364,
+    "delta_A_pp": -6.260203770666428,
+    "delta_B_pp": -2.888353977580654,
+    "delta_C_pp": 1.3781257868034469,
+    "mean_delta_pp": -2.5901439871478784,
+    "std_delta_pp": 3.8278866892745036,
+    "min_delta_pp": -6.260203770666428,
+    "max_delta_pp": 1.3781257868034469,
+    "wins_vs_RR": 1,
+    "Flash_mean_delta_pp": 0.03572831865509748,
+    "Black_mean_delta_pp": -5.216016292950852,
+    "generation_bank_std_pp": 3.827886689274504,
+    "generation_bank_range_pp": 7.638329557469875,
+    "Gate_A": false,
+    "Gate_B": false,
+    "Gate_C": false,
+    "TDCRG_DEVELOPMENT_AUTHORIZED": false,
+    "status": "GENERATOR_BASELINE_HEADROOM_NOT_CONFIRMED",
+    "classwise": {
+      "flash": {
+        "delta_pp": [
+          -4.855721654782638,
+          1.0431860733456588,
+          3.9197205374022714
+        ],
+        "mean_delta_pp": 0.03572831865509748
+      },
+      "black": {
+        "delta_pp": [
+          -7.664685886550221,
+          -6.819894028506967,
+          -1.1634689637953666
+        ],
+        "mean_delta_pp": -5.216016292950852
+      }
+    }
+  },
+  "primary_detector_compute": {
+    "RR": {
+      "epochs": 150,
+      "actual_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    },
+    "A": {
+      "epochs": 150,
+      "actual_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    },
+    "B": {
+      "epochs": 150,
+      "actual_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    },
+    "C": {
+      "epochs": 150,
+      "actual_draws": 32400,
+      "attempted_optimizer_updates": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    }
+  },
+  "downloaded_final_eval_files_hashed": 96,
+  "downloaded_final_eval_label_counts": {
+    "0": 33,
+    "1": 27
+  },
+  "interrupted_C_observed_counters_excluded_from_primary": {
+    "epochs": 76,
+    "actual_draws": 16416,
+    "attempted_optimizer_updates": 304,
+    "successful_optimizer_updates": 296,
+    "AMP_skipped_updates": 8
+  },
+  "manual_recovery_disclosed": true,
+  "external_kill_cause_independently_verified": false,
+  "GPU_execution_performed_locally": false,
+  "AP_recomputed_from_detector_predictions": false,
+  "formal_result_files_modified": false,
+  "next_stage_started": false
+}

@@ -1,0 +1,5321 @@
+{
+  "status": "RUNNING",
+  "arm": "C",
+  "scheduled_draws": 32400,
+  "actual_draws": 16416,
+  "scheduled_optimizer_attempts": 600,
+  "attempted_optimizer_updates": 304,
+  "successful_optimizer_updates": 296,
+  "AMP_skipped_updates": 8,
+  "nonfinite_losses": 0,
+  "gradient_nonfinite_count": 8,
+  "epochs": 76,
+  "epoch_records": [
+    {
+      "epoch_0based": 0,
+      "draws": 216,
+      "actual_role_sequence_sha256": "1f126e6a32b1ff3d9cbae983cfcccd974e274fb1ce742f14ed8be01345358629",
+      "expected_role_sequence_sha256": "1f126e6a32b1ff3d9cbae983cfcccd974e274fb1ce742f14ed8be01345358629",
+      "loss_mean": 137.227870994144,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 65536.0,
+          "scale_after": 32768.0,
+          "learning_rates": [
+            9.722222222222222e-05,
+            9.722222222222222e-05,
+            0.09037500000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 32768.0,
+          "scale_after": 16384.0,
+          "learning_rates": [
+            0.00019598765432098767,
+            0.00019598765432098767,
+            0.08059722222222222
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 16384.0,
+          "scale_after": 8192.0,
+          "learning_rates": [
+            0.0002947530864197531,
+            0.0002947530864197531,
+            0.07081944444444445
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 8192.0,
+          "scale_after": 4096.0,
+          "learning_rates": [
+            0.00033179012345679014,
+            0.00033179012345679014,
+            0.06715277777777778
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 1,
+      "draws": 216,
+      "actual_role_sequence_sha256": "b676c3f5b6f39f37d51f05efc0a481a95a892b9b839a06d0e645398d6c9f9b41",
+      "expected_role_sequence_sha256": "b676c3f5b6f39f37d51f05efc0a481a95a892b9b839a06d0e645398d6c9f9b41",
+      "loss_mean": 139.19676399230957,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 4096.0,
+          "scale_after": 2048.0,
+          "learning_rates": [
+            0.00042771388888888885,
+            0.00042771388888888885,
+            0.05737215833333334
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 2048.0,
+          "scale_after": 1024.0,
+          "learning_rates": [
+            0.0005258274691358024,
+            0.0005258274691358024,
+            0.04759372870370371
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 1024.0,
+          "scale_after": 512.0,
+          "learning_rates": [
+            0.000623941049382716,
+            0.000623941049382716,
+            0.037815299074074084
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": false,
+          "AMP_skip": true,
+          "gradient_norm": null,
+          "scale_before": 512.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006607336419753086,
+            0.0006607336419753086,
+            0.03414838796296296
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 2,
+      "draws": 216,
+      "actual_role_sequence_sha256": "32b2d65298d68eeb1b734140f9e5a20b1967de17d9e0ad7f65a21b8145b4a3aa",
+      "expected_role_sequence_sha256": "32b2d65298d68eeb1b734140f9e5a20b1967de17d9e0ad7f65a21b8145b4a3aa",
+      "loss_mean": 121.71039976014032,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 5016.39111328125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007538055555555556,
+            0.0007538055555555556,
+            0.024364916666666667
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 5200.4501953125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008512672839506173,
+            0.0008512672839506173,
+            0.014585835185185178
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 3240.64013671875,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009487290123456792,
+            0.0009487290123456792,
+            0.004806753703703703
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 883.0360107421875,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009852771604938273,
+            0.0009852771604938273,
+            0.0011395981481481382
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 3,
+      "draws": 216,
+      "actual_role_sequence_sha256": "d7fbef540850d138663f38264dc156232cbd88072087d94c6fd8f78f0b054b98",
+      "expected_role_sequence_sha256": "d7fbef540850d138663f38264dc156232cbd88072087d94c6fd8f78f0b054b98",
+      "loss_mean": 28.160257193777298,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 728.8049926757812,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009802,
+            0.0009802,
+            0.0009802
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 390.81939697265625,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009802,
+            0.0009802,
+            0.0009802
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 246.37918090820312,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009802,
+            0.0009802,
+            0.0009802
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 143.7699432373047,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009802,
+            0.0009802,
+            0.0009802
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 4,
+      "draws": 216,
+      "actual_role_sequence_sha256": "8dbd71bb55cafa070ba5e72f0cb81763a17d40af0a9f73ba3e4d7f6d3c617823",
+      "expected_role_sequence_sha256": "8dbd71bb55cafa070ba5e72f0cb81763a17d40af0a9f73ba3e4d7f6d3c617823",
+      "loss_mean": 13.032505973621651,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 115.16364288330078,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009736,
+            0.0009736,
+            0.0009736
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 356.7393493652344,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009736,
+            0.0009736,
+            0.0009736
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 80.01919555664062,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009736,
+            0.0009736,
+            0.0009736
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 77.51587677001953,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009736,
+            0.0009736,
+            0.0009736
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 5,
+      "draws": 216,
+      "actual_role_sequence_sha256": "d2fa79d9f7719e4455aef1e35e86ecfac3104679cd6fff4089617ef57ecb5e9b",
+      "expected_role_sequence_sha256": "d2fa79d9f7719e4455aef1e35e86ecfac3104679cd6fff4089617ef57ecb5e9b",
+      "loss_mean": 7.942791325074655,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 44.6131591796875,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000967,
+            0.000967,
+            0.000967
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 52.06877517700195,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000967,
+            0.000967,
+            0.000967
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 49.60950469970703,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000967,
+            0.000967,
+            0.000967
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 46.16789245605469,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000967,
+            0.000967,
+            0.000967
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 6,
+      "draws": 216,
+      "actual_role_sequence_sha256": "6c0f7d28bc1ba09666fd65245f0f655553590a746dc5f73438abb8fdb4d785cc",
+      "expected_role_sequence_sha256": "6c0f7d28bc1ba09666fd65245f0f655553590a746dc5f73438abb8fdb4d785cc",
+      "loss_mean": 5.8481861728209035,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 89.2595443725586,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009603999999999999,
+            0.0009603999999999999,
+            0.0009603999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 56.20781707763672,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009603999999999999,
+            0.0009603999999999999,
+            0.0009603999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 32.07505416870117,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009603999999999999,
+            0.0009603999999999999,
+            0.0009603999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 29.481292724609375,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009603999999999999,
+            0.0009603999999999999,
+            0.0009603999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 7,
+      "draws": 216,
+      "actual_role_sequence_sha256": "beca463925a18fc8b3500a36216e332832ecbca3eb45d16d897da94ed885086e",
+      "expected_role_sequence_sha256": "beca463925a18fc8b3500a36216e332832ecbca3eb45d16d897da94ed885086e",
+      "loss_mean": 5.049272458034533,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 54.61461639404297,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009538,
+            0.0009538,
+            0.0009538
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.20429229736328,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009538,
+            0.0009538,
+            0.0009538
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 31.521238327026367,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009538,
+            0.0009538,
+            0.0009538
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 32.31071472167969,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009538,
+            0.0009538,
+            0.0009538
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 8,
+      "draws": 216,
+      "actual_role_sequence_sha256": "013d7d24513d8eabc4aa7a094a366642afd74913968bd3c1d052190d817d9bcf",
+      "expected_role_sequence_sha256": "013d7d24513d8eabc4aa7a094a366642afd74913968bd3c1d052190d817d9bcf",
+      "loss_mean": 4.878287316058521,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 96.30743408203125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009472,
+            0.0009472,
+            0.0009472
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 39.2159423828125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009472,
+            0.0009472,
+            0.0009472
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 34.782249450683594,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009472,
+            0.0009472,
+            0.0009472
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 32.530372619628906,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009472,
+            0.0009472,
+            0.0009472
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 9,
+      "draws": 216,
+      "actual_role_sequence_sha256": "e3c8455e0f2886490d22e12320a1b1d1faf1df44a87a75dba134c134fc30f1f7",
+      "expected_role_sequence_sha256": "e3c8455e0f2886490d22e12320a1b1d1faf1df44a87a75dba134c134fc30f1f7",
+      "loss_mean": 4.529380972600645,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 25.20069122314453,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009406,
+            0.0009406,
+            0.0009406
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 25.06509017944336,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009406,
+            0.0009406,
+            0.0009406
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 34.666168212890625,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009406,
+            0.0009406,
+            0.0009406
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 28.114864349365234,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009406,
+            0.0009406,
+            0.0009406
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 10,
+      "draws": 216,
+      "actual_role_sequence_sha256": "96068767096a9c86d9ed9f28701361210e4c3fff51fc2a9a283c58dfa5fdeed3",
+      "expected_role_sequence_sha256": "96068767096a9c86d9ed9f28701361210e4c3fff51fc2a9a283c58dfa5fdeed3",
+      "loss_mean": 4.146768070343468,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 34.542293548583984,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000934,
+            0.000934,
+            0.000934
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.201465606689453,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000934,
+            0.000934,
+            0.000934
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.52499008178711,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000934,
+            0.000934,
+            0.000934
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 41.61540603637695,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000934,
+            0.000934,
+            0.000934
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 11,
+      "draws": 216,
+      "actual_role_sequence_sha256": "de2c126e18161efc515e4a3f1bf2e715fc19cadda155df498c695c71a65eaf90",
+      "expected_role_sequence_sha256": "de2c126e18161efc515e4a3f1bf2e715fc19cadda155df498c695c71a65eaf90",
+      "loss_mean": 4.111716725208141,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 27.854001998901367,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009274,
+            0.0009274,
+            0.0009274
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.292509078979492,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009274,
+            0.0009274,
+            0.0009274
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.105825424194336,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009274,
+            0.0009274,
+            0.0009274
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.269882202148438,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009274,
+            0.0009274,
+            0.0009274
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 12,
+      "draws": 216,
+      "actual_role_sequence_sha256": "b0adb810c503607dc344e0e19d8dc2efcc69a30827f43aa8e5ef47aea2f169d7",
+      "expected_role_sequence_sha256": "b0adb810c503607dc344e0e19d8dc2efcc69a30827f43aa8e5ef47aea2f169d7",
+      "loss_mean": 3.971741445362568,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 26.26055145263672,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009208,
+            0.0009208,
+            0.0009208
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.785093307495117,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009208,
+            0.0009208,
+            0.0009208
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.438562393188477,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009208,
+            0.0009208,
+            0.0009208
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 29.079500198364258,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009208,
+            0.0009208,
+            0.0009208
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 13,
+      "draws": 216,
+      "actual_role_sequence_sha256": "af8ebad698b4ed1259886fc2c0b00a3cdade0fa7bc1c132cc8b70fa4a80d3921",
+      "expected_role_sequence_sha256": "af8ebad698b4ed1259886fc2c0b00a3cdade0fa7bc1c132cc8b70fa4a80d3921",
+      "loss_mean": 4.204277076930912,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.359722137451172,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009142,
+            0.0009142,
+            0.0009142
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.516597747802734,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009142,
+            0.0009142,
+            0.0009142
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.00755500793457,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009142,
+            0.0009142,
+            0.0009142
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.658227920532227,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009142,
+            0.0009142,
+            0.0009142
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 14,
+      "draws": 216,
+      "actual_role_sequence_sha256": "5dc33348cf6dd7dc524a8e8dc9f8bcfdc498a32c6a3842f574920a256e0b58b0",
+      "expected_role_sequence_sha256": "5dc33348cf6dd7dc524a8e8dc9f8bcfdc498a32c6a3842f574920a256e0b58b0",
+      "loss_mean": 4.252028493141687,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 26.141637802124023,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009075999999999999,
+            0.0009075999999999999,
+            0.0009075999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.300559997558594,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009075999999999999,
+            0.0009075999999999999,
+            0.0009075999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.245023727416992,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009075999999999999,
+            0.0009075999999999999,
+            0.0009075999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 32.49070358276367,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0009075999999999999,
+            0.0009075999999999999,
+            0.0009075999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 15,
+      "draws": 216,
+      "actual_role_sequence_sha256": "1868ef17218b45ebb78860677a2c6d7c523f308c00d259b8769260b94417a2f3",
+      "expected_role_sequence_sha256": "1868ef17218b45ebb78860677a2c6d7c523f308c00d259b8769260b94417a2f3",
+      "loss_mean": 3.8360740125041315,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.1536865234375,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000901,
+            0.000901,
+            0.000901
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.960561752319336,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000901,
+            0.000901,
+            0.000901
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.822765350341797,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000901,
+            0.000901,
+            0.000901
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.84881591796875,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000901,
+            0.000901,
+            0.000901
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 16,
+      "draws": 216,
+      "actual_role_sequence_sha256": "4b7ba1c05bc4949002f7815a3b10769f8ad188a1510dc1193cb479eb128c6bf7",
+      "expected_role_sequence_sha256": "4b7ba1c05bc4949002f7815a3b10769f8ad188a1510dc1193cb479eb128c6bf7",
+      "loss_mean": 4.014689248745088,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 27.341413497924805,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008944,
+            0.0008944,
+            0.0008944
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.721647262573242,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008944,
+            0.0008944,
+            0.0008944
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.208794593811035,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008944,
+            0.0008944,
+            0.0008944
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.70081329345703,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008944,
+            0.0008944,
+            0.0008944
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 17,
+      "draws": 216,
+      "actual_role_sequence_sha256": "737dcca049d4658fe5cac2e78e5c365191902c64a82b15d89bb994eb2a3ec3dd",
+      "expected_role_sequence_sha256": "737dcca049d4658fe5cac2e78e5c365191902c64a82b15d89bb994eb2a3ec3dd",
+      "loss_mean": 3.9184419998416193,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.22077751159668,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008878,
+            0.0008878,
+            0.0008878
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.440719604492188,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008878,
+            0.0008878,
+            0.0008878
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.70307159423828,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008878,
+            0.0008878,
+            0.0008878
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 27.126449584960938,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008878,
+            0.0008878,
+            0.0008878
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 18,
+      "draws": 216,
+      "actual_role_sequence_sha256": "87af5eb20aa58da6afc9cb479a2cc7abe203f545ac56989b9a467faa01540c3f",
+      "expected_role_sequence_sha256": "87af5eb20aa58da6afc9cb479a2cc7abe203f545ac56989b9a467faa01540c3f",
+      "loss_mean": 3.8404004736631006,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.569778442382812,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008812,
+            0.0008812,
+            0.0008812
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.761638641357422,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008812,
+            0.0008812,
+            0.0008812
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.855375289916992,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008812,
+            0.0008812,
+            0.0008812
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.33048439025879,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008812,
+            0.0008812,
+            0.0008812
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 19,
+      "draws": 216,
+      "actual_role_sequence_sha256": "d9ac2aacf672b8374384a297e1d8f4152db2384aa2925f8c689a82e968db1942",
+      "expected_role_sequence_sha256": "d9ac2aacf672b8374384a297e1d8f4152db2384aa2925f8c689a82e968db1942",
+      "loss_mean": 3.806362740971424,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.41402816772461,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008745999999999999,
+            0.0008745999999999999,
+            0.0008745999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.04856300354004,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008745999999999999,
+            0.0008745999999999999,
+            0.0008745999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.923080444335938,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008745999999999999,
+            0.0008745999999999999,
+            0.0008745999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.733871459960938,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008745999999999999,
+            0.0008745999999999999,
+            0.0008745999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 20,
+      "draws": 216,
+      "actual_role_sequence_sha256": "468c40fde0d0536aaa7595cdbba2a605448464b2d66f1dd3d68fadf4d59da665",
+      "expected_role_sequence_sha256": "468c40fde0d0536aaa7595cdbba2a605448464b2d66f1dd3d68fadf4d59da665",
+      "loss_mean": 3.968303100378425,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.984338760375977,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008680000000000001,
+            0.0008680000000000001,
+            0.0008680000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.375682830810547,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008680000000000001,
+            0.0008680000000000001,
+            0.0008680000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.260454177856445,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008680000000000001,
+            0.0008680000000000001,
+            0.0008680000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.896690368652344,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008680000000000001,
+            0.0008680000000000001,
+            0.0008680000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 21,
+      "draws": 216,
+      "actual_role_sequence_sha256": "063641d982f72e1d68bb9e7b50359fe2e8acb0b3b8cf46558de79b4d9092db1d",
+      "expected_role_sequence_sha256": "063641d982f72e1d68bb9e7b50359fe2e8acb0b3b8cf46558de79b4d9092db1d",
+      "loss_mean": 3.831578156220968,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.368112564086914,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008614,
+            0.0008614,
+            0.0008614
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.17986297607422,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008614,
+            0.0008614,
+            0.0008614
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.209463119506836,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008614,
+            0.0008614,
+            0.0008614
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.053422927856445,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008614,
+            0.0008614,
+            0.0008614
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 22,
+      "draws": 216,
+      "actual_role_sequence_sha256": "4503a47d8e8dd63864b8d14dcf587d92fde55e43e0638ec3528de629e61f43fb",
+      "expected_role_sequence_sha256": "4503a47d8e8dd63864b8d14dcf587d92fde55e43e0638ec3528de629e61f43fb",
+      "loss_mean": 3.9612663796654455,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.39940071105957,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008548,
+            0.0008548,
+            0.0008548
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.591353416442871,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008548,
+            0.0008548,
+            0.0008548
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.563138961791992,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008548,
+            0.0008548,
+            0.0008548
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.877853393554688,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008548,
+            0.0008548,
+            0.0008548
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 23,
+      "draws": 216,
+      "actual_role_sequence_sha256": "5d6e013f85a23b97fe815837c84e92846189a2b5c37e5a55cb113a87ecea8442",
+      "expected_role_sequence_sha256": "5d6e013f85a23b97fe815837c84e92846189a2b5c37e5a55cb113a87ecea8442",
+      "loss_mean": 3.75508413243073,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.73382568359375,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008482000000000001,
+            0.0008482000000000001,
+            0.0008482000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.515029907226562,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008482000000000001,
+            0.0008482000000000001,
+            0.0008482000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.075523376464844,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008482000000000001,
+            0.0008482000000000001,
+            0.0008482000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 29.73243522644043,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008482000000000001,
+            0.0008482000000000001,
+            0.0008482000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 24,
+      "draws": 216,
+      "actual_role_sequence_sha256": "aa04035f804e061e0ebc04652e384a92cb09d45e2c527d9b1e123ed1a5d506e7",
+      "expected_role_sequence_sha256": "aa04035f804e061e0ebc04652e384a92cb09d45e2c527d9b1e123ed1a5d506e7",
+      "loss_mean": 3.870340229736434,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.851072311401367,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008416000000000001,
+            0.0008416000000000001,
+            0.0008416000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.608896255493164,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008416000000000001,
+            0.0008416000000000001,
+            0.0008416000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.258532524108887,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008416000000000001,
+            0.0008416000000000001,
+            0.0008416000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.285648345947266,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008416000000000001,
+            0.0008416000000000001,
+            0.0008416000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 25,
+      "draws": 216,
+      "actual_role_sequence_sha256": "ef6cfb6755a5db4a4d8f5fb6640217bf0e122d9b1720822323a272d193c0d888",
+      "expected_role_sequence_sha256": "ef6cfb6755a5db4a4d8f5fb6640217bf0e122d9b1720822323a272d193c0d888",
+      "loss_mean": 3.8213323815553277,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.634483337402344,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008350000000000001,
+            0.0008350000000000001,
+            0.0008350000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.286996841430664,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008350000000000001,
+            0.0008350000000000001,
+            0.0008350000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.871902465820312,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008350000000000001,
+            0.0008350000000000001,
+            0.0008350000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.343921661376953,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008350000000000001,
+            0.0008350000000000001,
+            0.0008350000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 26,
+      "draws": 216,
+      "actual_role_sequence_sha256": "65e816bbd35da0c2124d002b50c73aa51eeec4b88482b1e7e1a2a4ecc0b83146",
+      "expected_role_sequence_sha256": "65e816bbd35da0c2124d002b50c73aa51eeec4b88482b1e7e1a2a4ecc0b83146",
+      "loss_mean": 3.7723640099995666,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.417665481567383,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008284000000000001,
+            0.0008284000000000001,
+            0.0008284000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.887113571166992,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008284000000000001,
+            0.0008284000000000001,
+            0.0008284000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.999147415161133,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008284000000000001,
+            0.0008284000000000001,
+            0.0008284000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.557706832885742,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008284000000000001,
+            0.0008284000000000001,
+            0.0008284000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 27,
+      "draws": 216,
+      "actual_role_sequence_sha256": "3851a49ca911cdec38fc2d8305ba674396fcefd875c38861c23821f1823cb6a7",
+      "expected_role_sequence_sha256": "3851a49ca911cdec38fc2d8305ba674396fcefd875c38861c23821f1823cb6a7",
+      "loss_mean": 3.864233499875775,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.023273468017578,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008218000000000001,
+            0.0008218000000000001,
+            0.0008218000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.634825706481934,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008218000000000001,
+            0.0008218000000000001,
+            0.0008218000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.247943878173828,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008218000000000001,
+            0.0008218000000000001,
+            0.0008218000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 25.72274398803711,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008218000000000001,
+            0.0008218000000000001,
+            0.0008218000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 28,
+      "draws": 216,
+      "actual_role_sequence_sha256": "3b7421999f89bec0db72b3073273ee1dab0b2ca2f04cbc166534b95aac9e2ab1",
+      "expected_role_sequence_sha256": "3b7421999f89bec0db72b3073273ee1dab0b2ca2f04cbc166534b95aac9e2ab1",
+      "loss_mean": 3.982869024629946,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.897245407104492,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008152000000000001,
+            0.0008152000000000001,
+            0.0008152000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.806146621704102,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008152000000000001,
+            0.0008152000000000001,
+            0.0008152000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.068178176879883,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008152000000000001,
+            0.0008152000000000001,
+            0.0008152000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.538925170898438,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008152000000000001,
+            0.0008152000000000001,
+            0.0008152000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 29,
+      "draws": 216,
+      "actual_role_sequence_sha256": "3af7838d000284c304bc5432ec359c0418e36d7312fc3ffa97d6793a47a7d8c8",
+      "expected_role_sequence_sha256": "3af7838d000284c304bc5432ec359c0418e36d7312fc3ffa97d6793a47a7d8c8",
+      "loss_mean": 3.902902682622274,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.465456008911133,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008086,
+            0.0008086,
+            0.0008086
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.151397705078125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008086,
+            0.0008086,
+            0.0008086
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.203106880187988,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008086,
+            0.0008086,
+            0.0008086
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.159677505493164,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008086,
+            0.0008086,
+            0.0008086
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 30,
+      "draws": 216,
+      "actual_role_sequence_sha256": "8c8fe29120ae5364e7de74f4aa439c390d474a62f2f373c3fce7454edd16a030",
+      "expected_role_sequence_sha256": "8c8fe29120ae5364e7de74f4aa439c390d474a62f2f373c3fce7454edd16a030",
+      "loss_mean": 3.6849120194437326,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.516855239868164,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008020000000000001,
+            0.0008020000000000001,
+            0.0008020000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.874561309814453,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008020000000000001,
+            0.0008020000000000001,
+            0.0008020000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.219449043273926,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008020000000000001,
+            0.0008020000000000001,
+            0.0008020000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.093992233276367,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0008020000000000001,
+            0.0008020000000000001,
+            0.0008020000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 31,
+      "draws": 216,
+      "actual_role_sequence_sha256": "1ead94e1eb18574b0fd7c2b213bbe0ede5de3c6ce181b70b854fd6172b68ac05",
+      "expected_role_sequence_sha256": "1ead94e1eb18574b0fd7c2b213bbe0ede5de3c6ce181b70b854fd6172b68ac05",
+      "loss_mean": 3.7684486450420485,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.207082748413086,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007954,
+            0.0007954,
+            0.0007954
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.789003372192383,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007954,
+            0.0007954,
+            0.0007954
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.159880638122559,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007954,
+            0.0007954,
+            0.0007954
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.821077346801758,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007954,
+            0.0007954,
+            0.0007954
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 32,
+      "draws": 216,
+      "actual_role_sequence_sha256": "55086aece4f8a781df294d07851361753f4b709cb587e9b8a60d80a2a695d775",
+      "expected_role_sequence_sha256": "55086aece4f8a781df294d07851361753f4b709cb587e9b8a60d80a2a695d775",
+      "loss_mean": 3.6235866341050023,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.9494686126709,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007888,
+            0.0007888,
+            0.0007888
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.95344352722168,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007888,
+            0.0007888,
+            0.0007888
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.46888256072998,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007888,
+            0.0007888,
+            0.0007888
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.153247833251953,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007888,
+            0.0007888,
+            0.0007888
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 33,
+      "draws": 216,
+      "actual_role_sequence_sha256": "c9c19cfd7444f1cd5c85bfb4ada3555db05d74337ecc9fd7b80112b3378e0c9c",
+      "expected_role_sequence_sha256": "c9c19cfd7444f1cd5c85bfb4ada3555db05d74337ecc9fd7b80112b3378e0c9c",
+      "loss_mean": 3.6315368320103043,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.189616203308105,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007822,
+            0.0007822,
+            0.0007822
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 10.523565292358398,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007822,
+            0.0007822,
+            0.0007822
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.068951606750488,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007822,
+            0.0007822,
+            0.0007822
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.583333969116211,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007822,
+            0.0007822,
+            0.0007822
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 34,
+      "draws": 216,
+      "actual_role_sequence_sha256": "4db336bf45d96c4c5ea8c785eb5ad16e913d494f37c0530f492c4917eb856649",
+      "expected_role_sequence_sha256": "4db336bf45d96c4c5ea8c785eb5ad16e913d494f37c0530f492c4917eb856649",
+      "loss_mean": 3.5930668165286384,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.110332489013672,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007756,
+            0.0007756,
+            0.0007756
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.959446907043457,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007756,
+            0.0007756,
+            0.0007756
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.862771034240723,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007756,
+            0.0007756,
+            0.0007756
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.84746551513672,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007756,
+            0.0007756,
+            0.0007756
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 35,
+      "draws": 216,
+      "actual_role_sequence_sha256": "18d63342f8dfe11e65c60014394dbb984e1dc8c8b629e309daa18bb9b9362e99",
+      "expected_role_sequence_sha256": "18d63342f8dfe11e65c60014394dbb984e1dc8c8b629e309daa18bb9b9362e99",
+      "loss_mean": 3.721929711324197,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.380288124084473,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007689999999999999,
+            0.0007689999999999999,
+            0.0007689999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.369967460632324,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007689999999999999,
+            0.0007689999999999999,
+            0.0007689999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.691871643066406,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007689999999999999,
+            0.0007689999999999999,
+            0.0007689999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.38829231262207,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007689999999999999,
+            0.0007689999999999999,
+            0.0007689999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 36,
+      "draws": 216,
+      "actual_role_sequence_sha256": "e72ebe8c50ac7846719233c4a860870eb4b8da970dacc14ed5b3d08a1851e1bf",
+      "expected_role_sequence_sha256": "e72ebe8c50ac7846719233c4a860870eb4b8da970dacc14ed5b3d08a1851e1bf",
+      "loss_mean": 3.856495415722882,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.527793884277344,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007624,
+            0.0007624,
+            0.0007624
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.774321556091309,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007624,
+            0.0007624,
+            0.0007624
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.60084342956543,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007624,
+            0.0007624,
+            0.0007624
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.000688552856445,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007624,
+            0.0007624,
+            0.0007624
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 37,
+      "draws": 216,
+      "actual_role_sequence_sha256": "42613f04f472914b879acaadf981fcd4add6a996c2c7ff96b539a3d52708f59c",
+      "expected_role_sequence_sha256": "42613f04f472914b879acaadf981fcd4add6a996c2c7ff96b539a3d52708f59c",
+      "loss_mean": 3.652061983977479,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.42411231994629,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007557999999999999,
+            0.0007557999999999999,
+            0.0007557999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.263543128967285,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007557999999999999,
+            0.0007557999999999999,
+            0.0007557999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.367130279541016,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007557999999999999,
+            0.0007557999999999999,
+            0.0007557999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.50441551208496,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007557999999999999,
+            0.0007557999999999999,
+            0.0007557999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 38,
+      "draws": 216,
+      "actual_role_sequence_sha256": "ba4013370b269ff8237cacd4b28ffaefe1c720c35c918e4394b5da55d46d842f",
+      "expected_role_sequence_sha256": "ba4013370b269ff8237cacd4b28ffaefe1c720c35c918e4394b5da55d46d842f",
+      "loss_mean": 3.3845883201186857,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.88015365600586,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007492,
+            0.0007492,
+            0.0007492
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.86411190032959,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007492,
+            0.0007492,
+            0.0007492
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.03459930419922,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007492,
+            0.0007492,
+            0.0007492
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.34805679321289,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007492,
+            0.0007492,
+            0.0007492
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 39,
+      "draws": 216,
+      "actual_role_sequence_sha256": "a1481115e44957180450d19bd6ca1a53dce9813abf13cc904a148c2d3d8ea6cb",
+      "expected_role_sequence_sha256": "a1481115e44957180450d19bd6ca1a53dce9813abf13cc904a148c2d3d8ea6cb",
+      "loss_mean": 3.6583542818272554,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.446399688720703,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007426,
+            0.0007426,
+            0.0007426
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.12548542022705,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007426,
+            0.0007426,
+            0.0007426
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.693229675292969,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007426,
+            0.0007426,
+            0.0007426
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.823951721191406,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007426,
+            0.0007426,
+            0.0007426
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 40,
+      "draws": 216,
+      "actual_role_sequence_sha256": "b8d83ad0f8a5482b5fcdc16e4cb64cd844a14d9644363a828c6529b1e3262900",
+      "expected_role_sequence_sha256": "b8d83ad0f8a5482b5fcdc16e4cb64cd844a14d9644363a828c6529b1e3262900",
+      "loss_mean": 3.6262038645369037,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.26767921447754,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007360000000000001,
+            0.0007360000000000001,
+            0.0007360000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.713081359863281,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007360000000000001,
+            0.0007360000000000001,
+            0.0007360000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.817947387695312,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007360000000000001,
+            0.0007360000000000001,
+            0.0007360000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.858373641967773,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007360000000000001,
+            0.0007360000000000001,
+            0.0007360000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 41,
+      "draws": 216,
+      "actual_role_sequence_sha256": "94831d3883ae06256899a8afd3a8dde398898330dade88aecfbf050fae68500c",
+      "expected_role_sequence_sha256": "94831d3883ae06256899a8afd3a8dde398898330dade88aecfbf050fae68500c",
+      "loss_mean": 3.6739401017074234,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.815123558044434,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007294000000000001,
+            0.0007294000000000001,
+            0.0007294000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.811441421508789,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007294000000000001,
+            0.0007294000000000001,
+            0.0007294000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.894620895385742,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007294000000000001,
+            0.0007294000000000001,
+            0.0007294000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 29.714744567871094,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007294000000000001,
+            0.0007294000000000001,
+            0.0007294000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 42,
+      "draws": 216,
+      "actual_role_sequence_sha256": "6bcc7fb210b54f19a908a523a1cb13df5a0147961ad715d2e0b8d44b6fd5b50b",
+      "expected_role_sequence_sha256": "6bcc7fb210b54f19a908a523a1cb13df5a0147961ad715d2e0b8d44b6fd5b50b",
+      "loss_mean": 3.7125414389151112,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.061159133911133,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007228,
+            0.0007228,
+            0.0007228
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.831881523132324,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007228,
+            0.0007228,
+            0.0007228
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.55223846435547,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007228,
+            0.0007228,
+            0.0007228
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.848876953125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007228,
+            0.0007228,
+            0.0007228
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 43,
+      "draws": 216,
+      "actual_role_sequence_sha256": "b4fcb198474ba3902efdaccde9d97f7f8b5e4e09a65c6dd4765eb003bf1389d9",
+      "expected_role_sequence_sha256": "b4fcb198474ba3902efdaccde9d97f7f8b5e4e09a65c6dd4765eb003bf1389d9",
+      "loss_mean": 3.6225690231830985,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.353456497192383,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007162000000000001,
+            0.0007162000000000001,
+            0.0007162000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.738322257995605,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007162000000000001,
+            0.0007162000000000001,
+            0.0007162000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.0244779586792,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007162000000000001,
+            0.0007162000000000001,
+            0.0007162000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.37499237060547,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007162000000000001,
+            0.0007162000000000001,
+            0.0007162000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 44,
+      "draws": 216,
+      "actual_role_sequence_sha256": "1a91dbe3dbc7d9e751e668d39b16c2b6c2774b6109446f308333642e2bd7cc19",
+      "expected_role_sequence_sha256": "1a91dbe3dbc7d9e751e668d39b16c2b6c2774b6109446f308333642e2bd7cc19",
+      "loss_mean": 3.4896662489131645,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.635910987854004,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007096,
+            0.0007096,
+            0.0007096
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.51646614074707,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007096,
+            0.0007096,
+            0.0007096
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.772521018981934,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007096,
+            0.0007096,
+            0.0007096
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.409799575805664,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0007096,
+            0.0007096,
+            0.0007096
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 45,
+      "draws": 216,
+      "actual_role_sequence_sha256": "d5f2a816d7b99820152ea491cbb26f10925820a21d0cccb3ff864420e725ad3c",
+      "expected_role_sequence_sha256": "d5f2a816d7b99820152ea491cbb26f10925820a21d0cccb3ff864420e725ad3c",
+      "loss_mean": 3.415535254196988,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.439810752868652,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000703,
+            0.000703,
+            0.000703
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.882502555847168,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000703,
+            0.000703,
+            0.000703
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.6886625289917,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000703,
+            0.000703,
+            0.000703
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.202512741088867,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000703,
+            0.000703,
+            0.000703
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 46,
+      "draws": 216,
+      "actual_role_sequence_sha256": "df427bbecd0772cb9242883cb1e59fca9f28466fbdd465b908370d57f2771a13",
+      "expected_role_sequence_sha256": "df427bbecd0772cb9242883cb1e59fca9f28466fbdd465b908370d57f2771a13",
+      "loss_mean": 3.609663007022054,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.630373001098633,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006964,
+            0.0006964,
+            0.0006964
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.630620002746582,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006964,
+            0.0006964,
+            0.0006964
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.344430923461914,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006964,
+            0.0006964,
+            0.0006964
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.390774726867676,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006964,
+            0.0006964,
+            0.0006964
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 47,
+      "draws": 216,
+      "actual_role_sequence_sha256": "8e1aa0f2523b19a08a5e0da637a106b7841e84da8d1deae623be9072e93a2851",
+      "expected_role_sequence_sha256": "8e1aa0f2523b19a08a5e0da637a106b7841e84da8d1deae623be9072e93a2851",
+      "loss_mean": 3.524980752021764,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.546693801879883,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006898,
+            0.0006898,
+            0.0006898
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.58592414855957,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006898,
+            0.0006898,
+            0.0006898
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.517012596130371,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006898,
+            0.0006898,
+            0.0006898
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.985158920288086,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006898,
+            0.0006898,
+            0.0006898
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 48,
+      "draws": 216,
+      "actual_role_sequence_sha256": "085aead5ed4a0ab191da9b436e14f81bd29904c9fba2494ea774f510494e1e28",
+      "expected_role_sequence_sha256": "085aead5ed4a0ab191da9b436e14f81bd29904c9fba2494ea774f510494e1e28",
+      "loss_mean": 3.711568948019434,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.790868759155273,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006831999999999999,
+            0.0006831999999999999,
+            0.0006831999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.392786026000977,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006831999999999999,
+            0.0006831999999999999,
+            0.0006831999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.49344825744629,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006831999999999999,
+            0.0006831999999999999,
+            0.0006831999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.175148010253906,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006831999999999999,
+            0.0006831999999999999,
+            0.0006831999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 49,
+      "draws": 216,
+      "actual_role_sequence_sha256": "04c575941291e012d1596b10a15b7dce9611b8087a1a9c9b038e106ac08f7a92",
+      "expected_role_sequence_sha256": "04c575941291e012d1596b10a15b7dce9611b8087a1a9c9b038e106ac08f7a92",
+      "loss_mean": 3.590475688929911,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.00996208190918,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006766,
+            0.0006766,
+            0.0006766
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 21.43954086303711,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006766,
+            0.0006766,
+            0.0006766
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.251773834228516,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006766,
+            0.0006766,
+            0.0006766
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.48365592956543,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006766,
+            0.0006766,
+            0.0006766
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 50,
+      "draws": 216,
+      "actual_role_sequence_sha256": "359baf4ca855b26a3a70a85466a0749c2304a61de2f22e95610bbbb965aa6395",
+      "expected_role_sequence_sha256": "359baf4ca855b26a3a70a85466a0749c2304a61de2f22e95610bbbb965aa6395",
+      "loss_mean": 3.8817137167271643,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.785833358764648,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.00067,
+            0.00067,
+            0.00067
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.44168472290039,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.00067,
+            0.00067,
+            0.00067
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.739543914794922,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.00067,
+            0.00067,
+            0.00067
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 27.01101303100586,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.00067,
+            0.00067,
+            0.00067
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 51,
+      "draws": 216,
+      "actual_role_sequence_sha256": "4cbc222d61d50161d8eff3e070afc6a2198bd943621775b85508533053eeb231",
+      "expected_role_sequence_sha256": "4cbc222d61d50161d8eff3e070afc6a2198bd943621775b85508533053eeb231",
+      "loss_mean": 3.522895841134919,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.575193405151367,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006633999999999999,
+            0.0006633999999999999,
+            0.0006633999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.295409202575684,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006633999999999999,
+            0.0006633999999999999,
+            0.0006633999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.31480884552002,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006633999999999999,
+            0.0006633999999999999,
+            0.0006633999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.58017349243164,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006633999999999999,
+            0.0006633999999999999,
+            0.0006633999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 52,
+      "draws": 216,
+      "actual_role_sequence_sha256": "6b800f295d35a6928ed312c432b4433c81c5ae706b3a67f7057b62e93ac8e5d1",
+      "expected_role_sequence_sha256": "6b800f295d35a6928ed312c432b4433c81c5ae706b3a67f7057b62e93ac8e5d1",
+      "loss_mean": 3.4521114232915417,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.870291709899902,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006567999999999999,
+            0.0006567999999999999,
+            0.0006567999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 10.876484870910645,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006567999999999999,
+            0.0006567999999999999,
+            0.0006567999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.548724174499512,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006567999999999999,
+            0.0006567999999999999,
+            0.0006567999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.39908218383789,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006567999999999999,
+            0.0006567999999999999,
+            0.0006567999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 53,
+      "draws": 216,
+      "actual_role_sequence_sha256": "9b6deea338246bdc4f3a8d4344f501b0e041d5d81773a57d7f5c69e1bd04a292",
+      "expected_role_sequence_sha256": "9b6deea338246bdc4f3a8d4344f501b0e041d5d81773a57d7f5c69e1bd04a292",
+      "loss_mean": 3.571587757655868,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.413837432861328,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006502000000000001,
+            0.0006502000000000001,
+            0.0006502000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 23.656091690063477,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006502000000000001,
+            0.0006502000000000001,
+            0.0006502000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.508678436279297,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006502000000000001,
+            0.0006502000000000001,
+            0.0006502000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.97986888885498,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006502000000000001,
+            0.0006502000000000001,
+            0.0006502000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 54,
+      "draws": 216,
+      "actual_role_sequence_sha256": "134c60d633e9a82d92d69a036d8cf171d248e6758e3c219f5d7c88379c7624f9",
+      "expected_role_sequence_sha256": "134c60d633e9a82d92d69a036d8cf171d248e6758e3c219f5d7c88379c7624f9",
+      "loss_mean": 3.4539626715359866,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.158011436462402,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006436,
+            0.0006436,
+            0.0006436
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.37255859375,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006436,
+            0.0006436,
+            0.0006436
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.15390396118164,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006436,
+            0.0006436,
+            0.0006436
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.615041732788086,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006436,
+            0.0006436,
+            0.0006436
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 55,
+      "draws": 216,
+      "actual_role_sequence_sha256": "1f492b8e92649515d2bf012167418f15dd67c5029bfdea69dfe3d34ab0599f43",
+      "expected_role_sequence_sha256": "1f492b8e92649515d2bf012167418f15dd67c5029bfdea69dfe3d34ab0599f43",
+      "loss_mean": 3.4946127787784294,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.397743225097656,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000637,
+            0.000637,
+            0.000637
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.944450378417969,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000637,
+            0.000637,
+            0.000637
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 10.955412864685059,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000637,
+            0.000637,
+            0.000637
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.172249794006348,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000637,
+            0.000637,
+            0.000637
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 56,
+      "draws": 216,
+      "actual_role_sequence_sha256": "c2698a59c9c5f4df991f23951bef7efa71f3a96b6208fb0d101eac547697084c",
+      "expected_role_sequence_sha256": "c2698a59c9c5f4df991f23951bef7efa71f3a96b6208fb0d101eac547697084c",
+      "loss_mean": 3.376772115351977,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.3881196975708,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006304,
+            0.0006304,
+            0.0006304
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.728761672973633,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006304,
+            0.0006304,
+            0.0006304
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.078995704650879,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006304,
+            0.0006304,
+            0.0006304
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.8049373626709,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006304,
+            0.0006304,
+            0.0006304
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 57,
+      "draws": 216,
+      "actual_role_sequence_sha256": "40abab5a41f6a62436f2e59517971bd8e420171bccecd3786278c3c8f1713a4c",
+      "expected_role_sequence_sha256": "40abab5a41f6a62436f2e59517971bd8e420171bccecd3786278c3c8f1713a4c",
+      "loss_mean": 3.675780096263797,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.407639503479004,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006238,
+            0.0006238,
+            0.0006238
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.0498685836792,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006238,
+            0.0006238,
+            0.0006238
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.027332305908203,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006238,
+            0.0006238,
+            0.0006238
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.4887752532959,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006238,
+            0.0006238,
+            0.0006238
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 58,
+      "draws": 216,
+      "actual_role_sequence_sha256": "1c2e5ef3521e61b8d33921b249fc3351a47dc6807d4957842de6ccd2b1a58079",
+      "expected_role_sequence_sha256": "1c2e5ef3521e61b8d33921b249fc3351a47dc6807d4957842de6ccd2b1a58079",
+      "loss_mean": 3.623809924694123,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.494585990905762,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006171999999999999,
+            0.0006171999999999999,
+            0.0006171999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.01578712463379,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006171999999999999,
+            0.0006171999999999999,
+            0.0006171999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.499135971069336,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006171999999999999,
+            0.0006171999999999999,
+            0.0006171999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.298688888549805,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006171999999999999,
+            0.0006171999999999999,
+            0.0006171999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 59,
+      "draws": 216,
+      "actual_role_sequence_sha256": "4bd6d82ade3030750067d9e83d381921dc2735f94a037394db5342fd61bdbe07",
+      "expected_role_sequence_sha256": "4bd6d82ade3030750067d9e83d381921dc2735f94a037394db5342fd61bdbe07",
+      "loss_mean": 3.5280162082226187,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.672359466552734,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006106000000000001,
+            0.0006106000000000001,
+            0.0006106000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.176788330078125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006106000000000001,
+            0.0006106000000000001,
+            0.0006106000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.4510498046875,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006106000000000001,
+            0.0006106000000000001,
+            0.0006106000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.919066429138184,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0006106000000000001,
+            0.0006106000000000001,
+            0.0006106000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 60,
+      "draws": 216,
+      "actual_role_sequence_sha256": "997df6d48ad354f230942ae000fac4b452ec5a30d99be39d062c7d83fba58945",
+      "expected_role_sequence_sha256": "997df6d48ad354f230942ae000fac4b452ec5a30d99be39d062c7d83fba58945",
+      "loss_mean": 3.5868716764229314,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.093005180358887,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000604,
+            0.000604,
+            0.000604
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.51509666442871,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000604,
+            0.000604,
+            0.000604
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.004066467285156,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000604,
+            0.000604,
+            0.000604
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.136089324951172,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000604,
+            0.000604,
+            0.000604
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 61,
+      "draws": 216,
+      "actual_role_sequence_sha256": "626ebf17ccd0ed9b9c67c01e731b7336457fa72ccab131eb39a704cf55296e4b",
+      "expected_role_sequence_sha256": "626ebf17ccd0ed9b9c67c01e731b7336457fa72ccab131eb39a704cf55296e4b",
+      "loss_mean": 3.4030884337370044,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.712623596191406,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005974,
+            0.0005974,
+            0.0005974
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.072927474975586,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005974,
+            0.0005974,
+            0.0005974
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.64204216003418,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005974,
+            0.0005974,
+            0.0005974
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.88370704650879,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005974,
+            0.0005974,
+            0.0005974
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 62,
+      "draws": 216,
+      "actual_role_sequence_sha256": "4b59fcf09fc96b43fbef4c623cf07753474349f03e5a8c8074d40d6f178cda03",
+      "expected_role_sequence_sha256": "4b59fcf09fc96b43fbef4c623cf07753474349f03e5a8c8074d40d6f178cda03",
+      "loss_mean": 3.6491720146603055,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.326452255249023,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005908,
+            0.0005908,
+            0.0005908
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.00686264038086,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005908,
+            0.0005908,
+            0.0005908
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.522491455078125,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005908,
+            0.0005908,
+            0.0005908
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.756940841674805,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005908,
+            0.0005908,
+            0.0005908
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 63,
+      "draws": 216,
+      "actual_role_sequence_sha256": "9f1af2f50dd9a1f7d142e6639549c1f26589eacf45da80c61646193203f2381e",
+      "expected_role_sequence_sha256": "9f1af2f50dd9a1f7d142e6639549c1f26589eacf45da80c61646193203f2381e",
+      "loss_mean": 3.6217578227321305,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.502350807189941,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005842000000000001,
+            0.0005842000000000001,
+            0.0005842000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.305307388305664,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005842000000000001,
+            0.0005842000000000001,
+            0.0005842000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.840868949890137,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005842000000000001,
+            0.0005842000000000001,
+            0.0005842000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.45624542236328,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005842000000000001,
+            0.0005842000000000001,
+            0.0005842000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 64,
+      "draws": 216,
+      "actual_role_sequence_sha256": "477b3e4f383d556e4147a7a4799961db12b77145eb5f81274e43851093ee1595",
+      "expected_role_sequence_sha256": "477b3e4f383d556e4147a7a4799961db12b77145eb5f81274e43851093ee1595",
+      "loss_mean": 3.5357154182813786,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 19.095970153808594,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005775999999999999,
+            0.0005775999999999999,
+            0.0005775999999999999
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.716503143310547,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005775999999999999,
+            0.0005775999999999999,
+            0.0005775999999999999
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.140960693359375,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005775999999999999,
+            0.0005775999999999999,
+            0.0005775999999999999
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.106775283813477,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005775999999999999,
+            0.0005775999999999999,
+            0.0005775999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 65,
+      "draws": 216,
+      "actual_role_sequence_sha256": "70aa55ad02721ca068266822ed8742aa264753b2f7e43692607f86c5ab66b73b",
+      "expected_role_sequence_sha256": "70aa55ad02721ca068266822ed8742aa264753b2f7e43692607f86c5ab66b73b",
+      "loss_mean": 3.446259602110971,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.103822708129883,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000571,
+            0.000571,
+            0.000571
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.519742012023926,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000571,
+            0.000571,
+            0.000571
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 10.702231407165527,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000571,
+            0.000571,
+            0.000571
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.662126541137695,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000571,
+            0.000571,
+            0.000571
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 66,
+      "draws": 216,
+      "actual_role_sequence_sha256": "ae28b0d6d6aa95dd2345efb7f7dce9f7bdb7c0b918141608da212491b0e25655",
+      "expected_role_sequence_sha256": "ae28b0d6d6aa95dd2345efb7f7dce9f7bdb7c0b918141608da212491b0e25655",
+      "loss_mean": 3.573049927889197,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 10.187909126281738,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005644000000000001,
+            0.0005644000000000001,
+            0.0005644000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.76142692565918,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005644000000000001,
+            0.0005644000000000001,
+            0.0005644000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.661100387573242,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005644000000000001,
+            0.0005644000000000001,
+            0.0005644000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.141639709472656,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005644000000000001,
+            0.0005644000000000001,
+            0.0005644000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 67,
+      "draws": 216,
+      "actual_role_sequence_sha256": "5ac87ff5eb25be42903148e980b42d503b45484933d79155cef2295d94d5907d",
+      "expected_role_sequence_sha256": "5ac87ff5eb25be42903148e980b42d503b45484933d79155cef2295d94d5907d",
+      "loss_mean": 3.427763106111713,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.834272384643555,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005578,
+            0.0005578,
+            0.0005578
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.589200973510742,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005578,
+            0.0005578,
+            0.0005578
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.678382873535156,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005578,
+            0.0005578,
+            0.0005578
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 24.21490478515625,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005578,
+            0.0005578,
+            0.0005578
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 68,
+      "draws": 216,
+      "actual_role_sequence_sha256": "6960b91da15bd3a6f1f53f299b6acb37cdaef29745e26f38fffd1281b67d73ba",
+      "expected_role_sequence_sha256": "6960b91da15bd3a6f1f53f299b6acb37cdaef29745e26f38fffd1281b67d73ba",
+      "loss_mean": 3.457465988894304,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 9.26582145690918,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005512000000000001,
+            0.0005512000000000001,
+            0.0005512000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.112744331359863,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005512000000000001,
+            0.0005512000000000001,
+            0.0005512000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.675874710083008,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005512000000000001,
+            0.0005512000000000001,
+            0.0005512000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.84614372253418,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005512000000000001,
+            0.0005512000000000001,
+            0.0005512000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 69,
+      "draws": 216,
+      "actual_role_sequence_sha256": "f1fef58f1c787cf9b044e74cca3f6c62ca49b354644ea6c84a2f4e5e68733c6b",
+      "expected_role_sequence_sha256": "f1fef58f1c787cf9b044e74cca3f6c62ca49b354644ea6c84a2f4e5e68733c6b",
+      "loss_mean": 3.475193273138117,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.780213356018066,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005446000000000001,
+            0.0005446000000000001,
+            0.0005446000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.29546070098877,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005446000000000001,
+            0.0005446000000000001,
+            0.0005446000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.057374954223633,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005446000000000001,
+            0.0005446000000000001,
+            0.0005446000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 20.780330657958984,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005446000000000001,
+            0.0005446000000000001,
+            0.0005446000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 70,
+      "draws": 216,
+      "actual_role_sequence_sha256": "6046dbfb1f226cad03f57d1720ba0cdbaf06523365d2e02c887e3d0354d4246d",
+      "expected_role_sequence_sha256": "6046dbfb1f226cad03f57d1720ba0cdbaf06523365d2e02c887e3d0354d4246d",
+      "loss_mean": 3.3602142996258206,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.089032173156738,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005380000000000001,
+            0.0005380000000000001,
+            0.0005380000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.425353050231934,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005380000000000001,
+            0.0005380000000000001,
+            0.0005380000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.216419219970703,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005380000000000001,
+            0.0005380000000000001,
+            0.0005380000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.514005661010742,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005380000000000001,
+            0.0005380000000000001,
+            0.0005380000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 71,
+      "draws": 216,
+      "actual_role_sequence_sha256": "95fe07a5170da5a577ada4b418e1ddb669cd767dc2d94fba151bd79f28339f13",
+      "expected_role_sequence_sha256": "95fe07a5170da5a577ada4b418e1ddb669cd767dc2d94fba151bd79f28339f13",
+      "loss_mean": 3.490734505984518,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.252662658691406,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005314,
+            0.0005314,
+            0.0005314
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 17.315214157104492,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005314,
+            0.0005314,
+            0.0005314
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.391905784606934,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005314,
+            0.0005314,
+            0.0005314
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 18.821691513061523,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005314,
+            0.0005314,
+            0.0005314
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 72,
+      "draws": 216,
+      "actual_role_sequence_sha256": "0b51abbb60012a37e0078dd5e2a73c1b6f1e6194250cf9db2eeba6f2186fa476",
+      "expected_role_sequence_sha256": "0b51abbb60012a37e0078dd5e2a73c1b6f1e6194250cf9db2eeba6f2186fa476",
+      "loss_mean": 3.4296840528647103,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.072999000549316,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005248000000000001,
+            0.0005248000000000001,
+            0.0005248000000000001
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.102934837341309,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005248000000000001,
+            0.0005248000000000001,
+            0.0005248000000000001
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 13.722992897033691,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005248000000000001,
+            0.0005248000000000001,
+            0.0005248000000000001
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.128170013427734,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005248000000000001,
+            0.0005248000000000001,
+            0.0005248000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 73,
+      "draws": 216,
+      "actual_role_sequence_sha256": "d47eee3e59a45548f6eaf6620e2bc67d2ac04f21e5267ccf4c70114fc35bbbe5",
+      "expected_role_sequence_sha256": "d47eee3e59a45548f6eaf6620e2bc67d2ac04f21e5267ccf4c70114fc35bbbe5",
+      "loss_mean": 3.3326029647831565,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.645967483520508,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005182,
+            0.0005182,
+            0.0005182
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.470939636230469,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005182,
+            0.0005182,
+            0.0005182
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 11.176243782043457,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005182,
+            0.0005182,
+            0.0005182
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.677078247070312,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005182,
+            0.0005182,
+            0.0005182
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 74,
+      "draws": 216,
+      "actual_role_sequence_sha256": "2847f82dc2adfed0a6b510cbf942c4a65812e2c7df98436a0535cd0e412836a6",
+      "expected_role_sequence_sha256": "2847f82dc2adfed0a6b510cbf942c4a65812e2c7df98436a0535cd0e412836a6",
+      "loss_mean": 3.3141141876026436,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.592254638671875,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005116,
+            0.0005116,
+            0.0005116
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.33753776550293,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005116,
+            0.0005116,
+            0.0005116
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 14.115999221801758,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005116,
+            0.0005116,
+            0.0005116
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 22.666912078857422,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.0005116,
+            0.0005116,
+            0.0005116
+          ]
+        }
+      ]
+    },
+    {
+      "epoch_0based": 75,
+      "draws": 216,
+      "actual_role_sequence_sha256": "71bd6b590060817df49dc14473562dbde764a62591a97d23c341dbf0a6808eca",
+      "expected_role_sequence_sha256": "71bd6b590060817df49dc14473562dbde764a62591a97d23c341dbf0a6808eca",
+      "loss_mean": 3.3359408480011754,
+      "attempts": [
+        {
+          "position": 63,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 16.973814010620117,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000505,
+            0.000505,
+            0.000505
+          ]
+        },
+        {
+          "position": 127,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 12.939850807189941,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000505,
+            0.000505,
+            0.000505
+          ]
+        },
+        {
+          "position": 191,
+          "draws": 64,
+          "normalizer": 64,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 15.300413131713867,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000505,
+            0.000505,
+            0.000505
+          ]
+        },
+        {
+          "position": 215,
+          "draws": 24,
+          "normalizer": 24,
+          "optimizer_step_executed": true,
+          "AMP_skip": false,
+          "gradient_norm": 32.15165328979492,
+          "scale_before": 256.0,
+          "scale_after": 256.0,
+          "learning_rates": [
+            0.000505,
+            0.000505,
+            0.000505
+          ]
+        }
+      ]
+    }
+  ],
+  "official_final_eval_content_read": 0,
+  "early_stopping_used": false,
+  "native_full_train_used": false,
+  "best_checkpoint_selection": false,
+  "training_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+  "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+  "optimizer_groups": [
+    {
+      "lr": 0.001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "weight_decay": 0.0005,
+      "param_group": "weight",
+      "eps": 1e-08,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "initial_lr": 0.001
+    },
+    {
+      "lr": 0.001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "weight_decay": 0.0,
+      "param_group": "bn",
+      "eps": 1e-08,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "initial_lr": 0.001
+    },
+    {
+      "lr": 0.001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "weight_decay": 0.0,
+      "param_group": "bias",
+      "eps": 1e-08,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "initial_lr": 0.001
+    }
+  ],
+  "primary_model_representation": "pinned native EMA at epoch150, not selected by validation",
+  "EMA_update_rule": "pinned native optimizer_step: update EMA after every scheduled scaler attempt, including skips",
+  "native_training_transforms": "Compose(Compose(<ultralytics.data.augment.Mosaic object at 0x70ea1db44e80>, <ultralytics.data.augment.CopyPaste object at 0x70ea1da6ba00>, <ultralytics.data.augment.RandomPerspective object at 0x70ea1dd54400>), <ultralytics.data.augment.MixUp object at 0x70ea1da6ab30>, <ultralytics.data.augment.CutMix object at 0x70ea1da6b220>, <ultralytics.data.augment.Albumentations object at 0x70ea1da6abc0>, <ultralytics.data.augment.RandomHSV object at 0x70ea1da6ab60>, <ultralytics.data.augment.RandomFlip object at 0x70ea1da6af20>, <ultralytics.data.augment.RandomFlip object at 0x70ea1da6b1c0>, <ultralytics.data.augment.Format object at 0x70ea1da6bf10>)"
+}

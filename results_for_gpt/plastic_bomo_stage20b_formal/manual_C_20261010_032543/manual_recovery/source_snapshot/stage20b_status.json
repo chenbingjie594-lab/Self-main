@@ -1,0 +1,91 @@
+{
+  "status": "STOPPED_TRAIN_PLASTIC_BOMO_STAGE20B_DETECTOR_FAILED",
+  "state": "DETECTOR_B_TRAINED",
+  "Gate_A": "NOT_RUN",
+  "Gate_B": "NOT_RUN",
+  "Gate_C": "NOT_RUN",
+  "RR_map5095": null,
+  "A_map5095": null,
+  "B_map5095": null,
+  "C_map5095": null,
+  "delta_A_pp": null,
+  "delta_B_pp": null,
+  "delta_C_pp": null,
+  "mean_delta_pp": null,
+  "std_delta_pp": null,
+  "wins_vs_RR": null,
+  "Flash_mean_delta_pp": null,
+  "Black_mean_delta_pp": null,
+  "generation_bank_std_pp": null,
+  "generation_bank_range_pp": null,
+  "TDCRG_DEVELOPMENT_AUTHORIZED": false,
+  "TDCRG_implementation": 0,
+  "generator_flash_successful_updates": 2000,
+  "generator_black_successful_updates": 2000,
+  "detector_RR_successful_updates": 592,
+  "detector_A_successful_updates": 592,
+  "detector_B_successful_updates": 592,
+  "detector_C_successful_updates": 296,
+  "official_final_eval_rounds": 0,
+  "DeepPCB": 0,
+  "BootstrapGuard": 0,
+  "generator_training_count": 2,
+  "synthetic_generation_count": 240,
+  "checkpoint_sanity_sampling_count": 4,
+  "detector_training_count": 4,
+  "full_experiment_complete": false,
+  "automatic_rescue": false,
+  "physical_source_complete": false,
+  "stage20c_auto_start": false,
+  "started_at": "2026-10-09T06:05:56.694998+00:00",
+  "state_history": [
+    {
+      "state": "INIT",
+      "at": "2026-10-09T06:05:56.695040+00:00"
+    },
+    {
+      "state": "FLASH_GENERATOR_TRAINED",
+      "at": "2026-10-09T07:08:51.703789+00:00"
+    },
+    {
+      "state": "BLACK_GENERATOR_TRAINED",
+      "at": "2026-10-09T08:09:18.029884+00:00"
+    },
+    {
+      "state": "GENERATOR_CHECKPOINTS_FROZEN",
+      "at": "2026-10-09T08:09:40.411854+00:00"
+    },
+    {
+      "state": "BANK_A_GENERATED",
+      "at": "2026-10-09T08:16:09.696790+00:00"
+    },
+    {
+      "state": "BANK_B_GENERATED",
+      "at": "2026-10-09T08:21:33.547842+00:00"
+    },
+    {
+      "state": "BANK_C_GENERATED",
+      "at": "2026-10-09T08:27:43.801524+00:00"
+    },
+    {
+      "state": "SYNTHETIC_BANKS_VALIDATED",
+      "at": "2026-10-09T08:28:39.281059+00:00"
+    },
+    {
+      "state": "DETECTOR_RR_TRAINED",
+      "at": "2026-10-09T15:52:07.463098+00:00"
+    },
+    {
+      "state": "DETECTOR_A_TRAINED",
+      "at": "2026-10-09T19:29:10.176582+00:00"
+    },
+    {
+      "state": "DETECTOR_B_TRAINED",
+      "at": "2026-10-09T23:12:08.627830+00:00"
+    }
+  ],
+  "formal_synthetic_generated": 240,
+  "reason": "TRAIN_PLASTIC_BOMO_STAGE20B_DETECTOR_FAILED",
+  "detail": "{'exit_code': -9, 'log': '/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/logs/train_plastic_bomo_stage20b_detector_arm_C.log', 'detail': None}",
+  "stopped_at": "2026-10-10T02:22:33.514940+00:00"
+}

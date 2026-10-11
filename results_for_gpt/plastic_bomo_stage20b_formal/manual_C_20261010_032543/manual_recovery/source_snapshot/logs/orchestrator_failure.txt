@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/run_plastic_bomo_stage20b_formal.py", line 105, in main
+    step('train_plastic_bomo_stage20b_detector.py', ['--arm', arm], before, after)
+  File "/mnt/sda/cbj/ImageGeneration/Self-main/tools/run_plastic_bomo_stage20b_formal.py", line 88, in step
+    raise Stop(s.get('reason', phase), {'exit_code': code, 'log': str(logfile), 'detail': s.get('detail')})
+stage20b_runtime_contract.Stop: {'exit_code': -9, 'log': '/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/logs/train_plastic_bomo_stage20b_detector_arm_C.log', 'detail': None}
