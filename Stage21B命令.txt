@@ -1,0 +1,22 @@
+# Stage21B 目前只有入口审计，不是训练启动命令。
+# 已发现4个 conditioning-background/internal_dev 同源 slot。
+# 固定 split 不改；尚未获准增加 conditioning-group 排除，禁止训练。
+# 不需要 conda/GPU，仅 stdlib。不要重跑 Stage20B，不要运行 final_eval。
+
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+TASK21B_AUDIT=$(date +%Y%m%d_%H%M%S)
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage21b.py \
+  --protocol configs/plastic_bomo_stage21b.json \
+  --stage20a results_for_gpt/plastic_bomo_stage20a_v2_protocol \
+  --stage20b results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543 \
+  --p0 results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115 \
+  --real_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
+  --scope SERVER_ENTRY_AUDIT \
+  --output results_for_gpt/plastic_bomo_stage21b_timing_premise/server_entry_${TASK21B_AUDIT}
+
+# 预期退出码2：STAGE21B_CONDITIONING_BACKGROUND_DEV_OVERLAP，不是运行崩溃。
+# 所有 V2 TRAIN real 图/标签与 donor 合格 synthetic 的 SHA256 会核验；不会读 official final_eval。
+# 如果资产缺失/改动，状态 SOURCE_ASSETS_UNAVAILABLE_OR_MODIFIED，仍不授权训练。
+# 这个命令可用于服务器复核，但当前阻塞已有本地证据，不需要靠重跑解除。
+# 本地 CPU 测试：python -m unittest discover -s tests -p test_plastic_bomo_stage21b.py -v

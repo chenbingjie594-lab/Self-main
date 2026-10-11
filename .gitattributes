@@ -50,3 +50,9 @@ Stage20B-C组手动恢复命令.txt -text
 # Separate post-execution review; never changes frozen formal executable bytes.
 tools/review_plastic_bomo_stage20b_formal.py -text
 tests/test_plastic_bomo_stage20b_formal_review.py -text
+# Stage21B entry metadata is byte-bound and cannot authorize training.
+configs/plastic_bomo_stage21b.json -text
+tools/prepare_plastic_bomo_stage21b.py -text
+tests/test_plastic_bomo_stage21b.py -text
+Stage21B*.txt -text
+results_for_gpt/plastic_bomo_stage21b_timing_premise/** -text -whitespace

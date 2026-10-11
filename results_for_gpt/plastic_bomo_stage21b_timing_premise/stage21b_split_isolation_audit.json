@@ -1,0 +1,200 @@
+{
+  "status": "FAIL_CONDITIONING_BACKGROUND_OVERLAP",
+  "detector_train_dev_group_intersection": [],
+  "synthetic_donor_dev_group_intersection": [],
+  "conditioning_background_dev_overlaps": [
+    {
+      "slot_id": "black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "class": "black",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "donor_source_group": "sg_5b36faf6331650ed179960908e31e926514129a02365bd5cb4c3e7b1f7a4e943",
+      "donor_split": "internal_train",
+      "normal_source_group": "sg_b1ea54cd7bd2961d3b811821aa101c34f31d91b92635071e600a8fa726cbe1ee",
+      "normal_node_id": "asset_0263ae54baa08b9af530f835ab35cdb9b60babb54fdd1ca26ad45039223b364b",
+      "normal_id": "real_f349ad76759e89847f3b901f88074b9e89aa414db7bd3ee436d226370c9f1418",
+      "normal_path_metadata_only": "/mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0/empty_img_879_pre_part_0.jpg",
+      "normal_sha256_metadata_only": "24521be20e0ff9a0df9ad4f93bda38a59a5e38faae6621dda8620bfb6b8377e2",
+      "internal_dev_relatives": [
+        {
+          "role_id": "base_asset_deadf5b95a69ce8562ff695d34955836459b8bf7bcba53ff121f95599864d236",
+          "node_id": "asset_deadf5b95a69ce8562ff695d34955836459b8bf7bcba53ff121f95599864d236",
+          "canonical_image_id": "real_31e835430aa8d9a92477057f60e2d902990ceab9a5e83810417a0608ee5469b8",
+          "source_group_id": "sg_b1ea54cd7bd2961d3b811821aa101c34f31d91b92635071e600a8fa726cbe1ee",
+          "split_v2": "train",
+          "internal_split": "internal_dev",
+          "image_relative_path": "images/train/img_879_pre_part_1.jpg",
+          "label_relative_path": "labels/train/img_879_pre_part_1.txt",
+          "image_sha256": "2ae1df6f98b71e65e64ebbbdb4b094942f740d2d585b6c5e7f261dcbe81658ae",
+          "label_sha256": "075647c86060bdfeff4c3534277f3a5cc936344f3da0e72dceae6a8b5bf3838a",
+          "class_instances": [
+            "flash"
+          ],
+          "width": 4096,
+          "height": 1024
+        }
+      ],
+      "evidence": "frozen normal registry and source_group_registry place conditioning normal and dev detector node in same known source group",
+      "additional_exclusion_applied": false
+    },
+    {
+      "slot_id": "black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "class": "black",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "donor_source_group": "sg_e9730f2a903df1de0575975c906469f2f5b282e7b7793f70b5715f58012878bf",
+      "donor_split": "internal_train",
+      "normal_source_group": "sg_9ab2e7ea3484b66031718d67d5cd7ae5164cd731cd5b47dd19574badb851c7b8",
+      "normal_node_id": "asset_1766d77849c8b5e3d7b197bc49605ec382f217eea9a3c945d8728b944f80d196",
+      "normal_id": "real_7edd2c2e22e4e1cef02e3659655f4d190d17e37a0d3aaa32640ac0bc3b91c6d8",
+      "normal_path_metadata_only": "/mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0/empty_img_9504_pre_part_0.jpg",
+      "normal_sha256_metadata_only": "819d81a8c63edd439ba495fd644e0ba2d7100af378915c43722af97dcf2c52ec",
+      "internal_dev_relatives": [
+        {
+          "role_id": "base_asset_a5f158202469744517ff3474e33f23d0ab20eda0849b9bb8838de5703c34eab8",
+          "node_id": "asset_a5f158202469744517ff3474e33f23d0ab20eda0849b9bb8838de5703c34eab8",
+          "canonical_image_id": "real_b70c6082eae8eb8f45e1877aaafee8ea090570b5faa981efac2847539993a4a4",
+          "source_group_id": "sg_9ab2e7ea3484b66031718d67d5cd7ae5164cd731cd5b47dd19574badb851c7b8",
+          "split_v2": "train",
+          "internal_split": "internal_dev",
+          "image_relative_path": "images/train/img_9504_pre_part_1.jpg",
+          "label_relative_path": "labels/train/img_9504_pre_part_1.txt",
+          "image_sha256": "277c8c4a74049d84fe9b1bc3d7f47abda68f010fcade59d012e44185b01e603a",
+          "label_sha256": "4d7c12aa840c3442166c94d5f7989d1645f3136ad9ebfb8f4727138dc85ad8af",
+          "class_instances": [
+            "flash"
+          ],
+          "width": 4096,
+          "height": 1024
+        }
+      ],
+      "evidence": "frozen normal registry and source_group_registry place conditioning normal and dev detector node in same known source group",
+      "additional_exclusion_applied": false
+    },
+    {
+      "slot_id": "flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "class": "flash",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "donor_source_group": "sg_e06f4e652236e0cebca4d78eb16636739fb65df31ccf3b2dd0545d1dced1bb9d",
+      "donor_split": "internal_train",
+      "normal_source_group": "sg_34da09f89e4b9b4fabd073f0dcb4651fea51fbaeae1d36d4d36017f64e96e571",
+      "normal_node_id": "asset_849686cb8957e95f18d4292b091aacf3804916dd4b9d8fd61e261b25b56b8971",
+      "normal_id": "real_170868a3ff80bd09299e2ab658b9793faa4bd56bbeaeb108cd602030c11b850b",
+      "normal_path_metadata_only": "/mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0/empty_img_2500_pre_part_0.jpg",
+      "normal_sha256_metadata_only": "ac3d546ad0bd2333094d4e1607511ef438c936d800013bb66d3608830857fb0f",
+      "internal_dev_relatives": [
+        {
+          "role_id": "base_asset_5b813f5b385d690750ccf3c93b67d7a3ff55213c133d89e28c538358d2794c83",
+          "node_id": "asset_5b813f5b385d690750ccf3c93b67d7a3ff55213c133d89e28c538358d2794c83",
+          "canonical_image_id": "real_a89ebaec37fb22e063c3fb7a665b7e65717b68de9a51682c9081d16e52e760d4",
+          "source_group_id": "sg_34da09f89e4b9b4fabd073f0dcb4651fea51fbaeae1d36d4d36017f64e96e571",
+          "split_v2": "train",
+          "internal_split": "internal_dev",
+          "image_relative_path": "images/train/img_2500_pre_part_1.jpg",
+          "label_relative_path": "labels/train/img_2500_pre_part_1.txt",
+          "image_sha256": "6851c91059e719c6ef2d0bc1ab27fbc7c231d3c57b90dea3ee077322df0f8be5",
+          "label_sha256": "1f2dc298e8cc0a0768ea75effe50f204b016eb2ee8532b0c292e5b2c7d2f65b6",
+          "class_instances": [
+            "flash"
+          ],
+          "width": 4096,
+          "height": 1024
+        }
+      ],
+      "evidence": "frozen normal registry and source_group_registry place conditioning normal and dev detector node in same known source group",
+      "additional_exclusion_applied": false
+    },
+    {
+      "slot_id": "flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "class": "flash",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "donor_source_group": "sg_cd3ba031b73416b19eb61cd14f316569c3e881198483fa20d0bf2487ee218781",
+      "donor_split": "internal_train",
+      "normal_source_group": "sg_195d914b24b2e69bc1a9b64a2a8fdc77a106f0cb2f485576fe9ab25ea4437ea2",
+      "normal_node_id": "asset_563c2c65bb36f5e37f914cd60a5df3849aea66073b82a9a4a8729b4262c009b8",
+      "normal_id": "real_3364c904ce9437382a41d2ab60b733b0561326d8bc9694b445c5a68e7933e92e",
+      "normal_path_metadata_only": "/mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0/empty_img_3598_pre_part_1.jpg",
+      "normal_sha256_metadata_only": "99cb2074213e6a1dab7a08b8dc714968a82a162b77bae667e29e5429cd2ba563",
+      "internal_dev_relatives": [
+        {
+          "role_id": "base_asset_41059d776b8f8da4ba639ea49688aff14455a3802f28b7a268f3fbde80122ed2",
+          "node_id": "asset_41059d776b8f8da4ba639ea49688aff14455a3802f28b7a268f3fbde80122ed2",
+          "canonical_image_id": "real_453642f3cba09864edff447afd81f10b457e59bf15d54b1e299bb6b54b90d9fc",
+          "source_group_id": "sg_195d914b24b2e69bc1a9b64a2a8fdc77a106f0cb2f485576fe9ab25ea4437ea2",
+          "split_v2": "train",
+          "internal_split": "internal_dev",
+          "image_relative_path": "images/train/img_3598_pre_part_0.jpg",
+          "label_relative_path": "labels/train/img_3598_pre_part_0.txt",
+          "image_sha256": "8221e5c8138d83aca36f104b5bfa91a0a599e50a7d1f5360ffb791f07041f62e",
+          "label_sha256": "7547146c5199e3dedf2f1c4178df3aabc7b1b6fe230d05d04de4360268f7114c",
+          "class_instances": [
+            "flash"
+          ],
+          "width": 4096,
+          "height": 1024
+        }
+      ],
+      "evidence": "frozen normal registry and source_group_registry place conditioning normal and dev detector node in same known source group",
+      "additional_exclusion_applied": false
+    }
+  ],
+  "additional_slots_removed": 0,
+  "split_modified_after_counts": false,
+  "generator_training_already_saw_internal_dev": true,
+  "generator_internal_dev_input_count": 33,
+  "generator_internal_dev_per_class": {
+    "black": 23,
+    "flash": 10
+  },
+  "generator_dev_input_annotation_ids": [
+    "ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+    "ann_6f5203246a5279317fe16a38b2797df9f794bb4a0cfd785d1fc03babe11a4f0f",
+    "ann_e1f3a54ee5a23f90da3a8bdd9cee804e46697d84fd22d8e81b32b3c38f9e5709",
+    "ann_f05bbdd93ba646efaff89e7a3c7fe2ee999b7a69b0943fb0151a8e9b70adc1a8",
+    "ann_a4ccb4b800148de5c50d408b68bde853fa320f16bb1c329ea849aebfe3238d85",
+    "ann_63cc00b485397ef4ac6dc447ee78ca92fbccaa4f5c49be5e1d4fd7bfad06ff15",
+    "ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+    "ann_a3f2f32deab9ab94863f614cfdc9a004e5e3271374c9e50626c1b48ae8843fdd",
+    "ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+    "ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+    "ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+    "ann_38f04643663e631c17db645ff8b9ddfe8ce9bef0e0ae73dc7444cc3224de1618",
+    "ann_f581da75cfc1c5d685199a1e9aaf7b7a1c92ee656ce3c2788295fa022dfbc748",
+    "ann_df646dc31192739d9a0fe283f0baa7b546e8bc7a122a34b015dfabdcb2a16070",
+    "ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+    "ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+    "ann_7b27b610b15801377fa56838550d4738fcac30417ae61c389659b5f3c052f310",
+    "ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+    "ann_133bd9e414c9eec508c52398fa9ac5b1a721ee5a03eac83c7787c8a65e3b08cf",
+    "ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+    "ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+    "ann_5857074d26341d2acde218be396c3cf8ab9b81d41e49b30092b43f115c53f958",
+    "ann_98efc84300dcf5f8d1e5699b97cd5e793de53409b44489890efc0ce5b3e21c05",
+    "ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+    "ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+    "ann_866d77125d5abecb6f39ce8c9b55e11dfc2936ff3adc0561b6dc15bf477bf435",
+    "ann_2012e1df6667bd5fabb5266aa9e436fff6c00a3bd74bd49a720754b61c6d873c",
+    "ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+    "ann_df13fbd027b70ec7eb93c6a4fb34dad5829116826e3e05ba7de73cd786f8ade1",
+    "ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+    "ann_b06482b9ec6b4a1b448a2cb4e36421153b95840ea6dc899b662e21be8862b906",
+    "ann_14fef3c6e64dd522f457f2043285f7c033a35510b9108f236b0678d98af81fe8",
+    "ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f"
+  ],
+  "interpretation_limit": "Even if conditioning conflicts are separately resolved, this would be a detector-holdout paired timing test conditional on frozen generators, not a generator-independent holdout.",
+  "official_final_eval_content_access_count": 0
+}
