@@ -1,0 +1,145 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "status": "GENERATOR_BASELINE_HEADROOM_NOT_CONFIRMED",
+  "primary_metric": "epoch150 last.pt mAP50-95",
+  "arms": {
+    "RR": {
+      "map50_95": 0.3597019289721092,
+      "map50_95_percent": 35.970192897210914,
+      "delta_vs_RR_pp": 0
+    },
+    "A": {
+      "map50_95": 0.2970998912654449,
+      "map50_95_percent": 29.70998912654449,
+      "delta_vs_RR_pp": -6.260203770666428
+    },
+    "B": {
+      "map50_95": 0.33081838919630263,
+      "map50_95_percent": 33.081838919630265,
+      "delta_vs_RR_pp": -2.888353977580654
+    },
+    "C": {
+      "map50_95": 0.37348318684014364,
+      "map50_95_percent": 37.348318684014366,
+      "delta_vs_RR_pp": 1.3781257868034469
+    }
+  },
+  "mean_delta_pp": -2.5901439871478784,
+  "sample_sd_delta_pp": 3.8278866892745036,
+  "wins": 1,
+  "gates": {
+    "A": {
+      "pass": false,
+      "frozen_rule": "mean>=+0.50pp"
+    },
+    "B": {
+      "pass": false,
+      "frozen_rule": "strict wins>=2/3"
+    },
+    "C": {
+      "pass": false,
+      "frozen_rule": "every class mean>=-2.0pp"
+    }
+  },
+  "class_mean_delta_pp": {
+    "flash": 0.03572831865509748,
+    "black": -5.216016292950852
+  },
+  "class_contribution_to_macro_mean_pp": {
+    "flash": 0.01786415932754874,
+    "black": -2.608008146475426
+  },
+  "contribution_definition": "Existing two-class macro mAP identity: half of each AP delta; not a new quality score.",
+  "manual_C_recovery_boundary": {
+    "source_stopped_run": "formal_20261009_060552",
+    "authoritative_recovered_run": "manual_C_20261010_032543",
+    "C_restart": "original public initialization + seed42, epoch1 through150",
+    "epoch77_resume": false,
+    "matched_primary_arms": {
+      "RR": {
+        "actual_draws": 32400,
+        "scheduled_draws": 32400,
+        "attempted_optimizer_updates": 600,
+        "scheduled_optimizer_attempts": 600,
+        "successful_optimizer_updates": 592,
+        "AMP_skipped_updates": 8,
+        "nonfinite_losses": 0,
+        "gradient_nonfinite_count": 8,
+        "epochs": 150,
+        "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+        "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+      },
+      "A": {
+        "actual_draws": 32400,
+        "scheduled_draws": 32400,
+        "attempted_optimizer_updates": 600,
+        "scheduled_optimizer_attempts": 600,
+        "successful_optimizer_updates": 592,
+        "AMP_skipped_updates": 8,
+        "nonfinite_losses": 0,
+        "gradient_nonfinite_count": 8,
+        "epochs": 150,
+        "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+        "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+      },
+      "B": {
+        "actual_draws": 32400,
+        "scheduled_draws": 32400,
+        "attempted_optimizer_updates": 600,
+        "scheduled_optimizer_attempts": 600,
+        "successful_optimizer_updates": 592,
+        "AMP_skipped_updates": 8,
+        "nonfinite_losses": 0,
+        "gradient_nonfinite_count": 8,
+        "epochs": 150,
+        "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+        "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+      },
+      "C": {
+        "actual_draws": 32400,
+        "scheduled_draws": 32400,
+        "attempted_optimizer_updates": 600,
+        "scheduled_optimizer_attempts": 600,
+        "successful_optimizer_updates": 592,
+        "AMP_skipped_updates": 8,
+        "nonfinite_losses": 0,
+        "gradient_nonfinite_count": 8,
+        "epochs": 150,
+        "order_spec_sha256": "9aee46cb692754aa97679956c07c70fa1cb59830db2cfffc035c489b2ef5e1b0",
+        "initial_parameter_binding_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005"
+      }
+    },
+    "extra_interrupted_C_physical_compute": {
+      "epochs": 76,
+      "actual_draws": 16416,
+      "attempted_optimizer_updates": 304,
+      "successful_optimizer_updates": 296,
+      "AMP_skipped_updates": 8
+    },
+    "interrupted_counters_may_be_lower_bounds": true,
+    "extra_interrupted_compute_in_matched_primary": false,
+    "external_SIGKILL_cause_independently_verified": false,
+    "source_run_unchanged_SHA_verified": true,
+    "reused": [
+      "both generators",
+      "all240raw outputs",
+      "RR/A/B primary detector checkpoints"
+    ],
+    "earlier_OOM_runs_preserved": [
+      "formal_20261009_043250",
+      "formal_20261009_052723"
+    ],
+    "all_failed_attempt_physical_compute_is_primary_matched": false,
+    "early_OOM_full_physical_compute_totals_reconstructed": false
+  },
+  "mechanism_responsible_for_failure_identified": false,
+  "unidentified_causes": [
+    "image fidelity",
+    "label/weak-mask mismatch",
+    "sample composition",
+    "optimization dynamics"
+  ],
+  "unidentified_causes_are_hypotheses_not_findings": true
+}

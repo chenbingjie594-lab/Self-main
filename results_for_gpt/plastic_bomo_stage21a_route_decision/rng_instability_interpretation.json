@@ -1,0 +1,41 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "status": "OBSERVED_GENERATION_REALIZATION_VARIABILITY",
+  "shared_controls": {
+    "generator_checkpoints": true,
+    "80_slots": true,
+    "conditioning_normals": true,
+    "prompts": true,
+    "geometry": true,
+    "scheduler_and_inference_parameters": true,
+    "detector_initialization": true,
+    "detector_seed": true,
+    "role_order_and_augmentation_seeds": true,
+    "primary_exposure_and_successful_updates": true
+  },
+  "paired_bank_metadata_independently_rechecked": true,
+  "only_design_factor_differing": "generation RNG realization",
+  "generation_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "detector_seed": 42,
+  "sample_sd_pp": 3.8278866892745036,
+  "range_pp": 7.638329557469875,
+  "n_generation_banks": 3,
+  "n_detector_seeds": 1,
+  "recommended_wording": "Downstream performance varied by7.64pp across the three generation-RNG realizations under the frozen protocol.",
+  "causal_population_effect_size_estimated": false,
+  "population_variance_estimated_with_precision": false,
+  "best_bank_selected_for_future_use": false,
+  "bank_C_confirmatory_status": "ONE_POSITIVE_GENERATION_REALIZATION",
+  "limits": [
+    "RNG necessarily changes generated pixels/sample composition, not just a seed label.",
+    "One detector seed and split; common RR, so bank deltas are paired and not independent RR replicates.",
+    "C timing differs due to disclosed restart; no independent external-kill proof.",
+    "No new bank, seed sweep or image-property analysis to rescue the result."
+  ]
+}

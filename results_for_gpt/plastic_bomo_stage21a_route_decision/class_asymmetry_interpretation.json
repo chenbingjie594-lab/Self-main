@@ -1,0 +1,34 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "status": "CLASS_ASYMMETRIC_UTILITY_FAILURE",
+  "class_bank_delta_pp": {
+    "flash": {
+      "A": -4.855721654782638,
+      "B": 1.0431860733456588,
+      "C": 3.9197205374022714
+    },
+    "black": {
+      "A": -7.664685886550221,
+      "B": -6.819894028506967,
+      "C": -1.1634689637953666
+    }
+  },
+  "class_mean_delta_pp": {
+    "flash": 0.03572831865509748,
+    "black": -5.216016292950852
+  },
+  "contribution_to_macro_mean_pp": {
+    "flash": 0.01786415932754874,
+    "black": -2.608008146475426
+  },
+  "black_negative_banks": 3,
+  "supported_wording": "The downstream degradation is concentrated in Black AP under the current protocol.",
+  "Black_generator_quality_bad_proven": false,
+  "Black_morphology_wrong_proven": false,
+  "label_error_proven": false,
+  "Flash_no_harm_equivalence_proven": false,
+  "Flash_limit": "Mean near zero is descriptive; A loses Flash AP and no equivalence test was conducted.",
+  "cross_stage_caution": "Stage17A Flash/Black means were-8.4172/-1.7475pp under another protocol; no persistent Black-only failure rule or pooled class effect."
+}

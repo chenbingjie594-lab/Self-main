@@ -1,0 +1,21 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "innovation1_question": "How should synthetic data be used during detector optimization?",
+  "innovation2_question": "Which synthetic samples should be retained?",
+  "innovation1_intervention": "training-time integration of an unchanged complete sample population",
+  "BootstrapGuard_intervention": "post-generation sample selection",
+  "legacy_BG_minus_Random_mean_pp": 1.6172279211578249,
+  "historical_claim_scope": "Historical selector comparison conditional on its frozen derived pool/protocol; not a clean V2 replication or raw generator confirmation.",
+  "Stage18A_lineage_qualification_applies": true,
+  "separate_contribution_contract": [
+    "Innovation1 cannot include post-generation inclusion/exclusion, Top-K, best-of-N or permanent sample gates.",
+    "Continuous sample weighting can overlap a soft selector; nomenclature alone does not establish independence.",
+    "Baseline utility must be evaluated without BootstrapGuard; never retrofit selected utility as raw utility.",
+    "Keep component effects and budgets separate; a combined pipeline gain alone cannot identify either contribution.",
+    "Do not tune or run BootstrapGuard now, and do not transfer historical absolute AP to V2."
+  ],
+  "BootstrapGuard_implemented_modified_or_run_in_stage21a": false,
+  "independent_V2_BootstrapGuard_utility_confirmed": false
+}

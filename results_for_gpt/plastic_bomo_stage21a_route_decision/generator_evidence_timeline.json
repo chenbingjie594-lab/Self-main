@@ -1,0 +1,1113 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "entries": [
+    {
+      "stage": "Stage14A",
+      "question": "Do image properties identify a generator bottleneck?",
+      "protocol": "Legacy 138 real + 80 extras, 40/class; YOLO11s seed42, 150 epochs, last.pt screening.",
+      "result": {
+        "status": "IMAGE_PROPERTY_BOTTLENECK_NOT_IDENTIFIED",
+        "high_minus_random_pp": 2.285779594709625,
+        "low_minus_random_pp": -3.9349196436679224,
+        "fidelity_protocol_complete": false
+      },
+      "what_is_supported": [
+        "Morphology-matched high/low subset contrast exists."
+      ],
+      "what_is_not_supported": [
+        "Broad fidelity bottleneck; crop-KID/nearest LPIPS were unavailable at this stage.",
+        "Raw generator utility."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "Recorded final-last evaluation, no training-time validation/threshold tuning; earlier pool-construction validation involvement unresolved.",
+      "whether_selector_involved": true,
+      "selector_scope": "Frozen subsets from a recomposed/filtered DWBG pool; Random within that pool is not raw selector-free generation.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/stage14a_status.json",
+        "results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/STAGE14A_REPORT.md"
+      ],
+      "limits": [
+        "Legacy subset/pool evidence, not untouched raw generation; Stage18A documents recomposition/filtering and unresolved historical isolation.",
+        "Final validation metrics were consulted by subsequent stages; this sequence is exploratory at route level, not independent replication of a preregistered generator mechanism.",
+        "Do not pool historical effect sizes with V2 or compare absolute mAP across different splits/protocols.",
+        "Preserve corrected status, not the superseded FIDELITY_BOTTLENECK_SUPPORTED label.",
+        "Historical report's task-aware-generation recommendation is not present authorization."
+      ]
+    },
+    {
+      "stage": "Stage14B",
+      "question": "Does the subset signal replicate, and is it broad visual fidelity?",
+      "protocol": "Same frozen High/Random/Low/RR; detector seeds42/3407/2026, 150 epochs, last.pt; KID set-level only.",
+      "result": {
+        "status": "UTILITY_SIGNAL_PRESENT_BUT_MECHANISM_UNRESOLVED",
+        "attribution": "MORPHOLOGY_ALIGNMENT_DIFFERENCE_PRESENT",
+        "paired_deltas": {
+          "high_minus_random": {
+            "values": [
+              0.02285779594709625,
+              0.01296176539601196,
+              -0.0045393409767149895
+            ],
+            "mean": 0.010426740122131073,
+            "std": 0.013873375319651899,
+            "wins": 2
+          },
+          "high_minus_realrepeat": {
+            "values": [
+              0.029214222118122912,
+              -0.003191997478144082,
+              0.024085060444598516
+            ],
+            "mean": 0.016702428361525783,
+            "std": 0.01741890379690642,
+            "wins": 2
+          },
+          "high_minus_low": {
+            "values": [
+              0.06220699238377547,
+              0.01707266823622655,
+              -0.004576502904983348
+            ],
+            "mean": 0.024901052571672893,
+            "std": 0.034073032030089635,
+            "wins": 2
+          }
+        },
+        "fidelity_metrics": {
+          "random": {
+            "nearest_real_lpips": {
+              "mean": 0.2093486713245511,
+              "median": 0.20507338643074036,
+              "q90": 0.25150973796844484,
+              "n": 80
+            },
+            "morphology_distance": {
+              "mean": 1.0746725815905973,
+              "median": 0.8135916334304467,
+              "q90": 1.8695426468704082,
+              "n": 80
+            },
+            "contrast_fidelity": {
+              "mean": 0.6015909090909091,
+              "median": 0.6431818181818181,
+              "q90": 0.9113636363636365,
+              "n": 80
+            },
+            "edge_fidelity": {
+              "mean": 1.8190064224635045,
+              "median": 1.4024575926648621,
+              "q90": 3.0647368423766688,
+              "n": 80
+            },
+            "crop_kid_x1000": 40.01110371798814
+          },
+          "high_fidelity": {
+            "nearest_real_lpips": {
+              "mean": 0.2090451331809163,
+              "median": 0.20346199721097946,
+              "q90": 0.25501424670219425,
+              "n": 80
+            },
+            "morphology_distance": {
+              "mean": 0.6289485177082372,
+              "median": 0.5326601111097609,
+              "q90": 1.0532958203842502,
+              "n": 80
+            },
+            "contrast_fidelity": {
+              "mean": 0.5777840909090909,
+              "median": 0.5590909090909091,
+              "q90": 0.8477272727272733,
+              "n": 80
+            },
+            "edge_fidelity": {
+              "mean": 2.1089204499045238,
+              "median": 1.5585850394006373,
+              "q90": 3.773273842110928,
+              "n": 80
+            },
+            "crop_kid_x1000": 44.72196568855518
+          },
+          "low_fidelity_diagnostic": {
+            "nearest_real_lpips": {
+              "mean": 0.22892950307577847,
+              "median": 0.22336815297603607,
+              "q90": 0.2778554111719132,
+              "n": 80
+            },
+            "morphology_distance": {
+              "mean": 2.6899901226613157,
+              "median": 2.358851936303957,
+              "q90": 4.3284819820179035,
+              "n": 80
+            },
+            "contrast_fidelity": {
+              "mean": 0.6069318181818181,
+              "median": 0.6499999999999999,
+              "q90": 0.9318181818181819,
+              "n": 80
+            },
+            "edge_fidelity": {
+              "mean": 2.3952846132628505,
+              "median": 1.5275839644306028,
+              "q90": 3.989232145328748,
+              "n": 80
+            },
+            "crop_kid_x1000": 51.49750938030328
+          }
+        }
+      },
+      "what_is_supported": [
+        "High-Random +1.043pp, 2/3 wins; a conditional subset signal with class dependence."
+      ],
+      "what_is_not_supported": [
+        "A morphology-specific generator mechanism or broadly improved pixel/perceptual fidelity.",
+        "Raw synthetic headroom."
+      ],
+      "whether_confirmatory": true,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "Recorded final-last evaluation, no training-time validation/threshold tuning; earlier pool-construction validation involvement unresolved.",
+      "whether_selector_involved": true,
+      "selector_scope": "Frozen subsets from a recomposed/filtered DWBG pool; Random within that pool is not raw selector-free generation.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/stage14b_status.json",
+        "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/three_seed_summary.json",
+        "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/completed_fidelity_audit.json",
+        "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/STAGE14B_REPORT.md"
+      ],
+      "limits": [
+        "Legacy subset/pool evidence, not untouched raw generation; Stage18A documents recomposition/filtering and unresolved historical isolation.",
+        "Final validation metrics were consulted by subsequent stages; this sequence is exploratory at route level, not independent replication of a preregistered generator mechanism.",
+        "Do not pool historical effect sizes with V2 or compare absolute mAP across different splits/protocols."
+      ]
+    },
+    {
+      "stage": "Stage15A",
+      "question": "Does class-conditional replacement isolate an additive morphology benefit?",
+      "protocol": "2x2 M00/M10/M01/M11; only M10/M01 newly trained, reuse exact Stage14B M00/M11, three detector seeds.",
+      "result": {
+        "status": "CLASS_INTERACTION_DOMINATES_MORPHOLOGY_SIGNAL",
+        "primary_effects_raw": {
+          "EF_B0": {
+            "mean": 0.02387120742349565,
+            "std": 0.02943081733009891,
+            "wins": 2,
+            "values": [
+              0.042127692334110456,
+              0.03956631240057579,
+              -0.010080382464199289
+            ]
+          },
+          "EF_B1": {
+            "mean": -0.001095644705968013,
+            "std": 0.028405640069169416,
+            "wins": 1,
+            "values": [
+              0.03147765533281127,
+              -0.020716283504125355,
+              -0.014048305946589956
+            ]
+          },
+          "EB_F0": {
+            "mean": 0.011522384828099086,
+            "std": 0.02122071289998789,
+            "wins": 2,
+            "values": [
+              -0.008619859385715023,
+              0.033678048900137314,
+              0.009508964969874967
+            ]
+          },
+          "EB_F1": {
+            "mean": -0.013444467301364579,
+            "std": 0.01684596191670199,
+            "wins": 1,
+            "values": [
+              -0.019269896387014207,
+              -0.026604547004563828,
+              0.0055410414874842995
+            ]
+          },
+          "ME_F": {
+            "mean": 0.011387781358763819,
+            "std": 0.024492564248385383,
+            "wins": 2,
+            "values": [
+              0.036802673833460864,
+              0.009425014448225216,
+              -0.012064344205394623
+            ]
+          },
+          "ME_B": {
+            "mean": -0.0009610412366327462,
+            "std": 0.011419787637001057,
+            "wins": 2,
+            "values": [
+              -0.013944877886364615,
+              0.003536750947786743,
+              0.007525003228679633
+            ]
+          },
+          "interaction": {
+            "mean": -0.024966852129463663,
+            "std": 0.030766279902980854,
+            "wins": 0,
+            "values": [
+              -0.010650037001299184,
+              -0.06028259590470114,
+              -0.003967923482390667
+            ]
+          }
+        },
+        "generator_design_authorized": false
+      },
+      "what_is_supported": [
+        "Conditional sample-set effects and negative class interaction (-2.497pp)."
+      ],
+      "what_is_not_supported": [
+        "Flash-always-guided/Black-always-baseline rule.",
+        "Morphology-specific causality; selected subsets differ in other respects."
+      ],
+      "whether_confirmatory": true,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "Recorded final-last evaluation, no training-time validation/threshold tuning; earlier pool-construction validation involvement unresolved.",
+      "whether_selector_involved": true,
+      "selector_scope": "Frozen subsets from a recomposed/filtered DWBG pool; Random within that pool is not raw selector-free generation.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/stage15a_status.json",
+        "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/factorial_effects_summary.json",
+        "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/STAGE15A_REPORT.md"
+      ],
+      "limits": [
+        "Legacy subset/pool evidence, not untouched raw generation; Stage18A documents recomposition/filtering and unresolved historical isolation.",
+        "Final validation metrics were consulted by subsequent stages; this sequence is exploratory at route level, not independent replication of a preregistered generator mechanism.",
+        "Do not pool historical effect sizes with V2 or compare absolute mAP across different splits/protocols.",
+        "Historical scheduled budgets are recorded; runtime optimizer/init equality not independently verified."
+      ]
+    },
+    {
+      "stage": "Stage15B",
+      "question": "Does a balanced intermediate morphology dose explain utility?",
+      "protocol": "One frozen M50 probe (20High+20Random/class); three new detectors, twelve historical records reused; no dose sweep.",
+      "result": {
+        "status": "MORPHOLOGY_SIGNAL_PRESENT_DOSE_HYPOTHESIS_NOT_CONFIRMED",
+        "gates": {
+          "A_balanced_gain_ge_0_005": true,
+          "B_balanced_wins_ge_2": true,
+          "C_same_dose_mean_ge_minus_0_005": false,
+          "D_excess_mean_le_minus_0_005": false,
+          "E_excess_losses_ge_2": true
+        },
+        "dose_effects": {
+          "std_ddof": 1,
+          "outcomes": {
+            "map50_95": {
+              "D50_00": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.02055983223627017,
+                  0.021410165167674522,
+                  0.01938437451219238
+                ],
+                "mean": 0.006744902481198911,
+                "std": 0.023668277513128846,
+                "mean_pp": 0.6744902481198911,
+                "std_pp": 2.3668277513128846,
+                "wins": 2,
+                "losses": 1,
+                "ties": 0
+              },
+              "D_balance": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.03731374871046789,
+                  -0.015212015482682029,
+                  0.019670083259354543
+                ],
+                "mean": -0.010951893644598457,
+                "std": 0.028729788635625683,
+                "mean_pp": -1.0951893644598456,
+                "std_pp": 2.8729788635625684,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D80_50": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  0.04341762818336642,
+                  -0.008448399771662563,
+                  -0.02392371548890737
+                ],
+                "mean": 0.003681837640932162,
+                "std": 0.035271392610177116,
+                "mean_pp": 0.3681837640932162,
+                "std_pp": 3.5271392610177115,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_10": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.06268752457038063,
+                  -0.018156147232901265,
+                  0.02946475697639167
+                ],
+                "mean": -0.01712630494229674,
+                "std": 0.04608477167054791,
+                "mean_pp": -1.712630494229674,
+                "std_pp": 4.608477167054791,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_01": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.011939972850555147,
+                  -0.012267883732462792,
+                  0.009875409542317415
+                ],
+                "mean": -0.004777482346900175,
+                "std": 0.012690835745704154,
+                "mean_pp": -0.4777482346900175,
+                "std_pp": 1.2690835745704154,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              }
+            },
+            "map50": {
+              "D50_00": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.004830612028529524,
+                  0.02611052055198837,
+                  0.009292302382686968
+                ],
+                "mean": 0.010190736968715272,
+                "std": 0.015490119750031804,
+                "mean_pp": 1.0190736968715273,
+                "std_pp": 1.5490119750031803,
+                "wins": 2,
+                "losses": 1,
+                "ties": 0
+              },
+              "D_balance": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.05280437020421214,
+                  0.0092959450403175,
+                  -0.017865843122033764
+                ],
+                "mean": -0.0204580894286428,
+                "std": 0.031131207719153557,
+                "mean_pp": -2.04580894286428,
+                "std_pp": 3.1131207719153555,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D80_50": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  0.08940572514720113,
+                  -0.034084494334946425,
+                  0.01897946770823411
+                ],
+                "mean": 0.024766899506829605,
+                "std": 0.06194819894117011,
+                "mean_pp": 2.4766899506829603,
+                "std_pp": 6.194819894117011,
+                "wins": 2,
+                "losses": 1,
+                "ties": 0
+              },
+              "D50_10": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.07055630802929069,
+                  0.020447438419252673,
+                  -0.006517880471438531
+                ],
+                "mean": -0.018875583360492183,
+                "std": 0.04674350310404951,
+                "mean_pp": -1.8875583360492183,
+                "std_pp": 4.674350310404951,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_01": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.03505243237913358,
+                  -0.001855548338617563,
+                  -0.029213805772628998
+                ],
+                "mean": -0.02204059549679338,
+                "std": 0.017722852105287176,
+                "mean_pp": -2.204059549679338,
+                "std_pp": 1.7722852105287175,
+                "wins": 0,
+                "losses": 3,
+                "ties": 0
+              }
+            },
+            "recall": {
+              "D50_00": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.03413661014050429,
+                  -0.009777518207500058,
+                  0.01377022570744546
+                ],
+                "mean": -0.010047967546852962,
+                "std": 0.02395456297606926,
+                "mean_pp": -1.0047967546852963,
+                "std_pp": 2.395456297606926,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D_balance": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.06807548633942895,
+                  -0.013102379114764084,
+                  -0.03189781337964004
+                ],
+                "mean": -0.037691892944611026,
+                "std": 0.027940815091681486,
+                "mean_pp": -3.7691892944611025,
+                "std_pp": 2.794081509168149,
+                "wins": 0,
+                "losses": 3,
+                "ties": 0
+              },
+              "D80_50": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  0.10788628926510813,
+                  0.0006866091165910193,
+                  0.023976886864026103
+                ],
+                "mean": 0.044183261748575085,
+                "std": 0.05638409390481762,
+                "mean_pp": 4.4183261748575084,
+                "std_pp": 5.638409390481762,
+                "wins": 3,
+                "losses": 0,
+                "ties": 0
+              },
+              "D50_10": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.07528059013082755,
+                  -0.011881785476573703,
+                  -0.002272727272727315
+                ],
+                "mean": -0.029811700960042858,
+                "std": 0.039669237599304234,
+                "mean_pp": -2.981170096004286,
+                "std_pp": 3.9669237599304235,
+                "wins": 0,
+                "losses": 3,
+                "ties": 0
+              },
+              "D50_01": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.06087038254803023,
+                  -0.014322972752954577,
+                  -0.06152289948655265
+                ],
+                "mean": -0.045572084929179156,
+                "std": 0.02706449156072334,
+                "mean_pp": -4.5572084929179155,
+                "std_pp": 2.706449156072334,
+                "wins": 0,
+                "losses": 3,
+                "ties": 0
+              }
+            },
+            "flash_ap50_95": {
+              "D50_00": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.027038339221788887,
+                  0.05298031058423863,
+                  0.036327680450784106
+                ],
+                "mean": 0.020756550604411284,
+                "std": 0.04222074303839724,
+                "mean_pp": 2.0756550604411284,
+                "std_pp": 4.222074303839724,
+                "wins": 2,
+                "losses": 1,
+                "ties": 0
+              },
+              "D_balance": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.03506769679941357,
+                  -0.004324384191614794,
+                  0.025629338526389267
+                ],
+                "mean": -0.0045875808215463665,
+                "std": 0.030349373612727906,
+                "mean_pp": -0.45875808215463665,
+                "std_pp": 3.0349373612727906,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D80_50": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  0.08516736068284358,
+                  -0.006846015545208806,
+                  -0.038418161729481315
+                ],
+                "mean": 0.013301061136051154,
+                "std": 0.06420883009043414,
+                "mean_pp": 1.3301061136051153,
+                "std_pp": 6.420883009043414,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_10": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.08063741895550347,
+                  -0.002215253217284996,
+                  0.035211463899309015
+                ],
+                "mean": -0.015880402757826484,
+                "std": 0.05912100429332233,
+                "mean_pp": -1.5880402757826484,
+                "std_pp": 5.912100429332233,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_01": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  0.010502025356676381,
+                  -0.006433515165944592,
+                  0.01604721315346952
+                ],
+                "mean": 0.006705241114733769,
+                "std": 0.011711424523845283,
+                "mean_pp": 0.6705241114733769,
+                "std_pp": 1.1711424523845282,
+                "wins": 2,
+                "losses": 1,
+                "ties": 0
+              }
+            },
+            "black_ap50_95": {
+              "D50_00": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.014081325250751509,
+                  -0.010159980248889533,
+                  0.0024410685736008797
+                ],
+                "mean": -0.007266745642013388,
+                "std": 0.008632814100255421,
+                "mean_pp": -0.7266745642013388,
+                "std_pp": 0.8632814100255422,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D_balance": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.0395598006215222,
+                  -0.026099646773749263,
+                  0.01371082799231993
+                ],
+                "mean": -0.017316206467650513,
+                "std": 0.027700209131639675,
+                "mean_pp": -1.7316206467650512,
+                "std_pp": 2.7700209131639673,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D80_50": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  0.0016678956838892534,
+                  -0.010050783998116153,
+                  -0.00942926924833365
+                ],
+                "mean": -0.00593738585418685,
+                "std": 0.006593694002689252,
+                "mean_pp": -0.593738585418685,
+                "std_pp": 0.6593694002689252,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_10": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.04473763018525778,
+                  -0.03409704124851748,
+                  0.023718050053474493
+                ],
+                "mean": -0.01837220712676692,
+                "std": 0.03683745166748533,
+                "mean_pp": -1.8372207126766922,
+                "std_pp": 3.6837451667485333,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              },
+              "D50_01": {
+                "seed_order": [
+                  42,
+                  3407,
+                  2026
+                ],
+                "values": [
+                  -0.03438197105778662,
+                  -0.018102252298981047,
+                  0.0037036059311653657
+                ],
+                "mean": -0.0162602058085341,
+                "std": 0.01910949096915125,
+                "mean_pp": -1.62602058085341,
+                "std_pp": 1.9109490969151248,
+                "wins": 1,
+                "losses": 2,
+                "ties": 0
+              }
+            }
+          }
+        }
+      },
+      "what_is_supported": [
+        "M50-M00 +0.674pp; residual class dependence; descriptive concentration differences."
+      ],
+      "what_is_not_supported": [
+        "Registered dose hypothesis (C/D fail).",
+        "Concentration causes harm or morphology maximization guarantees utility."
+      ],
+      "whether_confirmatory": true,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "Recorded final-last evaluation, no training-time validation/threshold tuning; earlier pool-construction validation involvement unresolved.",
+      "whether_selector_involved": true,
+      "selector_scope": "Frozen subsets from a recomposed/filtered DWBG pool; Random within that pool is not raw selector-free generation.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage15b_morphology_dose/stage15b_status.json",
+        "results_for_gpt/plastic_bomo_stage15b_morphology_dose/dose_effects_summary.json",
+        "results_for_gpt/plastic_bomo_stage15b_morphology_dose/STAGE15B_REPORT.md"
+      ],
+      "limits": [
+        "Legacy subset/pool evidence, not untouched raw generation; Stage18A documents recomposition/filtering and unresolved historical isolation.",
+        "Final validation metrics were consulted by subsequent stages; this sequence is exploratory at route level, not independent replication of a preregistered generator mechanism.",
+        "Do not pool historical effect sizes with V2 or compare absolute mAP across different splits/protocols.",
+        "Nominal/actual High membership differs because High/Random overlap; 544 matched attempts, 532/534/534 successful M50 updates."
+      ]
+    },
+    {
+      "stage": "Stage16A",
+      "question": "Can original task guidance use an isolated, exact real-parent OOF teacher?",
+      "protocol": "Structural preflight only; exact parent mapping required, no substitute nearest/synthetic-ID teacher.",
+      "result": {
+        "status": "OOF_TASK_TEACHER_MAPPING_UNAVAILABLE",
+        "evidence_level": "FORMALLY_CARRIED_FORWARD_STOP_RECORD",
+        "primary_server_status_blob_available_in_pinned_commit": false
+      },
+      "what_is_supported": [
+        "Original server stop is explicitly carried forward in the frozen Stage16A-R0 protocol."
+      ],
+      "what_is_not_supported": [
+        "Task guidance efficacy or failure.",
+        "Independent reconstruction of the missing original server status JSON."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": false,
+      "validation_use_scope": "No evaluation forward or new validation image/label content access in this stage.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_protocol.json",
+        "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/SERVER_STOP_REVIEW.md"
+      ],
+      "limits": [
+        "A different LOCAL_PREFLIGHT_SNAPSHOT exists; it must not be relabeled as the original server execution."
+      ]
+    },
+    {
+      "stage": "Stage16A-R0",
+      "question": "Do annotation provenance and lineage permit task-guidance qualification?",
+      "protocol": "Frozen legacy138 images/168 boxes; >=5 accepted source groups/class required; annotation entry gate first.",
+      "result": {
+        "status": "ANNOTATION_PROVENANCE_INSUFFICIENT",
+        "gates": {
+          "ANNOTATION_PROVENANCE": "FAIL",
+          "SOURCE_LINEAGE": "NOT_RUN",
+          "OOF_TEACHER_ISOLATION": "NOT_RUN",
+          "CONDITIONING_ISOLATION": "NOT_RUN",
+          "BBOX_TRANSFORM": "NOT_RUN",
+          "SPATIAL_SEMANTICS": "NOT_RUN",
+          "MODEL_IMMUTABILITY": "NOT_RUN",
+          "DIFFERENTIABLE_PATH": "NOT_RUN",
+          "PAIRED_RNG": "NOT_RUN",
+          "TASK_LOSS_MANIPULATION": "NOT_RUN",
+          "VISUAL_PRESERVATION": "NOT_RUN",
+          "NUMERICAL_VALIDITY": "NOT_RUN"
+        },
+        "accepted_unique_source_groups_per_class": {
+          "flash": 0,
+          "black": 0
+        }
+      },
+      "what_is_supported": [
+        "Submitted evidence was insufficient at entry; all later runtime gates NOT_RUN."
+      ],
+      "what_is_not_supported": [
+        "Labels must be incorrect or no manual annotation ever existed.",
+        "Task guidance efficacy; actual task-loss manipulation."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": false,
+      "validation_use_scope": "No evaluation forward or new validation image/label content access in this stage.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_status.json",
+        "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_protocol.json",
+        "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/SERVER_STOP_REVIEW.md"
+      ],
+      "limits": []
+    },
+    {
+      "stage": "Stage17A",
+      "question": "Does an auditable train-only Vanilla baseline beat RealRepeat reproducibly?",
+      "protocol": "Authorized train-only rebuild, separately isolated normals, 80 fixed slots x3 generation banks; detector seed42, epoch150last.",
+      "result": {
+        "status": "SYNTHETIC_HEADROOM_NOT_REPRODUCIBLE",
+        "mean_delta_pp": -5.082365051499836,
+        "wins": 0,
+        "class_mean_delta_pp": {
+          "flash": -8.417239050688845,
+          "black": -1.7474910523108216
+        },
+        "successful_update_range": 2
+      },
+      "what_is_supported": [
+        "Within this legacy frozen calibration, raw banks all lose to RR (0/3); baseline development not authorized."
+      ],
+      "what_is_not_supported": [
+        "Three detector-seed replication.",
+        "Direct numerical pooling with V2.",
+        "Universally useless generation."
+      ],
+      "whether_confirmatory": true,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "Recorded final-last evaluation under legacy dataset-defined annotation protocol.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/stage17a_status.json",
+        "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/STAGE17A_REPORT.md"
+      ],
+      "limits": [
+        "Known overlap in earlier rebuild led to a separate train-only rebuild; contaminated checkpoint is not the authoritative final arm.",
+        "Scheduled budget equivalence, not exact successful-update equality; annotations/unknown physical sources remain qualified.",
+        "Actual stored status is SYNTHETIC_HEADROOM_NOT_REPRODUCIBLE; no invented synonym replaces it."
+      ]
+    },
+    {
+      "stage": "Stage18A",
+      "question": "Is another auditable, raw generator baseline already available?",
+      "protocol": "Existing-asset audit, LOCAL then SERVER_EXISTING_EVIDENCE; code/checkpoint/lineage/annotation/selector checks, no model run.",
+      "result": {
+        "status": "NO_AUDITABLE_ALTERNATIVE_GENERATOR_BASE",
+        "scope": "SERVER_EXISTING_EVIDENCE",
+        "selected_generator": null,
+        "STAGE18B_BASELINE_UTILITY_SCREEN_AUTHORIZED": false
+      },
+      "what_is_supported": [
+        "No candidate qualifies in inspected evidence; DWBG761 is a derived pool, not untouched raw MSDF."
+      ],
+      "what_is_not_supported": [
+        "Global absence or inferiority of AnomalyDiffusion/DefectFill/MSDF.",
+        "A scientific reason to switch generator families immediately."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": false,
+      "validation_use_scope": "No evaluation forward or new validation image/label content access in this stage.",
+      "whether_selector_involved": true,
+      "selector_scope": "Historical selector dependence was audited, not executed.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18a_status.json",
+        "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18b_candidate_selection.json",
+        "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/STAGE18A_REPORT.md"
+      ],
+      "limits": [
+        "Explicit inspected roots, not exhaustive server inventory; asset completeness is not a comparative scientific-fit study."
+      ]
+    },
+    {
+      "stage": "Stage20A",
+      "question": "Can a NEW group-isolated protocol permit raw SD2 calibration?",
+      "protocol": "V2 seed2026, known-source group train/final_eval75/25; TRAIN-only generator/normals; baseline gates frozen before performance.",
+      "result": {
+        "status": "PLASTIC_BOMO_GENERATION_V2_PROTOCOL_READY",
+        "baseline_calibration_authorized": true,
+        "TDCRG_DEVELOPMENT_AUTHORIZED": false
+      },
+      "what_is_supported": [
+        "Protocol readiness with no KNOWN cross-split source conflict."
+      ],
+      "what_is_not_supported": [
+        "Utility or quality; exhaustive physical-source independence."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "Administrative old-eval image/label registration only: 46/46; zero model forwards or performance-based split choice.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage20a_v2_protocol/stage20a_status.json",
+        "results_for_gpt/plastic_bomo_stage20a_v2_protocol/STAGE20A_REPORT.md",
+        "results_for_gpt/plastic_bomo_stage20a_v2_protocol/future_baseline_gate.json"
+      ],
+      "limits": [
+        "New V2 is not a retrospective rescue of Stage17/18. physical_source_complete=false; dataset-defined labels and weak bbox masks."
+      ]
+    },
+    {
+      "stage": "Stage20B-P0",
+      "question": "Are fixed slots, assets, paired RNG and exposure structurally bound?",
+      "protocol": "Authoritative server_preflight_20261008_084115; frozen local metadata reused, no server slot redesign or GPU forward test.",
+      "result": {
+        "status": "STAGE20B_STRUCTURAL_PREFLIGHT_PASS",
+        "slots": 80,
+        "TRAIN_normals": 394,
+        "TRAIN_assets_hash_verified": 666,
+        "runtime_preflight_is_not_forward_test": true
+      },
+      "what_is_supported": [
+        "Structural binding pass, no headroom evidence."
+      ],
+      "what_is_not_supported": [
+        "Numerical/runtime qualification or synthetic utility."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": false,
+      "validation_use_scope": "No evaluation forward or new validation image/label content access in this stage.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_p0_status.json",
+        "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/STAGE20B_P0_REPORT.md"
+      ],
+      "limits": []
+    },
+    {
+      "stage": "Stage20B-R0",
+      "question": "Does the frozen runtime pass differentiation, RNG and budget qualification?",
+      "protocol": "Authoritative server_runtime_20261008_121254; finite native backward and deterministic public-base probes; no optimizer step.",
+      "result": {
+        "status": "STAGE20B_RUNTIME_QUALIFICATION_PASS",
+        "formal_execution_ready": true,
+        "runtime_probe_generated_images": 4,
+        "formal_synthetic_generation_count": 0
+      },
+      "what_is_supported": [
+        "Runtime qualification of tested frozen paths; four non-formal probe images."
+      ],
+      "what_is_not_supported": [
+        "Synthetic headroom, trained-checkpoint quality, long-run stability."
+      ],
+      "whether_confirmatory": false,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": false,
+      "validation_use_scope": "No evaluation forward or new validation image/label content access in this stage.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/stage20b_r0_status.json",
+        "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/STAGE20B_R0_REPORT.md"
+      ],
+      "limits": [
+        "The four public-base runtime probe images must not be hidden in an unqualified claim of zero physical sampling."
+      ]
+    },
+    {
+      "stage": "Stage20B",
+      "question": "Does selector-free raw SD2 V2 provide stable positive headroom?",
+      "protocol": "136 real+80extras, 40/class; A/B/C generation42/3407/2026; detector42,150epochs, sameinit/order/augmentation; one final_eval barrier.",
+      "result": {
+        "status": "GENERATOR_BASELINE_HEADROOM_NOT_CONFIRMED",
+        "delta_pp": {
+          "A": -6.260203770666428,
+          "B": -2.888353977580654,
+          "C": 1.3781257868034469
+        },
+        "mean_delta_pp": -2.5901439871478784,
+        "sample_sd_pp": 3.8278866892745036,
+        "wins": 1,
+        "gates": {
+          "A": false,
+          "B": false,
+          "C": false
+        },
+        "class_mean_delta_pp": {
+          "flash": 0.03572831865509748,
+          "black": -5.216016292950852
+        }
+      },
+      "what_is_supported": [
+        "Stable positive headroom NOT confirmed; one positive realization; bank range7.6383pp; Black-centered degradation."
+      ],
+      "what_is_not_supported": [
+        "TDCRG authorization, best-bank rescue, population-level RNG causal effect or permanent Black quality failure."
+      ],
+      "whether_confirmatory": true,
+      "confirmatory_definition": "whether a prespecified confirmation/calibration was attempted, NOT whether it passed",
+      "whether_validation_used": true,
+      "validation_use_scope": "One unified final_eval round after all4 checkpoint freezes:48 images/60 boxes,192 image-forwards; primaryepoch150last.",
+      "whether_selector_involved": false,
+      "selector_scope": "No quality scoring, Top-K, reroll, manual filtering or BootstrapGuard.",
+      "sources": [
+        "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_status.json",
+        "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_headroom.json",
+        "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_classwise.json",
+        "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/manual_arm_C_recovery.json",
+        "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/STAGE20B_REPORT.md"
+      ],
+      "limits": [
+        "Three generation realizations, one detector seed, one split; not population variance estimation or detector-seed confirmation.",
+        "C restarts epoch1-150, not epoch77 resume; observed interrupted C physical compute separately disclosed.",
+        "No KNOWN source leakage only; dataset-defined annotation utility, not exhaustive physical-defect truth."
+      ]
+    }
+  ],
+  "pooling_performed": false,
+  "legacy_limits": [
+    "Legacy subset/pool evidence, not untouched raw generation; Stage18A documents recomposition/filtering and unresolved historical isolation.",
+    "Final validation metrics were consulted by subsequent stages; this sequence is exploratory at route level, not independent replication of a preregistered generator mechanism.",
+    "Do not pool historical effect sizes with V2 or compare absolute mAP across different splits/protocols."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "candidates": [
+    {
+      "id": "A",
+      "direction": "synthetic-real curriculum / exposure scheduling",
+      "question": "With an unchanged generator, all frozen synthetic samples retained and fixed total real/synthetic exposure, can temporal organization reduce across-realization utility variability without class AP sacrifice?",
+      "evidence_basis": "Stage20B instability motivates an integration question, but does not isolate exposure timing as its cause.",
+      "minimality": "One conceptual training-time axis; no new generator, image score, learned gate or sample ranking.",
+      "risk": "Schedule search on the existing final_eval would be post-hoc tuning; changing total exposure would confound integration with quantity.",
+      "selector_boundary": "No dropping samples, quality-based order, class suppression or zero exposure; same complete frozen input population.",
+      "priority": "PRIMARY_PROBLEM_FORMULATION_ONLY",
+      "effectiveness_supported": false
+    },
+    {
+      "id": "B",
+      "direction": "uncertainty-aware synthetic weighting",
+      "question": "Can training-time uncertainty regulate synthetic gradient contribution without excluding samples?",
+      "evidence_basis": "No calibrated uncertainty evidence in Stage20B.",
+      "minimality": "Less minimal: an uncertainty definition, calibration and scale introduce additional assumptions.",
+      "risk": "Per-sample zero/near-zero weights or quality rank is a soft selector and overlaps BootstrapGuard; uncertainty can favor easy examples.",
+      "selector_boundary": "No permanent sample gate/rank/topK; all samples and nonzero exposure retained. Merely calling scores 'weights' is insufficient separation.",
+      "priority": "DEFER_HIGH_SELECTOR_OVERLAP",
+      "effectiveness_supported": false
+    },
+    {
+      "id": "C",
+      "direction": "class-adaptive synthetic-real optimization",
+      "question": "Can an integration rule avoid class-asymmetric harm without selecting samples or permanently disabling a class?",
+      "evidence_basis": "V2 degradation is concentrated in Black, but Stage17A degradation was stronger in Flash; no universal class rule.",
+      "minimality": "Potentially small, but a class rule needs independent train-only evidence rather than fitting these APs.",
+      "risk": "Post-hoc Black-only penalty/suppression would tune to observed final_eval; changed per-class exposure confounds mechanism.",
+      "selector_boundary": "Retain both classes and complete sample sets; no Black filtering or final_eval-driven class weights.",
+      "priority": "SECONDARY_HYPOTHESIS_NOT_BLACK_RESCUE",
+      "effectiveness_supported": false
+    },
+    {
+      "id": "D",
+      "direction": "synthetic consistency regularization",
+      "question": "Can an explicit training-time consistency constraint improve robustness to synthetic variation?",
+      "evidence_basis": "Prediction inconsistency was not measured as the failure cause.",
+      "minimality": "Requires a transformation/target-consistency assumption not supplied by current evidence.",
+      "risk": "Wrong or weak labels can be reinforced; extra forwards/targets and hyperparameters muddy compute attribution.",
+      "selector_boundary": "All samples retained; no consistency-based acceptance/rejection.",
+      "priority": "DEFER_UNMEASURED_MECHANISM",
+      "effectiveness_supported": false
+    },
+    {
+      "id": "E",
+      "direction": "distribution-aware data integration",
+      "question": "Can real/synthetic distribution information control joint optimization without post-generation sample ranking?",
+      "evidence_basis": "Historical concentration diagnostics do not prove distribution mismatch causes V2 failure.",
+      "minimality": "Highest conceptual burden: representation, distribution and aggregation choices.",
+      "risk": "A nearest-real/guardrail score used for per-sample exclusion would reproduce selector behavior; teacher-space and domain assumptions unresolved.",
+      "selector_boundary": "Training-level aggregate integration only; no novelty/fidelity quality score or pool filtering.",
+      "priority": "DEFER_COMPLEXITY_AND_BG_OVERLAP",
+      "effectiveness_supported": false
+    }
+  ],
+  "primary_question": "With an unchanged generator, all frozen synthetic samples retained and fixed total real/synthetic exposure, can temporal organization reduce across-realization utility variability without class AP sacrifice?",
+  "new_experimental_protocol_designed": false,
+  "method_novelty_established": false,
+  "all_candidates_concept_only": true,
+  "execution_authorized": false
+}

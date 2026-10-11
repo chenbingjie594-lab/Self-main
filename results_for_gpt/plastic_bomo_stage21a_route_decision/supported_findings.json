@@ -1,0 +1,117 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "SUPPORTED": [
+    {
+      "id": "S1",
+      "claim": "Stable positive raw SD2 synthetic utility was not demonstrated under frozen V2.",
+      "evidence": [
+        "Stage20B"
+      ],
+      "scope": "mean-2.5901pp,1/3wins, three gates fail; not a claim of negative expectation for every future bank"
+    },
+    {
+      "id": "S2",
+      "claim": "Downstream performance varied by7.64pp across the three generation-RNG realizations under the frozen protocol.",
+      "evidence": [
+        "Stage20B"
+      ],
+      "scope": "observed paired bank variation, not a population causal-effect magnitude"
+    },
+    {
+      "id": "S3",
+      "claim": "RawC beat RR by+1.3781pp; one positive realization is insufficient for baseline confirmation.",
+      "evidence": [
+        "Stage20B"
+      ],
+      "scope": "observed fact ONLY; no selection of C for rescue"
+    },
+    {
+      "id": "S4",
+      "claim": "Black AP is the major contributor to Stage20B mean failure.",
+      "evidence": [
+        "Stage20B"
+      ],
+      "scope": "downstream outcome attribution, not a generator image-quality mechanism"
+    },
+    {
+      "id": "S5",
+      "claim": "BootstrapGuard selection utility and raw generator utility are scientifically separate questions.",
+      "evidence": [
+        "Stage18A",
+        "Stage20B",
+        "BootstrapGuard legacy downstream"
+      ],
+      "scope": "historical conditional selection comparison cannot confirm V2 raw headroom"
+    }
+  ],
+  "DIAGNOSTIC_ONLY": [
+    {
+      "id": "D1",
+      "claim": "Morphology alignment is a subset utility signal, not established broad fidelity causality.",
+      "evidence": [
+        "Stage14A",
+        "Stage14B"
+      ]
+    },
+    {
+      "id": "D2",
+      "claim": "Class-specific subset interaction is observed; a class-adaptive generator mechanism remains unproven.",
+      "evidence": [
+        "Stage15A",
+        "Stage15B"
+      ]
+    },
+    {
+      "id": "D3",
+      "claim": "Positive RawC motivates an instability question, not a stable-headroom conclusion.",
+      "evidence": [
+        "Stage20B"
+      ],
+      "label": "ONE_POSITIVE_GENERATION_REALIZATION",
+      "distinction": "RawC numerical win is SUPPORTED; its generalization/mechanism interpretation is DIAGNOSTIC_ONLY."
+    },
+    {
+      "id": "D4",
+      "claim": "Sample-set composition may relate to utility, but no responsible image property or optimization cause is isolated.",
+      "evidence": [
+        "Stage14B",
+        "Stage15A",
+        "Stage15B",
+        "Stage20B"
+      ]
+    }
+  ],
+  "NOT_SUPPORTED": [
+    {
+      "id": "N1",
+      "claim": "Visual fidelity implies downstream utility.",
+      "reason": "Stage14A missing perceptual metrics; Stage14B KID does not improve over Random and LPIPS is essentially equal."
+    },
+    {
+      "id": "N2",
+      "claim": "Morphology maximization guarantees utility.",
+      "reason": "Stage15A interaction and Stage15B failed dose gates; subset interventions are not clean generator interventions."
+    },
+    {
+      "id": "N3",
+      "claim": "Raw SD2 baseline provides stable positive headroom.",
+      "reason": "Stage17A failed its own calibration; Stage20B independently fails its frozen V2 gates; do not pool magnitudes."
+    },
+    {
+      "id": "N4",
+      "claim": "TDCRG is a currently justified confirmatory next step.",
+      "reason": "Stage20B gates A/B/C all fail; its authorization remains false."
+    },
+    {
+      "id": "N5",
+      "claim": "Synthetic generation is universally useless.",
+      "reason": "Limited datasets/protocols, RawC win, and separate selected-subset signals do not support universal dismissal."
+    }
+  ],
+  "not_supported_does_not_mean_disproved_universally": true,
+  "cross_protocol_pooling_performed": false,
+  "post_hoc_problem_reframing": true,
+  "current_final_eval_reusable_as_independent_confirmation": false
+}

@@ -1,0 +1,46 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "options": [
+    {
+      "option": "A",
+      "route": "SD2 + direct TDCRG development",
+      "status": "OPTION_A_CURRENTLY_NOT_AUTHORIZED",
+      "scientific_justification": "Insufficient: prespecified prerequisite headroom gates all fail.",
+      "risk_of_post_hoc_tuning": "High: constructing a task loss to rescue a known failed baseline without its entry criterion.",
+      "experimental_cost": "High: generator mechanism, isolated teachers, training, repeated generation and downstream detectors.",
+      "clean_causal_interpretation": "Not available now; failed entry gate cannot be reinterpreted as mechanism authorization.",
+      "overlap_with_BootstrapGuard": "Different nominal intervention stage, but teacher/quality guidance and later selection could confound attribution.",
+      "thesis_coherence": "A generator-first thesis premise is not supported by current independent baseline evidence.",
+      "implementation_authorized": false
+    },
+    {
+      "option": "B",
+      "route": "Switch to another published generator family",
+      "status": "OPTION_B_NOT_RECOMMENDED_AS_IMMEDIATE_NEXT_STEP",
+      "scientific_justification": "Insufficient in existing evidence: Stage18A is an asset audit, not a demonstrated pre-existing family-to-problem fit rationale.",
+      "risk_of_post_hoc_tuning": "High if families are swept after SD2 failure until one gives positive AP.",
+      "experimental_cost": "High: reconstruct clean lineage, annotation contract, comparable training and raw bank calibration.",
+      "clean_causal_interpretation": "A clean future comparison is conceivable only after an independent scientific rationale and protocol review; not authorized here.",
+      "overlap_with_BootstrapGuard": "Only distinguishable if genuinely raw outputs; existing derived DWBG pool is not a raw alternative.",
+      "thesis_coherence": "A published family alone is not a novel contribution, and asset absence is not proof of family inferiority.",
+      "automatic_family_recommendation": null,
+      "implementation_authorized": false
+    },
+    {
+      "option": "C",
+      "route": "Pause generator-mechanism-first; reframe innovation1 as non-selector training/data integration",
+      "status": "OPTION_C_PREFERRED_PROBLEM_REFRAMING_ONLY",
+      "scientific_justification": "Observed instability and class asymmetry justify asking how fixed synthetic inputs participate in optimization; no integration solution is yet validated.",
+      "risk_of_post_hoc_tuning": "Still material: fitting weights/curricula to RawC or Black final_eval would invalidate confirmation. Label all candidates as exploratory hypotheses.",
+      "experimental_cost": "Conceptual work is zero training now; any future training still needs independent protocol authorization. Avoid generator retraining by definition.",
+      "clean_causal_interpretation": "Potentially cleaner if generator, all samples, total exposure, labels and model are fixed and only a prespecified integration factor varies; no experiment is designed here.",
+      "overlap_with_BootstrapGuard": "Distinct only without retain/drop/rank decisions; uncertainty weighting and distribution guardrails can otherwise become soft selectors.",
+      "thesis_coherence": "Innovation1: how to use synthetic data in optimization; innovation2: which synthetic data to retain. Method novelty/effectiveness still unproved.",
+      "implementation_authorized": false
+    }
+  ],
+  "preferred_option": "C",
+  "preference_is_problem_formulation_not_method_validation": true
+}

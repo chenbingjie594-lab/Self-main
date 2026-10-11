@@ -1,0 +1,500 @@
+{
+  "stage": "Stage21A",
+  "scope": "EXISTING_FORMAL_EVIDENCE_SYNTHESIS_ONLY",
+  "source_revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+  "sources": [
+    {
+      "path": "configs/plastic_bomo_stage14a.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "42f186597b349caf6d9466f3b7ca2fca1b717e33365677c0efa516974a1a2b7c",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/configs/plastic_bomo_stage14a.json"
+    },
+    {
+      "path": "results_for_gpt/bootstrap_guard_downstream/BOOTSTRAP_GUARD_DOWNSTREAM_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "81765a20792011a2f77862a7ffaff1ff1c4b7408451accc6ece7e61ae8fde5d5",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_REPLACEMENT_FOR_LEGACY_REPORT_ONLY; numeric evidence uses strict JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/bootstrap_guard_downstream/BOOTSTRAP_GUARD_DOWNSTREAM_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/bootstrap_guard_downstream/dataset_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "fc5cd30df98ae1fe0d1edfd6823ec4bb0ae85058ca230e703f7955351a3e33c5",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/bootstrap_guard_downstream/dataset_audit.json"
+    },
+    {
+      "path": "results_for_gpt/bootstrap_guard_downstream/paired_deltas.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "c54a85f5e9ccdaf3c6c173978a85a2bd0ad87194ba8f1a3a71bec3574d6f0fa1",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/bootstrap_guard_downstream/paired_deltas.json"
+    },
+    {
+      "path": "results_for_gpt/bootstrap_guard_downstream/validated_per_seed.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "98bff3f72723843306f744bc50f6b139ee8d726ae81ed4912b37f1811d9efac1",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/bootstrap_guard_downstream/validated_per_seed.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/STAGE14A_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "9b612eb991bcf42d834311b9f8e5a2c4671600413392266b525c1dce0788a155",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/STAGE14A_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/stage14a_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "054d42663e0ad167416ec75eaeb5919994a097c76eb812dcceff940a1a712f02",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/stage14a_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/STAGE14B_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "f0a8348b8e654264b2163bd2ed027b953adeb672784ee77b3a0f31e32a838d7c",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/STAGE14B_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/completed_fidelity_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "d7fedb2410e51162c734bf3ba32f3538b8399c275f992d9cbe5e7fbca0f7884d",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/completed_fidelity_audit.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/stage14b_protocol.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "2c02803539c6bb779d91fd04bcd760fa6c22c29833ba6b1288ceb9c709df29ea",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/stage14b_protocol.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/stage14b_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "8cce46adfe630ddb60f9f4d3cc8865c513c3eeed8d201b59bc2e20eb9829a2af",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/stage14b_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/three_seed_summary.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "8cce46adfe630ddb60f9f4d3cc8865c513c3eeed8d201b59bc2e20eb9829a2af",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/three_seed_summary.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/validation_usage_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "5082aea8c43667df26c57b7e1024d71c24354c15007221e1abe6b1086624c088",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/validation_usage_audit.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/STAGE15A_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "0581c2be3cee0b5a29974a859517e11e8a657569b6ad3e8164ee794361470b66",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/STAGE15A_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/factorial_effects_summary.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "c7e2b09d34408e3d6f56e45d31a2da12f682245ebee9028dcb15bcd8f1062f4c",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/factorial_effects_summary.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/stage15a_protocol.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "bba4a31be19bae6f2180dc3fae62ff6058e29d460ca2176af913004d233cc1eb",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/stage15a_protocol.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/stage15a_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "fcba14a0cba6486cbbd780b8431fc55fda64a7d92ec2973048987d2ad446c8b0",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/stage15a_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/validation_usage_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "23957529df1d1623d657ab30787a1b74c800bcc0ed8e3c161e1b02b3f9b542c9",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/validation_usage_audit.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15b_morphology_dose/STAGE15B_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "206758b0aaa77ea6c769d80d5b596613fb67effbe9ba25a00444a15c0c64e8a2",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15b_morphology_dose/STAGE15B_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15b_morphology_dose/dose_effects_summary.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "3534a690c4ef96793a03c71f058e4ec4f39a6d21ccf02a95a94cfa4959d3fc66",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15b_morphology_dose/dose_effects_summary.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15b_morphology_dose/stage15b_protocol.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "a5ce5134b801601afb174fa38f78e54853b03b9388d0b0d1d7e213cbab39ed7c",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15b_morphology_dose/stage15b_protocol.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15b_morphology_dose/stage15b_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "b22e40a95f480daac267097c47ef39f56c05bac28777b42de9beaa4dbfa48129",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15b_morphology_dose/stage15b_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage15b_morphology_dose/validation_usage_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "18731bdce2760c524987eccb4355747f4c2a79cef474d3d2a83915c215644063",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage15b_morphology_dose/validation_usage_audit.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/SERVER_STOP_REVIEW.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "7773bd0c7a159de3e8b788131d6c26ea2a00a11bce2cf8126f42cc8e60259274",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/SERVER_STOP_REVIEW.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_protocol.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "e03f88f8fb5e742177c29af96997956f3049266d35f5a86e2e65de07769e4e82",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_protocol.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "83c0e55a190656ff00d872facb17bc89a05c37b844dca24c31c75db7a189124e",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage16a_r0_traceability_preflight/stage16a_r0_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/STAGE17A_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "012149e2956cef26f3f909cfbbcb766b9efa03892d1c0d1d6ec7eee5ab903e7a",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/STAGE17A_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/stage17a_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "77bf9f9500a27a53c958559d12164ea34470e0f70bbbcd77890548640f3e64d7",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/stage17a_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/STAGE18A_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "72bb0b24a5ec49835b99b4cfaec3ef690f372b2b6d4e1e6f80cad75a36c6b9a1",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/STAGE18A_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18a_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "7ae8c09ddfde5dda7e9c0972914c9a4e4ee29156c617eae182e74f94f6155468",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18a_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18b_candidate_selection.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "e53d8f5f79c57e95c6a39e09b625b234dd7dc8b5572593940a08e6cb80b4063b",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18b_candidate_selection.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20a_v2_protocol/STAGE20A_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "7f85773219c83d2f7aaedd9100a451c05b1eb810aea29a09ba6cbc7874c38955",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20a_v2_protocol/STAGE20A_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20a_v2_protocol/future_baseline_gate.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "5b1f698c262b58b430e37adbc6a93425a90bbcc5cb6e3560b33199ede07273cb",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20a_v2_protocol/future_baseline_gate.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20a_v2_protocol/stage20a_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "da0b8bec846c7e2293aa04e9ec2de2f88acdba09a589e1e9b7010110c01a17eb",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20a_v2_protocol/stage20a_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20a_v2_protocol/v2_generator_baseline_selection.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "654fac5d47e4f6cb8e0974c40aea87762940823f75b3e93117f62173561d9c66",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20a_v2_protocol/v2_generator_baseline_selection.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/authoritative_formal_run.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "e86048db2405c5ca37004c5f538322f45366168cc41d6db336f64a9ef280da3a",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/authoritative_formal_run.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RR_metrics.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "26d75f1d31da87b6b0ff18bf4f2dc97432adbfa09a68c702fc7716b5533ddff7",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RR_metrics.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RawA_metrics.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "f479f02f7f10b03d683cd07811819fbaf1d920c3a6aeb1962e785372806d065a",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RawA_metrics.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RawB_metrics.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "5bb7f97c6aa2302687484738d4cc8cf26b92ed2643a10aa0d35d305884f70357",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RawB_metrics.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RawC_metrics.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "ad796034b6dcae104349b8c0211c632b156bcd71d37c82a67fc3a1c1eeec49e4",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/RawC_metrics.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/STAGE20B_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "68fdc6c82bbf3e77c634367a14ed4ed6dfc930e8ad0fcc9be5cebee76b002d48",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/STAGE20B_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/detector_compute_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "dfc662f606970eeabd452f19f2ab0a2fe09afb1bd799673af85213f66a2ca0a0",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/detector_compute_audit.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/final_eval_access_audit.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "7368a67a667f30268b25465e05810a74c17ab6804ef17d828d4858effa46277b",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/final_eval_access_audit.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_bank_A_manifest.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_bank_A_manifest.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_bank_B_manifest.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "c7ce84155b64c7512de91308d1812aafc34fe5068e8347ca67ce0b0435db41c2",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_bank_B_manifest.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_bank_C_manifest.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "469291955de20c17f97467d360e9af18dd7d8eb227aef19f3cb791aac3d957e0",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_bank_C_manifest.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_protocol_binding.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "f3dbc707037dfa276cb19b7c8943504b014ec0de7ea7c9f33679e052a97052f2",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_protocol_binding.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_result_artifact_manifest.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "3911775b0bfd25b2d700be8e0a1b82a6b5177d3dc3d9700d5242daa724689af5",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/formal_result_artifact_manifest.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/generator_checkpoint_binding.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "ec57403813eca2e3d7301e4c0e8888aada2045c043068b91c9387cc94fc1e785",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/generator_checkpoint_binding.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/manual_arm_C_recovery.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "c0f40e3063de78cb90ae2d03be9a4cb8890ea5124fc308602fe5daf1f6b90eda",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/manual_arm_C_recovery.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_classwise.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "a92da86cab96998ca2497679c2548b8763c66b3e9a8697aee7c7a7f20a5e2b85",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_classwise.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_generation_nuisance.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "5100aab636c381882e6e744ba8b1f6963e2b901e5cf94f937aae484c812a792d",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_generation_nuisance.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_headroom.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "6281b184552f442b69e62af6b978125ab094858d29789a15d0476475f9a5230f",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_headroom.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "b2ed6fc32afa630ffd3e928dc68d25a46da8096c965f86a3179625e2e9392f59",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/STAGE20B_P0_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "4ae176f56d64864cd0b8f728a1c2f228bb3643bbb13c0889cd2be4c333a58efc",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/STAGE20B_P0_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_p0_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "b9ecaad52596c2dc311fd3122b45b6b9b84dd7b51ac78790d6de83c10266523e",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_p0_status.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_detector_protocol.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "abf0051b1711d009d897e6f59c132c3c74d2c9e8eecbf64dbf5f7c6e1aee0b2c",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_detector_protocol.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_future_baseline_gate.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "5b1f698c262b58b430e37adbc6a93425a90bbcc5cb6e3560b33199ede07273cb",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_future_baseline_gate.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_generation_protocol.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_generation_protocol.json"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/STAGE20B_R0_REPORT.md",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "6a86f68e450c1b9739dd1f9cabea34694d4f207e8023c2ad7b1fba12ab49ee9d",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/STAGE20B_R0_REPORT.md"
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/stage20b_r0_status.json",
+      "revision": "26d19a7906b4339c059d9897d9a29c4cbbee2762",
+      "sha256": "a4f13207ab768424a24c53ad7694a6870c723daab11d09534f6751c80d4828d3",
+      "read_method": "git show pinned_revision:path; metadata only",
+      "text_decoding": "UTF8_STRICT_JSON",
+      "url": "https://github.com/chenbingjie594-lab/Self-main/blob/26d19a7906b4339c059d9897d9a29c4cbbee2762/results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/stage20b_r0_status.json"
+    }
+  ],
+  "primary_source_files_modified": false,
+  "read_strategy": "Pinned Git metadata, including deleted historical worktree files; no restore, server access or image/label content reads.",
+  "Stage16A_stop_record_limitation": "Original server status blob is unavailable at this revision; cite its explicit frozen Stage16A-R0 declaration, not the local snapshot.",
+  "existing_results_used_to_choose_route": true,
+  "new_method_hypotheses_are_post_hoc_exploratory": true
+}
