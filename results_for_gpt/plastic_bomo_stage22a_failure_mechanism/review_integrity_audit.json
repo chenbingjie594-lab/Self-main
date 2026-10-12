@@ -1,0 +1,44 @@
+{
+  "status": "STAGE22A_DOWNLOADED_RESULT_REVIEW_PASS",
+  "formal_status": "SYNTHETIC_OPTIMIZATION_MECHANISM_NOT_IDENTIFIED",
+  "review_scope": "CPU metadata and raw-record recomputation; no image decode or detector forward",
+  "raw_records": 292,
+  "matched_triplets": 61,
+  "raw_population_and_class_bindings": "PASS",
+  "loss_norm_direction_conflict_summary_recomputation": "PASS",
+  "triplet_recomputation": "PASS",
+  "protocol_and_initialization_bindings": "PASS",
+  "forbidden_action_counters": "PASS",
+  "gate_A_failed_for_all_three_numeric_candidates": true,
+  "not_identified_even_without_annotation_count_guard": true,
+  "synthetic_negative_cosine_conflicts": 0,
+  "all_global_cosine_min": 0.09013424813747406,
+  "all_same_class_cosine_min": 0.11373502761125565,
+  "median_cls_fraction_of_total_loss": 0.9826027169653329,
+  "median_backbone_fraction_of_selected_gradient_squared_norm": 0.8265358481895673,
+  "feature_sample_covariance_rank_bounds": {
+    "backbone_late/flash": {
+      "real_max_sample_covariance_rank": 62,
+      "synthetic_max_sample_covariance_rank": 31
+    },
+    "backbone_late/black": {
+      "real_max_sample_covariance_rank": 45,
+      "synthetic_max_sample_covariance_rank": 28
+    },
+    "neck/flash": {
+      "real_max_sample_covariance_rank": 62,
+      "synthetic_max_sample_covariance_rank": 31
+    },
+    "neck/black": {
+      "real_max_sample_covariance_rank": 45,
+      "synthetic_max_sample_covariance_rank": 28
+    }
+  },
+  "feature_raw_vectors_available": false,
+  "feature_moments_independently_recomputed": false,
+  "feature_interpretation": "Lower synthetic effective rank cannot establish lower intrinsic diversity because n differs (63/32 Flash, 46/29 Black).",
+  "direction_interpretation": "No measured negative cosine at this frozen initialization; this does not establish absence of conflict at later training states or in every parameter group.",
+  "executed_server_script_sha256_in_downloaded_artifacts": null,
+  "model_immutability_evidence": "Completed runner code verifies parameters and restored buffers before writing final status; no separate post-probe full tensor hashes were exported.",
+  "original_downloaded_report_sha256": "4e4749110e6eeb34abadd0da9910193968e3d5fad8a986acd4b007a6dfd28c79"
+}

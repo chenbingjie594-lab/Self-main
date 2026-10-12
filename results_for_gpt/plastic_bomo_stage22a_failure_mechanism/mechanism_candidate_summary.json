@@ -1,0 +1,567 @@
+{
+  "criteria": {
+    "A": "synthetic median outside real IQR in all banks/classes; conflict uses nonoverlapping Wilson 95% intervals",
+    "B": "same nonzero direction in all A/B/C",
+    "C": "no opposite Flash/Black directions",
+    "D": "nonzero median within-slot range",
+    "E": "no official final_eval tuning",
+    "confound": "exact per-class annotation-count histograms must match"
+  },
+  "real_annotation_multiplicity": {
+    "flash": {
+      "real": {
+        "n": 63,
+        "mean": 1.0317460317460319,
+        "median": 1.0,
+        "std": 0.1753231907490041,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 2.0
+      },
+      "A": {
+        "n": 32,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 1.0
+      },
+      "B": {
+        "n": 32,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 1.0
+      },
+      "C": {
+        "n": 32,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 1.0
+      }
+    },
+    "black": {
+      "real": {
+        "n": 46,
+        "mean": 1.608695652173913,
+        "median": 1.0,
+        "std": 0.76551377659387,
+        "iqr": 1.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 2.0,
+        "q90": 3.0,
+        "q95": 3.0,
+        "q100": 3.0
+      },
+      "A": {
+        "n": 29,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 1.0
+      },
+      "B": {
+        "n": 29,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 1.0
+      },
+      "C": {
+        "n": 29,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "q0": 1.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q100": 1.0
+      }
+    }
+  },
+  "candidates": {
+    "loss_distribution": {
+      "by_class": {
+        "flash": {
+          "real": 136.11746215820312,
+          "synthetic_median_or_fraction": {
+            "A": 137.87628173828125,
+            "B": 138.81814575195312,
+            "C": 138.02719116210938
+          },
+          "delta_vs_real": {
+            "A": 1.758819580078125,
+            "B": 2.70068359375,
+            "C": 1.90972900390625
+          },
+          "signs": {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          "clearly_separated_from_real_control": false,
+          "separation_details": {
+            "real_q25": 133.3800048828125,
+            "real_q75": 141.29328155517578
+          },
+          "all_three_banks_same_nonzero_direction": true,
+          "median_within_slot_range": 4.4912872314453125
+        },
+        "black": {
+          "real": 135.89629364013672,
+          "synthetic_median_or_fraction": {
+            "A": 138.2204132080078,
+            "B": 139.4540557861328,
+            "C": 138.2960662841797
+          },
+          "delta_vs_real": {
+            "A": 2.3241195678710938,
+            "B": 3.5577621459960938,
+            "C": 2.3997726440429688
+          },
+          "signs": {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          "clearly_separated_from_real_control": false,
+          "separation_details": {
+            "real_q25": 127.5088996887207,
+            "real_q75": 141.89858627319336
+          },
+          "all_three_banks_same_nonzero_direction": true,
+          "median_within_slot_range": 4.5042266845703125
+        }
+      },
+      "A_real_synthetic_direction": false,
+      "B_three_bank_consistency": true,
+      "C_class_asymmetry_noncontradictory": true,
+      "D_matched_rng_changes_signal": true,
+      "E_no_final_eval_threshold_tuning": true,
+      "real_vs_synthetic_annotation_multiplicity_differs": true,
+      "all_predeclared_descriptive_gates_pass": false,
+      "unique_unconfounded_mechanism_established": false,
+      "interpretation": "descriptive direction only; target multiplicity, image domain, and annotation geometry are not independently controlled"
+    },
+    "gradient_norm": {
+      "by_class": {
+        "flash": {
+          "real": 898.6198864849914,
+          "synthetic_median_or_fraction": {
+            "A": 973.4884274405194,
+            "B": 1002.7929401759691,
+            "C": 1018.1568594296199
+          },
+          "delta_vs_real": {
+            "A": 74.86854095552803,
+            "B": 104.17305369097767,
+            "C": 119.53697294462847
+          },
+          "signs": {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          "clearly_separated_from_real_control": false,
+          "separation_details": {
+            "real_q25": 827.5006800913743,
+            "real_q75": 1016.7903191296814
+          },
+          "all_three_banks_same_nonzero_direction": true,
+          "median_within_slot_range": 139.07790441647722
+        },
+        "black": {
+          "real": 875.6372863636909,
+          "synthetic_median_or_fraction": {
+            "A": 921.021012148541,
+            "B": 948.9389354472936,
+            "C": 920.4459198411611
+          },
+          "delta_vs_real": {
+            "A": 45.38372578485007,
+            "B": 73.30164908360268,
+            "C": 44.80863347747015
+          },
+          "signs": {
+            "A": 1,
+            "B": 1,
+            "C": 1
+          },
+          "clearly_separated_from_real_control": false,
+          "separation_details": {
+            "real_q25": 767.3845133373791,
+            "real_q75": 989.956833518741
+          },
+          "all_three_banks_same_nonzero_direction": true,
+          "median_within_slot_range": 113.77958419246488
+        }
+      },
+      "A_real_synthetic_direction": false,
+      "B_three_bank_consistency": true,
+      "C_class_asymmetry_noncontradictory": true,
+      "D_matched_rng_changes_signal": true,
+      "E_no_final_eval_threshold_tuning": true,
+      "real_vs_synthetic_annotation_multiplicity_differs": true,
+      "all_predeclared_descriptive_gates_pass": false,
+      "unique_unconfounded_mechanism_established": false,
+      "interpretation": "descriptive direction only; target multiplicity, image domain, and annotation geometry are not independently controlled"
+    },
+    "gradient_direction_conflict": {
+      "by_class": {
+        "flash": {
+          "real": 0.0,
+          "synthetic_median_or_fraction": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "delta_vs_real": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "signs": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "clearly_separated_from_real_control": false,
+          "separation_details": {
+            "real_wilson95": [
+              3.469446951953614e-18,
+              0.05747119958885172
+            ],
+            "bank_wilson95": {
+              "A": [
+                0.0,
+                0.1071791982550706
+              ],
+              "B": [
+                0.0,
+                0.1071791982550706
+              ],
+              "C": [
+                0.0,
+                0.1071791982550706
+              ]
+            }
+          },
+          "all_three_banks_same_nonzero_direction": false,
+          "median_within_slot_range": 0.024764597415924072
+        },
+        "black": {
+          "real": 0.0,
+          "synthetic_median_or_fraction": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "delta_vs_real": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "signs": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "clearly_separated_from_real_control": false,
+          "separation_details": {
+            "real_wilson95": [
+              0.0,
+              0.07707356308558039
+            ],
+            "bank_wilson95": {
+              "A": [
+                0.0,
+                0.11696979849974075
+              ],
+              "B": [
+                0.0,
+                0.11696979849974075
+              ],
+              "C": [
+                0.0,
+                0.11696979849974075
+              ]
+            }
+          },
+          "all_three_banks_same_nonzero_direction": false,
+          "median_within_slot_range": 0.028550371527671814
+        }
+      },
+      "A_real_synthetic_direction": false,
+      "B_three_bank_consistency": false,
+      "C_class_asymmetry_noncontradictory": false,
+      "D_matched_rng_changes_signal": true,
+      "E_no_final_eval_threshold_tuning": true,
+      "real_vs_synthetic_annotation_multiplicity_differs": true,
+      "all_predeclared_descriptive_gates_pass": false,
+      "unique_unconfounded_mechanism_established": false,
+      "interpretation": "descriptive direction only; target multiplicity, image domain, and annotation geometry are not independently controlled"
+    },
+    "feature_activation": {
+      "class_conditional_roi_distribution": {
+        "backbone_late": {
+          "flash": {
+            "real": {
+              "n": 63,
+              "covariance_trace": 34.60394287004073,
+              "effective_rank": 43.888553320102524
+            },
+            "banks": {
+              "A": {
+                "n": 32,
+                "class_conditional_mean_l2_distance": 1.5698049165926669,
+                "covariance_trace": 43.065989556780835,
+                "effective_rank": 25.67936625050614
+              },
+              "B": {
+                "n": 32,
+                "class_conditional_mean_l2_distance": 1.6502421863769787,
+                "covariance_trace": 45.908954169821016,
+                "effective_rank": 24.552377142529668
+              },
+              "C": {
+                "n": 32,
+                "class_conditional_mean_l2_distance": 1.5551094262825262,
+                "covariance_trace": 41.35925810760232,
+                "effective_rank": 25.072110570882852
+              }
+            }
+          },
+          "black": {
+            "real": {
+              "n": 46,
+              "covariance_trace": 32.06844752775136,
+              "effective_rank": 30.01177286643633
+            },
+            "banks": {
+              "A": {
+                "n": 29,
+                "class_conditional_mean_l2_distance": 1.6345486632017479,
+                "covariance_trace": 39.76758688923973,
+                "effective_rank": 23.277959777567776
+              },
+              "B": {
+                "n": 29,
+                "class_conditional_mean_l2_distance": 1.6821429005343027,
+                "covariance_trace": 41.82246792700498,
+                "effective_rank": 22.743448736321973
+              },
+              "C": {
+                "n": 29,
+                "class_conditional_mean_l2_distance": 1.6369054067199231,
+                "covariance_trace": 41.58802574832533,
+                "effective_rank": 23.153086263229415
+              }
+            }
+          }
+        },
+        "neck": {
+          "flash": {
+            "real": {
+              "n": 63,
+              "covariance_trace": 43.0098008494657,
+              "effective_rank": 29.571044577727683
+            },
+            "banks": {
+              "A": {
+                "n": 32,
+                "class_conditional_mean_l2_distance": 1.5484257686767886,
+                "covariance_trace": 45.738279054331116,
+                "effective_rank": 17.718477336017134
+              },
+              "B": {
+                "n": 32,
+                "class_conditional_mean_l2_distance": 1.4969392990164065,
+                "covariance_trace": 38.74787468078534,
+                "effective_rank": 20.352984599992112
+              },
+              "C": {
+                "n": 32,
+                "class_conditional_mean_l2_distance": 1.4190576812603803,
+                "covariance_trace": 40.320269986261046,
+                "effective_rank": 21.4524422016619
+              }
+            }
+          },
+          "black": {
+            "real": {
+              "n": 46,
+              "covariance_trace": 49.42988459839257,
+              "effective_rank": 21.693527813199605
+            },
+            "banks": {
+              "A": {
+                "n": 29,
+                "class_conditional_mean_l2_distance": 1.6833305352967967,
+                "covariance_trace": 57.45364104773249,
+                "effective_rank": 15.021866042588968
+              },
+              "B": {
+                "n": 29,
+                "class_conditional_mean_l2_distance": 1.7242872819325794,
+                "covariance_trace": 48.29153254267465,
+                "effective_rank": 18.47498786053462
+              },
+              "C": {
+                "n": 29,
+                "class_conditional_mean_l2_distance": 1.7530365752838606,
+                "covariance_trace": 50.61150173012587,
+                "effective_rank": 16.35649153655367
+              }
+            }
+          }
+        }
+      },
+      "A_real_synthetic_direction": "mean distance is nonnegative by definition, not an adverse direction",
+      "B_three_bank_consistency": "descriptive only",
+      "C_class_asymmetry_noncontradictory": "see classwise audit",
+      "D_matched_rng_changes_signal": "not measured for per-slot ROI distances",
+      "E_no_final_eval_threshold_tuning": true,
+      "unique_unconfounded_mechanism_established": false
+    }
+  },
+  "strongest_unique_candidate": null,
+  "descriptive_bank_ordering": {
+    "loss_distribution": {
+      "flash": {
+        "descending_bank_order": [
+          "B",
+          "C",
+          "A"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      },
+      "black": {
+        "descending_bank_order": [
+          "B",
+          "C",
+          "A"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      }
+    },
+    "gradient_norm": {
+      "flash": {
+        "descending_bank_order": [
+          "C",
+          "B",
+          "A"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      },
+      "black": {
+        "descending_bank_order": [
+          "B",
+          "A",
+          "C"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      }
+    },
+    "gradient_direction_conflict": {
+      "flash": {
+        "descending_bank_order": [
+          "A",
+          "B",
+          "C"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      },
+      "black": {
+        "descending_bank_order": [
+          "A",
+          "B",
+          "C"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      }
+    },
+    "feature_backbone_late": {
+      "flash": {
+        "descending_bank_order": [
+          "B",
+          "A",
+          "C"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      },
+      "black": {
+        "descending_bank_order": [
+          "B",
+          "C",
+          "A"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      }
+    },
+    "feature_neck": {
+      "flash": {
+        "descending_bank_order": [
+          "A",
+          "B",
+          "C"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      },
+      "black": {
+        "descending_bank_order": [
+          "C",
+          "B",
+          "A"
+        ],
+        "comparison_to_historical_internal_dev_uniform": "ORDERING_NOT_MATCHED_DIAGNOSTIC"
+      }
+    }
+  },
+  "historical_internal_dev_uniform_order_descending": [
+    "C",
+    "A",
+    "B"
+  ],
+  "reason": "No unique signal passed all predeclared A-E and annotation-count gates; frozen-initialization contrasts remain descriptive, not causal.",
+  "bank_count": 3,
+  "pearson_spearman_computed": false,
+  "utility_predictor_claim": false
+}

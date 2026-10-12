@@ -1,0 +1,31 @@
+{
+  "status": "SYNTHETIC_OPTIMIZATION_MECHANISM_NOT_IDENTIFIED",
+  "scope": "TRAIN_ONLY_FROZEN_INITIALIZATION_DIAGNOSTIC",
+  "real_images": 109,
+  "synthetic_slots_per_bank": 61,
+  "probe_forwards": 292,
+  "probe_backwards": 292,
+  "generator_training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "optimizer_step_count": 0,
+  "official_final_eval_image_read": 0,
+  "official_final_eval_label_read": 0,
+  "official_final_eval_forward": 0,
+  "internal_dev_content_read": 0,
+  "BootstrapGuard": 0,
+  "DeepPCB": 0,
+  "stage22b_auto_start": false,
+  "reason": "No unique signal passed all predeclared A-E and annotation-count gates; frozen-initialization contrasts remain descriptive, not causal.",
+  "model_parameter_binding_sha256": "29aa98716ac17cae9b8d589487899e11368411e517919f14a431479498a5ecea",
+  "diagnostic_protocol_sha256": "eca52efed98b93d74584d593e4063eab4dd534affcf931fe928a9c81e1f06463",
+  "data_manifest_sha256": "0a18b0d1e07d05c6f4bd0f32ccee3e835e72e16f9fdf91b887b505fbcbc06a63",
+  "guard_counts": {
+    "official_blocked_open_attempts": 0,
+    "internal_dev_blocked_open_attempts": 0,
+    "official_final_eval_image_read": 0,
+    "official_final_eval_label_read": 0,
+    "official_final_eval_forward": 0,
+    "internal_dev_content_allowed": false
+  }
+}

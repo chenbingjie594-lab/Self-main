@@ -1,0 +1,86 @@
+{
+  "rule": "cosine < 0",
+  "by_bank_and_class": {
+    "real": {
+      "null": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": null,
+        "same_class_conflict_fraction": null
+      },
+      "flash": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      },
+      "black": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      }
+    },
+    "A": {
+      "null": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": null,
+        "same_class_conflict_fraction": null
+      },
+      "flash": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      },
+      "black": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      }
+    },
+    "B": {
+      "null": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": null,
+        "same_class_conflict_fraction": null
+      },
+      "flash": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      },
+      "black": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      }
+    },
+    "C": {
+      "null": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": null,
+        "same_class_conflict_fraction": null
+      },
+      "flash": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      },
+      "black": {
+        "global_conflict_count": 0,
+        "global_conflict_fraction": 0.0,
+        "same_class_conflict_count": 0,
+        "same_class_conflict_fraction": 0.0
+      }
+    }
+  },
+  "sample_filtering_or_weighting": false
+}

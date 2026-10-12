@@ -1,0 +1,4986 @@
+{
+  "reference_definition": "mean of per-image unit-normalized concatenated selected-parameter gradients; same-class real memberships from immutable internal_train annotations; real self-comparison uses leave-one-out",
+  "real_reference_counts": {
+    "global": 109,
+    "flash": 63,
+    "black": 46
+  },
+  "real_reference_sha256": {
+    "global": "2114be3b047caa6637fa6792d250021c8b8a79436cca35d9843af97fb0f08914",
+    "flash": "11171c38766ee72813ff19faae5535bb726eeedf7a6f417e367db02a8f7d6eb4",
+    "black": "6f917aa7e2aa93c48b7933f592bbbbaa769722adfbdd4fa5298a22d07c27a075"
+  },
+  "records": [
+    {
+      "role_id": "base_asset_c519ba7293cedbe015fbcbdda34160a6252f324937eff422c212709fddbdf6d0",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.11934801936149597,
+      "cosine_real_same_class": {
+        "black": 0.14512230455875397
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_cd4bcf7347f72e5ea31c3e0358d2c828be9eec75f9ba29e81ede680a38bc1597",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5094293355941772,
+      "cosine_real_same_class": {
+        "flash": 0.5357969403266907
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_fee41a3695fb5bf95078384135a5e269cc0cd47d4bb6d443d4b086b4301781c2",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4504106342792511,
+      "cosine_real_same_class": {
+        "flash": 0.4510297179222107
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_c99b7fe3c199b52f19ecfef4e084dd3607add723e4b7188ef093df224a1b0e51",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2628595530986786,
+      "cosine_real_same_class": {
+        "black": 0.24453085660934448
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_00a4f552c5428fdd2a6445c7a656dcad0fccae8a21cf94106b4e768b6995b39e",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.45917627215385437,
+      "cosine_real_same_class": {
+        "flash": 0.48602908849716187
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_c3656623d29c1d39b982b42b5e8478f090439fda55f0bb475f7d4ae4730201ad",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.41076919436454773,
+      "cosine_real_same_class": {
+        "flash": 0.42365947365760803
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_b139231fa61286f5ce7d2868fec6757a27ed7bdd10771bd28e8788cadc72289d",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.29379239678382874,
+      "cosine_real_same_class": {
+        "black": 0.31916338205337524
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_1aa89b89f5d61613a9464844758539bd1e70dc0e5fd48ac84cc5641e1e0346e2",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4306933283805847,
+      "cosine_real_same_class": {
+        "flash": 0.4432526230812073
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_dca062e42dfe1aa20b2de2f112e26fdec8a2ca7c53f9a0688399ded52db3657e",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.1296384185552597,
+      "cosine_real_same_class": {
+        "black": 0.1457124501466751
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_88f3a5aebfa8de0cd898dba9c13a41b7aefab3bdcac463617ac6a87b744301f5",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18655085563659668,
+      "cosine_real_same_class": {
+        "black": 0.24394375085830688
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_c17d974ae3555f103d4a2974f7561dda9ce5ffede69f779f4a5d35949b23bb19",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4923970103263855,
+      "cosine_real_same_class": {
+        "flash": 0.5086658596992493
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_c077ea159c90ca5143f8582af09b3410538d2c56dca965adc140e00efc18788a",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3950294852256775,
+      "cosine_real_same_class": {
+        "black": 0.3518526256084442
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_3304c47a03a7ac94c83164c1b634b4a23c9ada90c23f23f237c705a0709f8d20",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3273199200630188,
+      "cosine_real_same_class": {
+        "flash": 0.32400786876678467
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_926d41658a6609a55948fa27a18514a70205cd980d4afa1638fa4034bab2c9a3",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5010001063346863,
+      "cosine_real_same_class": {
+        "flash": 0.5186086893081665
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_389cc30e7e05810846790b5fce707d9f24f9dc394f4db6616728bd0dba8e3172",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5194430351257324,
+      "cosine_real_same_class": {
+        "flash": 0.5298936367034912
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_761653daf16ab6ae63d3b1064fb87d6d99f68ad0675f514a24d86df1024250e8",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4877590239048004,
+      "cosine_real_same_class": {
+        "black": 0.36482295393943787
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_8d007ccd6789cf1ea40a4315e58b723b8942eabed474831ab1a27746684fda84",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.34808075428009033,
+      "cosine_real_same_class": {
+        "flash": 0.33955150842666626
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_47b4bb1291b5a61ddc7cfcbeb0d92c828a479a343fa33d60ca7ee8adff7bf8cb",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.1986050307750702,
+      "cosine_real_same_class": {
+        "black": 0.24297411739826202
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_9c08b8b0f317ac2f22ec56ed27f674451029016fde4f6d15594851ab1f29ce5f",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4509700536727905,
+      "cosine_real_same_class": {
+        "flash": 0.4882071912288666
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8e3cee3853c3b8a846ecb488c70bf8c50ee06abccca61b82e6382c243936e39e",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2985652685165405,
+      "cosine_real_same_class": {
+        "flash": 0.2875170111656189
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_a849e59c309fd51257e0f00c1dc4917af920b255555d7b4bb9821a8975fa6853",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.09013424813747406,
+      "cosine_real_same_class": {
+        "black": 0.11373502761125565
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_6f0fb4b45438d44eaaec96fd070556a587babc03fa6ac01e7efd117adadc9ab7",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2857929468154907,
+      "cosine_real_same_class": {
+        "flash": 0.2306298464536667
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_26248f9e922a02812cb05eec78c0c25df12951f1f2ef802146cf2cea721c4e9e",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4741218686103821,
+      "cosine_real_same_class": {
+        "flash": 0.48331505060195923
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_a106448c26c30bb2092ef3f007e2d8bac4fc9fd1eac71636cfb2e33f8c4b81aa",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.46260714530944824,
+      "cosine_real_same_class": {
+        "flash": 0.4979807138442993
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_2d74905ce77d786dd3cfd89c61088b4cc959dc5e63e205f0db76712d27fe057d",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.19660045206546783,
+      "cosine_real_same_class": {
+        "black": 0.2690362334251404
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_e5f85d4ac7d882a89eb2d63002e4a925879cf29493d5086492b3bdbfef3e7452",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.30713343620300293,
+      "cosine_real_same_class": {
+        "flash": 0.306693971157074
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_3530f76fb238f3e0afee6cf00d669ff82e143ccf890b6b5616c50785ce708609",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.26523587107658386,
+      "cosine_real_same_class": {
+        "black": 0.29736340045928955
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_4335b4d5f5b620583746067bb2f12ff533853992525679ef376673ff30cab6f2",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.24544954299926758,
+      "cosine_real_same_class": {
+        "black": 0.28457367420196533
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_b0d0306f8087b3dc14a35a05a0fb6b26bafc32404e5f2cf6116baa08f8120272",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.29804518818855286,
+      "cosine_real_same_class": {
+        "black": 0.27977070212364197
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_21d275c7fe705653c09da339023c65c34df7174d625af09509842ca48ea048c4",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4813726544380188,
+      "cosine_real_same_class": {
+        "flash": 0.49223703145980835
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_aaf44f5a0317c971a33524909bf7e8b8d8f74b44e55fdafb32d367189529c4be",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.22124451398849487,
+      "cosine_real_same_class": {
+        "black": 0.2818993330001831
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_00f563a1c106bcb8b61117936acec28f350d3984cb368627a98aebc38529598d",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.48244723677635193,
+      "cosine_real_same_class": {
+        "flash": 0.48530468344688416
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_12e720464000febea053e72778a0cfac58ba8d965f14d36ddd3dc707dededf3a",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.33459874987602234,
+      "cosine_real_same_class": {
+        "flash": 0.3018684685230255
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_f8794aca3edcfa2e6005c8e8bd65b61cb7f64346d79cdb3b61ae268e3bd0c182",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3225472867488861,
+      "cosine_real_same_class": {
+        "flash": 0.29752224683761597
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_7789aee47c5f67c68d53110763e0689bb91cbabcd32b04f9a52f95fef31a8eb6",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2739458978176117,
+      "cosine_real_same_class": {
+        "black": 0.27819210290908813
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_928777c4680cc3495f90b8f8045bb13ed54df5335ad6d5a3df9d17f37a96b020",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.5246976613998413,
+      "cosine_real_same_class": {
+        "black": 0.39528071880340576
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_3056c75b97bf2b64ea80c5986b644383eaac622010687ca78cff931ef367c008",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3880719840526581,
+      "cosine_real_same_class": {
+        "flash": 0.3955662250518799
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8e72741f32f642f433df426ca6d44cd5abd8972a58c598e4ad780c56974bd802",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.43196234107017517,
+      "cosine_real_same_class": {
+        "black": 0.3444518446922302
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_03a985b0ff2df060c0151bfdc4edd7de856f8862d2ca23322ce1689839b3c4f2",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.17912903428077698,
+      "cosine_real_same_class": {
+        "flash": 0.14655859768390656
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_06d8c25007c1b4527418c080a1c712342e83f38c21cc7ec1de241e030008aab0",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.28051379323005676,
+      "cosine_real_same_class": {
+        "flash": 0.26519647240638733
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_f328b4fbb8b970a2e7fdb47c9fbc6e1d6e72f447728c19dacad0badcf770bd33",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18429294228553772,
+      "cosine_real_same_class": {
+        "black": 0.24761372804641724
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_a701830235778f62ae4b917cb6524182c1c5942dc84734a9c7f03c414723f87c",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.23130673170089722,
+      "cosine_real_same_class": {
+        "flash": 0.22161772847175598
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_deae1edfedc704eaff048c9fce7715b00c797faf05bdbd36a08c0d2949ac2acc",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.31919950246810913,
+      "cosine_real_same_class": {
+        "black": 0.3189898729324341
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_fb2df195115b400605b0b552e68917718b4f3984b4ae5f0c64161920b2229477",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.21322786808013916,
+      "cosine_real_same_class": {
+        "black": 0.2757560610771179
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_9e9de6d6a652ec4bcf06cface30970ee9aa8f0f8be9c5c222c6a599cdcb272b6",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.31291311979293823,
+      "cosine_real_same_class": {
+        "flash": 0.25699150562286377
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_20386ba71d88a876fe2711567c4ded223205c4b32f6c0e47fbecaf4382262c1f",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3305606245994568,
+      "cosine_real_same_class": {
+        "black": 0.35183262825012207
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_3a715ce1a216a7aa82d6bd47f4250b30f27638ce520b86bbaf3afb91d565b78d",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.43469059467315674,
+      "cosine_real_same_class": {
+        "flash": 0.4761057198047638
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_d4b77f80a3cbfd80d9fa289b330049dcc757eb865b7ad0f27f1867ab6ff01eca",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.233432799577713,
+      "cosine_real_same_class": {
+        "flash": 0.2220114916563034
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_0aff779d2ffcf2bf34bca97d604d0f471601df920febba85ae181235f1c71af0",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18905191123485565,
+      "cosine_real_same_class": {
+        "black": 0.16480420529842377
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_10824b301c2357cb2333bacba0337edfbd225db936c67b729198f45ff22d9555",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.517535924911499,
+      "cosine_real_same_class": {
+        "black": 0.43190404772758484
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_31a513d04f3921d597555799dc70ee528865f4c4aeaf126d9fe78fada153da7e",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.39498573541641235,
+      "cosine_real_same_class": {
+        "black": 0.3269907832145691
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_b187595a1dbfa40587d9a3928c96d834004898da29551fc287edb643d6420fb3",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3953205943107605,
+      "cosine_real_same_class": {
+        "black": 0.31331390142440796
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_ff67e93c0680248d5b4ec42daa8dcd9b8775b131bf6177c6d95fcf70ae156c55",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.49607381224632263,
+      "cosine_real_same_class": {
+        "flash": 0.512615442276001
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8730e5b937e39e0254436866dd515452986482699bc12604875a3b6c66c5d566",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.48255839943885803,
+      "cosine_real_same_class": {
+        "flash": 0.5301487445831299
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_3534202c7af7a7678e4e2a662cc95862659c774057ffc49b4702d13631c4c8e4",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2987484633922577,
+      "cosine_real_same_class": {
+        "black": 0.27566149830818176
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_4f57c30703481c0b91db49fe3f9338422dfa6ac43cff65a525d537d145358740",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.26211631298065186,
+      "cosine_real_same_class": {
+        "black": 0.2671627700328827
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_bad3de50de8112d6fee2a95da9e37e464e5c217abf31c787c0cdb602cb7f88ec",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.45385444164276123,
+      "cosine_real_same_class": {
+        "black": 0.3783036768436432
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_dbedca1faa3c9a3f3e983395c5729efa3598b3ffae3e6a69add0349f9f70b80f",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3075484037399292,
+      "cosine_real_same_class": {
+        "flash": 0.2807820439338684
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_9ff8b5726cff7342db0aca88fe95947ccca30c62b6c32e16b401be029a117da6",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2850644886493683,
+      "cosine_real_same_class": {
+        "black": 0.31608524918556213
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_9a79999e88b8a89217a6f42c7ef22d18f2f625527921af291d850d3133b8feeb",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.21263742446899414,
+      "cosine_real_same_class": {
+        "black": 0.24744755029678345
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_757b0ec7fd2a3db3ca17db651d3dc52d57434a5160318df3c89e078fa71e92c6",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4339965283870697,
+      "cosine_real_same_class": {
+        "flash": 0.4379584789276123
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_cc513099e20110a5bc37399ac9a7cfc7764e338e6a038627e3c3391c6af0f9fb",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.45379704236984253,
+      "cosine_real_same_class": {
+        "black": 0.37651821970939636
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_57729cf70ef3869970eaf28f0b77bc4f907393b6c89dbd8e504829beff878b73",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3909161686897278,
+      "cosine_real_same_class": {
+        "flash": 0.39241093397140503
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_9701f1911815f85c06d8fc5d891985069bd9e53920c84cd91972b022cacb0ef6",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5471038222312927,
+      "cosine_real_same_class": {
+        "flash": 0.5893979668617249
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8b5714b258ed7ba1069911b4980686c6c80ccea2f8095b394e9c5cc591652321",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.27818799018859863,
+      "cosine_real_same_class": {
+        "black": 0.2578568756580353
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_ba7e74435471a3395978aea7e97ce2d965a9f488082087a0f7cfd5cbf7f3c274",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.21177519857883453,
+      "cosine_real_same_class": {
+        "black": 0.2672504186630249
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_bff492c8833f5102debe9d9de991e92648299e6cccb63a85876f591899870d6c",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4672337472438812,
+      "cosine_real_same_class": {
+        "flash": 0.4704322814941406
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_d3c9a63050fd4e425cfa586dd7207bf5d0e82e3a2fb14766b93564bb0a3c7f19",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4139852523803711,
+      "cosine_real_same_class": {
+        "flash": 0.42308536171913147
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_a28e208629664b934de799f579a49fb6c3e6bfa8efa19c74c594480ffa000f32",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3451520800590515,
+      "cosine_real_same_class": {
+        "flash": 0.35928696393966675
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_deefac834787518b9a298575df1a0dc6de8646756477e6839020467f4475cbf3",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.29076439142227173,
+      "cosine_real_same_class": {
+        "flash": 0.2569914162158966
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_6431341df3cbf60303be7f166d30e12748c805cbe68bd68cb99e75e8c934a497",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2657516300678253,
+      "cosine_real_same_class": {
+        "black": 0.3070373237133026
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_93462a10dd988bb8295b19bf4a5400928e7016dc5db9e5e717645d123be2f63c",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5146342515945435,
+      "cosine_real_same_class": {
+        "flash": 0.5273889303207397
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_a88204dd5453dbddb2547669fd9ee18f01de52178dc33247e47757c5c91e39b2",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3454309105873108,
+      "cosine_real_same_class": {
+        "flash": 0.3460167348384857
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_88a3c21afefe5398f068a79a5af2382e545b979e0b9b4259dc4eb93f6aa28479",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.29655176401138306,
+      "cosine_real_same_class": {
+        "flash": 0.3048231303691864
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_e82ef340825cd939dd6561bbda228d54bf532486047a06cfa7075580eed9a666",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2757599651813507,
+      "cosine_real_same_class": {
+        "black": 0.31656503677368164
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_953d8f47a5e8a15e4261357c93d5d0962360ebc4bbbb37fc6a0f82efbd97b2e0",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.30001670122146606,
+      "cosine_real_same_class": {
+        "flash": 0.262087881565094
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_9c56b359daee0dec6dd8f26edf3965ecbe569fa40fb1b37beca8f621d418a354",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2774353623390198,
+      "cosine_real_same_class": {
+        "flash": 0.24899491667747498
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8f749ba33d4968959f123e3c5e6588cfe5bd86f2c8c4d86e87721f937170fae6",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4546753764152527,
+      "cosine_real_same_class": {
+        "flash": 0.47318026423454285
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_fe340514465e6c699de50a736cdf9607fd9c293dd4a1d6a26553370c8a568eb4",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18078486621379852,
+      "cosine_real_same_class": {
+        "black": 0.22733359038829803
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_738b3cef8b8cb47f7c3b3ba89d154bfb976c86bb4add782d45d737c280baab71",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.44812649488449097,
+      "cosine_real_same_class": {
+        "black": 0.3701305091381073
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_5e94f3b1dba74ac3e2d349084fc4d8041b5b4db4942a4c496e968a32bb7fa434",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3013667166233063,
+      "cosine_real_same_class": {
+        "black": 0.3319217264652252
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_f67c75fb17bbeffa26d59d664c8b3b50f5572f8e6e10b23e5b8dd5f7e7676068",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.41439151763916016,
+      "cosine_real_same_class": {
+        "flash": 0.4270353317260742
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_ee679d37140ffab942db6cd218da8ea657fdf72f58abf79c9249c423342142c5",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.37261825799942017,
+      "cosine_real_same_class": {
+        "flash": 0.37067314982414246
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_74315c3938c35b01679835302423933bb6786bd924731d87ca74edba1bd8f93a",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.31787142157554626,
+      "cosine_real_same_class": {
+        "black": 0.35692623257637024
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_5e52ebcdce0c5c8aedd2ddf3d2890a5c7c6755da9cb9ead9c4512986abb94697",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.29851794242858887,
+      "cosine_real_same_class": {
+        "flash": 0.2951159179210663
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_850de5de1025ff5d6aca9279bd8c45a485e8f1a4d2b5e19b152d150f570e4938",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5184634923934937,
+      "cosine_real_same_class": {
+        "flash": 0.5603941082954407
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_1427fcf576c330ce96e1ad0ddb2956803c3cac2430dd839552066e4c63192bbe",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.211397185921669,
+      "cosine_real_same_class": {
+        "black": 0.275337815284729
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_c9213294c1b0e1098c6742da0c23263e479a4571cf83b0f631094ccb41bc7c3e",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.35295388102531433,
+      "cosine_real_same_class": {
+        "flash": 0.34320902824401855
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_bea013f52eb92d10ecef43890eb41ce9100ebf76e5fdbe73af8d463b7ba25ca4",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.25142189860343933,
+      "cosine_real_same_class": {
+        "black": 0.25556328892707825
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_072a096cbabf0d48e3c60dd3e44bf0769ca9120d77ee721067effaee8408894b",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3208892047405243,
+      "cosine_real_same_class": {
+        "flash": 0.2798979878425598
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_5827b91bd1ce1a909b3b10071aca2791b472a8f863f5619b6860a84a1803b8f8",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4705691933631897,
+      "cosine_real_same_class": {
+        "flash": 0.4786728620529175
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_fcb6a89113514b603696befb7c2d502c11b7315d5a38b7d8a108f4f1153db577",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.42464208602905273,
+      "cosine_real_same_class": {
+        "black": 0.34199097752571106
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_151ee6d91b071be24b9d8d364e8178510aa6e163f9097a5c54ec0d7c9373304c",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18556556105613708,
+      "cosine_real_same_class": {
+        "black": 0.24594509601593018
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_c73c39fbed074cfe61789cb0284e6bbbe1257034ffd0bd07716346567e626cdf",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.24238061904907227,
+      "cosine_real_same_class": {
+        "black": 0.27813202142715454
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_54b45d61229d4f92431dab58bc87c2461e22b7d7e7c1b779915f5a2ad2e182c9",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.36843737959861755,
+      "cosine_real_same_class": {
+        "flash": 0.4122483730316162
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_6b9b9ae4dfd85604db10a281eb9f8b6a0f2c04c45173fb821e82c4df4278cde8",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.43594929575920105,
+      "cosine_real_same_class": {
+        "flash": 0.43581879138946533
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_7ad977396ef53c3e9a3c8e6974f6ef20a0db18f2fe20737389a6013af3d01c15",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4395138919353485,
+      "cosine_real_same_class": {
+        "flash": 0.43730050325393677
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_5cf8b9c5cd71b02638205608c51d6f0e103f9f7767a29a81f62785692a4c1677",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3048551380634308,
+      "cosine_real_same_class": {
+        "flash": 0.25551655888557434
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_f231644db1d3f5427d0ff421c1b4c652f5f8427d9af591481bf134f1264fcea9",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.5453768968582153,
+      "cosine_real_same_class": {
+        "black": 0.40348297357559204
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_f7a13d51c1f37a409d856c8500cb2b88870ac8d25471ba1694cfe3841a3da674",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.545928955078125,
+      "cosine_real_same_class": {
+        "black": 0.4000387191772461
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "base_asset_e6d9e6ff6879c592baa32d5488350dabbd93e2bca9785e272e1f4f6c6672bfbc",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4613048732280731,
+      "cosine_real_same_class": {
+        "flash": 0.4703275263309479
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_167d66c9212cf8567e8cc97ee255d91b5769d84f59b5ca041386469f941e3360",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3390497863292694,
+      "cosine_real_same_class": {
+        "flash": 0.33814215660095215
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8e85b32ed165b6731dd4c121ab90c562ca01844dd51626a39935c78dd1b8fd46",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3945105969905853,
+      "cosine_real_same_class": {
+        "flash": 0.3975406289100647
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_663062a59d81d70943650ef73bdafa4a994f4dfeea763b1418fcf3824b7c1420",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.146329864859581,
+      "cosine_real_same_class": {
+        "flash": 0.1263451725244522
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_80112bb29451b5fe52f42c40efe442cfc4a868389a9739c83c746e51c30b5304",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.48043155670166016,
+      "cosine_real_same_class": {
+        "flash": 0.5154017210006714
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_8660191f3a8cbd40dd48ba44aa2f542c9641702a44f6cab396dec5210786bce9",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.28180021047592163,
+      "cosine_real_same_class": {
+        "flash": 0.24248801171779633
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_3e475bf4fc27d0e4c0f625c9f4a900ade4121307b15f0e5fdf0f1d6f2aa384d2",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3486536145210266,
+      "cosine_real_same_class": {
+        "flash": 0.3500966429710388
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_2cd9fd670f6185969c61ef61c0a7c15d7a99066c2c5273624221225e9a4a78dd",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4552912712097168,
+      "cosine_real_same_class": {
+        "flash": 0.4635189175605774
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "base_asset_9e41269bb2ebe8ccbe40b52b7ed2674d78e64ea2a40cac51cf7a50892394f44a",
+      "bank": "real",
+      "slot_id": null,
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3132336437702179,
+      "cosine_real_same_class": {
+        "flash": 0.3330467939376831
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "bank": "A",
+      "slot_id": "black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2438022494316101,
+      "cosine_real_same_class": {
+        "black": 0.2657483220100403
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "bank": "B",
+      "slot_id": "black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.17633485794067383,
+      "cosine_real_same_class": {
+        "black": 0.19671225547790527
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "bank": "C",
+      "slot_id": "black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18104514479637146,
+      "cosine_real_same_class": {
+        "black": 0.1982051134109497
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "bank": "A",
+      "slot_id": "flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.44175007939338684,
+      "cosine_real_same_class": {
+        "flash": 0.4486207664012909
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "bank": "B",
+      "slot_id": "flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4317586421966553,
+      "cosine_real_same_class": {
+        "flash": 0.440942645072937
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "bank": "C",
+      "slot_id": "flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.43107905983924866,
+      "cosine_real_same_class": {
+        "flash": 0.44006800651550293
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "bank": "A",
+      "slot_id": "black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.27436497807502747,
+      "cosine_real_same_class": {
+        "black": 0.31250154972076416
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "bank": "B",
+      "slot_id": "black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2623751163482666,
+      "cosine_real_same_class": {
+        "black": 0.298027902841568
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "bank": "C",
+      "slot_id": "black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2854445278644562,
+      "cosine_real_same_class": {
+        "black": 0.3192329406738281
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "bank": "A",
+      "slot_id": "flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2211008071899414,
+      "cosine_real_same_class": {
+        "flash": 0.17893335223197937
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "bank": "B",
+      "slot_id": "flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.24744203686714172,
+      "cosine_real_same_class": {
+        "flash": 0.1995866298675537
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "bank": "C",
+      "slot_id": "flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.22354581952095032,
+      "cosine_real_same_class": {
+        "flash": 0.18168407678604126
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "bank": "A",
+      "slot_id": "flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.24449291825294495,
+      "cosine_real_same_class": {
+        "flash": 0.19754204154014587
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "bank": "B",
+      "slot_id": "flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2157382369041443,
+      "cosine_real_same_class": {
+        "flash": 0.17261594533920288
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "bank": "C",
+      "slot_id": "flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.23229390382766724,
+      "cosine_real_same_class": {
+        "flash": 0.18753837049007416
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "bank": "A",
+      "slot_id": "flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2710566520690918,
+      "cosine_real_same_class": {
+        "flash": 0.23558653891086578
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "bank": "B",
+      "slot_id": "flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.25782182812690735,
+      "cosine_real_same_class": {
+        "flash": 0.22168269753456116
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "bank": "C",
+      "slot_id": "flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.23826181888580322,
+      "cosine_real_same_class": {
+        "flash": 0.2061961591243744
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "bank": "A",
+      "slot_id": "flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3213675618171692,
+      "cosine_real_same_class": {
+        "flash": 0.27496787905693054
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "bank": "B",
+      "slot_id": "flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.30370378494262695,
+      "cosine_real_same_class": {
+        "flash": 0.25765565037727356
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "bank": "C",
+      "slot_id": "flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.31391119956970215,
+      "cosine_real_same_class": {
+        "flash": 0.26739442348480225
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "bank": "A",
+      "slot_id": "black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4625806212425232,
+      "cosine_real_same_class": {
+        "black": 0.3797121047973633
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "bank": "B",
+      "slot_id": "black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3341064751148224,
+      "cosine_real_same_class": {
+        "black": 0.2764953672885895
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "bank": "C",
+      "slot_id": "black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4984006881713867,
+      "cosine_real_same_class": {
+        "black": 0.411898672580719
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "bank": "A",
+      "slot_id": "black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.15607225894927979,
+      "cosine_real_same_class": {
+        "black": 0.14829577505588531
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "bank": "B",
+      "slot_id": "black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.17878152430057526,
+      "cosine_real_same_class": {
+        "black": 0.1710921823978424
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "bank": "C",
+      "slot_id": "black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18401335179805756,
+      "cosine_real_same_class": {
+        "black": 0.17801152169704437
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "bank": "A",
+      "slot_id": "black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3292558193206787,
+      "cosine_real_same_class": {
+        "black": 0.2855016589164734
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "bank": "B",
+      "slot_id": "black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.29672420024871826,
+      "cosine_real_same_class": {
+        "black": 0.2414872795343399
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "bank": "C",
+      "slot_id": "black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3189130127429962,
+      "cosine_real_same_class": {
+        "black": 0.27131345868110657
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "bank": "A",
+      "slot_id": "black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.37564700841903687,
+      "cosine_real_same_class": {
+        "black": 0.333707720041275
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "bank": "B",
+      "slot_id": "black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3981170058250427,
+      "cosine_real_same_class": {
+        "black": 0.3488796353340149
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "bank": "C",
+      "slot_id": "black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3500623106956482,
+      "cosine_real_same_class": {
+        "black": 0.3048363924026489
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "bank": "A",
+      "slot_id": "black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.1949959546327591,
+      "cosine_real_same_class": {
+        "black": 0.2542840838432312
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "bank": "B",
+      "slot_id": "black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2098512202501297,
+      "cosine_real_same_class": {
+        "black": 0.25854167342185974
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "bank": "C",
+      "slot_id": "black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.1468728929758072,
+      "cosine_real_same_class": {
+        "black": 0.1917436718940735
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "bank": "A",
+      "slot_id": "black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.25495901703834534,
+      "cosine_real_same_class": {
+        "black": 0.2623298764228821
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "bank": "B",
+      "slot_id": "black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.24480605125427246,
+      "cosine_real_same_class": {
+        "black": 0.2536601126194
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "bank": "C",
+      "slot_id": "black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.26409798860549927,
+      "cosine_real_same_class": {
+        "black": 0.269973486661911
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "bank": "A",
+      "slot_id": "flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4390867352485657,
+      "cosine_real_same_class": {
+        "flash": 0.46079835295677185
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "bank": "B",
+      "slot_id": "flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4841867685317993,
+      "cosine_real_same_class": {
+        "flash": 0.5083742141723633
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "bank": "C",
+      "slot_id": "flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.43476566672325134,
+      "cosine_real_same_class": {
+        "flash": 0.46021318435668945
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "bank": "A",
+      "slot_id": "flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5266534686088562,
+      "cosine_real_same_class": {
+        "flash": 0.5478987693786621
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "bank": "B",
+      "slot_id": "flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5406429767608643,
+      "cosine_real_same_class": {
+        "flash": 0.5649017691612244
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "bank": "C",
+      "slot_id": "flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5437217354774475,
+      "cosine_real_same_class": {
+        "flash": 0.5657813549041748
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "bank": "A",
+      "slot_id": "black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4323712885379791,
+      "cosine_real_same_class": {
+        "black": 0.3493909537792206
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "bank": "B",
+      "slot_id": "black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4278069734573364,
+      "cosine_real_same_class": {
+        "black": 0.34154635667800903
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "bank": "C",
+      "slot_id": "black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.42853063344955444,
+      "cosine_real_same_class": {
+        "black": 0.34207212924957275
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "bank": "A",
+      "slot_id": "flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3051294982433319,
+      "cosine_real_same_class": {
+        "flash": 0.33511635661125183
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "bank": "B",
+      "slot_id": "flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.38257285952568054,
+      "cosine_real_same_class": {
+        "flash": 0.41342222690582275
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "bank": "C",
+      "slot_id": "flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3730764389038086,
+      "cosine_real_same_class": {
+        "flash": 0.4069248139858246
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "bank": "A",
+      "slot_id": "flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.34765753149986267,
+      "cosine_real_same_class": {
+        "flash": 0.3025282323360443
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "bank": "B",
+      "slot_id": "flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.34599292278289795,
+      "cosine_real_same_class": {
+        "flash": 0.3041207790374756
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "bank": "C",
+      "slot_id": "flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.33508291840553284,
+      "cosine_real_same_class": {
+        "flash": 0.2943875193595886
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "bank": "A",
+      "slot_id": "black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4074315130710602,
+      "cosine_real_same_class": {
+        "black": 0.36842426657676697
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "bank": "B",
+      "slot_id": "black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3883892297744751,
+      "cosine_real_same_class": {
+        "black": 0.3513876497745514
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "bank": "C",
+      "slot_id": "black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3883412182331085,
+      "cosine_real_same_class": {
+        "black": 0.34968599677085876
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "bank": "A",
+      "slot_id": "flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.201851025223732,
+      "cosine_real_same_class": {
+        "flash": 0.1868816614151001
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "bank": "B",
+      "slot_id": "flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.18764522671699524,
+      "cosine_real_same_class": {
+        "flash": 0.17085455358028412
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "bank": "C",
+      "slot_id": "flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.20898626744747162,
+      "cosine_real_same_class": {
+        "flash": 0.19244733452796936
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "bank": "A",
+      "slot_id": "black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.26674920320510864,
+      "cosine_real_same_class": {
+        "black": 0.30761921405792236
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "bank": "B",
+      "slot_id": "black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.21636083722114563,
+      "cosine_real_same_class": {
+        "black": 0.2478853017091751
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "bank": "C",
+      "slot_id": "black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2658853530883789,
+      "cosine_real_same_class": {
+        "black": 0.3045893609523773
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "bank": "A",
+      "slot_id": "black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2877063453197479,
+      "cosine_real_same_class": {
+        "black": 0.33296486735343933
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "bank": "B",
+      "slot_id": "black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.26589682698249817,
+      "cosine_real_same_class": {
+        "black": 0.3100326657295227
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "bank": "C",
+      "slot_id": "black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2886785566806793,
+      "cosine_real_same_class": {
+        "black": 0.33288416266441345
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "bank": "A",
+      "slot_id": "black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2731150686740875,
+      "cosine_real_same_class": {
+        "black": 0.31364330649375916
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "bank": "B",
+      "slot_id": "black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2871825695037842,
+      "cosine_real_same_class": {
+        "black": 0.33324190974235535
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "bank": "C",
+      "slot_id": "black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2663816511631012,
+      "cosine_real_same_class": {
+        "black": 0.31162694096565247
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "bank": "A",
+      "slot_id": "black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3477398157119751,
+      "cosine_real_same_class": {
+        "black": 0.3003097176551819
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "bank": "B",
+      "slot_id": "black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3547498881816864,
+      "cosine_real_same_class": {
+        "black": 0.30272796750068665
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "bank": "C",
+      "slot_id": "black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.34304171800613403,
+      "cosine_real_same_class": {
+        "black": 0.2971375584602356
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "bank": "A",
+      "slot_id": "black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.35247722268104553,
+      "cosine_real_same_class": {
+        "black": 0.30470430850982666
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "bank": "B",
+      "slot_id": "black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2876509726047516,
+      "cosine_real_same_class": {
+        "black": 0.2341850996017456
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "bank": "C",
+      "slot_id": "black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3511706292629242,
+      "cosine_real_same_class": {
+        "black": 0.2994738221168518
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "bank": "A",
+      "slot_id": "black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2535451352596283,
+      "cosine_real_same_class": {
+        "black": 0.2739514112472534
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "bank": "B",
+      "slot_id": "black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.23124906420707703,
+      "cosine_real_same_class": {
+        "black": 0.2512871325016022
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "bank": "C",
+      "slot_id": "black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.24551382660865784,
+      "cosine_real_same_class": {
+        "black": 0.26823073625564575
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "bank": "A",
+      "slot_id": "flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.44898003339767456,
+      "cosine_real_same_class": {
+        "flash": 0.46138978004455566
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "bank": "B",
+      "slot_id": "flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4735535681247711,
+      "cosine_real_same_class": {
+        "flash": 0.4842487573623657
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "bank": "C",
+      "slot_id": "flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4557735025882721,
+      "cosine_real_same_class": {
+        "flash": 0.4701078236103058
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "bank": "A",
+      "slot_id": "black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3043816089630127,
+      "cosine_real_same_class": {
+        "black": 0.34666621685028076
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "bank": "B",
+      "slot_id": "black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.30332738161087036,
+      "cosine_real_same_class": {
+        "black": 0.34244266152381897
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "bank": "C",
+      "slot_id": "black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.28402143716812134,
+      "cosine_real_same_class": {
+        "black": 0.32123833894729614
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "bank": "A",
+      "slot_id": "flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.28925591707229614,
+      "cosine_real_same_class": {
+        "flash": 0.2596990168094635
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "bank": "B",
+      "slot_id": "flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.313985675573349,
+      "cosine_real_same_class": {
+        "flash": 0.28230762481689453
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "bank": "C",
+      "slot_id": "flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2947736382484436,
+      "cosine_real_same_class": {
+        "flash": 0.26401248574256897
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "bank": "A",
+      "slot_id": "flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.47135812044143677,
+      "cosine_real_same_class": {
+        "flash": 0.4952276945114136
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "bank": "B",
+      "slot_id": "flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.48778486251831055,
+      "cosine_real_same_class": {
+        "flash": 0.5134209990501404
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "bank": "C",
+      "slot_id": "flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4676936864852905,
+      "cosine_real_same_class": {
+        "flash": 0.4941495656967163
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "bank": "A",
+      "slot_id": "black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3106110095977783,
+      "cosine_real_same_class": {
+        "black": 0.3480117917060852
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "bank": "B",
+      "slot_id": "black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3203529417514801,
+      "cosine_real_same_class": {
+        "black": 0.3604778051376343
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "bank": "C",
+      "slot_id": "black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.301359623670578,
+      "cosine_real_same_class": {
+        "black": 0.3242591917514801
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "bank": "A",
+      "slot_id": "flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.31867295503616333,
+      "cosine_real_same_class": {
+        "flash": 0.2714811861515045
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "bank": "B",
+      "slot_id": "flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2970828413963318,
+      "cosine_real_same_class": {
+        "flash": 0.2451854795217514
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "bank": "C",
+      "slot_id": "flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.29519152641296387,
+      "cosine_real_same_class": {
+        "flash": 0.24797968566417694
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "bank": "A",
+      "slot_id": "flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.30964431166648865,
+      "cosine_real_same_class": {
+        "flash": 0.2595004439353943
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "bank": "B",
+      "slot_id": "flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2822693884372711,
+      "cosine_real_same_class": {
+        "flash": 0.23554986715316772
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "bank": "C",
+      "slot_id": "flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.22033071517944336,
+      "cosine_real_same_class": {
+        "flash": 0.18107156455516815
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "bank": "A",
+      "slot_id": "flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.28800392150878906,
+      "cosine_real_same_class": {
+        "flash": 0.24276724457740784
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "bank": "B",
+      "slot_id": "flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.26869842410087585,
+      "cosine_real_same_class": {
+        "flash": 0.22563964128494263
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "bank": "C",
+      "slot_id": "flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.24839022755622864,
+      "cosine_real_same_class": {
+        "flash": 0.20575284957885742
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "bank": "A",
+      "slot_id": "flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.22429735958576202,
+      "cosine_real_same_class": {
+        "flash": 0.19035941362380981
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "bank": "B",
+      "slot_id": "flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.19835558533668518,
+      "cosine_real_same_class": {
+        "flash": 0.16575631499290466
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "bank": "C",
+      "slot_id": "flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.1947520226240158,
+      "cosine_real_same_class": {
+        "flash": 0.16926586627960205
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "bank": "A",
+      "slot_id": "flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3285144567489624,
+      "cosine_real_same_class": {
+        "flash": 0.31764912605285645
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "bank": "B",
+      "slot_id": "flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.32971659302711487,
+      "cosine_real_same_class": {
+        "flash": 0.3191725015640259
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "bank": "C",
+      "slot_id": "flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3323245346546173,
+      "cosine_real_same_class": {
+        "flash": 0.3222006559371948
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "bank": "A",
+      "slot_id": "black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4015986919403076,
+      "cosine_real_same_class": {
+        "black": 0.3549753427505493
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "bank": "B",
+      "slot_id": "black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4299464821815491,
+      "cosine_real_same_class": {
+        "black": 0.37664690613746643
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "bank": "C",
+      "slot_id": "black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.41968101263046265,
+      "cosine_real_same_class": {
+        "black": 0.3629603683948517
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "bank": "A",
+      "slot_id": "flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4867328107357025,
+      "cosine_real_same_class": {
+        "flash": 0.5108946561813354
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "bank": "B",
+      "slot_id": "flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.45206913352012634,
+      "cosine_real_same_class": {
+        "flash": 0.47752925753593445
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "bank": "C",
+      "slot_id": "flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5318324565887451,
+      "cosine_real_same_class": {
+        "flash": 0.55686354637146
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "bank": "A",
+      "slot_id": "black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.23073290288448334,
+      "cosine_real_same_class": {
+        "black": 0.2692357301712036
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "bank": "B",
+      "slot_id": "black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.21379713714122772,
+      "cosine_real_same_class": {
+        "black": 0.24795033037662506
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "bank": "C",
+      "slot_id": "black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2385185807943344,
+      "cosine_real_same_class": {
+        "black": 0.2765007019042969
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "bank": "A",
+      "slot_id": "black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.28787311911582947,
+      "cosine_real_same_class": {
+        "black": 0.32707053422927856
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "bank": "B",
+      "slot_id": "black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.28450801968574524,
+      "cosine_real_same_class": {
+        "black": 0.3232324719429016
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "bank": "C",
+      "slot_id": "black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2761012017726898,
+      "cosine_real_same_class": {
+        "black": 0.3132784962654114
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "bank": "A",
+      "slot_id": "flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4169277846813202,
+      "cosine_real_same_class": {
+        "flash": 0.4241982400417328
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "bank": "B",
+      "slot_id": "flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3847998082637787,
+      "cosine_real_same_class": {
+        "flash": 0.39150547981262207
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "bank": "C",
+      "slot_id": "flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4316078722476959,
+      "cosine_real_same_class": {
+        "flash": 0.442621648311615
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "bank": "A",
+      "slot_id": "flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.29985883831977844,
+      "cosine_real_same_class": {
+        "flash": 0.2666670083999634
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "bank": "B",
+      "slot_id": "flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.29276981949806213,
+      "cosine_real_same_class": {
+        "flash": 0.2577403783798218
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "bank": "C",
+      "slot_id": "flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2798592448234558,
+      "cosine_real_same_class": {
+        "flash": 0.2517125606536865
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "bank": "A",
+      "slot_id": "black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4063711166381836,
+      "cosine_real_same_class": {
+        "black": 0.33416447043418884
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "bank": "B",
+      "slot_id": "black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.43925878405570984,
+      "cosine_real_same_class": {
+        "black": 0.3686201870441437
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "bank": "C",
+      "slot_id": "black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4236202836036682,
+      "cosine_real_same_class": {
+        "black": 0.3566800653934479
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "bank": "A",
+      "slot_id": "flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.20452333986759186,
+      "cosine_real_same_class": {
+        "flash": 0.2064446061849594
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "bank": "B",
+      "slot_id": "flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.1715388000011444,
+      "cosine_real_same_class": {
+        "flash": 0.17448298633098602
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "bank": "C",
+      "slot_id": "flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3711296319961548,
+      "cosine_real_same_class": {
+        "flash": 0.36266371607780457
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "bank": "A",
+      "slot_id": "flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4409968852996826,
+      "cosine_real_same_class": {
+        "flash": 0.4758274257183075
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "bank": "B",
+      "slot_id": "flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5069330930709839,
+      "cosine_real_same_class": {
+        "flash": 0.548449695110321
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "bank": "C",
+      "slot_id": "flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.5573430061340332,
+      "cosine_real_same_class": {
+        "flash": 0.5967379212379456
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "bank": "A",
+      "slot_id": "flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3789556324481964,
+      "cosine_real_same_class": {
+        "flash": 0.3852026164531708
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "bank": "B",
+      "slot_id": "flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.25215309858322144,
+      "cosine_real_same_class": {
+        "flash": 0.24977697432041168
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "bank": "C",
+      "slot_id": "flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.15949861705303192,
+      "cosine_real_same_class": {
+        "flash": 0.16787561774253845
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "bank": "A",
+      "slot_id": "black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.29553383588790894,
+      "cosine_real_same_class": {
+        "black": 0.3243859112262726
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "bank": "B",
+      "slot_id": "black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.29017412662506104,
+      "cosine_real_same_class": {
+        "black": 0.3213123381137848
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "bank": "C",
+      "slot_id": "black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3174877464771271,
+      "cosine_real_same_class": {
+        "black": 0.343730092048645
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "bank": "A",
+      "slot_id": "flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4027217924594879,
+      "cosine_real_same_class": {
+        "flash": 0.42416056990623474
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "bank": "B",
+      "slot_id": "flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4075651168823242,
+      "cosine_real_same_class": {
+        "flash": 0.43215280771255493
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "bank": "C",
+      "slot_id": "flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4080595374107361,
+      "cosine_real_same_class": {
+        "flash": 0.4307253956794739
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "bank": "A",
+      "slot_id": "black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.18868094682693481,
+      "cosine_real_same_class": {
+        "black": 0.22106219828128815
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "bank": "B",
+      "slot_id": "black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2274460792541504,
+      "cosine_real_same_class": {
+        "black": 0.2554241716861725
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "bank": "C",
+      "slot_id": "black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.20234666764736176,
+      "cosine_real_same_class": {
+        "black": 0.23081021010875702
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "bank": "A",
+      "slot_id": "flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.28520530462265015,
+      "cosine_real_same_class": {
+        "flash": 0.28227463364601135
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "bank": "B",
+      "slot_id": "flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.30377236008644104,
+      "cosine_real_same_class": {
+        "flash": 0.29439494013786316
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "bank": "C",
+      "slot_id": "flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.21177297830581665,
+      "cosine_real_same_class": {
+        "flash": 0.2105589210987091
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "bank": "A",
+      "slot_id": "black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3348030149936676,
+      "cosine_real_same_class": {
+        "black": 0.3032957911491394
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "bank": "B",
+      "slot_id": "black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3158472180366516,
+      "cosine_real_same_class": {
+        "black": 0.2879399359226227
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "bank": "C",
+      "slot_id": "black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3331608474254608,
+      "cosine_real_same_class": {
+        "black": 0.3104444742202759
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "bank": "A",
+      "slot_id": "flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2805624008178711,
+      "cosine_real_same_class": {
+        "flash": 0.24158349633216858
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "bank": "B",
+      "slot_id": "flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.28224536776542664,
+      "cosine_real_same_class": {
+        "flash": 0.24108996987342834
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "bank": "C",
+      "slot_id": "flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.26894035935401917,
+      "cosine_real_same_class": {
+        "flash": 0.22555305063724518
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "bank": "A",
+      "slot_id": "flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.35522744059562683,
+      "cosine_real_same_class": {
+        "flash": 0.3585602641105652
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "bank": "B",
+      "slot_id": "flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3656286895275116,
+      "cosine_real_same_class": {
+        "flash": 0.36853116750717163
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "bank": "C",
+      "slot_id": "flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.37533503770828247,
+      "cosine_real_same_class": {
+        "flash": 0.3822711408138275
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "bank": "A",
+      "slot_id": "black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2909071147441864,
+      "cosine_real_same_class": {
+        "black": 0.32512226700782776
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "bank": "B",
+      "slot_id": "black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2991918921470642,
+      "cosine_real_same_class": {
+        "black": 0.3304239809513092
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "bank": "C",
+      "slot_id": "black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.27085956931114197,
+      "cosine_real_same_class": {
+        "black": 0.29634854197502136
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "bank": "A",
+      "slot_id": "flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.30929580330848694,
+      "cosine_real_same_class": {
+        "flash": 0.25585854053497314
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "bank": "B",
+      "slot_id": "flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3053782880306244,
+      "cosine_real_same_class": {
+        "flash": 0.25737088918685913
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "bank": "C",
+      "slot_id": "flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.3088882267475128,
+      "cosine_real_same_class": {
+        "flash": 0.25490865111351013
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "bank": "A",
+      "slot_id": "flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.40317144989967346,
+      "cosine_real_same_class": {
+        "flash": 0.4001162350177765
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "bank": "B",
+      "slot_id": "flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4295685887336731,
+      "cosine_real_same_class": {
+        "flash": 0.4306343197822571
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "bank": "C",
+      "slot_id": "flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.38624170422554016,
+      "cosine_real_same_class": {
+        "flash": 0.3837430477142334
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "bank": "A",
+      "slot_id": "black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.29595673084259033,
+      "cosine_real_same_class": {
+        "black": 0.24319328367710114
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "bank": "B",
+      "slot_id": "black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.4282148480415344,
+      "cosine_real_same_class": {
+        "black": 0.360784649848938
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "bank": "C",
+      "slot_id": "black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3922242522239685,
+      "cosine_real_same_class": {
+        "black": 0.33728262782096863
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "bank": "A",
+      "slot_id": "black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.42428627610206604,
+      "cosine_real_same_class": {
+        "black": 0.3698127269744873
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "bank": "B",
+      "slot_id": "black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3737097382545471,
+      "cosine_real_same_class": {
+        "black": 0.32663336396217346
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "bank": "C",
+      "slot_id": "black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.3846098780632019,
+      "cosine_real_same_class": {
+        "black": 0.3420778512954712
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "bank": "A",
+      "slot_id": "flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2979041337966919,
+      "cosine_real_same_class": {
+        "flash": 0.28139227628707886
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "bank": "B",
+      "slot_id": "flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.27144655585289,
+      "cosine_real_same_class": {
+        "flash": 0.2519160509109497
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "bank": "C",
+      "slot_id": "flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.2962864637374878,
+      "cosine_real_same_class": {
+        "flash": 0.27957063913345337
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "bank": "A",
+      "slot_id": "black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.25335821509361267,
+      "cosine_real_same_class": {
+        "black": 0.2916918694972992
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "bank": "B",
+      "slot_id": "black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2605452835559845,
+      "cosine_real_same_class": {
+        "black": 0.3003634810447693
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "bank": "C",
+      "slot_id": "black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "class_memberships": [
+        "black"
+      ],
+      "cosine_real_global": 0.2637026011943817,
+      "cosine_real_same_class": {
+        "black": 0.30555856227874756
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "black": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "bank": "A",
+      "slot_id": "flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4633062183856964,
+      "cosine_real_same_class": {
+        "flash": 0.49075448513031006
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "bank": "B",
+      "slot_id": "flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.446576863527298,
+      "cosine_real_same_class": {
+        "flash": 0.46847960352897644
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    },
+    {
+      "role_id": "extra_flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "bank": "C",
+      "slot_id": "flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "class_memberships": [
+        "flash"
+      ],
+      "cosine_real_global": 0.4861301779747009,
+      "cosine_real_same_class": {
+        "flash": 0.5106332302093506
+      },
+      "global_conflict": false,
+      "same_class_conflict": {
+        "flash": false
+      }
+    }
+  ],
+  "summary": {
+    "real": {
+      "null": {
+        "global": {
+          "n": 109,
+          "mean": 0.3496183958075462,
+          "median": 0.33459874987602234,
+          "std": 0.11108186322703663,
+          "iqr": 0.17521008849143982,
+          "q0": 0.09013424813747406,
+          "q25": 0.2757599651813507,
+          "q75": 0.4509700536727905,
+          "q90": 0.4931323707103729,
+          "q95": 0.5180924654006958,
+          "q100": 0.5471038222312927
+        },
+        "same_class": null
+      },
+      "flash": {
+        "global": {
+          "n": 63,
+          "mean": 0.3855678711145643,
+          "median": 0.3909161686897278,
+          "std": 0.09101778859693838,
+          "iqr": 0.15172524750232697,
+          "q0": 0.146329864859581,
+          "q25": 0.3102307617664337,
+          "q75": 0.4619560092687607,
+          "q90": 0.4953384518623352,
+          "q95": 0.5141137599945068,
+          "q100": 0.5471038222312927
+        },
+        "same_class": {
+          "n": 63,
+          "mean": 0.38673350853579386,
+          "median": 0.3975406289100647,
+          "std": 0.10963569235789997,
+          "iqr": 0.18467487394809723,
+          "q0": 0.1263451725244522,
+          "q25": 0.2963190823793411,
+          "q75": 0.48099395632743835,
+          "q90": 0.5179672956466675,
+          "q95": 0.530123233795166,
+          "q100": 0.5893979668617249
+        }
+      },
+      "black": {
+        "global": {
+          "n": 46,
+          "mean": 0.30038324484358664,
+          "median": 0.2748529314994812,
+          "std": 0.1170410637597935,
+          "iqr": 0.18302779272198677,
+          "q0": 0.09013424813747406,
+          "q25": 0.21199075505137444,
+          "q75": 0.3950185477733612,
+          "q90": 0.4708067327737808,
+          "q95": 0.5229072272777557,
+          "q100": 0.545928955078125
+        },
+        "same_class": {
+          "n": 46,
+          "mean": 0.29413744078382204,
+          "median": 0.2832365036010742,
+          "std": 0.06865758134643632,
+          "iqr": 0.08769994229078293,
+          "q0": 0.11373502761125565,
+          "q25": 0.2561366856098175,
+          "q75": 0.34383662790060043,
+          "q90": 0.3774109482765198,
+          "q95": 0.398849219083786,
+          "q100": 0.43190404772758484
+        }
+      }
+    },
+    "A": {
+      "null": {
+        "global": {
+          "n": 61,
+          "mean": 0.32724870936792405,
+          "median": 0.30929580330848694,
+          "std": 0.08387298492962439,
+          "iqr": 0.1296067237854004,
+          "q0": 0.15607225894927979,
+          "q25": 0.2731150686740875,
+          "q75": 0.4027217924594879,
+          "q90": 0.44175007939338684,
+          "q95": 0.4633062183856964,
+          "q100": 0.5266534686088562
+        },
+        "same_class": null
+      },
+      "flash": {
+        "global": {
+          "n": 32,
+          "mean": 0.344508224632591,
+          "median": 0.32002025842666626,
+          "std": 0.08734400350174089,
+          "iqr": 0.13516325503587723,
+          "q0": 0.201851025223732,
+          "q25": 0.28730426728725433,
+          "q75": 0.42246752232313156,
+          "q90": 0.46187359988689425,
+          "q95": 0.4782767310738563,
+          "q100": 0.5266534686088562
+        },
+        "same_class": {
+          "n": 32,
+          "mean": 0.3334650909528136,
+          "median": 0.29240143299102783,
+          "std": 0.10905707927676893,
+          "iqr": 0.1777181550860405,
+          "q0": 0.17893335223197937,
+          "q25": 0.2525857165455818,
+          "q75": 0.4303038716316223,
+          "q90": 0.48926177918910985,
+          "q95": 0.5022778272628784,
+          "q100": 0.5478987693786621
+        }
+      },
+      "black": {
+        "global": {
+          "n": 29,
+          "mean": 0.30820372700691223,
+          "median": 0.29553383588790894,
+          "std": 0.07541540095713321,
+          "iqr": 0.0975182056427002,
+          "q0": 0.15607225894927979,
+          "q25": 0.25495901703834534,
+          "q75": 0.35247722268104553,
+          "q90": 0.41080246567726136,
+          "q95": 0.42913728356361386,
+          "q100": 0.4625806212425232
+        },
+        "same_class": {
+          "n": 29,
+          "mean": 0.30523369898056163,
+          "median": 0.31250154972076416,
+          "std": 0.04909560673089553,
+          "iqr": 0.060213059186935425,
+          "q0": 0.14829577505588531,
+          "q25": 0.2739514112472534,
+          "q75": 0.33416447043418884,
+          "q90": 0.3576651275157928,
+          "q95": 0.3692573428153992,
+          "q100": 0.3797121047973633
+        }
+      }
+    },
+    "B": {
+      "null": {
+        "global": {
+          "n": 61,
+          "mean": 0.32242787788148786,
+          "median": 0.30332738161087036,
+          "std": 0.09092106502265188,
+          "iqr": 0.1278439462184906,
+          "q0": 0.1715388000011444,
+          "q25": 0.2605452835559845,
+          "q75": 0.3883892297744751,
+          "q90": 0.446576863527298,
+          "q95": 0.4841867685317993,
+          "q100": 0.5406429767608643
+        },
+        "same_class": null
+      },
+      "flash": {
+        "global": {
+          "n": 32,
+          "mean": 0.34129368141293526,
+          "median": 0.3096819818019867,
+          "std": 0.09893860051320333,
+          "iqr": 0.15935657918453217,
+          "q0": 0.1715388000011444,
+          "q25": 0.2707595229148865,
+          "q75": 0.43011610209941864,
+          "q90": 0.4831234484910965,
+          "q95": 0.49640156626701354,
+          "q100": 0.5406429767608643
+        },
+        "same_class": {
+          "n": 32,
+          "mean": 0.3302966505289078,
+          "median": 0.28835128247737885,
+          "std": 0.12192340399330548,
+          "iqr": 0.19464532285928726,
+          "q0": 0.16575631499290466,
+          "q25": 0.2397049441933632,
+          "q75": 0.43435026705265045,
+          "q90": 0.5059616684913636,
+          "q95": 0.5291839122772216,
+          "q100": 0.5649017691612244
+        }
+      },
+      "black": {
+        "global": {
+          "n": 29,
+          "mean": 0.3016104395019597,
+          "median": 0.29017412662506104,
+          "std": 0.07590033179142948,
+          "iqr": 0.10994383692741394,
+          "q0": 0.17633485794067383,
+          "q25": 0.24480605125427246,
+          "q75": 0.3547498881816864,
+          "q90": 0.427888548374176,
+          "q95": 0.4292538285255432,
+          "q100": 0.43925878405570984
+        },
+        "same_class": {
+          "n": 29,
+          "mean": 0.29722216468432855,
+          "median": 0.30272796750068665,
+          "std": 0.0523600146439385,
+          "iqr": 0.08788624405860901,
+          "q0": 0.1710921823978424,
+          "q25": 0.2536601126194,
+          "q75": 0.34154635667800903,
+          "q90": 0.360539174079895,
+          "q95": 0.3654859721660614,
+          "q100": 0.37664690613746643
+        }
+      }
+    },
+    "C": {
+      "null": {
+        "global": {
+          "n": 61,
+          "mean": 0.3250978229964366,
+          "median": 0.3088882267475128,
+          "std": 0.09766986679115854,
+          "iqr": 0.1246386170387268,
+          "q0": 0.1468728929758072,
+          "q25": 0.2637026011943817,
+          "q75": 0.3883412182331085,
+          "q90": 0.4557735025882721,
+          "q95": 0.4984006881713867,
+          "q100": 0.5573430061340332
+        },
+        "same_class": null
+      },
+      "flash": {
+        "global": {
+          "n": 32,
+          "mean": 0.34115249989554286,
+          "median": 0.32311786711215973,
+          "std": 0.10813525586876171,
+          "iqr": 0.1853531375527382,
+          "q0": 0.15949861705303192,
+          "q25": 0.24585812538862228,
+          "q75": 0.4312112629413605,
+          "q90": 0.48428652882575995,
+          "q95": 0.5371826320886612,
+          "q100": 0.5573430061340332
+        },
+        "same_class": {
+          "n": 32,
+          "mean": 0.33167546335607767,
+          "median": 0.286979079246521,
+          "std": 0.13037465745070406,
+          "iqr": 0.23123818635940552,
+          "q0": 0.16787561774253845,
+          "q25": 0.20946823060512543,
+          "q75": 0.44070641696453094,
+          "q90": 0.5089848637580872,
+          "q95": 0.5608765602111816,
+          "q100": 0.5967379212379456
+        }
+      },
+      "black": {
+        "global": {
+          "n": 29,
+          "mean": 0.30738231745259514,
+          "median": 0.2886785566806793,
+          "std": 0.08102164075902003,
+          "iqr": 0.08707264065742493,
+          "q0": 0.1468728929758072,
+          "q25": 0.26409798860549927,
+          "q75": 0.3511706292629242,
+          "q90": 0.42046886682510376,
+          "q95": 0.42656649351119996,
+          "q100": 0.4984006881713867
+        },
+        "same_class": {
+          "n": 29,
+          "mean": 0.30248570647732964,
+          "median": 0.3104444742202759,
+          "std": 0.05148653830877111,
+          "iqr": 0.06078192591667175,
+          "q0": 0.17801152169704437,
+          "q25": 0.2765007019042969,
+          "q75": 0.33728262782096863,
+          "q90": 0.3510848104953766,
+          "q95": 0.36044824719429014,
+          "q100": 0.411898672580719
+        }
+      }
+    }
+  },
+  "cosine_is_diagnostic_only": true
+}

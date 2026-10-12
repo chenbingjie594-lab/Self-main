@@ -1,0 +1,123 @@
+{
+  "feature_layers": {
+    "backbone_late": 10,
+    "neck": 19
+  },
+  "roi_protocol": "each target box mapped from normalized xywh to feature grid; spatial average per box, then average boxes of same class per image",
+  "per_image_class_roi_pooled": true,
+  "summary": {
+    "backbone_late": {
+      "flash": {
+        "real": {
+          "n": 63,
+          "covariance_trace": 34.60394287004073,
+          "effective_rank": 43.888553320102524
+        },
+        "banks": {
+          "A": {
+            "n": 32,
+            "class_conditional_mean_l2_distance": 1.5698049165926669,
+            "covariance_trace": 43.065989556780835,
+            "effective_rank": 25.67936625050614
+          },
+          "B": {
+            "n": 32,
+            "class_conditional_mean_l2_distance": 1.6502421863769787,
+            "covariance_trace": 45.908954169821016,
+            "effective_rank": 24.552377142529668
+          },
+          "C": {
+            "n": 32,
+            "class_conditional_mean_l2_distance": 1.5551094262825262,
+            "covariance_trace": 41.35925810760232,
+            "effective_rank": 25.072110570882852
+          }
+        }
+      },
+      "black": {
+        "real": {
+          "n": 46,
+          "covariance_trace": 32.06844752775136,
+          "effective_rank": 30.01177286643633
+        },
+        "banks": {
+          "A": {
+            "n": 29,
+            "class_conditional_mean_l2_distance": 1.6345486632017479,
+            "covariance_trace": 39.76758688923973,
+            "effective_rank": 23.277959777567776
+          },
+          "B": {
+            "n": 29,
+            "class_conditional_mean_l2_distance": 1.6821429005343027,
+            "covariance_trace": 41.82246792700498,
+            "effective_rank": 22.743448736321973
+          },
+          "C": {
+            "n": 29,
+            "class_conditional_mean_l2_distance": 1.6369054067199231,
+            "covariance_trace": 41.58802574832533,
+            "effective_rank": 23.153086263229415
+          }
+        }
+      }
+    },
+    "neck": {
+      "flash": {
+        "real": {
+          "n": 63,
+          "covariance_trace": 43.0098008494657,
+          "effective_rank": 29.571044577727683
+        },
+        "banks": {
+          "A": {
+            "n": 32,
+            "class_conditional_mean_l2_distance": 1.5484257686767886,
+            "covariance_trace": 45.738279054331116,
+            "effective_rank": 17.718477336017134
+          },
+          "B": {
+            "n": 32,
+            "class_conditional_mean_l2_distance": 1.4969392990164065,
+            "covariance_trace": 38.74787468078534,
+            "effective_rank": 20.352984599992112
+          },
+          "C": {
+            "n": 32,
+            "class_conditional_mean_l2_distance": 1.4190576812603803,
+            "covariance_trace": 40.320269986261046,
+            "effective_rank": 21.4524422016619
+          }
+        }
+      },
+      "black": {
+        "real": {
+          "n": 46,
+          "covariance_trace": 49.42988459839257,
+          "effective_rank": 21.693527813199605
+        },
+        "banks": {
+          "A": {
+            "n": 29,
+            "class_conditional_mean_l2_distance": 1.6833305352967967,
+            "covariance_trace": 57.45364104773249,
+            "effective_rank": 15.021866042588968
+          },
+          "B": {
+            "n": 29,
+            "class_conditional_mean_l2_distance": 1.7242872819325794,
+            "covariance_trace": 48.29153254267465,
+            "effective_rank": 18.47498786053462
+          },
+          "C": {
+            "n": 29,
+            "class_conditional_mean_l2_distance": 1.7530365752838606,
+            "covariance_trace": 50.61150173012587,
+            "effective_rank": 16.35649153655367
+          }
+        }
+      }
+    }
+  },
+  "no_fid_or_kid": true
+}

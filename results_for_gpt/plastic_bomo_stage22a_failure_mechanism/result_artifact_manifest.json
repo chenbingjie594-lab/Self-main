@@ -1,0 +1,79 @@
+{
+  "scope": "downloaded formal outputs and CPU review",
+  "files": {
+    ".gitattributes": {
+      "sha256": "e97602ab9cac70102245345c5ab0fc9830df8b17f1072b188265a662a3a547ae",
+      "bytes": 20
+    },
+    "classwise_mechanism_audit.json": {
+      "sha256": "609bc71f4245a9eaff79aa82cc422c7857726d851a67fc2a53894cd2270e19c2",
+      "bytes": 50375
+    },
+    "diagnostic_data_manifest.json": {
+      "sha256": "0a18b0d1e07d05c6f4bd0f32ccee3e835e72e16f9fdf91b887b505fbcbc06a63",
+      "bytes": 109092
+    },
+    "diagnostic_protocol.json": {
+      "sha256": "eca52efed98b93d74584d593e4063eab4dd534affcf931fe928a9c81e1f06463",
+      "bytes": 3234
+    },
+    "feature_distribution_audit.json": {
+      "sha256": "ab0fcba19ea116a8061c440dac6bf44948922b3a659de939282b334335311c72",
+      "bytes": 3792
+    },
+    "file_access_guard.json": {
+      "sha256": "7734a9847bcf02e39c76a0ca48ec543bcfe3cfdb1083f2a31f034198e2c7e478",
+      "bytes": 240
+    },
+    "gradient_conflict_audit.json": {
+      "sha256": "38cedaa726fab11cb4248a7d72778f84bad39b6ed41d065ac5d0e9f1185cbd77",
+      "bytes": 2425
+    },
+    "gradient_direction_audit.json": {
+      "sha256": "d4dbf0df710be974852e3a195e2433825fcb15201463af8146b6ff7ac48dadae",
+      "bytes": 148769
+    },
+    "gradient_norm_audit.json": {
+      "sha256": "876eadc9dede3a50f0449e8af532746f70850a116692716375b97a296f8f375a",
+      "bytes": 172344
+    },
+    "loss_distribution_audit.json": {
+      "sha256": "74ff41e9093936ea08fd977e28021bc2b760462c0ce5980a2e76f517ca713c4f",
+      "bytes": 148614
+    },
+    "matched_triplet_audit.json": {
+      "sha256": "81993129cc48ea95ffe4148f8ed3b2d6a306088e6e951e96ed07fab156794b54",
+      "bytes": 95471
+    },
+    "mechanism_candidate_summary.json": {
+      "sha256": "613776b79f148790bd3d0e3fe976e9283edcff669c7699d26f40d8a7c5a6a04a",
+      "bytes": 16604
+    },
+    "model_parameter_binding.json": {
+      "sha256": "29aa98716ac17cae9b8d589487899e11368411e517919f14a431479498a5ecea",
+      "bytes": 1663
+    },
+    "review_integrity_audit.json": {
+      "sha256": "51573511040e27a9d25f3e1ea80ddd65e946ce72d82284dd8a3937fd2978f1d6",
+      "bytes": 2305
+    },
+    "stage22a_preflight.json": {
+      "sha256": "9e0f40aefa01d98cdead87949e81030e2a55e621cb2c0e4d1497fb55db23d7d0",
+      "bytes": 246
+    },
+    "STAGE22A_REPORT.md": {
+      "sha256": "4e4749110e6eeb34abadd0da9910193968e3d5fad8a986acd4b007a6dfd28c79",
+      "bytes": 3110
+    },
+    "STAGE22A_REVIEW.md": {
+      "sha256": "0c898571f282e09dac0b15cf0050d40d1aa5a0d6496b9cec19d1a4d835b8937b",
+      "bytes": 6089
+    },
+    "stage22a_status.json": {
+      "sha256": "2fad4f2c5c09e11e51317511a9532bffa3bbd6bf578ab3c8035d01347c07176c",
+      "bytes": 1291
+    }
+  },
+  "official_content_read": 0,
+  "model_forwards": 0
+}
