@@ -1,0 +1,41 @@
+{
+  "family": "B",
+  "question": "Tiny, weak-contrast and transparent/semitransparent defects",
+  "level": "NOT_VERIFIED",
+  "subquestions": [
+    {
+      "topic": "tiny-defect representation",
+      "level": "WEAK_OR_ALREADY_COVERED",
+      "sources": [
+        "P04",
+        "P10",
+        "P09"
+      ],
+      "finding": "Downsampling difficulty and explicit remedies already published; one reference-attention method also reports a remaining small-reference limitation."
+    },
+    {
+      "topic": "low-contrast defect synthesis",
+      "level": "WEAK_OR_ALREADY_COVERED",
+      "sources": [
+        "P16",
+        "P09",
+        "P19"
+      ],
+      "finding": "MURA is explicitly low-contrast; faint-generation/strength remedies also exist. Increasing visibility is not preserving calibrated weak contrast."
+    },
+    {
+      "topic": "transparent/semitransparent material-specific fidelity",
+      "level": "NOT_VERIFIED",
+      "sources": [
+        "P04",
+        "P15"
+      ],
+      "finding": "No verified benchmark in the reviewed comparisons establishes this full setting. Bottle/glass category names and Plastic_Bomo name are not proof of material/acquisition physics."
+    }
+  ],
+  "remaining_unknown": "Joint size/contrast/material-stratified fidelity under weak annotation; neither a universal failure nor an uncovered method problem is established.",
+  "Plastic_Bomo_feasibility": "Size can be bounded from frozen bbox metadata. Contrast/material ground truth and acquisition factors are not established in this static audit.",
+  "caution": "Do not reopen Stage23B residual/LPIPS or treat a new material name as novelty.",
+  "primary_qualified": false,
+  "method_design_authorized": false
+}

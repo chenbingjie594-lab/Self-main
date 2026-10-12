@@ -1,0 +1,39 @@
+{
+  "family": "A",
+  "question": "End-to-end few-shot industrial synthesis using only bbox/image-level anomaly supervision, no real pixel masks",
+  "level": "PLAUSIBLE_GAP",
+  "broad_claim_rejected": "bbox-guided generation itself is not new; mask-free inference is not mask-free training",
+  "prior_art_comparison": [
+    {
+      "paper_id": "P05",
+      "does": "3-shot bbox inference; main embedding training uses real masks; non-mask ablation explicitly exists",
+      "boundary": "Sec. 6.1 reports weaker anomaly concept binding without masks; the ablation is an essential baseline, not absence of a solution"
+    },
+    {
+      "paper_id": "P16",
+      "does": "position-labelled low-contrast region synthesis",
+      "boundary": "about 200/700 generator training patches; does not demonstrate strict 1-3-shot concept adaptation"
+    },
+    {
+      "paper_id": "P12",
+      "does": "synthetic samples need no new manual pixel annotation",
+      "boundary": "real image-mask training pairs remain required"
+    },
+    {
+      "paper_id": "P17",
+      "does": "zero-anomaly text/normal synthesis with optional region mask",
+      "boundary": "does not learn a specific manufacturing anomaly concept from 1-3 weakly labelled examples"
+    }
+  ],
+  "narrower_unknown": "Whether 1-3 bbox-only examples identify localized tiny anomaly appearance rather than host-object/background features, relative to existing weak-supervision baselines.",
+  "not_established": [
+    "A new algorithmic gap beyond AnoGen non-mask adaptation",
+    "Reliable weak-label endpoint on current Plastic_Bomo",
+    "A reason existing mask-free text generation cannot suffice"
+  ],
+  "Plastic_Bomo_feasibility": "TRAIN bbox labels fit annotation budget; bbox does not provide pixel truth. Existing masks from boxes must not be presented as expert segmentation.",
+  "external_test": "MVTec AD/VisA: hide masks from adaptation; reserve unchanged masks solely for assessment. Future split/protocol needs separate authorization.",
+  "strong_gap": false,
+  "primary_qualified": false,
+  "method_design_authorized": false
+}

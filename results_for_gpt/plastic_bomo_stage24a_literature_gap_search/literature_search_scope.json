@@ -1,0 +1,133 @@
+{
+  "stage": "Stage24A",
+  "date": "2026-10-12",
+  "base_commit": "69cb5db28107acb0e33748ef4c6813aa01e03a0b",
+  "mode": "PRIMARY_LITERATURE_AND_STATIC_REPOSITORY_AUDIT_ONLY",
+  "year_scope": [
+    2023,
+    2026
+  ],
+  "priority_venues": [
+    "CVPR",
+    "ICCV",
+    "ECCV",
+    "NeurIPS",
+    "ICLR",
+    "AAAI",
+    "ACM MM",
+    "T-PAMI",
+    "T-IP",
+    "T-II",
+    "T-ASE",
+    "Pattern Recognition"
+  ],
+  "source_allowlist": [
+    "paper original",
+    "official proceedings",
+    "author arXiv"
+  ],
+  "secondary_summaries_used_as_evidence": false,
+  "reviewed_method_count": 20,
+  "required_methods": [
+    "AnomalyDiffusion",
+    "DefectFill",
+    "GAA",
+    "UniScale"
+  ],
+  "query_families": [
+    {
+      "terms": [
+        "few-shot anomaly generation",
+        "industrial defect generation",
+        "AnomalyDiffusion DefectFill GAA UniScale"
+      ],
+      "purpose": "mandatory methods and citation-neighbor coverage"
+    },
+    {
+      "terms": [
+        "\"few-shot\" \"defect generation\" \"bounding box\"",
+        "\"anomaly generation\" \"mask-free\"",
+        "\"defect generation\" \"weakly\" diffusion",
+        "\"industrial\" \"anomaly generation\" \"bbox\""
+      ],
+      "purpose": "distinguish bbox inference from pixel-mask-free adaptation"
+    },
+    {
+      "terms": [
+        "tiny small low-contrast transparent anomaly diffusion generation",
+        "thin scratch subtle hole generation",
+        "Assigned MURA Defect Generation"
+      ],
+      "purpose": "scale, contrast and material-specific prior art"
+    },
+    {
+      "terms": [
+        "DualAnoDiff SeaS GroundingAnomaly",
+        "generated anomaly image mask annotation reliability",
+        "SAM industrial defect synthesis"
+      ],
+      "purpose": "content-derived labels and existing refinement"
+    },
+    {
+      "terms": [
+        "localized diffusion Blended Latent Diffusion",
+        "DreamBooth 3-5 industrial synthesis",
+        "GLIGEN bounding box generation"
+      ],
+      "purpose": "generic local editing and personalization context"
+    }
+  ],
+  "searched_domains": [
+    "arxiv.org",
+    "openaccess.thecvf.com",
+    "ecva.net",
+    "ojs.aaai.org"
+  ],
+  "search_process": "Iterative title discovery, primary-source verification, method/experimental-section reading and reference-neighbor checks. Queries run across multiple batches; exact engine rankings are not preserved.",
+  "excluded_or_not_fully_reviewed": [
+    {
+      "title": "CADiff",
+      "reason": "primary-source hit discovered but not sufficiently reviewed; no novelty inference from it"
+    },
+    {
+      "title": "Defect Spectrum / Defect-Gen",
+      "reason": "proceedings discovery only in this audit; not used to establish an uncovered gap"
+    },
+    {
+      "title": "Accelerating New Product Introduction via Few-Shot Diffusion-Based Defect Synthesis",
+      "url": "https://arxiv.org/html/2604.22850v1",
+      "reason": "screened; insufficient granular annotation review for matrix inclusion"
+    },
+    {
+      "title": "GLIGEN / DreamBooth",
+      "reason": "generic contextual discovery; industrial adaptation comparison uses reviewed P14/P18, not abstract-only capability claims"
+    },
+    {
+      "title": "diffusion-based anomaly detectors, transparent-object detection and physics defect simulation",
+      "reason": "not defect image generation; detection improvements do not establish synthesis capability"
+    },
+    {
+      "title": "GitHub README / blogs / review sites / paper indexes",
+      "reason": "discovery hits only; not accepted evidence"
+    }
+  ],
+  "limitations": [
+    "Targeted gap search, not an exhaustive systematic review of every journal/venue.",
+    "No-paper-found is not proof of novelty; missing venue-specific evidence cannot support a universal absence claim.",
+    "Version-pinned author text may differ from camera-ready; peer-review status is separate from reviewed text.",
+    "2026 preprints are not automatically peer-reviewed. Workshop/Findings tracks are explicitly distinguished.",
+    "Code links and dataset names do not imply locally verified runnable assets.",
+    "No Plastic_Bomo images, masks, weights, final_eval content or new outputs were opened or measured."
+  ],
+  "stopped_routes": [
+    "current SD2 generator mechanism",
+    "TDCRG",
+    "synthetic timing",
+    "gradient mechanism",
+    "current generation robustness/controllability",
+    "residual/LPIPS gap manufacturing"
+  ],
+  "statistical_pooling_performed": false,
+  "new_method_proposed": false,
+  "experiments_executed": false
+}

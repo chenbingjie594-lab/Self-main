@@ -1,0 +1,43 @@
+{
+  "family": "F",
+  "question": "Whether image+label pairing reflects actual generated content instead of copied conditioning",
+  "level": "PLAUSIBLE_GAP",
+  "prior_art_comparison": [
+    {
+      "paper_id": "P06",
+      "does": "RMP predicts mask from U-Net and VAE features",
+      "boundary": "trained with real masks; content-derived estimate is not guaranteed independent truth"
+    },
+    {
+      "paper_id": "P07",
+      "does": "segments generated anomaly-part image using SAM/U2-Net",
+      "boundary": "not simply copied target mask; accuracy for tiny weak defects needs independent assessment"
+    },
+    {
+      "paper_id": "P19",
+      "does": "SAM refines generated-image mask; confidence/IoU acceptance",
+      "boundary": "filtering is integral; not evidence of raw unfiltered universal reliability"
+    },
+    {
+      "paper_id": "P15",
+      "does": "SAM3 content-derived labels on BSData",
+      "boundary": "MSD thin scratches instead use condition mask because SAM3 fails; explicit label-noise limitation"
+    },
+    {
+      "paper_id": "P05",
+      "does": "bbox weak labels with downstream confidence handling",
+      "boundary": "bbox supervision is not pixel support certification"
+    }
+  ],
+  "narrow_unknown": "Whether content-derived and condition-derived labels remain distinguishable and reliable for tiny/weak/elongated defects under a fixed weak-annotation budget without quality rejection.",
+  "conditions_for_future_test": [
+    "independent blinded assessment of generated labels on a new TRAIN-only diagnostic set",
+    "separate semantic class validity, support geometry and bbox tightness",
+    "do not treat difference-to-normal, conditioning mask or teacher prediction as ground truth"
+  ],
+  "Plastic_Bomo_limit": "Current copied bbox and box-derived masks cannot self-certify label correctness; no new adjudication performed. Historical expert labels remain unchanged.",
+  "novelty_risk": "Generic mask alignment is already covered; a label selector would overlap BootstrapGuard; a broad generator-controllability test would reopen stopped Stage23B.",
+  "strong_gap": false,
+  "primary_qualified": false,
+  "method_design_authorized": false
+}

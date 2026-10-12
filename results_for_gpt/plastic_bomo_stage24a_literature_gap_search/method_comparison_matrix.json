@@ -1,0 +1,749 @@
+{
+  "stage": "Stage24A",
+  "field_semantics": {
+    "missing": "NOT_REPORTED means no explicit finding in reviewed sections, not proven absent; NOT_VERIFIED means unresolved.",
+    "anomaly_count": "Reported experimental count, not a theorem of required minimum. one-third is not 1-shot or 3-shot.",
+    "annotation": "Separate training supervision, inference condition and assessment truth.",
+    "code": "Paper-announced links; no code/checkpoint installed or reproduced.",
+    "detector": "Image/pixel anomaly detection is not box detection AP50-95.",
+    "cross_seed": "IC-LPIPS diversity is not cross-seed failure-rate evidence.",
+    "selection": "Filtered numbers are not pooled with raw outputs."
+  },
+  "methods": [
+    {
+      "paper_id": "P01",
+      "method": "AnomalyDiffusion",
+      "year": 2024,
+      "venue_status": "AAAI 2024",
+      "primary_source_url": "https://arxiv.org/html/2312.05767v2",
+      "generator_family": "frozen LDM; learned appearance/spatial embeddings",
+      "few_shot_setting": "one-third per anomaly type",
+      "required_real_anomaly_count": "one-third; not a fixed 1-shot claim",
+      "normal_images_required": "YES: normal host at synthesis",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "adaptive underfilled-region reweighting",
+      "low_contrast_handling": "NOT_REPORTED: calibrated weak-contrast study",
+      "background_preservation": "outside-mask latent blending",
+      "location_control": "input/generated mask",
+      "shape_control": "target mask",
+      "appearance_control": "learned anomaly token",
+      "diversity_mechanism": "noise + learned masks",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "U-Net segmentation and anomaly classification; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "real masks for downstream assessment"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/sjtuplayer/anomalydiffusion"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3; Sec. 4 experimental setting; adaptive attention reweighting"
+    },
+    {
+      "paper_id": "P02",
+      "method": "DefectFill",
+      "year": 2025,
+      "venue_status": "CVPR 2025",
+      "primary_source_url": "https://arxiv.org/html/2503.13985v1",
+      "generator_family": "SD2 inpainting; rank-8 LoRA on U-Net attention and text encoder",
+      "few_shot_setting": "one-third image-mask pairs",
+      "required_real_anomaly_count": "one-third; category-dependent",
+      "normal_images_required": "YES at synthesis; separate normal training not mandatory",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "defect-focused training and least-faithful selection",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "per-step normal latent restoration",
+      "location_control": "target mask",
+      "shape_control": "target mask",
+      "appearance_control": "anomaly/object prompts",
+      "diversity_mechanism": "noise; masks",
+      "sample_selector_filter": "LFS: best of 8 using LPIPS; raw ablation also reported",
+      "downstream_detector_evaluation": "U-Net segmentation/classification; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA (appendix)"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "condition masks used as synthetic labels; real masks for downstream assessment. Experiments explicitly use remaining two-thirds masks as generation conditions, not a TRAIN-only condition protocol."
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.2-3.4; Sec. 4.1; Appendix A"
+    },
+    {
+      "paper_id": "P03",
+      "method": "GAA",
+      "year": 2025,
+      "venue_status": "ARXIV_PREPRINT; peer-reviewed venue NOT_VERIFIED",
+      "primary_source_url": "https://arxiv.org/html/2507.09619v1",
+      "generator_family": "LDM; localized concepts and anomaly clustering",
+      "few_shot_setting": "one-third per defect type",
+      "required_real_anomaly_count": "one-third; not fixed 1/3-shot",
+      "normal_images_required": "YES: host normal",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "region-guided alignment",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "mask-conditioned host consistency; exact RGB copying NOT_VERIFIED",
+      "location_control": "region mask",
+      "shape_control": "region-guided mask",
+      "appearance_control": "clustered appearance concepts",
+      "diversity_mechanism": "concept clusters + masks + noise",
+      "sample_selector_filter": "ARS low-quality filter: 1000 to top 500",
+      "downstream_detector_evaluation": "segmentation/classification; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD",
+        "MVTec LOCO AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "real masks"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3; Sec. 4.1; Table 5 filtering ablation"
+    },
+    {
+      "paper_id": "P04",
+      "method": "UniScale",
+      "year": 2026,
+      "venue_status": "AUTHOR_REPORTED_ACCEPTED_ECCV2026; proceedings independently NOT_VERIFIED",
+      "primary_source_url": "https://arxiv.org/html/2608.07864v2",
+      "generator_family": "frozen SD1.4; text-embedding optimization",
+      "few_shot_setting": "one-third per anomaly type",
+      "required_real_anomaly_count": "one-third",
+      "normal_images_required": "YES at synthesis",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "explicit <32x32 at 512; EMT and generation-then-fusion",
+      "low_contrast_handling": "NOT_REPORTED: isolated contrast factor",
+      "background_preservation": "background fusion; exact RGB equality NOT_VERIFIED",
+      "location_control": "mask",
+      "shape_control": "mask/scale",
+      "appearance_control": "anomaly embedding",
+      "diversity_mechanism": "noise + stochastic masks",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "pixel IoU/anomaly detection; box detector NOT_REPORTED",
+      "public_dataset": [
+        "VisA",
+        "MVTec AD 2",
+        "MPDD (appendix)"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "real masks; small-size stratum"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/HUST-SLOW/UniScale"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3-5; Implementation Details; small anomaly definition"
+    },
+    {
+      "paper_id": "P05",
+      "method": "AnoGen",
+      "year": 2024,
+      "venue_status": "ECCV 2024; reviewed author arXiv v1 submitted 2025",
+      "primary_source_url": "https://arxiv.org/html/2505.09263v1",
+      "generator_family": "frozen LDM; one 768-dimensional learned anomaly embedding",
+      "few_shot_setting": "3-shot main; 1/3/5-shot ablation",
+      "required_real_anomaly_count": "3 main; 1 minimum tested",
+      "normal_images_required": "YES at synthesis",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "no dedicated scale remedy reported",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "outside-box noised-normal latent replacement",
+      "location_control": "BBOX",
+      "shape_control": "box extent, not pixel shape truth",
+      "appearance_control": "anomaly embedding",
+      "diversity_mechanism": "noise + randomized boxes",
+      "sample_selector_filter": "NOT_REPORTED; downstream confidence masking is not sample Top-K",
+      "downstream_detector_evaluation": "DRAEM/DeSTSeg pixel/image AD; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask in main training; image-level/non-mask ablation exists",
+        "inference": "bbox",
+        "assessment_or_synthetic_label": "synthetic bbox is weak label, not true pixel mask"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/gaobb/AnoGen"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 4.1 Eq. 5/6; Sec. 4.2 Eq. 7; Sec. 6.1 Table 2(c); Sec. 7 limitation"
+    },
+    {
+      "paper_id": "P06",
+      "method": "SeaS",
+      "year": 2025,
+      "venue_status": "ICCV 2025",
+      "primary_source_url": "https://arxiv.org/html/2410.14987v3",
+      "generator_family": "shared SD1.4 U-Net fine-tuning; learned tokens and RMP",
+      "few_shot_setting": "one-third main; 1/2-shot ablations",
+      "required_real_anomaly_count": "one-third main; lower-shot appendix",
+      "normal_images_required": "YES: 60 normal training images; normal initialization",
+      "local_or_full_image_generation": "FULL_IMAGE",
+      "small_defect_handling": "high-resolution VAE features in mask prediction",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "normal modeling/initialization; not exact input-pixel retention",
+      "location_control": "no user target-region control reported",
+      "shape_control": "sampled image + predicted mask",
+      "appearance_control": "separated anomaly tokens",
+      "diversity_mechanism": "mixed normal/anomaly training + noise",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "supervised segmentation and image AD; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA",
+        "MVTec 3D AD (RGB)"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask + normal image-level",
+        "inference": "none: content-feature mask prediction",
+        "assessment_or_synthetic_label": "real masks train/evaluate RMP/segmentation"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.2-3.4; Sec. 4.1; Appendix few-shot and RMP ablations"
+    },
+    {
+      "paper_id": "P07",
+      "method": "DualAnoDiff",
+      "year": 2025,
+      "venue_status": "CVPR 2025",
+      "primary_source_url": "https://arxiv.org/html/2408.13509v3",
+      "generator_family": "two interrelated SD streams; LoRA and trainable text encoder",
+      "few_shot_setting": "one-third anomaly images",
+      "required_real_anomaly_count": "one-third",
+      "normal_images_required": "separate normal-image input not required for core image synthesis",
+      "local_or_full_image_generation": "FULL_IMAGE",
+      "small_defect_handling": "isolated anomaly branch",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "background compensation; not exact host preservation",
+      "location_control": "NOT_REPORTED: arbitrary target bbox",
+      "shape_control": "anomaly-part generation",
+      "appearance_control": "text/reference training",
+      "diversity_mechanism": "joint image/part sampling",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "segmentation/classification AD; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "none: full image/part generation",
+        "assessment_or_synthetic_label": "generated-part masks extracted by SAM/U2-Net"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.1-3.3; Sec. 4 settings; mask extraction"
+    },
+    {
+      "paper_id": "P08",
+      "method": "GroundingAnomaly",
+      "year": 2026,
+      "venue_status": "ARXIV_PREPRINT; peer-reviewed venue NOT_VERIFIED",
+      "primary_source_url": "https://arxiv.org/html/2604.08301v1",
+      "generator_family": "frozen SD1.4; gated spatial conditioning and LoRA",
+      "few_shot_setting": "one-third main; lower-shot ablations",
+      "required_real_anomaly_count": "one-third main",
+      "normal_images_required": "YES: normal mixed training",
+      "local_or_full_image_generation": "FULL_IMAGE",
+      "small_defect_handling": "dense spatial grounding",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "normal prior/initialization; no exact RGB guarantee",
+      "location_control": "per-pixel semantic map",
+      "shape_control": "semantic-map region",
+      "appearance_control": "anomaly/product tokens",
+      "diversity_mechanism": "semantic maps + noise",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "YES: instance-level detection plus segmentation/AD",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask / dense semantic map",
+        "inference": "mask / semantic map",
+        "assessment_or_synthetic_label": "dense and instance labels for reported evaluation"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3; Sec. 4 downstream instance detection; low-shot ablations"
+    },
+    {
+      "paper_id": "P09",
+      "method": "O2MAG",
+      "year": 2026,
+      "venue_status": "CVPR 2026; reviewed author arXiv v1, not latest v2",
+      "primary_source_url": "https://arxiv.org/html/2603.18093v1",
+      "generator_family": "training-free SD; reference attention grafting and inference embedding optimization",
+      "few_shot_setting": "one reference per generation",
+      "required_real_anomaly_count": "1 masked reference",
+      "normal_images_required": "YES: normal host",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "Appendix I admits tiny-reference attention-resolution limitation",
+      "low_contrast_handling": "DAE addresses faint synthesis; not calibrated physical contrast proof",
+      "background_preservation": "normal-reference attention; exact RGB retention NOT_VERIFIED",
+      "location_control": "target mask",
+      "shape_control": "target mask",
+      "appearance_control": "reference + prompt",
+      "diversity_mechanism": "noise under reference guidance",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "AD segmentation/classification; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA",
+        "Real-IAD (supplement)"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask on reference",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "conditioning mask not independent content truth"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3; Sec. 4; Appendix I small-reference limitation"
+    },
+    {
+      "paper_id": "P10",
+      "method": "TF-IDG",
+      "year": 2025,
+      "venue_status": "ICCV 2025",
+      "primary_source_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xu_Training-Free_Industrial_Defect_Generation_with_Diffusion_Models_ICCV_2025_paper.pdf",
+      "generator_family": "SD2.1/AnyDoor; reference features; inference gradient guidance",
+      "few_shot_setting": "1-shot and one-third reference sets",
+      "required_real_anomaly_count": "1 minimum; also 3/5-shot experiments",
+      "normal_images_required": "YES: normal host",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "explicit small/narrow/multiple defects; adaptive mask and feature alignment",
+      "low_contrast_handling": "subtle-defect examples; calibrated contrast NOT_REPORTED",
+      "background_preservation": "texture/latent restoration and local crop handling",
+      "location_control": "target mask",
+      "shape_control": "target mask",
+      "appearance_control": "reference anomaly features",
+      "diversity_mechanism": "noise + reference/mask variation",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "U-Net and ResNet; GLASS/UniAD; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask on reference",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "adaptive mask and output pairing are not independent manual truth"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/rubymiaomiao/TF-IDG"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 4.1-4.4; Sec. 5.1-5.4 (PDF pp. 3-8)"
+    },
+    {
+      "paper_id": "P11",
+      "method": "DefectDiffu",
+      "year": 2024,
+      "venue_status": "ECCV 2024",
+      "primary_source_url": "https://arxiv.org/html/2408.00372v1",
+      "generator_family": "pretrained DiT; text/background-defect adaptation",
+      "few_shot_setting": "limited-data split, not strict 1-shot",
+      "required_real_anomaly_count": "half of anomaly test images per training split",
+      "normal_images_required": "normal/defect modeling; exact standalone normal requirement NOT_VERIFIED",
+      "local_or_full_image_generation": "FULL_IMAGE",
+      "small_defect_handling": "adaptive attention addresses small defect omission",
+      "low_contrast_handling": "strength control, not calibrated weak-contrast fidelity",
+      "background_preservation": "learned background consistency; not exact host copying",
+      "location_control": "attention/mask pathway",
+      "shape_control": "generated mask",
+      "appearance_control": "defect type and strength",
+      "diversity_mechanism": "double-free strength/background variation",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "segmentation/image AD; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "class/strength; output mask predicted",
+        "assessment_or_synthetic_label": "real masks supervise attention/mask pathway"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/FFDD-diffusion/DefectDiffu"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Methods; adaptive attention; Sec. 4 dataset split"
+    },
+    {
+      "paper_id": "P12",
+      "method": "DefFiller",
+      "year": 2024,
+      "venue_status": "ARXIV_PREPRINT; peer-reviewed venue NOT_VERIFIED",
+      "primary_source_url": "https://arxiv.org/html/2412.15570v1",
+      "generator_family": "GLIGEN-based mask-conditioned diffusion; selected trainable layers",
+      "few_shot_setting": "small labeled dataset; strict 1/3-shot NOT_REPORTED",
+      "required_real_anomaly_count": "900 SD-Saliency images overall; training split count NOT_VERIFIED",
+      "normal_images_required": "NO separate normal host required",
+      "local_or_full_image_generation": "FULL_IMAGE",
+      "small_defect_handling": "NOT_REPORTED",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "NOT_REPORTED: exact input background",
+      "location_control": "input mask",
+      "shape_control": "input mask",
+      "appearance_control": "class prompts",
+      "diversity_mechanism": "noise + CFG",
+      "sample_selector_filter": "selected mask-matching pairs; class CFG selected via FID",
+      "downstream_detector_evaluation": "salient defect segmentation; box detector NOT_REPORTED",
+      "public_dataset": [
+        "SD-Saliency"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask pairs (Sec. 3.1.4)",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "no new synthetic pixel annotation, not no real pixel masks"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/CC-T/DefFiller"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.1.4; Sec. 3.2.2; Sec. 4.1.2"
+    },
+    {
+      "paper_id": "P13",
+      "method": "DFMGAN",
+      "year": 2023,
+      "venue_status": "AAAI 2023",
+      "primary_source_url": "https://arxiv.org/html/2303.02389v1",
+      "generator_family": "StyleGAN2-ADA normal backbone + defect residuals/matching discriminator",
+      "few_shot_setting": "limited anomaly categories",
+      "required_real_anomaly_count": "category-dependent; commonly 10-25 total images",
+      "normal_images_required": "YES for first-stage backbone training",
+      "local_or_full_image_generation": "FULL_IMAGE",
+      "small_defect_handling": "high-resolution defect feature manipulation",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "paired generated normal/defect features; not exact real host RGB",
+      "location_control": "generated mask; manual target box NOT_REPORTED",
+      "shape_control": "generated mask",
+      "appearance_control": "defect latent code",
+      "diversity_mechanism": "object/defect latent + mode seeking",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "defect classification; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask pairs for D_match",
+        "inference": "none: sampled image/mask",
+        "assessment_or_synthetic_label": "real paired masks are discriminator supervision"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "LINK_ANNOUNCED_IN_PAPER_NOT_RUNTIME_VERIFIED",
+        "url": "https://github.com/Ldhlwh/DFMGAN"
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.2 image-mask matching discriminator; Sec. 4.1-4.3"
+    },
+    {
+      "paper_id": "P14",
+      "method": "ControllableIndustrial",
+      "year": 2024,
+      "venue_status": "WACV 2024",
+      "primary_source_url": "https://arxiv.org/html/2401.03152v1",
+      "generator_family": "Stable Diffusion DreamBooth + geometric conditioning",
+      "few_shot_setting": "small domain data, not fixed 1-shot",
+      "required_real_anomaly_count": "120 annotated images in reported industrial example",
+      "normal_images_required": "separate normal input not core training requirement",
+      "local_or_full_image_generation": "FULL_IMAGE/conditioned industrial synthesis",
+      "small_defect_handling": "NOT_REPORTED: tiny-defect-specific benchmark",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "geometry conditioning; exact host RGB NOT_VERIFIED",
+      "location_control": "geometric masks",
+      "shape_control": "mask conditioning",
+      "appearance_control": "personalized defect/domain prompts",
+      "diversity_mechanism": "noise + conditioning",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "industrial defect segmentation; box detector NOT_REPORTED",
+      "public_dataset": [
+        "industrial gas-combustor crack data; public availability NOT_VERIFIED"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask / expert segmentation",
+        "inference": "geometric mask",
+        "assessment_or_synthetic_label": "real expert segmentation"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Method and industrial experiment; two-stage personalization/geometric conditioning"
+    },
+    {
+      "paper_id": "P15",
+      "method": "SynSur",
+      "year": 2026,
+      "venue_status": "ARXIV_PREPRINT; peer-reviewed venue NOT_VERIFIED",
+      "primary_source_url": "https://arxiv.org/html/2604.26633v1",
+      "generator_family": "Flux.1-dev LoRA, VLM prompts, inpainting, SAM3 labels",
+      "few_shot_setting": "100-patch adaptation; not 1/3-shot",
+      "required_real_anomaly_count": "100 random or 100 per size bin",
+      "normal_images_required": "YES: host surface at synthesis",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "size-binned adaptation; scratch label failures reported",
+      "low_contrast_handling": "subtle intensity scratch examples; calibrated contrast NOT_REPORTED",
+      "background_preservation": "segmented blending; exact outside-object pixel guarantee NOT_VERIFIED",
+      "location_control": "synthetic mask",
+      "shape_control": "synthetic/SAM3 mask",
+      "appearance_control": "VLM prompt and LoRA",
+      "diversity_mechanism": "mask/scale sampling",
+      "sample_selector_filter": "DreamSim and CLIPScore filtering",
+      "downstream_detector_evaluation": "YES: YOLOv26, YOLOX, LW-DETR",
+      "public_dataset": [
+        "BSData",
+        "MSD scratch subset"
+      ],
+      "annotation_requirement": {
+        "training": "bbox for BSData crop extraction; segmentation masks for MSD",
+        "inference": "synthetic mask",
+        "assessment_or_synthetic_label": "SAM3-derived BSData labels; MSD copies condition mask"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "PROMISED_ON_ACCEPTANCE_NOT_VERIFIED",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.1; Sec. 4.4 Label derivation; limitations"
+    },
+    {
+      "paper_id": "P16",
+      "method": "AssignedMURA",
+      "year": 2023,
+      "venue_status": "CVPR 2023 VISION WORKSHOP (not main conference)",
+      "primary_source_url": "https://openaccess.thecvf.com/content/CVPR2023W/VISION/papers/Liu_Assigned_MURA_Defect_Generation_Based_on_Diffusion_Model_CVPRW_2023_paper.pdf",
+      "generator_family": "pixel-space conditional DDPM/DDIM",
+      "few_shot_setting": "limited factory data, not 1/3-shot",
+      "required_real_anomaly_count": "about 200 patches first experiment; about 700 second",
+      "normal_images_required": "background regions provided in conditional images",
+      "local_or_full_image_generation": "LOCAL_REGION",
+      "small_defect_handling": "variable-size assigned regions",
+      "low_contrast_handling": "EXPLICIT low-contrast MURA; Gaussian preprocessing/feature reservation",
+      "background_preservation": "region-only process; conditional edges; exact full-canvas equality NOT_VERIFIED",
+      "location_control": "position/region labels",
+      "shape_control": "region + stored edge maps",
+      "appearance_control": "class/edge/visibility information",
+      "diversity_mechanism": "noise + condition-map dropout",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "YES: YOLOv5; small evaluation, not modern repeated-seed AP study",
+      "public_dataset": [
+        "factory LCD MURA; public availability NOT_REPORTED"
+      ],
+      "annotation_requirement": {
+        "training": "bbox/position region labels; precise pixel defect truth NOT_REPORTED",
+        "inference": "region mask + stored edge/position features",
+        "assessment_or_synthetic_label": "professional annotations; not an end-to-end 1-shot proof"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.3-3.4; Algorithm 1 position labels; Sec. 4.1-4.3"
+    },
+    {
+      "paper_id": "P17",
+      "method": "AnomalyAny",
+      "year": 2025,
+      "venue_status": "CVPR 2025",
+      "primary_source_url": "https://arxiv.org/html/2406.01078v3",
+      "generator_family": "frozen SD; test-time normal initialization, attention/prompt optimization",
+      "few_shot_setting": "zero anomaly examples",
+      "required_real_anomaly_count": "0 real anomalies",
+      "normal_images_required": "YES: single normal",
+      "local_or_full_image_generation": "FULL_IMAGE; optional local mask blending",
+      "small_defect_handling": "targets easily overlooked anomaly concepts",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "optional user mask + latent blending; exact RGB equality NOT_VERIFIED",
+      "location_control": "optional user region mask",
+      "shape_control": "optional mask; no pixel truth required",
+      "appearance_control": "text anomaly descriptions",
+      "diversity_mechanism": "noise + prompt",
+      "sample_selector_filter": "NOT_REPORTED",
+      "downstream_detector_evaluation": "pixel/image AD; five-run downstream uncertainty, not cross-seed localization guarantee",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA"
+      ],
+      "annotation_requirement": {
+        "training": "none on anomaly: text + normal; optional user mask",
+        "inference": "none or user region mask",
+        "assessment_or_synthetic_label": "dataset ground truth only for downstream evaluation"
+      },
+      "cross_seed_robustness": "downstream AD five-run mean/std; paired generation localization failure-rate study NOT_REPORTED",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 4.1 Eq. 5 optional region mask; Sec. 5.1; Table 2"
+    },
+    {
+      "paper_id": "P18",
+      "method": "MAGIC",
+      "year": 2026,
+      "venue_status": "CVPR 2026 FINDINGS (not main conference)",
+      "primary_source_url": "https://arxiv.org/html/2507.02314v3",
+      "generator_family": "SD inpainting DreamBooth; prompt perturbation and spatial CFG",
+      "few_shot_setting": "one-third anomaly/mask split; DAGM five anomaly images per category",
+      "required_real_anomaly_count": "one-third for main image-mask datasets; 5 per category on DAGM",
+      "normal_images_required": "YES: normal host",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "no isolated tiny-defect benchmark verified",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "spatial CFG/background consistency; strict RGB copying NOT_VERIFIED",
+      "location_control": "mask alignment",
+      "shape_control": "learned mask distribution",
+      "appearance_control": "anomaly token/perturbation",
+      "diversity_mechanism": "training+inference prompt perturbation",
+      "sample_selector_filter": "ALL_GENERATED_IMAGES_NO_FILTERING: explicit Sec. 9 DefectFill comparison",
+      "downstream_detector_evaluation": "segmentation and classification AD; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD",
+        "VisA",
+        "DAGM",
+        "MVTec 3D AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask image pairs",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "learned masks are conditions; no independent truth certificate"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3-5; Sec. 10 failure cases"
+    },
+    {
+      "paper_id": "P19",
+      "method": "DefectSimu",
+      "year": 2025,
+      "venue_status": "ICCV 2025 VISION WORKSHOP (not main conference)",
+      "primary_source_url": "https://openaccess.thecvf.com/content/ICCV2025W/VISION%2725/papers/Wei_Two-stage_Text-Guided_Diffusion_Models_for_Disentangled_Industrial_Defect_Generation_ICCVW_2025_paper.pdf",
+      "generator_family": "SD normal/defect adapters (existing paper, not project proposal)",
+      "few_shot_setting": "half anomaly split",
+      "required_real_anomaly_count": "half of MVTec test anomalies",
+      "normal_images_required": "YES: normal adapter training",
+      "local_or_full_image_generation": "FULL_IMAGE; local defect-feature modulation",
+      "small_defect_handling": "local structural/contrast constraints",
+      "low_contrast_handling": "strength control; not weak-contrast calibration",
+      "background_preservation": "normal-feature preservation; exact host RGB NOT_VERIFIED",
+      "location_control": "input mask",
+      "shape_control": "input/Perlin mask",
+      "appearance_control": "defect prompt and strength",
+      "diversity_mechanism": "mask perturbation + strength",
+      "sample_selector_filter": "SAM refinement accepted only confidence >0.95 and IoU >0.7",
+      "downstream_detector_evaluation": "segmentation; box detector NOT_REPORTED",
+      "public_dataset": [
+        "MVTec AD"
+      ],
+      "annotation_requirement": {
+        "training": "pixel-mask",
+        "inference": "mask",
+        "assessment_or_synthetic_label": "SAM refines generated mask with filtering"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 3.2-3.4; Sec. 4.1-4.2 (PDF pp. 2-6)"
+    },
+    {
+      "paper_id": "P20",
+      "method": "BlendedLatentDiffusion",
+      "year": 2023,
+      "venue_status": "Author arXiv v2 (2023 revision; first preprint 2022); final publication NOT_VERIFIED in this audit",
+      "primary_source_url": "https://arxiv.org/html/2206.02779v2",
+      "generator_family": "pretrained text LDM; latent blending and optional decoder optimization",
+      "few_shot_setting": "generic zero-shot editing, not industrial adaptation",
+      "required_real_anomaly_count": "0 target anomaly images",
+      "normal_images_required": "source image required (generic, not industrial normal)",
+      "local_or_full_image_generation": "LOCAL",
+      "small_defect_handling": "progressive shrinking for thin masks; fine-detail failures remain",
+      "low_contrast_handling": "NOT_REPORTED",
+      "background_preservation": "latent blending + optional decoder reconstruction; exact copying/seam trade-off discussed",
+      "location_control": "user edit-region mask",
+      "shape_control": "user mask",
+      "appearance_control": "text prompt",
+      "diversity_mechanism": "multiple stochastic predictions",
+      "sample_selector_filter": "CLIP prediction ranking",
+      "downstream_detector_evaluation": "NOT_REPORTED: industrial downstream detector",
+      "public_dataset": [
+        "generic image editing examples; industrial dataset NOT_REPORTED"
+      ],
+      "annotation_requirement": {
+        "training": "none for target concept training",
+        "inference": "user region mask, not segmentation truth",
+        "assessment_or_synthetic_label": "no industrial defect label certification"
+      },
+      "cross_seed_robustness": "NOT_REPORTED: diversity scores/examples are not a paired cross-generation-seed failure-rate guarantee",
+      "public_code": {
+        "status": "NOT_VERIFIED_IN_THIS_AUDIT",
+        "url": null
+      },
+      "transparent_material_specific_evaluation": "NOT_VERIFIED: bottle/glass category alone is insufficient",
+      "evidence_anchors": "Sec. 4.1-4.4; thin-mask failure and reconstruction; generic editing context"
+    }
+  ]
+}

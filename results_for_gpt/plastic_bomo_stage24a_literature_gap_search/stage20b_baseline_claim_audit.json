@@ -1,0 +1,283 @@
+{
+  "stage": "Stage24A",
+  "scope": "STATIC_BASELINE_CLAIM_AUDIT",
+  "status": "BASELINE_NAMING_REQUIRES_REPOSITORY_SPECIFIC_QUALIFICATION",
+  "base_commit": "69cb5db28107acb0e33748ef4c6813aa01e03a0b",
+  "sources": [
+    {
+      "id": "C1",
+      "path": "tools/generate_plastic_bomo_stage20b_banks.py",
+      "sha256": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C2",
+      "path": "tools/qualify_plastic_bomo_stage20b_r0.py",
+      "sha256": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C3",
+      "path": "tools/stage20b_formal_common.py",
+      "sha256": "a2562cf15e437ce62bd9d2f1c5f8c58157407488c31a6afb20a7a1239f605d73",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C4",
+      "path": "tools/preflight_plastic_bomo_stage20b_p0.py",
+      "sha256": "f5fa4acbfff3a0713a120a7462a1aa386ce6a38d03f8b9cd538466c3602340e4",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C5",
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C6",
+      "path": "diffusers/image_processor.py",
+      "sha256": "70f1f1c5ad0a29f48fe943e9fb28e5bb180a7068c26861110fae94030e49c06e",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C7",
+      "path": "diffusers/schedulers/scheduling_ddim.py",
+      "sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C8",
+      "path": "diffusers/models/autoencoders/autoencoder_kl.py",
+      "sha256": "dec8d6110b8d0cdff278624112812dfd5087c1806f7200fa2d605c3cb2f72fb7",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C9",
+      "path": "tools/audit_plastic_bomo_stage20b.py",
+      "sha256": "fdf014f9d79f2e7c3689968fcb383c7399563d21505209897ecdbd881fa77c61",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "M3",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_protocol.json",
+      "sha256": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M4",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_slots.json",
+      "sha256": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M5",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_rng_manifest.json",
+      "sha256": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M6",
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/stage20b_runtime_environment.json",
+      "sha256": "395ded48f07e023ee940222ae6a2655bcd0d455a1a5ad5d50b4e91cf0c21792f",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M7",
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/generator_model_load_audit.json",
+      "sha256": "9989d4be7cc2b347501f6a99e6b34a10f33243d4d40f61c05f491341ce03d915",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M8",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_protocol_binding.json",
+      "sha256": "b706bebb190a901c5f9943e6f9f2af1e4ea5c33ca9f66bcd2ab7d2545fcede88",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M9",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/generator_checkpoint_binding.json",
+      "sha256": "ec57403813eca2e3d7301e4c0e8888aada2045c043068b91c9387cc94fc1e785",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M10",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_A_manifest.json",
+      "sha256": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M11",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_B_manifest.json",
+      "sha256": "c7ce84155b64c7512de91308d1812aafc34fe5068e8347ca67ce0b0435db41c2",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M12",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_C_manifest.json",
+      "sha256": "469291955de20c17f97467d360e9af18dd7d8eb227aef19f3cb791aac3d957e0",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M13",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_synthetic_validity.json",
+      "sha256": "fbdab84a96ad13343b75569cd55fc02fd3f752e718092945f4cbe8c77be3cf7e",
+      "matches_base_commit": true,
+      "working_bytes_match": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    }
+  ],
+  "server_identity_limit": "M6 has no separate server SHA for image_processor.py or autoencoder_kl.py. Those dependencies are pinned to the current Git snapshot here; a complete historical transitive runtime identity is not claimed.",
+  "prior_ledger_path": "results_for_gpt/plastic_bomo_stage23b_d0_controllability_protocol/source_evidence_index.json",
+  "prior_ledger_sha256": "80f830a29a4e359a1c975bc4a5bd9c96969ecc3da6401f41c7a41c7ac4ce9470",
+  "review_method": "Read source text and existing metadata only. Verify Git-pinned bytes and recorded runtime bindings. No image/weight payload opened; no pipeline call.",
+  "recommended_baseline_name": "repository-specific SD2 local inpainting implementation (class-fine-tuned V2 checkpoints; frozen 512-patch, weak-bbox, raw-bank protocol)",
+  "claims": [
+    {
+      "id": "B1",
+      "claim": "SD2 inpainting model family is an accurate description.",
+      "verdict": "SUPPORTED_WITH_QUALIFICATION",
+      "evidence": [
+        "C1 generator loading; M3 pipeline field; M7 model load; M9 frozen class checkpoints"
+      ],
+      "limit": "Not an unadapted pretrained control and not independently verified upstream byte parity."
+    },
+    {
+      "id": "B2",
+      "claim": "9-channel U-Net input comprises latent, mask and masked-image latents.",
+      "verdict": "SUPPORTED",
+      "evidence": [
+        "C5 __call__, lines 1044-1049: torch.cat([latent_model_input, mask, masked_image_latents], dim=1)"
+      ],
+      "limit": "9 channels are consistent with conventional SD inpainting. This fact alone does not establish nonstandard behavior, an error or novelty."
+    },
+    {
+      "id": "B3",
+      "claim": "The active denoising path updates the full spatial latent grid.",
+      "verdict": "SUPPORTED",
+      "evidence": [
+        "C5 __call__, lines 1067-1073: scheduler.step over latents"
+      ],
+      "limit": "No outside-mask normal-latent restoration in this active loop; full-grid updates alone do not distinguish it from all standard implementations."
+    },
+    {
+      "id": "B4",
+      "claim": "Only defect bbox pixels can change.",
+      "verdict": "NOT_SUPPORTED_BY_IMPLEMENTATION",
+      "evidence": [
+        "C5 decode/postprocess lines 1090-1095",
+        "C1 sample lines 28-34: full.paste of valid decoded crop without a mask"
+      ],
+      "limit": "If P is valid 512 crop and B is bbox, pixels in P outside B may change; outside P is retained by construction in the decoded RGB canvas. This is a structural permission, not an observed defect-control failure or an on-disk JPEG equality guarantee."
+    },
+    {
+      "id": "B5",
+      "claim": "Synthetic bbox is determined from generated defect content.",
+      "verdict": "NOT_SUPPORTED_BY_IMPLEMENTATION",
+      "evidence": [
+        "C3 synthetic_label lines 249-251 returns class and frozen validate_bbox(slot) coordinates",
+        "C9 structural validity checks"
+      ],
+      "limit": "The condition bbox is copied. Structural bounds/hash checks are not independent generated-content localization truth. No mismatch prevalence is inferred."
+    },
+    {
+      "id": "B6",
+      "claim": "The historical phrase standard inpainting only establishes an exact upstream standard SD2 baseline.",
+      "verdict": "INSUFFICIENTLY_SPECIFIED",
+      "evidence": [
+        "M3 pipeline description",
+        "C1 repository imports and frozen wrapper",
+        "C5 repository pipeline",
+        "M6 runtime SHA bindings",
+        "M8 formal protocol binding"
+      ],
+      "limit": "The phrase excludes magic/dynamic/task-guidance branches in this protocol. It does not establish parity with a version-pinned upstream Diffusers implementation."
+    }
+  ],
+  "spatial_contract": {
+    "symbol_definitions": {
+      "N": "input normal full canvas",
+      "G": "output full canvas before encoding",
+      "P": "valid region of fixed 512 crop pasted into original canvas",
+      "B": "condition bbox inside crop"
+    },
+    "outside_valid_patch": "G equals N by construction in decoded RGB",
+    "inside_patch_outside_bbox": "can change; no mask-limited paste",
+    "inside_bbox": "model-generated; bbox condition is not independently assessed visible support"
+  },
+  "frozen_protocol_facts": {
+    "pipeline": "repository StableDiffusionInpaintPipeline",
+    "scheduler": "frozen repository DDIM",
+    "inference_steps": 50,
+    "guidance_scale": 7.5,
+    "eta": 0,
+    "strength": 1,
+    "patch_hw": [
+      512,
+      512
+    ],
+    "patch_geometry": "bbox-centered fixed crop with constant black padding, valid-patch paste",
+    "mask": "weak-bbox rectangle, not segmentation truth",
+    "checkpoints": "class-fine-tuned final successful step 2000",
+    "banks": "raw A/B/C; no scoring/reroll/quality selection",
+    "label_source": "condition class + frozen bbox"
+  },
+  "runtime_identity": {
+    "pipeline_scheduler_and_wrapper_bindings": "source hashes match the selected historical evidence ledger and base Git commit",
+    "full_transitive_historical_identity": "NOT_VERIFIED",
+    "upstream_version_parity": "NOT_VERIFIED",
+    "checkpoint_weights_opened": false
+  },
+  "interpretation_limits": [
+    "Do not reinterpret negative downstream AP as proof of a generator mechanism failure.",
+    "Do not treat claim precision as a reason to rerun Stage20B.",
+    "No claim that every difference is a defect or nonstandard; no method novelty follows from this audit.",
+    "Background copying outside a chosen patch does not certify pixel-mask-free concept acquisition or valid defect labels."
+  ],
+  "historical_numbers_changed": false,
+  "historical_results_modified": false,
+  "experiments_executed": false,
+  "METHOD_DESIGN_AUTHORIZED": false,
+  "TRAINING_AUTHORIZED": false,
+  "GENERATION_AUTHORIZED": false,
+  "detector_forward_count": 0,
+  "optimizer_step_count": 0
+}

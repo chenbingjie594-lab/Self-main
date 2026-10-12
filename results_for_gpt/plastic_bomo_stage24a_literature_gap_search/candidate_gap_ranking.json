@@ -1,0 +1,101 @@
+{
+  "stage": "Stage24A",
+  "status": "NO_CLEAR_INNOVATION1_GAP_IDENTIFIED",
+  "ranking_basis": "Evidence quality and project fit, not a weighted quality score; ranks are review priority only.",
+  "maximum_candidates": 3,
+  "candidates": [
+    {
+      "candidate_id": "Q1",
+      "rank": 1,
+      "level": "PLAUSIBLE_GAP",
+      "primary_qualified": false,
+      "research_problem": "Specific industrial anomaly appearance from 1-3 real examples when all adaptation supervision is bbox/image-level, particularly tiny low-occupancy anomalies.",
+      "why_it_matters": "Weak labels can mix anomaly and background; a specific defect concept is not synonymous with a whole-object prompt.",
+      "closest_prior_art": [
+        "P05",
+        "P16",
+        "P17",
+        "P12"
+      ],
+      "what_prior_art_does": "AnoGen supplies bbox synthesis and a non-mask training ablation; MURA supplies positional low-contrast generation with hundreds of patches; AnomalyAny needs no anomaly training.",
+      "what_remains_unsolved": "The reviewed evidence does not establish that a literature-distinct limitation exists under the combined strict shot/weak-label setting, nor certify tiny-defect fidelity.",
+      "why_Plastic_Bomo_can_test_it": "Frozen TRAIN boxes can define adaptation access without historical edits. Current project metadata does not provide independent pixel truth.",
+      "minimum_experiment_needed": {
+        "authorization": false,
+        "description": "If separately requested: compare existing AnoGen non-mask and its mask-supervised control on an external mask-annotated dataset with masks hidden from the weak arm; fix shot budget and raw output count, obtain independent held-out assessment. Plastic_Bomo only after a non-circular endpoint is available. No method proposed.",
+        "decision": "Reject candidate if existing weak baseline suffices or supposed failure is only ambiguity of evaluation labels."
+      },
+      "possible_external_dataset": [
+        "MVTec AD",
+        "VisA"
+      ],
+      "overlap_with_BootstrapGuard": "No overlap only if the question is adaptation information, not output ranking/filtering.",
+      "novelty_risk": "HIGH: AnoGen already contains the nearest weak-supervision ablation; absence of an end-to-end claim is not proof of a new method gap.",
+      "qualification": {
+        "explicit_prior_comparison": true,
+        "not_dataset_absence": true,
+        "testable_with_reasonable_new_protocol": true,
+        "historical_label_edits_required": false,
+        "independent_of_BootstrapGuard_in_principle": true,
+        "post_generation_filter": false,
+        "baseline_identifiable": true,
+        "external_dataset_possible": true,
+        "problem_before_module": true,
+        "literature_distinct_failure_established": false
+      },
+      "reason_not_primary": "Closest ablation already tests the lost mask signal; this audit cannot distinguish an open methodological gap from already available baseline performance."
+    },
+    {
+      "candidate_id": "Q2",
+      "rank": 2,
+      "level": "PLAUSIBLE_GAP",
+      "primary_qualified": false,
+      "research_problem": "Independent generated-label validity for tiny/weak/elongated defects, where input condition or predicted mask cannot act as truth.",
+      "why_it_matters": "A training pair can be structurally well-formed yet have geometry that does not describe visible anomaly content.",
+      "closest_prior_art": [
+        "P06",
+        "P07",
+        "P19",
+        "P15"
+      ],
+      "what_prior_art_does": "SeaS and DualAnoDiff derive masks from generated features/parts; DefectSimu refines with SAM; SynSur reports scratch-segmentation failures and a condition-mask fallback.",
+      "what_remains_unsolved": "A sufficiently precise unfiltered weak-supervision setting not already covered by content-derived masks or annotation quality control is NOT established.",
+      "why_Plastic_Bomo_can_test_it": "Only a separately approved independent diagnostic assessment of new generated samples could test it. Current box conditions/derived masks do not resolve it.",
+      "minimum_experiment_needed": {
+        "authorization": false,
+        "description": "If separately requested: assess existing content-derived and condition-derived labels with blinded independent judgments on public tiny/scratch examples; first test whether label-disagreement is systematic and reproducible. No teacher-guided optimization, image quality Top-K or module implementation.",
+        "decision": "Reject if existing content-derived labels suffice, if judgments are ambiguous, or if the question reduces to the stopped controllability route."
+      },
+      "possible_external_dataset": [
+        "VisA",
+        "MSD scratch subset (availability/terms need verification)"
+      ],
+      "overlap_with_BootstrapGuard": "Any quality filter/teacher selector would overlap and is excluded.",
+      "novelty_risk": "VERY_HIGH: image-mask alignment is an explicit prior-art target. Could simply rebrand Stage23B or turn into a selection method.",
+      "qualification": {
+        "explicit_prior_comparison": true,
+        "not_dataset_absence": true,
+        "testable_with_reasonable_new_protocol": true,
+        "historical_label_edits_required": false,
+        "independent_of_BootstrapGuard_in_principle": true,
+        "post_generation_filter": false,
+        "baseline_identifiable": true,
+        "external_dataset_possible": true,
+        "problem_before_module": true,
+        "literature_distinct_failure_established": false
+      },
+      "reason_not_primary": "Known remedies and explicit failure reports exist, but a new problem boundary and non-circular project endpoint have not been established."
+    }
+  ],
+  "strong_gap_count": 0,
+  "primary_qualified_count": 0,
+  "rejected_families": [
+    "generic bbox control",
+    "generic small-defect multiscale remedy",
+    "exact background copying alone",
+    "choice of full U-Net/LoRA/embedding alone",
+    "generic image-mask alignment",
+    "current cross-seed controllability"
+  ],
+  "method_proposals": []
+}

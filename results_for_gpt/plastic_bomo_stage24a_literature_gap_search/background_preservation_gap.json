@@ -1,0 +1,38 @@
+{
+  "family": "C",
+  "question": "Strict locality and complex-background preservation without true segmentation input",
+  "level": "WEAK_OR_ALREADY_COVERED",
+  "prior_art_comparison": [
+    {
+      "paper_id": "P20",
+      "does": "user edit-mask latent blending, reconstruction and thin-mask handling",
+      "boundary": "decoded preservation is approximate; exact pixel stitching has a seam trade-off"
+    },
+    {
+      "paper_id": "P17",
+      "does": "optional user region mask and noised-normal blending",
+      "boundary": "does not require expert anomaly segmentation for optional edit region"
+    },
+    {
+      "paper_id": "P05",
+      "does": "bbox-conditioned outside-box latent restoration",
+      "boundary": "real mask supervision is still used in main training"
+    },
+    {
+      "paper_id": "P02",
+      "does": "normal-latent restoration in defect inpainting",
+      "boundary": "real mask training and best-of-8 LFS affect evaluation"
+    }
+  ],
+  "distinctions": [
+    "hard RGB identity outside a user region",
+    "latent consistency outside mask",
+    "perceptual background compatibility",
+    "correct defect geometry inside weak bbox"
+  ],
+  "finding": "Exact outside-region pixel copying is a compositing constraint, not an original industrial generation mechanism. Seam-free integration and valid anomaly content are different claims.",
+  "not_claimed": "All background/industrial appearance problems are solved.",
+  "Stage20B_connection": "Its full valid patch paste is not a hard outside-bbox identity constraint; this implementation fact does not imply a new scientific gap.",
+  "primary_qualified": false,
+  "method_design_authorized": false
+}

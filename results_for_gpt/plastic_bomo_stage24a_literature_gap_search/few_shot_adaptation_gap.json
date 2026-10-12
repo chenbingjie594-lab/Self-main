@@ -1,0 +1,56 @@
+{
+  "family": "D",
+  "question": "Extremely few anomaly samples and choice of adaptation family",
+  "level": "WEAK_OR_ALREADY_COVERED",
+  "existing_families": [
+    {
+      "family": "full/shared U-Net fine-tuning and DreamBooth",
+      "sources": [
+        "P06",
+        "P14",
+        "P18"
+      ]
+    },
+    {
+      "family": "LoRA adaptation",
+      "sources": [
+        "P02",
+        "P07",
+        "P15"
+      ]
+    },
+    {
+      "family": "embedding adaptation",
+      "sources": [
+        "P01",
+        "P04",
+        "P05"
+      ]
+    },
+    {
+      "family": "cluster/prototype-like concept organization",
+      "sources": [
+        "P03"
+      ],
+      "precision": "clusters of anomaly concepts, not an unverified claim of a universal prototype method"
+    },
+    {
+      "family": "training-free reference feature/attention generation",
+      "sources": [
+        "P09",
+        "P10"
+      ]
+    },
+    {
+      "family": "text-only unseen anomaly generation",
+      "sources": [
+        "P17"
+      ]
+    }
+  ],
+  "count_warning": "one-third training images is not 1-shot. AnoGen/TF-IDG explicitly test fixed shot counts; 100 patches and half-splits are recorded separately.",
+  "finding": "Changing trainable parameter family is not itself a research gap. Remaining failures need a setting-specific comparison, not a module choice.",
+  "unresolved": "Weak supervision, concept/background identifiability and measured diversity may interact; no winning family for Plastic_Bomo is established here.",
+  "primary_qualified": false,
+  "method_design_authorized": false
+}

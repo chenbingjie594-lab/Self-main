@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "checks": {
+    "required_files": true,
+    "twenty_unique_sources": true,
+    "matrix_registry_one_to_one": true,
+    "matrix_required_fields": true,
+    "annotation_roles_separate": true,
+    "mandatory_methods": true,
+    "primary_sources_only": true,
+    "six_gap_families": true,
+    "gap_levels_allowed": true,
+    "at_most_three_candidates": true,
+    "candidate_fields": true,
+    "candidate_levels": true,
+    "candidate_priors_resolved": true,
+    "all_paper_ids_resolved": true,
+    "decision_consistent": true,
+    "negative_no_primary": true,
+    "all_activity_zero": true,
+    "all_authorizations_closed": true,
+    "no_payload_or_history_mutation": true,
+    "twenty_pinned_source_metadata_hashes": true,
+    "historical_ledger_unchanged": true
+  },
+  "errors": [],
+  "reviewed_methods": 20,
+  "qualified_primary_candidates": 0,
+  "verified_source_metadata_files": 20,
+  "source_results": [
+    {
+      "id": "C1",
+      "path": "tools/generate_plastic_bomo_stage20b_banks.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C2",
+      "path": "tools/qualify_plastic_bomo_stage20b_r0.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C3",
+      "path": "tools/stage20b_formal_common.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C4",
+      "path": "tools/preflight_plastic_bomo_stage20b_p0.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C5",
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C6",
+      "path": "diffusers/image_processor.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C7",
+      "path": "diffusers/schedulers/scheduling_ddim.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C8",
+      "path": "diffusers/models/autoencoders/autoencoder_kl.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "C9",
+      "path": "tools/audit_plastic_bomo_stage20b.py",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M3",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_protocol.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M4",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_slots.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M5",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_rng_manifest.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M6",
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/stage20b_runtime_environment.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M7",
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/generator_model_load_audit.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M8",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_protocol_binding.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M9",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/generator_checkpoint_binding.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M10",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_A_manifest.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M11",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_B_manifest.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M12",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_C_manifest.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    },
+    {
+      "id": "M13",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_synthetic_validity.json",
+      "working_hash_matches": true,
+      "base_commit_hash_matches": true
+    }
+  ],
+  "verification_scope": "TEXT_SCHEMA_AND_GIT_HASH_ONLY_NOT_LITERATURE_REPLICATION",
+  "model_forward_count": 0,
+  "optimizer_step_count": 0,
+  "files_written_by_verifier": 0
+}

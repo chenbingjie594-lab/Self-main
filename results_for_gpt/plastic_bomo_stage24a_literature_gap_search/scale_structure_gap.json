@@ -1,0 +1,32 @@
+{
+  "family": "E",
+  "question": "Thin scratches, tiny spots, bubbles and weak stains versus latent resolution/anisotropy",
+  "level": "WEAK_OR_ALREADY_COVERED",
+  "evidence": [
+    {
+      "paper_id": "P20",
+      "anchor": "Sec. 4.3",
+      "finding": "Thin edit masks may vanish after latent downsampling; progressive shrinking already proposed."
+    },
+    {
+      "paper_id": "P04",
+      "anchor": "scale definition and training/inference sections",
+      "finding": "Explicit industrial arbitrary-scale generation remedy."
+    },
+    {
+      "paper_id": "P10",
+      "anchor": "Sec. 4 and 5.2",
+      "finding": "Small, narrow, subtle and multi-defect generation addressed."
+    },
+    {
+      "paper_id": "P11",
+      "anchor": "adaptive attention",
+      "finding": "Small-defect omission explicitly targeted."
+    }
+  ],
+  "narrower_not_verified": "Anisotropy-specific calibrated fidelity advantage not reducible to existing thin-mask/scale handling. Bubbles/weak stains do not define that advantage by themselves.",
+  "Plastic_Bomo_feasibility": "Current flash/black classes do not establish thin-scratch/bubble acquisition semantics.",
+  "rejected_shortcut": "No transplant of strip detection modules, new multi-scale module or new loss.",
+  "primary_qualified": false,
+  "method_design_authorized": false
+}
