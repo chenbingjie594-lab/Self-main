@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "optimizer_step_count": 0,
+  "internal_train_only": true,
+  "schedules": {
+    "uniform": {
+      "status": "PASS",
+      "role": "base_asset_5e94f3b1dba74ac3e2d349084fc4d8041b5b4db4942a4c496e968a32bb7fa434",
+      "occurrence_index": 0,
+      "augmentation_seed": 6570386910793674582,
+      "loss": 143.79647827148438,
+      "finite_gradients": true,
+      "nonzero_gradients": true,
+      "parameters_unchanged": true,
+      "initialization_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005",
+      "optimizer_steps": 0,
+      "model_discarded_before_formal_training": true
+    },
+    "curriculum": {
+      "status": "PASS",
+      "role": "base_asset_5e94f3b1dba74ac3e2d349084fc4d8041b5b4db4942a4c496e968a32bb7fa434",
+      "occurrence_index": 0,
+      "augmentation_seed": 6570386910793674582,
+      "loss": 143.79647827148438,
+      "finite_gradients": true,
+      "nonzero_gradients": true,
+      "parameters_unchanged": true,
+      "initialization_sha256": "4ff4a0557d136a3a54d50aa7ada64937b2d6c2e2fab76c091b4478ac4b29f005",
+      "optimizer_steps": 0,
+      "model_discarded_before_formal_training": true
+    }
+  }
+}

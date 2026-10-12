@@ -1,0 +1,51 @@
+{
+  "status": "KNOWN_SOURCE_GROUP_ISOLATION_PASS",
+  "donor_dev_intersection": [],
+  "conditioning_dev_intersection": [],
+  "train_dev_group_intersection": [],
+  "excluded_conditioning_slots": [
+    {
+      "slot_id": "black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "class": "black",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "reason": "KNOWN_SOURCE_GROUP_LEAKAGE_EXCLUSION"
+    },
+    {
+      "slot_id": "black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "class": "black",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "reason": "KNOWN_SOURCE_GROUP_LEAKAGE_EXCLUSION"
+    },
+    {
+      "slot_id": "flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "class": "flash",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "reason": "KNOWN_SOURCE_GROUP_LEAKAGE_EXCLUSION"
+    },
+    {
+      "slot_id": "flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "class": "flash",
+      "affected_banks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "reason": "KNOWN_SOURCE_GROUP_LEAKAGE_EXCLUSION"
+    }
+  ],
+  "split_unchanged": true,
+  "physical_source_complete": false,
+  "pipeline_independent_holdout_claim": false
+}

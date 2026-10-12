@@ -1,0 +1,64 @@
+{
+  "stage": "Stage21B",
+  "amendment": "A1",
+  "parent_commit": "e10096073514aa0e2a15e6541489123b9e81f270",
+  "namespace": "Plastic_Bomo_Stage21B_TrainOnly",
+  "split_seed": 2101,
+  "internal_train_images": 109,
+  "internal_dev_images": 27,
+  "train_groups": 107,
+  "dev_groups": 27,
+  "synthetic_per_class": {
+    "flash": 32,
+    "black": 29
+  },
+  "excluded_conditioning_slots": [
+    "black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+    "black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+    "flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+    "flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8"
+  ],
+  "exclusion_reason": "KNOWN_SOURCE_GROUP_LEAKAGE_EXCLUSION",
+  "epochs": 150,
+  "detector_seed": 42,
+  "late_start_epoch_0based": 50,
+  "late_even_synthetic": 91,
+  "late_odd_synthetic": 92,
+  "draws_per_epoch": 170,
+  "real_draws": 16350,
+  "synthetic_draws": 9150,
+  "total_draws": 25500,
+  "accumulation_groups": [
+    64,
+    64,
+    42
+  ],
+  "optimizer_attempts": 450,
+  "occurrences_per_role": 150,
+  "role_order": "stable SHA256([namespace, role_order, role_id]); cyclic queues; no per-epoch reordering",
+  "paired_augmentation": "SHA256([namespace, augmentation, role_id, occurrence_index, detector_seed42]); first16hex modulo2**63",
+  "arms": [
+    "A_uniform",
+    "A_curriculum",
+    "B_uniform",
+    "B_curriculum",
+    "C_uniform",
+    "C_curriculum"
+  ],
+  "gates": {
+    "mean_delta_pp_min": 0.5,
+    "strict_bank_wins_min": 2,
+    "class_mean_delta_pp_min": -2.0,
+    "std_ddof": 1
+  },
+  "compute_definition": "identical 25500 draw forward/backwards and 450 scheduled optimizer attempts; actual successful AMP updates are disclosed, never compensated or asserted equal if different",
+  "dev_population": "DETECTOR_INTERNAL_DEV_CONDITIONAL_ON_FROZEN_GENERATOR",
+  "generator_dev_inputs": {
+    "black": 23,
+    "flash": 10
+  },
+  "official_final_eval": "FORBIDDEN_CONTENT_AND_FORWARD",
+  "primary_checkpoint": "epoch150 last.pt pinned native EMA",
+  "dev_evaluation": "one unified six-checkpoint round after all six last.pt hashes frozen",
+  "automatic_next_stage": false
+}

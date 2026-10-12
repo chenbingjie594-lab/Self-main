@@ -1,0 +1,34 @@
+{
+  "stage20a": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20a_v2_protocol",
+  "stage20b": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543",
+  "p0": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115",
+  "r0": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254",
+  "real_root": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only",
+  "detector_model": "/mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt",
+  "detector_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "device": "cuda:0",
+  "code_sha256": {
+    "tools/stage21b_a1_common.py": "19c35dcb46a3de62c56963b03740be2dfaa951d6e001a1f09285c6ce4b648ced",
+    "tools/prepare_plastic_bomo_stage21b_a1.py": "a89dfad4ab09c8091485f4ab21bf8e385061d05aaa2ff0263dad0177cfaa3e52",
+    "tools/run_plastic_bomo_stage21b_a1.py": "d8d0e105274bde19c909208279119d1a5f55e66dc6a841a58119b3eba908efe4",
+    "tools/execute_plastic_bomo_stage21b_a1.py": "61080ff73b55855aafec8cc7ae468122fa77722ec525014c849d661f7fafab25",
+    "tools/finalize_plastic_bomo_stage21b_a1.py": "95449d45e67e1f0306301915575d2d91b99e898b946860047b64b3ee73c3e1a8",
+    "tools/prepare_plastic_bomo_stage21b.py": "376a71c7992bc5960256a55c743937adfa0e4afaca04ddaa8ceb5403806a8c6a",
+    "tools/qualify_plastic_bomo_stage20b_r0.py": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+    "tools/stage20b_runtime_contract.py": "8b12745e13446da11fc2158c2babc657125e98381925d70b06ca52d959bbbfb1",
+    "tools/stage20b_detector_controller.py": "df482a55305301d2b33dc711a7cef7811a71c9e7b0d51d5dc26624365e24697f",
+    "tools/evaluate_plastic_bomo_stage20b.py": "78551ed9973c56bd884a705cbd9636116495f39329c0a064cd1962c87478105b",
+    "tools/stage20b_formal_common.py": "a2562cf15e437ce62bd9d2f1c5f8c58157407488c31a6afb20a7a1239f605d73"
+  },
+  "package_versions": {
+    "torch": "2.5.1",
+    "ultralytics": "8.4.145",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "Pillow": "12.3.0",
+    "numpy": "2.2.6",
+    "PyYAML": "6.0.3"
+  },
+  "prepared_metadata_manifest_sha256": "7a3069e6389f2c4ff34f7c0eecc4d40a41f22a1d17b102dfa7c59f74364a9225"
+}

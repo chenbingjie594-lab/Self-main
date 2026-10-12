@@ -56,3 +56,11 @@ tools/prepare_plastic_bomo_stage21b.py -text
 tests/test_plastic_bomo_stage21b.py -text
 Stage21B*.txt -text
 results_for_gpt/plastic_bomo_stage21b_timing_premise/** -text -whitespace
+# Stage21B Amendment A1 executable/protocol hashes, preserving the original entry audit.
+configs/plastic_bomo_stage21b_a1.json -text
+tools/stage21b_a1_common.py -text
+tools/*plastic_bomo_stage21b_a1.py -text
+tests/test_plastic_bomo_stage21b_a1.py -text
+Stage21B-A1*.txt -text
+# Post-execution CPU review is separate from all frozen A1 runtime hashes.
+tests/test_plastic_bomo_stage21b_a1_review.py -text

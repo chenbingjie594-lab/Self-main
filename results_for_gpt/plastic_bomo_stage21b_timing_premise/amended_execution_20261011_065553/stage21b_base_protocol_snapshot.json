@@ -1,0 +1,38 @@
+{
+  "stage": "Stage21B",
+  "namespace": "Plastic_Bomo_Stage21B_TrainOnly",
+  "split_seed": 2101,
+  "split_method": "sort unique V2 TRAIN detector known_source_group_id by SHA256(canonical JSON [namespace, split_seed, group]); first floor(0.8*N) groups internal_train; remainder internal_dev; no rebalance",
+  "train_group_fraction": 0.8,
+  "minimum_synthetic_per_class": 20,
+  "epochs": 150,
+  "detector_seed": 42,
+  "late_start_epoch_0based": 50,
+  "exposures_per_role": 150,
+  "gradient_accumulation": 64,
+  "paired_augmentation": "SHA256(canonical JSON [namespace, augmentation, sample role_id, occurrence_index, detector_seed]); first 16 hex digits modulo 2**63",
+  "arms": [
+    "A_uniform",
+    "A_curriculum",
+    "B_uniform",
+    "B_curriculum",
+    "C_uniform",
+    "C_curriculum"
+  ],
+  "gates": {
+    "mean_delta_pp_min": 0.5,
+    "strict_bank_wins_min": 2,
+    "class_mean_delta_pp_min": -2.0,
+    "std_ddof": 1,
+    "curriculum_std_not_greater": true
+  },
+  "compute_validity": "equal draws, accumulation groups and optimizer attempts; unequal successful AMP updates invalidate the strict fixed-compute premise, without compensatory steps",
+  "conditioning_dev_overlap_policy": "stop if any retained synthetic conditioning normal source group overlaps internal_dev; do not silently filter additional slots or change split",
+  "generator_training_dev_overlap": "disclose shared frozen-generator exposure to V2 TRAIN internal_dev; no claim of generator-independent holdout",
+  "official_final_eval": "FORBIDDEN_CONTENT_AND_FORWARD",
+  "checkpoint": "all six epoch150 last.pt frozen before one unified internal_dev evaluation round",
+  "generation_count": 0,
+  "BootstrapGuard": 0,
+  "DeepPCB": 0,
+  "automatic_next_stage": false
+}

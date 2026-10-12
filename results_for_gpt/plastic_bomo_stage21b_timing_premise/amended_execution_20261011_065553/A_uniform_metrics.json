@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "map5095": 0.381348718396299,
+  "map50": 0.8680341880341879,
+  "precision": 0.8473839083149133,
+  "recall": 0.9320367217337137,
+  "per_class": {
+    "flash": {
+      "precision": 0.6947678166298267,
+      "recall": 1.0,
+      "ap50": 0.8710683760683757,
+      "ap5095": 0.38844613809129935
+    },
+    "black": {
+      "precision": 1.0,
+      "recall": 0.8640734434674273,
+      "ap50": 0.865,
+      "ap5095": 0.37425129870129875
+    }
+  },
+  "arm": "A_uniform",
+  "checkpoint_sha256": "b9a460e6ed15fcafb340b4e5e3735f1bc682c5f691a1a6a3e9d946d1e523caa6",
+  "evaluation_image_count": 27,
+  "target_counts": {
+    "black": 23,
+    "flash": 10
+  },
+  "primary_checkpoint": "epoch150 last.pt",
+  "dev_population": "DETECTOR_INTERNAL_DEV_CONDITIONAL_ON_FROZEN_GENERATOR"
+}

@@ -1,0 +1,17 @@
+{
+  "comparison": "within-bank curriculum minus uniform, NOT RealRepeat headroom",
+  "delta_pp": {
+    "A": -2.5002002898736384,
+    "B": -0.23767877870563003,
+    "C": -4.486854317635719
+  },
+  "mean_delta_pp": -2.4082444620716625,
+  "strict_bank_wins": 0,
+  "gates": {
+    "Gate_A": false,
+    "Gate_B": false,
+    "Gate_C": false,
+    "Gate_D": true
+  },
+  "scope": "conditional detector internal_dev premise only"
+}

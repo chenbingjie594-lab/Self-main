@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "banks": {
+    "A": {
+      "occurrence_count": 25500,
+      "mismatched_occurrence_count": 0,
+      "mismatched_occurrences": [],
+      "augmentation_binding_sha256": "ed8b0d612e9b8ad53e62c1b5b4e5141e23d258ef009328de8c064f200072b267"
+    },
+    "B": {
+      "occurrence_count": 25500,
+      "mismatched_occurrence_count": 0,
+      "mismatched_occurrences": [],
+      "augmentation_binding_sha256": "88f0d9a4e4b0a5135da0972fe2bc34c64e61350c6bbc48a1714d7eef9269f2c9"
+    },
+    "C": {
+      "occurrence_count": 25500,
+      "mismatched_occurrence_count": 0,
+      "mismatched_occurrences": [],
+      "augmentation_binding_sha256": "5642ef901a6127a7832c36819a67a1c3e2a7eb7e5a1ad27e85c2b14abd5c5c93"
+    }
+  },
+  "pairing_scope": "within each bank, every model input/target augmentation occurrence",
+  "actual_occurrence_counts_equal": true,
+  "actual_draws_each_arm": 25500,
+  "actual_optimizer_attempts_each_arm": 450,
+  "successful_updates": {
+    "A_uniform": 443,
+    "A_curriculum": 443,
+    "B_uniform": 442,
+    "B_curriculum": 443,
+    "C_uniform": 442,
+    "C_curriculum": 443
+  },
+  "successful_updates_equal": false,
+  "successful_update_variation_not_compensated": true,
+  "same_initialization": true
+}

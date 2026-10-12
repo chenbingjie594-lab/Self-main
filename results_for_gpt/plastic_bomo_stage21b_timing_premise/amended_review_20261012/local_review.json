@@ -1,0 +1,62 @@
+{
+  "review_status": "LOCAL_DOWNLOADED_STAGE21B_A1_REVIEW_PASS",
+  "run": "amended_execution_20261011_065553",
+  "server_result_manifest_sha256": "740e44e67df1a05de0145344b09d505b6beac21602cbc7eeb7c0852c9d799bed",
+  "metadata_files_verified": 53,
+  "checkpoint_bytes_verified": 6,
+  "draw_records_verified": 153000,
+  "augmentation_pairing": "PASS",
+  "actual_optimizer_groups_and_lr_pairing": "PASS",
+  "source_isolation": "PASS",
+  "original_audit_and_split_unchanged": true,
+  "internal_dev_unique_images": 27,
+  "successful_updates": {
+    "A_uniform": 443,
+    "A_curriculum": 443,
+    "B_uniform": 442,
+    "B_curriculum": 443,
+    "C_uniform": 442,
+    "C_curriculum": 443
+  },
+  "successful_updates_equal": false,
+  "scheduled_attempts_each_arm": 450,
+  "actual_draws_each_arm": 25500,
+  "independently_recomputed": {
+    "status": "SYNTHETIC_EXPOSURE_TIMING_PREMISE_NOT_SUPPORTED",
+    "Gate_A": false,
+    "Gate_B": false,
+    "Gate_C": false,
+    "Gate_D": true,
+    "delta_A_pp": -2.5002002898736384,
+    "delta_B_pp": -0.23767877870563003,
+    "delta_C_pp": -4.486854317635719,
+    "mean_delta_pp": -2.4082444620716625,
+    "Flash_mean_delta_pp": -1.0855646066227242,
+    "Black_mean_delta_pp": -3.7309243175206084,
+    "uniform_bank_std_pp": 3.049123522222768,
+    "curriculum_bank_std_pp": 0.9395390609054062,
+    "strict_bank_wins": 0,
+    "paired_class_deltas_pp": {
+      "flash": {
+        "A": -1.2946138091299353,
+        "B": 1.0051615290839422,
+        "C": -2.9672415398221794
+      },
+      "black": {
+        "A": -3.705786770617353,
+        "B": -1.4805190864952078,
+        "C": -6.006467095449263
+      }
+    }
+  },
+  "official_final_eval_access_in_local_review": 0,
+  "internal_dev_image_or_label_content_read_in_local_review": 0,
+  "optimizer_steps_in_local_review": 0,
+  "forward_count_in_local_review": 0,
+  "frozen_server_outputs_modified": false,
+  "dev_population": "DETECTOR_INTERNAL_DEV_CONDITIONAL_ON_FROZEN_GENERATOR",
+  "generator_dev_annotation_inputs": 33,
+  "pipeline_independent_holdout_claim": false,
+  "guard_evidence_scope": "pinned execution code + downloaded counters; not an OS-level access trace",
+  "next_experiment_automatically_started": false
+}

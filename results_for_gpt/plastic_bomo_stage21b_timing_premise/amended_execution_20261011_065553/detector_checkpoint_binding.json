@@ -1,0 +1,36 @@
+{
+  "status": "ALL_SIX_EPOCH150_LAST_FROZEN",
+  "arms": {
+    "A_uniform": {
+      "path": "checkpoints/A_uniform/last.pt",
+      "sha256": "b9a460e6ed15fcafb340b4e5e3735f1bc682c5f691a1a6a3e9d946d1e523caa6",
+      "epochs": 150
+    },
+    "A_curriculum": {
+      "path": "checkpoints/A_curriculum/last.pt",
+      "sha256": "7ae219bf4cecac8b4f2f3e1b07763275faac47b3e2101acdf4f555696a287f86",
+      "epochs": 150
+    },
+    "B_uniform": {
+      "path": "checkpoints/B_uniform/last.pt",
+      "sha256": "ed5a699615dba6f6cabca51f5284928b8e0add51bfe16153c10a61c5a91dd2ec",
+      "epochs": 150
+    },
+    "B_curriculum": {
+      "path": "checkpoints/B_curriculum/last.pt",
+      "sha256": "dbf548695d9bd776ce7889872ad6a65e4e255142bf1e1c15fef563b7dff2cb8f",
+      "epochs": 150
+    },
+    "C_uniform": {
+      "path": "checkpoints/C_uniform/last.pt",
+      "sha256": "338b4794f8c375c8fbdadfb4dda2c5192727f3eded0a8a51ffcc6a8993646769",
+      "epochs": 150
+    },
+    "C_curriculum": {
+      "path": "checkpoints/C_curriculum/last.pt",
+      "sha256": "981bc6d9cb28fbdc2a69920f91e9158aa3a8be44b999392df7ed83ad81403a6d",
+      "epochs": 150
+    }
+  },
+  "validation_selection": false
+}

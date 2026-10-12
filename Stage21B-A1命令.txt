@@ -1,0 +1,50 @@
+# 上传新文件（不要打包，不要删除旧审计）：
+# configs/plastic_bomo_stage21b_a1.json
+# tools/stage21b_a1_common.py
+# tools/prepare_plastic_bomo_stage21b_a1.py
+# tools/run_plastic_bomo_stage21b_a1.py
+# tools/execute_plastic_bomo_stage21b_a1.py
+# tools/finalize_plastic_bomo_stage21b_a1.py
+# 还需服务器已有原 e100960 的 tools/prepare_plastic_bomo_stage21b.py、configs/plastic_bomo_stage21b.json
+# 和 results_for_gpt/plastic_bomo_stage21b_timing_premise/ 原始审计文件。
+# 如果原审计还未上传服务器：上传该目录顶层的13个JSON/MD文件即可，不需要上传本地 amended_execution_* 子目录。
+# 已有 Stage20A/P0/R0/Stage20B 脚本、JSON 与 Raw A/B/C 图像/标签保持原样。
+# 原 390 个文件 audit 不删除；A1 仅用指定排除后的61个slot。
+
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage21b_timing_premise
+
+TASK21B_RUN=$(date +%Y%m%d_%H%M%S)
+export TASK21B_RUN
+nohup env CUDA_VISIBLE_DEVICES=0 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True bash -c '
+set -e
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/prepare_plastic_bomo_stage21b_a1.py \
+  --protocol configs/plastic_bomo_stage21b_a1.json \
+  --real_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
+  --scope SERVER_PREPARATION \
+  --output results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_prepared_${TASK21B_RUN}
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage21b_a1.py \
+  --prepared results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_prepared_${TASK21B_RUN} \
+  --real_root /mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only \
+  --detector_model pretrained/yolo11s.pt \
+  --output results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_execution_${TASK21B_RUN} \
+  --device 0
+' > logs/plastic_bomo_stage21b_timing_premise/amended_${TASK21B_RUN}.log 2>&1 &
+
+echo $! > logs/plastic_bomo_stage21b_timing_premise/amended_${TASK21B_RUN}.pid
+echo "日志: logs/plastic_bomo_stage21b_timing_premise/amended_${TASK21B_RUN}.log"
+echo "结果: results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_execution_${TASK21B_RUN}"
+
+# 看进度（使用上面的 TASK21B_RUN；新终端请替换成实际时间戳）：
+# ps -fp "$(cat logs/plastic_bomo_stage21b_timing_premise/amended_${TASK21B_RUN}.pid)"
+# tail -n 80 logs/plastic_bomo_stage21b_timing_premise/amended_${TASK21B_RUN}.log
+# 各阶段详细日志在 amended_execution_<timestamp>/logs/，每arm每epoch打印。
+# 顺序：single-batch safety（0步）→六arm→augmentation配对/六checkpoint冻结→一次internal_dev统一评估→finalize。
+# 使用 CUDA_VISIBLE_DEVICES 指定的空闲物理GPU；如果被占用，仅修改该变量，不改变训练配置。
+# 任一步失败直接停止；不要直接重新运行同一目录，也不要删已有结果、自动resume或只重跑dev评估。
+# 跑完仅下载 amended_execution_<timestamp>/ 顶层JSON/MD，以及 logs/ 中的文本日志。
+# 可不下载 checkpoints/、train_inputs/、internal_dev_inputs/、internal_dev_outputs/（重资产已SHA绑定）。
+# 未下载checkpoint时，本地只能复核服务器生成的hash绑定与完整draw日志，不能重新核验checkpoint文件字节。

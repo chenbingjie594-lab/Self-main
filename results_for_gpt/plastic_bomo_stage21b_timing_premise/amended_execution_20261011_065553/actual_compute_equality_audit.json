@@ -1,0 +1,17 @@
+{
+  "status": "EQUAL_SCHEDULE_PASS_WITH_AMP_SUCCESSFUL_UPDATE_VARIATION",
+  "total_draws_each_arm": 25500,
+  "optimizer_attempts_each_arm": 450,
+  "successful_updates": {
+    "A_uniform": 443,
+    "A_curriculum": 443,
+    "B_uniform": 442,
+    "B_curriculum": 443,
+    "C_uniform": 442,
+    "C_curriculum": 443
+  },
+  "successful_updates_equal": false,
+  "not_compensated": true,
+  "comparison_definition": "identical 25500 draw forward/backwards and 450 scheduled optimizer attempts; actual successful AMP updates are disclosed, never compensated or asserted equal if different",
+  "actual_augmentation_pairing": true
+}
