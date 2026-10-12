@@ -1,0 +1,76 @@
+{
+  "stage": "Stage23A",
+  "source_revision": "0445239155b9fc61f862e7523cd8d1aafeced53e",
+  "effect_unit": "percentage points (pp); raw AP multiplied by 100",
+  "cross_protocol_pooling_performed": false,
+  "findings": [
+    {
+      "id": "F1",
+      "claim": "Raw synthetic utility is unstable across the observed generation realizations.",
+      "evidence_level": "SUPPORTED_WITHIN_FROZEN_PROTOCOL",
+      "source_ids": ["S20B", "S21A"],
+      "observations": {"banks": 3, "detector_seed": 42, "delta_vs_RR_pp": {"A": -6.260203770666428, "B": -2.888353977580654, "C": 1.3781257868034469}, "sample_sd_pp": 3.8278866892745036, "range_pp": 7.638329557469875},
+      "limits": "三次 generation-RNG realization 不是三个 detector seed；不能估计总体方差或由 mAP 反推具体像素机制。"
+    },
+    {
+      "id": "F2",
+      "claim": "Raw SD2 does not show stable positive headroom on V2.",
+      "evidence_level": "REGISTERED_HEADROOM_NOT_CONFIRMED",
+      "source_ids": ["S20B"],
+      "observations": {"mean_delta_vs_RR_pp": -2.5901439871478784, "wins": 1, "banks": 3, "registered_gates": {"A": false, "B": false, "C": false}},
+      "limits": "针对该冻结 V2 split、generator checkpoints、slots 和 detector protocol；不是所有 SD2 配置或 synthetic 数据的无效证明。"
+    },
+    {
+      "id": "F3",
+      "claim": "One individual generation realization outperformed RealRepeat.",
+      "evidence_level": "OBSERVED_SINGLE_REALIZATION",
+      "source_ids": ["S20B"],
+      "observations": {"bank": "C", "delta_vs_RR_pp": 1.3781257868034469},
+      "limits": "保留正结果，但不选 C 作为获胜模型、不增加 bank、不据此声称稳定 baseline 有效。"
+    },
+    {
+      "id": "F4",
+      "claim": "The tested late exposure schedule reduced across-bank sample spread but also reduced mean utility.",
+      "evidence_level": "SUPPORTED_CONDITIONAL_INTERNAL_DEV_RESULT",
+      "source_ids": ["S21B", "S21B_REVIEW"],
+      "observations": {"curriculum_minus_uniform_pp": {"A": -2.5002002898736384, "B": -0.23767877870563003, "C": -4.486854317635719}, "mean_delta_pp": -2.4082444620716625, "uniform_sample_sd_pp": 3.049123522222768, "curriculum_sample_sd_pp": 0.9395390609054062, "strict_wins": 0, "class_mean_delta_pp": {"flash": -1.0855646066227242, "black": -3.730924317520608}},
+      "limits": "这是 detector internal_dev conditional on frozen generator。生成器历史用过 33 个 dev-group annotation inputs，不是独立 pipeline holdout 或 official final_eval。相同 scheduled attempts，successful updates 为 442–443，不能称严格实际更新相等。样本 SD 下降不等于总体方差降低已证实。"
+    },
+    {
+      "id": "F5",
+      "claim": "Generation RNG changes measured detector loss and selected-gradient signals; exported feature differences are descriptive bank-level evidence only.",
+      "evidence_level": "MATCHED_SLOT_LOSS_GRADIENT_VARIATION_PLUS_DESCRIPTIVE_FEATURES",
+      "source_ids": ["S22A_TRIPLETS", "S22A_FEATURES", "S22A_REVIEW"],
+      "observations": {"matched_slots": 61, "median_within_slot_ranges": {"flash": {"loss": 4.491287, "selected_gradient_l2": 139.077904, "same_class_cosine": 0.024765}, "black": {"loss": 4.504227, "selected_gradient_l2": 113.779584, "same_class_cosine": 0.028550}}, "feature_summary_level": "class x bank x backbone/neck ROI", "matched_slot_feature_metrics_exported": false, "raw_gradient_or_feature_vectors_exported": false},
+      "limits": "非零 range 不是显著性测试；不证明 variation 造成 utility。没有 matched per-slot feature triplet 或原始 vectors，不能把 feature 也写成同等强度的配对证据。"
+    },
+    {
+      "id": "F6",
+      "claim": "No negative-gradient-conflict mechanism was identified at the measured frozen initialization.",
+      "evidence_level": "SUPPORTED_MEASURED_PARAMETER_SCOPE",
+      "source_ids": ["S22A_CONFLICT", "S22A_REVIEW"],
+      "observations": {"rule": "cosine < 0", "synthetic_global_conflict_fraction": 0, "synthetic_same_class_conflict_fraction": 0, "minimum_global_cosine_all_records_rounded": 0.090134, "minimum_same_class_cosine_all_records_rounded": 0.113735},
+      "limits": "YOLO11s public initialization 的四个代表参数张量；不覆盖所有参数或训练轨迹，不能声称训练过程中没有冲突。"
+    },
+    {
+      "id": "F7",
+      "claim": "No unique loss, gradient-norm, gradient-direction or feature mechanism currently explains utility under the predeclared requirements.",
+      "evidence_level": "REGISTERED_MECHANISM_NOT_IDENTIFIED",
+      "source_ids": ["S22A", "S22A_CANDIDATES", "S22A_REVIEW"],
+      "observations": {"formal_status": "SYNTHETIC_OPTIMIZATION_MECHANISM_NOT_IDENTIFIED", "probes": 292, "optimizer_steps": 0, "candidate_selected": false},
+      "limits": "Real target multiplicity 与 synthetic single-target 不同；total loss 中 classification 占主导。Feature effective-rank 的实/合样本数上界不同。没有机制干预或预测验证。"
+    }
+  ],
+  "historical_context": [
+    {"stage": "Stage14A", "source_ids": ["S14A"], "status": "IMAGE_PROPERTY_BOTTLENECK_NOT_IDENTIFIED", "supported": "morphology-matched 子集有诊断差异；当时 KID/nearest-LPIPS 缺失，不能称 fidelity bottleneck"},
+    {"stage": "Stage14B", "source_ids": ["S14B", "S21A"], "status": "UTILITY_SIGNAL_PRESENT_BUT_MECHANISM_UNRESOLVED", "supported": "High-Random mean +1.043pp、2/3 wins；Flash/Black 不对称；未证明 broad fidelity 改善或机制"},
+    {"stage": "Stage15A", "source_ids": ["S15A", "S21A"], "status": "CLASS_INTERACTION_DOMINATES_MORPHOLOGY_SIGNAL", "supported": "冻结 class-specific sample sets 的条件效应与 interaction；不能识别 morphology 特异因果"},
+    {"stage": "Stage15B", "source_ids": ["S15B", "S21A"], "status": "MORPHOLOGY_SIGNAL_PRESENT_DOSE_HYPOTHESIS_NOT_CONFIRMED", "supported": "dose gates C/D 未通过；nominal role 与实际 High-list membership 不同，不能继续 dose/Top-K 救援"},
+    {"stage": "Stage16A / Stage16A-R0", "source_ids": ["S21A"], "status": "ENTRY_AUDITS_STOPPED", "supported": "mapping/provenance 入口阻断，不是 task-guidance 有效性实验；此处使用历史综合记录，不冒充原 server status"},
+    {"stage": "Stage17A", "source_ids": ["S17A"], "status": "SYNTHETIC_HEADROOM_NOT_REPRODUCIBLE", "supported": "train-only 权威 rebuild mean -5.0824pp、0/3 wins；与 V2 不合并"},
+    {"stage": "Stage18A", "source_ids": ["S18A"], "status": "NO_AUDITABLE_ALTERNATIVE_GENERATOR_BASE", "supported": "当时已检查资产无合格替代；不是全球不存在替代 generator"},
+    {"stage": "Stage20A / P0 / R0", "source_ids": ["S21A", "S20B_GENERATOR_PROTOCOL", "S20B_SLOTS"], "status": "PROTOCOL_AND_RUNTIME_QUALIFICATION_ONLY", "supported": "资格和弱 bbox 条件定义不证明 utility，也不把矩形 mask 变为人工 segmentation"}
+  ],
+  "legacy_to_V2_absolute_AP_comparison": false,
+  "previous_final_metrics_are_now_exploratory_route_evidence": true
+}

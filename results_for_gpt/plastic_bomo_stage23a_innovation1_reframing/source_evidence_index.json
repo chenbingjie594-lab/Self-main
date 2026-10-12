@@ -1,0 +1,29 @@
+{
+  "stage": "Stage23A",
+  "source_revision": "0445239155b9fc61f862e7523cd8d1aafeced53e",
+  "github_blob_url_template": "https://github.com/chenbingjie594-lab/Self-main/blob/{source_revision}/{path}",
+  "sha256_semantics": "SHA-256 of exact git-show bytes at source_revision, not a reserialized JSON hash",
+  "worktree_crosscheck": "All 18 contents agree with pinned Git; S14B differs only in LF/CRLF. No source file was rewritten.",
+  "sources": [
+    {"id": "S14A", "path": "results_for_gpt/plastic_bomo_stage14a_generator_bottleneck/stage14a_status.json", "sha256": "054d42663e0ad167416ec75eaeb5919994a097c76eb812dcceff940a1a712f02"},
+    {"id": "S14B", "path": "results_for_gpt/plastic_bomo_stage14b_fidelity_confirmation/stage14b_status.json", "sha256": "8cce46adfe630ddb60f9f4d3cc8865c513c3eeed8d201b59bc2e20eb9829a2af", "worktree_sha256": "b652728172c0445ac464c54f3e9a0ef3efd56bb611319d9e17a325e572703966", "only_line_ending_difference": true},
+    {"id": "S15A", "path": "results_for_gpt/plastic_bomo_stage15a_class_conditional_morphology/stage15a_status.json", "sha256": "fcba14a0cba6486cbbd780b8431fc55fda64a7d92ec2973048987d2ad446c8b0"},
+    {"id": "S15B", "path": "results_for_gpt/plastic_bomo_stage15b_morphology_dose/stage15b_status.json", "sha256": "b22e40a95f480daac267097c47ef39f56c05bac28777b42de9beaa4dbfa48129"},
+    {"id": "S17A", "path": "results_for_gpt/plastic_bomo_stage17a_vanilla_utility_stability/detector_repair_20261007_080108/results/stage17a_status.json", "sha256": "77bf9f9500a27a53c958559d12164ea34470e0f70bbbcd77890548640f3e64d7"},
+    {"id": "S18A", "path": "results_for_gpt/plastic_bomo_stage18a_generator_base_viability_audit/server_inventory_20261008_042413/stage18a_status.json", "sha256": "7ae8c09ddfde5dda7e9c0972914c9a4e4ee29156c617eae182e74f94f6155468"},
+    {"id": "S20B", "path": "results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543/stage20b_status.json", "sha256": "b2ed6fc32afa630ffd3e928dc68d25a46da8096c965f86a3179625e2e9392f59"},
+    {"id": "S21A", "path": "results_for_gpt/plastic_bomo_stage21a_route_decision/STAGE21A_REPORT.md", "sha256": "ebefddfaeda5e8381dd4b453b93a4955df887ca80dabc2252e18cda81f85ec7d"},
+    {"id": "S21B", "path": "results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_execution_20261011_065553/stage21b_status.json", "sha256": "2f103500153bab8e620056ace6c6b158d941e595bd942e08a1055401810512d2"},
+    {"id": "S21B_REVIEW", "path": "results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_review_20261012/LOCAL_REVIEW.md", "sha256": "a69e04ac5502aa2888a13cfd4b186ba10dec2e8fd0fe093eb200f2daf5338bea"},
+    {"id": "S22A", "path": "results_for_gpt/plastic_bomo_stage22a_failure_mechanism/stage22a_status.json", "sha256": "2fad4f2c5c09e11e51317511a9532bffa3bbd6bf578ab3c8035d01347c07176c"},
+    {"id": "S22A_REVIEW", "path": "results_for_gpt/plastic_bomo_stage22a_failure_mechanism/STAGE22A_REVIEW.md", "sha256": "0c898571f282e09dac0b15cf0050d40d1aa5a0d6496b9cec19d1a4d835b8937b"},
+    {"id": "S22A_TRIPLETS", "path": "results_for_gpt/plastic_bomo_stage22a_failure_mechanism/matched_triplet_audit.json", "sha256": "81993129cc48ea95ffe4148f8ed3b2d6a306088e6e951e96ed07fab156794b54"},
+    {"id": "S22A_CONFLICT", "path": "results_for_gpt/plastic_bomo_stage22a_failure_mechanism/gradient_conflict_audit.json", "sha256": "38cedaa726fab11cb4248a7d72778f84bad39b6ed41d065ac5d0e9f1185cbd77"},
+    {"id": "S22A_CANDIDATES", "path": "results_for_gpt/plastic_bomo_stage22a_failure_mechanism/mechanism_candidate_summary.json", "sha256": "613776b79f148790bd3d0e3fe976e9283edcff669c7699d26f40d8a7c5a6a04a"},
+    {"id": "S22A_FEATURES", "path": "results_for_gpt/plastic_bomo_stage22a_failure_mechanism/feature_distribution_audit.json", "sha256": "ab0fcba19ea116a8061c440dac6bf44948922b3a659de939282b334335311c72"},
+    {"id": "S20B_GENERATOR_PROTOCOL", "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_generator_training_protocol.json", "sha256": "27ae51828f38d85596aab6f9d5642bcbfedccdde56587018bbe835f2f5e17ed5"},
+    {"id": "S20B_SLOTS", "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_generation_slots.json", "sha256": "a32cfab656156a37a3263459cf48ac60ed95342bc69f9a71289ff191d91810fc"}
+  ],
+  "source_images_labels_or_checkpoints_opened": false,
+  "historical_results_modified": false
+}

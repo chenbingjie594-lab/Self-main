@@ -1,0 +1,37 @@
+{
+  "status": "INNOVATION1_DIRECTION_SELECTED_FOR_PROTOCOL_DESIGN",
+  "selected_option": "C",
+  "selected_problem": "Trustworthy weak-condition local defect generation: cross-RNG condition adherence without background drift or collapse of permitted appearance diversity",
+  "selection_type": "QUALITATIVE_RESEARCH_DIRECTION_NOT_WEIGHTED_SCORE_OR_METHOD",
+  "reasons": [
+    "工业少样本区域控制、小尺度与条件遵从有独立文献动机，不以本项目 negative mAP 为唯一理由。",
+    "可直接设计生成侧 premise 评价，不需要把 loss/gradient/feature 诊断强行转成模块。",
+    "可与 BootstrapGuard 的 post-generation retention 分开；全部 raw 输出参与评价。",
+    "Plastic_Bomo 的可信 class/bbox/normal role 允许较窄的位置/范围和背景问题设计；精确形状/外观控制需要额外前提。",
+    "A 的 family winner 与 B 的 integration mechanism 均未识别，成本与事后选择风险较高。"
+  ],
+  "option_decisions": {"A": "DEFERRED_TASK_FIT_UNPROVEN", "B": "DEFERRED_MECHANISM_UNIDENTIFIED", "C": "PROTOCOL_DESIGN_ONLY"},
+  "not_claimed": [
+    "C already novel/effective",
+    "generation condition failure already identified on Plastic_Bomo",
+    "generator variability caused Stage20B detector harm",
+    "a specific family/loss/attention/adapter is justified",
+    "existing SD2 mechanism route reopened",
+    "same final_eval is available for tuning or independent reconfirmation"
+  ],
+  "future_protocol_design_must_resolve": [
+    "先定义可信条件轴、独立输出测量、允许外观多样性和已看过 outcome 的隔离边界。",
+    "真实 weak bbox 不是 pixel mask；不能把请求框复制成输出成功框，不能由 teacher feature 代替 image geometry truth。",
+    "区分相同 seed 精确复现、跨 seed 条件稳健性、生成质量和后续 detector utility。",
+    "把既有条件/小尺度研究列为 prior art，识别可检验且真正未解决的缺口；如没有缺口，不设计模块。",
+    "前提审计先于方法设计，方法设计先于独立效能确认；当前只是规定设计顺序，不生成 Stage23B 协议或命令。"
+  ],
+  "fallback_if_no_measurable_or_novel_gap": "NEW_INNOVATION1_REQUIRES_LITERATURE_GROUNDED_REDESIGN",
+  "future_protocol_design_authorized": true,
+  "confirmatory_protocol_already_frozen": false,
+  "method_design_or_implementation_authorized": false,
+  "experiment_execution_authorized": false,
+  "STAGE23B_EXECUTION_AUTHORIZED": false,
+  "stage23b_started": false,
+  "stop_after_github_submission": true
+}

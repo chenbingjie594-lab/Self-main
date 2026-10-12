@@ -1,0 +1,19 @@
+{
+  "stage": "Stage23A",
+  "not_supported_is_not_universally_disproved": true,
+  "claims": [
+    {"claim": "visual fidelity causes detector utility", "source_ids": ["S14A", "S14B", "S21A"], "reason": "旧子集信号不是单一 fidelity 干预；KID/LPIPS 与 morphology 并非一致改善，机制门槛未通过。"},
+    {"claim": "morphology alignment causes detector utility", "source_ids": ["S15A", "S15B", "S21A"], "reason": "class interaction、集合组成、High/Random overlap 与 dose 限制仍在；没有 morphology-only 因果分离。"},
+    {"claim": "gradient conflict causes synthetic harm", "source_ids": ["S22A_CONFLICT", "S22A_REVIEW"], "reason": "测量范围内 cosine<0 比例为0；没有训练轨迹或 conflict 干预。"},
+    {"claim": "higher gradient norm causes synthetic harm", "source_ids": ["S22A_CANDIDATES", "S22A_REVIEW"], "reason": "描述性 median 升高未通过预声明跨类/跨 bank 分离；target multiplicity 等混杂未隔离。"},
+    {"claim": "feature distance causes synthetic harm", "source_ids": ["S22A_FEATURES", "S22A_REVIEW"], "reason": "bank-level 汇总差异、样本数敏感的 rank 和缺失的 per-slot/raw vectors，不能建立 utility 因果机制。"},
+    {"claim": "Black generator quality is the cause", "source_ids": ["S17A", "S20B", "S21A"], "reason": "V2 Black AP 损害是 outcome，不是生成质量测量；旧 Stage17A 的 Flash 降幅反而更大，不能普遍化 class rescue。"},
+    {"claim": "Late curriculum is generally effective", "source_ids": ["S21B", "S21B_REVIEW"], "reason": "这个固定 schedule 的 mean 与 class utility 降低；spread 缩小不等于有效。也不能由其失败否定所有 curriculum。"},
+    {"claim": "TDCRG is justified", "source_ids": ["S20B", "S22A"], "reason": "raw baseline headroom 与唯一机制均未确认；不授权 task-guidance 或现有 SD2 机制补丁。"},
+    {"claim": "gradient weighting is justified", "source_ids": ["S22A", "S22A_CANDIDATES"], "reason": "没有可用于权重设计的唯一机制；近零权重还可能变成 BootstrapGuard 的软 selector。"},
+    {"claim": "generation-RNG utility spread proves generator condition-control failure", "source_ids": ["S20B", "S22A_TRIPLETS"], "reason": "utility 和 detector signals 不是直接几何/外观遵从测量；C 的生成侧前提尚未测量。"},
+    {"claim": "lower feature effective rank proves synthetic diversity collapse", "source_ids": ["S22A_FEATURES", "S22A_REVIEW"], "reason": "实/合样本数不同、covariance rank 上界不同；需要同样本数可复核的独立测量。"},
+    {"claim": "generation controllability is already a novel contribution in this project", "source_ids": [], "literature_ids": ["L1", "L2", "L3", "L4", "L5", "L6"], "reason": "位置、形状、条件一致性、小尺度等已有工作；只能选择研究问题，尚无已证明的新颖方法或 Plastic_Bomo 控制缺口。"}
+  ],
+  "method_implementation_authorized_by_any_claim": false
+}

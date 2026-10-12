@@ -1,0 +1,34 @@
+{
+  "stage": "Stage23A",
+  "source_revision": "0445239155b9fc61f862e7523cd8d1aafeced53e",
+  "CURRENT_SD2_GENERATOR_MECHANISM_ROUTE": "CLOSED",
+  "CURRENT_SYNTHETIC_TIMING_ROUTE": "CLOSED",
+  "CURRENT_GRADIENT_MECHANISM_ROUTE": "NOT_SUPPORTED",
+  "routes": [
+    {
+      "route": "CURRENT_SD2_GENERATOR_MECHANISM_ROUTE",
+      "source_ids": ["S17A", "S20B", "S21A"],
+      "reason": "当前 raw SD2 在各自冻结协议下没有稳定正 headroom，旧 morphology/fidelity 子集链不能授权 TDCRG 或现有 SD2 机制补丁。",
+      "closed_actions": ["TDCRG", "现有 SD2 的事后 attention/loss/adapter 救援", "选最好 bank 或增加 bank 直到通过"],
+      "not_implied": "不代表所有生成器或所有 synthetic augmentation 都无效；历史 checkpoint 可作为未来经另行批准的参考基线，但不能由此重新开放开发路线。"
+    },
+    {
+      "route": "CURRENT_SYNTHETIC_TIMING_ROUTE",
+      "source_ids": ["S21B", "S21B_REVIEW"],
+      "reason": "固定 LateSyntheticCurriculum 的 mean utility 降低，3/3 bank 均未胜 Uniform；降低 bank spread 不构成有效性。",
+      "closed_actions": ["新 curriculum", "扫描 late-start 时间", "改变 exposure 救援"],
+      "not_implied": "只停止本项目当前时序路线，不是对所有 curriculum 的普遍否定。"
+    },
+    {
+      "route": "CURRENT_GRADIENT_MECHANISM_ROUTE",
+      "source_ids": ["S22A", "S22A_CANDIDATES", "S22A_CONFLICT", "S22A_REVIEW"],
+      "reason": "固定初始化和所选参数下没有负 cosine conflict；loss/norm/feature 没有唯一候选满足预声明全部门槛。",
+      "closed_actions": ["gradient weighting", "PCGrad", "GradNorm", "uncertainty weighting", "feature alignment module", "class-specific rescue"],
+      "not_implied": "未支持当前机制与开发，不代表训练轨迹、其他参数组或其他任务中永远不存在冲突。"
+    }
+  ],
+  "historical_status_or_result_rewrite": false,
+  "supersedes_historical_next_step_recommendations_only": true,
+  "global_synthetic_useless_claim": false,
+  "global_curriculum_or_gradient_failure_claim": false
+}

@@ -1,0 +1,34 @@
+{
+  "option": "A",
+  "direction": "Generator-family / task-fit redesign",
+  "decision": "DEFERRED_TASK_FIT_UNPROVEN",
+  "scientific_motivation": {
+    "independent_of_negative_results": true,
+    "question": "什么生成表示能在少样本下保留小缺陷局部细节、可定位条件与未编辑背景，而不是把整个产品重新生成？",
+    "literature_ids": ["L1", "L2", "L4", "L7"],
+    "task_fit_profile_not_a_selected_architecture": ["局部条件编辑而非无约束整图生成", "可审计的空间粒度与目标尺度", "明确的背景保留接口", "少量真实缺陷下可复用先验", "兼容弱 bbox 条件，不冒充精确形状监督"],
+    "qualification": "这些任务属性给出比较准则，不证明哪个 family 已胜出；文献中 latent diffusion 本身也有任务适配方案，不能直接推导必须换成 pixel diffusion/GAN/更大模型。"
+  },
+  "existing_evidence": {
+    "source_ids": ["S17A", "S18A", "S20B", "S20B_GENERATOR_PROTOCOL", "S20B_SLOTS"],
+    "supported": ["目前 raw SD2 utility 不稳定", "当前生成用 512 crop 与弱 bbox rectangle", "Stage18A 仅说明已查资产没有合格替代"],
+    "not_supported": ["SD2 的压缩导致 Plastic_Bomo 小缺陷消失", "更大 backbone 一定更合适", "low contrast 是本次 utility 失败原因"]
+  },
+  "missing_premise": [
+    "按 source group 固定的 few-shot 定义及 scale/contrast 任务统计，而不是由 AP 倒推出难点",
+    "直接生成侧的目标缺失、位置/范围遵从、背景漂移与外观有效性测量",
+    "候选家族权重、代码、许可、源数据隔离与无 selector 输出的可审计链",
+    "预先选择的有限结构比较及公平预算定义；相同更新数不一定是相同 compute",
+    "独立于已看过 final_eval 的开发/确认边界"
+  ],
+  "novelty_potential": {"assessment": "CONDITIONAL_NOT_ESTABLISHED", "reason": "已有区域生成、小尺度生成和局部背景融合工作；换 backbone 或复现一个 published generator 不是本身的新贡献。需要明确未解决的任务缺口。"},
+  "implementation_complexity": {"relative": "HIGH", "reason": "新资产链、预处理/采样接口、空间分辨率、少样本适配和公平基线均可能改变；目前不选择模块。"},
+  "experimental_cost": {"relative": "HIGH", "measured_compute_estimate_available": false, "reason": "可能需要重新训练与多 realization 生成，不能在证据不足时直接铺开 family sweep。"},
+  "risk_of_post_hoc_tuning": {"relative": "HIGH", "prohibited_shortcut": "因 SD2 失败而依次试 SDXL/FLUX/GAN 等直到某个 mAP 为正", "control_if_future_authorized": "先以任务/文献理由冻结有限候选和生成侧目标，再讨论 downstream；不复用已看 final_eval 调参。"},
+  "overlap_with_BootstrapGuard": {"assessment": "LOW_IF_RAW_GENERATION_ONLY", "boundary": "不能包含筛选、reroll、best-of-N 或论文自带的 quality filtering；DefectFill/GAA 的筛选部分必须与 raw generation 贡献分开，不在本阶段实现。"},
+  "compatibility_with_thesis_topic": {"assessment": "HIGH", "reason": "属于少样本工业缺陷 generation/augmentation，但没有任务适配证据时不能以主题一致代替科研动机。"},
+  "whether_Plastic_Bomo_can_support_it": {"assessment": "PARTIAL", "can_support": ["局部编辑、两类 defect、弱 bbox 条件、normal background 的设计问题"], "cannot_yet_support": ["精确 pixel morphology 控制的真实监督", "普遍跨产品/跨数据集 family 优越性", "已证明的 low-contrast mechanism"], "annotation_change_authorized": false},
+  "conceptual_causal_comparison": {"not_an_executable_protocol": true, "principle": "若以后有独立任务适配理由，只比较冻结 reference 与一个有明确结构假设的候选，保持 condition/role/RNG pairing 和 raw 输出完整；需要分开表示/结构变化与额外预算、selector 的影响。"},
+  "family_selected": null,
+  "training_or_generation_authorized": false
+}

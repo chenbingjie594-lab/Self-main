@@ -1,0 +1,43 @@
+{
+  "option": "C",
+  "direction": "Generation robustness / controllability",
+  "decision": "SELECTED_AS_RESEARCH_QUESTION_FOR_PROTOCOL_DESIGN_ONLY",
+  "scientific_motivation": {
+    "independent_of_negative_results": true,
+    "question": "少样本局部缺陷生成如何在同一可信条件、不同随机噪声下稳定遵从要求的位置/范围与有效外观，同时保留未编辑背景和允许的外观多样性？",
+    "literature_ids": ["L1", "L2", "L3", "L4", "L5", "L6", "L7"],
+    "qualification": "已有条件控制和工业区域生成工作说明该问题独立存在；文献没有证明 Plastic_Bomo 的条件失败，也没有证明本项目问题表述已经新颖。"
+  },
+  "existing_evidence": {
+    "source_ids": ["S20B", "S22A_TRIPLETS", "S22A_FEATURES", "S20B_GENERATOR_PROTOCOL", "S20B_SLOTS"],
+    "supported": ["三个冻结 RNG realization 的 utility 与 detector loss/gradient 信号不同", "class、bbox、normal、prompt 与 generation roles 可被绑定", "当前 mask 为弱 bbox rectangle，不是 defect silhouette"],
+    "not_supported": ["bank AP spread 由 controllability 失败造成", "外观/背景漂移已直接测量", "精确形状控制已有人工 pixel truth", "降低像素多样性必然提高 utility"]
+  },
+  "missing_premise": [
+    "可信条件轴与可直接从输出独立读取的 outcome；不能把 input bbox 或生成标签复制当 output localization 测量",
+    "两类分别定义 placement/extent、有效缺陷外观与背景保留的评价能力；标注 rectangle 不能当 silhouette ground truth",
+    "固定 seed 的精确复现与跨 seed 的条件稳健性分开；禁止 best-seed、reroll、best-of-N",
+    "把不希望的条件违背与希望的外观多样性分开，不能用 collapse 获得低 variance",
+    "独立的尺寸/对比度测量、few-shot unique source-group 定义与可用样本边界",
+    "与已有 ControlNet++、AnomalyDiffusion、DefectFill、GAA、UniScale 的实质差异；如无差异则回到 literature-grounded redesign",
+    "生成侧前提审计与后续 efficacy confirmation 的数据隔离，不能继续使用已看 final_eval 设计指标/模块"
+  ],
+  "novelty_potential": {"assessment": "PLAUSIBLE_PROBLEM_NOT_ESTABLISHED_METHOD", "reason": "针对可信弱条件、跨 RNG 遵从与局部背景保留的组合问题可形成研究起点，但名称、稳健性指标或 seed freeze 本身不是新方法。尚未选择 loss/attention/adapter 或 generator family。"},
+  "implementation_complexity": {"relative": "LOW_TO_MEDIUM_FOR_PROTOCOL_HIGH_OR_UNKNOWN_FOR_METHOD", "reason": "优先澄清可测条件、独立评价与隔离要求；实际方法复杂度未知，不预设需要新模块。"},
+  "experimental_cost": {"relative": "LOWER_FOR_INITIAL_PREMISE_AUDIT_THAN_FULL_DETECTOR_SWEEP", "measured_compute_estimate_available": false, "reason": "若以后另行授权，可以先设计对已有 TRAIN-bound raw 输出的生成侧审计；是否必须生成新数据取决于隔离资格。本阶段不解码图像、不采样、不测模型。"},
+  "risk_of_post_hoc_tuning": {"relative": "MEDIUM_TO_HIGH", "prohibited_shortcuts": ["由 Stage20B AP 排序选择好的 seed/bank", "发明与已看 utility 排序一致的质量分数", "抹去弱/不明显缺陷或做 Black rescue", "压低外观多样性以获得低 variance", "一边看 final_eval 一边设计 controllability 目标"], "control_if_future_authorized": "生成侧 endpoints、失败输出计数与允许多样性边界先冻结；全部 raw 输出纳入评价，mAP 不作为机制或阈值选择依据。"},
+  "overlap_with_BootstrapGuard": {"assessment": "LOW_IF_GENERATION_SIDE_ALL_OUTPUTS", "boundary": "创新1改变或研究生成过程/条件遵从，评价全部 raw 输出；BootstrapGuard 仍独立研究生成后哪些样本保留。不得把失败样本过滤、质量 reroll、筛选式约束改名为 generation robustness。"},
+  "compatibility_with_thesis_topic": {"assessment": "HIGH", "reason": "保留少样本工业缺陷 generation/augmentation 主线；可与独立 post-generation selector 形成不同贡献，但组合收益尚未测量。"},
+  "whether_Plastic_Bomo_can_support_it": {"assessment": "PARTIAL_SUFFICIENT_FOR_NARROW_PROTOCOL_DESIGN", "can_support": ["class/bbox placement 与 extent 的弱条件问题", "局部 normal/background 保留问题", "绑定 source roles 的跨 RNG 问题设计"], "cannot_yet_support": ["精确边界/形状的 pixel-ground-truth 结论", "固定 appearance 参数的可控性结论", "跨产品通用方法声明", "生成側稳健性改进已被证明"], "labels_or_split_changed": false},
+  "conceptual_causal_comparison": {
+    "not_an_executable_protocol": true,
+    "reference": "经新协议资格审查的普通局部条件生成；当前 SD2 只能是历史参考，不自动重开机制路线",
+    "intervention": "尚未定义；只有直接测得条件缺口并完成 prior-art 比较后才能讨论最小必要干预",
+    "held_fixed_in_future_design": ["source/group eligibility", "condition and normal/background roles", "paired generation RNG", "output count", "no filtering/reroll", "evaluation rule before results"],
+    "separate_questions": ["相同 RNG 是否精确复现", "不同 RNG 是否保持条件遵从", "允许的外观多样性是否保留", "以后独立 utility 是否有收益"],
+    "claim_limit": "生成侧控制干预改善控制指标也不能自动证明其造成 downstream utility 提升。"
+  },
+  "method_selected": null,
+  "protocol_execution_authorized": false,
+  "training_or_generation_authorized": false
+}

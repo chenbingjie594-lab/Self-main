@@ -1,0 +1,111 @@
+{
+  "stage": "Stage23A",
+  "checked_on": "2026-10-12",
+  "search_scope": "Targeted primary-source review of few-shot industrial local generation, spatial controllability, small-scale generation and domain-aware training; not an exhaustive systematic review or novelty certificate",
+  "sources": [
+    {
+      "id": "L1",
+      "title": "AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model",
+      "year": 2024,
+      "publication_note": "AAAI 2024; author preprint v2 checked",
+      "url": "https://arxiv.org/abs/2312.05767v2",
+      "full_text_url": "https://arxiv.org/html/2312.05767v2",
+      "primary_source": true,
+      "sections_checked": ["Abstract", "Introduction", "Spatial Anomaly Embedding / Adaptive Attention Re-Weighting overview"],
+      "supports": "Few-shot anomaly synthesis treats appearance and location as distinct information and addresses image-mask alignment.",
+      "research_use": "Independent motivation for localized condition control; also prior art against claiming location/appearance control itself is new.",
+      "does_not_support": "Plastic_Bomo-specific failure, weak rectangles as segmentation truth, or copying its attention mechanism to rescue current SD2."
+    },
+    {
+      "id": "L2",
+      "title": "DefectFill: Realistic Defect Generation with Inpainting Diffusion Model for Visual Inspection",
+      "year": 2025,
+      "publication_note": "Author preprint v1 checked",
+      "url": "https://arxiv.org/abs/2503.13985v1",
+      "full_text_url": "https://arxiv.org/html/2503.13985v1",
+      "primary_source": true,
+      "sections_checked": ["Abstract", "Introduction", "Low-Fidelity Selection", "generation/selection ablation context"],
+      "supports": "Few-reference local defect inpainting and contextual integration are studied; the pipeline additionally includes a sample-selection stage.",
+      "research_use": "Task-fit precedent, and warning to separate raw generation from filtering gains.",
+      "does_not_support": "Selector-free Plastic_Bomo headroom, an independent BootstrapGuard replacement, or novelty from adding defect/object/attention losses."
+    },
+    {
+      "id": "L3",
+      "title": "Generate Aligned Anomaly: Region-Guided Few-Shot Anomaly Image-Mask Pair Synthesis for Industrial Inspection",
+      "year": 2025,
+      "publication_note": "Author preprint v1; no conference-acceptance claim made",
+      "url": "https://arxiv.org/abs/2507.09619v1",
+      "full_text_url": "https://arxiv.org/html/2507.09619v1",
+      "primary_source": true,
+      "sections_checked": ["Abstract", "region-guided generation overview", "Appendix B.2 low-quality sample filter"],
+      "supports": "Type/location and mask alignment are existing industrial-generation topics; GAA also includes a learned low-quality filter.",
+      "research_use": "Closest-topic prior art and explicit selector-boundary caution.",
+      "does_not_support": "A novel no-filter controllability contribution here, guaranteed weak-bbox suitability, or isolated raw-generator utility."
+    },
+    {
+      "id": "L4",
+      "title": "UniScale: Arbitrary-Scale Industrial Anomaly Generation",
+      "year": 2026,
+      "publication_note": "Author preprint v2; arXiv comments report ECCV2026 acceptance, not independently checked proceedings",
+      "url": "https://arxiv.org/abs/2608.07864v2",
+      "full_text_url": "https://arxiv.org/html/2608.07864v2",
+      "primary_source": true,
+      "sections_checked": ["Introduction", "small-scale generation motivation", "Appendix B small-scale evaluation", "Appendix D mask analysis"],
+      "supports": "Small-scale anomaly representation and background integration have independent task-level motivation and existing methods; identical-mask comparisons are discussed.",
+      "research_use": "Recent prior art for scale/background task-fit questions; demands a sharper gap than merely generating small defects.",
+      "does_not_support": "Its latent-compression explanation causing this project's AP results, transferring its scale cutoff to Plastic_Bomo, or adopting its multi-scale/fusion modules now."
+    },
+    {
+      "id": "L5",
+      "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+      "year": 2023,
+      "publication_note": "ICCV 2023, CVF primary proceedings page",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.html",
+      "primary_source": true,
+      "sections_checked": ["Abstract / proceedings record"],
+      "supports": "Spatial conditioning is an established diffusion capability with multiple control modalities.",
+      "research_use": "Baseline prior art; conditional generation alone is not a new contribution.",
+      "does_not_support": "Ultra-low-shot industrial-defect effectiveness, reliable bbox adherence here, or authorizing a new ControlNet/adapter implementation."
+    },
+    {
+      "id": "L6",
+      "title": "ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback",
+      "year": 2024,
+      "publication_note": "Author preprint v4 checked",
+      "url": "https://arxiv.org/abs/2404.07987v4",
+      "full_text_url": "https://arxiv.org/html/2404.07987v4",
+      "primary_source": true,
+      "sections_checked": ["Abstract", "Introduction", "3.2 Reward Controllability with Consistency Feedback"],
+      "supports": "Input-condition adherence is measurable separately from generic image generation quality and is already explicitly optimized in prior work.",
+      "research_use": "Independent motivation for directly evaluating controllability, plus novelty warning for generic consistency-feedback proposals.",
+      "does_not_support": "Stage20B mAP proving control failure, Plastic_Bomo-valid reward teachers, or restoring Stage16 task-guidance through a renamed reward loss."
+    },
+    {
+      "id": "L7",
+      "title": "Blended Diffusion for Text-Driven Editing of Natural Images",
+      "year": 2022,
+      "publication_note": "CVPR 2022, CVF primary proceedings/paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Avrahami_Blended_Diffusion_for_Text-Driven_Editing_of_Natural_Images_CVPR_2022_paper.html",
+      "primary_source": true,
+      "sections_checked": ["Abstract / local-edit and background-preservation motivation"],
+      "supports": "Local edits and preservation of the unchanged background are independently studied objectives.",
+      "research_use": "Task-level editing motivation, not proof that a particular industrial architecture should be selected.",
+      "does_not_support": "Weak-defect mask truth, low-contrast fidelity here, or novelty from background preservation alone."
+    },
+    {
+      "id": "L8",
+      "title": "Domain-Specific Batch Normalization for Unsupervised Domain Adaptation",
+      "year": 2019,
+      "publication_note": "Author primary preprint; CVF page fetch failed, no secondary-source mechanism used",
+      "url": "https://arxiv.org/abs/1906.03950v1",
+      "primary_source": true,
+      "sections_checked": ["Abstract / two-stage domain-specific normalization formulation"],
+      "supports": "Domain-specific statistics with shared remaining parameters have an independent research precedent in UDA.",
+      "research_use": "A literature-grounded integration question, not a module recommendation.",
+      "does_not_support": "Shared normalization causing this labelled real/synthetic problem, gradient conflict, or directly transferable UDA gains."
+    }
+  ],
+  "literature_effect_sizes_transferred_to_Plastic_Bomo": false,
+  "literature_implementation_or_training_performed": false,
+  "all_novelty_claims_remain_unestablished": true
+}

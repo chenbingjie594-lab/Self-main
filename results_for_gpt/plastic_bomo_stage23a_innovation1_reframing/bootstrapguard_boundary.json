@@ -1,0 +1,32 @@
+{
+  "stage": "Stage23A",
+  "innovation1_problem": "How reliably does raw generation follow a trustworthy localized defect condition across RNG while retaining permitted diversity and background?",
+  "bootstrapguard_problem": "Which generated candidates should be retained under its separately frozen post-generation protocol?",
+  "distinction": {
+    "innovation1_intervention_location": "generation process / condition interface, not downstream sample participation",
+    "innovation1_population": "all predetermined raw outputs, including failures; no quality-based removal or reroll",
+    "bootstrapguard_intervention_location": "post-generation retained set",
+    "independence_not_yet_empirically_confirmed": true
+  },
+  "forbidden_overlap": [
+    "Top-K or best-of-N generation",
+    "discarding low-quality outputs then calling the remainder robust generation",
+    "quality-triggered reroll until a pass",
+    "sample ranking/drop/near-zero weighting disguised as training integration",
+    "changing cumulative sample exposure or reusing only a successful bank",
+    "using a selector score as both generation objective and claimed independent quality evidence"
+  ],
+  "published_pipeline_caution": {
+    "literature_ids": ["L2", "L3"],
+    "reason": "DefectFill and GAA include selection/filtering stages. Their end-to-end reported gains cannot be attributed to a selector-free generator or transferred to Plastic_Bomo."
+  },
+  "possible_thesis_structure_not_an_experiment_authorization": [
+    "Contribution 1: a separately justified raw generation-side control/robustness contribution, if its premise and novelty are established",
+    "Contribution 2: independent post-generation BootstrapGuard selection contribution under its own qualified protocol",
+    "Any later composition study must distinguish generator-only, selector-only and combined effects with disclosed generation/retention/training budgets; a combined win alone proves neither component"
+  ],
+  "historical_BG_results_are_not_V2_confirmation": true,
+  "BootstrapGuard_files_modified": false,
+  "BootstrapGuard_execution_count": 0,
+  "BootstrapGuard_experiment_authorized": false
+}

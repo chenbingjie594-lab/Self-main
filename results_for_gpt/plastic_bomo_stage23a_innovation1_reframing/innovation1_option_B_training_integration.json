@@ -1,0 +1,33 @@
+{
+  "option": "B",
+  "direction": "Non-selector synthetic-real joint-training integration",
+  "decision": "DEFERRED_MECHANISM_UNIDENTIFIED",
+  "scientific_motivation": {
+    "independent_of_negative_results": true,
+    "question": "在所有样本保留、曝光固定时，共享训练过程是否混合了不适配的域统计或监督语义？",
+    "literature_ids": ["L8"],
+    "qualification": "DSBN 为分布相关统计处理提供独立研究先例，但其是 unsupervised domain adaptation；本项目是带标签真实/合成缺陷联合训练，不能直接迁移它的有效性或判定 BatchNorm 是原因。"
+  },
+  "existing_evidence": {
+    "source_ids": ["S20B", "S21B", "S22A", "S22A_REVIEW"],
+    "supported": ["固定全集 synthetic 的 utility 跨 realization 变化", "固定 late schedule 未支持", "Real 的多目标与 synthetic 的单目标监督语义不同"],
+    "not_supported": ["共享 BN 统计损害 utility", "存在需 PCGrad 修复的负梯度冲突", "更高 norm 应触发降权", "class-specific rule 有普遍解释力"]
+  },
+  "missing_premise": [
+    "独立、可测且非事后的域/监督失配假说；不是从 negative result 直接选择 integration 模块",
+    "分开 target multiplicity、标签定义、domain statistics 与真正优化机制",
+    "同 exposure、同正的 sample participation 与可解释 compute 的干预对照",
+    "与 UDA 文献问题设置的差异及适用性分析",
+    "不使用现有 official final_eval 选择训练接口或参数"
+  ],
+  "novelty_potential": {"assessment": "LOW_TO_CONDITIONAL", "reason": "泛化的 domain-aware integration 已有大量先例；移植现成 BN、regularizer 或 weighting 不自动成为新贡献。当前没有值得实现的唯一机制。"},
+  "implementation_complexity": {"relative": "MEDIUM_TO_HIGH", "reason": "可能触及训练接口、统计状态、监督数量与推理语义，计算公平比命名一个模块更重要；本阶段不指定任何实现。"},
+  "experimental_cost": {"relative": "HIGH", "measured_compute_estimate_available": false, "reason": "每个 integration 假说可能需要完整 detector 重训与多 bank 对照；没有前提则重复代价很大。"},
+  "risk_of_post_hoc_tuning": {"relative": "HIGH", "prohibited_shortcuts": ["新 curriculum", "按 Black 失败设规则", "调梯度/uncertainty 权重", "从多个训练补丁中挑正 AP"], "control_if_future_authorized": "先测明确前提，再冻结一项不改变保留集合的干预；不能继续本次已关闭的 timing/gradient 路线。"},
+  "overlap_with_BootstrapGuard": {"assessment": "HIGH_UNLESS_STRICTLY_SEPARATED", "boundary": "sample ranking、drop、near-zero weight、降低特定样本累计 exposure 均可能成为软 selector；保留文件但实际不学习它们不算独立创新。"},
+  "compatibility_with_thesis_topic": {"assessment": "MEDIUM_TO_HIGH", "reason": "仍属于 synthetic augmentation 的使用，但 generation-side 贡献较弱，必须具有清晰独立动机。"},
+  "whether_Plastic_Bomo_can_support_it": {"assessment": "PARTIAL_NOT_READY_FOR_METHOD", "can_support": ["真实/合成监督定义与训练接口的审计问题"], "cannot_yet_support": ["唯一 integration 机制", "gradient weighting 或 domain-specific module 的有效性", "训练轨迹的普遍因果解释"]},
+  "conceptual_causal_comparison": {"not_an_executable_protocol": true, "principle": "如果将来独立机制前提成立，以普通联合训练为 reference，仅改变已识别接口；全集保留、所有样本正且相同累计参与，不改时序/seed/预算来挽救结果。"},
+  "integration_module_selected": null,
+  "training_authorized": false
+}
