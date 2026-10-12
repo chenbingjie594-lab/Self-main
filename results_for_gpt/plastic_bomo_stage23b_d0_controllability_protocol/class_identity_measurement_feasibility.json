@@ -1,0 +1,51 @@
+{
+  "stage": "Stage23B-D0",
+  "status": "INDEPENDENT_PIXEL_CLASS_MEASUREMENT_NOT_CURRENTLY_ESTABLISHED",
+  "classes": [
+    "flash",
+    "black"
+  ],
+  "current_truth": "Copied class ID names the requested category, not the visible generated class. Weak source boxes do not validate synthetic silhouettes/visibility.",
+  "options": [
+    {
+      "id": "A_BLINDED_HUMAN_REVIEW",
+      "feasibility": "FEASIBLE_WITH_NEW_MEASUREMENT_PROTOCOL",
+      "requirements": [
+        "define real-data-grounded flash/black/absent/ambiguous criteria before seeing synthetic outputs",
+        "hide bank, seed, method, AP and requested class from reviewers where feasible; preserve the same declared display context",
+        "independent ratings and disagreement/abstention retained; assess visibility separately from class",
+        "review all predetermined outputs, no exclusion or quality-based reroll"
+      ],
+      "limitations": "subjective uncertainty remains; does not supply pixel segmentation or generated bbox truth",
+      "performed": false
+    },
+    {
+      "id": "B_TRAIN_ONLY_CLASS_CLASSIFIER",
+      "feasibility": "CONDITIONAL_NOT_CURRENTLY_VALIDATED",
+      "requirements": [
+        "separate source-group train/development splits; no official final_eval, no leaked crops",
+        "freeze classifier and calibration before generation; independent from generator task teacher and BootstrapGuard",
+        "real-data reliability/domain shift evidence and abstention accounting required",
+        "sample all raw outputs rather than only confident outputs"
+      ],
+      "limitations": "classification predictions can fail under synthetic shift and cannot become geometry ground truth; current detector/OOF setup is not an automatically validated flash-vs-black crop classifier",
+      "trained": false
+    },
+    {
+      "id": "C_OTHER_PIXEL_OBSERVABLE",
+      "feasibility": "NO_VALIDATED_CLASS_SPECIFIC_OBSERVABLE_IDENTIFIED",
+      "candidates": "RGB residual/contrast may register edits but no class-specific truth follows",
+      "limitations": "darkness, edges or high energy do not uniquely prove black/flash identity; do not tune a heuristic to A/B/C utility ordering",
+      "implemented": false
+    }
+  ],
+  "forbidden_inferences": [
+    "input prompt/class label implies successful class",
+    "teacher/classifier output is true geometry",
+    "nonzero residual means valid defect",
+    "low variance means visible, correctly typed defect"
+  ],
+  "future_independent_review_is_retention": false,
+  "output_filtering_allowed": false,
+  "detector_or_classifier_forward_count": 0
+}

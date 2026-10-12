@@ -1,0 +1,79 @@
+{
+  "stage": "Stage23B-D0",
+  "status": "RESIDUAL_MEASUREMENT_STRUCTURALLY_VALID",
+  "empirical_pixel_validation_performed": false,
+  "frozen_base_formula": "R(x,y)=(1/3)*sum_{c in RGB}|G(x,y,c)-N(x,y,c)|",
+  "G_definition": "decoded final lossless RGB PNG at original canvas dimensions, expressed in float64 RGB code values /255",
+  "N_definition": "exact hash-bound slot conditioning normal decoded with the same Pillow RGB conversion as generation, expressed in float64 RGB code values /255; do not JPEG-reencode it",
+  "not_used": "source defect image, original training crop, VAE reconstruction baseline, detector features, labels as generated geometry",
+  "alignment_checks": [
+    {
+      "field": "crop",
+      "result": "STRUCTURALLY_CORRESPONDING",
+      "reason": "same frozen fixed_crop origin and inverse translation; final G and N share full canvas",
+      "evidence": [
+        "C2:112-125",
+        "C1:30-35",
+        "M4"
+      ]
+    },
+    {
+      "field": "resize",
+      "result": "STRUCTURALLY_CORRESPONDING",
+      "reason": "512 crop, unit geometry scale; pipeline same-size preprocessing resize; no G-only spatial resize",
+      "evidence": [
+        "C6:463-465",
+        "C6:542-553",
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "field": "coordinates",
+      "result": "STRUCTURALLY_CORRESPONDING",
+      "reason": "full-canvas integer pixel centers (i+0.5,j+0.5), shared top-left origin; use recorded crop translation, not recentering",
+      "evidence": [
+        "C4:82-101",
+        "C1:32-34"
+      ]
+    },
+    {
+      "field": "color_space",
+      "result": "STRUCTURALLY_CORRESPONDING",
+      "reason": "RGB encoded-code-value comparison, no ICC transform, EXIF transpose, grayscale, or linear-light conversion introduced in measurement. This is not radiometric error.",
+      "evidence": [
+        "C2:118",
+        "C1:28-31",
+        "C6:127-163"
+      ]
+    },
+    {
+      "field": "save_scale",
+      "result": "STRUCTURALLY_CORRESPONDING",
+      "reason": "G rounded/clipped uint8 and saved as RGB PNG. N is decoded source RGB in same code-value scale; different file encodings do not invalidate decoded coordinates.",
+      "evidence": [
+        "C1:28-35",
+        "C1:88-89"
+      ]
+    }
+  ],
+  "domains": {
+    "Omega": "full canvas",
+    "P": "valid paste rectangle; padding outside original image NEVER contributes",
+    "B": "all unit pixels inside the recorded raster bbox, translated to full coordinates",
+    "bbox_convention": "floor/ceil rectangular raster is an evaluation ROI, not segmentation; requested center/width/height remain continuous original_bbox_xyxy"
+  },
+  "zero_energy_rule": "If E_total=0, ratios/centroids/covariance requiring this denominator are null with UNDEFINED_ZERO_EDIT_ENERGY, not zero/good accuracy. Bbox-conditional moments similarly require E_B>0. Report counts and retain slots.",
+  "future_binding_requirements": [
+    "verify actual G file SHA and recorded RGB hash, normal SHA, canvas size/mode and same slot geometry",
+    "pin complete decoder/preprocessing source versions including image_processor and VAE dependencies",
+    "no image warp or convenience resize; mismatch => RESIDUAL_MEASUREMENT_NOT_VALID, stop this metric route without redefining or dropping slots"
+  ],
+  "limitations": [
+    "R measures all edits: intended defect, background resynthesis, reconstruction/quantization changes and artifacts are inseparable without independent truth",
+    "the current code permits outside-bbox updates; residual energy is not defect probability",
+    "structural validity does NOT prove useful control failure or class/visibility accuracy"
+  ],
+  "residual_computed": false,
+  "images_decoded": 0
+}

@@ -1,0 +1,194 @@
+{
+  "source_revision": "73c1e2a453641cdd63fbe5d2292ff1b10e64d49c",
+  "files": [
+    {
+      "id": "C1",
+      "path": "tools/generate_plastic_bomo_stage20b_banks.py",
+      "sha256": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+      "bytes": 8728,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C2",
+      "path": "tools/qualify_plastic_bomo_stage20b_r0.py",
+      "sha256": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+      "bytes": 42785,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C3",
+      "path": "tools/stage20b_formal_common.py",
+      "sha256": "a2562cf15e437ce62bd9d2f1c5f8c58157407488c31a6afb20a7a1239f605d73",
+      "bytes": 15037,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C4",
+      "path": "tools/preflight_plastic_bomo_stage20b_p0.py",
+      "sha256": "f5fa4acbfff3a0713a120a7462a1aa386ce6a38d03f8b9cd538466c3602340e4",
+      "bytes": 33521,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C5",
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+      "bytes": 54761,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C6",
+      "path": "diffusers/image_processor.py",
+      "sha256": "70f1f1c5ad0a29f48fe943e9fb28e5bb180a7068c26861110fae94030e49c06e",
+      "bytes": 45318,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C7",
+      "path": "diffusers/schedulers/scheduling_ddim.py",
+      "sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd",
+      "bytes": 24815,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C8",
+      "path": "diffusers/models/autoencoders/autoencoder_kl.py",
+      "sha256": "dec8d6110b8d0cdff278624112812dfd5087c1806f7200fa2d605c3cb2f72fb7",
+      "bytes": 22305,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "C9",
+      "path": "tools/audit_plastic_bomo_stage20b.py",
+      "sha256": "fdf014f9d79f2e7c3689968fcb383c7399563d21505209897ecdbd881fa77c61",
+      "bytes": 15467,
+      "matches_pinned_git_blob": true,
+      "read_type": "SOURCE_TEXT"
+    },
+    {
+      "id": "M1",
+      "path": "results_for_gpt/plastic_bomo_stage23a_innovation1_reframing/stage23a_status.json",
+      "sha256": "05e18e950c902e85ee2ffbd9840a81b85870a3b18c68d654e37cb633fe39cdf9",
+      "bytes": 1304,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M2",
+      "path": "results_for_gpt/plastic_bomo_stage23a_innovation1_reframing/literature_evidence.json",
+      "sha256": "740e692cf9aa3a306d9364d17be3544cf2b548eabe905c4f42931c7fa326badc",
+      "bytes": 7718,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M3",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_protocol.json",
+      "sha256": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5",
+      "bytes": 2793,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M4",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_slots.json",
+      "sha256": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+      "bytes": 237164,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M5",
+      "path": "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_rng_manifest.json",
+      "sha256": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+      "bytes": 59948,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M6",
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/stage20b_runtime_environment.json",
+      "sha256": "395ded48f07e023ee940222ae6a2655bcd0d455a1a5ad5d50b4e91cf0c21792f",
+      "bytes": 3217,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M7",
+      "path": "results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254/generator_model_load_audit.json",
+      "sha256": "9989d4be7cc2b347501f6a99e6b34a10f33243d4d40f61c05f491341ce03d915",
+      "bytes": 890,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M8",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_protocol_binding.json",
+      "sha256": "b706bebb190a901c5f9943e6f9f2af1e4ea5c33ca9f66bcd2ab7d2545fcede88",
+      "bytes": 26682,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M9",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/generator_checkpoint_binding.json",
+      "sha256": "ec57403813eca2e3d7301e4c0e8888aada2045c043068b91c9387cc94fc1e785",
+      "bytes": 3349,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M10",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_A_manifest.json",
+      "sha256": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9",
+      "bytes": 364566,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M11",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_B_manifest.json",
+      "sha256": "c7ce84155b64c7512de91308d1812aafc34fe5068e8347ca67ce0b0435db41c2",
+      "bytes": 364722,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M12",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_bank_C_manifest.json",
+      "sha256": "469291955de20c17f97467d360e9af18dd7d8eb227aef19f3cb791aac3d957e0",
+      "bytes": 364729,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    },
+    {
+      "id": "M13",
+      "path": "results_for_gpt/plastic_bomo_stage20b_formal/formal_20261009_060552/formal_synthetic_validity.json",
+      "sha256": "fbdab84a96ad13343b75569cd55fc02fd3f752e718092945f4cbe8c77be3cf7e",
+      "bytes": 293,
+      "matches_pinned_git_blob": true,
+      "read_type": "EXISTING_METADATA_ONLY"
+    }
+  ],
+  "stage": "Stage23B-D0",
+  "checked_on": "2026-10-12",
+  "scope": "STATIC_SOURCE_AND_EXISTING_METADATA_ONLY",
+  "evidence_id_rule": "C = source text; M = metadata. Line anchors refer to pinned source_revision, not upstream Diffusers.",
+  "server_identity": {
+    "pipeline_sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+    "scheduler_sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd",
+    "pipeline_and_scheduler_local_bytes_equal_recorded_server_bytes": true,
+    "formal_wrapper_and_common_bytes_equal_formal_binding": true,
+    "transitive_dependency_limit": "M6 has no separate server SHA for image_processor.py or autoencoder_kl.py. Those dependencies are pinned to the current Git snapshot here; a complete historical transitive runtime identity is not claimed.",
+    "runtime_reexecuted": false
+  },
+  "image_or_weight_payloads_opened": false
+}

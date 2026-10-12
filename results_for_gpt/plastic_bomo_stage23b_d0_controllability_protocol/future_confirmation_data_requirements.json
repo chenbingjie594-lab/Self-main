@@ -1,0 +1,53 @@
+{
+  "stage": "Stage23B-D0",
+  "status": "REQUIREMENTS_ONLY_NOT_EXECUTION_AUTHORIZATION",
+  "qualified_gap_found": false,
+  "existing_ABC": {
+    "role": "EXPLORATORY_MEASUREMENT_FEASIBILITY",
+    "reason": "A/B/C downstream utilities have already been observed.",
+    "independent_confirmation_allowed": false,
+    "D0_image_access_allowed": false,
+    "AP_ranking_for_metric_or_hyperparameter_design_allowed": false,
+    "metadata_pairing_available": true,
+    "metadata_pairing_source": [
+      "M4",
+      "M5",
+      "M10",
+      "M11",
+      "M12"
+    ]
+  },
+  "if_later_gap_is_qualified": {
+    "preferred_evidence": "new predetermined frozen RNG realizations, not additional selection from A/B/C",
+    "before_generation_freeze": [
+      "source-group/slot panel and class counts; no output-based slot replacement",
+      "exact checkpoint and normal hashes, prompt/bbox/mask/crop/scheduler/runtime",
+      "sample seed list plus derivation rule, number k and output count including all planned attempts",
+      "metric definitions/domains, handling of zero energy, missingness and numerical invalidity",
+      "ROI LPIPS implementation, padding/resize/version/weight identity and blinded semantic review where needed",
+      "paired slot analysis, class-wise summaries, uncertainty method and distinct condition-adherence/diversity endpoints"
+    ],
+    "paired_RNG_scope": "Same slot across RNG; generator may consume RNG in VAE posterior samples AND initial noise. Eta=0 does not eliminate slot RNG variation.",
+    "seed_values_chosen_in_D0": [],
+    "generation_count": 0,
+    "raw_output_retention": "Every planned successful raw output enters all defined summaries; unavailable metrics are recorded, not used to drop images. Structural execution failures halt the comparison rather than reroll.",
+    "limitations": [
+      "new RNG realizations can confirm fresh pixel measurement premises, not retroactively make downstream-exposed metric design independent",
+      "no defect validity follows from energy/diversity; semantics needs separate evidence",
+      "within-slot RNG samples and pairwise distances are dependent; do not treat all pairs as new independent slots",
+      "geometry crop clipping and weak-box error must be recorded before outputs, not tuned on AP"
+    ]
+  },
+  "prohibited": [
+    "best seed",
+    "reroll",
+    "best-of-N",
+    "Top-K",
+    "manual quality filtering",
+    "failure replacement",
+    "near-zero output weights",
+    "C>B>A-fitted metric"
+  ],
+  "automatic_next_stage": false,
+  "method_or_experiment_proposed": false
+}

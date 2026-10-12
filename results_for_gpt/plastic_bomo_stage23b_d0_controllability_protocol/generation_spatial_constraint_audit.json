@@ -1,0 +1,208 @@
+{
+  "stage": "Stage23B-D0",
+  "source_revision": "73c1e2a453641cdd63fbe5d2292ff1b10e64d49c",
+  "scope": "ACTUAL_REPOSITORY_IMPLEMENTATION_NOT_UPSTREAM_NAME_ASSUMPTION",
+  "pipeline_identity": {
+    "class": "StableDiffusionInpaintPipeline",
+    "implementation": "C5:878-1096",
+    "import_precedence": "C3:14-15 and C2:149-153 bind repository code",
+    "protocol_name_caveat": "M3 calls this standard inpainting; C5 contains a repository-specific __call__. Conclusions are from this implementation, not from its class name.",
+    "actual_unet_in_channels": 9,
+    "channel_evidence": "M7; C5:1045-1049",
+    "frozen_call": {
+      "height": 512,
+      "width": 512,
+      "strength": 1,
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "eta": 0,
+      "padding_mask_crop": null,
+      "output_type": "np"
+    }
+  },
+  "chain": [
+    {
+      "step": "CROP_AND_NORMAL",
+      "evidence": [
+        "C4:82-101",
+        "C2:112-125"
+      ],
+      "input": "hash-bound normal RGB full canvas and frozen weak bbox",
+      "output": "512x512 RGB crop at floor(bbox_center-256), black-padded outside source; no reposition",
+      "constraint": "fixed crop origin and translation are hard; generated content is not",
+      "resize": "wrapper has no rescale"
+    },
+    {
+      "step": "BBOX_MASK",
+      "evidence": [
+        "C4:91-99",
+        "C2:121-124"
+      ],
+      "input": "continuous translated bbox",
+      "output": "512x512 L rectangle, floor(left/top), ceil(right/bottom), exclusive upper bounds, 0/255",
+      "constraint": "raster support is hard; mask is NOT human defect segmentation"
+    },
+    {
+      "step": "PREPROCESS",
+      "evidence": [
+        "C5:253-257",
+        "C5:923-979",
+        "C6:463-465",
+        "C6:542-553",
+        "C6:579-594"
+      ],
+      "input": "same-size RGB crop and L mask",
+      "output": "RGB [1,3,512,512] normalized to [-1,1]; binary mask [1,1,512,512]; latent-size nearest interpolation",
+      "resize": "processor calls same-size Lanczos resize at explicit 512x512; no geometry scale change",
+      "constraint": "coordinate grid is retained; intensity generation is not hard"
+    },
+    {
+      "step": "LATENT_INITIALIZATION_AND_CONDITION",
+      "evidence": [
+        "C5:949-980"
+      ],
+      "input": "normal crop, binary mask, fresh CPU generator",
+      "output": "full spatial noise latent; masked-normal posterior sample; original-normal posterior sampled first",
+      "constraint": "strength=1 initializes ALL latent cells with noise. Two VAE posterior sampling calls also consume slot RNG, so RNG variation is not only initial diffusion noise.",
+      "shape": "VAE latent shape [1,C_lat,H_lat,W_lat]; SD2 4-channel latent concatenated with 1 mask and 4 conditioning channels gives 9-channel UNet input"
+    },
+    {
+      "step": "DENOISING",
+      "evidence": [
+        "C5:985-989",
+        "C5:1040-1075",
+        "C7:342-351",
+        "C7:410-448"
+      ],
+      "input": "CFG duplicated full latent, mask, masked-normal latent, prompt",
+      "output": "scheduler-updated full spatial latent at every step",
+      "constraint": "mask is conditioning input, not a hard restoration operator. DDIM step has no normal/background or mask parameter; no unmasked-latent restoration anywhere in active loop.",
+      "inactive_paths": "prepare_latents/prepare_mask_latents helpers above __call__ and C6.apply_overlay are not called by this path"
+    },
+    {
+      "step": "DECODE_AND_POSTPROCESS",
+      "evidence": [
+        "C5:1080-1096",
+        "C8:285-326",
+        "C6:636-646",
+        "C1:28-29"
+      ],
+      "input": "final conditional latent",
+      "output": "decoded whole patch, normalized/clamped [0,1] RGB numpy, rounded/clipped to uint8 RGB",
+      "constraint": "safety checker disabled; no bbox composite or copied background at this step"
+    },
+    {
+      "step": "FULL_CANVAS_PASTE_AND_SAVE",
+      "evidence": [
+        "C1:30-35",
+        "C1:88-89"
+      ],
+      "input": "uint8 generated patch and original normal RGB canvas",
+      "output": "PNG full canvas with ENTIRE valid patch replaced, padded part ignored",
+      "constraint": "outside valid patch exactly copied from normal; inside patch outside bbox NOT copied. No feather/alpha blending."
+    },
+    {
+      "step": "LABEL_EXPORT",
+      "evidence": [
+        "C3:237-251",
+        "C1:94-100",
+        "C9:45-67"
+      ],
+      "input": "slot class and original normalized bbox",
+      "output": "YOLO class 0/1 plus frozen bbox coordinates",
+      "constraint": "does not inspect generated pixels. Existing structural label audit checks metadata/bytes, not defect adherence."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Are outside-bbox spatial latent cells updated?",
+      "answer": "YES. The complete latent grid is initialized/updated. Bbox conditioning does not prohibit outside-bbox latent changes.",
+      "evidence": [
+        "C5:956-979",
+        "C5:1040-1073",
+        "C7:448"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Are outside-bbox final pixels copied from the normal?",
+      "answer": "NOT inside the valid 512 patch. YES only outside the pasted patch. Bbox and patch must not be conflated.",
+      "evidence": [
+        "C1:30-34"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Is unmasked latent forcibly restored at each step?",
+      "answer": "NO in the active repository __call__, including actual 9-channel use. Do not infer upstream behavior.",
+      "evidence": [
+        "C5:1040-1075",
+        "C7:342-351"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Is there extra compositing before final PNG?",
+      "answer": "YES full-patch paste, NO bbox-specific compositing. This hard-bounds full-canvas edits to the valid crop; it does not guarantee preservation outside the bbox.",
+      "evidence": [
+        "C1:30-35",
+        "C1:88-89"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Is output annotation copied from input bbox?",
+      "answer": "YES; class and bbox are metadata-only label export.",
+      "evidence": [
+        "C3:249-251"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Can location accuracy be mechanically 100%?",
+      "answer": "Label-vs-input agreement would be tautologically 100%; it is forbidden as a pixel adherence endpoint. Actual residual centroid/extent/defect identity are not guaranteed.",
+      "evidence": [
+        "C3:249-251",
+        "C9:56-57"
+      ]
+    }
+  ],
+  "spatial_domains": {
+    "Omega": "original full RGB pixel canvas",
+    "P": "valid pasted crop intersection with Omega",
+    "B": "frozen rasterized bbox rectangle translated into full-canvas coordinates",
+    "hard_region": "Omega minus P",
+    "model_dependent_background_region": "P minus B",
+    "hard_support_statement": "G=N on Omega minus P by code. This is not G=N on Omega minus B."
+  },
+  "metadata_geometry_audit": {
+    "slots": 80,
+    "classes": {
+      "flash": 40,
+      "black": 40
+    },
+    "same_512_crop_and_unit_resize_scale": true,
+    "same_normal_and_output_canvas": true,
+    "weak_bbox_not_segmentation_count": 80,
+    "padded_slots": 22,
+    "min_raster_bbox_wh": [
+      14,
+      10
+    ],
+    "max_raster_bbox_wh": [
+      58,
+      53
+    ],
+    "all_frozen_geometry_valid": true,
+    "all_ABC_non_RNG_slot_checkpoint_and_label_metadata_equal": true,
+    "source": [
+      "M4",
+      "M10",
+      "M11",
+      "M12"
+    ],
+    "pixels_used": 0
+  },
+  "no_empirical_control_failure_established": true
+}

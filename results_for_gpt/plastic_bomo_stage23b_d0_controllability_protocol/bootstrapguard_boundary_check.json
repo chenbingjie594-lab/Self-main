@@ -1,0 +1,29 @@
+{
+  "stage": "Stage23B-D0",
+  "status": "BOUNDARY_PRESERVED",
+  "Innovation1_scope": "Generation-process / conditioning measurement only; D0 neither changes the process nor implements a method.",
+  "BootstrapGuard_scope": "Separate post-generation retention; not a controllability measurement mechanism.",
+  "all_predetermined_raw_outputs_required": true,
+  "allowed_future_reporting": [
+    "per-slot all-RNG values",
+    "all-pair diversity without pair selection",
+    "edit-energy denominator and undefined-observation counts",
+    "separate class/visibility evidence, retained ambiguous cases"
+  ],
+  "prohibited": {
+    "drop": true,
+    "Top_K": true,
+    "quality_reroll": true,
+    "failure_replacement": true,
+    "best_of_N": true,
+    "near_zero_weight": true,
+    "passing_images_only": true,
+    "AP_fitted_metric": true
+  },
+  "undefined_zero_energy_policy": "retain output and explicit null/error reason, never reward with NCE=0 or omit it from accounting",
+  "structural_failure_policy": "stop/review an execution failure under a separately authorized frozen protocol; do not resample or pretend a failed output was absent",
+  "metrics_used_as_selector": false,
+  "new_weighted_score": false,
+  "BootstrapGuard_modified": false,
+  "BootstrapGuard_execution_count": 0
+}

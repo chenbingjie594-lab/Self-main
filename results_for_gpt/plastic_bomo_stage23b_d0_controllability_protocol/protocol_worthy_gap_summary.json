@@ -1,0 +1,82 @@
+{
+  "stage": "Stage23B-D0",
+  "status": "NO_MEASURABLE_NOVEL_CONTROLLABILITY_GAP",
+  "all_five_required": true,
+  "unknown_counts_as_pass": false,
+  "candidates": [
+    {
+      "id": "G1_LABEL_GEOMETRY_AGREEMENT",
+      "criteria": {
+        "Plastic_Bomo_independently_measurable": false,
+        "not_pipeline_hard_constraint": false,
+        "prior_art_not_directly_covering_candidate": false,
+        "independent_of_BootstrapGuard": true,
+        "not_defined_from_downstream_mAP": true
+      },
+      "decision": "NO_MEASURABLE_NOVEL_CONTROLLABILITY_GAP",
+      "reason": "Copied bbox/prompt is not a generated-pixel measurement."
+    },
+    {
+      "id": "G2_OUTSIDE_PATCH_PRESERVATION",
+      "criteria": {
+        "Plastic_Bomo_independently_measurable": true,
+        "not_pipeline_hard_constraint": false,
+        "prior_art_not_directly_covering_candidate": false,
+        "independent_of_BootstrapGuard": true,
+        "not_defined_from_downstream_mAP": true
+      },
+      "decision": "NO_MEASURABLE_NOVEL_CONTROLLABILITY_GAP",
+      "reason": "Entire Omega-minus-P equality is mechanically copied and preservation already has prior art."
+    },
+    {
+      "id": "G3_WEAK_BBOX_PAIRED_RNG_EDIT_ADHERENCE_WITH_DIVERSITY",
+      "criteria": {
+        "Plastic_Bomo_independently_measurable": true,
+        "not_pipeline_hard_constraint": true,
+        "prior_art_not_directly_covering_candidate": null,
+        "independent_of_BootstrapGuard": true,
+        "not_defined_from_downstream_mAP": true
+      },
+      "decision": "NO_MEASURABLE_NOVEL_CONTROLLABILITY_GAP",
+      "candidate_interest": "POTENTIAL_GAP_ONLY",
+      "reason": "Nontrivial edit observables are structurally measurable. Prior art already covers spatial control, normal-image differences, perceptual diversity and repeated-generation evaluation. This review does not establish that the narrower joint setting is uncovered, nor validate residual as defect geometry.",
+      "implementation_caveats": [
+        "LPIPS ROI support protocol not frozen",
+        "class/visibility truth absent",
+        "residual center may track background resynthesis rather than defect"
+      ]
+    },
+    {
+      "id": "G4_TRUE_CLASS_SHAPE_VISIBILITY_CONTROL",
+      "criteria": {
+        "Plastic_Bomo_independently_measurable": false,
+        "not_pipeline_hard_constraint": true,
+        "prior_art_not_directly_covering_candidate": null,
+        "independent_of_BootstrapGuard": true,
+        "not_defined_from_downstream_mAP": true
+      },
+      "decision": "NO_MEASURABLE_NOVEL_CONTROLLABILITY_GAP",
+      "reason": "No independent established output class/visibility measurement and no pixel defect truth. New blinded review could measure semantics but has not been defined or performed."
+    },
+    {
+      "id": "G5_BBOX_BOUNDARY_BLEND",
+      "criteria": {
+        "Plastic_Bomo_independently_measurable": false,
+        "not_pipeline_hard_constraint": true,
+        "prior_art_not_directly_covering_candidate": false,
+        "independent_of_BootstrapGuard": true,
+        "not_defined_from_downstream_mAP": true
+      },
+      "decision": "NO_MEASURABLE_NOVEL_CONTROLLABILITY_GAP",
+      "reason": "A continuous seam family is mathematically feasible but not fully frozen; broad blending/integration objective already studied. Weak-bbox seam is not true defect boundary."
+    }
+  ],
+  "protocol_worthy_gaps": [],
+  "primary_endpoints": [],
+  "measurement_feasible_but_novel_gap_unestablished": true,
+  "no_measurable_gap_status_meaning": "No candidate is established to satisfy ALL five requirements in D0. It does NOT mean that no pixel edits can be measured or no future scientific gap exists.",
+  "no_generator_control_failure_from_mAP_inferred": true,
+  "route_change_or_reopening_authorized": false,
+  "method_design_authorized": false,
+  "future_premise_experiment_authorized": false
+}

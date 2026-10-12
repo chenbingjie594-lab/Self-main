@@ -1,0 +1,106 @@
+{
+  "stage": "Stage23B-D0",
+  "scope": "FORMULAS_ONLY_NO_COMPUTATION",
+  "base_residual_ref": "residual_measurement_validity.json",
+  "pass_fail_thresholds": null,
+  "primary_endpoints": [],
+  "coordinate_and_domain_contract": "Omega/P/B as spatial audit. Pixel centers p=(i+0.5,j+0.5) in full-canvas pixels; R in float64 [0,1] encoded RGB mean absolute difference. B is the frozen raster ROI, not a newly thresholded mask. Requested c*, w*, h* are continuous original bbox geometry.",
+  "metrics": [
+    {
+      "id": "E_TOTAL",
+      "formula": "E_total=sum_{p in Omega}R(p)",
+      "unit": "normalized RGB code-value times pixels",
+      "mechanically_determined": false,
+      "interpretation": "all edit energy; not defect visibility or quality",
+      "size_caveat": "not directly comparable across canvas/bbox size; report area and separate per-pixel energy diagnostics without changing the base definition",
+      "threshold": null
+    },
+    {
+      "id": "BDR",
+      "formula": "sum_{p in Omega minus B}R(p)/E_total",
+      "domain_equivalence": "by paste, numerator equals sum_{p in P minus B}R(p)",
+      "mechanically_determined": false,
+      "eligible_if_nonmechanical": true,
+      "interpretation": "fraction of edit energy outside requested raster ROI; can be small when bad in-box changes are very large",
+      "denominator_zero": "null, UNDEFINED_ZERO_EDIT_ENERGY",
+      "related_hard_metric": "drift on Omega minus P is MECHANICALLY_DETERMINED, ineligible"
+    },
+    {
+      "id": "ECR",
+      "formula": "sum_{p in B}R(p)/E_total",
+      "mechanically_determined": false,
+      "interpretation": "edit concentration, NOT mask/silhouette accuracy",
+      "redundant_with": "ECR=1-BDR when E_total>0; cannot count as independent primary endpoints",
+      "denominator_zero": "null, UNDEFINED_ZERO_EDIT_ENERGY"
+    },
+    {
+      "id": "RESIDUAL_CENTROID_NCE",
+      "formula": "mu_R=sum_{p in Omega}p*R(p)/E_total; NCE=||mu_R-c*||_2/sqrt(w*^2+h*^2)",
+      "mechanically_determined": false,
+      "unit": "dimensionless",
+      "interpretation": "global edit-energy center relative to requested center, not defect center",
+      "confound": "P minus B resynthesis can dominate; do not call this defect location accuracy",
+      "denominator_zero": "null, UNDEFINED_ZERO_EDIT_ENERGY",
+      "threshold": null
+    },
+    {
+      "id": "IN_BOX_RESIDUAL_EXTENT",
+      "formula": "E_B=sum_{p in B}R(p); mu_B=sum_{p in B}p*R(p)/E_B; Sigma_RB=sum_{p in B}R(p)*(p-mu_B)*(p-mu_B)^T/E_B; rms_width=sqrt(Sigma_RB_xx); rms_height=sqrt(Sigma_RB_yy); extent_ratio_x=rms_width/w*; extent_ratio_y=rms_height/h*",
+      "anisotropy": "(lambda_max-lambda_min)/(lambda_max+lambda_min) for Sigma_RB; if trace=0, null with UNDEFINED_ZERO_SPATIAL_SPREAD",
+      "convention": "RMS means one spatial standard deviation, NOT a full bounding span, no factor 2 or sqrt(12). Ratio 1 is not an expected target. Pixel-center discrete covariance is used, no subpixel mask inferred.",
+      "mechanically_determined": false,
+      "interpretation": "spatial spread of actual changes WITHIN the raster bbox; truncated by ROI; NOT defect size or segmentation",
+      "denominator_zero": "if E_B=0 all conditional moments null, UNDEFINED_ZERO_IN_BOX_EDIT_ENERGY",
+      "secondary_diagnostic": "mu_B and its requested-center displacement may be reported under an explicit IN_BOX_CENTROID name; never substitute silently for global NCE",
+      "threshold": null
+    },
+    {
+      "id": "LOCAL_EDIT_CONTRAST",
+      "formula": "K(I,B)=sqrt((1/(3*|B|))*sum_{c,p in B}(I(p,c)-mean_{q in B}I(q,c))^2); LOCAL_EDIT_CONTRAST=K(G,B)-K(N,B)",
+      "unit": "normalized encoded RGB code value",
+      "mechanically_determined": false,
+      "interpretation": "change in channelwise local intensity spread only, not DEFECT_QUALITY; both positive and negative values allowed",
+      "threshold": null
+    },
+    {
+      "id": "BBOX_BOUNDARY_RESIDUAL_DISCONTINUITY",
+      "formula_status": "FEASIBLE_FAMILY_NOT_FULLY_FROZEN_ENDPOINT",
+      "candidate": "means of R over a fixed inner ring and fixed outer ring about the frozen bbox, and their signed/absolute difference",
+      "definition_requirements": [
+        "freeze ring construction and width from resolution/bbox geometry independent of outputs and AP",
+        "freeze corner/side weighting and area normalization",
+        "ensure both rings lie in P; otherwise explicitly declare unavailable, never move the ROI or drop the slot",
+        "retain original size units and bbox-normalized geometry; width must not erase small-box interiors"
+      ],
+      "pixel_width": null,
+      "mechanically_determined_at_bbox": false,
+      "patch_boundary_caveat": "P-edge is a hard paste seam and a different estimand; do not mix it into bbox boundary blending",
+      "interpretation": "residual seam proxy, not visual blend validity",
+      "eligible_primary_now": false
+    },
+    {
+      "id": "CROSS_RNG_SUMMARY",
+      "formula": "for one frozen slot and one predefined M: median(M_1..M_k); IQR=Q_0.75-Q_0.25; range=max-min; sample_SD=sqrt(sum(M_i-mean(M))^2/(k-1))",
+      "quantile_rule": "linear interpolation, h=(k-1)*q, interpolate neighboring order statistics (type 7)",
+      "sample_size_rule": "k>=2 for SD; report k and finite/undefined counts separately. No imputing zero, no quality omission.",
+      "pairing": "only sample RNG changes; normal/bbox/prompt/checkpoint/scheduler/crop/runtime fixed. Slot is repeated-measures unit, not independent pair count.",
+      "success_claim": "low variability alone is not improvement; separately report full adherence values, E_total and appearance diversity, no combined score"
+    },
+    {
+      "id": "IN_BOX_PAIRWISE_PERCEPTUAL_DIVERSITY",
+      "formula_status": "FEASIBILITY_ONLY_IMPLEMENTATION_NOT_FROZEN",
+      "candidate": "all unordered RNG-output pairs for the same slot; bbox-only ROI perceptual distance; prefer spatial LPIPS with explicitly restricted inputs/ROI averaging",
+      "interpretation": "appearance variation, not defect validity or quality",
+      "details_file": "diversity_measurement_feasibility.json",
+      "eligible_primary_now": false
+    }
+  ],
+  "forbidden_metrics": [
+    "copied-label position/size agreement as image adherence",
+    "threshold-segmented residual silhouette IoU",
+    "teacher bbox as true generated geometry",
+    "weighted robustness/diversity composite",
+    "zero-energy residual classified as accurate placement"
+  ],
+  "metric_choice_based_on_AP_ranking": false
+}

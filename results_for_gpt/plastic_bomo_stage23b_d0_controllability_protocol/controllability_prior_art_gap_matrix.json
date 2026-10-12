@@ -1,0 +1,375 @@
+{
+  "stage": "Stage23B-D0",
+  "checked_on": "2026-10-12",
+  "frozen_identity_source": "M2",
+  "scope": "Seven specified Stage23A works; primary full-text targeted review, not exhaustive novelty search",
+  "columns": [
+    "spatial_condition",
+    "mask_alignment",
+    "small_defect_scale",
+    "background_preservation",
+    "cross_RNG_robustness",
+    "appearance_diversity_preservation",
+    "weak_bbox_setting",
+    "selector_free_evaluation"
+  ],
+  "allowed_classifications": [
+    "ALREADY_ESTABLISHED_PRIOR_ART",
+    "PARTIALLY_COVERED",
+    "POTENTIAL_GAP",
+    "NOT_VERIFIED"
+  ],
+  "classification_rules": {
+    "ALREADY_ESTABLISHED_PRIOR_ART": "Explicitly studied objective/operation or measurement; does not certify performance here.",
+    "PARTIALLY_COVERED": "Related aspect is present, but not the full weak-box paired-RNG all-output estimand.",
+    "POTENTIAL_GAP": "Targeted remaining question, not a demonstrated literature-wide absence.",
+    "NOT_VERIFIED": "Insufficient verified evidence in checked sections; NEVER interpreted as no coverage."
+  },
+  "rows": [
+    {
+      "id": "L1",
+      "paper": "AnomalyDiffusion",
+      "url": "https://arxiv.org/html/2312.05767v2",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.2",
+          "evidence": "Appearance/location conditioning is explicit."
+        },
+        "mask_alignment": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.3; Fig.3",
+          "evidence": "Normal/generated pixel differences guide mask filling."
+        },
+        "small_defect_scale": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4; C; D",
+          "evidence": "No separately verified small-scale control endpoint."
+        },
+        "background_preservation": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3 Eq.1",
+          "evidence": "Masked blending with noised normal background."
+        },
+        "cross_RNG_robustness": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.2; C.2; D",
+          "evidence": "Conditional repeated-RNG adherence distribution not verified."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.2; C.2",
+          "evidence": "IC-LPIPS; not matched-slot anti-collapse control evidence."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "3; C.1",
+          "evidence": "Anomaly masks used; weak-box-only validation not established."
+        },
+        "selector_free_evaluation": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1-4.4; C",
+          "evidence": "Raw all-output accounting contract not verified."
+        }
+      }
+    },
+    {
+      "id": "L2",
+      "paper": "DefectFill",
+      "url": "https://arxiv.org/html/2503.13985v1",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.3",
+          "evidence": "Normal image plus defect-placement mask."
+        },
+        "mask_alignment": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.2; 3.3",
+          "evidence": "Mask/attention alignment and masked defect generation."
+        },
+        "small_defect_scale": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "3.2; 4.1",
+          "evidence": "Localized details studied; explicit tiny-scale endpoint not verified."
+        },
+        "background_preservation": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.3 Sampling",
+          "evidence": "Unmasked latent restored at each step."
+        },
+        "cross_RNG_robustness": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "3.3 Low-Fidelity Selection",
+          "evidence": "Same-condition eight samples, but selects one."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.1; Table4; C.1",
+          "evidence": "IC-LPIPS including no-LFS ablation."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "3.2; 4 Dataset",
+          "evidence": "Reference masks; weak-box-only validity not established."
+        },
+        "selector_free_evaluation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "Table4; C.1",
+          "evidence": "No-LFS comparison exists; main pipeline selects samples."
+        }
+      }
+    },
+    {
+      "id": "L3",
+      "paper": "GAA",
+      "url": "https://arxiv.org/html/2507.09619v1",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.1-3.4",
+          "evidence": "Feature and region-position conditioning."
+        },
+        "mask_alignment": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3.3; 4.4",
+          "evidence": "Region-guided mask synthesis and alignment."
+        },
+        "small_defect_scale": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1-4.4; B",
+          "evidence": "Dedicated tiny-defect endpoint not verified."
+        },
+        "background_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "3.4; Fig.4",
+          "evidence": "Integration shown; exact preservation guarantee not established."
+        },
+        "cross_RNG_robustness": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.2; B.3",
+          "evidence": "Matched-slot control variation protocol not verified."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.2; B.3",
+          "evidence": "IC-LPIPS without matched-slot anti-collapse proof."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "3.3; 4.1",
+          "evidence": "Mask/region setting, not verified weak-box-only measurement."
+        },
+        "selector_free_evaluation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.1; 4.4 Table5; B.2",
+          "evidence": "Top-500 filtering; no-LQSF ablation exists."
+        }
+      }
+    },
+    {
+      "id": "L4",
+      "paper": "UniScale",
+      "url": "https://arxiv.org/html/2608.07864v2",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "4.1-4.2",
+          "evidence": "Mask-guided generation and multiscale crop coordinates."
+        },
+        "mask_alignment": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "4.2; D",
+          "evidence": "Controlled identical-mask comparison is reported."
+        },
+        "small_defect_scale": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "1; 4; B",
+          "evidence": "Explicit small-scale generation and evaluation."
+        },
+        "background_preservation": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "4.2",
+          "evidence": "Progressive anomaly/background fusion is studied."
+        },
+        "cross_RNG_robustness": {
+          "classification": "NOT_VERIFIED",
+          "sections": "5.1; D",
+          "evidence": "Matched-condition RNG dispersion endpoint not verified."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "5.1-5.2",
+          "evidence": "Whole-image and anomaly-region IC-LPIPS."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1-4.2",
+          "evidence": "Boxes derived from masks; not weak-box-only truth."
+        },
+        "selector_free_evaluation": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.2; 5.1",
+          "evidence": "No complete retention-free raw-output contract verified."
+        }
+      }
+    },
+    {
+      "id": "L5",
+      "paper": "ControlNet",
+      "url": "https://arxiv.org/html/2302.05543v3",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3; 4.1",
+          "evidence": "Multiple spatial conditioning modalities."
+        },
+        "mask_alignment": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.3; Table1",
+          "evidence": "Sketch condition fidelity; not industrial weak-mask truth."
+        },
+        "small_defect_scale": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4; supplement examples",
+          "evidence": "Tiny industrial-defect evaluation not verified."
+        },
+        "background_preservation": {
+          "classification": "NOT_VERIFIED",
+          "sections": "3.4; 4",
+          "evidence": "Exact local-background preservation not established here."
+        },
+        "cross_RNG_robustness": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "Fig.8; 4.2",
+          "evidence": "Random batches; no matched-slot dispersion contract."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "Fig.7-8",
+          "evidence": "Multiple outputs; quantitative anti-collapse endpoint not verified."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1; 4.3",
+          "evidence": "Spatial maps/sketches, not verified defect weak-box protocol."
+        },
+        "selector_free_evaluation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "Fig.8 caption",
+          "evidence": "Unselected random six-sample batch shown."
+        }
+      }
+    },
+    {
+      "id": "L6",
+      "paper": "ControlNet++",
+      "url": "https://arxiv.org/html/2404.07987v4",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "3; 4.1",
+          "evidence": "Condition consistency is an explicit objective."
+        },
+        "mask_alignment": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "4.1 Evaluation",
+          "evidence": "Extracted pixel conditions compared with input conditions."
+        },
+        "small_defect_scale": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1",
+          "evidence": "General-domain 512 evaluation; tiny defects not established."
+        },
+        "background_preservation": {
+          "classification": "NOT_VERIFIED",
+          "sections": "3; 4",
+          "evidence": "Industrial local-background endpoint not verified."
+        },
+        "cross_RNG_robustness": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "Tables1-3",
+          "evidence": "Four generated groups averaged to reduce random errors."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1; Tables2-3",
+          "evidence": "FID/CLIP scores do not establish same-slot diversity preservation."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4.1",
+          "evidence": "Segmentation/depth/edge conditions, not defect weak boxes."
+        },
+        "selector_free_evaluation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.1; Tables1-3",
+          "evidence": "Group evaluation reported; complete no-retention ledger not verified."
+        }
+      }
+    },
+    {
+      "id": "L7",
+      "paper": "Blended Diffusion",
+      "url": "https://arxiv.org/html/2111.14818v2",
+      "cells": {
+        "spatial_condition": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "4 Algorithm2",
+          "evidence": "Text plus local region mask."
+        },
+        "mask_alignment": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.2.1",
+          "evidence": "Edit is hard-confined; silhouette adherence is different."
+        },
+        "small_defect_scale": {
+          "classification": "NOT_VERIFIED",
+          "sections": "5; supplementary",
+          "evidence": "Tiny industrial defects not verified."
+        },
+        "background_preservation": {
+          "classification": "ALREADY_ESTABLISHED_PRIOR_ART",
+          "sections": "4.2.1",
+          "evidence": "Final outside-mask input copy gives strict preservation."
+        },
+        "cross_RNG_robustness": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "4.2.3; B",
+          "evidence": "Multiple same-input outputs; ranked, not all-output robustness."
+        },
+        "appearance_diversity_preservation": {
+          "classification": "PARTIALLY_COVERED",
+          "sections": "1; 4.2.3",
+          "evidence": "One-to-many generation; ranking limits raw diversity inference."
+        },
+        "weak_bbox_setting": {
+          "classification": "NOT_VERIFIED",
+          "sections": "4; 5",
+          "evidence": "User regions are not weak industrial-defect annotations."
+        },
+        "selector_free_evaluation": {
+          "classification": "POTENTIAL_GAP",
+          "sections": "4.2.3; 6; B",
+          "evidence": "Ranked outputs leave a raw-evaluation question, not novelty proof."
+        }
+      }
+    }
+  ],
+  "version_notes": {
+    "L5": "Stage23A CVF paper identity retained; author arXiv v3 full text used because CVF PDF fetch failed.",
+    "L7": "Stage23A CVF paper identity retained; author arXiv v2 full text used because CVF PDF fetch failed.",
+    "L4": "Author v2 preprint; no additional independently verified proceedings claim."
+  },
+  "conclusions": {
+    "residual_normal_difference_is_itself_novel": false,
+    "generic_spatial_control_is_novel": false,
+    "background_preservation_is_itself_novel": false,
+    "perceptual_diversity_is_itself_novel": false,
+    "matched_RNG_evaluation_is_unprecedented": null,
+    "weak_bbox_selector_free_joint_protocol": "Potentially narrower than some cited settings, but absence of direct coverage is NOT established; dataset/metric substitution alone is not a novel method.",
+    "global_novelty_certificate": false
+  },
+  "papers_code_implemented": false,
+  "paper_effect_sizes_transferred": false
+}

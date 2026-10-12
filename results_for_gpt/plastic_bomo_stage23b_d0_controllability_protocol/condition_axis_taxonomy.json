@@ -1,0 +1,125 @@
+{
+  "stage": "Stage23B-D0",
+  "allowed_classifications": [
+    "HARD_CONSTRAINED",
+    "MODEL_DEPENDENT_MEASURABLE",
+    "MODEL_DEPENDENT_NOT_CURRENTLY_MEASURABLE",
+    "UNSUPPORTED_BY_CURRENT_LABELS"
+  ],
+  "interpretation": "Requested geometry means the input/raster/export contract only. Edit measurements mean pixel residual moments, not a predicted defect bbox/mask.",
+  "axes": [
+    {
+      "axis": "CLASS_IDENTITY",
+      "classification": "MODEL_DEPENDENT_NOT_CURRENTLY_MEASURABLE",
+      "hard_part": "prompt, class checkpoint and exported class ID",
+      "pixel_observable": "independent blinded class review is feasible but absent; no validated train-only pixel classifier",
+      "eligible_now": false
+    },
+    {
+      "axis": "REQUESTED_CENTER",
+      "classification": "HARD_CONSTRAINED",
+      "hard_part": "frozen bbox, crop translation, mask center and copied label",
+      "pixel_adherence_proved": false,
+      "eligible_now": false,
+      "dependent_axis": "EDIT_SUPPORT_CENTER"
+    },
+    {
+      "axis": "REQUESTED_WIDTH_HEIGHT",
+      "classification": "HARD_CONSTRAINED",
+      "hard_part": "input bbox and deterministic rectangular rasterization, copied label",
+      "pixel_adherence_proved": false,
+      "eligible_now": false,
+      "dependent_axis": "EDIT_SUPPORT_EXTENT"
+    },
+    {
+      "axis": "EDIT_SUPPORT_CENTER",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "R-weighted centroid and NCE; not thresholded support or true defect center",
+      "limitations": [
+        "background changes can dominate whole-patch centroid",
+        "bbox-conditional centroid has truncation bias"
+      ],
+      "eligible_as_edit_diagnostic": true,
+      "novel_gap_established": false
+    },
+    {
+      "axis": "EDIT_SUPPORT_EXTENT",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "bbox-conditional R-weighted covariance and RMS spread ratios",
+      "hard_part": "maximum support cannot leave P after paste",
+      "limitations": [
+        "weak rectangle is not silhouette",
+        "small spread can mean no defect",
+        "bbox truncation bounds conditional spread"
+      ],
+      "eligible_as_edit_diagnostic": true,
+      "novel_gap_established": false
+    },
+    {
+      "axis": "DEFECT_VISIBILITY",
+      "classification": "MODEL_DEPENDENT_NOT_CURRENTLY_MEASURABLE",
+      "pixel_observable": "requires independent operational class/visibility adjudication, not E_total or contrast as substitute",
+      "eligible_now": false
+    },
+    {
+      "axis": "LOCAL_CONTRAST",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "LOCAL_EDIT_CONTRAST only; bbox RGB intensity standard-deviation change",
+      "defect_quality_claim_allowed": false,
+      "eligible_as_edit_diagnostic": true
+    },
+    {
+      "axis": "BOUNDARY_BLEND",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "residual discontinuity near bbox edge, after a geometry-based ring specification",
+      "protocol_ready": false,
+      "limitations": [
+        "ring thickness/side weighting not frozen",
+        "bbox-edge is not necessarily defect edge",
+        "patch-boundary seam must be kept separate"
+      ],
+      "eligible_primary_now": false
+    },
+    {
+      "axis": "OUTSIDE_BACKGROUND_CHANGE",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "residual on P minus B, BDR",
+      "hard_part": "Omega minus P is HARD_CONSTRAINED and ineligible",
+      "eligible_as_edit_diagnostic": true,
+      "novel_gap_established": false
+    },
+    {
+      "axis": "IN_BOX_APPEARANCE_DIVERSITY",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "same-slot all-pair bbox-only perceptual distances, feasibility only",
+      "protocol_ready": false,
+      "limitations": [
+        "small ROI input size and LPIPS backbone/padding not frozen",
+        "ROI includes normal pixels",
+        "diversity is not validity"
+      ],
+      "eligible_primary_now": false
+    },
+    {
+      "axis": "CROSS_RNG_CONDITION_VARIATION",
+      "classification": "MODEL_DEPENDENT_MEASURABLE",
+      "pixel_observable": "same-slot metric median/IQR/range/sample SD, paired with separate appearance diversity",
+      "protocol_ready": false,
+      "limitations": [
+        "no seed sweeping or ranking",
+        "zero variability may be collapse"
+      ],
+      "eligible_as_edit_diagnostic": true
+    }
+  ],
+  "unsupported_claims": {
+    "classification": "UNSUPPORTED_BY_CURRENT_LABELS",
+    "claims": [
+      "defect shape IoU",
+      "pixel-level defect appearance accuracy",
+      "true silhouette adherence"
+    ],
+    "reason": "all current frozen generation masks are weak rectangular boxes, not defect segmentation truth"
+  },
+  "output_annotation_is_not_output_measurement": true
+}

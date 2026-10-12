@@ -1,0 +1,55 @@
+{
+  "stage": "Stage23B-D0",
+  "status": "TECHNICALLY_FEASIBLE_NOT_FROZEN_OR_EXECUTED",
+  "axis": "IN_BOX_APPEARANCE_DIVERSITY",
+  "candidate": "same-slot all unordered pairs of predetermined RNG outputs, bbox-only perceptual distances",
+  "preferred_family": "ROI-only masked spatial LPIPS; NOT full-image LPIPS subsequently masked while claiming strict isolation",
+  "primary_source": {
+    "url": "https://raw.githubusercontent.com/richzhang/PerceptualSimilarity/master/lpips/lpips.py",
+    "checked_on": "2026-10-12",
+    "checked_code": "LPIPS.forward: spatial maps are upsampled from network features; ordinary mode averages spatially. Spatial=True does not itself accept or enforce a defect mask.",
+    "runtime_installed": false,
+    "weights_loaded": false
+  },
+  "reproducibility_requirements": [
+    "pin LPIPS repository revision, trained weight SHA, backbone/version, eval mode and preprocessing before any image measurement",
+    "crop exact same recorded raster B from each G; no normal/reference defect substitution",
+    "keep original coordinate/support record, RGB scaling and aspect ratio; any padding/upsampling is fixed identically across all pairs",
+    "prove the fixed backbone accepts every frozen ROI shape using architecture-only constraints before runtime; do not silently exclude small boxes",
+    "all pair distances and per-slot aggregate reported; do not choose maximum/diverse/top-ranked pair",
+    "freeze implementation and aggregation independent of seen A/B/C utility; k*(k-1)/2 correlated pairs are not independent replicates"
+  ],
+  "small_roi_evidence": {
+    "source": "M4 geometry only",
+    "min_raster_wh": [
+      14,
+      10
+    ],
+    "max_raster_wh": [
+      58,
+      53
+    ],
+    "consequence": "No guarantee that native tiny ROIs are legal for all LPIPS backbones. Native resolution vs deterministic padding/upsampling still unresolved; no arbitrary resize-to-256 declared valid."
+  },
+  "mask_and_context_limits": [
+    "B is weak bbox: residual normal texture inside it participates; masked LPIPS cannot isolate a true defect silhouette",
+    "masking an output feature map after feeding a full patch leaks outside-bbox context through receptive fields",
+    "cropping both inputs to B prevents real outside-bbox pixels entering, but introduces fixed crop padding/boundary effects; do not claim per-pixel independence",
+    "input masking can itself create edges; spatial-map masking is not equivalent to exact ROI-only feature extraction"
+  ],
+  "interpretation": "appearance variation only. Large distance may be artifact/class drift; near-zero distance may be collapse. Neither establishes defect validity.",
+  "anti_collapse_contract": {
+    "joint_reporting": [
+      "condition-adherence diagnostics",
+      "separate appearance diversity",
+      "edit-energy and undefined-observation counts"
+    ],
+    "combined_score": false,
+    "variance_lower_is_automatically_better": false,
+    "high_diversity_is_automatically_better": false,
+    "drop_collapsed_outputs": false
+  },
+  "diversity_preservation_confirmed": false,
+  "LPIPS_installed_or_computed": false,
+  "model_forward_count": 0
+}
