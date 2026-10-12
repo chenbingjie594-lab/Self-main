@@ -1,0 +1,24 @@
+# 在 /mnt/sda/cbj/ImageGeneration/Self-main 执行。
+# 先只做 TRAIN-only SHA/角色绑定预检；不读取 internal_dev / final_eval 内容。
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_stage22a_failure_mechanism
+
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage22a.py \
+  --protocol configs/plastic_bomo_stage22a.json \
+  --stage21b results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_execution_20261011_065553 \
+  --output results_for_gpt/plastic_bomo_stage22a_failure_mechanism \
+  --preflight_only
+
+# 确认服务器 GPU 3 空闲后执行。CUDA_VISIBLE_DEVICES=3 对脚本而言是 cuda:0。
+# 失败时保留现场和日志；不要更改样本、层、阈值或旧实验结果来重试。
+nohup env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+  /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python tools/run_plastic_bomo_stage22a.py \
+    --protocol configs/plastic_bomo_stage22a.json \
+    --stage21b results_for_gpt/plastic_bomo_stage21b_timing_premise/amended_execution_20261011_065553 \
+    --output results_for_gpt/plastic_bomo_stage22a_failure_mechanism \
+    --device 0 \
+  > logs/plastic_bomo_stage22a_failure_mechanism/diagnostic.log 2>&1 &
+echo $! > logs/plastic_bomo_stage22a_failure_mechanism/diagnostic.pid
+
+# 完成后只看诊断结果；不会自动启动下一阶段。
+tail -n 40 logs/plastic_bomo_stage22a_failure_mechanism/diagnostic.log
