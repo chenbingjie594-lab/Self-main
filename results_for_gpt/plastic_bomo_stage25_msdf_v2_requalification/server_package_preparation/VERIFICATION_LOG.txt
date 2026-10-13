@@ -1,0 +1,66 @@
+test_actual_metadata_path_relocation_shell (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_actual_metadata_path_relocation_shell)
+666 fake bytes/SHA fixture, NOT a scientific image or weight validation. ... ok
+test_claim_is_one_shot (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_claim_is_one_shot) ... ok
+test_detector_599_attempts_rejected (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_detector_599_attempts_rejected) ... ok
+test_detector_controller_32400_600_tail24 (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_detector_controller_32400_600_tail24) ... ok
+test_detector_failure_has_no_eval_callback (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_detector_failure_has_no_eval_callback) ... ok
+test_full_real_metadata_layout_and_allowlist (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_full_real_metadata_layout_and_allowlist) ... ok
+test_generator_1999_rejected (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_generator_1999_rejected) ... ok
+test_historical_comparator_positive_metadata_contract (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_historical_comparator_positive_metadata_contract)
+Mock absent large assets only; exercise real historical metadata schema. ... ok
+test_missing_black_checkpoint_barrier (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_missing_black_checkpoint_barrier) ... ok
+test_missing_comparator_marks_rebuild_not_MSDF_failure (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_missing_comparator_marks_rebuild_not_MSDF_failure) ... ok
+test_missing_third_detector_blocks_eval (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_missing_third_detector_blocks_eval) ... ok
+test_no_parent_output_overwrite (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_no_parent_output_overwrite) ... ok
+test_runtime_mismatch_does_not_import_torch_or_install (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_runtime_mismatch_does_not_import_torch_or_install) ... ok
+test_uint64_seeds_match_original80x3 (test_plastic_bomo_stage25_p1.BudgetsAndBarriers.test_uint64_seeds_match_original80x3) ... ok
+test_class_collapse_blocks_primary (test_plastic_bomo_stage25_p1.Gates.test_class_collapse_blocks_primary) ... ok
+test_exact_half_pp_threshold (test_plastic_bomo_stage25_p1.Gates.test_exact_half_pp_threshold) ... ok
+test_missing_extra_banks_rejected (test_plastic_bomo_stage25_p1.Gates.test_missing_extra_banks_rejected) ... ok
+test_nonfinite_and_invalid_class_AP_rejected (test_plastic_bomo_stage25_p1.Gates.test_nonfinite_and_invalid_class_AP_rejected) ... ok
+test_primary_and_utility_pass (test_plastic_bomo_stage25_p1.Gates.test_primary_and_utility_pass) ... ok
+test_primary_fail (test_plastic_bomo_stage25_p1.Gates.test_primary_fail) ... ok
+test_ties_not_strict_wins (test_plastic_bomo_stage25_p1.Gates.test_ties_not_strict_wins) ... ok
+test_utility_fail (test_plastic_bomo_stage25_p1.Gates.test_utility_fail) ... ok
+test_all_new_Python_compiles (test_plastic_bomo_stage25_p1.Stage25Static.test_all_new_Python_compiles) ... ok
+test_entire_original_P0_ledger_unchanged (test_plastic_bomo_stage25_p1.Stage25Static.test_entire_original_P0_ledger_unchanged) ... ok
+test_frozen_source_recipe (test_plastic_bomo_stage25_p1.Stage25Static.test_frozen_source_recipe) ... ok
+test_help_never_imports_ML (test_plastic_bomo_stage25_p1.Stage25Static.test_help_never_imports_ML) ... ok
+test_literal_historical_code_only (test_plastic_bomo_stage25_p1.Stage25Static.test_literal_historical_code_only) ... ok
+test_new_shell_uses_actual_root_and_no_installs (test_plastic_bomo_stage25_p1.Stage25Static.test_new_shell_uses_actual_root_and_no_installs) ... ok
+test_no_ML_imports (test_plastic_bomo_stage25_p1.Stage25Static.test_no_ML_imports) ... ok
+test_no_generic_main_launch (test_plastic_bomo_stage25_p1.Stage25Static.test_no_generic_main_launch) ... ok
+test_old_algorithm_hashes (test_plastic_bomo_stage25_p1.Stage25Static.test_old_algorithm_hashes) ... ok
+test_parent_protocol_preserved (test_plastic_bomo_stage25_p1.Stage25Static.test_parent_protocol_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.806s
+
+OK
+test_01_required_files_and_strict_json (__main__.Stage25P0Test.test_01_required_files_and_strict_json) ... ok
+test_02_not_a_scientific_failure (__main__.Stage25P0Test.test_02_not_a_scientific_failure) ... ok
+test_03_all_experiment_counters_zero (__main__.Stage25P0Test.test_03_all_experiment_counters_zero) ... ok
+test_04_actual_entry_failure (__main__.Stage25P0Test.test_04_actual_entry_failure) ... ok
+test_05_source_freeze_preserved (__main__.Stage25P0Test.test_05_source_freeze_preserved) ... ok
+test_06_existing_metadata_unchanged (__main__.Stage25P0Test.test_06_existing_metadata_unchanged) ... ok
+test_07_train_identity_not_reshuffled (__main__.Stage25P0Test.test_07_train_identity_not_reshuffled) ... ok
+test_08_baseline_reuse_not_assumed (__main__.Stage25P0Test.test_08_baseline_reuse_not_assumed) ... ok
+test_09_targets_and_gates_not_changed (__main__.Stage25P0Test.test_09_targets_and_gates_not_changed) ... ok
+test_10_not_filtered_or_reused_MSDF (__main__.Stage25P0Test.test_10_not_filtered_or_reused_MSDF) ... ok
+test_11_unit_slot_seed_without_rng_or_model (__main__.Stage25P0Test.test_11_unit_slot_seed_without_rng_or_model) ... ok
+test_12_read_only_collector_utilities (__main__.Stage25P0Test.test_12_read_only_collector_utilities) ... ok
+test_13_new_artifact_manifest_if_present (__main__.Stage25P0Test.test_13_new_artifact_manifest_if_present) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.357s
+
+OK
+{
+  "status": "PASS",
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "scope": "READ_ONLY_SCHEMA_SOURCE_AND_NUMERIC_UNIT_TESTS_NOT_GPU_SAFETY",
+  "model_forward_count": 0,
+  "optimizer_step_count": 0
+}

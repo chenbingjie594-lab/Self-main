@@ -64,3 +64,14 @@ tests/test_plastic_bomo_stage21b_a1.py -text
 Stage21B-A1*.txt -text
 # Post-execution CPU review is separate from all frozen A1 runtime hashes.
 tests/test_plastic_bomo_stage21b_a1_review.py -text
+# Stage25-P1: literal historical MSDF kernels and new server recipe are byte-bound.
+train_rda.py -text
+run_train_msdf.py -text
+diffusers/pipelines/stable_diffusion/msdf_guidance.py -text
+tools/stage25_msdf_*.py -text
+tools/run_plastic_bomo_stage25_msdf_v2.py -text
+tools/launch_plastic_bomo_stage25_server.sh -text
+configs/plastic_bomo_stage25_server*.json -text
+tests/test_plastic_bomo_stage25_p1.py -text
+Stage25服务器命令.txt -text
+results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_preparation/** -text -whitespace

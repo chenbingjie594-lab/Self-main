@@ -1,0 +1,18 @@
+{
+  "status": "PASS_STATIC_ONLY_SERVER_EXECUTION_REQUIRED",
+  "P1_tests": {"command": "python -m unittest discover -s tests -p test_plastic_bomo_stage25_p1.py -v", "run": 32, "failures": 0, "errors": 0},
+  "original_P0_tests": {"command": "python results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/verify_stage25_p0.py", "run": 13, "failures": 0, "errors": 0},
+  "shell": {"command": "bash -n tools/launch_plastic_bomo_stage25_server.sh", "status": "PASS"},
+  "CLI_help_stdlib_only": "PASS",
+  "Python_source_compilation": "PASS",
+  "data_path_relocation_fixture": "real frozen metadata schema;666 mocked asset hashes/fake bytes;NOT image or weight validation",
+  "comparator_metadata_fixture": "real historical metadata;large assets mocked;NOT server reuse authorization",
+  "all_240_uint64_slot_seeds": "PASS_AGAINST_ORIGINAL_FROZEN_RNG_MANIFEST",
+  "detector_schedule_simulation": {"draws": 32400, "epochs": 150, "scheduled_attempts": 600, "accumulation_groups": [64,64,64,24], "optimizer_steps": 0},
+  "original_P0_manifest_entries_unchanged": true,
+  "MSDF_core_and_literal_historical_auxiliary_code_unchanged": true,
+  "packages_imported_for_ML": [],
+  "model_forward_count": 0,
+  "optimizer_step_count": 0,
+  "server_GPU_test": "NOT_RUN"
+}

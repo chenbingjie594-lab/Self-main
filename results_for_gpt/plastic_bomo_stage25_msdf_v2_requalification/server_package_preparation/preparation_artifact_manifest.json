@@ -1,0 +1,15 @@
+{
+  "status": "SERVER_EXECUTION_REQUIRED",
+  "scope": "LOCAL_STATIC_PREPARATION_ONLY",
+  "sha256_repo_relative": {
+    "configs/plastic_bomo_stage25_server.json": "34fd788893e67b2ba172162e09b1a6f28af805d274d911d1228f2c79e624812e",
+    "configs/plastic_bomo_stage25_server_code_manifest.json": "b45221e16a14b6621c4b27d24865e3a713fa2d24c741c70ce30a8726c550875a",
+    "results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_preparation/STAGE25_P1_REPORT.md": "32c95a2a9def7e841efe6c2b5ea9c57cc9c49f111430c581692282eeb516f6d4",
+    "results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_preparation/stage25_p1_status.json": "eb1d135a2d5b33c1b15e6ea5b82978b2d2fd8ad5d8334b83e30cb429b1bf5162",
+    "results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_preparation/static_verification.json": "4a49690ade1353403ec1a83e0ccfd6604a0846dbeebbef8db2b0b89897c5fb62",
+    "results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_preparation/VERIFICATION_LOG.txt": "cbe81e8192f8de8898bc2aa2c7137df1a5b065a486a3fd5efb93ba9af4fa83bb"
+  },
+  "server_qualification": "NOT_RUN",
+  "self_excluded": true,
+  "source_code_bound_by": "configs/plastic_bomo_stage25_server_code_manifest.json"
+}
