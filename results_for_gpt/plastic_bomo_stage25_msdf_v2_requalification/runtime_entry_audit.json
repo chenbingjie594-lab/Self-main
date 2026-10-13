@@ -1,0 +1,70 @@
+{
+  "status": "TRAINING_ENTRY_NOT_RUNNABLE",
+  "scope": "CURRENT_LOCAL_EXECUTION_ENVIRONMENT_ONLY",
+  "date": "2026-10-13",
+  "runtime_python": "C:\\Users\\cbj\\miniconda3\\envs\\yolov11\\python.exe",
+  "dependencies": {
+    "tqdm": {
+      "version": null,
+      "import_spec_exists": false
+    },
+    "transformers": {
+      "version": null,
+      "import_spec_exists": false
+    },
+    "accelerate": {
+      "version": null,
+      "import_spec_exists": false
+    },
+    "safetensors": {
+      "version": null,
+      "import_spec_exists": false
+    }
+  },
+  "training_entry_probe": {
+    "command": "C:/Users/cbj/miniconda3/envs/yolov11/python.exe train_rda.py --help",
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: No module named 'tqdm'",
+    "source_location": "train_rda.py:19",
+    "formal_training_started": false,
+    "model_forward_count": 0,
+    "weights_deserialized": 0
+  },
+  "local_ultralytics_version": "8.4.120",
+  "required_historical_ultralytics_version": "8.4.145",
+  "torch_build": {
+    "local": "2.5.1+cu118",
+    "historical": "2.5.1+cu124",
+    "same_build": false
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3080",
+    "memory_total_MiB": 10240,
+    "historical_raw_generator_peak_vram_bytes": {
+      "flash": 18233892352,
+      "black": 18233896448
+    },
+    "interpretation": "Resource risk, not a theorem of MSDF minimum memory. No lower precision/8-bit optimizer/batch/resolution change was made to fit."
+  },
+  "available_conda_environments_checked": [
+    "base",
+    "yolov11",
+    "Class_one",
+    "ai开发"
+  ],
+  "server_execution_session_accessed": false,
+  "server_current_runtime_status": "NOT_VERIFIED",
+  "single_batch_safety_test": {
+    "status": "NOT_RUN",
+    "optimizer_steps": 0,
+    "finite_loss": null,
+    "finite_gradients": null,
+    "module_connectivity": null,
+    "input_shapes": null,
+    "checkpoint_loading": null
+  },
+  "package_install_or_upgrade_count": 0,
+  "formal_runner_implemented": false,
+  "stop_reason": "Hard condition 4 (runnable training entry) did not pass in the available execution environment. Existing V2 manifest/runtime adaptation is also not a verified Stage25 formal entry.",
+  "not_a_scientific_MSDF_failure": true
+}

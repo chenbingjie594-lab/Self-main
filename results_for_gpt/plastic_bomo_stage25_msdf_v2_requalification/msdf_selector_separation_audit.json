@@ -1,0 +1,64 @@
+{
+  "status": "GENERATOR_SELECTOR_SEPARATION_SUPPORTED_BY_CODE",
+  "scope": "STATIC_ONLY_NOT_RUNTIME_QUALIFICATION",
+  "generator_core": [
+    "MSDFAdapter",
+    "full UNet training with historical MSDF auxiliary objectives",
+    "reference-conditioned prepare and up-block injection"
+  ],
+  "independent_entry": {
+    "training": "run_train_msdf.py -> train_rda.py --rda_mode none --enable_msdf; no --enable_carf/--enable_dhfg",
+    "generation": "inference.py passes msdf_enabled/path/reference to dynamic inpaint pipeline; MSDFAdapter has no DWBG imports",
+    "V2_runtime_verified": false
+  },
+  "inactive_imports": "train_rda.py imports RDA/CARF/DHFG symbols for other optional modes. In MSDF-only mode they are not instantiated; merely importing a symbol is not teacher use.",
+  "excluded_existing_wrappers": [
+    {
+      "component": "configs/msdf.json normal_filter",
+      "belongs_to": "conditioning-pool eligibility wrapper, not MSDF core",
+      "evidence": "enabled=true; brightness/nonblack thresholds. MUST NOT run this wrapper unmodified under frozen V2 normals."
+    },
+    {
+      "component": "tools/build_dwbg_candidates.py",
+      "belongs_to": "post-generation residual extraction, geometry recomposition, pseudo-bbox derivation",
+      "evidence": "compose/recompose_geometry, missing_residual rejection, support-based yolo_box"
+    },
+    {
+      "component": "tools/score_dwbg_candidates_v2.py",
+      "belongs_to": "post-generation detector/feature scoring",
+      "evidence": "DetectInputExtractor, real-manifold feature distance and consensus"
+    },
+    {
+      "component": "tools/select_dwbg_candidates_v2.py",
+      "belongs_to": "manifold gate, hard/anchor ranking and caps",
+      "evidence": "eligible/capped candidates, greedy maximum score, quota policies"
+    }
+  ],
+  "historical_761_pool": {
+    "used_as_stage25_data": false,
+    "untouched_raw": false,
+    "role": "exploratory context only",
+    "source": "Stage18A server_inventory msdf_dwbg_pool_lineage_audit.json"
+  },
+  "stage25_prohibited": [
+    "DWBG",
+    "BootstrapGuard",
+    "Top-K",
+    "best-of-N",
+    "quality ranking",
+    "manifold_valid",
+    "morphology filtering",
+    "detector-score filtering",
+    "manual curation",
+    "reroll",
+    "residual-driven label recomposition"
+  ],
+  "train_saliency_is_selector": false,
+  "explanation": "Existing TRAIN saliency enters a generator training objective and support supervision; it does not reject or rank generated samples. No saliency-based output selection is permitted.",
+  "post_generation_allowed": "Only frozen valid-patch paste and copied condition bbox, inherited from Stage20B; no historical residual recomposition.",
+  "algorithm_modified": false,
+  "algorithm_behavior_changing_bug_fixes": [],
+  "DWBG": 0,
+  "BootstrapGuard": 0,
+  "selector": 0
+}

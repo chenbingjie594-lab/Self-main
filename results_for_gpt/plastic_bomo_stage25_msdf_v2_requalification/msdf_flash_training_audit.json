@@ -1,0 +1,19 @@
+{
+  "status": "NOT_RUN",
+  "stop_phase": "P0",
+  "reason": "TRAINING_ENTRY_NOT_RUNNABLE_IN_AVAILABLE_RUNTIME",
+  "class_name": "flash",
+  "target_successful_updates": 2000,
+  "attempted_optimizer_updates": 0,
+  "successful_updates": 0,
+  "AMP_skips": 0,
+  "training_source_binding": "msdf_v2_data_binding.json",
+  "planned_TRAIN_instances": 75,
+  "normal_training_policy": "no extra normal-only training; TRAIN-only cross references; frozen normal pool at inference",
+  "parameter_hashes_before": null,
+  "parameter_hashes_after": null,
+  "final_checkpoint_sha256": null,
+  "checkpoint_written": false,
+  "model_safety_test": "NOT_RUN",
+  "historical_checkpoint_reused": false
+}

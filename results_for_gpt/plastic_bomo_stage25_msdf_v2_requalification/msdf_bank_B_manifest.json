@@ -1,0 +1,16 @@
+{
+  "status": "NOT_RUN",
+  "bank": "B",
+  "planned_count": 80,
+  "planned_class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "actual_count": 0,
+  "records": [],
+  "slot_source": "frozen Stage20B generation_slots; no Stage25 re-selection",
+  "seed_rule": "frozen Stage20B slot-derived seeds",
+  "quality_selection": false,
+  "reroll_count": 0,
+  "structural_failure_policy": "STOP"
+}

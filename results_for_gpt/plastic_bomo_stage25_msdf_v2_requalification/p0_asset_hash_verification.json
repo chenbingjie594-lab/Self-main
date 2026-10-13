@@ -1,0 +1,299 @@
+{
+  "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+  "date": "2026-10-13",
+  "scope": "LOCAL_P0_READ_ONLY",
+  "collector_command": "python collect_p0_evidence.py --runtime_python C:/Users/cbj/miniconda3/envs/yolov11/python.exe --summary",
+  "collector_exit_code": 0,
+  "all_selected_byte_hashes_verified": true,
+  "frozen_metadata_verification": {
+    "Stage20A": {
+      "manifest_sha256": "2caa71e8cb3af1b6cae70b7d70974d7ccf6d70d3ea3eee37b4e22bbad1c2a079",
+      "files_checked": 24,
+      "matched": 24,
+      "row_digest": "b47d621912d30ca6a3ff22f22e6149efbd2b65d7fbc14e32a589e7e54a1135e6"
+    },
+    "Stage20B_local_P0": {
+      "manifest_sha256": "3f01764c30738984a00c2ffcf20345d23b1ecb3f96cc6955142500dda3e9ea2f",
+      "files_checked": 19,
+      "matched": 19,
+      "row_digest": "f09b4981dad79f91a1a5e85a9090ef108bb44e121b8106392cd973807101bd38"
+    },
+    "Stage20B_server_P0": {
+      "manifest_sha256": "6660bb09bda4fdbfa09dc91e0b3bc9e3a5bcf3feb46a04a6307235f46aa29f3d",
+      "files_checked": 21,
+      "matched": 21,
+      "row_digest": "12538a6c7e8b130371139dd74552d9fb452a927b5d7d8b2e52eca857b46a0644"
+    },
+    "Stage20B_authoritative_formal": {
+      "run": "manual_C_20261010_032543",
+      "manifest_sha256": "3911775b0bfd25b2d700be8e0a1b82a6b5177d3dc3d9700d5242daa724689af5",
+      "files_checked": 36,
+      "matched": 36,
+      "row_digest": "64f0a51ce086a135d8e21fd71c5566da0347edda7780273ef1a7e06d23f3b784"
+    }
+  },
+  "TRAIN": {
+    "logical_files_checked": 666,
+    "matched": 666,
+    "failed": [],
+    "row_digest": "c3f21b399108f411431bd33d326e71b380e8e60852853484a80630827321af80",
+    "real_images": 136,
+    "real_source_groups": 134,
+    "annotations": {
+      "flash": 75,
+      "black": 97
+    },
+    "normals": 394,
+    "local_server_training_semantics_equal": true,
+    "local_server_normal_semantics_equal": true,
+    "known_train_final_eval_groups_disjoint": true
+  },
+  "raw_banks": {
+    "A": {
+      "count": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "matched_assets": 160,
+      "slot_and_seed_matches": 80,
+      "row_digest": "02a561cd8a5212f3f9ba6b53434967e32e4538fe89e383166fc09f155d984f93",
+      "manifest_sha256": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9"
+    },
+    "B": {
+      "count": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "matched_assets": 160,
+      "slot_and_seed_matches": 80,
+      "row_digest": "eae4d6afd41dc1e1f7965c8df078b8d073ea5a3eae6cfbe03dc6ea204e366283",
+      "manifest_sha256": "c7ce84155b64c7512de91308d1812aafc34fe5068e8347ca67ce0b0435db41c2"
+    },
+    "C": {
+      "count": 80,
+      "class_counts": {
+        "flash": 40,
+        "black": 40
+      },
+      "matched_assets": 160,
+      "slot_and_seed_matches": 80,
+      "row_digest": "cf05b7a81a771fda721c538b6d3a627238d1cb1f3ea6b970274d1f049c0566a4",
+      "manifest_sha256": "469291955de20c17f97467d360e9af18dd7d8eb227aef19f3cb791aac3d957e0"
+    }
+  },
+  "raw_generators": {
+    "flash": {
+      "matched_files": 12,
+      "successful_updates": 2000,
+      "tree_hash_verified": true,
+      "tree_sha256": "77777ad1f5fb03d2fcd67facfd29dcc58882b8ed4faf94b518c0d10b8aa58e2e",
+      "row_digest": "7de01c3c4706f2bd322bd8e429fe02f136ceb8b91027f11c2bcc13c66b2856a1"
+    },
+    "black": {
+      "matched_files": 12,
+      "successful_updates": 2000,
+      "tree_hash_verified": true,
+      "tree_sha256": "204dd9a333312920e715d57447406b8ddc501949e32c76c8640995592e74203a",
+      "row_digest": "e2f35f6cae58ce4655a3df58fd919c0604878072b88d813356b8fe5cead794c7"
+    }
+  },
+  "raw_detectors": {
+    "RR": {
+      "path": "detector_RR/last.pt",
+      "actual_sha256": "21cc73460409489b430ee642c3fce49e53542460b25a951e5389f8793dc2842f",
+      "expected_sha256": "21cc73460409489b430ee642c3fce49e53542460b25a951e5389f8793dc2842f",
+      "match": true,
+      "epochs": 150
+    },
+    "A": {
+      "path": "detector_A/last.pt",
+      "actual_sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+      "expected_sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+      "match": true,
+      "epochs": 150
+    },
+    "B": {
+      "path": "detector_B/last.pt",
+      "actual_sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+      "expected_sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+      "match": true,
+      "epochs": 150
+    },
+    "C": {
+      "path": "detector_C/last.pt",
+      "actual_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+      "expected_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+      "match": true,
+      "epochs": 150
+    }
+  },
+  "public_SD2_base": {
+    "matched_files": 12,
+    "all_hashes_match": true,
+    "row_digest": "28fb212c0b598453073bf53e7fbc3280c399475110c0483f9ff4569dbacb5b2b"
+  },
+  "pinned_sources": [
+    {
+      "path": "diffusers/pipelines/stable_diffusion/msdf_guidance.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "train_rda.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "run_train_msdf.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "d941f61f118ff946b6ba49715f7953c36b50a339155389546c72ef63f08681a0",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "inference.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "cb7c6aa8c2cc01ef6cd410c0cf22810566a07ec5970699d31291bf50a33e1e6c",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_magic.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "2695e7971aad07c7a613218ebfc63184f15452d70e24160ff29a8ce8d4a5fda9",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "configs/msdf.json",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/build_dwbg_candidates.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "9808a73b9fb238e696a9beba8a14ca0d389991b435fe8cc4e08402b9e162c4ea",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/score_dwbg_candidates_v2.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "9c26d2e9a1f74b28d2a45eb004a2b539d4837c168afa64a4f18a5636c2d79329",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/select_dwbg_candidates_v2.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "cbf696be2f9b8d0bab5bec9add34a80cd4bc65cf731ca25b222830857a097cbd",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/dwbg_v2_utils.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "639b57626f2e9f63ae8ed102033e6b6b880addd4db18509ee651f876a8001315",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/train_plastic_bomo_stage20b_generator.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "bfda745f865be7e96209bc06098bc40e7bdd4054e5127f2e6ac49ad03b26b1d3",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/generate_plastic_bomo_stage20b_banks.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/train_plastic_bomo_stage20b_detector.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "243001695caf694fe4699a2b1a4f7d8783b913d7d4db03003e0b7f9843a02866",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/stage20b_detector_controller.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "df482a55305301d2b33dc711a7cef7811a71c9e7b0d51d5dc26624365e24697f",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/stage20b_formal_common.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "a2562cf15e437ce62bd9d2f1c5f8c58157407488c31a6afb20a7a1239f605d73",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/preflight_plastic_bomo_stage20b_p0.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "f5fa4acbfff3a0713a120a7462a1aa386ce6a38d03f8b9cd538466c3602340e4",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "diffusers/schedulers/scheduling_ddim.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    }
+  ],
+  "extra_metadata_hashes": {
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/generator_train_allowlist.json": "33b3da4dfa744804009cf2ce19a1f81b02a63231d19a68adce97b0951628a174",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_normal_pool_freeze.json": "365225402e0ca2ffd2f1c4e870d13e096dacf4c6ecc05f02dfc3e7d0ef45912c",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_slots.json": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_rng_manifest.json": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_detector_protocol.json": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generator_training_protocol.json": "7830c1694e5c97a82cdce42a3400b339a8e5b79a11248f8ddc1bf8fc3bbaec9c",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_protocol.json": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5"
+  },
+  "limits": [
+    "Byte hashes of explicit legal TRAIN files and historical comparator assets only; no new image decode/quality measurement.",
+    "Rows are summarized by count and digest. Frozen input/bank/checkpoint manifests contain every expected per-file hash; collector can print full rows.",
+    "Verification applies to these downloaded local mirrors; live server files have not been rechecked.",
+    "Known source-group isolation only. Physical source completeness and absence of unknown aliases are not claimed.",
+    "No new ML weight deserialization, model forward, sampling, optimizer update or final_eval content read."
+  ]
+}

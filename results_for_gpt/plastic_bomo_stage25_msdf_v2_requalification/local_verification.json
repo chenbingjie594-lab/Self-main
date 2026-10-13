@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "READ_ONLY_SCHEMA_SOURCE_AND_NUMERIC_UNIT_TESTS_NOT_GPU_SAFETY",
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "command": "python results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/verify_stage25_p0.py",
+  "covered": [
+    "23 required files and strict JSON",
+    "environment-scoped not-qualifiable, no scientific failure claim",
+    "zero experimental counters and closed execution gates",
+    "actual CLI entry failure recorded",
+    "18 Git-pinned sources unchanged",
+    "frozen metadata hashes unchanged",
+    "V2 TRAIN identities preserved",
+    "no assumed comparator reuse",
+    "budgets/gates unchanged",
+    "no old filtered-pool or old MSDF checkpoint reuse",
+    "pure uint64 seed derivation",
+    "read-only collector helpers",
+    "new artifact hashes when manifest exists"
+  ],
+  "pre_manifest_execution": true,
+  "model_forward_count": 0,
+  "backward_count": 0,
+  "optimizer_step_count": 0,
+  "not_verified": [
+    "TRAIN-only GPU forward/backward",
+    "MSDF module connectivity in a real UNet",
+    "V2 formal runtime integration",
+    "formal training/generation/evaluation"
+  ]
+}

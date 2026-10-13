@@ -1,0 +1,231 @@
+{
+  "status": "HISTORICAL_ASSETS_VERIFIED_REUSE_NOT_YET_AUTHORIZED",
+  "scope": "LOCAL_P0; NOT A COMPLETED MATCHED STAGE25 EXPERIMENT",
+  "authoritative_stage20b_run": "manual_C_20261010_032543",
+  "authority_manifest_sha256": "3911775b0bfd25b2d700be8e0a1b82a6b5177d3dc3d9700d5242daa724689af5",
+  "six_conditions": {
+    "V2_split_same": "PASS_FOR_FROZEN_TARGET",
+    "generation_slots_same": "PASS_FOR_FROZEN_TARGET",
+    "normal_roles_same": "PASS_FOR_FROZEN_TARGET",
+    "raw_checkpoint_identity": "PASS_ACTUAL_BYTE_HASHES",
+    "detector_protocol_same": "FROZEN_TARGET_MATCHES_BUT_CURRENT_LOCAL_RUNTIME_DIFFERS",
+    "checkpoint_manifest_metric_hashes": "PASS_ACTUAL_BYTE_HASHES"
+  },
+  "actual_V2_MSDF_forward_sampling_parity": "NOT_RUN",
+  "formal_baseline_reuse_authorized": false,
+  "reason": "Stage25 has no runnable, numerically qualified V2 entry in the available runtime. The local Ultralytics build differs; do not compare newly trained local detectors to historical metrics under approximate runtime parity.",
+  "preferred_resolution": "Recheck actual server assets and frozen Stage20B runtime; reuse is possible only after every condition is actually verified there. This audit has not accessed the server.",
+  "if_actual_protocol_differs": "Retrain Raw comparators and RR under the exact agreed common protocol; no approximate reuse. No comparator retraining started in this P0.",
+  "verified_assets": {
+    "raw_banks": {
+      "A": {
+        "count": 80,
+        "class_counts": {
+          "flash": 40,
+          "black": 40
+        },
+        "matched_assets": 160,
+        "slot_and_seed_matches": 80,
+        "row_digest": "02a561cd8a5212f3f9ba6b53434967e32e4538fe89e383166fc09f155d984f93",
+        "manifest_sha256": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9"
+      },
+      "B": {
+        "count": 80,
+        "class_counts": {
+          "flash": 40,
+          "black": 40
+        },
+        "matched_assets": 160,
+        "slot_and_seed_matches": 80,
+        "row_digest": "eae4d6afd41dc1e1f7965c8df078b8d073ea5a3eae6cfbe03dc6ea204e366283",
+        "manifest_sha256": "c7ce84155b64c7512de91308d1812aafc34fe5068e8347ca67ce0b0435db41c2"
+      },
+      "C": {
+        "count": 80,
+        "class_counts": {
+          "flash": 40,
+          "black": 40
+        },
+        "matched_assets": 160,
+        "slot_and_seed_matches": 80,
+        "row_digest": "cf05b7a81a771fda721c538b6d3a627238d1cb1f3ea6b970274d1f049c0566a4",
+        "manifest_sha256": "469291955de20c17f97467d360e9af18dd7d8eb227aef19f3cb791aac3d957e0"
+      }
+    },
+    "raw_generators": {
+      "flash": {
+        "matched_files": 12,
+        "successful_updates": 2000,
+        "tree_hash_verified": true,
+        "tree_sha256": "77777ad1f5fb03d2fcd67facfd29dcc58882b8ed4faf94b518c0d10b8aa58e2e",
+        "row_digest": "7de01c3c4706f2bd322bd8e429fe02f136ceb8b91027f11c2bcc13c66b2856a1"
+      },
+      "black": {
+        "matched_files": 12,
+        "successful_updates": 2000,
+        "tree_hash_verified": true,
+        "tree_sha256": "204dd9a333312920e715d57447406b8ddc501949e32c76c8640995592e74203a",
+        "row_digest": "e2f35f6cae58ce4655a3df58fd919c0604878072b88d813356b8fe5cead794c7"
+      }
+    },
+    "raw_detectors": {
+      "RR": {
+        "path": "detector_RR/last.pt",
+        "actual_sha256": "21cc73460409489b430ee642c3fce49e53542460b25a951e5389f8793dc2842f",
+        "expected_sha256": "21cc73460409489b430ee642c3fce49e53542460b25a951e5389f8793dc2842f",
+        "match": true,
+        "epochs": 150
+      },
+      "A": {
+        "path": "detector_A/last.pt",
+        "actual_sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+        "expected_sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+        "match": true,
+        "epochs": 150
+      },
+      "B": {
+        "path": "detector_B/last.pt",
+        "actual_sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+        "expected_sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+        "match": true,
+        "epochs": 150
+      },
+      "C": {
+        "path": "detector_C/last.pt",
+        "actual_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+        "expected_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+        "match": true,
+        "epochs": 150
+      }
+    },
+    "public_base": {
+      "matched_files": 12,
+      "all_hashes_match": true,
+      "row_digest": "28fb212c0b598453073bf53e7fbc3280c399475110c0483f9ff4569dbacb5b2b"
+    }
+  },
+  "historical_metrics_only": {
+    "RR": {
+      "status": "COMPLETE",
+      "map5095": 0.3597019289721092,
+      "map50": 0.8015530676879314,
+      "precision": 0.849828178659843,
+      "recall": 0.797979797979798,
+      "per_class": {
+        "flash": {
+          "precision": 0.8263850388087919,
+          "recall": 0.8181818181818182,
+          "ap50": 0.778940717460445,
+          "ap5095": 0.26442322421382175
+        },
+        "black": {
+          "precision": 0.8732713185108941,
+          "recall": 0.7777777777777778,
+          "ap50": 0.824165417915418,
+          "ap5095": 0.45498063373039643
+        }
+      },
+      "arm": "RR",
+      "checkpoint_sha256": "21cc73460409489b430ee642c3fce49e53542460b25a951e5389f8793dc2842f",
+      "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+      "evaluation_image_count": 48,
+      "target_counts": {
+        "flash": 33,
+        "black": 27
+      },
+      "primary_checkpoint": "epoch150 last.pt"
+    },
+    "A": {
+      "status": "COMPLETE",
+      "map5095": 0.2970998912654449,
+      "map50": 0.7337562430237055,
+      "precision": 0.8285154439830569,
+      "recall": 0.7516622682316227,
+      "per_class": {
+        "flash": {
+          "precision": 0.7411918275808753,
+          "recall": 0.696969696969697,
+          "ap50": 0.6355439872141208,
+          "ap5095": 0.21586600766599537
+        },
+        "black": {
+          "precision": 0.9158390603852384,
+          "recall": 0.8063548394935486,
+          "ap50": 0.83196849883329,
+          "ap5095": 0.3783337748648942
+        }
+      },
+      "arm": "A",
+      "checkpoint_sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+      "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+      "evaluation_image_count": 48,
+      "target_counts": {
+        "flash": 33,
+        "black": 27
+      },
+      "primary_checkpoint": "epoch150 last.pt"
+    },
+    "B": {
+      "status": "COMPLETE",
+      "map5095": 0.33081838919630263,
+      "map50": 0.8082583548586191,
+      "precision": 0.882980391179836,
+      "recall": 0.8488788129748335,
+      "per_class": {
+        "flash": {
+          "precision": 0.8063798710101188,
+          "recall": 0.8181818181818182,
+          "ap50": 0.7351264658147989,
+          "ap5095": 0.27485508494727834
+        },
+        "black": {
+          "precision": 0.9595809113495531,
+          "recall": 0.8795758077678487,
+          "ap50": 0.8813902439024391,
+          "ap5095": 0.38678169344532676
+        }
+      },
+      "arm": "B",
+      "checkpoint_sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+      "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+      "evaluation_image_count": 48,
+      "target_counts": {
+        "flash": 33,
+        "black": 27
+      },
+      "primary_checkpoint": "epoch150 last.pt"
+    },
+    "C": {
+      "status": "COMPLETE",
+      "map5095": 0.37348318684014364,
+      "map50": 0.8652997542997543,
+      "precision": 0.8897918561787572,
+      "recall": 0.8560854171031802,
+      "per_class": {
+        "flash": {
+          "precision": 0.8181131196639075,
+          "recall": 0.7878787878787878,
+          "ap50": 0.8030839160839159,
+          "ap5095": 0.30362042958784446
+        },
+        "black": {
+          "precision": 0.9614705926936069,
+          "recall": 0.9242920463275727,
+          "ap50": 0.9275155925155926,
+          "ap5095": 0.44334594409244277
+        }
+      },
+      "arm": "C",
+      "checkpoint_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+      "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+      "evaluation_image_count": 48,
+      "target_counts": {
+        "flash": 33,
+        "black": 27
+      },
+      "primary_checkpoint": "epoch150 last.pt"
+    }
+  },
+  "old_filtered_MSDF_results_pooled": false,
+  "new_final_eval_forward_count": 0
+}

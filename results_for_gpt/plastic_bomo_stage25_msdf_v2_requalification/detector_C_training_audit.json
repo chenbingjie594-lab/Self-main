@@ -1,0 +1,17 @@
+{
+  "status": "NOT_RUN",
+  "arm": "MSDF-C",
+  "reason": "TRAINING_ENTRY_NOT_RUNNABLE_IN_AVAILABLE_RUNTIME",
+  "epochs": 0,
+  "target_epochs": 150,
+  "target_real_count": 136,
+  "target_synthetic_count": 80,
+  "actual_draws": 0,
+  "optimizer_attempts": 0,
+  "successful_optimizer_updates": 0,
+  "AMP_skips": 0,
+  "target_total_scheduled_optimizer_attempts": 600,
+  "checkpoint_sha256": null,
+  "primary_checkpoint": "epoch150 last.pt only",
+  "final_eval_during_training": false
+}

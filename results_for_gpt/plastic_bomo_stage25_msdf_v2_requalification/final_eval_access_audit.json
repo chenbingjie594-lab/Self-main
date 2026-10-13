@@ -1,0 +1,16 @@
+{
+  "status": "NO_NEW_FINAL_EVAL_CONTENT_ACCESS",
+  "scope": "CURRENT_STAGE25_P0",
+  "historical_stage20b_final_eval_observed": true,
+  "untouched_independent_final_test_claim": false,
+  "metadata_and_old_metrics_only_read": true,
+  "new_final_eval_image_reads": 0,
+  "new_final_eval_label_reads": 0,
+  "new_final_eval_detector_forwards": 0,
+  "Stage25_MSDF_result_read_count": 0,
+  "new_final_eval_rounds": 0,
+  "training_checkpoint_or_seed_tuning_from_Stage25_final_eval": false,
+  "future_evaluation_barrier": "all three MSDF epoch150 detector checkpoints frozen first",
+  "barrier_reached": false,
+  "FINAL_EVAL_AUTHORIZED": false
+}

@@ -1,0 +1,42 @@
+{
+  "status": "V2_TRAIN_IDENTITY_BOUND_LOCAL_MIRROR",
+  "scope": "STATIC_IDENTITY_ONLY_NOT_PREPARED_TRAINING_TENSORS",
+  "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+  "Stage20A_frozen_manifest_sha256": "2caa71e8cb3af1b6cae70b7d70974d7ccf6d70d3ea3eee37b4e22bbad1c2a079",
+  "source_group_split_reused": true,
+  "split_changed": false,
+  "TRAIN_image_count": 136,
+  "TRAIN_source_groups": 134,
+  "generator_instances": {
+    "flash": 75,
+    "black": 97
+  },
+  "TRAIN_normal_count": 394,
+  "asset_files_hashed": 666,
+  "asset_hash_matches": 666,
+  "local_server_generator_semantics_equal": true,
+  "local_server_normal_semantics_equal": true,
+  "normal_semantics_sha256": "8978516b2a879c6e10067cb19ddf2b4e6ebcd56494bb6b7972e6fad3b47aa812",
+  "metadata_bindings": {
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/generator_train_allowlist.json": "33b3da4dfa744804009cf2ce19a1f81b02a63231d19a68adce97b0951628a174",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/stage20b_normal_pool_freeze.json": "365225402e0ca2ffd2f1c4e870d13e096dacf4c6ecc05f02dfc3e7d0ef45912c",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_slots.json": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_rng_manifest.json": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_detector_protocol.json": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generator_training_protocol.json": "7830c1694e5c97a82cdce42a3400b339a8e5b79a11248f8ddc1bf8fc3bbaec9c",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_protocol.json": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5"
+  },
+  "row_verification_digest": "c3f21b399108f411431bd33d326e71b380e8e60852853484a80630827321af80",
+  "mask_semantics": "Existing V2 weak rectangular bbox mask, not human pixel segmentation. Historical MSDF TRAIN saliency remains a computed support target, not newly asserted segmentation truth.",
+  "TRAIN_tensor_crop_preparation": "NOT_RUN",
+  "reference_policy_target": "Each inference reference uses its frozen slot donor crop/mask. Training retains historical 0.30 same-class cross-reference policy only within the bound TRAIN class.",
+  "historical_MSDF_checkpoint_used": false,
+  "historical_filtered_pool_used": false,
+  "known_train_final_eval_source_group_intersection": [],
+  "new_final_eval_image_or_label_content_read": 0,
+  "limits": [
+    "Physical source completeness is false in the frozen V2 audit; unknown relationships are not proven absent.",
+    "Hash matching of legal downloaded mirrors is not a recheck of current server filesystem.",
+    "No TRAIN crop rewrite, source-group reassignment or historical label changes occurred."
+  ]
+}
