@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "LINUX_RTX3090_SERVER_RUNTIME",
+  "classes": [
+    "flash",
+    "black"
+  ],
+  "MSDF_trainable_connectivity": "PASS",
+  "UNet_trainable_connectivity": "PASS",
+  "optimizer_step_count": 0,
+  "sampling_count": 0,
+  "official_final_eval_content_read": 0,
+  "environment_sha256": "287198ba065495bbb4fad3c22b0ceaf67e7da72057b98f9ff73e3b9020576417",
+  "protocol_sha256": "34fd788893e67b2ba172162e09b1a6f28af805d274d911d1228f2c79e624812e",
+  "code_manifest_sha256": "ccd0603f50507d202289da6a293eb898b55bc0de79b437ec0cf19d6790504470",
+  "qualified_at": "2026-10-13T08:59:20.219161+00:00",
+  "FORMAL_EXECUTION_AUTHORIZED": true,
+  "MSDF_performance_claim": "NOT_TESTED"
+}

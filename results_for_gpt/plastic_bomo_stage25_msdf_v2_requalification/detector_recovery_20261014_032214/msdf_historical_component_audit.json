@@ -1,0 +1,367 @@
+{
+  "stage": "Stage25",
+  "scope": "HISTORICAL_CODE_AUDIT_ONLY",
+  "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+  "historical_msdf_format_version": 3,
+  "stage25_V2_means": "Plastic_Bomo Generation V2 data protocol, NOT a new MSDF version or checkpoint format downgrade",
+  "components": [
+    {
+      "id": "pixel_residual_branch",
+      "source": "msdf_guidance.py MSDFAdapter.prepare / pixel_encoder",
+      "inputs": [
+        "reference_pixels Bx3x512x512 in [-1,1]",
+        "reference_mask Bx1x512x512"
+      ],
+      "outputs": [
+        "pixel_encoded Bx64x64x64",
+        "last_pixel_support Bx1x64x64"
+      ],
+      "mechanism": "31-pixel outside-mask local background estimate, masked RGB residual, three stride-2 convolutions, pixel support head",
+      "modifies": [
+        "conditioning",
+        "feature"
+      ],
+      "trainable": [
+        "pixel_encoder",
+        "pixel_support_head"
+      ],
+      "training": true,
+      "inference": true,
+      "selector": false
+    },
+    {
+      "id": "latent_semantic_branch",
+      "source": "msdf_guidance.py MSDFAdapter.prepare / encoder",
+      "inputs": [
+        "reference_latents Bx4x64x64 from frozen VAE mode",
+        "reference_mask Bx1x64x64"
+      ],
+      "outputs": [
+        "latent_encoded Bx64x64x64"
+      ],
+      "mechanism": "9-latent-pixel outside-mask background estimate and masked latent residual; concatenated support enters encoder",
+      "modifies": [
+        "conditioning",
+        "feature"
+      ],
+      "trainable": [
+        "encoder"
+      ],
+      "training": true,
+      "inference": true,
+      "selector": false
+    },
+    {
+      "id": "dual_branch_fusion_and_support",
+      "source": "msdf_guidance.py MSDFAdapter.prepare",
+      "inputs": [
+        "latent_encoded",
+        "pixel_encoded"
+      ],
+      "outputs": [
+        "encoded Bx64x64x64",
+        "reference_support Bx1x64x64"
+      ],
+      "mechanism": "Concatenate two encoders, fuse with 1x1 convolution. Reference support averages fused support and pixel support. Training branch dropout=0.20, both branches active at inference.",
+      "modifies": [
+        "feature",
+        "conditioning"
+      ],
+      "trainable": [
+        "fusion",
+        "support_head"
+      ],
+      "training": true,
+      "inference": true,
+      "selector": false
+    },
+    {
+      "id": "reference_morphology_alignment",
+      "source": "msdf_guidance.py MSDFAdapter._align_reference / prepare",
+      "inputs": [
+        "encoded",
+        "reference_support",
+        "target_prior"
+      ],
+      "outputs": [
+        "aligned Bx64x64x64",
+        "aligned_support Bx1x64x64"
+      ],
+      "mechanism": "Expanded reference ROI gives aspect and occupied ratio; target prior gives center and maximum extent. Differentiable resized/padded features; discrete geometry uses detached support. Soft halo ring constrained to target extent.",
+      "modifies": [
+        "feature",
+        "conditioning"
+      ],
+      "trainable": [],
+      "training": true,
+      "inference": true,
+      "selector": false
+    },
+    {
+      "id": "scale_time_gate",
+      "source": "msdf_guidance.py MSDFAdapter.prepare / gate",
+      "inputs": [
+        "log target mask area",
+        "normalized timestep",
+        "aligned feature safe RMS"
+      ],
+      "outputs": [
+        "B x 4 scale gates"
+      ],
+      "mechanism": "Learned MLP, sigmoid cap0.75, smallness-dependent fixed preference for later high-resolution up blocks, recapped0.75.",
+      "modifies": [
+        "feature",
+        "sampling"
+      ],
+      "trainable": [
+        "gate"
+      ],
+      "training": true,
+      "inference": true,
+      "selector": false
+    },
+    {
+      "id": "multi_scale_up_block_injection",
+      "source": "msdf_guidance.py MSDFAdapter.attach / _make_hook",
+      "inputs": [
+        "aligned features",
+        "support",
+        "gates",
+        "UNet up_block hidden"
+      ],
+      "outputs": [
+        "hidden + bounded residual; tuple outputs retain remainder"
+      ],
+      "mechanism": "Forward hook on all four UNet up blocks, low/high frequency feature mixture, scale-specific zero-initialized1x1 projections. CFG doubles batches with zero unconditional residual.",
+      "modifies": [
+        "UNet_forward_features"
+      ],
+      "trainable": [
+        "projections.0",
+        "projections.1",
+        "projections.2",
+        "projections.3"
+      ],
+      "training": true,
+      "inference": true,
+      "selector": false,
+      "SD2_static_channels": [
+        1280,
+        1280,
+        640,
+        320
+      ],
+      "shape_claim": "Static configuration/API inference, not verified by a Stage25 forward."
+    },
+    {
+      "id": "bounded_residual_injection",
+      "source": "msdf_guidance.py MSDFAdapter._make_hook",
+      "inputs": [
+        "projected supported gated residual",
+        "hidden RMS"
+      ],
+      "outputs": [
+        "limit * tanh(residual/limit) with limit0.25*hidden_RMS"
+      ],
+      "mechanism": "Per-sample activation-relative smooth bound, finite guards. Existing _safe_rms adds1e-8. No new numeric fix in Stage25.",
+      "modifies": [
+        "feature"
+      ],
+      "trainable": [],
+      "training": true,
+      "inference": true,
+      "selector": false
+    },
+    {
+      "id": "historical_msdf_losses",
+      "source": "train_rda.py lines962-1025 plus helpers and morphology_support_loss",
+      "inputs": [
+        "conditional prediction",
+        "noise/velocity target",
+        "TRAIN RGB saliency",
+        "clean latent target",
+        "soft prior",
+        "self-reference flag"
+      ],
+      "outputs": [
+        "scalar conditional MSE + weighted six auxiliary losses"
+      ],
+      "mechanism": "region denoising0.75; reliability-weighted clean reconstruction0.50; gradient structure0.25; outside-prior background0.20; multiscale latent consistency0.25; self-reference morphology support0.25, internally pixel support weight0.50.",
+      "modifies": [
+        "loss"
+      ],
+      "trainable": [
+        "full UNet",
+        "MSDFAdapter"
+      ],
+      "training": true,
+      "inference": false,
+      "selector": false
+    }
+  ],
+  "attention_architecture_changed": false,
+  "text_token_or_attention_processor_adapter_added": false,
+  "UNet_training": "historical MSDF-only mode optimizes full UNet and MSDF parameter group; frozen VAE and text encoder",
+  "latent_update": "core injects up-block features, not direct replacement of diffusion latents; denoising predictions subsequently determine ordinary scheduler updates",
+  "generator_selector_independent": true,
+  "historical_checkpoint_formal_reuse_authorized": false,
+  "old_pool_formal_reuse_authorized": false,
+  "source_evidence": [
+    {
+      "path": "diffusers/pipelines/stable_diffusion/msdf_guidance.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "train_rda.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "run_train_msdf.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "d941f61f118ff946b6ba49715f7953c36b50a339155389546c72ef63f08681a0",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "inference.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "cb7c6aa8c2cc01ef6cd410c0cf22810566a07ec5970699d31291bf50a33e1e6c",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_magic.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "2695e7971aad07c7a613218ebfc63184f15452d70e24160ff29a8ce8d4a5fda9",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "configs/msdf.json",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "13653c698b8d42af007693727ef79118d3ef74406a6c921da6308f3965255570",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/build_dwbg_candidates.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "9808a73b9fb238e696a9beba8a14ca0d389991b435fe8cc4e08402b9e162c4ea",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/score_dwbg_candidates_v2.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "9c26d2e9a1f74b28d2a45eb004a2b539d4837c168afa64a4f18a5636c2d79329",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/select_dwbg_candidates_v2.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "cbf696be2f9b8d0bab5bec9add34a80cd4bc65cf731ca25b222830857a097cbd",
+      "worktree_exists": false,
+      "worktree_matches_if_present": null,
+      "read_from_git_if_worktree_missing": true
+    },
+    {
+      "path": "tools/dwbg_v2_utils.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "639b57626f2e9f63ae8ed102033e6b6b880addd4db18509ee651f876a8001315",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/train_plastic_bomo_stage20b_generator.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "bfda745f865be7e96209bc06098bc40e7bdd4054e5127f2e6ac49ad03b26b1d3",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/generate_plastic_bomo_stage20b_banks.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/train_plastic_bomo_stage20b_detector.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "243001695caf694fe4699a2b1a4f7d8783b913d7d4db03003e0b7f9843a02866",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/stage20b_detector_controller.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "df482a55305301d2b33dc711a7cef7811a71c9e7b0d51d5dc26624365e24697f",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/stage20b_formal_common.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "a2562cf15e437ce62bd9d2f1c5f8c58157407488c31a6afb20a7a1239f605d73",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "tools/preflight_plastic_bomo_stage20b_p0.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "f5fa4acbfff3a0713a120a7462a1aa386ce6a38d03f8b9cd538466c3602340e4",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    },
+    {
+      "path": "diffusers/schedulers/scheduling_ddim.py",
+      "base_commit": "91a6fcb4882ea056d796a27367ebd20f2695c3fe",
+      "sha256": "c9029dd1b0dd9ac2fa77f82bfbd77b63cab26db6ce6e144e916f749fabe068dd",
+      "worktree_exists": true,
+      "worktree_matches_if_present": true,
+      "read_from_git_if_worktree_missing": false
+    }
+  ],
+  "algorithm_changes": [],
+  "runtime_forward_verified": false,
+  "method_freeze": "Historical MSDF core + six auxiliary objective terms pinned. V2 runtime/data integration has not been numerically qualified.",
+  "legacy_entry_not_a_drop_in_V2_runner": [
+    "directory dataset and transforms instead of manifest-only frozen V2 donors",
+    "reference cross sampling and MSDF coarse-prior perturbations",
+    "doubled conditional/unconditional forward",
+    "different original UNet default LR",
+    "generic inference normal_filter enabled in historical config",
+    "different legacy versus Stage20B prompt padding and epoch-tail accumulation handling must not remain unreported"
+  ],
+  "new_method_proposed": false
+}

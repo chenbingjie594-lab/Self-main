@@ -1,0 +1,69 @@
+{
+  "status": "MSDF_GENERATOR_IMPROVEMENT_NOT_CONFIRMED",
+  "gates": {
+    "A": false,
+    "B": false,
+    "C": false
+  },
+  "MSDF_GENERATOR_IMPROVEMENT_SUPPORTED": false,
+  "MSDF_AUGMENTATION_UTILITY_CONFIRMED": false,
+  "RR_map": 0.3597019289721092,
+  "raw_A_map": 0.2970998912654449,
+  "raw_B_map": 0.33081838919630263,
+  "raw_C_map": 0.37348318684014364,
+  "msdf_A_map": 0.25981390900596424,
+  "msdf_B_map": 0.329551103417669,
+  "msdf_C_map": 0.3367903662003027,
+  "delta_A_msdf_vs_raw_pp": -3.7285982259480654,
+  "delta_B_msdf_vs_raw_pp": -0.1267285778633609,
+  "delta_C_msdf_vs_raw_pp": -3.6692820639840917,
+  "mean_msdf_vs_raw_pp": -2.5082029559318393,
+  "msdf_vs_raw_wins": 0,
+  "mean_msdf_vs_rr_pp": -5.098346943079719,
+  "msdf_vs_rr_wins": 0,
+  "Flash_mean_msdf_vs_raw_pp": -0.8360793281957121,
+  "Black_mean_msdf_vs_raw_pp": -4.1803265836679575,
+  "classwise": {
+    "flash": {
+      "msdf_minus_raw_pp": {
+        "A": -0.21813661936133655,
+        "B": 0.18071775773487175,
+        "C": -2.4708191229606715
+      },
+      "msdf_minus_rr_pp": {
+        "A": -5.073858274143975,
+        "B": 1.2239038310805306,
+        "C": 1.4489014144416001
+      },
+      "mean_msdf_minus_raw_pp": -0.8360793281957121,
+      "mean_msdf_minus_rr_pp": -0.8003510095406147
+    },
+    "black": {
+      "msdf_minus_raw_pp": {
+        "A": -7.239059832534778,
+        "B": -0.43417491346158243,
+        "C": -4.867745005007512
+      },
+      "msdf_minus_rr_pp": {
+        "A": -14.903745719084998,
+        "B": -7.25406894196855,
+        "C": -6.031213968802879
+      },
+      "mean_msdf_minus_raw_pp": -4.1803265836679575,
+      "mean_msdf_minus_rr_pp": -9.396342876618808
+    }
+  },
+  "MSDF_bank_sample_SD": 4.250697623575799,
+  "Raw_bank_sample_SD": 3.8278866892745045,
+  "bank_SD_unit": "pp; sample ddof1; NOT detector-seed uncertainty",
+  "MSDF_V2_REQUALIFICATION_FAILED": true,
+  "BootstrapGuard": 0,
+  "DWBG": 0,
+  "selector": 0,
+  "DeepPCB": 0,
+  "full_experiment_complete": true,
+  "server_runtime_qualified": true,
+  "raw_comparator_reused": true,
+  "final_eval_status": "Historically observed in Stage20B. NOT an untouched independent final test. No method/seed/sample/checkpoint tuning based on Stage25 final_eval.",
+  "new_final_eval_image_forwards": 144
+}

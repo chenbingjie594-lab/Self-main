@@ -1,0 +1,18 @@
+{
+  "stage25_protocol": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/plastic_bomo_stage25_server.json",
+  "code_manifest": "/mnt/sda/cbj/ImageGeneration/Self-main/configs/plastic_bomo_stage25_server_code_manifest.json",
+  "protocol_sha256": "34fd788893e67b2ba172162e09b1a6f28af805d274d911d1228f2c79e624812e",
+  "code_manifest_sha256": "ccd0603f50507d202289da6a293eb898b55bc0de79b437ec0cf19d6790504470",
+  "stage20a": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20a_v2_protocol",
+  "p0": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115",
+  "p0_view": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_runtime_20261013_080546_552698/p0_view",
+  "r0": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_r0_runtime/server_runtime_20261008_121254",
+  "baseline_run": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032543",
+  "base_model": "/mnt/sda/cbj/ImageGeneration/Self-main/sd2-community/stable-diffusion-2-inpainting",
+  "detector_model": "/mnt/sda/cbj/ImageGeneration/Self-main/pretrained/yolo11s.pt",
+  "real_root": "/mnt/sda/cbj/dataset/Plastic_Bomo/DWBG_v2_final_s42/real_only",
+  "normal_root": "/mnt/sda/cbj/dataset/Plastic_Bomo/empty_images_v2_p0",
+  "device": "cuda:0",
+  "controller_cfg": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_runtime_20261013_080546_552698/controller_cfg.json",
+  "environment_sha256": "287198ba065495bbb4fad3c22b0ceaf67e7da72057b98f9ff73e3b9020576417"
+}

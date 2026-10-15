@@ -1,0 +1,72 @@
+{
+  "pipeline": "StableDiffusionInpaintPipeline; standard inpainting only; no magic/dynamic/task-guidance branches",
+  "num_inference_steps": 50,
+  "guidance_scale": 7.5,
+  "scheduler": "DDIMScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "steps_offset": 1,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "leading",
+    "rescale_betas_zero_snr": false
+  },
+  "eta": 0.0,
+  "strength": 1.0,
+  "height": 512,
+  "width": 512,
+  "num_images_per_prompt": 1,
+  "negative_prompt": "",
+  "clip_skip": null,
+  "padding_mask_crop": null,
+  "precision": "fp16 inference; identical across banks",
+  "safety_checker": "disabled for industrial images; no safety-based sample replacement",
+  "ip_adapter": false,
+  "latent_or_prompt_embedding_override": false,
+  "batch_size": 1,
+  "generator_device": "CPU torch.Generator per slot; freshly seeded; record before/after state hashes at future runtime",
+  "xformers": false,
+  "TF32": false,
+  "output_encoding": "lossless RGB PNG for final full canvas; no JPEG re-encoding",
+  "checkpoint": "same newly trained V2 class final_step2000 checkpoint across banks, hash bound before ANY sampling",
+  "prompts": {
+    "flash": "a photo of a sks flash defect",
+    "black": "a photo of a sks black spot defect"
+  },
+  "geometry_policy": {
+    "crop_side": 512,
+    "crop_center": "bbox center; left=floor(cx-256), top=floor(cy-256)",
+    "crop_reposition": false,
+    "padding": "constant RGB(0,0,0) outside original canvas",
+    "resize": "none; 512x512 crop",
+    "mask": "L-mode rectangle, floor(left/top), ceil(right/bottom), exclusive right/bottom",
+    "mask_semantics": "white inpaint, black retain; weak bbox geometry NOT segmentation ground truth",
+    "output": "paste generated 512 patch into the same full normal canvas at fixed crop origin; ignore padded pixels, no blending or quality selection",
+    "synthetic_labels": "only frozen target bbox; background normal has no dataset-defined boxes"
+  },
+  "raw_output_policy": {
+    "allowed_checks": [
+      "file exists",
+      "decode valid",
+      "NaN/Inf",
+      "target geometry/annotation valid",
+      "pipeline structural failure"
+    ],
+    "all_successful_outputs_used": true,
+    "reroll": false,
+    "replacement_after_freeze": false,
+    "quality_selection": false,
+    "best_of_N": false,
+    "manual_filter": false,
+    "structural_failure_consequence": "stop formal comparison if any frozen slot fails; do not replace it or silently reduce 40/40"
+  }
+}

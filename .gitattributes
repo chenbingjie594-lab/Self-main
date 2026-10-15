@@ -75,3 +75,7 @@ configs/plastic_bomo_stage25_server*.json -text
 tests/test_plastic_bomo_stage25_p1.py -text
 Stage25服务器命令.txt -text
 results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_preparation/** -text -whitespace
+# Separate manual Stage25 detector recovery; original executable hashes stay frozen.
+tools/recover_plastic_bomo_stage25_detector.py -text
+tests/test_plastic_bomo_stage25_detector_recovery.py -text
+Stage25检测恢复命令.txt -text

@@ -24,11 +24,22 @@ def now():
 
 
 def source_check(protocol, manifest):
-    require(REPO.is_dir() and (REPO / 'train_rda.py').is_file(), 'STAGE25_SERVER_RUNTIME_NOT_QUALIFIED', 'invalid project root')
-    for name, expected in load(manifest)['sha256'].items():
+    require(REPO.is_dir(), 'STAGE25_SERVER_RUNTIME_NOT_QUALIFIED', '项目目录不存在：' + str(REPO))
+    entries = load(manifest)['sha256']
+    missing = []
+    for name in entries:
         path = (REPO / name).resolve()
-        require(path.is_relative_to(REPO) and path.is_file() and sha(path) == expected,
-                'STAGE25_FROZEN_BINDING_CHANGED', {'file': name, 'actual': sha(path) if path.is_file() else None})
+        require(path.is_relative_to(REPO), 'STAGE25_FROZEN_BINDING_CHANGED', {'file': name, 'reason': '运行清单路径越界'})
+        if not path.is_file():
+            missing.append(name)
+    require(not missing, 'STAGE25_FROZEN_BINDING_CHANGED', {'reason': '服务器缺少运行必需文件，请按相对路径上传原文件。',
+        'missing_files': missing, 'project_root': str(REPO), 'training_started': False})
+    for name, expected in entries.items():
+        path = (REPO / name).resolve()
+        actual = sha(path)
+        require(actual == expected, 'STAGE25_FROZEN_BINDING_CHANGED', {'file': name,
+                'reason': '文件内容与冻结版本不一致，请上传对应原文件，不要改写 SHA256。',
+                'expected_sha256': expected, 'actual_sha256': actual})
     cfg = load(protocol)
     parent_path = REPO / 'results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/msdf_v2_protocol.json'
     require(sha(parent_path) == cfg['parent_protocol_sha256'], 'STAGE25_FROZEN_BINDING_CHANGED', 'parent P0 recipe')

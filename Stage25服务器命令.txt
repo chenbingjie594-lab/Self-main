@@ -1,30 +1,37 @@
-# 在实际 Linux Self-main 项目目录执行；脚本按自身位置确认 repo，不搜索或猜改协议。
-# 不需要 pip install，不要在 Windows 执行训练。无需打包，保持新增文件的相对目录上传。
-# GPU3 映射为可见 cuda:0；可显式设置 STAGE25_GPU，但不改变协议/seed。
+# 前台运行版：直接在服务器终端粘贴，不隐藏到 nohup/background。
+# 使用原有 yolo11 Python 环境；不 pip install、不升级、不在 Windows 训练。
+# 先把本次修改的 runner、contract 和 code_manifest 同步到服务器。
+# 测试文件、这个命令说明文件不再是服务器运行的必需文件。
 
-# 推荐一键运行：环境审计 -> 两类安全检查 -> 正式训练 -> 三 bank -> 三 detector -> 统一评估。
-# 未通过资格会自动停止，不升级、不补图、不救参数，不启动下一阶段。
-bash tools/launch_plastic_bomo_stage25_server.sh all
+cd /mnt/sda/cbj/ImageGeneration/Self-main
 
-# 如仅先做 runtime qualification（不训练、不采样、不 optimizer.step）：
-# bash tools/launch_plastic_bomo_stage25_server.sh runtime_check
+env CUDA_VISIBLE_DEVICES=3 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python -u \
+tools/run_plastic_bomo_stage25_msdf_v2.py --mode all --device 0
 
-# 实际数据路径与原 Stage20B 不同才显式提供以下参数；仅路径重定位，所有 SHA/角色保持相同：
-# bash tools/launch_plastic_bomo_stage25_server.sh all \
-#   --real_root /实际路径/DWBG_v2_final_s42/real_only \
-#   --normal_root /实际路径/empty_images_v2_p0
+TASK25_EXIT_CODE=$?
+printf '\n[已退出] Stage25 退出码=%s；0 表示执行请求完成，非0 表示失败或中断。\n' "$TASK25_EXIT_CODE"
 
-# 独立 runtime_check PASS 后也可分阶段运行；将 <...> 替换为 launcher.log 输出的实际新目录：
-# bash tools/launch_plastic_bomo_stage25_server.sh train --qualified_runtime <server_runtime目录>
-# bash tools/launch_plastic_bomo_stage25_server.sh generate --run <formal目录>
-# bash tools/launch_plastic_bomo_stage25_server.sh detector --run <formal目录>
-# bash tools/launch_plastic_bomo_stage25_server.sh evaluate --run <formal目录>
-# 失败阶段禁止重跑同一目录；不得删除 claim 后恢复。OOM 或科学结果不通过均停止。
+# 上面是前台执行：阶段进度、子进程 PID、错误会直接显示；阶段日志仍保存。
+# 不要再执行旧 nohup 命令，也不要同时开第二份任务。Ctrl+C 会停止本次任务。
+# 正式科学结果必须看结果目录里的 stage25_status.json，不能仅凭退出码0判断 PASS。
 
-# 查看当前日志/进程（使用上面输出的 LOG/PID）：
-# tail -n 100 <LOG实际路径>
-# ps -fp <PID数字>
+# 仅做资格检查时，把 --mode all 改成 --mode runtime_check（无训练/采样/optimizer.step）。
+# 静态测试不代替服务器 GPU 检查。
+# 显式路径重定位：在 Python 命令最后添加 --real_root /实际real_only --normal_root /实际empty_images_v2_p0。
+# 算法、协议、数据、checkpoint、slot、RNG、gates 不变；缺关键文件仍停止，不改 SHA 绕过。
 
-# 完成后下载整个新 server_runtime_* 和 formal_* 两个 results_for_gpt 子目录。
-# 正式目录包含 checkpoint/原始图，因此较大；至少先回传所有 JSON、MD 与 logs，
-# weights/images 仍须在服务器保留，审计 SHA 不可修改。旧 Stage25 P0 不要覆盖。
+# 可选：如果想自动留一份整个终端日志，现有 launcher 也已改成前台：
+# bash tools/launch_plastic_bomo_stage25_server.sh all
+# 但不需要上传 launcher 或这个命令文件才能使用上面的直接 Python 命令。
+
+# 下载范围：新 server_runtime_* 与 formal_* 的 JSON、MD、logs。
+# 原始生成图/weights 仍须保留在服务器用于 SHA 审计，旧 Stage25 P0 不可覆盖。
+
+
+env CUDA_VISIBLE_DEVICES=1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+/mnt/sda/cbj/miniconda3/envs/yolo11/bin/python -u \
+tools/run_plastic_bomo_stage25_msdf_v2.py --mode all --device 0
+
+TASK25_EXIT_CODE=$?
+printf '\n[已退出] Stage25 退出码=%s\n' "$TASK25_EXIT_CODE"

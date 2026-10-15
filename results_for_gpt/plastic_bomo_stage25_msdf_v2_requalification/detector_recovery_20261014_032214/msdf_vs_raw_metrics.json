@@ -1,0 +1,200 @@
+{
+  "metrics": {
+    "A": {
+      "MSDF": {
+        "status": "COMPLETE",
+        "map5095": 0.25981390900596424,
+        "map50": 0.6784583326735883,
+        "precision": 0.7677640379582893,
+        "recall": 0.7006862635296425,
+        "per_class": {
+          "flash": {
+            "precision": 0.6669289164466139,
+            "recall": 0.6666666666666666,
+            "ap50": 0.6289919746750301,
+            "ap5095": 0.213684641472382
+          },
+          "black": {
+            "precision": 0.8685991594699646,
+            "recall": 0.7347058603926184,
+            "ap50": 0.7279246906721466,
+            "ap5095": 0.30594317653954645
+          }
+        },
+        "arm": "MSDF_A",
+        "checkpoint_sha256": "1e858e3c571de5cc614cab954ae781954bfccb36b3358a48e2bb93437ed5fdf4",
+        "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+        "evaluation_image_count": 48,
+        "target_counts": {
+          "flash": 33,
+          "black": 27
+        },
+        "primary_checkpoint": "epoch150 last.pt"
+      },
+      "Raw": {
+        "status": "COMPLETE",
+        "map5095": 0.2970998912654449,
+        "map50": 0.7337562430237055,
+        "precision": 0.8285154439830569,
+        "recall": 0.7516622682316227,
+        "per_class": {
+          "flash": {
+            "precision": 0.7411918275808753,
+            "recall": 0.696969696969697,
+            "ap50": 0.6355439872141208,
+            "ap5095": 0.21586600766599537
+          },
+          "black": {
+            "precision": 0.9158390603852384,
+            "recall": 0.8063548394935486,
+            "ap50": 0.83196849883329,
+            "ap5095": 0.3783337748648942
+          }
+        },
+        "arm": "A",
+        "checkpoint_sha256": "dffeca5ff01fd9c48783aec9abf1fbe9a0cdda8a42e3c2a055348010d1712fa7",
+        "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+        "evaluation_image_count": 48,
+        "target_counts": {
+          "flash": 33,
+          "black": 27
+        },
+        "primary_checkpoint": "epoch150 last.pt"
+      },
+      "delta_pp": -3.7285982259480654
+    },
+    "B": {
+      "MSDF": {
+        "status": "COMPLETE",
+        "map5095": 0.329551103417669,
+        "map50": 0.7790939806628452,
+        "precision": 0.8534263507123131,
+        "recall": 0.797979797979798,
+        "per_class": {
+          "flash": {
+            "precision": 0.8368165335876426,
+            "recall": 0.8181818181818182,
+            "ap50": 0.7891079545454547,
+            "ap5095": 0.27666226252462706
+          },
+          "black": {
+            "precision": 0.8700361678369836,
+            "recall": 0.7777777777777778,
+            "ap50": 0.7690800067802357,
+            "ap5095": 0.38243994431071093
+          }
+        },
+        "arm": "MSDF_B",
+        "checkpoint_sha256": "603de4fefc3976f5f160363b1283a73d2a90c0fdd889aeaca7294d249deb9cd7",
+        "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+        "evaluation_image_count": 48,
+        "target_counts": {
+          "flash": 33,
+          "black": 27
+        },
+        "primary_checkpoint": "epoch150 last.pt"
+      },
+      "Raw": {
+        "status": "COMPLETE",
+        "map5095": 0.33081838919630263,
+        "map50": 0.8082583548586191,
+        "precision": 0.882980391179836,
+        "recall": 0.8488788129748335,
+        "per_class": {
+          "flash": {
+            "precision": 0.8063798710101188,
+            "recall": 0.8181818181818182,
+            "ap50": 0.7351264658147989,
+            "ap5095": 0.27485508494727834
+          },
+          "black": {
+            "precision": 0.9595809113495531,
+            "recall": 0.8795758077678487,
+            "ap50": 0.8813902439024391,
+            "ap5095": 0.38678169344532676
+          }
+        },
+        "arm": "B",
+        "checkpoint_sha256": "2f42cd391608819f1f078ec4ca5d63781f855b19767078590484e9872a1cadb0",
+        "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+        "evaluation_image_count": 48,
+        "target_counts": {
+          "flash": 33,
+          "black": 27
+        },
+        "primary_checkpoint": "epoch150 last.pt"
+      },
+      "delta_pp": -0.1267285778633609
+    },
+    "C": {
+      "MSDF": {
+        "status": "COMPLETE",
+        "map5095": 0.3367903662003027,
+        "map50": 0.8360859135948044,
+        "precision": 0.8437822472900465,
+        "recall": 0.8620546617437705,
+        "per_class": {
+          "flash": {
+            "precision": 0.7337288360011062,
+            "recall": 0.8352204345986523,
+            "ap50": 0.7586037556698132,
+            "ap5095": 0.27891223835823775
+          },
+          "black": {
+            "precision": 0.9538356585789868,
+            "recall": 0.8888888888888888,
+            "ap50": 0.9135680715197958,
+            "ap5095": 0.39466849404236765
+          }
+        },
+        "arm": "MSDF_C",
+        "checkpoint_sha256": "58b259960e781e830139f6a343eb3fd15825ef0f1f866c9d58aca568ab390def",
+        "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+        "evaluation_image_count": 48,
+        "target_counts": {
+          "flash": 33,
+          "black": 27
+        },
+        "primary_checkpoint": "epoch150 last.pt"
+      },
+      "Raw": {
+        "status": "COMPLETE",
+        "map5095": 0.37348318684014364,
+        "map50": 0.8652997542997543,
+        "precision": 0.8897918561787572,
+        "recall": 0.8560854171031802,
+        "per_class": {
+          "flash": {
+            "precision": 0.8181131196639075,
+            "recall": 0.7878787878787878,
+            "ap50": 0.8030839160839159,
+            "ap5095": 0.30362042958784446
+          },
+          "black": {
+            "precision": 0.9614705926936069,
+            "recall": 0.9242920463275727,
+            "ap50": 0.9275155925155926,
+            "ap5095": 0.44334594409244277
+          }
+        },
+        "arm": "C",
+        "checkpoint_sha256": "bc5300e1c75d8161849714d76ad034cfd0f974c9fc25d922ecae46db539c25db",
+        "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+        "evaluation_image_count": 48,
+        "target_counts": {
+          "flash": 33,
+          "black": 27
+        },
+        "primary_checkpoint": "epoch150 last.pt"
+      },
+      "delta_pp": -3.6692820639840917
+    }
+  },
+  "gates": {
+    "A": false,
+    "B": false,
+    "C": false
+  },
+  "mean_delta_pp": -2.5082029559318393,
+  "wins": 0
+}

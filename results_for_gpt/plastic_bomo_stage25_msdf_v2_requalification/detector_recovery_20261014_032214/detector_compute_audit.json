@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "arms": {
+    "A": {
+      "path": "detector_A/last.pt",
+      "sha256": "1e858e3c571de5cc614cab954ae781954bfccb36b3358a48e2bb93437ed5fdf4",
+      "epochs": 150,
+      "scheduled_draws": 32400,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    },
+    "B": {
+      "path": "detector_B/last.pt",
+      "sha256": "603de4fefc3976f5f160363b1283a73d2a90c0fdd889aeaca7294d249deb9cd7",
+      "epochs": 150,
+      "scheduled_draws": 32400,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    },
+    "C": {
+      "path": "detector_C/last.pt",
+      "sha256": "58b259960e781e830139f6a343eb3fd15825ef0f1f866c9d58aca568ab390def",
+      "epochs": 150,
+      "scheduled_draws": 32400,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8
+    }
+  },
+  "draws_per_arm": 32400,
+  "scheduled_attempts_per_arm": 600,
+  "successful_AMP_updates_not_compensated": true,
+  "epoch150_native_EMA_last_pt": true,
+  "validation_checkpoint_selection": false
+}

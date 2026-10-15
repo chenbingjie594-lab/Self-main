@@ -2,16 +2,12 @@
   "status": "FROZEN_SERVER_EXECUTION_REQUIRED",
   "preparation_base_commit": "c8283902c05cdefc50251a31e68a7d3c5c9fb95e",
   "sha256": {
-    "tools/stage25_msdf_contract.py": "6e53f8b47f4567853672f4befa8c35c37396a83629ffceffc647f378c6278026",
+    "tools/stage25_msdf_contract.py": "1348db26e16e4dec0b8bc301813c3b3aecc296ab111721849a879eaff5ed2f42",
     "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
     "tools/stage25_msdf_downstream.py": "e03a2846bdecd50f8810f14c2deb707cebe4882fc05997df419aa69bd3f381e4",
-    "tools/run_plastic_bomo_stage25_msdf_v2.py": "dc7baa6d813caa05ed75c3a52453f6126878a308659ede14d94a93b426631cab",
-    "tools/launch_plastic_bomo_stage25_server.sh": "10a66920a3d1d04fa793dfe6e94839e932188bd4e3330226acb024f0ebab2ee6",
+    "tools/run_plastic_bomo_stage25_msdf_v2.py": "0635fa14d35318eab7ce7ea1a310b026ab27f5f9918a3fc51215172531dfed6d",
     "configs/plastic_bomo_stage25_server.json": "34fd788893e67b2ba172162e09b1a6f28af805d274d911d1228f2c79e624812e",
-    "tests/test_plastic_bomo_stage25_p1.py": "33cb535462633e170aa5aa8d7d6fdc519c37e33304e8ee03d167e6fd1311945e",
-    "Stage25服务器命令.txt": "9ef475dcf250843ce90117a27fdc319740a6e5e5c8cab92b5a491ff7e5299d12",
     "train_rda.py": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
-    "run_train_msdf.py": "d941f61f118ff946b6ba49715f7953c36b50a339155389546c72ef63f08681a0",
     "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "8005882eda0305d8b1d104ac321e909d34779742256386d22551a75a84095225",
     "diffusers/__init__.py": "d9292d44a5ce0c1f9d99292f3e8fafea49a3031ac9bb557632213d053da70aca",
     "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
@@ -31,5 +27,13 @@
     "results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/msdf_selector_separation_audit.json": "6f43bf698671b3c904235956d1ee7bde9b479429c7c4fa01712cded564e09fe2"
   },
   "self_hash": "recorded by runtime/formal binding; not circularly stored here",
-  "generic_MSDF_mains_executed": false
+  "generic_MSDF_mains_executed": false,
+  "revision": "P1_CONSOLE_R1_EXECUTION_UI_ONLY",
+  "audit_only_sha256": {
+    "tests/test_plastic_bomo_stage25_p1.py": "f5c0fb362c738d49a7640526dd13344b011702b48565a53db6e24994ed419bf7",
+    "Stage25服务器命令.txt": "5d21144f72778956a31a163bc2ab3786178c5ab20ea1febdf303cbf221f44b4b",
+    "tools/launch_plastic_bomo_stage25_server.sh": "480d1301b77466dfb80b58cc664ddf73162337db7517af1d69316c961ce208b0",
+    "run_train_msdf.py": "d941f61f118ff946b6ba49715f7953c36b50a339155389546c72ef63f08681a0"
+  },
+  "server_optional_policy": "audit_only_sha256 records nonexecuted historical wrapper, local tests and launch documentation for provenance. These files are not read/required by source_check; all actual execution, algorithm, protocol and data bindings remain mandatory."
 }

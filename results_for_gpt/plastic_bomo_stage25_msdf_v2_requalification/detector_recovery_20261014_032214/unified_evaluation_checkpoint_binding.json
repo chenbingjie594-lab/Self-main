@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN",
+  "arms": {
+    "MSDF_A": {
+      "path": "detector_A/last.pt",
+      "sha256": "1e858e3c571de5cc614cab954ae781954bfccb36b3358a48e2bb93437ed5fdf4",
+      "epochs": 150,
+      "scheduled_draws": 32400,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "absolute_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_20261014_032214/detector_A/last.pt"
+    },
+    "MSDF_B": {
+      "path": "detector_B/last.pt",
+      "sha256": "603de4fefc3976f5f160363b1283a73d2a90c0fdd889aeaca7294d249deb9cd7",
+      "epochs": 150,
+      "scheduled_draws": 32400,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "absolute_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_20261014_032214/detector_B/last.pt"
+    },
+    "MSDF_C": {
+      "path": "detector_C/last.pt",
+      "sha256": "58b259960e781e830139f6a343eb3fd15825ef0f1f866c9d58aca568ab390def",
+      "epochs": 150,
+      "scheduled_draws": 32400,
+      "scheduled_optimizer_attempts": 600,
+      "successful_optimizer_updates": 592,
+      "AMP_skipped_updates": 8,
+      "absolute_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_20261014_032214/detector_C/last.pt"
+    }
+  },
+  "historical_comparator_reused": true,
+  "new_evaluation_arms": 3,
+  "frozen_at": "2026-10-14T18:45:17.039488+00:00"
+}

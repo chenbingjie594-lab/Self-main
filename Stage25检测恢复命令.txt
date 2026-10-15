@@ -1,0 +1,38 @@
+# 只需新上传 tools/recover_plastic_bomo_stage25_detector.py 到服务器 tools/。
+# 原 runner/contract/code_manifest 等保持当前冻结版本，不修改旧 formal 目录。
+# 这是手动重跑检测 A/B/C 各150轮，不是第10轮续训；复用两个模型和全部240图。
+
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+
+mkdir -p logs/plastic_bomo_stage25_msdf_v2_requalification
+TASK25_RECOVER_ID=$(date +%Y%m%d_%H%M%S_%N)
+TASK25_RECOVER_SOURCE=/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/formal_20261013_085920_253633
+TASK25_RECOVER_OUT=/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_${TASK25_RECOVER_ID}
+TASK25_RECOVER_LOG=/mnt/sda/cbj/ImageGeneration/Self-main/logs/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_${TASK25_RECOVER_ID}.log
+
+nohup env CUDA_VISIBLE_DEVICES=1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+bash -c '
+  /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python -u \
+    tools/recover_plastic_bomo_stage25_detector.py \
+    --source_run "$1" --output "$2" --confirm-detector-restart
+  TASK25_RECOVERY_CODE=$?
+  printf "\n[已退出] Stage25 检测恢复退出码=%s\n" "$TASK25_RECOVERY_CODE"
+  printf "%s\n" "$TASK25_RECOVERY_CODE" > "$3.exit_code"
+  exit "$TASK25_RECOVERY_CODE"
+' stage25-detector-recovery "$TASK25_RECOVER_SOURCE" "$TASK25_RECOVER_OUT" "$TASK25_RECOVER_LOG" \
+> "$TASK25_RECOVER_LOG" 2>&1 < /dev/null &
+
+TASK25_RECOVER_PID=$!
+printf '%s\n' "$TASK25_RECOVER_PID" > "$TASK25_RECOVER_LOG.pid"
+printf '[后台已启动] PID=%s\n结果目录=%s\n日志=%s\n' "$TASK25_RECOVER_PID" "$TASK25_RECOVER_OUT" "$TASK25_RECOVER_LOG"
+tail -f "$TASK25_RECOVER_LOG"
+
+# tail -f 可 Ctrl+C 退出，只停止看日志，不停止后台训练；可以关闭本地电脑。
+# 重新连接后查看：
+# cd /mnt/sda/cbj/ImageGeneration/Self-main
+# TASK25_RECOVER_LOG=$(ls -t logs/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_*.log | head -n 1)
+# tail -n 60 "$TASK25_RECOVER_LOG"
+# pgrep -af '[r]ecover_plastic_bomo_stage25_detector.py|[r]un_plastic_bomo_stage25_msdf_v2.py' || echo 'Stage25 已退出'
+# 若已退出：cat "$TASK25_RECOVER_LOG.exit_code"；0=执行完成，非0=失败/中断。
+# 完成后下载新的 detector_recovery_* 的 JSON、MD、recovery/、logs/。
+# 模型和图片保留在服务器；不要重复启动、删除 claim、改冻结哈希或重跑 --mode all。

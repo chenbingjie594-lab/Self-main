@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "map5095": 0.3367903662003027,
+  "map50": 0.8360859135948044,
+  "precision": 0.8437822472900465,
+  "recall": 0.8620546617437705,
+  "per_class": {
+    "flash": {
+      "precision": 0.7337288360011062,
+      "recall": 0.8352204345986523,
+      "ap50": 0.7586037556698132,
+      "ap5095": 0.27891223835823775
+    },
+    "black": {
+      "precision": 0.9538356585789868,
+      "recall": 0.8888888888888888,
+      "ap50": 0.9135680715197958,
+      "ap5095": 0.39466849404236765
+    }
+  },
+  "arm": "MSDF_C",
+  "checkpoint_sha256": "58b259960e781e830139f6a343eb3fd15825ef0f1f866c9d58aca568ab390def",
+  "evaluation_protocol_sha256": "2a86fc6cce99988c78efb2d9579e9f6f16edcbd8ad9b915c594bae4ec84e4740",
+  "evaluation_image_count": 48,
+  "target_counts": {
+    "flash": 33,
+    "black": 27
+  },
+  "primary_checkpoint": "epoch150 last.pt"
+}

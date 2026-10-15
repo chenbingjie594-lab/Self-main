@@ -2,14 +2,17 @@
 import ast
 from copy import deepcopy
 import importlib.util
+import io
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
 import tempfile
 import unittest
 from types import SimpleNamespace
-from unittest.mock import patch
+from unittest.mock import Mock, patch
+from contextlib import redirect_stdout
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO / 'tools'))
@@ -82,6 +85,35 @@ class Stage25Static(unittest.TestCase):
         self.assertNotIn('pip install', text)
         self.assertNotIn('ssh ', text)
         self.assertNotIn('\r', text)
+
+    def test_launcher_runs_in_foreground_and_announces_exit(self):
+        text = (REPO / 'tools/launch_plastic_bomo_stage25_server.sh').read_text(encoding='utf-8')
+        self.assertNotIn('nohup ', text)
+        self.assertNotIn('2>&1 &', text)
+        self.assertIn('tee "$TASK25_LOG"', text)
+        self.assertIn('[已退出]', text)
+        self.assertIn('trap ', text)
+
+    def test_nonruntime_artifacts_are_optional_on_server(self):
+        mf = contract.load(REPO / 'configs/plastic_bomo_stage25_server_code_manifest.json')
+        optional = {'tests/test_plastic_bomo_stage25_p1.py', 'Stage25服务器命令.txt',
+                    'tools/launch_plastic_bomo_stage25_server.sh', 'run_train_msdf.py'}
+        self.assertTrue(optional <= set(mf['audit_only_sha256']))
+        self.assertFalse(optional & set(mf['sha256']))
+        isfile = Path.is_file
+        excluded = {(REPO / n).resolve() for n in optional}
+        with patch.object(Path, 'is_file', lambda p: False if p.resolve() in excluded else isfile(p)):
+            self.assertEqual(contract.source_check(REPO / 'configs/plastic_bomo_stage25_server.json',
+                REPO / 'configs/plastic_bomo_stage25_server_code_manifest.json'), CFG)
+
+    def test_actual_execution_hashes_remain_required(self):
+        real_sha = contract.sha
+        path = REPO / 'diffusers/pipelines/stable_diffusion/msdf_guidance.py'
+        with patch.object(contract, 'sha', side_effect=lambda p: '0' * 64 if Path(p).resolve() == path else real_sha(p)):
+            with self.assertRaises(contract.Stop) as caught:
+                contract.source_check(REPO / 'configs/plastic_bomo_stage25_server.json',
+                    REPO / 'configs/plastic_bomo_stage25_server_code_manifest.json')
+        self.assertEqual(caught.exception.detail['file'], path.relative_to(REPO).as_posix())
 
     def test_help_never_imports_ML(self):
         result = subprocess.run([sys.executable, str(REPO / 'tools/run_plastic_bomo_stage25_msdf_v2.py'), '--help'],
@@ -303,6 +335,98 @@ class BudgetsAndBarriers(unittest.TestCase):
         self.assertTrue(x['reuse'], x['errors'])
         self.assertEqual(set(x['metrics']), {'RR', 'A', 'B', 'C'})
         self.assertFalse(x['untouched_final_test_claim'])
+
+
+class ConsoleDiagnostics(unittest.TestCase):
+    def test_quiet_child_gets_running_heartbeat(self):
+        with tempfile.TemporaryDirectory() as d:
+            proc = Mock(pid=12345, stdout=io.StringIO())
+            proc.poll.return_value = None
+            proc.wait.return_value = 0
+            messages = Mock()
+            messages.get.side_effect = [runner.queue.Empty(), None]
+            out = io.StringIO()
+            with patch.object(runner.subprocess, 'Popen', return_value=proc), \
+                 patch.object(runner.threading, 'Thread'), patch.object(runner.queue, 'Queue', return_value=messages), redirect_stdout(out):
+                code = runner.stream_child(['FAKE_METADATA_PROCESS'], Path(d) / 'quiet.log', '文件哈希校验', REPO)
+            self.assertEqual(code, 0)
+            self.assertIn('等待阶段输出', out.getvalue())
+            self.assertIn('文件哈希校验', out.getvalue())
+            proc.terminate.assert_not_called()
+
+    def test_interrupt_stops_only_owned_child(self):
+        with tempfile.TemporaryDirectory() as d:
+            proc = Mock(pid=12345, stdout=io.StringIO())
+            proc.poll.return_value = None
+            proc.wait.return_value = 0
+            messages = Mock()
+            messages.get.side_effect = KeyboardInterrupt()
+            with patch.object(runner.subprocess, 'Popen', return_value=proc), \
+                 patch.object(runner.threading, 'Thread'), patch.object(runner.queue, 'Queue', return_value=messages), redirect_stdout(io.StringIO()):
+                with self.assertRaises(KeyboardInterrupt):
+                    runner.stream_child(['FAKE_METADATA_PROCESS'], Path(d) / 'interrupt.log', '静态模拟', REPO)
+            proc.terminate.assert_called_once()
+            proc.kill.assert_not_called()
+            self.assertTrue(proc.stdout.closed)
+
+    def test_missing_runtime_files_reported_together(self):
+        with tempfile.TemporaryDirectory() as d:
+            mf = Path(d) / 'manifest.json'
+            contract.save(mf, {'sha256': {'missing_stage25_one.py': '0' * 64, 'missing_stage25_two.py': '0' * 64}})
+            with self.assertRaises(contract.Stop) as caught:
+                contract.source_check(REPO / 'configs/plastic_bomo_stage25_server.json', mf)
+            self.assertEqual(caught.exception.detail['missing_files'], ['missing_stage25_one.py', 'missing_stage25_two.py'])
+            self.assertFalse(caught.exception.detail['training_started'])
+
+    def test_chinese_diagnosis_and_exit_code_are_readable(self):
+        out = io.StringIO()
+        with redirect_stdout(out):
+            runner.describe_error('STAGE25_FROZEN_BINDING_CHANGED', {'reason': '服务器缺少运行文件',
+                'missing_files': ['缺少的文件.py']})
+        self.assertIn('[已退出]', out.getvalue())
+        self.assertIn('退出码=1', out.getvalue())
+        self.assertIn('缺少文件：缺少的文件.py', out.getvalue())
+        self.assertNotIn('\\u', out.getvalue())
+
+    def test_CLI_missing_file_exits_before_runtime_or_ML(self):
+        with tempfile.TemporaryDirectory() as d:
+            mf = Path(d) / 'manifest.json'
+            contract.save(mf, {'sha256': {'不存在的运行文件.py': '0' * 64}})
+            p = subprocess.run([sys.executable, '-u', str(REPO / 'tools/run_plastic_bomo_stage25_msdf_v2.py'),
+                '--mode', 'all', '--code_manifest', str(mf)], capture_output=True, text=True, encoding='utf-8',
+                env={**os.environ, 'PYTHONIOENCODING': 'utf-8'}, cwd=REPO)
+            self.assertEqual(p.returncode, 1)
+            self.assertIn('缺少文件：不存在的运行文件.py', p.stdout)
+            self.assertIn('[已退出]', p.stdout)
+            self.assertNotIn('\\u', p.stdout)
+            self.assertNotIn('Traceback', p.stdout + p.stderr)
+
+    def test_child_stdout_stderr_and_failure_are_teed(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / 'child.log'
+            out = io.StringIO()
+            command = [sys.executable, '-u', '-c', "import sys; print('中文阶段输出'); print('错误详情',file=sys.stderr); sys.exit(7)"]
+            with redirect_stdout(out):
+                code = runner.stream_child(command, path, '静态模拟', REPO)
+            self.assertEqual(code, 7)
+            for message in ('中文阶段输出', '错误详情', '退出码=7'):
+                self.assertIn(message, out.getvalue())
+                self.assertIn(message, path.read_text(encoding='utf-8'))
+
+    def test_child_output_arrives_before_process_completes(self):
+        with tempfile.TemporaryDirectory() as d:
+            marker = Path(d) / 'finished'
+            observed = []
+            class LiveOutput(io.StringIO):
+                def write(self, text):
+                    if text == 'CHILD_READY\n':
+                        observed.append(not marker.exists())
+                    return super().write(text)
+            command = [sys.executable, '-u', '-c', "import pathlib,time; print('CHILD_READY',flush=True); time.sleep(.2); pathlib.Path(" + repr(str(marker)) + ").touch()"]
+            with redirect_stdout(LiveOutput()):
+                code = runner.stream_child(command, Path(d) / 'child.log', '静态模拟', REPO)
+            self.assertEqual(code, 0)
+            self.assertEqual(observed, [True])
 
 
 if __name__ == '__main__':

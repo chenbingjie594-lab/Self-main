@@ -1,0 +1,23 @@
+{
+  "status": "FORMAL_RUNNING",
+  "full_experiment_complete": false,
+  "DeepPCB": 0,
+  "BootstrapGuard": 0,
+  "DWBG": 0,
+  "selector": 0,
+  "official_final_eval_rounds": 0,
+  "generator_training_count": 2,
+  "synthetic_generation_count": 240,
+  "detector_training_count": 1,
+  "automatic_rescue": false,
+  "started_at": "2026-10-13T08:59:20.254175+00:00",
+  "msdf_flash_training_started": true,
+  "msdf_black_training_started": true,
+  "msdf_flash_successful_updates": 2000,
+  "msdf_black_successful_updates": 2000,
+  "comparator_generator_training_count": 0,
+  "comparator_synthetic_generation_count": 0,
+  "msdf_detector_A_started": true,
+  "legacy_detector_ordinal": 2,
+  "detector_A_successful_updates": 30
+}
