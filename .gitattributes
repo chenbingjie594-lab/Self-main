@@ -79,3 +79,10 @@ results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/server_package_prep
 tools/recover_plastic_bomo_stage25_detector.py -text
 tests/test_plastic_bomo_stage25_detector_recovery.py -text
 Stage25检测恢复命令.txt -text
+# Chapter3 Experiment1: independent visual evaluation; old Stage20B/25 bytes untouched.
+configs/plastic_bomo_chapter3_exp1.json -text
+tools/chapter3_exp1_quality_common.py -text
+tools/evaluate_plastic_bomo_chapter3_exp1.py -text
+tests/test_plastic_bomo_chapter3_exp1.py -text
+第三章实验1命令.txt -text
+results_for_gpt/plastic_bomo_chapter3_exp1_msdf_generation_quality/** -text -whitespace

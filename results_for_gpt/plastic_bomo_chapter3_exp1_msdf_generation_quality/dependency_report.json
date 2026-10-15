@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "package_versions": {
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "torch-fidelity": "0.3.0",
+    "lpips": "0.1.4",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.10.9",
+    "torchmetrics": null,
+    "diffusers": "0.40.0",
+    "ultralytics": "8.4.145"
+  },
+  "weights": {
+    "inception": {
+      "path": "/home/cbj/.cache/torch/hub/checkpoints/weights-inception-2015-12-05-6726825d.pth",
+      "sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2"
+    },
+    "alexnet": {
+      "path": "/home/cbj/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth",
+      "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+    },
+    "lpips_linear": {
+      "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/lpips/weights/v0.1/alex.pth",
+      "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+    }
+  },
+  "errors": [],
+  "package_install_or_upgrade_count": 0,
+  "network_download_count": 0,
+  "model_load_count": 0,
+  "generator_or_detector_forward_count": 0,
+  "protected_packages": {
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "diffusers": "0.40.0",
+    "ultralytics": "8.4.145"
+  }
+}

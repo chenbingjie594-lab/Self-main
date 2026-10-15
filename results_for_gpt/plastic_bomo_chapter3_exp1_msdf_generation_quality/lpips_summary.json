@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE",
+  "interpretation": "appearance diversity only; not realism",
+  "slot_pair_count_per_method": 240,
+  "slot_count_per_method": 80,
+  "methods": {
+    "Raw SD2": {
+      "overall": {
+        "mean": 0.09833970264104816,
+        "sd": 0.051545364327584386,
+        "n": 80,
+        "ddof": 1
+      },
+      "flash": {
+        "mean": 0.11302967984617378,
+        "sd": 0.05379683950482894,
+        "n": 40,
+        "ddof": 1
+      },
+      "black": {
+        "mean": 0.08364972543592254,
+        "sd": 0.045224088770232214,
+        "n": 40,
+        "ddof": 1
+      }
+    },
+    "MSDF": {
+      "overall": {
+        "mean": 0.11582519465591759,
+        "sd": 0.07065084783315409,
+        "n": 80,
+        "ddof": 1
+      },
+      "flash": {
+        "mean": 0.08991027732069294,
+        "sd": 0.04428792386941764,
+        "n": 40,
+        "ddof": 1
+      },
+      "black": {
+        "mean": 0.14174011199114223,
+        "sd": 0.08229244576956637,
+        "n": 40,
+        "ddof": 1
+      }
+    }
+  },
+  "SD_ddof": 1
+}

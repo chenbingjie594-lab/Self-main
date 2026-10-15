@@ -1,0 +1,40 @@
+# 只做 Raw SD2 vs MSDF 的 FID/KID/LPIPS。不会训练、生成或筛选图片。
+# 上传以下3个文件，不打包、不修改旧 Stage20B/25 文件：
+# configs/plastic_bomo_chapter3_exp1.json
+# tools/chapter3_exp1_quality_common.py
+# tools/evaluate_plastic_bomo_chapter3_exp1.py
+# 本命令文件不必上传；直接复制下面命令到服务器终端。
+
+cd /mnt/sda/cbj/ImageGeneration/Self-main
+mkdir -p logs/plastic_bomo_chapter3_exp1_msdf_generation_quality
+EXP1_TAG=$(date +%Y%m%d_%H%M%S)
+EXP1_LOG=logs/plastic_bomo_chapter3_exp1_msdf_generation_quality/evaluation_${EXP1_TAG}.log
+
+nohup env CUDA_VISIBLE_DEVICES=1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+bash -c '
+  /mnt/sda/cbj/miniconda3/envs/yolo11/bin/python -u \
+    tools/evaluate_plastic_bomo_chapter3_exp1.py --mode all --device 0
+  EXP1_CODE=$?
+  printf "\n[已退出] Experiment1 退出码=%s\n" "$EXP1_CODE"
+  printf "%s\n" "$EXP1_CODE" > "$1.exit_code"
+  exit "$EXP1_CODE"
+' exp1-visual-metrics "$EXP1_LOG" > "$EXP1_LOG" 2>&1 < /dev/null &
+
+echo "后台 PID=$!"
+tail -f "$EXP1_LOG"
+
+# Ctrl+C 只停止看日志，不停止后台任务。
+# 若是 DEPENDENCY_REQUIRED：退出码2，不是实验负结果；不会自动 pip install 或升级核心包。
+# 下载 output 中的 dependency_report.json、experiment1_status.json 和日志即可排查。
+# 默认只读取已缓存的标准权重，绝不自动下载或使用随机特征网络：
+# ~/.cache/torch/hub/checkpoints/weights-inception-2015-12-05-6726825d.pth
+# ~/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth
+# LPIPS v0.1 linear weights 来自 lpips 包，SHA256 必须与官方文件一致。
+# 可用 --inception_weights /实际路径/weights-inception-2015-12-05-6726825d.pth 显式指定 Inception 权重。
+# 不要升级 torch/CUDA/diffusers/ultralytics，不要改 crop/seed/指标实现来绕过失败。
+
+# 完成后下载：
+# results_for_gpt/plastic_bomo_chapter3_exp1_msdf_generation_quality/
+# 必要文件为 JSON、CSV、MD、generation_quality_metrics.png；inception_features.npz 可留服务器。
+# 完成后复核并提交结果，不自动开始其他方法、消融、BootstrapGuard 或 detector 实验。

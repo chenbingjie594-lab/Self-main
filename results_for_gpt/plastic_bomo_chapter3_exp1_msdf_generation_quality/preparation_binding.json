@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_METRICS",
+  "sha256": {
+    "visual_comparison_manifest.json": "d6520bc4cf6b5715deff68a788cc7735db7d55e0d1b27d0a08b388efb858e0c4",
+    "real_visual_reference_manifest.json": "2b2c92d7ff625561948854af4fdf813e5105049fae6236dea6306e9dd7a07f79",
+    "metric_protocol.json": "efb7dbfcb1fb9520ad2a3721334b1c59109b43d5b75de4336f67d641d5a9a560"
+  },
+  "implementation_sha256": {
+    "configs/plastic_bomo_chapter3_exp1.json": "9071e06411e3da429d1b827ec7290d8810d6da585dac8aaf221f2c6faf40449a",
+    "tools/chapter3_exp1_quality_common.py": "b7f85eef1f7be71793f3608c5f3660c8a96c5f4104964fa309544770c1b65556",
+    "tools/evaluate_plastic_bomo_chapter3_exp1.py": "88e85605e525e91f0204961ce0c233365a62641c309d61f5c8779472dd0e18fc"
+  },
+  "path_relocation": "repo-relative paths only",
+  "old_files_modified": false,
+  "detector_metric_files_read": 0,
+  "generator_training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "BootstrapGuard": 0,
+  "DWBG": 0,
+  "selector": 0,
+  "automatic_next_experiment": false
+}
