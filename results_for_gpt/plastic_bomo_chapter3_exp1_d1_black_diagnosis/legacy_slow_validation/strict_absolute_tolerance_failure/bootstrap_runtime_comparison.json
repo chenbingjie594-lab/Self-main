@@ -1,0 +1,14 @@
+{
+  "status": "STOPPED_BEFORE_FORMAL_BOOTSTRAP",
+  "old_seconds_per_round": null,
+  "new_seconds_per_round": null,
+  "timing_unavailable_reason": "Numerical equivalence has not passed; formal bootstrap not started.",
+  "feature_forward_count": 0,
+  "Inception_image_forward_count_formal_bootstrap": 0,
+  "slow_FID_evaluations_used_for_validation": 0,
+  "legacy_slow_FID_evaluations_used_for_precheck": 40,
+  "lowrank_FID_evaluations": 0,
+  "formal_lowrank_only": true,
+  "legacy_rows_used_as_formal_results": 0,
+  "formal_class_round_rows": 0
+}

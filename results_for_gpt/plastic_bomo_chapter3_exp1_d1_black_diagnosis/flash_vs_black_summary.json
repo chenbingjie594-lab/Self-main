@@ -1,0 +1,32 @@
+{
+  "status": "BLACK_GAP_ROBUST_BUT_MECHANISM_UNRESOLVED",
+  "evidence": {
+    "flash": {
+      "FID_KID_gap_robust": false,
+      "nearest_reference_farther": false,
+      "intensity_and_contrast_deviation_larger": false,
+      "local_appearance_association": false,
+      "background_association": false
+    },
+    "black": {
+      "FID_KID_gap_robust": true,
+      "nearest_reference_farther": true,
+      "intensity_and_contrast_deviation_larger": false,
+      "local_appearance_association": false,
+      "background_association": false
+    },
+    "black_specific_local_pattern": false,
+    "black_specific_background_pattern": false
+  },
+  "causal_mechanism_identified": false,
+  "geometry_cannot_explain_paired_method_gap_by_itself": true,
+  "LPIPS_diversity_is_not_realism": true,
+  "generator_training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "BootstrapGuard": 0,
+  "DWBG": 0,
+  "selector": 0,
+  "automatic_next_experiment": false,
+  "MSDF_change_count": 0
+}

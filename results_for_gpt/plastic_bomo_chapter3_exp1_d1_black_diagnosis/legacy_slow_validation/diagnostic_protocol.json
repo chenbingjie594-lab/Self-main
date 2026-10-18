@@ -1,0 +1,91 @@
+{
+  "experiment": "Chapter 3 Experiment 1-D1 Black Failure Diagnosis",
+  "source_commit": "59a4451d7662d09423b85220a4cc523f76bcf360",
+  "source_root": "results_for_gpt/plastic_bomo_chapter3_exp1_msdf_generation_quality",
+  "source_artifact_manifest_sha256": "d6a957d4c2b275d344c95ba76646cc0781a00fc81fd393877bea565cdf5e3219",
+  "source_feature_cache_sha256": "81a12cc2b0746833c9307c7189f99ead91847e3c1fb8881bcaafe35e0bec7481",
+  "seed": 2026,
+  "rounds": 1000,
+  "classes": [
+    "flash",
+    "black"
+  ],
+  "resampling": {
+    "type": "paired fixed-size empirical bootstrap with replacement; conditional on the observed images and three frozen generation banks",
+    "sample_size_real": 27,
+    "sample_size_generated": 27,
+    "bank_policy": "A334/B333/C333 rounds, shuffled by PCG64 SeedSequence([2026,0]); exactly the same bank in both methods and control classes",
+    "generated_index_policy": "27 indices from the 40 sorted class slots, PCG64 SeedSequence([2026,1]); shared Raw/MSDF and Flash/Black",
+    "real_index_policy": "27 indices from the sorted class reference ROIs, PCG64 SeedSequence([2026,2,class_index]); shared Raw/MSDF",
+    "feature_population": "ROI only, original Experiment1 cached 2048-dimensional Inception features, no re-extraction or projection",
+    "FID_KID_implementation": "exact Experiment1 torch-fidelity source files and version; no low-rank replacement, alternate formula or backbone",
+    "KID_options": "exact Experiment1 options,100 subsets,subset size27,seed42,unscaled,negative values retained",
+    "summary": "mean,median,linear percentiles2.5/97.5 of paired deltas,P(delta>0); resampling fractions are not frequentist p-values",
+    "robust_black_gap": "both Black FID and KID paired delta percentile intervals strictly above zero",
+    "CI_limit": "conditional empirical resampling interval, not uncertainty over independently retrained generators or a population-level causal claim"
+  },
+  "appearance": {
+    "region": "unchanged Experiment1 bbox+25%-each-side ROI, native pixels",
+    "gray": "BT.601 luma 0.299R+0.587G+0.114B, no gamma linearization,range0..255",
+    "gray_std": "population SD ddof0 in pixel units",
+    "RMS_contrast": "sqrt(mean((gray/255 - mean(gray/255))**2)); same contrast quantity as gray_std/255,not independent evidence",
+    "RGB": "channel population mean and SD ddof0,range0..255",
+    "Sobel": "fixed3x3 Sobel kernels divided by8,reflect padding; mean sqrt(gx^2+gy^2),no threshold or density cutoff",
+    "summary": "per ROI records; method/class/bank mean,median,sample SD,IQR; pooled descriptive generated summaries are not independent-bank inference",
+    "association_rule": "nearest-real min and top3 paired mean delta CI both>0 AND both gray_mean and RMS_contrast absolute mean-deviation-from-real delta CI>0; no weighted score or duplicate contrast vote"
+  },
+  "secondary_bootstrap": {
+    "rounds": 1000,
+    "unit": "unique matched slot after averaging A/B/C within slot; paired resampling of all40 class slots or80 overall slots",
+    "seed_policy": "PCG64 SeedSequence([2026,10,cohort_index]); same indices for Raw and MSDF and all requested secondary metrics",
+    "appearance_real_seed_policy": "PCG64 SeedSequence([2026,11,class_index]); resample all class real ROIs with replacement",
+    "CI": "linear2.5/97.5 percentiles of paired mean deltas"
+  },
+  "nearest_real_LPIPS": {
+    "implementation": "official lpips AlexNet v0.1; exact Experiment1 package/source hashes,weights,256x256 PIL bilinear,RGB/127.5-1,normalize=False",
+    "comparison": "each frozen generated ROI to all same-class real ROIs; save min and mean of3 nearest distances; no generated-image selection",
+    "interpretation": "nearest-reference diagnostic only,not a new formal realism metric",
+    "batch_size": 16
+  },
+  "background": {
+    "P": "frozen geometry.paste_valid_crop_region_xyxy,not the full canvas and not padded generator canvas",
+    "B": "original generation rasterized_mask_xyxy_exclusive translated by fixed_crop_xyxy origin,clipped to P; no new bbox or mask",
+    "MSE_PSNR": "skimage.metrics on RGB values at all P-minus-B pixels,data_range255; PSNR is in dB,MSE in squared pixel units",
+    "SSIM": "skimage.metrics.structural_similarity,RGB,channel_axis2,win_size11,gaussian_weightsTrue,sigma1.5,use_sample_covarianceFalse,data_range255,fullTrue; average channel-mean map only where the complete11x11 window lies inside P-minus-B",
+    "SSIM_border_rule": "5-pixel erosion of P-minus-B,excludes windows touching bbox or patch boundary; report pixel counts,no canvas-minus-P contribution",
+    "zero_MSE": "retain Infinity PSNR in CSV; if any nonfinite per-slot PSNR prevents a paired summary,report unavailable explicitly,do not drop rows or cap PSNR",
+    "association_rule": "paired mean delta CI: PSNR upper<0 AND SSIM upper<0 AND MSE lower>0"
+  },
+  "geometry": "original normalized width,height,area and pixel aspect ratio (width*canvas_width)/(height*canvas_height); synthetic counted once per matched slot,not6 duplicated method/bank samples; cannot explain paired method gap by itself",
+  "visualization": {
+    "seed": 2026,
+    "selection": "random.Random(2026),sorted slot IDs,12 unique matched slots per class,4 each bank A/B/C; no ranking",
+    "real_reference_role": "no direct held-out reference link is present; show N/A rather than inventing a matched real exemplar or substituting a TRAIN donor",
+    "panels": "conditioning normal,Raw,MSDF valid patch and original ROI zoom;24 groups retained",
+    "residual": "mean-channel absolute RGB difference in valid patch,common magma scale0..255 for every image/method; no per-image autoscale"
+  },
+  "conclusion_rule": "if both Black delta CIs>0: classify association with local appearance/background/both when corresponding predeclared rules hold,else mechanism unresolved; otherwise NOT_ROBUST_UNDER_RESAMPLING. Flash uses identical diagnostics and is reported as control; shared shifts are not called Black-specific",
+  "allowed_final_statuses": [
+    "BLACK_GAP_ROBUST_BUT_MECHANISM_UNRESOLVED",
+    "BLACK_GAP_ASSOCIATED_WITH_LOCAL_APPEARANCE_SHIFT",
+    "BLACK_GAP_ASSOCIATED_WITH_BACKGROUND_SHIFT",
+    "BLACK_GAP_ASSOCIATED_WITH_MULTIPLE_VISUAL_SHIFTS",
+    "BLACK_GAP_NOT_ROBUST_UNDER_RESAMPLING",
+    "NO_CLEAR_BLACK_FAILURE_PATTERN_IDENTIFIED"
+  ],
+  "allow_installs_or_upgrades": false,
+  "allow_network_downloads": false,
+  "generator_training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "MSDF_change_count": 0,
+  "BootstrapGuard": 0,
+  "DWBG": 0,
+  "selector": 0,
+  "automatic_next_experiment": false,
+  "implementation_sha256": {
+    "configs/plastic_bomo_chapter3_exp1_d1.json": "72d7fe17c5b92dccd942286aa1f2f42cdd8f4dd44673a41d07e7061324469108",
+    "tools/chapter3_exp1_d1_common.py": "762ffd7c3dd0d193ccbae89846802bde699e34140a77f0b34fa1a0e1c4d60e4e",
+    "tools/diagnose_plastic_bomo_chapter3_exp1_d1.py": "f464011920698d5bcd2a26f7b986ffa409350fa90efc1d6d0e1bc337d007648e"
+  }
+}

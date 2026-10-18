@@ -1,0 +1,20 @@
+{
+  "move": {
+    "bootstrap_progress.sqlite3": "30d645f903a4156cca33ae579594a38c994c0e97de4f0b061a9f444ef7f10ada",
+    "bootstrap_fid_kid.csv": "e338a580003708e7abab823092dfc55773857698fa94f64c58d1422710af09c5"
+  },
+  "copy": {
+    "diagnostic_protocol.json": "02f78952b80a9f16a64250ddbf34dd9a09d96d0882823af84a1943db9632438a",
+    "prepared_binding.json": "6d1af84fde7961c1aca31b368210770ead46c7f3d0e31617cbeceda2a89af706",
+    "diagnostic_runtime.json": "b62a4c416f60b7238f07d53edd519bbbb84a4ec43926d12a7432bba3323fb88c",
+    "resampling_index_plan.json": "e1a76595ec7e6099b6f27eb347200dedc9449a8d4c5625d57af5545f67095af2",
+    "d1_status.json": "0dbf640cd475006acbb45bd0f342cb5fcf129bb6ddf2387017eb72420d243df7",
+    "D1_REPORT.md": "0f736d03f4497468d4473796783f32bc89312a92d947e1fcf9841824b5618869"
+  },
+  "legacy_implementation_sha256": {
+    "configs/plastic_bomo_chapter3_exp1_d1.json": "72d7fe17c5b92dccd942286aa1f2f42cdd8f4dd44673a41d07e7061324469108",
+    "tools/chapter3_exp1_d1_common.py": "762ffd7c3dd0d193ccbae89846802bde699e34140a77f0b34fa1a0e1c4d60e4e",
+    "tools/diagnose_plastic_bomo_chapter3_exp1_d1.py": "f464011920698d5bcd2a26f7b986ffa409350fa90efc1d6d0e1bc337d007648e"
+  },
+  "purpose": "Implementation consistency audit only; never formal bootstrap rows."
+}

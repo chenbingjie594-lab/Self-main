@@ -1,0 +1,42 @@
+{
+  "authorization": "User requested exact computational acceleration on 2026-10-17.",
+  "supersedes": "Only the old prohibition on a low-rank FID computational form; no scientific definition or other protocol field changes.",
+  "original_diagnostic_protocol_sha256": "02f78952b80a9f16a64250ddbf34dd9a09d96d0882823af84a1943db9632438a",
+  "original_prepared_binding_sha256": "6d1af84fde7961c1aca31b368210770ead46c7f3d0e31617cbeceda2a89af706",
+  "resampling_index_plan_sha256": "e1a76595ec7e6099b6f27eb347200dedc9449a8d4c5625d57af5545f67095af2",
+  "feature_cache_sha256": "81a12cc2b0746833c9307c7189f99ead91847e3c1fb8881bcaafe35e0bec7481",
+  "implementation_sha256": {
+    "configs/plastic_bomo_chapter3_exp1_d1.json": "72d7fe17c5b92dccd942286aa1f2f42cdd8f4dd44673a41d07e7061324469108",
+    "tools/chapter3_exp1_d1_common.py": "762ffd7c3dd0d193ccbae89846802bde699e34140a77f0b34fa1a0e1c4d60e4e",
+    "tools/diagnose_plastic_bomo_chapter3_exp1_d1.py": "fd7a82643ca97059b55ea50b71e91a9b57915b44973a020bc7eb66dd146d9875",
+    "tools/chapter3_exp1_d1_lowrank.py": "07d5e20425144455fd3a34d14a2835943f40d2facea64bb26c2f790b59363a97"
+  },
+  "FID_algorithm": "float64_unbiased_covariance_exact_cross_gram_nuclear_norm_v1",
+  "FID_definition": "||mu_x-mu_y||^2 + ||Xc||F^2/(nx-1) + ||Yc||F^2/(ny-1) - 2*sum(svd(Xc@Yc.T/sqrt((nx-1)*(ny-1))))",
+  "numerical_policy": "float64; all singular values; no rank truncation, projection, jitter, epsilon, clipping or ridge.",
+  "validation": {
+    "completed_legacy_rounds": 10,
+    "classes": [
+      "flash",
+      "black"
+    ],
+    "methods": [
+      "Raw SD2",
+      "MSDF"
+    ],
+    "max_absolute_error": 1e-05,
+    "fresh_standard_2048_FID_recalculation_required": true,
+    "failure_policy": "STOP; never loosen tolerance or continue formal rounds."
+  },
+  "formal_policy": "Restart every class at round 0 in a separate lowrank-only database. Legacy rows are validation references only.",
+  "KID_changed": false,
+  "Inception_feature_forward_count": 0,
+  "generator_training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "BootstrapGuard": 0,
+  "DWBG": 0,
+  "selector": 0,
+  "automatic_next_experiment": false,
+  "MSDF_change_count": 0
+}

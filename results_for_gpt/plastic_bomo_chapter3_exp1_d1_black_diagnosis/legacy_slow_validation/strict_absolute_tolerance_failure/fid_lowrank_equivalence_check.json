@@ -1,0 +1,415 @@
+{
+  "status": "FAIL",
+  "fingerprint": "751918d1d9e463581f010e6d8af5c1c7fa12cce95ef7df021f296e063037a048",
+  "max_absolute_error_allowed": 1e-05,
+  "feature_forward_count": 0,
+  "formal_FID_replacement_authorized": false,
+  "legacy_standard_comparisons": [
+    {
+      "round": 0,
+      "class": "flash",
+      "bank": "A",
+      "method": "raw",
+      "legacy_standard_FID": 222.7065489159118,
+      "lowrank_exact_FID": 222.7066241940903,
+      "absolute_difference": 7.527817848540508e-05,
+      "relative_difference": 3.380151093528379e-07
+    },
+    {
+      "round": 0,
+      "class": "flash",
+      "bank": "A",
+      "method": "msdf",
+      "legacy_standard_FID": 223.43549772032887,
+      "lowrank_exact_FID": 223.43556826006167,
+      "absolute_difference": 7.053973280335413e-05,
+      "relative_difference": 3.157051297714911e-07
+    },
+    {
+      "round": 0,
+      "class": "black",
+      "bank": "A",
+      "method": "raw",
+      "legacy_standard_FID": 219.62420388416302,
+      "lowrank_exact_FID": 219.624315716759,
+      "absolute_difference": 0.00011183259599079065,
+      "relative_difference": 5.091997785898626e-07
+    },
+    {
+      "round": 0,
+      "class": "black",
+      "bank": "A",
+      "method": "msdf",
+      "legacy_standard_FID": 277.7570855952866,
+      "lowrank_exact_FID": 277.7571925606905,
+      "absolute_difference": 0.00010696540391563758,
+      "relative_difference": 3.8510414121890086e-07
+    },
+    {
+      "round": 1,
+      "class": "flash",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 218.80818373904208,
+      "lowrank_exact_FID": 218.80827180482916,
+      "absolute_difference": 8.806578708231427e-05,
+      "relative_difference": 4.0247940263214497e-07
+    },
+    {
+      "round": 1,
+      "class": "flash",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 194.74085372792382,
+      "lowrank_exact_FID": 194.74092760679304,
+      "absolute_difference": 7.387886921605968e-05,
+      "relative_difference": 3.7937016194494693e-07
+    },
+    {
+      "round": 1,
+      "class": "black",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 255.31329290224014,
+      "lowrank_exact_FID": 255.3134131928984,
+      "absolute_difference": 0.00012029065825913676,
+      "relative_difference": 4.711492178560254e-07
+    },
+    {
+      "round": 1,
+      "class": "black",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 283.7175625521455,
+      "lowrank_exact_FID": 283.7176739606002,
+      "absolute_difference": 0.00011140845469981286,
+      "relative_difference": 3.926738045317046e-07
+    },
+    {
+      "round": 2,
+      "class": "flash",
+      "bank": "A",
+      "method": "raw",
+      "legacy_standard_FID": 238.03559703094248,
+      "lowrank_exact_FID": 238.0356774379059,
+      "absolute_difference": 8.04069634057214e-05,
+      "relative_difference": 3.3779386112266735e-07
+    },
+    {
+      "round": 2,
+      "class": "flash",
+      "bank": "A",
+      "method": "msdf",
+      "legacy_standard_FID": 206.36448936959744,
+      "lowrank_exact_FID": 206.36456540289151,
+      "absolute_difference": 7.603329407857018e-05,
+      "relative_difference": 3.684417523132822e-07
+    },
+    {
+      "round": 2,
+      "class": "black",
+      "bank": "A",
+      "method": "raw",
+      "legacy_standard_FID": 239.93864995290338,
+      "lowrank_exact_FID": 239.93877548444493,
+      "absolute_difference": 0.00012553154155625634,
+      "relative_difference": 5.231818282752546e-07
+    },
+    {
+      "round": 2,
+      "class": "black",
+      "bank": "A",
+      "method": "msdf",
+      "legacy_standard_FID": 291.71941360610106,
+      "lowrank_exact_FID": 291.71952488093854,
+      "absolute_difference": 0.00011127483747941369,
+      "relative_difference": 3.814447454966586e-07
+    },
+    {
+      "round": 3,
+      "class": "flash",
+      "bank": "A",
+      "method": "raw",
+      "legacy_standard_FID": 244.97330393886182,
+      "lowrank_exact_FID": 244.97338423379406,
+      "absolute_difference": 8.029493224626094e-05,
+      "relative_difference": 3.277701323173574e-07
+    },
+    {
+      "round": 3,
+      "class": "flash",
+      "bank": "A",
+      "method": "msdf",
+      "legacy_standard_FID": 238.7422979715151,
+      "lowrank_exact_FID": 238.7423692116397,
+      "absolute_difference": 7.124012461190432e-05,
+      "relative_difference": 2.9839758273753466e-07
+    },
+    {
+      "round": 3,
+      "class": "black",
+      "bank": "A",
+      "method": "raw",
+      "legacy_standard_FID": 243.76648198527528,
+      "lowrank_exact_FID": 243.7666024294811,
+      "absolute_difference": 0.00012044420583379178,
+      "relative_difference": 4.940966651890526e-07
+    },
+    {
+      "round": 3,
+      "class": "black",
+      "bank": "A",
+      "method": "msdf",
+      "legacy_standard_FID": 279.47330582326043,
+      "lowrank_exact_FID": 279.4734178913255,
+      "absolute_difference": 0.00011206806505015265,
+      "relative_difference": 4.0099738585059985e-07
+    },
+    {
+      "round": 4,
+      "class": "flash",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 252.5433034174288,
+      "lowrank_exact_FID": 252.54338748448387,
+      "absolute_difference": 8.406705507013612e-05,
+      "relative_difference": 3.3288174318042275e-07
+    },
+    {
+      "round": 4,
+      "class": "flash",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 233.5035807410147,
+      "lowrank_exact_FID": 233.50365896373708,
+      "absolute_difference": 7.822272237945072e-05,
+      "relative_difference": 3.3499581518713285e-07
+    },
+    {
+      "round": 4,
+      "class": "black",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 235.88537199565187,
+      "lowrank_exact_FID": 235.88549959527836,
+      "absolute_difference": 0.0001275996264951118,
+      "relative_difference": 5.409391240142856e-07
+    },
+    {
+      "round": 4,
+      "class": "black",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 271.0083071115009,
+      "lowrank_exact_FID": 271.00842791881354,
+      "absolute_difference": 0.00012080731261221445,
+      "relative_difference": 4.4576977694824204e-07
+    },
+    {
+      "round": 5,
+      "class": "flash",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 210.71900381874087,
+      "lowrank_exact_FID": 210.719072544629,
+      "absolute_difference": 6.87258881271191e-05,
+      "relative_difference": 3.2614945439964526e-07
+    },
+    {
+      "round": 5,
+      "class": "flash",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 189.19005638551988,
+      "lowrank_exact_FID": 189.190127934554,
+      "absolute_difference": 7.154903411787927e-05,
+      "relative_difference": 3.78186018255003e-07
+    },
+    {
+      "round": 5,
+      "class": "black",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 235.50279533003297,
+      "lowrank_exact_FID": 235.50293591653602,
+      "absolute_difference": 0.00014058650305059928,
+      "relative_difference": 5.969632031483182e-07
+    },
+    {
+      "round": 5,
+      "class": "black",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 290.90759574507325,
+      "lowrank_exact_FID": 290.9076964160797,
+      "absolute_difference": 0.00010067100646438121,
+      "relative_difference": 3.4605836333197964e-07
+    },
+    {
+      "round": 6,
+      "class": "flash",
+      "bank": "B",
+      "method": "raw",
+      "legacy_standard_FID": 224.69447179872157,
+      "lowrank_exact_FID": 224.69455996502882,
+      "absolute_difference": 8.816630725050345e-05,
+      "relative_difference": 3.923830726440021e-07
+    },
+    {
+      "round": 6,
+      "class": "flash",
+      "bank": "B",
+      "method": "msdf",
+      "legacy_standard_FID": 221.406049121152,
+      "lowrank_exact_FID": 221.40612498861557,
+      "absolute_difference": 7.586746357901575e-05,
+      "relative_difference": 3.4266210828549473e-07
+    },
+    {
+      "round": 6,
+      "class": "black",
+      "bank": "B",
+      "method": "raw",
+      "legacy_standard_FID": 224.6891188346267,
+      "lowrank_exact_FID": 224.6892440502017,
+      "absolute_difference": 0.00012521557499667324,
+      "relative_difference": 5.572836621822932e-07
+    },
+    {
+      "round": 6,
+      "class": "black",
+      "bank": "B",
+      "method": "msdf",
+      "legacy_standard_FID": 295.0947604601522,
+      "lowrank_exact_FID": 295.0948749953317,
+      "absolute_difference": 0.00011453517947757064,
+      "relative_difference": 3.881301697765548e-07
+    },
+    {
+      "round": 7,
+      "class": "flash",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 240.02477123556855,
+      "lowrank_exact_FID": 240.02485703724375,
+      "absolute_difference": 8.580167519767201e-05,
+      "relative_difference": 3.574700842583589e-07
+    },
+    {
+      "round": 7,
+      "class": "flash",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 213.563633933478,
+      "lowrank_exact_FID": 213.56371522454742,
+      "absolute_difference": 8.129106942078579e-05,
+      "relative_difference": 3.806409730137238e-07
+    },
+    {
+      "round": 7,
+      "class": "black",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 287.7685735915898,
+      "lowrank_exact_FID": 287.7686819857927,
+      "absolute_difference": 0.00010839420286856694,
+      "relative_difference": 3.7667143953809004e-07
+    },
+    {
+      "round": 7,
+      "class": "black",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 313.9607752096023,
+      "lowrank_exact_FID": 313.96087433615855,
+      "absolute_difference": 9.912655627886124e-05,
+      "relative_difference": 3.1572911046828607e-07
+    },
+    {
+      "round": 8,
+      "class": "flash",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 213.7211814718213,
+      "lowrank_exact_FID": 213.72125598445228,
+      "absolute_difference": 7.451263098801064e-05,
+      "relative_difference": 3.4864410946481214e-07
+    },
+    {
+      "round": 8,
+      "class": "flash",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 200.41631860840812,
+      "lowrank_exact_FID": 200.4163927269419,
+      "absolute_difference": 7.411853377448097e-05,
+      "relative_difference": 3.698228482047941e-07
+    },
+    {
+      "round": 8,
+      "class": "black",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 230.28037799683239,
+      "lowrank_exact_FID": 230.28051201840645,
+      "absolute_difference": 0.00013402157406972037,
+      "relative_difference": 5.819930262211221e-07
+    },
+    {
+      "round": 8,
+      "class": "black",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 284.5140517457645,
+      "lowrank_exact_FID": 284.51416018481416,
+      "absolute_difference": 0.00010843904965440743,
+      "relative_difference": 3.811377645112101e-07
+    },
+    {
+      "round": 9,
+      "class": "flash",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 233.89218522997726,
+      "lowrank_exact_FID": 233.8922845006527,
+      "absolute_difference": 9.927067543458179e-05,
+      "relative_difference": 4.244292101378792e-07
+    },
+    {
+      "round": 9,
+      "class": "flash",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 223.96504991338315,
+      "lowrank_exact_FID": 223.96513311662125,
+      "absolute_difference": 8.320323809130059e-05,
+      "relative_difference": 3.7150099144254354e-07
+    },
+    {
+      "round": 9,
+      "class": "black",
+      "bank": "C",
+      "method": "raw",
+      "legacy_standard_FID": 262.55644478583633,
+      "lowrank_exact_FID": 262.55657134461376,
+      "absolute_difference": 0.00012655877742417942,
+      "relative_difference": 4.820250271419224e-07
+    },
+    {
+      "round": 9,
+      "class": "black",
+      "bank": "C",
+      "method": "msdf",
+      "legacy_standard_FID": 280.47398391726296,
+      "lowrank_exact_FID": 280.4741160220838,
+      "absolute_difference": 0.0001321048208637876,
+      "relative_difference": 4.7100561349304046e-07
+    }
+  ],
+  "records": [],
+  "max_legacy_absolute_difference": 0.00014058650305059928,
+  "max_absolute_difference": 0.00014058650305059928,
+  "max_relative_difference": 5.969632031483182e-07,
+  "legacy_slow_FID_evaluations_used_for_precheck": 40,
+  "reason": "Existing standard sqrtm results disagree beyond the fixed absolute tolerance. Investigate numerical conditioning; no tolerance adjustment or formal restart."
+}
