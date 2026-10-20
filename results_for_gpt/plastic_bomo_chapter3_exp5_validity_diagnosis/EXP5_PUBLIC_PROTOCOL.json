@@ -1,0 +1,34 @@
+{
+  "status": "FROZEN_BEFORE_PIXEL_ANALYSIS",
+  "device": "CPU",
+  "matched_groups": 240,
+  "generated_images": 720,
+  "diagnostic_subset_source": "Exp4 qualitative_sampling_manifest.json; exact 24 groups; no resampling",
+  "regions": {
+    "B": "original normalized xywh bbox rasterized by floor(x0,y0), ceil(x1,y1), clipped to final canvas",
+    "P": "same bbox expanded by 25% of bbox width/height on every side; Experiment 1 crop",
+    "background": "P minus B",
+    "full": "4096x1024 final canvas"
+  },
+  "coordinate_audit": {
+    "bbox_format": "normalized_xywh",
+    "coordinate_system": "final 4096x1024 canvas",
+    "generator_patch": "512x512 without resize_scale; inverse x_final=x_generator+crop_left, y_final=y_generator+crop_top",
+    "method_geometry": "all three methods use the same frozen slot and paste_valid_crop_region_xyxy",
+    "exp1_roi_rasterization": "floor lower bounds, ceil upper bounds, canvas clipping"
+  },
+  "change_pixel_thresholds_mean_abs_rgb": [
+    5,
+    10,
+    20,
+    30
+  ],
+  "threshold_freeze_statement": "all descriptive thresholds frozen before method pixels were opened",
+  "low_information_interpretation": "human-review prompt only; never VALID/INVALID and never excluded",
+  "residual_range": [
+    0,
+    255
+  ],
+  "per_image_normalization": false,
+  "historical_results_modified": false
+}

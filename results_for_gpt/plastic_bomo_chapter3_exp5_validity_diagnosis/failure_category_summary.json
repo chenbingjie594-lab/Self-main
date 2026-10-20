@@ -1,0 +1,24 @@
+{
+  "status": "AUTOMATIC_AUDIT_ONLY",
+  "A_slot_geometry": {
+    "confirmed_coordinate_errors": 0,
+    "low_information_roi_candidates": 54,
+    "candidate_counts_by_class_bank": {
+      "black_A": 7,
+      "flash_A": 11,
+      "black_B": 7,
+      "flash_B": 11,
+      "black_C": 7,
+      "flash_C": 11
+    },
+    "candidate_interpretation": "AWAITING_HUMAN; not invalid"
+  },
+  "B_generation_method": {
+    "automatic_failure_labels": 0,
+    "status": "AWAITING_HUMAN"
+  },
+  "C_cannot_determine": {
+    "human_review_rows_pending": 72
+  },
+  "causal_attribution_performed": false
+}
