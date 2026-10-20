@@ -13,4 +13,4 @@ AnomalyDiffusion is worse than both frozen baselines on defect-region FID and th
 - Flash: FID 294.712 ± 1.926, KID 0.189921 ± 0.001754, LPIPS 0.071523 ± 0.050925.
 - Black: FID 386.899 ± 2.977, KID 0.298508 ± 0.005294, LPIPS 0.063631 ± 0.040116.
 
-FID/KID use three independently evaluated banks with 80 images per bank and 40 per class. LPIPS uses 80 frozen slot means from A-B, A-C, and B-C ROI comparisons. The full protocol and unrounded values are in the accompanying report and status JSON.
+FID/KID use three independently evaluated banks with 80 images per bank and 40 per class. LPIPS uses 80 frozen slot means from A-B, A-C, and B-C ROI comparisons. The protocol and publication-ready values are in the accompanying report and CSV tables.
