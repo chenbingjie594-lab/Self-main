@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "matched_population_count": 240,
+  "selected_group_count": 24,
+  "class_counts": {
+    "flash": 12,
+    "black": 12
+  },
+  "class_bank_counts": {
+    "flash_A": 4,
+    "flash_B": 4,
+    "flash_C": 4,
+    "black_A": 4,
+    "black_B": 4,
+    "black_C": 4
+  },
+  "unique_slot_ids_by_class": {
+    "flash": 12,
+    "black": 12
+  },
+  "three_method_match_checks": 24,
+  "identical_roi_checks_per_group": 24,
+  "all_720_generation_sha256_verified_before_sampling": true,
+  "sampling_frozen_before_pixel_read": true,
+  "sampling_used_quality_scores": false,
+  "manual_sample_replacement": false,
+  "source_pixels_modified": false,
+  "full_set_png_count": 24,
+  "residual_png_count": 24,
+  "paper_figure_png_count": 2,
+  "real_reference_png_count": 1,
+  "training_count": 0,
+  "generation_count": 0,
+  "detector_training_count": 0,
+  "quality_selection_count": 0,
+  "manual_selection_count": 0,
+  "source_image_modification_count": 0,
+  "new_metric_count": 0
+}
