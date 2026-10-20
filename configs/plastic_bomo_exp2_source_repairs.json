@@ -1,0 +1,96 @@
+{
+  "schema": "EXP2_BASELINE_SOURCE_REPAIRS_V1",
+  "status": "SOURCE_REPAIRED_CPU_TESTS_PASS_NATIVE_GPU_NOT_RUN",
+  "baseline_formal_execution_authorized": false,
+  "methods": {
+    "anomalydiffusion": {
+      "upstream": "https://github.com/sjtuplayer/anomalydiffusion",
+      "upstream_commit": "b85297f333ebfc59b3863338445b81363efb9761",
+      "label": "AnomalyDiffusion (explicit512 resolution adaptation)",
+      "image_resolution": 512,
+      "latent_resolution": 64,
+      "spatial_condition_resolution": 256,
+      "architecture_changed": false,
+      "new_losses_added": false,
+      "actual_formal_training_budget": null
+    },
+    "defectfill": {
+      "source": "https://github.com/axelsig1/DefectFill",
+      "author_official": false,
+      "label": "DefectFill (third-party corrected implementation, raw without LFS)",
+      "LFS": false,
+      "best_of_N": false,
+      "reroll": false,
+      "core_repairs": [
+        "restore attention-loss autograd",
+        "latent4 mask1 background4 channel contract",
+        "per-slot generator also controls VAE sampling"
+      ],
+      "actual_formal_training_budget": null
+    }
+  },
+  "original_local_source_sha256_LF": {
+    "anomalydiffusion": {
+      "README.md": "38b98a59072da0b7dc4989477a80a2ae5df80f8ae9925f3eae789f7d7b7cbb34",
+      "environment.yaml": "b965b089d535e89799384a4b2e417858fefca9e9a9041d288417fc9e4e310443",
+      "main.py": "3b218a4e6a111cc76a574d765d7bf410cc0fd65bbaa8d641d82d4f0724b622ff",
+      "generate_with_mask.py": "bf60487e8a2d057f16907c6c65b12615f6f0015f2e48c4c240a81578f2b57b7e",
+      "utils.py": "11275e779ae2ff2d3f6068f8c55331c505207675e240bd20f137d076b4bcdb64",
+      "ldm/models/diffusion/ddpm.py": "62e3be0bdfc64d2df1c30bea5b6e60ed238aa6447bac427a55f9c29334799d7f",
+      "ldm/models/diffusion/ddim.py": "ded1bc0403c8b826a9923aae9f83740738e339cee5f2e73dfa974a847d7edf7d",
+      "ldm/models/psp_encoder/encoders/psp_encoders.py": "78b2d23648f22b3cb7970f92ea056bf764464295e80f096ac571667f61256eb8",
+      "ldm/modules/embedding_manager2.py": "60549f54a64d4b9902e65d302785d728a45a4746fc91461f99f5a224e63b64e0",
+      "configs/latent-diffusion/txt2img-1p4B-finetune-encoder+embedding.yaml": "e03e1d564d9243e08337921d624122ad8e1fe040606ce46f21156df4f8fa6a40"
+    },
+    "defectfill": {
+      "model.py": "331b9c22be54cb1c8df3eea55749913e2f1fcebbc2ae09d8e630495719d79513",
+      "inference.py": "04ee8668f0371086b272874279eeb03dee420c84d60e768f56ab831727cd36dd",
+      "train.py": "7edf32b06bc6dd6d00aad668f6ec3b6cbc5eed6d696e741c731d7400415c7b53",
+      "utils.py": "be59b280909ae08fe5fe5fc3d56eefc791e492bc29eb013efe42a89bd737b60a",
+      "data_loader.py": "2ea838551ac70403b5054bd96e325570ed168a7ef504798f0e6705222db50f59"
+    }
+  },
+  "patched_source_sha256_LF": {
+    "anomalydiffusion": {
+      "environment.yaml": "b965b089d535e89799384a4b2e417858fefca9e9a9041d288417fc9e4e310443",
+      "generate_with_mask.py": "bf60487e8a2d057f16907c6c65b12615f6f0015f2e48c4c240a81578f2b57b7e",
+      "utils.py": "cffde19bcfee8c7b6a9b497c8ea0e83364a899ede7ff7afd828e6743d4950df7",
+      "ldm/models/psp_encoder/encoders/psp_encoders.py": "78b2d23648f22b3cb7970f92ea056bf764464295e80f096ac571667f61256eb8",
+      "ldm/modules/embedding_manager2.py": "4ebf7158c74c355b0d3290267718cd582e327ec448d75567ebc6f1db96b6560e",
+      "main.py": "21f06d5dd995548c3a50249f53c79343fab1f123dd3d4356a0b66b2dd83dd9b4",
+      "README.md": "38b98a59072da0b7dc4989477a80a2ae5df80f8ae9925f3eae789f7d7b7cbb34",
+      "ldm/models/diffusion/ddpm.py": "c8a7031893107ab6e7e3a71b3936c3430a11f4c7ee25b74f9269290308d39cbb",
+      "configs/latent-diffusion/txt2img-1p4B-finetune-encoder+embedding.yaml": "e03e1d564d9243e08337921d624122ad8e1fe040606ce46f21156df4f8fa6a40",
+      "ldm/models/diffusion/ddim.py": "ded1bc0403c8b826a9923aae9f83740738e339cee5f2e73dfa974a847d7edf7d",
+      "ldm/data/frozen_v2.py": "d4f92e21811100fa0f998689d9dda7ebd692eb6b65063b75712f279722a17c63"
+    },
+    "defectfill": {
+      "requirements.txt": "b630fe6a0af1a22457b5b86525cfbdcc91502f6e60f1cd5cf1296339fe0e3a84",
+      "utils.py": "7a31d395abb6fc86246ec760a04e84a01ecb6f49dd88a1b72f4a7fc31a004b8b",
+      "train.py": "944682dd3bb7dd826e5862a6d602191bbe8941c341df09b6ce9cf35f833b0052",
+      "data_loader.py": "fb2f6c6b0ca4a0307b067472b463a7f571510ebe6fffd1f6d4fe0a3c0214b90f",
+      "README.md": "e89d1fac87f077c26fd42a93a04e1501d196f2b6a49844447533414301263ef0",
+      "inference.py": "ddc86f98a53ec07f3b83bbf0f7b42178051d8c02a382ad5c92cb1764c73655e8",
+      "model.py": "e7a542a2c83a55965f72b4c6d89de062bbb38663f8764751f06bcd4356832a36",
+      "runtime_contract.py": "97d2636b494376fdacf52ba361b8bf8d32701783e3e96089cdf0759e5f0ecd8c"
+    }
+  },
+  "verification": {
+    "test_file": "tests/test_exp2_baseline_repairs.py",
+    "tests_passed": 18,
+    "real_cpu_autograd_test": true,
+    "small_fixture_generation_only": true,
+    "native_pretrained_model_loaded": false,
+    "native_gpu_probe": "NOT_RUN",
+    "formal_optimizer_steps": 0,
+    "formal_generated_images": 0
+  },
+  "remaining_requirements": [
+    "native AD LDM weights and tokenizer cache",
+    "native GPU forward/backward probes for both classes",
+    "freeze formal training budgets and checkpoint bindings before long runs",
+    "qualify formal raw generation entrypoint; old folder-discovery inference is not a V2 entrypoint"
+  ],
+  "historical_results_modified": false,
+  "D1_metric_changes_imported": false
+}

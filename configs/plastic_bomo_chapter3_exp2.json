@@ -1,0 +1,106 @@
+{
+  "experiment": "Chapter 3 Experiment 2 - Unified Baseline Generation Comparison",
+  "phase": "P0_QUALIFICATION_ONLY",
+  "output_root": "results_for_gpt/plastic_bomo_chapter3_exp2_baseline_generation",
+  "exp1_root": "results_for_gpt/plastic_bomo_chapter3_exp1_msdf_generation_quality",
+  "exp1_config": "configs/plastic_bomo_chapter3_exp1.json",
+  "banks": {"A": 42, "B": 3407, "C": 2026},
+  "classes": ["flash", "black"],
+  "slots_per_bank": 80,
+  "slots_per_class_per_bank": 40,
+  "outputs_per_method": 240,
+  "generation_canvas_wh": [512, 512],
+  "execution": "strictly serial, one GPU, no class/method/bank parallelism",
+  "slot_seed": "uint64 big-endian first 8 bytes of SHA256(UTF8 canonical JSON {method,slot_id,bank_seed})",
+  "raw_outputs_only": true,
+  "best_of_N": false,
+  "reroll": false,
+  "quality_selection": false,
+  "baseline_training_authorized_by_this_p0_implementation": false,
+  "metric_implementation": "unchanged Experiment 1 torch-fidelity FID/KID and official AlexNet LPIPS",
+  "D1_lowrank_FID_imported": false,
+  "anomalydiffusion": {
+    "repository": "https://github.com/sjtuplayer/anomalydiffusion",
+    "commit": "b85297f333ebfc59b3863338445b81363efb9761",
+    "paper": "https://arxiv.org/html/2312.05767v2",
+    "source_default": "third_party/anomalydiffusion",
+    "checkpoint_relative": "models/ldm/text2img-large/model.ckpt",
+    "checkpoint_url": "https://ommer-lab.com/files/latent-diffusion/nitro/txt2img-f8-large/model.ckpt",
+    "base_model": "LDM txt2img-f8-large, BERT context dimension 1280; not SD2",
+    "repository_defaults": {
+      "image_size": 256, "latent_size": 32,
+      "joint_image_training_steps": 1000000,
+      "batch_size": 4, "base_learning_rate": 0.005,
+      "one_gpu_scaled_learning_rate": 0.02,
+      "appearance_tokens": 4, "spatial_tokens": 4,
+      "training_seed": 23, "sampler": "DDIM", "sampling_steps": 200,
+      "eta": 1.0, "adaptive_mask_default": false,
+      "note": "joint budget is not a per-class budget; do not multiply silently"
+    },
+    "paper_defaults": {
+      "joint_image_training_steps": 300000, "batch_size": 4,
+      "learning_rate": 0.005, "appearance_tokens": 8, "spatial_tokens": 4,
+      "source": "paper Appendix C.1; distinct from repository defaults"
+    },
+    "actual_training_settings": null,
+    "resolution_adapter_status": "REQUIRES_EXPLICIT_CORE_RESOLUTION_ADAPTATION_AND_RUNTIME_QUALIFICATION",
+    "possible_adapter_not_implemented": [
+      "keep diffusion image at 512 and latent/mask at 64",
+      "keep unchanged spatial encoder at native 256 mask-conditioning resolution",
+      "reconcile native augmentation output size and singleton mask shape",
+      "use exact TRAIN allowlist and frozen slots instead of native discovery/subsplit",
+      "preserve native losses, optimizer and sampler; no added guidance or selector"
+    ],
+    "source_text_sha256_LF": {
+      "README.md": "38b98a59072da0b7dc4989477a80a2ae5df80f8ae9925f3eae789f7d7b7cbb34",
+      "environment.yaml": "b965b089d535e89799384a4b2e417858fefca9e9a9041d288417fc9e4e310443",
+      "main.py": "3b218a4e6a111cc76a574d765d7bf410cc0fd65bbaa8d641d82d4f0724b622ff",
+      "generate_with_mask.py": "bf60487e8a2d057f16907c6c65b12615f6f0015f2e48c4c240a81578f2b57b7e",
+      "utils.py": "11275e779ae2ff2d3f6068f8c55331c505207675e240bd20f137d076b4bcdb64",
+      "ldm/models/diffusion/ddpm.py": "62e3be0bdfc64d2df1c30bea5b6e60ed238aa6447bac427a55f9c29334799d7f",
+      "ldm/models/diffusion/ddim.py": "ded1bc0403c8b826a9923aae9f83740738e339cee5f2e73dfa974a847d7edf7d",
+      "ldm/models/psp_encoder/encoders/psp_encoders.py": "78b2d23648f22b3cb7970f92ea056bf764464295e80f096ac571667f61256eb8",
+      "ldm/modules/embedding_manager2.py": "60549f54a64d4b9902e65d302785d728a45a4746fc91461f99f5a224e63b64e0",
+      "configs/latent-diffusion/txt2img-1p4B-finetune-encoder+embedding.yaml": "e03e1d564d9243e08337921d624122ad8e1fe040606ce46f21156df4f8fa6a40"
+    }
+  },
+  "defectfill": {
+    "paper": "https://arxiv.org/html/2503.13985v2",
+    "supplement": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Song_DefectFill_Realistic_Defect_CVPR_2025_supplemental.pdf",
+    "author_lab": "https://data.snu.ac.kr/index.php/2025/06/10/defectfill-realistic-defect-generation-with-inpainting-diffusion-model-for-visual-inspection/",
+    "publication": "https://openaccess.thecvf.com/content/CVPR2025/html/Song_DefectFill_Realistic_Defect_Generation_with_Inpainting_Diffusion_Model_for_Visual_CVPR_2025_paper.html",
+    "verified_author_repository": null,
+    "verified_author_commit": null,
+    "bounded_search_date": "2026-10-17",
+    "provenance_finding": "No author-endorsed source found in the checked paper, supplement, lab publication entry and coauthor page; not a universal nonexistence claim.",
+    "unofficial_candidates_not_adopted": [
+      {"url": "https://github.com/axelsig1/DefectFill", "commit": "ffc1df5ba1ff354836f01878b3898fb9fc9ad119", "declares_unofficial": true},
+      {"url": "https://github.com/bald-dog/DefectFillcore", "commit": "17a9847e7c9bc073939be43ccb4a37b9e3b2573f", "declares_unofficial": true}
+    ],
+    "paper_defaults_not_verified_code_defaults": {
+      "base_model": "SD2 inpainting", "lora_rank": 8, "lora_alpha": 16,
+      "lora_dropout": 0.1, "unet_learning_rate": 0.0002,
+      "text_encoder_learning_rate": 0.00004, "batch_size": 4,
+      "training_steps": 2000, "warmup_steps": 100,
+      "loss_weights_defect_object_attention": [0.5, 0.2, 0.05],
+      "object_background_alpha": 0.3, "sampler": "DDIM", "sampling_steps": 50,
+      "native_LFS_candidates_per_output": 8
+    },
+    "required_comparison_label_if_adopted": "DefectFill (raw, without LFS)",
+    "LFS_policy": "disabled by user raw-output requirement; disclose departure from full paper pipeline",
+    "weak_bbox_support": "candidate mask-interface mapping only; no dense-mask equivalence established",
+    "actual_training_settings": null
+  },
+  "frozen_bindings_sha256": {
+    "configs/plastic_bomo_chapter3_exp1.json": "9071e06411e3da429d1b827ec7290d8810d6da585dac8aaf221f2c6faf40449a",
+    "tools/chapter3_exp1_quality_common.py": "b7f85eef1f7be71793f3608c5f3660c8a96c5f4104964fa309544770c1b65556",
+    "tools/evaluate_plastic_bomo_chapter3_exp1.py": "88e85605e525e91f0204961ce0c233365a62641c309d61f5c8779472dd0e18fc",
+    "results_for_gpt/plastic_bomo_chapter3_exp1_msdf_generation_quality/experiment1_artifact_manifest.json": "d6a957d4c2b275d344c95ba76646cc0781a00fc81fd393877bea565cdf5e3219",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/generator_train_allowlist.json": "92993d78a7cac875093ad3db4294e797a998a226a52e33debe4572a05fdee3c7",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_generation_slots.json": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_rng_manifest.json": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "results_for_gpt/plastic_bomo_stage20b_p0_preflight/server_preflight_20261008_084115/stage20b_normal_pool_freeze.json": "2664a446d362bd3538b93e61a573adb167d80e744fa73cbe89a191d41fe3659f",
+    "results_for_gpt/plastic_bomo_stage20a_v2_protocol/real_source_registry.json": "92807718bc9344c9c230a4458ac87958a3e267d3bfbce539053c0998139eec84",
+    "results_for_gpt/plastic_bomo_stage20a_v2_protocol/annotation_provenance_v2.json": "c3bd22381736a79c5855a42f13b5d15601ee240501fd6eeebd7ce8676ac14576"
+  }
+}

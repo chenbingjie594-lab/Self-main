@@ -1,0 +1,88 @@
+{
+  "schema": "PLASTIC_BOMO_EXP2_AD_PUBLIC_RESULT_V1",
+  "status": "ANOMALYDIFFUSION_GENERATION_COMPLETE",
+  "method": "AnomalyDiffusion (explicit512 resolution adaptation)",
+  "training_optimizer_steps": 2000,
+  "generation": {
+    "count": 240,
+    "banks": {
+      "A": 80,
+      "B": 80,
+      "C": 80
+    },
+    "classes_per_bank": {
+      "flash": 40,
+      "black": 40
+    },
+    "bank_seeds": {
+      "A": 42,
+      "B": 3407,
+      "C": 2026
+    },
+    "ddim_steps": 200,
+    "ddim_eta": 1.0,
+    "adaptive_mask": false,
+    "quality_selection": false,
+    "reroll_count": 0
+  },
+  "runtime": {
+    "started_utc": "2026-10-20T03:41:08Z",
+    "finished_utc": "2026-10-20T05:47:50Z",
+    "exit_code": 0,
+    "service_result": "success",
+    "log_size": 3656780,
+    "log_sha256": "3711ab0905aa51af14858c8168a981024a867949d3f614e33f92b312745f03bb"
+  },
+  "checkpoint_sha256": {
+    "generation_slots": "681f19e51778e1d85c6ba176d9ec92694432d56f516c74f971831508555aaf03",
+    "project_config": "ee0fef9534774ca66e9d0fa3b58aa1fad6a561981ee468a9546a9d6aebcc5968",
+    "base_model": "7c95fc34febdbf15fea1481a87db43c935ecadeb1e300dd6bc3de3f5f663e298",
+    "spatial_encoder": "3c3bc0944765817f131bfdc38869bbfb4611614fdb059cd88f8a9f17ab5669da",
+    "embeddings": "3e6596a7d5dd60f96a227048ef177dfd0ad753435e108f1c6186a811a7ea5b26",
+    "training_checkpoint": "65c0c1ab464648108041f9f2f9e380ebb775b7babe5c4b288f5d83453c186443"
+  },
+  "server_only_artifacts": {
+    "formal_bank_A_manifest.json": {
+      "size": 357106,
+      "sha256": "cc86fb51d46c94219b1f741da0b04bcea17ada33c87491d7ceb0c30c0063c2a7"
+    },
+    "formal_bank_B_manifest.json": {
+      "size": 357314,
+      "sha256": "1191612209cf90934d77041f99679336bfe7ce6770fddc7d45eadd10a094cbbd"
+    },
+    "formal_bank_C_manifest.json": {
+      "size": 357213,
+      "sha256": "684dcc994d1b0aa2b1bee0e181b0cef98127f39c5273cc8cbc3cd1c8c5404e48"
+    },
+    "formal_synthetic_manifest.json": {
+      "size": 1071558,
+      "sha256": "64fcf86594dad97f04677fd641399075139d6821cc9ac5e8bdeff04e9d1cd523"
+    },
+    "generator_checkpoint_binding.json": {
+      "size": 2588,
+      "sha256": "c2b79eeb6da49753a3913f18e08ede17af2af88f67b68b0a53d0c4369c3ae847"
+    }
+  },
+  "validation": {
+    "formal_validity": "PASS",
+    "exact_frozen_slot_coverage": true,
+    "png_count": 240,
+    "label_count": 240,
+    "independent_manifest_audit": "PASS"
+  },
+  "scope_boundary": {
+    "defectfill_complete": false,
+    "four_method_comparison_complete": false,
+    "visual_metrics_complete": false,
+    "detector_evaluation_complete": false
+  },
+  "excluded_from_public_git": [
+    "generated images",
+    "checkpoints",
+    "runtime log",
+    "training metrics",
+    "per-sample manifests",
+    "server absolute paths",
+    "data identities"
+  ]
+}
