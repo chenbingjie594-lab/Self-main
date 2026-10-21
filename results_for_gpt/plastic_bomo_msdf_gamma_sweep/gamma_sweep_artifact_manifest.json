@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "experiment": "plastic_bomo_msdf_gamma_sweep",
+  "public_upload_scope": "Code, aggregate metrics, public protocol, status, regression conclusions, and report.",
+  "local_complete_record": "400 generated PNGs and detailed per-sample manifests retained locally.",
+  "public_redaction": "Per-sample filesystem paths, source-group identifiers, and image hashes are omitted.",
+  "files": [
+    {
+      "path": "GAMMA_SWEEP_REPORT.md",
+      "bytes": 3141,
+      "sha256": "55d78710b47fc74f32e1839a19475927bcd0f4b0127e8e55c6ee295a6fbb1178"
+    },
+    {
+      "path": "gamma_sweep_protocol.json",
+      "bytes": 7407,
+      "sha256": "78832c1d9c6b8c717e953567be87784fc97769c42e8d8cc6db6dc5bd467618ef"
+    },
+    {
+      "path": "gamma_sweep_results.csv",
+      "bytes": 1404,
+      "sha256": "18c72278fcab65859ad4b2822bcfb58e8b830e381ed48bc99d8ff3ef4060bfe3"
+    },
+    {
+      "path": "gamma_sweep_classwise.csv",
+      "bytes": 2631,
+      "sha256": "a51bb3a975ef028aa76b95a5a897cb27f479c056cb03dcfc14d35d26105bc2cf"
+    },
+    {
+      "path": "gamma_sweep_status.json",
+      "bytes": 1302,
+      "sha256": "703e4c5cca2d6125306fe1070d998aad4188ca0ae2f7c4fc46520e46f3c5df94"
+    },
+    {
+      "path": "gamma_regression_check.json",
+      "bytes": 599,
+      "sha256": "597b5c89359f3b8082443a03b7502fc7fb7a050fe113adac0e6bc9e2b1b80f7a"
+    }
+  ]
+}

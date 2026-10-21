@@ -958,6 +958,7 @@ class StableDiffusionInpaintPipeline_dynamic(
         msdf_reference_image: Optional[PipelineImageInput] = None,
         msdf_reference_mask: Optional[PipelineImageInput] = None,
         msdf_ablation: Optional[dict] = None,
+        msdf_injection_gamma: float = 1.0,
         **kwargs,
     ):
         device = self._execution_device
@@ -1059,6 +1060,7 @@ class StableDiffusionInpaintPipeline_dynamic(
                 )
                 self._msdf_path = msdf_path
             msdf_adapter = self._msdf_adapter
+            msdf_adapter.set_injection_gamma(msdf_injection_gamma)
             # A checkpoint may freeze a training-time ablation (Stage8B).
             # Only an explicit diagnostic override may replace that state.
             if msdf_ablation is not None:

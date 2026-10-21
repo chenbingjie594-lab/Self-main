@@ -1,0 +1,16 @@
+{
+  "status": "CPU_HOOK_PASS",
+  "gamma_1_bitwise_equal_to_pre_interface_formula": true,
+  "gamma_1_max_abs_difference": 0.0,
+  "gamma_0_bitwise_equal_hidden": true,
+  "gamma_0_max_abs_difference": 0.0,
+  "gamma_0p5_final_contribution_max_error": 1.1920928955078125e-07,
+  "end_to_end": "PASS",
+  "end_to_end_classes_checked": [
+    "flash",
+    "black"
+  ],
+  "end_to_end_exact_png_equal_for_all_checked_classes": true,
+  "gamma_1_all_assets_reused_after_two_class_exact_regression": true,
+  "public_redaction": "Per-sample slot identifiers and image hashes remain in the local complete record."
+}

@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETE",
+  "public_record": true,
+  "created_at": "2026-10-20T13:11:55.791220+00:00",
+  "objective": "exploratory MSDF final bounded residual injection strength sweep",
+  "gamma_values": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "gamma_location": "after tanh bound and nan_to_num, immediately before hidden + residual",
+  "gamma_1_behavior": "conditional multiply skipped; original floating-point path preserved",
+  "only_control_variable": "MSDF final residual injection gamma",
+  "training_performed": false,
+  "bank": "A",
+  "slot_count_per_gamma": 80,
+  "same_slots_normal_bbox_prompt_seed_steps_for_all_gamma": true,
+  "slot_class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "generation_protocol": {
+    "pipeline": "StableDiffusionInpaintPipeline; standard inpainting only; no magic/dynamic/task-guidance branches",
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "scheduler": "DDIMScheduler",
+    "scheduler_config": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "clip_sample": false,
+      "set_alpha_to_one": false,
+      "steps_offset": 1,
+      "prediction_type": "epsilon",
+      "thresholding": false,
+      "dynamic_thresholding_ratio": 0.995,
+      "clip_sample_range": 1.0,
+      "sample_max_value": 1.0,
+      "timestep_spacing": "leading",
+      "rescale_betas_zero_snr": false
+    },
+    "eta": 0.0,
+    "strength": 1.0,
+    "height": 512,
+    "width": 512,
+    "num_images_per_prompt": 1,
+    "negative_prompt": "",
+    "clip_skip": null,
+    "padding_mask_crop": null,
+    "precision": "fp16 inference; identical across banks",
+    "safety_checker": "disabled for industrial images; no safety-based sample replacement",
+    "ip_adapter": false,
+    "latent_or_prompt_embedding_override": false,
+    "batch_size": 1,
+    "generator_device": "CPU torch.Generator per slot; freshly seeded; record before/after state hashes at future runtime",
+    "xformers": false,
+    "TF32": false,
+    "output_encoding": "lossless RGB PNG for final full canvas; no JPEG re-encoding",
+    "checkpoint": "same newly trained V2 class final_step2000 checkpoint across banks, hash bound before ANY sampling",
+    "prompts": {
+      "flash": "a photo of a sks flash defect",
+      "black": "a photo of a sks black spot defect"
+    },
+    "geometry_policy": {
+      "crop_side": 512,
+      "crop_center": "bbox center; left=floor(cx-256), top=floor(cy-256)",
+      "crop_reposition": false,
+      "padding": "constant RGB(0,0,0) outside original canvas",
+      "resize": "none; 512x512 crop",
+      "mask": "L-mode rectangle, floor(left/top), ceil(right/bottom), exclusive right/bottom",
+      "mask_semantics": "white inpaint, black retain; weak bbox geometry NOT segmentation ground truth",
+      "output": "paste generated 512 patch into the same full normal canvas at fixed crop origin; ignore padded pixels, no blending or quality selection",
+      "synthetic_labels": "only frozen target bbox; background normal has no dataset-defined boxes"
+    },
+    "raw_output_policy": {
+      "allowed_checks": [
+        "file exists",
+        "decode valid",
+        "NaN/Inf",
+        "target geometry/annotation valid",
+        "pipeline structural failure"
+      ],
+      "all_successful_outputs_used": true,
+      "reroll": false,
+      "replacement_after_freeze": false,
+      "quality_selection": false,
+      "best_of_N": false,
+      "manual_filter": false,
+      "structural_failure_consequence": "stop formal comparison if any frozen slot fails; do not replace it or silently reduce 40/40"
+    }
+  },
+  "checkpoints": {
+    "flash": {
+      "checkpoint_label": "final_step2000",
+      "tree_sha256": "e62f83b1715567e22d8df28282ddbbebb106a3b709e0f34a54c28b342b5e3ec7",
+      "msdf_sha256": "20b1832b7b16d6f78131bf6c7ab4dcc999bb8a819eb99243c83c5bb286b0cbaf",
+      "successful_updates": 2000
+    },
+    "black": {
+      "checkpoint_label": "final_step2000",
+      "tree_sha256": "dabfbe2ef795d468418c5582ca581117fa71b870366e1796978bae7396ff6fec",
+      "msdf_sha256": "f241c3a866fb9cfa094ea643819ea53e181cac4c3130e5eecdbd28e1d171375b",
+      "successful_updates": 2000
+    }
+  },
+  "base_model": "local Stable Diffusion 2 inpainting checkpoint",
+  "development_reference": {
+    "split": "V2 TRAIN",
+    "image_role": "all original annotated defect ROIs in generator TRAIN allowlist",
+    "count": 172,
+    "class_counts": {
+      "black": 97,
+      "flash": 75
+    },
+    "checkpoint_training_overlap_possible": true,
+    "independent_validation": false,
+    "selection_use": "exploratory screening only",
+    "final_eval_read_or_used": false,
+    "roi_crop": "normalized bbox expanded 25% on each side; floor/ceil and image-boundary clip"
+  },
+  "metrics": {
+    "ROI_KID": "primary; torch-fidelity polynomial KID; 100 subsets; size min(50,nreal,nfake); seed42",
+    "ROI_FID": "auxiliary; torch-fidelity Inception-v3-compat 2048",
+    "LPIPS": "Bank-A exploratory diversity reference: official AlexNet v0.1 over deterministic adjacent pairs within each class after sorting slot_id; 20 disjoint pairs/class; ROI resize256x256",
+    "historical_final_eval_scores_comparable": false
+  },
+  "implementation_sha256": {
+    "train_rda.py": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+    "inference.py": "49ae577dce430daf7c8fe88bbf5783db336642c2ad7a92ac3ccbce234a1ec593",
+    "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint_magic.py": "737e17f8c56a0e935ad50a10ec5aedc565993266549b8083614ab64e8b076947",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "tools/run_plastic_bomo_msdf_gamma_sweep.py": "7a97ad1fb8e43bf2bab75e4125228c7e4009787300c0b17ceeda89415e5673b2",
+    "tools/evaluate_plastic_bomo_msdf_gamma_sweep.py": "82ff7b1ce30c48d22543cc646105847c4a4461145d3209aedce8d7cc5e41c574"
+  },
+  "pre_generation_runtime_amendment": {
+    "at": "2026-10-20T13:14:12.677127+00:00",
+    "reason": "Restore frozen deterministic cuBLAS workspace environment required before any CUDA sampling.",
+    "old_script_sha256": "9e5a7793dc94eefa5c50ab2e1e51168261f9ac12cb3f165a3ead18d69d01df37",
+    "new_script_sha256": "7a97ad1fb8e43bf2bab75e4125228c7e4009787300c0b17ceeda89415e5673b2",
+    "sampling_forward_count_before_amendment": 0,
+    "output_image_count_before_amendment": 0,
+    "experimental_protocol_changed": false
+  },
+  "post_metric_reporting_correction": {
+    "at": "2026-10-20T14:09:21.826558+00:00",
+    "reason": "Correct monotonic-direction prose/status logic; metric calculations and numeric outputs unchanged.",
+    "old_evaluator_sha256": "b39eda2b73c0d9dac4adc75786dbc51ce7c16c6b506b2eeebe523aa0ef34e4a1",
+    "new_evaluator_sha256": "82ff7b1ce30c48d22543cc646105847c4a4461145d3209aedce8d7cc5e41c574",
+    "metric_values_changed": false
+  },
+  "public_redaction": "Per-sample paths, source-group identifiers, source-image hashes, generated-image hashes, and detailed local manifests remain in the local complete record and are omitted from the public repository."
+}

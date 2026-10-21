@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "started_at": "2026-10-20T13:11:55.824466+00:00",
+  "full_experiment_complete": true,
+  "training_count": 0,
+  "final_eval_content_read": 0,
+  "gamma_values": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "output_image_count": 400,
+  "sampling_forward_count": 322,
+  "device": "cuda:0",
+  "generation_started_at": "2026-10-20T13:14:22.799315+00:00",
+  "pre_generation_failed_attempts": 1,
+  "pre_generation_failure": "missing CUBLAS_WORKSPACE_CONFIG; failed during first VAE encode before diffusion sampling",
+  "generation_completed_at": "2026-10-20T13:40:53.858541+00:00",
+  "completed_at": "2026-10-20T14:08:16.232881+00:00",
+  "generated_image_count_per_gamma": 80,
+  "metric_reference_roi_count": 172,
+  "metric_reference_class_counts": {
+    "flash": 75,
+    "black": 97
+  },
+  "best_exploratory_gamma_by_black_KID": 1.0,
+  "Black_KID_improved_vs_gamma1": false,
+  "gamma0_Black_KID_better_than_gamma1": false,
+  "evidence_of_excessive_injection_at_gamma1": false,
+  "evaluation_runtime_seconds": 1621.2922308407724,
+  "second_round_started": false,
+  "BootstrapGuard": false,
+  "Black_KID_monotonic_improvement_with_increasing_gamma": true,
+  "reporting_correction": "Corrected monotonic direction wording after metrics; CSV/JSON metric values unchanged."
+}

@@ -135,6 +135,10 @@ class MSDFAdapter(nn.Module):
         self.last_aligned_support = None
         self.last_reference_support = None
         self.last_pixel_support = None
+        # Global inference-only strength applied to the final bounded residual.
+        # Keep the default at 1.0 and skip the multiply at exactly 1.0 so old
+        # checkpoints retain their original floating-point execution path.
+        self.injection_gamma = 1.0
         self.ablation = {
             "pixel_branch": True, "latent_branch": True,
             "morphology_alignment": True,
@@ -162,6 +166,14 @@ class MSDFAdapter(nn.Module):
         state["up_block_mask"] = [bool(x) for x in state["up_block_mask"]]
         self.ablation = state
         return dict(state)
+
+    def set_injection_gamma(self, gamma: float = 1.0) -> float:
+        """Scale only the final bounded residual entering every UNet up block."""
+        gamma = float(gamma)
+        if not torch.isfinite(torch.tensor(gamma)) or not 0.0 <= gamma <= 1.0:
+            raise ValueError("MSDF injection gamma must be finite and in [0, 1]")
+        self.injection_gamma = gamma
+        return gamma
 
     @property
     def num_scales(self) -> int:
@@ -544,7 +556,9 @@ class MSDFAdapter(nn.Module):
         def hook(_module, _inputs, output):
             if self._feature is None:
                 return output
-            if not self.ablation["up_block_mask"][index] or self.ablation["residual_scale"] == 0:
+            if (not self.ablation["up_block_mask"][index]
+                    or self.ablation["residual_scale"] == 0
+                    or self.injection_gamma == 0.0):
                 return output
             hidden = output[0] if isinstance(output, tuple) else output
             feature = F.interpolate(
@@ -591,6 +605,11 @@ class MSDFAdapter(nn.Module):
             residual = torch.nan_to_num(
                 residual, nan=0.0, posinf=0.0, neginf=0.0
             ).to(hidden.dtype)
+            # Sweep control: dynamic gates, support, projection and tanh bound
+            # remain untouched. At gamma=1 this branch is deliberately skipped
+            # to preserve the pre-interface floating-point execution exactly.
+            if self.injection_gamma != 1.0:
+                residual = residual * self.injection_gamma
             updated = hidden + residual
             if isinstance(output, tuple):
                 return (updated,) + output[1:]
