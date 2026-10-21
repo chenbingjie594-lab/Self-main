@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "completed_at": "2026-10-21T03:53:20.763940+00:00",
+  "method_count": 3,
+  "selected_image_count": 80,
+  "reference_roi_count": 172,
+  "generation_count": 0,
+  "training_count": 0,
+  "image_copy_count": 0,
+  "historical_results_modified": false,
+  "final_eval_read_or_used": false,
+  "metric_runtime_seconds": 129.9465676243417,
+  "best_Overall_KID": "Class-Adaptive gamma",
+  "best_Overall_FID": "Class-Adaptive gamma",
+  "independent_validation_recommended": true,
+  "expanded_search_started": false,
+  "BootstrapGuard": false,
+  "downstream_detector_training_started": false
+}

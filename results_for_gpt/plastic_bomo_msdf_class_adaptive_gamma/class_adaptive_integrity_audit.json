@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T03:51:23.286112+00:00",
+  "source_artifacts_checked": 16,
+  "source_manifest_records_checked": 160,
+  "source_images_sha256_checked": 160,
+  "selected_image_count": 80,
+  "selected_class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "selected_gamma_mapping": {
+    "flash": 0.0,
+    "black": 1.0
+  },
+  "bank": "A",
+  "frozen_slot_count": 80,
+  "frozen_slot_binding_checks": 80,
+  "normal_bbox_prompt_binding": "PASS via exact frozen_slot equality and protocol SHA256",
+  "seed_binding": "PASS",
+  "roi_binding": "PASS",
+  "image_sha256_binding": "PASS",
+  "images_copied": 0,
+  "images_modified": 0,
+  "images_generated": 0,
+  "training_count": 0,
+  "resampling_count": 0,
+  "quality_selection_count": 0,
+  "historical_results_modified": false,
+  "final_eval_read_or_used": false,
+  "raw_input_sha256": {
+    "gamma_sweep_protocol.json": "b566ba099a3b6d2b08df0e3d73e943aabed9a9e7b7eb9e6a5e9f9c3d8bd42fb9",
+    "gamma_sweep_results.csv": "18c72278fcab65859ad4b2822bcfb58e8b830e381ed48bc99d8ff3ef4060bfe3",
+    "gamma_sweep_classwise.csv": "a51bb3a975ef028aa76b95a5a897cb27f479c056cb03dcfc14d35d26105bc2cf",
+    "gamma_sweep_artifact_manifest.json": "031793f99dac9945d275b01c851380156807db3cc6bf79f3f6af6eaf39a84125",
+    "gamma_0p00_manifest.json": "6536351d009656e21b53a388c4f8bca4033f9d0c0d25c7a0be0d76e5ed326f4e",
+    "gamma_1p00_manifest.json": "bfcf8c25aaafeb84116994cd771fc71328ac3c959770b28ab3f6dc21159af895",
+    "gamma_sweep_inception_features.npz": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+    "gamma_sweep_inception_feature_cache.json": "d2c12469d0bfd5a3e86dea94202587c656b39762be19ac3bb2723cbd39ce2ad7",
+    "gamma_sweep_lpips_pairs.csv": "6e5ecdb2f01ff459db61c32ed4f29f1f824f45932f586099d9a9239d15523049",
+    "stage20b_generation_slots.json": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "stage20b_rng_manifest.json": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "formal_bank_A_manifest.json": "b297bd46764eb907cc0d996adb349cb3e4cb3dcc69259c9a5a3fd3492426aa33"
+  },
+  "raw_input_SHA256": "2db04ef1f62d0398f6c192caa86dd245b7936195260b4ae8ae03d40b66e619ec",
+  "public_redaction": "Individual source-file and image hashes remain in the local complete audit."
+}

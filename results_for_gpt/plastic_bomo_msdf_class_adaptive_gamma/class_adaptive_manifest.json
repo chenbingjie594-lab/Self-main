@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "public_record": true,
+  "method": "Class-Adaptive gamma",
+  "bank": "A",
+  "count": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "gamma_setting": {
+    "flash": 0.0,
+    "black": 1.0
+  },
+  "images_copied": 0,
+  "images_generated": 0,
+  "raw_input_SHA256": "2db04ef1f62d0398f6c192caa86dd245b7936195260b4ae8ae03d40b66e619ec",
+  "integrity": "All 80 local references passed source-image SHA256, frozen-slot, seed, ROI and Bank-A checks.",
+  "detailed_records": "Retained locally; per-sample slot identifiers, paths and image hashes are omitted from the public repository."
+}

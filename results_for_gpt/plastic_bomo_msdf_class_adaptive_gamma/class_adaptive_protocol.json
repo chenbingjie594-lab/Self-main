@@ -1,0 +1,82 @@
+{
+  "status": "FROZEN_AND_COMPLETE",
+  "created_at": "2026-10-21T03:53:20.756092+00:00",
+  "objective": "Test whether fixed class-adaptive MSDF residual gamma improves aggregate Bank-A development metrics.",
+  "groups": {
+    "G0": {
+      "method": "Uniform gamma=0",
+      "gamma_setting": {
+        "flash": 0.0,
+        "black": 0.0
+      },
+      "source": "reused"
+    },
+    "G1": {
+      "method": "Uniform gamma=1",
+      "gamma_setting": {
+        "flash": 1.0,
+        "black": 1.0
+      },
+      "source": "reused"
+    },
+    "G2": {
+      "method": "Class-Adaptive gamma",
+      "gamma_setting": {
+        "flash": 0.0,
+        "black": 1.0
+      },
+      "source": "existing-image references"
+    }
+  },
+  "sample_count_per_group": 80,
+  "bank": "A",
+  "training_performed": false,
+  "generation_performed": false,
+  "image_copy_or_encoding_performed": false,
+  "same_frozen_slots_and_conditions": true,
+  "reference": {
+    "split": "V2 TRAIN",
+    "count": 172,
+    "class_counts": {
+      "flash": 75,
+      "black": 97
+    },
+    "checkpoint_training_overlap_possible": true,
+    "independent_validation": false,
+    "final_eval_read_or_used": false
+  },
+  "metrics": {
+    "ROI_KID": "primary; torch-fidelity polynomial KID; 100 subsets; size min(50,nreal,nfake); seed42",
+    "ROI_FID": "auxiliary; torch-fidelity Inception-v3-compat 2048",
+    "LPIPS": "Bank-A exploratory diversity reference: official AlexNet v0.1 over deterministic adjacent pairs within each class after sorting slot_id; 20 disjoint pairs/class; ROI resize256x256",
+    "historical_final_eval_scores_comparable": false
+  },
+  "overall_metric_rule": "Concatenate 40 gamma=0 Flash and 40 gamma=1 Black cached Inception features, then recompute against all 172 real ROI features; never average class KID/FID.",
+  "feature_cache": {
+    "shape": [
+      572,
+      2048
+    ],
+    "sha256": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+    "input_order_exactly_reused": true
+  },
+  "lpips_rule": "Reuse the exact 20 adjacent-slot pairs per class after SHA/pair verification; not comparable to historical A/B/C same-slot LPIPS.",
+  "selection_bias": "Class gamma choices were selected after observing this same development reference.",
+  "historical_final_eval_comparable": false,
+  "raw_input_SHA256": {
+    "gamma_sweep_protocol.json": "b566ba099a3b6d2b08df0e3d73e943aabed9a9e7b7eb9e6a5e9f9c3d8bd42fb9",
+    "gamma_sweep_results.csv": "18c72278fcab65859ad4b2822bcfb58e8b830e381ed48bc99d8ff3ef4060bfe3",
+    "gamma_sweep_classwise.csv": "a51bb3a975ef028aa76b95a5a897cb27f479c056cb03dcfc14d35d26105bc2cf",
+    "gamma_sweep_artifact_manifest.json": "031793f99dac9945d275b01c851380156807db3cc6bf79f3f6af6eaf39a84125",
+    "gamma_0p00_manifest.json": "6536351d009656e21b53a388c4f8bca4033f9d0c0d25c7a0be0d76e5ed326f4e",
+    "gamma_1p00_manifest.json": "bfcf8c25aaafeb84116994cd771fc71328ac3c959770b28ab3f6dc21159af895",
+    "gamma_sweep_inception_features.npz": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+    "gamma_sweep_inception_feature_cache.json": "d2c12469d0bfd5a3e86dea94202587c656b39762be19ac3bb2723cbd39ce2ad7",
+    "gamma_sweep_lpips_pairs.csv": "6e5ecdb2f01ff459db61c32ed4f29f1f824f45932f586099d9a9239d15523049",
+    "stage20b_generation_slots.json": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "stage20b_rng_manifest.json": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "formal_bank_A_manifest.json": "b297bd46764eb907cc0d996adb349cb3e4cb3dcc69259c9a5a3fd3492426aa33"
+  },
+  "implementation_SHA256": "6deaba3bd75b2d798564ee0e9346266bfcaa1b5ff2646c9830240e4c60a76b59",
+  "prohibited_extensions_started": false
+}

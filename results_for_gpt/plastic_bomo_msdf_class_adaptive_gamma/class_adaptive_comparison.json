@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "numerical_consistency": {
+    "Flash_KID_abs_error_vs_gamma0": 0.0,
+    "Flash_FID_abs_error_vs_gamma0": 0.0,
+    "Black_KID_abs_error_vs_gamma1": 0.0,
+    "Black_FID_abs_error_vs_gamma1": 0.0,
+    "status": "PASS",
+    "tolerance": 1e-12
+  },
+  "differences_class_adaptive_minus_baseline": {
+    "Uniform gamma=0": {
+      "Overall_KID": -0.0011400370630690743,
+      "Overall_FID": -1.7494113097969262,
+      "Overall_LPIPS": 0.0013549899682402389
+    },
+    "Uniform gamma=1": {
+      "Overall_KID": -0.0016255261994754938,
+      "Overall_FID": -0.1378248167331435,
+      "Overall_LPIPS": 0.0012330561876296997
+    }
+  },
+  "best_Overall_KID": "Class-Adaptive gamma",
+  "best_Overall_FID": "Class-Adaptive gamma",
+  "class_adaptive_better_than_both_uniform_on_KID": true,
+  "class_adaptive_better_than_both_uniform_on_FID": true,
+  "KID_improves_but_FID_degrades_vs_any_baseline": false,
+  "independent_validation_recommended": true,
+  "interpretation": "Exploratory Bank-A/V2-TRAIN result with development-set selection bias."
+}
