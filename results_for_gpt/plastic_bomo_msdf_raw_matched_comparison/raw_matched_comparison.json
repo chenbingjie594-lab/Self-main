@@ -1,0 +1,142 @@
+{
+  "status": "EXPLORATORY_NOT_IMPROVED",
+  "numerical_regression": {
+    "G1": {
+      "KID_abs_error_vs_full_prior": 0.0,
+      "FID_abs_error_vs_full_prior": 0.0,
+      "KID_abs_error_vs_prompt_rounded": 3.247749291723778e-13,
+      "FID_abs_error_vs_prompt_rounded": 2.932622749085567e-07
+    },
+    "G2": {
+      "KID_abs_error_vs_full_prior": 0.0,
+      "FID_abs_error_vs_full_prior": 0.0,
+      "KID_abs_error_vs_prompt_rounded": 3.608164461654795e-11,
+      "FID_abs_error_vs_prompt_rounded": 2.1367395675042644e-07
+    },
+    "G3": {
+      "KID_abs_error_vs_full_prior": 0.0,
+      "FID_abs_error_vs_full_prior": 0.0,
+      "KID_abs_error_vs_prompt_rounded": 3.6606155606744295e-11,
+      "FID_abs_error_vs_prompt_rounded": 3.96940805558188e-07
+    },
+    "status": "PASS"
+  },
+  "differences": {
+    "G1_minus_Raw": {
+      "Overall_KID": {
+        "absolute": 0.015809072613109466,
+        "relative_percent": 44.88335794436813
+      },
+      "Overall_FID": {
+        "absolute": 17.45304439277035,
+        "relative_percent": 11.679941112379526
+      },
+      "Flash_KID": {
+        "absolute": -0.010792087761705177,
+        "relative_percent": -17.696908833457652
+      },
+      "Flash_FID": {
+        "absolute": -20.148376195540607,
+        "relative_percent": -11.113434992090529
+      },
+      "Black_KID": {
+        "absolute": 0.04489498767609857,
+        "relative_percent": 118.22732453587791
+      },
+      "Black_FID": {
+        "absolute": 49.442302022586205,
+        "relative_percent": 30.563912994679384
+      }
+    },
+    "G2_minus_Raw": {
+      "Overall_KID": {
+        "absolute": 0.016294561749515886,
+        "relative_percent": 46.26170462040035
+      },
+      "Overall_FID": {
+        "absolute": 15.841457899706569,
+        "relative_percent": 10.601433838067631
+      },
+      "Flash_KID": {
+        "absolute": -0.007640002220164414,
+        "relative_percent": -12.52810630927459
+      },
+      "Flash_FID": {
+        "absolute": -20.00881552862711,
+        "relative_percent": -11.036456163417515
+      },
+      "Black_KID": {
+        "absolute": 0.04207280707928753,
+        "relative_percent": 110.7953398402752
+      },
+      "Black_FID": {
+        "absolute": 46.711990003525045,
+        "relative_percent": 28.876106893725755
+      }
+    },
+    "G3_minus_Raw": {
+      "Overall_KID": {
+        "absolute": 0.014669035550040392,
+        "relative_percent": 41.646691706960596
+      },
+      "Overall_FID": {
+        "absolute": 15.703633082973425,
+        "relative_percent": 10.509198597782879
+      },
+      "Flash_KID": {
+        "absolute": -0.010792087761705177,
+        "relative_percent": -17.696908833457652
+      },
+      "Flash_FID": {
+        "absolute": -20.148376195540607,
+        "relative_percent": -11.113434992090529
+      },
+      "Black_KID": {
+        "absolute": 0.04207280707928753,
+        "relative_percent": 110.7953398402752
+      },
+      "Black_FID": {
+        "absolute": 46.711990003525045,
+        "relative_percent": 28.876106893725755
+      }
+    },
+    "G3_minus_G2": {
+      "Overall_KID": {
+        "absolute": -0.0016255261994754938,
+        "relative_percent": -3.155311860624971
+      },
+      "Overall_FID": {
+        "absolute": -0.1378248167331435,
+        "relative_percent": -0.08339425365840578
+      },
+      "Flash_KID": {
+        "absolute": -0.0031520855415407625,
+        "relative_percent": -5.909100976432969
+      },
+      "Flash_FID": {
+        "absolute": -0.13956066691349633,
+        "relative_percent": -0.08652850971676229
+      },
+      "Black_KID": {
+        "absolute": 0.0,
+        "relative_percent": 0.0
+      },
+      "Black_FID": {
+        "absolute": 0.0,
+        "relative_percent": 0.0
+      }
+    }
+  },
+  "answers": {
+    "G3_Overall_KID_lower_than_Raw": false,
+    "G3_Overall_FID_lower_than_Raw": false,
+    "G3_Black_KID_worse_than_Raw": true,
+    "G3_Black_FID_worse_than_Raw": true,
+    "G3_Flash_KID_better_than_Raw": true,
+    "G3_Flash_FID_better_than_Raw": true,
+    "G3_vs_G2_improvement_source": "Flash only; G3 and G2 use identical gamma=1 Black images/features.",
+    "overall_KID_improved_while_Black_KID_worsened_vs_Raw": false
+  },
+  "interpretation": "Exploratory Bank-A/V2-TRAIN comparison; TRAIN may overlap generator training and class gamma was development-selected.",
+  "recommended_next_step": "Stop gamma tuning and move to training-level morphology-guidance or dual-branch-fusion ablation."
+}

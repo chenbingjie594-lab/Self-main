@@ -1,0 +1,116 @@
+{
+  "status": "COMPLETE",
+  "experiment": "Experiment 7 — Raw SD2 vs Class-Adaptive MSDF",
+  "groups": {
+    "G0": {
+      "method": "Raw SD2",
+      "setting": {
+        "flash": "raw",
+        "black": "raw"
+      }
+    },
+    "G1": {
+      "method": "MSDF Uniform gamma=0",
+      "setting": {
+        "flash": 0.0,
+        "black": 0.0
+      }
+    },
+    "G2": {
+      "method": "MSDF Uniform gamma=1",
+      "setting": {
+        "flash": 1.0,
+        "black": 1.0
+      }
+    },
+    "G3": {
+      "method": "MSDF Class-Adaptive gamma",
+      "setting": {
+        "flash": 0.0,
+        "black": 1.0
+      }
+    }
+  },
+  "bank": "A",
+  "frozen_slots": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "training_performed": false,
+  "generation_performed": false,
+  "selection_performed": false,
+  "reference": {
+    "source": "V2 TRAIN",
+    "ROI_count": 172,
+    "class_counts": {
+      "flash": 75,
+      "black": 97
+    },
+    "checkpoint_training_overlap_possible": true,
+    "independent_validation": false,
+    "final_eval_read_or_used": false
+  },
+  "metrics": {
+    "primary": "ROI KID",
+    "auxiliary": "ROI FID",
+    "status": "PASS",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "torch_fidelity": "0.3.0",
+    "source_files": {
+      "torch_fidelity.feature_extractor_inceptionv3": {
+        "file": "feature_extractor_inceptionv3.py",
+        "sha256": "1cf34e394665d52aa8d6522aae67370a036add18bfd91eb6657b2d666e458d34"
+      },
+      "torch_fidelity.metric_fid": {
+        "file": "metric_fid.py",
+        "sha256": "e8a172867a1b6e9d4a1647d4d85e69e6930d94ee1b6a908a5be5d3b7755aa0cd"
+      },
+      "torch_fidelity.metric_kid": {
+        "file": "metric_kid.py",
+        "sha256": "4bc68c5971b751082c5eee1a73ddde43d0b86617ce65455eedab74f8a84030f0"
+      }
+    },
+    "inception_weight_sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2",
+    "feature_extraction": "float32 eval/inference_mode; uint8 RGB; native torch-fidelity preprocessing",
+    "metric_calculation": "float64 CPU",
+    "KID_subsets": 100,
+    "KID_subset_size": "min(50,nreal,nfake)",
+    "KID_seed": 42,
+    "KID_kernel": {
+      "type": "polynomial",
+      "degree": 3,
+      "gamma": null,
+      "coef0": 1.0
+    },
+    "ROI": "normalized bbox expanded 25% per side; floor lower, ceil upper, clipped",
+    "new_inception_forward_count": 0,
+    "network_download_count": 0
+  },
+  "overall_rule": "Each Overall metric is recomputed from all 80 generated features against all 172 real features; class metrics are never averaged.",
+  "feature_reuse": {
+    "Raw_SD2": "80 SHA-bound Bank-A ROI features selected from Experiment 1 cache",
+    "MSDF_and_real": "SHA-bound Gamma Sweep cache",
+    "new_Inception_forwards": 0
+  },
+  "raw_feature_cache": {
+    "file": "raw_bank_A_inception_features.npz",
+    "sha256": "0387fb0cabf06a84a7951b9cb11ccb3a5663592f9d0ea7cb3f4b3eb5c48ac8fd"
+  },
+  "raw_input_SHA256": {
+    "raw_bank_A_manifest": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9",
+    "msdf_bank_A_manifest": "b297bd46764eb907cc0d996adb349cb3e4cb3dcc69259c9a5a3fd3492426aa33",
+    "slots": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "rng": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "exp1_visual_manifest": "d6520bc4cf6b5715deff68a788cc7735db7d55e0d1b27d0a08b388efb858e0c4",
+    "exp1_feature_cache": "81a12cc2b0746833c9307c7189f99ead91847e3c1fb8881bcaafe35e0bec7481",
+    "gamma_protocol": "b566ba099a3b6d2b08df0e3d73e943aabed9a9e7b7eb9e6a5e9f9c3d8bd42fb9",
+    "gamma_feature_cache": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+    "gamma_0_manifest": "6536351d009656e21b53a388c4f8bca4033f9d0c0d25c7a0be0d76e5ed326f4e",
+    "gamma_1_manifest": "bfcf8c25aaafeb84116994cd771fc71328ac3c959770b28ab3f6dc21159af895",
+    "class_adaptive_manifest": "c2db69950c1d7f2c9d360ce0b2eef7214334d305667a91ecd50e62d5df64b042"
+  },
+  "implementation_SHA256": "f8a99739b1b0ddd361ef688b200c6142e422a17fd53f5560b1e71ea28e625f92",
+  "historical_results_modified": false,
+  "prohibited_followup_started": false
+}

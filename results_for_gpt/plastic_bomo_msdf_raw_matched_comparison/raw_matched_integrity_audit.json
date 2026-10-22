@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-22T01:51:49.264408+00:00",
+  "bank": "A",
+  "matched_slot_count": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "slot_condition_checks": 80,
+  "raw_image_sha256_checks": 80,
+  "gamma_image_sha256_checks": 160,
+  "class": "PASS",
+  "conditioning_normal": "PASS",
+  "bbox": "PASS",
+  "prompt": "PASS",
+  "generation_seed": "PASS",
+  "bank_seed": "PASS",
+  "frozen_slot": "PASS",
+  "ROI": "PASS",
+  "checkpoint_distinction": {
+    "flash": {
+      "raw_tree_sha256": "77777ad1f5fb03d2fcd67facfd29dcc58882b8ed4faf94b518c0d10b8aa58e2e",
+      "msdf_tree_sha256": "e62f83b1715567e22d8df28282ddbbebb106a3b709e0f34a54c28b342b5e3ec7",
+      "different_checkpoints": true
+    },
+    "black": {
+      "raw_tree_sha256": "204dd9a333312920e715d57447406b8ddc501949e32c76c8640995592e74203a",
+      "msdf_tree_sha256": "dabfbe2ef795d468418c5582ca581117fa71b870366e1796978bae7396ff6fec",
+      "different_checkpoints": true
+    }
+  },
+  "raw_artifact_bindings_checked": 3,
+  "gamma_artifact_bindings_checked": 16,
+  "images_generated": 0,
+  "images_replaced": 0,
+  "images_selected": 0,
+  "training_count": 0,
+  "historical_results_modified": false,
+  "final_eval_read_or_used": false,
+  "raw_input_SHA256": {
+    "raw_bank_A_manifest": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9",
+    "msdf_bank_A_manifest": "b297bd46764eb907cc0d996adb349cb3e4cb3dcc69259c9a5a3fd3492426aa33",
+    "slots": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "rng": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "exp1_visual_manifest": "d6520bc4cf6b5715deff68a788cc7735db7d55e0d1b27d0a08b388efb858e0c4",
+    "exp1_feature_cache": "81a12cc2b0746833c9307c7189f99ead91847e3c1fb8881bcaafe35e0bec7481",
+    "gamma_protocol": "b566ba099a3b6d2b08df0e3d73e943aabed9a9e7b7eb9e6a5e9f9c3d8bd42fb9",
+    "gamma_feature_cache": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+    "gamma_0_manifest": "6536351d009656e21b53a388c4f8bca4033f9d0c0d25c7a0be0d76e5ed326f4e",
+    "gamma_1_manifest": "bfcf8c25aaafeb84116994cd771fc71328ac3c959770b28ab3f6dc21159af895",
+    "class_adaptive_manifest": "c2db69950c1d7f2c9d360ce0b2eef7214334d305667a91ecd50e62d5df64b042"
+  },
+  "raw_input_binding_SHA256": "b0b57121c5e3f97a392dd3023d5a2e526691f69eba0e3c43ec3000f1195b6187"
+}
