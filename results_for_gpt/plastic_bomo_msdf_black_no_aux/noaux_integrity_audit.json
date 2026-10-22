@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "protocol": {
+    "training": {
+      "seed": 42,
+      "resolution": 512,
+      "train_batch_size": 1,
+      "gradient_accumulation_steps": 4,
+      "learning_rate": 1e-06,
+      "max_train_steps": 2000,
+      "optimizer": "AdamW",
+      "mixed_precision": "fp16",
+      "gradient_checkpointing": true,
+      "xformers": false,
+      "max_grad_norm": 1
+    },
+    "historical_msdf": {
+      "hidden_dim": 64,
+      "context_scale": 1.75,
+      "max_injection": 0.75,
+      "max_residual_ratio": 0.25,
+      "branch_dropout": 0.2,
+      "pixel_support_weight": 0.5,
+      "region_weight": 0.75,
+      "reconstruction_weight": 0.5,
+      "structure_weight": 0.25,
+      "background_weight": 0.2,
+      "scale_weight": 0.25,
+      "support_weight": 0.25,
+      "reference_cross_probability": 0.3,
+      "mask_jitter_radius": 24,
+      "mask_blur_radius": 2,
+      "MSDF_learning_rate": 0.0001
+    },
+    "noaux_weights": {
+      "region": 0.0,
+      "reconstruction": 0.0,
+      "structure": 0.0,
+      "background": 0.0,
+      "scale": 0.0,
+      "support": 0.0
+    }
+  },
+  "CPU_morphology_alignment_branch": {
+    "status": "PASS",
+    "morphology_alignment": true,
+    "align_reference_call_count": 1,
+    "aligned_support_finite": true,
+    "pixel_branch_enabled": true,
+    "latent_branch_enabled": true,
+    "support_head_present": true,
+    "injection_gamma": 1.0
+  },
+  "assets": {
+    "TRAIN_file_checks": 666,
+    "Black_TRAIN_instances": 97,
+    "Black_Bank_A_slots": 40,
+    "base_model_file_checks": 12
+  },
+  "GPU_single_batch_summary": {
+    "status": "PASS",
+    "objective_minus_conditional_abs": 0.0,
+    "auxiliary_loss_weights": {
+      "region": 0.0,
+      "reconstruction": 0.0,
+      "structure": 0.0,
+      "background": 0.0,
+      "scale": 0.0,
+      "support": 0.0
+    },
+    "weighted_auxiliary_contribution": 0.0,
+    "gradients": {
+      "unet": {
+        "all_connected": true,
+        "all_finite": true,
+        "parameter_tensor_count": 686,
+        "nonzero_parameter_tensor_count": 686,
+        "zero_but_connected_parameter_tensor_count": 0,
+        "disconnected_parameter_tensor_count": 0,
+        "nonfinite_parameter_tensor_count": 0
+      },
+      "msdf": {
+        "all_connected": true,
+        "all_finite": true,
+        "parameter_tensor_count": 38,
+        "nonzero_parameter_tensor_count": 7,
+        "zero_but_connected_parameter_tensor_count": 31,
+        "disconnected_parameter_tensor_count": 0,
+        "nonfinite_parameter_tensor_count": 0
+      }
+    },
+    "dynamic_gate_active": true,
+    "VAE_text_frozen_unchanged": true,
+    "morphology_alignment_reload": true
+  },
+  "generation_integrity": {
+    "status": "PASS",
+    "slot_checks": 40,
+    "image_SHA256_checks": 40,
+    "same_normal_bbox_prompt_seed_scheduler_steps_CFG_crop_paste": true,
+    "reroll_count": 0,
+    "selection_count": 0
+  },
+  "metric_regression": {
+    "status": "PASS",
+    "expected": {
+      "Raw_Black_KID": 0.0379734447,
+      "Raw_Black_FID": 161.766924,
+      "Full_Black_KID": 0.0800462518,
+      "Full_Black_FID": 208.478914,
+      "NoMorph_Black_KID": 0.0810946195563176,
+      "NoMorph_Black_FID": 203.5375899268211,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Adaptive_Overall_KID": 0.04989160653660615,
+      "Adaptive_Overall_FID": 165.1311363969408,
+      "NoMorph_Overall_KID": 0.04866829543849569,
+      "NoMorph_Overall_FID": 162.4736380524388
+    },
+    "actual": {
+      "Raw_Black_KID": 0.03797344467731272,
+      "Raw_Black_FID": 161.76692438299116,
+      "Full_Black_KID": 0.08004625175660025,
+      "Full_Black_FID": 208.4789143865162,
+      "NoMorph_Black_KID": 0.0810946195563176,
+      "NoMorph_Black_FID": 203.5375899268211,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Adaptive_Overall_KID": 0.04989160653660615,
+      "Adaptive_Overall_FID": 165.1311363969408,
+      "NoMorph_Overall_KID": 0.04866829543849569,
+      "NoMorph_Overall_FID": 162.4736380524388
+    },
+    "absolute_errors": {
+      "Raw_Black_KID": 2.26872756692309e-11,
+      "Raw_Black_FID": 3.8299117477436084e-07,
+      "Full_Black_KID": 4.33997421334098e-11,
+      "Full_Black_FID": 3.8651620570817613e-07,
+      "NoMorph_Black_KID": 0.0,
+      "NoMorph_Black_FID": 0.0,
+      "Raw_Overall_KID": 0.0,
+      "Raw_Overall_FID": 0.0,
+      "Adaptive_Overall_KID": 0.0,
+      "Adaptive_Overall_FID": 0.0,
+      "NoMorph_Overall_KID": 0.0,
+      "NoMorph_Overall_FID": 0.0
+    },
+    "tolerances": {
+      "Raw_Black_KID": 5e-11,
+      "Raw_Black_FID": 5e-07,
+      "Full_Black_KID": 5e-11,
+      "Full_Black_FID": 5e-07,
+      "NoMorph_Black_KID": 5e-11,
+      "NoMorph_Black_FID": 5e-07,
+      "Raw_Overall_KID": 5e-11,
+      "Raw_Overall_FID": 5e-07,
+      "Adaptive_Overall_KID": 5e-11,
+      "Adaptive_Overall_FID": 5e-07,
+      "NoMorph_Overall_KID": 5e-11,
+      "NoMorph_Overall_FID": 5e-07
+    },
+    "same_reference_feature_population": true,
+    "new_Inception_forward_count": 40
+  },
+  "final_eval_content_read": 0,
+  "public_redaction": "Server paths and detailed sample/parameter identities are omitted."
+}

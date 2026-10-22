@@ -1,0 +1,82 @@
+{
+  "status": "NOAUX_EXPLORATORY_IMPROVED",
+  "differences": {
+    "G3_NoAux_minus_G1_Full_Black": {
+      "KID": {
+        "absolute": -0.012778955755844146,
+        "relative_percent": -15.964464888002018
+      },
+      "FID": {
+        "absolute": -9.335304411265184,
+        "relative_percent": -4.47781706784874
+      }
+    },
+    "G3_NoAux_minus_G2_NoMorph_Black": {
+      "KID": {
+        "absolute": -0.013827323555561488,
+        "relative_percent": -17.050851993896906
+      },
+      "FID": {
+        "absolute": -4.393979951570088,
+        "relative_percent": -2.1588051392128
+      }
+    },
+    "G3_NoAux_minus_G0_Raw_Black": {
+      "KID": {
+        "absolute": 0.029293851323443386,
+        "relative_percent": 77.14299182592995
+      },
+      "FID": {
+        "absolute": 37.37668559225986,
+        "relative_percent": 23.105270582859518
+      }
+    },
+    "NoAux_Hybrid_minus_Original_Adaptive_Overall": {
+      "KID": {
+        "absolute": -0.0039981136837283285,
+        "relative_percent": -8.01359980419724
+      },
+      "FID": {
+        "absolute": -4.610785271173029,
+        "relative_percent": -2.792196173161228
+      }
+    },
+    "NoAux_Hybrid_minus_NoMorph_Hybrid_Overall": {
+      "KID": {
+        "absolute": -0.0027748025856178665,
+        "relative_percent": -5.70145833261103
+      },
+      "FID": {
+        "absolute": -1.9532869266710122,
+        "relative_percent": -1.202217756729608
+      }
+    },
+    "NoAux_Hybrid_minus_Raw_Overall": {
+      "KID": {
+        "absolute": 0.010670921866312064,
+        "relative_percent": 30.295692697679733
+      },
+      "FID": {
+        "absolute": 11.092847811800397,
+        "relative_percent": 7.423564983544445
+      }
+    }
+  },
+  "answers": {
+    "removing_auxiliary_losses_lowered_Black_KID": true,
+    "removing_auxiliary_losses_lowered_Black_FID": true,
+    "NoAux_better_than_NoMorph_KID": true,
+    "NoAux_better_than_NoMorph_FID": true,
+    "Raw_Black_gap_change": {
+      "KID_gap_before": 0.04207280707928753,
+      "KID_gap_after": 0.029293851323443386,
+      "FID_gap_before": 46.711990003525045,
+      "FID_gap_after": 37.37668559225986
+    },
+    "hybrid_Overall_KID_improved_vs_original_adaptive": true,
+    "hybrid_Overall_FID_improved_vs_original_adaptive": true,
+    "auxiliary_losses_worth_redesigning": true
+  },
+  "interpretation_limit": "Bank A with V2 TRAIN references; possible checkpoint-training overlap; not independent validation.",
+  "random_trajectory_limit": "Historical G1 did not persist a step-0 adapter SHA or complete RNG-state ledger. G3 reuses seed, sorted input order, epoch permutation, reference rule, runtime and initialization code, but exact byte-for-byte G1/G3 random trajectory cannot be independently proven."
+}

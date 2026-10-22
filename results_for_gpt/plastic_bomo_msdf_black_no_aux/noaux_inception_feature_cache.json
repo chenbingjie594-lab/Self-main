@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "shape": [
+    40,
+    2048
+  ],
+  "stored_dtype": "float64",
+  "extraction_dtype": "float32",
+  "feature_cache_SHA256": "c800a131fa9e285b9cbdd768a92f7e03895459817402cad6bac9a3f541fd7084",
+  "image_SHA256_checks": 40,
+  "key_set_commitment_SHA256": "5e80872c76fc3bc74e2dc2db2530cce1178087249f637502e4a3aaf8e2058560",
+  "feature_key_count": 40,
+  "runtime_protocol": {
+    "feature_extractor": "torch-fidelity Inception-v3-compat",
+    "dimensions": 2048,
+    "metric_dtype": "float64 CPU"
+  },
+  "public_redaction": "Weight and package paths plus per-sample keys are retained on the experiment server."
+}

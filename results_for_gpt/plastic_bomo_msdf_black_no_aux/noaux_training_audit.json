@@ -1,0 +1,62 @@
+{
+  "status": "COMPLETE",
+  "class": "black",
+  "successful_updates": 2000,
+  "scheduled_attempts": 2000,
+  "AMP_skips": 0,
+  "microbatch_draws": 7760,
+  "checkpoint_saved": true,
+  "automatic_resume": false,
+  "final_eval_content_read": 0,
+  "auxiliary_loss_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.0,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "training_objective": "conditional_loss only",
+  "precision": "fp16 autocast, FP32 full UNet/MSDF masters",
+  "epoch_tail_divisor": 4,
+  "input_population_SHA256": "d4a2ddf83ad205b13ba96da3820e438ed4d8a6901888a79d36d2ea20722b092d",
+  "initial_adapter_state_SHA256": "ec2af920c793fa715af838405cdf2313e1ec60f37d66aa774d054fe995f565f1",
+  "initial_UNet_weight_file_SHA256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+  "source_code_SHA256": {
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+    "train_rda.py": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/stage25_msdf_contract.py": "1348db26e16e4dec0b8bc301813c3b3aecc296ab111721849a879eaff5ed2f42",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "tools/qualify_plastic_bomo_stage20b_r0.py": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+    "tools/run_plastic_bomo_msdf_black_no_aux.py": "8311e24aaab01e52a10c94e4277490706fdac5b586cde4fa786cc2c623cbdfe0",
+    "configs/plastic_bomo_msdf_black_no_aux.json": "1f05ea0ee643ac5bab10f46bfee4363c406d2c200da5757fb0daa79acc7b8669"
+  },
+  "random_trajectory_limit": "Historical G1 did not persist a step-0 adapter SHA or complete RNG-state ledger. G3 reuses seed, sorted input order, epoch permutation, reference rule, runtime and initialization code, but exact byte-for-byte G1/G3 random trajectory cannot be independently proven.",
+  "MSDF_nonzero_gradient_attempts": 2000,
+  "MSDF_gradient_status": {
+    "connected_parameter_tensors": 38,
+    "all_connected": true,
+    "all_finite": true,
+    "nonzero_parameter_tensors": 37
+  },
+  "running_means": {
+    "training_loss": 0.003668877643101332,
+    "gradient_norm": 0.00897607533208673,
+    "auxiliary_region": 0.2544374139290001,
+    "auxiliary_reconstruction": 0.3153888367017387,
+    "auxiliary_structure": 0.12209702590376903,
+    "auxiliary_background": 0.01821779730929585,
+    "auxiliary_scale": 0.1305678733218909,
+    "auxiliary_support": 0.7155573430711154,
+    "auxiliary_denoising": 0.003668877643101332
+  },
+  "peak_GPU_memory_bytes": 18383091200,
+  "VAE_text_frozen_unchanged": true,
+  "morphology_alignment_enabled": true,
+  "injection_gamma": 1.0,
+  "final_grad_scaler_scale": 131072.0,
+  "wall_seconds": 4065.9283683719113,
+  "completed_at": "2026-10-22T13:18:26.583643+00:00",
+  "update_log_SHA256": "addaf30b76577fd51beebf1a967ccf18ba404e37d029c7bcdf2f385e0f2dfadb"
+}

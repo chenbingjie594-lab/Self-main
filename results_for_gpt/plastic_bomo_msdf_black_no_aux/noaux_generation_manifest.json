@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "bank": "A",
+  "class": "black",
+  "count": 40,
+  "all_outputs_retained": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "runtime_seconds": 485.69659402407706,
+  "generation_protocol_SHA256": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5",
+  "source_manifest_SHA256": "072c3d409de03ed74b989b5f8506ae109ddc4f9f9f1a0c2332260846acafd1a2",
+  "unique_slot_count": 40,
+  "unique_image_SHA256_count": 40,
+  "slot_id_set_commitment_SHA256": "b51ccff58e5655f727d462cd00530005e749e3a814b76bfd84fa1123b2209df7",
+  "image_SHA256_set_commitment": "818561193034147c7a37366aa78d0f462b6994cd9d46ccc49ffe7a6b45f636f3",
+  "checkpoint_tree_SHA256": "cbf1c329e54a4f36166028da1a93468181a6d401f22a559e8b52f7f4fce94cb9",
+  "morphology_alignment_enabled": true,
+  "injection_gamma": 1.0,
+  "training_auxiliary_loss_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.0,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "records_redacted": true,
+  "redaction_reason": "Per-sample identities, paths, RNG states and images remain on the experiment server."
+}

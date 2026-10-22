@@ -1,0 +1,25 @@
+{
+  "experiment": "Experiment 9 — MSDF Black No Auxiliary Losses",
+  "base_commit": "ca328eba82af1e5efc2debb314cb81413d2c92b9",
+  "class": "black",
+  "fresh_public_SD2_start": true,
+  "successful_optimizer_updates": 2000,
+  "seed": 42,
+  "morphology_alignment_enabled": true,
+  "injection_gamma": 1.0,
+  "auxiliary_loss_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.0,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "optimized_objective": "conditional_loss",
+  "diagnostic_raw_auxiliary_losses_retained": true,
+  "bank": "A",
+  "generation_count": 40,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "independent_validation": false
+}
