@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "optimizer_steps_during_preflight": 0,
+  "sampling_count_during_preflight": 0,
+  "final_eval_content_read": 0,
+  "protocol": {
+    "training": {
+      "seed": 42,
+      "resolution": 512,
+      "train_batch_size": 1,
+      "gradient_accumulation_steps": 4,
+      "learning_rate": 1e-06,
+      "max_train_steps": 2000,
+      "optimizer": "AdamW",
+      "mixed_precision": "fp16",
+      "gradient_checkpointing": true,
+      "xformers": false,
+      "max_grad_norm": 1
+    },
+    "msdf": {
+      "hidden_dim": 64,
+      "context_scale": 1.75,
+      "max_injection": 0.75,
+      "max_residual_ratio": 0.25,
+      "branch_dropout": 0.2,
+      "pixel_support_weight": 0.5,
+      "region_weight": 0.75,
+      "reconstruction_weight": 0.5,
+      "structure_weight": 0.25,
+      "background_weight": 0.2,
+      "scale_weight": 0.25,
+      "support_weight": 0.25,
+      "reference_cross_probability": 0.3,
+      "mask_jitter_radius": 24,
+      "mask_blur_radius": 2,
+      "MSDF_learning_rate": 0.0001
+    }
+  },
+  "CPU_no_morph_branch": {
+    "status": "PASS",
+    "morphology_alignment": false,
+    "align_reference_call_count": 0,
+    "aligned_support_equals_reference_support": true,
+    "pixel_branch_enabled": true,
+    "latent_branch_enabled": true,
+    "support_head_present": true,
+    "injection_gamma": 1.0
+  },
+  "assets": {
+    "TRAIN_file_checks": 666,
+    "Black_TRAIN_instances": 97,
+    "Black_Bank_A_slots": 40,
+    "base_model_file_checks": 12
+  },
+  "GPU_single_batch": {
+    "status": "PASS",
+    "device_name": "NVIDIA GeForce RTX 3090",
+    "loss": 0.31216123700141907,
+    "auxiliary_losses": {
+      "region": 0.0007349725929088891,
+      "reconstruction": 0.06897728145122528,
+      "structure": 0.00016872964624781162,
+      "background": 0.14402759075164795,
+      "scale": 0.028598178178071976,
+      "support": 0.9635324478149414,
+      "denoising": 0.000240996407228522
+    },
+    "unet_gradients": {
+      "all_connected": true,
+      "all_finite": true
+    },
+    "msdf_gradients": {
+      "all_connected": true,
+      "all_finite": true
+    },
+    "dual_branch_gradient_graph_connected": true,
+    "single_batch_latent_branch_nonzero": false,
+    "single_batch_pixel_branch_nonzero": false,
+    "single_batch_zero_gradient_note": "A connected branch may be zero in one batch by the frozen branch_dropout=0.2 design.",
+    "VAE_text_frozen_unchanged": true,
+    "morphology_alignment_train_forward": false,
+    "morphology_alignment_reload": false,
+    "checkpoint_reload_eval_mode": true,
+    "six_auxiliary_losses_active": [
+      "region",
+      "reconstruction",
+      "structure",
+      "background",
+      "scale",
+      "support"
+    ],
+    "set_ablation_parameter_identity_unchanged": true,
+    "peak_GPU_memory_bytes": 8212656128
+  },
+  "controlled_variables": {
+    "all_expected_values_match": true,
+    "adapter_initialization_seed": 42,
+    "reference_sampling_rule": 0.3,
+    "random_trajectory_limit": "Historical G1 did not persist a step-0 adapter SHA or complete RNG-state ledger. G2 reuses seed, sorted input order, epoch permutation, reference rule, runtime and initialization code, but exact byte-for-byte G1/G2 random trajectory cannot be independently proven."
+  },
+  "completed_at": "2026-10-22T04:33:23.980766+00:00",
+  "wall_seconds": 35.80487846117467,
+  "metric_regression": {
+    "status": "PASS",
+    "expected": {
+      "Raw_Black_KID": 0.0379734447,
+      "Raw_Black_FID": 161.766924,
+      "Full_Black_KID": 0.0800462518,
+      "Full_Black_FID": 208.478914,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Adaptive_Overall_KID": 0.04989160653660615,
+      "Adaptive_Overall_FID": 165.1311363969408
+    },
+    "actual": {
+      "Raw_Black_KID": 0.03797344467731272,
+      "Raw_Black_FID": 161.76692438299116,
+      "Full_Black_KID": 0.08004625175660025,
+      "Full_Black_FID": 208.4789143865162,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Adaptive_Overall_KID": 0.04989160653660615,
+      "Adaptive_Overall_FID": 165.1311363969408
+    },
+    "absolute_errors": {
+      "Raw_Black_KID": 2.26872756692309e-11,
+      "Raw_Black_FID": 3.8299117477436084e-07,
+      "Full_Black_KID": 4.33997421334098e-11,
+      "Full_Black_FID": 3.8651620570817613e-07,
+      "Raw_Overall_KID": 0.0,
+      "Raw_Overall_FID": 0.0,
+      "Adaptive_Overall_KID": 0.0,
+      "Adaptive_Overall_FID": 0.0
+    },
+    "tolerances": {
+      "Raw_Black_KID": 5e-11,
+      "Raw_Black_FID": 5e-07,
+      "Full_Black_KID": 5e-11,
+      "Full_Black_FID": 5e-07,
+      "Raw_Overall_KID": 5e-11,
+      "Raw_Overall_FID": 5e-07,
+      "Adaptive_Overall_KID": 5e-11,
+      "Adaptive_Overall_FID": 5e-07
+    },
+    "same_reference_feature_population": true,
+    "new_Inception_forward_count": 40
+  },
+  "generation_integrity": {
+    "status": "PASS",
+    "slot_checks": 40,
+    "image_SHA256_checks": 40,
+    "same_normal_bbox_prompt_seed_scheduler_steps_CFG_crop_paste": true,
+    "reroll_count": 0,
+    "selection_count": 0
+  }
+}

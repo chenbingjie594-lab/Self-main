@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "shape": [
+    40,
+    2048
+  ],
+  "stored_dtype": "float64",
+  "extraction_dtype": "float32",
+  "sha256": "46c3ebcc7489315531780955f8c561f3056c20694c7d24fea7ad733419ab5b27",
+  "image_SHA256_checks": 40,
+  "keys_published": false,
+  "feature_array_published": false,
+  "feature_extractor": "torch-fidelity Inception-v3-compat 2048D",
+  "new_forward_count": 40
+}

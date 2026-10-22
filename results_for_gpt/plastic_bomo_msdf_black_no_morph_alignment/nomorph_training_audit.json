@@ -1,0 +1,86 @@
+{
+  "status": "COMPLETE",
+  "class": "black",
+  "morphology_alignment_enabled": false,
+  "injection_gamma": 1.0,
+  "successful_updates": 2000,
+  "scheduled_attempts": 2002,
+  "AMP_skips": 2,
+  "microbatch_draws": 7768,
+  "checkpoint_saved": true,
+  "automatic_resume": false,
+  "final_eval_content_read": 0,
+  "precision": "fp16 autocast, FP32 full UNet/MSDF masters",
+  "optimizer_groups": [
+    {
+      "lr": 1e-06,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0.01,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null
+    },
+    {
+      "lr": 0.0001,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0.01,
+      "amsgrad": false,
+      "foreach": null,
+      "maximize": false,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null
+    }
+  ],
+  "epoch_tail_divisor": 4,
+  "input_population_SHA256": "d4a2ddf83ad205b13ba96da3820e438ed4d8a6901888a79d36d2ea20722b092d",
+  "initial_adapter_state_SHA256": "ec2af920c793fa715af838405cdf2313e1ec60f37d66aa774d054fe995f565f1",
+  "source_code_SHA256": {
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+    "train_rda.py": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/stage25_msdf_contract.py": "1348db26e16e4dec0b8bc301813c3b3aecc296ab111721849a879eaff5ed2f42",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "tools/qualify_plastic_bomo_stage20b_r0.py": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+    "tools/run_plastic_bomo_msdf_black_no_morph.py": "34241dd6f05bd4cc775334eadc967672f1f20db32cdd590724289d408c9ae88c"
+  },
+  "random_trajectory_limit": "Historical G1 did not persist a step-0 adapter SHA or complete RNG-state ledger. G2 reuses seed, sorted input order, epoch permutation, reference rule, runtime and initialization code, but exact byte-for-byte G1/G2 random trajectory cannot be independently proven.",
+  "running_means": {
+    "training_loss": 0.4363525940958232,
+    "gradient_norm": 2.4908824342520703,
+    "auxiliary_region": 0.20463384826221678,
+    "auxiliary_reconstruction": 0.2687187477635202,
+    "auxiliary_structure": 0.11234775259463346,
+    "auxiliary_background": 0.02160627717100924,
+    "auxiliary_scale": 0.11616205369808369,
+    "auxiliary_support": 0.33026937731943573,
+    "auxiliary_denoising": 0.004501783557818279
+  },
+  "peak_GPU_memory_bytes": 18383074816,
+  "VAE_text_frozen_unchanged": true,
+  "final_grad_scaler_scale": 16384.0,
+  "update_log_SHA256": "f9463e9d1626a93dfe658af444b56ba71b72451d5be0ee8856f9b0590813f2aa",
+  "completed_at": "2026-10-22T08:07:49.734795+00:00",
+  "wall_seconds": 4680.769875281956,
+  "epoch_order": {
+    "count": 81,
+    "digest_list_withheld": true
+  },
+  "checkpoint": {
+    "path_withheld": true,
+    "tree_sha256": "6a2391fb83593ec4fe0fceae3004796eff2c7728d9369519457dfbb4fae1a0ce",
+    "msdf_sha256": "b7115c3592cfe06267053e9bbed4ec572a17fe40c0b1313837e39aec58a66a41",
+    "unet_sha256": "f45669f55eeee22ecd0b080847223fed27ef985d5c423b7ca4f450d875e8352c"
+  }
+}

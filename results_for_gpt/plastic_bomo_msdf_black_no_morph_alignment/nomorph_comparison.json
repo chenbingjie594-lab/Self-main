@@ -1,0 +1,60 @@
+{
+  "status": "NOMORPH_EXPLORATORY_MIXED",
+  "differences": {
+    "G2_NoMorph_minus_G1_Full_Black": {
+      "KID": {
+        "absolute": 0.0010483677997173424,
+        "relative_percent": 1.3097025491026801
+      },
+      "FID": {
+        "absolute": -4.941324459695096,
+        "relative_percent": -2.370179485170365
+      }
+    },
+    "G2_NoMorph_minus_G0_Raw_Black": {
+      "KID": {
+        "absolute": 0.043121174879004874,
+        "relative_percent": 113.55613177955297
+      },
+      "FID": {
+        "absolute": 41.77066554382995,
+        "relative_percent": 25.821511846844437
+      }
+    },
+    "Hybrid_minus_Original_Adaptive_Overall": {
+      "KID": {
+        "absolute": -0.001223311098110462,
+        "relative_percent": -2.451937676556681
+      },
+      "FID": {
+        "absolute": -2.6574983445020166,
+        "relative_percent": -1.6093260196029566
+      }
+    },
+    "Hybrid_minus_Raw_Overall": {
+      "KID": {
+        "absolute": 0.01344572445192993,
+        "relative_percent": 38.17360310540154
+      },
+      "FID": {
+        "absolute": 13.046134738471409,
+        "relative_percent": 8.730745310694054
+      }
+    }
+  },
+  "answers": {
+    "closing_alignment_lowered_Black_KID": false,
+    "closing_alignment_lowered_Black_FID": true,
+    "Raw_Black_gap_change": {
+      "KID_gap_before": 0.04207280707928753,
+      "KID_gap_after": 0.043121174879004874,
+      "FID_gap_before": 46.711990003525045,
+      "FID_gap_after": 41.77066554382995
+    },
+    "hybrid_Overall_KID_improved_vs_original_adaptive": true,
+    "hybrid_Overall_FID_improved_vs_original_adaptive": true,
+    "worth_further_morphology_research": true
+  },
+  "interpretation_limit": "Bank A with V2 TRAIN references; possible checkpoint-training overlap; not independent validation.",
+  "random_trajectory_limit": "Historical G1 did not persist a step-0 adapter SHA or complete RNG-state ledger. G2 reuses seed, sorted input order, epoch permutation, reference rule, runtime and initialization code, but exact byte-for-byte G1/G2 random trajectory cannot be independently proven."
+}
