@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN",
+  "class": "black",
+  "successful_updates": 2000,
+  "fresh_public_SD2_start": true,
+  "continued_from_full_MSDF": false,
+  "morphology_alignment_enabled": true,
+  "injection_gamma": 1.0,
+  "auxiliary_loss_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.2,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "checkpoint": {
+    "role": "checkpoints/black/final_step2000",
+    "tree_sha256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+    "weights_uploaded": false
+  },
+  "msdf_checkpoint_SHA256": "6e0c39ab6870e0a411a8fde8463ca4df90fb8fbf6803eb2493dd363eb50122fc",
+  "base_model_binding_SHA256": "57e05f039769af781cc9b5fbd19aaffdf40394976e34096351077e3a533e5a99"
+}

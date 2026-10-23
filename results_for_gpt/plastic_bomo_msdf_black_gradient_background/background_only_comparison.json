@@ -1,0 +1,82 @@
+{
+  "status": "BACKGROUND_ONLY_EXPLORATORY_IMPROVED",
+  "differences": {
+    "G3_BackgroundOnly_minus_G1_Full_Black": {
+      "KID": {
+        "absolute": -0.019040676240746894,
+        "relative_percent": -23.787092865565548
+      },
+      "FID": {
+        "absolute": -16.511999799852504,
+        "relative_percent": -7.920225337148269
+      }
+    },
+    "G3_BackgroundOnly_minus_G2_NoAux_Black": {
+      "KID": {
+        "absolute": -0.006261720484902748,
+        "relative_percent": -9.30871442317581
+      },
+      "FID": {
+        "absolute": -7.176695388587319,
+        "relative_percent": -3.6037788957824044
+      }
+    },
+    "G3_BackgroundOnly_minus_G0_Raw_Black": {
+      "KID": {
+        "absolute": 0.023032130838540638,
+        "relative_percent": 60.65325659618446
+      },
+      "FID": {
+        "absolute": 30.19999020367254,
+        "relative_percent": 18.668828821998606
+      }
+    },
+    "BackgroundOnly_Hybrid_minus_Original_Adaptive_Overall": {
+      "KID": {
+        "absolute": -0.006946359241623103,
+        "relative_percent": -13.922901513557122
+      },
+      "FID": {
+        "absolute": -10.225768078320925,
+        "relative_percent": -6.1925135994585006
+      }
+    },
+    "BackgroundOnly_Hybrid_minus_NoAux_Hybrid_Overall": {
+      "KID": {
+        "absolute": -0.002948245557894774,
+        "relative_percent": -6.4241036683480495
+      },
+      "FID": {
+        "absolute": -5.614982807147896,
+        "relative_percent": -3.497988116627377
+      }
+    },
+    "BackgroundOnly_Hybrid_minus_Raw_Overall": {
+      "KID": {
+        "absolute": 0.0077226763084172895,
+        "relative_percent": 21.925362323388587
+      },
+      "FID": {
+        "absolute": 5.4778650046525,
+        "relative_percent": 3.665901445962572
+      }
+    }
+  },
+  "answers": {
+    "BackgroundOnly_better_than_NoAux_KID": true,
+    "BackgroundOnly_better_than_NoAux_FID": true,
+    "BackgroundOnly_better_than_Full_KID": true,
+    "BackgroundOnly_better_than_Full_FID": true,
+    "Raw_Black_gap_change": {
+      "KID_gap_before": 0.029293851323443386,
+      "KID_gap_after": 0.023032130838540638,
+      "FID_gap_before": 37.37668559225986,
+      "FID_gap_after": 30.19999020367254
+    },
+    "hybrid_Overall_KID_improved_vs_original_adaptive": true,
+    "hybrid_Overall_FID_improved_vs_original_adaptive": true,
+    "gradient_conflict_mitigation_worth_studying": true
+  },
+  "interpretation_limit": "Bank A with V2 TRAIN references; possible checkpoint-training overlap; not independent validation.",
+  "random_trajectory_limit": "Experiment 9 records the initial adapter/UNet identities and RNG summaries. Experiment 10 reuses the same seed, sorted input order, epoch permutation and reference rule; different objective code execution means complete byte-for-byte RNG trajectory equivalence is audited but not assumed."
+}

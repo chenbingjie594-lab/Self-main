@@ -1,0 +1,63 @@
+{
+  "status": "COMPLETE",
+  "created_at": "2026-10-23T02:17:05.965990+00:00",
+  "base_commit": "ea40a1c19e9a02333585ccdb64e8c9108ae2c020",
+  "checkpoint": "Experiment 9 MSDF-NoAux Black final_step2000",
+  "checkpoint_binding_SHA256": "c260096b8fbf2a1f19a63253dddf4308d1a7dbd51ba82cf7b8dc32c2bff90da9",
+  "selection_seed": 42,
+  "selection_rule": "rank source groups by SHA256(exp10|42|source_group_id), take one deterministically ranked annotation from each of the first 12 distinct groups",
+  "reference_rule": "for the final four selected samples, use Random(42) offsets in [1,96] over the globally annotation-sorted Black TRAIN population",
+  "sample_count": 12,
+  "self_reference_count": 8,
+  "cross_reference_count": 4,
+  "distinct_source_group_count": 12,
+  "losses": {
+    "denoising": "Denoising",
+    "region": "Region",
+    "reconstruction": "Reconstruction",
+    "structure": "Structure",
+    "background": "Background",
+    "scale": "Multiscale",
+    "support": "Support"
+  },
+  "historical_weights": {
+    "region": 0.75,
+    "reconstruction": 0.5,
+    "structure": 0.25,
+    "background": 0.2,
+    "scale": 0.25,
+    "support": 0.25
+  },
+  "parameter_groups": {
+    "UNet": {
+      "learning_rate": 1e-06
+    },
+    "MSDF": {
+      "learning_rate": 0.0001
+    },
+    "LR_SCALED_COMBINED": "concatenate group gradients after multiplying by group LR"
+  },
+  "severe_background_conflict_stop_rule": {
+    "applies_if_any_parameter_group": true,
+    "negative_cosine_fraction_gt": 0.5,
+    "median_cosine_lte": -0.25,
+    "median_historical_weighted_gradient_ratio_gt": 2.0,
+    "all_three_conditions_required": true
+  },
+  "optimizer_step_count": 0,
+  "final_eval_read_or_used": false,
+  "repeated_forward_consistency": "PASS",
+  "model_parameter_identity_unchanged": true,
+  "peak_GPU_memory_bytes": 8223789568,
+  "runtime_seconds": 669.1457093809731,
+  "background_severe_conflict_stop": false,
+  "checkpoint_tree_SHA256": "cbf1c329e54a4f36166028da1a93468181a6d401f22a559e8b52f7f4fce94cb9",
+  "sample_records_publication": "WITHHELD_ON_SERVER",
+  "sample_record_audit": {
+    "count": 12,
+    "self_reference_count": 8,
+    "cross_reference_count": 4,
+    "distinct_source_group_count": 12,
+    "selection_frozen_before_diagnostics": true
+  }
+}

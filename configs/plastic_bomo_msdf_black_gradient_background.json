@@ -1,0 +1,33 @@
+{
+  "experiment": "Experiment 10 — MSDF Auxiliary Gradient Conflict and Background-Only Restoration",
+  "base_commit": "ea40a1c19e9a02333585ccdb64e8c9108ae2c020",
+  "class": "black",
+  "phase_a": {
+    "sample_count": 12,
+    "self_reference_count": 8,
+    "cross_reference_count": 4,
+    "selection_seed": 42,
+    "selection_rule": "rank source groups by SHA256(exp10|42|source_group_id), take one deterministically ranked annotation from each of the first 12 distinct groups",
+    "cross_reference_rule": "for the final four selected samples, use Random(42) offsets in [1,96] over the globally annotation-sorted Black TRAIN population",
+    "checkpoint": "Experiment 9 MSDF-NoAux Black final_step2000"
+  },
+  "phase_b": {
+    "fresh_public_SD2_start": true,
+    "successful_optimizer_updates": 2000,
+    "seed": 42,
+    "morphology_alignment_enabled": true,
+    "injection_gamma": 1.0,
+    "auxiliary_loss_weights": {
+      "region": 0.0,
+      "reconstruction": 0.0,
+      "structure": 0.0,
+      "background": 0.2,
+      "scale": 0.0,
+      "support": 0.0
+    },
+    "optimized_objective": "conditional_loss + 0.20 * msdf_background_loss",
+    "bank": "A",
+    "generation_count": 40
+  },
+  "independent_validation": false
+}
