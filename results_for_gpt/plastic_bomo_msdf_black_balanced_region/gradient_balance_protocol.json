@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "created_at": "2026-10-23T06:55:59.808058+00:00",
+  "base_commit": "c580c24d179ca3bc46f6cb31ccc44a8189c45cdd",
+  "checkpoint": "Experiment 10 MSDF-BackgroundOnly Black final_step2000",
+  "checkpoint_binding_SHA256": "6d09a314f7823b58d1ebef19ea7358b68217e8dce9c198ae3e6cc2bf9f1f6afa",
+  "source_gradient_protocol_SHA256": "f470cbc90a34f95d11ecc19afe47136aafa07017bd5b7d760b0a56d06a74265e",
+  "selection_seed": 42,
+  "selection_rule": "rank source groups by SHA256(exp10|42|source_group_id), take one deterministically ranked annotation from each of the first 12 distinct groups",
+  "reference_rule": "for the final four selected samples, use Random(42) offsets in [1,96] over the globally annotation-sorted Black TRAIN population",
+  "sample_count": 12,
+  "self_reference_count": 8,
+  "cross_reference_count": 4,
+  "distinct_source_group_count": 12,
+  "losses": {
+    "base": "Denoising + 0.20 * Background",
+    "region": "Raw Region"
+  },
+  "parameter_groups": [
+    "UNet",
+    "MSDF"
+  ],
+  "calibration_formula": "min(0.02, median_norm_base_unet/median_norm_region_unet, median_norm_base_msdf/median_norm_region_msdf)",
+  "minimum_allowed_lambda": 1e-06,
+  "optimizer_step_count": 0,
+  "final_eval_read_or_used": false,
+  "repeated_forward_consistency": "PASS",
+  "model_parameter_identity_unchanged": true,
+  "runtime_seconds": 706.2355178534053,
+  "lambda_region": 0.0012344430664000732,
+  "calibration_SHA256": "c4746fb1ecdf005fe3896eea3647f802ec9fe80e656e9335d339209a08e2d556",
+  "records_redaction": {
+    "status": "SERVER_ONLY",
+    "record_count": 12,
+    "self_reference_count": 8,
+    "cross_reference_count": 4,
+    "full_protocol_SHA256": "684be26bb87a040fa155fe174e489588e42efb528121e335e0943b7eab5841b0",
+    "reason": "sample and reference identities are intentionally not published"
+  }
+}

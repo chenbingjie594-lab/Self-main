@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "formula": "min(0.02, r_unet, r_msdf)",
+  "region_weight_cap": 0.02,
+  "minimum_allowed_lambda": 1e-06,
+  "groups": {
+    "UNet": {
+      "parameter_group": "UNet",
+      "mean_base_gradient_norm": 0.32658314518419396,
+      "median_base_gradient_norm": 0.3606600666219426,
+      "mean_region_gradient_norm": 14.903916093343382,
+      "median_region_gradient_norm": 14.364373913111251,
+      "mean_cosine": 0.028156165207459994,
+      "median_cosine": 0.01465519125465373,
+      "negative_cosine_fraction": 0.25,
+      "positive_cosine_fraction": 0.75,
+      "valid_samples": 12,
+      "zero_gradient_samples": 0,
+      "nonfinite_gradient_samples": 0,
+      "ratio_base_over_region": 0.025107955891676272
+    },
+    "MSDF": {
+      "parameter_group": "MSDF",
+      "mean_base_gradient_norm": 0.00097329254579782,
+      "median_base_gradient_norm": 0.0009617077266567829,
+      "mean_region_gradient_norm": 0.9300397198564787,
+      "median_region_gradient_norm": 0.7790620343968955,
+      "mean_cosine": 0.5498254799766279,
+      "median_cosine": 0.5450294809016469,
+      "negative_cosine_fraction": 0.0,
+      "positive_cosine_fraction": 1.0,
+      "valid_samples": 12,
+      "zero_gradient_samples": 0,
+      "nonfinite_gradient_samples": 0,
+      "ratio_base_over_region": 0.0012344430664000732
+    }
+  },
+  "r_unet": 0.025107955891676272,
+  "r_msdf": 0.0012344430664000732,
+  "lambda_region": 0.0012344430664000732,
+  "full_precision_training_value": "0.0012344430664000732",
+  "sample_count": 12,
+  "self_reference_count": 8,
+  "cross_reference_count": 4,
+  "optimizer_steps": 0,
+  "repeated_forward_consistency": "PASS",
+  "model_parameter_identity_unchanged": true,
+  "checkpoint_tree_SHA256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+  "source_code_SHA256": {
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+    "train_rda.py": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/stage25_msdf_contract.py": "1348db26e16e4dec0b8bc301813c3b3aecc296ab111721849a879eaff5ed2f42",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "tools/qualify_plastic_bomo_stage20b_r0.py": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+    "tools/run_plastic_bomo_msdf_black_balanced_region.py": "c527a0f98f146447a31158fe94b7b31907d4397a273ab4d35a4a4e4352231f3a",
+    "configs/plastic_bomo_msdf_black_balanced_region.json": "8342087f68c63f4aa4668243dcf712aaf6d94e51970d629262ad8f8d5544c083"
+  },
+  "peak_GPU_memory_bytes": 8227476480,
+  "runtime_seconds": 706.2338959509507,
+  "completed_at": "2026-10-23T07:07:46.080682+00:00"
+}

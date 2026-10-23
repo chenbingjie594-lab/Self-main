@@ -1,0 +1,111 @@
+{
+  "status": "BALANCED_REGION_EXPLORATORY_IMPROVED",
+  "differences": {
+    "G3_BalancedRegion_minus_G1_Full_Black": {
+      "KID": {
+        "absolute": -0.02066516415246511,
+        "relative_percent": -25.816529442630838
+      },
+      "FID": {
+        "absolute": -20.795336036876392,
+        "relative_percent": -9.97479102290518
+      }
+    },
+    "G3_BalancedRegion_minus_G2_NoAux_Black": {
+      "KID": {
+        "absolute": -0.007886208396620964,
+        "relative_percent": -11.723688724655025
+      },
+      "FID": {
+        "absolute": -11.460031625611208,
+        "relative_percent": -5.754656966917205
+      }
+    },
+    "G3_BalancedRegion_minus_BackgroundOnly_Black": {
+      "KID": {
+        "absolute": -0.0016244879117182157,
+        "relative_percent": -2.662851547554148
+      },
+      "FID": {
+        "absolute": -4.283336237023889,
+        "relative_percent": -2.2312887854902574
+      }
+    },
+    "G3_BalancedRegion_minus_G0_Raw_Black": {
+      "KID": {
+        "absolute": 0.021407642926822422,
+        "relative_percent": 56.37529886671683
+      },
+      "FID": {
+        "absolute": 25.916653966648653,
+        "relative_percent": 16.02098455262072
+      }
+    },
+    "BalancedRegion_Hybrid_minus_Original_Adaptive_Overall": {
+      "KID": {
+        "absolute": -0.008246267800341316,
+        "relative_percent": -16.52836693941879
+      },
+      "FID": {
+        "absolute": -12.348836448128395,
+        "relative_percent": -7.478199882573549
+      }
+    },
+    "BalancedRegion_Hybrid_minus_NoAux_Hybrid_Overall": {
+      "KID": {
+        "absolute": -0.004248154116612987,
+        "relative_percent": -9.25655000858493
+      },
+      "FID": {
+        "absolute": -7.738051176955366,
+        "relative_percent": -4.820604442169827
+      }
+    },
+    "BalancedRegion_Hybrid_minus_BackgroundOnly_Hybrid_Overall": {
+      "KID": {
+        "absolute": -0.001299908558718213,
+        "relative_percent": -3.0268973648920423
+      },
+      "FID": {
+        "absolute": -2.12306836980747,
+        "relative_percent": -1.3705582917182049
+      }
+    },
+    "BalancedRegion_Hybrid_minus_Raw_Overall": {
+      "KID": {
+        "absolute": 0.0064227677496990765,
+        "relative_percent": 18.234806744086864
+      },
+      "FID": {
+        "absolute": 3.35479663484503,
+        "relative_percent": 2.2450998380105096
+      }
+    }
+  },
+  "answers": {
+    "BalancedRegion_better_than_BackgroundOnly_KID": true,
+    "BalancedRegion_better_than_BackgroundOnly_FID": true,
+    "BalancedRegion_better_than_Full_KID": true,
+    "BalancedRegion_better_than_Full_FID": true,
+    "Raw_Black_gap_change": {
+      "KID_gap_before": 0.023032130838540638,
+      "KID_gap_after": 0.021407642926822422,
+      "FID_gap_before": 30.19999020367254,
+      "FID_gap_after": 25.916653966648653
+    },
+    "hybrid_Overall_KID_improved_vs_original_adaptive": true,
+    "hybrid_Overall_FID_improved_vs_original_adaptive": true,
+    "gradient_conflict_mitigation_worth_studying": true
+  },
+  "interpretation_limit": "Bank A with V2 TRAIN references; possible checkpoint-training overlap; not independent validation.",
+  "random_trajectory_limit": "Experiment 10 records the initial adapter/UNet identities and RNG summaries. Experiment 11 reuses the same seed, sorted input order, epoch permutation and reference rule; different objective code execution means complete byte-for-byte RNG trajectory equivalence is audited but not assumed.",
+  "reporting_correction": {
+    "scope": "post-evaluation reporting-only correction",
+    "field": "answers.Raw_Black_gap_change before baseline",
+    "old_baseline": "MSDF-NoAux",
+    "correct_baseline": "MSDF-BackgroundOnly",
+    "metric_features_or_values_recomputed": false,
+    "training_source_SHA256": "c527a0f98f146447a31158fe94b7b31907d4397a273ab4d35a4a4e4352231f3a",
+    "public_runner_SHA256_after_fix": "748a90de4a9686920253f6bbfb333a5485c727fab00e6416f307f4287177f8a4"
+  }
+}

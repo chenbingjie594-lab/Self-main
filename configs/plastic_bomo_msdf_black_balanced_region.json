@@ -1,0 +1,34 @@
+{
+  "experiment": "Experiment 11 — Gradient-Balanced Region Supervision",
+  "base_commit": "c580c24d179ca3bc46f6cb31ccc44a8189c45cdd",
+  "class": "black",
+  "phase_a": {
+    "sample_count": 12,
+    "self_reference_count": 8,
+    "cross_reference_count": 4,
+    "sample_source": "Experiment 10 frozen gradient_probe_protocol.json",
+    "checkpoint": "Experiment 10 MSDF-BackgroundOnly Black final_step2000",
+    "formula": "lambda_region=min(0.02, median_norm_base_unet/median_norm_region_unet, median_norm_base_msdf/median_norm_region_msdf)",
+    "minimum_allowed_lambda": 1e-6,
+    "optimizer_steps": 0
+  },
+  "phase_b": {
+    "fresh_public_SD2_start": true,
+    "successful_optimizer_updates": 2000,
+    "seed": 42,
+    "morphology_alignment_enabled": true,
+    "injection_gamma": 1.0,
+    "fixed_auxiliary_loss_weights": {
+      "reconstruction": 0.0,
+      "structure": 0.0,
+      "background": 0.2,
+      "scale": 0.0,
+      "support": 0.0
+    },
+    "region_weight_source": "gradient_balance_calibration.json:lambda_region",
+    "optimized_objective": "conditional_loss + 0.20 * msdf_background_loss + lambda_region * msdf_region_loss",
+    "bank": "A",
+    "generation_count": 40
+  },
+  "independent_validation": false
+}
