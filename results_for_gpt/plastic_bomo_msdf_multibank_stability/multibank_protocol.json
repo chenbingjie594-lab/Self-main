@@ -1,0 +1,196 @@
+{
+  "status": "COMPLETE",
+  "experiment": "Experiment 12 — MSDF BalancedRegion Multi-Bank Stability",
+  "base_commit": "59a7b70436a5cd03fe7939fa8be758c57942d33b",
+  "banks": {
+    "A": 42,
+    "B": 3407,
+    "C": 2026
+  },
+  "slots_per_bank": {
+    "flash": 40,
+    "black": 40
+  },
+  "groups": {
+    "raw": "Raw SD2",
+    "original": "Original Class-Adaptive MSDF",
+    "background": "BackgroundOnly Hybrid",
+    "balanced": "BalancedRegion Hybrid"
+  },
+  "shared_flash_for_G1_G2_G3": "Stage25 Flash checkpoint with gamma=0",
+  "new_generation": {
+    "banks": [
+      "B",
+      "C"
+    ],
+    "groups": [
+      "flash_gamma0",
+      "background_only",
+      "balanced_region"
+    ],
+    "maximum_images": 240
+  },
+  "generation_protocol": {
+    "pipeline": "StableDiffusionInpaintPipeline; standard inpainting only; no magic/dynamic/task-guidance branches",
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "scheduler": "DDIMScheduler",
+    "scheduler_config": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "clip_sample": false,
+      "set_alpha_to_one": false,
+      "steps_offset": 1,
+      "prediction_type": "epsilon",
+      "thresholding": false,
+      "dynamic_thresholding_ratio": 0.995,
+      "clip_sample_range": 1.0,
+      "sample_max_value": 1.0,
+      "timestep_spacing": "leading",
+      "rescale_betas_zero_snr": false
+    },
+    "eta": 0.0,
+    "strength": 1.0,
+    "height": 512,
+    "width": 512,
+    "num_images_per_prompt": 1,
+    "negative_prompt": "",
+    "clip_skip": null,
+    "padding_mask_crop": null,
+    "precision": "fp16 inference; identical across banks",
+    "safety_checker": "disabled for industrial images; no safety-based sample replacement",
+    "ip_adapter": false,
+    "latent_or_prompt_embedding_override": false,
+    "batch_size": 1,
+    "generator_device": "CPU torch.Generator per slot; freshly seeded; record before/after state hashes at future runtime",
+    "xformers": false,
+    "TF32": false,
+    "output_encoding": "lossless RGB PNG for final full canvas; no JPEG re-encoding",
+    "checkpoint": "same newly trained V2 class final_step2000 checkpoint across banks, hash bound before ANY sampling",
+    "prompts": {
+      "flash": "a photo of a sks flash defect",
+      "black": "a photo of a sks black spot defect"
+    },
+    "geometry_policy": {
+      "crop_side": 512,
+      "crop_center": "bbox center; left=floor(cx-256), top=floor(cy-256)",
+      "crop_reposition": false,
+      "padding": "constant RGB(0,0,0) outside original canvas",
+      "resize": "none; 512x512 crop",
+      "mask": "L-mode rectangle, floor(left/top), ceil(right/bottom), exclusive right/bottom",
+      "mask_semantics": "white inpaint, black retain; weak bbox geometry NOT segmentation ground truth",
+      "output": "paste generated 512 patch into the same full normal canvas at fixed crop origin; ignore padded pixels, no blending or quality selection",
+      "synthetic_labels": "only frozen target bbox; background normal has no dataset-defined boxes"
+    },
+    "raw_output_policy": {
+      "allowed_checks": [
+        "file exists",
+        "decode valid",
+        "NaN/Inf",
+        "target geometry/annotation valid",
+        "pipeline structural failure"
+      ],
+      "all_successful_outputs_used": true,
+      "reroll": false,
+      "replacement_after_freeze": false,
+      "quality_selection": false,
+      "best_of_N": false,
+      "manual_filter": false,
+      "structural_failure_consequence": "stop formal comparison if any frozen slot fails; do not replace it or silently reduce 40/40"
+    }
+  },
+  "evaluation": {
+    "references": {
+      "flash": 75,
+      "black": 97,
+      "overall": 172
+    },
+    "ROI": "bbox plus 25 percent context; frozen floor/ceil clipping",
+    "Inception": "torch-fidelity inception-v3-compat 2048D; float32 extraction; float64 CPU metrics",
+    "KID": {
+      "subsets": 100,
+      "seed": 42,
+      "degree": 3,
+      "subset_size": "min(50,nreal,nfake)"
+    }
+  },
+  "Bank_A_regression": {
+    "status": "PASS",
+    "reuse_mode": "SHA-bound Experiment 7/10/11 features and metrics",
+    "expected": {
+      "Raw_Black_KID": 0.03797344467731272,
+      "Background_Black_KID": 0.06100557551585336,
+      "Balanced_Black_KID": 0.059381087604135144,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Background_Overall_KID": 0.04294524729498305,
+      "Background_Overall_FID": 154.90536831861988,
+      "Balanced_Overall_KID": 0.04164533873626484,
+      "Balanced_Overall_FID": 152.7822999488124
+    },
+    "actual": {
+      "Raw_Black_KID": 0.03797344467731272,
+      "Background_Black_KID": 0.06100557551585336,
+      "Balanced_Black_KID": 0.059381087604135144,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Background_Overall_KID": 0.04294524729498305,
+      "Background_Overall_FID": 154.90536831861988,
+      "Balanced_Overall_KID": 0.04164533873626484,
+      "Balanced_Overall_FID": 152.7822999488124
+    },
+    "feature_caches": {
+      "gamma_sweep_inception_features.npz": {
+        "sha256": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+        "shape": [
+          572,
+          2048
+        ]
+      },
+      "raw_bank_A_inception_features.npz": {
+        "sha256": "0387fb0cabf06a84a7951b9cb11ccb3a5663592f9d0ea7cb3f4b3eb5c48ac8fd",
+        "shape": null
+      },
+      "background_only_inception_features.npz": {
+        "sha256": "bf4bae32362efc2081121d3f1ad308dab773f4e1523730366abec4ee3edf106a",
+        "shape": [
+          40,
+          2048
+        ]
+      },
+      "balanced_region_inception_features.npz": {
+        "sha256": "e5b56055074c9ac66ee31ccf06c751324188da86995bfb1bfc7eb182ce4720db",
+        "shape": [
+          40,
+          2048
+        ]
+      }
+    }
+  },
+  "training_forbidden": true,
+  "calibration_forbidden": true,
+  "final_eval_read_or_used": false,
+  "new_generation_count": 240,
+  "feature_extraction_count": 480,
+  "conclusion": "MULTIBANK_MIXED",
+  "source_code_SHA256": {
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "tools/run_plastic_bomo_msdf_black_balanced_region.py": "748a90de4a9686920253f6bbfb333a5485c727fab00e6416f307f4287177f8a4",
+    "tools/run_plastic_bomo_msdf_black_gradient_background.py": "c22d88acafbec401dde39bc1134169c86cebdd3d971aeb09d98a9239d293e541",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "evaluation_execution_source_code_SHA256": {
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "7c712bce100722fb61904244ac551dfff5f362c751cb64877499f68c6e05f31a",
+    "tools/run_plastic_bomo_msdf_black_balanced_region.py": "748a90de4a9686920253f6bbfb333a5485c727fab00e6416f307f4287177f8a4",
+    "tools/run_plastic_bomo_msdf_black_gradient_background.py": "c22d88acafbec401dde39bc1134169c86cebdd3d971aeb09d98a9239d293e541",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "post_evaluation_reporting_update": "Added deterministic pooled deltas and recommendation from frozen CSVs; no metric recomputation or experimental change."
+}

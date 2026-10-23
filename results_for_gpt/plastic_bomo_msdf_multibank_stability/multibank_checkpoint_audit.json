@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "base_commit": "59a7b70436a5cd03fe7939fa8be758c57942d33b",
+  "checkpoints": {
+    "raw_flash": {
+      "tree_sha256": "77777ad1f5fb03d2fcd67facfd29dcc58882b8ed4faf94b518c0d10b8aa58e2e",
+      "unet_sha256": "ad932155d31e78f00bba7014714be907d861d824a7eeab1c9a64bca661afea6f",
+      "msdf_sha256": null,
+      "successful_updates": 2000
+    },
+    "raw_black": {
+      "tree_sha256": "204dd9a333312920e715d57447406b8ddc501949e32c76c8640995592e74203a",
+      "unet_sha256": "427afb4558e64b74f5cb3c5a3071d64189e9005e6914177a8c0f03f98a940343",
+      "msdf_sha256": null,
+      "successful_updates": 2000
+    },
+    "stage25_flash": {
+      "tree_sha256": "e62f83b1715567e22d8df28282ddbbebb106a3b709e0f34a54c28b342b5e3ec7",
+      "unet_sha256": "fc6dc14cd4bad0a87e2275122f3445e0b673fd71fbdbdcf178d58845768fe1f3",
+      "msdf_sha256": "20b1832b7b16d6f78131bf6c7ab4dcc999bb8a819eb99243c83c5bb286b0cbaf",
+      "successful_updates": 2000
+    },
+    "stage25_black": {
+      "tree_sha256": "dabfbe2ef795d468418c5582ca581117fa71b870366e1796978bae7396ff6fec",
+      "unet_sha256": "4f787616d648dc94579d53f800ff6bbcacb297c610835b21ab2629eda16add88",
+      "msdf_sha256": "f241c3a866fb9cfa094ea643819ea53e181cac4c3130e5eecdbd28e1d171375b",
+      "successful_updates": 2000
+    },
+    "background_black": {
+      "tree_sha256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+      "unet_sha256": "559a6caaa45ab298f93a8ec105894389d27c4574a11359aae5221c3f593df6a1",
+      "msdf_sha256": "6e0c39ab6870e0a411a8fde8463ca4df90fb8fbf6803eb2493dd363eb50122fc",
+      "successful_updates": 2000
+    },
+    "balanced_black": {
+      "tree_sha256": "9d3a37be15c3871b579fe83d6cce0332c17a8d5b500ebf576430e9548871b27a",
+      "unet_sha256": "4f387d20563507fbdf59607124e54c8923428a99ba3bb27836c3f96080f730b5",
+      "msdf_sha256": "9a6094c5019672e0347f2b29a8189c972ac2c64b08f795f7e8b6b14859f918c6",
+      "successful_updates": 2000
+    }
+  },
+  "balanced_training_weights": {
+    "region": 0.0012344430664000732,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.2,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "morphology_alignment_enabled": true,
+  "inference_gamma": {
+    "flash_gamma0": 0.0,
+    "original_black": 1.0,
+    "background_black": 1.0,
+    "balanced_black": 1.0
+  },
+  "historical_image_SHA256_checks": 480,
+  "historical_groups": {
+    "raw_A": 80,
+    "original_black_A": 40,
+    "raw_B": 80,
+    "original_black_B": 40,
+    "raw_C": 80,
+    "original_black_C": 40,
+    "flash_gamma0_A": 40,
+    "background_A": 40,
+    "balanced_A": 40
+  },
+  "source_code_SHA256": {
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "7c712bce100722fb61904244ac551dfff5f362c751cb64877499f68c6e05f31a",
+    "tools/run_plastic_bomo_msdf_black_balanced_region.py": "748a90de4a9686920253f6bbfb333a5485c727fab00e6416f307f4287177f8a4",
+    "tools/run_plastic_bomo_msdf_black_gradient_background.py": "c22d88acafbec401dde39bc1134169c86cebdd3d971aeb09d98a9239d293e541",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "completed_at": "2026-10-23T10:08:22.495427+00:00"
+}

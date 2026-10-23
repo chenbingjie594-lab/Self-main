@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE",
+  "count": 240,
+  "public_record_policy": "Per-sample identities, paths, images and labels remain server-only.",
+  "bank_seeds": {
+    "B": 3407,
+    "C": 2026
+  },
+  "counts": {
+    "background_only:B:black": 40,
+    "background_only:C:black": 40,
+    "balanced_region:B:black": 40,
+    "balanced_region:C:black": 40,
+    "flash_gamma0:B:flash": 40,
+    "flash_gamma0:C:flash": 40
+  },
+  "checkpoint_tree_SHA256_by_group": {
+    "background_only": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+    "balanced_region": "9d3a37be15c3871b579fe83d6cce0332c17a8d5b500ebf576430e9548871b27a",
+    "flash_gamma0": "e62f83b1715567e22d8df28282ddbbebb106a3b709e0f34a54c28b342b5e3ec7"
+  },
+  "all_outputs_retained": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "runtime_seconds": 1637.754615008831,
+  "server_full_manifest_SHA256": "9dc0e0942026604aea2115369b21d6f980823c5b56c01039297b443996b0d8b1"
+}

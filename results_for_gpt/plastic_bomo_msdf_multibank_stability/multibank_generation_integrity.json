@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "new_generation_records": 240,
+  "new_image_SHA256_checks": 240,
+  "bank_class_group_counts": {
+    "flash_gamma0:B:flash": 40,
+    "flash_gamma0:C:flash": 40,
+    "background_only:B:black": 40,
+    "background_only:C:black": 40,
+    "balanced_region:B:black": 40,
+    "balanced_region:C:black": 40
+  },
+  "same_slot_normal_bbox_prompt_seed_scheduler_steps_CFG_crop_paste": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "feature_input_checks": 480,
+  "feature_cache_SHA256": "64149b70ccbce9fab08867d91d2d7c26124b903c0df4d7b4c972678ec8a6d737",
+  "Bank_A_regression": "PASS",
+  "final_eval_read_or_used": false
+}

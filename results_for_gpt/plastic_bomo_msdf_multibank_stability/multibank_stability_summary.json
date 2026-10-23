@@ -1,0 +1,231 @@
+{
+  "status": "MULTIBANK_MIXED",
+  "primary_comparison": "BalancedRegion minus BackgroundOnly",
+  "B_C_wins": {
+    "Black_KID": {
+      "wins": 0,
+      "banks": 2,
+      "deltas": {
+        "B": 0.0040397289800604,
+        "C": 0.005317338803690355
+      }
+    },
+    "Black_FID": {
+      "wins": 1,
+      "banks": 2,
+      "deltas": {
+        "B": 2.6139360977428225,
+        "C": -2.6621259864911053
+      }
+    },
+    "Overall_KID": {
+      "wins": 0,
+      "banks": 2,
+      "deltas": {
+        "B": 0.0006746390709839525,
+        "C": 0.0017350732159664914
+      }
+    },
+    "Overall_FID": {
+      "wins": 1,
+      "banks": 2,
+      "deltas": {
+        "B": 1.526177960535648,
+        "C": -0.3592171492364855
+      }
+    }
+  },
+  "BalancedRegion_better_than_Raw": {
+    "Black": {
+      "KID": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "FID": {
+        "A": false,
+        "B": false,
+        "C": false
+      }
+    },
+    "Overall": {
+      "KID": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "FID": {
+        "A": false,
+        "B": false,
+        "C": false
+      }
+    }
+  },
+  "Bank_A_regression": {
+    "status": "PASS",
+    "reuse_mode": "SHA-bound Experiment 7/10/11 features and metrics",
+    "expected": {
+      "Raw_Black_KID": 0.03797344467731272,
+      "Background_Black_KID": 0.06100557551585336,
+      "Balanced_Black_KID": 0.059381087604135144,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Background_Overall_KID": 0.04294524729498305,
+      "Background_Overall_FID": 154.90536831861988,
+      "Balanced_Overall_KID": 0.04164533873626484,
+      "Balanced_Overall_FID": 152.7822999488124
+    },
+    "actual": {
+      "Raw_Black_KID": 0.03797344467731272,
+      "Background_Black_KID": 0.06100557551585336,
+      "Balanced_Black_KID": 0.059381087604135144,
+      "Raw_Overall_KID": 0.03522257098656576,
+      "Raw_Overall_FID": 149.42750331396738,
+      "Background_Overall_KID": 0.04294524729498305,
+      "Background_Overall_FID": 154.90536831861988,
+      "Balanced_Overall_KID": 0.04164533873626484,
+      "Balanced_Overall_FID": 152.7822999488124
+    },
+    "feature_caches": {
+      "gamma_sweep_inception_features.npz": {
+        "sha256": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+        "shape": [
+          572,
+          2048
+        ]
+      },
+      "raw_bank_A_inception_features.npz": {
+        "sha256": "0387fb0cabf06a84a7951b9cb11ccb3a5663592f9d0ea7cb3f4b3eb5c48ac8fd",
+        "shape": null
+      },
+      "background_only_inception_features.npz": {
+        "sha256": "bf4bae32362efc2081121d3f1ad308dab773f4e1523730366abec4ee3edf106a",
+        "shape": [
+          40,
+          2048
+        ]
+      },
+      "balanced_region_inception_features.npz": {
+        "sha256": "e5b56055074c9ac66ee31ccf06c751324188da86995bfb1bfc7eb182ce4720db",
+        "shape": [
+          40,
+          2048
+        ]
+      }
+    }
+  },
+  "pooled_is_recomputed_not_bank_average": true,
+  "KID_subset_std_interpretation": "internal 100-subset variation; not across-bank uncertainty or a 95% CI",
+  "research_boundary": "Three generation seeds over shared slots with V2 TRAIN references; not cross-dataset or independent-test validation.",
+  "pooled_comparisons": {
+    "A+B+C": {
+      "Black": {
+        "balanced_minus_background": {
+          "KID": {
+            "absolute_delta": 0.0026989671086194433,
+            "relative_percent": 4.311002360069264,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": -0.6659904876466669,
+            "relative_percent": -0.4019764532765948,
+            "improved": true
+          }
+        },
+        "balanced_minus_raw": {
+          "KID": {
+            "absolute_delta": 0.021667593364926428,
+            "relative_percent": 49.653198544584434,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": 20.44861696340007,
+            "relative_percent": 14.144990637889217,
+            "improved": false
+          }
+        }
+      },
+      "Overall": {
+        "balanced_minus_background": {
+          "KID": {
+            "absolute_delta": 0.00022655788088719875,
+            "relative_percent": 0.4849009053187987,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": -0.3733637430153749,
+            "relative_percent": -0.2702351487856341,
+            "improved": true
+          }
+        },
+        "balanced_minus_raw": {
+          "KID": {
+            "absolute_delta": 0.00853350269736234,
+            "relative_percent": 22.21365829205978,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": 4.361738792967969,
+            "relative_percent": 3.268996921734297,
+            "improved": false
+          }
+        }
+      }
+    },
+    "B+C": {
+      "Black": {
+        "balanced_minus_background": {
+          "KID": {
+            "absolute_delta": 0.004253769799126034,
+            "relative_percent": 7.0422071090044165,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": 0.7408754964326363,
+            "relative_percent": 0.4337768943150092,
+            "improved": false
+          }
+        },
+        "balanced_minus_raw": {
+          "KID": {
+            "absolute_delta": 0.02145839445559894,
+            "relative_percent": 49.673009003243415,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": 19.005360522413753,
+            "relative_percent": 12.459920564177779,
+            "improved": false
+          }
+        }
+      },
+      "Overall": {
+        "balanced_minus_background": {
+          "KID": {
+            "absolute_delta": 0.00114760839766289,
+            "relative_percent": 2.2484685446914585,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": 0.661306074934572,
+            "relative_percent": 0.46087748169932863,
+            "improved": false
+          }
+        },
+        "balanced_minus_raw": {
+          "KID": {
+            "absolute_delta": 0.011198970400751948,
+            "relative_percent": 27.3224284250228,
+            "improved": false
+          },
+          "FID": {
+            "absolute_delta": 5.188226789726059,
+            "relative_percent": 3.73356989083741,
+            "improved": false
+          }
+        }
+      }
+    }
+  },
+  "recommendation": "Do not promote BalancedRegion as a stable replacement or advance it alone to independent validation. Its Bank-A improvement did not reproduce in B/C: KID lost on both held-out banks, and B+C pooled Black/Overall KID and FID are all worse than BackgroundOnly. Preserve the frozen evidence and stop this Region-weight direction; a future authorized study should return to a training-level module ablation such as morphology guidance or dual-branch fusion before independent validation."
+}
