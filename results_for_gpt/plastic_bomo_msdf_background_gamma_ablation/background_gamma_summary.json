@@ -1,0 +1,88 @@
+{
+  "status": "RESIDUAL_INJECTION_CONSISTENT_BENEFIT",
+  "primary_comparison": "Gamma=1 minus Gamma=0",
+  "bank_wins": {
+    "Black_KID": {
+      "wins": 3,
+      "banks": 3,
+      "deltas": {
+        "A": -0.027908827076996177,
+        "B": -0.02540723399243036,
+        "C": -0.01935902378244113
+      }
+    },
+    "Black_FID": {
+      "wins": 3,
+      "banks": 3,
+      "deltas": {
+        "A": -23.608118242778772,
+        "B": -31.544979530751988,
+        "C": -15.942119238596547
+      }
+    },
+    "Overall_KID": {
+      "wins": 3,
+      "banks": 3,
+      "deltas": {
+        "A": -0.010586398063431104,
+        "B": -0.011351204600037995,
+        "C": -0.009159686628835699
+      }
+    },
+    "Overall_FID": {
+      "wins": 3,
+      "banks": 3,
+      "deltas": {
+        "A": -12.913357354251332,
+        "B": -14.872342604690004,
+        "C": -7.786467725204204
+      }
+    }
+  },
+  "B_C_pooled_Black_both_improved": true,
+  "pooled_deltas": {
+    "A+B+C:Black:KID": {
+      "absolute_delta": -0.023439767101768164,
+      "relative_percent": -27.2408921166802,
+      "improved": true
+    },
+    "A+B+C:Black:FID": {
+      "absolute_delta": -21.84918906925722,
+      "relative_percent": -11.651150425657502,
+      "improved": true
+    },
+    "A+B+C:Overall:KID": {
+      "absolute_delta": -0.010126490308842953,
+      "relative_percent": -17.812960650152878,
+      "improved": true
+    },
+    "A+B+C:Overall:FID": {
+      "absolute_delta": -10.855687238607288,
+      "relative_percent": -7.284805025326035,
+      "improved": true
+    },
+    "B+C:Black:KID": {
+      "absolute_delta": -0.023064479939501434,
+      "relative_percent": -27.632585987868485,
+      "improved": true
+    },
+    "B+C:Black:FID": {
+      "absolute_delta": -22.4591266927294,
+      "relative_percent": -11.621464253781191,
+      "improved": true
+    },
+    "B+C:Overall:KID": {
+      "absolute_delta": -0.00965554817445504,
+      "relative_percent": -15.908281324394013,
+      "improved": true
+    },
+    "B+C:Overall:FID": {
+      "absolute_delta": -10.95555825781301,
+      "relative_percent": -7.09354576699582,
+      "improved": true
+    }
+  },
+  "interpretation_boundary": "Inference-time final residual ablation on one trained model; not a training-level MSDF or branch ablation.",
+  "gamma0_is_not_Raw_SD2": true,
+  "research_boundary": "A/B/C share slots and V2 TRAIN references; not independent-test or cross-dataset validation."
+}

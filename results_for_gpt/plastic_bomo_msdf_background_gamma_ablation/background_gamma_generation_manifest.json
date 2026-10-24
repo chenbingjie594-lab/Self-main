@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "count": 120,
+  "public_record_policy": "Per-sample identities, paths, images, labels, RNG states and SHA records remain server-only.",
+  "bank_seeds": {
+    "A": 42,
+    "B": 3407,
+    "C": 2026
+  },
+  "counts": {
+    "A:black": 40,
+    "B:black": 40,
+    "C:black": 40
+  },
+  "checkpoint_tree_SHA256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+  "msdf_checkpoint_SHA256": "6e0c39ab6870e0a411a8fde8463ca4df90fb8fbf6803eb2493dd363eb50122fc",
+  "all_outputs_retained": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "runtime_seconds": 1423.6256936709397,
+  "server_full_manifest_SHA256": "04cd3d85ada0a13c46a09b5489c4b8725e3587fb4b722eed4d2d6418e7fa77bc"
+}

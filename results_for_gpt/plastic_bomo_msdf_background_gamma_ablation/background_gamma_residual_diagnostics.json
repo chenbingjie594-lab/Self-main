@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "samples": 6,
+  "gamma": 1.0,
+  "read_only_hooks": true,
+  "does_not_imply_quality_benefit": true,
+  "blocks": {
+    "0": {
+      "observations": 300,
+      "residual_l2_min": 0.00033911436912603676,
+      "residual_l2_max": 0.6994059085845947,
+      "relative_l2_min": 2.972491233348627e-07,
+      "relative_l2_max": 0.0007281224241296754,
+      "dynamic_gate_min": 0.41102054715156555,
+      "dynamic_gate_max": 0.42385685443878174,
+      "max_abs_residual_to_bound": 0.6114911437034607,
+      "near_bound_fraction_max": 0.0,
+      "all_finite": true
+    },
+    "1": {
+      "observations": 300,
+      "residual_l2_min": 2.4169230461120605,
+      "residual_l2_max": 19.303810119628906,
+      "relative_l2_min": 0.00022604274025223752,
+      "relative_l2_max": 0.0020677940001348595,
+      "dynamic_gate_min": 0.6654601693153381,
+      "dynamic_gate_max": 0.6674826741218567,
+      "max_abs_residual_to_bound": 0.8644537925720215,
+      "near_bound_fraction_max": 0.0,
+      "all_finite": true
+    },
+    "2": {
+      "observations": 300,
+      "residual_l2_min": 12.028460502624512,
+      "residual_l2_max": 26.205121994018555,
+      "relative_l2_min": 0.0016837634956380868,
+      "relative_l2_max": 0.003859109704223196,
+      "dynamic_gate_min": 0.75,
+      "dynamic_gate_max": 0.75,
+      "max_abs_residual_to_bound": 1.010060429573059,
+      "near_bound_fraction_max": 3.604888843256049e-05,
+      "all_finite": true
+    },
+    "3": {
+      "observations": 300,
+      "residual_l2_min": 3.4650485515594482,
+      "residual_l2_max": 9.76050090789795,
+      "relative_l2_min": 0.000773537137137158,
+      "relative_l2_max": 0.0035585051402603407,
+      "dynamic_gate_min": 0.5758329629898071,
+      "dynamic_gate_max": 0.6317384243011475,
+      "max_abs_residual_to_bound": 1.0075149536132812,
+      "near_bound_fraction_max": 3.24249267578125e-05,
+      "all_finite": true
+    }
+  }
+}

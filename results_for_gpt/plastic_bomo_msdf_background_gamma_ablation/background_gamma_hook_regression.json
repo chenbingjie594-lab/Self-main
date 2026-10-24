@@ -1,0 +1,17 @@
+{
+  "status": "CPU_HOOK_PASS",
+  "gamma_0_bitwise_equal_hidden": true,
+  "gamma_0_max_abs_difference": 0.0,
+  "gamma_1_bitwise_equal_historical_formula": true,
+  "gamma_1_max_abs_difference": 0.0,
+  "parameters_unchanged": true,
+  "morphology_and_branch_state_unchanged": true,
+  "gamma_is_not_in_state_dict": true,
+  "end_to_end": "PASS",
+  "end_to_end_exact_PNG_banks": 3,
+  "diagnostic_samples": 6,
+  "runtime_branch_state": "PASS",
+  "checkpoint_unchanged": true,
+  "public_record_policy": "Per-slot IDs, seeds and image/RNG SHA records remain server-only.",
+  "server_full_hook_audit_SHA256": "136b1f54285a6ad6046714743fa2335a2f7d95b8f3fe85fadd3a946308fb66c2"
+}
