@@ -1,0 +1,335 @@
+{
+  "status": "MAX_SUPPORT_POOLED_IMPROVED_NOT_CONSISTENT",
+  "primary_scope": "B+C pooled Black",
+  "bankwise_all_KID_FID_improved": false,
+  "BC_pooled_both_improved": true,
+  "primary_metrics": {
+    "raw": {
+      "KID": 0.04319930458450344,
+      "FID": 152.53195575784076
+    },
+    "mean": {
+      "KID": 0.060403929240976345,
+      "FID": 170.79644078382188
+    },
+    "max": {
+      "KID": 0.059858012137067214,
+      "FID": 167.71974576026912
+    },
+    "f0s1": {
+      "KID": 0.06002073872588497,
+      "FID": 171.76053620867162
+    },
+    "f1s0": {
+      "KID": 0.06305568624585428,
+      "FID": 179.7531362735299
+    }
+  },
+  "comparisons": {
+    "max_minus_mean_BC_Black": {
+      "KID": {
+        "first": 0.059858012137067214,
+        "second": 0.060403929240976345,
+        "absolute_delta": -0.0005459171039091312,
+        "relative_percent": -0.9037774707192331,
+        "first_is_better": true
+      },
+      "FID": {
+        "first": 167.71974576026912,
+        "second": 170.79644078382188,
+        "absolute_delta": -3.076695023552759,
+        "relative_percent": -1.8013812286913817,
+        "first_is_better": true
+      }
+    },
+    "max_minus_raw_BC_Black": {
+      "KID": {
+        "first": 0.059858012137067214,
+        "second": 0.04319930458450344,
+        "absolute_delta": 0.016658707552563774,
+        "relative_percent": 38.56244380040235,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 167.71974576026912,
+        "second": 152.53195575784076,
+        "absolute_delta": 15.187790002428358,
+        "relative_percent": 9.957120084751582,
+        "first_is_better": false
+      }
+    },
+    "max_minus_mean_ABC_Black": {
+      "KID": {
+        "first": 0.061262469989306644,
+        "second": 0.06260648645472046,
+        "absolute_delta": -0.001344016465413815,
+        "relative_percent": -2.1467687160273115,
+        "first_is_better": true
+      },
+      "FID": {
+        "first": 162.53171954945344,
+        "second": 165.6789800044351,
+        "absolute_delta": -3.147260454981648,
+        "relative_percent": -1.8996136111517579,
+        "first_is_better": true
+      }
+    },
+    "max_minus_mean_BC_Overall": {
+      "KID": {
+        "first": 0.05036904543866704,
+        "second": 0.05103955758564407,
+        "absolute_delta": -0.0006705121469770259,
+        "relative_percent": -1.3137107347607992,
+        "first_is_better": true
+      },
+      "FID": {
+        "first": 142.89237171894007,
+        "second": 143.48847604708985,
+        "absolute_delta": -0.596104328149778,
+        "relative_percent": -0.4154370752074538,
+        "first_is_better": true
+      }
+    },
+    "max_minus_raw_BC_Overall": {
+      "KID": {
+        "first": 0.05036904543866704,
+        "second": 0.04098819558255501,
+        "absolute_delta": 0.009380849856112032,
+        "relative_percent": 22.88671097320668,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 142.89237171894007,
+        "second": 138.96155533229836,
+        "absolute_delta": 3.930816386641709,
+        "relative_percent": 2.8287078229960505,
+        "first_is_better": false
+      }
+    },
+    "max_minus_mean_ABC_Overall": {
+      "KID": {
+        "first": 0.045962896164320935,
+        "second": 0.04672251142493702,
+        "absolute_delta": -0.0007596152606160825,
+        "relative_percent": -1.6258014337188562,
+        "first_is_better": true
+      },
+      "FID": {
+        "first": 137.37456251233482,
+        "second": 138.1625390676134,
+        "absolute_delta": -0.7879765552785898,
+        "relative_percent": -0.570325763116566,
+        "first_is_better": true
+      }
+    }
+  },
+  "diagnostic_group_means": {
+    "mean": {
+      "reference_support_mean": 0.0012892896629637107,
+      "reference_support_max": 0.9442618787288666,
+      "reference_support_area": 0.00146484375,
+      "aligned_support_area": 0.0008544921875,
+      "final_support_area": 0.0037841796875,
+      "aligned_support_mean": 0.0004020901396870613,
+      "final_support_mean": 0.0008371004223590717,
+      "source_bbox_width_mean": 3.0,
+      "source_bbox_height_mean": 2.0,
+      "occupied_ratio_mean": 0.41375911235809326,
+      "placed_width_mean": 2.5,
+      "placed_height_mean": 1.5,
+      "target_fit_trigger_count": 300,
+      "occupied_lower_trigger_count": 0,
+      "occupied_upper_trigger_count": 0,
+      "residual_l2_mean": 5.870427827701266,
+      "relative_residual_l2_mean": 0.0009520265556733197,
+      "near_tanh_fraction_mean": 4.654328095578345e-06,
+      "up_blocks": {
+        "0": {
+          "dynamic_gate_mean": 0.4108529579639435,
+          "residual_l2_mean": 0.0006105127545015421,
+          "relative_residual_l2_mean": 5.631556024080284e-07,
+          "near_tanh_fraction_mean": 0.0
+        },
+        "1": {
+          "dynamic_gate_mean": 0.6669062289595604,
+          "residual_l2_mean": 4.280252406994502,
+          "relative_residual_l2_mean": 0.0004156988837858459,
+          "near_tanh_fraction_mean": 0.0
+        },
+        "2": {
+          "dynamic_gate_mean": 0.75,
+          "residual_l2_mean": 13.819327271779379,
+          "relative_residual_l2_mean": 0.002028041169824854,
+          "near_tanh_fraction_mean": 1.4733314728800905e-05
+        },
+        "3": {
+          "dynamic_gate_mean": 0.6376638129353523,
+          "residual_l2_mean": 5.381521119276683,
+          "relative_residual_l2_mean": 0.0013638030134801751,
+          "near_tanh_fraction_mean": 3.8839976535124755e-06
+        }
+      }
+    },
+    "max": {
+      "reference_support_mean": 0.0013580549566540867,
+      "reference_support_max": 0.9830782115459442,
+      "reference_support_area": 0.00146484375,
+      "aligned_support_area": 0.0008544921875,
+      "final_support_area": 0.0037841796875,
+      "aligned_support_mean": 0.00043141986679984257,
+      "final_support_mean": 0.0008956281380960718,
+      "source_bbox_width_mean": 3.0,
+      "source_bbox_height_mean": 2.0,
+      "occupied_ratio_mean": 0.4424406886100769,
+      "placed_width_mean": 2.5,
+      "placed_height_mean": 1.5,
+      "target_fit_trigger_count": 300,
+      "occupied_lower_trigger_count": 0,
+      "occupied_upper_trigger_count": 0,
+      "residual_l2_mean": 6.37550572549153,
+      "relative_residual_l2_mean": 0.0010305054574370886,
+      "near_tanh_fraction_mean": 6.367762977485351e-06,
+      "up_blocks": {
+        "0": {
+          "dynamic_gate_mean": 0.41086665660142896,
+          "residual_l2_mean": 0.0006590797443641349,
+          "relative_residual_l2_mean": 6.077106430823446e-07,
+          "near_tanh_fraction_mean": 0.0
+        },
+        "1": {
+          "dynamic_gate_mean": 0.6669108748435975,
+          "residual_l2_mean": 4.858904621601105,
+          "relative_residual_l2_mean": 0.0004713836587912738,
+          "near_tanh_fraction_mean": 0.0
+        },
+        "2": {
+          "dynamic_gate_mean": 0.75,
+          "residual_l2_mean": 14.80692182858785,
+          "relative_residual_l2_mean": 0.002173257893745817,
+          "near_tanh_fraction_mean": 1.9398053791519487e-05
+        },
+        "3": {
+          "dynamic_gate_mean": 0.6375895130634308,
+          "residual_l2_mean": 5.835537372032801,
+          "relative_residual_l2_mean": 0.0014767725665681857,
+          "near_tanh_fraction_mean": 6.072998118421917e-06
+        }
+      }
+    }
+  },
+  "boundary": "Frozen-model inference formula intervention; morphology placement and residuals may change downstream. Development evidence only.",
+  "required_answers": {
+    "1_max_support_executed": {
+      "answer": true,
+      "evidence": "CPU exact torch.maximum check plus 120/120 formal Max images"
+    },
+    "2_mean_historical_regression": {
+      "answer": "PASS",
+      "strict_SHA256_passes": "3/3"
+    },
+    "3_reference_support_response": {
+      "answer": "increased intensity, unchanged thresholded area",
+      "mean_delta_percent": 5.333579851427972
+    },
+    "4_source_bbox_effect": {
+      "answer": "unchanged",
+      "mean_width": 3.0,
+      "mean_height": 2.0
+    },
+    "5_occupied_ratio_effect": {
+      "answer": "increased",
+      "mean": 0.41375911235809326,
+      "max": 0.4424406886100769
+    },
+    "6_aligned_support_effect": {
+      "answer": "thresholded area unchanged; mean intensity increased",
+      "mean_area": 0.0008544921875,
+      "max_area": 0.0008544921875,
+      "mean_intensity": 0.0004020901396870613,
+      "max_intensity": 0.00043141986679984257
+    },
+    "7_up_block_residual_effect": {
+      "0": {
+        "mean_residual_l2": 0.0006105127545015421,
+        "max_residual_l2": 0.0006590797443641349,
+        "relative_change_percent": 7.955114697357257
+      },
+      "1": {
+        "mean_residual_l2": 4.280252406994502,
+        "max_residual_l2": 4.858904621601105,
+        "relative_change_percent": 13.519114285433442
+      },
+      "2": {
+        "mean_residual_l2": 13.819327271779379,
+        "max_residual_l2": 14.80692182858785,
+        "relative_change_percent": 7.146473467093073
+      },
+      "3": {
+        "mean_residual_l2": 5.381521119276683,
+        "max_residual_l2": 5.835537372032801,
+        "relative_change_percent": 8.436578482054568
+      }
+    },
+    "8_black_KID_better_than_mean": {
+      "BC_pooled": true,
+      "banks": {
+        "A": true,
+        "B": false,
+        "C": true
+      }
+    },
+    "9_black_FID_better_than_mean": {
+      "BC_pooled": true,
+      "banks": {
+        "A": true,
+        "B": true,
+        "C": true
+      }
+    },
+    "10_BC_direction_consistent": {
+      "answer": false,
+      "reason": "B Black KID worsened while B FID and both C metrics improved"
+    },
+    "11_overall_improved": {
+      "BC_pooled_KID": true,
+      "BC_pooled_FID": true
+    },
+    "12_raw_gap": {
+      "BC_Black": {
+        "KID": {
+          "first": 0.059858012137067214,
+          "second": 0.04319930458450344,
+          "absolute_delta": 0.016658707552563774,
+          "relative_percent": 38.56244380040235,
+          "first_is_better": false
+        },
+        "FID": {
+          "first": 167.71974576026912,
+          "second": 152.53195575784076,
+          "absolute_delta": 15.187790002428358,
+          "relative_percent": 9.957120084751582,
+          "first_is_better": false
+        }
+      },
+      "BC_Overall": {
+        "KID": {
+          "first": 0.05036904543866704,
+          "second": 0.04098819558255501,
+          "absolute_delta": 0.009380849856112032,
+          "relative_percent": 22.88671097320668,
+          "first_is_better": false
+        },
+        "FID": {
+          "first": 142.89237171894007,
+          "second": 138.96155533229836,
+          "absolute_delta": 3.930816386641709,
+          "relative_percent": 2.8287078229960505,
+          "first_is_better": false
+        }
+      }
+    },
+    "13_better_formula": "Max-Support on pooled development metrics, without full bankwise consistency",
+    "14_adaptive_support_followup": "Supported as a research question because Max helps pooled metrics but is not uniformly better by bank",
+    "15_training_level_validation": "Worth a bounded next-round candidate comparison; do not promote as default before independent validation"
+  }
+}

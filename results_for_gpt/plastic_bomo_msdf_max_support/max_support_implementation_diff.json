@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "core_source_modified": false,
+  "core_source_SHA256": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+  "experiment16_prepare_reused": true,
+  "single_intervention": "reference_support passed to _align_reference: mean -> torch.maximum(fused_support, pixel_support)",
+  "upstream_outputs_modified": false,
+  "morphology_algorithm_modified": false,
+  "gate_or_residual_formula_modified": false,
+  "new_trainable_parameters": 0,
+  "checkpoint_format_modified": false
+}

@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "modes": {
+    "mean": {
+      "reference": {
+        "l2": 0.35760876536369324,
+        "mean": 0.016762910410761833,
+        "max": 0.11920291930437088,
+        "min": 0.0,
+        "area": 0.140625,
+        "finite": true
+      },
+      "pixel_encoded": {
+        "l2": 12.823192596435547,
+        "mean": 0.17480210959911346,
+        "max": 3.497234344482422,
+        "min": -0.27845925092697144,
+        "area": 0.48828125,
+        "finite": true
+      },
+      "latent_encoded": {
+        "l2": 8.738237380981445,
+        "mean": -0.039510831236839294,
+        "max": 1.4528326988220215,
+        "min": -1.6457993984222412,
+        "area": 0.3984375,
+        "finite": true
+      },
+      "fusion_output": {
+        "l2": 11.499117851257324,
+        "mean": 0.18127228319644928,
+        "max": 3.213291645050049,
+        "min": -0.2784214913845062,
+        "area": 0.54296875,
+        "finite": true
+      },
+      "pixel_support": {
+        "l2": 0.35760876536369324,
+        "mean": 0.016762910410761833,
+        "max": 0.11920291930437088,
+        "min": 0.0,
+        "area": 0.140625,
+        "finite": true
+      },
+      "fused_support": {
+        "l2": 0.35760876536369324,
+        "mean": 0.016762910410761833,
+        "max": 0.11920291930437088,
+        "min": 0.0,
+        "area": 0.140625,
+        "finite": true
+      }
+    },
+    "max": {
+      "reference": {
+        "l2": 0.35760876536369324,
+        "mean": 0.016762910410761833,
+        "max": 0.11920291930437088,
+        "min": 0.0,
+        "area": 0.140625,
+        "finite": true
+      },
+      "pixel_encoded": {
+        "l2": 12.823192596435547,
+        "mean": 0.17480210959911346,
+        "max": 3.497234344482422,
+        "min": -0.27845925092697144,
+        "area": 0.48828125,
+        "finite": true
+      },
+      "latent_encoded": {
+        "l2": 8.738237380981445,
+        "mean": -0.039510831236839294,
+        "max": 1.4528326988220215,
+        "min": -1.6457993984222412,
+        "area": 0.3984375,
+        "finite": true
+      },
+      "fusion_output": {
+        "l2": 11.499117851257324,
+        "mean": 0.18127228319644928,
+        "max": 3.213291645050049,
+        "min": -0.2784214913845062,
+        "area": 0.54296875,
+        "finite": true
+      },
+      "pixel_support": {
+        "l2": 0.35760876536369324,
+        "mean": 0.016762910410761833,
+        "max": 0.11920291930437088,
+        "min": 0.0,
+        "area": 0.140625,
+        "finite": true
+      },
+      "fused_support": {
+        "l2": 0.35760876536369324,
+        "mean": 0.016762910410761833,
+        "max": 0.11920291930437088,
+        "min": 0.0,
+        "area": 0.140625,
+        "finite": true
+      }
+    }
+  },
+  "upstream_tensors_bitwise_equal": true,
+  "mean_formula_exact": true,
+  "max_formula_exact": true,
+  "max_ge_mean_everywhere": true,
+  "max_range_0_1": true,
+  "reference_mask_exterior_zero": true,
+  "pixel_and_latent_enabled": true,
+  "morphology_alignment": true,
+  "gamma": 1.0,
+  "parameters_unchanged": true,
+  "optimizer_steps": 0,
+  "boundary": "Post-alignment support is not required to remain pixelwise monotonic."
+}

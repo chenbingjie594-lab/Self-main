@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checkpoint_tree_SHA256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+  "msdf_checkpoint_SHA256": "6e0c39ab6870e0a411a8fde8463ca4df90fb8fbf6803eb2493dd363eb50122fc",
+  "unet_SHA256": "559a6caaa45ab298f93a8ec105894389d27c4574a11359aae5221c3f593df6a1",
+  "successful_updates": 2000,
+  "training_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.2,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "checkpoint_file_count": 13,
+  "checkpoint_file_sizes": {
+    "model_index.json": 544,
+    "msdf.pt": 1364454,
+    "scheduler/scheduler_config.json": 308,
+    "text_encoder/config.json": 638,
+    "text_encoder/model.safetensors": 1361597018,
+    "tokenizer/merges.txt": 524619,
+    "tokenizer/special_tokens_map.json": 460,
+    "tokenizer/tokenizer_config.json": 829,
+    "tokenizer/vocab.json": 1059962,
+    "unet/config.json": 914,
+    "unet/diffusion_pytorch_model.safetensors": 3463784120,
+    "vae/config.json": 616,
+    "vae/diffusion_pytorch_model.safetensors": 334643276
+  },
+  "actual_server_file_SHA256_recomputed": true,
+  "history_SHA_checks": {
+    "A": {
+      "raw": 80,
+      "gamma0_black": 40,
+      "full_black": 40,
+      "shared_flash": 40
+    },
+    "B": {
+      "raw": 80,
+      "gamma0_black": 40,
+      "full_black": 40,
+      "shared_flash": 40
+    },
+    "C": {
+      "raw": 80,
+      "gamma0_black": 40,
+      "full_black": 40,
+      "shared_flash": 40
+    }
+  },
+  "completed_at": "2026-10-25T08:43:40.675075+00:00",
+  "source_code_SHA256_at_audit": {
+    "tools/run_plastic_bomo_msdf_max_support.py": "759133e18832984a2947860f4ef7a6999ac13209e1547f9d97c7d4a048f38710",
+    "tools/run_plastic_bomo_msdf_fusion_support_decoupling.py": "b75666b7f6c430b9bc2621a73d1d8aa9119d20bae582e245ff7c1a847237d437",
+    "tools/run_plastic_bomo_msdf_branch_ablation.py": "8aba3f10093c997d542803f0b3207e458e9fb9d7bb0b3e5543b67b350de90bf2",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "source_code_SHA256_final": {
+    "tools/run_plastic_bomo_msdf_max_support.py": "b71cc68904222e32184747c8b81ddc901c821bc4d5213955f84aa67b68062c21",
+    "tools/run_plastic_bomo_msdf_fusion_support_decoupling.py": "a51eabbbcee8794fd0281a7f2d6e373fed4a6d36ec3d3012f3278b5e62c37fcb",
+    "tools/run_plastic_bomo_msdf_branch_ablation.py": "8aba3f10093c997d542803f0b3207e458e9fb9d7bb0b3e5543b67b350de90bf2",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "post_audit_source_changes": "Reporting and comma-free method labels only; inference intervention unchanged"
+}

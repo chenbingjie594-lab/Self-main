@@ -10,8 +10,8 @@
     "gamma0": "BackgroundOnly Gamma=0",
     "f1s1": "F1S1 Full Dual-Branch",
     "f0s0": "F0S0 LatentOnly",
-    "f0s1": "F0S1 Pixel Support Only",
-    "f1s0": "F1S0 Pixel Fusion Only"
+    "f0s1": "F0S1 (Pixel Feature OFF; Support ON)",
+    "f1s0": "F1S0 (Pixel Feature ON; Support OFF)"
   },
   "factor_controls": {
     "f1s1": {
@@ -151,13 +151,6 @@
   "training_forbidden": true,
   "final_eval_read_or_used": false,
   "conclusion": "PIXEL_SUPPORT_PATH_PROMISING",
-  "source_code_SHA256": {
-    "tools/run_plastic_bomo_msdf_fusion_support_decoupling.py": "b75666b7f6c430b9bc2621a73d1d8aa9119d20bae582e245ff7c1a847237d437",
-    "tools/run_plastic_bomo_msdf_branch_ablation.py": "8aba3f10093c997d542803f0b3207e458e9fb9d7bb0b3e5543b67b350de90bf2",
-    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
-    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
-    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
-  },
   "metric_runtime": {
     "status": "FROZEN_BEFORE_METRICS",
     "device": "cuda:0",
@@ -206,5 +199,20 @@
     "autocast": false,
     "network_downloads": 0
   },
-  "completed_at": "2026-10-25T08:10:49.347678+00:00"
+  "completed_at": "2026-10-25T08:10:49.347678+00:00",
+  "source_code_SHA256_at_evaluation": {
+    "tools/run_plastic_bomo_msdf_fusion_support_decoupling.py": "b75666b7f6c430b9bc2621a73d1d8aa9119d20bae582e245ff7c1a847237d437",
+    "tools/run_plastic_bomo_msdf_branch_ablation.py": "8aba3f10093c997d542803f0b3207e458e9fb9d7bb0b3e5543b67b350de90bf2",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "source_code_SHA256": {
+    "tools/run_plastic_bomo_msdf_fusion_support_decoupling.py": "a51eabbbcee8794fd0281a7f2d6e373fed4a6d36ec3d3012f3278b5e62c37fcb",
+    "tools/run_plastic_bomo_msdf_branch_ablation.py": "8aba3f10093c997d542803f0b3207e458e9fb9d7bb0b3e5543b67b350de90bf2",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "post_evaluation_source_changes": "Comma-free display labels only; generated images and metrics unchanged"
 }

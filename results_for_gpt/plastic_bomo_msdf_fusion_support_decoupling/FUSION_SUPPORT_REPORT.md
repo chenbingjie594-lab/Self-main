@@ -12,20 +12,20 @@ This is a frozen-checkpoint 2×2 inference intervention. F controls the direct p
 | A | BackgroundOnly Gamma=0 | 0.0889144026 | 215.575033 |
 | A | F1S1 Full Dual-Branch | 0.0610055755 | 191.966915 |
 | A | F0S0 LatentOnly | 0.0682713123 | 198.444827 |
-| A | F0S1 (Pixel Feature OFF, Support ON) | 0.0618318202 | 195.641516 |
-| A | F1S0 (Pixel Feature ON, Support OFF) | 0.0700751724 | 197.993778 |
+| A | F0S1 (Pixel Feature OFF; Support ON) | 0.0618318202 | 195.641516 |
+| A | F1S0 (Pixel Feature ON; Support OFF) | 0.0700751724 | 197.993778 |
 | B | Raw SD2 | 0.0451930130 | 172.446636 |
 | B | BackgroundOnly Gamma=0 | 0.0843191988 | 214.712135 |
 | B | F1S1 Full Dual-Branch | 0.0589119648 | 183.167155 |
 | B | F0S0 LatentOnly | 0.0696429198 | 205.816954 |
-| B | F0S1 (Pixel Feature OFF, Support ON) | 0.0597471269 | 185.239525 |
-| B | F1S0 (Pixel Feature ON, Support OFF) | 0.0620360040 | 201.988711 |
+| B | F0S1 (Pixel Feature OFF; Support ON) | 0.0597471269 | 185.239525 |
+| B | F1S0 (Pixel Feature ON; Support OFF) | 0.0620360040 | 201.988711 |
 | C | Raw SD2 | 0.0396594895 | 163.039112 |
 | C | BackgroundOnly Gamma=0 | 0.0819206051 | 208.363846 |
 | C | F1S1 Full Dual-Branch | 0.0625615813 | 192.421727 |
 | C | F0S0 LatentOnly | 0.0630567467 | 196.419812 |
-| C | F0S1 (Pixel Feature OFF, Support ON) | 0.0614769226 | 193.289073 |
-| C | F1S0 (Pixel Feature ON, Support OFF) | 0.0644988162 | 195.644068 |
+| C | F0S1 (Pixel Feature OFF; Support ON) | 0.0614769226 | 193.289073 |
+| C | F1S0 (Pixel Feature ON; Support OFF) | 0.0644988162 | 195.644068 |
 
 ## Bankwise Overall
 
@@ -35,20 +35,20 @@ This is a frozen-checkpoint 2×2 inference intervention. F controls the direct p
 | A | BackgroundOnly Gamma=0 | 0.0535316454 | 167.818726 |
 | A | F1S1 Full Dual-Branch | 0.0429452473 | 154.905368 |
 | A | F0S0 LatentOnly | 0.0454889221 | 157.798422 |
-| A | F0S1 (Pixel Feature OFF, Support ON) | 0.0427888648 | 156.286384 |
-| A | F1S0 (Pixel Feature ON, Support OFF) | 0.0465731625 | 158.047760 |
+| A | F0S1 (Pixel Feature OFF; Support ON) | 0.0427888648 | 156.286384 |
+| A | F1S0 (Pixel Feature ON; Support OFF) | 0.0465731625 | 158.047760 |
 | B | Raw SD2 | 0.0364288648 | 153.024285 |
 | B | BackgroundOnly Gamma=0 | 0.0587844988 | 170.261286 |
 | B | F1S1 Full Dual-Branch | 0.0474332942 | 155.388943 |
 | B | F0S0 LatentOnly | 0.0518532680 | 164.536917 |
-| B | F0S1 (Pixel Feature OFF, Support ON) | 0.0477423291 | 156.018769 |
-| B | F1S0 (Pixel Feature ON, Support OFF) | 0.0481763959 | 162.645804 |
+| B | F0S1 (Pixel Feature OFF; Support ON) | 0.0477423291 | 156.018769 |
+| B | F1S0 (Pixel Feature ON; Support OFF) | 0.0481763959 | 162.645804 |
 | C | Raw SD2 | 0.0403267710 | 152.163042 |
 | C | BackgroundOnly Gamma=0 | 0.0579059031 | 166.153269 |
 | C | F1S1 Full Dual-Branch | 0.0487462165 | 158.366801 |
 | C | F0S0 LatentOnly | 0.0476928314 | 159.501857 |
-| C | F0S1 (Pixel Feature OFF, Support ON) | 0.0480919716 | 158.302796 |
-| C | F1S0 (Pixel Feature ON, Support OFF) | 0.0480630553 | 158.948700 |
+| C | F0S1 (Pixel Feature OFF; Support ON) | 0.0480919716 | 158.302796 |
+| C | F1S0 (Pixel Feature ON; Support OFF) | 0.0480630553 | 158.948700 |
 
 ## Pooled metrics
 
@@ -60,26 +60,26 @@ All pooled and Overall metrics were recomputed from concatenated features.
 | A+B+C | Black | BackgroundOnly Gamma=0 | 120 | 0.0860462536 | 187.528169 |
 | A+B+C | Black | F1S1 Full Dual-Branch | 120 | 0.0626064865 | 165.678980 |
 | A+B+C | Black | F0S0 LatentOnly | 120 | 0.0679206121 | 174.662221 |
-| A+B+C | Black | F0S1 (Pixel Feature OFF, Support ON) | 120 | 0.0622256151 | 166.769833 |
-| A+B+C | Black | F1S0 (Pixel Feature ON, Support OFF) | 120 | 0.0669875753 | 173.324776 |
+| A+B+C | Black | F0S1 (Pixel Feature OFF; Support ON) | 120 | 0.0622256151 | 166.769833 |
+| A+B+C | Black | F1S0 (Pixel Feature ON; Support OFF) | 120 | 0.0669875753 | 173.324776 |
 | A+B+C | Overall | Raw SD2 | 240 | 0.0384155666 | 133.427437 |
 | A+B+C | Overall | BackgroundOnly Gamma=0 | 240 | 0.0568490017 | 149.018226 |
 | A+B+C | Overall | F1S1 Full Dual-Branch | 240 | 0.0467225114 | 138.162539 |
 | A+B+C | Overall | F0S0 LatentOnly | 240 | 0.0484051395 | 141.236236 |
-| A+B+C | Overall | F0S1 (Pixel Feature OFF, Support ON) | 240 | 0.0465207821 | 138.251575 |
-| A+B+C | Overall | F1S0 (Pixel Feature ON, Support OFF) | 240 | 0.0477221366 | 140.771128 |
+| A+B+C | Overall | F0S1 (Pixel Feature OFF; Support ON) | 240 | 0.0465207821 | 138.251575 |
+| A+B+C | Overall | F1S0 (Pixel Feature ON; Support OFF) | 240 | 0.0477221366 | 140.771128 |
 | B+C | Black | Raw SD2 | 80 | 0.0431993046 | 152.531956 |
 | B+C | Black | BackgroundOnly Gamma=0 | 80 | 0.0834684092 | 193.255567 |
 | B+C | Black | F1S1 Full Dual-Branch | 80 | 0.0604039292 | 170.796441 |
 | B+C | Black | F0S0 LatentOnly | 80 | 0.0661469439 | 182.293431 |
-| B+C | Black | F0S1 (Pixel Feature OFF, Support ON) | 80 | 0.0600207387 | 171.760536 |
-| B+C | Black | F1S0 (Pixel Feature ON, Support OFF) | 80 | 0.0630556862 | 179.753136 |
+| B+C | Black | F0S1 (Pixel Feature OFF; Support ON) | 80 | 0.0600207387 | 171.760536 |
+| B+C | Black | F1S0 (Pixel Feature ON; Support OFF) | 80 | 0.0630556862 | 179.753136 |
 | B+C | Overall | Raw SD2 | 160 | 0.0409881956 | 138.961555 |
 | B+C | Overall | BackgroundOnly Gamma=0 | 160 | 0.0606951058 | 154.444034 |
 | B+C | Overall | F1S1 Full Dual-Branch | 160 | 0.0510395576 | 143.488476 |
 | B+C | Overall | F0S0 LatentOnly | 160 | 0.0521174777 | 147.567000 |
-| B+C | Overall | F0S1 (Pixel Feature OFF, Support ON) | 160 | 0.0507123319 | 143.479382 |
-| B+C | Overall | F1S0 (Pixel Feature ON, Support OFF) | 160 | 0.0505007110 | 146.249135 |
+| B+C | Overall | F0S1 (Pixel Feature OFF; Support ON) | 160 | 0.0507123319 | 143.479382 |
+| B+C | Overall | F1S0 (Pixel Feature ON; Support OFF) | 160 | 0.0505007110 | 146.249135 |
 
 ## B+C pooled Black findings
 
@@ -87,8 +87,8 @@ All pooled and Overall metrics were recomputed from concatenated features.
 - BackgroundOnly Gamma=0: KID `0.0834684092`, FID `193.255567`.
 - F1S1 Full Dual-Branch: KID `0.0604039292`, FID `170.796441`.
 - F0S0 LatentOnly: KID `0.0661469439`, FID `182.293431`.
-- F0S1 (Pixel Feature OFF, Support ON): KID `0.0600207387`, FID `171.760536`.
-- F1S0 (Pixel Feature ON, Support OFF): KID `0.0630556862`, FID `179.753136`.
+- F0S1 (Pixel Feature OFF; Support ON): KID `0.0600207387`, FID `171.760536`.
+- F1S0 (Pixel Feature ON; Support OFF): KID `0.0630556862`, FID `179.753136`.
 
 Requested signed comparisons (first minus second; negative is better):
 

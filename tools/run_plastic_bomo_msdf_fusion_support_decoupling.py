@@ -45,8 +45,8 @@ GROUPS = {
     "gamma0": "BackgroundOnly Gamma=0",
     "f1s1": "F1S1 Full Dual-Branch",
     "f0s0": "F0S0 LatentOnly",
-    "f0s1": "F0S1 (Pixel Feature OFF, Support ON)",
-    "f1s0": "F1S0 (Pixel Feature ON, Support OFF)",
+    "f0s1": "F0S1 (Pixel Feature OFF; Support ON)",
+    "f1s0": "F1S0 (Pixel Feature ON; Support OFF)",
 }
 FACTORS = {
     "f1s1": {"pixel_feature_enabled": True, "pixel_support_enabled": True},
