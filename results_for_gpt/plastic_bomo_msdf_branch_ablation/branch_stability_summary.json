@@ -1,0 +1,122 @@
+{
+  "status": "DUAL_BRANCH_CONSISTENT_BENEFIT",
+  "primary_scope": "B+C pooled Black",
+  "full_vs_pixel_only_BC": {
+    "KID": {
+      "absolute_delta": -0.004307365700249283,
+      "relative_percent": -6.656281108516636,
+      "first_is_better": true
+    },
+    "FID": {
+      "absolute_delta": -5.315735210196124,
+      "relative_percent": -3.0183802909667548,
+      "first_is_better": true
+    }
+  },
+  "full_vs_latent_only_BC": {
+    "KID": {
+      "absolute_delta": -0.005743014687843842,
+      "relative_percent": -8.682207138736176,
+      "first_is_better": true
+    },
+    "FID": {
+      "absolute_delta": -11.496990480086822,
+      "relative_percent": -6.306859441052745,
+      "first_is_better": true
+    }
+  },
+  "full_vs_raw_ABC": {
+    "KID": {
+      "absolute_delta": 0.018968626256306985,
+      "relative_percent": 43.468277706697954,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": 21.114607451046737,
+      "relative_percent": 14.605678479494665,
+      "first_is_better": false
+    }
+  },
+  "full_vs_raw_ABC_overall": {
+    "KID": {
+      "absolute_delta": 0.008306944816475141,
+      "relative_percent": 21.62390288588208,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": 4.735102535983344,
+      "relative_percent": 3.5488222355683567,
+      "first_is_better": false
+    }
+  },
+  "B_C_bankwise_full_better_than_both_single_branches": {
+    "all_KID_and_FID": true,
+    "checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "B_C_pooled_full_better_than_both_single_branches": {
+    "all_KID_and_FID": true,
+    "checks": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "larger_closure_effect_by_BC_Black_KID": "pixel_branch_and_coupled_support",
+  "best_methods": {
+    "ABC_Black_KID": "raw",
+    "ABC_Black_FID": "raw",
+    "BC_Black_KID": "raw",
+    "BC_Black_FID": "raw",
+    "ABC_Overall_KID": "raw",
+    "ABC_Overall_FID": "raw",
+    "BC_Overall_KID": "raw",
+    "BC_Overall_FID": "raw"
+  },
+  "interpretation_boundary": "Inference-time coupled branch ablation only. Pixel disablement also removes pixel support and changes downstream morphology/support/gating; results are not pure independent encoder contributions.",
+  "research_boundary": "Banks share slots and V2 TRAIN references may overlap training; no independent-test or statistical-significance claim.",
+  "full_vs_raw_BC": {
+    "KID": {
+      "absolute_delta": 0.017204624656472906,
+      "relative_percent": 39.826161142984205,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": 18.264485025981116,
+      "relative_percent": 11.974202346803809,
+      "first_is_better": false
+    }
+  },
+  "full_vs_raw_BC_overall": {
+    "KID": {
+      "absolute_delta": 0.010051362003089058,
+      "relative_percent": 24.52257744023994,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": 4.526920714791487,
+      "relative_percent": 3.2576785024939268,
+      "first_is_better": false
+    }
+  },
+  "explicit_answers": {
+    "1_full_vs_pixel_only": "Yes on B and C Black KID/FID and on B+C pooled Black KID/FID.",
+    "2_full_vs_latent_only": "Yes on B and C Black KID/FID and on B+C pooled Black KID/FID.",
+    "3_larger_closure_effect": "Closing the pixel branch and its coupled pixel-support path had the larger B+C Black KID/FID impact.",
+    "4_B_C_consistency": "Yes. Full had lower Black KID and FID than both single-branch variants in both B and C.",
+    "5_best_pooled_black": "Raw SD2 was best overall; Full was best among the three MSDF branch configurations for both A+B+C and B+C.",
+    "6_best_overall": "Raw SD2 was best overall in pooled Overall KID and FID; Full was best among the three MSDF branch configurations.",
+    "7_full_vs_raw_gap": "See full_vs_raw_ABC/full_vs_raw_BC and Overall counterparts for exact absolute and relative gaps.",
+    "8_retain_dual_branch": "Yes for this frozen inference configuration because Full won every declared B/C and B+C Black comparison; this does not prove a training-level architecture claim.",
+    "9_training_level_ablation": "Yes, a separately trained single-branch ablation is warranted to separate learned branch value from inference-time support/gate coupling. It was not started."
+  }
+}

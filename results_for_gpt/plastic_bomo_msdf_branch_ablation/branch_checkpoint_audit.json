@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checkpoint_tree_SHA256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+  "msdf_checkpoint_SHA256": "6e0c39ab6870e0a411a8fde8463ca4df90fb8fbf6803eb2493dd363eb50122fc",
+  "unet_SHA256": "559a6caaa45ab298f93a8ec105894389d27c4574a11359aae5221c3f593df6a1",
+  "successful_updates": 2000,
+  "training_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.2,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "checkpoint_file_count": 13,
+  "checkpoint_file_sizes": {
+    "model_index.json": 544,
+    "msdf.pt": 1364454,
+    "scheduler/scheduler_config.json": 308,
+    "text_encoder/config.json": 638,
+    "text_encoder/model.safetensors": 1361597018,
+    "tokenizer/merges.txt": 524619,
+    "tokenizer/special_tokens_map.json": 460,
+    "tokenizer/tokenizer_config.json": 829,
+    "tokenizer/vocab.json": 1059962,
+    "unet/config.json": 914,
+    "unet/diffusion_pytorch_model.safetensors": 3463784120,
+    "vae/config.json": 616,
+    "vae/diffusion_pytorch_model.safetensors": 334643276
+  },
+  "actual_server_file_SHA256_recomputed": true,
+  "staged_checkpoint_SHA256_verification": "PASS",
+  "history_SHA_checks": {
+    "A": {
+      "raw": 80,
+      "gamma0_black": 40,
+      "full_black": 40,
+      "shared_flash": 40
+    },
+    "B": {
+      "raw": 80,
+      "gamma0_black": 40,
+      "full_black": 40,
+      "shared_flash": 40
+    },
+    "C": {
+      "raw": 80,
+      "gamma0_black": 40,
+      "full_black": 40,
+      "shared_flash": 40
+    }
+  },
+  "source_code_SHA256": {
+    "tools/run_plastic_bomo_msdf_branch_ablation.py": "e1f44615befc3230b2dad4abd171122ffcefa84f1bdba32fba43a12561d1665b",
+    "tools/run_plastic_bomo_msdf_background_gamma_ablation.py": "c6bdb02de81b2c9f80da9f3eb0643207024e711baf5155357d8d5cc1b888f5a3",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  },
+  "completed_at": "2026-10-24T04:39:25.835767+00:00",
+  "source_code_SHA256_at_completion": {
+    "tools/run_plastic_bomo_msdf_branch_ablation.py": "8aba3f10093c997d542803f0b3207e458e9fb9d7bb0b3e5543b67b350de90bf2",
+    "tools/run_plastic_bomo_msdf_background_gamma_ablation.py": "c6bdb02de81b2c9f80da9f3eb0643207024e711baf5155357d8d5cc1b888f5a3",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5"
+  }
+}

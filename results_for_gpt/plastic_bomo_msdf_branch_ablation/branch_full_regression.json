@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "full_exact_PNG_banks": 3,
+  "same_adapter_state_digest_across_groups": true,
+  "adapter_state_SHA256": "344f65481743c63dae75758af63a63fb17c2a02a3104c8e890bb837ff4aa7069",
+  "parameters_unchanged": true,
+  "diagnostic_images_excluded_from_formal_pool": true,
+  "completed_at": "2026-10-24T12:32:09.704778+00:00",
+  "public_summary": {
+    "diagnostic_runs": 18,
+    "runs_by_group": {
+      "full": 6,
+      "pixel_only": 6,
+      "latent_only": 6
+    },
+    "runs_by_bank": {
+      "A": 6,
+      "B": 6,
+      "C": 6
+    },
+    "full_exact_historical_PNG_by_bank": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "sample_identity_records": "retained on server"
+  }
+}

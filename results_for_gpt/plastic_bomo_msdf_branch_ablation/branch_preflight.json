@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "cpu": {
+    "status": "PASS",
+    "groups": [
+      {
+        "group": "full",
+        "ablation": {
+          "pixel_branch": true,
+          "latent_branch": true,
+          "morphology_alignment": true,
+          "up_block_mask": [
+            true
+          ],
+          "residual_scale": 1.0
+        },
+        "gamma": 1.0,
+        "adapter_training": false,
+        "latent_input_l2": 9.654379844665527,
+        "pixel_input_l2": 11.950998306274414,
+        "fusion_output_l2": 17.15728759765625,
+        "pixel_support_l2": 0.35760876536369324,
+        "all_finite": true
+      },
+      {
+        "group": "pixel_only",
+        "ablation": {
+          "pixel_branch": true,
+          "latent_branch": false,
+          "morphology_alignment": true,
+          "up_block_mask": [
+            true
+          ],
+          "residual_scale": 1.0
+        },
+        "gamma": 1.0,
+        "adapter_training": false,
+        "latent_input_l2": 0.0,
+        "pixel_input_l2": 11.950998306274414,
+        "fusion_output_l2": 18.89751625061035,
+        "pixel_support_l2": 0.35760876536369324,
+        "all_finite": true
+      },
+      {
+        "group": "latent_only",
+        "ablation": {
+          "pixel_branch": false,
+          "latent_branch": true,
+          "morphology_alignment": true,
+          "up_block_mask": [
+            true
+          ],
+          "residual_scale": 1.0
+        },
+        "gamma": 1.0,
+        "adapter_training": false,
+        "latent_input_l2": 9.654379844665527,
+        "pixel_input_l2": 0.0,
+        "fusion_output_l2": 14.584578514099121,
+        "pixel_support_l2": 0.0,
+        "all_finite": true
+      }
+    ],
+    "parameters_unchanged": true,
+    "branch_dropout_inactive_in_eval": true,
+    "fusion_output_not_required_to_be_zero": true,
+    "semantic_boundary": "LatentOnly includes Pixel Support and downstream support/gate coupling changes."
+  },
+  "required_configs": {
+    "full": {
+      "pixel_branch": true,
+      "latent_branch": true,
+      "morphology_alignment": true
+    },
+    "pixel_only": {
+      "pixel_branch": true,
+      "latent_branch": false,
+      "morphology_alignment": true
+    },
+    "latent_only": {
+      "pixel_branch": false,
+      "latent_branch": true,
+      "morphology_alignment": true
+    }
+  },
+  "gamma": 1.0,
+  "up_block_mask": "all true",
+  "residual_scale": 1.0,
+  "training_forbidden": true,
+  "GPU": "PASS",
+  "full_exact_regression": "PASS",
+  "same_checkpoint_weights": "PASS",
+  "no_parameter_updates": true,
+  "completed_at": "2026-10-24T12:32:09.731674+00:00"
+}

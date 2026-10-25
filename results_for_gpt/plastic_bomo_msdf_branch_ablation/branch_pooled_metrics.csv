@@ -1,0 +1,21 @@
+scope,group,method,KID,KID_subset_std,FID,reference_ROIs,generated_images,KID_subset_size,runtime_seconds,metric_source,population
+A+B+C,raw,Raw SD2,0.043637860198413474,0.008376049292347473,144.56437255338835,97,120,50,109.31682733213529,reused SHA-bound Experiment 13 same-protocol features/metrics,Black
+A+B+C,gamma0,BackgroundOnly Gamma=0,0.08604625355648862,0.015218696203565764,187.5281690736923,97,120,50,20.944609500002116,reused SHA-bound Experiment 13 same-protocol features/metrics,Black
+A+B+C,full,Full Dual-Branch,0.06260648645472046,0.012527013068034732,165.6789800044351,97,120,50,100.9221459729597,reused SHA-bound Experiment 13 same-protocol features/metrics,Black
+A+B+C,pixel_only,PixelOnly,0.06796639563339227,0.013170710089286166,170.4110141222926,97,120,50,31.51497915899381,new concatenated features,Black
+A+B+C,latent_only,LatentOnly,0.0679206121293135,0.013042871179236398,174.66222135607927,97,120,50,50.49789360817522,new concatenated features,Black
+A+B+C,raw,Raw SD2,0.038415566608461876,0.008065420893772934,133.42743653163006,172,240,50,148.5963987391442,reused SHA-bound Experiment 13 same-protocol features/metrics,Overall
+A+B+C,gamma0,BackgroundOnly Gamma=0,0.05684900173377997,0.011935850982999369,149.0182263062207,172,240,50,21.35166620882228,reused SHA-bound Experiment 13 same-protocol features/metrics,Overall
+A+B+C,full,Full Dual-Branch,0.04672251142493702,0.00969349867450929,138.1625390676134,172,240,50,96.90606055408716,reused SHA-bound Experiment 13 same-protocol features/metrics,Overall
+A+B+C,pixel_only,PixelOnly,0.0490596888895155,0.010454248131649121,140.78395598329485,172,240,50,28.674543750006706,new concatenated features,Overall
+A+B+C,latent_only,LatentOnly,0.04840513951493333,0.010266547613983339,141.23623631785344,172,240,50,33.90492639085278,new concatenated features,Overall
+B+C,raw,Raw SD2,0.04319930458450344,0.007693734472519496,152.53195575784076,97,80,50,51.04520580219105,reused SHA-bound Experiment 13 same-protocol features/metrics,Black
+B+C,gamma0,BackgroundOnly Gamma=0,0.08346840918047778,0.012452567884698682,193.25556747655128,97,80,50,20.048450206872076,reused SHA-bound Experiment 13 same-protocol features/metrics,Black
+B+C,full,Full Dual-Branch,0.060403929240976345,0.009421364570470814,170.79644078382188,97,80,50,34.41540153278038,reused SHA-bound Experiment 13 same-protocol features/metrics,Black
+B+C,pixel_only,PixelOnly,0.06471129494122563,0.009973878508027223,176.112175994018,97,80,50,29.861890689004213,new concatenated features,Black
+B+C,latent_only,LatentOnly,0.06614694392882019,0.010625322113456667,182.2934312639087,97,80,50,19.34081021696329,new concatenated features,Black
+B+C,raw,Raw SD2,0.04098819558255501,0.010284048479746798,138.96155533229836,172,160,50,32.659173347987235,reused SHA-bound Experiment 13 same-protocol features/metrics,Overall
+B+C,gamma0,BackgroundOnly Gamma=0,0.06069510576009911,0.013979649382737946,154.44403430490286,172,160,50,14.615746584255248,reused SHA-bound Experiment 13 same-protocol features/metrics,Overall
+B+C,full,Full Dual-Branch,0.05103955758564407,0.01304107621250162,143.48847604708985,172,160,50,24.341677771881223,reused SHA-bound Experiment 13 same-protocol features/metrics,Overall
+B+C,pixel_only,PixelOnly,0.05267149404693988,0.013530347392010006,145.6786494277489,172,160,50,49.45998424384743,new concatenated features,Overall
+B+C,latent_only,LatentOnly,0.05211747766610189,0.01365518503355109,147.56700047807874,172,160,50,22.369892125949264,new concatenated features,Overall

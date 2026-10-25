@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "counts": {
+    "pixel_only": {
+      "A": 40,
+      "B": 40,
+      "C": 40
+    },
+    "latent_only": {
+      "A": 40,
+      "B": 40,
+      "C": 40
+    }
+  },
+  "total": 240,
+  "image_SHA256_checks": 240,
+  "cross_group_metadata_identical": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "parameter_update_count": 0,
+  "feature_cache_SHA256": "8e39a7d3de83eee7cc5ff3f79a6aca7b3682e42043b32b4a076059fd5a7e5215",
+  "full_formal_images_reused": true,
+  "raw_and_gamma0_reused": true,
+  "final_eval_read_or_used": false
+}
