@@ -1,0 +1,53 @@
+{
+  "experiment": "Experiment 15 — Training-Level PixelOnly Ablation",
+  "base_commit": "8644bc5d79986b7efd90913130da9395314a64de",
+  "class": "black",
+  "training": {
+    "fresh_public_SD2_start": true,
+    "successful_optimizer_updates": 2000,
+    "seed": 42,
+    "resolution": 512,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "optimizer": "AdamW",
+    "unet_learning_rate": 1e-6,
+    "msdf_learning_rate": 1e-4,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-8,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "fp16",
+    "gradient_checkpointing": true,
+    "reference_cross_probability": 0.3
+  },
+  "branch": {
+    "pixel_branch": true,
+    "latent_branch": false,
+    "morphology_alignment": true,
+    "up_block_mask": [true, true, true, true],
+    "residual_scale": 1.0,
+    "injection_gamma": 1.0,
+    "branch_dropout": 0.0,
+    "latent_encoder_frozen": true
+  },
+  "auxiliary_loss_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.2,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "generation": {
+    "banks": {"A": 42, "B": 3407, "C": 2026},
+    "black_per_bank": 40,
+    "inference_steps": 50,
+    "guidance_scale": 7.5,
+    "eta": 0.0,
+    "strength": 1.0,
+    "resolution": 512
+  },
+  "independent_validation": false,
+  "single_training_run_only": true
+}

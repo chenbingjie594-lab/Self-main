@@ -1,0 +1,16 @@
+bank,group,method,KID,KID_subset_std,FID,reference_ROIs,generated_images,KID_subset_size,runtime_seconds,metric_source
+A,raw,Raw SD2,0.03797344467731272,0.006531917641927337,161.76692438299116,97,40,40,121.18690563598648,reused SHA-bound Experiment 13 same-protocol features/metrics
+A,gamma0,BackgroundOnly Gamma=0,0.08891440259284954,0.011395715869722895,215.57503282944248,97,40,40,15.25342822726816,reused SHA-bound Experiment 13 same-protocol features/metrics
+A,full,Full Dual-Branch,0.06100557551585336,0.00874507071412577,191.9669145866637,97,40,40,173.04883795185015,reused SHA-bound Experiment 13 same-protocol features/metrics
+A,pixel_only,PixelOnly Inference,0.06930233694319503,0.009707849403200956,197.2652166137877,97,40,40,162.80002240696922,new same-protocol branch features
+A,pixel_training,PixelOnly Training,0.07369589682424019,0.00974348883583809,199.0537637669721,97,40,40,66.40973979607224,new same-protocol G3 features
+B,raw,Raw SD2,0.04519301296659426,0.0069411468453502555,172.44663633602465,97,40,40,101.7249769452028,reused SHA-bound Experiment 13 same-protocol features/metrics
+B,gamma0,BackgroundOnly Gamma=0,0.08431919882510112,0.010678706897821952,214.71213493441343,97,40,40,10.679570877924562,reused SHA-bound Experiment 13 same-protocol features/metrics
+B,full,Full Dual-Branch,0.05891196483267076,0.008343540572101587,183.16715540366144,97,40,40,79.26877327030525,reused SHA-bound Experiment 13 same-protocol features/metrics
+B,pixel_only,PixelOnly Inference,0.0627188458596139,0.008779959262861728,189.1626604494605,97,40,40,167.96190882800147,new same-protocol branch features
+B,pixel_training,PixelOnly Training,0.06532723859051956,0.009463957943119107,191.05771246507211,97,40,40,65.89827651716769,new same-protocol G3 features
+C,raw,Raw SD2,0.0396594894527007,0.006469060329192159,163.03911244814674,97,40,40,126.95590338576585,reused SHA-bound Experiment 13 same-protocol features/metrics
+C,gamma0,BackgroundOnly Gamma=0,0.08192060510349891,0.010546376434515812,208.36384591825038,97,40,40,15.256197693292052,reused SHA-bound Experiment 13 same-protocol features/metrics
+C,full,Full Dual-Branch,0.06256158132105778,0.00858442504809604,192.42172667965383,97,40,40,113.99553486332297,reused SHA-bound Experiment 13 same-protocol features/metrics
+C,pixel_only,PixelOnly Inference,0.0680597324825181,0.009164085715586448,198.44452895638864,97,40,40,20.091208200436085,new same-protocol branch features
+C,pixel_training,PixelOnly Training,0.06926971819985585,0.009630417520033132,188.82300398726363,97,40,40,87.29312683874741,new same-protocol G3 features

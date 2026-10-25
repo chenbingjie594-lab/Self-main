@@ -1,0 +1,39 @@
+{
+  "status": "PUBLICATION_READY",
+  "experiment": "Experiment 15 — Training-Level PixelOnly Ablation",
+  "base_commit": "8644bc5d79986b7efd90913130da9395314a64de",
+  "conclusion": "TRAINING_BRANCH_MIXED",
+  "included_files": [
+    "configs/plastic_bomo_msdf_pixelonly_training.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/PIXELONLY_TRAINING_REPORT.md",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/PUBLICATION_MANIFEST.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/experiment_status.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_bankwise_black.csv",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_bankwise_overall.csv",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_branch_definition.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_checkpoint_binding.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_generation_integrity.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_gradient_audit.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_pairwise_deltas.csv",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_pooled_metrics.csv",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_preflight.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_stability_summary.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_training_audit.json",
+    "results_for_gpt/plastic_bomo_msdf_pixelonly_training/pixelonly_training_protocol.json",
+    "tools/run_plastic_bomo_msdf_pixelonly_training.py"
+  ],
+  "server_only_excluded": [
+    "checkpoints/**",
+    "images/**",
+    "logs/**",
+    "pixelonly_generation_manifest.json",
+    "pixelonly_inception_features.npz",
+    "pixelonly_inception_feature_cache.json",
+    "full sample identities and absolute server paths"
+  ],
+  "raw_images_uploaded": false,
+  "model_weights_uploaded": false,
+  "feature_cache_uploaded": false,
+  "sensitive_paths_uploaded": false,
+  "full_sample_identity_records_uploaded": false
+}

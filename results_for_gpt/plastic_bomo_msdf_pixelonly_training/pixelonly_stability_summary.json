@@ -1,0 +1,220 @@
+{
+  "status": "TRAINING_BRANCH_MIXED",
+  "primary_scope": "B+C pooled Black",
+  "BC_pooled_Black": {
+    "raw": {
+      "scope": "B+C",
+      "group": "raw",
+      "method": "Raw SD2",
+      "KID": 0.04319930458450344,
+      "KID_subset_std": 0.007693734472519496,
+      "FID": 152.53195575784076,
+      "reference_ROIs": 97,
+      "generated_images": 80,
+      "KID_subset_size": 50,
+      "runtime_seconds": 51.04520580219105,
+      "metric_source": "reused SHA-bound Experiment 13 same-protocol features/metrics",
+      "population": "Black"
+    },
+    "gamma0": {
+      "scope": "B+C",
+      "group": "gamma0",
+      "method": "BackgroundOnly Gamma=0",
+      "KID": 0.08346840918047778,
+      "KID_subset_std": 0.012452567884698682,
+      "FID": 193.25556747655128,
+      "reference_ROIs": 97,
+      "generated_images": 80,
+      "KID_subset_size": 50,
+      "runtime_seconds": 20.048450206872076,
+      "metric_source": "reused SHA-bound Experiment 13 same-protocol features/metrics",
+      "population": "Black"
+    },
+    "full": {
+      "scope": "B+C",
+      "group": "full",
+      "method": "Full Dual-Branch",
+      "KID": 0.060403929240976345,
+      "KID_subset_std": 0.009421364570470814,
+      "FID": 170.79644078382188,
+      "reference_ROIs": 97,
+      "generated_images": 80,
+      "KID_subset_size": 50,
+      "runtime_seconds": 34.41540153278038,
+      "metric_source": "reused SHA-bound Experiment 13 same-protocol features/metrics",
+      "population": "Black"
+    },
+    "pixel_only": {
+      "scope": "B+C",
+      "group": "pixel_only",
+      "method": "PixelOnly Inference",
+      "KID": 0.06471129494122563,
+      "KID_subset_std": 0.009973878508027223,
+      "FID": 176.112175994018,
+      "reference_ROIs": 97,
+      "generated_images": 80,
+      "KID_subset_size": 50,
+      "runtime_seconds": 29.861890689004213,
+      "metric_source": "new concatenated features",
+      "population": "Black"
+    },
+    "pixel_training": {
+      "scope": "B+C",
+      "group": "pixel_training",
+      "method": "PixelOnly Training",
+      "KID": 0.06668739664495743,
+      "KID_subset_std": 0.009880720591212862,
+      "FID": 171.46822424863802,
+      "reference_ROIs": 97,
+      "generated_images": 80,
+      "KID_subset_size": 50,
+      "runtime_seconds": 95.16459418972954,
+      "metric_source": "new concatenated G3 features",
+      "population": "Black"
+    }
+  },
+  "ABC_pooled_Black": {
+    "raw": {
+      "scope": "A+B+C",
+      "group": "raw",
+      "method": "Raw SD2",
+      "KID": 0.043637860198413474,
+      "KID_subset_std": 0.008376049292347473,
+      "FID": 144.56437255338835,
+      "reference_ROIs": 97,
+      "generated_images": 120,
+      "KID_subset_size": 50,
+      "runtime_seconds": 109.31682733213529,
+      "metric_source": "reused SHA-bound Experiment 13 same-protocol features/metrics",
+      "population": "Black"
+    },
+    "gamma0": {
+      "scope": "A+B+C",
+      "group": "gamma0",
+      "method": "BackgroundOnly Gamma=0",
+      "KID": 0.08604625355648862,
+      "KID_subset_std": 0.015218696203565764,
+      "FID": 187.5281690736923,
+      "reference_ROIs": 97,
+      "generated_images": 120,
+      "KID_subset_size": 50,
+      "runtime_seconds": 20.944609500002116,
+      "metric_source": "reused SHA-bound Experiment 13 same-protocol features/metrics",
+      "population": "Black"
+    },
+    "full": {
+      "scope": "A+B+C",
+      "group": "full",
+      "method": "Full Dual-Branch",
+      "KID": 0.06260648645472046,
+      "KID_subset_std": 0.012527013068034732,
+      "FID": 165.6789800044351,
+      "reference_ROIs": 97,
+      "generated_images": 120,
+      "KID_subset_size": 50,
+      "runtime_seconds": 100.9221459729597,
+      "metric_source": "reused SHA-bound Experiment 13 same-protocol features/metrics",
+      "population": "Black"
+    },
+    "pixel_only": {
+      "scope": "A+B+C",
+      "group": "pixel_only",
+      "method": "PixelOnly Inference",
+      "KID": 0.06796639563339227,
+      "KID_subset_std": 0.013170710089286166,
+      "FID": 170.4110141222926,
+      "reference_ROIs": 97,
+      "generated_images": 120,
+      "KID_subset_size": 50,
+      "runtime_seconds": 31.51497915899381,
+      "metric_source": "new concatenated features",
+      "population": "Black"
+    },
+    "pixel_training": {
+      "scope": "A+B+C",
+      "group": "pixel_training",
+      "method": "PixelOnly Training",
+      "KID": 0.07072903235341217,
+      "KID_subset_std": 0.012323527559318625,
+      "FID": 168.76466016700243,
+      "reference_ROIs": 97,
+      "generated_images": 120,
+      "KID_subset_size": 50,
+      "runtime_seconds": 99.80348203005269,
+      "metric_source": "new concatenated G3 features",
+      "population": "Black"
+    }
+  },
+  "G3_vs_G1_BC": {
+    "KID": {
+      "absolute_delta": 0.006283467403981086,
+      "relative_percent": 10.402415013291149,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": 0.6717834648161443,
+      "relative_percent": 0.39332404219501554,
+      "first_is_better": false
+    }
+  },
+  "G3_vs_G2_BC": {
+    "KID": {
+      "absolute_delta": 0.001976101703731803,
+      "relative_percent": 3.0537199194153164,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": -4.6439517453799795,
+      "relative_percent": -2.6369282641409875,
+      "first_is_better": true
+    }
+  },
+  "G3_vs_G0_BC": {
+    "KID": {
+      "absolute_delta": 0.02348809206045399,
+      "relative_percent": 54.37145872223068,
+      "first_is_better": false
+    },
+    "FID": {
+      "absolute_delta": 18.93626849079726,
+      "relative_percent": 12.414623805689883,
+      "first_is_better": false
+    }
+  },
+  "B_C_bankwise_checks": [
+    {
+      "bank": "B",
+      "metric": "KID",
+      "winner": "full"
+    },
+    {
+      "bank": "B",
+      "metric": "FID",
+      "winner": "full"
+    },
+    {
+      "bank": "C",
+      "metric": "KID",
+      "winner": "full"
+    },
+    {
+      "bank": "C",
+      "metric": "FID",
+      "winner": "pixel_training"
+    }
+  ],
+  "B_C_consistency": "mixed directions",
+  "best_ABC_Black_KID": "raw",
+  "best_ABC_Black_FID": "raw",
+  "gradient_and_parameter_update_normal": true,
+  "pixel_support_working": true,
+  "latent_encoder_initial_final_SHA_equal": true,
+  "next_step_recommendation": "do not infer latent uselessness from one seed; inspect fusion behavior before authorizing any new training",
+  "research_boundary": {
+    "single_training_seed": true,
+    "independent_validation": false,
+    "V2_TRAIN_reference_overlap_possible": true,
+    "B_C_previously_observed": true,
+    "strict_single_variable_causal_comparison": false
+  }
+}

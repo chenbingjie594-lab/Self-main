@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN",
+  "training": {
+    "pixel_branch": true,
+    "latent_branch": false,
+    "morphology_alignment": true,
+    "up_block_mask": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "residual_scale": 1.0,
+    "injection_gamma": 1.0,
+    "branch_dropout": 0.0,
+    "latent_encoder_frozen": true
+  },
+  "fusion_input": "concatenate([zero_latent, pixel_feature]) at unchanged 2*hidden_dim width",
+  "pixel_support": "enabled",
+  "dynamic_gate": "enabled",
+  "up_blocks": 4,
+  "latent_encoder_storage_retained": true,
+  "lightweight_or_speed_claim": false
+}

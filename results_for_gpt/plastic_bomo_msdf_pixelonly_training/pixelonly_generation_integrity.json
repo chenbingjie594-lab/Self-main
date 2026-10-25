@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "count": 120,
+  "bank_counts": {
+    "A": 40,
+    "B": 40,
+    "C": 40
+  },
+  "matched_to_PixelOnly_Inference_records": 120,
+  "slot_normal_bbox_prompt_sample_seed_bank_seed_match": true,
+  "image_and_label_SHA256_checks": 240,
+  "checkpoint_tree_SHA256": "90a8b16175007b2b94f35f40c2a279ff8c520a16bcc76b37f0a30d3a161d5182",
+  "unet_SHA256": "ae7f5ca896de91a162a38bcd99ad4f7aa5e32c38738de3f45fc87b8a1f0f2054",
+  "msdf_SHA256": "efe64e72a2cb75dbc0dbbd1e74b9c5732972ce474dc254dffd701463a8bca30a",
+  "actual_branch_config": {
+    "pixel_branch": true,
+    "latent_branch": false,
+    "morphology_alignment": true,
+    "up_block_mask": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "residual_scale": 1.0
+  },
+  "gamma": 1.0,
+  "all_outputs_retained": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "completed_at": "2026-10-25T05:41:10.120746+00:00"
+}

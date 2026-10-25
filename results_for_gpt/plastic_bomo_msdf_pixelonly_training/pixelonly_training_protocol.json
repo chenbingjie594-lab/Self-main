@@ -1,0 +1,189 @@
+{
+  "status": "COMPLETE",
+  "experiment": "Experiment 15 — Training-Level PixelOnly Ablation",
+  "base_commit": "8644bc5d79986b7efd90913130da9395314a64de",
+  "single_new_model": "G3 PixelOnly Training Black",
+  "training_count": 1,
+  "fresh_public_SD2_start": true,
+  "continued_from_G1": false,
+  "data": "Plastic_Bomo V2 TRAIN Black frozen allowlist, 97 ROI",
+  "training": {
+    "fresh_public_SD2_start": true,
+    "successful_optimizer_updates": 2000,
+    "seed": 42,
+    "resolution": 512,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "optimizer": "AdamW",
+    "unet_learning_rate": 1e-06,
+    "msdf_learning_rate": 0.0001,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "fp16",
+    "gradient_checkpointing": true,
+    "reference_cross_probability": 0.3
+  },
+  "branch": {
+    "pixel_branch": true,
+    "latent_branch": false,
+    "morphology_alignment": true,
+    "up_block_mask": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "residual_scale": 1.0,
+    "injection_gamma": 1.0,
+    "branch_dropout": 0.0,
+    "latent_encoder_frozen": true
+  },
+  "auxiliary_loss_weights": {
+    "region": 0.0,
+    "reconstruction": 0.0,
+    "structure": 0.0,
+    "background": 0.2,
+    "scale": 0.0,
+    "support": 0.0
+  },
+  "training_objective": "L_denoising + 0.20 * L_background",
+  "comparison_boundary": "Compared with Full, PixelOnly also freezes the latent encoder and changes branch_dropout from 0.2 to 0.0; random-number consumption and training trajectory therefore differ.",
+  "generation": {
+    "banks": {
+      "A": 42,
+      "B": 3407,
+      "C": 2026
+    },
+    "black_per_bank": 40,
+    "inference_steps": 50,
+    "guidance_scale": 7.5,
+    "eta": 0.0,
+    "strength": 1.0,
+    "resolution": 512
+  },
+  "evaluation": {
+    "reference": {
+      "flash": 75,
+      "black": 97,
+      "overall": 172
+    },
+    "independent_validation": false,
+    "ROI": "bbox plus 25 percent context with frozen floor/ceil clipping",
+    "Inception": "torch-fidelity inception-v3-compat 2048D FP32; metrics FP64 CPU",
+    "KID": {
+      "subsets": 100,
+      "seed": 42,
+      "degree": 3,
+      "subset_size": "min(50,nreal,nfake)"
+    }
+  },
+  "historical_protocol_validation": {
+    "training": {
+      "seed": 42,
+      "resolution": 512,
+      "train_batch_size": 1,
+      "gradient_accumulation_steps": 4,
+      "learning_rate": 1e-06,
+      "max_train_steps": 2000,
+      "optimizer": "AdamW",
+      "mixed_precision": "fp16",
+      "gradient_checkpointing": true,
+      "xformers": false,
+      "max_grad_norm": 1
+    },
+    "historical_msdf": {
+      "hidden_dim": 64,
+      "context_scale": 1.75,
+      "max_injection": 0.75,
+      "max_residual_ratio": 0.25,
+      "branch_dropout": 0.2,
+      "pixel_support_weight": 0.5,
+      "region_weight": 0.75,
+      "reconstruction_weight": 0.5,
+      "structure_weight": 0.25,
+      "background_weight": 0.2,
+      "scale_weight": 0.25,
+      "support_weight": 0.25,
+      "reference_cross_probability": 0.3,
+      "mask_jitter_radius": 24,
+      "mask_blur_radius": 2,
+      "MSDF_learning_rate": 0.0001
+    },
+    "background_only_weights": {
+      "region": 0.0,
+      "reconstruction": 0.0,
+      "structure": 0.0,
+      "background": 0.2,
+      "scale": 0.0,
+      "support": 0.0
+    }
+  },
+  "asset_audit": {
+    "TRAIN_file_checks": 666,
+    "Black_TRAIN_instances": 97,
+    "Black_Bank_A_slots": 40,
+    "base_model_file_checks": 12
+  },
+  "source_code_SHA256": {
+    "train_rda.py": "e919569c2fe931cfc192df9f6f359fc68c00925ea55fef1b3ca76979ca845175",
+    "tools/stage25_msdf_generator.py": "a36cb41b4a8b7f078ff9191350875745696315c9c6ab9e72593b05d8eccd97d8",
+    "diffusers/pipelines/stable_diffusion/msdf_guidance.py": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+    "tools/run_plastic_bomo_msdf_black_gradient_background.py": "c22d88acafbec401dde39bc1134169c86cebdd3d971aeb09d98a9239d293e541",
+    "tools/run_plastic_bomo_msdf_pixelonly_training.py": "b28d93ca3d9b63e82c0de5b005ff8108aaa00e1eab421e3ef30ac13f80aa4466",
+    "configs/plastic_bomo_msdf_pixelonly_training.json": "0910e1eca1f36cae113f40e72fbae4322b999ea83bbd0363dc86d7a2941a05cf"
+  },
+  "final_eval_read_or_used": false,
+  "conclusion": "TRAINING_BRANCH_MIXED",
+  "metric_runtime": {
+    "status": "FROZEN_BEFORE_METRICS",
+    "device": "cuda:0",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "torch": "2.5.1+cu124",
+    "CUDA": "12.4",
+    "torch_fidelity": "0.3.0",
+    "lpips": "0.1.4",
+    "weights": {
+      "weights-inception-2015-12-05-6726825d.pth": {
+        "path": "<server-retained>",
+        "sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2"
+      },
+      "alexnet-owt-7be5be79.pth": {
+        "path": "<server-retained>",
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+      },
+      "alex.pth": {
+        "path": "<server-retained>",
+        "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+      }
+    },
+    "source_files": {
+      "torch_fidelity.feature_extractor_inceptionv3": {
+        "path": "<server-retained>",
+        "sha256": "1cf34e394665d52aa8d6522aae67370a036add18bfd91eb6657b2d666e458d34"
+      },
+      "torch_fidelity.metric_fid": {
+        "path": "<server-retained>",
+        "sha256": "e8a172867a1b6e9d4a1647d4d85e69e6930d94ee1b6a908a5be5d3b7755aa0cd"
+      },
+      "torch_fidelity.metric_kid": {
+        "path": "<server-retained>",
+        "sha256": "4bc68c5971b751082c5eee1a73ddde43d0b86617ce65455eedab74f8a84030f0"
+      },
+      "lpips.lpips": {
+        "path": "<server-retained>",
+        "sha256": "780d09b907cb9b661e0ae28b2d163ddfba92f9e870d7feba34d4790cc6590658"
+      },
+      "lpips.pretrained_networks": {
+        "path": "<server-retained>",
+        "sha256": "6a27f714c51796db466e86bebba6a617c1bfc4d566f3a1756497629c1248686e"
+      }
+    },
+    "TF32": false,
+    "autocast": false,
+    "network_downloads": 0
+  },
+  "completed_at": "2026-10-25T06:59:10.047360+00:00"
+}

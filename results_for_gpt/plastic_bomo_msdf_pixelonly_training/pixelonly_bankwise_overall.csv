@@ -1,0 +1,16 @@
+bank,group,method,KID,KID_subset_std,FID,reference_ROIs,generated_images,KID_subset_size,runtime_seconds,metric_source
+A,raw,Raw SD2,0.03522257098656576,0.007847812338817612,149.42750331396738,172,80,50,89.51854570768774,reused SHA-bound Experiment 13 same-protocol features/metrics
+A,gamma0,BackgroundOnly Gamma=0,0.053531645358414155,0.011256604739243795,167.8187256728712,172,80,50,9.808376054279506,reused SHA-bound Experiment 13 same-protocol features/metrics
+A,full,Full Dual-Branch,0.04294524729498305,0.009615164063471671,154.90536831861988,172,80,50,129.77333434531465,reused SHA-bound Experiment 13 same-protocol features/metrics
+A,pixel_only,PixelOnly Inference,0.04684025467655475,0.010357194379534475,158.66549930695328,172,80,50,178.3954626689665,new same-protocol branch plus shared Flash features
+A,pixel_training,PixelOnly Training,0.04854072343891264,0.010059294163270349,158.8327057715685,172,80,50,64.3356958241202,new G3 Black plus shared Flash Gamma0 features
+B,raw,Raw SD2,0.03642886482565822,0.00794623997961138,153.02428513701585,172,80,50,131.19542002724484,reused SHA-bound Experiment 13 same-protocol features/metrics
+B,gamma0,BackgroundOnly Gamma=0,0.058784498843207925,0.011749667928845414,170.26128585449908,172,80,50,11.348519285209477,reused SHA-bound Experiment 13 same-protocol features/metrics
+B,full,Full Dual-Branch,0.04743329424316993,0.009886785806255325,155.38894324980907,172,80,50,156.0147607801482,reused SHA-bound Experiment 13 same-protocol features/metrics
+B,pixel_only,PixelOnly Inference,0.04943970571778044,0.010529829577959811,158.10382078990642,172,80,50,98.1560337417759,new same-protocol branch plus shared Flash features
+B,pixel_training,PixelOnly Training,0.05013532696744804,0.010323877864372642,160.77575933440122,172,80,50,63.29100702423602,new G3 Black plus shared Flash Gamma0 features
+C,raw,Raw SD2,0.04032677100219561,0.008200635235531262,152.16304169356164,172,80,50,112.21038921736181,reused SHA-bound Experiment 13 same-protocol features/metrics
+C,gamma0,BackgroundOnly Gamma=0,0.05790590310354252,0.012240385273640988,166.15326912713292,172,80,50,17.226564571727067,reused SHA-bound Experiment 13 same-protocol features/metrics
+C,full,Full Dual-Branch,0.048746216474706824,0.01036132337519723,158.3668014019287,172,80,50,116.22771631320938,reused SHA-bound Experiment 13 same-protocol features/metrics
+C,pixel_only,PixelOnly Inference,0.05037361267751727,0.010459396639788532,160.84920601703118,172,80,50,26.890560856088996,new same-protocol branch plus shared Flash features
+C,pixel_training,PixelOnly Training,0.051668989839924066,0.010499288402726025,158.91635277244512,172,80,50,84.9074678979814,new G3 Black plus shared Flash Gamma0 features
