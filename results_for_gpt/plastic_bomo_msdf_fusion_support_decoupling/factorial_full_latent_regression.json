@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "strict_checks": 6,
+  "strict_passes": 6,
+  "checks": [
+    {
+      "group": "f1s1",
+      "bank": "A",
+      "historical_exact_SHA256": true
+    },
+    {
+      "group": "f1s1",
+      "bank": "B",
+      "historical_exact_SHA256": true
+    },
+    {
+      "group": "f1s1",
+      "bank": "C",
+      "historical_exact_SHA256": true
+    },
+    {
+      "group": "f0s0",
+      "bank": "A",
+      "historical_exact_SHA256": true
+    },
+    {
+      "group": "f0s0",
+      "bank": "B",
+      "historical_exact_SHA256": true
+    },
+    {
+      "group": "f0s0",
+      "bank": "C",
+      "historical_exact_SHA256": true
+    }
+  ],
+  "same_adapter_state_across_groups": true,
+  "parameters_unchanged": true,
+  "sample_ids_and_image_hashes": "retained on server"
+}

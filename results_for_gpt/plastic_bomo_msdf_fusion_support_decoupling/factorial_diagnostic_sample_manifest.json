@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "count": 12,
+  "groups": [
+    "f1s1",
+    "f0s0",
+    "f0s1",
+    "f1s0"
+  ],
+  "images_planned": 48,
+  "generated_images": 48,
+  "slots_per_bank": 4,
+  "banks": [
+    "A",
+    "B",
+    "C"
+  ],
+  "selection_basis": "fixed bbox-area quartiles from pre-generation metadata",
+  "selection_used_generated_images": false,
+  "sample_identity_and_bbox": "retained on server"
+}

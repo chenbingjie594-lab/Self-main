@@ -1,0 +1,187 @@
+{
+  "status": "PIXEL_SUPPORT_PATH_PROMISING",
+  "primary_scope": "B+C pooled Black",
+  "primary_metrics": {
+    "raw": {
+      "KID": 0.04319930458450344,
+      "FID": 152.53195575784076
+    },
+    "gamma0": {
+      "KID": 0.08346840918047778,
+      "FID": 193.25556747655128
+    },
+    "f1s1": {
+      "KID": 0.060403929240976345,
+      "FID": 170.79644078382188
+    },
+    "f0s0": {
+      "KID": 0.06614694392882019,
+      "FID": 182.2934312639087
+    },
+    "f0s1": {
+      "KID": 0.06002073872588497,
+      "FID": 171.76053620867162
+    },
+    "f1s0": {
+      "KID": 0.06305568624585428,
+      "FID": 179.7531362735299
+    }
+  },
+  "comparisons": {
+    "f0s1-f1s1": {
+      "KID": {
+        "first": 0.06002073872588497,
+        "second": 0.060403929240976345,
+        "absolute_delta": -0.0003831905150913778,
+        "relative_percent": -0.634380113854302,
+        "first_is_better": true
+      },
+      "FID": {
+        "first": 171.76053620867162,
+        "second": 170.79644078382188,
+        "absolute_delta": 0.9640954248497451,
+        "relative_percent": 0.5644704423729805,
+        "first_is_better": false
+      }
+    },
+    "f1s0-f1s1": {
+      "KID": {
+        "first": 0.06305568624585428,
+        "second": 0.060403929240976345,
+        "absolute_delta": 0.002651757004877936,
+        "relative_percent": 4.390040578815621,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 179.7531362735299,
+        "second": 170.79644078382188,
+        "absolute_delta": 8.95669548970801,
+        "relative_percent": 5.244076193042311,
+        "first_is_better": false
+      }
+    },
+    "f0s0-f0s1": {
+      "KID": {
+        "first": 0.06614694392882019,
+        "second": 0.06002073872588497,
+        "absolute_delta": 0.00612620520293522,
+        "relative_percent": 10.206814066240723,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 182.2934312639087,
+        "second": 171.76053620867162,
+        "absolute_delta": 10.532895055237077,
+        "relative_percent": 6.132313794386784,
+        "first_is_better": false
+      }
+    },
+    "f0s0-f1s0": {
+      "KID": {
+        "first": 0.06614694392882019,
+        "second": 0.06305568624585428,
+        "absolute_delta": 0.003091257682965906,
+        "relative_percent": 4.902424931057105,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 182.2934312639087,
+        "second": 179.7531362735299,
+        "absolute_delta": 2.5402949903788112,
+        "relative_percent": 1.413213167259152,
+        "first_is_better": false
+      }
+    },
+    "f0s1-raw": {
+      "KID": {
+        "first": 0.06002073872588497,
+        "second": 0.04319930458450344,
+        "absolute_delta": 0.016821434141381528,
+        "relative_percent": 38.93913178272725,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 171.76053620867162,
+        "second": 152.53195575784076,
+        "absolute_delta": 19.22858045083086,
+        "relative_percent": 12.60626362213443,
+        "first_is_better": false
+      }
+    },
+    "f1s0-raw": {
+      "KID": {
+        "first": 0.06305568624585428,
+        "second": 0.04319930458450344,
+        "absolute_delta": 0.01985638166135084,
+        "relative_percent": 45.964586356961334,
+        "first_is_better": false
+      },
+      "FID": {
+        "first": 179.7531362735299,
+        "second": 152.53195575784076,
+        "absolute_delta": 27.221180515689127,
+        "relative_percent": 17.846214834421573,
+        "first_is_better": false
+      }
+    }
+  },
+  "full_BC_bankwise_and_pooled_better_than_both_new_groups": false,
+  "support_path_promising_vs_f0s0": true,
+  "fusion_path_promising_vs_f0s0": true,
+  "diagnostic_group_means": {
+    "f1s1": {
+      "aligned_support_area_mean": 0.0008544921875,
+      "final_support_area_mean": 0.0037841796875,
+      "residual_l2_mean": 5.870427827701266,
+      "relative_residual_l2_mean": 0.0009520265556733197,
+      "near_tanh_limit_fraction_mean": 4.654328095578345e-06,
+      "abnormally_small_support_steps": 0
+    },
+    "f0s0": {
+      "aligned_support_area_mean": 0.00048828125,
+      "final_support_area_mean": 0.002197265625,
+      "residual_l2_mean": 2.765959823011023,
+      "relative_residual_l2_mean": 0.00046184831350746494,
+      "near_tanh_limit_fraction_mean": 4.768371653085524e-10,
+      "abnormally_small_support_steps": 0
+    },
+    "f0s1": {
+      "aligned_support_area_mean": 0.0008544921875,
+      "final_support_area_mean": 0.0037841796875,
+      "residual_l2_mean": 5.470835520687615,
+      "relative_residual_l2_mean": 0.0008935919286626881,
+      "near_tanh_limit_fraction_mean": 3.6108494584160175e-06,
+      "abnormally_small_support_steps": 0
+    },
+    "f1s0": {
+      "aligned_support_area_mean": 0.00048828125,
+      "final_support_area_mean": 0.002197265625,
+      "residual_l2_mean": 3.0286131486158956,
+      "relative_residual_l2_mean": 0.0005015124625689154,
+      "near_tanh_limit_fraction_mean": 0.0,
+      "abnormally_small_support_steps": 0
+    }
+  },
+  "interpretation_boundary": "F controls pixel features entering Fusion directly, but can still alter fused support and downstream morphology/gates. S controls only the explicit pixel-support term. Frozen-model inference intervention only.",
+  "required_answers": {
+    "1_F0S1_strict_pixel_support": "PASS: 600/600 diagnostic steps retained nonzero support recomputed from the current raw Pixel Encoder output; raw and explicit support means matched exactly.",
+    "2_F1S0_strict_pixel_feature": "PASS: 600/600 diagnostic steps retained nonzero raw Pixel Encoder features in the Fusion input while the explicit support term was exactly zero.",
+    "3_F1S1_full_regression": "PASS: Bank A/B/C fixed-slot PNG SHA256 all matched historical Full.",
+    "4_F0S0_latent_regression": "PASS: Bank A/B/C fixed-slot PNG SHA256 all matched Experiment 14 LatentOnly.",
+    "5_F0S1_change": "Versus F0S0 on B+C Black: KID -0.0061262052 and FID -10.532895 (better both). Versus Full: KID -0.0003831905, FID +0.964095 (mixed).",
+    "6_F1S0_change": "Versus F0S0 on B+C Black: KID -0.0030912577 and FID -2.540295 (better both). Versus Full: KID +0.0026517570 and FID +8.956695 (worse both).",
+    "7_conditional_complementarity": "Descriptive non-additivity is positive (KID 0.0034744482; FID 1.576200), but conditional Pixel Feature effects are not directionally stable; there is no robust complementarity claim.",
+    "8_larger_aligned_support_effect": "Explicit Pixel Support (S). Removing S reduced mean aligned-support area from 0.0008544922 to 0.0004882812; removing F with S retained caused no mean area change.",
+    "9_larger_residual_effect": "Explicit Pixel Support (S). Full-to-F1S0 mean residual-L2 change was 2.84181468 versus 0.39959231 for Full-to-F0S1.",
+    "10_support_shrinkage": "Yes, S-off systematically reduced aligned-support area by 42.86% and final-support area by 41.94%; no step crossed the fixed abnormal-small threshold.",
+    "11_full_best": "Full remains the strongest balanced MSDF configuration, but is not the unanimous metric winner: F0S1 has slightly lower B+C Black KID while Full has lower FID.",
+    "12_raw_gap": "Mixed. F0S1 narrows the Black KID gap to Raw by 0.0003831905 versus Full, but widens the FID gap by 0.964095; it still trails Raw by 38.94% KID and 12.61% FID.",
+    "13_new_fusion_basis": "Insufficient evidence for a new Fusion architecture: direct Pixel Feature effects are small/mixed, while the explicit support path explains the larger support/residual change.",
+    "14_next_single_mechanism": "Study the explicit Pixel Support composition/alignment mechanism, especially how fused support and pixel support are combined before morphology; do not expand this experiment automatically."
+  },
+  "paired_generation_identity_audit": {
+    "status": "PASS",
+    "paired_slots": 120,
+    "field_checks": 1200
+  }
+}

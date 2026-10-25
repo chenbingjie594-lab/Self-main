@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETE",
+  "planned_count": 240,
+  "count": 240,
+  "counts": {
+    "f0s1": {
+      "A": 40,
+      "B": 40,
+      "C": 40
+    },
+    "f1s0": {
+      "A": 40,
+      "B": 40,
+      "C": 40
+    }
+  },
+  "all_outputs_retained": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "parameter_update_count": 0,
+  "checkpoint_tree_SHA256": "a194955681b58621799796b7a5812ed5402667912b5b4a6034025ef27a33d826",
+  "factor_controls": {
+    "f0s1": {
+      "pixel_feature_enabled": false,
+      "pixel_support_enabled": true
+    },
+    "f1s0": {
+      "pixel_feature_enabled": true,
+      "pixel_support_enabled": false
+    }
+  },
+  "sample_records_images_and_hashes": "retained on server"
+}

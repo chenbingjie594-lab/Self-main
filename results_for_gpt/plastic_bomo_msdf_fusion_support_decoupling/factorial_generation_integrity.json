@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "counts": {
+    "f0s1": {
+      "A": 40,
+      "B": 40,
+      "C": 40
+    },
+    "f1s0": {
+      "A": 40,
+      "B": 40,
+      "C": 40
+    }
+  },
+  "total": 240,
+  "image_SHA256_checks": 240,
+  "cross_group_metadata_identical": true,
+  "reroll_count": 0,
+  "selection_count": 0,
+  "parameter_update_count": 0,
+  "feature_cache_SHA256": "b0b3db778852641786175d448075f38540707e1f7d3569a0ed1358f79739a29e",
+  "historical_full_latent_reused": true,
+  "final_eval_read_or_used": false,
+  "paired_slots_checked": 120,
+  "paired_identity_field_checks": 1200,
+  "paired_identity_fields": [
+    "frozen_slot",
+    "runtime_slot",
+    "normal_SHA256",
+    "bbox",
+    "prompt",
+    "sample_seed",
+    "bank_seed",
+    "checkpoint_tree_SHA256",
+    "msdf_checkpoint_SHA256",
+    "injection_gamma"
+  ]
+}

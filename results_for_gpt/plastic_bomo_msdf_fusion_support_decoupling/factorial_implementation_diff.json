@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "core_source_modified": false,
+  "core_source_SHA256": "03529d11b1125b77d20e996d0cf349e99eb23e2b523cd3d6e16ae88f1436b2f5",
+  "research_only_override": "factorial_prepare bound per loaded adapter instance",
+  "controls": {
+    "f1s1": {
+      "pixel_feature_enabled": true,
+      "pixel_support_enabled": true
+    },
+    "f0s0": {
+      "pixel_feature_enabled": false,
+      "pixel_support_enabled": false
+    },
+    "f0s1": {
+      "pixel_feature_enabled": false,
+      "pixel_support_enabled": true
+    },
+    "f1s0": {
+      "pixel_feature_enabled": true,
+      "pixel_support_enabled": false
+    }
+  },
+  "only_formula_differences": [
+    "pixel_feature_for_fusion = pixel_encoded or zeros_like(pixel_encoded)",
+    "pixel_support_for_reference = pixel_support or zeros_like(pixel_support)"
+  ],
+  "reference_support_formula": "0.5 * (fused_support + pixel_support_for_reference)",
+  "support_weight_renormalized": false,
+  "new_trainable_layers": 0,
+  "checkpoint_format_modified": false
+}

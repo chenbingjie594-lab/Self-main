@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "groups": [
+    {
+      "group": "f1s1",
+      "pixel_feature_enabled": true,
+      "pixel_support_enabled": true,
+      "gamma": 1.0,
+      "latent_l2": 8.738237380981445,
+      "pixel_raw_l2": 12.823192596435547,
+      "pixel_fusion_l2": 12.823192596435547,
+      "pixel_support_raw_l2": 0.35760876536369324,
+      "pixel_support_reference_l2": 0.35760876536369324,
+      "fusion_channels": 16,
+      "all_finite": true
+    },
+    {
+      "group": "f0s0",
+      "pixel_feature_enabled": false,
+      "pixel_support_enabled": false,
+      "gamma": 1.0,
+      "latent_l2": 8.738237380981445,
+      "pixel_raw_l2": 12.823192596435547,
+      "pixel_fusion_l2": 0.0,
+      "pixel_support_raw_l2": 0.35760876536369324,
+      "pixel_support_reference_l2": 0.0,
+      "fusion_channels": 16,
+      "all_finite": true
+    },
+    {
+      "group": "f0s1",
+      "pixel_feature_enabled": false,
+      "pixel_support_enabled": true,
+      "gamma": 1.0,
+      "latent_l2": 8.738237380981445,
+      "pixel_raw_l2": 12.823192596435547,
+      "pixel_fusion_l2": 0.0,
+      "pixel_support_raw_l2": 0.35760876536369324,
+      "pixel_support_reference_l2": 0.35760876536369324,
+      "fusion_channels": 16,
+      "all_finite": true
+    },
+    {
+      "group": "f1s0",
+      "pixel_feature_enabled": true,
+      "pixel_support_enabled": false,
+      "gamma": 1.0,
+      "latent_l2": 8.738237380981445,
+      "pixel_raw_l2": 12.823192596435547,
+      "pixel_fusion_l2": 12.823192596435547,
+      "pixel_support_raw_l2": 0.35760876536369324,
+      "pixel_support_reference_l2": 0.0,
+      "fusion_channels": 16,
+      "all_finite": true
+    }
+  ],
+  "parameters_unchanged": true,
+  "optimizer_steps": 0,
+  "pixel_support_recomputed_from_raw_encoder": true,
+  "fusion_width_unchanged": true,
+  "morphology_alignment": true,
+  "dynamic_gate": true,
+  "gamma": 1.0
+}

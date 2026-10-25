@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "base_commit": "9f11ebfea5902cf48281184d49d26cbeff431053",
+  "public_files": [
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/FUSION_SUPPORT_REPORT.md",
+      "sha256": "468fdf02f7d6d1a9df27e3a0b12ba9804689705cddc69e15205e073e7b1ec50d",
+      "bytes": 9759
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/experiment_status.json",
+      "sha256": "e6d889acde7f38b1281b20ad80a6ec72324fb26175356e3796fac4db49cb6de2",
+      "bytes": 999
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_bankwise_black.csv",
+      "sha256": "d89ab2fa67d30c6c78745a3369b37e369841880de0030c080371eaac3eb1eb9e",
+      "bytes": 3101
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_bankwise_overall.csv",
+      "sha256": "4e4d58b8583b07e5adad028c197ba17720fd6b39cfadaee83c194bbfa63bfcf8",
+      "bytes": 3154
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_checkpoint_audit.json",
+      "sha256": "33a4b854ab692d1275f62d12ffee986155e9a90336763bde2459aa3ee670d0e0",
+      "bytes": 2195
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_conclusion.json",
+      "sha256": "5d6ec4a89af7cc841bd01f6fe91e8f62cce428a21f02c91ae9e1dc9b47a8cc05",
+      "bytes": 7868
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_conditional_effects.csv",
+      "sha256": "d1dff75657168cd6a2f909de2b61a9c4bde86ab5799f436a8f2051d728267903",
+      "bytes": 4615
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_cpu_preflight.json",
+      "sha256": "7468632bf96f102ce3d14eb6c307cc2ae0ba9d2fcdad338addfde387f9dabba6",
+      "bytes": 1866
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_diagnostic_sample_manifest.json",
+      "sha256": "bbebb58fbf2ba08da3e39eb142885e3e3cd150af126397a88b70ed839ae6429f",
+      "bytes": 400
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_feature_diagnostics.csv",
+      "sha256": "b80da098cecc076b7757396826a36402455be50a2e364ce8db80883c8038261b",
+      "bytes": 3610
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_full_latent_regression.json",
+      "sha256": "90717c1707788f30bb4371294fdc88338d6e1beb904d7bee222511f2f075ec45",
+      "bytes": 774
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_gate_residual_statistics.csv",
+      "sha256": "bfd88811402265cf0eec8a8f57a02d92eaabba47892d626ac94ab6ad6afce9a9",
+      "bytes": 19269
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_generation_integrity.json",
+      "sha256": "b48fcf53db75113bd4f0daf4799ae86d809cbd72435a5af15cb461545d0e7c7e",
+      "bytes": 816
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_generation_manifest.json",
+      "sha256": "c9936f0cd6cb73b0f36ab525e5a83788e9e0d593188c562fa2ed46e7c79ba5cf",
+      "bytes": 696
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_implementation_diff.json",
+      "sha256": "b19f9358ba2e20ed1eb0b5637757b6407aabe6fc2938218abf402a210ded6d3f",
+      "bytes": 1018
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_interaction_summary.json",
+      "sha256": "c9b7002c1122440bcf77b5bbcb861fdd540f627a6393581cd1d71442183f3d8a",
+      "bytes": 5444
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_pooled_metrics.csv",
+      "sha256": "48ad1f8d833c2ee7a932c3ea537af93a79c8ae3eaf99d50802e506bb6dd75ea9",
+      "bytes": 4293
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_protocol.json",
+      "sha256": "0f523c3bc3dbe59d3dc7e91ddde005e4dda2b4f024bc1e5e354a956c22858f81",
+      "bytes": 7520
+    },
+    {
+      "path": "results_for_gpt/plastic_bomo_msdf_fusion_support_decoupling/factorial_support_statistics.csv",
+      "sha256": "6379a9b2fba4cab46cda9219c4edc67c584712d25aa5cbf7662fe31d3f904ab1",
+      "bytes": 10991
+    },
+    {
+      "path": "tools/run_plastic_bomo_msdf_fusion_support_decoupling.py",
+      "sha256": "b75666b7f6c430b9bc2621a73d1d8aa9119d20bae582e245ff7c1a847237d437",
+      "bytes": 58846
+    }
+  ],
+  "server_only": [
+    "240 generated PNGs and labels",
+    "48 diagnostic PNGs",
+    "full sample-level generation manifest",
+    "full sample/step diagnostic records",
+    "Inception feature cache",
+    "process logs and PID"
+  ],
+  "sanitization": {
+    "absolute_paths_removed": true,
+    "sample_ids_removed": true,
+    "source_hashes_removed": true,
+    "image_hashes_removed": true,
+    "diagnostic_CSVs": "aggregated by group/bank and up-block"
+  },
+  "images_or_model_weights_in_public_bundle": false
+}
