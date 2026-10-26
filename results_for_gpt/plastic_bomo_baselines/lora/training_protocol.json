@@ -1,0 +1,298 @@
+{
+  "status": "COMPLETE",
+  "experiment": "Plastic_Bomo V2 SD2 Inpainting standard Attention-LoRA baseline",
+  "scope": "LoRA only; no MSDF modification or execution",
+  "base_model": "sd2-community/stable-diffusion-2-inpainting",
+  "base_model_local_role": "offline immutable public checkpoint",
+  "training": {
+    "classes": [
+      "black",
+      "flash"
+    ],
+    "separate_class_adapters": true,
+    "class_order": [
+      "black",
+      "flash"
+    ],
+    "dataset": "V2 TRAIN corresponding class only",
+    "class_instance_counts": {
+      "black": 97,
+      "flash": 75
+    },
+    "resolution": 512,
+    "mask_processing": {
+      "crop_side": 512,
+      "crop_center": "bbox center; left=floor(cx-256), top=floor(cy-256)",
+      "crop_reposition": false,
+      "padding": "constant RGB(0,0,0) outside original canvas",
+      "resize": "none; 512x512 crop",
+      "mask": "L-mode rectangle, floor(left/top), ceil(right/bottom), exclusive right/bottom",
+      "mask_semantics": "white inpaint, black retain; weak bbox geometry NOT segmentation ground truth",
+      "output": "paste generated 512 patch into the same full normal canvas at fixed crop origin; ignore padded pixels, no blending or quality selection",
+      "synthetic_labels": "only frozen target bbox; background normal has no dataset-defined boxes"
+    },
+    "prompts": {
+      "black": "a photo of a sks black spot defect",
+      "flash": "a photo of a sks flash defect"
+    },
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "mixed_precision": "fp16 autocast with FP32 trainable masters",
+    "seed": 42,
+    "successful_optimizer_updates_per_class": 2000,
+    "attempted_updates_and_AMP_skips_recorded_separately": true,
+    "learning_rate": 0.0001,
+    "lr_scheduler": "constant; no warmup",
+    "optimizer": {
+      "name": "AdamW",
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "weight_decay": 0.01,
+      "epsilon": 1e-08
+    },
+    "max_gradient_norm": 1.0,
+    "loss": "original unweighted diffusion denoising MSE only",
+    "noise_offset": 0.0,
+    "input_perturbation": 0.0,
+    "snr_gamma": null,
+    "augmentation": "none",
+    "gradient_checkpointing": true,
+    "xformers": false,
+    "TF32": false,
+    "automatic_resume": false,
+    "hyperparameter_search": false,
+    "runs_per_class": 1,
+    "epoch_order": "annotation_id sort followed by deterministic permutation seed=42+epoch",
+    "tail_accumulation": "historical generator divisor remains 4 for partial epoch groups"
+  },
+  "lora": {
+    "implementation": "PEFT standard LoRA injected by diffusers UNet.add_adapter",
+    "scope": "UNet Attention projections only",
+    "target_modules": [
+      "to_q",
+      "to_k",
+      "to_v",
+      "to_out.0"
+    ],
+    "rank": 16,
+    "alpha": 16,
+    "dropout": 0.0,
+    "bias": "none",
+    "init_lora_weights": "gaussian",
+    "use_rslora": false,
+    "use_dora": false,
+    "adapter_name": "default",
+    "base_UNet_frozen": true,
+    "text_encoder_frozen": true,
+    "VAE_frozen": true,
+    "expected_UNet_in_channels": 9,
+    "forbidden": [
+      "MSDF",
+      "extra Attention",
+      "custom loss",
+      "reference-image feature fusion"
+    ]
+  },
+  "generation": {
+    "source_protocol_sha256": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5",
+    "frozen_slots_sha256": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "frozen_rng_manifest_sha256": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "banks": [
+      "A",
+      "B",
+      "C"
+    ],
+    "images_per_class_per_bank": 40,
+    "total_images": 240,
+    "scheduler": "DDIMScheduler",
+    "steps": 50,
+    "CFG": 7.5,
+    "eta": 0.0,
+    "strength": 1.0,
+    "height": 512,
+    "width": 512,
+    "quality_selection": false,
+    "best_of_n": false,
+    "reroll": false,
+    "all_successful_outputs_retained": true,
+    "frozen_historical_protocol": {
+      "pipeline": "StableDiffusionInpaintPipeline; standard inpainting only; no magic/dynamic/task-guidance branches",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "scheduler": "DDIMScheduler",
+      "scheduler_config": {
+        "num_train_timesteps": 1000,
+        "beta_start": 0.00085,
+        "beta_end": 0.012,
+        "beta_schedule": "scaled_linear",
+        "trained_betas": null,
+        "clip_sample": false,
+        "set_alpha_to_one": false,
+        "steps_offset": 1,
+        "prediction_type": "epsilon",
+        "thresholding": false,
+        "dynamic_thresholding_ratio": 0.995,
+        "clip_sample_range": 1.0,
+        "sample_max_value": 1.0,
+        "timestep_spacing": "leading",
+        "rescale_betas_zero_snr": false
+      },
+      "eta": 0.0,
+      "strength": 1.0,
+      "height": 512,
+      "width": 512,
+      "num_images_per_prompt": 1,
+      "negative_prompt": "",
+      "clip_skip": null,
+      "padding_mask_crop": null,
+      "precision": "fp16 inference; identical across banks",
+      "safety_checker": "disabled for industrial images; no safety-based sample replacement",
+      "ip_adapter": false,
+      "latent_or_prompt_embedding_override": false,
+      "batch_size": 1,
+      "generator_device": "CPU torch.Generator per slot; freshly seeded; record before/after state hashes at future runtime",
+      "xformers": false,
+      "TF32": false,
+      "output_encoding": "lossless RGB PNG for final full canvas; no JPEG re-encoding",
+      "checkpoint": "same newly trained V2 class final_step2000 checkpoint across banks, hash bound before ANY sampling",
+      "prompts": {
+        "flash": "a photo of a sks flash defect",
+        "black": "a photo of a sks black spot defect"
+      },
+      "geometry_policy": {
+        "crop_side": 512,
+        "crop_center": "bbox center; left=floor(cx-256), top=floor(cy-256)",
+        "crop_reposition": false,
+        "padding": "constant RGB(0,0,0) outside original canvas",
+        "resize": "none; 512x512 crop",
+        "mask": "L-mode rectangle, floor(left/top), ceil(right/bottom), exclusive right/bottom",
+        "mask_semantics": "white inpaint, black retain; weak bbox geometry NOT segmentation ground truth",
+        "output": "paste generated 512 patch into the same full normal canvas at fixed crop origin; ignore padded pixels, no blending or quality selection",
+        "synthetic_labels": "only frozen target bbox; background normal has no dataset-defined boxes"
+      },
+      "raw_output_policy": {
+        "allowed_checks": [
+          "file exists",
+          "decode valid",
+          "NaN/Inf",
+          "target geometry/annotation valid",
+          "pipeline structural failure"
+        ],
+        "all_successful_outputs_used": true,
+        "reroll": false,
+        "replacement_after_freeze": false,
+        "quality_selection": false,
+        "best_of_N": false,
+        "manual_filter": false,
+        "structural_failure_consequence": "stop formal comparison if any frozen slot fails; do not replace it or silently reduce 40/40"
+      }
+    }
+  },
+  "evaluation": {
+    "reference": "same 172 V2 TRAIN expanded ROI features (Black=97, Flash=75)",
+    "roi_margin_fraction_each_side": 0.25,
+    "feature_extractor": "torch-fidelity inception-v3-compat 2048",
+    "KID": {
+      "subsets": 100,
+      "subset_size": "min(50, real, generated)",
+      "seed": 42,
+      "degree": 3,
+      "gamma": null,
+      "coef0": 1.0
+    },
+    "FID": "torch-fidelity feature statistics",
+    "pooled": "concatenate image features then recompute; never average bank metrics",
+    "historical_comparators": [
+      "Raw SD2",
+      "MSDF Full (Full Mean-Support)",
+      "MSDF Max-Support"
+    ]
+  },
+  "privacy": {
+    "weights_images_private_server_only": true,
+    "GitHub_allowlist": [
+      "tools/run_plastic_bomo_baseline_lora.py",
+      "REPORT.md",
+      "training_protocol.json",
+      "checkpoint_audit.json",
+      "generation_manifest.json",
+      "bankwise_metrics.csv",
+      "pooled_metrics.csv",
+      "comparison.csv",
+      "experiment_status.json"
+    ],
+    "manifests_do_not_store_private_absolute_paths": true
+  },
+  "source_code_SHA256": {
+    "tools/run_plastic_bomo_baseline_lora.py": "5d9a733384abed8153c4aa9f15d0d7cc4f16964bdfabeef0205bc0c434c54a50",
+    "tools/train_plastic_bomo_stage20b_generator.py": "bfda745f865be7e96209bc06098bc40e7bdd4054e5127f2e6ac49ad03b26b1d3",
+    "tools/generate_plastic_bomo_stage20b_banks.py": "e1fcecb76c8a12bc261037c57717414d89a3c293b04c683f2e994de7ceb18f16",
+    "tools/run_plastic_bomo_msdf_multibank_stability.py": "028ab7494eee7d61f72fd59cc7b0ed9744a7a38eac1ec8fd05e66105bd3c68c9",
+    "tools/run_plastic_bomo_msdf_max_support.py": "b71cc68904222e32184747c8b81ddc901c821bc4d5213955f84aa67b68062c21",
+    "tools/qualify_plastic_bomo_stage20b_r0.py": "255c979b44d68feabe454508f546ae93fbea70fb15a8da5ef12b4c750f4671a9",
+    "diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion_inpaint.py": "958bb7ca4e1d328c331516418969888aa8ca4874c78af205d0f2cd8f744acf6a",
+    "diffusers/loaders/lora_pipeline.py": "a1d4fe0d287af25ece6cbb7f8d9bcc43b1be41e8f8d93af21d8f713bc308f89d"
+  },
+  "interruption_recovery": {
+    "original_protocol_sha256": "cb659a18dee49e1756934e32c718995b202730a0ad3f0511a2ec5d6376890f62",
+    "interrupted_class": "flash",
+    "last_successful_update": 453,
+    "partial_checkpoint_available": false,
+    "optimizer_state_available": false,
+    "action": "restart Flash from seed 42 and step zero",
+    "Black_retrained": false,
+    "hyperparameters_changed": false,
+    "reason": "external managed-session loss; no training traceback",
+    "incomplete_attempt_evidence": "interrupted_flash_attempt_20261025_135555",
+    "authorized_by_user": true
+  },
+  "completed_at": "2026-10-26T03:04:02.529390+00:00",
+  "runtime_metric_audit": {
+    "status": "FROZEN_BEFORE_METRICS",
+    "device": "cuda:0",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "torch": "2.5.1+cu124",
+    "CUDA": "12.4",
+    "torch_fidelity": "0.3.0",
+    "lpips": "0.1.4",
+    "weights": {
+      "weights-inception-2015-12-05-6726825d.pth": {
+        "path": "torch_hub/checkpoints/weights-inception-2015-12-05-6726825d.pth",
+        "sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2"
+      },
+      "alexnet-owt-7be5be79.pth": {
+        "path": "torch_hub/checkpoints/alexnet-owt-7be5be79.pth",
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+      },
+      "alex.pth": {
+        "path": "site-packages/lpips/weights/v0.1/alex.pth",
+        "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+      }
+    },
+    "source_files": {
+      "torch_fidelity.feature_extractor_inceptionv3": {
+        "path": "site-packages/torch_fidelity/feature_extractor_inceptionv3.py",
+        "sha256": "1cf34e394665d52aa8d6522aae67370a036add18bfd91eb6657b2d666e458d34"
+      },
+      "torch_fidelity.metric_fid": {
+        "path": "site-packages/torch_fidelity/metric_fid.py",
+        "sha256": "e8a172867a1b6e9d4a1647d4d85e69e6930d94ee1b6a908a5be5d3b7755aa0cd"
+      },
+      "torch_fidelity.metric_kid": {
+        "path": "site-packages/torch_fidelity/metric_kid.py",
+        "sha256": "4bc68c5971b751082c5eee1a73ddde43d0b86617ce65455eedab74f8a84030f0"
+      },
+      "lpips.lpips": {
+        "path": "site-packages/lpips/lpips.py",
+        "sha256": "780d09b907cb9b661e0ae28b2d163ddfba92f9e870d7feba34d4790cc6590658"
+      },
+      "lpips.pretrained_networks": {
+        "path": "site-packages/lpips/pretrained_networks.py",
+        "sha256": "6a27f714c51796db466e86bebba6a617c1bfc4d566f3a1756497629c1248686e"
+      }
+    },
+    "TF32": false,
+    "autocast": false,
+    "network_downloads": 0
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "audited_at": "2026-10-26T02:42:00.718943+00:00",
+  "base_model_id": "sd2-community/stable-diffusion-2-inpainting",
+  "base_model_public_revision": "5f74973cbb64c8568780732c17f43eb269d63a0d",
+  "base_checkpoint_files": {
+    "model_index.json": {
+      "sha256": "af482af150c3f493066861bdf1b5208a35ed15e530c1fb6eb144c85e42a1114c",
+      "bytes": 544,
+      "historical_binding_match": true
+    },
+    "unet/config.json": {
+      "sha256": "ec80d707d3b97c57457682dbc40f42e1fe5834c18e3f58bc207b76c5e2799560",
+      "bytes": 914,
+      "historical_binding_match": true
+    },
+    "unet/diffusion_pytorch_model.safetensors": {
+      "sha256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+      "bytes": 3463784116,
+      "historical_binding_match": true
+    },
+    "vae/diffusion_pytorch_model.safetensors": {
+      "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "bytes": 334643276,
+      "historical_binding_match": true
+    },
+    "text_encoder/model.safetensors": {
+      "sha256": "cce6febb0b6d876ee5eb24af35e27e764eb4f9b1d0b7c026c8c3333d4cfc916c",
+      "bytes": 1361597018,
+      "historical_binding_match": true
+    }
+  },
+  "base_UNet_SHA256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+  "expected_UNet_in_channels": 9,
+  "lora_checkpoints": {
+    "black": {
+      "checkpoint_path": "checkpoints/black/pytorch_lora_weights.safetensors",
+      "checkpoint_sha256": "52ef12e98b41145a1f258eb1ef73beefa187dacfe0765c93b2a6f0a4b5558e2e",
+      "checkpoint_bytes": 13316776,
+      "successful_updates": 2000,
+      "trainable_parameter_count": 3319808,
+      "target_parameter_tensor_counts": {
+        "to_q": 64,
+        "to_k": 64,
+        "to_v": 64,
+        "to_out.0": 64
+      },
+      "UNet_in_channels": 9,
+      "only_UNet_attention_LoRA_trainable": true
+    },
+    "flash": {
+      "checkpoint_path": "checkpoints/flash/pytorch_lora_weights.safetensors",
+      "checkpoint_sha256": "ee74f43313b3c921a990475c6b6fb7a6799da10d0cd7260764f81948e2a06cd1",
+      "checkpoint_bytes": 13316776,
+      "successful_updates": 2000,
+      "trainable_parameter_count": 3319808,
+      "target_parameter_tensor_counts": {
+        "to_q": 64,
+        "to_k": 64,
+        "to_v": 64,
+        "to_out.0": 64
+      },
+      "UNet_in_channels": 9,
+      "only_UNet_attention_LoRA_trainable": true
+    }
+  },
+  "historical_evidence": {
+    "Raw_and_MSDF_Full_bankwise_black": {
+      "path": "results_for_gpt/plastic_bomo_msdf_multibank_stability/multibank_bankwise_black.csv",
+      "sha256": "a51e4a4d77d5f7e8b108ba3bcbb236f0ecc8075dabf1ec3fc66bc1bd46ff15db",
+      "bytes": 1907
+    },
+    "Raw_and_MSDF_Full_bankwise_flash": {
+      "path": "results_for_gpt/plastic_bomo_msdf_multibank_stability/multibank_bankwise_flash.csv",
+      "sha256": "42ca055609619f5a96d044e040593875397b113683755790e7d3fdbd0ac020c5",
+      "bytes": 2080
+    },
+    "Raw_and_MSDF_Full_bankwise_overall": {
+      "path": "results_for_gpt/plastic_bomo_msdf_multibank_stability/multibank_bankwise_overall.csv",
+      "sha256": "ebdde5c57022aa42f036bdd80e87bab2f390bc86b18ec5601a4695ad5ec6e744",
+      "bytes": 1920
+    },
+    "Raw_and_MSDF_Full_pooled": {
+      "path": "results_for_gpt/plastic_bomo_msdf_multibank_stability/multibank_pooled_metrics.csv",
+      "sha256": "2d4fbbaa320743c0e57e751a028b6d079a295aa3ad1a15a826d9c4f18aa4365c",
+      "bytes": 3206
+    },
+    "MSDF_Max_bankwise_black": {
+      "path": "results_for_gpt/plastic_bomo_msdf_max_support/max_support_bankwise_black.csv",
+      "sha256": "1b4ff28397c0772b1644c2fd456b741515498a274befc3cdb4d629e8c4e0b9d1",
+      "bytes": 2417
+    },
+    "MSDF_Max_bankwise_overall": {
+      "path": "results_for_gpt/plastic_bomo_msdf_max_support/max_support_bankwise_overall.csv",
+      "sha256": "f8217f6399d5cbfa11ddc69f405f7a6720de4ec4ea3bb34ec709b703ab8f868a",
+      "bytes": 2488
+    },
+    "MSDF_Max_pooled": {
+      "path": "results_for_gpt/plastic_bomo_msdf_max_support/max_support_pooled_metrics.csv",
+      "sha256": "68ad7e83fae033a6e8ee3af36071671f55a3d02b9795789012570be83ec3bfb9",
+      "bytes": 3451
+    },
+    "V2_TRAIN_reference_features": {
+      "path": "results_for_gpt/plastic_bomo_msdf_gamma_sweep/gamma_sweep_inception_features.npz",
+      "sha256": "ce6874edce9e4ef1c0bf63967712063c111e4a71ee593d85e6e54b79ee2ebabe",
+      "bytes": 4730346
+    },
+    "V2_TRAIN_reference_feature_ledger": {
+      "path": "results_for_gpt/plastic_bomo_msdf_gamma_sweep/gamma_sweep_inception_feature_cache.json",
+      "sha256": "d2c12469d0bfd5a3e86dea94202587c656b39762be19ac3bb2723cbd39ce2ad7",
+      "bytes": 50891
+    }
+  }
+}
