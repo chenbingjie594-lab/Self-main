@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN",
+  "method": "TF-IDG",
+  "training_free": true,
+  "weights": {
+    "anydoor": {
+      "size": 16836620171,
+      "sha256": "89be5db3ca8d07dab4d525b7c8d40e12f80c6a45f8fce769d5617640d2f36ec0",
+      "format": "PyTorch ZIP archive",
+      "trained_on_plastic_bomo": false,
+      "parameter_updates_this_experiment": 0,
+      "server_filename": "epoch=1-step=8687.ckpt"
+    },
+    "dinov2": {
+      "size": 4546108579,
+      "sha256": "baf8467e50af277596bbbafa06887c177ee899ab46033649c383577d7e9309d3",
+      "format": "PyTorch ZIP archive",
+      "trained_on_plastic_bomo": false,
+      "parameter_updates_this_experiment": 0,
+      "server_filename": "dinov2_vitg14_pretrain.pth"
+    }
+  }
+}

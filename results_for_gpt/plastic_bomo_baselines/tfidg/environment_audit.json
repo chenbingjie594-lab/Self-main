@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-10-26T12:01:11Z",
+  "python": "3.8.5 | packaged by conda-forge | (default, Sep 24 2020, 16:55:52) \n[GCC 7.5.0]",
+  "platform": "Linux-6.5.0-44-generic-x86_64-with-glibc2.10",
+  "torch": "2.0.0+cu118",
+  "torch_cuda_build": "11.8",
+  "cuda_available": true,
+  "device_request": "cuda:0",
+  "packages": {
+    "torch": "2.0.0+cu118",
+    "torchvision": "0.15.1+cu118",
+    "xformers": "0.0.18",
+    "numpy": "1.23.1",
+    "opencv-python-headless": "4.7.0.72",
+    "albumentations": "1.3.0",
+    "omegaconf": "2.1.1",
+    "pytorch-lightning": "1.5.0",
+    "timm": "0.6.12",
+    "transformers": "4.19.2",
+    "scikit-image": "0.21.0",
+    "scikit-learn": "1.3.2",
+    "geomloss": "0.3.1",
+    "kornia": "0.7.3"
+  },
+  "official_environment_install_deviations": {
+    "cmake==3.28.0": "omitted; unavailable exact release and not an inference runtime dependency",
+    "share==1.0.4": "omitted; absent from public PyPI and not imported by run_inference.py",
+    "opencv_triplicate": "resolved to opencv-python-headless==4.7.0.72 to avoid three cv2 wheels",
+    "CUDA_wheel": "cu118 wheel; driver compatibility checked at runtime"
+  },
+  "training_performed": false,
+  "optimizer_step_count": 0,
+  "parameters_updated": false,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3090",
+    "capability": [
+      8,
+      6
+    ],
+    "free_mib_at_audit": 23982,
+    "total_mib": 24252
+  },
+  "environment_name": "TF-IDG (separate Conda environment; server path redacted)"
+}

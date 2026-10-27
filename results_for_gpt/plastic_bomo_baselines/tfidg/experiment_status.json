@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "full_experiment_complete": true,
+  "training_free": true,
+  "optimizer_step_count": 0,
+  "generated_count": 240,
+  "smoke_passed": true,
+  "metrics_computed": true,
+  "smoke_count": 2,
+  "smoke_records": [
+    "black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+    "flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7"
+  ],
+  "current_slot": null,
+  "bankwise_metric_rows": 9,
+  "pooled_metric_rows": 6,
+  "comparison_rows": 60,
+  "pooled_recomputed_not_bank_average": true,
+  "completed_at": "2026-10-27T02:49:18Z"
+}
