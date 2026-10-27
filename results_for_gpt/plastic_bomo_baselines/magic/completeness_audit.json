@@ -1,0 +1,84 @@
+{
+  "status": "PASS_WITH_DISCLOSED_ADAPTERS",
+  "audited_at": "2026-10-27T07:30:26.011667+00:00",
+  "official_commits": {
+    "MAGIC": "ab37cd94fef34ef139cb2b562c35680a9ed2f7ca",
+    "GeoAware-SC": "b20fab9c2d4f686536be9db34d1fb2079240fdd5",
+    "U-2-Net": "ac7e1c817ecab7c7dff5ce6b1abba61cd213ff29"
+  },
+  "training": {
+    "black_steps": 5000,
+    "flash_steps": 5000,
+    "independent": true,
+    "seed": 42
+  },
+  "generation": {
+    "planned": 240,
+    "verified": 240,
+    "counts": {
+      "flash:A": 40,
+      "flash:B": 40,
+      "flash:C": 40,
+      "black:A": 40,
+      "black:B": 40,
+      "black:C": 40
+    },
+    "Prompt_Perturbation": true,
+    "Spatially_Adaptive_Guidance": true,
+    "CAMA": true,
+    "vanilla_SD2_substituted": false,
+    "quality_selection": false,
+    "reroll": false
+  },
+  "data_policy": {
+    "test_defects_used_for_training_or_matching": false,
+    "defect_donors": "V2 TRAIN only",
+    "mask_adapter": "BBox-Mask rectangular weak labels",
+    "mask_is_human_segmentation": false
+  },
+  "CAMA": {
+    "components": 57,
+    "matching_records": 786,
+    "no_intersections": 3774,
+    "transparent_film_warning": true,
+    "fallback_is_official_CAMA_behavior": true
+  },
+  "diagnostics": {
+    "Black": {
+      "count": 120,
+      "background_mae_0_1_mean": 0.01862879949544701,
+      "background_changed_fraction_gt_5_mean": 0.3359337106348931,
+      "target_bbox_coverage_mean": 0.011122577401313033,
+      "target_bbox_final_mask_iou_mean": 0.010598029337981239,
+      "empty_final_masks": 48,
+      "structural_failures": 48
+    },
+    "Flash": {
+      "count": 120,
+      "background_mae_0_1_mean": 0.01855554020247846,
+      "background_changed_fraction_gt_5_mean": 0.32363577586626735,
+      "target_bbox_coverage_mean": 0.016407244506998202,
+      "target_bbox_final_mask_iou_mean": 0.015383132224307797,
+      "empty_final_masks": 51,
+      "structural_failures": 51
+    },
+    "Overall": {
+      "count": 240,
+      "background_mae_0_1_mean": 0.018592169848962732,
+      "background_changed_fraction_gt_5_mean": 0.32978474325058005,
+      "target_bbox_coverage_mean": 0.013764910954155614,
+      "target_bbox_final_mask_iou_mean": 0.012990580781144515,
+      "empty_final_masks": 99,
+      "structural_failures": 99
+    }
+  },
+  "metrics_available": true,
+  "MSDF_modified": false,
+  "MSDF_executed_in_this_run": false,
+  "model_weights_in_publish_set": false,
+  "adapter_sha256": {
+    "runner": "d1c394d6a5e92bfb48b2cdaecddda397bfa87769f607bf5bc12ce591df7b44a3",
+    "inference": "7cc25759e796346692beae455a05ef3b0c8dcb779218837c20631011d788d035",
+    "CAMA_runtime_copy": "b26e5d727e127809f79007a81e9f296f0f29ee555459930f48a26388362beec0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "audited_at": "2026-10-25T13:09:05.184710+00:00",
+  "commit_SHA": {
+    "MAGIC": "ab37cd94fef34ef139cb2b562c35680a9ed2f7ca",
+    "GeoAware-SC": "b20fab9c2d4f686536be9db34d1fb2079240fdd5",
+    "U-2-Net": "ac7e1c817ecab7c7dff5ce6b1abba61cd213ff29"
+  },
+  "expected_commit_SHA": {
+    "MAGIC": "ab37cd94fef34ef139cb2b562c35680a9ed2f7ca",
+    "GeoAware-SC": "b20fab9c2d4f686536be9db34d1fb2079240fdd5",
+    "U-2-Net": "ac7e1c817ecab7c7dff5ce6b1abba61cd213ff29"
+  },
+  "requested_files": [
+    "README.md",
+    "run_train.py",
+    "train_dreambooth_noise.py",
+    "inference.py",
+    "CAMA_matching.py"
+  ],
+  "missing_files": [],
+  "algorithm": {
+    "stable_diffusion_inpainting": "stabilityai/stable-diffusion-2-inpainting",
+    "prompt_perturbation": "train_dreambooth_noise.py adds N(0,text_noise_scale) to prompt embeddings; inference monkey-patches encode_prompt",
+    "spatially_adaptive_guidance": "pipeline_stable_diffusion_inpaint_magic.py exposes inside/outside guidance and gsi schedule",
+    "CAMA": "inference.py --CAMA consumes GeoAware-SC matching JSON and U-2-Net object masks",
+    "all_required_components_present": true,
+    "official_inference_import_issue": "inference.py imports a nonexistent *_scheduler_up module; repository contains pipeline_stable_diffusion_inpaint_magic.py"
+  },
+  "data_policy": {
+    "defect_donors": "V2 TRAIN only",
+    "normal_pool": "V2 TRAIN frozen normal pool",
+    "final_eval_defects_used": false,
+    "mask_adapter": "BBox-Mask (rectangular; not human segmentation)"
+  },
+  "official_defaults": {
+    "max_train_steps": 5000,
+    "learning_rate": 5e-06,
+    "resolution": 512,
+    "train_batch_size": 4,
+    "gradient_accumulation_steps": 1,
+    "scheduler": "constant",
+    "warmup_steps": 0,
+    "text_noise_scale": 1.0,
+    "model": "stabilityai/stable-diffusion-2-inpainting",
+    "instance_prompt": "a photo of sks defect",
+    "class_prompt": "a photo of defect",
+    "official_dataset_fraction": "sorted first floor(N/3)",
+    "seed_adapter": 42
+  }
+}

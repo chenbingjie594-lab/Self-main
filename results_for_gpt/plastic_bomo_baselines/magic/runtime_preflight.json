@@ -1,0 +1,33 @@
+{
+  "status": "BLOCKED",
+  "checked_at": "2026-10-25T13:10:26.594617+00:00",
+  "checks": {
+    "nvidia_smi": {
+      "ok": false,
+      "returncode": 9,
+      "output": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running."
+    },
+    "nvidia_devices": [
+      "/dev/nvidia-caps"
+    ],
+    "u2net_weight": {
+      "ok": false,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/third_party/U-2-Net/saved_models/u2net/u2net.pth",
+      "bytes": 0
+    },
+    "geoaware_aggregation_weight": {
+      "ok": true,
+      "path": "/mnt/sda/cbj/ImageGeneration/Self-main/third_party/GeoAware-SC/results_spair/best_856.PTH"
+    },
+    "geoaware_external_models": {
+      "stable_diffusion_v1_5": "not locally bound; GeoAware-SC load_model requests v1-5",
+      "dinov2_vitb14": "not locally bound; torch.hub download is requested"
+    },
+    "official_import_fix_required": true
+  },
+  "blockers": [
+    "No usable NVIDIA driver/device; official CAMA hard-codes torch.device('cuda') and training requires CUDA VRAM.",
+    "Official U-2-Net u2net.pth is absent, so transparent-film foreground-mask precheck cannot run.",
+    "GeoAware-SC SD1.5 and DINOv2 model assets are not locally pinned/bound."
+  ]
+}

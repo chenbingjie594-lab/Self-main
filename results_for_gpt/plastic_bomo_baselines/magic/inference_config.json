@@ -1,0 +1,60 @@
+{
+  "status": "COMPLETE",
+  "official_entrypoint": "python inference.py",
+  "required_components": {
+    "prompt_perturbation": true,
+    "spatially_adaptive_guidance": true,
+    "CAMA": true,
+    "ordinary_SD2_only_forbidden": true
+  },
+  "official_README_settings": {
+    "dataset_type": "mvtec",
+    "text_noise_scale": 1.0,
+    "CAMA": true,
+    "gsi_use_schedule": true,
+    "gsi_schedule": "cosine",
+    "gsi_min": 4.0,
+    "gsi_max": 7.5,
+    "guidance_scale_outside": 7.5
+  },
+  "banks": [
+    "A",
+    "B",
+    "C"
+  ],
+  "images_per_class_per_bank": 40,
+  "planned_images": 240,
+  "same_frozen_normal_bbox_seed_identity": true,
+  "quality_selection": false,
+  "reroll": false,
+  "required_adapter_fixes": [
+    "map official nonexistent inference import to pipeline_stable_diffusion_inpaint_magic.py",
+    "add manifest-driven normal/mask/sample_seed selection without changing MAGIC math",
+    "pass seed=42 through run_train.py to train_dreambooth_noise.py"
+  ],
+  "generated_images": 240,
+  "counts": {
+    "black:A": 40,
+    "black:B": 40,
+    "black:C": 40,
+    "flash:A": 40,
+    "flash:B": 40,
+    "flash:C": 40
+  },
+  "missing": [],
+  "output_root": "runtime/inference_full/noise_1.0_guidance_scale_4.0_7.5_align/Plastic_Bomo",
+  "full_MAGIC_components_enabled": true,
+  "CAMA_matching_records": 786,
+  "completed_at": "2026-10-27T07:30:25.995351+00:00",
+  "match_records": {
+    "black": 413,
+    "flash": 373
+  },
+  "CAMA_no_intersections": 3774,
+  "batch_adapter": 1,
+  "adapter_notes": [
+    "official missing import mapped to repository pipeline_stable_diffusion_inpaint_magic.py",
+    "manifest adapter fixes normal/mask/sample seed without changing MAGIC math",
+    "CAMA donor and normal upsampling evaluated in memory-equivalent chunks for RTX 3090"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "official_entrypoint": "python run_train.py",
+  "official_commit": "ab37cd94fef34ef139cb2b562c35680a9ed2f7ca",
+  "category": "Plastic_Bomo",
+  "classes": [
+    "black",
+    "flash"
+  ],
+  "class_training_is_independent": true,
+  "seed": 42,
+  "base_model": "stabilityai/stable-diffusion-2-inpainting",
+  "max_train_steps": 5000,
+  "learning_rate": 5e-06,
+  "resolution": 512,
+  "train_batch_size": 4,
+  "gradient_accumulation_steps": 1,
+  "lr_scheduler": "constant",
+  "lr_warmup_steps": 0,
+  "text_noise_scale": 1.0,
+  "instance_prompt": "a photo of sks defect",
+  "class_prompt": "a photo of defect",
+  "official_loader_policy": "first floor(N/3) after numeric filename sort",
+  "effective_samples": {
+    "black": 32,
+    "flash": 25
+  },
+  "mask_adapter": "BBox-Mask rectangular weak labels",
+  "MSDF_modified": false,
+  "MSDF_executed": false,
+  "completed_steps": {
+    "black": 5000,
+    "flash": 5000
+  },
+  "logs": {
+    "black": "logs/black_training.log",
+    "flash": "logs/flash_training.log"
+  },
+  "completed_at": "2026-10-27T07:30:25.994766+00:00"
+}

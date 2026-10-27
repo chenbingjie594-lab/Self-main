@@ -1,0 +1,653 @@
+{
+  "status": "PASS_WITH_TRANSPARENT_FILM_WARNING",
+  "weight_sha256": "10025a17f49cd3208afc342b589890e402ee63123d6f2d289a4a0903695cce58",
+  "normal_count": 80,
+  "foreground_fraction_min": 1.1444091796875e-05,
+  "foreground_fraction_max": 0.5390892028808594,
+  "foreground_fraction_mean": 0.021615934371948243,
+  "empty_masks": 0,
+  "full_masks": 0,
+  "review_note": "U-2-Net is an SOD model; mask statistics are recorded because transparent film is out of domain.",
+  "records": [
+    {
+      "normal": "slot_0001_flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d.png",
+      "mask": "slot_0001_flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d_mask.png",
+      "foreground_fraction": 0.05991363525390625,
+      "minimum": 0,
+      "maximum": 251,
+      "sha256": "b3b085b30a69948cbfdd5c848df43fec94a6b96725868a646051920588221258"
+    },
+    {
+      "normal": "slot_0002_flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02.png",
+      "mask": "slot_0002_flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02_mask.png",
+      "foreground_fraction": 0.010776519775390625,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "7a1885a3d85c7be7519d977890ec70e9fd2d448a67fb4a8e14ef6748474eba60"
+    },
+    {
+      "normal": "slot_0003_flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb.png",
+      "mask": "slot_0003_flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb_mask.png",
+      "foreground_fraction": 0.0002288818359375,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "ab3c85bc9d64feef013a5e08242e5fae3a021a86a0594b47c2606e5a54abbddd"
+    },
+    {
+      "normal": "slot_0004_flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce.png",
+      "mask": "slot_0004_flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce_mask.png",
+      "foreground_fraction": 0.04993438720703125,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "5e026408bf3867aa6b0f4240a6bc103a1f2bc0d08eb4c854697ef5a5933c2d89"
+    },
+    {
+      "normal": "slot_0005_flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497.png",
+      "mask": "slot_0005_flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497_mask.png",
+      "foreground_fraction": 0.006591796875,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "4d02ffbc007abf67ea2a4a2e6b111caf9365ac015f5ee27b8be670eca9b24efe"
+    },
+    {
+      "normal": "slot_0006_flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14.png",
+      "mask": "slot_0006_flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "e717b3342f8e107d6e79e87241796717b638f125ac612f4d1020cb379657fc88"
+    },
+    {
+      "normal": "slot_0007_flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e.png",
+      "mask": "slot_0007_flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e_mask.png",
+      "foreground_fraction": 0.001163482666015625,
+      "minimum": 0,
+      "maximum": 237,
+      "sha256": "25faa87a9c496018a12c36f72505175e23edca7c63f476b55e5dd31568b52f69"
+    },
+    {
+      "normal": "slot_0008_flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23.png",
+      "mask": "slot_0008_flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23_mask.png",
+      "foreground_fraction": 0.008159637451171875,
+      "minimum": 0,
+      "maximum": 246,
+      "sha256": "d2620ce844040ad49b5760e0a106d36deb8e954b29d61dd821843c7693ba8814"
+    },
+    {
+      "normal": "slot_0009_flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3.png",
+      "mask": "slot_0009_flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "6487249b24726e655a1174ea398f39e7bcc4ec07a119d2e6c486b522d4c84ed9"
+    },
+    {
+      "normal": "slot_0010_flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821.png",
+      "mask": "slot_0010_flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "e2b25942b3203d8a4451598c50fc0f39fd8e89360edd12c86e125f152d3fb98f"
+    },
+    {
+      "normal": "slot_0011_flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865.png",
+      "mask": "slot_0011_flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865_mask.png",
+      "foreground_fraction": 1.9073486328125e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "c7c6466ed44e4a7e31726491e61512f1d096eb8cb8892e6c29a80ef06a689071"
+    },
+    {
+      "normal": "slot_0012_flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2.png",
+      "mask": "slot_0012_flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2_mask.png",
+      "foreground_fraction": 0.0216064453125,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "b4bdffa6b2ee81a81c88e347fb7b01a946ada8000941fd23209fef18ed9fcd48"
+    },
+    {
+      "normal": "slot_0013_flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e.png",
+      "mask": "slot_0013_flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "05333ffc900d304ea5f8b039f91aea5d40ab3192bcd0e864cc38681b0ebb9034"
+    },
+    {
+      "normal": "slot_0014_flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17.png",
+      "mask": "slot_0014_flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17_mask.png",
+      "foreground_fraction": 0.0005645751953125,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "56d3123b52f3c597ef323d43cd02ba45aa3157fb0ee3849877a27f8adb29c891"
+    },
+    {
+      "normal": "slot_0015_flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d.png",
+      "mask": "slot_0015_flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d_mask.png",
+      "foreground_fraction": 0.000759124755859375,
+      "minimum": 0,
+      "maximum": 233,
+      "sha256": "51a2a68db22f57e543f81092f1d935e8eb0f5f18a64d40f6d3b1f67a8e1c0355"
+    },
+    {
+      "normal": "slot_0016_flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8.png",
+      "mask": "slot_0016_flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8_mask.png",
+      "foreground_fraction": 0.13590240478515625,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "0a115ebd30280a09076e3477f0fef92efa7ad33c5463ddbd1bbe5309973027ba"
+    },
+    {
+      "normal": "slot_0017_flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07.png",
+      "mask": "slot_0017_flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07_mask.png",
+      "foreground_fraction": 0.042781829833984375,
+      "minimum": 0,
+      "maximum": 244,
+      "sha256": "eb456d2ac6cc8aeed0491ca72d0c7996b1ec5557859b0de6c9f43230d85cef7a"
+    },
+    {
+      "normal": "slot_0018_flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd.png",
+      "mask": "slot_0018_flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd_mask.png",
+      "foreground_fraction": 0.0094146728515625,
+      "minimum": 0,
+      "maximum": 251,
+      "sha256": "b341f8eddc60c0f70e696abdc56899215397b9df88c53d6a5b509c03b16ec87e"
+    },
+    {
+      "normal": "slot_0019_flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780.png",
+      "mask": "slot_0019_flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780_mask.png",
+      "foreground_fraction": 0.001377105712890625,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "8160d9bf37ee877a0c294f2ddf6be9c0ce38953a5d8b392ca46bcb42a3febacb"
+    },
+    {
+      "normal": "slot_0020_flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16.png",
+      "mask": "slot_0020_flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16_mask.png",
+      "foreground_fraction": 0.001995086669921875,
+      "minimum": 0,
+      "maximum": 248,
+      "sha256": "cefbba206080c1030ff36391be2758b4c927e8a2522cc7be56b2f9890ec0d732"
+    },
+    {
+      "normal": "slot_0021_flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc.png",
+      "mask": "slot_0021_flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc_mask.png",
+      "foreground_fraction": 1.9073486328125e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "481340bfadb23b515197072550c7244f0634f07a1682ff6f1e53f41e579553d4"
+    },
+    {
+      "normal": "slot_0022_flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233.png",
+      "mask": "slot_0022_flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233_mask.png",
+      "foreground_fraction": 0.03836822509765625,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "814615428fc787b9465652fd76748e3af5f92bcdacd646a127047d21832ae2bc"
+    },
+    {
+      "normal": "slot_0023_flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344.png",
+      "mask": "slot_0023_flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344_mask.png",
+      "foreground_fraction": 0.036220550537109375,
+      "minimum": 0,
+      "maximum": 254,
+      "sha256": "aba350d257fdef9d46052187053a83687b6a096c4f246d41f362fa386be8474a"
+    },
+    {
+      "normal": "slot_0024_flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d.png",
+      "mask": "slot_0024_flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d_mask.png",
+      "foreground_fraction": 0.023326873779296875,
+      "minimum": 0,
+      "maximum": 248,
+      "sha256": "b75d139cac10802fe22ea73e3c5f4db10c5496c4c12101774f3ea06554acd9b4"
+    },
+    {
+      "normal": "slot_0025_flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7.png",
+      "mask": "slot_0025_flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "19e9cca7deb9fb759af65d649b7e5a81ea95574fd5afa9e4ecd325c75ce01af2"
+    },
+    {
+      "normal": "slot_0026_flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca.png",
+      "mask": "slot_0026_flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca_mask.png",
+      "foreground_fraction": 3.0517578125e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "a6e442784a14f082198786ede2559560484865dd52f69b00d0861b977248f5f8"
+    },
+    {
+      "normal": "slot_0027_flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3.png",
+      "mask": "slot_0027_flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3_mask.png",
+      "foreground_fraction": 0.025936126708984375,
+      "minimum": 0,
+      "maximum": 243,
+      "sha256": "5fe704acd9e9a5baa78fab46937330592767b4582c819f8a2c581b154d0be13b"
+    },
+    {
+      "normal": "slot_0028_flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68.png",
+      "mask": "slot_0028_flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68_mask.png",
+      "foreground_fraction": 0.0026702880859375,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "81fef1172254d704e56da5660f623d02e8e8fc507018e2edec657a00f9727a48"
+    },
+    {
+      "normal": "slot_0029_flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214.png",
+      "mask": "slot_0029_flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214_mask.png",
+      "foreground_fraction": 2.288818359375e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "54e06076fd9f4240ecb1dd6358aa84b6cd60fdaa35104b4084f985bd038efdc2"
+    },
+    {
+      "normal": "slot_0030_flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d.png",
+      "mask": "slot_0030_flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d_mask.png",
+      "foreground_fraction": 0.003475189208984375,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "3d1cfe7ad15c525497ac380409e74b8afc098ea45f3b6f06aaa2e63f1276c90d"
+    },
+    {
+      "normal": "slot_0031_flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e.png",
+      "mask": "slot_0031_flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e_mask.png",
+      "foreground_fraction": 0.013065338134765625,
+      "minimum": 0,
+      "maximum": 254,
+      "sha256": "d63e62a8a2abc211bdfd27f0e693bbc6c0ac399293f27fe2d6f0d2472bcd2641"
+    },
+    {
+      "normal": "slot_0032_flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc.png",
+      "mask": "slot_0032_flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc_mask.png",
+      "foreground_fraction": 0.021778106689453125,
+      "minimum": 0,
+      "maximum": 254,
+      "sha256": "978b7330d2573f0f2480bda10e0f02c614e5bbe660983d9828ce9a8ac90e3afc"
+    },
+    {
+      "normal": "slot_0033_flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d.png",
+      "mask": "slot_0033_flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "4d384206404df22b8dc1c2c30e8c3899558b5b76528ea33f4a6610cb47c0097e"
+    },
+    {
+      "normal": "slot_0034_flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2.png",
+      "mask": "slot_0034_flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2_mask.png",
+      "foreground_fraction": 0.041301727294921875,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "d362b4de6a6c5fdefa62bcb78145c436558a852c7900f4f0184f050eba132013"
+    },
+    {
+      "normal": "slot_0035_flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4.png",
+      "mask": "slot_0035_flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4_mask.png",
+      "foreground_fraction": 1.9073486328125e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "84eee406b8335b0da9502812cc63d8db28c2f8fd4d5c5aabc6cbaba3d4791e96"
+    },
+    {
+      "normal": "slot_0036_flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282.png",
+      "mask": "slot_0036_flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "0c9c5bef5758ad104a06dee459cf06655f7decad6209583c3d15d349f822c4ec"
+    },
+    {
+      "normal": "slot_0037_flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8.png",
+      "mask": "slot_0037_flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8_mask.png",
+      "foreground_fraction": 0.002513885498046875,
+      "minimum": 0,
+      "maximum": 248,
+      "sha256": "d1f256240d1cdf50503cfe7c8d6b0cb1f6b02a9548293c068a073a8844931c8d"
+    },
+    {
+      "normal": "slot_0038_flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a.png",
+      "mask": "slot_0038_flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a_mask.png",
+      "foreground_fraction": 0.000965118408203125,
+      "minimum": 0,
+      "maximum": 248,
+      "sha256": "b5690c1eee9fbe4ece13a28245f2d75c8b843cafcd7dd56819b53d0817c47555"
+    },
+    {
+      "normal": "slot_0039_flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1.png",
+      "mask": "slot_0039_flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1_mask.png",
+      "foreground_fraction": 0.031932830810546875,
+      "minimum": 0,
+      "maximum": 252,
+      "sha256": "6ce1156de3182fd75b5010bcf033e3919ed5d4035e8ac7521e2c2f567476e07c"
+    },
+    {
+      "normal": "slot_0040_flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5.png",
+      "mask": "slot_0040_flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5_mask.png",
+      "foreground_fraction": 0.022350311279296875,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "836e06e129e218be93ace5c98012b2083a5d8fd1956e2ffa2a82ce14dc67ed6f"
+    },
+    {
+      "normal": "slot_0041_black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87.png",
+      "mask": "slot_0041_black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87_mask.png",
+      "foreground_fraction": 0.003597259521484375,
+      "minimum": 0,
+      "maximum": 254,
+      "sha256": "d01aa44695d41d85e4f5d6d59932dc50e7349a80e84a5b21c180d27f0fe812bd"
+    },
+    {
+      "normal": "slot_0042_black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b.png",
+      "mask": "slot_0042_black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "4ace27c65737f35b647b7d0550405ccea6aa53c3802e3ad9075740e9f0b61497"
+    },
+    {
+      "normal": "slot_0043_black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66.png",
+      "mask": "slot_0043_black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66_mask.png",
+      "foreground_fraction": 0.0463714599609375,
+      "minimum": 0,
+      "maximum": 254,
+      "sha256": "6f14125232b5827d2a7ffa445f758897cd8ad250cfccb3fe349ee8d6237325ce"
+    },
+    {
+      "normal": "slot_0044_black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e.png",
+      "mask": "slot_0044_black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e_mask.png",
+      "foreground_fraction": 0.092437744140625,
+      "minimum": 0,
+      "maximum": 254,
+      "sha256": "35e3345dc33210598df6e8adc441fef0ba3511fb630de8ce30f4d0ebc1d1c796"
+    },
+    {
+      "normal": "slot_0045_black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa.png",
+      "mask": "slot_0045_black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa_mask.png",
+      "foreground_fraction": 0.0144500732421875,
+      "minimum": 0,
+      "maximum": 251,
+      "sha256": "b2af708613bf9a67c4852a57278202662099458fed7dcc898b19793a3703abc6"
+    },
+    {
+      "normal": "slot_0046_black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994.png",
+      "mask": "slot_0046_black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994_mask.png",
+      "foreground_fraction": 0.00434112548828125,
+      "minimum": 0,
+      "maximum": 242,
+      "sha256": "a7af4ae85f43bcdb4a930f1ff37c2418545cb3690d45a5a80a1f8c7d690df321"
+    },
+    {
+      "normal": "slot_0047_black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1.png",
+      "mask": "slot_0047_black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1_mask.png",
+      "foreground_fraction": 0.01767730712890625,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "e58e4aaf0825c0ccba8a116e5f13bb908a7e762bbf9cac571efa8f164ffa4aea"
+    },
+    {
+      "normal": "slot_0048_black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b.png",
+      "mask": "slot_0048_black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "1640dd45d325c92e051cbc77233dc30e08dbc0a69d3e9ae024e148191a9d6ed7"
+    },
+    {
+      "normal": "slot_0049_black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a.png",
+      "mask": "slot_0049_black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a_mask.png",
+      "foreground_fraction": 2.288818359375e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "7c5a581fe0fc019f74a172e549c2982ae8b3a0a0cead5c57bdf6d9eea1d5bc84"
+    },
+    {
+      "normal": "slot_0050_black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254.png",
+      "mask": "slot_0050_black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "27434d32fe26cb4e623e0e2ab6a5cea9986cfebc121cbd041f27ccf7d702dfbb"
+    },
+    {
+      "normal": "slot_0051_black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8.png",
+      "mask": "slot_0051_black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8_mask.png",
+      "foreground_fraction": 0.001461029052734375,
+      "minimum": 0,
+      "maximum": 252,
+      "sha256": "7e1bc8bf50c1773756e1e7e0f9c0b8b1fdf56f54bc9b6d449dec31b2462943b9"
+    },
+    {
+      "normal": "slot_0052_black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a.png",
+      "mask": "slot_0052_black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a_mask.png",
+      "foreground_fraction": 0.001140594482421875,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "beb2f2481c8a24d2b6a70deaaac4df85c25dc2ac9e1dbd76b5952094bab9984a"
+    },
+    {
+      "normal": "slot_0053_black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a.png",
+      "mask": "slot_0053_black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "d093a1feea90887eb67c38ea51f2d88b8fe25b5923cfb329739106dfb1dcd032"
+    },
+    {
+      "normal": "slot_0054_black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406.png",
+      "mask": "slot_0054_black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406_mask.png",
+      "foreground_fraction": 0.042598724365234375,
+      "minimum": 0,
+      "maximum": 246,
+      "sha256": "1baca3723b04bd890b3d53f3bc661a752b0ebb67937eedb96ad2a65716d73665"
+    },
+    {
+      "normal": "slot_0055_black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a.png",
+      "mask": "slot_0055_black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a_mask.png",
+      "foreground_fraction": 2.288818359375e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "a101e18b11ed46f970ff03ff7adf7795d64320f9073781e8da33d05b3f9156b9"
+    },
+    {
+      "normal": "slot_0056_black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f.png",
+      "mask": "slot_0056_black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f_mask.png",
+      "foreground_fraction": 0.004802703857421875,
+      "minimum": 0,
+      "maximum": 252,
+      "sha256": "a9428998d5871d27804e121da18a38a8576a14bb0b68cf8aa9d168a8c778df7b"
+    },
+    {
+      "normal": "slot_0057_black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf.png",
+      "mask": "slot_0057_black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "4f1162a6f693af455ea9e16b8cd4c96a8c10401fe0a70364117e39dce4749801"
+    },
+    {
+      "normal": "slot_0058_black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f.png",
+      "mask": "slot_0058_black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f_mask.png",
+      "foreground_fraction": 6.4849853515625e-05,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "ee707725e1931638ccb65e29f17b55a81ff405a6cb9d29dc6ddbe85da4401a02"
+    },
+    {
+      "normal": "slot_0059_black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4.png",
+      "mask": "slot_0059_black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4_mask.png",
+      "foreground_fraction": 0.000148773193359375,
+      "minimum": 0,
+      "maximum": 239,
+      "sha256": "84e757caba4007bcd8580231eb87dff783f919ad2c505508917b0fbb18189695"
+    },
+    {
+      "normal": "slot_0060_black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000.png",
+      "mask": "slot_0060_black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000_mask.png",
+      "foreground_fraction": 1.1444091796875e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "b1fea159fce180dde34acaa7c95738c424333df58ffc4dfddb9e9aa0aa48e62a"
+    },
+    {
+      "normal": "slot_0061_black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3.png",
+      "mask": "slot_0061_black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3_mask.png",
+      "foreground_fraction": 0.05316925048828125,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "7a6c8efc9ffd1773506fbceaeed1987ea3ff89e7dd3c8a578d7089b8bce36812"
+    },
+    {
+      "normal": "slot_0062_black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa.png",
+      "mask": "slot_0062_black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa_mask.png",
+      "foreground_fraction": 0.07015228271484375,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "8a1c8b729da3ab026558e29e6591b35b49e9fafecc3f974aec4d1c9b40be3981"
+    },
+    {
+      "normal": "slot_0063_black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae.png",
+      "mask": "slot_0063_black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae_mask.png",
+      "foreground_fraction": 0.006500244140625,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "b572e38d8295ef4931dd084a963d18870fce00d02dfee6966e52573f8de734db"
+    },
+    {
+      "normal": "slot_0064_black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6.png",
+      "mask": "slot_0064_black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6_mask.png",
+      "foreground_fraction": 0.00034332275390625,
+      "minimum": 0,
+      "maximum": 250,
+      "sha256": "ec465457a61315e08ecccb226353eb8e738a20b3206d748785b29106cbaa0ac6"
+    },
+    {
+      "normal": "slot_0065_black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b.png",
+      "mask": "slot_0065_black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b_mask.png",
+      "foreground_fraction": 0.00980377197265625,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "e3c0219130e1a9e5b22e2cfa8c9ee7cff2a73c3058c1ef59c902e96ecadbde1e"
+    },
+    {
+      "normal": "slot_0066_black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf.png",
+      "mask": "slot_0066_black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "14102b0df6a8999336b2e3e22bbb4fda7218b7e7098b35f69dfc9ad56304a998"
+    },
+    {
+      "normal": "slot_0067_black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8.png",
+      "mask": "slot_0067_black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8_mask.png",
+      "foreground_fraction": 0.001567840576171875,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "2f634c2bb40c00cb2459f06d6eedf7d50bbf8e3916227c43c71fb1f6a842a5e0"
+    },
+    {
+      "normal": "slot_0068_black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557.png",
+      "mask": "slot_0068_black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557_mask.png",
+      "foreground_fraction": 0.000743865966796875,
+      "minimum": 0,
+      "maximum": 248,
+      "sha256": "48a7ac6203763de0bed3fe4a8cdd4bec497aaa83c730a56985c93abed2f058e1"
+    },
+    {
+      "normal": "slot_0069_black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f.png",
+      "mask": "slot_0069_black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f_mask.png",
+      "foreground_fraction": 0.06353759765625,
+      "minimum": 0,
+      "maximum": 252,
+      "sha256": "9756d4a109a9b4350ad6c8420df832ef1317e4a35ee014c5b3da88f4010f3d1f"
+    },
+    {
+      "normal": "slot_0070_black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b.png",
+      "mask": "slot_0070_black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b_mask.png",
+      "foreground_fraction": 0.00826263427734375,
+      "minimum": 0,
+      "maximum": 253,
+      "sha256": "773a86a9cf166c7813862293ab95f77adf07867963a4ca06213edc101d471775"
+    },
+    {
+      "normal": "slot_0071_black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245.png",
+      "mask": "slot_0071_black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245_mask.png",
+      "foreground_fraction": 0.000335693359375,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "9a58c7d85362d2d4ed151bfb6fee728eaec77fefbf4e306e0aa3f5a9b8e2fda2"
+    },
+    {
+      "normal": "slot_0072_black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb.png",
+      "mask": "slot_0072_black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "6a5213411217bc3fac068bb42d91ac540adeaa8a4f43d92ff273e5ddc02c596e"
+    },
+    {
+      "normal": "slot_0073_black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4.png",
+      "mask": "slot_0073_black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4_mask.png",
+      "foreground_fraction": 0.0010986328125,
+      "minimum": 0,
+      "maximum": 249,
+      "sha256": "3ef633f376c440e3d9ae7d5a1de2f6edb38a43e4335d1325a2a3b44aa5a750af"
+    },
+    {
+      "normal": "slot_0074_black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a.png",
+      "mask": "slot_0074_black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a_mask.png",
+      "foreground_fraction": 1.52587890625e-05,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "5f7634ee1d4cd01f796593b915e3cd7f8f571262b4d2fda19d2f416875b16a6b"
+    },
+    {
+      "normal": "slot_0075_black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d.png",
+      "mask": "slot_0075_black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d_mask.png",
+      "foreground_fraction": 0.03229522705078125,
+      "minimum": 0,
+      "maximum": 248,
+      "sha256": "53752e4b13e2998f16df2f6dd451533a41e2c09f3cd961f67136aa57f025c105"
+    },
+    {
+      "normal": "slot_0076_black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337.png",
+      "mask": "slot_0076_black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337_mask.png",
+      "foreground_fraction": 0.020793914794921875,
+      "minimum": 0,
+      "maximum": 251,
+      "sha256": "682c0c2e2555ab0d48b0f5271509f8827eabe4112b81b1e78160c3ccab174def"
+    },
+    {
+      "normal": "slot_0077_black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb.png",
+      "mask": "slot_0077_black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb_mask.png",
+      "foreground_fraction": 0.052791595458984375,
+      "minimum": 0,
+      "maximum": 244,
+      "sha256": "421e939fef17938fa54a40beaf7dd3d4c115a88a986e1262d31cb7eca68fed6e"
+    },
+    {
+      "normal": "slot_0078_black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a.png",
+      "mask": "slot_0078_black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a_mask.png",
+      "foreground_fraction": 0.015705108642578125,
+      "minimum": 0,
+      "maximum": 249,
+      "sha256": "2a55312670c505b6502ff513c2008c75da96bf32c83aa4230e9b60f68d39605f"
+    },
+    {
+      "normal": "slot_0079_black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c.png",
+      "mask": "slot_0079_black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c_mask.png",
+      "foreground_fraction": 0.008548736572265625,
+      "minimum": 0,
+      "maximum": 244,
+      "sha256": "e235f1aeb48ea831182924ccf66d782467977c21ea1d2accd78389163d7b2316"
+    },
+    {
+      "normal": "slot_0080_black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b.png",
+      "mask": "slot_0080_black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b_mask.png",
+      "foreground_fraction": 0.5390892028808594,
+      "minimum": 0,
+      "maximum": 255,
+      "sha256": "7f256c1aa82d68229dcb81da9fd7354e5f73e608de22131593764a0294ac145c"
+    }
+  ]
+}

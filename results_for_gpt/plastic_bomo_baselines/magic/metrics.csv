@@ -1,0 +1,46 @@
+method,scope,bank_pool,class,count,kid,kid_subset_std,fid,kid_subset_size,status,source
+MAGIC,bankwise,A,Black,40,0.252364554431733,0.017976981062126817,329.41438540222805,40,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,A,Flash,40,0.16319071993246514,0.005444462363315512,272.56644324833826,40,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,A,Overall,80,0.16523793191416636,0.015494742917565113,280.6428840197939,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,B,Black,40,0.26163076313233674,0.01828206888990631,328.54114346120946,40,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,B,Flash,40,0.15976629040363022,0.005259869396561786,267.6390934394048,40,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,B,Overall,80,0.16759203057450228,0.015664424615282165,277.67206818445175,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,C,Black,40,0.2618999220366113,0.018427121608469904,335.07506929587,40,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,C,Flash,40,0.1567609725387115,0.005261861317513782,269.8681199043376,40,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,bankwise,C,Overall,80,0.16784577972816073,0.015746772360792194,282.8019469700561,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,pooled,B+C,Black,80,0.26053368871818494,0.014451909996170655,322.6918568271734,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,pooled,B+C,Flash,80,0.16244454409631653,0.010143425123740323,259.76669518713123,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,pooled,B+C,Overall,160,0.1707792171227189,0.016287537052340262,271.6840967535298,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,pooled,A+B+C,Black,120,0.2605942651579243,0.018119377251486192,318.02092858862306,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,pooled,A+B+C,Flash,120,0.1633206478010482,0.014273322275267517,258.70810989713004,50,COMPLETE,recomputed frozen ROI Inception features
+MAGIC,pooled,A+B+C,Overall,240,0.16981289861457977,0.016567731192416845,268.78297258686064,50,COMPLETE,recomputed frozen ROI Inception features
+Raw SD2,bankwise,A,Black,40,0.03797344467731272,0.006531917641927337,161.76692438299116,40,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,A,Black,40,0.08004625175660025,0.011023414789003589,208.4789143865162,40,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,B,Black,40,0.04519301296659426,0.0069411468453502555,172.44663633602465,40,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,B,Black,40,0.08736857426827044,0.011401093129172797,220.08777933254783,40,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,C,Black,40,0.0396594894527007,0.006469060329192159,163.03911244814674,40,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,C,Black,40,0.08196434248599585,0.011330358491871433,202.31907990920843,40,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,A,Flash,40,0.0609828974272712,0.004201304709967602,181.29746752358994,40,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,A,Flash,40,0.05019080966556602,0.004050246760381549,161.14909132804934,40,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,B,Flash,40,0.053582950917153746,0.004192347350328881,179.5849942468729,40,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,B,Flash,40,0.06099613081209604,0.004233638687611237,168.57602493815736,40,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,C,Flash,40,0.06793922858088841,0.0044855594826854394,184.62593001023382,40,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,C,Flash,40,0.05712738475711552,0.004173358037998628,167.55695492068463,40,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,A,Overall,80,0.03522257098656576,0.007847812338817612,149.42750331396738,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,A,Overall,80,0.04989160653660615,0.010536576842487842,165.1311363969408,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,B,Overall,80,0.03642886482565822,0.00794623997961138,153.02428513701585,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,B,Overall,80,0.05677167897376203,0.01126459530492901,173.68394767874304,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,bankwise,C,Overall,80,0.04032677100219561,0.008200635235531262,152.16304169356164,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,bankwise,C,Overall,80,0.053241328874473505,0.010757452373766933,165.01376496017596,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,pooled,A+B+C,Black,120,0.043637860198413474,0.008376049292347473,144.56437255338835,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,pooled,A+B+C,Flash,120,0.06367302763290145,0.007142667358448954,165.27468204362987,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,pooled,A+B+C,Overall,240,0.038415566608461876,0.008065420893772934,133.42743653163006,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,pooled,A+B+C,Black,120,0.08581807042981186,0.013876402990881295,185.93602116628594,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,pooled,A+B+C,Flash,120,0.059413130610075304,0.0066297216388885895,151.3758929361905,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,pooled,A+B+C,Overall,240,0.05339349652999511,0.011456773310045597,149.02196878576152,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,pooled,B+C,Black,80,0.04319930458450344,0.007693734472519496,152.53195575784076,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,pooled,B+C,Flash,80,0.06377317434055384,0.006699109580178315,169.09833430246965,50,COMPLETE,SHA-verified existing unified multibank protocol
+Raw SD2,pooled,B+C,Overall,160,0.04098819558255501,0.010284048479746798,138.96155533229836,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,pooled,B+C,Black,80,0.08364529723701083,0.010732802586235515,192.29507230898741,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,pooled,B+C,Flash,80,0.06229247838155012,0.006588392774874962,157.42617808993492,50,COMPLETE,SHA-verified existing unified multibank protocol
+Original Class-Adaptive MSDF,pooled,B+C,Overall,160,0.058120974538957135,0.012921785121699387,154.81750516513796,50,COMPLETE,SHA-verified existing unified multibank protocol

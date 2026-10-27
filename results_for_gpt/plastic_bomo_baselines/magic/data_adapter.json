@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_BBOX_MASK_ADAPTATION",
+  "prepared_at": "2026-10-25T13:10:26.571719+00:00",
+  "category": "Plastic_Bomo",
+  "input_counts": {
+    "black": 97,
+    "flash": 75
+  },
+  "official_effective_counts": {
+    "black": 32,
+    "flash": 25
+  },
+  "normal_slot_crops": 80,
+  "defect_split": "V2 TRAIN only",
+  "final_eval_used": false,
+  "mask_type": "BBox-Mask",
+  "mask_is_human_segmentation": false,
+  "warning": "MAGIC training and CAMA are pixel-mask dependent; rectangles are a weak-label adaptation.",
+  "foreground_masks": "must be produced by official U-2-Net weights; no placeholder masks were created",
+  "generated_images": 240,
+  "u2net_precheck": "PASS_WITH_TRANSPARENT_FILM_WARNING"
+}

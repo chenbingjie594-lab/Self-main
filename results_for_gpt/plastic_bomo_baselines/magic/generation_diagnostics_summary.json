@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "definitions": {
+    "background_change": "absolute RGB difference outside the final CAMA mask",
+    "bbox_coverage": "fraction of the frozen target BBox covered by the final CAMA mask",
+    "structural_failure": "empty final mask or no >2/255 pixel signal inside a non-empty final mask"
+  },
+  "populations": {
+    "Black": {
+      "count": 120,
+      "background_mae_0_1_mean": 0.01862879949544701,
+      "background_changed_fraction_gt_5_mean": 0.3359337106348931,
+      "target_bbox_coverage_mean": 0.011122577401313033,
+      "target_bbox_final_mask_iou_mean": 0.010598029337981239,
+      "empty_final_masks": 48,
+      "structural_failures": 48
+    },
+    "Flash": {
+      "count": 120,
+      "background_mae_0_1_mean": 0.01855554020247846,
+      "background_changed_fraction_gt_5_mean": 0.32363577586626735,
+      "target_bbox_coverage_mean": 0.016407244506998202,
+      "target_bbox_final_mask_iou_mean": 0.015383132224307797,
+      "empty_final_masks": 51,
+      "structural_failures": 51
+    },
+    "Overall": {
+      "count": 240,
+      "background_mae_0_1_mean": 0.018592169848962732,
+      "background_changed_fraction_gt_5_mean": 0.32978474325058005,
+      "target_bbox_coverage_mean": 0.013764910954155614,
+      "target_bbox_final_mask_iou_mean": 0.012990580781144515,
+      "empty_final_masks": 99,
+      "structural_failures": 99
+    }
+  }
+}
