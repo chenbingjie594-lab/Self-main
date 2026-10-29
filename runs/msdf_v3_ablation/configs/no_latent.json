@@ -1,0 +1,8 @@
+{
+  "inherits": "full_verified.json",
+  "id": "A1",
+  "msdf_ablation": "no_latent",
+  "only_change": "skip and freeze MSDF latent semantic encoder; exclude its parameters from optimizer",
+  "morphology_support_loss": true,
+  "branch_dropout": "disabled because only the pixel branch remains"
+}

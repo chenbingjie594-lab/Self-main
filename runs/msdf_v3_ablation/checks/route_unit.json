@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "seed": 42,
+  "synthetic_tensor_scope": "routing unit test only",
+  "variants": {
+    "full": {
+      "mode": "full",
+      "status": "PASS",
+      "contract": {
+        "mode": "full",
+        "pixel_branch": true,
+        "latent_branch": true,
+        "morphology_alignment": true,
+        "morphology_support_loss": true,
+        "branch_dropout_active": true
+      },
+      "calls": {
+        "latent": 1,
+        "morph": 1
+      },
+      "active_parameter_names": [
+        "encoder.0.weight",
+        "encoder.0.bias",
+        "encoder.1.weight",
+        "encoder.1.bias",
+        "encoder.3.weight",
+        "encoder.3.bias",
+        "encoder.4.weight",
+        "encoder.4.bias",
+        "encoder.6.weight",
+        "encoder.6.bias",
+        "pixel_encoder.0.weight",
+        "pixel_encoder.0.bias",
+        "pixel_encoder.2.weight",
+        "pixel_encoder.2.bias",
+        "pixel_encoder.4.weight",
+        "pixel_encoder.4.bias",
+        "pixel_encoder.5.weight",
+        "pixel_encoder.5.bias",
+        "fusion.0.weight",
+        "fusion.0.bias",
+        "fusion.1.weight",
+        "fusion.1.bias",
+        "pixel_support_head.weight",
+        "pixel_support_head.bias",
+        "support_head.weight",
+        "support_head.bias",
+        "gate.0.weight",
+        "gate.0.bias",
+        "gate.2.weight",
+        "gate.2.bias",
+        "projections.0.weight",
+        "projections.0.bias",
+        "projections.1.weight",
+        "projections.1.bias",
+        "projections.2.weight",
+        "projections.2.bias",
+        "projections.3.weight",
+        "projections.3.bias"
+      ],
+      "checks": {
+        "latent_calls_expected": true,
+        "morph_calls_expected": true,
+        "latent_optimizer_excluded": true,
+        "latent_gradient_absent": true,
+        "morphology_loss_disabled": true,
+        "four_up_blocks_injected": true,
+        "cfg_unconditional_zero": true,
+        "cfg_conditional_nonzero": true,
+        "all_finite": true
+      },
+      "injection": [
+        {
+          "up_block": 0,
+          "gate_mean": 0.3908580541610718,
+          "residual_l2": 0.0001893777516670525,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0001893777516670525,
+          "finite": true
+        },
+        {
+          "up_block": 1,
+          "gate_mean": 0.3509579300880432,
+          "residual_l2": 0.000316720106638968,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.000316720106638968,
+          "finite": true
+        },
+        {
+          "up_block": 2,
+          "gate_mean": 0.35057157278060913,
+          "residual_l2": 0.0004646360466722399,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0004646360466722399,
+          "finite": true
+        },
+        {
+          "up_block": 3,
+          "gate_mean": 0.3811991214752197,
+          "residual_l2": 0.0006669713766314089,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0006669713766314089,
+          "finite": true
+        }
+      ]
+    },
+    "no_latent": {
+      "mode": "no_latent",
+      "status": "PASS",
+      "contract": {
+        "mode": "no_latent",
+        "pixel_branch": true,
+        "latent_branch": false,
+        "morphology_alignment": true,
+        "morphology_support_loss": true,
+        "branch_dropout_active": false
+      },
+      "calls": {
+        "latent": 0,
+        "morph": 1
+      },
+      "active_parameter_names": [
+        "pixel_encoder.0.weight",
+        "pixel_encoder.0.bias",
+        "pixel_encoder.2.weight",
+        "pixel_encoder.2.bias",
+        "pixel_encoder.4.weight",
+        "pixel_encoder.4.bias",
+        "pixel_encoder.5.weight",
+        "pixel_encoder.5.bias",
+        "fusion.0.weight",
+        "fusion.0.bias",
+        "fusion.1.weight",
+        "fusion.1.bias",
+        "pixel_support_head.weight",
+        "pixel_support_head.bias",
+        "support_head.weight",
+        "support_head.bias",
+        "gate.0.weight",
+        "gate.0.bias",
+        "gate.2.weight",
+        "gate.2.bias",
+        "projections.0.weight",
+        "projections.0.bias",
+        "projections.1.weight",
+        "projections.1.bias",
+        "projections.2.weight",
+        "projections.2.bias",
+        "projections.3.weight",
+        "projections.3.bias"
+      ],
+      "checks": {
+        "latent_calls_expected": true,
+        "morph_calls_expected": true,
+        "latent_optimizer_excluded": true,
+        "latent_gradient_absent": true,
+        "morphology_loss_disabled": true,
+        "four_up_blocks_injected": true,
+        "cfg_unconditional_zero": true,
+        "cfg_conditional_nonzero": true,
+        "all_finite": true
+      },
+      "injection": [
+        {
+          "up_block": 0,
+          "gate_mean": 0.3908580541610718,
+          "residual_l2": 0.0001893777516670525,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0001893777516670525,
+          "finite": true
+        },
+        {
+          "up_block": 1,
+          "gate_mean": 0.3509579300880432,
+          "residual_l2": 0.000316720106638968,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.000316720106638968,
+          "finite": true
+        },
+        {
+          "up_block": 2,
+          "gate_mean": 0.35057157278060913,
+          "residual_l2": 0.0004646360466722399,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0004646360466722399,
+          "finite": true
+        },
+        {
+          "up_block": 3,
+          "gate_mean": 0.3811991214752197,
+          "residual_l2": 0.0006669713766314089,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0006669713766314089,
+          "finite": true
+        }
+      ]
+    },
+    "no_morph": {
+      "mode": "no_morph",
+      "status": "PASS",
+      "contract": {
+        "mode": "no_morph",
+        "pixel_branch": true,
+        "latent_branch": true,
+        "morphology_alignment": false,
+        "morphology_support_loss": false,
+        "branch_dropout_active": true
+      },
+      "calls": {
+        "latent": 1,
+        "morph": 0
+      },
+      "active_parameter_names": [
+        "encoder.0.weight",
+        "encoder.0.bias",
+        "encoder.1.weight",
+        "encoder.1.bias",
+        "encoder.3.weight",
+        "encoder.3.bias",
+        "encoder.4.weight",
+        "encoder.4.bias",
+        "encoder.6.weight",
+        "encoder.6.bias",
+        "pixel_encoder.0.weight",
+        "pixel_encoder.0.bias",
+        "pixel_encoder.2.weight",
+        "pixel_encoder.2.bias",
+        "pixel_encoder.4.weight",
+        "pixel_encoder.4.bias",
+        "pixel_encoder.5.weight",
+        "pixel_encoder.5.bias",
+        "fusion.0.weight",
+        "fusion.0.bias",
+        "fusion.1.weight",
+        "fusion.1.bias",
+        "pixel_support_head.weight",
+        "pixel_support_head.bias",
+        "support_head.weight",
+        "support_head.bias",
+        "gate.0.weight",
+        "gate.0.bias",
+        "gate.2.weight",
+        "gate.2.bias",
+        "projections.0.weight",
+        "projections.0.bias",
+        "projections.1.weight",
+        "projections.1.bias",
+        "projections.2.weight",
+        "projections.2.bias",
+        "projections.3.weight",
+        "projections.3.bias"
+      ],
+      "checks": {
+        "latent_calls_expected": true,
+        "morph_calls_expected": true,
+        "latent_optimizer_excluded": true,
+        "latent_gradient_absent": true,
+        "morphology_loss_disabled": true,
+        "four_up_blocks_injected": true,
+        "cfg_unconditional_zero": true,
+        "cfg_conditional_nonzero": true,
+        "all_finite": true
+      },
+      "injection": [
+        {
+          "up_block": 0,
+          "gate_mean": 0.3910601735115051,
+          "residual_l2": 0.0023128248285502195,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0023128248285502195,
+          "finite": true
+        },
+        {
+          "up_block": 1,
+          "gate_mean": 0.34849563241004944,
+          "residual_l2": 0.002780686132609844,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.002780686132609844,
+          "finite": true
+        },
+        {
+          "up_block": 2,
+          "gate_mean": 0.34977224469184875,
+          "residual_l2": 0.0036093369126319885,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.0036093369126319885,
+          "finite": true
+        },
+        {
+          "up_block": 3,
+          "gate_mean": 0.3821084499359131,
+          "residual_l2": 0.004884874913841486,
+          "unconditional_l2": 0.0,
+          "conditional_l2": 0.004884874913841486,
+          "finite": true
+        }
+      ]
+    }
+  }
+}

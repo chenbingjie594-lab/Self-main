@@ -1,0 +1,32 @@
+{
+  "id": "A0",
+  "msdf_ablation": "full",
+  "base_model": "sd2-community/stable-diffusion-2-inpainting",
+  "train_steps": 2000,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "unet_learning_rate": 5e-6,
+  "msdf_learning_rate": 1e-4,
+  "mixed_precision": "fp16",
+  "use_8bit_adam": true,
+  "seed": 42,
+  "unet_train_scope": "full",
+  "rda_mode": "none",
+  "enable_carf": false,
+  "msdf_hidden_dim": 64,
+  "msdf_context_scale": 1.75,
+  "msdf_max_injection": 0.75,
+  "msdf_max_residual_ratio": 0.25,
+  "msdf_branch_dropout": 0.2,
+  "msdf_pixel_support_weight": 0.5,
+  "loss_weights": {
+    "region": 0.75,
+    "reconstruction": 0.5,
+    "structure": 0.25,
+    "background": 0.2,
+    "scale": 0.25,
+    "morphology_support": 0.25
+  },
+  "historical_checkpoint_root": "model/msdf_v3_sd2_2000_s42",
+  "strict_causal_comparability": "conditional: historical metadata lacks a saved training-file hash manifest and initial RNG-state ledger"
+}

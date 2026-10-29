@@ -21,6 +21,7 @@ import torch.nn.functional as F
 
 
 MSDF_FORMAT_VERSION = 3
+MSDF_TRAINING_ABLATIONS = ("full", "no_latent", "no_morph")
 
 
 def _safe_rms(value: torch.Tensor, dims) -> torch.Tensor:
@@ -50,6 +51,7 @@ class MSDFAdapter(nn.Module):
         max_residual_ratio: float = 0.25,
         branch_dropout: float = 0.20,
         pixel_support_weight: float = 0.50,
+        training_ablation: str = "full",
     ):
         super().__init__()
         if hidden_dim < 8:
@@ -75,6 +77,11 @@ class MSDFAdapter(nn.Module):
         self.max_residual_ratio = float(max_residual_ratio)
         self.branch_dropout = float(branch_dropout)
         self.pixel_support_weight = float(pixel_support_weight)
+        if training_ablation not in MSDF_TRAINING_ABLATIONS:
+            raise ValueError(
+                f"training_ablation must be one of {MSDF_TRAINING_ABLATIONS}"
+            )
+        self.training_ablation = training_ablation
 
         groups = min(8, self.hidden_dim)
         while self.hidden_dim % groups:
@@ -135,6 +142,8 @@ class MSDFAdapter(nn.Module):
         self.last_aligned_support = None
         self.last_reference_support = None
         self.last_pixel_support = None
+        self.last_injection_stats = []
+        self.capture_injection_stats = False
         # Global inference-only strength applied to the final bounded residual.
         # Keep the default at 1.0 and skip the multiply at exactly 1.0 so old
         # checkpoints retain their original floating-point execution path.
@@ -145,20 +154,63 @@ class MSDFAdapter(nn.Module):
             "up_block_mask": [True] * len(self.block_channels),
             "residual_scale": 1.0,
         }
+        self.configure_training_ablation(training_ablation)
+
+    def configure_training_ablation(self, mode: str):
+        """Apply an architecture-level training variant before optimizer setup."""
+        if mode not in MSDF_TRAINING_ABLATIONS:
+            raise ValueError(f"Unknown MSDF training ablation: {mode}")
+        self.training_ablation = mode
+        latent_enabled = mode != "no_latent"
+        morphology_enabled = mode != "no_morph"
+        self.encoder.requires_grad_(latent_enabled)
+        self.ablation.update(
+            latent_branch=latent_enabled,
+            morphology_alignment=morphology_enabled,
+        )
+        return self.training_contract()
+
+    def training_contract(self):
+        return {
+            "mode": self.training_ablation,
+            "pixel_branch": True,
+            "latent_branch": self.training_ablation != "no_latent",
+            "morphology_alignment": self.training_ablation != "no_morph",
+            "morphology_support_loss": self.training_ablation != "no_morph",
+            "branch_dropout_active": (
+                self.training_ablation != "no_latent" and self.branch_dropout > 0
+            ),
+        }
+
+    @property
+    def morphology_supervision_enabled(self) -> bool:
+        return self.training_ablation != "no_morph"
 
     def set_ablation(self, config=None):
         """Set diagnostic inference controls without changing checkpoint weights."""
+        if isinstance(config, str):
+            if config != self.training_ablation:
+                raise ValueError(
+                    "Requested inference ablation does not match checkpoint "
+                    f"training_ablation={self.training_ablation}"
+                )
+            config = {}
         config = dict(config or {})
         allowed = {"pixel_branch", "latent_branch", "morphology_alignment",
                    "up_block_mask", "residual_scale"}
         unknown = set(config) - allowed
         if unknown:
             raise ValueError(f"Unknown MSDF ablation controls: {sorted(unknown)}")
-        state = {"pixel_branch": True, "latent_branch": True,
-                 "morphology_alignment": True,
+        state = {"pixel_branch": True,
+                 "latent_branch": self.training_ablation != "no_latent",
+                 "morphology_alignment": self.training_ablation != "no_morph",
                  "up_block_mask": [True] * self.num_scales,
                  "residual_scale": 1.0}
         state.update(config)
+        if self.training_ablation == "no_latent" and state["latent_branch"]:
+            raise ValueError("A no_latent checkpoint cannot enable the removed latent branch")
+        if self.training_ablation == "no_morph" and state["morphology_alignment"]:
+            raise ValueError("A no_morph checkpoint cannot enable morphology alignment")
         if len(state["up_block_mask"]) != self.num_scales:
             raise ValueError("up_block_mask must match the number of UNet up blocks")
         if not 0.0 <= float(state["residual_scale"]) <= 1.0:
@@ -208,6 +260,7 @@ class MSDFAdapter(nn.Module):
         self.last_aligned_support = None
         self.last_reference_support = None
         self.last_pixel_support = None
+        self.last_injection_stats = []
 
     @staticmethod
     def _bbox(mask: torch.Tensor):
@@ -322,6 +375,7 @@ class MSDFAdapter(nn.Module):
         reference_pixels: Optional[torch.Tensor] = None,
     ) -> torch.Tensor:
         """Build one spatial feature pyramid context for the next UNet call."""
+        self.last_injection_stats = []
         latent_size = reference_latents.shape[-2:]
         reference_mask_pixels = reference_mask.float().clamp(0, 1)
         reference_mask = F.interpolate(
@@ -333,32 +387,37 @@ class MSDFAdapter(nn.Module):
         reference_latents = torch.nan_to_num(
             reference_latents.float(), nan=0.0, posinf=10.0, neginf=-10.0
         ).clamp(-10.0, 10.0)
-        outside = 1.0 - reference_mask
-        kernel = 9
-        outside_count = F.avg_pool2d(
-            outside, kernel, stride=1, padding=kernel // 2
-        )
-        local_background = F.avg_pool2d(
-            reference_latents * outside,
-            kernel,
-            stride=1,
-            padding=kernel // 2,
-        ) / outside_count.clamp_min(0.05)
-        fallback_background = F.avg_pool2d(
-            reference_latents, kernel, stride=1, padding=kernel // 2
-        )
-        reliable = (outside_count > 0.05).to(reference_latents.dtype)
-        local_background = (
-            reliable * local_background + (1.0 - reliable) * fallback_background
-        ).clamp(-10.0, 10.0)
-        defect_residual = (
-            (reference_latents - local_background) * reference_mask
-        ).clamp(-20.0, 20.0)
-        latent_encoded = self.encoder(
-            torch.cat([defect_residual, reference_mask], dim=1)
-        )
-        if not self.ablation["latent_branch"]:
-            latent_encoded = torch.zeros_like(latent_encoded)
+        if self.ablation["latent_branch"]:
+            outside = 1.0 - reference_mask
+            kernel = 9
+            outside_count = F.avg_pool2d(
+                outside, kernel, stride=1, padding=kernel // 2
+            )
+            local_background = F.avg_pool2d(
+                reference_latents * outside,
+                kernel,
+                stride=1,
+                padding=kernel // 2,
+            ) / outside_count.clamp_min(0.05)
+            fallback_background = F.avg_pool2d(
+                reference_latents, kernel, stride=1, padding=kernel // 2
+            )
+            reliable = (outside_count > 0.05).to(reference_latents.dtype)
+            local_background = (
+                reliable * local_background + (1.0 - reliable) * fallback_background
+            ).clamp(-10.0, 10.0)
+            defect_residual = (
+                (reference_latents - local_background) * reference_mask
+            ).clamp(-20.0, 20.0)
+            latent_encoded = self.encoder(
+                torch.cat([defect_residual, reference_mask], dim=1)
+            )
+        else:
+            # Keep the Fusion interface fixed while fully skipping the removed
+            # semantic encoder. Its parameters are frozen and optimizer-excluded.
+            latent_encoded = reference_latents.new_zeros(
+                reference_latents.shape[0], self.hidden_dim, *latent_size
+            )
         if reference_pixels is None:
             raise ValueError("MSDF v2 requires reference_pixels before VAE compression")
         reference_pixels = torch.nan_to_num(
@@ -422,7 +481,9 @@ class MSDFAdapter(nn.Module):
         # Modality dropout makes both encoders useful: some training batches
         # must be solved from the pixel branch and some from the latent branch.
         # At inference both branches are always active.
-        if self.training and self.branch_dropout > 0:
+        if (self.training and self.branch_dropout > 0
+                and self.ablation["latent_branch"]
+                and self.ablation["pixel_branch"]):
             choice = torch.rand(
                 latent_encoded.shape[0], 1, 1, 1,
                 device=latent_encoded.device,
@@ -610,6 +671,22 @@ class MSDFAdapter(nn.Module):
             # to preserve the pre-interface floating-point execution exactly.
             if self.injection_gamma != 1.0:
                 residual = residual * self.injection_gamma
+            if self.capture_injection_stats:
+                split = residual.shape[0] // 2 if self._cfg else 0
+                self.last_injection_stats.append({
+                    "up_block": index,
+                    "gate_mean": float(gate.detach().float().mean()),
+                    "residual_l2": float(torch.linalg.vector_norm(residual.detach().float())),
+                    "unconditional_l2": (
+                        float(torch.linalg.vector_norm(residual[:split].detach().float()))
+                        if split else None
+                    ),
+                    "conditional_l2": (
+                        float(torch.linalg.vector_norm(residual[split:].detach().float()))
+                        if split else float(torch.linalg.vector_norm(residual.detach().float()))
+                    ),
+                    "finite": bool(torch.isfinite(residual).all()),
+                })
             updated = hidden + residual
             if isinstance(output, tuple):
                 return (updated,) + output[1:]
@@ -627,6 +704,7 @@ def build_msdf_adapter(
     max_residual_ratio: float = 0.25,
     branch_dropout: float = 0.20,
     pixel_support_weight: float = 0.50,
+    training_ablation: str = "full",
 ) -> MSDFAdapter:
     return MSDFAdapter(
         latent_channels=latent_channels,
@@ -637,6 +715,7 @@ def build_msdf_adapter(
         max_residual_ratio=max_residual_ratio,
         branch_dropout=branch_dropout,
         pixel_support_weight=pixel_support_weight,
+        training_ablation=training_ablation,
     )
 
 
@@ -651,6 +730,10 @@ def load_msdf_adapter(path, unet, device) -> MSDFAdapter:
             f"Unsupported MSDF checkpoint format: v{version}; "
             "MSDF v3 changes stability and pixel supervision and must be retrained"
         )
+    stored_morphology = bool(checkpoint.get("morphology_alignment_enabled", True))
+    training_ablation = str(checkpoint.get(
+        "training_ablation", "full" if stored_morphology else "no_morph"
+    ))
     adapter = MSDFAdapter(
         latent_channels=int(checkpoint["latent_channels"]),
         hidden_dim=int(checkpoint["hidden_dim"]),
@@ -660,6 +743,7 @@ def load_msdf_adapter(path, unet, device) -> MSDFAdapter:
         max_residual_ratio=float(checkpoint["max_residual_ratio"]),
         branch_dropout=float(checkpoint["branch_dropout"]),
         pixel_support_weight=float(checkpoint["pixel_support_weight"]),
+        training_ablation=training_ablation,
     )
     state_dict = checkpoint["state_dict"]
     invalid = [
@@ -672,10 +756,11 @@ def load_msdf_adapter(path, unet, device) -> MSDFAdapter:
         )
     adapter.load_state_dict(state_dict, strict=True)
     adapter.to(device=device, dtype=torch.float32).eval()
-    adapter.set_ablation({
-        "morphology_alignment": bool(
-            checkpoint.get("morphology_alignment_enabled", True)
+    expected_morphology = adapter.training_ablation != "no_morph"
+    if stored_morphology != expected_morphology:
+        raise ValueError(
+            "MSDF checkpoint morphology flag conflicts with training_ablation"
         )
-    })
+    adapter.set_ablation({"morphology_alignment": stored_morphology})
     adapter.attach(unet)
     return adapter

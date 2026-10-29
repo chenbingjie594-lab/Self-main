@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "mode": "no_morph",
+  "sample": {
+    "selection": "largest mask area in the real training class; metadata-only",
+    "mask_area_pixels": 4207,
+    "image": "$DATA_ROOT/Plastic_Bomo/test/02_Big_black_spots/036.jpg",
+    "image_sha256": "27b2ef924c94ffddcb12732fb8fb2cba663af5403d9cb332fe8e5ce121144dc7",
+    "mask": "$DATA_ROOT/Plastic_Bomo/ground_truth/02_Big_black_spots/036_mask.png",
+    "mask_sha256": "d1fa528a4591bb40d8b9a28be78fa56a97e3b6aea43d74b427702a67c64a2e56"
+  },
+  "contract": {
+    "mode": "no_morph",
+    "pixel_branch": true,
+    "latent_branch": true,
+    "morphology_alignment": false,
+    "morphology_support_loss": false,
+    "branch_dropout_active": true
+  },
+  "optimizer_parameter_count": 338742,
+  "smoke_steps": 2,
+  "loss_history": [
+    {
+      "step": 1,
+      "conditional_diffusion": 0.002769045066088438,
+      "morphology_support": 0.0
+    },
+    {
+      "step": 2,
+      "conditional_diffusion": 0.0027697100304067135,
+      "morphology_support": 0.0
+    }
+  ],
+  "losses": {
+    "conditional_diffusion": {
+      "weight": 1.0,
+      "value": 0.0027697100304067135,
+      "enabled": true
+    },
+    "morphology_support": {
+      "weight": 0.0,
+      "value": 0.0,
+      "enabled": false
+    },
+    "formal_other_msdf_losses": {
+      "enabled_in_formal_training": true,
+      "names_and_weights": {
+        "region": 0.75,
+        "reconstruction": 0.5,
+        "structure": 0.25,
+        "background": 0.2,
+        "scale": 0.25
+      },
+      "smoke_note": "omitted from the minimal acceptance objective; train_rda.py exercises them"
+    }
+  },
+  "calls": {
+    "latent": 3,
+    "morphology_alignment": 0
+  },
+  "changed_parameters": [
+    "encoder.0.weight",
+    "encoder.0.bias",
+    "encoder.1.weight",
+    "encoder.1.bias",
+    "encoder.3.weight",
+    "encoder.3.bias",
+    "encoder.4.weight",
+    "encoder.4.bias",
+    "encoder.6.weight",
+    "encoder.6.bias",
+    "pixel_encoder.0.weight",
+    "pixel_encoder.0.bias",
+    "pixel_encoder.2.weight",
+    "pixel_encoder.2.bias",
+    "pixel_encoder.4.weight",
+    "pixel_encoder.4.bias",
+    "pixel_encoder.5.weight",
+    "fusion.0.weight",
+    "fusion.0.bias",
+    "fusion.1.weight",
+    "fusion.1.bias",
+    "pixel_support_head.weight",
+    "pixel_support_head.bias",
+    "support_head.weight",
+    "support_head.bias",
+    "gate.0.weight",
+    "gate.0.bias",
+    "gate.2.weight",
+    "gate.2.bias",
+    "projections.0.weight",
+    "projections.0.bias",
+    "projections.1.weight",
+    "projections.1.bias",
+    "projections.2.weight",
+    "projections.2.bias",
+    "projections.3.weight",
+    "projections.3.bias"
+  ],
+  "injection": [
+    {
+      "up_block": 0,
+      "gate_mean": 0.31201171875,
+      "residual_l2": 0.0005892604822292924,
+      "unconditional_l2": 0.0,
+      "conditional_l2": 0.0005892604822292924,
+      "finite": true
+    },
+    {
+      "up_block": 1,
+      "gate_mean": 0.280029296875,
+      "residual_l2": 0.0025139066856354475,
+      "unconditional_l2": 0.0,
+      "conditional_l2": 0.0025139066856354475,
+      "finite": true
+    },
+    {
+      "up_block": 2,
+      "gate_mean": 0.336181640625,
+      "residual_l2": 0.008488918654620647,
+      "unconditional_l2": 0.0,
+      "conditional_l2": 0.008488918654620647,
+      "finite": true
+    },
+    {
+      "up_block": 3,
+      "gate_mean": 0.465087890625,
+      "residual_l2": 0.009797697886824608,
+      "unconditional_l2": 0.0,
+      "conditional_l2": 0.009797697886824608,
+      "finite": true
+    }
+  ],
+  "prediction_delta_l2": {
+    "conditional": 0.03121238760650158,
+    "unconditional": 0.0
+  },
+  "checkpoint": {
+    "path": "SERVER_LOCAL_OMITTED",
+    "sha256": "8c694ce911b8bb8728f5f7a14f4d37582f250a35cecbd009af37884bc2da83d8",
+    "published": false,
+    "reason": "temporary smoke weight; verification hash retained"
+  },
+  "checks": {
+    "real_training_sample": true,
+    "latent_not_executed": true,
+    "latent_not_in_optimizer": true,
+    "latent_has_no_gradient": true,
+    "morphology_alignment_route": true,
+    "morphology_loss_route": true,
+    "effective_parameter_updated": true,
+    "four_nonzero_injections": true,
+    "cfg_unconditional_no_injection": true,
+    "active_differs_from_bypass": true,
+    "unconditional_equals_bypass": true,
+    "finite": true,
+    "bounded_residual": true,
+    "checkpoint_strict_reload_exact": true
+  }
+}

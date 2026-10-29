@@ -1,0 +1,8 @@
+{
+  "inherits": "full_verified.json",
+  "id": "A2",
+  "msdf_ablation": "no_morph",
+  "only_change": "skip explicit reference morphology alignment and disable its morphology-target support loss",
+  "morphology_support_loss": false,
+  "effective_morphology_support_weight": 0.0
+}

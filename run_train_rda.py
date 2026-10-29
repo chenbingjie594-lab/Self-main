@@ -33,6 +33,13 @@ def main():
     parser.add_argument("--msdf_hidden_dim", type=int, default=64)
     parser.add_argument("--msdf_context_scale", type=float, default=1.75)
     parser.add_argument("--msdf_max_injection", type=float, default=1.0)
+    parser.add_argument("--msdf_max_residual_ratio", type=float, default=0.25)
+    parser.add_argument("--msdf_branch_dropout", type=float, default=0.20)
+    parser.add_argument("--msdf_pixel_support_weight", type=float, default=0.50)
+    parser.add_argument(
+        "--msdf_ablation", choices=["full", "no_latent", "no_morph"],
+        default="full",
+    )
     parser.add_argument("--msdf_region_weight", type=float, default=0.75)
     parser.add_argument("--msdf_reconstruction_weight", type=float, default=0.50)
     parser.add_argument("--msdf_structure_weight", type=float, default=0.25)
@@ -78,7 +85,8 @@ def main():
 
     if args.output_root is None:
         if args.enable_msdf:
-            args.output_root = "./model/msdf_v2_sd2_2000_s42"
+            suffix = "" if args.msdf_ablation == "full" else f"_{args.msdf_ablation}"
+            args.output_root = f"./model/msdf_v3{suffix}_sd2_2000_s42"
         elif args.enable_carf and args.rda_mode == "none":
             args.output_root = "./model/carf_only_v4_sd2_2000_s42"
         elif args.enable_carf:
@@ -142,6 +150,14 @@ def main():
                 str(args.msdf_context_scale),
                 "--msdf_max_injection",
                 str(args.msdf_max_injection),
+                "--msdf_max_residual_ratio",
+                str(args.msdf_max_residual_ratio),
+                "--msdf_branch_dropout",
+                str(args.msdf_branch_dropout),
+                "--msdf_pixel_support_weight",
+                str(args.msdf_pixel_support_weight),
+                "--msdf_ablation",
+                args.msdf_ablation,
                 "--msdf_region_weight",
                 str(args.msdf_region_weight),
                 "--msdf_reconstruction_weight",

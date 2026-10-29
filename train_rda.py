@@ -119,6 +119,10 @@ def parse_args():
     parser.add_argument("--msdf_max_residual_ratio", type=float, default=0.25)
     parser.add_argument("--msdf_branch_dropout", type=float, default=0.20)
     parser.add_argument("--msdf_pixel_support_weight", type=float, default=0.50)
+    parser.add_argument(
+        "--msdf_ablation", choices=["full", "no_latent", "no_morph"],
+        default="full", help="Training-level MSDF-v3 structure variant.",
+    )
     parser.add_argument("--msdf_disable_morphology_alignment", action="store_true")
     parser.add_argument("--msdf_region_weight", type=float, default=0.75)
     parser.add_argument("--msdf_reconstruction_weight", type=float, default=0.50)
@@ -452,6 +456,13 @@ def main():
             "The first MSDF experiment must be MSDF-only: use --rda_mode none "
             "without --enable_carf"
         )
+    if args.msdf_ablation != "full" and not args.enable_msdf:
+        raise ValueError("--msdf_ablation requires --enable_msdf")
+    if args.msdf_disable_morphology_alignment and args.msdf_ablation not in {"full", "no_morph"}:
+        raise ValueError("legacy morphology flag conflicts with --msdf_ablation")
+    msdf_training_ablation = (
+        "no_morph" if args.msdf_disable_morphology_alignment else args.msdf_ablation
+    )
     if (
         args.rda_mode == "none"
         and not args.enable_carf
@@ -526,12 +537,14 @@ def main():
             max_residual_ratio=args.msdf_max_residual_ratio,
             branch_dropout=args.msdf_branch_dropout,
             pixel_support_weight=args.msdf_pixel_support_weight,
+            training_ablation=msdf_training_ablation,
         ).to(device)
         installed = msdf.attach(unet)
-        msdf.set_ablation({
-            "morphology_alignment": not args.msdf_disable_morphology_alignment
-        })
-        print(f"[MSDF] multi-scale up-block injections={installed}")
+        print(
+            f"[MSDF] multi-scale up-block injections={installed} | "
+            f"training_ablation={msdf.training_ablation} | "
+            f"contract={msdf.training_contract()}"
+        )
     joint_spatial_attention = rda is not None and carf is not None
     if joint_spatial_attention:
         installed = install_rda_carf_attention(unet)
@@ -638,8 +651,13 @@ def main():
             {"params": carf.parameters(), "lr": args.carf_learning_rate}
         )
     if msdf is not None:
+        trainable_msdf_parameters = [
+            parameter for parameter in msdf.parameters() if parameter.requires_grad
+        ]
+        if not trainable_msdf_parameters:
+            raise RuntimeError("MSDF has no trainable parameters")
         optimizer_groups.append(
-            {"params": msdf.parameters(), "lr": args.msdf_learning_rate}
+            {"params": trainable_msdf_parameters, "lr": args.msdf_learning_rate}
         )
     optimizer_kwargs = {
         "betas": (0.9, 0.999),
@@ -968,10 +986,11 @@ def main():
                 ).sum() / (
                     defect_saliency.sum() * pixel_error.shape[1]
                 ).clamp_min(1.0)
-                msdf_support_loss = msdf.morphology_support_loss(
-                    defect_saliency,
-                    reference_is_self,
-                )
+                if msdf.morphology_supervision_enabled:
+                    msdf_support_loss = msdf.morphology_support_loss(
+                        defect_saliency,
+                        reference_is_self,
+                    )
                 if scheduler.config.prediction_type == "epsilon":
                     alphas = scheduler.alphas_cumprod.to(
                         device=device, dtype=torch.float32
@@ -1395,6 +1414,8 @@ def main():
                 "branch_dropout": msdf.branch_dropout,
                 "pixel_support_weight": msdf.pixel_support_weight,
                 "morphology_alignment_enabled": msdf.ablation["morphology_alignment"],
+                "training_ablation": msdf.training_ablation,
+                "training_contract": msdf.training_contract(),
                 "format_version": MSDF_FORMAT_VERSION,
             },
             output_dir / "msdf.pt",
@@ -1423,6 +1444,28 @@ def main():
     metadata["msdf_enabled"] = msdf is not None
     metadata["morphology_alignment_enabled"] = (
         msdf.ablation["morphology_alignment"] if msdf is not None else None
+    )
+    metadata["msdf_training_ablation"] = (
+        msdf.training_ablation if msdf is not None else None
+    )
+    metadata["msdf_training_contract"] = (
+        msdf.training_contract() if msdf is not None else None
+    )
+    metadata["msdf_effective_loss_weights"] = (
+        {
+            "denoising": 1.0,
+            "region": args.msdf_region_weight,
+            "reconstruction": args.msdf_reconstruction_weight,
+            "structure": args.msdf_structure_weight,
+            "background": args.msdf_background_weight,
+            "scale": args.msdf_scale_weight,
+            "support": (
+                args.msdf_support_weight
+                if msdf is not None and msdf.morphology_supervision_enabled
+                else 0.0
+            ),
+        }
+        if msdf is not None else None
     )
     metadata["dhfg_enabled"] = dhfg is not None
     metadata["dhfg_calibration"] = dhfg_calibration
