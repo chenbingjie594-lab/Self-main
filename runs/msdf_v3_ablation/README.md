@@ -9,8 +9,8 @@
 | A2 w/o Morphology Alignment | **正式训练完成** | Flash/Black 各 2000 successful steps；`checks/a2_training_audit.json` 为 PASS |
 | A1/A2 route unit test | 完成 | 随机张量只用于结构路由单元测试 |
 | A1/A2 real-data smoke | 完成 | 真实 Black 样本、真实 SD2 UNet、2 steps；不能作为正式训练结果 |
-| A0/A1/A2 冻结生成 | 未执行 | 尚无三组同槽位 PNG manifest |
-| 三组可视化 | 脚本完成，正式图未执行 | 必须先通过 bank+class+slot 配对审计 |
+| A0/A1/A2 固定可视化生成 | **完成** | 每类 4 个预定槽位，覆盖 A/B/C；24 张正式 PNG，无重抽 |
+| 三组可视化 | **完成，真实配对 PASS** | `visual_evaluation_20261029_v2/`；实际源文件和推理参数均核验 |
 | KID/FID、SOTA、检测 | 未执行 | 本阶段明确禁止 |
 
 关键文件：
@@ -23,5 +23,6 @@
 - `checks/real_data_smoke_summary.json`：真实数据两步 smoke 汇总。
 - `scripts/render_msdf_ablation_grid.py`：严格配对审计及完整图、上下文 ROI、统一色标热图。
 - `commands.md`：训练与可视化命令。
+- `visual_evaluation_20261029_v2/VISUAL_EVALUATION_REPORT.md`：正式固定样本可视化结论、失败样本与限制。
 
 临时 smoke checkpoint 不能用于正式生成或性能结论。正式模型权重与完整日志只保留在服务器。

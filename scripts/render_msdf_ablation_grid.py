@@ -126,6 +126,13 @@ def identity(row):
         "sample_seed": int(required(row, "generation seed", "sample_seed",
                                     "generation_seed", "seed")),
         "bank_seed": int(required(row, "bank seed", "bank_seed")),
+        "prompt": str(required(row, "prompt", "prompt")),
+        "generation_protocol_sha256": str(required(
+            row, "generation protocol SHA256", "generation_protocol_sha256")),
+        "inference_parameters": required(row, "inference parameters", "inference_parameters"),
+        "injection_gamma": float(required(row, "injection gamma", "injection_gamma")),
+        "quality_selection": bool(required(row, "quality selection flag", "quality_selection")),
+        "reroll": bool(required(row, "reroll flag", "reroll")),
     }
 
 
@@ -140,6 +147,45 @@ def index_manifest(path):
     return result
 
 
+def verify_file(manifest, row, path_names, sha_names, label):
+    value = pick(row, *path_names)
+    expected = pick(row, *sha_names)
+    if value is None or expected is None:
+        raise ValueError(f"Missing {label} path/SHA256 for {row.get('slot_id')}")
+    path = resolve(manifest, value)
+    actual = sha(path)
+    if actual != str(expected):
+        raise ValueError(
+            f"{label} SHA256 mismatch for {row.get('slot_id')}: "
+            f"manifest={expected} actual={actual}"
+        )
+    return {"path": str(path), "sha256": actual}
+
+
+def verify_row_artifacts(manifest, row):
+    """Verify source bytes and actual inference inputs, not only manifest equality."""
+    return {
+        "generated": verify_file(
+            manifest, row, ("image_path", "output_path", "generated_path"),
+            ("image_sha256", "image_SHA256"), "generated PNG"),
+        "normal_source": verify_file(
+            manifest, row, ("normal_path", "conditioning_normal_path"),
+            ("normal_sha256",), "normal source"),
+        "reference_source": verify_file(
+            manifest, row, ("reference_path", "source_path"),
+            ("reference_sha256", "source_sha256"), "reference source"),
+        "normal_input": verify_file(
+            manifest, row, ("normal_input_path",), ("normal_input_sha256",),
+            "normal crop input"),
+        "reference_input": verify_file(
+            manifest, row, ("reference_input_path",), ("reference_input_sha256",),
+            "reference crop input"),
+        "mask_input": verify_file(
+            manifest, row, ("mask_input_path",), ("mask_input_sha256",),
+            "mask input"),
+    }
+
+
 def audit_pairing(manifests, indexed):
     methods = list(indexed)
     expected = set(indexed[methods[0]])
@@ -151,12 +197,25 @@ def audit_pairing(manifests, indexed):
                 "missing_keys": sorted(expected - set(indexed[method])),
                 "extra_keys": sorted(set(indexed[method]) - expected),
             })
+    artifact_checks = {}
     if not mismatches:
         for key in sorted(expected):
             values = {method: identity(indexed[method][key]) for method in methods}
             baseline = canonical(values[methods[0]])
             if any(canonical(values[method]) != baseline for method in methods[1:]):
                 mismatches.append({"key": key, "identities": values})
+                continue
+            artifact_checks["/".join(key)] = {
+                method: verify_row_artifacts(manifests[method], indexed[method][key])
+                for method in methods
+            }
+            for role in ("normal_source", "reference_source", "normal_input",
+                         "reference_input", "mask_input"):
+                hashes = {artifact_checks["/".join(key)][method][role]["sha256"]
+                          for method in methods}
+                if len(hashes) != 1:
+                    mismatches.append({"key": key, "artifact_role": role,
+                                       "hashes": sorted(hashes)})
     audit = {
         "status": "PASS" if not mismatches else "FAIL",
         "key": ["bank", "class", "slot_id"],
@@ -164,7 +223,14 @@ def audit_pairing(manifests, indexed):
         "verified_equal_fields": [
             "conditioning_normal_id", "normal_sha256", "reference_id",
             "reference_sha256", "mask_sha256", "bbox", "sample_seed", "bank_seed",
+            "prompt", "generation_protocol_sha256", "inference_parameters",
+            "injection_gamma", "quality_selection", "reroll",
         ],
+        "actual_file_sha256_verified": [
+            "generated PNG", "normal source", "reference source", "normal crop input",
+            "reference crop input", "mask input",
+        ],
+        "artifact_checks": artifact_checks,
         "source_manifests": {method: {"path": str(path), "sha256": sha(path)}
                              for method, path in manifests.items()},
         "mismatches": mismatches,
