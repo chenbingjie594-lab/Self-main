@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "positive_test": {
+    "input": "one historical 240-record frozen manifest supplied as all three methods",
+    "result": "PASS",
+    "records_per_method": 240
+  },
+  "negative_test": {
+    "mutation": "increment one A1 sample_seed by one",
+    "result": "REJECTED",
+    "exit_code": 1
+  },
+  "scope": "checker behavior only; formal A0/A1/A2 generated manifests do not yet exist",
+  "formal_three_method_pairing_status": "NOT_RUN"
+}

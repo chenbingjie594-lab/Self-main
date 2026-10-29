@@ -49,3 +49,28 @@ Flash/Black `msdf.pt` SHA256 分别为 `b4137f5986acfe08d3003d1fb1a093270a7a87d9
 `tools/check_msdf_v3_ablation_routes.py` 是随机张量 CPU 单元测试，仅验证结构路由、optimizer、梯度、四层注入和 CFG，不冒充真实数据 smoke。机器可读结果写入 `checks/route_unit.json`。真实数据 1–2 step 验收由 `tools/smoke_msdf_v3_training_ablations.py` 执行，并必须在可访问 CUDA 驱动的环境中完成。
 
 真实数据 smoke 已在 GPU 0、Black 训练集面积最大的真实 mask（036）上以 seed 42、fp16 GradScaler 跑两步，A1/A2 均 PASS。两项均有有效 MSDF 参数更新，四个 up-block 的条件注入均非零，无条件注入均为零，active 与真实 bypass 的条件预测不同且无条件预测逐元素相同，所有数值 finite，保存后 strict reload 逐张量一致。详细范数与 checkpoint SHA 见 `checks/no_latent/smoke.json` 和 `checks/no_morph/smoke.json`。
+
+## 正式训练状态（2026-10-29 UTC）
+
+A1 `no_latent` 已完成。Flash 与 Black 的 `training_history.csv` 都包含严格连续的 1..2000 successful-step 序列，训练 pair 数分别为 76 和 36。两类各发生一次 fp16 非有限梯度跳步，GradScaler 降尺度后恢复，连续跳步未超过限制。两个 `msdf.pt` 均以 `strict=True` 加载且 missing/unexpected keys 为空，所有 tensor finite，latent encoder 在恢复后保持冻结，四层 projection weight 范数均非零。完整 SHA 与范数见 `checks/a1_training_audit.json`。
+
+A2 `no_morph` 已完成。Flash 与 Black 均达到 2000 successful steps，训练 pair 数分别为 76 和 36；两类各发生一次 fp16 非有限梯度跳步并在 GradScaler 降尺度后恢复。训练契约确认 morphology alignment 和 morphology support loss 均关闭，其余 pixel/latent/fusion/gate/四层注入分支保持启用；全部 2000 步的 morphology support loss 均为零。两个 checkpoint 均以 `strict=True` 加载，missing/unexpected keys 为空，所有 tensor finite，四层 projection weight 范数均非零。Flash checkpoint SHA256 为 `f7e142564283678d89bb5fd53e7dcb91e278a88122c55d855d252009c9c9a70c`，Black 为 `8d5bec58db215c14ccdd87ffbbd4926b23ffc03b3dbc5d2c6dcc8bce992892db`；完整审计见 `checks/a2_training_audit.json`。
+
+## 可视化配对与固定选样
+
+`scripts/render_msdf_ablation_grid.py` 现在使用 `(bank, class, slot_id)` 唯一键，并拒绝重复键或三组 key set 不一致。每个匹配项必须同时满足以下字段完全相同：conditioning normal ID/SHA、参考缺陷 ID/SHA、Mask SHA、BBox、sample seed 和 bank seed；任一不一致立即报错。结构自测用同一份 240-record 历史 frozen manifest 作为三路输入时 PASS；人为修改一个 sample seed 时按预期退出码 1。这个自测只证明检查器工作，**不等于 A0/A1/A2 的正式配对已通过**，因为 A1/A2 正式冻结生成尚未执行。
+
+正式图固定从通过审计的总体中按类别排序并均匀选取 4 个 key，不读取图像质量进行筛选。输出包括完整图、包含周围上下文且标出原 ROI 的统一裁切放大图，以及 `abs(generated-normal)` 的统一全局色标热图；所有方法使用相同裁切、插值、尺寸与颜色范围。
+
+## A0 可比性与一次性补齐方案
+
+历史 A0 的基础模型、主要超参数、2000 steps、数据路径、类别样本数和非零四层 projection 可以核验，但没有训练前文件 SHA manifest、逐 epoch 样本/donor 顺序和初始化 RNG 状态。因此它适合开发参考，不能支撑严格训练级因果消融结论。
+
+若需要严格比较，先人工审核后一次性执行以下补齐，不在本轮自动启动：
+
+1. 冻结当前 Flash 76、Black 36 个 image/mask 文件的相对路径、大小与 SHA256，记录基础 SD2 模型 tree SHA、代码 commit、环境版本和全部训练参数。
+2. 固化 seed 42 下逐 epoch 样本顺序、cross-reference donor 决策和 coarse-mask augmentation RNG ledger。
+3. 仅重训一次 A0 Full，使用与 A1/A2 相同的当前训练入口、2000 successful steps、优化器、精度和固定 manifest；保存相同格式的 history、跳步、checkpoint SHA 与 strict-load 审计。
+4. A1 已按用户要求禁止重复训练。它只能与新 A0 做“当前数据树未变”的条件比较；若要求法证级证明训练当时数据字节完全相同，现有 A1 缺少训练前 manifest，无法事后补造该证据，必须在论文中披露这一限制。
+
+A1/A2 的训练级消融现已完成。仍需执行 A0/A1/A2 固定槽位冻结生成，并由真实三组 manifest 通过 pairing audit，之后才能进入正式定性消融效果评测；当前尚未具备该条件。本阶段不运行 KID/FID、SOTA 或下游检测。

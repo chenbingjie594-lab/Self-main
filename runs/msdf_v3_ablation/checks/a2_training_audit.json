@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "variant": "no_morph",
+  "classes": {
+    "01_Flash_point": {
+      "status": "PASS",
+      "successful_steps": 2000,
+      "training_pairs": 76,
+      "nonfinite_gradient_skips_total": 1,
+      "training_contract": {
+        "mode": "no_morph",
+        "pixel_branch": true,
+        "latent_branch": true,
+        "morphology_alignment": false,
+        "morphology_support_loss": false,
+        "branch_dropout_active": true
+      },
+      "projection_weight_norms": {
+        "projections.0.weight": 0.9045303463935852,
+        "projections.1.weight": 1.1190309524536133,
+        "projections.2.weight": 1.2218658924102783,
+        "projections.3.weight": 0.6665290594100952
+      },
+      "checkpoint_sha256": "f7e142564283678d89bb5fd53e7dcb91e278a88122c55d855d252009c9c9a70c",
+      "history_sha256": "a592650e9dbb768a3baefe8761a5c8cc5815279ad72de88940dfb6b30ba16971",
+      "metadata_sha256": "411eb607852c2574e1e473b4fbb4d10e08dccdd07a36a2f9b846a9d3a67ebf84",
+      "checks": {
+        "successful_steps_exact_1_to_2000": true,
+        "training_pair_count": true,
+        "variant_metadata": true,
+        "variant_checkpoint": true,
+        "strict_load_no_missing": true,
+        "strict_load_no_unexpected": true,
+        "all_tensors_finite": true,
+        "four_projection_weights_nonzero": true,
+        "no_latent_encoder_frozen": true,
+        "no_morph_support_loss_zero_all_steps": true,
+        "no_morph_contract": true
+      }
+    },
+    "02_Big_black_spots": {
+      "status": "PASS",
+      "successful_steps": 2000,
+      "training_pairs": 36,
+      "nonfinite_gradient_skips_total": 1,
+      "training_contract": {
+        "mode": "no_morph",
+        "pixel_branch": true,
+        "latent_branch": true,
+        "morphology_alignment": false,
+        "morphology_support_loss": false,
+        "branch_dropout_active": true
+      },
+      "projection_weight_norms": {
+        "projections.0.weight": 0.6530361175537109,
+        "projections.1.weight": 1.1746772527694702,
+        "projections.2.weight": 0.9223160147666931,
+        "projections.3.weight": 0.581608772277832
+      },
+      "checkpoint_sha256": "8d5bec58db215c14ccdd87ffbbd4926b23ffc03b3dbc5d2c6dcc8bce992892db",
+      "history_sha256": "8691f844ae03ad64f3dd750c2cb16a7c4eef46a7ee3b36e2e0d780e476b8070b",
+      "metadata_sha256": "9b0161a708241ffbc38e7ab6a08c122d6012f963c44d49b4e955015abd5773c5",
+      "checks": {
+        "successful_steps_exact_1_to_2000": true,
+        "training_pair_count": true,
+        "variant_metadata": true,
+        "variant_checkpoint": true,
+        "strict_load_no_missing": true,
+        "strict_load_no_unexpected": true,
+        "all_tensors_finite": true,
+        "four_projection_weights_nonzero": true,
+        "no_latent_encoder_frozen": true,
+        "no_morph_support_loss_zero_all_steps": true,
+        "no_morph_contract": true
+      }
+    }
+  }
+}

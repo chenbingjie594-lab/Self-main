@@ -71,6 +71,109 @@ def class_name(row):
     return str(pick(row, "class", "class_name", "category") or "unknown").lower()
 
 
+def canonical(value):
+    return json.dumps(value, ensure_ascii=False, sort_keys=True,
+                      separators=(",", ":"))
+
+
+def required(row, label, *names):
+    value = pick(row, *names)
+    if value is None:
+        raise ValueError(
+            f"Missing {label} for bank/class/slot="
+            f"{pick(row, 'bank')}/{class_name(row)}/{row.get('slot_id')}"
+        )
+    return value
+
+
+def geometry_value(row, *names):
+    for scope in (row, row.get("frozen_slot", {}), row.get("runtime_slot", {})):
+        geometry = scope.get("geometry") or {}
+        for name in names:
+            if geometry.get(name) is not None:
+                return geometry[name]
+    return None
+
+
+def identity(row):
+    """Fields that must be invariant when only the trained variant changes."""
+    bbox = pick(row, "bbox", "bbox_xywh", "yolo_bbox")
+    if bbox is None:
+        bbox = geometry_value(row, "final_bbox_normalized_xywh",
+                              "generator_bbox_xyxy", "original_bbox_xyxy")
+    if bbox is None:
+        raise ValueError(f"Missing BBox for {row.get('slot_id')}")
+    mask_sha = pick(row, "mask_sha256", "decoded_mask_sha256")
+    if mask_sha is None:
+        mask_sha = geometry_value(row, "mask_decoded_sha256")
+    if mask_sha is None:
+        raise ValueError(f"Missing Mask identity for {row.get('slot_id')}")
+    return {
+        "bank": str(required(row, "bank", "bank")),
+        "class": class_name(row),
+        "slot_id": str(required(row, "slot_id", "slot_id")),
+        "conditioning_normal_id": str(required(
+            row, "conditioning normal", "conditioning_normal_id", "normal_id")),
+        "normal_sha256": str(required(row, "normal SHA256", "normal_sha256")),
+        "reference_id": str(required(
+            row, "reference defect identity", "annotation_id", "reference_id",
+            "donor_id", "canonical_image_id")),
+        "reference_sha256": str(required(
+            row, "reference defect SHA256", "source_sha256", "reference_sha256",
+            "donor_sha256")),
+        "mask_sha256": str(mask_sha),
+        "bbox": bbox,
+        "sample_seed": int(required(row, "generation seed", "sample_seed",
+                                    "generation_seed", "seed")),
+        "bank_seed": int(required(row, "bank seed", "bank_seed")),
+    }
+
+
+def index_manifest(path):
+    result = {}
+    for row in records(path):
+        key = (str(required(row, "bank", "bank")), class_name(row),
+               str(required(row, "slot_id", "slot_id")))
+        if key in result:
+            raise ValueError(f"Duplicate bank/class/slot_id in {path}: {key}")
+        result[key] = row
+    return result
+
+
+def audit_pairing(manifests, indexed):
+    methods = list(indexed)
+    expected = set(indexed[methods[0]])
+    mismatches = []
+    for method in methods[1:]:
+        if set(indexed[method]) != expected:
+            mismatches.append({
+                "method": method,
+                "missing_keys": sorted(expected - set(indexed[method])),
+                "extra_keys": sorted(set(indexed[method]) - expected),
+            })
+    if not mismatches:
+        for key in sorted(expected):
+            values = {method: identity(indexed[method][key]) for method in methods}
+            baseline = canonical(values[methods[0]])
+            if any(canonical(values[method]) != baseline for method in methods[1:]):
+                mismatches.append({"key": key, "identities": values})
+    audit = {
+        "status": "PASS" if not mismatches else "FAIL",
+        "key": ["bank", "class", "slot_id"],
+        "count_per_method": {method: len(rows) for method, rows in indexed.items()},
+        "verified_equal_fields": [
+            "conditioning_normal_id", "normal_sha256", "reference_id",
+            "reference_sha256", "mask_sha256", "bbox", "sample_seed", "bank_seed",
+        ],
+        "source_manifests": {method: {"path": str(path), "sha256": sha(path)}
+                             for method, path in manifests.items()},
+        "mismatches": mismatches,
+    }
+    if mismatches:
+        raise ValueError("A0/A1/A2 pairing audit failed: " + canonical(mismatches[:3]))
+    return audit
+
+
 def roi(row, width, height):
     value = pick(row, "roi_xyxy", "bbox_xyxy")
     if value is not None:
@@ -110,14 +213,24 @@ def display_image(value, max_width):
 
 def select(common, per_class):
     chosen = []
-    for label in sorted({item[0] for item in common}):
-        keys = sorted(key for key in common if key[0] == label)
-        if len(keys) <= per_class:
-            chosen.extend(keys)
-        else:
-            indices = np.linspace(0, len(keys) - 1, per_class).round().astype(int)
-            chosen.extend(keys[index] for index in indices)
+    for label in sorted({item[1] for item in common}):
+        keys = sorted(key for key in common if key[1] == label)
+        if len(keys) < per_class:
+            raise ValueError(f"Need {per_class} fixed samples for {label}; found {len(keys)}")
+        indices = np.linspace(0, len(keys) - 1, per_class).round().astype(int)
+        chosen.extend(keys[index] for index in indices)
     return chosen
+
+
+def context_box(box, width, height, scale):
+    x0, y0, x1, y1 = box
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    size = max(x1 - x0, y1 - y0, 16) * float(scale)
+    nx0 = max(0, int(math.floor(cx - size / 2)))
+    ny0 = max(0, int(math.floor(cy - size / 2)))
+    nx1 = min(width, int(math.ceil(cx + size / 2)))
+    ny1 = min(height, int(math.ceil(cy + size / 2)))
+    return [nx0, ny0, max(nx0 + 1, nx1), max(ny0 + 1, ny1)]
 
 
 def save_figure(fig, output, stem):
@@ -135,19 +248,27 @@ def main():
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--slots-per-class", type=int, default=4)
     parser.add_argument("--zoom", type=int, default=4)
+    parser.add_argument("--context-scale", type=float, default=4.0)
     parser.add_argument("--display-max-width", type=int, default=1024,
                         help="Consistent figure-only resize; source PNGs remain untouched.")
+    parser.add_argument("--audit-only", action="store_true",
+                        help="Validate frozen pairing and write pairing_audit.json without rendering.")
     args = parser.parse_args()
     manifests = {"A0 Full": args.full_manifest.resolve(),
                  "A1 w/o Latent": args.no_latent_manifest.resolve(),
                  "A2 w/o Morph": args.no_morph_manifest.resolve()}
     indexed = {}
     for method, path in manifests.items():
-        indexed[method] = {(class_name(row), str(row["slot_id"])): row
-                           for row in records(path)}
-    common = set.intersection(*(set(value) for value in indexed.values()))
-    if not common:
-        raise ValueError("No class/slot_id intersection across the three manifests")
+        indexed[method] = index_manifest(path)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    pairing_audit = audit_pairing(manifests, indexed)
+    (args.output_dir / "pairing_audit.json").write_text(
+        json.dumps(pairing_audit, indent=2), encoding="utf-8")
+    if args.audit_only:
+        print(json.dumps({"status": "PASS", "pairing_count": len(indexed["A0 Full"]),
+                          "output": str(args.output_dir / "pairing_audit.json")}))
+        return
+    common = set(indexed["A0 Full"])
     selected = select(common, args.slots_per_class)
     columns = ["Normal", "Reference", *indexed]
     prepared, ledger, heat_values = [], [], []
@@ -168,7 +289,8 @@ def main():
             heat_values.append(np.abs(np.asarray(value, dtype=np.float32) / 255.0
                                       - np.asarray(normal, dtype=np.float32) / 255.0).mean(2))
         prepared.append((key, normal, reference, generated, box))
-        ledger.append({"class": key[0], "slot_id": key[1], "roi_xyxy": box,
+        ledger.append({"bank": key[0], "class": key[1], "slot_id": key[2],
+                       "identity": identity(base), "roi_xyxy": box,
                        "normal": {"path": str(npath), "sha256": sha(npath)},
                        "reference": {"path": str(rpath), "sha256": sha(rpath)},
                        "generated": {method: {"path": str(generated_path(manifests[method], indexed[method][key])),
@@ -182,18 +304,26 @@ def main():
             marked = value.copy(); ImageDraw.Draw(marked).rectangle(box, outline=(255, 40, 40), width=3)
             axes[row_index, col_index].imshow(display_image(marked, args.display_max_width)); axes[row_index, col_index].axis("off")
             if row_index == 0: axes[row_index, col_index].set_title(title)
-            if col_index == 0: axes[row_index, col_index].set_ylabel(f"{key[0]}\n{key[1]}")
+            if col_index == 0: axes[row_index, col_index].set_ylabel(f"{key[0]}/{key[1]}\n{key[2]}")
     save_figure(fig, args.output_dir, "full_comparison")
     fig, axes = plt.subplots(len(prepared), len(indexed), figsize=(3 * len(indexed), 3 * len(prepared)), squeeze=False)
     for i, (key, _normal, _reference, generated, box) in enumerate(prepared):
+        crop_box = context_box(box, generated[next(iter(generated))].width,
+                               generated[next(iter(generated))].height,
+                               args.context_scale)
         for j, (method, value) in enumerate(generated.items()):
-            crop = value.crop(box).resize((max(1, (box[2]-box[0]) * args.zoom),
-                                           max(1, (box[3]-box[1]) * args.zoom)), Image.Resampling.NEAREST)
+            crop = value.crop(crop_box)
+            relative_roi = [box[0] - crop_box[0], box[1] - crop_box[1],
+                            box[2] - crop_box[0], box[3] - crop_box[1]]
+            ImageDraw.Draw(crop).rectangle(relative_roi, outline=(255, 40, 40), width=2)
+            crop = crop.resize((crop.width * args.zoom, crop.height * args.zoom),
+                               Image.Resampling.NEAREST)
             axes[i, j].imshow(crop); axes[i, j].axis("off")
             if i == 0: axes[i, j].set_title(method)
-            if j == 0: axes[i, j].set_ylabel(f"{key[0]}\n{key[1]}")
+            if j == 0: axes[i, j].set_ylabel(f"{key[0]}/{key[1]}\n{key[2]}")
     save_figure(fig, args.output_dir, "roi_zoom")
     fig, axes = plt.subplots(len(prepared), len(indexed), figsize=(3 * len(indexed), 3 * len(prepared)), squeeze=False)
+    heat_artist = None
     for i, (key, normal, _reference, generated, _box) in enumerate(prepared):
         n = np.asarray(normal, dtype=np.float32) / 255.0
         for j, (method, value) in enumerate(generated.items()):
@@ -202,21 +332,27 @@ def main():
                 scale_h = max(1, round(heat.shape[0] * args.display_max_width / heat.shape[1]))
                 heat = np.asarray(Image.fromarray(heat, mode="F").resize(
                     (args.display_max_width, scale_h), Image.Resampling.BILINEAR))
-            axes[i, j].imshow(heat, cmap="inferno", vmin=0, vmax=vmax); axes[i, j].axis("off")
+            heat_artist = axes[i, j].imshow(heat, cmap="inferno", vmin=0, vmax=vmax)
+            axes[i, j].axis("off")
             if i == 0: axes[i, j].set_title(method)
-            if j == 0: axes[i, j].set_ylabel(f"{key[0]}\n{key[1]}")
+            if j == 0: axes[i, j].set_ylabel(f"{key[0]}/{key[1]}\n{key[2]}")
+    if heat_artist is not None:
+        fig.colorbar(heat_artist, ax=axes.ravel().tolist(), shrink=0.8,
+                     label="mean RGB absolute change [0, 1]")
     save_figure(fig, args.output_dir, "diff_heatmap")
     figure_manifest = {"status": "COMPLETE", "selection_rule":
         "sorted common class/slot IDs; evenly spaced fixed indices per class; no image-quality filtering",
         "slots_per_class": args.slots_per_class, "selected": ledger,
         "columns": columns, "reference_is_pixel_ground_truth": False,
         "zoom": args.zoom, "zoom_interpolation": "nearest",
+        "context_scale": args.context_scale,
         "figure_display_max_width": args.display_max_width,
         "figure_resize_is_uniform_across_methods": True, "heatmap":
         {"definition": "mean_rgb(abs(generated-normal)) on [0,1]", "vmin": 0, "global_vmax": vmax,
          "independent_per_image_scaling": False},
-        "source_manifests": {method: {"path": str(path), "sha256": sha(path)}
-                             for method, path in manifests.items()}}
+        "pairing_audit": "pairing_audit.json",
+        "pairing_status": pairing_audit["status"],
+        "source_manifests": pairing_audit["source_manifests"]}
     (args.output_dir / "figure_manifest.json").write_text(
         json.dumps(figure_manifest, indent=2), encoding="utf-8")
     print(json.dumps({"status": "COMPLETE", "selected": len(selected), "output": str(args.output_dir)}))

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "variant": "no_morph",
+  "completed_at_utc": "2026-10-29",
+  "public_scope": "metadata_and_hashes_only",
+  "classes": {
+    "01_Flash_point": {
+      "successful_steps": 2000,
+      "training_pairs": 76,
+      "nonfinite_gradient_skips_total": 1,
+      "checkpoint_sha256": "f7e142564283678d89bb5fd53e7dcb91e278a88122c55d855d252009c9c9a70c"
+    },
+    "02_Big_black_spots": {
+      "successful_steps": 2000,
+      "training_pairs": 36,
+      "nonfinite_gradient_skips_total": 1,
+      "checkpoint_sha256": "8d5bec58db215c14ccdd87ffbbd4926b23ffc03b3dbc5d2c6dcc8bce992892db"
+    }
+  },
+  "checks": {
+    "training_contract_no_morph": true,
+    "morphology_support_loss_zero_all_steps": true,
+    "strict_load": true,
+    "all_tensors_finite": true,
+    "four_projection_weights_nonzero": true
+  },
+  "formal_frozen_generation": "NOT_RUN",
+  "formal_three_method_pairing": "NOT_RUN",
+  "kid_fid_or_detector_evaluation": "NOT_RUN"
+}
