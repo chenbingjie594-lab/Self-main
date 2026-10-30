@@ -1,0 +1,61 @@
+﻿scope,population,method,fine_tuning_type,KID,KID_subset_std,FID,reference_ROIs,generated_images,KID_subset_size,metric_source
+A,Black,Raw SD2,full UNet fine-tuning,0.03797344467731272,0.006531917641927337,161.76692438299116,97,40,40,frozen SHA-verified Experiment 11 cache
+B,Black,Raw SD2,full UNet fine-tuning,0.04519301296659426,0.0069411468453502555,172.44663633602465,97,40,40,new same-protocol features
+C,Black,Raw SD2,full UNet fine-tuning,0.0396594894527007,0.006469060329192159,163.03911244814674,97,40,40,new same-protocol features
+A,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06100557551585336,0.00874507071412577,191.9669145866637,97,40,40,frozen SHA-verified Experiment 11 cache
+B,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05891196483267076,0.008343540572101587,183.16715540366144,97,40,40,new same-protocol features
+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06256158132105778,0.00858442504809604,192.42172667965383,97,40,40,new same-protocol features
+A,Flash,Raw SD2,full UNet fine-tuning,0.0609828974272712,0.004201304709967602,181.29746752358994,75,40,40,frozen SHA-verified Experiment 7 cache
+B,Flash,Raw SD2,full UNet fine-tuning,0.053582950917153746,0.004192347350328881,179.5849942468729,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+C,Flash,Raw SD2,full UNet fine-tuning,0.06793922858088841,0.0044855594826854394,184.62593001023382,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+A,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05019080966556602,0.004050246760381549,161.14909132804934,75,40,40,frozen SHA-verified Experiment 7 cache
+B,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06099613081209604,0.004233638687611237,168.57602493815736,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05712738475711552,0.004173358037998628,167.55695492068463,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+A,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05019080966556602,0.004050246760381549,161.14909132804934,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+B,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06099613081209604,0.004233638687611237,168.57602493815736,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05712738475711552,0.004173358037998628,167.55695492068463,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+A,Overall,Raw SD2,full UNet fine-tuning,0.03522257098656576,0.007847812338817612,149.42750331396738,172,80,50,frozen SHA-verified Experiment 11 cache
+B,Overall,Raw SD2,full UNet fine-tuning,0.03642886482565822,0.00794623997961138,153.02428513701585,172,80,50,new same-protocol features
+C,Overall,Raw SD2,full UNet fine-tuning,0.04032677100219561,0.008200635235531262,152.16304169356164,172,80,50,new same-protocol features
+A,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04294524729498305,0.009615164063471671,154.90536831861988,172,80,50,frozen SHA-verified Experiment 11 cache
+B,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04743329424316993,0.009886785806255325,155.38894324980907,172,80,50,new same-protocol features
+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.048746216474706824,0.01036132337519723,158.3668014019287,172,80,50,new same-protocol features
+A,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.057675956495161856,0.008337325454217661,189.29424636387512,97,40,40,new Max-Support features
+B,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05973587684572813,0.008044363142895252,179.52110370193282,97,40,40,new Max-Support features
+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06215825622788712,0.008594509758821324,191.34481047235607,97,40,40,new Max-Support features
+A,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.04104938397782926,0.009105492056060649,154.36490266820283,172,80,50,new Max Black plus shared Flash features
+B,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.047263684288629405,0.009316698655773998,155.60940635527726,172,80,50,new Max Black plus shared Flash features
+C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.04801149155802867,0.010185647917396179,157.9033992005197,172,80,50,new Max Black plus shared Flash features
+B+C,Black,Raw SD2,full UNet fine-tuning,0.04319930458450344,0.007693734472519496,152.53195575784076,97,80,50,reused SHA-bound historical concatenated-feature metric
+B+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.060403929240976345,0.009421364570470814,170.79644078382188,97,80,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Black,Raw SD2,full UNet fine-tuning,0.043637860198413474,0.008376049292347473,144.56437255338835,97,120,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06260648645472046,0.012527013068034732,165.6789800044351,97,120,50,reused SHA-bound historical concatenated-feature metric
+B+C,Flash,Raw SD2,full UNet fine-tuning,0.06377317434055384,0.006699109580178315,169.09833430246965,75,80,50,reused SHA-bound historical concatenated-feature metric
+B+C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06229247838155012,0.006588392774874962,157.42617808993492,75,80,50,reused SHA-bound historical concatenated-feature metric
+B+C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06229247838155012,0.006588392774874962,157.42617808993492,75,80,50,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+A+B+C,Flash,Raw SD2,full UNet fine-tuning,0.06367302763290145,0.007142667358448954,165.27468204362987,75,120,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.059413130610075304,0.0066297216388885895,151.3758929361905,75,120,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.059413130610075304,0.0066297216388885895,151.3758929361905,75,120,50,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+B+C,Overall,Raw SD2,full UNet fine-tuning,0.04098819558255501,0.010284048479746798,138.96155533229836,172,160,50,reused SHA-bound historical concatenated-feature metric
+B+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05103955758564407,0.01304107621250162,143.48847604708985,172,160,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Overall,Raw SD2,full UNet fine-tuning,0.038415566608461876,0.008065420893772934,133.42743653163006,172,240,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04672251142493702,0.00969349867450929,138.1625390676134,172,240,50,reused SHA-bound historical concatenated-feature metric
+B+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.059858012137067214,0.008876078081907822,167.71974576026912,97,80,50,new concatenated Max features
+A+B+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.061262469989306644,0.011581905674232177,162.53171954945344,97,120,50,new concatenated Max features
+B+C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05036904543866704,0.012559782597440285,142.89237171894007,172,160,50,new concatenated Max features
+A+B+C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.045962896164320935,0.009381372863823985,137.37456251233482,172,240,50,new concatenated Max features
+A,Black,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.14901477254040707,0.014628410921390413,248.41110561923944,97,40,40,new SeaS native-generation frozen-target-ROI features
+A,Flash,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.09392445870881999,0.005356526626539888,214.84719521919277,75,40,40,new SeaS native-generation frozen-target-ROI features
+A,Overall,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.07741906625311298,0.010366586180893117,185.06935978287484,172,80,50,new SeaS native-generation frozen-target-ROI features
+B,Black,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.13854123227757725,0.014164569577235414,249.53332162831072,97,40,40,new SeaS native-generation frozen-target-ROI features
+B,Flash,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.10199667653988097,0.005667035476962383,231.27049589133327,75,40,40,new SeaS native-generation frozen-target-ROI features
+B,Overall,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.06985237438469116,0.008695648729021276,189.2894921948258,172,80,50,new SeaS native-generation frozen-target-ROI features
+C,Black,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.17142523664356785,0.015146952665937324,267.4442422149991,97,40,40,new SeaS native-generation frozen-target-ROI features
+C,Flash,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.09972811600372836,0.005731016522652786,219.94528147387166,75,40,40,new SeaS native-generation frozen-target-ROI features
+C,Overall,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.09097271737361007,0.010404532158593714,201.52348103771607,172,80,50,new SeaS native-generation frozen-target-ROI features
+B+C,Black,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.15259283360676532,0.012504216701339742,239.1883691583996,97,80,50,concatenated SeaS features; not bank average
+B+C,Flash,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.1016370892008804,0.008799674395459622,210.89626746354733,75,80,50,concatenated SeaS features; not bank average
+B+C,Overall,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.08124556014061828,0.010697563403634865,179.06177524398888,172,160,50,concatenated SeaS features; not bank average
+A+B+C,Black,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.15481328634318867,0.016810508907152553,229.63793710095325,97,120,50,concatenated SeaS features; not bank average
+A+B+C,Flash,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.09954416881312475,0.012399149964436917,202.5279265032833,75,120,50,concatenated SeaS features; not bank average
+A+B+C,Overall,SeaS SD1.4,SeaS Separation-and-Sharing full fine-tuning (SD1.4),0.07888010691517679,0.01134689111136301,170.33798376722999,172,240,50,concatenated SeaS features; not bank average

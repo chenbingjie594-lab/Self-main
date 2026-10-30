@@ -1,0 +1,12 @@
+{
+  "stage": "mask",
+  "official_recipe_steps": 1600,
+  "actual_exit_code": 0,
+  "elapsed_seconds": 5281.3133289813995,
+  "batch_size": 2,
+  "gradient_accumulation": 2,
+  "mixed_precision": "no",
+  "optimizer": "AdamW8bit",
+  "algorithm_neutral_oom_changes": [],
+  "paths_redacted": true
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "official_dataset_length": 172,
+  "category_counts": {
+    "black": 97,
+    "flash": 75
+  },
+  "class_token_mapping": {
+    "black": [
+      "sks1",
+      "sks2",
+      "sks3",
+      "sks4"
+    ],
+    "flash": [
+      "sks5",
+      "sks6",
+      "sks7",
+      "sks8"
+    ]
+  },
+  "normal_shared_token": "ob1",
+  "checks": [
+    {
+      "class": "black",
+      "image_mode": "RGB",
+      "mask_mode": "L",
+      "size": [
+        512,
+        512
+      ],
+      "mask_bbox": [
+        241,
+        249,
+        272,
+        264
+      ]
+    },
+    {
+      "class": "flash",
+      "image_mode": "RGB",
+      "mask_mode": "L",
+      "size": [
+        512,
+        512
+      ],
+      "mask_bbox": [
+        242,
+        241,
+        272,
+        272
+      ]
+    }
+  ],
+  "cuda_available": true,
+  "formal_training_authorized": true
+}

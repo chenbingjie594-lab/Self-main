@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "physical_gpu_index": 1,
+  "backbone": "stable-diffusion-v1-4",
+  "total_parameters_loaded": 1066235307,
+  "generation_trainable_before_embedding_freeze": 982581444,
+  "allocated_mib_after_load": 4092,
+  "reserved_mib_after_load": 4184,
+  "peak_allocated_mib": 4092,
+  "tokenizer_size_before_SeaS_tokens": 49408,
+  "note": "Read-only model-load preflight; this is not the peak of a training update."
+}

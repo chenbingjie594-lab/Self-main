@@ -1,0 +1,2269 @@
+{
+  "status": "PREPARED",
+  "protocol": "COARSE_BBOX_MASK_ADAPTER_NOT_PAPER_PIXEL_GT",
+  "test_defects_used": 0,
+  "test_gt_masks_used": 0,
+  "unique_anomaly_count": 172,
+  "loader_duplicate_tail_count": 344,
+  "class_counts": {
+    "black": 97,
+    "flash": 75
+  },
+  "normal_count": 60,
+  "records": [
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 0,
+      "annotation_id": "ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "425d239a870d5232658b78a9ebd12b95cc494cea5d74177de9bdc7a08baae2ba",
+      "mask_sha256": "14b0c7ae0e954f979f5f6688ffd575df5965a4c1330bd21b0e52877aa366161c"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 1,
+      "annotation_id": "ann_06484be242a1e328749e67ae84983d51f77dacfebc7e18c97a411747d69dbcec",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "a81463c16c2f57e594340a4dfd7f1468e1d9d1389ee469136f466f189fd73971",
+      "mask_sha256": "1e42b5cf205fab7659abf152ff24613ef76128e88223d9e69390401f91e9264c"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 2,
+      "annotation_id": "ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "56c8d3e0ab648849fe8361e4a7014365884a893444e30072135cd2cdcc2714d2",
+      "mask_sha256": "3ad940272fb2d7938472dac197f9a334dd2a8df58e3f2ad5071b72a7280a38b9"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 3,
+      "annotation_id": "ann_0c1e07edea5de0ee631c93fccc34513719e29c4b2a7c5ec6f8dee604c416763a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2f17dc4768d0e2a489e7727db6d79ce1f6b5cd57c6fb612a7d31693da299b6f8",
+      "mask_sha256": "1f02791bf4e7b3e55d7b2c96f325c4331a512a0204fc6c359fea06652c49f8b4"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 4,
+      "annotation_id": "ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ce40190d139a82115cfcf76cf96a3d7363a4ba5cd2b885b442e65d7fcbd7a70c",
+      "mask_sha256": "a2dc2af0f1abab3dbe65709e6dbb4d4b01d44e6335ae8dcdd1ed7ee5ab455bc6"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 5,
+      "annotation_id": "ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "3f5d408e188382ab3850f56a67d5d6a3030ab38c396cae5b5a5d890bda718ed1",
+      "mask_sha256": "5ee1659789104c60b0ffb9d6694e9b8f26a2820582e3178302b2008a2360e055"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 6,
+      "annotation_id": "ann_0df944fe32a67fb283d983311b8764ecf0b9008b84063c105082d922d547b616",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "084345ad5604c1a6a97d870404fb7902a6c301647d03e6e3d220187c9df75214",
+      "mask_sha256": "836f0aa8ad3f8040751789a0359660b6d7fa2ecb4dcaef3e81602891854bbdd7"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 7,
+      "annotation_id": "ann_0f7fc7c17d4ba6e79cffc976b236bee7fe7d3fe5227c29597d7745b7f8ebe114",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2ba45969282b9c5b6969b5565cbd2f40ff1b932aa105d37de358bad16c167358",
+      "mask_sha256": "df0be0e970f51bb2cf7d8605ec68a3c5b5abcd57ab9ff564b01ce8ef83d28ed3"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 8,
+      "annotation_id": "ann_0fa4a41d934e18dd8b0656fe34c74e780e04ba81917b47543cc0e8f9074883e7",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "16edc5bc034bb0e93a19d9a6c7d490427a232049b8ffff931678df7eb3376c92",
+      "mask_sha256": "e0875cc3141d90a1857fc5d99d9e2e3cbba08ec4fe1f6c6b947d862911cdf686"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 9,
+      "annotation_id": "ann_116b30f11bba839da7bb8a15f4fa70ce271e714e00a8cd5ee2374575ec4edac0",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "74cf3f511c22e3b61cf0daca2dbe1e42c26110fa621d4623b59f514af9238aa4",
+      "mask_sha256": "391a1be5836f618528886947bae81574482a69a5b8c195b627c79a7c41dbbde5"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 10,
+      "annotation_id": "ann_14f32c7c1b6e07119265f3c9c196f74245cfcb69aa3400fe3ca3efcd007bfed3",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "fdf2968470185de63e674bb6d5375677a0d20a56d71545b39f3843fb78a68342",
+      "mask_sha256": "a2dc2af0f1abab3dbe65709e6dbb4d4b01d44e6335ae8dcdd1ed7ee5ab455bc6"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 11,
+      "annotation_id": "ann_14fef3c6e64dd522f457f2043285f7c033a35510b9108f236b0678d98af81fe8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "cb0aba0609b2f7f4a15cea0e7eef5a866b784e4fdc295c5554b84f8d1983555f",
+      "mask_sha256": "2088aad031bf8ed42738c5a1642a860abccda9774e83c9c71bfd9d6470c640c9"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 12,
+      "annotation_id": "ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d08874dd8e8f2b198e484df72a363926d311c77d6f95d980e23e4a21bc30d027",
+      "mask_sha256": "747d1782d2ceb35c08a3ba9b5c1e08af80d38c5e80b91132986a329e6f3a270d"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 13,
+      "annotation_id": "ann_1caa0eb1ca9d0226694f4659623af443e129fcc54edcdc951d5655885d340e78",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "480dd2589765f2f65100ec435b331d7cefa93d4064f32bf8077619f06be5502a",
+      "mask_sha256": "059dd7ef616c525be81df8ea6e6d5342892709e304038a23576b2f1bc77a8233"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 14,
+      "annotation_id": "ann_1e63f1fc470680042f87ef806ae228a50e61e6224884c57e6e3dd552684086ba",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "704ae8d54e358e95e0a6252e03f67e0e8abf0a4a26474b142582c9c7d6dc1e78",
+      "mask_sha256": "a5e55fbdbee96e84842dcf07b994bdea69a38d34e4054bbe7ddcd16dd396bfc6"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 15,
+      "annotation_id": "ann_1fbca7db03f06c2aec4616ac89955c131a895de534e33f4908cd4465ef6e4738",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "b421ab52dc2abf6414fcd350a0a0f6261d738ab6acc7c2e78bf401cbfe18f013",
+      "mask_sha256": "a5e55fbdbee96e84842dcf07b994bdea69a38d34e4054bbe7ddcd16dd396bfc6"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 16,
+      "annotation_id": "ann_2012e1df6667bd5fabb5266aa9e436fff6c00a3bd74bd49a720754b61c6d873c",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "5503a69dc3f363c1b79c3eaf32a9e042d4d15ae77df62d42a408987f25027b6f",
+      "mask_sha256": "4c3bb7603e8b2ce0aa7a5e8ab51d1581d861b80803d630360f69701b4e9d7e52"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 17,
+      "annotation_id": "ann_232b9be308dcbeda55753542e9396c038f581a9f905f2f762ec61ee26b026452",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d40d3f33eae0f70703e6b2ed8f757e642841c3085fc77e47c5c6a7046e19ce15",
+      "mask_sha256": "836f0aa8ad3f8040751789a0359660b6d7fa2ecb4dcaef3e81602891854bbdd7"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 18,
+      "annotation_id": "ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "83efdc3a9d764fdf8e1f00efa16dbd39c94e45fd4d7ed2f99c65b1fa86726415",
+      "mask_sha256": "44febbfb6819b79e02ccf18828f0d891a7b5bf4c7115fffcb2f6ddcdaccf0102"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 19,
+      "annotation_id": "ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8540ad67818d8d94b1ddbdc431761ff3f92fde013edf5f36a00e3865250d43cb",
+      "mask_sha256": "44febbfb6819b79e02ccf18828f0d891a7b5bf4c7115fffcb2f6ddcdaccf0102"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 20,
+      "annotation_id": "ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "72d8c864447268358415f16f0fbdb30b74ac93363853b300d54e6454ca4c364c",
+      "mask_sha256": "d5cbcd7c6547b6a13633273410e0ca8cbf0bffd9a583ae57142d60e250c092f2"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 21,
+      "annotation_id": "ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "43609fe5d2401c45fbbbf85f6c9cdd760509480dac372a19cbb3abc39c9214b5",
+      "mask_sha256": "ab12bb3df4221d787a1a12558d12193b9f9fd5510b1e887bfe0fa2934988a74f"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 22,
+      "annotation_id": "ann_31613e560c8e40aa374bbe06d19fbf275710ae60b2acdc37659c925dbc69bc23",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "7493bac8ec6b16dcbd9a08a8fa9295ed188636c56e2b3088a42ccf8a6557eea2",
+      "mask_sha256": "36cbba9af838cf1c0357ca7ff000e1b42b30541d61202127d64deace0cb6ccdf"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 23,
+      "annotation_id": "ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "90abadd9ad48af65b273c798a15cd456b3fcd0e19243fb166bc87742a0191834",
+      "mask_sha256": "cf55569ec062512797a81ee11798fd071268fee101fb6352beed52db1ace0027"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 24,
+      "annotation_id": "ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8535ab5acd5e10dce0bc93f75c5f10e53130acde216f3d5b95f87ea5acbd3c80",
+      "mask_sha256": "952e81d8fb6f4b1908b36f6b7243776506081b39806949ff01e62646eff560d2"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 25,
+      "annotation_id": "ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "3783a17c554ab4343cb378d0dc33336f9eadb41457018647acf352eba0fcbefd",
+      "mask_sha256": "3b843201e15f0ba4f0e33663dea57014fc5c17eb9303d6cbbbfa6fe4743be421"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 26,
+      "annotation_id": "ann_38f04643663e631c17db645ff8b9ddfe8ce9bef0e0ae73dc7444cc3224de1618",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "31d464f7e72b0f156cf6c0c8b5b0a7be039075924d8fea5ab424e0bbaeb762a7",
+      "mask_sha256": "a815026e9edaa4e53a31e03743643a2df610ee1c785bf9b337090d4f8e7f9cea"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 27,
+      "annotation_id": "ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f17400cc5488570372a0653ab1881810c0aa7495d6b2375696cf9d7fb41297d7",
+      "mask_sha256": "ab12bb3df4221d787a1a12558d12193b9f9fd5510b1e887bfe0fa2934988a74f"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 28,
+      "annotation_id": "ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "60a4a46cbed737425fe64f9f3a0846603b061442e8682248e7489fe0347bc5bb",
+      "mask_sha256": "3cc6c8a8961d8caf12178a2b76a8556afe89d99dbef7d526ff3668fa3cf9f462"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 29,
+      "annotation_id": "ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "1252d2e183ff9e0ed888087ed8ee495977f3bfb1f1f78fcc8636829755d4a891",
+      "mask_sha256": "92f3e5ff64ff86543d140020f33b693804afb4686252ee3d43b35cb224ef7a28"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 30,
+      "annotation_id": "ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "9ad92545f329d8fe7ca7a2b6e90b97ce7cb969a947f11a7093ad5f6b80156121",
+      "mask_sha256": "8235ad3eeae73d74deb6319078d4c1f7eb2a5f3a648d294b9c2fc123f68bd524"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 31,
+      "annotation_id": "ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "bdc2582bc38fec0762dc0f751213538f1aea5a11f467892e3b822427597282e4",
+      "mask_sha256": "39f491d8e6751b38456851cf1465eb4d0959c7cb69d9e94e818fd45b267ba5ee"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 32,
+      "annotation_id": "ann_5351896c83bf0cf11cacaa104364e1adf877c11f4a75f24321bcde081a376521",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "e4dad19e5e4652a66fe790ece651a0e9e0657e47cc343c8f0df3a25917993c7e",
+      "mask_sha256": "cd84ea962236b377234a886905c03102a629292344353a11fff9352fd3fdea01"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 33,
+      "annotation_id": "ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "33764f2d44b7c0bf3d59bdb010cc66f909df663555ba811625050a19e9facabe",
+      "mask_sha256": "2a3917f66b99d18d7569f58db1f763aa8270995d738c11c27baf520a63d9e1b5"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 34,
+      "annotation_id": "ann_553fb6e13b90d0c4c11ea6c9d110269a4e0214057b2d875acd3ba99f6dd30aef",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ed16eee6d4e528a68978d7debf28824191b622f730ef614bd9cfa37f1a5aa5c0",
+      "mask_sha256": "a6637da37223e1ee756d9013df7ee5efe1a6261ae266611605bcf2e7044a3ee5"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 35,
+      "annotation_id": "ann_565e11483e9b4cbca9470945520db97271dcaa11f7f94701f4b51c525956c9ef",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ce249d9f8e795556252f411edc438fa3110d4f650f6b5e1b0d69b54a46d6f710",
+      "mask_sha256": "fcd39aeba08a3c933ae2d19e22343d961339a764109a041f1b3e17864bb6116b"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 36,
+      "annotation_id": "ann_574044010aa11acf47b790f7b26f14890d8264bddaf30887982592a9debaa82d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "48bfeae6ca979463eef75f31473e9b5b3d78dbac820cebd04156ad5a30167f2c",
+      "mask_sha256": "747d1782d2ceb35c08a3ba9b5c1e08af80d38c5e80b91132986a329e6f3a270d"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 37,
+      "annotation_id": "ann_5a38aa684ca9ba7e21a7da1aa345299b97108aa6f3e517fcdfa3c3392417e557",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f3623d9a183bf1f4e562238b8d4fbc490d8b8a28e84568af403f2b58a1fef879",
+      "mask_sha256": "a815026e9edaa4e53a31e03743643a2df610ee1c785bf9b337090d4f8e7f9cea"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 38,
+      "annotation_id": "ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "96f510c90b09b7a4d4e5da049e1f27cbca0c7b0999300252c1f4e0e67ffb22ea",
+      "mask_sha256": "d870d8989e37a14cd2513dab300f1cbc67844caeedda139d904641f559c90dfb"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 39,
+      "annotation_id": "ann_63cc00b485397ef4ac6dc447ee78ca92fbccaa4f5c49be5e1d4fd7bfad06ff15",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "227889824b7134bb0798fe8874570a073ccd54cbea30f3eb09aa520e84087489",
+      "mask_sha256": "952e81d8fb6f4b1908b36f6b7243776506081b39806949ff01e62646eff560d2"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 40,
+      "annotation_id": "ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2341c969fe7dd6c0b67087593d23b2962af997f1fff71288e0a5875fb74bb82e",
+      "mask_sha256": "357bfbd1cc6d6ec0044fd34bb68b7025526bafe2a952f926c6d77ffa34491b14"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 41,
+      "annotation_id": "ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "55133b3e976eaa62a8c3239af2bfcee62b5f9733c03894c4e718257b3a461548",
+      "mask_sha256": "d56236f89c703efd635c745c14a3406e3c34a64d048802241a4e43bc715974ff"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 42,
+      "annotation_id": "ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "1797966fa0e31450cb55bc2bd78464d5406829461ae060ebba533fef1856a0e1",
+      "mask_sha256": "5213d9d9be31133fad8ac28cf51a5b8e4e7750b06d0a94acf63921f82f8f254b"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 43,
+      "annotation_id": "ann_6da6fe29bcb785ac5ec74c455a701ffb9781442afd1263be8a1521dbe512c4ad",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "6a1faf61c628b705bc245716a6af4741e9abc49b923ab15d9b6b0dd93006f16b",
+      "mask_sha256": "4fba35cce19c376e801ff1dc5ede4023133003f55b72d5f9efa042b0a7877fc6"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 44,
+      "annotation_id": "ann_6f5203246a5279317fe16a38b2797df9f794bb4a0cfd785d1fc03babe11a4f0f",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "15da3e86c4739abaa5d5045476c707ca07fd11c2c84bfde48cb27b0843e01751",
+      "mask_sha256": "e15e06aba649f8ad876f0602b04e91fddd410a185706b8d9d227e964afa2edea"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 45,
+      "annotation_id": "ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "46db6f0a49692a995b7a6e7922a7676db559873e7b73e99485f3579d10cb6b5a",
+      "mask_sha256": "e54eef31855bdbd1833b1afb2f08a2a48e6d36b96e76026b3123b4f29b2243b7"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 46,
+      "annotation_id": "ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "a7744aac8555b1f66a565228e5a2551a695c4926df01980cdc8d5325fb2f09f6",
+      "mask_sha256": "d02990d7d7d7122bc1f208102cd8aafd6d8f0970529d17be7a35a4801bd87d87"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 47,
+      "annotation_id": "ann_7afe50bfeaf3fd49ead167a58ea1ffbff35f95d93f9a8a8f9b31efa4b4df929d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "fbe683ac2c026449d63588474ab47df708dcaeee01b5dd9131d7d85ffdf142c9",
+      "mask_sha256": "d870d8989e37a14cd2513dab300f1cbc67844caeedda139d904641f559c90dfb"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 48,
+      "annotation_id": "ann_7b27b610b15801377fa56838550d4738fcac30417ae61c389659b5f3c052f310",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "985c234f2c08e2cac9a2f9595c073220dbd1575f4a3550bf3352d404a0a244ea",
+      "mask_sha256": "759e2669be1a2969e1f5b39322db70113c1b07b0469b85590be410e710538d49"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 49,
+      "annotation_id": "ann_7cfd8a4f9654cdf6588eb9f642c6d517dd3ff2e6624091a1b02556e944a19e1d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2e120ed4d92781a4ec21ca5d68a8b746305430d47f1a7949f56583c2cd22ed62",
+      "mask_sha256": "ce9c0d3264ed03cb4517bc3d843cfc251a0e525b71b4d7ec85fd6c4f88694b3e"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 50,
+      "annotation_id": "ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8940ab23787178a54d57e406758ac0c99356709b464e045ccfaa65c2868b8fcd",
+      "mask_sha256": "d6f6c6e2bf46bf4769cc6bd81af9dafc1e9c0de3b996fdfe75df9b6c791fe063"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 51,
+      "annotation_id": "ann_843a181728e89f4993b914c11cad7d6a78cc7eb60eb49445be0d575665665398",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ce29c4cca8424d613782364a60401f414f2ea3503cf66251bc7571c38cde30a7",
+      "mask_sha256": "ee1b18ec2149bbf08afd5b73a869952db05f9714464b1c261ba48fcd5fe2693c"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 52,
+      "annotation_id": "ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "908b3fc17d8d2571cb3c5af40cbec9780a299175be0df2600c4da4e639919717",
+      "mask_sha256": "8c1d3c9a7ea67254c7c01f0f7a20f0fe2c3dd48d0e8201018cd719101377b467"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 53,
+      "annotation_id": "ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2bf869589e5334a23f877cbcb64be91750f96beeb755ccdb94d04713b14e8b6a",
+      "mask_sha256": "60d27c9d089e34c9e44e948203183605ad94dddf088fce95b8ba0697e4c1f16d"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 54,
+      "annotation_id": "ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "77e65bf33dd09dfc32a5cf087d3e5d74c9ecbfbb9d01d13fa6d57b91926eb6fe",
+      "mask_sha256": "e747f991c80e805c074f3af764e26f4eb8c0495707a3d6fe3a69f7f09a683dd0"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 55,
+      "annotation_id": "ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "6f32b8763cbdfb2a9693cbc91ac2fbe2b7cacbcbe5458f732bf6e973acbbae88",
+      "mask_sha256": "c13daad1443dc87a482b384333f7cf5a390ecdfb76e134551bcf9a2b8a2bbcd9"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 56,
+      "annotation_id": "ann_9711ad6a1e02139d5e2cf24e1417716c02279c7f16e1b6bba024af142ab561fc",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "3d7f82c4efb8f5f71770f2e718882fb1ef8965b65e3eb50dd0a5e98a1b900cf2",
+      "mask_sha256": "5bdaa7cf08bd830a9df079229671c273f224988cc4cf5bccfbdfe247884c991e"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 57,
+      "annotation_id": "ann_a0a7a6c446b340a9263f5358a271c9e36fad09fc87ad2f48d0901e3142e34cd5",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "1bad6ac94e0b41168d6d9172767292f23ea4ca27c52ab2df8a3e6ca3687089ef",
+      "mask_sha256": "ab7837ef696793174d9b11d88af2ae85330c4a6f8829fd606b3858d819e73375"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 58,
+      "annotation_id": "ann_a0d218cd1aef73151eb0623203f7d3d87289b1b7e6ac65eadb4ed7532d02cca9",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "9c786fe098a341b1d0dcc99089ec5be7fba5f20bb2325782dd006b47dc7b14e3",
+      "mask_sha256": "d27494f8f614deacd13ceb759cc1b7c38f7cc8167b922e42a100c1bc16e17dd3"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 59,
+      "annotation_id": "ann_a3f2f32deab9ab94863f614cfdc9a004e5e3271374c9e50626c1b48ae8843fdd",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "e7b1b9af1373c69e2ba100ba1a1334a0c918484f3f146fe2255ca1cb9dd37c19",
+      "mask_sha256": "836f0aa8ad3f8040751789a0359660b6d7fa2ecb4dcaef3e81602891854bbdd7"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 60,
+      "annotation_id": "ann_a4ccb4b800148de5c50d408b68bde853fa320f16bb1c329ea849aebfe3238d85",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "6bfd25d7d46ef4d30e837d4480ed70a80e5c8fd8edb844ef60ffe21af14fe2aa",
+      "mask_sha256": "35c376a1b1f36d587580fb90a52d8951300120f95802ccda42f794b0ebc9cf19"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 61,
+      "annotation_id": "ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ebaa94339499f821f4573c81b05731f5facf287cef915e5213dc7be1acf6a217",
+      "mask_sha256": "eb0d6f0b45cbfdcde2087e6c90b9598935ecee3c59fc49390675bebf8d6b0f57"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 62,
+      "annotation_id": "ann_aa06fd843b6bb04ce48d98a8bcc76eb6ce735673253fd2cb7a875deb331771ab",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "93d3918afda9208ba953e6612f67c7b0d744ed2e10e98c7bba9576d3f86cadfb",
+      "mask_sha256": "47b0e53679d0feae29136ad0eea492c02540cb107c02e5b3d7ce8e8134b0d39c"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 63,
+      "annotation_id": "ann_ad5253c74e0b03d01d45935cb537372fc35c43197af0bbbc281d7cc47328b5cf",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "b6b7144fdc0bd8783064c78402d5b37df35e00502d499dedf8dcd7dc4f60ebdc",
+      "mask_sha256": "8a5d9716db917abd6d6ee8448081d0b173ce059e43993ae82135adacfb48aa33"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 64,
+      "annotation_id": "ann_b06482b9ec6b4a1b448a2cb4e36421153b95840ea6dc899b662e21be8862b906",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "44d3ef682a4de6e94ce8d2c12e6a95f41e563c5dceeac131774ecf1eded9aebd",
+      "mask_sha256": "a6ba3fff7f8e8e403cd06501a97781fde3454cefa4db2e60d650414422345f5f"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 65,
+      "annotation_id": "ann_b2d3a4ddf00920d27c31eada662ff380f1956d04f6eea1d20ccc8e5e284c8a9e",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "949a981b8caef93fffb165d5456f8a93de61fd0d1061528f179f49e70dbe0abc",
+      "mask_sha256": "3225f6f87314c1a2e9ee6d2f495d6f2aa2548d65580de11fe422f384da4a9713"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 66,
+      "annotation_id": "ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8020955d3809a431a8ac8dc9d4f24730cc4e9a7f744f74469fdd09933c1076c2",
+      "mask_sha256": "fdd6636132dc41e1e8fadb83ff789474b5ef75971039cc65df03c51793236fa4"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 67,
+      "annotation_id": "ann_b8af3e022b870fcc454c849d9a557676e946634e54cd1b68f3f57442e1877f08",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "01a1f981c6a1fa50eb66ac92ee948b2a79b4ca80e61598ae7932fcd9b12c8cf6",
+      "mask_sha256": "7c26e52d8e574d9d61608a6a5ac82039e4c378181f659a5345e3261423ff51d2"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 68,
+      "annotation_id": "ann_bad246728eefc5e8b0f26f46e9eadeee3fd81e64dfbdc7e5789d4b48c38835ba",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d50f242fbbfb6f362a0a8c2a6c1dba6269bb64aa72783e980a58278d52ba5f1c",
+      "mask_sha256": "d09563216fb4bf0ff622215646d4dbf448213f34219c04369d28e8c9ccdc0314"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 69,
+      "annotation_id": "ann_bc13b2b853f8a334e1321094a98c4a7e6487faa6ccf8dd60bc1f95cbef2b75e8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8020955d3809a431a8ac8dc9d4f24730cc4e9a7f744f74469fdd09933c1076c2",
+      "mask_sha256": "950bc7d3913973293405777388aa1836de0bc69e64f4fc7c0ef3ed443f6fba52"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 70,
+      "annotation_id": "ann_c3830c02529af3bab1fce9fe24ab3895bb383f73026ff30c7af784668fec1cd2",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "797825f1a66a3595989802cf811203558bd576d637526574acb7821a6913f6c8",
+      "mask_sha256": "bee67f168d64fcb267c43c60bbae4df7dee4851b66797cb01f062d0b5c99f179"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 71,
+      "annotation_id": "ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "73d775878527bb8b4ce321e9f147e42d052dc4597ccc7a61fbd899557e2ab607",
+      "mask_sha256": "3d44c374e04e2312c75db43d6e7c22f3c240186c92906681c955f91cacb8b78b"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 72,
+      "annotation_id": "ann_c9153403633e12ed70c2b2743da427202e1d531ab1d4cde7deda868f07c5106c",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "74dc0a577cef730ea0d4d5967bd42c244dcd1225af1e99acf89db6e024d206df",
+      "mask_sha256": "7cabbdfff916da3e68a787de16a653668c1c94cf3eaa713a2b46e88739e159e8"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 73,
+      "annotation_id": "ann_c97023466981366a133ef2dd2e44dc2fdda00ddd87f0c72be54de29926ee05a1",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "e5a00fee0ae9e39f6a671a8c0f454190601cf45f88982f27650244ad7af0a7c3",
+      "mask_sha256": "5f10f35b64f9a765c3bb842d347374faf03a21984455ce4c6980ea31492762e8"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 74,
+      "annotation_id": "ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "afa98241d4ddb132a41e1aa72d54fca7db75ec1547df454a66e34dfc35dbe9a0",
+      "mask_sha256": "ab9d67f4821f8b9f15d138cc60981e3ef5aa00fc7dd62b5675804d7c990c6c36"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 75,
+      "annotation_id": "ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "bac532dd22cbd59e71bfd498c192d8bcf4860c7b0bc9a945186702818b8cd9f0",
+      "mask_sha256": "f2de31793830818d366070cf0f988fd865909e59f450b47425072df46a8499c8"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 76,
+      "annotation_id": "ann_d0f0219baf39b7c4b476db2855196d8e15d517972596385f0bd16ea020054d8d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "7c6182b089150f8094b96a0ec69191884358491a9550ebc5f595a292cfa8c9a3",
+      "mask_sha256": "44febbfb6819b79e02ccf18828f0d891a7b5bf4c7115fffcb2f6ddcdaccf0102"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 77,
+      "annotation_id": "ann_d4e13fa98a9f4e6f61add57e7bd03cc56bf037d907f46cdba43e92cb91f986f7",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "42c21284cd3860f3aaba82a9a8dbbff25fb1b0f1ea4eece8e4ca10ef7309d432",
+      "mask_sha256": "a12a6147690a192b550802d541328ce358f33addf5dae0b1f2761ce6ac486821"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 78,
+      "annotation_id": "ann_d540f617acccf51ede749bb0790d8fd59eca4177ed5012ec89c8eadcf8976aec",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2307dcecd0beb344fe476410f64861b5ce194cac087eb52226c28ac16399b056",
+      "mask_sha256": "334625eb30dd392eea0d9e24de83eaf53c1810515b43838e21b50da03770d813"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 79,
+      "annotation_id": "ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "82c369ede27022a4a154ef3cbf9bd6e821932ffcbd3f74de344fa7cf01b2718d",
+      "mask_sha256": "ed74b0ae2ab15da56e9300b37297aab7eb2c9bb2c1d5147e79f23a7a8fbd044e"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 80,
+      "annotation_id": "ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "5e6c1e7d1b648a2ba1481ed6e7771ad9403b7cc1fa5b4a69f8e07d067873c918",
+      "mask_sha256": "e48d8537409db539a0cb17a44c978202bd8b56591389837475560709bb179975"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 81,
+      "annotation_id": "ann_db6a023852fa1e62cd668548f55cd9630356cbe27d7e37698ec48fbd6de8e5ea",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8ec4ce7aa1a8d8aa2bdfe4f14afa88899190acfcf2f7ad1d54ef83f1c6217d20",
+      "mask_sha256": "391a1be5836f618528886947bae81574482a69a5b8c195b627c79a7c41dbbde5"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 82,
+      "annotation_id": "ann_def89ae0558e153c07513c8d0c42952ab514297f2aa323284cd237dcd3b11592",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "603031fb1ad2a52ed72eb35db50079d83a109ef4288f406cc8270ce18c512e0c",
+      "mask_sha256": "186161f355a8f7ebbecb1c2d53d15cf449cf5dde064895010d3c023fd92f1eb5"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 83,
+      "annotation_id": "ann_df13fbd027b70ec7eb93c6a4fb34dad5829116826e3e05ba7de73cd786f8ade1",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ae6d58b68d7e0e15c82427db752b7f48bf973afc5ceb0ac694aecee30409f2c2",
+      "mask_sha256": "669d8a1ddc4486ef6b29c5b727419b9773963694be69ffc789e28013b0ed1f89"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 84,
+      "annotation_id": "ann_df646dc31192739d9a0fe283f0baa7b546e8bc7a122a34b015dfabdcb2a16070",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "6b9f2b9365ff58859657adcf7f181befbd210f773e096de4dba4d4c4bb57a608",
+      "mask_sha256": "34f82d5d170ce09e4e5ea6e6c709d7203063cf238a5ea491415319dfe1a59660"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 85,
+      "annotation_id": "ann_df7410bb8d10950a3d5333aa45ef37b2ebafc87227b2168656767d6ce0f59c05",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "5fb6728993aaa786e67730904fa847a3144ee843a786ffb1cc319fc4b2640678",
+      "mask_sha256": "739051b2291ffd443e77419773686e5824c4258fd90cf59ef33316430b1348ab"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 86,
+      "annotation_id": "ann_dfececac187e0adc4f6067695ae1b282ce8890f7c8d43f86a769774089bcd156",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d3a4ccc691fdf3de3cc08f8159910b39a77c9d2a2c45cd556dda54557c72e04d",
+      "mask_sha256": "35c376a1b1f36d587580fb90a52d8951300120f95802ccda42f794b0ebc9cf19"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 87,
+      "annotation_id": "ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "997798af88b3ab779bd862cae6884dc37cab9c8a085c8c139f7bd517b92dec2c",
+      "mask_sha256": "45b896f32fd76da3d638f7e428da9bf01347e215804bb35ba4bfc0840387320d"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 88,
+      "annotation_id": "ann_e1f3a54ee5a23f90da3a8bdd9cee804e46697d84fd22d8e81b32b3c38f9e5709",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "66e331c479778c0b1ff0af0207401b0b8a6960a1ad502ab517f45c106206302f",
+      "mask_sha256": "a184c5bdd5ce8c2e64f1996d516b7f9b089235c9265e3114bcdfe11262cb480c"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 89,
+      "annotation_id": "ann_e37bf4de96b0da07d4d098e542bf739cca23f1e1f057a43139ec8a2e8a8c8832",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "299a7b5cfef3e7142d75738e433764316095296e2abccab015323e87c38eaeb5",
+      "mask_sha256": "23b7ff424283651f306537e2de22dd7c7c7f32c9a26ce812c2bde7aca013bb6b"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 90,
+      "annotation_id": "ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "b7d0e3cb3aef5e1abae61cbeea4aa97dc2a457e2a6f6f4b3f20fddc770052019",
+      "mask_sha256": "39f491d8e6751b38456851cf1465eb4d0959c7cb69d9e94e818fd45b267ba5ee"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 91,
+      "annotation_id": "ann_f05bbdd93ba646efaff89e7a3c7fe2ee999b7a69b0943fb0151a8e9b70adc1a8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "640ea36228d61c578980e2ecc4c8cd6b7cc7849c8dc7b54964a9f5856fd6242c",
+      "mask_sha256": "836f0aa8ad3f8040751789a0359660b6d7fa2ecb4dcaef3e81602891854bbdd7"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 92,
+      "annotation_id": "ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "944d6cbcd9008e779e2c296c0b87742b70b878e0a0a3742ed5a6492378d3aea3",
+      "mask_sha256": "d3bb8294d8bb09ebbcbb8b87fad33d6e23715884a0d120d3e2e788586c952479"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 93,
+      "annotation_id": "ann_f3ce7782e4d398c0a749a10f4b500ca2e5c3f684c9a4b038519625c606cd2fec",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "5b65c771188f712900d301be91d7498cd7c363de4b58d472c5998318c5346942",
+      "mask_sha256": "952e81d8fb6f4b1908b36f6b7243776506081b39806949ff01e62646eff560d2"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 94,
+      "annotation_id": "ann_f581da75cfc1c5d685199a1e9aaf7b7a1c92ee656ce3c2788295fa022dfbc748",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "a12685e379814a3a55ed22d44774ff45362c599fab1f0c535eb4a87f2dc0ac58",
+      "mask_sha256": "7816aaccfc6a862a277916083318bd0ca925d002ba63f4a75d8980c208a61154"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 95,
+      "annotation_id": "ann_f6d0d74c10efdb4f2c48061aedbe3be35c28db6acc96dd2e7c398e38e18a66de",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "7cddcfcd4c5f94c7a85eebd91740d19b0fb99f4d121f536949431aed316d16bd",
+      "mask_sha256": "edbe99731390c3b0f1084cf790dc32650478d53d2d03bbcefdffc3d6b30d0ad5"
+    },
+    {
+      "class": "black",
+      "class_index": 0,
+      "dataset_index": 96,
+      "annotation_id": "ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "629cdcc8a86f67b0bfc4bf35483952b5ab25e32f86e651ed5cfc280425585f0b",
+      "mask_sha256": "d6f760cd54312573d1efd08331e293cce6ce65ccdb1d2237bf29acab04712ff5"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 0,
+      "annotation_id": "ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "9fe02ed9f2c5f7f26fcdc031866bf36d6d3781884b05dd1089922fdf874d84c2",
+      "mask_sha256": "522ac1871b066fea8a4a9c4e6229e4207e57e11a755052d477a3fd9bb94478b2"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 1,
+      "annotation_id": "ann_05768731ae2bbb83e56202d4a736791014f1b58a7f110c82dffdb2738b6c4d2a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d32ce18c5e98e363291df0993ed17b2d37b12de232c697b99da658c47cdbb16b",
+      "mask_sha256": "ec1737711ec20b8bb7e802b95b9ec2a4ebe0cedafdbe50f3959620550a66163a"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 2,
+      "annotation_id": "ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d5e7ca28032acfabcb53a9e81653d613b6afb5b1408dbfe1e2fc16dcd0a912b8",
+      "mask_sha256": "bdeed25746ea85f063ab195137282132a93c0fb3d9e4d7df0b0f3d18462ee964"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 3,
+      "annotation_id": "ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "41f3af03f56e330e18dff1f67d605c5420eeac473a038a76db552b7637484a36",
+      "mask_sha256": "8c1b63f00940a1b66ed8e55eb406dbc53561dec4296bd5857952767a5dbb64f4"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 4,
+      "annotation_id": "ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f784d9d9e4e6b4b9f6a498c9301cbdb27ea7cd997bf6acee0fea5122914a0652",
+      "mask_sha256": "70f29bc7b91f7ecea2e9cce0327a866c1230abc004c8f4c6099f1977da9f5069"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 5,
+      "annotation_id": "ann_133bd9e414c9eec508c52398fa9ac5b1a721ee5a03eac83c7787c8a65e3b08cf",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "57020167ff3f502ca4929ee5d6e2a36b16ef32adb96157852e3651f3e9230a2e",
+      "mask_sha256": "23b7ff424283651f306537e2de22dd7c7c7f32c9a26ce812c2bde7aca013bb6b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 6,
+      "annotation_id": "ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "abb51ac1da4d61093e6f1fa86c4e9489d0db44eb9412f58e7d305be11686a657",
+      "mask_sha256": "d7c1f60f764c7022555765af5d61034c76f82f65cd955d3f303b199e5f5f4bd5"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 7,
+      "annotation_id": "ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "0f7846419070fefa390b908af65a43f92e06adabbfe7cb504c8a8602cfd62727",
+      "mask_sha256": "7ae814d3ec1b202938a27015d10de5a72765c227809cd5c6677ea1c40533812d"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 8,
+      "annotation_id": "ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "6ff054a357f8f6c2e0b5bd53a4b0432bb7b211abe31ab61daa39ecd853db7320",
+      "mask_sha256": "d4e97d72856ad853ff49d60cc90d7430f93bc28d523bed4c97e81bb4dff447b3"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 9,
+      "annotation_id": "ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "bd4d31ac053f25aa765ac3a8743b7047d0cf8de15f850d7c5123902d1f918fad",
+      "mask_sha256": "a184c5bdd5ce8c2e64f1996d516b7f9b089235c9265e3114bcdfe11262cb480c"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 10,
+      "annotation_id": "ann_2a9ac79e37c4a6199c5eea0de86d689e56e2aebfce25b08d3f7adc6cf8637b8c",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "0dfce94affdeae1fb9757ffa25140114644f94be1836c403f2b1955a9a1cdf49",
+      "mask_sha256": "4676da01921e20e40d8d1af9379771507594ab2479d80481f27a041e48d7ad95"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 11,
+      "annotation_id": "ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "58afa84cd46973503a61349d51b59bbc98b25b74066dd6304de2dc70c6230beb",
+      "mask_sha256": "275fb62d1c27e2a5accd27e9dd7a04f69f5854e819bdb01ed40b540ebabf719b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 12,
+      "annotation_id": "ann_30da43ba4be404037eacac420be3daa606486f3efd88ffe4eef684686d146b04",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "926ab80380e5aa1a1420af206161aabdf36e88fef2413e1de021fc817319d9d5",
+      "mask_sha256": "573296c0c0f1916eb194bb1b0ec172d3ff296f44eef05bb580219603eabe048e"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 13,
+      "annotation_id": "ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "dd0fcc2fdf2494e902a54accf6de41e7351e0f7665f7e88999ab9a37ad853d0c",
+      "mask_sha256": "381c29127967f772fe5cd4b4e4cd182b9b6056eea95a9b789ec2490f62e70398"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 14,
+      "annotation_id": "ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "01696003076b166d14f184a29d336f9dccf3b9b16a074721ee14bd44606cde66",
+      "mask_sha256": "52a81f3f4ba554d891faeaa94f9b6d9a4d49d3581e5017ccf3f8640f5ef15d59"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 15,
+      "annotation_id": "ann_373427869fea1040a4fcc50387af4ff0745ef12ddcee211dadd1cfc186256f2a",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f8087c4804f548cc13b0945d7def6b6c4de61bf79d7a03ff56e3c6226e31f292",
+      "mask_sha256": "225dfe62db3ac5b5b2475540c83eb2cfca3565cb7011f1ddc3bad6d7585e25db"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 16,
+      "annotation_id": "ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "4574f4656fa583f8050bd477d2d98adb6520ba198eaf1ed0ad7bd645b684f101",
+      "mask_sha256": "905af6ecbd571a9e4b12508eff9bac0217aa81ef8d21a922ca5f703d8dcc2909"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 17,
+      "annotation_id": "ann_3bf332a21382888257b788c1f64170ed5319dec207973fc973458f50d5e42b94",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "9dcf38e780f62a80de1d783515349f5102f9422226c8ac495e2ec67c76fa7e2c",
+      "mask_sha256": "61548b1b876659f758990560ab91b040a5640dec0f8874b1b7003bb0f3991173"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 18,
+      "annotation_id": "ann_3c4debf794bd073ebc4329415b518d058d7e1f745923f385e9bf0b388b157fdf",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f90d183ec897d2fd507491647fb3442665745182628e4fd3aee1df0aad120d14",
+      "mask_sha256": "3a82e6412e2cc0881b97341e4bf9c988ed59c0777b7dc70980780745021c09c1"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 19,
+      "annotation_id": "ann_47f792ec89722b2167d522912cc1a67b80657f9e7d1311d6c1689dc99aab40a3",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ebe0a5aeed713789e2a22a1d25eebdd65f2cf96bc635c7e0ce9e20d3e96f42b8",
+      "mask_sha256": "96c724857c0eedb850452daab11584a2135b062bb2799c9e9dee9af15cb52ec6"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 20,
+      "annotation_id": "ann_48751c4465b63fb25015b591bcd4038ed2e4b06060c7066af738cf9353738072",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "c7d5cd0950ad9cb46fda2b3fd7cdab90a627fa4f8513e7eb655d52b825570ff6",
+      "mask_sha256": "62cd104022e227628f714e7eb5bdf2f37e4bbe5435afcb487d042da962aefcbd"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 21,
+      "annotation_id": "ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "70f13749f4efe4cbe02779e619299401d78a0cc310ccd19c9860e32e42763347",
+      "mask_sha256": "f2df0403a4d241f29308aba851fa55ae17b21c37a2dbaada9207ed0dc6d6fa07"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 22,
+      "annotation_id": "ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "fd48b0e533224d00632e3708080bae7e13d925731905edca1f0aa0e0045c7edd",
+      "mask_sha256": "0aef563d25cff72f711260c42c43cdfe0f5b9d452da4cf28666d4d09f2b2aa6b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 23,
+      "annotation_id": "ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f5c303cc0f8d7e3f4d8f8cabbb0ad50b4042a5d073f298e571e6b96560c02de5",
+      "mask_sha256": "e682c6a560095b5bcd4364abf51fc14f2ba5b9e294b5ffad0ba7c000e9ce1971"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 24,
+      "annotation_id": "ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "511fbc998237fa5042a1d2df7f7ec82971097b7cdaa297b9627adf973c667481",
+      "mask_sha256": "aca73de3b1ee5ae6c782cf245d0c631b291a6d10fe2a463ece0322c385bcf134"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 25,
+      "annotation_id": "ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "6f00c6ab86c393239c89312e4422a98b8a8832fdcc7e576d861597511a3d9a45",
+      "mask_sha256": "d5cbcd7c6547b6a13633273410e0ca8cbf0bffd9a583ae57142d60e250c092f2"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 26,
+      "annotation_id": "ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "aa3b3d3b47ffbb998c9649f11cfb72e163fec5aaa4fde736fd272546256906f6",
+      "mask_sha256": "4fba35cce19c376e801ff1dc5ede4023133003f55b72d5f9efa042b0a7877fc6"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 27,
+      "annotation_id": "ann_57d9cbc6679aa2a465577d5c9cf3e02ba3b676abd7ac32acc7133d86a26e1bab",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "c6d6a0b2e8dbc63d1a78dd9ec6e99eb5cc6a9dec790efd1864175f67c68bc289",
+      "mask_sha256": "dd71a4b3f0764acf572319b16727e9f34e4160647197da426d712ce6fdb540ca"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 28,
+      "annotation_id": "ann_5857074d26341d2acde218be396c3cf8ab9b81d41e49b30092b43f115c53f958",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "3f246e425b0b8c04742fccfc41a636823a4bb67557ddf3158658700ec9fc0832",
+      "mask_sha256": "aca73de3b1ee5ae6c782cf245d0c631b291a6d10fe2a463ece0322c385bcf134"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 29,
+      "annotation_id": "ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "14780842d27d9ab241a12ae1f92af7f34631867143c4ced2966f7d8b9dbd10c7",
+      "mask_sha256": "0df284689857c85e055cf10ec9518bd4ff25c518b9df1c104cee5df6ccc341f9"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 30,
+      "annotation_id": "ann_5c38a8cb2158e99cf92feb69042527ca29565e8abab9d3d1eb994ecc6c5a2281",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "7971c2d08121ca574000c6b623facb6cea5b7f11674e2a84436dc33667a317eb",
+      "mask_sha256": "4752f08274e65afd89dd0701a667279aba49650bb995d7d5fdf118ce28bcb1ae"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 31,
+      "annotation_id": "ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "de0b9a0870aab775668b0cef6a671aa41acc6020c3c45b8ea042f99b65e2dce1",
+      "mask_sha256": "da3a37dcdc5958d00cd63c3766d1964a7693157d0eb9ed9963e4b7b13ebe9473"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 32,
+      "annotation_id": "ann_637792913879a24d8413b8eb41aa4c2f12e2fdb10786e323b863eda16f67e23e",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "106ee11af588a19f014337e5fafaa39150c7519b517c3777c72524316b489d63",
+      "mask_sha256": "3cc6c8a8961d8caf12178a2b76a8556afe89d99dbef7d526ff3668fa3cf9f462"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 33,
+      "annotation_id": "ann_6590f251a07e3e7f1005e9dc67a5d4ba3aabfeaae4e1aab29e380f0f0af8388d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "60344537c854da36192cef4cf738345cde1580949f0d3ed4f1ab736dfe69cf6a",
+      "mask_sha256": "3c3054841293cfba95fc4aeb7995e8f9fea02cf091ec645f2ab7db0f3b03424b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 34,
+      "annotation_id": "ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ca76dbfb5a4af6784afefdfa7b7424b3266472e7ef1c2227228f01e5f67652e9",
+      "mask_sha256": "d3ebf0640210b387590ff6c4fbd938dbf29189bf0447100d6900cccedf42b503"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 35,
+      "annotation_id": "ann_7315bb668a9be073f482a0ff80a2e95bc9cd3516cf70fb1f0adb620c80532fdc",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d5c5d029665b9bfb15a0f3eb84b16abd831aeddef18828672e3b06f0608aa816",
+      "mask_sha256": "1dd153e4adb778bb611f484ae37f11189aa06a743ecced39bd813ed1dc84dcb8"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 36,
+      "annotation_id": "ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "462aaa788f4122419f935c415fc2828bfaddf50e76ac28d3cae063e0ff23ff41",
+      "mask_sha256": "b5c0fa7b506f00121c4f99b9b63039e478e6eeddd3ceff48b0ba0e9c3ff0d240"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 37,
+      "annotation_id": "ann_82a4a51f475da5c93dc5df5750986546828dc2e0c658f90dfa19abb03ede26b1",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "88f888d83fb8db2bac721228feab8d4cf61d770c742204f71b941954e79ce67d",
+      "mask_sha256": "5ca39911294cc2208c8c0f3d8bae076f6e7915edcc4962d4730b167b267de3cd"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 38,
+      "annotation_id": "ann_8634c2e31973401b637580d19a374e4d8cfcbf1c7383191751f99ab17e18b42b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "21deb966e4ab46800e469d44ebe29e1890dd99fc91b35efdcc74c0d93a336ea8",
+      "mask_sha256": "338fa47e5d374d03e38c5156336898baa7bb1f889644678649301d1283c2c8da"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 39,
+      "annotation_id": "ann_866d77125d5abecb6f39ce8c9b55e11dfc2936ff3adc0561b6dc15bf477bf435",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "7aa35ed72eedfbe10fac251db3f649e6f1d66614ddceba3bfd11b0d3c0131b14",
+      "mask_sha256": "dd71a4b3f0764acf572319b16727e9f34e4160647197da426d712ce6fdb540ca"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 40,
+      "annotation_id": "ann_87aa8989eebe7facbd7cd9f170210e7eaa765091cc1b0ea4a96ee9894dbec310",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "aad3b084ab5b748a5fbaf96a60232d00da1a055560d158aedd7e72a0f6e3e6a4",
+      "mask_sha256": "d7c1f60f764c7022555765af5d61034c76f82f65cd955d3f303b199e5f5f4bd5"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 41,
+      "annotation_id": "ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "974de6ad5883038215a3f9c74e5ef3a51cd9c934d0310e5b1e09967b7f8e4b78",
+      "mask_sha256": "72e2cf7b5bec50c804e8afc9a95a8d3c50b7fd2da4df679609e9cb03af6e661b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 42,
+      "annotation_id": "ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "36c3ee4f97da044e46337cde36f394fdd7d41d0bc6568cc20325f94192decd4f",
+      "mask_sha256": "c13daad1443dc87a482b384333f7cf5a390ecdfb76e134551bcf9a2b8a2bbcd9"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 43,
+      "annotation_id": "ann_90e343ef59cf2761a949ff8b433d501133eb6756a98dbbbedd0df3af0f3e07ff",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "329e618d35f7f92cb6dc1d2919830f62df36542a06258b7506cc0ad30d07c1fa",
+      "mask_sha256": "3acd1c59fe5b002ff7e6f703a31c3c6ba01f550789213b98dae87266110d701a"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 44,
+      "annotation_id": "ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "03ae0dafa1242ee4b4c6d078d945172851793c14ded230aec2088b7522db690a",
+      "mask_sha256": "dec4db0fa44f09cb711bbd7678e125749a2419ed2864c66990a41fede0224cfc"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 45,
+      "annotation_id": "ann_98efc84300dcf5f8d1e5699b97cd5e793de53409b44489890efc0ce5b3e21c05",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "dfbd27db3b6f6a19bebe8ab279af7c748c889111e2ceb2d44c2b21b24cc90ded",
+      "mask_sha256": "e06361e1a50ca944403b0120f23dfcbb2aa31d95b3efd213d64dba8bc30338d9"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 46,
+      "annotation_id": "ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "937d799381795c19e9967a1067be1b9f7d4cc8b84d666ec2584feba106f246f9",
+      "mask_sha256": "13244ca26e83cc429a3e602224d8ed8e5cc71e1bcfd1f7a251e02858f82c8d7e"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 47,
+      "annotation_id": "ann_9c5cd5c668a7e81256de32bffb2a9b2a8375a6817dc5f52f34e168244bfb7681",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "936899dfa9cffe3a521118c73ba41d724cfbbdca9a936d8732d21e62e1afc0aa",
+      "mask_sha256": "70571fa32404eb2ed26649608b21c554a51a21a345fb0e093ea586011d6e23c0"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 48,
+      "annotation_id": "ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ecb8268f0322ba663eef99bb9c5854915b40e656de9851dc46e090df1f61a096",
+      "mask_sha256": "21a5de5e9068549f61793a3ec4781c3df16f90ad6616d93b5a28249b2b7ef568"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 49,
+      "annotation_id": "ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8b406f478385fe8ac871c15a2350abb6ce67ae15b91bfbcaffcd023c25f79291",
+      "mask_sha256": "ec20b924ba17d112a2d0f34f823c45490816c1656c63b03b3c2ec6bb0bc6794a"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 50,
+      "annotation_id": "ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "311797a9b0ce3abb1536fa4ffd38dafe11afb3eae94d3ea942bcb8364f510986",
+      "mask_sha256": "3b843201e15f0ba4f0e33663dea57014fc5c17eb9303d6cbbbfa6fe4743be421"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 51,
+      "annotation_id": "ann_a242682da062b378891af1ec977fe52e1b8e8916067684c7a19f30687b2320b7",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "275d6a3532690851a3951812206e60914ec4c2eeefa3d21816749f0d91f2595e",
+      "mask_sha256": "f1118996c49f1057baf27d800967236397915d258ae8bc8a27a441978475c517"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 52,
+      "annotation_id": "ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "01148da2c5499443185d5c894dd94f6d3e70348b7f8ee576d2eceb85fcb91d07",
+      "mask_sha256": "092bc4d081be4e78cca09bcba1d3906834522445ff9e3f535a51f672abfc2256"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 53,
+      "annotation_id": "ann_a4da65d93f6d36d51522726627b9c2d60c5eab141706e102dfade52f09ac4fd5",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "b1e23e5ee2061d46f6b178f1f92508c795adc51b80310cfb5cee578ae7964d6a",
+      "mask_sha256": "998b6d088e5fc43bcc1e26da0cc982f8a5dc0ccd56ed20aa51b6204118cbeba7"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 54,
+      "annotation_id": "ann_a6a68c68d466368ab211a95d4ab535432d2558b1ddb76d91a90ddf1d1e210266",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "5cc495229edf835b5302efda063d0a5aef25ace23003a1d472b8fd30b135ed3c",
+      "mask_sha256": "2a3917f66b99d18d7569f58db1f763aa8270995d738c11c27baf520a63d9e1b5"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 55,
+      "annotation_id": "ann_a8ffb80201f3136f6b4971ce58a917abc4a1d4975244a67459558f22b6eb9848",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "8203ee82f5df3f86b2f57777314a20ad6eda5223477fe21477d9f0208b7bff83",
+      "mask_sha256": "4ef07da6e5eb23d3fbef3a3d7f9b670fceff7e38d3b09d398617d8f0c5d6758b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 56,
+      "annotation_id": "ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ca1fb47a3febd076295eee538e8f718bb14b0cdf81682d888e68cbe6d0c22141",
+      "mask_sha256": "7ecef631da44f45cdf5a98038f1db7b4bf41a7a55f863ffb8a86b57c6b8aaa02"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 57,
+      "annotation_id": "ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ee112198af26360b9b2fdf8f4edb9694303ac29760a1bd8ebabd0cccb0750286",
+      "mask_sha256": "557b62eed7ce7c0d91f4dd7d7150f9b912f5dd309e48b5efea2b683ce781300b"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 58,
+      "annotation_id": "ann_b9aa20f3a53748dcb24d71ce47ed1e3f9d45ecb057ad53577b74159d8b02a754",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "da55300f7725e66377117609d4d0e59a6f986e69a51f3da8931b2529c2ea180f",
+      "mask_sha256": "2a3917f66b99d18d7569f58db1f763aa8270995d738c11c27baf520a63d9e1b5"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 59,
+      "annotation_id": "ann_bbc364d893db6cdc7cbac58b0033b57eb1a5031d3a4447e8864bc16018b9a8e9",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "95075fcb945a397caceec9063ee4ffd1dc16281e04c246824ec4d8afd5319e93",
+      "mask_sha256": "31707ff258ce9d22e621e71427e81755d0e780235be2a44ac0fdbdd76300f692"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 60,
+      "annotation_id": "ann_c198abcfe4c9e17f4f737c2277b1a7919b720c683f8cdefbbc1a145427fba926",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "654da05b3018eb63bceea5b1583b18f589c4ed86e80b6f1437a7f1000e836d2b",
+      "mask_sha256": "ee1b18ec2149bbf08afd5b73a869952db05f9714464b1c261ba48fcd5fe2693c"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 61,
+      "annotation_id": "ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "2bc8758cf494eeb832efb7dc3c566847b5dffa3fbb2e00483f10c9744c7bfc85",
+      "mask_sha256": "2cd1cfcb090b76aee36b12902b52e6fdd713f8378fcae89c4ebddabba6e6e6ff"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 62,
+      "annotation_id": "ann_ca28dee79ef0eab2167c035b7374fef36ed94387cb4fd9d3f225ea557a026cab",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f0302545ec861a44218331b12918ccf5a8458951100af1b37a16d532d0b83437",
+      "mask_sha256": "d683fa222ff327690213de40effc1fc1a24a6987f05b9af8b3e55913ecc66917"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 63,
+      "annotation_id": "ann_ca2c2e765b40ac2da49db23e8c82c608e0b9be08dab7a7f3548d5cea176f9614",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "25e6c29d4e4c4a6ee1ba56526da9038df3b76a1957be350c670c2bec84084ab5",
+      "mask_sha256": "3c7d419e7b68038206e3e2e5a2eb255d032496a9d801326e1ba3fa159527dbef"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 64,
+      "annotation_id": "ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f72f14467442dce5bc0dbbf8c2db60d5ecb2aa414275835dc65f2e79ce1a8802",
+      "mask_sha256": "7f8b407ac674e2a873fab797a50744357b0dd4393215fdab9c672388d2fc46ce"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 65,
+      "annotation_id": "ann_cb6f5297bc3c4e825bd7f976b764b6cf02bba567076b1b771a43f3de4247f650",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "ed6be1ddd7b9658dc685e5566d4e6942da988f4eb2e011b460f7c0e3c69cfa32",
+      "mask_sha256": "0746987a7aaba54ba13d094805847168b4d7fe35377bdde68707a09a90e2980c"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 66,
+      "annotation_id": "ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "9ffbf45fdd9f157aaa5c3ab28172445fc871cc5ec830add9e574043844084995",
+      "mask_sha256": "0c2d068ec1502d120028e1066aed592344b721051362c5478a8b308348b50716"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 67,
+      "annotation_id": "ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "d95db4c4714af1dd14985dc280b08ec18ef3e96b880712f214bf26247714771e",
+      "mask_sha256": "5b0a6d580306766ff4f171fa141e1912963aa48c4dca777ceab23a01e97c3f60"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 68,
+      "annotation_id": "ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "1bd6c4effd0c57c73729c43f9ed17e33b8f31cba2cc324f618cf02c93623ba7e",
+      "mask_sha256": "31b19f682d264726a070a1559358a9640fb4fb97119da412d52f07e805cbf6e7"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 69,
+      "annotation_id": "ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "609dc1a04e403a63fb8738a44d958c202a5863d24f756c3e485edac506a594b9",
+      "mask_sha256": "0df284689857c85e055cf10ec9518bd4ff25c518b9df1c104cee5df6ccc341f9"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 70,
+      "annotation_id": "ann_dfd90c7cb4780580958c888bf34214077945160f34a8af19c2f01f8158ba2d17",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "177618ab2b40544bc0a5d84b2353f096dc19a9aa41031a9fba4b67cdc4a3705d",
+      "mask_sha256": "a8d6173a98e4ca8aee2d16c0b953367e3c3a87545c825df04208f61db69e30b0"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 71,
+      "annotation_id": "ann_e3b8f1a75e8bf6547f5fdfb5b8459049275181953cc32997cbb245d4ada5613b",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "a8b02d8ef1e8fca44bffd5f353f149b756d3c06dd4e4feb420776c62edcdcdb6",
+      "mask_sha256": "b6d8257ba91591a0ddc4efba8cdf6923ea2c8042813536e295d4aa85bc906f27"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 72,
+      "annotation_id": "ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "f676e4e6e7f1a09b483cf39d15f60f7b1eb9a144574013bc35ee6f70326bfbaa",
+      "mask_sha256": "d1e2e201e037c4f4bf6ac3abe02cffb8b0f3437214284d0990acb0c2cbce796f"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 73,
+      "annotation_id": "ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "12028ce9c4d5a93c50e0fb2bfac7f0c1117054748c5b4e8c019bbe6a2c4448da",
+      "mask_sha256": "dd992a3b6bee09eb180384b10e72c5aff41f4c145f590bd17d8d72ac749de48e"
+    },
+    {
+      "class": "flash",
+      "class_index": 1,
+      "dataset_index": 74,
+      "annotation_id": "ann_fec378024cfc80dec6e9d0b7d45fdc31bcc0e9df70cf9fc5a8c629c57736e074",
+      "source_split": "V2_TRAIN",
+      "mask_semantics": "COARSE_BBOX_MASK",
+      "mask_is_human_segmentation": false,
+      "image_sha256": "97d3901b0fcce140e78455c47fa126706cc8d530180145121d381dacf2386851",
+      "mask_sha256": "998b6d088e5fc43bcc1e26da0cc982f8a5dc0ccd56ed20aa51b6204118cbeba7"
+    }
+  ],
+  "normals": [
+    {
+      "index": 0,
+      "conditioning_normal_id": "real_098be1fc220eef17fbe5aa1b7b2768402af3beccc07dfde37b79dea6be3a377c",
+      "sha256": "7edc00c9da9801f5d794881671375d787080da3a9816d5b3bde37ab9086db591",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 1,
+      "conditioning_normal_id": "real_0a25656b78c1fe172032de662ac546aa37ff7f851216596c57da072d9fc32140",
+      "sha256": "f23f34dc5f2e7bdd7d0ed7e41ca036daccbee1f556d27aefec00e63fff3de014",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 2,
+      "conditioning_normal_id": "real_0a6417d63da70f0cc8ae642a18caf186b5951cace15a1b65901ddaca3eeb46f5",
+      "sha256": "dd2984800f0965eed4c933dab9f278f630cc6c84f2465324078a09d78977a1b2",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 3,
+      "conditioning_normal_id": "real_0b66d6c524d89e6d9c5824b84be998601506a1e36ff96e3f4776a88284717dde",
+      "sha256": "ec01e5512474b98a84b5650cebada9d1f6808fa5144849be09512cfef2975ec2",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 4,
+      "conditioning_normal_id": "real_0f136f54a78a55cb636d07244f22ace3d9fee8e7a62ccf3e076c17600ef66e31",
+      "sha256": "ed70d23f389cf7bd41f5fff41048ab7fe6fab6780136f6b084c4e8ef4f4ed75f",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 5,
+      "conditioning_normal_id": "real_101580b72e4a3116d4d022278f7a13b7fac5b4535a4f14df442a2c0791284857",
+      "sha256": "878975303a2b8780bb7646cb03519ed432f02a71b4fe1999159ce5cb3069b654",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 6,
+      "conditioning_normal_id": "real_12abbb73987871e6e8cb2d94e18dfef2f58c288f1575e46fdd5932a3cc0cc743",
+      "sha256": "a6279f5d3a169e7c67bcf58bef352cd7a14cd661ce71dd1a28004f53cd5e691e",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 7,
+      "conditioning_normal_id": "real_170868a3ff80bd09299e2ab658b9793faa4bd56bbeaeb108cd602030c11b850b",
+      "sha256": "07f1d75d6d4e3da8716ff8380bacef5f45b3bb46dd2a691536cfd62814ddc2d9",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 8,
+      "conditioning_normal_id": "real_17ab63470ca3ddc161653db68a55f68e0d5e8ca87612170ff152e51bd770a218",
+      "sha256": "2b436ddeb4f6d823df92174139ff53d5701e542001f2516c2d572412ec055cf3",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 9,
+      "conditioning_normal_id": "real_2014b2649016158a815c31aa8a603c1d2d4ce6b8dda51d43aa71c24751c12910",
+      "sha256": "50d8fe2a7cd1c1073c91c3055f2246609bb8ced2f8693f174dfe08ca1221d0b8",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 10,
+      "conditioning_normal_id": "real_230aa5d51c24fc64a8ca27bdfc232950c366a988dc93e51898f24ac5620aa27d",
+      "sha256": "2c8044874d7c94051158502be778b5094baafdffcc9c599ff42cd8bf00c856b9",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 11,
+      "conditioning_normal_id": "real_2d62caf1c751e583c8a88d9ba1b0e384f2f3c0173a2bae4301b70f4e595615fe",
+      "sha256": "fd3ffefa4725eab02df9e0bff45d9f454cfd2366f120c550346fa61224214997",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 12,
+      "conditioning_normal_id": "real_2d7bcfe9048feb5f8d38ca74751e14634baff1d38015743013eb6e2dab2fe29a",
+      "sha256": "2c61aff59d5ff1d364957375cfa33fc1a0715a6aa7a8f2e7976a50e43ec645db",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 13,
+      "conditioning_normal_id": "real_2f8ddc65babd103a2dde0deef1c72ef409a6beea458942e159ab26485cdcde1d",
+      "sha256": "02b33327f649fe0241534c8d65bc2ec4cbf34c3562f576f966104f474795b64f",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 14,
+      "conditioning_normal_id": "real_3364c904ce9437382a41d2ab60b733b0561326d8bc9694b445c5a68e7933e92e",
+      "sha256": "a2016ae7e827cc53da52a4ef0bf6909f52f6ea794daecad3943dd64fb9ba1529",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 15,
+      "conditioning_normal_id": "real_37b31a1a806039209be8b5a9d218e4136b460d2e8fa2e5f7ba98f96b6e5131aa",
+      "sha256": "9a4eb440e2ee27fef2d4d04c484c82dae911a2987525553ccbe4448682093d38",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 16,
+      "conditioning_normal_id": "real_383f51054c3943c561c3c8b83bda051967b0e29b348b68bd2f3e8b51eb9d8038",
+      "sha256": "03b6e857a06a4f37a936710263d9900dfecaf9f5b1d3586e70c8e777d627b91c",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 17,
+      "conditioning_normal_id": "real_38924adac8a0f5cd085cd02bec17c8faef1e50485faaf7f89eb933a615754571",
+      "sha256": "f1c9385aa5b2ddf759c895c8a95ce98ebf120c97782d6a341190546d7677b41d",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 18,
+      "conditioning_normal_id": "real_4534ce0e18bbfdcfe80a20d2fade273ced063343b914d3b44bc75e8538d39a66",
+      "sha256": "a5f965c9af6bd5bbddaf303c5399dc52a14564169c7ac3c4df3758adc101a266",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 19,
+      "conditioning_normal_id": "real_49f901ce0bf3eeca32e8d7e2085304643e22721aa20f5f7cfa45652aa6cc7af5",
+      "sha256": "a760856029769d37ce5c81a2bc99c5c12e8bb2da8c2a7850ac44d96ef2682080",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 20,
+      "conditioning_normal_id": "real_4ac2aa16af121ed040d1b0badc28a06eeecedc1e372aaab81d23dccb7c773d10",
+      "sha256": "eb5265022fd9857df8b69a15b9c36bd94dda9f0d451e17122fe5ead03435a05c",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 21,
+      "conditioning_normal_id": "real_4d34e2379d4fb18324057ab4b8a3d82ef8596c34c2918cc9f59cc53c39fbf7b4",
+      "sha256": "c666b1678a88f7be73257d7f1bb74f523d1db3f8c0152b73bb90d2738fdd6cd3",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 22,
+      "conditioning_normal_id": "real_4ecb1a76dcf9889b5387b9cfbdde16301fae0c248b82c9748eb13e0a310c6c2b",
+      "sha256": "e67c104e88878c5496f9db4ac7792ba3bcd2fc715f4a79e44fc84427b13c4f31",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 23,
+      "conditioning_normal_id": "real_544ae39589cbf45d7d9e8de40e5fc6009c3e030f369c045d836ca156b09f4eb8",
+      "sha256": "941f8214293f1b04cb68f0bb21e8fe1a2edd72f0a3371bd73239d1bd67498d0b",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 24,
+      "conditioning_normal_id": "real_57f89fe0fb27406ee2e77b7c672e97ee1aab166f878f6ffd5a9531d80775d101",
+      "sha256": "e4fea5fbaa8d9b114b669d38c817979d405076e2c9f36c4f504c906297c41fdc",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 25,
+      "conditioning_normal_id": "real_5994cecda33f5e9de1b4ad133e389faed554e59bc54b4e9718d393981d38a021",
+      "sha256": "d3886cd36e9824fd0535976025c5508bec5714e10ba5928559c12e0a3ea7aeab",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 26,
+      "conditioning_normal_id": "real_5c3f47ad6fbed48d986bbe77e36a2374936edbd1160ed5c5577e4f9c33d0259a",
+      "sha256": "2493b467bebf070ca677f883507260c5d55cbc02b4b723fe71078b4729fd9000",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 27,
+      "conditioning_normal_id": "real_5ee3d34142d480f35e0ce492bd11990827a20247d77b2e1ddb914009229647ab",
+      "sha256": "7ca4c09e7de2bfab936a00fa39a5a83d3baf872653c6cf9c938203306d444143",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 28,
+      "conditioning_normal_id": "real_67e1e2cca5016028f34484d6bcee5bc1f3130a5ca09a2a32c7e75e56142c2fe4",
+      "sha256": "8e80d02311fac6fedaa0df3dfdfaaaf2dc3a94b3d9980c4c3a2eb8cfb15388e2",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 29,
+      "conditioning_normal_id": "real_68ae517772ebce6215a465bc1188684663cc850861127236f74e4de68c6cf342",
+      "sha256": "f3e5a7e5fc665d1e1de63684e5e1def648e311ab6642dd815c5168eeeafce9c6",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 30,
+      "conditioning_normal_id": "real_6d1c52521461972c217e91b49f8af1c3468649e06d8a4cb24659f183ad433242",
+      "sha256": "d3bf00b7244d5091d51f132419ff82c4f3185d723908fdc5da324c82e3ceb261",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 31,
+      "conditioning_normal_id": "real_6e377552b15f8375b889278aa32d9f5b4aa5e9de5661cb888753df0d3e569f55",
+      "sha256": "3d7e78913f706136d19111a11c773aa3a10ebdeeef9c48da2eb3739a5b449ac0",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 32,
+      "conditioning_normal_id": "real_700d8b872210583ef2d950c787c5f4b03af183487521a46d4cf4c0728ba464cf",
+      "sha256": "10423701fdf7c8e5cc52ff589484af6f7d0a3c0573d16ecfe90ff73dba28fde0",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 33,
+      "conditioning_normal_id": "real_70ad314e9c344eb5e520297027cb811cb80af037a0e3624b9891681f84c5fb2a",
+      "sha256": "525651324c8a7d287e7d86dc4c0dbc7e604d5f29a5af3bf9727f8fe9d38e1d68",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 34,
+      "conditioning_normal_id": "real_735c9b28ee8bbba9909c57d7dc7c5cf8e5e056ed2cefab78461b8928eac19468",
+      "sha256": "158a3de2cbba89b8596bb3f7c46a099ec6b2c26767e6382440877b5e7d65246f",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 35,
+      "conditioning_normal_id": "real_7a4e283bc18968e11c9ee60babded8a0b583dca799291950fbbdc2783771d0dd",
+      "sha256": "727299a97690b8fb5995f2ababf22ef6ccccea01623664b057c65572a9773a18",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 36,
+      "conditioning_normal_id": "real_7edc5a2785da4261881f3c57ff26dde3183c824b96348d0a63894104c4133259",
+      "sha256": "00023a48620e336052fb199ab74d169eb0abfc3d62515f5d93c76075b305de87",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 37,
+      "conditioning_normal_id": "real_7edd2c2e22e4e1cef02e3659655f4d190d17e37a0d3aaa32640ac0bc3b91c6d8",
+      "sha256": "5b9ed17de1f4e126137f08f9c2be099e829d77f40cace33efc889b4c7ed873ea",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 38,
+      "conditioning_normal_id": "real_81601af97a3be49e9969afeeb6e970c686410b9b0fb62fb8f3ce0b58ced7202f",
+      "sha256": "36d5c2e3188b874a0733287129d3c29eb9fa7e222c6b782a42cee5680f7281cc",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 39,
+      "conditioning_normal_id": "real_8487d975efe6951804af6d814ca54fc29b17675a34161deab2e9f8a26c835ab6",
+      "sha256": "3b642eb7ce419e93c5f334bfebd02dc700d85b4209950140d58975c19d4f88e4",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 40,
+      "conditioning_normal_id": "real_88120fed35baf09e332bc1b1d885479954ecebf0f8e580b81b01fe574318cfd1",
+      "sha256": "2f56ef149e97d4d1d34adcaec6130d0dd6ec30ee30724da5688cc8b87c3c733e",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 41,
+      "conditioning_normal_id": "real_8b54f0b27f83d6bcb6371d5239109768fe03a8066ec4eff8133f120c31c4a87c",
+      "sha256": "4627ae7210d38df8e6572d09f07282f912bcb3c53ed834b46ffb1418dacfb4d4",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 42,
+      "conditioning_normal_id": "real_8e6817a3ae592a8b0b321f7276dba00c3f02e129a1bc1a171d72f7674fd72a1b",
+      "sha256": "0a8b39f0571a17038a50b9948a343789e1057b5a4013a5099da1344d3b0462d4",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 43,
+      "conditioning_normal_id": "real_95a6012a1c5c195dd9778c5b9ff806ba5ae15e9cd40e2c250f996ae01c1f7678",
+      "sha256": "884fe471ab4c3b912a0d4b62bfeba82e602fdbceb5bc881be57396ba3b52c79b",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 44,
+      "conditioning_normal_id": "real_971e96e2de5aeacd59db697db9c34e4bc5c68f3f117d8a11c361ff1ed814687a",
+      "sha256": "105af7262188938f52dd94824f6f773c8d504ec0770a6fab2a0c6ddea3535f22",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 45,
+      "conditioning_normal_id": "real_98eaceedab0a7efb08378c995a93dcca04cdf4c4d14b50db29601865e5698486",
+      "sha256": "370f0581d08b41f9972ca6f11b3fa0adf67f759ce581c475eaace6650b637123",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 46,
+      "conditioning_normal_id": "real_a3e68ad21105e0b4b4535b03d547e114a338abde1d87f7c6a950bfff5e5ec0e5",
+      "sha256": "7927a8f9cfa692d0687e86ffe876323869ccdf851f0e234b5485949619ca9503",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 47,
+      "conditioning_normal_id": "real_a81e723eaa254fd12a27f1e49ffe746727c2f64031e7073228e10669f621b226",
+      "sha256": "a0b806922ab397fd213cc4766d387cd8ecee9e2f23575681a3a81b72b43c439e",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 48,
+      "conditioning_normal_id": "real_aa3b3d18c44e8506fa68765eaf691464b830fa2a6b6fb09dfbeb176a4fb26675",
+      "sha256": "9471dffe1fa678582e9ae69d6f0b839969a85c3fd1d4103c1beef0cdcb4ee9c5",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 49,
+      "conditioning_normal_id": "real_aa91e85482d7d3cd22d12f74acac49445f3cf6316fe1bf9feac397e1ac4b376f",
+      "sha256": "8dab5c2bda2a97891c711064e9ccd489710df5a9f9e0dc2cd83583564d5fa59c",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 50,
+      "conditioning_normal_id": "real_acea5637e93e3b0a1182e29abe51148bfd9a78d2dbd4440bee3095eb513ef612",
+      "sha256": "7137adda5ad09cad043b5881e132477ae525bef291827fbe7232d70f5089ab85",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 51,
+      "conditioning_normal_id": "real_ad6bd479de17c97ea43f9a850ae15f17de40693c5302572f1fd9e17506a2e387",
+      "sha256": "9e61e3b31cc34975bc6172939002414a38bb052969ea79dd5dd59ddc1b07cd54",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 52,
+      "conditioning_normal_id": "real_b521f402f7d2595fada6b1d635e03e395a8f9aea30622ca02c278355b6134f7c",
+      "sha256": "7412463972eea95e1f46eee2369c607e88639c4387208009ab387b4e17618231",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 53,
+      "conditioning_normal_id": "real_b5d6b6db1b6da49066b3392805dfcde6fb2eb441e940df5376f2ccf46791ad36",
+      "sha256": "9eb2575ccb4a5667cd93d1c984b51ea599cf493ef809cea136e251777aa00836",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 54,
+      "conditioning_normal_id": "real_bc2c3c9fa0c6c78977a2bf3b61d388385eecce8c3049e4dbfca8882e7fc75ced",
+      "sha256": "ef461c4cc9bc4a17901980a88197f58f3963f1f01e3608a00276901cadcc6f5e",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 55,
+      "conditioning_normal_id": "real_bc82ac47fc3094d4cfd5b7d94a17f524fe7c3c26055f520908cb52c54310ea55",
+      "sha256": "15d8105381c159d0f2dfeef0ce14b90b024a823bf67610aa57c22b0b0ba18b0e",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 56,
+      "conditioning_normal_id": "real_be87867ae66a59ace7096dd4d628e2eb3e7195d28cbef9a5016391d774c3d73c",
+      "sha256": "9596e313d0813ab66594701a3f6ab8ea65dda4974d226cccf26fe846d059d2d1",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 57,
+      "conditioning_normal_id": "real_cc585c535b38f8c13715069d136b2ac552d3396c573a43093124e21ff3030e47",
+      "sha256": "4e6cf0232313744dca62b14edd9982eece2b271da1a2440a68378d03724dc0a4",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 58,
+      "conditioning_normal_id": "real_d368d5dd0517b811382da5a31ce719582fcae8e5ceb5c7b76e76ded4ff7bd93f",
+      "sha256": "f60996039fe1f28c806c2fd102b69515163434011601cfd1239f0daa2eb7a320",
+      "source_split": "NORMAL_POOL"
+    },
+    {
+      "index": 59,
+      "conditioning_normal_id": "real_d715023ac1bb9f7a51e67856bb3d175b76fe8e26fe10265f91cd95bed0b36575",
+      "sha256": "a9458959f65ecdf4020bdeeac54aa9d4e69a8c218effc4ea71ce34fafd01e72d",
+      "source_split": "NORMAL_POOL"
+    }
+  ]
+}

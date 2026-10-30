@@ -1,0 +1,24 @@
+{
+  "official_repository": "HUST-SLOW/SeaS",
+  "official_commit_pinned": "4645d3bda982855388bfc46fd1ceebc66b48c3f7",
+  "local_checkout_has_git_metadata": false,
+  "local_files_match_policy": "critical files recorded by SHA256; archive has no .git metadata",
+  "critical_file_sha256": {
+    "config": "373fedaa5421c68a120362116a4788eb2b6ab23dd4786c86d7a936d35d5a8256",
+    "generation_script": "c9c004838724f7dc4e71cd18fa3bc724b252fbd56164d0ae2a939585d5794de5",
+    "mask_script": "8d9cd0c4866e6321590ae260db6e951e392441c826fc03d1a73ca4c31436e82f",
+    "infer_script": "5726925e2cb21c3b58dbbae6911ea0fa39f13945097bb220577e566bc1c6179a"
+  },
+  "mechanism": {
+    "preserved": true,
+    "normal_tokens": 1,
+    "anomaly_tokens_per_class": 4,
+    "DA_loss": true,
+    "NA_loss": true,
+    "RMP_mask_stage": true,
+    "joint_category_sharing": [
+      "black",
+      "flash"
+    ]
+  }
+}

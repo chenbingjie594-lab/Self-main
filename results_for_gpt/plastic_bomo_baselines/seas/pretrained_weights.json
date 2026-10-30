@@ -1,0 +1,67 @@
+{
+  "status": "FROZEN",
+  "backbone": "CompVis stable-diffusion-v1-4 (SD1.4)",
+  "backbone_replaced_with_sd2": false,
+  "files": {
+    "README.md": {
+      "bytes": 17079,
+      "sha256": "4eb72f9e6bdbfcf359ad66cdd7e26984449f47692069f81205f2217c9a821ba2"
+    },
+    "feature_extractor/preprocessor_config.json": {
+      "bytes": 342,
+      "sha256": "2a1da83b5e1032aaeef397552ddb408dca0d8cd1dc58f61bf6abf38d6f33a0a2"
+    },
+    "gitattributes": {
+      "bytes": 1387,
+      "sha256": "7de1d07d87331db1d6f6805805d7df9d717fdc4d15af3c7f75dfd2b6cd14411c"
+    },
+    "model_index.json": {
+      "bytes": 541,
+      "sha256": "c7cc314014486aa2f7f17ab8f90197fe0412c818cdefb9e15601ae58752b5001"
+    },
+    "scheduler/scheduler_config.json": {
+      "bytes": 313,
+      "sha256": "8335df29b53da12e9aeca35b1c2e60d88b23eae4cc5ad3d07efdcd7f003cc343"
+    },
+    "text_encoder/config.json": {
+      "bytes": 592,
+      "sha256": "aa210e6d6abd239a466af57a1dadb62d5ced63295064d295a549e08a6c4a2020"
+    },
+    "text_encoder/pytorch_model.bin": {
+      "bytes": 492305335,
+      "sha256": "770a47a9ffdcfda0b05506a7888ed714d06131d60267e6cf52765d61cf59fd67"
+    },
+    "tokenizer/merges.txt": {
+      "bytes": 524619,
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "bytes": 806,
+      "sha256": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882"
+    },
+    "tokenizer/vocab.json": {
+      "bytes": 1059962,
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+    },
+    "unet/config.json": {
+      "bytes": 743,
+      "sha256": "d6749baad843798f21da6c2d3dd9d642e5ebb73455ade4763158f5c6d3e95b03"
+    },
+    "unet/diffusion_pytorch_model.bin": {
+      "bytes": 3438354725,
+      "sha256": "62d48b4d841a3178511fa453df0dae59b22089ace64609cc9d5353d0a7f37c26"
+    },
+    "v1-variants-scores.jpg": {
+      "bytes": 71237,
+      "sha256": "df89d8466f70a8c14ea13615bf557b0135c5a36acd0f9e509a106dc1fb065087"
+    },
+    "vae/config.json": {
+      "bytes": 551,
+      "sha256": "0e5966d4d52c8077648754ffd2c14ab5e0b26a4bdfa6af1d207c27550fa6d2af"
+    },
+    "vae/diffusion_pytorch_model.bin": {
+      "bytes": 334707217,
+      "sha256": "1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5"
+    }
+  }
+}
