@@ -1,0 +1,62 @@
+{
+  "status": "TRAINING_COMPLETE",
+  "method_identity": "PARTIAL_REIMPLEMENTATION",
+  "official_implementation": false,
+  "paper_venue": "CVPR 2025",
+  "authenticity": {
+    "defect_loss": "IMPLEMENTED_AND_BACKPROPAGATED",
+    "object_loss": "IMPLEMENTED_AND_BACKPROPAGATED",
+    "attention_loss": "IMPLEMENTED_AND_BACKPROPAGATED",
+    "lora": "IMPLEMENTED_UNET_AND_TEXT_ENCODER",
+    "low_fidelity_selection": "MISSING_END_TO_END; utility exists but inference CLI disables candidates"
+  },
+  "data": {
+    "source": "Plastic_Bomo V2 TRAIN only",
+    "counts": {
+      "black": 97,
+      "flash": 75
+    },
+    "mask_source": "COARSE_BBOX_MASK",
+    "pixel_level_GT": false
+  },
+  "training": {
+    "separate_classes": true,
+    "rank": 8,
+    "alpha": 16,
+    "steps_per_class": 2000,
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "seed": 42,
+    "unet_lr": 0.0002,
+    "text_encoder_lr": 4e-05,
+    "warmup_steps": 100,
+    "loss_weights": {
+      "defect": 0.5,
+      "object": 0.2,
+      "attention": 0.05
+    },
+    "base": "sd2-community/stable-diffusion-2-inpainting",
+    "in_channels": 9,
+    "MSDF": false
+  },
+  "inference": {
+    "protocol": "Primary Strict",
+    "candidates_per_slot": 1,
+    "selection": false,
+    "reroll": false,
+    "banks": [
+      "A",
+      "B",
+      "C"
+    ],
+    "slots_per_class_bank": 40,
+    "steps": 50,
+    "cfg": 7.5,
+    "native_defectfill_protocol_executed": false
+  },
+  "adaptations": [
+    "frozen-manifest loader",
+    "Albumentations-free equivalent random scale/crop",
+    "optional TensorBoard no-op fallback"
+  ]
+}

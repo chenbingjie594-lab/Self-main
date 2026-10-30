@@ -1,0 +1,30 @@
+{
+  "status": "PASS_PARTIAL_REIMPLEMENTATION",
+  "audited_at": "2026-10-30T09:12:50.996972+00:00",
+  "base_checkpoint": {
+    "unet/diffusion_pytorch_model.safetensors": {
+      "sha256": "9bcbb17f54b039f58bf78677fab8cd8a35dd686f6c9dd553e3646a8b0aaff41a",
+      "bytes": 3463784116
+    },
+    "vae/diffusion_pytorch_model.safetensors": {
+      "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "bytes": 334643276
+    },
+    "text_encoder/model.safetensors": {
+      "sha256": "cce6febb0b6d876ee5eb24af35e27e764eb4f9b1d0b7c026c8c3333d4cfc916c",
+      "bytes": 1361597018
+    }
+  },
+  "checkpoints": {
+    "black": {
+      "sha256": "b44f6f4a7dcddfa990d8624995260207b6ec96851a9bf21bfd5c42a8bc6facc9",
+      "bytes": 38566070,
+      "step": 2000
+    },
+    "flash": {
+      "sha256": "c60f257b6178118280ae4de30bf1d17011b954dd39ba1bb1b6b8e037733ea064",
+      "bytes": 38566070,
+      "step": 2000
+    }
+  }
+}
