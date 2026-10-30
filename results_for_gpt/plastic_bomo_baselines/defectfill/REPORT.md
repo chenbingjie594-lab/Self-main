@@ -30,3 +30,7 @@ Status: `COMPLETE_PARTIAL_REIMPLEMENTATION`
 |A+B+C|Black|0.0802005233|183.348991|
 |A+B+C|Flash|0.0711044812|174.790315|
 |A+B+C|Overall|0.0456529020|144.535950|
+
+## 对比解释
+
+`comparison.csv` 同时包含 Raw SD2、MSDF Full、MSDF Max-Support、SD2 Inpainting + LoRA r16 与本方法。DefectFill 使用 UNet+文本编码器 LoRA r8 和三项损失；LoRA 基线仅使用 UNet Attention LoRA r16，因此差异不构成纯 Loss 消融。

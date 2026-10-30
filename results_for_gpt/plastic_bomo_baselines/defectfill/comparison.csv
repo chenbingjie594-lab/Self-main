@@ -1,49 +1,64 @@
 scope,population,method,fine_tuning_type,KID,KID_subset_std,FID,reference_ROIs,generated_images,KID_subset_size,metric_source
 A,Black,Raw SD2,full UNet fine-tuning,0.03797344467731272,0.006531917641927337,161.76692438299116,97,40,40,frozen SHA-verified Experiment 11 cache
-B,Black,Raw SD2,full UNet fine-tuning,0.04519301296659426,0.0069411468453502555,172.44663633602465,97,40,40,new same-protocol features
-C,Black,Raw SD2,full UNet fine-tuning,0.0396594894527007,0.006469060329192159,163.03911244814674,97,40,40,new same-protocol features
 A,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06100557551585336,0.00874507071412577,191.9669145866637,97,40,40,frozen SHA-verified Experiment 11 cache
-B,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05891196483267076,0.008343540572101587,183.16715540366144,97,40,40,new same-protocol features
-C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06256158132105778,0.00858442504809604,192.42172667965383,97,40,40,new same-protocol features
-A,Flash,Raw SD2,full UNet fine-tuning,0.0609828974272712,0.004201304709967602,181.29746752358994,75,40,40,frozen SHA-verified Experiment 7 cache
-B,Flash,Raw SD2,full UNet fine-tuning,0.053582950917153746,0.004192347350328881,179.5849942468729,75,40,40,new same-protocol features; G1/G2/G3 share Flash
-C,Flash,Raw SD2,full UNet fine-tuning,0.06793922858088841,0.0044855594826854394,184.62593001023382,75,40,40,new same-protocol features; G1/G2/G3 share Flash
-A,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05019080966556602,0.004050246760381549,161.14909132804934,75,40,40,frozen SHA-verified Experiment 7 cache
-B,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06099613081209604,0.004233638687611237,168.57602493815736,75,40,40,new same-protocol features; G1/G2/G3 share Flash
-C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05712738475711552,0.004173358037998628,167.55695492068463,75,40,40,new same-protocol features; G1/G2/G3 share Flash
-A,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05019080966556602,0.004050246760381549,161.14909132804934,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
-B,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06099613081209604,0.004233638687611237,168.57602493815736,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
-C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05712738475711552,0.004173358037998628,167.55695492068463,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
-A,Overall,Raw SD2,full UNet fine-tuning,0.03522257098656576,0.007847812338817612,149.42750331396738,172,80,50,frozen SHA-verified Experiment 11 cache
-B,Overall,Raw SD2,full UNet fine-tuning,0.03642886482565822,0.00794623997961138,153.02428513701585,172,80,50,new same-protocol features
-C,Overall,Raw SD2,full UNet fine-tuning,0.04032677100219561,0.008200635235531262,152.16304169356164,172,80,50,new same-protocol features
-A,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04294524729498305,0.009615164063471671,154.90536831861988,172,80,50,frozen SHA-verified Experiment 11 cache
-B,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04743329424316993,0.009886785806255325,155.38894324980907,172,80,50,new same-protocol features
-C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.048746216474706824,0.01036132337519723,158.3668014019287,172,80,50,new same-protocol features
 A,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.057675956495161856,0.008337325454217661,189.29424636387512,97,40,40,new Max-Support features
-B,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05973587684572813,0.008044363142895252,179.52110370193282,97,40,40,new Max-Support features
-C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06215825622788712,0.008594509758821324,191.34481047235607,97,40,40,new Max-Support features
+A,Black,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.11212498478445455,0.01334443344172472,229.5716628380382,97,40,40,new LoRA same-protocol ROI features
+A,Flash,Raw SD2,full UNet fine-tuning,0.0609828974272712,0.004201304709967602,181.29746752358994,75,40,40,frozen SHA-verified Experiment 7 cache
+A,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05019080966556602,0.004050246760381549,161.14909132804934,75,40,40,frozen SHA-verified Experiment 7 cache
+A,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05019080966556602,0.004050246760381549,161.14909132804934,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+A,Flash,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06158857142043761,0.004670624775689288,162.43374906412492,75,40,40,new LoRA same-protocol ROI features
+A,Overall,Raw SD2,full UNet fine-tuning,0.03522257098656576,0.007847812338817612,149.42750331396738,172,80,50,frozen SHA-verified Experiment 11 cache
+A,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04294524729498305,0.009615164063471671,154.90536831861988,172,80,50,frozen SHA-verified Experiment 11 cache
 A,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.04104938397782926,0.009105492056060649,154.36490266820283,172,80,50,new Max Black plus shared Flash features
+A,Overall,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06524438891705436,0.01164298147505471,171.80699275860616,172,80,50,new LoRA same-protocol ROI features
+B,Black,Raw SD2,full UNet fine-tuning,0.04519301296659426,0.0069411468453502555,172.44663633602465,97,40,40,new same-protocol features
+B,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05891196483267076,0.008343540572101587,183.16715540366144,97,40,40,new same-protocol features
+B,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05973587684572813,0.008044363142895252,179.52110370193282,97,40,40,new Max-Support features
+B,Black,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.11085255822477144,0.013210571520316669,228.89162034200177,97,40,40,new LoRA same-protocol ROI features
+B,Flash,Raw SD2,full UNet fine-tuning,0.053582950917153746,0.004192347350328881,179.5849942468729,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+B,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06099613081209604,0.004233638687611237,168.57602493815736,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+B,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06099613081209604,0.004233638687611237,168.57602493815736,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+B,Flash,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06512461575588245,0.004547617955282917,162.01558933456266,75,40,40,new LoRA same-protocol ROI features
+B,Overall,Raw SD2,full UNet fine-tuning,0.03642886482565822,0.00794623997961138,153.02428513701585,172,80,50,new same-protocol features
+B,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04743329424316993,0.009886785806255325,155.38894324980907,172,80,50,new same-protocol features
 B,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.047263684288629405,0.009316698655773998,155.60940635527726,172,80,50,new Max Black plus shared Flash features
+B,Overall,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06694405923454781,0.012365883701152996,174.99428057355098,172,80,50,new LoRA same-protocol ROI features
+C,Black,Raw SD2,full UNet fine-tuning,0.0396594894527007,0.006469060329192159,163.03911244814674,97,40,40,new same-protocol features
+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06256158132105778,0.00858442504809604,192.42172667965383,97,40,40,new same-protocol features
+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06215825622788712,0.008594509758821324,191.34481047235607,97,40,40,new Max-Support features
+C,Black,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.10060475516582804,0.01270106896053545,227.08024186096804,97,40,40,new LoRA same-protocol ROI features
+C,Flash,Raw SD2,full UNet fine-tuning,0.06793922858088841,0.0044855594826854394,184.62593001023382,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05712738475711552,0.004173358037998628,167.55695492068463,75,40,40,new same-protocol features; G1/G2/G3 share Flash
+C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05712738475711552,0.004173358037998628,167.55695492068463,75,40,40,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+C,Flash,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.061469824226169346,0.004724772893413255,160.77320264300346,75,40,40,new LoRA same-protocol ROI features
+C,Overall,Raw SD2,full UNet fine-tuning,0.04032677100219561,0.008200635235531262,152.16304169356164,172,80,50,new same-protocol features
+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.048746216474706824,0.01036132337519723,158.3668014019287,172,80,50,new same-protocol features
 C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.04801149155802867,0.010185647917396179,157.9033992005197,172,80,50,new Max Black plus shared Flash features
+C,Overall,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.060965292984929656,0.011253550614652962,172.11998731842488,172,80,50,new LoRA same-protocol ROI features
 B+C,Black,Raw SD2,full UNet fine-tuning,0.04319930458450344,0.007693734472519496,152.53195575784076,97,80,50,reused SHA-bound historical concatenated-feature metric
 B+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.060403929240976345,0.009421364570470814,170.79644078382188,97,80,50,reused SHA-bound historical concatenated-feature metric
-A+B+C,Black,Raw SD2,full UNet fine-tuning,0.043637860198413474,0.008376049292347473,144.56437255338835,97,120,50,reused SHA-bound historical concatenated-feature metric
-A+B+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06260648645472046,0.012527013068034732,165.6789800044351,97,120,50,reused SHA-bound historical concatenated-feature metric
+B+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.059858012137067214,0.008876078081907822,167.71974576026912,97,80,50,new concatenated Max features
+B+C,Black,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.10704224923542548,0.01210609172711298,212.53097649049823,97,80,50,new concatenated LoRA features; not bank average
 B+C,Flash,Raw SD2,full UNet fine-tuning,0.06377317434055384,0.006699109580178315,169.09833430246965,75,80,50,reused SHA-bound historical concatenated-feature metric
 B+C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06229247838155012,0.006588392774874962,157.42617808993492,75,80,50,reused SHA-bound historical concatenated-feature metric
 B+C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.06229247838155012,0.006588392774874962,157.42617808993492,75,80,50,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
+B+C,Flash,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.0673293664102968,0.007275781582297748,150.57237386184443,75,80,50,new concatenated LoRA features; not bank average
+B+C,Overall,Raw SD2,full UNet fine-tuning,0.04098819558255501,0.010284048479746798,138.96155533229836,172,160,50,reused SHA-bound historical concatenated-feature metric
+B+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05103955758564407,0.01304107621250162,143.48847604708985,172,160,50,reused SHA-bound historical concatenated-feature metric
+B+C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05036904543866704,0.012559782597440285,142.89237171894007,172,160,50,new concatenated Max features
+B+C,Overall,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06526353248800135,0.012959665570399414,160.77011265043967,172,160,50,new concatenated LoRA features; not bank average
+A+B+C,Black,Raw SD2,full UNet fine-tuning,0.043637860198413474,0.008376049292347473,144.56437255338835,97,120,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Black,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.06260648645472046,0.012527013068034732,165.6789800044351,97,120,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.061262469989306644,0.011581905674232177,162.53171954945344,97,120,50,new concatenated Max features
+A+B+C,Black,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.11017154076047313,0.014270357037648203,207.14770281068724,97,120,50,new concatenated LoRA features; not bank average
 A+B+C,Flash,Raw SD2,full UNet fine-tuning,0.06367302763290145,0.007142667358448954,165.27468204362987,75,120,50,reused SHA-bound historical concatenated-feature metric
 A+B+C,Flash,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.059413130610075304,0.0066297216388885895,151.3758929361905,75,120,50,reused SHA-bound historical concatenated-feature metric
 A+B+C,Flash,MSDF Max-Support,full UNet fine-tuning + MSDF,0.059413130610075304,0.0066297216388885895,151.3758929361905,75,120,50,same frozen Flash outputs as MSDF Full; Max-Support modifies Black only
-B+C,Overall,Raw SD2,full UNet fine-tuning,0.04098819558255501,0.010284048479746798,138.96155533229836,172,160,50,reused SHA-bound historical concatenated-feature metric
-B+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.05103955758564407,0.01304107621250162,143.48847604708985,172,160,50,reused SHA-bound historical concatenated-feature metric
+A+B+C,Flash,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06608617504172683,0.007319614935862542,147.97272548597175,75,120,50,new concatenated LoRA features; not bank average
 A+B+C,Overall,Raw SD2,full UNet fine-tuning,0.038415566608461876,0.008065420893772934,133.42743653163006,172,240,50,reused SHA-bound historical concatenated-feature metric
 A+B+C,Overall,MSDF Full (Full Mean-Support),full UNet fine-tuning + MSDF,0.04672251142493702,0.00969349867450929,138.1625390676134,172,240,50,reused SHA-bound historical concatenated-feature metric
-B+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.059858012137067214,0.008876078081907822,167.71974576026912,97,80,50,new concatenated Max features
-A+B+C,Black,MSDF Max-Support,full UNet fine-tuning + MSDF,0.061262469989306644,0.011581905674232177,162.53171954945344,97,120,50,new concatenated Max features
-B+C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.05036904543866704,0.012559782597440285,142.89237171894007,172,160,50,new concatenated Max features
 A+B+C,Overall,MSDF Max-Support,full UNet fine-tuning + MSDF,0.045962896164320935,0.009381372863823985,137.37456251233482,172,240,50,new concatenated Max features
+A+B+C,Overall,SD2 Inpainting + LoRA r16,UNet Attention LoRA fine-tuning,0.06555193029980085,0.012738035974333149,155.9390595090969,172,240,50,new concatenated LoRA features; not bank average
 A,Black,DefectFill PARTIAL Primary Strict,UNet + text-encoder LoRA r8 plus three losses,0.078682106984611,0.011567035732388396,206.32546056685877,97,40,40,DefectFill Primary Strict ROI
 A,Flash,DefectFill PARTIAL Primary Strict,UNet + text-encoder LoRA r8 plus three losses,0.06803086832050123,0.004827388837116534,192.83861798191805,75,40,40,DefectFill Primary Strict ROI
 A,Overall,DefectFill PARTIAL Primary Strict,UNet + text-encoder LoRA r8 plus three losses,0.04318229311669471,0.008006418506989901,163.75874221244868,172,80,50,DefectFill Primary Strict ROI

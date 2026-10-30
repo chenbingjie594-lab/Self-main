@@ -39,6 +39,8 @@ def require(x, msg):
 def write_csv(p, rows):
     with Path(p).open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+def read_csv(p):
+    with Path(p).open(encoding="utf-8") as f: return list(csv.DictReader(f))
 
 def audit():
     checkpoints = {}
@@ -160,10 +162,26 @@ def evaluate(device_index=0):
     (OUT/"REPORT.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
     s=load(OUT/"experiment_status.json"); s.update(status="COMPLETE_PARTIAL_REIMPLEMENTATION",evaluation_complete=True,completed_at=now()); save(OUT/"experiment_status.json",s)
 
+def finalize():
+    """Rebuild comparison from completed metrics without model execution."""
+    bw, pooled = read_csv(OUT/"bankwise_metrics.csv"), read_csv(OUT/"pooled_metrics.csv")
+    baseline = read_csv(LORA_OUT/"comparison.csv")
+    comparison = [r for r in baseline if r["method"] in ("Raw SD2", "MSDF Full (Full Mean-Support)", "MSDF Max-Support", "SD2 Inpainting + LoRA r16")]
+    for r in bw+pooled:
+        comparison.append({"scope":r.get("bank",r.get("scope")),"population":r["population"],
+          "method":"DefectFill PARTIAL Primary Strict","fine_tuning_type":"UNet + text-encoder LoRA r8 plus three losses",
+          **{k:r[k] for k in ("KID","KID_subset_std","FID","reference_ROIs","generated_images","KID_subset_size")},
+          "metric_source":r["metric_source"]})
+    write_csv(OUT/"comparison.csv", comparison)
+    report=(OUT/"REPORT.md").read_text(encoding="utf-8")
+    note="\n## 对比解释\n\n`comparison.csv` 同时包含 Raw SD2、MSDF Full、MSDF Max-Support、SD2 Inpainting + LoRA r16 与本方法。DefectFill 使用 UNet+文本编码器 LoRA r8 和三项损失；LoRA 基线仅使用 UNet Attention LoRA r16，因此差异不构成纯 Loss 消融。\n"
+    if "## 对比解释" not in report: (OUT/"REPORT.md").write_text(report+note,encoding="utf-8")
+
 def main():
-    p=argparse.ArgumentParser(); p.add_argument("stage",choices=("audit","generate","evaluate","all")); p.add_argument("--device",type=int,default=0); a=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument("stage",choices=("audit","generate","evaluate","finalize","all")); p.add_argument("--device",type=int,default=0); a=p.parse_args()
     os.environ.update(HF_HUB_OFFLINE="1",TRANSFORMERS_OFFLINE="1")
     if a.stage in ("audit","all"): audit()
     if a.stage in ("generate","all"): generate(a.device)
     if a.stage in ("evaluate","all"): evaluate(a.device)
+    if a.stage in ("finalize","all"): finalize()
 if __name__ == "__main__": main()
