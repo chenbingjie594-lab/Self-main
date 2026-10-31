@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE",
+  "training_count": 0,
+  "generated_images": 720,
+  "feature_count": 720,
+  "final_eval_used": false,
+  "runtime_audit": {
+    "status": "FROZEN_BEFORE_METRICS",
+    "device": "cuda:0",
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "torch": "2.5.1+cu124",
+    "CUDA": "12.4",
+    "torch_fidelity": "0.3.0",
+    "lpips": "0.1.4",
+    "weights": {
+      "weights-inception-2015-12-05-6726825d.pth": {
+        "path": "/home/cbj/.cache/torch/hub/checkpoints/weights-inception-2015-12-05-6726825d.pth",
+        "sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2"
+      },
+      "alexnet-owt-7be5be79.pth": {
+        "path": "/home/cbj/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth",
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+      },
+      "alex.pth": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/lpips/weights/v0.1/alex.pth",
+        "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+      }
+    },
+    "source_files": {
+      "torch_fidelity.feature_extractor_inceptionv3": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch_fidelity/feature_extractor_inceptionv3.py",
+        "sha256": "1cf34e394665d52aa8d6522aae67370a036add18bfd91eb6657b2d666e458d34"
+      },
+      "torch_fidelity.metric_fid": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch_fidelity/metric_fid.py",
+        "sha256": "e8a172867a1b6e9d4a1647d4d85e69e6930d94ee1b6a908a5be5d3b7755aa0cd"
+      },
+      "torch_fidelity.metric_kid": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/torch_fidelity/metric_kid.py",
+        "sha256": "4bc68c5971b751082c5eee1a73ddde43d0b86617ce65455eedab74f8a84030f0"
+      },
+      "lpips.lpips": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/lpips/lpips.py",
+        "sha256": "780d09b907cb9b661e0ae28b2d163ddfba92f9e870d7feba34d4790cc6590658"
+      },
+      "lpips.pretrained_networks": {
+        "path": "/mnt/sda/cbj/miniconda3/envs/yolo11/lib/python3.10/site-packages/lpips/pretrained_networks.py",
+        "sha256": "6a27f714c51796db466e86bebba6a617c1bfc4d566f3a1756497629c1248686e"
+      }
+    },
+    "TF32": false,
+    "autocast": false,
+    "network_downloads": 0
+  }
+}
