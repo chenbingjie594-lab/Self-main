@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "training_performed": false,
+  "checkpoint_modified": false,
+  "frozen_inputs": {
+    "slots_sha256": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+    "rng_sha256": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+    "generation_protocol_sha256": "ac273311f73fd5172466ebcaf5917244a773d0fe5f8e849099fb9363dadf52d5"
+  },
+  "checkpoints": {
+    "full": {
+      "flash": {
+        "training_ablation": "full",
+        "msdf_sha256": "b4137f5986acfe08d3003d1fb1a093270a7a87d9a480f56200946121fa151f03",
+        "tree": {
+          "files": {
+            "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+            "model_index.json": "c6ebd7a6d115354d56ce13d55e5bb6ea34cbee320270bbaa5f2db5b29b5dfc26",
+            "msdf.pt": "b4137f5986acfe08d3003d1fb1a093270a7a87d9a480f56200946121fa151f03",
+            "msdf_training.json": "2f1c6f34cfa324faf622e0f3d93698e898db8acd54a2082452654e17a29aa3ff",
+            "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+            "text_encoder/config.json": "32f1462fc67fab5af383971d14b43ce2b8c54c328c43485c264218a17512802b",
+            "text_encoder/model.safetensors": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15",
+            "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+            "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+            "tokenizer/tokenizer_config.json": "d64c998c2e9d5cd72c72ff34123d838271a038e28c8bf63a5ca8e9b90c950e1c",
+            "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+            "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+            "unet/diffusion_pytorch_model.safetensors": "780caa1caf5905bb1bde77a4f6c1c84a9b4ff4c058bdf229b8b7c02e98636369",
+            "vae/config.json": "a7e766a37968d27a9886b8b6a1695ac689a291ba404a164b34bd033af9a2313a",
+            "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+          },
+          "tree_sha256": "4dd18c476f125d2dafec9eeec90cf8a88ef3e5acde52e22613bef2745ff527d5",
+          "file_count": 15
+        },
+        "successful_updates": 2000,
+        "strict_adapter_load": true,
+        "training_contract": {
+          "mode": "full",
+          "pixel_branch": true,
+          "latent_branch": true,
+          "morphology_alignment": true,
+          "morphology_support_loss": true,
+          "branch_dropout_active": true
+        }
+      },
+      "black": {
+        "training_ablation": "full",
+        "msdf_sha256": "aba1b1a1596afde08c7e0ea46d4ce0d085fbe149d6714273cd7fefa0b48f3491",
+        "tree": {
+          "files": {
+            "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+            "model_index.json": "c6ebd7a6d115354d56ce13d55e5bb6ea34cbee320270bbaa5f2db5b29b5dfc26",
+            "msdf.pt": "aba1b1a1596afde08c7e0ea46d4ce0d085fbe149d6714273cd7fefa0b48f3491",
+            "msdf_training.json": "221da0a86d82632b47eaf6f6e2d0505df2da4c4fde17129e21cfe15d65344da6",
+            "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+            "text_encoder/config.json": "32f1462fc67fab5af383971d14b43ce2b8c54c328c43485c264218a17512802b",
+            "text_encoder/model.safetensors": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15",
+            "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+            "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+            "tokenizer/tokenizer_config.json": "d64c998c2e9d5cd72c72ff34123d838271a038e28c8bf63a5ca8e9b90c950e1c",
+            "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+            "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+            "unet/diffusion_pytorch_model.safetensors": "9e8650ec30529a1c00bbd27d02d7de47192f7bc5fd9864282b707865372a0f3a",
+            "vae/config.json": "a7e766a37968d27a9886b8b6a1695ac689a291ba404a164b34bd033af9a2313a",
+            "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+          },
+          "tree_sha256": "84f03674a487909e852afb51acc6e482ae02ce02dba5866707f9b67354011405",
+          "file_count": 15
+        },
+        "successful_updates": 2000,
+        "strict_adapter_load": true,
+        "training_contract": {
+          "mode": "full",
+          "pixel_branch": true,
+          "latent_branch": true,
+          "morphology_alignment": true,
+          "morphology_support_loss": true,
+          "branch_dropout_active": true
+        }
+      }
+    },
+    "no_latent": {
+      "flash": {
+        "training_ablation": "no_latent",
+        "msdf_sha256": "dfb13d2587941afd88d454eec34716fad1d5850f8504185ec3a447e0a73744d0",
+        "tree": {
+          "files": {
+            "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+            "model_index.json": "c6ebd7a6d115354d56ce13d55e5bb6ea34cbee320270bbaa5f2db5b29b5dfc26",
+            "msdf.pt": "dfb13d2587941afd88d454eec34716fad1d5850f8504185ec3a447e0a73744d0",
+            "msdf_training.json": "abb1520301cba6b6a7cc7c87fb123b351b66ce5386149c7360284d03f9dbc261",
+            "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+            "text_encoder/config.json": "32f1462fc67fab5af383971d14b43ce2b8c54c328c43485c264218a17512802b",
+            "text_encoder/model.safetensors": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15",
+            "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+            "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+            "tokenizer/tokenizer_config.json": "d64c998c2e9d5cd72c72ff34123d838271a038e28c8bf63a5ca8e9b90c950e1c",
+            "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+            "training_history.csv": "78903aa112ad5908aa9c0b7630c76413d39ea9508092ac91eeda15df3d60506a",
+            "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+            "unet/diffusion_pytorch_model.safetensors": "33c4b66fc7a9f50d141a264e3ec0c7c35de383fb32516efc0d92d9b4c7937be4",
+            "vae/config.json": "a7e766a37968d27a9886b8b6a1695ac689a291ba404a164b34bd033af9a2313a",
+            "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+          },
+          "tree_sha256": "e0e837fb22287ce54d5b3286b98c21e65f315f686a21698e2785b29cc47317fe",
+          "file_count": 16
+        },
+        "successful_updates": 2000,
+        "strict_adapter_load": true,
+        "training_contract": {
+          "mode": "no_latent",
+          "pixel_branch": true,
+          "latent_branch": false,
+          "morphology_alignment": true,
+          "morphology_support_loss": true,
+          "branch_dropout_active": false
+        }
+      },
+      "black": {
+        "training_ablation": "no_latent",
+        "msdf_sha256": "91e3a1a1dbe8df98b2123facb99ce68f9b8cae393ee72c7b31122d78deb759c1",
+        "tree": {
+          "files": {
+            "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+            "model_index.json": "c6ebd7a6d115354d56ce13d55e5bb6ea34cbee320270bbaa5f2db5b29b5dfc26",
+            "msdf.pt": "91e3a1a1dbe8df98b2123facb99ce68f9b8cae393ee72c7b31122d78deb759c1",
+            "msdf_training.json": "1e18b6755976cfc560090c2b13a95a12b9d909d5c3696b558b0b538d91013605",
+            "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+            "text_encoder/config.json": "32f1462fc67fab5af383971d14b43ce2b8c54c328c43485c264218a17512802b",
+            "text_encoder/model.safetensors": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15",
+            "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+            "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+            "tokenizer/tokenizer_config.json": "d64c998c2e9d5cd72c72ff34123d838271a038e28c8bf63a5ca8e9b90c950e1c",
+            "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+            "training_history.csv": "e71b2752c96be3a4ec790c5d204d79a4bce0205a8f17bc40478bc4c8bce2875b",
+            "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+            "unet/diffusion_pytorch_model.safetensors": "5592a927978454c6e633229cfb1aea83f219e741be73188801d47d88345e497f",
+            "vae/config.json": "a7e766a37968d27a9886b8b6a1695ac689a291ba404a164b34bd033af9a2313a",
+            "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+          },
+          "tree_sha256": "10ab5256b0e6bc7d08677c7cbfe2a2d21a9f84d22ae9b83c7a2f5c2d17720b9d",
+          "file_count": 16
+        },
+        "successful_updates": 2000,
+        "strict_adapter_load": true,
+        "training_contract": {
+          "mode": "no_latent",
+          "pixel_branch": true,
+          "latent_branch": false,
+          "morphology_alignment": true,
+          "morphology_support_loss": true,
+          "branch_dropout_active": false
+        }
+      }
+    },
+    "no_morph": {
+      "flash": {
+        "training_ablation": "no_morph",
+        "msdf_sha256": "f7e142564283678d89bb5fd53e7dcb91e278a88122c55d855d252009c9c9a70c",
+        "tree": {
+          "files": {
+            "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+            "model_index.json": "c6ebd7a6d115354d56ce13d55e5bb6ea34cbee320270bbaa5f2db5b29b5dfc26",
+            "msdf.pt": "f7e142564283678d89bb5fd53e7dcb91e278a88122c55d855d252009c9c9a70c",
+            "msdf_training.json": "411eb607852c2574e1e473b4fbb4d10e08dccdd07a36a2f9b846a9d3a67ebf84",
+            "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+            "text_encoder/config.json": "32f1462fc67fab5af383971d14b43ce2b8c54c328c43485c264218a17512802b",
+            "text_encoder/model.safetensors": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15",
+            "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+            "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+            "tokenizer/tokenizer_config.json": "d64c998c2e9d5cd72c72ff34123d838271a038e28c8bf63a5ca8e9b90c950e1c",
+            "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+            "training_history.csv": "a592650e9dbb768a3baefe8761a5c8cc5815279ad72de88940dfb6b30ba16971",
+            "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+            "unet/diffusion_pytorch_model.safetensors": "d785c9de9e7f5dd845ba29eeb0158bfb1b859564c5035af11688d53663558953",
+            "vae/config.json": "a7e766a37968d27a9886b8b6a1695ac689a291ba404a164b34bd033af9a2313a",
+            "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+          },
+          "tree_sha256": "096b7fcd055ef818dbde159ea9361a34bdaaa0697fb11047d68177fa01426d05",
+          "file_count": 16
+        },
+        "successful_updates": 2000,
+        "strict_adapter_load": true,
+        "training_contract": {
+          "mode": "no_morph",
+          "pixel_branch": true,
+          "latent_branch": true,
+          "morphology_alignment": false,
+          "morphology_support_loss": false,
+          "branch_dropout_active": true
+        }
+      },
+      "black": {
+        "training_ablation": "no_morph",
+        "msdf_sha256": "8d5bec58db215c14ccdd87ffbbd4926b23ffc03b3dbc5d2c6dcc8bce992892db",
+        "tree": {
+          "files": {
+            "feature_extractor/preprocessor_config.json": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6",
+            "model_index.json": "c6ebd7a6d115354d56ce13d55e5bb6ea34cbee320270bbaa5f2db5b29b5dfc26",
+            "msdf.pt": "8d5bec58db215c14ccdd87ffbbd4926b23ffc03b3dbc5d2c6dcc8bce992892db",
+            "msdf_training.json": "9b0161a708241ffbc38e7ab6a08c122d6012f963c44d49b4e955015abd5773c5",
+            "scheduler/scheduler_config.json": "a6295dd564aefaa0125b7967a65ccd6a77ad47158a2eceb4fa773845249dae38",
+            "text_encoder/config.json": "32f1462fc67fab5af383971d14b43ce2b8c54c328c43485c264218a17512802b",
+            "text_encoder/model.safetensors": "67e013543d4fac905c882e2993d86a2d454ee69dc9e8f37c0c23d33a48959d15",
+            "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+            "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+            "tokenizer/tokenizer_config.json": "d64c998c2e9d5cd72c72ff34123d838271a038e28c8bf63a5ca8e9b90c950e1c",
+            "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+            "training_history.csv": "8691f844ae03ad64f3dd750c2cb16a7c4eef46a7ee3b36e2e0d780e476b8070b",
+            "unet/config.json": "0b95743ea9acd4ef456a92d99acce4f88c2e6444a33baa393633e8da63d92564",
+            "unet/diffusion_pytorch_model.safetensors": "5716a3c70af9be7bf5234d9f65409a6b4efb45f4c1ffb6be084c5cbbecdbfec5",
+            "vae/config.json": "a7e766a37968d27a9886b8b6a1695ac689a291ba404a164b34bd033af9a2313a",
+            "vae/diffusion_pytorch_model.safetensors": "2aa1f43011b553a4cba7f37456465cdbd48aab7b54b9348b890e8058ea7683ec"
+          },
+          "tree_sha256": "96644e5f4edb84eb588bafe2a333be2e11572f458882d9887bf86eb6a3f12e23",
+          "file_count": 16
+        },
+        "successful_updates": 2000,
+        "strict_adapter_load": true,
+        "training_contract": {
+          "mode": "no_morph",
+          "pixel_branch": true,
+          "latent_branch": true,
+          "morphology_alignment": false,
+          "morphology_support_loss": false,
+          "branch_dropout_active": true
+        }
+      }
+    }
+  },
+  "historical_A0_reuse": {
+    "decision": "REJECTED_CHECKPOINT_SHA_MISMATCH",
+    "historical_binding_file": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_stage25_msdf_v2_requalification/detector_recovery_20261014_032214/generator_checkpoint_binding.json",
+    "historical_msdf_sha256": {
+      "flash": "20b1832b7b16d6f78131bf6c7ab4dcc999bb8a819eb99243c83c5bb286b0cbaf",
+      "black": "f241c3a866fb9cfa094ea643819ea53e181cac4c3130e5eecdbd28e1d171375b"
+    },
+    "formal_A0_msdf_sha256": {
+      "flash": "b4137f5986acfe08d3003d1fb1a093270a7a87d9a480f56200946121fa151f03",
+      "black": "aba1b1a1596afde08c7e0ea46d4ce0d085fbe149d6714273cd7fefa0b48f3491"
+    }
+  }
+}
