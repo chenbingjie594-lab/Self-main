@@ -1,0 +1,46 @@
+{
+  "status": "FROZEN",
+  "reference": "V2 TRAIN only",
+  "reference_count": 172,
+  "reference_feature_source": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/plastic_bomo_msdf_gamma_sweep/gamma_sweep_inception_features.npz",
+  "roi": "normalized bbox expanded 25% on each side; floor/ceil; canvas clip",
+  "feature_extractor": "torch-fidelity inception-v3-compat 2048D float32",
+  "KID": {
+    "subsets": 100,
+    "subset_size": "min(50,n_real,n_fake)",
+    "seed": 42,
+    "kernel": "polynomial degree=3 gamma=None coef0=1"
+  },
+  "FID": "torch-fidelity float64 feature statistics",
+  "pooled": "recomputed from concatenated features",
+  "generation": {
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "scheduler": "DDIMScheduler",
+    "scheduler_config": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "clip_sample": false,
+      "set_alpha_to_one": false,
+      "steps_offset": 1,
+      "prediction_type": "epsilon",
+      "thresholding": false,
+      "dynamic_thresholding_ratio": 0.995,
+      "clip_sample_range": 1.0,
+      "sample_max_value": 1.0,
+      "timestep_spacing": "leading",
+      "rescale_betas_zero_snr": false
+    },
+    "eta": 0.0,
+    "strength": 1.0,
+    "height": 512,
+    "width": 512,
+    "negative_prompt": ""
+  },
+  "slots_sha256": "3d4d843c39aea006690ea602ef719a26d8a022060f85cc9a40db9ce19b6bb8c1",
+  "rng_sha256": "18d122399470b8611b43695bc5c1d1ee09386a58b3695c6a5936033a6bf86996",
+  "final_eval_used": false
+}
