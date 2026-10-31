@@ -1,0 +1,13 @@
+configuration,metric,absolute_delta_vs_full,percent_change_vs_full,improved
+w/o Latent Semantic,Black_KID,0.013875271166273295,31.22974406596285,False
+w/o Latent Semantic,Black_FID,7.631279916732524,4.990701428381498,False
+w/o Latent Semantic,Flash_KID,0.006971765581167758,10.943293317102171,False
+w/o Latent Semantic,Flash_FID,7.599735814415681,5.362928582126526,False
+w/o Latent Semantic,Overall_KID,0.006695980204367756,17.45415606974599,False
+w/o Latent Semantic,Overall_FID,8.175300866496656,6.359847279686528,False
+w/o Morphology Guidance,Black_KID,0.0035266490264411685,7.937599574554177,False
+w/o Morphology Guidance,Black_FID,4.625303534986813,3.0248541805082048,False
+w/o Morphology Guidance,Flash_KID,0.00635818099177532,9.980174856161254,False
+w/o Morphology Guidance,Flash_FID,0.41536616804313553,0.29311270142068385,False
+w/o Morphology Guidance,Overall_KID,0.003231845764572347,8.424329022268896,False
+w/o Morphology Guidance,Overall_FID,3.2906970813712064,2.559946260448692,False
