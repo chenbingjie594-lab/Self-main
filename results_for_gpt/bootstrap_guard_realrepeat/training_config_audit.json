@@ -1,0 +1,30 @@
+{
+  "status": "MATCHED_EXCEPT_DATA_SAMPLER",
+  "ultralytics": "8.4.145",
+  "python": "3.10.20",
+  "torch": "2.5.1+cu124",
+  "historical_args_path": "runs/bootstrap_guard_downstream/bootstrap_guard_s42/args.yaml",
+  "historical_args_sha256": "2a1becf81c79ccae14e38210da145aa8735ff75efa9b5853404e3515cc3aaa5e",
+  "model_path": "pretrained/yolo11s.pt",
+  "model_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "data_yaml": "/mnt/sda/cbj/dataset/Plastic_Bomo/bootstrap_guard_downstream/real_only.yaml",
+  "data_yaml_sha256": "1b4e0d6410d0d3b046cf26ea79bf96a4f7545a1be7ed2673942c7be1afee36d2",
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "frozen": {
+    "epochs": 150,
+    "patience": 40,
+    "batch": 1,
+    "imgsz": 1536,
+    "optimizer": "auto",
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "close_mosaic": 10,
+    "amp": true,
+    "deterministic": true
+  },
+  "note": "augment=False in historical args is inference augmentation; train transforms remain enabled as listed."
+}
