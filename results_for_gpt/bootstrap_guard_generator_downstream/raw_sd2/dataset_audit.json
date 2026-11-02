@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "e1e022f239145c857aeacad4c37b0a95d50d60b54c3d4350de300f4ed8da26e9",
+  "manifest_status": "COMPLETE",
+  "bank": "A",
+  "records": 80,
+  "slot_ids_unique": true,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "total_train_images": 218,
+  "frozen_train_split_all": true,
+  "historical_source_path_naming_caveat_count": 23,
+  "historical_source_path_naming_caveat": "Frozen protocol says split=train, while the bound legacy source_path may contain /images/val/. Eligibility is based on the frozen Stage20B protocol identity/SHA/annotation binding, not that legacy folder token.",
+  "train_list_sha256": "41c454b1a7958ce155f9b8bc6716c3454db06b3c2555a8566cd8579773cc9a07",
+  "errors": [],
+  "per_item_checks": {
+    "checked": 80,
+    "passed": 80,
+    "fields": [
+      "file_exists",
+      "image_size",
+      "image_sha256",
+      "label_sha256",
+      "class",
+      "bbox",
+      "annotation_id",
+      "slot_id",
+      "TRAIN_split"
+    ]
+  }
+}
