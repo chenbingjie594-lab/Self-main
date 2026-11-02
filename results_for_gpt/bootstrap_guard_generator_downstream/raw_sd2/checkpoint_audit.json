@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "seed": 42,
+      "path": "runs/bootstrap_guard_generator_downstream/raw_sd2/raw_sd2_bank_a_s42/weights/best.pt",
+      "sha256": "a39050444118fe2c21a9a9f20c96808a77562d37d4fb1a1baa7695e68c5f73e7",
+      "best_epoch": 106
+    },
+    {
+      "seed": 3407,
+      "path": "runs/bootstrap_guard_generator_downstream/raw_sd2/raw_sd2_bank_a_s3407/weights/best.pt",
+      "sha256": "d54c15416997e653838205adaabc62775762cd6f5eb6a602be3aa1c58af2e92b",
+      "best_epoch": 50
+    },
+    {
+      "seed": 2026,
+      "path": "runs/bootstrap_guard_generator_downstream/raw_sd2/raw_sd2_bank_a_s2026/weights/best.pt",
+      "sha256": "919d8ccfe3899bd824d6b7176e4079f33519d337f4a4b68145a0f1a9fbf7416d",
+      "best_epoch": 71
+    }
+  ]
+}
