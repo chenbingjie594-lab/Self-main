@@ -1,0 +1,39 @@
+{
+  "classification": "PER_EPOCH_EXPOSURE_MATCHED_NOT_STRICT_TOTAL_COMPUTE_MATCHED",
+  "realrepeat": {
+    "42": {
+      "samples_per_epoch": 218,
+      "batches_per_epoch": 218,
+      "stop_epoch": 131,
+      "optimizer_steps": 479
+    },
+    "3407": {
+      "samples_per_epoch": 218,
+      "batches_per_epoch": 218,
+      "stop_epoch": 114,
+      "optimizer_steps": 421
+    },
+    "2026": {
+      "samples_per_epoch": 218,
+      "batches_per_epoch": 218,
+      "stop_epoch": 107,
+      "optimizer_steps": 397
+    }
+  },
+  "bootstrap_guard": {
+    "42": {
+      "stop_epoch": 150,
+      "exact_optimizer_steps": "NOT_RECORDED_HISTORICALLY"
+    },
+    "3407": {
+      "stop_epoch": 150,
+      "exact_optimizer_steps": "NOT_RECORDED_HISTORICALLY"
+    },
+    "2026": {
+      "stop_epoch": 130,
+      "exact_optimizer_steps": "NOT_RECORDED_HISTORICALLY"
+    }
+  },
+  "reason": "Early stopping may differ; historical exact optimizer-step callbacks are unavailable.",
+  "minimal_strict_followup": "Predeclare fixed epochs (or fixed optimizer updates) and rerun both RealRepeat and BootstrapGuard from identical initialization; not executed here."
+}
