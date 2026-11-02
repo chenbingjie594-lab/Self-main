@@ -1,0 +1,25 @@
+{
+  "metric": "mAP50-95",
+  "bootstrap_guard_minus_realrepeat_by_seed": {
+    "42": 0.013827157756526487,
+    "3407": 0.021085843304201546,
+    "2026": 0.03223478500628746
+  },
+  "absolute_mean_difference": 0.02238259535567183,
+  "relative_improvement_percent": 5.351914549413714,
+  "bootstrap_guard_wins": 3,
+  "realrepeat_wins": 0,
+  "ties": 0,
+  "class_ap5095": {
+    "flash": {
+      "real_only": 0.3957432744603193,
+      "realrepeat": 0.3972554578805612,
+      "bootstrap_guard": 0.4186485276616521
+    },
+    "black": {
+      "real_only": 0.41727706820727545,
+      "realrepeat": 0.4391777530392123,
+      "bootstrap_guard": 0.46254987396946506
+    }
+  }
+}
