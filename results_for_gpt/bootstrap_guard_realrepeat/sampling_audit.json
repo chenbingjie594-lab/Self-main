@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "implementation": "deterministic epoch-aware torch Sampler; no data files changed",
+  "rule": "all 138 real images once plus 80 replacement draws, shuffled each epoch",
+  "audits": {
+    "42": {
+      "epochs_recorded": 131,
+      "all_epochs_218": true,
+      "all_epochs_cover_all_138": true,
+      "unique_epoch_sequence_hashes": 131,
+      "first_epoch_sequence_sha256": "9a7b17caa06df413d40dc3d79c547d909d7a475011244fb90ac4ed7dc8e33a86",
+      "last_epoch_sequence_sha256": "64527386b4ff49f1bbfe3c405721be56d79343087198537b70eae60756548eaf",
+      "raw_epoch_log_sha256": "63d0fc3d14d0c31efe94bfb65292627576ae33bafe96bf4f89f18a35389ced13",
+      "raw_epoch_log_server_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_realrepeat/sampling_epochs_seed42.jsonl"
+    },
+    "3407": {
+      "epochs_recorded": 114,
+      "all_epochs_218": true,
+      "all_epochs_cover_all_138": true,
+      "unique_epoch_sequence_hashes": 114,
+      "first_epoch_sequence_sha256": "f6b12b8a5f679c138df779e35834e0f4413de7585a1620da372fd42a2925d595",
+      "last_epoch_sequence_sha256": "a71831e9ce8838f11fe44ecd34265cd023f937559ed90c9e57144a9b2a57b447",
+      "raw_epoch_log_sha256": "23b8cde159562857aa1e0320b851c029723d3c699ca9cfb76e963211477afa35",
+      "raw_epoch_log_server_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_realrepeat/sampling_epochs_seed3407.jsonl"
+    },
+    "2026": {
+      "epochs_recorded": 107,
+      "all_epochs_218": true,
+      "all_epochs_cover_all_138": true,
+      "unique_epoch_sequence_hashes": 107,
+      "first_epoch_sequence_sha256": "92e0f6b14552379701941276ddd17c09d24ebf49193ba97563797ce7acda5db1",
+      "last_epoch_sequence_sha256": "391f8e8ddc54f358c05f2bb1b08745a74e776120612faa36aa9b0f4df7c3f755",
+      "raw_epoch_log_sha256": "48b755648b364b5ed362d832571124ad1cbde4c0ced26c3d8df382b3f9682f13",
+      "raw_epoch_log_server_path": "/mnt/sda/cbj/ImageGeneration/Self-main/results_for_gpt/bootstrap_guard_realrepeat/sampling_epochs_seed2026.jsonl"
+    }
+  }
+}
