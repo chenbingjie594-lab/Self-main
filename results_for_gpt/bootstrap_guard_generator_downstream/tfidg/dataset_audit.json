@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "51cced78c38e922ea5149f777b12f2e86aba58d072702d3ffdf8641db9977d0d",
+  "manifest_status": "COMPLETE",
+  "method": "TF-IDG",
+  "bank_A_records": 80,
+  "slot_ids_unique": true,
+  "slot_set_identical_to_raw_sd2_and_lora": true,
+  "class_counts": {
+    "black": 40,
+    "flash": 40
+  },
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "total_train_images": 218,
+  "full_canvas_wh": [
+    4096,
+    1024
+  ],
+  "quality_selection": false,
+  "best_of_n": false,
+  "reroll_count": 0,
+  "DDIM_steps": 50,
+  "CFG": 3.5,
+  "errors": [],
+  "per_item_checks": {
+    "checked": 80,
+    "passed": 80,
+    "fields": [
+      "slot_id",
+      "annotation_id",
+      "class",
+      "frozen_split",
+      "image_sha256",
+      "image_wh",
+      "bbox"
+    ]
+  }
+}
