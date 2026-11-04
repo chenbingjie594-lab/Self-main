@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "method": "MAGIC",
+  "source_manifest_sha256": "a21f87b782d1c91d5b3842a29baa3ceb6d8596f50f00163a113bd3f1e7414819",
+  "inference_manifest_sha256": "f351cd6c344092373aac6500f87c4a644d3f6c02e51cf833f82e272aaa13fa46",
+  "bank": "A",
+  "generation_seed": 42,
+  "bank_A_records": 80,
+  "slot_ids_unique": true,
+  "slot_set_identical_to_raw_sd2": true,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "total_train_images": 218,
+  "native_output_wh": [
+    512,
+    512
+  ],
+  "detector_canvas_wh": [
+    4096,
+    1024
+  ],
+  "canvas_adapter": "paste frozen 512x512 MAGIC crop into SHA-verified frozen normal at fixed_crop_xyxy",
+  "quality_selection": false,
+  "best_of_n": false,
+  "reroll": false,
+  "protocol_deviation": "MAGIC is crop-native; full detector canvas is reconstructed by the frozen inverse crop transform",
+  "structural_failures_retained": 33,
+  "errors": [],
+  "per_item_checks": {
+    "checked": 80,
+    "passed": 80,
+    "verified_fields": [
+      "slot_id",
+      "annotation_id",
+      "source_group_id",
+      "class",
+      "normal_id",
+      "sample_seed",
+      "MAGIC crop SHA256",
+      "full-canvas SHA256",
+      "bbox"
+    ]
+  }
+}
