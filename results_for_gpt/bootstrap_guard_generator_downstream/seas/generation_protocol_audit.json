@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "comparison_type": "B_NATIVE_GENERATION_EXTENSION",
+  "protocol_label": "NATIVE_GENERATION_NON_POSITION_MATCHED",
+  "strict_position_paired": false,
+  "paper_usage": "Must not be described as a strictly controlled position-matched generator comparison",
+  "method": "SeaS (Native Generation, Non-Position-Matched)",
+  "backbone": "SD1.4",
+  "native_parameters": {
+    "backbone": "SD1.4",
+    "steps": 25,
+    "guidance_scale": 8,
+    "add_noise_step": 1500,
+    "threshold": 0.2,
+    "batch_size": 10
+  },
+  "target_background_preserved": false,
+  "target_position_controlled": false,
+  "sample_seed_or_latent_matched_to_raw_sd2": false,
+  "seed_identity_mismatch_count": 80,
+  "labels": "bounding boxes computed from each native generated mask; frozen Raw-SD2 boxes are not used",
+  "inference_changed": false,
+  "quality_selection": false,
+  "best_of_n": false,
+  "reroll_count": 0,
+  "mean_native_mask_vs_frozen_target_iou": 0.45360723289117455,
+  "mean_location_shift_px": 2.3239370336560254,
+  "errors": []
+}
