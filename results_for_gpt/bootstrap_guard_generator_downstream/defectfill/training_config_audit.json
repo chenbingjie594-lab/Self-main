@@ -1,0 +1,26 @@
+{
+  "status": "MATCHED_EXCEPT_TRAIN_DATA",
+  "method": "DefectFill (Partial Reimplementation)",
+  "ultralytics": "8.4.145",
+  "python": "3.10.20",
+  "torch": "2.5.1+cu124",
+  "historical_args_sha256": "2a1becf81c79ccae14e38210da145aa8735ff75efa9b5853404e3515cc3aaa5e",
+  "model_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "frozen": {
+    "epochs": 150,
+    "patience": 40,
+    "batch": 1,
+    "imgsz": 1536,
+    "optimizer": "auto",
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "close_mosaic": 10,
+    "amp": true,
+    "deterministic": true
+  }
+}
