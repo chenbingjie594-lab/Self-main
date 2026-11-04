@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "method": "DefectFill (Partial Reimplementation)",
+  "method_identity": "PARTIAL_REIMPLEMENTATION",
+  "official_implementation": false,
+  "source_manifest_sha256": "3189acc3f2a1110e4efd12f24e8f7a786fd215aef3af4f5bbde1a212c3311e1c",
+  "bank": "A",
+  "generation_seed": 42,
+  "bank_A_records": 80,
+  "slot_ids_unique": true,
+  "slot_set_identical_to_raw_sd2": true,
+  "class_counts": {
+    "black": 40,
+    "flash": 40
+  },
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "total_train_images": 218,
+  "full_canvas_wh": [
+    4096,
+    1024
+  ],
+  "mask_source": "COARSE_BBOX_MASK",
+  "protocol": "Primary Strict",
+  "candidates_per_slot": 1,
+  "native_eight_candidate_LFS_executed": false,
+  "quality_selection": false,
+  "reroll": false,
+  "protocol_deviation": "Partial reimplementation; original paper eight-candidate Low-Fidelity Selection is not implemented or executed",
+  "errors": [],
+  "per_item_checks": {
+    "checked": 80,
+    "passed": 80,
+    "verified_fields": [
+      "slot_id",
+      "annotation_id",
+      "source_group_id",
+      "class",
+      "normal_id",
+      "sample_seed",
+      "image SHA256",
+      "image size",
+      "bbox"
+    ]
+  }
+}
