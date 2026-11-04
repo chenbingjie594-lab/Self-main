@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "method": "SeaS (Native Generation, Non-Position-Matched)",
+  "source_manifest_sha256": "0620492a880e2d475d035aa15778af0bf4c5ea8bafaea05cf816e657717a76bf",
+  "bank": "A",
+  "bank_A_records": 80,
+  "slot_ids_unique": true,
+  "slot_set_identical_to_raw_sd2": true,
+  "source_group_identity_inherited_from_frozen_slots": true,
+  "class_counts": {
+    "black": 40,
+    "flash": 40
+  },
+  "real_train_images": 138,
+  "real_instances": 168,
+  "synthetic_images": 80,
+  "total_train_images": 218,
+  "synthetic_canvas_wh": [
+    512,
+    512
+  ],
+  "real_images_native_resolution_preserved": true,
+  "synthetic_label_source": "SeaS generated mask bounding box",
+  "training_or_test_leakage": false,
+  "comparison_type": "B_NATIVE_GENERATION_EXTENSION",
+  "errors": [],
+  "per_item_checks": {
+    "checked": 80,
+    "passed": 80,
+    "verified_fields": [
+      "slot_id",
+      "annotation_id",
+      "source_group_id",
+      "class",
+      "conditioning normal",
+      "native/frozen seed identity",
+      "image SHA256",
+      "mask SHA256",
+      "image size",
+      "mask-derived bbox",
+      "mask pixels"
+    ]
+  }
+}
