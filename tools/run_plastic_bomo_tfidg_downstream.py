@@ -15,6 +15,7 @@ RAW_MAN=ROOT/'results_for_gpt/plastic_bomo_stage20b_formal/manual_C_20261010_032
 OUT=ROOT/'results_for_gpt/bootstrap_guard_generator_downstream/tfidg';RUNS=ROOT/'runs/bootstrap_guard_generator_downstream/tfidg';DS=RUNS/'dataset_binding';DATA=DS/'tfidg_bank_a.yaml';SEEDS=(42,3407,2026)
 for k,v in {'OUT':OUT,'RUNS':RUNS,'DS':DS,'DATA':DATA}.items():setattr(core,k,v)
 core.RUN_PREFIX='tfidg_bank_a'
+core.METHOD_NAME='TF-IDG Bank A'
 
 def link(src,dst):
  dst.parent.mkdir(parents=True,exist_ok=True)
