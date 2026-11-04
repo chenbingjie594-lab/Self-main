@@ -1,0 +1,24 @@
+{
+  "classification": "SAME_PER_EPOCH_DATASET_SIZE; TOTAL_COMPUTE_VARIES_WITH_EARLY_STOPPING",
+  "samples_per_epoch": 218,
+  "records": [
+    {
+      "seed": 42,
+      "stop_epoch": 84,
+      "optimizer_steps": 319,
+      "bootstrap_guard_stop_epoch": 150
+    },
+    {
+      "seed": 3407,
+      "stop_epoch": 78,
+      "optimizer_steps": 298,
+      "bootstrap_guard_stop_epoch": 150
+    },
+    {
+      "seed": 2026,
+      "stop_epoch": 150,
+      "optimizer_steps": 544,
+      "bootstrap_guard_stop_epoch": 130
+    }
+  ]
+}
