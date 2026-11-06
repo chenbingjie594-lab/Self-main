@@ -1,0 +1,10 @@
+{
+  "status": "INVALID_DUE_TO_DONOR_LEAKAGE",
+  "formal_result": false,
+  "add_to_chapter3_main_table": false,
+  "training_completed_before_post_run_leakage_audit": true,
+  "stage20b_logical_train_donors": 80,
+  "downstream_validation_sha_overlap_count": 23,
+  "reason": "23 donor image SHA256 values are byte-identical to images in the frozen YOLO downstream validation split; this violates the experiment-specific no-validation-donor constraint.",
+  "remediation": "A new donor manifest built exclusively from the 138 downstream training images is required. This changes donor annotation/source-group identities and therefore requires explicit protocol authorization before regeneration and retraining."
+}
