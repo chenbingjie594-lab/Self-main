@@ -1,0 +1,37 @@
+{
+  "status": "EVIDENCE_REVIEW_COMPLETE",
+  "overlapping_stage20b_source_slots": 23,
+  "scope_note": "An overlap establishes exposure to validation-derived Stage20B identity/annotation inputs, not automatically pixel leakage or numerical invalidity for every method. Requalification is required where frozen bbox/reference inputs were consumed.",
+  "methods": [
+    {
+      "method": "Raw SD2",
+      "evidence": "USES_STAGE20B_BBOX_AND_LABEL",
+      "assessment": "REQUIRES_REQUALIFICATION"
+    },
+    {
+      "method": "SD2+LoRA",
+      "evidence": "USES_STAGE20B_FROZEN_SLOTS_AND_BBOX",
+      "assessment": "REQUIRES_REQUALIFICATION"
+    },
+    {
+      "method": "TF-IDG",
+      "evidence": "USES_STAGE20B_SLOT_BBOX_AND_REFERENCE_GUIDANCE",
+      "assessment": "REQUIRES_REQUALIFICATION"
+    },
+    {
+      "method": "MAGIC",
+      "evidence": "USES_STAGE20B_SLOT_BBOX",
+      "assessment": "REQUIRES_REQUALIFICATION"
+    },
+    {
+      "method": "DefectFill (Partial Reimplementation)",
+      "evidence": "USES_STAGE20B_SLOT_BBOX",
+      "assessment": "REQUIRES_REQUALIFICATION"
+    },
+    {
+      "method": "SeaS (Native Generation)",
+      "evidence": "NATIVE_NON_POSITION_MATCHED_LABELS",
+      "assessment": "NOT_PROVEN_AFFECTED_BY_THIS_CHECK"
+    }
+  ]
+}

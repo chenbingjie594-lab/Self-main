@@ -1,0 +1,4104 @@
+{
+  "status": "PASS",
+  "method": "Poisson Blending",
+  "protocol": {
+    "operation": "cv2.seamlessClone(..., cv2.NORMAL_CLONE)",
+    "target_geometry": "deterministic hash; Stage20B target labels not used",
+    "quality_selection": false,
+    "best_of_n": false,
+    "reroll": false
+  },
+  "planned": 80,
+  "complete": 80,
+  "class_counts": {
+    "flash": 40,
+    "black": 40
+  },
+  "visibility_counts": {
+    "VISIBLE_SIGNAL": 80
+  },
+  "donor_reuse_count": 0,
+  "errors": [],
+  "records": [
+    {
+      "slot_id": "flash_ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "26718cea887123192bb0b1563ec3a22d9402ee77261e2c34abdb89d5423a9721",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "26718cea887123192bb0b1563ec3a22d9402ee77261e2c34abdb89d5423a9721",
+      "original_stage20b_annotation_id_not_used": "ann_a2c65212fd1710b2950f3073e1605ef317d35df43baf4accc06fee16d1bcbc1d",
+      "original_stage20b_source_group_id_not_used": "sg_99462a2246e2cbd11a4966ce79089dd9ea7e645fb118d3d7eca266fb5a0c3baa",
+      "original_stage20b_bbox_not_used": [
+        0.711914,
+        0.517578,
+        0.004883,
+        0.025391
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2864,
+        555,
+        2900,
+        582
+      ],
+      "target_bbox_normalized_xywh": [
+        0.70361328125,
+        0.55517578125,
+        0.0087890625,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "4601b99143382b343b275f76cb75c1d60fb9b907a2b1f07d0399ecc0a16f8b23",
+      "new_donor_sha256": "2541d7594955e299cc5bb1b24fe805b57c109b9d46769583e39b597a7f7d98e1",
+      "new_donor_canonical_image_id": "real_94595bbf09ff2ff4196b3aec7b91c6a7ca3e41d32f53de9b06f994d6a0e92784",
+      "new_donor_source_group_id": "sg_c8e272f3e2816f4f04a7a967186263de444dbf9846ac3e35a8b5fd0c79e0f8a3",
+      "new_donor_bbox_xyxy": [
+        471,
+        523,
+        507,
+        550
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.119263,
+        0.523438,
+        0.008545,
+        0.025391
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "63d5e9db7e5a8310660ea021216a64574d6c960502815eb6f2b685530d4b2bfe",
+      "label_sha256": "479856e781e85b040c89cbc5d56a0510e4895af1b6bd71d8e39a73c0b2252700",
+      "changed_pixels_gt2": 742,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "d0af4b458ea47357d5947b09a92626e316d47b43c4d26d24dbabe03d73bcd493",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "d0af4b458ea47357d5947b09a92626e316d47b43c4d26d24dbabe03d73bcd493",
+      "original_stage20b_annotation_id_not_used": "ann_b22bdc4474df47d266dd10401117d6fa93677295fb7a7708cd611b2be9cc6b02",
+      "original_stage20b_source_group_id_not_used": "sg_60ad5c290cdbfd5823c605faee8d9290bf0827ea7e9f2fc5a2a19daa5296188a",
+      "original_stage20b_bbox_not_used": [
+        0.491089,
+        0.776367,
+        0.006592,
+        0.025391
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1002,
+        493,
+        1029,
+        521
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2479248046875,
+        0.4951171875,
+        0.006591796875,
+        0.02734375
+      ],
+      "new_donor_instance_id": "c4619a42384f65690733caff539890204617ab908a9205e1376a6ea546996b35",
+      "new_donor_sha256": "9ec10ce194cf664fb9bc27a78fff15aa31eec1747767addf124468f49834153a",
+      "new_donor_canonical_image_id": "real_d9ef95ecedc9f3f89d51f7ebc0ea43186b3445eb8436a389d3ea821103281070",
+      "new_donor_source_group_id": "sg_3d67f68424b99a0bd5290dc104511d502b63f43061debf3d61be96b8578f35fb",
+      "new_donor_bbox_xyxy": [
+        1701,
+        425,
+        1728,
+        453
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.418579,
+        0.428223,
+        0.006104,
+        0.026367
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "2694353d19215333ba0b442f2073d89eba8a8aebe65d9581948151c456512ed4",
+      "label_sha256": "8036f64341994b7c2c0fdc50c684e82e4d686e22d78329d11feae1cd8dd12f3a",
+      "changed_pixels_gt2": 588,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "6ec49293e98c7623297a09af71572bd44c48c171fd04d4dbc7871910d1607a9f",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "6ec49293e98c7623297a09af71572bd44c48c171fd04d4dbc7871910d1607a9f",
+      "original_stage20b_annotation_id_not_used": "ann_5afe2dbd8af79448ca2daae7fd6260ae45217936dc21e3931417176d1e616cfb",
+      "original_stage20b_source_group_id_not_used": "sg_d29fde49318431a487f874fdbdbc382ab73cf5c375d7122404f817491207949c",
+      "original_stage20b_bbox_not_used": [
+        0.777588,
+        0.617188,
+        0.006836,
+        0.027344
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1791,
+        801,
+        1821,
+        831
+      ],
+      "target_bbox_normalized_xywh": [
+        0.44091796875,
+        0.796875,
+        0.00732421875,
+        0.029296875
+      ],
+      "new_donor_instance_id": "a8d16d3493b28ab08ee273e8df6ad0346278a63b2b24468d7bae54d53de9caa8",
+      "new_donor_sha256": "98d104a811489f3b355bbc16120874bbf6f86149179ad6c187fb9c748a56fc96",
+      "new_donor_canonical_image_id": "real_fb3ee42c5e5320396de1f166a1d5b5657ef4ff4e1012abbc2408c7c96c8696b2",
+      "new_donor_source_group_id": "sg_47fcf8679efc0752ec7ebcc61d458810e2c7be8d6fff47c2eef451862066f2f2",
+      "new_donor_bbox_xyxy": [
+        1886,
+        376,
+        1916,
+        406
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.464233,
+        0.381836,
+        0.00708,
+        0.027344
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "eb176573add8f247dd09e5e85e775104aa8ca8ba042e7f0f889d87778f15f869",
+      "label_sha256": "840e0cfb6345f60a84b3ab737f7c5b275aade3b6849e405d6b6e37550ccb82aa",
+      "changed_pixels_gt2": 711,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "d697a394adb1585b08aa04f5b1aae7ca93813c8782772613babcc655a9698ef9",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "d697a394adb1585b08aa04f5b1aae7ca93813c8782772613babcc655a9698ef9",
+      "original_stage20b_annotation_id_not_used": "ann_8d757cba8fd39457d58f1e51029923552bd7ac9b250c7d4ebdc66d6b70dcc6ce",
+      "original_stage20b_source_group_id_not_used": "sg_f9026d8cc2437ce10d56b39472ecb7f0080f5fc716fbbd62cd26811a8c7f18f2",
+      "original_stage20b_bbox_not_used": [
+        0.42688,
+        0.630371,
+        0.005127,
+        0.018555
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1350,
+        318,
+        1389,
+        354
+      ],
+      "target_bbox_normalized_xywh": [
+        0.3343505859375,
+        0.328125,
+        0.009521484375,
+        0.03515625
+      ],
+      "new_donor_instance_id": "ab1f77126a114f7dcc8e8cb6572cd5ebf4d0f09b4022a0021aa070cbb81a558a",
+      "new_donor_sha256": "678f96ddbbd26cc2d659051701153eab42a2c150997d1266ee7f7d3ba1bb6627",
+      "new_donor_canonical_image_id": "real_e147e6aa517e8676d50d1d80e6f52f4a0945e866cfd2e286f11d4032336c3413",
+      "new_donor_source_group_id": "sg_7e3e42de7759b4001d78af04c2c74a008cd0a015b516936a6f61e973a1109856",
+      "new_donor_bbox_xyxy": [
+        257,
+        597,
+        296,
+        633
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.067505,
+        0.600098,
+        0.009521,
+        0.03418
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "8667b359c3b232d282bbf89768c882b0ef562553c1578dbc99e6c738da338fc9",
+      "label_sha256": "f2242314b3562036b386631db8d057e966f5d48576e95bf60d11c37424053172",
+      "changed_pixels_gt2": 1078,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "c3a064569e476a8b04ae468a17072f92b5adaf13241671b6d89c533f0f0b5f34",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "c3a064569e476a8b04ae468a17072f92b5adaf13241671b6d89c533f0f0b5f34",
+      "original_stage20b_annotation_id_not_used": "ann_52d2aa8c3bf40985c13482b2e303299e2140c7cddc208efa5713a5a5b9954497",
+      "original_stage20b_source_group_id_not_used": "sg_e1056102b0f5e9fffdb5214033875f08e687a191472db24b2cd0a32c737a1fa0",
+      "original_stage20b_bbox_not_used": [
+        0.212158,
+        0.504395,
+        0.007812,
+        0.030273
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3308,
+        251,
+        3338,
+        286
+      ],
+      "target_bbox_normalized_xywh": [
+        0.811279296875,
+        0.26220703125,
+        0.00732421875,
+        0.0341796875
+      ],
+      "new_donor_instance_id": "836e3c3d4a587248a1350e912fb453a1243e351f75e8440c64565f2dfa3e7a95",
+      "new_donor_sha256": "69f7e318f119ed8b2102a1ef0f18f9e6e2466274944ee91265ba1a2d17eef60b",
+      "new_donor_canonical_image_id": "real_413f0ec624759d880274dfa24f6aaa097d50126ca5e5d2c932c1c06ca3f2317a",
+      "new_donor_source_group_id": "sg_6b8ea841db9d9937ee2289766d22f640d5c08d3ef26bbb518085a8b48aab5595",
+      "new_donor_bbox_xyxy": [
+        347,
+        425,
+        377,
+        460
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.088379,
+        0.432617,
+        0.007324,
+        0.033203
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "9bf643c54100ff8896ae63a1b1cba4fac4e36607839a30e1e88f123d472cbc67",
+      "label_sha256": "54cb6d297dc0bf03efadba8494a5bf780f81be5626a424403c31b1cdda7cd409",
+      "changed_pixels_gt2": 755,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "8d8892a7873bfcb2151c0e2002e1847c8834eb9a69b7e80281a8a43914bcf1df",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "8d8892a7873bfcb2151c0e2002e1847c8834eb9a69b7e80281a8a43914bcf1df",
+      "original_stage20b_annotation_id_not_used": "ann_05ebd8f64fa3aebb3a56f1cf6ea4097e117a1d811d132a04a2bae594ccf16c14",
+      "original_stage20b_source_group_id_not_used": "sg_7d59d338f643786a507484512e16e13a334edc64326efde565907c232bfbe64c",
+      "original_stage20b_bbox_not_used": [
+        0.758911,
+        0.69873,
+        0.009033,
+        0.03418
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3210,
+        408,
+        3233,
+        435
+      ],
+      "target_bbox_normalized_xywh": [
+        0.7864990234375,
+        0.41162109375,
+        0.005615234375,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "64a4944eea729632031f96dfa3f17d63c03928703da5973617f57521a821579a",
+      "new_donor_sha256": "a031a89e1006438c36fd540aa600d0bd4e35a0d754574bad424f87475790b137",
+      "new_donor_canonical_image_id": "real_cfbb52aa508da9ae6b2ad9aad79070573465686ced0b8cb099602abc2d41a315",
+      "new_donor_source_group_id": "sg_5ae0adc0c7e27672db01c5db762120d17d57d8fe364a95b5462c188afea2babf",
+      "new_donor_bbox_xyxy": [
+        3338,
+        536,
+        3361,
+        563
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.817749,
+        0.536621,
+        0.005615,
+        0.026367
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "80ffc800939c9e0b085b0fb54943309ede433ce2841e327c59033308595579de",
+      "label_sha256": "6f50c09d16e00108e2f5be0026181f72903b5e5d8219465cc739d9b2db15f420",
+      "changed_pixels_gt2": 460,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "70d47eedf90c634b3670c9e3b6cf2d9452d1f05e3bbbf44b4c53b617d96d1c80",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "70d47eedf90c634b3670c9e3b6cf2d9452d1f05e3bbbf44b4c53b617d96d1c80",
+      "original_stage20b_annotation_id_not_used": "ann_94c196bb26c093099e5c7546cd5782db5da80bccbbf679a6db8039400b36e15e",
+      "original_stage20b_source_group_id_not_used": "sg_4aadb5f28080c5597123f74738a250c545b10f2cbd15a97595ecc21f979d138c",
+      "original_stage20b_bbox_not_used": [
+        0.868774,
+        0.679199,
+        0.006592,
+        0.026367
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3591,
+        897,
+        3613,
+        925
+      ],
+      "target_bbox_normalized_xywh": [
+        0.87939453125,
+        0.8896484375,
+        0.00537109375,
+        0.02734375
+      ],
+      "new_donor_instance_id": "36e6d4e9adf1c678bec5eb5ff26497eebb7de619b8c82a4b303abf460be14943",
+      "new_donor_sha256": "40cdd2deae7d6bef760fe27b218e53b009f992d1394bcc85011f9ec136a6d330",
+      "new_donor_canonical_image_id": "real_bb46c8d8b4f66b534f7157336bc635ca3150c64fac2fc1ba6dfa2082e351f6e6",
+      "new_donor_source_group_id": "sg_f86cf413e1ca96b0364df7043a0780e90225fadebffe16d2b78616bc152d8553",
+      "new_donor_bbox_xyxy": [
+        2869,
+        537,
+        2891,
+        565
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.703003,
+        0.538574,
+        0.005127,
+        0.026367
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "0dd0c4f8847c8b2a11743ddf12920364a835e9ade36b20f86b51ff334f33b70c",
+      "label_sha256": "450d28326303ad3c4ebd9352d2524776e134ef871a7c3fe4fd5f3ddbeb2a73bf",
+      "changed_pixels_gt2": 463,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "8f70756b38adb957d58548b2f65ce5b88dc29e77e7c3b3ccdf484b0d152719b9",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "8f70756b38adb957d58548b2f65ce5b88dc29e77e7c3b3ccdf484b0d152719b9",
+      "original_stage20b_annotation_id_not_used": "ann_c8bbf569cbaee6cb95a716c073632387682f81a8b4afd0187082d4bd3b519b23",
+      "original_stage20b_source_group_id_not_used": "sg_3b43018106068e8e77018cc207f74db5654bf30b62f852a94da9db03b3d1c5ab",
+      "original_stage20b_bbox_not_used": [
+        0.532349,
+        0.437988,
+        0.00708,
+        0.032227
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2873,
+        217,
+        2900,
+        241
+      ],
+      "target_bbox_normalized_xywh": [
+        0.7047119140625,
+        0.2236328125,
+        0.006591796875,
+        0.0234375
+      ],
+      "new_donor_instance_id": "bf0a9fe9bb0abf5ed6e60c963decbeb558c6322e248080e062aabe974ea0db97",
+      "new_donor_sha256": "536a18a353f2087dddfb1edebf74cd4a8ab7b0c7dc30bee1a7e8bd3e0da3f90d",
+      "new_donor_canonical_image_id": "real_c6ff2f6470698c8abfa71daafd8eea8ef6d4551d413ee66a748da950f09983c1",
+      "new_donor_source_group_id": "sg_be4849c6fbf675f51a6ba821432996517941e8fdd3c9745df22d2366c9d41f6f",
+      "new_donor_bbox_xyxy": [
+        1090,
+        941,
+        1117,
+        965
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.269409,
+        0.930176,
+        0.006104,
+        0.022461
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "4372cc2cc310d15c0e8e068d1e57b98bea2453580a3229c000fe9e6044de7151",
+      "label_sha256": "ac8cb38fee5c26e296a5ed108a980d31852ae41b0224c2487c69aab97cb52e63",
+      "changed_pixels_gt2": 430,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "d63434d4c8717002417b1872d8a26230daf42d319003043e06a4ef935954f1bb",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "d63434d4c8717002417b1872d8a26230daf42d319003043e06a4ef935954f1bb",
+      "original_stage20b_annotation_id_not_used": "ann_4cfa546edea73af10bbb4ce98d4a04e4d6f334a0acc3ab0011eb5527d581bfe3",
+      "original_stage20b_source_group_id_not_used": "sg_1f92323e1934a966eb1bd2072a0d2729f6d608c4d4a54566f78f90b8183a5e79",
+      "original_stage20b_bbox_not_used": [
+        0.134399,
+        0.623535,
+        0.005615,
+        0.024414
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        577,
+        299,
+        604,
+        320
+      ],
+      "target_bbox_normalized_xywh": [
+        0.1441650390625,
+        0.30224609375,
+        0.006591796875,
+        0.0205078125
+      ],
+      "new_donor_instance_id": "8cc7d7cc477288e65bf42515f017e6f347b35fc4a9cf1a69e4f5637be1b5c76f",
+      "new_donor_sha256": "abcd205972a838ec5cb11e05d4168a4aa2d04f54335597a60cbc02d16181964a",
+      "new_donor_canonical_image_id": "real_22ecc4a82d70fd6bea01def80f58c8a95060e37d4d9c583c1fd22a34f8db5631",
+      "new_donor_source_group_id": "sg_c4dcb9c8c7c2f78923cbce498131902a1f3ab4dc1021218897419d50790cf4d5",
+      "new_donor_bbox_xyxy": [
+        3029,
+        654,
+        3056,
+        675
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.742798,
+        0.648438,
+        0.006104,
+        0.019531
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "43567bc2381d3cfce8a20f10f87467526307b00b7840f66d5b8d4dd859a7045b",
+      "label_sha256": "726766c2efd9277580df3ddee1e2a14b7f61323e8b7013eea04eedae7899da96",
+      "changed_pixels_gt2": 431,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "4643be10eddeb08a015cf16349efd216b15663c31f5783be303ab3a644131abd",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "4643be10eddeb08a015cf16349efd216b15663c31f5783be303ab3a644131abd",
+      "original_stage20b_annotation_id_not_used": "ann_676a78aa3099dc03b4f919c5424bc5bfcc7844a332a1661b799087ef0527c821",
+      "original_stage20b_source_group_id_not_used": "sg_5445becd7eeebe8a24d1f236c6ccefe234d4d1a0d39ce38aefe321c73997a827",
+      "original_stage20b_bbox_not_used": [
+        0.355713,
+        0.509766,
+        0.008301,
+        0.03125
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        885,
+        58,
+        921,
+        95
+      ],
+      "target_bbox_normalized_xywh": [
+        0.220458984375,
+        0.07470703125,
+        0.0087890625,
+        0.0361328125
+      ],
+      "new_donor_instance_id": "a3ab10ee0f9a5b8da6d8de7efff7efafe91c2a5b904a6ce1eb1d41e728d6a9b6",
+      "new_donor_sha256": "4ea989afdf3fbda2ace0c3fcecf48abfb765fb5ee0b72de6f2c206e74339d5ee",
+      "new_donor_canonical_image_id": "real_4131fca6882b899813c7ea38ffcf7f1745da2120622d5fcda2ae68e1e54969a3",
+      "new_donor_source_group_id": "sg_7f5bfdb8fcf665df370286dca35c836bd236cb5b21aae8fed56d3b5daa684dbc",
+      "new_donor_bbox_xyxy": [
+        580,
+        506,
+        616,
+        543
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.145996,
+        0.511719,
+        0.008301,
+        0.035156
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "5911c332ca7b0c796140dccf464090a033104548930c5cac6a06572fbfd01f94",
+      "label_sha256": "431ed9c8b82c02233efde777842704546bf145bc2dcd72e8b533cafab24dde1b",
+      "changed_pixels_gt2": 972,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "67c87476fa2d02a9ae2f3346d9028c1a9f462d252091fb07b893861cc48d243f",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "67c87476fa2d02a9ae2f3346d9028c1a9f462d252091fb07b893861cc48d243f",
+      "original_stage20b_annotation_id_not_used": "ann_33a912ca1d9d6e95148328411a53082a37df410f171a39b83e08bfdb5b120865",
+      "original_stage20b_source_group_id_not_used": "sg_c4dcb9c8c7c2f78923cbce498131902a1f3ab4dc1021218897419d50790cf4d5",
+      "original_stage20b_bbox_not_used": [
+        0.742798,
+        0.648438,
+        0.006104,
+        0.019531
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1005,
+        376,
+        1036,
+        404
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2491455078125,
+        0.380859375,
+        0.007568359375,
+        0.02734375
+      ],
+      "new_donor_instance_id": "aaecf3ac77d6d73d16be948e5c355d4772fc11718704fc882efc6871100fde97",
+      "new_donor_sha256": "6affa083daad582e0646ef79f3c9ff1cd8dacdec705c8090d75eba2ee8d070dc",
+      "new_donor_canonical_image_id": "real_7c4938865e47883ddd45d794a7ca051489835bf45da1e6183365c77f0921bf71",
+      "new_donor_source_group_id": "sg_f510e4299bf5285b063c850b9811671b0cf6fee4f997d7ffd11c9c8b754568f7",
+      "new_donor_bbox_xyxy": [
+        1111,
+        372,
+        1142,
+        400
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.275146,
+        0.376465,
+        0.007324,
+        0.026367
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "30f5cadc69bd57625c78326e907f29fe62f252562cbf2f2340c0d6908fff935a",
+      "label_sha256": "54185690edc272025f39bb8a1ac3703d0661e88850f857ad0c0313ceb846f0ef",
+      "changed_pixels_gt2": 687,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "cd452e3f09a051ff021b33db5ab1adc81440057af7ea2a66912b04fb3ed976a7",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "cd452e3f09a051ff021b33db5ab1adc81440057af7ea2a66912b04fb3ed976a7",
+      "original_stage20b_annotation_id_not_used": "ann_308ebe6dd6a09bd5ae6dd5270609899ab6e818e17c509a2e7bf2d361cb57f1b2",
+      "original_stage20b_source_group_id_not_used": "sg_9dcfc80f73537bc1ad4878d28c95ba7ac10e9d8449b461b69d522daf798956c1",
+      "original_stage20b_bbox_not_used": [
+        0.774536,
+        0.595703,
+        0.005615,
+        0.027344
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        191,
+        549,
+        214,
+        571
+      ],
+      "target_bbox_normalized_xywh": [
+        0.0494384765625,
+        0.546875,
+        0.005615234375,
+        0.021484375
+      ],
+      "new_donor_instance_id": "ba55e9174fe397d2ecf5c1fd0eb497de537534116adc85a8e88c59f4c3129470",
+      "new_donor_sha256": "2ae1df6f98b71e65e64ebbbdb4b094942f740d2d585b6c5e7f261dcbe81658ae",
+      "new_donor_canonical_image_id": "real_31e835430aa8d9a92477057f60e2d902990ceab9a5e83810417a0608ee5469b8",
+      "new_donor_source_group_id": "sg_b1ea54cd7bd2961d3b811821aa101c34f31d91b92635071e600a8fa726cbe1ee",
+      "new_donor_bbox_xyxy": [
+        2300,
+        556,
+        2323,
+        578
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.564331,
+        0.553223,
+        0.005615,
+        0.020508
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "eb05099a69e7900db85b30a6401ee2bbe3f52a86a6a215aad09f17a62a100c6b",
+      "label_sha256": "51f8fb5c5c8c8130d5d8b9606d31e67cdb89b975a8c8cea0ffcd10607a06aaf5",
+      "changed_pixels_gt2": 346,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "190e8d8ae54e8576ede0889a34c06f67a7051d181d75fe50eb31ee4b0b3be800",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "190e8d8ae54e8576ede0889a34c06f67a7051d181d75fe50eb31ee4b0b3be800",
+      "original_stage20b_annotation_id_not_used": "ann_23c461d80f3df533d04f3e3d601dfba2bb72d470de6f288760bd30091d54858e",
+      "original_stage20b_source_group_id_not_used": "sg_442740ccf1c1770abb9f2902a4ef098093e62efb85261daa34fd6f6ad5c8fc49",
+      "original_stage20b_bbox_not_used": [
+        0.72229,
+        0.437988,
+        0.00708,
+        0.030273
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1075,
+        590,
+        1105,
+        617
+      ],
+      "target_bbox_normalized_xywh": [
+        0.26611328125,
+        0.58935546875,
+        0.00732421875,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "f04c9ac352787f74b05d4cbfa940d0d7fb8425196fe128fa3d68fef87e361342",
+      "new_donor_sha256": "69c85d6707921cff53e7beeea36b009226a59205ba7b3ea1d323ee7ae6693611",
+      "new_donor_canonical_image_id": "real_ebf5abd6a4b3ca639dff6caef9271b2ef5aac76e296d5e3b7cefcc43f16de703",
+      "new_donor_source_group_id": "sg_1c3d3f654b3eba02e58785a65b5be80c26d24694469aeb5cb8e897c940f1e629",
+      "new_donor_bbox_xyxy": [
+        972,
+        655,
+        1002,
+        682
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.240845,
+        0.652832,
+        0.00708,
+        0.026367
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "06237ba72578ee75dffb3dd04e2a4ccad6c00c81cb751f0d69b848f6a29ae873",
+      "label_sha256": "6a66167fa63d485db060d611b82b015315c73ce578fb60cdd99dcb16b2c950db",
+      "changed_pixels_gt2": 495,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "0865487a0e1d9645cc97de549cb64536b36a88af7ba2f1409417dff12e9e7139",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "0865487a0e1d9645cc97de549cb64536b36a88af7ba2f1409417dff12e9e7139",
+      "original_stage20b_annotation_id_not_used": "ann_fd6017bb920e6334cabe5f239e7be41731e5ea25a48e7a13ecda5dff78729b17",
+      "original_stage20b_source_group_id_not_used": "sg_923ace3f9b1035af4269b1bfde41b03efa2997b3c8c57d7b7c325dc134df20cd",
+      "original_stage20b_bbox_not_used": [
+        0.074707,
+        0.692383,
+        0.009277,
+        0.037109
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2316,
+        192,
+        2349,
+        225
+      ],
+      "target_bbox_normalized_xywh": [
+        0.5694580078125,
+        0.20361328125,
+        0.008056640625,
+        0.0322265625
+      ],
+      "new_donor_instance_id": "ca475c51f680505a38a107c4a2c7d071c8f92e9529d35357f18485a11b5db350",
+      "new_donor_sha256": "ed219bf521e22faba46ade787e30127a079a4a0c942ec346b94f844116e58686",
+      "new_donor_canonical_image_id": "real_e7eb5ed735ecf66c1d237f8497a26d0cbe4a02601a59412f170e697ebf3c05ab",
+      "new_donor_source_group_id": "sg_c4dddb1b6d71a021a496c28f17a0a48fb6fe7f65f3cbb3cff49f1142fb89e713",
+      "new_donor_bbox_xyxy": [
+        1034,
+        526,
+        1067,
+        559
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.256348,
+        0.529297,
+        0.007812,
+        0.03125
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "285b125f4bbaeb7187975fc4713e6283f7c91eaeed18d6c4a64e6ca75deb9978",
+      "label_sha256": "dcc1418bf17df9d955887eab39d70ad1253285b7847fc1d8b376ef24e288b8bb",
+      "changed_pixels_gt2": 837,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "27b4a0ab46a9a12a5ca3ba5fb5e0eff475313489e18516f7a888628aab61d3d0",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "27b4a0ab46a9a12a5ca3ba5fb5e0eff475313489e18516f7a888628aab61d3d0",
+      "original_stage20b_annotation_id_not_used": "ann_289ba7bcf6a010a364ba007c984d4e34cac9b3b00f57301addaa36bfe302cf8d",
+      "original_stage20b_source_group_id_not_used": "sg_4c97f36a77165aff3899a12f577229546b13495484c36a9d0dc948322510851b",
+      "original_stage20b_bbox_not_used": [
+        0.762695,
+        0.513672,
+        0.008301,
+        0.033203
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1399,
+        385,
+        1431,
+        416
+      ],
+      "target_bbox_normalized_xywh": [
+        0.345458984375,
+        0.39111328125,
+        0.0078125,
+        0.0302734375
+      ],
+      "new_donor_instance_id": "4997cfc5a59023ad9cf4434fcd2c092dcd81bf36c55733731c18e25f0fab4abe",
+      "new_donor_sha256": "e618506fe371b9799a1268c4c3681577fe38095049a4224340dda95c6f3defbb",
+      "new_donor_canonical_image_id": "real_01ab73e8dda3c022c3da95a5824cc88cb6896c81e562dd4e85b6cfa4b03fb24c",
+      "new_donor_source_group_id": "sg_3a48a69a4d5a92c8aa26b5741f678e30e6edc3da52e207b906e4984a0647253b",
+      "new_donor_bbox_xyxy": [
+        986,
+        395,
+        1018,
+        426
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.244629,
+        0.401367,
+        0.007812,
+        0.029297
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "e291c69043c4a659983e38228624dba61076236b0710941576708203286c3512",
+      "label_sha256": "b97fe57f9fb060362ac9c9f594f7800853832446a7e931fd715b9fcf87a2631c",
+      "changed_pixels_gt2": 682,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "99cb2074213e6a1dab7a08b8dc714968a82a162b77bae667e29e5429cd2ba563",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "99cb2074213e6a1dab7a08b8dc714968a82a162b77bae667e29e5429cd2ba563",
+      "original_stage20b_annotation_id_not_used": "ann_a035013bf058ed34572388912740a76fcd6a63eae3cea0ed5d9bd9fa294f7bb8",
+      "original_stage20b_source_group_id_not_used": "sg_cd3ba031b73416b19eb61cd14f316569c3e881198483fa20d0bf2487ee218781",
+      "original_stage20b_bbox_not_used": [
+        0.954346,
+        0.405273,
+        0.006836,
+        0.019531
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1746,
+        419,
+        1768,
+        448
+      ],
+      "target_bbox_normalized_xywh": [
+        0.428955078125,
+        0.42333984375,
+        0.00537109375,
+        0.0283203125
+      ],
+      "new_donor_instance_id": "b76665f088dde6298b0c670abc787f319a5cb2858bd4377008a890b9f69926bc",
+      "new_donor_sha256": "7143b421fe4c00936057be3aecd44c2689829f10c21a6a46c593f2de1aaafc0e",
+      "new_donor_canonical_image_id": "real_64911cd4e3ccc0e737943175e78186d42ba62a234932e950ae2f4574545d0fe6",
+      "new_donor_source_group_id": "sg_629bba2002b3feaf75e762a73432a4f982f03ec8c384bf2c1c88882735fabbb6",
+      "new_donor_bbox_xyxy": [
+        3064,
+        743,
+        3086,
+        772
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.750854,
+        0.740234,
+        0.005127,
+        0.027344
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "17695a153036dcbe1d58877adee5864dd95347d7cd49b3564c2b5410af3480cf",
+      "label_sha256": "28bb2f148bffb3cdc684fc005be357339ef783d8889c1118b4103a73407e2801",
+      "changed_pixels_gt2": 463,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "ac3d546ad0bd2333094d4e1607511ef438c936d800013bb66d3608830857fb0f",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "ac3d546ad0bd2333094d4e1607511ef438c936d800013bb66d3608830857fb0f",
+      "original_stage20b_annotation_id_not_used": "ann_7d22d7b137469454a63acb1fd7a702eff9aed47b127143a422122fec43183c07",
+      "original_stage20b_source_group_id_not_used": "sg_e06f4e652236e0cebca4d78eb16636739fb65df31ccf3b2dd0545d1dced1bb9d",
+      "original_stage20b_bbox_not_used": [
+        0.911133,
+        0.790527,
+        0.008789,
+        0.026367
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1149,
+        546,
+        1190,
+        578
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2855224609375,
+        0.548828125,
+        0.010009765625,
+        0.03125
+      ],
+      "new_donor_instance_id": "d08e71999f2b9c542cd155928af8becf8c2e90447566cc9093db29bd78705d59",
+      "new_donor_sha256": "a940730143970fe385e3b445a3f096fa10930c6ea0803693de07adf4a98f20e8",
+      "new_donor_canonical_image_id": "real_4d28df02e257d578cfe109b1046bc1fcf9fb3f68a2ee4600846689f07e1045a1",
+      "new_donor_source_group_id": "sg_d3597745d19821b8b73f37de996b226f02202ac59e466b010a3adcc11fe18a56",
+      "new_donor_bbox_xyxy": [
+        3337,
+        697,
+        3378,
+        729
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.819824,
+        0.696777,
+        0.009766,
+        0.030273
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "0faa176785ba6d612baaf417dfcf0cb82bfa3f31a4fc7583d933b40a53e008eb",
+      "label_sha256": "f9d244f7e0d38d7df1b58d01fc22576a55b853e12f812896552bf5fa82eb562d",
+      "changed_pixels_gt2": 880,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "47879433c445a27de154647241cab2d3a0c1c0b2bb0261120ebec25db5ada180",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "47879433c445a27de154647241cab2d3a0c1c0b2bb0261120ebec25db5ada180",
+      "original_stage20b_annotation_id_not_used": "ann_d11f12eaa144aae05e1aefa28b46075a78c7a41122d7f3bc70b9a7ffe812a2fd",
+      "original_stage20b_source_group_id_not_used": "sg_925c0dadeedf2ba3edeadf3bfa38e9f363e8af339042f5500181ef58eb99950c",
+      "original_stage20b_bbox_not_used": [
+        0.224243,
+        0.44873,
+        0.005615,
+        0.020508
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        820,
+        39,
+        849,
+        71
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2037353515625,
+        0.0537109375,
+        0.007080078125,
+        0.03125
+      ],
+      "new_donor_instance_id": "26abf56d53ebdfa527a82d6ce7f466aa01a2a6dbb2f0bb0ece3c9bbab2f1a4bc",
+      "new_donor_sha256": "29efd2f740c8608258b56f8465b112474058d2336a3cd125d1634726e47c5c5c",
+      "new_donor_canonical_image_id": "real_5f78558faaf0670fe7f0384849212cf89fbeef3e482a039284fdb70fd239eced",
+      "new_donor_source_group_id": "sg_442740ccf1c1770abb9f2902a4ef098093e62efb85261daa34fd6f6ad5c8fc49",
+      "new_donor_bbox_xyxy": [
+        2944,
+        432,
+        2973,
+        464
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.72229,
+        0.437988,
+        0.00708,
+        0.030273
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "9875de127e1d357c253780a5887255cb6287ceea6c02872b4bb2e004f4a01622",
+      "label_sha256": "b222afe0aea6a454706573fc087f216b079343d2b8718d4537ec6613a9a0248e",
+      "changed_pixels_gt2": 686,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "853ba25b2be42af375925b3e2ddcb057926d4550560106b1f66a77090502ed04",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "853ba25b2be42af375925b3e2ddcb057926d4550560106b1f66a77090502ed04",
+      "original_stage20b_annotation_id_not_used": "ann_4b6904833498b0ca03ed8d28418af1fc728412355d67345590811e80faf2b780",
+      "original_stage20b_source_group_id_not_used": "sg_a0cb9f009ff15e839889e14802fe7a8fe89109049b598968ede07ebc5956751b",
+      "original_stage20b_bbox_not_used": [
+        0.47644,
+        0.485352,
+        0.006592,
+        0.025391
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        4011,
+        861,
+        4042,
+        890
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9830322265625,
+        0.85498046875,
+        0.007568359375,
+        0.0283203125
+      ],
+      "new_donor_instance_id": "38ed41c5848c2c471460d0704b450c50852db638f65a56ec1da6a8922a945757",
+      "new_donor_sha256": "a5fc107a8731f11116c0816ec6e6ef2a6c58efba471ebbb27b24718f0e4cd7ea",
+      "new_donor_canonical_image_id": "real_6b1bf6533c35f44f73ad7b5d6c7115a7528549c2f9d20e13ac7d1db46ac84fb3",
+      "new_donor_source_group_id": "sg_8ed958c115904363645ca0a552ec4d4cb91f79920245fb73d60cb4c1753a6f26",
+      "new_donor_bbox_xyxy": [
+        3100,
+        606,
+        3131,
+        635
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.760742,
+        0.605957,
+        0.007324,
+        0.02832
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "d5a64606224e747790874011771d35f085d4f4aca8e6a0815840468f3b4b6a9a",
+      "label_sha256": "8b6b5cdf8864e69f9d6befbc0bb32d4bfcb66890fec1d30f3751f4725d31d013",
+      "changed_pixels_gt2": 676,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "c48395f7bde5a710150e5142e3ebf744dd31485d123840731fee194c10ad5aab",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "c48395f7bde5a710150e5142e3ebf744dd31485d123840731fee194c10ad5aab",
+      "original_stage20b_annotation_id_not_used": "ann_d787c62af14b913abc6b303107ab6671311519eab1bc295f2a7685e9e6e9ec16",
+      "original_stage20b_source_group_id_not_used": "sg_3bb80dad7b7f5a9f863f03f9fbe230a243bbb5a2590cb3516dca73c70565e3a4",
+      "original_stage20b_bbox_not_used": [
+        0.343628,
+        0.922852,
+        0.007568,
+        0.03125
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1595,
+        683,
+        1627,
+        713
+      ],
+      "target_bbox_normalized_xywh": [
+        0.393310546875,
+        0.681640625,
+        0.0078125,
+        0.029296875
+      ],
+      "new_donor_instance_id": "18d22fa72803c6403a687cc65f445868daee85196cf43f4c7ebad5f459ce54fd",
+      "new_donor_sha256": "b445afa2f4ca38905b6fea522f329b27df9f25de0d1143dfb0d62a9aa9630e6b",
+      "new_donor_canonical_image_id": "real_cf77f25d9c6b91ff2650fcb57bfac88b17cf260a1accd94444a2eed6da754fe9",
+      "new_donor_source_group_id": "sg_874711c0f56e120aec6aad404215c5e1d6e59f77f7b101ed6a6dd61c7479ba67",
+      "new_donor_bbox_xyxy": [
+        1839,
+        726,
+        1871,
+        756
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.452759,
+        0.723145,
+        0.007568,
+        0.02832
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "f809a6885b0c9ed9d8ea282261275247fc9162a15ddce1981db438fa09fad427",
+      "label_sha256": "5e3a593dab292ff7ce9ed029e174658dfc0d023c573264c96f9eb4e539c5ced3",
+      "changed_pixels_gt2": 720,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "1ff4bee74aa9064a79c4a8dd4871158cc3a0df34fdf6fb8c593283126e700308",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "1ff4bee74aa9064a79c4a8dd4871158cc3a0df34fdf6fb8c593283126e700308",
+      "original_stage20b_annotation_id_not_used": "ann_1f8c8929449704ac1e7e18375d8efc0beb6fa1ce1c2722fd2896c280ca2741cc",
+      "original_stage20b_source_group_id_not_used": "sg_971c34ad169a71544d102914ee0fa3b7883c789afcaf49ee100147dfab145fb0",
+      "original_stage20b_bbox_not_used": [
+        0.144653,
+        0.605469,
+        0.00708,
+        0.033203
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        280,
+        152,
+        304,
+        178
+      ],
+      "target_bbox_normalized_xywh": [
+        0.0712890625,
+        0.1611328125,
+        0.005859375,
+        0.025390625
+      ],
+      "new_donor_instance_id": "6c1157889f869deb6f944fda7dc6c57016057d2db258d29d0201e615c1f0a89a",
+      "new_donor_sha256": "faf2df196e03e9d568b818d52dec826397ee4505d2bb1888d025a8d4cec691c3",
+      "new_donor_canonical_image_id": "real_2efc7bc910d0366643db532876114f2f5476ddda3ab20cb19f1a411cf5ac467b",
+      "new_donor_source_group_id": "sg_1f92323e1934a966eb1bd2072a0d2729f6d608c4d4a54566f78f90b8183a5e79",
+      "new_donor_bbox_xyxy": [
+        538,
+        625,
+        562,
+        651
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.134399,
+        0.623535,
+        0.005615,
+        0.024414
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "5cb59be0f69ea3d6d9f7c70c6be314c3e1d162b5fcd792210ac6605981eaee36",
+      "label_sha256": "271f8d96c3f345458e70b7dfa8264a73394a42787b6d9d55c3bcbaf22ab26abb",
+      "changed_pixels_gt2": 416,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "17c75d9031a23a7e036a3623854e7271f3ee11102fb49ad4684748e6d4799da1",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "17c75d9031a23a7e036a3623854e7271f3ee11102fb49ad4684748e6d4799da1",
+      "original_stage20b_annotation_id_not_used": "ann_3a301f9039d80a249d5e69b00890314b9b93e4a1204d9bcb7fe41c005e9bf233",
+      "original_stage20b_source_group_id_not_used": "sg_5863c9aa10a67d12402197f38e46ab3808104a64ec6426df3f277d002084c219",
+      "original_stage20b_bbox_not_used": [
+        0.104858,
+        0.528809,
+        0.00708,
+        0.020508
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1182,
+        554,
+        1206,
+        577
+      ],
+      "target_bbox_normalized_xywh": [
+        0.29150390625,
+        0.55224609375,
+        0.005859375,
+        0.0224609375
+      ],
+      "new_donor_instance_id": "4daf1a85bb9f8cb633ace4f64ebafc0c61b457f2b649bbecc339d1f5628d16c2",
+      "new_donor_sha256": "0fe828b9d43e0f7c1c70c4ae1f66e951e48ab564722a27e9ef747ad6e1a003e6",
+      "new_donor_canonical_image_id": "real_b3a169a9b8183423fd8c3367b382ba2a20698fec82cea7d798d05b549c899071",
+      "new_donor_source_group_id": "sg_4cd1c1d3d1df481dab4f1a89366e64b98e806b484026e85389b8801b84cfd2db",
+      "new_donor_bbox_xyxy": [
+        2156,
+        552,
+        2180,
+        575
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.529297,
+        0.550781,
+        0.005859,
+        0.021484
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "6e57ee015e0e425fc0af06dfd308752a737b5ebfaed4d4ebb22afe0dbf2e63bc",
+      "label_sha256": "77382a90f0f69255e3a3f1a5862b70edeffa3ae3ec6f86e902896298335d3c37",
+      "changed_pixels_gt2": 343,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "5fc247af70aafba42c71d5bc5e79037d22ec13fbbcd7029ef70cc48dcedf073e",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "5fc247af70aafba42c71d5bc5e79037d22ec13fbbcd7029ef70cc48dcedf073e",
+      "original_stage20b_annotation_id_not_used": "ann_e5cc742b87f166016e7b1f5b12d5b26d7809d2765f368a66fcd2ea6dca002344",
+      "original_stage20b_source_group_id_not_used": "sg_c8a0e8be6256cd82bc888da6b52c483e0b62c6a9b5a18e7f3ed6f103c963e31d",
+      "original_stage20b_bbox_not_used": [
+        0.359985,
+        0.534668,
+        0.006104,
+        0.022461
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3448,
+        875,
+        3483,
+        908
+      ],
+      "target_bbox_normalized_xywh": [
+        0.8460693359375,
+        0.87060546875,
+        0.008544921875,
+        0.0322265625
+      ],
+      "new_donor_instance_id": "202940800854796e9a2f32795618209af94bd92795a1358292db9310449f3563",
+      "new_donor_sha256": "50865cb76d5585ed5d1f8e7826f5299d1e4c1fc691112369d901955d534e0a2a",
+      "new_donor_canonical_image_id": "real_1c6f5b97c5979271da5d99bba00e48c71a57d53b85c8b435fca885230ecb1794",
+      "new_donor_source_group_id": "sg_5445becd7eeebe8a24d1f236c6ccefe234d4d1a0d39ce38aefe321c73997a827",
+      "new_donor_bbox_xyxy": [
+        1440,
+        506,
+        1475,
+        539
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.355713,
+        0.509766,
+        0.008301,
+        0.03125
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "fdf60715399a19c00d5b3eb11c6a0e369720e3c032269f61ccf8a901168d0a5a",
+      "label_sha256": "9a8a82b4a22392e46504cb6e79921d7a3192bc097ec1d37ba0fe476b87e01e90",
+      "changed_pixels_gt2": 877,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "699458308ad9b14ac2085e12ae384ac3ce2cfe25c0c9f6a6a06b8373cc7e3675",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "699458308ad9b14ac2085e12ae384ac3ce2cfe25c0c9f6a6a06b8373cc7e3675",
+      "original_stage20b_annotation_id_not_used": "ann_548eb527fb2de563bafc19cc3cecfbe6589a2f3ca1b4e21c60e741ad4903240d",
+      "original_stage20b_source_group_id_not_used": "sg_b1ea54cd7bd2961d3b811821aa101c34f31d91b92635071e600a8fa726cbe1ee",
+      "original_stage20b_bbox_not_used": [
+        0.564331,
+        0.553223,
+        0.005615,
+        0.020508
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        447,
+        841,
+        470,
+        869
+      ],
+      "target_bbox_normalized_xywh": [
+        0.1119384765625,
+        0.8349609375,
+        0.005615234375,
+        0.02734375
+      ],
+      "new_donor_instance_id": "74578776794b052b3b7a61a7cb1d29665e5462b30c53a2e5f691e0d445f3d74f",
+      "new_donor_sha256": "ac2861e63585fcef2ef8babbcfc5f50230d00d80829d7e2baa1f64c7417b7f04",
+      "new_donor_canonical_image_id": "real_9a2ceb51e65cdf0df2d5332ae7143d33d904bdbf874615194e9f357d5c9b2796",
+      "new_donor_source_group_id": "sg_2dea586551b2561d368fb6a57ae8e974dba27f2fc8659605dd1476f62218a9cb",
+      "new_donor_bbox_xyxy": [
+        339,
+        466,
+        362,
+        494
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.085693,
+        0.46875,
+        0.005371,
+        0.025391
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "64a3b9d9cb53a6b85618b975a4d697e7ab8807e1fa7e5742e531fa9db964c82a",
+      "label_sha256": "7b7723cb5decf5ae96b75669bbfa116a6151ba2b1890665097079a9d1a4de3d5",
+      "changed_pixels_gt2": 375,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "e168bdd1e00b78b38984e91d89e2f52b2aef8d8dc47a0bda5bc4330a562058bd",
+      "normal_replaced_for_validation_lineage": true,
+      "effective_normal_sha256": "534cd45418ff88e8ab52cd4a517309ca392cff7212ce7062f11117dfa1904355",
+      "original_stage20b_annotation_id_not_used": "ann_04063c932a4e65b1d95a37664d15ed5596dc24ce738eac57e143425eebc832a7",
+      "original_stage20b_source_group_id_not_used": "sg_b8e987d7b7aea4f675bf8d1159ca2db833b938bf32704fba3996caf94000f5d0",
+      "original_stage20b_bbox_not_used": [
+        0.525269,
+        0.336426,
+        0.00708,
+        0.030273
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1617,
+        748,
+        1653,
+        787
+      ],
+      "target_bbox_normalized_xywh": [
+        0.399169921875,
+        0.74951171875,
+        0.0087890625,
+        0.0380859375
+      ],
+      "new_donor_instance_id": "d97f0511d6a38290c07f8ae914f82e186e9be4da95c120d40bac6525ce32aff4",
+      "new_donor_sha256": "a86a397c12e85854bd7a0eb2f62c5ac97a338df59055588ae965d17b511732a8",
+      "new_donor_canonical_image_id": "real_8f59c8bdaf322bb996d771d3e40da4af69c6dcc179ba61df3f30ed31eadd3e43",
+      "new_donor_source_group_id": "sg_b59f35cb7c4537291b696f018dd7cd358f882d96a229e878effca17805ab6eb6",
+      "new_donor_bbox_xyxy": [
+        2094,
+        549,
+        2130,
+        588
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.515625,
+        0.554688,
+        0.008789,
+        0.037109
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "a28dbc97237b2360fdae97398c5b9833999c1724ab6d17baa9dd30d9a55a90ba",
+      "label_sha256": "cabeb9ee6e1469526425d7a2ff992b7ae9cd64556f919c22d6a5586383c7945e",
+      "changed_pixels_gt2": 1092,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "860ca95689aca1b6b54ef2eb52aeb46b0c7549c0d822b88db674e6f9161f8b06",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "860ca95689aca1b6b54ef2eb52aeb46b0c7549c0d822b88db674e6f9161f8b06",
+      "original_stage20b_annotation_id_not_used": "ann_9a409d431f559668244994fed5e8de4290e02fa30857d90b07564b5c789a72ca",
+      "original_stage20b_source_group_id_not_used": "sg_e3746a2ccfafcb816b77a94e1b4725e6e8ec20d0d96c547b8e68d4247cc2903e",
+      "original_stage20b_bbox_not_used": [
+        0.696289,
+        0.027832,
+        0.003906,
+        0.012695
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3943,
+        140,
+        3977,
+        174
+      ],
+      "target_bbox_normalized_xywh": [
+        0.966796875,
+        0.1533203125,
+        0.00830078125,
+        0.033203125
+      ],
+      "new_donor_instance_id": "11c288646527dfbb7ce3e5896c4908a9c274e4e02881cf4403c0662e61c7d00e",
+      "new_donor_sha256": "6851c91059e719c6ef2d0bc1ab27fbc7c231d3c57b90dea3ee077322df0f8be5",
+      "new_donor_canonical_image_id": "real_a89ebaec37fb22e063c3fb7a665b7e65717b68de9a51682c9081d16e52e760d4",
+      "new_donor_source_group_id": "sg_34da09f89e4b9b4fabd073f0dcb4651fea51fbaeae1d36d4d36017f64e96e571",
+      "new_donor_bbox_xyxy": [
+        1756,
+        648,
+        1790,
+        682
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.432983,
+        0.649902,
+        0.008057,
+        0.032227
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "cdecf89bb595aa0eaa971668fb95c0aedbe54bbbb3c52a0f8087ae135ad6922b",
+      "label_sha256": "0f52bea98624f15a9f8b55b076ffa29c47ee853b0f997ff4e387f82cbc2cc324",
+      "changed_pixels_gt2": 912,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3afa50bdbdb0aa0262a2b80e626bf1e931cf3f337146a8e060651e5d62aaf4cb",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3afa50bdbdb0aa0262a2b80e626bf1e931cf3f337146a8e060651e5d62aaf4cb",
+      "original_stage20b_annotation_id_not_used": "ann_8b4d0537ba70e9777c679bfd961a5a324f21d245461c9d61312fe792d4f259c3",
+      "original_stage20b_source_group_id_not_used": "sg_f510e4299bf5285b063c850b9811671b0cf6fee4f997d7ffd11c9c8b754568f7",
+      "original_stage20b_bbox_not_used": [
+        0.275146,
+        0.376465,
+        0.007324,
+        0.026367
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2267,
+        554,
+        2291,
+        581
+      ],
+      "target_bbox_normalized_xywh": [
+        0.556396484375,
+        0.55419921875,
+        0.005859375,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "efee221d92916ee98d3a2b684a9cf07d9459f989f82438949eff4feb76f561d0",
+      "new_donor_sha256": "8f1e86716815a656ea78fac42b61607a318a597eb9d7f385d79b1e9978a32fa6",
+      "new_donor_canonical_image_id": "real_b5c5f6c545aeb47d683028731c902c4c85a00c1445212901ed40ebb9601af067",
+      "new_donor_source_group_id": "sg_b8112a2d71cf21e9e41f2cc860c6c20c1ba4f1dde1cb2f0c6882110142df58a4",
+      "new_donor_bbox_xyxy": [
+        3123,
+        797,
+        3147,
+        824
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.765381,
+        0.791992,
+        0.005859,
+        0.025391
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "5bdc12a8c1b54d2456d52e32897240ad84f67c11d690d6e94bf14f37babdbe93",
+      "label_sha256": "9d7e4876604fcc738765687568b818d6b0b4fe5f6a5dc1e662696f69318acdf1",
+      "changed_pixels_gt2": 380,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "8d8892a7873bfcb2151c0e2002e1847c8834eb9a69b7e80281a8a43914bcf1df",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "8d8892a7873bfcb2151c0e2002e1847c8834eb9a69b7e80281a8a43914bcf1df",
+      "original_stage20b_annotation_id_not_used": "ann_528578f0b5f2adb60e204ea73e45409b2d5fc5fd56ca1c07313a21b0a0c92c68",
+      "original_stage20b_source_group_id_not_used": "sg_ed1b9b77019909b3e7037723c9edc004ff5da12a75f34aa8e8e465444e841586",
+      "original_stage20b_bbox_not_used": [
+        0.283813,
+        0.355469,
+        0.00708,
+        0.025391
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3951,
+        964,
+        3982,
+        991
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9683837890625,
+        0.95458984375,
+        0.007568359375,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "1d6a066466829a004e3a58bb7e67efa86f37ec666a94babd9db171cabee274e2",
+      "new_donor_sha256": "5d74ac758c9e9cd5c81c70a1a2f86946863601727762e9f5a30a682f11d34084",
+      "new_donor_canonical_image_id": "real_52e52f7fe1a517f79edc22ab3c22a886eb0601cb87be71326be61d5cecc3d6bd",
+      "new_donor_source_group_id": "sg_b052d0bde2180aab8ce2318dd4cf27a0788f0c359f89ad1d5dc3fa6c149efdfb",
+      "new_donor_bbox_xyxy": [
+        3574,
+        493,
+        3605,
+        520
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.876221,
+        0.495117,
+        0.007324,
+        0.025391
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "7adf79a6b377f3fad16154942c3d7dc86a27bb346a496b696ba1d44718359b6c",
+      "label_sha256": "b8db38a4683e93d1828cfb42971b1c9c629af4b9bb406cad5dac4cb984fe9ab8",
+      "changed_pixels_gt2": 560,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "41f587bb07323d87f64cdf8070ddaf0ec8809929560c4c4889aa9c6acd29512d",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "41f587bb07323d87f64cdf8070ddaf0ec8809929560c4c4889aa9c6acd29512d",
+      "original_stage20b_annotation_id_not_used": "ann_b43c18b66b389577cf031207b439b1342e1ad732363a5ff9290a83a97157a214",
+      "original_stage20b_source_group_id_not_used": "sg_9863513d6a9b3eea6d9a2d3eafcc516775d87c7714874b57e1428c508dc1d142",
+      "original_stage20b_bbox_not_used": [
+        0.076294,
+        0.556152,
+        0.008545,
+        0.032227
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        354,
+        387,
+        403,
+        435
+      ],
+      "target_bbox_normalized_xywh": [
+        0.0924072265625,
+        0.4013671875,
+        0.011962890625,
+        0.046875
+      ],
+      "new_donor_instance_id": "071f58a94d1fee6589141de52e7e46d0b08eb79886df5de1b74abadc82cb1bf7",
+      "new_donor_sha256": "617634b714a537d931869be37b81fb3bb94c9ebe3141c6864c30d77cc94b274d",
+      "new_donor_canonical_image_id": "real_cb220acc67c74bde391dba20b2aa953deeb97aca8946889609a643f2907f863f",
+      "new_donor_source_group_id": "sg_9809ed22fafb43f219e31aba4f041d599334b8ff07f57bffe7dc5d12fbf75528",
+      "new_donor_bbox_xyxy": [
+        3836,
+        616,
+        3885,
+        664
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.942505,
+        0.625,
+        0.011475,
+        0.044922
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "bcd40ed09ebf9060ee556e37897767cd379c849f0443f338b13d3d6c41b49e4e",
+      "label_sha256": "eed8f268dc9b468726e59a09633b02f9e28562674b8581d8ca0443ea0755d9ce",
+      "changed_pixels_gt2": 1957,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "534cd45418ff88e8ab52cd4a517309ca392cff7212ce7062f11117dfa1904355",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "534cd45418ff88e8ab52cd4a517309ca392cff7212ce7062f11117dfa1904355",
+      "original_stage20b_annotation_id_not_used": "ann_6220c95ffa25ae283edb87feba3095ed7fd82e25b31f8bf574a51bef5e26667d",
+      "original_stage20b_source_group_id_not_used": "sg_629bba2002b3feaf75e762a73432a4f982f03ec8c384bf2c1c88882735fabbb6",
+      "original_stage20b_bbox_not_used": [
+        0.750854,
+        0.740234,
+        0.005127,
+        0.027344
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3068,
+        901,
+        3099,
+        932
+      ],
+      "target_bbox_normalized_xywh": [
+        0.7528076171875,
+        0.89501953125,
+        0.007568359375,
+        0.0302734375
+      ],
+      "new_donor_instance_id": "51ef99c877a42d2a29e61850e058e5ca77e232ba29e3b2a88d01bdb5dcf2b1af",
+      "new_donor_sha256": "868686a56cee0348ad3a16f6914d0ef96782a7bf1eb2f0e5be25ce88f06ac0fc",
+      "new_donor_canonical_image_id": "real_f886913798424a3d74c206f8f77f39fccda390d2a7bcfa25aafdc93d0aee7286",
+      "new_donor_source_group_id": "sg_aa53b4ee060e4feca83d74295892e831515bf9c0f5a33e691f5c9628eb466bfb",
+      "new_donor_bbox_xyxy": [
+        85,
+        312,
+        116,
+        343
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.024536,
+        0.320312,
+        0.007568,
+        0.029297
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "8af5e4f19ff87b68330a0dadb2a14b68f9b2fbc992a9a1abff1bee74d6cc835b",
+      "label_sha256": "3e8e466171739cda8cbde1be548c80c9e874943a623e94891598000327363e46",
+      "changed_pixels_gt2": 737,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3c0e4b9cffa14c905c01880390f5cb1c605b52c108c9a1a88210df479f672e87",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3c0e4b9cffa14c905c01880390f5cb1c605b52c108c9a1a88210df479f672e87",
+      "original_stage20b_annotation_id_not_used": "ann_a0ce6cd327e5f4a9e1e06ac1e87bf14264e87f4f587bf70764ddad0ae490943e",
+      "original_stage20b_source_group_id_not_used": "sg_1ca0a7a6099900f11b30d95d062003942c587b5dc5bb84ca6c5077801d46b9c5",
+      "original_stage20b_bbox_not_used": [
+        0.074219,
+        0.539551,
+        0.008789,
+        0.03418
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        67,
+        706,
+        88,
+        728
+      ],
+      "target_bbox_normalized_xywh": [
+        0.0189208984375,
+        0.7001953125,
+        0.005126953125,
+        0.021484375
+      ],
+      "new_donor_instance_id": "7e43e35c29e065b313b1df9d73919d696fe850a5380c7c1490f751214822f3b5",
+      "new_donor_sha256": "05901c5af8babc61b592bb492ca04127511b7cc183461a46a7b1505ee5657e0f",
+      "new_donor_canonical_image_id": "real_cc8f2bb4af96d3fd2f842834c1d60e1c6aa82fd1398c242f3bc0e1137278778e",
+      "new_donor_source_group_id": "sg_08b21a989c9bfd6265c18e05f7f90a85d8cdd1a42aa9108676f772238d6f6e32",
+      "new_donor_bbox_xyxy": [
+        2229,
+        458,
+        2250,
+        480
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.546631,
+        0.458008,
+        0.004883,
+        0.021484
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "a8ef06053c4ab3c5c5e38562e918b295272a384c5fb7ad30607e6cfd0a2f3c1f",
+      "label_sha256": "61114a7e3be3995d012ba5b4098a8105380c3f2ce35ef09e340f0a306cf7e8b0",
+      "changed_pixels_gt2": 250,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "259219029571dfcda406b24c81f73a2955131a12900b40cd16f484069c53fa0f",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "259219029571dfcda406b24c81f73a2955131a12900b40cd16f484069c53fa0f",
+      "original_stage20b_annotation_id_not_used": "ann_ca4d185f27ae9c1ac4f6ee458843a992c793d75d1b73082fb72d7a6b149d33dc",
+      "original_stage20b_source_group_id_not_used": "sg_5583acbeb7b568891eebd0f539a7fab9fdb43b020e947ec569145f75e7f4d887",
+      "original_stage20b_bbox_not_used": [
+        0.745605,
+        0.598145,
+        0.006348,
+        0.024414
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1519,
+        971,
+        1542,
+        1002
+      ],
+      "target_bbox_normalized_xywh": [
+        0.3736572265625,
+        0.96337890625,
+        0.005615234375,
+        0.0302734375
+      ],
+      "new_donor_instance_id": "7d37e624348b7084566e840c5afbb923d2dfee51c0e62634ffaf8627369c2d77",
+      "new_donor_sha256": "cd035070693ab83dc8e0ce62e98126979fb21eea0a7334242e1770bea9202ee8",
+      "new_donor_canonical_image_id": "real_ed5912503400bc01a5f92f9308dd705ccef57b52d0331e9575323620fd211664",
+      "new_donor_source_group_id": "sg_a27323fc2c48cbb9260e96752ed38dda3e34a47032a6314e734e1a25ff043068",
+      "new_donor_bbox_xyxy": [
+        1027,
+        511,
+        1050,
+        542
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.25354,
+        0.51416,
+        0.005615,
+        0.030273
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "a06376dac8181c4c90a4870cf81dcf04fa343a0d4b55284c1524b118878b417f",
+      "label_sha256": "42695ac788a723cf3e6d1ab9cb5a44bb087ee57cda9d4d07851c61bd3c06a52e",
+      "changed_pixels_gt2": 524,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "53ba82168fbbb5c13849bfce9a56fde2571249f46b327a61762c74bfad0b2050",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "53ba82168fbbb5c13849bfce9a56fde2571249f46b327a61762c74bfad0b2050",
+      "original_stage20b_annotation_id_not_used": "ann_48a37755853518429c64429a43b8869bbc3ce4b3e916e3b64b7400df00ff6a0d",
+      "original_stage20b_source_group_id_not_used": "sg_25673907920abe08180bd6f3c972c339c9b563d3a9f4b8454bffaea045654d92",
+      "original_stage20b_bbox_not_used": [
+        0.755737,
+        0.553711,
+        0.006592,
+        0.019531
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1290,
+        33,
+        1306,
+        46
+      ],
+      "target_bbox_normalized_xywh": [
+        0.31689453125,
+        0.03857421875,
+        0.00390625,
+        0.0126953125
+      ],
+      "new_donor_instance_id": "8cfbe9214b042f7589a73316d90a94e9447aba377964f3493bb350cd5cf3bc21",
+      "new_donor_sha256": "1c9401cf93fff3139e53f96891fb94d9330fdc6f45dbdb2ebb6d2663e469abc7",
+      "new_donor_canonical_image_id": "real_33e1ea08f3becb258d03c84b97d7a7e62c9366e1456267b1ecfcf476f5152b5f",
+      "new_donor_source_group_id": "sg_e3746a2ccfafcb816b77a94e1b4725e6e8ec20d0d96c547b8e68d4247cc2903e",
+      "new_donor_bbox_xyxy": [
+        2844,
+        22,
+        2860,
+        35
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.696289,
+        0.027832,
+        0.003906,
+        0.012695
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "b4284416967469c2d103b93b128c1ffcb1560e2ea20cae8c4f122a12b5d76c48",
+      "label_sha256": "cd94fee3b3ec9f82f9d88abb3933f932cb540f18758cbab7d4d3d05f5e6340ef",
+      "changed_pixels_gt2": 106,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "24521be20e0ff9a0df9ad4f93bda38a59a5e38faae6621dda8620bfb6b8377e2",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "24521be20e0ff9a0df9ad4f93bda38a59a5e38faae6621dda8620bfb6b8377e2",
+      "original_stage20b_annotation_id_not_used": "ann_9efb3e76d3e9569e2d9a74e52bbdc2fac27ad302522add2719621c27865b9dc2",
+      "original_stage20b_source_group_id_not_used": "sg_34da09f89e4b9b4fabd073f0dcb4651fea51fbaeae1d36d4d36017f64e96e571",
+      "original_stage20b_bbox_not_used": [
+        0.432983,
+        0.649902,
+        0.008057,
+        0.032227
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2795,
+        968,
+        2818,
+        991
+      ],
+      "target_bbox_normalized_xywh": [
+        0.6851806640625,
+        0.95654296875,
+        0.005615234375,
+        0.0224609375
+      ],
+      "new_donor_instance_id": "77d1c4118ddd072cbe0c6b81a18832644d39c8e3c876dc95b453099845c41b51",
+      "new_donor_sha256": "3a38e32c7d3d62b8864abbee25e698e9a8036169d6c1c123c5656fe978acd830",
+      "new_donor_canonical_image_id": "real_b0b428acae274135ebebaa24306db3b003feb6d24dbea234ca54211e32e6ffc5",
+      "new_donor_source_group_id": "sg_6ac41824d538c6fb09219763b6b3110876e39774b717556208b51df3f5442a98",
+      "new_donor_bbox_xyxy": [
+        2980,
+        31,
+        3003,
+        54
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.730225,
+        0.041016,
+        0.005371,
+        0.021484
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "edc2c66554bc287bdac1de917762dc53bd61734607ace9c5e8b8e8d711a3fb17",
+      "label_sha256": "141d80b4ac51253c4c6b720bcfbb84f52d0eec5c33b5a83c1ac0a892c1bbf3e7",
+      "changed_pixels_gt2": 396,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "164bf027e1579aca912778c8aec159c7124228d056db29b8b735b45ff5ee66fe",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "164bf027e1579aca912778c8aec159c7124228d056db29b8b735b45ff5ee66fe",
+      "original_stage20b_annotation_id_not_used": "ann_daca38ecb8cbb0c7160a5b6744596468ff110e0e118a35a37acf59d8652af5b4",
+      "original_stage20b_source_group_id_not_used": "sg_7ad964f3ce4ad52ee2e266962655747864e1331696d3827ab54f22a84c4debaf",
+      "original_stage20b_bbox_not_used": [
+        0.723633,
+        0.543457,
+        0.005859,
+        0.030273
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2905,
+        182,
+        2941,
+        217
+      ],
+      "target_bbox_normalized_xywh": [
+        0.713623046875,
+        0.19482421875,
+        0.0087890625,
+        0.0341796875
+      ],
+      "new_donor_instance_id": "91b8fb11e4136e07de96b685f4d4f9b2cfd3b51feff994e4099cfca2799d61f6",
+      "new_donor_sha256": "28bcc1f907cd047e6fdfb756952a7f634475443bb91485417c7b6813da544e28",
+      "new_donor_canonical_image_id": "real_549b3d4f7cbf0bbc9149b7a77d5e82727ee96a1b0a8e801e9ad4bdf75bca8296",
+      "new_donor_source_group_id": "sg_31b5faae287ace91326d656d184fe8e84837303c13850dea45f4d553cb6a4cb4",
+      "new_donor_bbox_xyxy": [
+        914,
+        583,
+        950,
+        618
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.227539,
+        0.585938,
+        0.008301,
+        0.033203
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "2f620d70ea68db94e4502f2489aa0e2ce3525503424b9f93e9ffb06bac32bea6",
+      "label_sha256": "7a05701e0878a099e57281c0f742c91cc038a1e4b372475bdc65b4e161ca0211",
+      "changed_pixels_gt2": 999,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "c327a80cbf6ef04eb96ba8a47617cda2a2ce0194ee2c1f50ebfa7126b7dc1e22",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "c327a80cbf6ef04eb96ba8a47617cda2a2ce0194ee2c1f50ebfa7126b7dc1e22",
+      "original_stage20b_annotation_id_not_used": "ann_062eabae9f0c1637912b7d3486b767f1209f0f04e35510bd1b8fd08e8caaa282",
+      "original_stage20b_source_group_id_not_used": "sg_23de3310acb20da84fb69cb3b05fb2b7bb4bed1349bf9b4cb228cba120af6dd9",
+      "original_stage20b_bbox_not_used": [
+        0.754395,
+        0.630371,
+        0.007812,
+        0.02832
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3697,
+        194,
+        3726,
+        223
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9061279296875,
+        0.20361328125,
+        0.007080078125,
+        0.0283203125
+      ],
+      "new_donor_instance_id": "ef3d910c03e7c2547d44ca28f8850e940cb4c8191913b00c6e620167031f85ed",
+      "new_donor_sha256": "7e8dbe7102cc8697145dc459cbdbc7a3400dfade6d045c91dcb5001efbff4a74",
+      "new_donor_canonical_image_id": "real_08139b8ef62cc0a734bb85bddcdb9787249d4f30ce00cc8be9cd91b694ab7b19",
+      "new_donor_source_group_id": "sg_d29fde49318431a487f874fdbdbc382ab73cf5c375d7122404f817491207949c",
+      "new_donor_bbox_xyxy": [
+        3171,
+        618,
+        3200,
+        647
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.777588,
+        0.617188,
+        0.006836,
+        0.027344
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "d4e25816c6d8a773b5d3cb549634924a4bd668a49485883ec0b272a211d21e44",
+      "label_sha256": "6ea87ccad48d5225b47893f0d5ffca033cf6fc4697b6dacc66df2bc97e0861b6",
+      "changed_pixels_gt2": 585,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "cd51e28fdf7b48c0693e7183f3ea576a1b34591327015061dff76d8fb3e82ffa",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "cd51e28fdf7b48c0693e7183f3ea576a1b34591327015061dff76d8fb3e82ffa",
+      "original_stage20b_annotation_id_not_used": "ann_37324c5b45a95257f5a7d0969d1f212172b4edfcc3c7425ca7a69c10f0cf85f8",
+      "original_stage20b_source_group_id_not_used": "sg_5ae0adc0c7e27672db01c5db762120d17d57d8fe364a95b5462c188afea2babf",
+      "original_stage20b_bbox_not_used": [
+        0.817749,
+        0.536621,
+        0.005615,
+        0.026367
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1634,
+        74,
+        1670,
+        108
+      ],
+      "target_bbox_normalized_xywh": [
+        0.4033203125,
+        0.0888671875,
+        0.0087890625,
+        0.033203125
+      ],
+      "new_donor_instance_id": "9063e4bfad13269c26b51e6db781480459be33cee5df583d0e5dc9148489bd5f",
+      "new_donor_sha256": "78d05136ea1b8c1950538f1d188d3f57b7b4cf6776bcb6707acc6a528eaad004",
+      "new_donor_canonical_image_id": "real_07cfb4afcfa02004c3f5353dcb586f41ed7f4aaf2d6b0b96b1e9164d60d6fa41",
+      "new_donor_source_group_id": "sg_9863513d6a9b3eea6d9a2d3eafcc516775d87c7714874b57e1428c508dc1d142",
+      "new_donor_bbox_xyxy": [
+        295,
+        552,
+        331,
+        586
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.076294,
+        0.556152,
+        0.008545,
+        0.032227
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "e49154826347ca3d7bf8d9bf04e41cf8902fc45acc2f5f011ec4ca04ffb0cee2",
+      "label_sha256": "1b021446db2ecffd790b5e5daf200784782a08f4bbd6c81a7ca51cb3b6a0f0c1",
+      "changed_pixels_gt2": 964,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "ea1cff44be3e7aeba5b9844ddaf1d500cb6b74a0cccee075b7e03582a8d0aa1a",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "ea1cff44be3e7aeba5b9844ddaf1d500cb6b74a0cccee075b7e03582a8d0aa1a",
+      "original_stage20b_annotation_id_not_used": "ann_06e582a6df70514b97409ae5a3b5591d8ba69dff931549956d86c84325da573a",
+      "original_stage20b_source_group_id_not_used": "sg_5d994af5360e4f09ee0154699b356c6e77a383b79e259af69ab36721c199f563",
+      "original_stage20b_bbox_not_used": [
+        0.600708,
+        0.261719,
+        0.007568,
+        0.029297
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2751,
+        237,
+        2773,
+        266
+      ],
+      "target_bbox_normalized_xywh": [
+        0.67431640625,
+        0.24560546875,
+        0.00537109375,
+        0.0283203125
+      ],
+      "new_donor_instance_id": "59b363214e645066516ee83396e37acee77abd25a7580d52ca0084a5e9983064",
+      "new_donor_sha256": "0da79ca6110a56cb9b3d13b6b679ac31ef153fa2ebf81b24a0025b2ae0b7d7ec",
+      "new_donor_canonical_image_id": "real_672a58e68c4b2083f15a55c162bc299eb4f95d3ab703020dac5df3fa025724c3",
+      "new_donor_source_group_id": "sg_97b7cb34e997c76baaca9dfadd41a3fc75e6826eb97c31a3b1d3572bbc207d93",
+      "new_donor_bbox_xyxy": [
+        414,
+        924,
+        436,
+        953
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.103638,
+        0.916504,
+        0.005127,
+        0.02832
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "6962e47988b8db797a7e61b5d518efeba3fa27b39461b40be188ef2c174d5f15",
+      "label_sha256": "002c7d37a2aab0a9e3426de05a0ae53ac32d89241a8e755c862fc2dfd382fdd7",
+      "changed_pixels_gt2": 412,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3201c7f3128585fa17f0db4a4b5c37dcc6fc45710be6dbadc06743b40ee80aa2",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3201c7f3128585fa17f0db4a4b5c37dcc6fc45710be6dbadc06743b40ee80aa2",
+      "original_stage20b_annotation_id_not_used": "ann_dcc7d5ccb008eee436bed5abbfca3b1b74b909d8641ee418faea63198de5b3a1",
+      "original_stage20b_source_group_id_not_used": "sg_737dd26d749c906b435a9dba67fecc325c2f66fb6b686924196c810b5b0befde",
+      "original_stage20b_bbox_not_used": [
+        0.708252,
+        0.498047,
+        0.006836,
+        0.027344
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        966,
+        222,
+        993,
+        248
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2391357421875,
+        0.2294921875,
+        0.006591796875,
+        0.025390625
+      ],
+      "new_donor_instance_id": "11811ac79ed9d94c00d471768b9ae109dcd97da88680a78e2fdf7e298cdf9a64",
+      "new_donor_sha256": "553318ea5779b79b934453a9913416b9744ae0b65c39911cd019ddba00fd5484",
+      "new_donor_canonical_image_id": "real_efb1f4c06322f29010b02e5abe8fcb08490e4e1f0251b39360d98fb7182099c5",
+      "new_donor_source_group_id": "sg_5583acbeb7b568891eebd0f539a7fab9fdb43b020e947ec569145f75e7f4d887",
+      "new_donor_bbox_xyxy": [
+        3040,
+        600,
+        3067,
+        626
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.745605,
+        0.598145,
+        0.006348,
+        0.024414
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "e8c7eae40774c7c0a1a2dcbba5c358b037da0ab0b66713c9b571e4026203da50",
+      "label_sha256": "a874a973ab3ebebef9d0a9c502f9e6d836f1caafec2f640ab7e298c0a6ce05c7",
+      "changed_pixels_gt2": 489,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "flash_ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "class": "flash",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "4201448c3b1dd25743c53472bfee0d446f824e9181ccf192ee8f6e50ff59c1ea",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "4201448c3b1dd25743c53472bfee0d446f824e9181ccf192ee8f6e50ff59c1ea",
+      "original_stage20b_annotation_id_not_used": "ann_2904f56c346fc9774df4614f555c6419584e57efcf4a35a30bc9a213bc2866c5",
+      "original_stage20b_source_group_id_not_used": "sg_9db70a97d468725f2466a6b8fe591547d6f288677ee2577ace5c414d2ef814a3",
+      "original_stage20b_bbox_not_used": [
+        0.458618,
+        0.279785,
+        0.00708,
+        0.026367
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2454,
+        542,
+        2482,
+        562
+      ],
+      "target_bbox_normalized_xywh": [
+        0.6025390625,
+        0.5390625,
+        0.0068359375,
+        0.01953125
+      ],
+      "new_donor_instance_id": "af1295bef4e34761f7b935719b1d267b0b2067a55b0aeae200265ee52c23f11b",
+      "new_donor_sha256": "b1a522fe6f509af59b2b51e8e5e03cbc7856020fbaef1bdc327ec976d545124a",
+      "new_donor_canonical_image_id": "real_478b04456abc52cebc74ab4da71dc765256245b39b23e7414ea72ed8bf49823c",
+      "new_donor_source_group_id": "sg_25673907920abe08180bd6f3c972c339c9b563d3a9f4b8454bffaea045654d92",
+      "new_donor_bbox_xyxy": [
+        3081,
+        557,
+        3109,
+        577
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.755737,
+        0.553711,
+        0.006592,
+        0.019531
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "f58d3463e039100790b2c9e45deaae26eec0adc310027662dce7119ef7974ab1",
+      "label_sha256": "efaf432a21cb9353f626593e73af934ae63f76f83305758c22432e99e8e33ab4",
+      "changed_pixels_gt2": 314,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "9f9072e91be81126f2dbe106ee5b81a2eb502f8e58672ae6a4b863c6ddfa8b0b",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "9f9072e91be81126f2dbe106ee5b81a2eb502f8e58672ae6a4b863c6ddfa8b0b",
+      "original_stage20b_annotation_id_not_used": "ann_2461dfa486f4715ffe0465c4cbcc5d4db5941ab1a95d41fcb7dcb4af33c7bb87",
+      "original_stage20b_source_group_id_not_used": "sg_e7f54cad01c6f37b598e6614e407fa056655d5436306b963827f38d1d1e452b2",
+      "original_stage20b_bbox_not_used": [
+        0.950116,
+        0.410256,
+        0.00627041,
+        0.0231843
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        284,
+        531,
+        310,
+        555
+      ],
+      "target_bbox_normalized_xywh": [
+        0.072509765625,
+        0.5302734375,
+        0.00634765625,
+        0.0234375
+      ],
+      "new_donor_instance_id": "93767bc2725468009b8bbcf929a2734fa7ed300f8d98737d297a956c58ed5db3",
+      "new_donor_sha256": "efb2781c815e56d275c0784a7df80f99969f7238e6d3697c66fbba42e7cbca20",
+      "new_donor_canonical_image_id": "real_343013ec3d5fbdc5df1e30b8ab2e57ad8a3087fe4365afa8d190feb5af6e2edb",
+      "new_donor_source_group_id": "sg_e512c33d7caa8f956f64f101be1108a1202560fa4a597d6a3458310c02787e16",
+      "new_donor_bbox_xyxy": [
+        1190,
+        293,
+        1216,
+        317
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.293603,
+        0.297725,
+        0.00611815,
+        0.0218844
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "d1688fda17b15a07073dbdd9388738677a29f89c6217b325ba1805ee4c577782",
+      "label_sha256": "2031eca3a9aec7d64b358f3b70b2dc4b0239849c3d0fb8fefdcf797d4dab08f6",
+      "changed_pixels_gt2": 435,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "860ca95689aca1b6b54ef2eb52aeb46b0c7549c0d822b88db674e6f9161f8b06",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "860ca95689aca1b6b54ef2eb52aeb46b0c7549c0d822b88db674e6f9161f8b06",
+      "original_stage20b_annotation_id_not_used": "ann_2be33fa3004dda1f3aa01d2d566e2542bf1ef25bfc4e1800592801e392affb0b",
+      "original_stage20b_source_group_id_not_used": "sg_c9ee5be492de34ee412a6abe0664fef12ab016d7a90e9b858f88009d6754d1fc",
+      "original_stage20b_bbox_not_used": [
+        0.525513,
+        0.73877,
+        0.007568,
+        0.030273
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        403,
+        597,
+        418,
+        612
+      ],
+      "target_bbox_normalized_xywh": [
+        0.1002197265625,
+        0.59033203125,
+        0.003662109375,
+        0.0146484375
+      ],
+      "new_donor_instance_id": "04299938b8be5e52e656f6b559fabeaecd08837791b3929e212e47d74d132a7a",
+      "new_donor_sha256": "f159feac4a69a50dc43984e5f06146868acfd8f155bf440c3a1d08511c43f23a",
+      "new_donor_canonical_image_id": "real_fb989f3b752267337fdedcee7c1a769f3275e2d51fd8af28bdb5c82f8199c562",
+      "new_donor_source_group_id": "sg_57ef61c1e7467c113f2474c664bfe9e10103c057be1f3a22f12272e63e3c278b",
+      "new_donor_bbox_xyxy": [
+        2069,
+        593,
+        2084,
+        608
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.50708,
+        0.586914,
+        0.003418,
+        0.013672
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "4d085e5726c5a2cd3e0891c4578685d9a47f3bee44179f03d8c906f150f5bdb6",
+      "label_sha256": "27476df6389a1cf46963e5005b5ed3dc65985bdb7ff0cc50c00a6f9d1ad69603",
+      "changed_pixels_gt2": 107,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "fc21a8341bff655be99c4bda13f499c2f231336da1ccff61ea15b5c065cfea19",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "fc21a8341bff655be99c4bda13f499c2f231336da1ccff61ea15b5c065cfea19",
+      "original_stage20b_annotation_id_not_used": "ann_e0e33aa99127df874d704e9c41ab28c4b3f8118c752a40ddc490a6a435af3b66",
+      "original_stage20b_source_group_id_not_used": "sg_135a5947ae813421939d7211a58f2df1f819d22eb4d4432bdbb3905c8704ab9c",
+      "original_stage20b_bbox_not_used": [
+        0.783936,
+        0.141113,
+        0.005371,
+        0.020508
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2809,
+        548,
+        2829,
+        567
+      ],
+      "target_bbox_normalized_xywh": [
+        0.688232421875,
+        0.54443359375,
+        0.0048828125,
+        0.0185546875
+      ],
+      "new_donor_instance_id": "b7490d0881961f557f8ec85fd96337cd1af774242679eb4e9a277c87dafbde3d",
+      "new_donor_sha256": "037c812c1b08753b2a4cde5688700152b40718bce750d610625b80520b57f2d4",
+      "new_donor_canonical_image_id": "real_e15a814525e1020787fdbcebee2e95d5520e95ff8177b2e888d3ee677f1cb5fd",
+      "new_donor_source_group_id": "sg_3bfa72de825bd90522cba12d4155b48417c0375962cf49e46b48a25b624efacf",
+      "new_donor_bbox_xyxy": [
+        517,
+        679,
+        537,
+        698
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.128598,
+        0.672579,
+        0.0046826,
+        0.0175362
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "43515f1f2869585bb042fd7f1d9937b87ab4acb4a95759b5a301b0ec8132e29c",
+      "label_sha256": "d8b75c0bbdce6cf8aeca1898adde1004e03106f695a192affe7b326c29d9822f",
+      "changed_pixels_gt2": 225,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "59e4e71943fec086ac5bc8230944e8af8f98e632d19ebc60adc93d25157e14ea",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "59e4e71943fec086ac5bc8230944e8af8f98e632d19ebc60adc93d25157e14ea",
+      "original_stage20b_annotation_id_not_used": "ann_e763ab812bda88f07c3a3ce422fab2d7c499c0e1e7c68054f8a430f16506512e",
+      "original_stage20b_source_group_id_not_used": "sg_040ff73be0069988c4e67e8adc59846b96224d4dc9f7e8422bc36d84b5521242",
+      "original_stage20b_bbox_not_used": [
+        0.882745,
+        0.623531,
+        0.00674218,
+        0.0259439
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1370,
+        455,
+        1400,
+        483
+      ],
+      "target_bbox_normalized_xywh": [
+        0.338134765625,
+        0.4580078125,
+        0.00732421875,
+        0.02734375
+      ],
+      "new_donor_instance_id": "ddbd48ca47a8a8079cb1535a4baf8c41226c7c73f1cf628343bb22f7689603f0",
+      "new_donor_sha256": "8adddb9289dc7ba57d9289bf11d0aea7a8b61beea969ae961299683c28f9f30b",
+      "new_donor_canonical_image_id": "real_96bf6c7f704f9be58bf6b5d1384e70eec68681e50b8b426a80d6c4254466730a",
+      "new_donor_source_group_id": "sg_1ab4375c7eb7bc9648e8a017b87e3df6eda680e88ed3aab5747aaadbb5940730",
+      "new_donor_bbox_xyxy": [
+        3622,
+        649,
+        3652,
+        677
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.887989,
+        0.647511,
+        0.00719011,
+        0.0261461
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "660d80425819967286cb602c8abb2cade0d8b54589f6023b7c252d0cabb2cdc3",
+      "label_sha256": "8b2c927a5f0406cabbeecda8eae3eed794a78b6fb6950a42a65849aff129ebac",
+      "changed_pixels_gt2": 499,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "8047f3282723437e45df0f5f0f3cdafa1cb6220a51b8c6040ff7c63f1cda6406",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "8047f3282723437e45df0f5f0f3cdafa1cb6220a51b8c6040ff7c63f1cda6406",
+      "original_stage20b_annotation_id_not_used": "ann_4bffd9d1a46394882a65c6812ccc320f9fa162374a4bdda2716df28b095c42aa",
+      "original_stage20b_source_group_id_not_used": "sg_b7e8a076a752eb6076e99ba770ebc18361d8706bbcf36559b0ccc333702f4df5",
+      "original_stage20b_bbox_not_used": [
+        0.832952,
+        0.486375,
+        0.00674564,
+        0.0253319
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        577,
+        797,
+        599,
+        818
+      ],
+      "target_bbox_normalized_xywh": [
+        0.1435546875,
+        0.78857421875,
+        0.00537109375,
+        0.0205078125
+      ],
+      "new_donor_instance_id": "01646e3246058d46550e6618c36f89ef09bc61cc8fe6075991ffdf6272200123",
+      "new_donor_sha256": "d5f5f4dba5b69aac0bafd09bbdfa81dae92b34e05b14295d499964cb9d9759bd",
+      "new_donor_canonical_image_id": "real_779aa23d71b16960809b68ef383e33a600d3fdf0b8f9f36dabcaabde0df68de5",
+      "new_donor_source_group_id": "sg_fd00731981efcf12f230e50bae2660e9867ea2bd3dc2e31af7119840dfd7ce57",
+      "new_donor_bbox_xyxy": [
+        1284,
+        249,
+        1306,
+        270
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.31609,
+        0.253473,
+        0.00512311,
+        0.0194928
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "67657c3734e8561b2288881d93ff255a7c45568ecb12bad1bdf80dd88d8668de",
+      "label_sha256": "8824ffbec7f8fb15671193854ac5fc36b91da54d440b5effa1571b8cc8f34c0f",
+      "changed_pixels_gt2": 262,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3588793741e6cd13d52f179bd49b32834c6337724a25cdddd47b7cf85e796d1d",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3588793741e6cd13d52f179bd49b32834c6337724a25cdddd47b7cf85e796d1d",
+      "original_stage20b_annotation_id_not_used": "ann_0c7d9fefd6d89bce5219abd9157497175ecdecb6ed9d8e8dfedcec910140d994",
+      "original_stage20b_source_group_id_not_used": "sg_75ff7ce82f20e58ed6f92e6550f1d91b370516144418e6193c9c22b73054f7fc",
+      "original_stage20b_bbox_not_used": [
+        0.447144,
+        0.567871,
+        0.004639,
+        0.016602
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1233,
+        961,
+        1259,
+        986
+      ],
+      "target_bbox_normalized_xywh": [
+        0.30419921875,
+        0.95068359375,
+        0.00634765625,
+        0.0244140625
+      ],
+      "new_donor_instance_id": "8994263f8cb6ab19ac008c1f847759ad9423383bbe8acc245b8749017e661996",
+      "new_donor_sha256": "6bd61502a905003e4d19d5a96665e1cf1094c191514ee718381d1a6675de29a0",
+      "new_donor_canonical_image_id": "real_54aa33d2b855af8e7245f346b09fe037113ccb9be3c829e32c84fad2c4043dfe",
+      "new_donor_source_group_id": "sg_beb4c2f2b6823fbb7b83157048b6ee5d2f8006005471dd83d1ac070d694efdfc",
+      "new_donor_bbox_xyxy": [
+        3368,
+        278,
+        3394,
+        303
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.825339,
+        0.28406,
+        0.00613689,
+        0.0232419
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "29a8935a61a9eb99b730391477737b73ca18973522b8de201b896af92e4efe93",
+      "label_sha256": "d2f7a2666f5af238a1a66633f3b38eba656075d4454f31087b03a82985aec2b9",
+      "changed_pixels_gt2": 410,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "24521be20e0ff9a0df9ad4f93bda38a59a5e38faae6621dda8620bfb6b8377e2",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "24521be20e0ff9a0df9ad4f93bda38a59a5e38faae6621dda8620bfb6b8377e2",
+      "original_stage20b_annotation_id_not_used": "ann_071f815d8a58e681f5a2cae5ad368b34c8aeb19bb9966083bc83a34f3e96daa1",
+      "original_stage20b_source_group_id_not_used": "sg_5b36faf6331650ed179960908e31e926514129a02365bd5cb4c3e7b1f7a4e943",
+      "original_stage20b_bbox_not_used": [
+        0.848999,
+        0.130371,
+        0.003662,
+        0.016602
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3373,
+        659,
+        3398,
+        683
+      ],
+      "target_bbox_normalized_xywh": [
+        0.8265380859375,
+        0.6552734375,
+        0.006103515625,
+        0.0234375
+      ],
+      "new_donor_instance_id": "140415291d031e571db7a933ddf409d081efb93b636348c50f50fb8aa4406a12",
+      "new_donor_sha256": "47a0d0ca6495a77033edfb23a9a4113755762c5ecd29cbe052d82f1aed21039f",
+      "new_donor_canonical_image_id": "real_975d34b8e85a21b56da3c803ad56973932119aa7e10ccc2d3fe950d49a98f2c8",
+      "new_donor_source_group_id": "sg_0368a2698130552fac5355b0e017b7a6932d9ae61c95a682333ebac45fe72a50",
+      "new_donor_bbox_xyxy": [
+        3519,
+        482,
+        3544,
+        506
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.86224,
+        0.48246,
+        0.00594729,
+        0.0218854
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "a550c02dc392b3575563a6e12bd181577d32a2de5c950945d4d8d51ee0e236f2",
+      "label_sha256": "bdfccf5315d0080a6373bf2b7391e1662ff5dbab43f3fb87acdc7a1eafa95b24",
+      "changed_pixels_gt2": 402,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "5b28cf6fcb307b46d91fcee66284f6bd14566ba782660817d8116bb7125783a2",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "5b28cf6fcb307b46d91fcee66284f6bd14566ba782660817d8116bb7125783a2",
+      "original_stage20b_annotation_id_not_used": "ann_1685cdcd61913ae1f161d5ee45dd6e054f0a0732224761672e17269cd3feea6b",
+      "original_stage20b_source_group_id_not_used": "sg_fdf8a5fa8e3cc918577c1035c43756a216c7da19950df14c7c5b8dc13586762c",
+      "original_stage20b_bbox_not_used": [
+        0.393799,
+        0.091309,
+        0.004883,
+        0.018555
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2587,
+        275,
+        2615,
+        303
+      ],
+      "target_bbox_normalized_xywh": [
+        0.635009765625,
+        0.2822265625,
+        0.0068359375,
+        0.02734375
+      ],
+      "new_donor_instance_id": "c8af575579d05664b67901ce85d3a35b744d9837a1346c9b930af6a783cfe14a",
+      "new_donor_sha256": "91f43d5c02c96aedd7a59226c146a3002af538cade8052b77906d5bb41faf0f3",
+      "new_donor_canonical_image_id": "real_fbfe4cd1f248cf2a5685f914ff5beb5076de786a98a83a76bf60b710aae125c5",
+      "new_donor_source_group_id": "sg_b7cd85922f587fd5644bc92ef6caf7401d9a13b53d4d1224b34ce8dc268a0d88",
+      "new_donor_bbox_xyxy": [
+        3737,
+        664,
+        3765,
+        692
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.915823,
+        0.662084,
+        0.00663632,
+        0.0268092
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "a76bf876e82552c75d80040421257cb8fbfd957d515a014c21553f08eb507add",
+      "label_sha256": "0be095ce8c72aa772afad6ce6862d71b2b85a1d616e4e7a160972a41731136d2",
+      "changed_pixels_gt2": 541,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "def9ec0b71a85b6f8417089df49d0fc301356f7eb8400e02babf3f7a01f64c87",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "def9ec0b71a85b6f8417089df49d0fc301356f7eb8400e02babf3f7a01f64c87",
+      "original_stage20b_annotation_id_not_used": "ann_673cc52cb54e7ce6dbc35718b6cac850b84622f376ba3125f0cbfec64c83287a",
+      "original_stage20b_source_group_id_not_used": "sg_e8620d829bc04d91b34ec2490ca3ebebd9ecf5b86b356902309e31510a0d6954",
+      "original_stage20b_bbox_not_used": [
+        0.773071,
+        0.505371,
+        0.003662,
+        0.012695
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        216,
+        851,
+        235,
+        870
+      ],
+      "target_bbox_normalized_xywh": [
+        0.0550537109375,
+        0.84033203125,
+        0.004638671875,
+        0.0185546875
+      ],
+      "new_donor_instance_id": "63e029b543a9649ed37d8a432d8936c24dbc583107150957a05de10138e6bcd7",
+      "new_donor_sha256": "400446a838281e3c1af1f803fdb3f8ba1897fd518b4200b4065900989c522668",
+      "new_donor_canonical_image_id": "real_35beca71490483be605deef9c06bee49dd1ae64dbf98b2097eb246fc4a481c54",
+      "new_donor_source_group_id": "sg_ab5da4037e2edb68720274fde48bdef36efe09b3dc86ca5dc349a7246493d754",
+      "new_donor_bbox_xyxy": [
+        2248,
+        585,
+        2267,
+        604
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.551149,
+        0.580233,
+        0.00461864,
+        0.017818
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "9d76476661205a608128b2fb4170a69a715e1134dfe353c166eb3416cc2fb7db",
+      "label_sha256": "25ebea9fe3370203e63a243b5415069181a1bda77a286aded7163da941f58339",
+      "changed_pixels_gt2": 186,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "1db0db2b47e409bd82f5dcc79deea294c7d5ff63170a0b826ce03f7f1c230850",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "1db0db2b47e409bd82f5dcc79deea294c7d5ff63170a0b826ce03f7f1c230850",
+      "original_stage20b_annotation_id_not_used": "ann_79e8cd20c9697e64935c20a3ee9a93dde1bfceb5dd4a62bfd62a35c372401254",
+      "original_stage20b_source_group_id_not_used": "sg_e39240a7342f3effcec531bdc06dcd17e80ef761093f3b229f0cf2d810ffe09c",
+      "original_stage20b_bbox_not_used": [
+        0.697754,
+        0.705078,
+        0.006836,
+        0.023438
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3499,
+        983,
+        3528,
+        1010
+      ],
+      "target_bbox_normalized_xywh": [
+        0.8577880859375,
+        0.97314453125,
+        0.007080078125,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "97876ded49330e5466a4271edf0b4e20942317558249d7fd6e9b1f4a913fd3f8",
+      "new_donor_sha256": "370cafebde98010f643ee4e8858e2e80f83f3683474c6eb2273861f2b5a3a6f6",
+      "new_donor_canonical_image_id": "real_e3462eaa3d213cbb6936bd8afa4415181fd7861eae3a2285830037991cc92fb1",
+      "new_donor_source_group_id": "sg_040ff73be0069988c4e67e8adc59846b96224d4dc9f7e8422bc36d84b5521242",
+      "new_donor_bbox_xyxy": [
+        3601,
+        625,
+        3630,
+        652
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.882745,
+        0.623531,
+        0.00674218,
+        0.0259439
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "5074a0ee99d3ce2ee3212da737e95f6ddb73679296c7d911d9bd4a7410b6f2e2",
+      "label_sha256": "7df76684582e5e7e26723f3329558a4d98b69268fa7ab837f2af8b1216485394",
+      "changed_pixels_gt2": 573,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "db7ee6c32aeb80d3a38791d0e1372db8ef81e1514ed6b6e51f75c547cf811001",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "db7ee6c32aeb80d3a38791d0e1372db8ef81e1514ed6b6e51f75c547cf811001",
+      "original_stage20b_annotation_id_not_used": "ann_2ce5a3cda09a14b7cf3a1526cbabbed2cff498b2a78e7482cc38852280331bd8",
+      "original_stage20b_source_group_id_not_used": "sg_0c459bd2a7fb71bb4fce51ec74ea970f51a3799dc0031c7a304b0c55e9067c39",
+      "original_stage20b_bbox_not_used": [
+        0.82373,
+        0.351074,
+        0.005859,
+        0.022461
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2213,
+        640,
+        2240,
+        664
+      ],
+      "target_bbox_normalized_xywh": [
+        0.5435791015625,
+        0.63671875,
+        0.006591796875,
+        0.0234375
+      ],
+      "new_donor_instance_id": "fd05c2fd920a7b7c3012f2f423d61afea13c5eec86f23a8825dfac43053ddf3f",
+      "new_donor_sha256": "7678f61313b3083f7575dce471a25878c8fd9d7bc0879754c3ecba339d36fadc",
+      "new_donor_canonical_image_id": "real_bcf643cff1da37b2837e437d0a1a0a7f828920cb81d1a8b21948e99855e93b4f",
+      "new_donor_source_group_id": "sg_9f7fd46fcb64e63a2ceafed5d9cba1042aeb4e0397d74319d03e0861c74e4b2d",
+      "new_donor_bbox_xyxy": [
+        3771,
+        955,
+        3798,
+        979
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.92395,
+        0.944824,
+        0.006104,
+        0.022461
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "0e5927f293f30e481b65decf72c3d4517eba2de34c91a4ac8f3b62d19e1808e4",
+      "label_sha256": "80a85c36bd77c80a18e4ed040870cae8f59500314c116f3fb7d540ede0f5d411",
+      "changed_pixels_gt2": 427,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "f2ee139b358e78a7926abc22c3b2199dcd72fded3a1d40a884d1e19c6ac1f6df",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "f2ee139b358e78a7926abc22c3b2199dcd72fded3a1d40a884d1e19c6ac1f6df",
+      "original_stage20b_annotation_id_not_used": "ann_75dc2640bc2ac86698cc297dc9f7e193495b312d9aa034cba489352ccb4fb28a",
+      "original_stage20b_source_group_id_not_used": "sg_09457bc4a8325bec320a9cad383bf5449df8732b9425669dcac07562bcb8f1fa",
+      "original_stage20b_bbox_not_used": [
+        0.734784,
+        0.563905,
+        0.00791711,
+        0.0263095
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2567,
+        118,
+        2587,
+        137
+      ],
+      "target_bbox_normalized_xywh": [
+        0.629150390625,
+        0.12451171875,
+        0.0048828125,
+        0.0185546875
+      ],
+      "new_donor_instance_id": "01e5fa1e5535e9efbe179709490898ff23b761a05507fbcb47955cea1099195e",
+      "new_donor_sha256": "68d8c90029655c60253324fc24078761190e1280e37739bd0b6d811587ee0454",
+      "new_donor_canonical_image_id": "real_d8cf0a73ce41e69e52709e52b72fdb2d10ab3330d637124dbf6688bcd4ee51e5",
+      "new_donor_source_group_id": "sg_75ff7ce82f20e58ed6f92e6550f1d91b370516144418e6193c9c22b73054f7fc",
+      "new_donor_bbox_xyxy": [
+        1822,
+        572,
+        1842,
+        591
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.447144,
+        0.567871,
+        0.004639,
+        0.016602
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "31272d6c0ea7628cf7dd77f641d6c8a7302307a8573d2dfb96688da97e0bf63d",
+      "label_sha256": "32fa5cbe941eec75f2ab6a364274c4beb4d4ebf86be1de79086459882538153b",
+      "changed_pixels_gt2": 192,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "fcf4b53f26588f9bffeb88a6eec0cdb07ced3e74e842b0fd1379ff4acf8da838",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "fcf4b53f26588f9bffeb88a6eec0cdb07ced3e74e842b0fd1379ff4acf8da838",
+      "original_stage20b_annotation_id_not_used": "ann_4a0015f738225b52270becce7c3fd4448d1cf712c54e43b9fe222d984dabdd5a",
+      "original_stage20b_source_group_id_not_used": "sg_098490b76d4e2a5eca1e27ac47055cc0343b3ee90396d8bbd3561973adbc6feb",
+      "original_stage20b_bbox_not_used": [
+        0.368652,
+        0.477051,
+        0.003906,
+        0.016602
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        4038,
+        426,
+        4060,
+        444
+      ],
+      "target_bbox_normalized_xywh": [
+        0.988525390625,
+        0.4248046875,
+        0.00537109375,
+        0.017578125
+      ],
+      "new_donor_instance_id": "eb0c375079d6e3ee974b7db2f78c8d0a55d9a217637ccb04281a9a1ddd89fbfe",
+      "new_donor_sha256": "77a33ed4b1fe488639686d15ee8f39dd3262586eaa77533bd432be9ac9d6ab59",
+      "new_donor_canonical_image_id": "real_0b975e3b1894922bf5fb75879ec107eade4a4757bdef752f45a12576ab95336d",
+      "new_donor_source_group_id": "sg_925c0dadeedf2ba3edeadf3bfa38e9f363e8af339042f5500181ef58eb99950c",
+      "new_donor_bbox_xyxy": [
+        3417,
+        679,
+        3439,
+        697
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.836914,
+        0.671875,
+        0.004883,
+        0.017578
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "07e8fd2e955dabfc8f09c557fea7779274dbca9897644b12731695b5f1687da7",
+      "label_sha256": "258bdd4bcbc93dec5ffc2485ec57ab9b4e10ce9fd9eb9754abd85f9b057096c2",
+      "changed_pixels_gt2": 253,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "c7eef992fe206151925d6984b4ce29ef701e27622d22ac796acdb11804d56254",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "c7eef992fe206151925d6984b4ce29ef701e27622d22ac796acdb11804d56254",
+      "original_stage20b_annotation_id_not_used": "ann_d88ce8f96a391e55baecb2e2c2c053d00ffae34802d3e83753b7d4105f7c8406",
+      "original_stage20b_source_group_id_not_used": "sg_28d5acb37ba77f1a95a668f8a60b0a34b152ac16c017149ca0a9cd845be8d4df",
+      "original_stage20b_bbox_not_used": [
+        0.47177,
+        0.82024,
+        0.00920519,
+        0.0357329
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3940,
+        620,
+        3957,
+        636
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9639892578125,
+        0.61328125,
+        0.004150390625,
+        0.015625
+      ],
+      "new_donor_instance_id": "dd075388bfd70d4e0150fb4eb04414c78746326f2ddfa34ae61db96d74e01c2d",
+      "new_donor_sha256": "b09b4c38f74c1ae880410905edd534920d505a92e2b0c3d993fb498bd1163d8f",
+      "new_donor_canonical_image_id": "real_d142b7193f24f1789944de1e9e76bde44b16b22e1f5f0209153c323b1b3adf83",
+      "new_donor_source_group_id": "sg_2bec6178c9bd09d6e3f2083b2a5f04c52221fdf1a49bbe7975fac9ee45a33f46",
+      "new_donor_bbox_xyxy": [
+        2136,
+        61,
+        2153,
+        77
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.523438,
+        0.066895,
+        0.003906,
+        0.014648
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "bbe94733b47629e62f82dd46169e2e0723e1bd64fc6aa0f0935b81af9610cf12",
+      "label_sha256": "db1b593152ff77eb7129c5d01b4301572b84415d2b024c86e582659e253a92ed",
+      "changed_pixels_gt2": 145,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "e97512009df3fc03ca53b9b8549308f4c61212d3e750cf4c30143d23783eac2c",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "e97512009df3fc03ca53b9b8549308f4c61212d3e750cf4c30143d23783eac2c",
+      "original_stage20b_annotation_id_not_used": "ann_6129d902e334760f6bd5c59272a84a90dc8832a2b9615ccc18f9fc7290b3dc8a",
+      "original_stage20b_source_group_id_not_used": "sg_5060cb8e69e20c2f5d1ec8509b84dbd8de7a20102341afee59b08b8503d848de",
+      "original_stage20b_bbox_not_used": [
+        0.882756,
+        0.82103,
+        0.0050149,
+        0.0186599
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3948,
+        282,
+        3981,
+        319
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9678955078125,
+        0.29345703125,
+        0.008056640625,
+        0.0361328125
+      ],
+      "new_donor_instance_id": "fe5ace8d29f776327b0ceb0525caa76504c9125ae9f9732f1dd9f3e6c362c0ab",
+      "new_donor_sha256": "4b26a8346905898408559f48230352e1d31c74e4a0882101484d7846af78b68d",
+      "new_donor_canonical_image_id": "real_d0abd4faea889ad11d5693e0f66a86f878347edddc3b51433b43418d6529aa08",
+      "new_donor_source_group_id": "sg_275648dcacb18395e6df5992e3989f1b584ed1ee93a48c1a0e5158fb9ff1c63a",
+      "new_donor_bbox_xyxy": [
+        3477,
+        695,
+        3510,
+        732
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.852806,
+        0.696772,
+        0.00783032,
+        0.0352573
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "39bb8ced9cd3178a51d6bfb41bbed521ecd5790d3690dedeae1e7cd272178e31",
+      "label_sha256": "dc889e5fc6447343591e65e3ccf32813fdb26154ad7d2ffda5ec1540a3e8de91",
+      "changed_pixels_gt2": 959,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "cf8a08ea351c8ad689f75b17db3bd491db74f06df7cb4dbbd4c79684957a4706",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "cf8a08ea351c8ad689f75b17db3bd491db74f06df7cb4dbbd4c79684957a4706",
+      "original_stage20b_annotation_id_not_used": "ann_3fa5dd2945d4da036560aab20720650ce617826fa216a99184687a80681ea04f",
+      "original_stage20b_source_group_id_not_used": "sg_0368a2698130552fac5355b0e017b7a6932d9ae61c95a682333ebac45fe72a50",
+      "original_stage20b_bbox_not_used": [
+        0.86224,
+        0.48246,
+        0.00594729,
+        0.0218854
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2536,
+        665,
+        2564,
+        690
+      ],
+      "target_bbox_normalized_xywh": [
+        0.62255859375,
+        0.66162109375,
+        0.0068359375,
+        0.0244140625
+      ],
+      "new_donor_instance_id": "e02acc04335ecc9f2e486a654bc0de3e2928c5633b3276bfe734d1fbc665af36",
+      "new_donor_sha256": "0c826f89c3b46a8a39a3e5e0e700821eef2015e4dadb9ddb5c4c83b7dfd0874e",
+      "new_donor_canonical_image_id": "real_ab43d4feca87a5ee35fe42c69f1895d24d9c2b8e9c202775d6503c7230d80aca",
+      "new_donor_source_group_id": "sg_94746aa8923729cf272ee2814e6129402050af7a29af9f787f39cd35e00c98af",
+      "new_donor_bbox_xyxy": [
+        2960,
+        857,
+        2988,
+        882
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.726074,
+        0.849042,
+        0.00635272,
+        0.0230837
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "3438d4a359f59b8905c0156101693c1852dc7f853ba83660e3a0e2bfcbcb3e38",
+      "label_sha256": "321c36180dfa8bdf9af296d38415e9fa7c4f5949354544899f7daf5a7fdfde82",
+      "changed_pixels_gt2": 451,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "a6b16097a47e120c662c60c4aac9406d0fe1a3f318e1a049a9cdd6a4d58eb8dc",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "a6b16097a47e120c662c60c4aac9406d0fe1a3f318e1a049a9cdd6a4d58eb8dc",
+      "original_stage20b_annotation_id_not_used": "ann_f0ef34c046f25fc9d6e80ef4935b6986ff5efa0f3bfc6209c625ae3d110e82cf",
+      "original_stage20b_source_group_id_not_used": "sg_60d364e1cb56272a0c75b98641e102807bb813e75009235b7774de9ace3f2cf1",
+      "original_stage20b_bbox_not_used": [
+        0.674194,
+        0.706543,
+        0.01001,
+        0.049805
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2244,
+        131,
+        2271,
+        155
+      ],
+      "target_bbox_normalized_xywh": [
+        0.5511474609375,
+        0.1396484375,
+        0.006591796875,
+        0.0234375
+      ],
+      "new_donor_instance_id": "eeddc2345230e205741f5848eefce73f827e192e95216e5c3e532c7c6205f7c8",
+      "new_donor_sha256": "d03e1c68902ec19eebc6feb2a7c5d4be8904a50be6c91d23de3d900e5d268540",
+      "new_donor_canonical_image_id": "real_5cb2146c016c0e05a61c95677b8f6bf263b17ee8718f77b89878af25cf9c4711",
+      "new_donor_source_group_id": "sg_e7f54cad01c6f37b598e6614e407fa056655d5436306b963827f38d1d1e452b2",
+      "new_donor_bbox_xyxy": [
+        3878,
+        408,
+        3905,
+        432
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.950116,
+        0.410256,
+        0.00627041,
+        0.0231843
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "06cbc56fb9f4a4a7f850f15a4ef31c960499c0dccb5adc6e3fcc097d406d8de9",
+      "label_sha256": "dfb79043088b4724c7ce407835af3e741c3080cd4702160b640447e0acdd649c",
+      "changed_pixels_gt2": 411,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "2b80cfc91183b1e1cbebd819ecf9ad7828d9b74bfa226375ca4b946ba9a520ce",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "2b80cfc91183b1e1cbebd819ecf9ad7828d9b74bfa226375ca4b946ba9a520ce",
+      "original_stage20b_annotation_id_not_used": "ann_a7338f1c6b54cf5be0f9aac1df22dc3fc34c614d0b0ce8554599e6679f69529f",
+      "original_stage20b_source_group_id_not_used": "sg_92fb031f5bc8f2773a0a8c87d23f3b817dfb5f5faa13692845e532e0d6e53cbf",
+      "original_stage20b_bbox_not_used": [
+        0.948975,
+        0.663574,
+        0.007324,
+        0.026367
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2288,
+        342,
+        2310,
+        356
+      ],
+      "target_bbox_normalized_xywh": [
+        0.561279296875,
+        0.3408203125,
+        0.00537109375,
+        0.013671875
+      ],
+      "new_donor_instance_id": "72a0e4144dadbe7974e8f33e8dd4916628836fc3b5c1e6544e0e1b63ada71973",
+      "new_donor_sha256": "dfbae143eb77dad8d9efbd191459f6d10faedc92827f38826aa76ceaaba8a42b",
+      "new_donor_canonical_image_id": "real_b3a4fb83768f9d80a96665fafc76c8062bed136ee8368c2b546eccafaaf3b2f9",
+      "new_donor_source_group_id": "sg_bf204ec88875f763ecc32011fd61797c573a2d9f69e8d1764fcb2c499443e0e1",
+      "new_donor_bbox_xyxy": [
+        1435,
+        1010,
+        1457,
+        1024
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.353149,
+        0.992676,
+        0.005127,
+        0.012695
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "bf27100957ce708dd47b97931c5269893cdeb444877b0e602e0cae780cda172a",
+      "label_sha256": "ed40a201979ac4cd79e345be38991a18667560d6a512594328416558dbc89e81",
+      "changed_pixels_gt2": 177,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3401dc784a95061be36f1e544c84008f8693fcdff71d7985dcb65b04b231f74c",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3401dc784a95061be36f1e544c84008f8693fcdff71d7985dcb65b04b231f74c",
+      "original_stage20b_annotation_id_not_used": "ann_37b3fd7f81a535f786a676b2058cbc686616f4c5705ab26c82ff913a37cc53c4",
+      "original_stage20b_source_group_id_not_used": "sg_717a6671b29e255255bb2675894028778acd4916450640e1307c0f901b63e8a2",
+      "original_stage20b_bbox_not_used": [
+        0.362083,
+        0.561051,
+        0.00507513,
+        0.0196834
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1970,
+        525,
+        2000,
+        552
+      ],
+      "target_bbox_normalized_xywh": [
+        0.484619140625,
+        0.52587890625,
+        0.00732421875,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "a9e8fee0024d8ebdbe32b1ac5c04746a4e3f3cfe3761c21502fe2d08e857bd08",
+      "new_donor_sha256": "7156456acefa34bda1c36dc1a01e0a7f11c2d2e57253eff6f7320e6850e18dd5",
+      "new_donor_canonical_image_id": "real_bbe0a327ce25bc4c93ad99ad8b5fa670623b83afd27de2ca79a39d8bce8dee97",
+      "new_donor_source_group_id": "sg_12dd71cf19d1dc88a27639fb1d430218f05f7bb657c7badbce6d9803e24ffa03",
+      "new_donor_bbox_xyxy": [
+        3663,
+        906,
+        3693,
+        933
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.897886,
+        0.898262,
+        0.00711501,
+        0.0252703
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "7abe19ed2f21824af1ba2814f33b6e316a94b585a1d9ada11400d87aafb2de48",
+      "label_sha256": "bb4030691d209c86d531d2825bbc12f5b38472db6507aa99e06bff5c4a7f26b7",
+      "changed_pixels_gt2": 551,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "52b8a9b3a9a458d59dff8afba22caaeb8720ed9daebbeb6af3670de5ef7bdf23",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "52b8a9b3a9a458d59dff8afba22caaeb8720ed9daebbeb6af3670de5ef7bdf23",
+      "original_stage20b_annotation_id_not_used": "ann_400ef8bbb73d63ad090bd2632bb075b1da37af5a361b4ab9ba726af51b959000",
+      "original_stage20b_source_group_id_not_used": "sg_275648dcacb18395e6df5992e3989f1b584ed1ee93a48c1a0e5158fb9ff1c63a",
+      "original_stage20b_bbox_not_used": [
+        0.779831,
+        0.442514,
+        0.00704926,
+        0.0284731
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3193,
+        700,
+        3231,
+        736
+      ],
+      "target_bbox_normalized_xywh": [
+        0.7841796875,
+        0.701171875,
+        0.00927734375,
+        0.03515625
+      ],
+      "new_donor_instance_id": "0af4287ddcfa31ce0a6c97fd25a89951ebb3b2c9e4f7e8d575ef4dd9b8099d3c",
+      "new_donor_sha256": "1f055f43a1d20181038905990b7637ed2fa8bad506e9eb3509d773b047191d5f",
+      "new_donor_canonical_image_id": "real_2a0115fba4d1654e8ddd8e40d9e12e9ac36a26c8cc4c301d0e6afd4b5c1c2a48",
+      "new_donor_source_group_id": "sg_47ff97f307f461737cdd1b6ee9c7fda0a1a640fae7d5509bc29603e4b0c62b77",
+      "new_donor_bbox_xyxy": [
+        1526,
+        740,
+        1564,
+        776
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.377188,
+        0.740308,
+        0.00901684,
+        0.0343941
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "7e6509b78a21de652de1d5154b462131f5129a208e780c794d8beafd68b70a53",
+      "label_sha256": "59a68d893e15106a0f99425ef86fff324c1d0f46d19a58fcf29d7533b6ecf268",
+      "changed_pixels_gt2": 1007,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "9aae40e8defee1f33572e2c261ef2a32aaceb950e6322f3c171a5cb604946521",
+      "normal_replaced_for_validation_lineage": true,
+      "effective_normal_sha256": "9f9072e91be81126f2dbe106ee5b81a2eb502f8e58672ae6a4b863c6ddfa8b0b",
+      "original_stage20b_annotation_id_not_used": "ann_28778ee426f6baa7765bde372256f842971f9c5cc9e8c3cc9dda4072e23418e3",
+      "original_stage20b_source_group_id_not_used": "sg_9f7fd46fcb64e63a2ceafed5d9cba1042aeb4e0397d74319d03e0861c74e4b2d",
+      "original_stage20b_bbox_not_used": [
+        0.92395,
+        0.944824,
+        0.006104,
+        0.022461
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3987,
+        401,
+        4016,
+        428
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9769287109375,
+        0.40478515625,
+        0.007080078125,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "825b07481d4f82766d33d9b876a7b8bbe8d62c18ade86c0228c7b033a24cbdfc",
+      "new_donor_sha256": "6a81d037ce07beb1e4bdb803cd7daaae3fbf6b7754f71c2495e789eddbcc6a79",
+      "new_donor_canonical_image_id": "real_68171d6cb45cfed1cc4da98d69301143288527231e401126b280654234da135e",
+      "new_donor_source_group_id": "sg_b7e8a076a752eb6076e99ba770ebc18361d8706bbcf36559b0ccc333702f4df5",
+      "new_donor_bbox_xyxy": [
+        3397,
+        485,
+        3426,
+        512
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.832952,
+        0.486375,
+        0.00674564,
+        0.0253319
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "9d2629908b81e873708b555211ba125e92e6b8f5399a3c654dc1214cf26bcbf5",
+      "label_sha256": "ab8ae491e30ca93a9b1dec3c314772e434e3cad42e1cbb7d0ee67a7d728ce25a",
+      "changed_pixels_gt2": 499,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "0deba8196e03c82ce6cdf52b89655944bfc374afb784f28a142fcd05cade3ace",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "0deba8196e03c82ce6cdf52b89655944bfc374afb784f28a142fcd05cade3ace",
+      "original_stage20b_annotation_id_not_used": "ann_4b28876bbe18f88959caa0d2b0695a6a189e5c98401ca60059afcc7bb7a6cbaa",
+      "original_stage20b_source_group_id_not_used": "sg_69caa8e00b85b2d893aadd1055349856669c4c5c8e1167cf3c434411f155e81b",
+      "original_stage20b_bbox_not_used": [
+        0.521606,
+        0.918945,
+        0.004639,
+        0.019531
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        32,
+        753,
+        58,
+        779
+      ],
+      "target_bbox_normalized_xywh": [
+        0.010986328125,
+        0.748046875,
+        0.00634765625,
+        0.025390625
+      ],
+      "new_donor_instance_id": "fc8802bd741b61bd82eb0112b1fa49b9711a159819e757568b3ef531308cc602",
+      "new_donor_sha256": "400446a838281e3c1af1f803fdb3f8ba1897fd518b4200b4065900989c522668",
+      "new_donor_canonical_image_id": "real_35beca71490483be605deef9c06bee49dd1ae64dbf98b2097eb246fc4a481c54",
+      "new_donor_source_group_id": "sg_ab5da4037e2edb68720274fde48bdef36efe09b3dc86ca5dc349a7246493d754",
+      "new_donor_bbox_xyxy": [
+        1003,
+        717,
+        1029,
+        743
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.248032,
+        0.712708,
+        0.00608803,
+        0.024033
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "63a1f9697aa619240b2da0496008e6fa2d484ac37f1b08f6ee7e1e112e046afb",
+      "label_sha256": "781c7ba8d72ff2a3caf0b2106170b75625bdc3ac08be6c39b62b3ede396b283a",
+      "changed_pixels_gt2": 539,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3ca5b948860cf4ebc8393ed4be27ec64731628807643a0c6251dd5ebe9da4d3e",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3ca5b948860cf4ebc8393ed4be27ec64731628807643a0c6251dd5ebe9da4d3e",
+      "original_stage20b_annotation_id_not_used": "ann_371f2abf6e055545c044ee65cbafd7c682ecae7051c1d9b8270459f02f4948ae",
+      "original_stage20b_source_group_id_not_used": "sg_944cf3fcaa0ee3e63069a82aae289da9019b0d8a59317170b4c2d60ea189d1c4",
+      "original_stage20b_bbox_not_used": [
+        0.167822,
+        0.43216,
+        0.00636187,
+        0.0250155
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        907,
+        571,
+        929,
+        590
+      ],
+      "target_bbox_normalized_xywh": [
+        0.22412109375,
+        0.56689453125,
+        0.00537109375,
+        0.0185546875
+      ],
+      "new_donor_instance_id": "353d488ada702ee2e40f5a93d0d30fb2aaa630420aedbdb74f127b59a8b4986c",
+      "new_donor_sha256": "843020cff436d71f206ed3b5302d7e2119e78583a958da7971b19259bccc4008",
+      "new_donor_canonical_image_id": "real_c20a45e033a03c8e943ccd44883b1c446c34bf16f376a9aaedc1950994c68b09",
+      "new_donor_source_group_id": "sg_7706611b6a64de30557b1b673c891798e663cdc604b203bf35f01fe58d33d415",
+      "new_donor_bbox_xyxy": [
+        1596,
+        257,
+        1618,
+        276
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.392212,
+        0.260254,
+        0.005127,
+        0.016602
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "71271fa9600c13e7d04c533139620805a158705636861ebf27a2a8fcd2a89b7d",
+      "label_sha256": "3a4cc2787c4282a4fb03e4be4bcf276a6cc7eff5d0ba53cbe1c4829d98824d90",
+      "changed_pixels_gt2": 236,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "5989937c5706074308ad8b6e9b17943bef9d88f8d0b699b498a1da86c316d5e1",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "5989937c5706074308ad8b6e9b17943bef9d88f8d0b699b498a1da86c316d5e1",
+      "original_stage20b_annotation_id_not_used": "ann_7f81cc0b0303f9d1ecfb85b0a4846a6d6e992d52619dab5f94fce080888067a6",
+      "original_stage20b_source_group_id_not_used": "sg_57ef61c1e7467c113f2474c664bfe9e10103c057be1f3a22f12272e63e3c278b",
+      "original_stage20b_bbox_not_used": [
+        0.467407,
+        0.731934,
+        0.003174,
+        0.008789
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2675,
+        257,
+        2705,
+        286
+      ],
+      "target_bbox_normalized_xywh": [
+        0.65673828125,
+        0.26513671875,
+        0.00732421875,
+        0.0283203125
+      ],
+      "new_donor_instance_id": "0662c5b15e2d63f74c1c649607c074f8d6dfc57e6d78a723134fe05b721e2dfe",
+      "new_donor_sha256": "85001c2f39f78438a99c4ec07a2969438873c1cf48ece6582b460706a0151ba0",
+      "new_donor_canonical_image_id": "real_63a8edf70423bb13e85f694c4035e24cda2c14dc070bea2e34a54e135e4a6246",
+      "new_donor_source_group_id": "sg_676a6abd1967e364ceb19f7c2b1dd1c3f197559b4c981447eeaf05ef02e2df7c",
+      "new_donor_bbox_xyxy": [
+        1407,
+        990,
+        1437,
+        1019
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.347168,
+        0.981445,
+        0.007324,
+        0.027344
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "08760be94656293a632bc0cd372cd167e13c20b47626541b010e70ac5c1c14e3",
+      "label_sha256": "43242e0e0a900e574004af28a1e2040dbd3873f8e25244e5a2cf9261550607c5",
+      "changed_pixels_gt2": 598,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "f2c4bd846fa2680dae26ba6147b59ca0bc92ddca21d66408ee5bf9b0cfe4b5ba",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "f2c4bd846fa2680dae26ba6147b59ca0bc92ddca21d66408ee5bf9b0cfe4b5ba",
+      "original_stage20b_annotation_id_not_used": "ann_8c22996eac8031a4eee14ee33d30ada681c35fb21f07dceda1e57aecffcd492b",
+      "original_stage20b_source_group_id_not_used": "sg_89adc7825753f9b63d25924092020245e1014dc4058f63238cb3037ca80e38c6",
+      "original_stage20b_bbox_not_used": [
+        0.769043,
+        0.214844,
+        0.005859,
+        0.023438
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2345,
+        821,
+        2372,
+        848
+      ],
+      "target_bbox_normalized_xywh": [
+        0.5758056640625,
+        0.81494140625,
+        0.006591796875,
+        0.0263671875
+      ],
+      "new_donor_instance_id": "722875efa8669775381273fb97656003bcc827ae4dd4a12e71274e9b348e15b0",
+      "new_donor_sha256": "47c376f662387fd63f140828f42f9b5d50c22ac32541eb4b631bb08db4c3a077",
+      "new_donor_canonical_image_id": "real_2ed8b2d611b851b2261dfd617ec8978f43873326b771b34b773899f7496aa13b",
+      "new_donor_source_group_id": "sg_944cf3fcaa0ee3e63069a82aae289da9019b0d8a59317170b4c2d60ea189d1c4",
+      "new_donor_bbox_xyxy": [
+        674,
+        429,
+        701,
+        456
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.167822,
+        0.43216,
+        0.00636187,
+        0.0250155
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "e7f2c2af799b93807167728836a6c44ec1f1123bca08e570ce6bcf70a529aaa3",
+      "label_sha256": "8eecdd9c18a8e2e54afa75c273ee36ecd5d4d11cec1447b1457a1305902be19c",
+      "changed_pixels_gt2": 467,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "def9ec0b71a85b6f8417089df49d0fc301356f7eb8400e02babf3f7a01f64c87",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "def9ec0b71a85b6f8417089df49d0fc301356f7eb8400e02babf3f7a01f64c87",
+      "original_stage20b_annotation_id_not_used": "ann_90821278f1806df994ff66b2ea3f966c7ded141229df97d779138841d64202cf",
+      "original_stage20b_source_group_id_not_used": "sg_217fc5d82ea8480a0890fda2e83e8adf6a9dab4c28b86fb66a988e9906e39a00",
+      "original_stage20b_bbox_not_used": [
+        0.856275,
+        0.269538,
+        0.00503528,
+        0.0193835
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3874,
+        451,
+        3889,
+        464
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9476318359375,
+        0.44677734375,
+        0.003662109375,
+        0.0126953125
+      ],
+      "new_donor_instance_id": "acfacdc68549e980a7b05f013d672b51e34e7a42465ed5c60b91f80f909007b2",
+      "new_donor_sha256": "461612c85c0712650a30f976ad659ae427254bb55ec873184f950a08a3854847",
+      "new_donor_canonical_image_id": "real_0d30fa4b5141b36cfa1a69262342af1e6059e75693ba42c32673385a256c1266",
+      "new_donor_source_group_id": "sg_4a1526dd3435cfe5b341c1090ee12cbbc6186370777e4d2d08d1ba2edbfc9d39",
+      "new_donor_bbox_xyxy": [
+        3155,
+        511,
+        3170,
+        524
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.771973,
+        0.505859,
+        0.003418,
+        0.011719
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "e02c8a7394425245dba5dfcdc8646c25949ede13a2e03f7be9f5b115cf88c36a",
+      "label_sha256": "1c4b50830c24f59775e19737981665001f147ef773a120158240f0044145a7bd",
+      "changed_pixels_gt2": 91,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3c0e4b9cffa14c905c01880390f5cb1c605b52c108c9a1a88210df479f672e87",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3c0e4b9cffa14c905c01880390f5cb1c605b52c108c9a1a88210df479f672e87",
+      "original_stage20b_annotation_id_not_used": "ann_b6bc891438b0442e35612818ffd1a44bd9a8cf899b02e9687740b62611def7a8",
+      "original_stage20b_source_group_id_not_used": "sg_9e45d73f68f3b1fbb8f750485b9362c8c2593e73064450b76a1d62beaac2e33d",
+      "original_stage20b_bbox_not_used": [
+        0.771973,
+        0.505859,
+        0.004395,
+        0.013672
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1149,
+        695,
+        1179,
+        725
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2841796875,
+        0.693359375,
+        0.00732421875,
+        0.029296875
+      ],
+      "new_donor_instance_id": "9beeb12c93966b9fce3a555f2a7d848af03a95f90de883e4bba4db8894ce7bf4",
+      "new_donor_sha256": "4b26a8346905898408559f48230352e1d31c74e4a0882101484d7846af78b68d",
+      "new_donor_canonical_image_id": "real_d0abd4faea889ad11d5693e0f66a86f878347edddc3b51433b43418d6529aa08",
+      "new_donor_source_group_id": "sg_275648dcacb18395e6df5992e3989f1b584ed1ee93a48c1a0e5158fb9ff1c63a",
+      "new_donor_bbox_xyxy": [
+        3179,
+        438,
+        3209,
+        468
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.779831,
+        0.442514,
+        0.00704926,
+        0.0284731
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "3a2c82ad1f16071eb900f8af1421b64edcbe7054601a0194fa007157aa86d7ab",
+      "label_sha256": "e81edbdfcf9bf499abf15bceefe789da2f49dfd3863cc275889fd9c8de37489a",
+      "changed_pixels_gt2": 604,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "f27523e8e8f7525c247f01db35017e4cde70893d27c408f2ddd3e860199ba45f",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "f27523e8e8f7525c247f01db35017e4cde70893d27c408f2ddd3e860199ba45f",
+      "original_stage20b_annotation_id_not_used": "ann_d9c232e7f98e9e264ecf96fcd76ea5fbe1dcfaba1d07bb18b466f3fb9e5a8557",
+      "original_stage20b_source_group_id_not_used": "sg_7374741bb0b1c2e0821469988e98df6ff1cd3100f86f75870218d4ef9ec7f853",
+      "original_stage20b_bbox_not_used": [
+        0.384644,
+        0.774414,
+        0.00415,
+        0.015625
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3446,
+        688,
+        3472,
+        710
+      ],
+      "target_bbox_normalized_xywh": [
+        0.844482421875,
+        0.6826171875,
+        0.00634765625,
+        0.021484375
+      ],
+      "new_donor_instance_id": "1f0948d929970b7b765e425ab7a97666f1bc41e657d78294eb25bf820056bbee",
+      "new_donor_sha256": "3b7edf227db6371c2ad059f969d401adaeafabe9e591c2520cbee6706d971f75",
+      "new_donor_canonical_image_id": "real_59f28a4f14bfa4d1e5041f57e3f97d2ef3ff542c8b69ef24b816df41313506d5",
+      "new_donor_source_group_id": "sg_ef4f16ceb503c3d0b51d5b65438737040346c07dc48241926243ed0c2f96d66d",
+      "new_donor_bbox_xyxy": [
+        3420,
+        352,
+        3446,
+        374
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.838013,
+        0.354492,
+        0.006104,
+        0.021484
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "124634885636f7f063efd2117fde3cf0dbb617f6b21e6584aaa8279fb84238a7",
+      "label_sha256": "734819d78963512c289a0c5510e3b81b4b04c6df702e110294dd67371b94afd9",
+      "changed_pixels_gt2": 384,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "c1f892bfe0bbca5cdd01b5fa8395eb527237ea8fbd0812535c63a5ddf6eefb1d",
+      "normal_replaced_for_validation_lineage": true,
+      "effective_normal_sha256": "3c0e4b9cffa14c905c01880390f5cb1c605b52c108c9a1a88210df479f672e87",
+      "original_stage20b_annotation_id_not_used": "ann_f85b98de695e23c1666a31f60fa7eccfb87c02988ce7076a6cc8dbacccd9735f",
+      "original_stage20b_source_group_id_not_used": "sg_e512c33d7caa8f956f64f101be1108a1202560fa4a597d6a3458310c02787e16",
+      "original_stage20b_bbox_not_used": [
+        0.293603,
+        0.297725,
+        0.00611815,
+        0.0218844
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        588,
+        218,
+        610,
+        238
+      ],
+      "target_bbox_normalized_xywh": [
+        0.146240234375,
+        0.22265625,
+        0.00537109375,
+        0.01953125
+      ],
+      "new_donor_instance_id": "80a58a1d88d88cc87be636d8b1c3725204e6e1e62cdd9a52ca5233802a61cb71",
+      "new_donor_sha256": "44f2cc75087edc52d9d22ea4cdc62331c5abf37ab531e81cae5bb57adeea95a9",
+      "new_donor_canonical_image_id": "real_0d9494de91341d64b6fb6dcb2581d63cd2f59478bc96d2c3ecd2ccd032c2612b",
+      "new_donor_source_group_id": "sg_9851f862f4c746a6844967b49108cf65d79859a4f863f6221836c105c893a7a2",
+      "new_donor_bbox_xyxy": [
+        4007,
+        564,
+        4029,
+        584
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.980957,
+        0.560059,
+        0.005371,
+        0.018555
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "bf87bfcd0c145271921f7ce387d3f2404fc69e4610a35b0524e11b0af47b185f",
+      "label_sha256": "4805cf8940b81333d496bcc462ffe3e600e8fdc40c8839cca71d2c33baebfc20",
+      "changed_pixels_gt2": 215,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "5a2e357961ecfc01964d2d2145b50366f398557c3331167b3ae768715f59253a",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "5a2e357961ecfc01964d2d2145b50366f398557c3331167b3ae768715f59253a",
+      "original_stage20b_annotation_id_not_used": "ann_6ace1c182d2d0be96fd88d3135dfce68c80df048f208b8f8e31f63bf79bb5a5b",
+      "original_stage20b_source_group_id_not_used": "sg_676a6abd1967e364ceb19f7c2b1dd1c3f197559b4c981447eeaf05ef02e2df7c",
+      "original_stage20b_bbox_not_used": [
+        0.052002,
+        0.586914,
+        0.01416,
+        0.042969
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2500,
+        394,
+        2522,
+        422
+      ],
+      "target_bbox_normalized_xywh": [
+        0.613037109375,
+        0.3984375,
+        0.00537109375,
+        0.02734375
+      ],
+      "new_donor_instance_id": "c1e7d9f81ce7bff2ff94d5c8dbaacb2aaf02223ee8b67b07a06b4692f664bc18",
+      "new_donor_sha256": "5a829887812abd248f81bef8fc2253a964f8c54205b426b78032b6db4fb5ebe0",
+      "new_donor_canonical_image_id": "real_e0b100e2698e7e2897d06a7cdbd3ca28870273b3abc688a275e3aa7bb08beafb",
+      "new_donor_source_group_id": "sg_601b1189b9e69045094cae775dc58bad217b8b9a119f51668a61931c1e31f707",
+      "new_donor_bbox_xyxy": [
+        3635,
+        873,
+        3657,
+        901
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.890015,
+        0.866211,
+        0.005127,
+        0.025391
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "91f4062801fc0e751b7e24a3790d0eb6fb5a6cdece07d3f22cb935896f60fb04",
+      "label_sha256": "4b21e67b3707ef3bc0250835f43d91a292f7de4e084b47436ce0d80a04111ce1",
+      "changed_pixels_gt2": 369,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "337dc124c11818bea22e094bd0bb9cacf630f4d79a982a1b59953e5674723534",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "337dc124c11818bea22e094bd0bb9cacf630f4d79a982a1b59953e5674723534",
+      "original_stage20b_annotation_id_not_used": "ann_cd810bc4422ed06feac671d7643ce9f0da7f290c76a377ef9ab8c25f5f8d5245",
+      "original_stage20b_source_group_id_not_used": "sg_8a1be5e1c759e0d2ca931e2304816ababc84af10cbf421d6e50e2182fb8f9953",
+      "original_stage20b_bbox_not_used": [
+        0.282104,
+        0.823242,
+        0.005127,
+        0.029297
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1335,
+        128,
+        1360,
+        150
+      ],
+      "target_bbox_normalized_xywh": [
+        0.3289794921875,
+        0.1357421875,
+        0.006103515625,
+        0.021484375
+      ],
+      "new_donor_instance_id": "5eb58e016c7a5263e804a04f397ac54bef04ff1c783c1fabbdb7c05dea9aea90",
+      "new_donor_sha256": "b695193c8708532157742fea4a9b3a5b54aa94f80c1cbb8cb8f8dec13796827a",
+      "new_donor_canonical_image_id": "real_d1caec1f448077c2f2cd2b71e798cde684e227ecb7f42c78de71ee6a3250ce6a",
+      "new_donor_source_group_id": "sg_09457bc4a8325bec320a9cad383bf5449df8732b9425669dcac07562bcb8f1fa",
+      "new_donor_bbox_xyxy": [
+        3471,
+        799,
+        3496,
+        821
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.850441,
+        0.790905,
+        0.00575382,
+        0.0209497
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "09fc5947f1e87bbf4abb1b4cca0fe3a884431027de78afd61845510cdf2b82b5",
+      "label_sha256": "1f1f4770b2523016a47f0baad0d68f9b1e8ebcc6802c9687022da829f4f9f274",
+      "changed_pixels_gt2": 334,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "020b0eafd359c875b10733a9ecc22188e526be15652aef206b7fec2c6bcfd3df",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "020b0eafd359c875b10733a9ecc22188e526be15652aef206b7fec2c6bcfd3df",
+      "original_stage20b_annotation_id_not_used": "ann_cae9af1131f0530ab1e2027001963ebfb46cbaa2a888d8cf795b85eaba8c62bb",
+      "original_stage20b_source_group_id_not_used": "sg_6157801da0579cb369276c592080e951c5d1fab5f3b55286ed9a6bdebe0c528a",
+      "original_stage20b_bbox_not_used": [
+        0.755981,
+        0.177246,
+        0.006104,
+        0.022461
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1244,
+        188,
+        1288,
+        228
+      ],
+      "target_bbox_normalized_xywh": [
+        0.30908203125,
+        0.203125,
+        0.0107421875,
+        0.0390625
+      ],
+      "new_donor_instance_id": "d8b861209c237a8eced1d4859a8881f5cd2a0ed113d9282c01d6b94a1b453b21",
+      "new_donor_sha256": "7f3f51c15cecbfb52d10db01f6de145d1ae7ec915dc1b2c9516f613abce3244f",
+      "new_donor_canonical_image_id": "real_f29d5f9b7e1374d01ab26c251e6d6ac2cd182edcc385e6c55b1f668d52383f63",
+      "new_donor_source_group_id": "sg_105b0a7263149cd85491ddea0c2cc65eba826fbdeeef30f5bf452c8690646888",
+      "new_donor_bbox_xyxy": [
+        2273,
+        655,
+        2317,
+        695
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.560309,
+        0.659236,
+        0.0103339,
+        0.0375739
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "eda6c3eb543730d739919d8f20f27d5e5ebdc10d57161abe055bf107ecaf79b9",
+      "label_sha256": "c71aee342442e1f8f75f3df0948f37dd7f7a1f920de4e20a994de5dc177af149",
+      "changed_pixels_gt2": 1310,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "819d81a8c63edd439ba495fd644e0ba2d7100af378915c43722af97dcf2c52ec",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "819d81a8c63edd439ba495fd644e0ba2d7100af378915c43722af97dcf2c52ec",
+      "original_stage20b_annotation_id_not_used": "ann_37dc244042f3f61f90f6768ebe1ad7324feaaa2e48025b1c61f65ab2b7dfadb4",
+      "original_stage20b_source_group_id_not_used": "sg_e9730f2a903df1de0575975c906469f2f5b282e7b7793f70b5715f58012878bf",
+      "original_stage20b_bbox_not_used": [
+        0.995361,
+        0.438965,
+        0.008789,
+        0.03418
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        1184,
+        468,
+        1221,
+        501
+      ],
+      "target_bbox_normalized_xywh": [
+        0.2935791015625,
+        0.47314453125,
+        0.009033203125,
+        0.0322265625
+      ],
+      "new_donor_instance_id": "b9ee9edc74d2728f11e636878c319062e3b60b4795d9c0964e9faa64c1812b50",
+      "new_donor_sha256": "9a23f3e582e1fd642c1f7eb5cbc1526ecc740abaf4934ab7506dfe1b68705967",
+      "new_donor_canonical_image_id": "real_fcdb62b55f77dc67f2f0c6d39aa5ded1c15a7f92a29e9c2a92231e7c4bcdff68",
+      "new_donor_source_group_id": "sg_e9384e2e8dfcc8e8dfb20fd448c928f99d0c9c81346f2c29075d45b7913261c0",
+      "new_donor_bbox_xyxy": [
+        2441,
+        688,
+        2478,
+        721
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.600459,
+        0.688095,
+        0.00884205,
+        0.0318918
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "a56d1b9561a18f9e132ba2287cc828e36c545269a159645c899f0725ecf17188",
+      "label_sha256": "3d101c157382ea4fa3215f6a50b6fff30cfb7f44f02d780cbcbc02796a013563",
+      "changed_pixels_gt2": 814,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "1d85ec6fa67fb07cf62d203b945d33035e212af5db5e9d30ca104a4716e70e33",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "1d85ec6fa67fb07cf62d203b945d33035e212af5db5e9d30ca104a4716e70e33",
+      "original_stage20b_annotation_id_not_used": "ann_038b5cd420f5b861439af9e85c17b0d1f3bd33c446167139d0cfb8a08724c98a",
+      "original_stage20b_source_group_id_not_used": "sg_3cfbdaef3302e37caf780f9b2448a6afc9c489556016fbb8945dd9f9f58e625a",
+      "original_stage20b_bbox_not_used": [
+        0.731445,
+        0.008301,
+        0.007324,
+        0.014648
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3208,
+        679,
+        3239,
+        694
+      ],
+      "target_bbox_normalized_xywh": [
+        0.7869873046875,
+        0.67041015625,
+        0.007568359375,
+        0.0146484375
+      ],
+      "new_donor_instance_id": "ec349d5c6d4fe2b5d3f5e08d27edbe9dd1439ca92ca16263a23d0f0ab9cb5b2c",
+      "new_donor_sha256": "81f782f6b16cbd3034c06209b47af8e3616f66e6a8ceaa8b2cb0b3ca2ebd6ac4",
+      "new_donor_canonical_image_id": "real_dada91391f06c3f41893a5779f337a1f8a28b0281beb90ace667f2aefe55c4a3",
+      "new_donor_source_group_id": "sg_3cfbdaef3302e37caf780f9b2448a6afc9c489556016fbb8945dd9f9f58e625a",
+      "new_donor_bbox_xyxy": [
+        2980,
+        1,
+        3011,
+        16
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.731445,
+        0.008301,
+        0.007324,
+        0.014648
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "66a00fbdd5c899cc0a171728c1507606127b03a13d461670f18542755abe58f4",
+      "label_sha256": "55d1bcf3b2a6a6608eec03ed9a086df1edbdbc650d92b687201b3d21b6827a6b",
+      "changed_pixels_gt2": 306,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "2ab774c868716920155a3150804413ab457d582189ea1b0e2582b44d75fbe535",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "2ab774c868716920155a3150804413ab457d582189ea1b0e2582b44d75fbe535",
+      "original_stage20b_annotation_id_not_used": "ann_c73f0a9821b7d100dd78d715c40a9d3a5a5ae1b9fd89332b0430c0196320523d",
+      "original_stage20b_source_group_id_not_used": "sg_b20be3d2e6c5c86d05603606eace6859c15e7c4ada476debf939f0da8f6aeefc",
+      "original_stage20b_bbox_not_used": [
+        0.736206,
+        0.429688,
+        0.006592,
+        0.023438
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        4047,
+        223,
+        4069,
+        244
+      ],
+      "target_bbox_normalized_xywh": [
+        0.99072265625,
+        0.22802734375,
+        0.00537109375,
+        0.0205078125
+      ],
+      "new_donor_instance_id": "7dcb1d1769eaed3d84931a75f31721f75433c5ee37113f067da967390865f8e7",
+      "new_donor_sha256": "854e91489cf2d814c6bbd951a2098fb4ee10f444e6c59e29ead1ee851fa29bc3",
+      "new_donor_canonical_image_id": "real_03a7562f132da74b927e7ea2199dd521bd199badc04ed58b339a85150c7cc12f",
+      "new_donor_source_group_id": "sg_ea7b5932dfaf8a27f975f65bd7c39065a873b0d5140dd326c8f1593b6cee747a",
+      "new_donor_bbox_xyxy": [
+        860,
+        619,
+        882,
+        640
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.212723,
+        0.615079,
+        0.00513029,
+        0.0195644
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "d5db59861514d7f4c7444cc3b32017f5676c3872ffe8f22619f4b7a4bf88cb4e",
+      "label_sha256": "6e60b6e6d353cbeffe772dda8c78b905f7328c6f72b839240d5ed7a198400add",
+      "changed_pixels_gt2": 300,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "3588793741e6cd13d52f179bd49b32834c6337724a25cdddd47b7cf85e796d1d",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "3588793741e6cd13d52f179bd49b32834c6337724a25cdddd47b7cf85e796d1d",
+      "original_stage20b_annotation_id_not_used": "ann_0d49ad68a12335bea8564938b6be6beb5e115b02769f596f7212f82552a0e337",
+      "original_stage20b_source_group_id_not_used": "sg_beb3fb4dc46453a1c5b5467726c77dac17758235801ceda43b52a71c038fc756",
+      "original_stage20b_bbox_not_used": [
+        0.640381,
+        0.547852,
+        0.005371,
+        0.023438
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        918,
+        684,
+        932,
+        694
+      ],
+      "target_bbox_normalized_xywh": [
+        0.225830078125,
+        0.6728515625,
+        0.00341796875,
+        0.009765625
+      ],
+      "new_donor_instance_id": "738828a2ada8bbcb72b8e7d18ee228b3b66bb2c8c9abf5e45f0271898cc57d86",
+      "new_donor_sha256": "f159feac4a69a50dc43984e5f06146868acfd8f155bf440c3a1d08511c43f23a",
+      "new_donor_canonical_image_id": "real_fb989f3b752267337fdedcee7c1a769f3275e2d51fd8af28bdb5c82f8199c562",
+      "new_donor_source_group_id": "sg_57ef61c1e7467c113f2474c664bfe9e10103c057be1f3a22f12272e63e3c278b",
+      "new_donor_bbox_xyxy": [
+        1907,
+        745,
+        1921,
+        755
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.467407,
+        0.731934,
+        0.003174,
+        0.008789
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "01a6b3f84b39aa368182d0d70fda9714a9840dbb28153e9e466168b5078fca93",
+      "label_sha256": "12078ffe5a0f110c2d60d04d033de64d72f3948b028fc44bbdd4ddf0e16273ae",
+      "changed_pixels_gt2": 64,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "4c80c0830e948da6f20c70a2f41b267bb0876c1ef7b6823d9799e69daf27e1c3",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "4c80c0830e948da6f20c70a2f41b267bb0876c1ef7b6823d9799e69daf27e1c3",
+      "original_stage20b_annotation_id_not_used": "ann_6d25df6a6cab98db03cfb04a1638451f1efd5bffe0b513902fa89348862b1ecb",
+      "original_stage20b_source_group_id_not_used": "sg_e9384e2e8dfcc8e8dfb20fd448c928f99d0c9c81346f2c29075d45b7913261c0",
+      "original_stage20b_bbox_not_used": [
+        0.163277,
+        0.343524,
+        0.00827086,
+        0.0320795
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        2729,
+        28,
+        2749,
+        48
+      ],
+      "target_bbox_normalized_xywh": [
+        0.668701171875,
+        0.037109375,
+        0.0048828125,
+        0.01953125
+      ],
+      "new_donor_instance_id": "a8edd310016395c9b444f1a0b865f9faf8e22856876d4691b70bb49a8ac5f648",
+      "new_donor_sha256": "d03e1c68902ec19eebc6feb2a7c5d4be8904a50be6c91d23de3d900e5d268540",
+      "new_donor_canonical_image_id": "real_5cb2146c016c0e05a61c95677b8f6bf263b17ee8718f77b89878af25cf9c4711",
+      "new_donor_source_group_id": "sg_e7f54cad01c6f37b598e6614e407fa056655d5436306b963827f38d1d1e452b2",
+      "new_donor_bbox_xyxy": [
+        3073,
+        910,
+        3093,
+        930
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.752719,
+        0.898334,
+        0.00471926,
+        0.0178792
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "d444bb4909994d8b85c0b7e0c51a5f64806061be9fae6e8bde7d3a56ad9a2552",
+      "label_sha256": "23c5b505d37b7fd8bd723096e65545607b9c6eb098020e2ba84766c341afa993",
+      "changed_pixels_gt2": 314,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "8b00025c6ef3253255309d6789d5817905c0daaaa4cad6a7b0c318e90396d16e",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "8b00025c6ef3253255309d6789d5817905c0daaaa4cad6a7b0c318e90396d16e",
+      "original_stage20b_annotation_id_not_used": "ann_8d17096154915a40c0d88d3d275ed10f389b67b6c6ac8a7ccaba31b04e73d18a",
+      "original_stage20b_source_group_id_not_used": "sg_ef4f16ceb503c3d0b51d5b65438737040346c07dc48241926243ed0c2f96d66d",
+      "original_stage20b_bbox_not_used": [
+        0.838013,
+        0.354492,
+        0.006104,
+        0.021484
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3928,
+        862,
+        3963,
+        898
+      ],
+      "target_bbox_normalized_xywh": [
+        0.9632568359375,
+        0.859375,
+        0.008544921875,
+        0.03515625
+      ],
+      "new_donor_instance_id": "077239dc8b4c18c47e8b6c56b36296688ba8985ddc96af51c7a3ca686d9d0902",
+      "new_donor_sha256": "7f3f51c15cecbfb52d10db01f6de145d1ae7ec915dc1b2c9516f613abce3244f",
+      "new_donor_canonical_image_id": "real_f29d5f9b7e1374d01ab26c251e6d6ac2cd182edcc385e6c55b1f668d52383f63",
+      "new_donor_source_group_id": "sg_105b0a7263149cd85491ddea0c2cc65eba826fbdeeef30f5bf452c8690646888",
+      "new_donor_bbox_xyxy": [
+        918,
+        422,
+        953,
+        458
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.228428,
+        0.429597,
+        0.00824499,
+        0.0335602
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "69c026c6280782902475ea5aaa2130fb80758e9cd11be17a1abbf173dc8cc178",
+      "label_sha256": "27d7c75100c34785011e0f616673bd5f97261d603f977be63de495d58fa85345",
+      "changed_pixels_gt2": 975,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "abe5d871a48ec6360bb25081453cb512e9b5b2490c4fc6bfb2cd9eed41443a87",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "abe5d871a48ec6360bb25081453cb512e9b5b2490c4fc6bfb2cd9eed41443a87",
+      "original_stage20b_annotation_id_not_used": "ann_93f384f6f63cc0750f58f9fb9e0b91b52ec56b54991bd1fe6a09795596eebf8c",
+      "original_stage20b_source_group_id_not_used": "sg_fd00731981efcf12f230e50bae2660e9867ea2bd3dc2e31af7119840dfd7ce57",
+      "original_stage20b_bbox_not_used": [
+        0.31609,
+        0.253473,
+        0.00512311,
+        0.0194928
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        3549,
+        527,
+        3607,
+        573
+      ],
+      "target_bbox_normalized_xywh": [
+        0.87353515625,
+        0.537109375,
+        0.01416015625,
+        0.044921875
+      ],
+      "new_donor_instance_id": "ffe1046ec4d001f3598183eafc2ba3fbd7fb36c210adc20d06fe7d8cb5e116db",
+      "new_donor_sha256": "85001c2f39f78438a99c4ec07a2969438873c1cf48ece6582b460706a0151ba0",
+      "new_donor_canonical_image_id": "real_63a8edf70423bb13e85f694c4035e24cda2c14dc070bea2e34a54e135e4a6246",
+      "new_donor_source_group_id": "sg_676a6abd1967e364ceb19f7c2b1dd1c3f197559b4c981447eeaf05ef02e2df7c",
+      "new_donor_bbox_xyxy": [
+        184,
+        578,
+        242,
+        624
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.052002,
+        0.586914,
+        0.01416,
+        0.042969
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "71775347aee8a16bfe7ed05ebfaf2eae0c96f040ad3a0a83471b7ccb619b8633",
+      "label_sha256": "f35f596f6ec3f45b7d3836f001385e0c76410af611e33ded1f9c57c5bd3c274b",
+      "changed_pixels_gt2": 2394,
+      "visibility_status": "VISIBLE_SIGNAL"
+    },
+    {
+      "slot_id": "black_ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "class": "black",
+      "status": "COMPLETE",
+      "errors": [],
+      "original_normal_sha256": "ce06d7dd8a7d01a1ffbe1dd58a368e6412e3c4460da6423718f78a1275504783",
+      "normal_replaced_for_validation_lineage": false,
+      "effective_normal_sha256": "ce06d7dd8a7d01a1ffbe1dd58a368e6412e3c4460da6423718f78a1275504783",
+      "original_stage20b_annotation_id_not_used": "ann_5408aefc19cd1d82e4da1f299ab03ea63c8d6e03cb161d2a6efb195ff08d210b",
+      "original_stage20b_source_group_id_not_used": "sg_dfaff9b7051cfe84b8c690a06bbaadfe4f7b2c7020df13d20d549b079a659a2a",
+      "original_stage20b_bbox_not_used": [
+        0.69043,
+        0.917969,
+        0.006836,
+        0.029297
+      ],
+      "target_bbox_source": "DETERMINISTIC_HASH_OF_SLOT_ID_AND_NEW_DONOR_SIZE",
+      "target_bbox_xyxy": [
+        319,
+        931,
+        337,
+        951
+      ],
+      "target_bbox_normalized_xywh": [
+        0.080078125,
+        0.9189453125,
+        0.00439453125,
+        0.01953125
+      ],
+      "new_donor_instance_id": "cb0a93ef80705d9f7f77cd5e5d624af3c0b116b1334734caacc595fa1736ad5f",
+      "new_donor_sha256": "7f3f51c15cecbfb52d10db01f6de145d1ae7ec915dc1b2c9516f613abce3244f",
+      "new_donor_canonical_image_id": "real_f29d5f9b7e1374d01ab26c251e6d6ac2cd182edcc385e6c55b1f668d52383f63",
+      "new_donor_source_group_id": "sg_105b0a7263149cd85491ddea0c2cc65eba826fbdeeef30f5bf452c8690646888",
+      "new_donor_bbox_xyxy": [
+        2426,
+        458,
+        2444,
+        478
+      ],
+      "new_donor_bbox_normalized_xywh": [
+        0.594525,
+        0.457054,
+        0.00412208,
+        0.0188889
+      ],
+      "mask_source": "NEW_DONOR_BBOX_DERIVED_NOT_PIXEL_GT",
+      "image_sha256": "1a26d880f4c26982dd3d1bdfd43a8693935608d4c6668aec2f1222a095e398cd",
+      "label_sha256": "3d137222c4a81339f5fec5784f36d262e7a7b1e32e193efd6e73ded7d9b56b34",
+      "changed_pixels_gt2": 214,
+      "visibility_status": "VISIBLE_SIGNAL"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "classification": "SAME_PER_EPOCH_DATASET_SIZE; TOTAL_COMPUTE_VARIES_WITH_EARLY_STOPPING",
+  "samples_per_epoch": 218,
+  "records": [
+    {
+      "seed": 42,
+      "stop_epoch": 128,
+      "optimizer_steps": 469,
+      "bootstrap_guard_stop_epoch": 150
+    },
+    {
+      "seed": 3407,
+      "stop_epoch": 126,
+      "optimizer_steps": 462,
+      "bootstrap_guard_stop_epoch": 150
+    },
+    {
+      "seed": 2026,
+      "stop_epoch": 89,
+      "optimizer_steps": 336,
+      "bootstrap_guard_stop_epoch": 130
+    }
+  ],
+  "status": "PASS"
+}
