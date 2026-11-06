@@ -1,0 +1,13 @@
+{
+  "status": "FAIL_DOWNSTREAM_VALIDATION_SHA_OVERLAP",
+  "allowlist_sha256": "92993d78a7cac875093ad3db4294e797a998a226a52e33debe4572a05fdee3c7",
+  "donor_count": 80,
+  "unique_annotations": 80,
+  "unique_source_groups": 80,
+  "reuse_count": 0,
+  "all_stage20b_logical_train": true,
+  "downstream_validation_hashes_checked_post_run": true,
+  "downstream_validation_sha_overlap_count": 23,
+  "formal_eligibility": false,
+  "note": "Per-donor identities and paths remain server-only."
+}
